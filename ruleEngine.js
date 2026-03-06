@@ -1,3 +1,5 @@
+// Deterministischer Regelmotor: SN -> SL -> MO -> PG
+
 const SN_RULES = require('./rules.sn');
 const SL_RULES = require('./rules.sl');
 const MO_RULES = require('./rules.mo');

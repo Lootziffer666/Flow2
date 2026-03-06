@@ -19,6 +19,10 @@ function previewText(value, maxLength = 280) {
   return `${text.slice(0, maxLength)}…`;
 }
 
+function normalizeNumericField(value) {
+  return value === null || value === undefined ? '-' : value;
+}
+
 function normalizeArtifactSnapshot(entry) {
   const source = entry && entry.snapshot ? entry.snapshot : entry || {};
   const hasChanged = Object.prototype.hasOwnProperty.call(source, 'changed');
@@ -26,16 +30,16 @@ function normalizeArtifactSnapshot(entry) {
   return {
     input_text: source.input_text ?? '',
     corrected_text: source.corrected_text ?? '',
-    input_length_chars: source.input_length_chars ?? 0,
-    output_length_chars: source.output_length_chars ?? 0,
-    input_token_count: source.input_token_count ?? 0,
-    output_token_count: source.output_token_count ?? 0,
+    input_length_chars: normalizeNumericField(source.input_length_chars),
+    output_length_chars: normalizeNumericField(source.output_length_chars),
+    input_token_count: normalizeNumericField(source.input_token_count),
+    output_token_count: normalizeNumericField(source.output_token_count),
     changed: hasChanged ? Boolean(source.changed) : undefined,
-    rule_hits_SN: source.rule_hits_SN ?? 0,
-    rule_hits_SL: source.rule_hits_SL ?? 0,
-    rule_hits_MO: source.rule_hits_MO ?? 0,
-    rule_hits_PG: source.rule_hits_PG ?? 0,
-    rule_hits_total: source.rule_hits_total ?? 0,
+    rule_hits_SN: normalizeNumericField(source.rule_hits_SN),
+    rule_hits_SL: normalizeNumericField(source.rule_hits_SL),
+    rule_hits_MO: normalizeNumericField(source.rule_hits_MO),
+    rule_hits_PG: normalizeNumericField(source.rule_hits_PG),
+    rule_hits_total: normalizeNumericField(source.rule_hits_total),
   };
 }
 
@@ -87,10 +91,11 @@ function getLabConsoleModel(store) {
 
 function renderLabConsolePage(model) {
   const benchmark = model.benchmark_job || { job_id: '-', status: '-', suite_ref: '-' };
+  const selectedIds = Array.isArray(model.selected_artifact_ids) ? model.selected_artifact_ids : [];
 
   const artifactItems = (model.promoted_artifacts || [])
     .map((entry) => {
-      const selected = model.selected_artifact_ids.includes(entry.artifact_id) ? 'Ausgewählt' : '';
+      const selected = selectedIds.includes(entry.artifact_id) ? 'Ausgewählt' : '';
       const snapshot = normalizeArtifactSnapshot(entry);
 
       return `
@@ -182,7 +187,7 @@ function renderLabConsolePage(model) {
   <ul>${artifactItems}</ul>
 
   <h3>Vergleich</h3>
-  <div class="bg-status-neutral">Ausgewählt: ${escapeHtml((model.selected_artifact_ids || []).join(', ') || '-')}</div>
+  <div class="bg-status-neutral">Ausgewählt: ${escapeHtml(selectedIds.join(', ') || '-')}</div>
   <ul>${comparisonColumns}</ul>
 </section>`;
 }

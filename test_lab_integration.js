@@ -71,6 +71,12 @@ assert.equal(labModelWithSelection.comparison_rows.length, 2);
 assert.ok(labModelWithSelection.comparison_rows[0].snapshot);
 assert.equal(typeof labModelWithSelection.comparison_rows[0].snapshot.rule_hits_total, 'number');
 
+const comparisonRowForArtifactA = labModelWithSelection.comparison_rows.find(
+  (row) => row.artifact_id === artifactA.artifact_id
+);
+assert.ok(comparisonRowForArtifactA);
+assert.deepEqual(comparisonRowForArtifactA.snapshot, artifactA.snapshot);
+
 // F) audit entry contains snapshot_present === true
 assert.equal(labModelAfterPromotions.audit_log[0].snapshot_present, true);
 
@@ -81,9 +87,9 @@ assert.equal(labHtml.includes(sourceRunA.input_text), true);
 assert.equal(labHtml.includes(sourceRunA.corrected_text), true);
 assert.equal(labHtml.includes('Snapshot'), true);
 
-// XSS escaping test
+// XSS escaping test: script tag, quotes and ampersand
 const xssApp = createAppShell();
-const xssInput = '<script>alert("xss")</script> ich hab das gestern gelsen';
+const xssInput = '<script>alert("xss")</script> \'quote\' & "dbl" ich hab das gestern gelsen';
 const xssSubmit = xssApp.runSuiteSubmission(xssInput);
 assert.equal(xssSubmit.message, 'Text verarbeitet.');
 const xssRun = xssApp.getSuiteRuns()[0];
@@ -92,8 +98,11 @@ xssApp.promoteRun(xssRun.run_id, 'qa-user');
 const xssHtml = xssApp.render();
 assert.equal(xssHtml.includes('<script>alert("xss")</script>'), false);
 assert.equal(xssHtml.includes('&lt;script&gt;alert(&quot;xss&quot;)&lt;/script&gt;'), true);
+assert.equal(xssHtml.includes('&#39;quote&#39;'), true);
+assert.equal(xssHtml.includes('&amp;'), true);
+assert.equal(xssHtml.includes('ich habe das gestern gelesen'), true);
 
-// Legacy fallback test (artifact without snapshot)
+// Legacy fallback test (artifact/comparison without snapshot)
 const legacyModel = {
   mode: 'mode-lab',
   artifact: {
@@ -163,5 +172,140 @@ const legacyModel = {
 const legacyHtml = renderLabConsolePage(legacyModel);
 assert.equal(legacyHtml.includes('legacy in'), true);
 assert.equal(legacyHtml.includes('legacy out'), true);
+assert.equal(legacyHtml.includes('SN: 1'), true);
+
+// Preview vs detail behavior
+const veryLongText = 'L'.repeat(400);
+const previewOnlyModel = {
+  mode: 'mode-lab',
+  artifact: null,
+  source_run_id: null,
+  artifact_id: null,
+  created_at: null,
+  promoted_artifacts: [
+    {
+      artifact_id: 'artifact-preview',
+      source_run_id: 'run-preview',
+      created_at: '2026-01-01T00:00:00.000Z',
+      snapshot: {
+        input_text: veryLongText,
+        corrected_text: veryLongText,
+      },
+    },
+  ],
+  selected_artifact_ids: [],
+  comparison_rows: [],
+  benchmark_job: null,
+  audit_log: [],
+};
+const previewOnlyHtml = renderLabConsolePage(previewOnlyModel);
+assert.equal(previewOnlyHtml.includes(`${'L'.repeat(280)}…`), true);
+assert.equal(previewOnlyHtml.includes(veryLongText), false);
+
+const detailModel = {
+  ...previewOnlyModel,
+  artifact: previewOnlyModel.promoted_artifacts[0],
+  source_run_id: 'run-preview',
+  artifact_id: 'artifact-preview',
+  created_at: '2026-01-01T00:00:00.000Z',
+};
+const detailHtml = renderLabConsolePage(detailModel);
+assert.equal(detailHtml.includes(veryLongText), true);
+
+// null/undefined/empty snapshot fields + changed tri-state rendering
+const partialModel = {
+  mode: 'mode-lab',
+  artifact: {
+    artifact_id: 'artifact-partial',
+    source_run_id: 'run-partial',
+    created_at: '2026-01-01T00:00:00.000Z',
+    snapshot: {
+      input_text: '',
+      corrected_text: undefined,
+      changed: undefined,
+      rule_hits_total: null,
+    },
+  },
+  source_run_id: 'run-partial',
+  artifact_id: 'artifact-partial',
+  created_at: '2026-01-01T00:00:00.000Z',
+  promoted_artifacts: [
+    {
+      artifact_id: 'artifact-yes',
+      source_run_id: 'run-yes',
+      created_at: '2026-01-01T00:00:00.000Z',
+      snapshot: { input_text: '', corrected_text: '', changed: true },
+    },
+    {
+      artifact_id: 'artifact-no',
+      source_run_id: 'run-no',
+      created_at: '2026-01-01T00:00:00.000Z',
+      snapshot: { input_text: '', corrected_text: '', changed: false },
+    },
+    {
+      artifact_id: 'artifact-unknown',
+      source_run_id: 'run-unknown',
+      created_at: '2026-01-01T00:00:00.000Z',
+      snapshot: { input_text: null, corrected_text: null },
+    },
+  ],
+  selected_artifact_ids: ['artifact-yes', 'artifact-no', 'artifact-unknown'],
+  comparison_rows: [
+    {
+      artifact_id: 'artifact-yes',
+      source_run_id: 'run-yes',
+      created_at: '2026-01-01T00:00:00.000Z',
+      snapshot: { input_text: '', corrected_text: '', changed: true },
+      latest_audit_entry: null,
+      benchmark_job: null,
+    },
+    {
+      artifact_id: 'artifact-no',
+      source_run_id: 'run-no',
+      created_at: '2026-01-01T00:00:00.000Z',
+      snapshot: { input_text: '', corrected_text: '', changed: false },
+      latest_audit_entry: null,
+      benchmark_job: null,
+    },
+    {
+      artifact_id: 'artifact-unknown',
+      source_run_id: 'run-unknown',
+      created_at: '2026-01-01T00:00:00.000Z',
+      latest_audit_entry: null,
+      benchmark_job: null,
+    },
+  ],
+  benchmark_job: null,
+  audit_log: [],
+};
+const partialHtml = renderLabConsolePage(partialModel);
+assert.equal(partialHtml.includes('Geändert: Ja'), true);
+assert.equal(partialHtml.includes('Geändert: Nein'), true);
+assert.equal(partialHtml.includes('Geändert: -'), true);
+assert.equal(partialHtml.includes('SN: -'), true);
+assert.equal(partialHtml.includes('Gesamt: -'), true);
+
+
+// selected_artifact_ids fallback robustness (undefined)
+const noSelectedIdsModel = {
+  mode: 'mode-lab',
+  artifact: null,
+  source_run_id: null,
+  artifact_id: null,
+  created_at: null,
+  promoted_artifacts: [
+    {
+      artifact_id: 'artifact-noselect',
+      source_run_id: 'run-noselect',
+      created_at: '2026-01-01T00:00:00.000Z',
+      snapshot: { input_text: 'x', corrected_text: 'y' },
+    },
+  ],
+  comparison_rows: [],
+  benchmark_job: null,
+  audit_log: [],
+};
+const noSelectedIdsHtml = renderLabConsolePage(noSelectedIdsModel);
+assert.equal(noSelectedIdsHtml.includes('artifact-noselect'), true);
 
 console.log('LAB integration test passed.');

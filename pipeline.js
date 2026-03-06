@@ -1,11 +1,11 @@
 // pipeline.js
 // Einstiegspunkt für die Korrektur-Pipeline
 
-const { runNormalizationWithMetadata } = require('./ruleEngine.js');
+const { runNormalization } = require('./ruleEngine.js');
 
 function runCorrection(text) {
-  const { corrected, rule_hits } = runNormalizationWithMetadata(text);
-  return { corrected, rule_hits };
+  const corrected = runNormalization(text);
+  return { corrected };
 }
 
 module.exports = { runCorrection };

@@ -39,15 +39,17 @@ function normalizeWhitespace(text) {
 
 function normalizeSentenceStarts(text) {
   return text
-    .replace(/^\s*([a-zäöü])/u, (match, letter) => match.replace(letter, letter.toUpperCase()))
-    .replace(/([.!?]\s+)([a-zäöü])/gu, (match, prefix, letter) => `${prefix}${letter.toUpperCase()}`);
+    .replace(/^\s*([a-zäöü])/u, (match, letter) =>
+      match.replace(letter, letter.toUpperCase())
+    )
+    .replace(
+      /([.!?]\s+)([a-zäöü])/gu,
+      (match, prefix, letter) => `${prefix}${letter.toUpperCase()}`
+    );
 }
 
-// ZH1-MVP: deterministische Reihenfolge ohne Scoring
-function runNormalization(text = '') {
-  return runNormalizationWithMetadata(text).corrected;
-}
-
+// ZH1-MVP: deterministische Reihenfolge ohne Scoring.
+function runNormalizationWithMetadata(text = '') {
   const source = String(text);
 
   const snApplied = applyRulesWithHits(source, SN_RULES);
@@ -55,7 +57,9 @@ function runNormalization(text = '') {
   const moApplied = applyRulesWithHits(slApplied.text, MO_RULES);
   const pgApplied = applyRulesWithHits(moApplied.text, PG_RULES);
 
-  const corrected = normalizeSentenceStarts(normalizeWhitespace(pgApplied.text));
+  const corrected = normalizeSentenceStarts(
+    normalizeWhitespace(pgApplied.text)
+  );
 
   return {
     corrected,
@@ -64,6 +68,7 @@ function runNormalization(text = '') {
       SL: slApplied.hits,
       MO: moApplied.hits,
       PG: pgApplied.hits,
+      total: snApplied.hits + slApplied.hits + moApplied.hits + pgApplied.hits,
     },
   };
 }
@@ -74,6 +79,8 @@ function runNormalization(text = '') {
 
 module.exports = {
   applyRules,
+  normalizeWhitespace,
+  normalizeSentenceStarts,
   runNormalization,
   runNormalizationWithMetadata,
 };

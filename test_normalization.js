@@ -5,8 +5,14 @@ const input = 'ich hab das gestern gelsen und dachte das wier villeicht schon fe
 
 const expected = 'Ich habe das gestern gelesen und dachte, dass wir vielleicht schon fertig sind aber irgendwie hat es sich nicht so angefühlt. Dann bin ich einfach weitergegangen obwohl ich gar nicht wusste ob das so sin macht und keiner hat es mir richtig erklärt.';
 
-const { corrected } = runCorrection(input);
+const { corrected, rule_hits } = runCorrection(input);
 
 assert.equal(corrected, expected);
+assert.deepEqual(Object.keys(rule_hits).sort(), ['MO', 'PG', 'SL', 'SN']);
+assert.equal(typeof rule_hits.SN, 'number');
+assert.equal(typeof rule_hits.SL, 'number');
+assert.equal(typeof rule_hits.MO, 'number');
+assert.equal(typeof rule_hits.PG, 'number');
+assert.equal(rule_hits.SN > 0 || rule_hits.SL > 0 || rule_hits.MO > 0 || rule_hits.PG > 0, true);
 
 console.log('Normalization MVP test passed.');

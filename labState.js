@@ -23,7 +23,7 @@ function createRunStore() {
   };
 
   function createRun(inputText) {
-    const { corrected } = runCorrection(inputText);
+    const { corrected, rule_hits } = runCorrection(inputText);
     runCounter += 1;
 
     const sourceText = String(inputText);
@@ -40,6 +40,11 @@ function createRunStore() {
       input_token_count: countWhitespaceTokens(sourceText),
       output_token_count: countWhitespaceTokens(correctedText),
       changed: sourceText !== correctedText,
+      rule_hits_SN: rule_hits.SN,
+      rule_hits_SL: rule_hits.SL,
+      rule_hits_MO: rule_hits.MO,
+      rule_hits_PG: rule_hits.PG,
+      rule_hits_total: rule_hits.SN + rule_hits.SL + rule_hits.MO + rule_hits.PG,
     };
 
     state.runs.unshift(run);
@@ -89,11 +94,20 @@ function createRunStore() {
       artifact_id: `artifact-${String(artifactCounter).padStart(4, '0')}`,
       source_run_id: run.run_id,
       created_at: createdAt,
-      input_length_chars: run.input_length_chars,
-      output_length_chars: run.output_length_chars,
-      input_token_count: run.input_token_count,
-      output_token_count: run.output_token_count,
-      changed: run.changed,
+      snapshot: {
+        input_text: run.input_text ?? '',
+        corrected_text: run.corrected_text ?? '',
+        input_length_chars: run.input_length_chars ?? 0,
+        output_length_chars: run.output_length_chars ?? 0,
+        input_token_count: run.input_token_count ?? 0,
+        output_token_count: run.output_token_count ?? 0,
+        changed: Boolean(run.changed),
+        rule_hits_SN: run.rule_hits_SN ?? 0,
+        rule_hits_SL: run.rule_hits_SL ?? 0,
+        rule_hits_MO: run.rule_hits_MO ?? 0,
+        rule_hits_PG: run.rule_hits_PG ?? 0,
+        rule_hits_total: run.rule_hits_total ?? 0,
+      },
     };
 
     const protocolHash = `placeholder-${crypto
@@ -126,6 +140,7 @@ function createRunStore() {
       artifact_id: artifact.artifact_id,
       protocol_hash: protocolHash,
       benchmark_suite_hash: benchmarkSuiteHash,
+      snapshot_present: true,
     });
 
     if (!state.selectedArtifactIds.includes(artifact.artifact_id)) {

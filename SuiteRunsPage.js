@@ -79,6 +79,12 @@ function renderSuiteRunsPage(store, options = {}) {
   <div>Tokens Input: ${run.input_token_count}</div>
   <div>Tokens Output: ${run.output_token_count}</div>
   <div>Geändert: ${run.changed ? 'Ja' : 'Nein'}</div>
+  <div>Regelklassen</div>
+  <div>SN: ${run.rule_hits_SN}</div>
+  <div>SL: ${run.rule_hits_SL}</div>
+  <div>MO: ${run.rule_hits_MO}</div>
+  <div>PG: ${run.rule_hits_PG}</div>
+  <div>Gesamt: ${run.rule_hits_total}</div>
   ${verifyControl}
 </li>`;
     })

@@ -1,3 +1,9 @@
+/*
+LAB Console Model Builder
+
+This module prepares the model for the Lab console view.
+It does not render UI components. Rendering is handled by the UI layer.
+*/
 function getLabConsoleModel(store) {
   const artifact = store.state.promotedArtifact;
 

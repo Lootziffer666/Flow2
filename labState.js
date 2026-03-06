@@ -90,13 +90,6 @@ function createRunStore() {
     state.mode = 'mode-suite';
   }
 
-  function setModeLab() {
-    if (!state.promotedArtifact) {
-      return false;
-    }
-    state.mode = 'mode-lab';
-    return true;
-  }
 
   return {
     state,
@@ -105,7 +98,6 @@ function createRunStore() {
     getPromotableRuns,
     promoteVerifiedRun,
     setModeSuite,
-    setModeLab,
   };
 }
 

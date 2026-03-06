@@ -2,7 +2,7 @@ function submitSuiteRun(store, inputText) {
   const run = store.createRun(inputText);
   return {
     run,
-    message: 'Text aktualisiert.',
+    message: 'Text verarbeitet.',
     classes: {
       container: 'bg-background text-foreground',
       card: 'bg-card border-border',

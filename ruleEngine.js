@@ -1,33 +1,37 @@
-// ruleEngine.js
-// Deterministischer ZH1-Regelmotor: SN -> SL -> MO -> PG
-
-const { SN_RULES } = require('./rules.sn.js');
-const { SL_RULES } = require('./rules.sl.js');
-const { MO_RULES } = require('./rules.mo.js');
-const { PG_RULES } = require('./rules.pg.js');
+const SN_RULES = require('./rules.sn');
+const SL_RULES = require('./rules.sl');
+const MO_RULES = require('./rules.mo');
+const PG_RULES = require('./rules.pg');
 
 function applyRules(text, rules) {
-  return rules.reduce((acc, rule) => acc.replace(rule.from, rule.to), text);
+  return rules.reduce((currentText, rule) => currentText.replace(rule.from, rule.to), text);
 }
 
-function runNormalization(text) {
-  let result = text;
-
-  result = applyRules(result, SN_RULES);
-  result = applyRules(result, SL_RULES);
-  result = applyRules(result, MO_RULES);
-  result = applyRules(result, PG_RULES);
-
-  // Satzanfänge großschreiben (Textanfang + nach Satzzeichen)
-  result = result.replace(
-    /(^|[.!?]\s+)([a-zäöüß])/g,
-    (m, before, char) => before + char.toUpperCase()
-  );
-
-  // Whitespace-Cleanup
-  result = result.replace(/\s+/g, ' ').trim();
-
-  return result;
+function normalizeWhitespace(text) {
+  return text
+    .replace(/\s+([,.;!?])/g, '$1')
+    .replace(/([,.;!?])(\S)/g, '$1 $2')
+    .replace(/\s+/g, ' ')
+    .trim();
 }
 
-module.exports = { runNormalization };
+function normalizeSentenceStarts(text) {
+  return text
+    .replace(/^\s*([a-zäöü])/u, (match, letter) => match.replace(letter, letter.toUpperCase()))
+    .replace(/([.!?]\s+)([a-zäöü])/gu, (match, prefix, letter) => `${prefix}${letter.toUpperCase()}`);
+}
+
+function runNormalization(text = '') {
+  const source = String(text);
+  const snApplied = applyRules(source, SN_RULES);
+  const slApplied = applyRules(snApplied, SL_RULES);
+  const moApplied = applyRules(slApplied, MO_RULES);
+  const pgApplied = applyRules(moApplied, PG_RULES);
+
+  return normalizeSentenceStarts(normalizeWhitespace(pgApplied));
+}
+
+module.exports = {
+  applyRules,
+  runNormalization,
+};

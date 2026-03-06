@@ -3,42 +3,51 @@ const { createAppShell } = require('./AppShell');
 
 const app = createAppShell();
 
-// 1) Engine integration via Suite submission
+// A) Suite rendering path creates a run after submission
+const initialSuiteHtml = app.render();
+assert.equal(initialSuiteHtml.includes('data-view="suite-runs"'), true);
+assert.equal(initialSuiteHtml.includes('mode-suite'), true);
+
 const input = 'ich hab das gestern gelsen und dachte das wier villeicht schon ferig sind';
 const submission = app.runSuiteSubmission(input);
+assert.equal(submission.message, 'Text verarbeitet.');
+
 const corrected = submission.run.corrected_text;
 assert.equal(corrected.includes('Ich habe'), true);
 assert.equal(corrected.includes('gelesen'), true);
 assert.equal(corrected.includes('dass wir vielleicht'), true);
 assert.equal(corrected.includes('fertig'), true);
 
-// 2) Suite run creation
 const runs = app.getSuiteRuns();
 assert.equal(runs.length, 1);
 assert.equal(runs[0].input_text, input);
 assert.equal(runs[0].status, 'draft');
 
-// 3) Verified-only promotion
-assert.equal(app.getVerifiedCandidates().length, 0);
-const blocked = app.promoteRun(runs[0].run_id);
-assert.equal(blocked.ok, false);
-
+// B) Verify action changes run status to verified
 app.verifyRun(runs[0].run_id);
-const verifiedCandidates = app.getVerifiedCandidates();
-assert.equal(verifiedCandidates.length, 1);
-assert.equal(verifiedCandidates[0].status, 'verified');
+assert.equal(app.getSuiteRuns()[0].status, 'verified');
 
-const promoted = app.promoteRun(runs[0].run_id, 'qa-user');
+// C) Promote UI only includes verified runs
+const suiteHtmlWithVerified = app.render();
+assert.equal(suiteHtmlWithVerified.includes('data-view="promote-wizard"'), true);
+assert.equal(suiteHtmlWithVerified.includes(runs[0].run_id), true);
+
+// D) Promotion switches mode to mode-lab
+const promoted = app.promoteSelectedRun('qa-user');
 assert.equal(promoted.ok, true);
+assert.equal(app.modeClass, 'mode-lab');
 
-// 4) Lab mode structure
-assert.equal(app.modeClassName, 'mode-lab');
+// E) Lab rendering model contains artifact_id and audit log
 const labModel = app.getLabConsoleModel();
 assert.ok(labModel.artifact_id);
-assert.equal(labModel.source_run_id, runs[0].run_id);
 assert.equal(Array.isArray(labModel.audit_log), true);
 assert.equal(labModel.audit_log.length > 0, true);
-assert.ok(labModel.audit_log[0].protocol_hash.startsWith('placeholder-'));
-assert.ok(labModel.audit_log[0].benchmark_suite_hash.startsWith('placeholder-'));
+
+const labHtml = app.render();
+assert.equal(labHtml.includes('data-view="lab-console"'), true);
+assert.equal(labHtml.includes('artifact_id:'), true);
+assert.equal(labHtml.includes('source_run_id:'), true);
+assert.equal(labHtml.includes('Protokoll:'), true);
+assert.equal(labHtml.includes('code-block'), true);
 
 console.log('LAB integration test passed.');

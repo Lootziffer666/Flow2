@@ -39,11 +39,12 @@ Status im Repo:
 - Die App ruft `node loom_cli.js <wort>` auf und nutzt damit direkt `pipeline.js`.
 
 Wenn nach dem Start "nichts passiert":
-1. Prüfen, ob ein Tray-Icon sichtbar ist (SystemIcons-Fallback, auch ohne `flow_logo.ico`).
-2. `flow_startup.log` öffnen (wird im EXE-Ordner geschrieben).
-3. Sicherstellen, dass `node` im PATH ist (`node -v`).
-4. Sicherstellen, dass `loom_cli.js` + `pipeline.js` im selben Ordner wie die EXE liegen.
-5. Testen mit: `node loom_cli.js "ich hab zeit"`.
+1. Auf Tray-Ballon achten: Die App führt jetzt automatisch einen Self-Check aus.
+2. Im Tray-Menü `Diagnose erneut prüfen` klicken.
+3. `flow_startup.log` öffnen (wird im EXE-Ordner geschrieben).
+4. Sicherstellen, dass `node` im PATH ist (`node -v`).
+5. Sicherstellen, dass `loom_cli.js` + `pipeline.js` im selben Ordner wie die EXE liegen.
+6. Testen mit: `node loom_cli.js "ich hab zeit"`.
 
 Build (Windows):
 ```bash

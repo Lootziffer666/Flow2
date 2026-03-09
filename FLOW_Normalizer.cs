@@ -11,16 +11,19 @@ class FLOW_Normalizer
 {
     private const int WH_KEYBOARD_LL = 13;
     private const int WM_KEYDOWN = 0x0100;
-
     private static readonly LowLevelKeyboardProc Proc = HookCallback;
     private static IntPtr hookId = IntPtr.Zero;
     private static NotifyIcon trayIcon;
+    private static bool nodeAvailable;
 
     private static Dictionary<string, string> exceptions = new();
     private static List<ContextRule> contextRules = new();
 
-    private static readonly string rulesPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "flow_rules.json");
-    private static readonly string startupLogPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "flow_startup.log");
+    private static readonly string appDir = AppDomain.CurrentDomain.BaseDirectory;
+    private static readonly string rulesPath = Path.Combine(appDir, "flow_rules.json");
+    private static readonly string startupLogPath = Path.Combine(appDir, "flow_startup.log");
+    private static readonly string cliPath = Path.Combine(appDir, "loom_cli.js");
+    private static readonly string pipelinePath = Path.Combine(appDir, "pipeline.js");
 
     [Serializable]
     class ContextRule
@@ -75,6 +78,86 @@ class FLOW_Normalizer
         File.WriteAllText(rulesPath, JsonSerializer.Serialize(rules, new JsonSerializerOptions { WriteIndented = true }));
     }
 
+    private static bool IsNodeAvailable()
+    {
+        var startInfo = new ProcessStartInfo
+        {
+            FileName = "node",
+            RedirectStandardOutput = true,
+            RedirectStandardError = true,
+            UseShellExecute = false,
+            CreateNoWindow = true,
+        };
+        startInfo.ArgumentList.Add("-v");
+
+        try
+        {
+            using var process = Process.Start(startInfo);
+            if (process == null)
+            {
+                Log("Node check failed: process start returned null.");
+                return false;
+            }
+
+            var output = process.StandardOutput.ReadToEnd().Trim();
+            var stderr = process.StandardError.ReadToEnd().Trim();
+            process.WaitForExit();
+
+            if (process.ExitCode != 0)
+            {
+                Log($"Node check failed: exit={process.ExitCode}, stderr={stderr}");
+                return false;
+            }
+
+            Log($"Node check ok: {output}");
+            return true;
+        }
+        catch (Exception ex)
+        {
+            Log($"Node check exception: {ex.Message}");
+            return false;
+        }
+    }
+
+    private static bool IsForegroundAppWritable()
+    {
+        try
+        {
+            return GetForegroundWindow() != IntPtr.Zero;
+        }
+        catch
+        {
+            return false;
+        }
+    }
+
+    private static void RunStartupSelfCheck()
+    {
+        nodeAvailable = IsNodeAvailable();
+        var cliExists = File.Exists(cliPath);
+        var pipelineExists = File.Exists(pipelinePath);
+        var foregroundOk = IsForegroundAppWritable();
+
+        Log($"SelfCheck: cliExists={cliExists}, pipelineExists={pipelineExists}, foregroundOk={foregroundOk}");
+
+        var issues = new List<string>();
+        if (!nodeAvailable) issues.Add("node.exe nicht gefunden (PATH prüfen)");
+        if (!cliExists) issues.Add("loom_cli.js fehlt im EXE-Ordner");
+        if (!pipelineExists) issues.Add("pipeline.js fehlt im EXE-Ordner");
+        if (!foregroundOk) issues.Add("Foreground-Window nicht verfügbar");
+
+        if (issues.Count == 0)
+        {
+            trayIcon.ShowBalloonTip(4000, "FLOW bereit", "Hook + Node + Dateien ok.", ToolTipIcon.Info);
+            Log("SelfCheck: READY");
+            return;
+        }
+
+        var summary = string.Join("; ", issues);
+        trayIcon.ShowBalloonTip(8000, "FLOW Diagnose", summary, ToolTipIcon.Warning);
+        Log($"SelfCheck: ISSUES => {summary}");
+    }
+
     private static string Normalize(string text)
     {
         var source = (text ?? string.Empty).Trim();
@@ -90,6 +173,9 @@ class FLOW_Normalizer
                 return rule.Replace ?? source;
         }
 
+        if (!nodeAvailable || !File.Exists(cliPath) || !File.Exists(pipelinePath))
+            return source;
+
         var startInfo = new ProcessStartInfo
         {
             FileName = "node",
@@ -97,7 +183,7 @@ class FLOW_Normalizer
             RedirectStandardError = true,
             UseShellExecute = false,
             CreateNoWindow = true,
-            WorkingDirectory = AppDomain.CurrentDomain.BaseDirectory,
+            WorkingDirectory = appDir,
         };
 
         startInfo.ArgumentList.Add("loom_cli.js");
@@ -197,7 +283,7 @@ class FLOW_Normalizer
 
     private static Icon ResolveTrayIcon()
     {
-        var iconPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "flow_logo.ico");
+        var iconPath = Path.Combine(appDir, "flow_logo.ico");
         if (File.Exists(iconPath))
             return new Icon(iconPath);
 
@@ -221,6 +307,7 @@ class FLOW_Normalizer
             };
 
             var menu = new ContextMenuStrip();
+            menu.Items.Add("Diagnose erneut prüfen", null, (s, e) => RunStartupSelfCheck());
             menu.Items.Add("Regeln bearbeiten (flow_rules.json)", null, (s, e) => Process.Start("notepad.exe", rulesPath));
             menu.Items.Add("Log öffnen (flow_startup.log)", null, (s, e) => Process.Start("notepad.exe", startupLogPath));
             menu.Items.Add("Beenden", null, (s, e) => Application.Exit());
@@ -238,6 +325,7 @@ class FLOW_Normalizer
                 Log("Keyboard hook installed.");
             }
 
+            RunStartupSelfCheck();
             Application.Run();
 
             if (hookId != IntPtr.Zero)
@@ -261,6 +349,9 @@ class FLOW_Normalizer
 
     [DllImport("user32.dll", SetLastError = true)]
     private static extern IntPtr CallNextHookEx(IntPtr hhk, int nCode, IntPtr wParam, IntPtr lParam);
+
+    [DllImport("user32.dll")]
+    private static extern IntPtr GetForegroundWindow();
 
     private delegate IntPtr LowLevelKeyboardProc(int nCode, IntPtr wParam, IntPtr lParam);
 }

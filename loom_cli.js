@@ -23,12 +23,14 @@ function removeOption(args, optionName) {
 
 const rawArgs = process.argv.slice(2);
 const rulesPath = getOptionValue(rawArgs, '--rules-path');
-const args = removeOption(rawArgs, '--rules-path');
+const language = getOptionValue(rawArgs, '--lang') || 'de';
+let args = removeOption(rawArgs, '--rules-path');
+args = removeOption(args, '--lang');
 
 if (args[0] === '--learn-exception') {
   const original = args[1] || '';
   const corrected = args[2] || '';
-  learnException(original, corrected, { rulesPath });
+  learnException(original, corrected, { rulesPath, language });
   process.stdout.write('OK');
   process.exit(0);
 }
@@ -36,7 +38,7 @@ if (args[0] === '--learn-exception') {
 if (args[0] === '--learn-context') {
   const trigger = args[1] || '';
   const replace = args[2] || '';
-  learnContextRule(trigger, replace, { rulesPath });
+  learnContextRule(trigger, replace, { rulesPath, language });
   process.stdout.write('OK');
   process.exit(0);
 }
@@ -47,5 +49,5 @@ if (!input) {
   process.exit(0);
 }
 
-const result = runCorrection(input, { rulesPath });
+const result = runCorrection(input, { rulesPath, language });
 process.stdout.write((result && result.corrected) || '');

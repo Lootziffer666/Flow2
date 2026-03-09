@@ -2,7 +2,13 @@
 // Einstiegspunkt für die Korrektur-Pipeline
 
 const { runNormalizationWithMetadata } = require('./ruleEngine.js');
-const { DEFAULT_RULES_PATH, loadRules, addException, addContextRule } = require('./flowRulesStore');
+const {
+  DEFAULT_RULES_PATH,
+  loadRules,
+  addException,
+  addContextRule,
+  normalizeLanguage,
+} = require('./flowRulesStore');
 
 const EMPTY_RULE_HITS = Object.freeze({
   SN: 0,
@@ -14,6 +20,10 @@ const EMPTY_RULE_HITS = Object.freeze({
 
 function resolveRulesPath(options = {}) {
   return options.rulesPath || process.env.FLOW_RULES_PATH || DEFAULT_RULES_PATH;
+}
+
+function resolveLanguage(options = {}) {
+  return normalizeLanguage(options.language || process.env.FLOW_LANGUAGE || 'de');
 }
 
 function getLearnedReplacement(text, rules) {
@@ -50,11 +60,13 @@ function runCorrection(text, options = {}) {
       corrected: '',
       rule_hits: { ...EMPTY_RULE_HITS },
       applied_learning: null,
+      language: resolveLanguage(options),
     };
   }
 
   const rulesPath = resolveRulesPath(options);
-  const rules = loadRules(rulesPath);
+  const language = resolveLanguage(options);
+  const rules = loadRules(rulesPath, language);
   const learned = getLearnedReplacement(source, rules);
 
   if (learned) {
@@ -62,23 +74,25 @@ function runCorrection(text, options = {}) {
       corrected: learned.corrected,
       rule_hits: { ...EMPTY_RULE_HITS },
       applied_learning: learned.source,
+      language,
     };
   }
 
-  const normalized = runNormalizationWithMetadata(source);
+  const normalized = runNormalizationWithMetadata(source, { language });
   return {
     corrected: normalized.corrected,
     rule_hits: normalized.rule_hits,
     applied_learning: null,
+    language,
   };
 }
 
 function learnException(original, corrected, options = {}) {
-  return addException(original, corrected, resolveRulesPath(options));
+  return addException(original, corrected, resolveRulesPath(options), resolveLanguage(options));
 }
 
 function learnContextRule(trigger, replace, options = {}) {
-  return addContextRule(trigger, replace, resolveRulesPath(options));
+  return addContextRule(trigger, replace, resolveRulesPath(options), resolveLanguage(options));
 }
 
 module.exports = {
@@ -86,5 +100,6 @@ module.exports = {
   learnException,
   learnContextRule,
   resolveRulesPath,
+  resolveLanguage,
   EMPTY_RULE_HITS,
 };

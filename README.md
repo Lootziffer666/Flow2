@@ -63,3 +63,10 @@ Wenn vorhanden, nutzt `FLOW_Normalizer.cs` jetzt automatisch:
 Tray-Menü enthält jetzt:
 - `Persönliches Wörterbuch` (GUI zum Add/Remove/Save von Ausnahmen)
 - `Über FLOW` (inkl. Credit: Yusuf_FX für den Startsound)
+
+## Sprachunterstützung
+
+- Standard: Deutsch (`de`)
+- Englisch aktivieren per Env: `FLOW_LANGUAGE=en`
+- Englisch aktivieren per CLI: `node loom_cli.js --lang en "i definately dont know"`
+- Lernen ist sprachgetrennt in `flow_rules.json` unter `languages.de` / `languages.en`.

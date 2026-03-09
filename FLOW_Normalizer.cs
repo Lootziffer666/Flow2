@@ -20,6 +20,7 @@ class FLOW_Normalizer
     private static bool nodeAvailable;
     private static bool isInjectingKeys;
     private static long suppressUntilTick;
+    private static string currentLanguage = "de";
 
     private static Dictionary<string, string> exceptions = new();
     private static List<ContextRule> contextRules = new();
@@ -240,6 +241,7 @@ class FLOW_Normalizer
         var status =
             $"Hook installiert: {(hookId != IntPtr.Zero ? "Ja" : "Nein")}{Environment.NewLine}" +
             $"Node verfügbar: {(nodeAvailable ? "Ja" : "Nein")}{Environment.NewLine}" +
+            $"Sprache: {currentLanguage}{Environment.NewLine}" +
             $"loom_cli.js: {(File.Exists(cliPath) ? "OK" : "Fehlt")}{Environment.NewLine}" +
             $"pipeline.js: {(File.Exists(pipelinePath) ? "OK" : "Fehlt")}{Environment.NewLine}" +
             $"Regeldatei: {rulesPath}{Environment.NewLine}" +
@@ -370,6 +372,13 @@ class FLOW_Normalizer
         form.ShowDialog();
     }
 
+    private static void SetLanguage(string language)
+    {
+        currentLanguage = string.Equals(language, "en", StringComparison.OrdinalIgnoreCase) ? "en" : "de";
+        Log($"Language set to {currentLanguage}.");
+        trayIcon.ShowBalloonTip(2500, "FLOW Sprache", currentLanguage == "en" ? "Englisch aktiviert" : "Deutsch aktiviert", ToolTipIcon.Info);
+    }
+
     private static void RunStartupSelfCheck()
     {
         nodeAvailable = IsNodeAvailable();
@@ -427,6 +436,8 @@ class FLOW_Normalizer
         };
 
         startInfo.ArgumentList.Add("loom_cli.js");
+        startInfo.ArgumentList.Add("--lang");
+        startInfo.ArgumentList.Add(currentLanguage);
         startInfo.ArgumentList.Add(source);
 
         try
@@ -588,6 +599,7 @@ class FLOW_Normalizer
             Log("FLOW_Normalizer starting.");
             ShowSplashIfAvailable();
             PlayStartupSound();
+            currentLanguage = string.Equals(Environment.GetEnvironmentVariable("FLOW_LANGUAGE"), "en", StringComparison.OrdinalIgnoreCase) ? "en" : "de";
             LoadRules();
 
             trayIcon = new NotifyIcon
@@ -599,6 +611,12 @@ class FLOW_Normalizer
 
             var menu = new ContextMenuStrip();
             menu.Items.Add("Persönliches Wörterbuch", null, (s, e) => OpenDictionaryEditor());
+
+            var languageMenu = new ToolStripMenuItem("Sprache");
+            languageMenu.DropDownItems.Add("Deutsch", null, (s, e) => SetLanguage("de"));
+            languageMenu.DropDownItems.Add("Englisch", null, (s, e) => SetLanguage("en"));
+            menu.Items.Add(languageMenu);
+
             menu.Items.Add("Status anzeigen", null, (s, e) => ShowStatusDialog());
             menu.Items.Add("Diagnose erneut prüfen", null, (s, e) => RunStartupSelfCheck());
             menu.Items.Add("Regeln bearbeiten (flow_rules.json)", null, (s, e) => Process.Start("notepad.exe", rulesPath));

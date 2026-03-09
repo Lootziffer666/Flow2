@@ -32,38 +32,67 @@ function normalizeRules(data) {
   return { exceptions, contextRules };
 }
 
-function loadRules(rulesPath = DEFAULT_RULES_PATH) {
-  if (!rulesPath || !fs.existsSync(rulesPath)) {
-    return emptyRules();
-  }
+function normalizeLanguage(lang) {
+  const value = String(lang || 'de').toLowerCase();
+  return value === 'en' ? 'en' : 'de';
+}
 
+function loadRaw(rulesPath = DEFAULT_RULES_PATH) {
+  if (!rulesPath || !fs.existsSync(rulesPath)) return {};
   try {
-    const parsed = JSON.parse(fs.readFileSync(rulesPath, 'utf8'));
-    return normalizeRules(parsed);
+    return JSON.parse(fs.readFileSync(rulesPath, 'utf8')) || {};
   } catch {
-    return emptyRules();
+    return {};
   }
 }
 
-function saveRules(rules, rulesPath = DEFAULT_RULES_PATH) {
+function loadRules(rulesPath = DEFAULT_RULES_PATH, language = 'de') {
+  const lang = normalizeLanguage(language);
+  const parsed = loadRaw(rulesPath);
+
+  if (parsed.languages && typeof parsed.languages === 'object') {
+    return normalizeRules(parsed.languages[lang]);
+  }
+
+  if (lang === 'de') return normalizeRules(parsed);
+  return emptyRules();
+}
+
+function saveRulesForLanguage(rules, rulesPath = DEFAULT_RULES_PATH, language = 'de') {
+  const lang = normalizeLanguage(language);
   const normalized = normalizeRules(rules);
   const targetDir = path.dirname(rulesPath);
   fs.mkdirSync(targetDir, { recursive: true });
-  fs.writeFileSync(rulesPath, `${JSON.stringify(normalized, null, 2)}\n`, 'utf8');
+
+  const parsed = loadRaw(rulesPath);
+  const next = {
+    languages: {
+      de: emptyRules(),
+      en: emptyRules(),
+      ...(parsed.languages && typeof parsed.languages === 'object' ? parsed.languages : {}),
+      [lang]: normalized,
+    },
+  };
+
+  if (!parsed.languages && Object.keys(parsed).length > 0) {
+    next.languages.de = normalizeRules(parsed);
+  }
+
+  fs.writeFileSync(rulesPath, `${JSON.stringify(next, null, 2)}\n`, 'utf8');
   return normalized;
 }
 
-function addException(original, corrected, rulesPath = DEFAULT_RULES_PATH) {
-  const rules = loadRules(rulesPath);
+function addException(original, corrected, rulesPath = DEFAULT_RULES_PATH, language = 'de') {
+  const rules = loadRules(rulesPath, language);
   const key = String(original ?? '').toLowerCase().trim();
   const value = String(corrected ?? '').trim();
   if (!key || !value) return rules;
   rules.exceptions[key] = value;
-  return saveRules(rules, rulesPath);
+  return saveRulesForLanguage(rules, rulesPath, language);
 }
 
-function addContextRule(trigger, replace, rulesPath = DEFAULT_RULES_PATH) {
-  const rules = loadRules(rulesPath);
+function addContextRule(trigger, replace, rulesPath = DEFAULT_RULES_PATH, language = 'de') {
+  const rules = loadRules(rulesPath, language);
   const normalizedRule = {
     trigger: String(trigger ?? '').trim(),
     replace: String(replace ?? '').trim(),
@@ -75,14 +104,14 @@ function addContextRule(trigger, replace, rulesPath = DEFAULT_RULES_PATH) {
       rule.replace.toLowerCase() === normalizedRule.replace.toLowerCase())
   )];
 
-  return saveRules(rules, rulesPath);
+  return saveRulesForLanguage(rules, rulesPath, language);
 }
 
 module.exports = {
   DEFAULT_RULES_PATH,
   loadRules,
-  saveRules,
   addException,
   addContextRule,
   normalizeRules,
+  normalizeLanguage,
 };

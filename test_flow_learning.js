@@ -2,7 +2,15 @@ const fs = require('node:fs');
 const os = require('node:os');
 const path = require('node:path');
 const assert = require('node:assert');
-const { runCorrection, learnException, learnContextRule, resolveRulesPath, resolveLanguage, EMPTY_RULE_HITS } = require('./pipeline');
+const {
+  runCorrection,
+  learnException,
+  learnContextRule,
+  resolveRulesPath,
+  resolveLanguage,
+  resolveEnPreset,
+  EMPTY_RULE_HITS,
+} = require('./pipeline');
 
 const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), 'flow-rules-'));
 const rulesPath = path.join(tempDir, 'flow_rules.json');
@@ -25,16 +33,22 @@ result = runCorrection('teh', { rulesPath, language: 'de' });
 assert.notEqual(result.corrected, 'the');
 
 result = runCorrection('i definately dont know', { language: 'en' });
-assert.equal(result.corrected, "I definitely don't know");
+assert.equal(result.corrected, 'I definitely dont know');
 assert.equal(result.applied_learning, null);
+
+result = runCorrection('hello. i am here', { language: 'en', enPreset: 'en-prose-plus' });
+assert.equal(result.corrected, 'Hello. I am here');
 
 process.env.FLOW_RULES_PATH = rulesPath;
 process.env.FLOW_LANGUAGE = 'en';
+process.env.FLOW_EN_PRESET = 'en-core-safe';
 assert.equal(resolveRulesPath({}), rulesPath);
 assert.equal(resolveLanguage({}), 'en');
+assert.equal(resolveEnPreset({}), 'en-core-safe');
 result = runCorrection('teh');
 assert.equal(result.corrected, 'the');
 delete process.env.FLOW_RULES_PATH;
 delete process.env.FLOW_LANGUAGE;
+delete process.env.FLOW_EN_PRESET;
 
 console.log('Flow learning integration test passed.');

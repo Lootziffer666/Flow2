@@ -21,11 +21,24 @@ function removeOption(args, optionName) {
   return next;
 }
 
+function isLanguageToken(value) {
+  return value === 'de' || value === 'en';
+}
+
 const rawArgs = process.argv.slice(2);
 const rulesPath = getOptionValue(rawArgs, '--rules-path');
-const language = getOptionValue(rawArgs, '--lang') || 'de';
+const optLanguage = getOptionValue(rawArgs, '--lang');
+const enPreset = getOptionValue(rawArgs, '--en-preset');
 let args = removeOption(rawArgs, '--rules-path');
 args = removeOption(args, '--lang');
+args = removeOption(args, '--en-preset');
+
+let language = optLanguage || 'de';
+
+if (!optLanguage && args.length > 1 && isLanguageToken(args[args.length - 1])) {
+  language = args[args.length - 1];
+  args = args.slice(0, -1);
+}
 
 if (args[0] === '--learn-exception') {
   const original = args[1] || '';
@@ -49,5 +62,5 @@ if (!input) {
   process.exit(0);
 }
 
-const result = runCorrection(input, { rulesPath, language });
+const result = runCorrection(input, { rulesPath, language, enPreset });
 process.stdout.write((result && result.corrected) || '');

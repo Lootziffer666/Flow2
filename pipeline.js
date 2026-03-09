@@ -15,6 +15,7 @@ const EMPTY_RULE_HITS = Object.freeze({
   SL: 0,
   MO: 0,
   PG: 0,
+  EN: 0,
   total: 0,
 });
 
@@ -24,6 +25,10 @@ function resolveRulesPath(options = {}) {
 
 function resolveLanguage(options = {}) {
   return normalizeLanguage(options.language || process.env.FLOW_LANGUAGE || 'de');
+}
+
+function resolveEnPreset(options = {}) {
+  return options.enPreset || process.env.FLOW_EN_PRESET || 'en-core-safe';
 }
 
 function getLearnedReplacement(text, rules) {
@@ -78,7 +83,7 @@ function runCorrection(text, options = {}) {
     };
   }
 
-  const normalized = runNormalizationWithMetadata(source, { language });
+  const normalized = runNormalizationWithMetadata(source, { language, enPreset: resolveEnPreset(options) });
   return {
     corrected: normalized.corrected,
     rule_hits: normalized.rule_hits,
@@ -102,4 +107,5 @@ module.exports = {
   resolveRulesPath,
   resolveLanguage,
   EMPTY_RULE_HITS,
+  resolveEnPreset,
 };

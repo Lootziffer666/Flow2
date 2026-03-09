@@ -70,3 +70,6 @@ Tray-Menü enthält jetzt:
 - Englisch aktivieren per Env: `FLOW_LANGUAGE=en`
 - Englisch aktivieren per CLI: `node loom_cli.js --lang en "i definately dont know"`
 - Lernen ist sprachgetrennt in `flow_rules.json` unter `languages.de` / `languages.en`.
+
+- Optionales Englisch-Preset per CLI: `node loom_cli.js --lang en --en-preset en-prose-plus "hello. i am here"`
+- Legacy-Kompatibilität: `node loom_cli.js "text" en` funktioniert weiterhin.

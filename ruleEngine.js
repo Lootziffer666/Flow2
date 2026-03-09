@@ -53,21 +53,50 @@ function normalizeSentenceStarts(text, language = 'de') {
     );
 }
 
+function escapeRegex(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function buildEnglishRules(options = {}) {
+  const presetName = options.enPreset || 'en-core-safe';
+  const preset = EN_RULES.presets?.[presetName] || EN_RULES.presets?.['en-core-safe'] || { enabledContextRuleIds: [] };
+  const enabledIds = new Set(preset.enabledContextRuleIds || []);
+
+  const exceptionRules = Object.entries(EN_RULES.exceptions || {})
+    .filter(([from, to]) => typeof from === 'string' && typeof to === 'string')
+    .map(([from, to]) => ({
+      from: new RegExp(`\\b${escapeRegex(from)}\\b`, 'gi'),
+      to,
+    }));
+
+  const contextRules = (EN_RULES.contextRules || [])
+    .filter((rule) => rule && rule.kind === 'regex_replace' && typeof rule.pattern === 'string')
+    .filter((rule) => enabledIds.has(rule.id) || !rule.disabledByDefault)
+    .map((rule) => ({
+      from: new RegExp(rule.pattern, rule.flags || 'g'),
+      to: rule.replacement,
+    }));
+
+  return [...exceptionRules, ...contextRules];
+}
+
 function runNormalizationWithMetadata(text = '', options = {}) {
   const source = String(text);
   const language = String(options.language || 'de').toLowerCase();
 
   if (language === 'en') {
-    const enApplied = applyRulesWithHits(source, EN_RULES);
-    const corrected = normalizeSentenceStarts(normalizeWhitespace(enApplied.text), 'en');
+    const compiledRules = buildEnglishRules(options);
+    const enApplied = applyRulesWithHits(source, compiledRules);
+    const corrected = normalizeWhitespace(enApplied.text);
 
     return {
       corrected,
       rule_hits: {
+        EN: enApplied.hits,
         SN: 0,
         SL: 0,
         MO: 0,
-        PG: enApplied.hits,
+        PG: 0,
         total: enApplied.hits,
       },
     };
@@ -86,6 +115,7 @@ function runNormalizationWithMetadata(text = '', options = {}) {
   return {
     corrected,
     rule_hits: {
+      EN: 0,
       SN: snApplied.hits,
       SL: slApplied.hits,
       MO: moApplied.hits,
@@ -105,4 +135,5 @@ module.exports = {
   normalizeSentenceStarts,
   runNormalization,
   runNormalizationWithMetadata,
+  buildEnglishRules,
 };

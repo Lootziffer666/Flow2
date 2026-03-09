@@ -3,6 +3,10 @@ const path = require('node:path');
 
 const DEFAULT_RULES_PATH = path.join(process.cwd(), 'flow_rules.json');
 
+function emptyRules() {
+  return { exceptions: {}, contextRules: [] };
+}
+
 function normalizeRules(data) {
   const safeData = data && typeof data === 'object' ? data : {};
   const exceptionsRaw = safeData.exceptions && typeof safeData.exceptions === 'object'
@@ -13,7 +17,8 @@ function normalizeRules(data) {
   const exceptions = Object.fromEntries(
     Object.entries(exceptionsRaw)
       .filter(([key, value]) => typeof key === 'string' && typeof value === 'string')
-      .map(([key, value]) => [key.toLowerCase().trim(), value])
+      .map(([key, value]) => [key.toLowerCase().trim(), value.trim()])
+      .filter(([key, value]) => key && value)
   );
 
   const contextRules = contextRulesRaw
@@ -28,20 +33,22 @@ function normalizeRules(data) {
 }
 
 function loadRules(rulesPath = DEFAULT_RULES_PATH) {
-  if (!fs.existsSync(rulesPath)) {
-    return { exceptions: {}, contextRules: [] };
+  if (!rulesPath || !fs.existsSync(rulesPath)) {
+    return emptyRules();
   }
 
   try {
     const parsed = JSON.parse(fs.readFileSync(rulesPath, 'utf8'));
     return normalizeRules(parsed);
   } catch {
-    return { exceptions: {}, contextRules: [] };
+    return emptyRules();
   }
 }
 
 function saveRules(rules, rulesPath = DEFAULT_RULES_PATH) {
   const normalized = normalizeRules(rules);
+  const targetDir = path.dirname(rulesPath);
+  fs.mkdirSync(targetDir, { recursive: true });
   fs.writeFileSync(rulesPath, `${JSON.stringify(normalized, null, 2)}\n`, 'utf8');
   return normalized;
 }
@@ -77,4 +84,5 @@ module.exports = {
   saveRules,
   addException,
   addContextRule,
+  normalizeRules,
 };

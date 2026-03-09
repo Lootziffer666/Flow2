@@ -11,10 +11,13 @@ class FLOW_Normalizer
 {
     private const int WH_KEYBOARD_LL = 13;
     private const int WM_KEYDOWN = 0x0100;
+
     private static readonly LowLevelKeyboardProc Proc = HookCallback;
     private static IntPtr hookId = IntPtr.Zero;
     private static NotifyIcon trayIcon;
     private static bool nodeAvailable;
+    private static bool isInjectingKeys;
+    private static long suppressUntilTick;
 
     private static Dictionary<string, string> exceptions = new();
     private static List<ContextRule> contextRules = new();
@@ -119,16 +122,17 @@ class FLOW_Normalizer
         }
     }
 
-    private static bool IsForegroundAppWritable()
+    private static void ShowStatusDialog()
     {
-        try
-        {
-            return GetForegroundWindow() != IntPtr.Zero;
-        }
-        catch
-        {
-            return false;
-        }
+        var status =
+            $"Hook installiert: {(hookId != IntPtr.Zero ? "Ja" : "Nein")}{Environment.NewLine}" +
+            $"Node verfügbar: {(nodeAvailable ? "Ja" : "Nein")}{Environment.NewLine}" +
+            $"loom_cli.js: {(File.Exists(cliPath) ? "OK" : "Fehlt")}{Environment.NewLine}" +
+            $"pipeline.js: {(File.Exists(pipelinePath) ? "OK" : "Fehlt")}{Environment.NewLine}" +
+            $"Regeldatei: {rulesPath}{Environment.NewLine}" +
+            $"Logdatei: {startupLogPath}";
+
+        MessageBox.Show(status, "FLOW Status", MessageBoxButtons.OK, MessageBoxIcon.Information);
     }
 
     private static void RunStartupSelfCheck()
@@ -136,19 +140,18 @@ class FLOW_Normalizer
         nodeAvailable = IsNodeAvailable();
         var cliExists = File.Exists(cliPath);
         var pipelineExists = File.Exists(pipelinePath);
-        var foregroundOk = IsForegroundAppWritable();
 
-        Log($"SelfCheck: cliExists={cliExists}, pipelineExists={pipelineExists}, foregroundOk={foregroundOk}");
+        Log($"SelfCheck: cliExists={cliExists}, pipelineExists={pipelineExists}, hookInstalled={(hookId != IntPtr.Zero)}");
 
         var issues = new List<string>();
         if (!nodeAvailable) issues.Add("node.exe nicht gefunden (PATH prüfen)");
         if (!cliExists) issues.Add("loom_cli.js fehlt im EXE-Ordner");
         if (!pipelineExists) issues.Add("pipeline.js fehlt im EXE-Ordner");
-        if (!foregroundOk) issues.Add("Foreground-Window nicht verfügbar");
+        if (hookId == IntPtr.Zero) issues.Add("Keyboard-Hook nicht installiert");
 
         if (issues.Count == 0)
         {
-            trayIcon.ShowBalloonTip(4000, "FLOW bereit", "Hook + Node + Dateien ok.", ToolTipIcon.Info);
+            trayIcon.ShowBalloonTip(3500, "FLOW bereit", "Hook + Node + Dateien ok.", ToolTipIcon.Info);
             Log("SelfCheck: READY");
             return;
         }
@@ -161,6 +164,8 @@ class FLOW_Normalizer
     private static string Normalize(string text)
     {
         var source = (text ?? string.Empty).Trim();
+        if (string.IsNullOrEmpty(source)) return source;
+
         var key = source.ToLowerInvariant();
 
         if (exceptions.TryGetValue(key, out var exception))
@@ -243,11 +248,21 @@ class FLOW_Normalizer
 
     private static string CaptureCurrentWord()
     {
+        IDataObject backup = null;
+        var hasBackup = false;
+
         try
         {
+            if (Clipboard.ContainsText() || Clipboard.ContainsData(DataFormats.UnicodeText))
+            {
+                backup = Clipboard.GetDataObject();
+                hasBackup = backup != null;
+            }
+
             SendKeys.SendWait("^+{LEFT}");
             SendKeys.SendWait("^c");
             Application.DoEvents();
+
             return Clipboard.ContainsText() ? Clipboard.GetText().Trim() : string.Empty;
         }
         catch (Exception ex)
@@ -255,12 +270,46 @@ class FLOW_Normalizer
             Log($"CaptureCurrentWord failed: {ex.Message}");
             return string.Empty;
         }
+        finally
+        {
+            if (hasBackup && backup != null)
+            {
+                try
+                {
+                    Clipboard.SetDataObject(backup);
+                }
+                catch (Exception ex)
+                {
+                    Log($"Clipboard restore failed: {ex.Message}");
+                }
+            }
+        }
+    }
+
+    private static void ReplaceCurrentWord(string original, string corrected)
+    {
+        try
+        {
+            isInjectingKeys = true;
+            suppressUntilTick = Environment.TickCount64 + 300;
+            SendKeys.SendWait("{BACKSPACE " + original.Length + "}");
+            SendKeys.SendWait(corrected);
+        }
+        finally
+        {
+            isInjectingKeys = false;
+        }
     }
 
     private static IntPtr HookCallback(int nCode, IntPtr wParam, IntPtr lParam)
     {
         if (nCode >= 0 && wParam == (IntPtr)WM_KEYDOWN)
         {
+            if (isInjectingKeys || Environment.TickCount64 < suppressUntilTick)
+            {
+                return CallNextHookEx(hookId, nCode, wParam, lParam);
+            }
+
             var key = (Keys)Marshal.ReadInt32(lParam);
             if (key is Keys.Space or Keys.Return or Keys.OemPeriod)
             {
@@ -270,8 +319,7 @@ class FLOW_Normalizer
                     var corrected = Normalize(word);
                     if (!string.Equals(corrected, word, StringComparison.Ordinal))
                     {
-                        SendKeys.SendWait("{BACKSPACE " + word.Length + "}");
-                        SendKeys.SendWait(corrected);
+                        ReplaceCurrentWord(word, corrected);
                         AskToLearn(word, corrected);
                     }
                 }
@@ -307,6 +355,7 @@ class FLOW_Normalizer
             };
 
             var menu = new ContextMenuStrip();
+            menu.Items.Add("Status anzeigen", null, (s, e) => ShowStatusDialog());
             menu.Items.Add("Diagnose erneut prüfen", null, (s, e) => RunStartupSelfCheck());
             menu.Items.Add("Regeln bearbeiten (flow_rules.json)", null, (s, e) => Process.Start("notepad.exe", rulesPath));
             menu.Items.Add("Log öffnen (flow_startup.log)", null, (s, e) => Process.Start("notepad.exe", startupLogPath));
@@ -349,9 +398,6 @@ class FLOW_Normalizer
 
     [DllImport("user32.dll", SetLastError = true)]
     private static extern IntPtr CallNextHookEx(IntPtr hhk, int nCode, IntPtr wParam, IntPtr lParam);
-
-    [DllImport("user32.dll")]
-    private static extern IntPtr GetForegroundWindow();
 
     private delegate IntPtr LowLevelKeyboardProc(int nCode, IntPtr wParam, IntPtr lParam);
 }

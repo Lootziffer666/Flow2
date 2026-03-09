@@ -40,11 +40,12 @@ Status im Repo:
 
 Wenn nach dem Start "nichts passiert":
 1. Auf Tray-Ballon achten: Die App führt jetzt automatisch einen Self-Check aus.
-2. Im Tray-Menü `Diagnose erneut prüfen` klicken.
-3. `flow_startup.log` öffnen (wird im EXE-Ordner geschrieben).
-4. Sicherstellen, dass `node` im PATH ist (`node -v`).
-5. Sicherstellen, dass `loom_cli.js` + `pipeline.js` im selben Ordner wie die EXE liegen.
-6. Testen mit: `node loom_cli.js "ich hab zeit"`.
+2. Im Tray-Menü `Status anzeigen` öffnen (Hook/Node/Dateien auf einen Blick).
+3. Im Tray-Menü `Diagnose erneut prüfen` klicken.
+4. `flow_startup.log` öffnen (wird im EXE-Ordner geschrieben).
+5. Sicherstellen, dass `node` im PATH ist (`node -v`).
+6. Sicherstellen, dass `loom_cli.js` + `pipeline.js` im selben Ordner wie die EXE liegen.
+7. Testen mit: `node loom_cli.js "ich hab zeit"`.
 
 Build (Windows):
 ```bash

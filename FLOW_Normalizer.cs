@@ -5,7 +5,9 @@ using System.Drawing;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Text.Json;
+using System.Threading;
 using System.Windows.Forms;
+using Microsoft.Win32;
 
 class FLOW_Normalizer
 {
@@ -27,6 +29,13 @@ class FLOW_Normalizer
     private static readonly string startupLogPath = Path.Combine(appDir, "flow_startup.log");
     private static readonly string cliPath = Path.Combine(appDir, "loom_cli.js");
     private static readonly string pipelinePath = Path.Combine(appDir, "pipeline.js");
+    private static readonly string splashDarkPath = Path.Combine(appDir, "FLOW_SPLASH_DARK.png");
+    private static readonly string splashLightPath = Path.Combine(appDir, "FLOW_SPLASH_LIGHT.png");
+    private static readonly string trayDarkIconPath = Path.Combine(appDir, "FLOW_TRAY_ICON_DARK.ico");
+    private static readonly string trayLightIconPath = Path.Combine(appDir, "FLOW_TRAY_ICON_LIGHT.ico");
+    private static readonly string aboutDarkLogoPath = Path.Combine(appDir, "FLOW_TRAY_ICON_DARK.png");
+    private static readonly string aboutLightLogoPath = Path.Combine(appDir, "FLOW_TRAY_ICON_LIGHT.png");
+    private static readonly string startupSoundPath = Path.Combine(appDir, "startup.mp3");
 
     [Serializable]
     class ContextRule
@@ -41,10 +50,114 @@ class FLOW_Normalizer
         public List<ContextRule> contextRules { get; set; } = new();
     }
 
+    class DictionaryRow
+    {
+        public string Original { get; set; }
+        public string Korrektur { get; set; }
+    }
+
     private static void Log(string message)
     {
         var line = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] {message}{Environment.NewLine}";
         File.AppendAllText(startupLogPath, line);
+    }
+
+    private static bool IsDarkModePreferred()
+    {
+        try
+        {
+            using var key = Registry.CurrentUser.OpenSubKey(@"Software\Microsoft\Windows\CurrentVersion\Themes\Personalize");
+            var value = key?.GetValue("AppsUseLightTheme");
+            if (value is int v)
+                return v == 0;
+        }
+        catch (Exception ex)
+        {
+            Log($"Theme detection failed: {ex.Message}");
+        }
+
+        return true;
+    }
+
+    private static void PlayStartupSound()
+    {
+        try
+        {
+            if (!File.Exists(startupSoundPath))
+                return;
+
+            mciSendString("close flow_startup_audio", null, 0, IntPtr.Zero);
+            var openCmd = $"open \"{startupSoundPath}\" type mpegvideo alias flow_startup_audio";
+            mciSendString(openCmd, null, 0, IntPtr.Zero);
+            mciSendString("play flow_startup_audio", null, 0, IntPtr.Zero);
+        }
+        catch (Exception ex)
+        {
+            Log($"Startup sound failed: {ex.Message}");
+        }
+    }
+
+    private static void StopStartupSound()
+    {
+        try
+        {
+            mciSendString("stop flow_startup_audio", null, 0, IntPtr.Zero);
+            mciSendString("close flow_startup_audio", null, 0, IntPtr.Zero);
+        }
+        catch
+        {
+            // no-op
+        }
+    }
+
+    private static string ResolveSplashPath(bool darkMode)
+    {
+        if (darkMode && File.Exists(splashDarkPath)) return splashDarkPath;
+        if (!darkMode && File.Exists(splashLightPath)) return splashLightPath;
+        if (File.Exists(splashDarkPath)) return splashDarkPath;
+        if (File.Exists(splashLightPath)) return splashLightPath;
+        return null;
+    }
+
+    private static void ShowSplashIfAvailable()
+    {
+        var splashPath = ResolveSplashPath(IsDarkModePreferred());
+        if (string.IsNullOrEmpty(splashPath))
+            return;
+
+        using var splash = new Form
+        {
+            FormBorderStyle = FormBorderStyle.None,
+            StartPosition = FormStartPosition.CenterScreen,
+            TopMost = true,
+            ShowInTaskbar = false,
+            BackColor = Color.Black,
+            Width = 700,
+            Height = 420,
+        };
+
+        using var image = Image.FromFile(splashPath);
+        splash.Width = image.Width;
+        splash.Height = image.Height;
+
+        var picture = new PictureBox
+        {
+            Dock = DockStyle.Fill,
+            Image = (Image)image.Clone(),
+            SizeMode = PictureBoxSizeMode.Zoom,
+        };
+
+        splash.Controls.Add(picture);
+
+        splash.Show();
+        var until = DateTime.UtcNow.AddMilliseconds(900);
+        while (DateTime.UtcNow < until && splash.Visible)
+        {
+            Application.DoEvents();
+            Thread.Sleep(15);
+        }
+
+        splash.Close();
     }
 
     private static void LoadRules()
@@ -133,6 +246,128 @@ class FLOW_Normalizer
             $"Logdatei: {startupLogPath}";
 
         MessageBox.Show(status, "FLOW Status", MessageBoxButtons.OK, MessageBoxIcon.Information);
+    }
+
+    private static void ShowAboutDialog()
+    {
+        var dark = IsDarkModePreferred();
+        var logoPath = dark && File.Exists(aboutDarkLogoPath)
+            ? aboutDarkLogoPath
+            : File.Exists(aboutLightLogoPath)
+                ? aboutLightLogoPath
+                : null;
+
+        using var about = new Form
+        {
+            Text = "Über FLOW",
+            Width = 520,
+            Height = 420,
+            StartPosition = FormStartPosition.CenterScreen,
+            FormBorderStyle = FormBorderStyle.FixedDialog,
+            MaximizeBox = false,
+            MinimizeBox = false,
+            BackColor = dark ? Color.FromArgb(25, 25, 25) : Color.White,
+            ForeColor = dark ? Color.White : Color.Black,
+        };
+
+        var title = new Label
+        {
+            Text = "FLOW Normalizer",
+            Dock = DockStyle.Top,
+            Height = 42,
+            TextAlign = ContentAlignment.MiddleCenter,
+            Font = new Font("Segoe UI", 14, FontStyle.Bold),
+        };
+
+        var credits = new Label
+        {
+            Text = "Orthographische Normalisierung – systemweit\n\nStartsound: Dank an Yusuf_FX",
+            Dock = DockStyle.Bottom,
+            Height = 88,
+            TextAlign = ContentAlignment.MiddleCenter,
+            Font = new Font("Segoe UI", 10),
+        };
+
+        about.Controls.Add(title);
+        about.Controls.Add(credits);
+
+        if (!string.IsNullOrEmpty(logoPath))
+        {
+            var picture = new PictureBox
+            {
+                Dock = DockStyle.Fill,
+                SizeMode = PictureBoxSizeMode.Zoom,
+                Image = Image.FromFile(logoPath),
+            };
+            about.Controls.Add(picture);
+            picture.BringToFront();
+        }
+
+        about.ShowDialog();
+    }
+
+    private static void OpenDictionaryEditor()
+    {
+        var rows = new BindingSource();
+        foreach (var item in exceptions)
+        {
+            rows.Add(new DictionaryRow { Original = item.Key, Korrektur = item.Value });
+        }
+
+        using var form = new Form
+        {
+            Text = "FLOW – Persönliches Wörterbuch",
+            Width = 720,
+            Height = 520,
+            StartPosition = FormStartPosition.CenterScreen,
+        };
+
+        var grid = new DataGridView
+        {
+            Dock = DockStyle.Fill,
+            AutoGenerateColumns = true,
+            DataSource = rows,
+            AllowUserToAddRows = true,
+            AllowUserToDeleteRows = true,
+        };
+
+        var panel = new FlowLayoutPanel
+        {
+            Dock = DockStyle.Bottom,
+            Height = 48,
+            FlowDirection = FlowDirection.RightToLeft,
+            Padding = new Padding(8),
+        };
+
+        var saveButton = new Button { Text = "Speichern", Width = 110 };
+        var cancelButton = new Button { Text = "Schließen", Width = 110 };
+
+        saveButton.Click += (s, e) =>
+        {
+            var next = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
+
+            foreach (var rowObj in rows.List)
+            {
+                if (rowObj is not DictionaryRow row) continue;
+                var key = (row.Original ?? string.Empty).Trim().ToLowerInvariant();
+                var value = (row.Korrektur ?? string.Empty).Trim();
+                if (string.IsNullOrEmpty(key) || string.IsNullOrEmpty(value)) continue;
+                next[key] = value;
+            }
+
+            exceptions = new Dictionary<string, string>(next);
+            SaveRules();
+            Log($"Dictionary editor saved {exceptions.Count} exception entries.");
+            MessageBox.Show("Wörterbuch gespeichert.", "FLOW", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        };
+
+        cancelButton.Click += (s, e) => form.Close();
+
+        panel.Controls.Add(saveButton);
+        panel.Controls.Add(cancelButton);
+        form.Controls.Add(grid);
+        form.Controls.Add(panel);
+        form.ShowDialog();
     }
 
     private static void RunStartupSelfCheck()
@@ -331,11 +566,17 @@ class FLOW_Normalizer
 
     private static Icon ResolveTrayIcon()
     {
-        var iconPath = Path.Combine(appDir, "flow_logo.ico");
-        if (File.Exists(iconPath))
+        var dark = IsDarkModePreferred();
+        var iconPath = dark && File.Exists(trayDarkIconPath)
+            ? trayDarkIconPath
+            : File.Exists(trayLightIconPath)
+                ? trayLightIconPath
+                : null;
+
+        if (!string.IsNullOrEmpty(iconPath))
             return new Icon(iconPath);
 
-        Log("flow_logo.ico not found, using SystemIcons.Application.");
+        Log("FLOW tray icon not found, using SystemIcons.Application.");
         return SystemIcons.Application;
     }
 
@@ -345,6 +586,8 @@ class FLOW_Normalizer
         try
         {
             Log("FLOW_Normalizer starting.");
+            ShowSplashIfAvailable();
+            PlayStartupSound();
             LoadRules();
 
             trayIcon = new NotifyIcon
@@ -355,10 +598,12 @@ class FLOW_Normalizer
             };
 
             var menu = new ContextMenuStrip();
+            menu.Items.Add("Persönliches Wörterbuch", null, (s, e) => OpenDictionaryEditor());
             menu.Items.Add("Status anzeigen", null, (s, e) => ShowStatusDialog());
             menu.Items.Add("Diagnose erneut prüfen", null, (s, e) => RunStartupSelfCheck());
             menu.Items.Add("Regeln bearbeiten (flow_rules.json)", null, (s, e) => Process.Start("notepad.exe", rulesPath));
             menu.Items.Add("Log öffnen (flow_startup.log)", null, (s, e) => Process.Start("notepad.exe", startupLogPath));
+            menu.Items.Add("Über FLOW", null, (s, e) => ShowAboutDialog());
             menu.Items.Add("Beenden", null, (s, e) => Application.Exit());
             trayIcon.ContextMenuStrip = menu;
 
@@ -377,6 +622,7 @@ class FLOW_Normalizer
             RunStartupSelfCheck();
             Application.Run();
 
+            StopStartupSound();
             if (hookId != IntPtr.Zero)
                 UnhookWindowsHookEx(hookId);
 
@@ -398,6 +644,9 @@ class FLOW_Normalizer
 
     [DllImport("user32.dll", SetLastError = true)]
     private static extern IntPtr CallNextHookEx(IntPtr hhk, int nCode, IntPtr wParam, IntPtr lParam);
+
+    [DllImport("winmm.dll", CharSet = CharSet.Auto)]
+    private static extern int mciSendString(string command, System.Text.StringBuilder returnValue, int returnLength, IntPtr winHandle);
 
     private delegate IntPtr LowLevelKeyboardProc(int nCode, IntPtr wParam, IntPtr lParam);
 }

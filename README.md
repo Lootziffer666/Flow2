@@ -51,3 +51,15 @@ Build (Windows):
 ```bash
 csc /target:winexe /out:FLOW_Normalizer.exe FLOW_Normalizer.cs
 ```
+
+### Neue UI-/Branding-Assets
+
+Wenn vorhanden, nutzt `FLOW_Normalizer.cs` jetzt automatisch:
+- Splash: `FLOW_SPLASH_DARK.png` / `FLOW_SPLASH_LIGHT.png`
+- Tray-Icon: `FLOW_TRAY_ICON_DARK.ico` / `FLOW_TRAY_ICON_LIGHT.ico`
+- About-Logo: `FLOW_TRAY_ICON_DARK.png` / `FLOW_TRAY_ICON_LIGHT.png`
+- Startsound: `startup.mp3`
+
+Tray-Menü enthält jetzt:
+- `Persönliches Wörterbuch` (GUI zum Add/Remove/Save von Ausnahmen)
+- `Über FLOW` (inkl. Credit: Yusuf_FX für den Startsound)

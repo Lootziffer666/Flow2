@@ -7,6 +7,7 @@ Deterministischer FLOW-MVP-Normalizer (SN -> SL -> MO -> PG) mit minimaler UI-Ve
 - `node test_normalization.js`
 - `node test_rules_debug.js`
 - `node test_ui_integration.js`
+- `node test_flow_learning.js`
 
 ## PR-Hinweis (Codex)
 

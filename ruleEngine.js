@@ -2,6 +2,7 @@ const SN_RULES = require('./rules.sn');
 const SL_RULES = require('./rules.sl');
 const MO_RULES = require('./rules.mo');
 const PG_RULES = require('./rules.pg');
+const EN_RULES = require('./rules.en');
 
 function countRuleMatches(text, regex) {
   if (regex.global) {
@@ -37,20 +38,40 @@ function normalizeWhitespace(text) {
     .trim();
 }
 
-function normalizeSentenceStarts(text) {
+function normalizeSentenceStarts(text, language = 'de') {
+  const startLetters = language === 'en' ? 'a-z' : 'a-zäöü';
+  const startRegex = new RegExp(`^\\s*([${startLetters}])`, language === 'en' ? '' : 'u');
+  const innerRegex = new RegExp(`([.!?]\\s+)([${startLetters}])`, language === 'en' ? 'g' : 'gu');
+
   return text
-    .replace(/^\s*([a-zäöü])/u, (match, letter) =>
+    .replace(startRegex, (match, letter) =>
       match.replace(letter, letter.toUpperCase())
     )
     .replace(
-      /([.!?]\s+)([a-zäöü])/gu,
+      innerRegex,
       (match, prefix, letter) => `${prefix}${letter.toUpperCase()}`
     );
 }
 
-// ZH1-MVP: deterministische Reihenfolge ohne Scoring.
-function runNormalizationWithMetadata(text = '') {
+function runNormalizationWithMetadata(text = '', options = {}) {
   const source = String(text);
+  const language = String(options.language || 'de').toLowerCase();
+
+  if (language === 'en') {
+    const enApplied = applyRulesWithHits(source, EN_RULES);
+    const corrected = normalizeSentenceStarts(normalizeWhitespace(enApplied.text), 'en');
+
+    return {
+      corrected,
+      rule_hits: {
+        SN: 0,
+        SL: 0,
+        MO: 0,
+        PG: enApplied.hits,
+        total: enApplied.hits,
+      },
+    };
+  }
 
   const snApplied = applyRulesWithHits(source, SN_RULES);
   const slApplied = applyRulesWithHits(snApplied.text, SL_RULES);
@@ -58,7 +79,8 @@ function runNormalizationWithMetadata(text = '') {
   const pgApplied = applyRulesWithHits(moApplied.text, PG_RULES);
 
   const corrected = normalizeSentenceStarts(
-    normalizeWhitespace(pgApplied.text)
+    normalizeWhitespace(pgApplied.text),
+    'de'
   );
 
   return {
@@ -73,8 +95,8 @@ function runNormalizationWithMetadata(text = '') {
   };
 }
 
-function runNormalization(text = '') {
-  return runNormalizationWithMetadata(text).corrected;
+function runNormalization(text = '', options = {}) {
+  return runNormalizationWithMetadata(text, options).corrected;
 }
 
 module.exports = {

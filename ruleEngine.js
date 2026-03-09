@@ -2,6 +2,7 @@ const SN_RULES = require('./rules.sn');
 const SL_RULES = require('./rules.sl');
 const MO_RULES = require('./rules.mo');
 const PG_RULES = require('./rules.pg');
+const EN_RULES = require('./rules.en');
 
 function countRuleMatches(text, regex) {
   if (regex.global) {
@@ -37,20 +38,69 @@ function normalizeWhitespace(text) {
     .trim();
 }
 
-function normalizeSentenceStarts(text) {
+function normalizeSentenceStarts(text, language = 'de') {
+  const startLetters = language === 'en' ? 'a-z' : 'a-zäöü';
+  const startRegex = new RegExp(`^\\s*([${startLetters}])`, language === 'en' ? '' : 'u');
+  const innerRegex = new RegExp(`([.!?]\\s+)([${startLetters}])`, language === 'en' ? 'g' : 'gu');
+
   return text
-    .replace(/^\s*([a-zäöü])/u, (match, letter) =>
+    .replace(startRegex, (match, letter) =>
       match.replace(letter, letter.toUpperCase())
     )
     .replace(
-      /([.!?]\s+)([a-zäöü])/gu,
+      innerRegex,
       (match, prefix, letter) => `${prefix}${letter.toUpperCase()}`
     );
 }
 
-// ZH1-MVP: deterministische Reihenfolge ohne Scoring.
-function runNormalizationWithMetadata(text = '') {
+function escapeRegex(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function buildEnglishRules(options = {}) {
+  const presetName = options.enPreset || 'en-core-safe';
+  const preset = EN_RULES.presets?.[presetName] || EN_RULES.presets?.['en-core-safe'] || { enabledContextRuleIds: [] };
+  const enabledIds = new Set(preset.enabledContextRuleIds || []);
+
+  const exceptionRules = Object.entries(EN_RULES.exceptions || {})
+    .filter(([from, to]) => typeof from === 'string' && typeof to === 'string')
+    .map(([from, to]) => ({
+      from: new RegExp(`\\b${escapeRegex(from)}\\b`, 'gi'),
+      to,
+    }));
+
+  const contextRules = (EN_RULES.contextRules || [])
+    .filter((rule) => rule && rule.kind === 'regex_replace' && typeof rule.pattern === 'string')
+    .filter((rule) => enabledIds.has(rule.id) || !rule.disabledByDefault)
+    .map((rule) => ({
+      from: new RegExp(rule.pattern, rule.flags || 'g'),
+      to: rule.replacement,
+    }));
+
+  return [...exceptionRules, ...contextRules];
+}
+
+function runNormalizationWithMetadata(text = '', options = {}) {
   const source = String(text);
+  const language = String(options.language || 'de').toLowerCase();
+
+  if (language === 'en') {
+    const compiledRules = buildEnglishRules(options);
+    const enApplied = applyRulesWithHits(source, compiledRules);
+    const corrected = normalizeWhitespace(enApplied.text);
+
+    return {
+      corrected,
+      rule_hits: {
+        EN: enApplied.hits,
+        SN: 0,
+        SL: 0,
+        MO: 0,
+        PG: 0,
+        total: enApplied.hits,
+      },
+    };
+  }
 
   const snApplied = applyRulesWithHits(source, SN_RULES);
   const slApplied = applyRulesWithHits(snApplied.text, SL_RULES);
@@ -58,12 +108,14 @@ function runNormalizationWithMetadata(text = '') {
   const pgApplied = applyRulesWithHits(moApplied.text, PG_RULES);
 
   const corrected = normalizeSentenceStarts(
-    normalizeWhitespace(pgApplied.text)
+    normalizeWhitespace(pgApplied.text),
+    'de'
   );
 
   return {
     corrected,
     rule_hits: {
+      EN: 0,
       SN: snApplied.hits,
       SL: slApplied.hits,
       MO: moApplied.hits,
@@ -73,8 +125,8 @@ function runNormalizationWithMetadata(text = '') {
   };
 }
 
-function runNormalization(text = '') {
-  return runNormalizationWithMetadata(text).corrected;
+function runNormalization(text = '', options = {}) {
+  return runNormalizationWithMetadata(text, options).corrected;
 }
 
 module.exports = {
@@ -83,4 +135,5 @@ module.exports = {
   normalizeSentenceStarts,
   runNormalization,
   runNormalizationWithMetadata,
+  buildEnglishRules,
 };

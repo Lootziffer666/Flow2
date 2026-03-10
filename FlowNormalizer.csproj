@@ -16,16 +16,6 @@
     <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
   </PropertyGroup>
 
-  <!-- C#-Quelldatei -->
-  <ItemGroup>
-    <Compile Include="FLOW_Normalizer.cs" />
-  </ItemGroup>
-
-  <!-- Alle Nicht-Code-Dateien aus dem Compile ausschliessen -->
-  <ItemGroup>
-    <Compile Remove="**/*.js" />
-  </ItemGroup>
-
   <!-- JS-Runtime-Dateien (loom_cli + Pipeline + Rules) -->
   <ItemGroup>
     <None Include="loom_cli.js" CopyToOutputDirectory="PreserveNewest" />

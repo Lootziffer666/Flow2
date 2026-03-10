@@ -375,6 +375,7 @@ class FLOW_Normalizer
     private static void SetLanguage(string language)
     {
         currentLanguage = string.Equals(language, "en", StringComparison.OrdinalIgnoreCase) ? "en" : "de";
+        trayIcon.Text = currentLanguage == "en" ? "FLOW – English" : "FLOW – Deutsch";
         Log($"Language set to {currentLanguage}.");
         trayIcon.ShowBalloonTip(2500, "FLOW Sprache", currentLanguage == "en" ? "Englisch aktiviert" : "Deutsch aktiviert", ToolTipIcon.Info);
     }
@@ -547,6 +548,14 @@ class FLOW_Normalizer
         }
     }
 
+    private static bool IsCtrlAltPressed()
+    {
+        const int VK_CONTROL = 0x11;
+        const int VK_MENU = 0x12;
+        return (GetAsyncKeyState(VK_CONTROL) & 0x8000) != 0
+            && (GetAsyncKeyState(VK_MENU) & 0x8000) != 0;
+    }
+
     private static IntPtr HookCallback(int nCode, IntPtr wParam, IntPtr lParam)
     {
         if (nCode >= 0 && wParam == (IntPtr)WM_KEYDOWN)
@@ -557,6 +566,15 @@ class FLOW_Normalizer
             }
 
             var key = (Keys)Marshal.ReadInt32(lParam);
+
+            // Hotkey: Ctrl+Alt+Space -> Sprache toggeln
+            if (key == Keys.Space && IsCtrlAltPressed())
+            {
+                SetLanguage(currentLanguage == "de" ? "en" : "de");
+                suppressUntilTick = Environment.TickCount64 + 400;
+                return CallNextHookEx(hookId, nCode, wParam, lParam);
+            }
+
             if (key is Keys.Space or Keys.Return or Keys.OemPeriod)
             {
                 var word = CaptureCurrentWord();
@@ -665,6 +683,9 @@ class FLOW_Normalizer
 
     [DllImport("winmm.dll", CharSet = CharSet.Auto)]
     private static extern int mciSendString(string command, System.Text.StringBuilder returnValue, int returnLength, IntPtr winHandle);
+
+    [DllImport("user32.dll")]
+    private static extern short GetAsyncKeyState(int vKey);
 
     private delegate IntPtr LowLevelKeyboardProc(int nCode, IntPtr wParam, IntPtr lParam);
 }

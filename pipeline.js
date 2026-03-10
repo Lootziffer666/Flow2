@@ -1,5 +1,4 @@
-// pipeline.js
-// Einstiegspunkt für die Korrektur-Pipeline
+'use strict';
 
 const { runNormalizationWithMetadata } = require('./ruleEngine.js');
 const {
@@ -11,20 +10,30 @@ const {
 } = require('./flowRulesStore');
 
 const EMPTY_RULE_HITS = Object.freeze({
+  EN: 0,
+  CTX: 0,
   SN: 0,
   SL: 0,
   MO: 0,
   PG: 0,
-  EN: 0,
   total: 0,
 });
+
+function asOptions(langOrOptions) {
+  if (typeof langOrOptions === 'string') {
+    return { language: langOrOptions };
+  }
+
+  return langOrOptions || {};
+}
 
 function resolveRulesPath(options = {}) {
   return options.rulesPath || process.env.FLOW_RULES_PATH || DEFAULT_RULES_PATH;
 }
 
-function resolveLanguage(options = {}) {
-  return normalizeLanguage(options.language || process.env.FLOW_LANGUAGE || 'de');
+function resolveLanguage(langOrOptions) {
+  const options = asOptions(langOrOptions);
+  return normalizeLanguage(options.language || options.lang || process.env.FLOW_LANGUAGE || 'de');
 }
 
 function resolveEnPreset(options = {}) {
@@ -34,14 +43,10 @@ function resolveEnPreset(options = {}) {
 function getLearnedReplacement(text, rules) {
   const source = String(text ?? '').trim();
   const normalizedKey = source.toLowerCase();
-
   if (!normalizedKey) return null;
 
   if (rules.exceptions[normalizedKey]) {
-    return {
-      corrected: rules.exceptions[normalizedKey],
-      source: 'exception',
-    };
+    return { corrected: rules.exceptions[normalizedKey], source: 'exception' };
   }
 
   const matchedContextRule = rules.contextRules.find((rule) =>
@@ -49,28 +54,28 @@ function getLearnedReplacement(text, rules) {
   );
 
   if (matchedContextRule) {
-    return {
-      corrected: matchedContextRule.replace,
-      source: 'context',
-    };
+    return { corrected: matchedContextRule.replace, source: 'context' };
   }
 
   return null;
 }
 
-function runCorrection(text, options = {}) {
+function runCorrection(text, langOrOptions) {
   const source = String(text ?? '');
+  const options = asOptions(langOrOptions);
+  const language = resolveLanguage(options);
+
   if (!source.trim()) {
     return {
       corrected: '',
       rule_hits: { ...EMPTY_RULE_HITS },
       applied_learning: null,
-      language: resolveLanguage(options),
+      language,
+      lang: language,
     };
   }
 
   const rulesPath = resolveRulesPath(options);
-  const language = resolveLanguage(options);
   const rules = loadRules(rulesPath, language);
   const learned = getLearnedReplacement(source, rules);
 
@@ -80,24 +85,42 @@ function runCorrection(text, options = {}) {
       rule_hits: { ...EMPTY_RULE_HITS },
       applied_learning: learned.source,
       language,
+      lang: language,
     };
   }
 
-  const normalized = runNormalizationWithMetadata(source, { language, enPreset: resolveEnPreset(options) });
+  const normalized = runNormalizationWithMetadata(source, {
+    language,
+    enPreset: resolveEnPreset(options),
+  });
+
   return {
     corrected: normalized.corrected,
-    rule_hits: normalized.rule_hits,
+    rule_hits: normalized.rule_hits || { ...EMPTY_RULE_HITS },
     applied_learning: null,
     language,
+    lang: language,
   };
 }
 
-function learnException(original, corrected, options = {}) {
-  return addException(original, corrected, resolveRulesPath(options), resolveLanguage(options));
+function learnException(original, corrected, langOrOptions) {
+  const options = asOptions(langOrOptions);
+  return addException(
+    original,
+    corrected,
+    resolveRulesPath(options),
+    resolveLanguage(options)
+  );
 }
 
-function learnContextRule(trigger, replace, options = {}) {
-  return addContextRule(trigger, replace, resolveRulesPath(options), resolveLanguage(options));
+function learnContextRule(trigger, replace, langOrOptions) {
+  const options = asOptions(langOrOptions);
+  return addContextRule(
+    trigger,
+    replace,
+    resolveRulesPath(options),
+    resolveLanguage(options)
+  );
 }
 
 module.exports = {
@@ -106,6 +129,6 @@ module.exports = {
   learnContextRule,
   resolveRulesPath,
   resolveLanguage,
-  EMPTY_RULE_HITS,
   resolveEnPreset,
+  EMPTY_RULE_HITS,
 };

@@ -73,3 +73,6 @@ Tray-Menü enthält jetzt:
 
 - Optionales Englisch-Preset per CLI: `node loom_cli.js --lang en --en-preset en-prose-plus "hello. i am here"`
 - Legacy-Kompatibilität: `node loom_cli.js "text" en` funktioniert weiterhin.
+
+- Multi-Token-Regeln liegen in `contextWindowRules.js` (konservative Kontextregeln, standardmäßig riskante Regeln deaktiviert).
+- Englisch-Presets: `en-core-safe` (Default) und `en-prose-plus` via `--en-preset` oder `FLOW_EN_PRESET`.

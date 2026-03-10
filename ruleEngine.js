@@ -1,139 +1,241 @@
+'use strict';
+
 const SN_RULES = require('./rules.sn');
 const SL_RULES = require('./rules.sl');
 const MO_RULES = require('./rules.mo');
 const PG_RULES = require('./rules.pg');
 const EN_RULES = require('./rules.en');
+const CONTEXT_RULES = require('./contextWindowRules');
 
-function countRuleMatches(text, regex) {
-  if (regex.global) {
-    const matches = text.match(regex);
-    return matches ? matches.length : 0;
+// Protected Spans (Code, Pfade, Namen, UI-Labels etc.)
+const PROTECTED_PATTERNS = [
+  /`[^`]+`/g,
+  /\b[A-Z]{2,}[A-Za-z0-9_]*\b/g,
+  /\bhttps?:\/\/[^\s]+/g,
+  /\b[A-Za-z0-9._%+-]+@[^\s]+/g,
+];
+
+function tokenize(text) {
+  return String(text)
+    .split(/(\s+|[.,;:!?()])/)
+    .filter((token) => token.trim() !== '');
+}
+
+function isProtected(token) {
+  if (!token) return false;
+  return PROTECTED_PATTERNS.some((pattern) => {
+    const local = new RegExp(pattern.source, pattern.flags);
+    return local.test(token);
+  });
+}
+
+function getProtectedSpans(text) {
+  const spans = [];
+
+  for (const pattern of PROTECTED_PATTERNS) {
+    const local = new RegExp(pattern.source, pattern.flags);
+    let match = local.exec(text);
+    while (match) {
+      spans.push({ start: match.index, end: match.index + match[0].length });
+      if (!local.global) break;
+      match = local.exec(text);
+    }
   }
 
-  return regex.test(text) ? 1 : 0;
+  spans.sort((a, b) => a.start - b.start);
+
+  // merge overlaps
+  const merged = [];
+  for (const span of spans) {
+    if (!merged.length || span.start > merged[merged.length - 1].end) {
+      merged.push({ ...span });
+      continue;
+    }
+    merged[merged.length - 1].end = Math.max(merged[merged.length - 1].end, span.end);
+  }
+
+  return merged;
 }
 
 function applyRulesWithHits(text, rules) {
-  return rules.reduce(
-    (state, rule) => {
-      const ruleHits = countRuleMatches(state.text, rule.from);
-      return {
-        text: state.text.replace(rule.from, rule.to),
-        hits: state.hits + ruleHits,
-      };
-    },
-    { text, hits: 0 }
-  );
+  let result = String(text);
+  let hits = 0;
+
+  for (const rule of rules || []) {
+    const from = rule.from || rule.pattern;
+    const to = rule.to ?? rule.replacement;
+    if (!(from instanceof RegExp) || typeof to === 'undefined') continue;
+
+    const before = result;
+    result = result.replace(from, to);
+    if (result !== before) hits += 1;
+  }
+
+  return { text: result, hits };
 }
 
-function applyRules(text, rules) {
-  return applyRulesWithHits(text, rules).text;
+function applyRulesToUnprotectedText(text, rules) {
+  const source = String(text);
+  const spans = getProtectedSpans(source);
+
+  if (!spans.length) return applyRulesWithHits(source, rules);
+
+  let cursor = 0;
+  let hits = 0;
+  let output = '';
+
+  for (const span of spans) {
+    const unprotectedChunk = source.slice(cursor, span.start);
+    const applied = applyRulesWithHits(unprotectedChunk, rules);
+    output += applied.text;
+    hits += applied.hits;
+
+    output += source.slice(span.start, span.end);
+    cursor = span.end;
+  }
+
+  const tail = source.slice(cursor);
+  const tailApplied = applyRulesWithHits(tail, rules);
+  output += tailApplied.text;
+  hits += tailApplied.hits;
+
+  return { text: output, hits };
 }
+
 
 function normalizeWhitespace(text) {
-  return text
+  return String(text)
     .replace(/\s+([,.;!?])/g, '$1')
     .replace(/([,.;!?])(\S)/g, '$1 $2')
     .replace(/\s+/g, ' ')
     .trim();
 }
 
-function normalizeSentenceStarts(text, language = 'de') {
-  const startLetters = language === 'en' ? 'a-z' : 'a-zäöü';
-  const startRegex = new RegExp(`^\\s*([${startLetters}])`, language === 'en' ? '' : 'u');
-  const innerRegex = new RegExp(`([.!?]\\s+)([${startLetters}])`, language === 'en' ? 'g' : 'gu');
+function normalizeSentenceStarts(text, lang = 'de') {
+  if (lang === 'en') {
+    return String(text)
+      .replace(/^\s*([a-z])/g, (match, ch) => match.replace(ch, ch.toUpperCase()))
+      .replace(/([.!?]\s+)([a-z])/g, (match, prefix, ch) => `${prefix}${ch.toUpperCase()}`);
+  }
 
-  return text
-    .replace(startRegex, (match, letter) =>
-      match.replace(letter, letter.toUpperCase())
-    )
-    .replace(
-      innerRegex,
-      (match, prefix, letter) => `${prefix}${letter.toUpperCase()}`
-    );
+  return String(text)
+    .replace(/^\s*([a-zäöü])/u, (match, ch) => match.replace(ch, ch.toUpperCase()))
+    .replace(/([.!?]\s+)([a-zäöü])/gu, (match, prefix, ch) => `${prefix}${ch.toUpperCase()}`);
 }
 
-function escapeRegex(value) {
-  return String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-}
+function buildEnglishLexicalRules() {
+  const exceptions = EN_RULES.exceptions || {};
 
-function buildEnglishRules(options = {}) {
-  const presetName = options.enPreset || 'en-core-safe';
-  const preset = EN_RULES.presets?.[presetName] || EN_RULES.presets?.['en-core-safe'] || { enabledContextRuleIds: [] };
-  const enabledIds = new Set(preset.enabledContextRuleIds || []);
-
-  const exceptionRules = Object.entries(EN_RULES.exceptions || {})
+  return Object.entries(exceptions)
     .filter(([from, to]) => typeof from === 'string' && typeof to === 'string')
     .map(([from, to]) => ({
-      from: new RegExp(`\\b${escapeRegex(from)}\\b`, 'gi'),
+      from: new RegExp(`\\b${from.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'gi'),
       to,
     }));
-
-  const contextRules = (EN_RULES.contextRules || [])
-    .filter((rule) => rule && rule.kind === 'regex_replace' && typeof rule.pattern === 'string')
-    .filter((rule) => enabledIds.has(rule.id) || !rule.disabledByDefault)
-    .map((rule) => ({
-      from: new RegExp(rule.pattern, rule.flags || 'g'),
-      to: rule.replacement,
-    }));
-
-  return [...exceptionRules, ...contextRules];
 }
 
-function runNormalizationWithMetadata(text = '', options = {}) {
-  const source = String(text);
-  const language = String(options.language || 'de').toLowerCase();
 
-  if (language === 'en') {
-    const compiledRules = buildEnglishRules(options);
-    const enApplied = applyRulesWithHits(source, compiledRules);
-    const corrected = normalizeWhitespace(enApplied.text);
+function buildEnglishPresetContextRules(options = {}) {
+  const enPreset = options.enPreset || 'en-core-safe';
+  const enabledIds = new Set((EN_RULES.presets?.[enPreset]?.enabledContextRuleIds) || []);
+
+  return (EN_RULES.contextRules || [])
+    .filter((rule) => rule && rule.kind === 'regex_replace' && typeof rule.pattern === 'string')
+    .filter((rule) => enabledIds.has(rule.id) || rule.disabledByDefault !== true)
+    .map((rule) => ({
+      id: rule.id,
+      lang: 'en',
+      pattern: new RegExp(rule.pattern, rule.flags || 'g'),
+      replacement: rule.replacement,
+    }));
+}
+
+function buildContextRules(lang, options = {}) {
+  const langValue = String(lang || 'de').toLowerCase();
+
+  const baseContext = CONTEXT_RULES
+    .filter((rule) => rule && (rule.lang === langValue || rule.lang === 'both'))
+    .filter((rule) => rule.disabledByDefault !== true);
+
+  if (langValue !== 'en') return baseContext;
+
+  const enPresetContext = buildEnglishPresetContextRules(options);
+  return [...baseContext, ...enPresetContext];
+}
+
+function runMultiTokenNormalization(text, langOrOptions = 'de', maybeOptions = {}) {
+  const source = String(text || '');
+  const lang = typeof langOrOptions === 'string'
+    ? langOrOptions
+    : (langOrOptions.language || 'de');
+  const options = typeof langOrOptions === 'string'
+    ? maybeOptions
+    : langOrOptions;
+
+  const normalizedLang = String(lang || 'de').toLowerCase() === 'en' ? 'en' : 'de';
+
+  // Tokenization retained for possible diagnostics/extensions.
+  tokenize(source).forEach((token) => {
+    isProtected(token);
+  });
+
+  if (normalizedLang === 'de') {
+    const deContextRules = buildContextRules('de', options);
+    const deContext = applyRulesToUnprotectedText(source, deContextRules);
+
+    const sn = applyRulesToUnprotectedText(deContext.text, SN_RULES);
+    const sl = applyRulesToUnprotectedText(sn.text, SL_RULES);
+    const mo = applyRulesToUnprotectedText(sl.text, MO_RULES);
+    const pg = applyRulesToUnprotectedText(mo.text, PG_RULES);
+
+    const corrected = normalizeSentenceStarts(normalizeWhitespace(pg.text), 'de');
 
     return {
       corrected,
       rule_hits: {
-        EN: enApplied.hits,
-        SN: 0,
-        SL: 0,
-        MO: 0,
-        PG: 0,
-        total: enApplied.hits,
+        EN: 0,
+        CTX: deContext.hits,
+        SN: sn.hits,
+        SL: sl.hits,
+        MO: mo.hits,
+        PG: pg.hits,
+        total: deContext.hits + sn.hits + sl.hits + mo.hits + pg.hits,
       },
     };
   }
 
-  const snApplied = applyRulesWithHits(source, SN_RULES);
-  const slApplied = applyRulesWithHits(snApplied.text, SL_RULES);
-  const moApplied = applyRulesWithHits(slApplied.text, MO_RULES);
-  const pgApplied = applyRulesWithHits(moApplied.text, PG_RULES);
+  const enContextRules = buildContextRules('en', options);
+  const contextResult = applyRulesToUnprotectedText(source, enContextRules);
+  const lexicalRules = buildEnglishLexicalRules();
+  const lexicalResult = applyRulesToUnprotectedText(contextResult.text, lexicalRules);
 
-  const corrected = normalizeSentenceStarts(
-    normalizeWhitespace(pgApplied.text),
-    'de'
-  );
+  const hits = contextResult.hits + lexicalResult.hits;
+  const correctedEn = normalizeWhitespace(lexicalResult.text);
 
   return {
-    corrected,
+    corrected: correctedEn,
     rule_hits: {
-      EN: 0,
-      SN: snApplied.hits,
-      SL: slApplied.hits,
-      MO: moApplied.hits,
-      PG: pgApplied.hits,
-      total: snApplied.hits + slApplied.hits + moApplied.hits + pgApplied.hits,
+      EN: hits,
+      SN: 0,
+      SL: 0,
+      MO: 0,
+      PG: 0,
+      CTX: contextResult.hits,
+      total: hits,
     },
   };
 }
 
-function runNormalization(text = '', options = {}) {
-  return runNormalizationWithMetadata(text, options).corrected;
+function runNormalization(text, langOrOptions = 'de') {
+  return runMultiTokenNormalization(text, langOrOptions).corrected;
 }
 
 module.exports = {
-  applyRules,
+  runNormalization,
+  runNormalizationWithMetadata: runMultiTokenNormalization,
+  applyRulesWithHits,
+  tokenize,
+  isProtected,
   normalizeWhitespace,
   normalizeSentenceStarts,
-  runNormalization,
-  runNormalizationWithMetadata,
-  buildEnglishRules,
 };

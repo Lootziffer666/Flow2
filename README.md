@@ -47,10 +47,48 @@ Wenn nach dem Start "nichts passiert":
 6. Sicherstellen, dass `loom_cli.js` + `pipeline.js` im selben Ordner wie die EXE liegen.
 7. Testen mit: `node loom_cli.js "ich hab zeit"`.
 
-Build (Windows):
+### Voraussetzungen
+
+- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0) (zum Kompilieren)
+- [Node.js](https://nodejs.org) im PATH (zur Laufzeit fuer die Pipeline)
+
+### Build mit .NET SDK (empfohlen)
+
+```bash
+# Debug-Build
+dotnet build FlowNormalizer.csproj
+
+# Release-Build
+dotnet build FlowNormalizer.csproj -c Release
+
+# Eigenstaendige EXE (Single-File, self-contained, kein .NET auf Zielrechner noetig)
+dotnet publish FlowNormalizer.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o publish
+```
+
+Oder per Build-Skript:
+
+```bash
+# Windows
+build.bat                 # Debug
+build.bat release         # Release
+build.bat publish         # Single-File EXE -> publish/
+
+# Linux/macOS (Cross-Compile)
+./build.sh publish        # Single-File EXE -> publish/
+```
+
+### Build mit csc (Legacy, nur .NET Framework)
+
 ```bash
 csc /target:winexe /out:FLOW_Normalizer.exe FLOW_Normalizer.cs
 ```
+
+### Was landet im Output-Ordner?
+
+Der Build kopiert automatisch alle benoetigten Dateien neben die EXE:
+- `loom_cli.js`, `pipeline.js`, `ruleEngine.js`, `flowRulesStore.js`
+- `contextWindowRules.js`, `rules.sn.js`, `rules.sl.js`, `rules.mo.js`, `rules.pg.js`, `rules.en.js`
+- Splash-Bilder, Tray-Icons, Startsound
 
 ### Neue UI-/Branding-Assets
 

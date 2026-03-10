@@ -1,0 +1,18 @@
+# .NET Build
+bin/
+obj/
+publish/
+
+# IDE
+.vs/
+*.user
+*.suo
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Flow runtime
+flow_rules.json
+flow_startup.log

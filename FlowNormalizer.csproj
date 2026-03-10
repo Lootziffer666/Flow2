@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>FlowNormalizer</RootNamespace>
+    <AssemblyName>FLOW_Normalizer</AssemblyName>
+    <ApplicationIcon>FLOW_TRAY_ICON_DARK.ico</ApplicationIcon>
+    <Version>1.0.0</Version>
+    <Description>FLOW Normalizer – Systemweite orthographische Normalisierung</Description>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+  </PropertyGroup>
+
+  <!-- C#-Quelldatei -->
+  <ItemGroup>
+    <Compile Include="FLOW_Normalizer.cs" />
+  </ItemGroup>
+
+  <!-- Alle Nicht-Code-Dateien aus dem Compile ausschliessen -->
+  <ItemGroup>
+    <Compile Remove="**/*.js" />
+  </ItemGroup>
+
+  <!-- JS-Runtime-Dateien (loom_cli + Pipeline + Rules) -->
+  <ItemGroup>
+    <None Include="loom_cli.js" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="pipeline.js" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="ruleEngine.js" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="flowRulesStore.js" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="contextWindowRules.js" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="rules.sn.js" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="rules.sl.js" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="rules.mo.js" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="rules.pg.js" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="rules.en.js" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <!-- Branding-Assets -->
+  <ItemGroup>
+    <None Include="FLOW_SPLASH_DARK.png" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="FLOW_SPLASH_LIGHT.png" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="FLOW_TRAY_ICON_DARK.ico" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="FLOW_TRAY_ICON_LIGHT.ico" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="FLOW_TRAY_ICON_DARK.png" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="FLOW_TRAY_ICON_LIGHT.png" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="start.mp3" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>

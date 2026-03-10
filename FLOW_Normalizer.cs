@@ -22,6 +22,9 @@ class FLOW_Normalizer
     private static long suppressUntilTick;
     private static string currentLanguage = "de";
 
+    enum TriggerMode { EveryWord, EveryPeriod, EveryParagraph }
+    private static TriggerMode currentTriggerMode = TriggerMode.EveryWord;
+
     private static Dictionary<string, string> exceptions = new();
     private static List<ContextRule> contextRules = new();
 
@@ -49,6 +52,7 @@ class FLOW_Normalizer
     {
         public Dictionary<string, string> exceptions { get; set; } = new();
         public List<ContextRule> contextRules { get; set; } = new();
+        public string triggerMode { get; set; } = "EveryWord";
     }
 
     class DictionaryRow
@@ -175,6 +179,8 @@ class FLOW_Normalizer
             var rules = JsonSerializer.Deserialize<RulesFile>(File.ReadAllText(rulesPath));
             exceptions = rules?.exceptions ?? new Dictionary<string, string>();
             contextRules = rules?.contextRules ?? new List<ContextRule>();
+            if (Enum.TryParse<TriggerMode>(rules?.triggerMode, out var mode))
+                currentTriggerMode = mode;
         }
         catch (Exception ex)
         {
@@ -190,6 +196,7 @@ class FLOW_Normalizer
         {
             exceptions = exceptions,
             contextRules = contextRules,
+            triggerMode = currentTriggerMode.ToString(),
         };
 
         File.WriteAllText(rulesPath, JsonSerializer.Serialize(rules, new JsonSerializerOptions { WriteIndented = true }));
@@ -402,6 +409,20 @@ class FLOW_Normalizer
         trayIcon.ShowBalloonTip(2500, "FLOW Sprache", currentLanguage == "en" ? "Englisch aktiviert" : "Deutsch aktiviert", ToolTipIcon.Info);
     }
 
+    private static void SetTriggerMode(TriggerMode mode)
+    {
+        currentTriggerMode = mode;
+        SaveRules();
+        var label = mode switch
+        {
+            TriggerMode.EveryParagraph => "nach Absatz",
+            TriggerMode.EveryPeriod    => "nach Satz",
+            _                          => "nach jedem Wort",
+        };
+        Log($"TriggerMode set to {mode}.");
+        trayIcon.ShowBalloonTip(2500, "FLOW Auslöser", $"Normalisierung {label}", ToolTipIcon.Info);
+    }
+
     private static void RunStartupSelfCheck()
     {
         nodeAvailable = IsNodeAvailable();
@@ -607,7 +628,14 @@ class FLOW_Normalizer
                 return CallNextHookEx(hookId, nCode, wParam, lParam);
             }
 
-            if (key is Keys.Space or Keys.Return or Keys.OemPeriod)
+            var triggered = currentTriggerMode switch
+            {
+                TriggerMode.EveryParagraph => key == Keys.Return,
+                TriggerMode.EveryPeriod    => key is Keys.Return or Keys.OemPeriod,
+                _                          => key is Keys.Space or Keys.Return or Keys.OemPeriod,
+            };
+
+            if (triggered)
             {
                 var word = CaptureCurrentWord();
                 if (!string.IsNullOrEmpty(word))
@@ -666,6 +694,12 @@ class FLOW_Normalizer
             languageMenu.DropDownItems.Add("Deutsch", null, (s, e) => SetLanguage("de"));
             languageMenu.DropDownItems.Add("Englisch", null, (s, e) => SetLanguage("en"));
             menu.Items.Add(languageMenu);
+
+            var triggerMenu = new ToolStripMenuItem("Auslöser");
+            triggerMenu.DropDownItems.Add("Nach jedem Wort (Leerzeichen)", null, (s, e) => SetTriggerMode(TriggerMode.EveryWord));
+            triggerMenu.DropDownItems.Add("Nach Satz (Punkt / Enter)",     null, (s, e) => SetTriggerMode(TriggerMode.EveryPeriod));
+            triggerMenu.DropDownItems.Add("Nach Absatz (Enter)",           null, (s, e) => SetTriggerMode(TriggerMode.EveryParagraph));
+            menu.Items.Add(triggerMenu);
 
             menu.Items.Add("Tastenkürzel", null, (s, e) => ShowShortcutsDialog());
             menu.Items.Add("Status anzeigen", null, (s, e) => ShowStatusDialog());

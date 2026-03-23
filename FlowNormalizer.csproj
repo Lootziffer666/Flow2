@@ -8,7 +8,7 @@
     <AssemblyName>FLOW_Normalizer</AssemblyName>
     <!-- Nur root-CS-Dateien kompilieren; Unterordner (z.B. FlowPC) explizit ausschließen -->
     <DefaultItemExcludes>$(DefaultItemExcludes);**\FlowPC\**;FlowPC\**</DefaultItemExcludes>
-    <ApplicationIcon>FLOW_TRAY_ICON_DARK.ico</ApplicationIcon>
+    <ApplicationIcon>assets\FLOW_TRAY_ICON_DARK.ico</ApplicationIcon>
     <Version>1.0.0</Version>
     <Description>FLOW Normalizer – Systemweite orthographische Normalisierung</Description>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
@@ -20,27 +20,27 @@
 
   <!-- JS-Runtime-Dateien (loom_cli + Pipeline + Rules) -->
   <ItemGroup>
-    <None Include="loom_cli.js" CopyToOutputDirectory="PreserveNewest" />
-    <None Include="pipeline.js" CopyToOutputDirectory="PreserveNewest" />
-    <None Include="ruleEngine.js" CopyToOutputDirectory="PreserveNewest" />
-    <None Include="flowRulesStore.js" CopyToOutputDirectory="PreserveNewest" />
-    <None Include="contextWindowRules.js" CopyToOutputDirectory="PreserveNewest" />
-    <None Include="rules.sn.js" CopyToOutputDirectory="PreserveNewest" />
-    <None Include="rules.sl.js" CopyToOutputDirectory="PreserveNewest" />
-    <None Include="rules.mo.js" CopyToOutputDirectory="PreserveNewest" />
-    <None Include="rules.pg.js" CopyToOutputDirectory="PreserveNewest" />
-    <None Include="rules.en.js" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="src\loom_cli.js" Link="loom_cli.js" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="src\pipeline.js" Link="pipeline.js" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="src\ruleEngine.js" Link="ruleEngine.js" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="src\flowRulesStore.js" Link="flowRulesStore.js" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="src\contextWindowRules.js" Link="contextWindowRules.js" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="src\rules.sn.js" Link="rules.sn.js" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="src\rules.sl.js" Link="rules.sl.js" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="src\rules.mo.js" Link="rules.mo.js" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="src\rules.pg.js" Link="rules.pg.js" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="src\rules.en.js" Link="rules.en.js" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
   <!-- Branding-Assets -->
   <ItemGroup>
-    <None Include="FLOW_SPLASH_DARK.png" CopyToOutputDirectory="PreserveNewest" />
-    <None Include="FLOW_SPLASH_LIGHT.png" CopyToOutputDirectory="PreserveNewest" />
-    <None Include="FLOW_TRAY_ICON_DARK.ico" CopyToOutputDirectory="PreserveNewest" />
-    <None Include="FLOW_TRAY_ICON_LIGHT.ico" CopyToOutputDirectory="PreserveNewest" />
-    <None Include="FLOW_TRAY_ICON_DARK.png" CopyToOutputDirectory="PreserveNewest" />
-    <None Include="FLOW_TRAY_ICON_LIGHT.png" CopyToOutputDirectory="PreserveNewest" />
-    <None Include="start.mp3" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="assets\FLOW_SPLASH_DARK.png" Link="FLOW_SPLASH_DARK.png" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="assets\FLOW_SPLASH_LIGHT.png" Link="FLOW_SPLASH_LIGHT.png" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="assets\FLOW_TRAY_ICON_DARK.ico" Link="FLOW_TRAY_ICON_DARK.ico" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="assets\FLOW_TRAY_ICON_LIGHT.ico" Link="FLOW_TRAY_ICON_LIGHT.ico" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="assets\FLOW_TRAY_ICON_DARK.png" Link="FLOW_TRAY_ICON_DARK.png" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="assets\FLOW_TRAY_ICON_LIGHT.png" Link="FLOW_TRAY_ICON_LIGHT.png" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="assets\start.mp3" Link="start.mp3" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
 </Project>

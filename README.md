@@ -1,116 +1,118 @@
-# Flow2
+# FLOW Normalizer
 
-Deterministischer FLOW-MVP-Normalizer (SN -> SL -> MO -> PG) mit minimaler UI-Verdrahtung.
+Deterministic system-wide orthographic normalization engine.  
+Pipeline: **SN → SL → MO → PG** (Syntactic → Syllabic → Morphological → Phoneme-Grapheme).
+
+## Project Structure
+
+```
+src/           Core pipeline and rule engine
+test/          Unit, integration and debug tests
+assets/        Splash screens, tray icons, startup sound
+docs/          Design notes and protocol documentation
+```
+
+## Quick Start
+
+```bash
+# Normalize text via CLI
+node src/loom_cli.js "ich hab das gestern gelsen"
+
+# With language flag
+node src/loom_cli.js --lang en "i definately dont know"
+
+# Learn an exception
+node src/loom_cli.js --learn-exception "teh" "the"
+```
 
 ## Tests
 
-- `node test_normalization.js`
-- `node test_rules_debug.js`
-- `node test_ui_integration.js`
-- `node test_flow_learning.js`
-
-## PR-Hinweis (Codex)
-
-Wenn die Meldung erscheint, dass eine bestehende PR nicht aktualisiert werden kann,
-muss ein **neuer Branch** mit **neuem PR** erstellt werden.
-
-## Merge-Konflikte: current vs incoming
-
-Für dieses Repo gilt aktuell:
-
-- `rules.sn.js`, `rules.sl.js`, `rules.mo.js`, `rules.pg.js` exportieren Default-Arrays (`module.exports = RULES`).
-- `ruleEngine.js` importiert diese als Default (`require('./rules.sn')` etc.).
-
-Darum ist bei Konflikten in diesen Dateien meist **current** korrekt,
-sofern `incoming` auf Named Exports umstellt (`module.exports = { RULES }`) und
-nicht gleichzeitig alle Importe konsistent angepasst werden.
-
-Schnellcheck vor Commit:
-
 ```bash
-rg -n "^(<<<<<<<|=======|>>>>>>>)" -g '*.js' .
+npm test                         # All tests
+npm run test:unit                # Core normalization + UI binding + learning
+npm run test:rules               # Rule debug checks
+npm run test:lab                 # Lab integration
+npm run test:batch               # Random LRS batch (200 inputs)
+npm run debug:rules              # Verbose rule diagnostics
 ```
 
+## Native Windows App
 
-## Native Windows App (FLOW_Normalizer.cs)
+`FLOW_Normalizer.cs` is a WinForms system-tray application that hooks into
+the Windows keyboard pipeline and corrects text in real time via the
+Node.js normalization engine.
 
-Status im Repo:
-- `FLOW_Normalizer.cs` ist jetzt enthalten (native WinForms + Keyboard-Hook + Tray).
-- Die App ruft `node loom_cli.js <wort>` auf und nutzt damit direkt `pipeline.js`.
+### Prerequisites
 
-Wenn nach dem Start "nichts passiert":
-1. Auf Tray-Ballon achten: Die App führt jetzt automatisch einen Self-Check aus.
-2. Im Tray-Menü `Status anzeigen` öffnen (Hook/Node/Dateien auf einen Blick).
-3. Im Tray-Menü `Diagnose erneut prüfen` klicken.
-4. `flow_startup.log` öffnen (wird im EXE-Ordner geschrieben).
-5. Sicherstellen, dass `node` im PATH ist (`node -v`).
-6. Sicherstellen, dass `loom_cli.js` + `pipeline.js` im selben Ordner wie die EXE liegen.
-7. Testen mit: `node loom_cli.js "ich hab zeit"`.
+- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0) (build)
+- [Node.js ≥ 18](https://nodejs.org) in PATH (runtime)
 
-### Voraussetzungen
-
-- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0) (zum Kompilieren)
-- [Node.js](https://nodejs.org) im PATH (zur Laufzeit fuer die Pipeline)
-
-### Build mit .NET SDK (empfohlen)
+### Build
 
 ```bash
-# Debug-Build
+# Debug
 dotnet build FlowNormalizer.csproj
 
-# Release-Build
+# Release
 dotnet build FlowNormalizer.csproj -c Release
 
-# Eigenstaendige EXE (Single-File, self-contained, kein .NET auf Zielrechner noetig)
-dotnet publish FlowNormalizer.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o publish
+# Self-contained single-file EXE
+dotnet publish FlowNormalizer.csproj -c Release -r win-x64 \
+  --self-contained true -p:PublishSingleFile=true -o publish
 ```
 
-Oder per Build-Skript:
+Or use the build scripts:
 
 ```bash
-# Windows
-build.bat                 # Debug
-build.bat release         # Release
-build.bat publish         # Single-File EXE -> publish/
-
-# Linux/macOS (Cross-Compile)
-./build.sh publish        # Single-File EXE -> publish/
+build.bat                 # Windows – Debug
+build.bat publish         # Windows – Single-file EXE → publish/
+./build.sh publish        # Linux/macOS – Cross-compile → publish/
 ```
 
-### Build mit csc (Legacy, nur .NET Framework)
+### Troubleshooting
 
-```bash
-csc /target:winexe /out:FLOW_Normalizer.exe FLOW_Normalizer.cs
+1. Check the tray balloon — the app runs a self-check at startup.
+2. Right-click the tray icon → **Status anzeigen** for a quick health overview.
+3. Right-click → **Diagnose erneut prüfen** to re-run diagnostics.
+4. Open `flow_startup.log` for detailed startup information.
+5. Verify `node` is in PATH: `node -v`.
+6. Verify `loom_cli.js` + `pipeline.js` are next to the EXE.
+7. Manual test: `node src/loom_cli.js "ich hab zeit"`.
+
+## Language Support
+
+| Setting | Description |
+|---------|-------------|
+| Default | German (`de`) |
+| ENV | `FLOW_LANGUAGE=en` |
+| CLI | `--lang en` |
+| Hotkey | `Ctrl+Alt+Space` toggles DE ↔ EN |
+| Preset | `--en-preset en-prose-plus` (optional) |
+
+Learned exceptions are stored per language in `flow_rules.json` under
+`languages.de` / `languages.en`.
+
+## Architecture
+
 ```
-
-### Was landet im Output-Ordner?
-
-Der Build kopiert automatisch alle benoetigten Dateien neben die EXE:
-- `loom_cli.js`, `pipeline.js`, `ruleEngine.js`, `flowRulesStore.js`
-- `contextWindowRules.js`, `rules.sn.js`, `rules.sl.js`, `rules.mo.js`, `rules.pg.js`, `rules.en.js`
-- Splash-Bilder, Tray-Icons, Startsound
-
-### Neue UI-/Branding-Assets
-
-Wenn vorhanden, nutzt `FLOW_Normalizer.cs` jetzt automatisch:
-- Splash: `FLOW_SPLASH_DARK.png` / `FLOW_SPLASH_LIGHT.png`
-- Tray-Icon: `FLOW_TRAY_ICON_DARK.ico` / `FLOW_TRAY_ICON_LIGHT.ico`
-- About-Logo: `FLOW_TRAY_ICON_DARK.png` / `FLOW_TRAY_ICON_LIGHT.png`
-- Startsound: `startup.mp3`
-
-Tray-Menü enthält jetzt:
-- `Persönliches Wörterbuch` (GUI zum Add/Remove/Save von Ausnahmen)
-- `Über FLOW` (inkl. Credit: Yusuf_FX für den Startsound)
-
-## Sprachunterstützung
-
-- Standard: Deutsch (`de`)
-- Englisch aktivieren per Env: `FLOW_LANGUAGE=en`
-- Englisch aktivieren per CLI: `node loom_cli.js --lang en "i definately dont know"`
-- Lernen ist sprachgetrennt in `flow_rules.json` unter `languages.de` / `languages.en`.
-
-- Optionales Englisch-Preset per CLI: `node loom_cli.js --lang en --en-preset en-prose-plus "hello. i am here"`
-- Legacy-Kompatibilität: `node loom_cli.js "text" en` funktioniert weiterhin.
-
-- Multi-Token-Regeln liegen in `contextWindowRules.js` (konservative Kontextregeln, standardmäßig riskante Regeln deaktiviert).
-- Englisch-Presets: `en-core-safe` (Default) und `en-prose-plus` via `--en-preset` oder `FLOW_EN_PRESET`.
+┌─────────────────────────────────────────────────┐
+│  Windows Native Layer (C#)                      │
+│  Keyboard Hook · System Tray · WinForms Dialogs │
+└────────────────────┬────────────────────────────┘
+                     │ spawns
+┌────────────────────▼────────────────────────────┐
+│  CLI Wrapper (loom_cli.js)                      │
+│  Argument parsing · Learn commands              │
+└────────────────────┬────────────────────────────┘
+                     │ calls
+┌────────────────────▼────────────────────────────┐
+│  Pipeline (pipeline.js)                         │
+│  Language routing · Learned rules · Correction  │
+└────────────────────┬────────────────────────────┘
+                     │ delegates
+┌────────────────────▼────────────────────────────┐
+│  Rule Engine (ruleEngine.js)                    │
+│  Protected spans · Context rules                │
+│  SN → SL → MO → PG chain · Whitespace norm.    │
+└─────────────────────────────────────────────────┘
+```

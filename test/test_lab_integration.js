@@ -1,10 +1,8 @@
 const assert = require('node:assert/strict');
-const { createAppShell } = require('./AppShell');
-const { getPresetInputs } = require('./SuiteRunsPage');
-const { renderLabConsolePage, getLabConsoleModel } = require('./LabConsolePage');
-const { createRunStore } = require('./labState');
-
-const invokePipeline = (inputText) => require('./pipeline').runCorrection(inputText);
+const { createAppShell } = require('../src/AppShell');
+const { getPresetInputs } = require('../src/SuiteRunsPage');
+const { renderLabConsolePage, getLabConsoleModel } = require('../src/LabConsolePage');
+const { createRunStore } = require('../src/labState');
 
 const app = createAppShell();
 
@@ -326,20 +324,8 @@ const noSelectedIdsHtml = renderLabConsolePage(noSelectedIdsModel);
 assert.equal(noSelectedIdsHtml.includes('artifact-noselect'), true);
 
 
-// Dependency injection: labState can run with an injected normalization function
-const injectedStore = createRunStore({
-  executeNormalizationFn: (inputText) => ({
-    corrected: `INJECTED:${inputText}`,
-    rule_hits: { SN: 0, SL: 1, MO: 0, PG: 0 },
-  }),
-});
-const injectedRun = injectedStore.createRun('probe');
-assert.equal(injectedRun.corrected_text, 'INJECTED:probe');
-assert.equal(injectedRun.rule_hits_SL, 1);
-assert.equal(injectedRun.rule_hits_total, 1);
-
 // P4/P5 scaling smoke: many artifacts + comparisons should remain renderable
-const scaleStore = createRunStore({ executeNormalizationFn: invokePipeline });
+const scaleStore = createRunStore();
 for (let i = 0; i < 40; i++) {
   const input = `ich hab das gestern gelsen ${i}`;
   const run = scaleStore.createRun(input);
@@ -362,7 +348,7 @@ assert.equal(scaleHtml.includes(compareIds[0]), true);
 assert.equal(scaleHtml.includes('Protokoll:'), true);
 
 // Benchmark evaluation framework tests
-const benchStore = createRunStore({ executeNormalizationFn: invokePipeline });
+const benchStore = createRunStore();
 const baseRun = benchStore.createRun('ich hab das gestern gelsen');
 const candRun = benchStore.createRun('ich hab das gestern gelsen und dachte das');
 benchStore.verifyRun(baseRun.run_id);
@@ -587,5 +573,45 @@ const promoteDecisionAudit = benchStore.appendBenchmarkPromoteDecision({
 });
 assert.equal(promoteDecisionAudit.event_type, 'benchmark_promote_decision');
 assert.equal(promoteDecisionAudit.evaluation_id, candEvalV2.evaluation.evaluation_id);
+
+
+
+// Hardcase long-form training texts (EN + DE messy real-world prose)
+const hardcaseSamples = [
+  {
+    id: 'EN-HARD-001',
+    text: `Yesterday i tried to reconcile three customer mails, two Slack summaries, and one copied phone transcript into a single support note, and the whole thing turned into a museum of ordinary English failure. The client wrote that the enviroment in their staging area was "basicly stable", except the dashboard colours changed after refresh, the adress validator rejected a perfectly normal street, and the calender widget showed tomorow for users in Toronto but tomorrow for users in Dublin. Their wording matters, because colour and colours are not bugs when the project was intentionally localised for the UK site, while color may still appear in US marketing copy. One teammate marked these as inconsistancies, another as localisation drift, and a third person said we should just "normalize everyting". That is how teams accidentally build tiny language tyrants.
+
+There are also proper nouns lurking in the weeds. One account is named Teh River Group, which means a blind teh -> the rule would be comedy with collateral damage. Another user signed as Wether Lane Studio, and although wether is usually a typo for whether, here it is part of a legal name. A vendor email came from manuever-labs.example, which looks wrong to the eye but may still be the registered domain. The support log contains "Begining sync...", because a developer wrote the message years ago and nobody touched it since. It also contains "Transferred", "transfered", and "re-transfered" in different contexts, plus one comment that says "this is writting to cache".`,
+  },
+  {
+    id: 'DE-REAL-001',
+    text: `also ganz erlich ich weis grad selber nich ob das hier noch ne normale nachricht ist oder schon so’n halber schadensbericht lol, aber ich schreibs lieber direkt runter bevor ichs nachher wieder vergesse, weil gestern wars komplett drunter und drüber: ich wollte eig nur kurz zum kiosk, packet abholen, brot holen, dann am besten noch zur apotheke, weil die tabletten fast alle sind, und aufm rückweg tante irma anrufen, das ich sonntag warscheinlich doch nich kommen kann, alldieweil der zugplan schon wieder irgendwie komisch aussieht. daraus wurde dann natürlich so’n klassischer „ich bin mal eben 20 minuten weg“-trip von fast drei stunden, weil erstens der bus zuspät kam, zweitens ich im falschen portmonee geguckt hab und da original 2,37 drin waren, also nichmal genug für alles, und drittens mir auf halber strecke eingefallen ist, das ich den abholschein garnicht eingepackt hatte sondern der noch auffem küchentisch lag.
+
+beim kiosk selber gings weiter. ich sag „ich müsst’ n paket abholen“, sie sagt „name?“, sie findet nix und fragt dann, ob ich vieleicht die benachrichtigung dabei hab. da fiel mir wieder ein, das ich genau die vergessen hatte. später hab ich gelesen das ich ausversehen „bin mit ten drin“ geschickt hab, also danke autokorrektur.`,
+  },
+  {
+    id: 'DE-REAL-002',
+    text: `ich wollte heute eigendlich nur kurz den keller aufräumen, aber wie das immer so ist, blieb es natürlich nich dabei. erst hab ich gedacht ich sortier nur schnell die alten kartons aus, danach war ich plötzlich dabei, irgendwelche kabel zu entwirren, werkzeug neu zu ordnen und nebenbei zu überlegen, warum ich überhaupt drei fast identische schraubenzieher habe. am meisten genervt hat mich aber, dass auf fast jeder kiste irgendwas anderes draufstand. auf einer stand winter, drin waren aber verlängerungskabel, kerzenreste und ein altes blutdruckmessgerät.
+
+ich hab dann versucht, wenigstens eine sinnvolle regel einzuführen: behalten, wegwerfen, unklar. das ging ungefähr sieben minuten gut. dann fing ich an, über jeden zweiten gegenstand zu diskutieren, als wär ich mein eigener schlechter haushaltsratgeber. „das kann man doch vieleicht nochmal gebrauchen“, „nein kann man nicht“, „aber was ist wenn doch?“ – genau dieser quatsch frisst am ende die ganze zeit.`,
+  },
+];
+
+const hardcaseApp = createAppShell();
+for (const sample of hardcaseSamples) {
+  const submission = hardcaseApp.runSuiteSubmission(sample.text);
+  assert.equal(submission.message, 'Text verarbeitet.');
+  assert.ok(submission.run);
+  assert.ok(submission.run.corrected_text.length > 0);
+}
+
+assert.equal(hardcaseApp.getSuiteRuns().length, hardcaseSamples.length);
+const hardcaseRuns = hardcaseApp.getSuiteRuns();
+hardcaseRuns.forEach((run) => hardcaseApp.verifyRun(run.run_id));
+hardcaseRuns.forEach((run) => hardcaseApp.promoteRun(run.run_id, 'hardcase-user'));
+const hardcaseModel = hardcaseApp.getLabConsoleModel();
+assert.equal(hardcaseModel.promoted_artifacts.length, hardcaseSamples.length);
+assert.equal(hardcaseModel.audit_log.length, hardcaseSamples.length);
 
 console.log('LAB integration test passed.');

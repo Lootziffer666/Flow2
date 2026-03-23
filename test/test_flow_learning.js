@@ -10,7 +10,7 @@ const {
   resolveLanguage,
   resolveEnPreset,
   EMPTY_RULE_HITS,
-} = require('./pipeline');
+} = require('../src/pipeline');
 
 const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), 'flow-rules-'));
 const rulesPath = path.join(tempDir, 'flow_rules.json');

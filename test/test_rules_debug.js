@@ -1,4 +1,4 @@
-const { runNormalization } = require('./ruleEngine');
+const { runNormalization } = require('../src/ruleEngine');
 
 const checks = [
   { input: 'ich hab das', expectContains: 'habe das', label: 'PG hab -> habe' },

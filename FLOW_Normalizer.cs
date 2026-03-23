@@ -126,7 +126,8 @@ class FLOW_Normalizer
 
     private static void ShowSplashIfAvailable()
     {
-        var splashPath = ResolveSplashPath(IsDarkModePreferred());
+        var dark = IsDarkModePreferred();
+        var splashPath = ResolveSplashPath(dark);
         if (string.IsNullOrEmpty(splashPath))
             return;
 
@@ -136,7 +137,8 @@ class FLOW_Normalizer
             StartPosition = FormStartPosition.CenterScreen,
             TopMost = true,
             ShowInTaskbar = false,
-            BackColor = Color.Black,
+            BackColor = dark ? Color.Black : Color.White,
+            Opacity = 0,
             Width = 700,
             Height = 420,
         };
@@ -153,13 +155,31 @@ class FLOW_Normalizer
         };
 
         splash.Controls.Add(picture);
-
         splash.Show();
-        var until = DateTime.UtcNow.AddMilliseconds(900);
+
+        // Fade in
+        for (double opacity = 0; opacity <= 1.0; opacity += 0.05)
+        {
+            splash.Opacity = Math.Min(opacity, 1.0);
+            Application.DoEvents();
+            Thread.Sleep(12);
+        }
+        splash.Opacity = 1.0;
+
+        // Hold
+        var until = DateTime.UtcNow.AddMilliseconds(700);
         while (DateTime.UtcNow < until && splash.Visible)
         {
             Application.DoEvents();
             Thread.Sleep(15);
+        }
+
+        // Fade out
+        for (double opacity = 1.0; opacity >= 0; opacity -= 0.05)
+        {
+            splash.Opacity = Math.Max(opacity, 0);
+            Application.DoEvents();
+            Thread.Sleep(12);
         }
 
         splash.Close();
@@ -245,38 +265,146 @@ class FLOW_Normalizer
 
     private static void ShowStatusDialog()
     {
-        var status =
-            $"Hook installiert: {(hookId != IntPtr.Zero ? "Ja" : "Nein")}{Environment.NewLine}" +
-            $"Node verfügbar: {(nodeAvailable ? "Ja" : "Nein")}{Environment.NewLine}" +
-            $"Sprache: {currentLanguage}{Environment.NewLine}" +
-            $"loom_cli.js: {(File.Exists(cliPath) ? "OK" : "Fehlt")}{Environment.NewLine}" +
-            $"pipeline.js: {(File.Exists(pipelinePath) ? "OK" : "Fehlt")}{Environment.NewLine}" +
-            $"Regeldatei: {rulesPath}{Environment.NewLine}" +
-            $"Logdatei: {startupLogPath}";
+        var dark = IsDarkModePreferred();
 
-        MessageBox.Show(status, "FLOW Status", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        using var form = new Form
+        {
+            Text = "FLOW \u2013 Status",
+            Width = 440,
+            Height = 320,
+            StartPosition = FormStartPosition.CenterScreen,
+            FormBorderStyle = FormBorderStyle.FixedDialog,
+            MaximizeBox = false,
+            MinimizeBox = false,
+            BackColor = dark ? Color.FromArgb(25, 25, 25) : Color.White,
+            ForeColor = dark ? Color.White : Color.Black,
+        };
+
+        var statusItems = new[]
+        {
+            ("Hook installiert", hookId != IntPtr.Zero ? "\u2714 Ja" : "\u2718 Nein"),
+            ("Node verf\u00fcgbar", nodeAvailable ? "\u2714 Ja" : "\u2718 Nein"),
+            ("Sprache", currentLanguage.ToUpperInvariant()),
+            ("Ausl\u00f6ser", currentTriggerMode switch
+            {
+                TriggerMode.EveryParagraph => "Nach Absatz",
+                TriggerMode.EveryPeriod    => "Nach Satz",
+                _                          => "Nach jedem Wort",
+            }),
+            ("loom_cli.js", File.Exists(cliPath) ? "\u2714 OK" : "\u2718 Fehlt"),
+            ("pipeline.js", File.Exists(pipelinePath) ? "\u2714 OK" : "\u2718 Fehlt"),
+            ("Regeldatei", Path.GetFileName(rulesPath)),
+            ("Logdatei", Path.GetFileName(startupLogPath)),
+        };
+
+        var body = new TableLayoutPanel
+        {
+            Dock = DockStyle.Fill,
+            ColumnCount = 2,
+            RowCount = statusItems.Length,
+            Padding = new Padding(16),
+            AutoSize = true,
+            BackColor = form.BackColor,
+        };
+        body.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 40));
+        body.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 60));
+
+        foreach (var (label, value) in statusItems)
+        {
+            var lbl = new Label
+            {
+                Text = label,
+                Font = new Font("Segoe UI", 10, FontStyle.Bold),
+                ForeColor = form.ForeColor,
+                AutoSize = true,
+                Padding = new Padding(0, 4, 0, 4),
+            };
+            var val = new Label
+            {
+                Text = value,
+                Font = new Font("Segoe UI", 10),
+                ForeColor = dark ? Color.FromArgb(180, 200, 220) : Color.FromArgb(50, 50, 50),
+                AutoSize = true,
+                Padding = new Padding(0, 4, 0, 4),
+            };
+            body.Controls.Add(lbl);
+            body.Controls.Add(val);
+        }
+
+        form.Controls.Add(body);
+        form.ShowDialog();
     }
 
     private static void ShowShortcutsDialog()
     {
-        var text =
-            "Tastenkürzel\n" +
-            "────────────────────────────────\n\n" +
-            "Ctrl + Alt + Space\n" +
-            "    Sprache umschalten  (DE ↔ EN)\n\n" +
-            "Automatische Normalisierung\n" +
-            "    Flow korrigiert nach Leerzeichen,\n" +
-            "    Enter und Punkt automatisch.\n\n" +
-            "Tray-Icon (rechte Maustaste)\n" +
-            "    → Persönliches Wörterbuch\n" +
-            "    → Sprache wählen\n" +
-            "    → Status / Diagnose\n" +
-            "    → Regeln bearbeiten\n" +
-            "    → Log öffnen\n" +
-            "    → Über FLOW\n" +
-            "    → Beenden";
+        var dark = IsDarkModePreferred();
 
-        MessageBox.Show(text, "FLOW – Tastenkürzel", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        using var form = new Form
+        {
+            Text = "FLOW \u2013 Tastenk\u00fcrzel",
+            Width = 420,
+            Height = 340,
+            StartPosition = FormStartPosition.CenterScreen,
+            FormBorderStyle = FormBorderStyle.FixedDialog,
+            MaximizeBox = false,
+            MinimizeBox = false,
+            BackColor = dark ? Color.FromArgb(25, 25, 25) : Color.White,
+            ForeColor = dark ? Color.White : Color.Black,
+        };
+
+        var shortcuts = new[]
+        {
+            ("Ctrl + Alt + Space", "Sprache umschalten (DE \u2194 EN)"),
+            ("Leertaste / Enter / Punkt", "Normalisierung ausl\u00f6sen"),
+            ("Tray-Icon \u2192 Rechtsklick", "Men\u00fc \u00f6ffnen"),
+        };
+
+        var body = new TableLayoutPanel
+        {
+            Dock = DockStyle.Fill,
+            ColumnCount = 2,
+            RowCount = shortcuts.Length + 1,
+            Padding = new Padding(20, 24, 20, 12),
+            BackColor = form.BackColor,
+        };
+        body.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 45));
+        body.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 55));
+
+        foreach (var (key, desc) in shortcuts)
+        {
+            var keyLabel = new Label
+            {
+                Text = key,
+                Font = new Font("Segoe UI", 10, FontStyle.Bold),
+                ForeColor = dark ? Color.FromArgb(100, 170, 240) : Color.FromArgb(0, 90, 180),
+                AutoSize = true,
+                Padding = new Padding(0, 6, 0, 6),
+            };
+            var descLabel = new Label
+            {
+                Text = desc,
+                Font = new Font("Segoe UI", 10),
+                ForeColor = form.ForeColor,
+                AutoSize = true,
+                Padding = new Padding(0, 6, 0, 6),
+            };
+            body.Controls.Add(keyLabel);
+            body.Controls.Add(descLabel);
+        }
+
+        var hint = new Label
+        {
+            Text = "Der Ausl\u00f6ser-Modus kann im Tray-Men\u00fc unter \u201EAusl\u00f6ser\u201C ge\u00e4ndert werden.",
+            Font = new Font("Segoe UI", 9),
+            ForeColor = dark ? Color.FromArgb(140, 140, 140) : Color.FromArgb(120, 120, 120),
+            Dock = DockStyle.Bottom,
+            Height = 40,
+            TextAlign = ContentAlignment.MiddleCenter,
+        };
+
+        form.Controls.Add(body);
+        form.Controls.Add(hint);
+        form.ShowDialog();
     }
 
     private static void ShowAboutDialog()
@@ -290,7 +418,7 @@ class FLOW_Normalizer
 
         using var about = new Form
         {
-            Text = "Über FLOW",
+            Text = "\u00dcber FLOW",
             Width = 520,
             Height = 420,
             StartPosition = FormStartPosition.CenterScreen,
@@ -310,9 +438,19 @@ class FLOW_Normalizer
             Font = new Font("Segoe UI", 14, FontStyle.Bold),
         };
 
+        var version = new Label
+        {
+            Text = "v1.0.0",
+            Dock = DockStyle.Top,
+            Height = 20,
+            TextAlign = ContentAlignment.MiddleCenter,
+            Font = new Font("Segoe UI", 9),
+            ForeColor = dark ? Color.FromArgb(140, 140, 140) : Color.FromArgb(120, 120, 120),
+        };
+
         var credits = new Label
         {
-            Text = "Orthographische Normalisierung – systemweit\n\nStartsound: Dank an Yusuf_FX",
+            Text = "Orthographische Normalisierung \u2013 systemweit\n\nStartsound: Dank an Yusuf_FX",
             Dock = DockStyle.Bottom,
             Height = 88,
             TextAlign = ContentAlignment.MiddleCenter,
@@ -320,6 +458,7 @@ class FLOW_Normalizer
         };
 
         about.Controls.Add(title);
+        about.Controls.Add(version);
         about.Controls.Add(credits);
 
         if (!string.IsNullOrEmpty(logoPath))
@@ -339,6 +478,15 @@ class FLOW_Normalizer
 
     private static void OpenDictionaryEditor()
     {
+        var dark = IsDarkModePreferred();
+        var bgColor = dark ? Color.FromArgb(25, 25, 25) : Color.White;
+        var fgColor = dark ? Color.White : Color.Black;
+        var gridBgColor = dark ? Color.FromArgb(35, 35, 35) : Color.White;
+        var gridAltColor = dark ? Color.FromArgb(28, 28, 28) : Color.FromArgb(245, 245, 250);
+        var gridLineColor = dark ? Color.FromArgb(55, 55, 55) : Color.FromArgb(220, 220, 220);
+        var headerBgColor = dark ? Color.FromArgb(40, 40, 40) : Color.FromArgb(240, 240, 240);
+        var accentColor = dark ? Color.FromArgb(60, 130, 220) : Color.FromArgb(0, 100, 200);
+
         var rows = new BindingSource();
         foreach (var item in exceptions)
         {
@@ -347,10 +495,12 @@ class FLOW_Normalizer
 
         using var form = new Form
         {
-            Text = "FLOW – Persönliches Wörterbuch",
+            Text = "FLOW \u2013 Pers\u00f6nliches W\u00f6rterbuch",
             Width = 720,
             Height = 520,
             StartPosition = FormStartPosition.CenterScreen,
+            BackColor = bgColor,
+            ForeColor = fgColor,
         };
 
         var grid = new DataGridView
@@ -360,18 +510,70 @@ class FLOW_Normalizer
             DataSource = rows,
             AllowUserToAddRows = true,
             AllowUserToDeleteRows = true,
+            BackgroundColor = gridBgColor,
+            DefaultCellStyle = new DataGridViewCellStyle
+            {
+                BackColor = gridBgColor,
+                ForeColor = fgColor,
+                SelectionBackColor = accentColor,
+                SelectionForeColor = Color.White,
+                Font = new Font("Segoe UI", 10),
+                Padding = new Padding(4, 2, 4, 2),
+            },
+            AlternatingRowsDefaultCellStyle = new DataGridViewCellStyle
+            {
+                BackColor = gridAltColor,
+                ForeColor = fgColor,
+                SelectionBackColor = accentColor,
+                SelectionForeColor = Color.White,
+            },
+            ColumnHeadersDefaultCellStyle = new DataGridViewCellStyle
+            {
+                BackColor = headerBgColor,
+                ForeColor = fgColor,
+                Font = new Font("Segoe UI", 10, FontStyle.Bold),
+                Padding = new Padding(4),
+            },
+            EnableHeadersVisualStyles = false,
+            GridColor = gridLineColor,
+            BorderStyle = BorderStyle.None,
+            CellBorderStyle = DataGridViewCellBorderStyle.SingleHorizontal,
+            RowHeadersVisible = false,
+            AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill,
         };
 
         var panel = new FlowLayoutPanel
         {
             Dock = DockStyle.Bottom,
-            Height = 48,
+            Height = 52,
             FlowDirection = FlowDirection.RightToLeft,
-            Padding = new Padding(8),
+            Padding = new Padding(12, 8, 12, 8),
+            BackColor = bgColor,
         };
 
-        var saveButton = new Button { Text = "Speichern", Width = 110 };
-        var cancelButton = new Button { Text = "Schließen", Width = 110 };
+        var saveButton = new Button
+        {
+            Text = "Speichern",
+            Width = 120,
+            Height = 32,
+            FlatStyle = FlatStyle.Flat,
+            BackColor = accentColor,
+            ForeColor = Color.White,
+            Font = new Font("Segoe UI", 10),
+            Cursor = Cursors.Hand,
+        };
+
+        var cancelButton = new Button
+        {
+            Text = "Schlie\u00dfen",
+            Width = 120,
+            Height = 32,
+            FlatStyle = FlatStyle.Flat,
+            BackColor = bgColor,
+            ForeColor = fgColor,
+            Font = new Font("Segoe UI", 10),
+            Cursor = Cursors.Hand,
+        };
 
         saveButton.Click += (s, e) =>
         {
@@ -389,7 +591,7 @@ class FLOW_Normalizer
             exceptions = new Dictionary<string, string>(next);
             SaveRules();
             Log($"Dictionary editor saved {exceptions.Count} exception entries.");
-            MessageBox.Show("Wörterbuch gespeichert.", "FLOW", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            trayIcon.ShowBalloonTip(2000, "FLOW", $"W\u00f6rterbuch gespeichert ({exceptions.Count} Eintr\u00e4ge).", ToolTipIcon.Info);
         };
 
         cancelButton.Click += (s, e) => form.Close();
@@ -514,26 +716,128 @@ class FLOW_Normalizer
 
     private static void AskToLearn(string original, string corrected)
     {
-        var result = MessageBox.Show(
-            $"Flow hat \"{original}\" zu \"{corrected}\" korrigiert.\n\n" +
-            "Ja = Als Ausnahme merken\n" +
-            "Nein = Als Kontext-Regel merken\n" +
-            "Abbrechen = Nicht speichern",
-            "Flow lernen",
-            MessageBoxButtons.YesNoCancel,
-            MessageBoxIcon.Question
-        );
+        var dark = IsDarkModePreferred();
+        var bgColor = dark ? Color.FromArgb(30, 30, 30) : Color.FromArgb(250, 250, 250);
+        var fgColor = dark ? Color.FromArgb(230, 230, 230) : Color.FromArgb(30, 30, 30);
+        var accentColor = dark ? Color.FromArgb(60, 130, 220) : Color.FromArgb(0, 100, 200);
+        var borderColor = dark ? Color.FromArgb(55, 55, 55) : Color.FromArgb(210, 210, 210);
 
-        if (result == DialogResult.Yes)
+        var toast = new Form
+        {
+            FormBorderStyle = FormBorderStyle.None,
+            StartPosition = FormStartPosition.Manual,
+            TopMost = true,
+            ShowInTaskbar = false,
+            BackColor = bgColor,
+            ForeColor = fgColor,
+            Width = 380,
+            Height = 110,
+            Opacity = 0,
+            Padding = new Padding(1),
+        };
+
+        // Position at bottom-right of primary screen
+        var screen = Screen.PrimaryScreen.WorkingArea;
+        toast.Location = new Point(screen.Right - toast.Width - 16, screen.Bottom - toast.Height - 16);
+
+        // Thin border panel
+        var border = new Panel
+        {
+            Dock = DockStyle.Fill,
+            BackColor = bgColor,
+            Padding = new Padding(12),
+        };
+        toast.Controls.Add(border);
+        toast.Paint += (s, e) =>
+        {
+            using var pen = new Pen(borderColor, 1);
+            e.Graphics.DrawRectangle(pen, 0, 0, toast.Width - 1, toast.Height - 1);
+        };
+
+        var label = new Label
+        {
+            Text = $"\u201E{original}\u201C \u2192 \u201E{corrected}\u201C",
+            AutoSize = false,
+            Dock = DockStyle.Top,
+            Height = 28,
+            Font = new Font("Segoe UI", 9.5f),
+            ForeColor = fgColor,
+        };
+
+        var btnPanel = new FlowLayoutPanel
+        {
+            Dock = DockStyle.Bottom,
+            Height = 34,
+            FlowDirection = FlowDirection.LeftToRight,
+            Padding = new Padding(0),
+            BackColor = bgColor,
+        };
+
+        Button MakeButton(string text, int width)
+        {
+            return new Button
+            {
+                Text = text,
+                Width = width,
+                Height = 28,
+                FlatStyle = FlatStyle.Flat,
+                Font = new Font("Segoe UI", 8.5f),
+                BackColor = bgColor,
+                ForeColor = fgColor,
+                Cursor = Cursors.Hand,
+                Margin = new Padding(0, 0, 6, 0),
+            };
+        }
+
+        var btnException = MakeButton("Merken", 80);
+        btnException.BackColor = accentColor;
+        btnException.ForeColor = Color.White;
+        var btnContext = MakeButton("Kontextregel", 100);
+        var btnDismiss = MakeButton("Ignorieren", 90);
+
+        btnException.Click += (s, e) =>
         {
             exceptions[original.ToLowerInvariant()] = corrected;
             SaveRules();
-        }
-        else if (result == DialogResult.No)
+            toast.Close();
+        };
+
+        btnContext.Click += (s, e) =>
         {
             contextRules.Add(new ContextRule { Trigger = original, Replace = corrected });
             SaveRules();
+            toast.Close();
+        };
+
+        btnDismiss.Click += (s, e) => toast.Close();
+
+        btnPanel.Controls.Add(btnException);
+        btnPanel.Controls.Add(btnContext);
+        btnPanel.Controls.Add(btnDismiss);
+
+        border.Controls.Add(label);
+        border.Controls.Add(btnPanel);
+
+        // Auto-dismiss after 6 seconds
+        var timer = new System.Windows.Forms.Timer { Interval = 6000 };
+        timer.Tick += (s, e) =>
+        {
+            timer.Stop();
+            timer.Dispose();
+            if (!toast.IsDisposed) toast.Close();
+        };
+
+        toast.Show();
+        timer.Start();
+
+        // Fade in
+        for (double opacity = 0; opacity <= 1.0; opacity += 0.1)
+        {
+            toast.Opacity = Math.Min(opacity, 1.0);
+            Application.DoEvents();
+            Thread.Sleep(8);
         }
+        toast.Opacity = 1.0;
     }
 
     private static string CaptureCurrentWord()
@@ -688,25 +992,30 @@ class FLOW_Normalizer
             };
 
             var menu = new ContextMenuStrip();
-            menu.Items.Add("Persönliches Wörterbuch", null, (s, e) => OpenDictionaryEditor());
+            menu.Items.Add("Pers\u00f6nliches W\u00f6rterbuch", null, (s, e) => OpenDictionaryEditor());
 
             var languageMenu = new ToolStripMenuItem("Sprache");
             languageMenu.DropDownItems.Add("Deutsch", null, (s, e) => SetLanguage("de"));
             languageMenu.DropDownItems.Add("Englisch", null, (s, e) => SetLanguage("en"));
             menu.Items.Add(languageMenu);
 
-            var triggerMenu = new ToolStripMenuItem("Auslöser");
+            var triggerMenu = new ToolStripMenuItem("Ausl\u00f6ser");
             triggerMenu.DropDownItems.Add("Nach jedem Wort (Leerzeichen)", null, (s, e) => SetTriggerMode(TriggerMode.EveryWord));
             triggerMenu.DropDownItems.Add("Nach Satz (Punkt / Enter)",     null, (s, e) => SetTriggerMode(TriggerMode.EveryPeriod));
             triggerMenu.DropDownItems.Add("Nach Absatz (Enter)",           null, (s, e) => SetTriggerMode(TriggerMode.EveryParagraph));
             menu.Items.Add(triggerMenu);
 
-            menu.Items.Add("Tastenkürzel", null, (s, e) => ShowShortcutsDialog());
+            menu.Items.Add(new ToolStripSeparator());
+            menu.Items.Add("Tastenk\u00fcrzel", null, (s, e) => ShowShortcutsDialog());
             menu.Items.Add("Status anzeigen", null, (s, e) => ShowStatusDialog());
-            menu.Items.Add("Diagnose erneut prüfen", null, (s, e) => RunStartupSelfCheck());
+            menu.Items.Add("Diagnose erneut pr\u00fcfen", null, (s, e) => RunStartupSelfCheck());
+
+            menu.Items.Add(new ToolStripSeparator());
             menu.Items.Add("Regeln bearbeiten (flow_rules.json)", null, (s, e) => Process.Start("notepad.exe", rulesPath));
-            menu.Items.Add("Log öffnen (flow_startup.log)", null, (s, e) => Process.Start("notepad.exe", startupLogPath));
-            menu.Items.Add("Über FLOW", null, (s, e) => ShowAboutDialog());
+            menu.Items.Add("Log \u00f6ffnen (flow_startup.log)", null, (s, e) => Process.Start("notepad.exe", startupLogPath));
+
+            menu.Items.Add(new ToolStripSeparator());
+            menu.Items.Add("\u00dcber FLOW", null, (s, e) => ShowAboutDialog());
             menu.Items.Add("Beenden", null, (s, e) => Application.Exit());
             trayIcon.ContextMenuStrip = menu;
 

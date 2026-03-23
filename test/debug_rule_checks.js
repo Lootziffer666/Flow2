@@ -1,7 +1,7 @@
 // Debug-only. Kein CI-Test. Fuer Regelentwicklung.
 // Aufruf: node debug_rule_checks.js
 
-const { runNormalization } = require('./ruleEngine.js');
+const { runNormalization } = require('../src/ruleEngine.js');
 
 const checks = [
   { input: 'ich hab das', contains: 'habe das', label: 'PG: hab -> habe' },

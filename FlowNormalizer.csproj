@@ -30,6 +30,10 @@
     <None Include="src\rules.mo.js" Link="rules.mo.js" CopyToOutputDirectory="PreserveNewest" />
     <None Include="src\rules.pg.js" Link="rules.pg.js" CopyToOutputDirectory="PreserveNewest" />
     <None Include="src\rules.en.js" Link="rules.en.js" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="src\rules.gr.js" Link="rules.gr.js" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="src\rules.punct.js" Link="rules.punct.js" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="src\clauseDetector.js" Link="clauseDetector.js" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="src\confidenceFilter.js" Link="confidenceFilter.js" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
   <!-- Branding-Assets -->

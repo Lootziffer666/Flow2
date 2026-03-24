@@ -65,14 +65,14 @@ assert.ok(!klausResult.includes("Klauss"), 'GR apostroph: Klaus\' nicht zu "Klau
 
 assert.equal(
   runNormalization('die die Katze sitzt'),
-  'die Katze sitzt',
-  'GR repeat: "die die" → "die"'
+  'Die Katze sitzt',
+  'GR repeat: "die die" → "die" (+ Satzanfang-Großschreibung)'
 );
 
 assert.equal(
   runNormalization('mit mit dem Hund gehen'),
-  'mit dem Hund gehen',
-  'GR repeat: "mit mit" → "mit"'
+  'Mit dem Hund gehen',
+  'GR repeat: "mit mit" → "mit" (+ Satzanfang-Großschreibung)'
 );
 
 // --- GETRENNTSCHREIBUNG: Konnektoren ---
@@ -88,12 +88,12 @@ assert.ok(
 );
 
 assert.ok(
-  runNormalization('an statt zu warten ging er').includes('anstatt'),
+  runNormalization('an statt zu warten ging er').toLowerCase().includes('anstatt'),
   'GR getrennt: an statt → anstatt'
 );
 
 assert.ok(
-  runNormalization('auf Grund des Wetters blieben wir').includes('aufgrund'),
+  runNormalization('auf Grund des Wetters blieben wir').toLowerCase().includes('aufgrund'),
   'GR getrennt: auf Grund → aufgrund'
 );
 

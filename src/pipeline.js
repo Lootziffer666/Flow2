@@ -8,6 +8,7 @@ const {
   addContextRule,
   normalizeLanguage,
 } = require('./flowRulesStore');
+const { errorProfile } = require('./confidenceFilter');
 
 const EMPTY_RULE_HITS = Object.freeze({
   EN: 0,
@@ -130,5 +131,6 @@ module.exports = {
   resolveRulesPath,
   resolveLanguage,
   resolveEnPreset,
+  errorProfile,
   EMPTY_RULE_HITS,
 };

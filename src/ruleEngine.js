@@ -4,8 +4,11 @@ const SN_RULES = require('./rules.sn');
 const SL_RULES = require('./rules.sl');
 const MO_RULES = require('./rules.mo');
 const PG_RULES = require('./rules.pg');
+const GR_RULES = require('./rules.gr');
 const EN_RULES = require('./rules.en');
 const CONTEXT_RULES = require('./contextWindowRules');
+const { getPunctRules } = require('./rules.punct');
+const { detectClauses } = require('./clauseDetector');
 
 // Protected Spans (Code, Pfade, Namen, UI-Labels etc.)
 const PROTECTED_PATTERNS = [
@@ -180,15 +183,18 @@ function runMultiTokenNormalization(text, langOrOptions = 'de', maybeOptions = {
   });
 
   if (normalizedLang === 'de') {
+    const punct = applyRulesToUnprotectedText(source, getPunctRules('de'));
+
     const deContextRules = buildContextRules('de', options);
-    const deContext = applyRulesToUnprotectedText(source, deContextRules);
+    const deContext = applyRulesToUnprotectedText(punct.text, deContextRules);
 
     const sn = applyRulesToUnprotectedText(deContext.text, SN_RULES);
     const sl = applyRulesToUnprotectedText(sn.text, SL_RULES);
     const mo = applyRulesToUnprotectedText(sl.text, MO_RULES);
     const pg = applyRulesToUnprotectedText(mo.text, PG_RULES);
+    const gr = applyRulesToUnprotectedText(pg.text, GR_RULES);
 
-    const corrected = normalizeSentenceStarts(normalizeWhitespace(pg.text), 'de');
+    const corrected = normalizeSentenceStarts(normalizeWhitespace(gr.text), 'de');
 
     return {
       corrected,
@@ -199,13 +205,17 @@ function runMultiTokenNormalization(text, langOrOptions = 'de', maybeOptions = {
         SL: sl.hits,
         MO: mo.hits,
         PG: pg.hits,
-        total: deContext.hits + sn.hits + sl.hits + mo.hits + pg.hits,
+        GR: gr.hits,
+        PUNCT: punct.hits,
+        total: punct.hits + deContext.hits + sn.hits + sl.hits + mo.hits + pg.hits + gr.hits,
       },
     };
   }
 
+  const punct = applyRulesToUnprotectedText(source, getPunctRules('en'));
+
   const enContextRules = buildContextRules('en', options);
-  const contextResult = applyRulesToUnprotectedText(source, enContextRules);
+  const contextResult = applyRulesToUnprotectedText(punct.text, enContextRules);
   const lexicalRules = buildEnglishLexicalRules();
   const lexicalResult = applyRulesToUnprotectedText(contextResult.text, lexicalRules);
 
@@ -220,8 +230,10 @@ function runMultiTokenNormalization(text, langOrOptions = 'de', maybeOptions = {
       SL: 0,
       MO: 0,
       PG: 0,
+      GR: 0,
       CTX: contextResult.hits,
-      total: hits,
+      PUNCT: punct.hits,
+      total: hits + punct.hits,
     },
   };
 }
@@ -238,4 +250,5 @@ module.exports = {
   isProtected,
   normalizeWhitespace,
   normalizeSentenceStarts,
+  detectClauses,
 };

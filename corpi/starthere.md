@@ -1,0 +1,1 @@
+All necessary speech normalization und grammar corpi for real test patterns to harden the engine. RUEG is decompressed already (in conll) for English and German, all other files still need to be processed. litkey-Tab.xlsx is provided as divided archive to fit in GitHub's upload restrictions and needs to be extracted as a whole.

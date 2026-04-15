@@ -8,7 +8,7 @@ const {
   addContextRule,
   normalizeLanguage,
 } = require('./flowRulesStore');
-const { errorProfile } = require('@loot/shared');
+const { errorProfile } = require('@loot/loom');
 
 const EMPTY_RULE_HITS = Object.freeze({
   EN: 0,

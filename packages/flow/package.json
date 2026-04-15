@@ -1,7 +1,7 @@
 {
   "name": "@loot/flow",
   "version": "1.0.0",
-  "description": "FLOW — Deterministic orthographic normalization engine (SN -> SL -> MO -> PG -> GR)",
+  "description": "FLOW \u2014 Deterministic orthographic normalization engine (SN -> SL -> MO -> PG -> GR)",
   "main": "src/pipeline.js",
   "bin": {
     "flow": "src/loom_cli.js"
@@ -16,7 +16,7 @@
     "normalize": "node src/loom_cli.js"
   },
   "dependencies": {
-    "@loot/shared": "0.1.0"
+    "@loot/loom": "0.1.0"
   },
   "license": "UNLICENSED",
   "private": true,

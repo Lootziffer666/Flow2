@@ -1,10 +1,11 @@
 {
   "name": "loot-monorepo",
   "version": "1.0.0",
-  "description": "FLOW + SPIN + SMASH — Deterministic writing tools with shared engine",
+  "description": "FLOW + SPIN + SMASH \u2014 Deterministic writing tools with shared engine",
   "private": true,
   "workspaces": [
     "packages/shared",
+    "packages/loom",
     "packages/flow",
     "packages/spin",
     "packages/smash"

@@ -7,12 +7,12 @@ const PG_RULES = require('./rules.pg');
 const EN_RULES = require('./rules.en');
 const { getPunctRules } = require('./rules.punct');
 
-// Shared engine (@loot/shared)
+// Shared engine (@loot/loom)
 const {
   GR_RULES,
   contextWindowRules: CONTEXT_RULES,
   detectClauses,
-} = require('@loot/shared');
+} = require('@loot/loom');
 
 // Protected Spans (Code, Pfade, Namen, UI-Labels etc.)
 const PROTECTED_PATTERNS = [

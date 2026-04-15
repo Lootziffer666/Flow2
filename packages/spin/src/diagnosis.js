@@ -19,7 +19,7 @@ import {
   NORM_NEGATORS,
 } from './config.js';
 
-import { SUBORDINATING_DE } from '@loot/shared';
+import { SUBORDINATING_DE } from '@loot/loom';
 
 /**
  * Gibt den Text eines Chunks als String zurück.

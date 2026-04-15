@@ -31,6 +31,9 @@ Mit minimalen, risikoarmen Schritten vom aktuellen Zustand zu einer konsistenten
   - deterministisches Benchmark-Suite-Manifest eingeführt
   - Hash-Check für Pattern-Dateien + Bundle-Referenzierung ergänzt
   - kombinierter Gate-Lauf via `npm run gate:phase6` verfügbar
+- ✅ **Erweiterter Massentest ergänzt:**
+  - LRS-Wortpaar-Evaluation (`bench:lrs-pairs`) gegen `German_Annotation_V028.csv`
+  - Report wird nach `database/artifacts/reports/lrs_word_pairs_eval.json` geschrieben
 - ⏭️ **Nächster Schritt:** kontinuierliche Erweiterung der Benchmark-Segmente (core/regression/stress/edge)
 
 ## Phase 1 — Architektur-Naming stabilisieren (1 PR)

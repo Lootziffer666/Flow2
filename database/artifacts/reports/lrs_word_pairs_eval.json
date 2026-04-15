@@ -1,0 +1,859 @@
+{
+  "dataset": "corpora/German_Annotation_V028.csv",
+  "total_pairs": 1021,
+  "exact_matches": 185,
+  "mismatches": 836,
+  "exact_match_rate": 18.12,
+  "sample_failures": [
+    {
+      "error": "Bak",
+      "expected": "Bank",
+      "got": "Bak",
+      "type": "omission",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "Pos",
+      "expected": "Bus",
+      "got": "Pos",
+      "type": "multierror",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "Pus",
+      "expected": "Bus",
+      "got": "Pus",
+      "type": "substitution",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "Bos",
+      "expected": "Bus",
+      "got": "Bos",
+      "type": "substitution",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "Nes",
+      "expected": "Nest",
+      "got": "Nes",
+      "type": "omission",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "Lowe",
+      "expected": "L_we",
+      "got": "Lowe",
+      "type": "substitution",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "T_sch",
+      "expected": "Tisch",
+      "got": "T_sch",
+      "type": "substitution",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "Pain",
+      "expected": "Bein",
+      "got": "Pain",
+      "type": "CVVC",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "Pein",
+      "expected": "Bein",
+      "got": "Pein",
+      "type": "substitution",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "Bain",
+      "expected": "Bein",
+      "got": "Bain",
+      "type": "substitution",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "Mahterial",
+      "expected": "Material",
+      "got": "Mahterial",
+      "type": "CVCV",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "Schmiergelpapier",
+      "expected": "Schmirgelpapier",
+      "got": "Schmiergelpapier",
+      "type": "addition",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "Bleischtôft",
+      "expected": "Bleistift",
+      "got": "Bleischtôft",
+      "type": "multierror",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "Bleischtift",
+      "expected": "Bleistift",
+      "got": "Bleischtift",
+      "type": "addition",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "Bleistôft",
+      "expected": "Bleistift",
+      "got": "Bleistôft",
+      "type": "substitution",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "Holzbret",
+      "expected": "Holzbrett",
+      "got": "Holzbret",
+      "type": "omission",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "Schmiergeln",
+      "expected": "schmirgeln",
+      "got": "Schmiergeln",
+      "type": "CCCCVC",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "schmiergeln",
+      "expected": "schmirgeln",
+      "got": "Schmiergeln",
+      "type": "addition",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "wen",
+      "expected": "wenn",
+      "got": "Wen",
+      "type": "omission",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "gehmacht",
+      "expected": "gemacht",
+      "got": "Gehmacht",
+      "type": "CVCVCCC",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "undmale",
+      "expected": "und male",
+      "got": "Undmale",
+      "type": "split_in",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "glôckliech",
+      "expected": "glôcklich",
+      "got": "Glôckliech",
+      "type": "addition",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "schwirig",
+      "expected": "schwierig",
+      "got": "Schwirig",
+      "type": "omission",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "hupschrauber",
+      "expected": "Hubschrauber",
+      "got": "Hupschrauber",
+      "type": "multierror",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "Hupschrauber",
+      "expected": "Hubschrauber",
+      "got": "Hupschrauber",
+      "type": "substitution",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "seies",
+      "expected": "eines",
+      "got": "Seies",
+      "type": "multierror",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "eies",
+      "expected": "eines",
+      "got": "Eies",
+      "type": "omission",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "seines",
+      "expected": "eines",
+      "got": "Seines",
+      "type": "addition",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "Edie",
+      "expected": "Idee",
+      "got": "Edie",
+      "type": "multierror",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "Idie",
+      "expected": "Idee",
+      "got": "Idie",
+      "type": "substitution",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "Edee",
+      "expected": "Idee",
+      "got": "Edee",
+      "type": "substitution",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "Olt",
+      "expected": "Holz",
+      "got": "Olt",
+      "type": "multierror",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "Holt",
+      "expected": "Holz",
+      "got": "Holt",
+      "type": "substitution",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "Olz",
+      "expected": "Holz",
+      "got": "Olz",
+      "type": "CVCC",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "sihst",
+      "expected": "siehst",
+      "got": "Sihst",
+      "type": "omission",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "dier",
+      "expected": "dir",
+      "got": "Dier",
+      "type": "addition",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "fôrt",
+      "expected": "fôhrt",
+      "got": "Fôrt",
+      "type": "omission",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "endgegen",
+      "expected": "entgegen",
+      "got": "Endgegen",
+      "type": "substitution",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "f_lt",
+      "expected": "f_llt",
+      "got": "F_lt",
+      "type": "omission",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "im",
+      "expected": "ihm",
+      "got": "Im",
+      "type": "omission",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "verkôrtzt",
+      "expected": "verkôrzt",
+      "got": "Verkôrtzt",
+      "type": "addition",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "w_hre",
+      "expected": "w_re",
+      "got": "W_hre",
+      "type": "3\"",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "schnel",
+      "expected": "schnell",
+      "got": "Schnel",
+      "type": "omission",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "sbringen",
+      "expected": "springen",
+      "got": "Sbringen",
+      "type": "substitution",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "lipt",
+      "expected": "liebt",
+      "got": "Lipt",
+      "type": "multierror",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "liept",
+      "expected": "liebt",
+      "got": "Liept",
+      "type": "substitution",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "libt",
+      "expected": "liebt",
+      "got": "Libt",
+      "type": "omission",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "rend",
+      "expected": "rennt",
+      "got": "Rend",
+      "type": "multierror",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "rennd",
+      "expected": "rennt",
+      "got": "Rennd",
+      "type": "substitution",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "rent",
+      "expected": "rennt",
+      "got": "Rent",
+      "type": "omission",
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    }
+  ]
+}

@@ -20,7 +20,8 @@
     "test:smash": "npm test -w packages/smash",
     "gate:phase5": "node scripts/phase5_quality_gate.js",
     "bench:manifest": "node scripts/phase6_benchmark_hardening.js",
-    "gate:phase6": "npm run gate:phase5 && npm run bench:manifest"
+    "gate:phase6": "npm run gate:phase5 && npm run bench:manifest",
+    "bench:lrs-pairs": "node scripts/lrs_word_pairs_eval.js"
   },
   "keywords": [
     "normalization",

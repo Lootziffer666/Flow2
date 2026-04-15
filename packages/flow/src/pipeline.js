@@ -116,6 +116,7 @@ function runCorrection(text, langOrOptions) {
     applied_learning: fallbackType,
     language,
     lang: language,
+    loom_signals: normalized.loom_signals || null,
   };
 }
 

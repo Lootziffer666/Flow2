@@ -1,16 +1,17 @@
 /**
- * SPIN Diagnose-Engine — 6 Diagnosezustände
+ * SPIN Diagnose-Engine
  *
- * Prioritätsreihenfolge (hart, gemäß Spec):
- * 1. performativ_instabil — Selbstreferenz + Negation (Paradox)
- * 2. normativ_selbstannullierend — Normative Aussage annulliert sich selbst
- * 3. konfliktaer — Zwei Bewertungen, unaufgelöste Polarität
- * 4. formal_stabil_semantisch_leer — Grammatisch korrekt, Platzhalter-Subjekt
- * 5. mehrkernig — Mehrere Prädikate ohne Subordination
- * 6. stabil — Keine strukturellen Spannungen
+ * Delegiert die Strukturzustandsklassifikation an @loot/loom (diagnoseChunks).
+ * LOOM liefert 8 Zustände; SPIN re-exportiert alle für die Arbeitsoberfläche.
  *
  * Rückgabe: { state: string, note: string, signal_source: { loom: string[], spin: string[] } }
  */
+
+import {
+  diagnoseChunks as _loomDiagnoseChunks,
+  getChunkText as _loomGetChunkText,
+  STATES,
+} from '@loot/loom';
 
 import {
   META_MARKERS,
@@ -23,24 +24,14 @@ import { detectClauses } from '@loot/loom';
 
 /**
  * Gibt den Text eines Chunks als String zurück.
+ * Delegiert an @loot/loom.
+ *
  * @param {object} chunk - Chunk-Objekt mit tokenIds
  * @param {object[]} tokens - Token-Array
  * @returns {string}
  */
 export function getChunkText(chunk, tokens) {
-  return chunk.tokenIds
-    .map(tId => tokens.find(t => t.id === tId).text)
-    .join(' ');
-}
-
-/**
- * Gibt den Text eines Chunks in Kleinbuchstaben zurück.
- * @param {object} chunk
- * @param {object[]} tokens
- * @returns {string}
- */
-function chunkTextLower(chunk, tokens) {
-  return getChunkText(chunk, tokens).toLowerCase();
+  return _loomGetChunkText(chunk, tokens);
 }
 
 /**
@@ -123,7 +114,7 @@ function withSources(state, note, loomSignals = [], spinSignals = []) {
  *
  * @param {object[]} orderedChunks - Chunks in aktueller Reihenfolge
  * @param {object[]} tokens - Token-Array
- * @returns {{ state: string, note: string }}
+ * @returns {{ state: string, note: string, signals?: object }}
  */
 export function runDiagnosis(orderedChunks, tokens) {
   if (isPerformativeInstable(orderedChunks, tokens)) {

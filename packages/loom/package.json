@@ -1,0 +1,21 @@
+{
+  "name": "@loot/loom",
+  "version": "0.1.0",
+  "description": "LOOM engine alias over shared deterministic linguistic modules",
+  "main": "src/index.js",
+  "module": "index.mjs",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./src/index.js"
+    }
+  },
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@loot/shared": "0.1.0"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "dataset": "corpora/German_Annotation_V028.csv",
+  "total_pairs": 1021,
+  "strict_exact_matches": 1018,
+  "strict_exact_rate": 99.71,
+  "equivalent_matches": 1018,
+  "equivalent_match_rate": 99.71,
+  "improved_vs_input": 837,
+  "improved_vs_input_rate": 81.98,
+  "unchanged_outputs": 183,
+  "unchanged_output_rate": 17.92,
+  "mismatch_after_equivalence": 3,
+  "per_error_type": [
+    {
+      "type": "omission",
+      "total": 290,
+      "strict_match_rate": 99.31,
+      "equivalent_match_rate": 99.31,
+      "improved_rate": 99.31,
+      "unchanged_rate": 0.34
+    },
+    {
+      "type": "substitution",
+      "total": 214,
+      "strict_match_rate": 100,
+      "equivalent_match_rate": 100,
+      "improved_rate": 99.53,
+      "unchanged_rate": 0.47
+    },
+    {
+      "type": "multierror",
+      "total": 186,
+      "strict_match_rate": 99.46,
+      "equivalent_match_rate": 99.46,
+      "improved_rate": 99.46,
+      "unchanged_rate": 0.54
+    },
+    {
+      "type": "addition",
+      "total": 108,
+      "strict_match_rate": 100,
+      "equivalent_match_rate": 100,
+      "improved_rate": 100,
+      "unchanged_rate": 0
+    },
+    {
+      "type": "capital_letter",
+      "total": 108,
+      "strict_match_rate": 100,
+      "equivalent_match_rate": 100,
+      "improved_rate": 0.93,
+      "unchanged_rate": 99.07
+    },
+    {
+      "type": "no_capital_letter",
+      "total": 74,
+      "strict_match_rate": 100,
+      "equivalent_match_rate": 100,
+      "improved_rate": 1.35,
+      "unchanged_rate": 98.65
+    },
+    {
+      "type": "split_in",
+      "total": 28,
+      "strict_match_rate": 100,
+      "equivalent_match_rate": 100,
+      "improved_rate": 100,
+      "unchanged_rate": 0
+    },
+    {
+      "type": "transposition",
+      "total": 10,
+      "strict_match_rate": 100,
+      "equivalent_match_rate": 100,
+      "improved_rate": 100,
+      "unchanged_rate": 0
+    },
+    {
+      "type": "run-on",
+      "total": 3,
+      "strict_match_rate": 100,
+      "equivalent_match_rate": 100,
+      "improved_rate": 100,
+      "unchanged_rate": 0
+    }
+  ],
+  "sample_failures": [
+    {
+      "error": "flegt",
+      "expected": "pflegt",
+      "got": "fliegt",
+      "type": "omission",
+      "distance_before": 1,
+      "distance_after": 2,
+      "improved": false,
+      "unchanged": false,
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "sein",
+      "expected": "seine",
+      "got": "Sein",
+      "type": "omission",
+      "distance_before": 1,
+      "distance_after": 1,
+      "improved": false,
+      "unchanged": true,
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    },
+    {
+      "error": "sein",
+      "expected": "seinem",
+      "got": "Sein",
+      "type": "multierror",
+      "distance_before": 2,
+      "distance_after": 2,
+      "improved": false,
+      "unchanged": true,
+      "rule_hits": {
+        "EN": 0,
+        "CTX": 0,
+        "SN": 0,
+        "SL": 0,
+        "MO": 0,
+        "PG": 0,
+        "GR": 0,
+        "PUNCT": 0,
+        "total": 0
+      }
+    }
+  ]
+}

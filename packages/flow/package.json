@@ -7,7 +7,7 @@
     "flow": "src/loom_cli.js"
   },
   "scripts": {
-    "test": "node test/test_normalization.js && node test/test_ui_integration.js && node test/test_flow_learning.js && node test/test_grammar_rules.js && node test/test_phonetic_similarity.js && node test/test_confidence_filter.js && node test/test_rules_debug.js && node test/test_random_lrs_batch.js && node test/test_lab_integration.js",
+    "test": "node test/test_normalization.js && node test/test_scope_boundaries.js && node test/test_lexicon_fallback.js && node test/test_ui_integration.js && node test/test_flow_learning.js && node test/test_grammar_rules.js && node test/test_phonetic_similarity.js && node test/test_confidence_filter.js && node test/test_rules_debug.js && node test/test_random_lrs_batch.js && node test/test_lab_integration.js",
     "test:unit": "node test/test_normalization.js && node test/test_ui_integration.js && node test/test_flow_learning.js",
     "test:rules": "node test/test_rules_debug.js",
     "test:lab": "node test/test_lab_integration.js",
@@ -16,7 +16,7 @@
     "normalize": "node src/loom_cli.js"
   },
   "dependencies": {
-    "@loot/shared": "0.1.0"
+    "@loot/loom": "0.1.0"
   },
   "license": "UNLICENSED",
   "private": true,

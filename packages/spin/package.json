@@ -1,14 +1,14 @@
 {
   "name": "@loot/spin",
   "version": "0.5.0",
-  "description": "SPIN — Diagnostisches Schreibinstrument. Satzstruktur-Diagnose, Chunk-Analyse, Narrative Graph.",
+  "description": "SPIN \u2014 Diagnostisches Schreibinstrument. Satzstruktur-Diagnose, Chunk-Analyse, Narrative Graph.",
   "type": "module",
   "main": "src/index.js",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/.bin/jest 2>/dev/null || echo 'Jest not installed — run npm install first'"
+    "test": "node --experimental-vm-modules node_modules/.bin/jest 2>/dev/null || echo 'Jest not installed \u2014 run npm install first'"
   },
   "dependencies": {
-    "@loot/shared": "0.1.0"
+    "@loot/loom": "0.1.0"
   },
   "devDependencies": {
     "@jest/globals": "^30.3.0",

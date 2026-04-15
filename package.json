@@ -1,10 +1,11 @@
 {
   "name": "loot-monorepo",
   "version": "1.0.0",
-  "description": "FLOW + SPIN + SMASH — Deterministic writing tools with shared engine",
+  "description": "FLOW + SPIN + SMASH \u2014 Deterministic writing tools with shared engine",
   "private": true,
   "workspaces": [
     "packages/shared",
+    "packages/loom",
     "packages/flow",
     "packages/spin",
     "packages/smash"
@@ -13,7 +14,12 @@
     "test": "npm test --workspaces --if-present",
     "test:shared": "npm test -w packages/shared",
     "test:flow": "npm test -w packages/flow",
-    "test:spin": "npm test -w packages/spin"
+    "test:spin": "npm test -w packages/spin",
+    "test:smash": "npm test -w packages/smash",
+    "gate:phase5": "node scripts/phase5_quality_gate.js",
+    "bench:manifest": "node scripts/phase6_benchmark_hardening.js",
+    "gate:phase6": "npm run gate:phase5 && npm run bench:manifest",
+    "bench:lrs-pairs": "node scripts/lrs_word_pairs_eval.js"
   },
   "keywords": [
     "normalization",

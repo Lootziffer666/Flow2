@@ -38,3 +38,13 @@ export const META_MARKERS_DEFAULT      = loom.META_MARKERS_DEFAULT;
 export const NULL_MARKERS_DEFAULT      = loom.NULL_MARKERS_DEFAULT;
 export const NEGATIVE_POLARITY_DEFAULT = loom.NEGATIVE_POLARITY_DEFAULT;
 export const NORM_NEGATORS_DEFAULT     = loom.NORM_NEGATORS_DEFAULT;
+
+// @loot/shared re-exports (LOOM is a superset of shared)
+export const filterByConfidence    = loom.filterByConfidence;
+export const errorProfile          = loom.errorProfile;
+export const DEFAULT_MIN_CONFIDENCE = loom.DEFAULT_MIN_CONFIDENCE;
+export const kölnerPhonetik        = loom.kölnerPhonetik;
+export const phoneticallyEqual     = loom.phoneticallyEqual;
+export const findPhoneticMatch     = loom.findPhoneticMatch;
+export const contextWindowRules    = loom.contextWindowRules;
+export const GR_RULES              = loom.GR_RULES;

@@ -56,3 +56,14 @@ exports.META_MARKERS_DEFAULT     = markers.META_MARKERS_DEFAULT;
 exports.NULL_MARKERS_DEFAULT     = markers.NULL_MARKERS_DEFAULT;
 exports.NEGATIVE_POLARITY_DEFAULT = markers.NEGATIVE_POLARITY_DEFAULT;
 exports.NORM_NEGATORS_DEFAULT    = markers.NORM_NEGATORS_DEFAULT;
+
+// ── @loot/shared re-exports (LOOM is a superset of shared) ───────────────────
+const shared = require('@loot/shared');
+exports.filterByConfidence    = shared.filterByConfidence;
+exports.errorProfile          = shared.errorProfile;
+exports.DEFAULT_MIN_CONFIDENCE = shared.DEFAULT_MIN_CONFIDENCE;
+exports.kölnerPhonetik        = shared.kölnerPhonetik;
+exports.phoneticallyEqual     = shared.phoneticallyEqual;
+exports.findPhoneticMatch     = shared.findPhoneticMatch;
+exports.contextWindowRules    = shared.contextWindowRules;
+exports.GR_RULES              = shared.GR_RULES;

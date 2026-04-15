@@ -12,7 +12,7 @@
 import { CHUNK_TYPES, DOGMA_RULES } from './config.js';
 import { runDiagnosis, getChunkText } from './diagnosis.js';
 import { earcon } from './earcons.js';
-import { detectClauses } from '@loot/shared';
+import { detectClauses } from '@loot/loom';
 
 let tokens = [];
 let chunks = [];

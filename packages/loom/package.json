@@ -13,6 +13,9 @@
   "scripts": {
     "test": "node test/test_loom.js"
   },
+  "dependencies": {
+    "@loot/shared": "0.1.0"
+  },
   "keywords": [
     "loom",
     "chunker",

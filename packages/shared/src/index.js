@@ -4,7 +4,7 @@
  * @loot/shared — Shared Linguistic Engine
  *
  * Gemeinsame Module fuer FLOW und SPIN:
- * - clauseDetector: Satz- und Teilsatz-Analyse (Satzstruktur-Topologie)
+ * - clauseDetector: Satz- und Teilsatz-Analyse
  * - confidenceFilter: Confidence-Threshold-Filter (Constraint Grammar)
  * - phoneticSimilarity: Koelner Phonetik (Cologne Phonetics, Postel 1969)
  * - contextWindowRules: Multi-Token-Kontextregeln mit Konfidenzwerten

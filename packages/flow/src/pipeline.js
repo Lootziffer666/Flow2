@@ -105,6 +105,7 @@ function runCorrection(text, langOrOptions) {
     applied_learning: null,
     language,
     lang: language,
+    loom_signals: normalized.loom_signals || null,
   };
 }
 

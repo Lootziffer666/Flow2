@@ -1,16 +1,27 @@
 /**
- * SPIN Diagnose-Engine — 6 Diagnosezustände
+ * SPIN Diagnose-Engine
  *
- * Prioritätsreihenfolge (hart, gemäß Spec):
- * 1. performativ_instabil — Selbstreferenz + Negation (Paradox)
- * 2. normativ_selbstannullierend — Normative Aussage annulliert sich selbst
- * 3. konfliktaer — Zwei Bewertungen, unaufgelöste Polarität
- * 4. formal_stabil_semantisch_leer — Grammatisch korrekt, Platzhalter-Subjekt
- * 5. mehrkernig — Mehrere Prädikate ohne Subordination
- * 6. stabil — Keine strukturellen Spannungen
+ * Delegiert die Strukturzustandsklassifikation an @loot/loom (diagnoseChunks).
+ * LOOM liefert 8 Zustände; SPIN re-exportiert alle für die Arbeitsoberfläche.
  *
- * Rückgabe: { state: string, note: string }
+ * Zustandsliste (Priorität absteigend):
+ *   1. performativ_instabil          — Selbstreferenz + Negation (Paradox)
+ *   2. normativ_selbstannullierend   — Normative Aussage negiert sich selbst
+ *   3. konfliktaer                   — Unaufgelöste gegensätzliche Polarität
+ *   4. formal_stabil_semantisch_leer — Grammatisch korrekt, semantisch leer
+ *   5. ueberladen                    — 3+ Prädikatskerne (LOOM, neu)
+ *   6. mehrkernig                    — Mehrere Prädikate ohne Subordination
+ *   7. fragmentiert                  — Kein Prädikat erkannt (LOOM, neu)
+ *   8. stabil                        — Keine strukturellen Spannungen
+ *
+ * Rückgabe: { state: string, note: string, signals?: object }
  */
+
+import {
+  diagnoseChunks as _loomDiagnoseChunks,
+  getChunkText as _loomGetChunkText,
+  STATES,
+} from '@loot/loom';
 
 import {
   META_MARKERS,
@@ -23,135 +34,31 @@ import { SUBORDINATING_DE } from '@loot/loom';
 
 /**
  * Gibt den Text eines Chunks als String zurück.
+ * Delegiert an @loot/loom.
+ *
  * @param {object} chunk - Chunk-Objekt mit tokenIds
  * @param {object[]} tokens - Token-Array
  * @returns {string}
  */
 export function getChunkText(chunk, tokens) {
-  return chunk.tokenIds
-    .map(tId => tokens.find(t => t.id === tId).text)
-    .join(' ');
+  return _loomGetChunkText(chunk, tokens);
 }
 
 /**
- * Gibt den Text eines Chunks in Kleinbuchstaben zurück.
- * @param {object} chunk
- * @param {object[]} tokens
- * @returns {string}
- */
-function chunkTextLower(chunk, tokens) {
-  return getChunkText(chunk, tokens).toLowerCase();
-}
-
-/**
- * Bestimmt die Polarität eines Chunks (positive/negative).
- * @param {object} chunk
- * @param {object[]} tokens
- * @returns {'positive'|'negative'}
- */
-function polarity(chunk, tokens) {
-  const text = chunkTextLower(chunk, tokens);
-  return NEGATIVE_POLARITY.some(k => text.includes(k)) ? 'negative' : 'positive';
-}
-
-// --- Diagnosefunktionen ---
-
-function isPerformativeInstable(orderedChunks, tokens) {
-  const fullText = orderedChunks.map(c => chunkTextLower(c, tokens)).join(' ');
-  const hasSelfRef = META_MARKERS.some(m => fullText.includes(m));
-  const hasNegation = NULL_MARKERS.some(n => fullText.includes(n));
-  return hasSelfRef && hasNegation;
-}
-
-function isNormativeSelfAnnulling(orderedChunks, tokens) {
-  const hasNorm = orderedChunks.some(c => c.type === 'judgement.normative');
-  if (!hasNorm) return false;
-  const fullText = orderedChunks.map(c => chunkTextLower(c, tokens)).join(' ');
-  return NORM_NEGATORS.some(k => fullText.includes(k));
-}
-
-function isConflictual(orderedChunks, tokens) {
-  const norms = orderedChunks.filter(c => c.type === 'judgement.normative');
-  const socials = orderedChunks.filter(c => c.type === 'evaluation.social');
-
-  if (norms.length >= 2 && polarity(norms[0], tokens) !== polarity(norms[1], tokens)) {
-    return true;
-  }
-  if (socials.length >= 2 && polarity(socials[0], tokens) !== polarity(socials[1], tokens)) {
-    return true;
-  }
-  return false;
-}
-
-function isFormallyStableSemanticallyEmpty(orderedChunks, tokens) {
-  const subject = orderedChunks.find(c => c.type === 'core.subject');
-  if (!subject) return false;
-  const subjectText = chunkTextLower(subject, tokens).trim();
-  if (['es', 'dies', 'das'].includes(subjectText)) {
-    const hasConcrete = orderedChunks.some(c =>
-      ['core.object', 'state'].includes(c.type)
-    );
-    return !hasConcrete;
-  }
-  return false;
-}
-
-function isMulticore(orderedChunks, tokens) {
-  const predicates = orderedChunks.filter(c => c.type === 'core.predicate');
-  if (predicates.length <= 1) return false;
-  const subordinated = predicates.some(p => {
-    const text = chunkTextLower(p, tokens);
-    return [...SUBORDINATING_DE].some(k => text.includes(k));
-  });
-  return !subordinated;
-}
-
-/**
- * Führt die Diagnose auf geordneten Chunks durch.
- * Prioritätsreihenfolge gemäß Spec (hart).
+ * Führt die Strukturdiagnose auf geordneten Chunks durch.
+ *
+ * Übergibt SPIN-lokale Marker (aus config.js) an LOOMs diagnoseChunks,
+ * sodass die Diagnose die SPIN-spezifischen Markerlisten verwendet.
  *
  * @param {object[]} orderedChunks - Chunks in aktueller Reihenfolge
  * @param {object[]} tokens - Token-Array
- * @returns {{ state: string, note: string }}
+ * @returns {{ state: string, note: string, signals?: object }}
  */
 export function runDiagnosis(orderedChunks, tokens) {
-  if (isPerformativeInstable(orderedChunks, tokens)) {
-    return {
-      state: 'performativ_instabil',
-      note: 'Der Satz referenziert auf seine eigene Unmöglichkeit. Selbstreferenz und Auflösung gleichzeitig.',
-    };
-  }
-
-  if (isNormativeSelfAnnulling(orderedChunks, tokens)) {
-    return {
-      state: 'normativ_selbstannullierend',
-      note: 'Eine normative Aussage wird im gleichen Satz durch sich selbst außer Kraft gesetzt.',
-    };
-  }
-
-  if (isConflictual(orderedChunks, tokens)) {
-    return {
-      state: 'konfliktaer',
-      note: 'Zwei Bewertungen mit entgegengesetzter Polarität stehen unaufgelöst nebeneinander.',
-    };
-  }
-
-  if (isFormallyStableSemanticallyEmpty(orderedChunks, tokens)) {
-    return {
-      state: 'formal_stabil_semantisch_leer',
-      note: 'Der Satz ist grammatisch korrekt, aber das Subjekt ist ein Platzhalter ohne externe Referenz.',
-    };
-  }
-
-  if (isMulticore(orderedChunks, tokens)) {
-    return {
-      state: 'mehrkernig',
-      note: 'Mehrere gleichrangige Prädikatskerne ohne Subordination identifiziert.',
-    };
-  }
-
-  return {
-    state: 'stabil',
-    note: 'Keine strukturellen Spannungen erkannt.',
-  };
+  return _loomDiagnoseChunks(orderedChunks, tokens, {
+    meta:     META_MARKERS,
+    null:     NULL_MARKERS,
+    negative: NEGATIVE_POLARITY,
+    norm:     NORM_NEGATORS,
+  });
 }

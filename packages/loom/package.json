@@ -1,7 +1,7 @@
 {
   "name": "@loot/loom",
   "version": "0.1.0",
-  "description": "LOOM — Strukturelle Verarbeitungs- und Diagnoseschicht. Gemeinsame Interpretationslogik für FLOW, SPIN und SMASH.",
+  "description": "LOOM engine alias over shared deterministic linguistic modules",
   "main": "src/index.js",
   "module": "index.mjs",
   "exports": {
@@ -10,25 +10,12 @@
       "require": "./src/index.js"
     }
   },
-  "scripts": {
-    "test": "node test/test_loom.js"
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=18.0.0"
   },
   "dependencies": {
     "@loot/shared": "0.1.0"
-  },
-  "keywords": [
-    "loom",
-    "chunker",
-    "structural-analysis",
-    "clause-detection",
-    "signal-layer",
-    "german",
-    "english",
-    "deterministic"
-  ],
-  "license": "UNLICENSED",
-  "private": true,
-  "engines": {
-    "node": ">=18.0.0"
   }
 }

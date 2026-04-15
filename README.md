@@ -15,7 +15,7 @@ Nicht-generatives Schreibökosystem für **Reparatur**, **Strukturwahrnehmung** 
 | **LOOM** | Sprach- und Strukturengine | Womit habe ich es strukturell zu tun? |
 | **FLOW** | Reparatur- und Normalisierungsschicht | Wo stört Oberflächenreibung das Schreiben? |
 | **SPIN** | Arbeitsoberfläche für Ausdruck & Leselast | Wo kippen Rhythmus, Last, Wiederholung, Struktur? |
-| **SMASH** | Entblockungsschicht | Wie komme ich aus Stillstand zurück in Handlung? |
+| **SMASH** | Entblockungsschicht für Schreibfähigkeit | Wie komme ich aus Stillstand zurück in Handlung, ohne Textübernahme? |
 
 ---
 
@@ -34,7 +34,7 @@ packages/shared  (= LOOM-Kern, aktuell)
 
 packages/flow    (Normalisierung, SN→SL→MO→PG + Runtime/Lab)
 packages/spin    (Ausdrucks- und Strukturwahrnehmung)
-packages/smash   (Mikrointerventionen gegen Blockade)
+packages/smash   (Mikrointerventionen gegen Blockade, mit schneller Rückführung in Text)
 ```
 
 ---

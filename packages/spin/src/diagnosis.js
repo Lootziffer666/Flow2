@@ -30,8 +30,7 @@ import {
   NORM_NEGATORS,
 } from './config.js';
 
-// Re-export STATES so SPIN UI code can reference canonical state names
-export { STATES };
+import { SUBORDINATING_DE } from '@loot/loom';
 
 /**
  * Gibt den Text eines Chunks als String zurück.

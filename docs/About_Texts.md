@@ -32,5 +32,4 @@ SPIN ist die operative Arbeitsoberfläche für Ausdruck und Strukturwahrnehmung.
 
 ## SMASH About
 
-SMASH ist die Entblockungsschicht. Kurze, gezielte Interventionen helfen dabei, von Stillstand zurück in Handlung zu kommen. SMASH ersetzt keinen Schreibprozess, sondern öffnet den Rückweg in ihn.
-
+SMASH ist die Entblockungsschicht für Schreibfähigkeit statt Textproduktion. Kurze, gezielte Mikrointerventionen helfen dabei, festgefahrene Zustände aufzubrechen und schnell in echte Schreibhandlung zurückzukehren. SMASH ersetzt keinen Schreibprozess und übernimmt keine Autorschaft.

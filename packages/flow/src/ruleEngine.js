@@ -7,17 +7,12 @@ const PG_RULES = require('./rules.pg');
 const EN_RULES = require('./rules.en');
 const { getPunctRules } = require('./rules.punct');
 
-// LOOM engine (@loot/loom) — superset of shared
+// Shared engine (@loot/loom)
 const {
   GR_RULES,
   contextWindowRules: CONTEXT_RULES,
   detectClauses,
-  diagnoseText,
-  flowSignals,
 } = require('@loot/loom');
-
-// LOOM structural signals — used to modulate context-rule confidence
-const { diagnoseText, flowSignals } = require('@loot/loom');
 
 // Protected Spans (Code, Pfade, Namen, UI-Labels etc.)
 const PROTECTED_PATTERNS = [

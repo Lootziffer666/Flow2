@@ -3,6 +3,15 @@
 ## Ziel
 Mit minimalen, risikoarmen Schritten vom aktuellen Zustand zu einer konsistenten LOOM-first Architektur.
 
+## Ausführungsstatus
+
+- ✅ **Phase 1 umgesetzt (Naming/Imports):**
+  - `@loot/loom` als Alias-Package eingeführt
+  - Workspaces um `packages/loom` erweitert
+  - FLOW/SPIN-Imports und Dependencies auf `@loot/loom` umgestellt
+  - `npm run test:shared` und `npm run test:flow` laufen grün
+- ⏭️ **Nächster Schritt:** Phase 2 (FLOW strikt begrenzen)
+
 ## Phase 1 — Architektur-Naming stabilisieren (1 PR)
 
 1. `@loot/loom` als Alias über `packages/shared` einführen.
@@ -47,4 +56,3 @@ Mit minimalen, risikoarmen Schritten vom aktuellen Zustand zu einer konsistenten
 1. **Naming/Imports zuerst** (niedriges Risiko, hohe Klärung).
 2. **Dann Verantwortungsgrenzen in Code** (FLOW/SPIN).
 3. **Dann SMASH-Integration** (erst wenn Signale stabil).
-

@@ -1,7 +1,8 @@
 import importlib.util, json, sqlite3, zipfile, sys
 from pathlib import Path
 
-SPEC = importlib.util.spec_from_file_location("cp", Path("tools/corpus_pipeline.py"))
+BASE_DIR = Path(__file__).resolve().parents[1]
+SPEC = importlib.util.spec_from_file_location("cp", BASE_DIR / "tools" / "corpus_pipeline.py")
 cp = importlib.util.module_from_spec(SPEC)
 sys.modules[SPEC.name] = cp
 SPEC.loader.exec_module(cp)
@@ -68,7 +69,8 @@ def test_benchmark_harness_smoke(tmp_path: Path):
     """)
     con.commit(); con.close()
     out = tmp_path / "bench.json"
-    code = cp.os.system(f"node tools/benchmark_flow_spin.mjs {db} {out}")
+    benchmark_tool = cp.ROOT / "tools" / "benchmark_flow_spin.mjs"
+    code = cp.os.system(f"node {benchmark_tool} {db} {out}")
     assert code == 0
     data = json.loads(out.read_text())
     assert data["status"] in {"executed", "not executed"}

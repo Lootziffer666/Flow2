@@ -1,15 +1,26 @@
 import fs from 'fs';
-import sqlite3 from 'sqlite3';
-import { open } from 'sqlite';
-import { runCorrection } from '../pipeline.js';
+import path from 'path';
+import { createRequire } from 'module';
+import { DatabaseSync } from 'node:sqlite';
 
-const [dbPath, outPath] = process.argv.slice(2);
+const require = createRequire(import.meta.url);
+const { runCorrection } = require('../../packages/flow/src/pipeline.js');
+
+const [dbArg, outArg] = process.argv.slice(2);
+const dbPath = dbArg ? path.resolve(process.cwd(), dbArg) : null;
+const outPath = outArg ? path.resolve(process.cwd(), outArg) : null;
 
 const normalize = (t) => (t || '').trim().toLowerCase();
 
 async function main() {
-  const db = await open({ filename: dbPath, driver: sqlite3.Database });
-  const rows = await db.all(`SELECT id,input_text,expected_text FROM samples WHERE expected_text!='' LIMIT 80`);
+  if (!dbPath || !outPath) {
+    throw new Error('Usage: node database/tools/benchmark_flow_spin.mjs <dbPath> <outPath>');
+  }
+
+  const db = new DatabaseSync(dbPath, { readonly: true });
+  const rows = db
+    .prepare(`SELECT id,input_text,expected_text FROM samples WHERE expected_text!='' LIMIT 80`)
+    .all();
   if (!rows.length) {
     fs.writeFileSync(outPath, JSON.stringify({ status: 'not executed', reason: 'no samples', cases: 0 }, null, 2));
     return;
@@ -34,7 +45,7 @@ async function main() {
     failures: failures.slice(0, 25),
   };
   fs.writeFileSync(outPath, JSON.stringify(out, null, 2));
-  await db.close();
+  db.close();
 }
 
 main().catch((e) => {

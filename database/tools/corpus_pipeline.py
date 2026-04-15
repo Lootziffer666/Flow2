@@ -231,7 +231,8 @@ def generate_patterns(db: Path):
 
 
 def benchmark():
-    cmd = f"node tools/benchmark_flow_spin.mjs {DB_PATH} {BENCH_JSON}"
+    tool = ROOT / "tools" / "benchmark_flow_spin.mjs"
+    cmd = f"node {tool} {DB_PATH} {BENCH_JSON}"
     return os.system(cmd)
 
 

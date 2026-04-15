@@ -16,13 +16,21 @@ export { earcon } from './earcons.js';
 
 export { initSpin, parseSentence } from './ui.js';
 
-// Shared Engine (@loot/shared) — ehemals ./grammar/
+// LOOM Engine (@loot/loom) — strukturelle Analyse + Shared-Engine-Superset
 export {
   detectClauses,
   splitSentences,
   GR_RULES,
   contextWindowRules,
-} from '@loot/shared';
+  // LOOM structural API
+  STATES,
+  diagnoseText,
+  diagnoseFullText,
+  chunkSentence,
+  chunkText,
+  spinSignals,
+  deriveSignals,
+} from '@loot/loom';
 
 // SPIN-lokale Module (noch nicht in Shared)
 export {

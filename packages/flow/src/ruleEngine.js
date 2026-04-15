@@ -7,12 +7,14 @@ const PG_RULES = require('./rules.pg');
 const EN_RULES = require('./rules.en');
 const { getPunctRules } = require('./rules.punct');
 
-// Shared engine (@loot/shared)
+// LOOM engine (@loot/loom) — superset of shared
 const {
   GR_RULES,
   contextWindowRules: CONTEXT_RULES,
   detectClauses,
-} = require('@loot/shared');
+  diagnoseText,
+  flowSignals,
+} = require('@loot/loom');
 
 // Protected Spans (Code, Pfade, Namen, UI-Labels etc.)
 const PROTECTED_PATTERNS = [
@@ -157,17 +159,25 @@ function buildEnglishPresetContextRules(options = {}) {
     }));
 }
 
+function confidenceThresholdFor(hint) {
+  if (hint === 'low') return 0.90;
+  if (hint === 'medium') return 0.70;
+  return 0.0;
+}
+
 function buildContextRules(lang, options = {}) {
   const langValue = String(lang || 'de').toLowerCase();
+  const minConf = confidenceThresholdFor(options.confidenceHint);
 
   const baseContext = CONTEXT_RULES
     .filter((rule) => rule && (rule.lang === langValue || rule.lang === 'both'))
-    .filter((rule) => rule.disabledByDefault !== true);
+    .filter((rule) => rule.disabledByDefault !== true)
+    .filter((rule) => (rule.confidence ?? 1.0) >= minConf);
 
   if (langValue !== 'en') return baseContext;
 
   const enPresetContext = buildEnglishPresetContextRules(options);
-  return [...baseContext, ...enPresetContext];
+  return [...baseContext, ...enPresetContext.filter((rule) => (rule.confidence ?? 1.0) >= minConf)];
 }
 
 function runMultiTokenNormalization(text, langOrOptions = 'de', maybeOptions = {}) {
@@ -186,10 +196,23 @@ function runMultiTokenNormalization(text, langOrOptions = 'de', maybeOptions = {
     isProtected(token);
   });
 
+  // Compute LOOM structural signals for confidence-gated context rules.
+  let loomDiag = null;
+  let loomSig = null;
+  try {
+    loomDiag = diagnoseText(source, normalizedLang);
+    loomSig = flowSignals(loomDiag, normalizedLang);
+  } catch (_) {
+    // LOOM signals are best-effort; never block normalization.
+  }
+  const enrichedOptions = loomSig
+    ? { ...options, confidenceHint: loomSig.confidenceHint }
+    : options;
+
   if (normalizedLang === 'de') {
     const punct = applyRulesToUnprotectedText(source, getPunctRules('de'));
 
-    const deContextRules = buildContextRules('de', options);
+    const deContextRules = buildContextRules('de', enrichedOptions);
     const deContext = applyRulesToUnprotectedText(punct.text, deContextRules);
 
     const sn = applyRulesToUnprotectedText(deContext.text, SN_RULES);
@@ -213,12 +236,13 @@ function runMultiTokenNormalization(text, langOrOptions = 'de', maybeOptions = {
         PUNCT: punct.hits,
         total: punct.hits + deContext.hits + sn.hits + sl.hits + mo.hits + pg.hits + gr.hits,
       },
+      loom_signals: loomSig || null,
     };
   }
 
   const punct = applyRulesToUnprotectedText(source, getPunctRules('en'));
 
-  const enContextRules = buildContextRules('en', options);
+  const enContextRules = buildContextRules('en', enrichedOptions);
   const contextResult = applyRulesToUnprotectedText(punct.text, enContextRules);
   const lexicalRules = buildEnglishLexicalRules();
   const lexicalResult = applyRulesToUnprotectedText(contextResult.text, lexicalRules);
@@ -239,6 +263,7 @@ function runMultiTokenNormalization(text, langOrOptions = 'de', maybeOptions = {
       PUNCT: punct.hits,
       total: hits + punct.hits,
     },
+    loom_signals: loomSig || null,
   };
 }
 

@@ -2,7 +2,10 @@
   "name": "@loot/smash",
   "version": "0.1.0",
   "description": "SMASH — Schreibblockaden-Brecher. Gezielte Mikro-Interventionen statt Textgenerierung.",
-  "scripts": {},
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/test_signal_bridge.js"
+  },
   "license": "UNLICENSED",
   "private": true
 }

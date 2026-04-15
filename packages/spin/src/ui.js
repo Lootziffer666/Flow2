@@ -12,7 +12,7 @@
 import { CHUNK_TYPES, DOGMA_RULES } from './config.js';
 import { runDiagnosis, getChunkText } from './diagnosis.js';
 import { earcon } from './earcons.js';
-import { detectClauses } from '@loot/shared';
+import { detectClauses } from '@loot/loom';
 
 let tokens = [];
 let chunks = [];
@@ -222,7 +222,9 @@ function displayDiagnosis(diag) {
   const tag = document.getElementById('diagnosis-tag');
   tag.textContent = diag.state.replace(/_/g, ' ');
   tag.className = `inline-block px-3 py-1 text-xs font-mono uppercase border rounded-full diagnosis-${diag.state}`;
-  document.getElementById('diagnosis-notes').innerHTML = `<li>${diag.note}</li>`;
+  const loomSources = (diag.signal_source?.loom || []).join(', ') || '—';
+  const spinSources = (diag.signal_source?.spin || []).join(', ') || '—';
+  document.getElementById('diagnosis-notes').innerHTML = `<li>${diag.note}</li><li>Signale · LOOM: ${loomSources} · SPIN: ${spinSources}</li>`;
 }
 
 function showToast(msg) {

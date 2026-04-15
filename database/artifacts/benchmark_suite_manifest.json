@@ -1,0 +1,48 @@
+{
+  "suite_id": "flow_spin_patterns",
+  "suite_version": 1,
+  "files": [
+    {
+      "name": "adversarial_edge_cases.md",
+      "bytes": 1623,
+      "sha256": "85d1e6b4ccd42b7a1b2aa3d822a809fa326651a2c7bff03ebcc252ef41b422a6"
+    },
+    {
+      "name": "code_switching.md",
+      "bytes": 2560,
+      "sha256": "eb2de29dc18a74950d8d58c49c92ad3ca96bbb378c94d2e8a670273500ae6c39"
+    },
+    {
+      "name": "colloquial_variants.md",
+      "bytes": 2249,
+      "sha256": "d2b6dcf914dd6bd695705e4f790a4d1d9ab8759a85659673c6f098709198aa24"
+    },
+    {
+      "name": "grammar_robustness.md",
+      "bytes": 2995,
+      "sha256": "b2adbd79ab78067731e8acf9177d74b0f5e53b0ccdbaf3bc4bb1aac191f0456d"
+    },
+    {
+      "name": "noisy_speech.md",
+      "bytes": 3349,
+      "sha256": "ea161951aa4e62e4de325c5c2b8b7c278456c01fdc9072f916c639f52a94363e"
+    },
+    {
+      "name": "normalization.md",
+      "bytes": 3384,
+      "sha256": "84322203d689f60241fa56bc8e2a73be496a538a88d54d907e44885bbeb3a838"
+    },
+    {
+      "name": "punctuation_restoration.md",
+      "bytes": 3147,
+      "sha256": "fc1b555bdc38548f10e3aeb69cbf2671fe6c399109acd29fd6988b17299dea9f"
+    },
+    {
+      "name": "regression_cases.md",
+      "bytes": 720,
+      "sha256": "881108919d1ecbb9254039c64d264b65f94881eba2520b0d06747fbbd2e55ae9"
+    }
+  ],
+  "bundle_sha256": "9e9fb34974889dbdabb035a9441131a7413f2433e1540d819f660914e8027150",
+  "suite_hash": "69a72e83eb2627f697fa66f6f360d3628648ad9d42da52d8f026a408c930af16"
+}

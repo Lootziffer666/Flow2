@@ -101,3 +101,61 @@
 - Logs remain append-only.
 - Rollback creates new entries; it does not modify history.
 - Reproducibility preserved by fixed dataset versions and deterministic engine behavior.
+
+---
+
+# Operativer Merge-Gate (Phase 5)
+
+Ab sofort ist der Gate-Lauf im Repo als ausführbarer Check hinterlegt.
+
+## Pflichtkommando vor Merge
+
+```bash
+npm run gate:phase5
+```
+
+## Was der Gate-Lauf prüft
+
+1. **Functional Gate**
+   - `test:shared`
+   - `test:flow`
+   - `test:smash`
+2. **Determinism Gate**
+   - identische Eingabe liefert identisches `corrected`, `rule_hits`, `scope`, `applied_stages`
+3. **Regression Gate**
+   - no-change Samples bleiben unverändert
+   - bekannte Fehlerfälle werden weiterhin korrigiert
+4. **Snapshot + Audit Gate**
+   - promoted snapshots bleiben unverändert
+   - Audit-Chain bleibt append-only konsistent
+
+Die technische Umsetzung liegt in:
+
+- `scripts/phase5_quality_gate.js`
+
+---
+
+# Phase 6 — Benchmark-Hardening auf Datensatzebene
+
+Zusätzlich zum Merge-Gate wird die Benchmark-Suite selbst als unveränderliche Referenz gehasht.
+
+## Pflichtchecks
+
+```bash
+npm run bench:manifest
+npm run gate:phase6
+```
+
+## Regeln
+
+1. Alle Pattern-Dateien unter `database/artifacts/test_patterns_flow_spin/` werden deterministisch gehasht.
+2. Die Bundle-Datei `test_patterns_flow_spin_bundle.md` muss alle Pattern-Dateinamen referenzieren.
+3. Die Datei `database/artifacts/benchmark_suite_manifest.json` ist die Referenz für:
+   - `files[].sha256`
+   - `bundle_sha256`
+   - `suite_hash`
+4. Bei Drift schlägt der Check fehl; Update nur bewusst via:
+
+```bash
+node scripts/phase6_benchmark_hardening.js --write
+```

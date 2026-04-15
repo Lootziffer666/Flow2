@@ -1,0 +1,195 @@
+# text = ﻿Guten Tag
+1	﻿Guten	﻿Guten	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	2	mod	_	_
+2	Tag	Tag	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	0	root	_	_
+
+# text = ich wollte von dem Fall 16 berichten , den ich gerade beobachtet habe .
+1	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	wollte	wollen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	von	von	ADP	_	_	7	comp:obl	_	_
+4	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Fall	Fall	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	3	comp:obj	_	_
+6	16	@card@	NUM	_	NumType=Card	5	appos	_	_
+7	berichten	berichten	VERB	_	Number=Plur|Person=3|VerbForm=Inf	2	comp:aux	_	_
+8	,	,	PUNCT	_	_	2	punct	_	_
+9	den	die	PRON	_	Case=Acc|PronType=Rel	12	comp:obj	_	_
+10	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	subj	_	_
+11	gerade	gerade	ADV	_	_	13	mod	_	_
+12	beobachtet	beobachten	VERB	_	Tense=Past|VerbForm=Part	13	comp:aux	_	_
+13	habe	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	_
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Ein Mann wollte mit einer Frau neben ihm , die mit einem Kinderwagen war über die Straße laufen .
+1	Ein	ein	DET	_	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Mann	Mann	NOUN	_	Case=Nom|Gender=Masc,Neut|Number=Sing	3	subj	_	_
+3	wollte	wollen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	mit	mit	ADP	_	_	3	mod	_	_
+5	einer	ein	DET	_	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Frau	Frau	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	4	comp:obj	_	_
+7	neben	neben	VERB	_	Number=Plur|Person=3|VerbForm=Fin	6	mod	_	_
+8	ihm	er	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	comp:obl	_	_
+9	,	,	PUNCT	_	_	3	punct	_	_
+10	die	die	PRON	_	Case=Nom|PronType=Rel	14	subj	_	_
+11	mit	mit	ADP	_	_	14	comp:pred	_	_
+12	einem	ein	DET	_	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Kinderwagen	Kinderwagen	NOUN	_	Case=Dat|Number=Plur	11	comp:obj	_	_
+14	war	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	mod@relcl	_	_
+15	über	über	ADP	_	_	18	comp:obl	_	_
+16	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	15	comp:obj	_	_
+18	laufen	laufen	VERB	_	VerbForm=Inf	3	comp:aux	_	_
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Er hatte einen Ball in der Hand .
+1	Er	er	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+2	hatte	haben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	einen	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Ball	Ball	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	2	comp:obj	_	_
+5	in	in	ADP	_	_	2	mod	_	_
+6	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Hand	Hand	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	5	comp:obj	_	_
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Während er und die Frau neben ihm mit dem Kind über die Straße gehen wollten ist der Ball ihm aus der Hand gefallen
+1	Während	Während	SCONJ	_	_	23	mod	_	_
+2	er	er	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	subj	_	_
+3	und	und	CCONJ	_	_	5	cc	_	_
+4	die	d	DET	_	Definite=Def|PronType=Art	5	det	_	_
+5	Frau	Frau	NOUN	_	_	2	conj	_	_
+6	neben	neben	ADP	_	_	5	mod	_	_
+7	ihm	er	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	_
+8	mit	mit	ADP	_	_	5	mod	_	_
+9	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Kind	Kind	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	8	comp:obj	_	_
+11	über	über	ADP	_	_	14	comp:obl	_	_
+12	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	comp:obj	_	_
+14	gehen	gehen	VERB	_	VerbForm=Inf	15	comp:aux	_	_
+15	wollten	wollen	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	comp:obj	_	_
+16	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Ball	Ball	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	16	subj	_	_
+19	ihm	er	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	comp:obj	_	_
+20	aus	aus	ADP	_	_	23	comp:obl	_	_
+21	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Hand	Hand	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	20	comp:obj	_	_
+23	gefallen	gefallen	VERB	_	Tense=Past|VerbForm=Part	16	comp:aux	_	_
+
+# text = und eine Frau die gegenüber der Straße von den beiden Personen war , die hatte eine Einkaufstüte in der Hand und einen Hund neben sich .
+1	und	und	CCONJ	_	_	15	cc	_	_
+2	eine	eine	DET	_	Definite=Ind|PronType=Art	3	det	_	_
+3	Frau	Frau	NOUN	_	_	15	dislocated	_	_
+4	die	d	PRON	_	Case=Nom|PronType=Dem	12	subj	_	_
+5	gegenüber	gegenüber	ADP	_	_	12	comp:pred	_	_
+6	der	d	DET	_	Definite=Def|PronType=Art	7	det	_	_
+7	Straße	Straße	NOUN	_	_	5	comp:obj	_	_
+8	von	von	ADP	_	_	7	mod@poss	_	_
+9	den	d	DET	_	Case=Dat|Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+10	beiden	beide	PRON	_	Case=Dat|Number=Plur|NumType=Card|PronType=Tot	11	mod	_	_
+11	Personen	Person	NOUN	_	Case=Dat|Number=Plur	8	comp:obj	_	_
+12	war	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	mod@relcl	_	_
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	die	die	PRON	_	Case=Nom|PronType=Rel	15	subj	_	_
+15	hatte	haben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	eine	eine	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Einkaufstüte	Einkaufstüte	NOUN	_	Case=Acc|Number=Plur	15	comp:obj	_	_
+18	in	in	ADP	_	_	15	mod	_	_
+19	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Hand	Hand	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	18	comp:obj	_	_
+21	und	und	CCONJ	_	_	23	cc	_	_
+22	einen	ein	DET	_	Definite=Ind|PronType=Art	23	det	_	_
+23	Hund	Hund	NOUN	_	_	17	conj	_	_
+24	neben	neben	ADP	_	_	23	orphan	_	_
+25	sich	er|es|sie	PRON	_	Case=Acc|Person=3|PronType=Prs	24	comp:obj	_	_
+26	.	.	PUNCT	_	_	15	punct	_	_
+
+# text = Die Einkaufstüte ist heruntergefallen
+1	Die	d	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Einkaufstüte	Einkaufstüte	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	3	subj	_	_
+3	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	heruntergefallen	heruntergefallen	VERB	_	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+
+# text = und der Hund ist auf die Straße los ,
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Hund	Hund	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+4	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	auf	auf	ADP	_	_	8	comp:obl	_	_
+6	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	comp:obj	_	_
+8	los	los	ADV	_	_	4	comp:aux	_	_
+9	,	,	PUNCT	_	_	4	punct	_	_
+
+# text = der Mann ist auf die Straße zugerannt
+1	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Mann	Mann	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	auf	auf	ADP	_	_	7	comp:obl	_	_
+5	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	4	comp:obj	_	_
+7	zugerannt	zugerannt	ADJ	_	Degree=Pos|Tense=Past	3	comp:aux	_	_
+
+# text = und hat der Frau geholfen , die Lebensmittel wieder in die Tüte zu packen ,
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	hat	haben	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Frau	Frau	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	comp:obj	_	_
+5	geholfen	helfen	VERB	_	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	die	d	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Lebensmittel	Lebensmittel	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	14	comp:obj	_	_
+9	wieder	wieder	ADV	_	_	14	mod	_	_
+10	in	in	ADP	_	_	14	comp:obl	_	_
+11	die	d	DET	_	Case=Acc|Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+12	Tüte	Tüte	NOUN	_	Case=Acc|Number=Plur	10	comp:obj	_	_
+13	zu	zu	PART	_	_	5	comp:obl	_	_
+14	packen	packen	VERB	_	VerbForm=Inf	13	comp:obj	_	_
+15	,	,	PUNCT	_	_	2	punct	_	_
+
+# text = während dieses Geschehens sind zwei Autos um die Straße entlanggefahren
+1	während	während	ADP	_	_	10	mod	_	_
+2	dieses	diese	PRON	_	PronType=Dem	3	det	_	_
+3	Geschehens	Geschehen	NOUN	_	_	1	comp:obj	_	_
+4	sind	sein	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	zwei	zwei	NUM	_	NumType=Card	6	mod	_	_
+6	Autos	Auto	NOUN	_	Case=Nom|Number=Plur	4	subj	_	_
+7	um	um	ADP	_	_	10	comp:obl	_	_
+8	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	7	comp:obj	_	_
+10	entlanggefahren	entlanggefahren	VERB	_	Tense=Part|VerbForm=Part	4	comp:aux	_	_
+
+# text = und das andere Auto ist in das andere reingefahren .
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	das	d	DET	_	Definite=Def|PronType=Art	4	det	_	_
+3	andere	ander	ADJ	_	Degree=Pos	4	mod	_	_
+4	Auto	Auto	NOUN	_	_	5	subj	_	_
+5	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	in	in	ADP	_	_	9	comp:obl	_	_
+7	das	d	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	andere	ander	ADJ	_	Case=Acc|Degree=Pos|Number=Plur	6	comp:obj	_	_
+9	reingefahren	reingefahren	NOUN	_	Case=Acc|Gender=Neut|Number=Sing|Tense=Past	5	comp:aux	_	_
+10	.	.	PUNCT	_	_	5	punct	_	_
+
+# text = Der Mann der noch dabei war die Lebensmittel aufzuheben ist zu dem Unfallort gerannt
+1	Der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Mann	Mann	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	10	subj	_	_
+3	der	die	DET	_	Definite=Def|PronType=Art	6	subj	_	_
+4	noch	noch	ADV	_	_	6	mod	_	_
+5	dabei	dabei	ADV	_	_	6	comp:pred	_	_
+6	war	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	mod@relcl	_	_
+7	die	d	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Lebensmittel	Lebensmittel	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	9	comp:obj	_	_
+9	aufzuheben	aufheben	VERB	_	Number=Plur|Person=3|VerbForm=Fin	5	comp:obj	_	_
+10	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	zu	zu	ADP	_	_	14	comp:obl	_	_
+12	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Unfallort	Unfallort	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	11	comp:obj	_	_
+14	gerannt	rennen	VERB	_	Tense=Past|VerbForm=Part	10	comp:aux	_	_
+
+# text = und hat die Polizei gerufen .
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	die	d	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Polizei	Polizei	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	5	comp:obj	_	_
+5	gerufen	rufen	VERB	_	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+6	.	.	PUNCT	_	_	2	punct	_	_
+

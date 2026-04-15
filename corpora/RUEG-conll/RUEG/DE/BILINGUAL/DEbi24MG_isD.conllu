@@ -1,0 +1,97 @@
+# text = ja also hier ist gerade eben jetzt hier ein Unfall passiert
+1	ja	ja	ADV	_	_	4	discourse	_	_
+2	also	also	ADV	_	_	4	discourse	_	_
+3	hier	hier	ADV	_	_	4	mod	_	_
+4	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	gerade	gerade	ADV	_	_	4	mod	_	_
+6	eben	eben	ADV	_	_	4	mod	_	_
+7	jetzt	jetzt	ADV	_	_	4	mod	_	_
+8	hier	hier	ADV	_	_	4	mod	_	_
+9	ein	ein	NUM	_	NumType=Card	10	det	_	_
+10	Unfall	Unfall	NOUN	_	Case=Acc|Number=Sing	4	subj	_	_
+11	passiert	passieren	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	comp:aux	_	_
+
+# text = ein junger Herr hat halt eben mit seinem Ball gespielt
+1	ein	ein	DET	_	Definite=Ind|PronType=Art	3	det	_	_
+2	junger	junge	ADJ	_	Degree=Cmp,Pos	3	mod	_	_
+3	Herr	Herr	NOUN	_	_	4	subj	_	_
+4	hat	haben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	halt	halt	ADV	_	_	4	discourse	_	_
+6	eben	eben	ADV	_	_	4	mod	_	_
+7	mit	mit	ADP	_	_	10	mod	_	_
+8	seinem	sein	DET	_	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	Ball	Ball	NOUN	_	Case=Acc|Number=Sing	7	comp:obj	_	_
+10	gespielt	spielen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	comp:aux	_	_
+
+# text = der ist dann halt eben auf die Straße rübergekullert
+1	der	d	PRON	_	Case=Nom|PronType=Dem	2	subj	_	_
+2	ist	sein	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dann	dann	ADV	_	_	2	mod	_	_
+4	halt	halt	ADV	_	_	2	discourse	_	_
+5	eben	eben	ADV	_	_	2	mod	_	_
+6	auf	auf	ADP	_	_	9	comp:obl	_	_
+7	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	comp:obj	_	_
+9	rübergekullert	rüberkullern	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	comp:aux	_	_
+
+# text = daraufhin halt eben ein Hund reagiert
+1	daraufhin	daraufhin	ADV	_	_	2	mod	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	halt	halt	ADV	_	_	2	discourse	_	_
+4	eben	eben	ADV	_	_	2	mod	_	_
+5	ein	ein	NUM	_	NumType=Card	6	det	_	_
+6	Hund	Hund	NOUN	_	Case=Acc|Number=Sing	2	subj	_	_
+7	reagiert	reagieren	VERB	_	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+
+# text = der ist dann halt wollt dann eben zum Ball rennt
+1	der	d	PRON	_	Case=Nom|PronType=Dem	2	subj	_	_
+2	ist	sein	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	reparandum	_	_
+3	dann	dann	ADV	_	_	2	mod	_	_
+4	halt	halt	ADV	_	_	2	discourse	_	_
+5	wollt	wollen	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	dann	dann	ADV	_	_	5	mod	_	_
+7	eben	eben	ADV	_	_	5	mod	_	_
+8	zum	zu	PROPN	_	_	10	comp:obl	_	_
+9	Ball	Ball	PROPN	_	_	8	comp:obj	_	_
+10	rennen	rennen	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:aux	_	_
+
+# text = und da waren halt eben zwei Autos
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	da	da	ADV	_	_	3	comp:pred	_	_
+3	waren	sein	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	halt	halt	ADV	_	_	3	discourse	_	_
+5	eben	eben	ADV	_	_	3	mod	_	_
+6	zwei	zwei	NUM	_	NumType=Card	7	mod	_	_
+7	Autos	Auto	NOUN	_	_	3	subj	_	_
+
+# text = und es dadurch ist halt eben der Unfall passiert
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	es	es	PRON	_	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	_
+3	dadurch	dadurch	ADV	_	_	4	mod	_	_
+4	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	halt	halt	ADV	_	_	4	discourse	_	_
+6	eben	eben	ADV	_	_	4	mod	_	_
+7	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Unfall	Unfall	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+9	passiert	passieren	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	comp:aux	_	_
+
+# text = genau und anschließend haben sie dann eben die Polizei haben sie die Rufnummer gewählt
+1	genau	genau	ADJ	_	Degree=Pos	10	discourse	_	_
+2	und	und	CCONJ	_	_	10	cc	_	_
+3	anschließend	anschließend	ADJ	_	Degree=Pos	10	mod	_	_
+4	haben	haben	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	reparandum	_	_
+5	sie	sie	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
+6	dann	dann	ADV	_	_	4	mod	_	_
+7	eben	eben	ADV	_	_	4	mod	_	_
+8	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Polizei	Polizei	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	4	comp:obj	_	_
+10	haben	haben	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	sie	sie	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	subj	_	_
+12	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Rufnummer	Rufnummer	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	14	comp:obj	_	_
+14	gewählt	wählen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	comp:aux	_	_
+
+# text = genau
+1	genau	genau	ADJ	_	Degree=Pos	0	root	_	_
+
+

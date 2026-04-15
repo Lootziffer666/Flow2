@@ -1,0 +1,135 @@
+1	Hi	hi	PROPN	NGIRR	_	2	discourse	_	_
+2	Dicker	Dicker	PROPN	NN	_	0	root	_	_
+
+1	Hahahaha	Hahahaha	PROPN	NGONO	_	0	root	_	_
+
+1	gerade	gerade	ADV	ADV	_	4	mod	_	_
+2	am	an	ADJ	APPRART	_	7	mod	_	_
+3	Parkplatz	Parkplatz	NOUN	NN	_	2	comp:obj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Unfall	Unfall	NOUN	NN	_	4	subj	_	_
+7	passiert	passieren	VERB	VVPP	_	4	comp:aux	_	_
+
+1	:face_with_tears_of_joy:	😂	SYM	EMO	_	0	root	_	_
+
+1	Und	Und	CCONJ	KON	_	7	cc	_	_
+2	was	was	PRON	PWAV	_	5	mod	_	_
+3	für	für	ADP	APPR	_	2	fixed	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Zufall	Zufall	NOUN	NN	_	7	parataxis	_	_
+6	ich	ich	PRON	PPER	_	7	subj	_	_
+7	war	sein	VERB	VAFIN	_	0	root	_	_
+8	genau	genau	ADV	PTKIFG	_	7	mod	_	_
+9	dabei	dabei	ADV	ADV	_	7	comp:pred	_	_
+
+1	habe	haben	AUX	VAFIN	_	0	root	_	_
+2	alles	alle	PRON	PIS	_	3	comp:obj	_	_
+3	gesehen	sehen	VERB	VVPP	_	1	comp:aux	_	_
+
+1	Da	Da	ADV	ADV	_	2	mod	_	_
+2	kam	kommen	VERB	VVFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Mann	Mann	NOUN	NN	_	2	subj	_	_
+5	mit	mit	ADP	APPR	_	4	mod	_	_
+6	seiner	sein	DET	PPOSAT	_	7	det	_	_
+7	Frau	Frau	NOUN	NN	_	5	comp:obj	_	_
+
+1	Der	Der	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	hatte	haben	VERB	VAFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+6	in	in	ADP	APPR	_	3	mod	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Hand	Hand	NOUN	NN	_	6	comp:obj	_	_
+9	Was	Was	PRON	PWAV	_	13	subj	_	_
+10	auf	auf	ADP	APPR	_	13	comp:obl	_	_
+11	die	d	DET	ART	_	12	det	_	_
+12	Straße	Straße	NOUN	NN	_	10	comp:obj	_	_
+13	ging	gehen	VERB	VVFIN	_	8	mod@relcl	_	_
+
+1	Und	Und	CCONJ	KON	_	3	cc	_	_
+2	das	d	PRON	PDS	_	3	comp:obj	_	_
+3	sah	sehen	VERB	VVFIN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	3	subj	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	bellte	bellen	VERB	VVFIN	_	0	root	_	_
+3	los	los	ADV	PTKVZ	_	2	compound@prt	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+3	zum	zu	PROPN	APPRART	_	2	compound@prt	_	_
+4	Ball	Ball	PROPN	NN	_	3	comp:obj	_	_
+
+1	In	in	ADP	APPR	_	4	mod	_	_
+2	dem	d	DET	ART	_	3	det	_	_
+3	Moment	Moment	NOUN	NN	_	1	comp:obj	_	_
+4	bremste	bremsen	VERB	VVFIN	_	0	root	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Autofahrer	Autofahrer	NOUN	NN	_	4	subj	_	_
+7	schnell	schnell	ADJ	ADJD	_	4	mod	_	_
+8	um	um	ADP	KOUI	_	4	mod	_	_
+9	nicht	nicht	PART	PTKNEG	_	12	mod	_	_
+10	den	d	DET	ART	_	11	det	_	_
+11	Hund	Hund	NOUN	NN	_	12	comp:obj	_	_
+12	anzufahren	anfahren	VERB	VVIZU	_	8	comp:obj	_	_
+13	Was	Was	PRON	PWAV	_	15	subj	_	_
+14	dazu	dazu	PRON	ADV	_	15	comp:obj	_	_
+15	führte	führen	VERB	VVFIN	_	4	mod	_	_
+16	,	,	PUNCT	$,	_	4	punct	_	_
+17	dass	dass	SCONJ	KOUS	_	14	comp:obj	_	_
+18	der	d	DET	ART	_	20	det	_	_
+19	hintere	hintere	ADJ	ADJA	_	20	mod	_	_
+20	Auto	Auto	NOUN	NN	_	24	subj	_	_
+21	dem	d	DET	ART	_	23	det	_	_
+22	vorderen	vordere	ADJ	ADJA	_	23	mod	_	_
+23	Auto	Auto	NOUN	NN	_	24	comp:obj	_	_
+24	reinfuhr	reinfahren	VERB	VVFIN	_	17	comp:obj	_	_
+25	und	und	CCONJ	KON	_	29	cc	_	_
+26	nicht	nicht	PART	PTKNEG	_	29	mod	_	_
+27	rechtzeitig	rechtzeitig	ADJ	ADJD	_	29	mod	_	_
+28	bremsen	bremsen	VERB	VVINF	_	29	comp:aux	_	_
+29	konnte	können	AUX	VMFIN	_	24	conj	_	_
+
+1	Zum	Zu	NOUN	APPRART	_	3	mod	_	_
+2	Glück	Glück	NOUN	NN	_	1	comp:obj	_	_
+3	kam	kommen	VERB	VVFIN	_	0	root	_	_
+4	es	es	PRON	PPER	_	3	subj@expl	_	_
+5	nur	nur	ADV	PTKIFG	_	3	mod	_	_
+6	zum	zu	NOUN	APPRART	_	3	comp:obl	_	_
+7	Sachschaden	Sachschaden	PROPN	NN	_	6	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	keiner	kein	PRON	PIS	_	3	subj@pass	_	_
+3	wurde	werden	AUX	VAFIN	_	0	root	_	_
+4	verletzt	verletzen	VERB	VVPP	_	3	comp:aux@pass	_	_
+
+1	Die	Die	PRON	PDS	_	2	subj	_	_
+2	haben	haben	VERB	VAFIN	_	0	root	_	_
+3	jetzt	jetzt	ADV	ADV	_	2	mod	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Polizei	Polizei	NOUN	NN	_	6	comp:obj	_	_
+6	gerufen	rufen	VERB	VVPP	_	2	comp:aux	_	_
+
+1	Ich	Ich	PRON	PPER	_	2	subj	_	_
+2	stehe	stehen	VERB	VVFIN	_	0	root	_	_
+3	weiter	weiter	ADV	ADV	_	2	mod	_	_
+4	hier	hier	ADV	ADV	_	2	comp:obl	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	bleibe	bleiben	VERB	VVFIN	_	0	root	_	_
+3	noch	noch	ADV	ADV	_	2	mod	_	_
+4	als	als	ADP	KOKOM	_	2	mod	_	_
+5	Augenzeuge	Augenzeuge	NOUN	NN	_	4	comp:obj	_	_
+6	sicherheitshalber	sicherheitshalber	ADV	ADV	_	2	mod	_	_
+7	da	da	ADV	ADV	_	2	compound@prt	_	_
+
+1	Ich	Ich	PRON	PPER	_	2	subj	_	_
+2	schreibe	schreiben	VERB	VVFIN	_	0	root	_	_
+3	dir	du	PRON	PPER	_	2	comp:obj	_	_
+4	später	später	ADJ	ADV	_	2	mod	_	_
+5	nochmal	nochmal	ADV	ADV	_	2	mod	_	_
+

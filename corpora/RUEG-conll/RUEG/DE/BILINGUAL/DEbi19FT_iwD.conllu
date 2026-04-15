@@ -1,0 +1,74 @@
+1	Alter	Alter	NOUN	NE	_	0	root	_	_
+2	,	,	PUNCT	$,	_	1	punct	_	_
+
+1	hier	hier	ADV	ADV	_	2	mod	_	_
+2	ist	sein	AUX	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	PTKIFG	_	2	mod	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Unfall	Unfall	NOUN	NN	_	2	subj	_	_
+6	passiert	passieren	VERB	VVPP	_	2	comp:aux	_	_
+
+1	:O	:O	PROPN	EMO	_	0	root	_	_
+
+1	Da	Da	ADV	VVPP	_	2	comp:pred	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	so	so	ADV	PTKMA	_	5	mod	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Typ	Typ	NOUN	NN	_	2	subj	_	_
+6	mit	mit	ADP	APPR	_	5	mod	_	_
+7	einem	ein	DET	ART	_	8	det	_	_
+8	Ball	Ball	NOUN	NN	_	6	comp:obj	_	_
+9	,	,	PUNCT	$,	_	2	punct	_	_
+
+1	der	die	PRON	PDS	_	2	subj	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	ihm	er	PRON	PPER	_	7	comp:obj	_	_
+4	aus	aus	ADP	APPR	_	7	comp:obl	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Hand	Hand	NOUN	NN	_	4	comp:obj	_	_
+7	gefallen	fallen	VERB	VVPP	_	2	comp:aux	_	_
+8	und	und	CCONJ	KON	_	11	cc	_	_
+9	aufn	aufn	PROPN	APPART	_	11	comp:obl	_	_
+10	Parkplatz	Parkplatz	PROPN	NN	_	9	comp:obj	_	_
+11	gerollt	rollen	VERB	VVPP	_	2	conj	_	_
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Von	von	ADP	APPR	_	9	comp:obl	_	_
+2	der	d	DET	ART	_	4	det	_	_
+3	anderen	ander	ADJ	PIDAT	_	4	mod	_	_
+4	Seite	Seite	NOUN	NN	_	1	comp:obj	_	_
+5	kam	kommen	VERB	VVFIN	_	0	root	_	_
+6	dann	dann	ADV	ADV	_	5	mod	_	_
+7	ein	ein	NUM	ART	_	8	mod	_	_
+8	Hund	Hund	NOUN	NN	_	5	subj	_	_
+9	angerannt	anrennen	VERB	VVPP	_	5	comp:obl	_	_
+10	,	,	PUNCT	$,	_	5	punct	_	_
+11	genau	genau	ADJ	PTKIFG	_	12	mod	_	_
+12	vor	vor	ADP	APPR	_	9	mod	_	_
+13	ein	ein	DET	ART	_	14	det	_	_
+14	Auto	Auto	NOUN	NN	_	12	comp:obj	_	_
+15	.	.	PUNCT	$.	_	5	punct	_	_
+
+1	Das	d	DET	ART	_	2	det	_	_
+2	Auto	Auto	NOUN	NN	_	3	subj	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	voll	voll	ADJ	ADJD	_	5	mod	_	_
+5	abgebremst	abbremsen	ADV	VVPP	_	3	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dahinter	dahinter	ADV	ADV	_	3	comp:pred	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	noch	noch	ADV	PTKMWL	_	3	mod	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Auto	Auto	NOUN	NN	_	3	subj	_	_
+7	,	,	PUNCT	$,	_	3	punct	_	_
+
+1	das	die	PRON	PDS	_	2	subj	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	voll	voll	ADJ	PTKIFG	_	2	mod	_	_
+4	in	in	ADP	APPR	_	7	comp:obl	_	_
+5	das	d	DET	ART	_	6	det	_	_
+6	vordere	vorder	ADJ	ADJA	_	4	comp:obj	_	_
+7	reingefahren	reingefahren	NOUN	VVPP	_	2	comp:aux	_	_
+
+

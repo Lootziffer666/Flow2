@@ -1,0 +1,482 @@
+# text = äh hi
+1	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+2	hi	hi	X	NGIRR	_	0	root	_	_
+
+# text = äh könntest du Frau DEbi71FR_P Bescheid sagen dass ich ein wenig zu spät komme
+1	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+2	könntest	können	ADJ	VMFIN	_	0	root	_	_
+3	du	du	PROPN	PPER	_	2	subj	_	_
+4	Frau	Frau	NOUN	NN	_	7	comp:obl	_	_
+5	DEbi71FR_P	DEbi71FR_P	PROPN	NE	_	4	flat	_	_
+6	Bescheid	Bescheid	PROPN	NN	_	7	comp:obj	_	_
+7	sagen	sagen	VERB	VVINF	_	2	comp:aux	_	_
+8	dass	dass	SCONJ	KOUS	_	6	mod	_	_
+9	ich	ich	PRON	PPER	_	14	subj	_	_
+10	ein	ein	DET	ART	_	11	det	_	_
+11	wenig	wenig	ADV	PIDS	_	14	mod	_	_
+12	zu	zu	ADV	PTKZU	_	13	mod	_	_
+13	spät	spät	ADJ	VVINF	_	14	mod	_	_
+14	komme	kommen	VERB	VVFIN	_	8	comp:obj	_	_
+
+# text = weil äh mir ist gerade etwas echt Krasses passiert
+1	weil	weil	ADV	SEDM	_	4	discourse	_	_
+2	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+3	mir	ich	PRON	PPER	_	9	comp:obj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	gerade	gerade	ADV	ADV	_	4	mod	_	_
+6	etwas	was	PRON	PIS	_	8	det	_	_
+7	echt	echt	ADJ	PTKIFG	_	8	mod	_	_
+8	Krasses	Krasses	NOUN	NN	_	4	subj	_	_
+9	passiert	passieren	VERB	VVPP	_	4	comp:aux	_	_
+
+# text = ich bin äh also ich war gerade auf dem Weg zur Schule
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	bin	sein	VERB	VAFIN	_	6	reparandum	_	_
+3	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+4	also	also	ADV	SEDM	_	6	discourse	_	_
+5	ich	ich	PRON	PPER	_	6	subj	_	_
+6	war	sein	VERB	VAFIN	_	0	root	_	_
+7	gerade	gerade	ADV	ADV	_	6	mod	_	_
+8	auf	auf	ADP	APPR	_	6	comp:pred	_	_
+9	dem	d	DET	ART	_	10	det	_	_
+10	Weg	Weg	NOUN	NN	_	8	comp:obj	_	_
+11	zur	zu	PROPN	APPRART	_	10	mod	_	_
+12	Schule	Schule	PROPN	NN	_	11	comp:obj	_	_
+
+# text = äh also du weißt doch dort drüben am in der einen Straße vor dem Haus
+1	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+2	also	also	ADV	SEDM	_	4	discourse	_	_
+3	du	du	PROPN	PPER	_	4	subj	_	_
+4	weißt	wissen	VERB	VVFIN	_	0	root	_	_
+5	doch	doch	ADV	PTKMA	_	4	mod	_	_
+6	dort	dort	ADV	ADV	_	4	mod	_	_
+7	drüben	drüben	ADV	ADV	_	4	mod	_	_
+8	am	an	ADJ	APPRART	_	9	reparandum	_	_
+9	in	in	ADP	APPR	_	4	mod	_	_
+10	der	d	DET	ART	_	12	det	_	_
+11	einen	ein	ADJ	ART	_	12	mod	_	_
+12	Straße	Straße	NOUN	NN	_	9	comp:obj	_	_
+13	vor	vor	ADP	APPR	_	4	mod	_	_
+14	dem	d	DET	ART	_	15	det	_	_
+15	Haus	Haus	NOUN	NN	_	13	comp:obj	_	_
+
+# text = da bin ich halt entlanggelaufen
+1	da	da	ADV	ADV	_	2	mod	_	_
+2	bin	sein	VERB	VAFIN	_	0	root	_	_
+3	ich	ich	PRON	PPER	_	2	subj	_	_
+4	halt	halt	ADV	PTKMA	_	2	discourse	_	_
+5	entlanggelaufen	entlanggelaufen	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = und da ist einfach ein Autounfall passiert
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	einfach	einfach	ADJ	PTKMA	_	3	mod	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Autounfall	Autounfall	NOUN	NN	_	3	subj	_	_
+7	passiert	passieren	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und äh keine Ahnung
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	ADV	NGHES	_	4	discourse	_	_
+3	keine	kein	PRON	PIAT	_	4	det	_	_
+4	Ahnung	Ahnung	NOUN	NN	_	0	root	_	_
+
+# text = also da war so ein Mann äh mit seiner Frau und äh wahrscheinlich und mit dem Kind
+1	also	also	ADV	SEDM	_	3	discourse	_	_
+2	da	da	ADV	ADV	_	3	comp:pred	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	so	so	ADV	PTKIFG	_	6	mod	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Mann	Mann	NOUN	NN	_	3	subj	_	_
+7	äh	äh	ADV	NGHES	_	3	discourse	_	_
+8	mit	mit	ADP	APPR	_	6	mod	_	_
+9	seiner	sein	DET	PPOSAT	_	10	det	_	_
+10	Frau	Frau	NOUN	NN	_	8	comp:obj	_	_
+11	und	und	CCONJ	KON	_	14	reparandum	_	_
+12	äh	äh	ADV	NGHES	_	3	discourse	_	_
+13	wahrscheinlich	wahrscheinlich	ADJ	ADV	_	3	mod	_	_
+14	und	und	CCONJ	KON	_	15	cc	_	_
+15	mit	mit	ADP	APPR	_	8	conj	_	_
+16	dem	d	DET	ART	_	17	det	_	_
+17	Kind	Kind	PROPN	NN	_	15	comp:obj	_	_
+
+# text = und hat die ganze Zeit mit dem Ball so herumgespielt wie mit so einem Basketball
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	die	d	DET	ART	_	5	det	_	_
+4	ganze	ganze	ADJ	ADJA	_	5	mod	_	_
+5	Zeit	Zeit	NOUN	NN	_	2	mod	_	_
+6	mit	mit	ADP	APPR	_	10	mod	_	_
+7	dem	d	DET	ART	_	8	det	_	_
+8	Ball	Ball	NOUN	NN	_	6	comp:obj	_	_
+9	so	so	ADV	ADV	_	10	mod	_	_
+10	herumgespielt	herumspielen	ADJ	VVPP	_	2	comp:aux	_	_
+11	wie	wie	CCONJ	KOKOM	_	10	mod	_	_
+12	mit	mit	ADP	APPR	_	11	comp:obj	_	_
+13	so	so	ADV	PTKIFG	_	15	mod	_	_
+14	einem	ein	DET	ART	_	15	det	_	_
+15	Basketball	Basketball	NOUN	NN	_	12	comp:obj	_	_
+
+# text = und äh ist dann
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+
+# text = also er wollte dann irgendwie die Straße rübergehen
+1	also	also	ADV	SEDM	_	3	discourse	_	_
+2	er	er	PRON	PPER	_	3	subj	_	_
+3	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	irgendwie	irgendwie	ADV	ADV	_	3	mod	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Straße	Straße	NOUN	NN	_	8	comp:obj	_	_
+8	rübergehen	rübergehen	VERB	VVINF	_	3	comp:aux	_	_
+
+# text = und dann hat er sich also irgendwie naja ich weiß nicht vielleicht erschrocken oder irgendwie abgelenkt
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	er	er	PRON	PPER	_	3	subj	_	_
+5	sich	er|es|sie	PRON	PRF	_	13	comp:obj	_	_
+6	also	also	ADV	SEDM	_	3	discourse	_	_
+7	irgendwie	irgendwie	ADV	ADV	_	3	mod	_	_
+8	naja	naja	PROPN	NGIRR	_	3	discourse	_	_
+9	ich	ich	PRON	PPER	_	10	subj	_	_
+10	weiß	wissen	VERB	VVFIN	_	3	parataxis	_	_
+11	nicht	nicht	PART	PTKNEG	_	10	mod	_	_
+12	vielleicht	vielleicht	ADV	ADV	_	3	mod	_	_
+13	erschrocken	erschrecken	VERB	VVPP	_	3	comp:aux	_	_
+14	oder	oder	CCONJ	KON	_	16	cc	_	_
+15	irgendwie	irgendwie	ADV	ADV	_	16	mod	_	_
+16	abgelenkt	ablenken	VERB	VVPP	_	3	conj	_	_
+
+# text = und da ist ihm der Ball einfach aus der Hand gefallen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	ihm	er	PRON	PPER	_	11	comp:obj	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	3	subj	_	_
+7	einfach	einfach	ADJ	PTKMA	_	3	mod	_	_
+8	aus	aus	ADP	APPR	_	11	comp:obl	_	_
+9	der	d	DET	ART	_	10	det	_	_
+10	Hand	Hand	NOUN	NN	_	8	comp:obj	_	_
+11	gefallen	fallen	ADJ	VVPP	_	3	comp:aux	_	_
+
+# text = so okay und ist dann halt die Straße rübergerollt tatsächlich auf die andere Straßenseite
+1	so	so	ADV	NGIRR	_	4	discourse	_	_
+2	okay	okay	ADJ	NGIRR	_	4	discourse	_	_
+3	und	und	CCONJ	KON	_	4	cc	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	dann	dann	ADV	ADV	_	4	mod	_	_
+6	halt	halt	VERB	PTKMA	_	4	discourse	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Straße	Straße	NOUN	NN	_	9	comp:obj	_	_
+9	rübergerollt	rüberrollen	VERB	VVPP	_	4	comp:aux	_	_
+10	tatsächlich	tatsächlich	ADJ	ADV	_	4	mod	_	_
+11	auf	auf	ADP	APPR	_	9	comp:obl	_	_
+12	die	d	DET	ART	_	14	det	_	_
+13	andere	ander	ADJ	PIDAT	_	14	mod	_	_
+14	Straßenseite	Straßenseite	NOUN	NN	_	11	comp:obj	_	_
+
+# text = und ich war halt nicht involviert oder so
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	halt	halt	ADV	PTKMA	_	3	discourse	_	_
+5	nicht	nicht	PART	PTKNEG	_	3	mod	_	_
+6	involviert	involvieren	ADJ	VVPP	_	3	comp:pred	_	_
+7	oder	oder	CCONJ	KON	_	8	cc	_	_
+8	so	so	ADV	ADV	_	6	conj	_	_
+
+# text = ich stand dann halt nur daneben
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	stand	stehen	VERB	VVFIN	_	0	root	_	_
+3	dann	dann	ADV	ADV	_	2	mod	_	_
+4	halt	halt	ADV	PTKMA	_	2	discourse	_	_
+5	nur	nur	ADV	PTKIFG	_	2	mod	_	_
+6	daneben	daneben	ADV	ADV	_	2	mod	_	_
+
+# text = aber ich muss jetzt halt so bisschen äh Zeuge sein
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	muss	müssen	AUX	VMFIN	_	0	root	_	_
+4	jetzt	jetzt	ADV	ADV	_	3	mod	_	_
+5	halt	halt	ADV	PTKMA	_	3	mod	_	_
+6	so	so	ADV	PTKIFG	_	3	mod	_	_
+7	bisschen	bisschen	NOUN	PIDS	_	9	mod	_	_
+8	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+9	Zeuge	Zeuge	NOUN	NN	_	10	comp:pred	_	_
+10	sein	sein	VERB	VAINF	_	3	comp:aux	_	_
+
+# text = äh auf jeden Fall und auf der anderen Straßenseite stand dann eine Frau
+1	äh	äh	ADJ	NGHES	_	10	discourse	_	_
+2	auf	auf	ADP	APPR	_	10	mod	_	_
+3	jeden	jede	PRON	PIDAT	_	4	det	_	_
+4	Fall	Fall	NOUN	NN	_	2	comp:obj	_	_
+5	und	und	CCONJ	KON	_	10	cc	_	_
+6	auf	auf	ADP	APPR	_	10	comp:obl	_	_
+7	der	d	DET	ART	_	9	det	_	_
+8	anderen	ander	ADJ	PIDAT	_	9	mod	_	_
+9	Straßenseite	Straßenseite	NOUN	NN	_	6	comp:obj	_	_
+10	stand	stehen	VERB	VVFIN	_	0	root	_	_
+11	dann	dann	ADV	ADV	_	10	mod	_	_
+12	eine	ein	DET	ART	_	13	det	_	_
+13	Frau	Frau	NOUN	NN	_	10	subj	_	_
+
+# text = und äh die hat so ihre Einkäufe ausgeräumt sozusagen
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+3	die	d	PRON	PDS	_	4	subj	_	_
+4	hat	haben	VERB	VAFIN	_	0	root	_	_
+5	so	so	ADV	PTKIFG	_	4	mod	_	_
+6	ihre	ihr	DET	PPOSAT	_	7	det	_	_
+7	Einkäufe	Einkauf	NOUN	NN	_	8	comp:obj	_	_
+8	ausgeräumt	ausräumen	ADJ	VVPP	_	4	comp:aux	_	_
+9	sozusagen	sozusagen	ADV	ADV	_	4	mod	_	_
+
+# text = und hatte halt so einen kleinen Hund äh an der Leine
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hatte	haben	VERB	VAFIN	_	0	root	_	_
+3	halt	halt	ADV	PTKMA	_	2	discourse	_	_
+4	so	so	ADV	PTKIFG	_	7	mod	_	_
+5	einen	ein	DET	ART	_	7	det	_	_
+6	kleinen	kleine	ADJ	ADJA	_	7	mod	_	_
+7	Hund	Hund	NOUN	NN	_	2	comp:obj	_	_
+8	äh	äh	ADV	NGHES	_	2	discourse	_	_
+9	an	an	ADP	APPR	_	2	comp:obl	_	_
+10	der	d	DET	ART	_	11	det	_	_
+11	Leine	Leine	PROPN	NN	_	9	comp:obj	_	_
+
+# text = und den hat sie halt wahrscheinlich nicht irgendwie richtig festgehalten oder so
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	den	d	DET	PDS	_	10	comp:obj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	sie	sie	PRON	PPER	_	3	subj	_	_
+5	halt	halt	ADV	PTKMA	_	3	discourse	_	_
+6	wahrscheinlich	wahrscheinlich	ADJ	ADV	_	3	mod	_	_
+7	nicht	nicht	PART	PTKNEG	_	9	mod	_	_
+8	irgendwie	irgendwie	ADV	ADV	_	9	mod	_	_
+9	richtig	richtig	ADJ	ADJD	_	3	mod	_	_
+10	festgehalten	festhalten	VERB	VVPP	_	3	comp:aux	_	_
+11	oder	oder	CCONJ	KON	_	12	cc	_	_
+12	so	so	ADV	ADV	_	3	parataxis	_	_
+
+# text = weil der Ball äh der Hund hat denn den Ball gesehen
+1	weil	weil	SCONJ	SEDM	_	7	discourse	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Ball	Ball	NOUN	NN	_	6	reparandum	_	_
+4	äh	äh	ADJ	NGHES	_	7	discourse	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Hund	Hund	NOUN	NN	_	7	subj	_	_
+7	hat	haben	VERB	VAFIN	_	0	root	_	_
+8	denn	denn	CCONJ	PTKMA	_	7	mod	_	_
+9	den	d	DET	ART	_	10	det	_	_
+10	Ball	Ball	NOUN	NN	_	11	comp:obj	_	_
+11	gesehen	sehen	VERB	VVPP	_	7	comp:aux	_	_
+
+# text = und ist dann irgendwie komplett ausgerastet
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	dann	dann	ADV	ADV	_	2	mod	_	_
+4	irgendwie	irgendwie	ADV	ADV	_	2	mod	_	_
+5	komplett	komplett	ADJ	ADJD	_	2	mod	_	_
+6	ausgerastet	ausrasten	ADJ	VVPP	_	2	comp:aux	_	_
+
+# text = äh hat angefangen zu bellen
+1	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	angefangen	anfangen	VERB	VVPP	_	2	comp:aux	_	_
+4	zu	zu	PART	PTKZU	_	3	comp:obj	_	_
+5	bellen	bellen	VERB	VVINF	_	4	comp:obj	_	_
+
+# text = und ist äh auf den Ball zugerannt
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+4	auf	auf	ADP	APPR	_	7	comp:obl	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	4	comp:obj	_	_
+7	zugerannt	zurennen	ADV	VVPP	_	2	comp:aux	_	_
+
+# text = und äh dabei waren halt vorher an dieser Straße also in diese Seitenstraße sind dann zwei Autos gefahren so irgendwie so ein blaues äh so richtig schönes von Renault oder so und denn das zweite so äh so weißlich oder so
+1	und	und	CCONJ	KON	_	14	cc	_	_
+2	äh	äh	ADJ	NGHES	_	14	discourse	_	_
+3	dabei	dabei	ADV	ADV	_	4	mod	_	_
+4	waren	sein	VERB	VAFIN	_	14	reparandum	_	_
+5	halt	halt	ADV	PTKMA	_	14	discourse	_	_
+6	vorher	vorher	ADV	ADV	_	4	mod	_	_
+7	an	an	ADP	APPR	_	4	comp:pred	_	_
+8	dieser	diese	PRON	PDAT	_	9	det	_	_
+9	Straße	Straße	NOUN	NN	_	7	comp:obj	_	_
+10	also	also	ADV	ADV	_	14	discourse	_	_
+11	in	in	ADP	APPR	_	18	comp:obl	_	_
+12	diese	diese	PRON	PDAT	_	13	det	_	_
+13	Seitenstraße	Seitenstraße	NOUN	NN	_	11	comp:obj	_	_
+14	sind	sein	VERB	VAFIN	_	0	root	_	_
+15	dann	dann	ADV	ADV	_	14	mod	_	_
+16	zwei	zwei	NUM	CARD	_	17	mod	_	_
+17	Autos	Auto	NOUN	NN	_	14	subj	_	_
+18	gefahren	fahren	VERB	VVPP	_	14	comp:aux	_	_
+19	so	so	ADV	ADV	_	14	mod	_	_
+20	irgendwie	irgendwie	ADV	ADV	_	14	mod	_	_
+21	so	so	ADV	PTKIFG	_	27	mod	_	_
+22	ein	ein	DET	ART	_	27	det	_	_
+23	blaues	blaue	PROPN	ADJA	_	27	mod	_	_
+24	äh	äh	ADV	NGHES	_	14	discourse	_	_
+25	so	so	ADV	PTKIFG	_	26	mod	_	_
+26	richtig	richtig	ADJ	ADJD	_	27	mod	_	_
+27	schönes	schöne	ADJ	ADJA	_	17	appos	_	_
+28	von	von	ADP	APPR	_	27	mod@poss	_	_
+29	Renault	Renault	PROPN	NE	_	28	comp:obj	_	_
+30	oder	oder	CCONJ	KON	_	31	cc	_	_
+31	so	so	ADV	ADV	_	29	conj	_	_
+32	und	und	CCONJ	KON	_	35	cc	_	_
+33	denn	denn	ADV	PTKMA	_	14	mod	_	_
+34	das	d	DET	ART	_	35	det	_	_
+35	zweite	zweite	NOUN	ORD	_	27	conj	_	_
+36	so	so	ADV	PTKIFG	_	38	reparandum	_	_
+37	äh	äh	ADV	NGHES	_	14	discourse	_	_
+38	so	so	ADV	PTKIFG	_	39	mod	_	_
+39	weißlich	weißlich	ADJ	ADJD	_	35	mod	_	_
+40	oder	oder	CCONJ	KON	_	41	cc	_	_
+41	so	so	ADV	ADV	_	39	conj	_	_
+
+# text = ich weiß ich erinnere mich nicht mehr so genau
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	weiß	wissen	VERB	VVFIN	_	4	reparandum	_	_
+3	ich	ich	PRON	PPER	_	4	subj	_	_
+4	erinnere	erinnern	ADJ	VVFIN	_	0	root	_	_
+5	mich	ich	PRON	PRF	_	4	comp:obj	_	_
+6	nicht	nicht	PART	PTKNEG	_	4	mod	_	_
+7	mehr	mehr	ADV	PTKMWL	_	6	mod	_	_
+8	so	so	ADV	PTKIFG	_	9	mod	_	_
+9	genau	genau	ADJ	ADJD	_	6	mod	_	_
+
+# text = und die sind dann halt so in die Seitenstraße äh äh reingefahren
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	die	d	PRON	PDS	_	3	subj	_	_
+3	sind	sein	VERB	VAFIN	_	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	halt	halt	ADV	PTKMA	_	3	discourse	_	_
+6	so	so	ADV	PTKIFG	_	3	mod	_	_
+7	in	in	ADP	APPR	_	12	comp:obl	_	_
+8	die	d	DET	ART	_	9	det	_	_
+9	Seitenstraße	Seitenstraße	PROPN	NN	_	7	comp:obj	_	_
+10	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+11	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+12	reingefahren	reinfahren	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und äh das eine Auto ist dann richtig abrupt stehengeblieben als es ne äh den Hund dann gesehen hat
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+3	das	d	DET	PDS	_	5	det	_	_
+4	eine	ein	ADJ	PIDAT	_	5	mod	_	_
+5	Auto	Auto	NOUN	NN	_	6	subj	_	_
+6	ist	sein	VERB	VAFIN	_	0	root	_	_
+7	dann	dann	ADV	ADV	_	6	mod	_	_
+8	richtig	richtig	ADJ	PTKIFG	_	9	mod	_	_
+9	abrupt	abrupt	ADJ	ADJD	_	6	mod	_	_
+10	stehengeblieben	stehenbleiben	VERB	VVPP	_	6	comp:aux	_	_
+11	als	als	ADP	KOUS	_	10	mod	_	_
+12	es	es	PRON	PPER	_	19	subj	_	_
+13	ne	ne	DET	SEQU	_	6	discourse	_	_
+14	äh	äh	NOUN	NGHES	_	6	discourse	_	_
+15	den	d	DET	ART	_	16	det	_	_
+16	Hund	Hund	NOUN	NN	_	18	comp:obj	_	_
+17	dann	dann	ADV	ADV	_	19	mod	_	_
+18	gesehen	sehen	VERB	VVPP	_	19	comp:aux	_	_
+19	hat	haben	AUX	VAFIN	_	11	comp:obj	_	_
+
+# text = und das hintere ist dann in das vordere reingefahren
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	das	d	DET	ART	_	3	det	_	_
+3	hintere	hintere	ADJ	ADJA	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	dann	dann	ADV	ADV	_	4	mod	_	_
+6	in	in	ADP	APPR	_	9	comp:obl	_	_
+7	das	d	DET	ART	_	8	det	_	_
+8	vordere	vordere	ADJ	ADJA	_	6	comp:obj	_	_
+9	reingefahren	reinfahren	NOUN	VVPP	_	4	comp:aux	_	_
+
+# text = und äh hat dann irgendwie einen Schaden verursacht
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	äh	äh	PROPN	NGHES	_	3	discourse	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	irgendwie	irgendwie	ADV	ADV	_	3	mod	_	_
+6	einen	ein	DET	ART	_	7	det	_	_
+7	Schaden	Schaden	NOUN	NN	_	8	comp:obj	_	_
+8	verursacht	verursachen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = auf jeden Fall äh war das äh also echt krass
+1	auf	auf	ADP	APPR	_	5	mod	_	_
+2	jeden	jede	PRON	PIDAT	_	3	det	_	_
+3	Fall	Fall	NOUN	NN	_	1	comp:obj	_	_
+4	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+5	war	sein	VERB	VAFIN	_	0	root	_	_
+6	das	d	PRON	PDS	_	5	subj	_	_
+7	äh	äh	ADV	NGHES	_	5	discourse	_	_
+8	also	also	ADV	ADV	_	5	discourse	_	_
+9	echt	echt	ADJ	PTKIFG	_	10	mod	_	_
+10	krass	krass	NOUN	ADJD	_	5	comp:pred	_	_
+
+# text = äh ich hab so etwas noch nie erlebt
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	hab	haben	AUX	VAFIN	_	0	root	_	_
+4	so	so	ADV	PTKIFG	_	5	mod	_	_
+5	etwas	etwas	ADV	PIS	_	8	comp:obj	_	_
+6	noch	noch	ADV	PTKMWL	_	7	mod	_	_
+7	nie	nie	ADV	ADV	_	3	mod	_	_
+8	erlebt	erleben	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und auf jeden Fall muss ich das jetzt äh äh so einen Zeugenbericht machen
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	auf	auf	ADP	APPR	_	14	mod	_	_
+3	jeden	jede	PRON	PIDAT	_	4	det	_	_
+4	Fall	Fall	NOUN	NN	_	2	comp:obj	_	_
+5	muss	müssen	AUX	VMFIN	_	0	root	_	_
+6	ich	ich	PRON	PPER	_	5	subj	_	_
+7	das	d	PRON	PDS	_	13	reparandum	_	_
+8	jetzt	jetzt	ADV	ADV	_	5	mod	_	_
+9	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+10	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+11	so	so	ADV	PTKIFG	_	13	mod	_	_
+12	einen	ein	DET	ART	_	13	det	_	_
+13	Zeugenbericht	Zeugenbericht	NOUN	NN	_	14	comp:obj	_	_
+14	machen	machen	VERB	VVINF	_	5	comp:aux	_	_
+
+# text = und deshalb wollte ich fragen ob du dann einfach Bescheid sagen kannst dass ich zu spät komme
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	deshalb	deshalb	ADV	ADV	_	3	mod	_	_
+3	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+4	ich	ich	PRON	PPER	_	3	subj	_	_
+5	fragen	fragen	VERB	VVINF	_	3	comp:aux	_	_
+6	ob	ob	SCONJ	KOUS	_	5	comp:obj	_	_
+7	du	du	PRON	PPER	_	12	subj	_	_
+8	dann	dann	ADV	ADV	_	12	mod	_	_
+9	einfach	einfach	ADJ	PTKMA	_	12	mod	_	_
+10	Bescheid	Bescheid	NOUN	NN	_	11	comp:obj	_	_
+11	sagen	sagen	VERB	VVINF	_	12	comp:aux	_	_
+12	kannst	können	AUX	VMFIN	_	6	comp:obj	_	_
+13	dass	dass	SCONJ	KOUS	_	11	comp:obl	_	_
+14	ich	ich	PRON	PPER	_	17	subj	_	_
+15	zu	zu	ADV	PTKA	_	16	mod	_	_
+16	spät	spät	ADJ	ADJD	_	17	mod	_	_
+17	komme	kommen	VERB	VVFIN	_	13	comp:obj	_	_
+
+# text = ich bringe dann auch äh eine Entschuldigung mit und so
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	bringe	bringen	NOUN	VVFIN	_	0	root	_	_
+3	dann	dann	ADV	ADV	_	2	mod	_	_
+4	auch	auch	ADV	PTKIFG	_	2	mod	_	_
+5	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+6	eine	ein	DET	ART	_	7	det	_	_
+7	Entschuldigung	Entschuldigung	NOUN	NN	_	2	comp:obj	_	_
+8	mit	mit	ADP	PTKVZ	_	2	compound@prt	_	_
+9	und	und	CCONJ	KON	_	10	cc	_	_
+10	so	so	ADV	ADV	_	2	parataxis	_	_
+

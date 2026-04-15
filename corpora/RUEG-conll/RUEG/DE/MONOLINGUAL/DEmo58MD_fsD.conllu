@@ -1,0 +1,245 @@
+# text = guten Tag
+1	guten	gut	ADJ	ADJD	_	2	mod	_	_
+2	Tag	Tag	NOUN	NN	_	0	root	_	_
+
+# text = hier ist DEmo58MD
+1	hier	hier	ADV	ADV	_	2	comp:pred	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	DEmo58MD	DEmo58MD	PROPN	NE	_	2	subj	_	_
+
+# text = äh ich mache eine Zeugenaussage zu dem Fall F16
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	mache	machen	VERB	VVFIN	_	0	root	_	_
+4	eine	eine	DET	ART	_	5	det	_	_
+5	Zeugenaussage	Zeugenaussage	NOUN	NN	_	3	comp:obj	_	_
+6	zu	zu	ADP	APPR	_	3	mod	_	_
+7	dem	d	DET	ART	_	8	det	_	_
+8	Fall	Fall	NOUN	NN	_	6	comp:obj	_	_
+9	F16	F16	PROPN	NE	_	8	appos	_	_
+
+# text = äh in dem Fall gab es gab es ein äh Frau mit einem Kinderwagen und ihren vermutlichen Sohn oder Mann der mit einem Ball äh herumhantiert hat
+1	äh	äh	ADJ	NGHES	_	7	discourse	_	_
+2	in	in	ADP	APPR	_	7	mod	_	_
+3	dem	d	DET	ART	_	4	det	_	_
+4	Fall	Fall	NOUN	NN	_	2	comp:obj	_	_
+5	gab	geben	VERB	VVFIN	_	7	reparandum	_	_
+6	es	es	PRON	PPER	_	5	subj@expl	_	_
+7	gab	geben	VERB	VVFIN	_	0	root	_	_
+8	es	es	PRON	PPER	_	7	subj@expl	_	_
+9	ein	ein	DET	ART	_	11	det	_	_
+10	äh	äh	ADJ	NGHES	_	7	discourse	_	_
+11	Frau	Frau	NOUN	NN	_	7	comp:obj	_	_
+12	mit	mit	ADP	APPR	_	11	mod	_	_
+13	einem	ein	DET	ART	_	14	det	_	_
+14	Kinderwagen	Kinderwagen	NOUN	NN	_	12	comp:obj	_	_
+15	und	und	CCONJ	KON	_	18	cc	_	_
+16	ihren	ihr	DET	PPOSAT	_	18	det	_	_
+17	vermutlichen	vermutlichen	ADJ	ADJD	_	18	mod	_	_
+18	Sohn	Sohn	NOUN	NN	_	14	conj	_	_
+19	oder	oder	CCONJ	KON	_	20	cc	_	_
+20	Mann	Mann	NOUN	NN	_	18	conj	_	_
+21	der	d	DET	PRELS	_	27	subj	_	_
+22	mit	mit	ADP	APPR	_	26	comp:obl	_	_
+23	einem	ein	DET	ART	_	24	det	_	_
+24	Ball	Ball	NOUN	NN	_	22	comp:obj	_	_
+25	äh	äh	ADV	NGHES	_	7	discourse	_	_
+26	herumhantiert	herumhantieren	VERB	VVPP	_	27	comp:aux	_	_
+27	hat	haben	AUX	VAFIN	_	20	mod@relcl	_	_
+
+# text = und äh diese sind dann auf den Parkplatz eingebogen
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+3	diese	diese	PRON	PDS	_	4	subj	_	_
+4	sind	sein	VERB	VAFIN	_	0	root	_	_
+5	dann	dann	ADV	ADV	_	4	mod	_	_
+6	auf	auf	ADP	APPR	_	9	comp:obl	_	_
+7	den	d	DET	ART	_	8	det	_	_
+8	Parkplatz	Parkplatz	NOUN	NN	_	6	comp:obj	_	_
+9	eingebogen	einbiegen	ADJ	VVPP	_	4	comp:aux	_	_
+
+# text = der Mann hat dabei den Ball herunterfallen lassen
+1	der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	dabei	dabei	ADV	ADV	_	3	mod	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	7	comp:obj	_	_
+7	herunterfallen	herunterfallen	VERB	VVINF	_	8	comp:obj	_	_
+8	lassen	lassen	VERB	VVINF	_	3	comp:aux	_	_
+
+# text = und der ist dabei über die Straße gerollt
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	der	d	PRON	PDS	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	dabei	dabei	ADV	ADV	_	3	mod	_	_
+5	über	über	ADP	APPR	_	8	comp:obl	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Straße	Straße	NOUN	NN	_	5	comp:obj	_	_
+8	gerollt	rollen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = währenddessen sind zwei Autos von der Straße auf den Parkplatz eingebogen
+1	währenddessen	währenddessen	ADV	KON	_	2	cc	_	_
+2	sind	sein	VERB	VAFIN	_	0	root	_	_
+3	zwei	zwei	NUM	CARD	_	4	mod	_	_
+4	Autos	Auto	NOUN	NN	_	2	subj	_	_
+5	von	von	ADP	APPR	_	11	mod	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Straße	Straße	NOUN	NN	_	5	comp:obj	_	_
+8	auf	auf	ADP	APPR	_	11	comp:obl	_	_
+9	den	d	DET	ART	_	10	det	_	_
+10	Parkplatz	Parkplatz	NOUN	NN	_	8	comp:obj	_	_
+11	eingebogen	einbiegen	ADJ	VVPP	_	2	comp:aux	_	_
+
+# text = und ist deswegen aufgefahren
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	dabei	dabei	ADV	ADV	_	4	mod	_	_
+3	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	gleichzeitig	gleichzeitig	ADJ	ADJD	_	4	mod	_	_
+6	auf	auf	ADP	APPR	_	4	comp:obl	_	_
+
+# text = und ist deswegen aufgefahren
+1	gegenüber	gegenüber	ADV	ADV	_	9	mod	_	_
+2	von	von	ADP	APPR	_	1	mod	_	_
+3	dem	d	DET	ART	_	4	det	_	_
+4	Mann	Mann	NOUN	NN	_	2	comp:obj	_	_
+5	mit	mit	ADP	APPR	_	4	mod	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	Ball	Ball	NOUN	NN	_	5	comp:obj	_	_
+8	äh	äh	ADJ	NGHES	_	9	discourse	_	_
+9	stand	stehen	VERB	VVFIN	_	0	root	_	_
+10	eine	ein	DET	ART	_	11	det	_	_
+11	Frau	Frau	NOUN	NN	_	9	subj	_	_
+12	mit	mit	ADP	APPR	_	11	mod	_	_
+13	einem	ein	DET	ART	_	14	det	_	_
+14	Auto	Auto	NOUN	NN	_	12	comp:obj	_	_
+
+# text = und die hat gerade versucht ihre Einkäufe vermutlich auszuräumen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	die	d	PRON	PPER	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	gerade	gerade	ADV	ADV	_	3	mod	_	_
+5	versucht	versuchen	VERB	VVPP	_	3	comp:aux	_	_
+6	ihre	ihr	DET	PPOSAT	_	7	det	_	_
+7	Einkäufe	Einkäufe	NOUN	NN	_	9	comp:obj	_	_
+8	vermutlich	vermutlich	ADJ	ADV	_	9	mod	_	_
+9	auszuräumen	ausräumen	VERB	VVIZU	_	5	comp:obj	_	_
+
+# text = die hatte einen Hund angeleint
+1	die	d	PRON	PPER	_	2	subj	_	_
+2	hatte	haben	VERB	VAFIN	_	0	root	_	_
+3	einen	ein	DET	ART	_	4	det	_	_
+4	Hund	Hund	NOUN	NN	_	5	comp:obj	_	_
+5	angeleint	anleinen	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = und hat äh dieser ist dem Ball auf die hinter dem Ball auf die Straße gerannt
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	hat	haben	VERB	VAFIN	_	5	reparandum	_	_
+3	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+4	dieser	diese	PRON	PDS	_	5	subj	_	_
+5	ist	sein	VERB	VAFIN	_	0	root	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	Ball	Ball	NOUN	NN	_	16	comp:obj	_	_
+8	auf	auf	ADP	APPR	_	13	reparandum	_	_
+9	die	d	DET	ART	_	8	comp:obj	_	_
+10	hinter	hinter	ADP	APPR	_	16	mod	_	_
+11	dem	d	DET	ART	_	12	det	_	_
+12	Ball	Ball	NOUN	NN	_	10	comp:obj	_	_
+13	auf	auf	ADP	APPR	_	16	comp:obl	_	_
+14	die	d	DET	ART	_	15	det	_	_
+15	Straße	Straße	NOUN	NN	_	13	comp:obj	_	_
+16	gerannt	rennen	ADJ	VVPP	_	5	comp:aux	_	_
+
+# text = und hat auch die Frau teilweise mitgezogen
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	auch	auch	ADV	PTKIFG	_	2	mod	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Frau	Frau	NOUN	NN	_	7	comp:obj	_	_
+6	teilweise	teilweise	ADV	ADV	_	2	mod	_	_
+7	mitgezogen	mitziehen	ADJ	VVPP	_	2	comp:aux	_	_
+
+# text = die Frau ist allerdings nicht wirklich auf die Straße gelangt
+1	die	d	DET	ART	_	2	det	_	_
+2	Frau	Frau	NOUN	NN	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	allerdings	allerdings	ADV	ADV	_	3	mod	_	_
+5	nicht	nicht	PART	PTKNEG	_	6	mod	_	_
+6	wirklich	wirklich	ADJ	PTKIFG	_	3	mod	_	_
+7	auf	auf	ADP	APPR	_	10	comp:obl	_	_
+8	die	d	DET	ART	_	9	det	_	_
+9	Straße	Straße	NOUN	NN	_	7	comp:obj	_	_
+10	gelangt	gelangen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und zu den zwei Autos
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	zu	zu	ADP	APPR	_	0	root	_	_
+3	den	d	DET	ART	_	5	det	_	_
+4	zwei	zwei	NUM	CARD	_	5	mod	_	_
+5	Autos	Auto	NOUN	NN	_	2	comp:obj	_	_
+
+# text = die zwei Autos sind eingebogen
+1	die	d	DET	ART	_	3	det	_	_
+2	zwei	zwei	NUM	CARD	_	3	mod	_	_
+3	Autos	Auto	NOUN	NN	_	4	subj	_	_
+4	sind	sein	AUX	VAFIN	_	0	root	_	_
+5	eingebogen	einbiegen	VERB	VVPP	_	4	comp:aux	_	_
+
+# text = das war ein blauer Wagen und ein weißer Wagen
+1	das	d	PRON	PDS	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	5	det	_	_
+4	blauer	blau	PROPN	ADJD	_	5	mod	_	_
+5	Wagen	Wagen	PROPN	NN	_	2	comp:pred	_	_
+6	und	und	CCONJ	KON	_	9	cc	_	_
+7	ein	ein	DET	ART	_	9	det	_	_
+8	weißer	weißer	ADJ	ADJD	_	9	mod	_	_
+9	Wagen	Wagen	NOUN	NN	_	5	conj	_	_
+
+# text = der blaue Wagen hat sofort gebremst als er den Ball auf die Straße rollen sehen
+1	der	d	DET	ART	_	3	det	_	_
+2	blaue	blau	ADJ	ADJD	_	3	mod	_	_
+3	Wagen	Wagen	NOUN	NN	_	4	subj	_	_
+4	hat	haben	VERB	VAFIN	_	0	root	_	_
+5	sofort	sofort	ADV	ADV	_	4	mod	_	_
+6	gebremst	bremsen	ADV	VVPP	_	4	comp:aux	_	_
+7	als	als	ADP	KOUS	_	6	mod	_	_
+8	er	er	PRON	PPER	_	15	subj	_	_
+9	den	d	DET	ART	_	10	det	_	_
+10	Ball	Ball	NOUN	NN	_	14	comp:obj	_	_
+11	auf	auf	ADP	APPR	_	14	comp:obl	_	_
+12	die	d	DET	ART	_	13	det	_	_
+13	Straße	Straße	NOUN	NN	_	11	comp:obj	_	_
+14	rollen	rollen	VERB	VVFIN	_	15	comp:obj	_	_
+15	sehen	sehen	VERB	VVFIN	_	7	comp:obj	_	_
+
+# text = der weiße Wagen hat versucht hinter dem blauen Wagen äh zu bremsen
+1	der	d	DET	ART	_	3	det	_	_
+2	weiße	weiße	ADJ	ADJD	_	3	mod	_	_
+3	Wagen	Wagen	NOUN	NN	_	4	subj	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	versucht	versuchen	VERB	VVPP	_	4	comp:aux	_	_
+6	hinter	hinter	ADP	APPR	_	12	comp:obl	_	_
+7	dem	d	DET	ART	_	9	det	_	_
+8	blauen	blau	ADJ	ADJA	_	9	mod	_	_
+9	Wagen	Wagen	NOUN	NN	_	6	comp:obj	_	_
+10	äh	äh	ADV	NGHES	_	4	discourse	_	_
+11	zu	zu	PART	PTKZU	_	5	comp:obj	_	_
+12	bremsen	bremsen	VERB	VVINF	_	11	comp:obj	_	_
+
+# text = aber hat es nicht schnell genug geschafft
+1	aber	aber	ADV	KON	_	2	mod	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	es	es	PRON	PPER	_	7	comp:obj@expl	_	_
+4	nicht	nicht	PART	PTKNEG	_	2	mod	_	_
+5	schnell	schnell	ADJ	ADJD	_	2	mod	_	_
+6	genug	genug	ADV	PTKMWL	_	5	mod	_	_
+7	geschafft	schaffen	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = und ist deswegen aufgefahren
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	deswegen	deswegen	ADV	ADV	_	2	mod	_	_
+4	aufgefahren	auffahren	VERB	VVPP	_	2	comp:aux	_	_
+

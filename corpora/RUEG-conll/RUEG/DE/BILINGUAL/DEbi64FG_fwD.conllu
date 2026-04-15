@@ -1,0 +1,221 @@
+# text = Sehr geehrte Damen und Herren ,
+1	Sehr	sehr	ADV	PTKIFG	_	2	mod	_	_
+2	geehrte	geehrte	ADJ	ADJA	_	3	mod	_	_
+3	Damen	Dame	NOUN	NN	_	0	root	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Herren	Herr	NOUN	NN	_	3	conj	_	_
+6	,	,	PUNCT	$,	_	3	punct	_	_
+
+# text = ich war Zeuge bei einem Autounfall
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	Zeuge	Zeuge	NOUN	NN	_	2	comp:pred	_	_
+4	bei	bei	ADP	APPR	_	3	mod	_	_
+5	einem	ein	DET	ART	_	6	det	_	_
+6	Autounfall	Autounfall	NOUN	NN	_	4	comp:obj	_	_
+
+# text = und würde gerne meine Sichtweise schildern .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	würde	werden	AUX	VVFIN	_	0	root	_	_
+3	gerne	gerne	ADV	ADV	_	2	mod	_	_
+4	meine	mein	PRON	PPOSAT	_	5	det	_	_
+5	Sichtweise	Sichtweise	NOUN	NN	_	6	comp:obj	_	_
+6	schildern	schildern	VERB	VVINF	_	2	comp:aux	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Ich ging wie jeden Tag zur Arbeit
+1	Ich	ich	PRON	PPER	_	2	subj	_	_
+2	ging	gehen	VERB	VVFIN	_	0	root	_	_
+3	wie	wie	ADP	KOUS	_	2	mod	_	_
+4	jeden	jede	PRON	PIDAT	_	5	det	_	_
+5	Tag	Tag	NOUN	NN	_	3	comp:obj	_	_
+6	zur	zu	PROPN	APPRART	_	2	comp:obl	_	_
+7	Arbeit	Arbeit	PROPN	NN	_	6	comp:obj	_	_
+
+# text = und bekam mit wie ein Mann die Staße überqueren wollte und mit einem Ball spielte .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	bekam	bekommen	VERB	VVFIN	_	0	root	_	_
+3	mit	mit	ADP	PTKVZ	_	2	compound@prt	_	_
+4	wie	wie	ADP	PWAV	_	3	comp:obj	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Mann	Mann	NOUN	NN	_	10	subj	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Staße	Staße	NOUN	NN	_	9	comp:obj	_	_
+9	überqueren	überqueren	VERB	VVINF	_	10	comp:aux	_	_
+10	wollte	wollen	AUX	VMFIN	_	4	comp:obj	_	_
+11	und	und	CCONJ	KON	_	15	cc	_	_
+12	mit	mit	ADP	APPR	_	15	mod	_	_
+13	einem	ein	DET	ART	_	14	det	_	_
+14	Ball	Ball	NOUN	NN	_	12	comp:obj	_	_
+15	spielte	spielen	VERB	VVFIN	_	10	conj	_	_
+16	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Beim Überqueren der Staße fiel ihm der Ball runter
+1	Beim	bei	ADV	APPRART	_	5	mod	_	_
+2	Überqueren	Überqueren	NOUN	ADJA	_	1	comp:obj	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Staße	Staße	NOUN	NN	_	2	mod@poss	_	_
+5	fiel	fallen	VERB	VVFIN	_	0	root	_	_
+6	ihm	er	PROPN	PPER	_	5	comp:obj	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Ball	Ball	PROPN	NN	_	5	subj	_	_
+9	runter	runter	PROPN	PTKVZ	_	5	compound@prt	_	_
+
+# text = und bringte einen Hund aus dem Konzept
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	bringte	bringen	VERB	VVFIN	_	0	root	_	_
+3	einen	ein	DET	ART	_	4	det	_	_
+4	Hund	Hund	NOUN	NN	_	2	comp:obj	_	_
+5	aus	aus	ADP	APPR	_	2	comp:obl	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	Konzept	Konzept	NOUN	NN	_	5	comp:obj	_	_
+
+# text = und rennte auf den Ball zu .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	rennte	rennen	VERB	VVFIN	_	0	root	_	_
+3	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+4	den	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+6	zu	zu	ADP	PTKVZ	_	2	compound@prt	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Die Frau die den Hund hielt , hielt auch noch Einkauf in den Händen ,
+1	Die	d	DET	ART	_	2	det	_	_
+2	Frau	Frau	NOUN	NN	_	8	subj	_	_
+3	die	die	PRON	PRELS	_	6	subj	_	_
+4	den	d	DET	ART	_	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	6	comp:obj	_	_
+6	hielt	halten	VERB	VVFIN	_	2	mod@relcl	_	_
+7	,	,	PUNCT	$,	_	6	punct	_	_
+8	hielt	halten	VERB	VVFIN	_	0	root	_	_
+9	auch	auch	ADV	PTKIFG	_	8	mod	_	_
+10	noch	noch	ADV	PTKMWL	_	8	mod	_	_
+11	Einkauf	Einkauf	ADV	NN	_	8	comp:obj	_	_
+12	in	in	ADP	APPR	_	8	comp:obl	_	_
+13	den	d	DET	ART	_	14	det	_	_
+14	Händen	Hand	NOUN	NN	_	12	comp:obj	_	_
+15	,	,	PUNCT	$,	_	8	punct	_	_
+
+# text = da fielen Ihr der Einkauf auf die Straße .
+1	da	da	ADV	ADV	_	2	mod	_	_
+2	fielen	fallen	VERB	VVFIN	_	0	root	_	_
+3	Ihr	ihr	PRON	PPER	_	2	comp:obj	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Einkauf	Einkauf	NOUN	NN	_	2	subj	_	_
+6	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Straße	Straße	NOUN	NN	_	6	comp:obj	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Das ganze Szenario lief auf der Staße ab ,
+1	Das	d	DET	ART	_	3	det	_	_
+2	ganze	ganze	ADJ	ADJA	_	3	mod	_	_
+3	Szenario	Szenario	NOUN	NN	_	4	subj	_	_
+4	lief	laufen	VERB	VVFIN	_	0	root	_	_
+5	auf	auf	ADP	APPR	_	4	mod	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Staße	Staße	NOUN	NN	_	5	comp:obj	_	_
+8	ab	ab	ADP	PTKVZ	_	4	compound@prt	_	_
+9	,	,	PUNCT	$,	_	4	punct	_	_
+
+# text = in dem Moment fähren zwei Autos auf der Staße
+1	in	in	ADP	APPR	_	4	mod	_	_
+2	dem	d	DET	ART	_	3	det	_	_
+3	Moment	Moment	NOUN	NN	_	1	comp:obj	_	_
+4	fähren	fahren	VERB	VVFIN	_	0	root	_	_
+5	zwei	zwei	NUM	CARD	_	6	mod	_	_
+6	Autos	Auto	NOUN	NN	_	4	subj	_	_
+7	auf	auf	ADP	APPR	_	4	comp:obl	_	_
+8	der	d	DET	ART	_	9	det	_	_
+9	Staße	Staße	NOUN	NN	_	7	comp:obj	_	_
+
+# text = und hielten mit voller Wucht an , damit keiner verletzt wird ,
+1	und	und	PRON	KON	_	2	cc	_	_
+2	hielten	halten	VERB	VVFIN	_	0	root	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	voller	volle	ADP	ADJA	_	5	mod	_	_
+5	Wucht	Wucht	NOUN	NN	_	3	comp:obj	_	_
+6	an	an	ADP	PTKVZ	_	2	compound@prt	_	_
+7	,	,	PUNCT	$,	_	2	punct	_	_
+8	damit	damit	SCONJ	KOUS	_	2	mod	_	_
+9	keiner	kein	PRON	PIS	_	11	subj@pass	_	_
+10	verletzt	verletzen	VERB	VVPP	_	11	comp:aux@pass	_	_
+11	wird	werden	AUX	VAFIN	_	8	comp:obj	_	_
+12	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = dabei ist ein Autounfall entstanden .
+1	dabei	dabei	ADV	ADV	_	2	mod	_	_
+2	ist	sein	AUX	VAFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Autounfall	Autounfall	NOUN	NN	_	2	subj	_	_
+5	entstanden	entstehen	VERB	VVPP	_	2	comp:aux	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Der Mann dem der Ball aus den Händen fiel , ging sofort zur Frau
+1	Der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	11	subj	_	_
+3	dem	d	PRON	PRELS	_	9	comp:obj	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	9	subj	_	_
+6	aus	aus	ADP	APPR	_	9	comp:obl	_	_
+7	den	d	DET	ART	_	8	det	_	_
+8	Händen	Hand	NOUN	NN	_	6	comp:obj	_	_
+9	fiel	fallen	VERB	VVFIN	_	2	mod@relcl	_	_
+10	,	,	PUNCT	$,	_	9	punct	_	_
+11	ging	gehen	VERB	VVFIN	_	0	root	_	_
+12	sofort	sofort	ADV	ADV	_	11	mod	_	_
+13	zur	zu	PROPN	APPRART	_	11	comp:obl	_	_
+14	Frau	Frau	PROPN	NN	_	13	comp:obj	_	_
+
+# text = und hielf ihr die Sachen einzuräumen ,
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hielf	helfen	NUM	VVFIN	_	0	root	_	_
+3	ihr	sie	NOUN	PPER	_	2	comp:obj	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Sachen	Sache	NOUN	NN	_	6	comp:obj	_	_
+6	einzuräumen	einräumen	VERB	VVIZU	_	2	comp:obl	_	_
+7	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = gleich danach ging der Mann zu den Männer den der Unfall betrifft um zu helfen wo er nur kann .
+1	gleich	gleich	ADJ	ADV	_	2	mod	_	_
+2	danach	danach	ADV	ADV	_	3	mod	_	_
+3	ging	gehen	VERB	VVFIN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Mann	Mann	NOUN	NN	_	3	subj	_	_
+6	zu	zu	ADP	APPR	_	3	comp:obl	_	_
+7	den	d	DET	ART	_	8	det	_	_
+8	Männer	Mann	NOUN	NN	_	6	comp:obj	_	_
+9	den	d	DET	PRELS	_	12	comp:obj	_	_
+10	der	d	DET	ART	_	11	det	_	_
+11	Unfall	Unfall	NOUN	NN	_	12	subj	_	_
+12	betrifft	betreffen	VERB	VVFIN	_	8	mod@relcl	_	_
+13	um	um	ADP	KOUI	_	3	mod	_	_
+14	zu	zu	PART	PTKZU	_	13	comp:obj	_	_
+15	helfen	helfen	VERB	VVINF	_	14	comp:obj	_	_
+16	wo	wo	ADV	PWAV	_	19	mod	_	_
+17	er	er	PRON	PPER	_	19	subj	_	_
+18	nur	nur	ADV	ADV	_	19	mod	_	_
+19	kann	k�nnen	VERB	VMFIN	_	15	mod	_	_
+20	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Danke dass Sie die Schilderung vom einem Augenzeugen angenommen haben .
+1	Danke	danke	NOUN	NGIRR	_	0	root	_	_
+2	dass	die	PRON	KOUS	_	1	comp:obj	_	_
+3	Sie	Sie	PRON	PPER	_	10	subj	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Schilderung	Schilderung	NOUN	NN	_	9	comp:obj	_	_
+6	vom	von	PROPN	APPRART	_	5	mod@poss	_	_
+7	einem	ein	DET	ART	_	8	det	_	_
+8	Augenzeugen	Augenzeuge	NOUN	NN	_	6	comp:obj	_	_
+9	angenommen	annehmen	VERB	VVPP	_	10	comp:aux	_	_
+10	haben	haben	AUX	VAFIN	_	2	comp:obj	_	_
+11	.	.	PUNCT	$.	_	1	punct	_	_
+
+# text = Mit freundlichen Grüßen
+1	Mit	mit	ADP	APPR	_	0	root	_	_
+2	freundlichen	freundliche	ADJ	ADJA	_	3	mod	_	_
+3	Grüßen	Gruß	NOUN	NN	_	1	comp:obj	_	_
+
+# text = DEbi64FG
+1	DEbi64FG	DEbi64FG	PROPN	NE	_	0	root	_	_
+

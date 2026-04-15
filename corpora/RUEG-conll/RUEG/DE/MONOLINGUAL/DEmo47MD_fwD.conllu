@@ -1,0 +1,180 @@
+# text = ﻿Der Vorgang hat sich aus meinen Augen wie folgt ereignet .
+1	﻿Der	﻿Der	ADV	ADJA	_	2	det	_	_
+2	Vorgang	Vorgang	PROPN	NN	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	sich	er|es|sie	PRON	PRF	_	10	comp:obj	_	_
+5	aus	aus	ADP	APPR	_	10	mod	_	_
+6	meinen	mein	PRON	PPOSAT	_	7	det	_	_
+7	Augen	Auge	NOUN	NN	_	5	comp:obj	_	_
+8	wie	wie	ADP	PWAV	_	10	mod	_	_
+9	folgt	folgen	ADJ	VVFIN	_	8	comp:obj	_	_
+10	ereignet	ereignen	VERB	VVFIN	_	3	comp:aux	_	_
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Auf dem Gehweg von mir aus rechts neben dem Parkplatz spaziert ein Pärchen .
+1	Auf	auf	ADP	APPR	_	11	mod	_	_
+2	dem	d	DET	ART	_	3	det	_	_
+3	Gehweg	Gehweg	NOUN	NN	_	1	comp:obj	_	_
+4	von	von	ADP	APPR	_	7	mod	_	_
+5	mir	ich	PRON	PPER	_	6	comp:obj	_	_
+6	aus	aus	ADP	APZR	_	4	comp:obj	_	_
+7	rechts	rechts	ADV	ADV	_	3	mod	_	_
+8	neben	neben	ADP	APPR	_	7	mod	_	_
+9	dem	d	DET	ART	_	10	det	_	_
+10	Parkplatz	Parkplatz	NOUN	NN	_	8	comp:obj	_	_
+11	spaziert	spazieren	VERB	VVFIN	_	0	root	_	_
+12	ein	ein	DET	ART	_	13	det	_	_
+13	Pärchen	Pärchen	NOUN	NN	_	11	subj	_	_
+14	.	.	PUNCT	$.	_	11	punct	_	_
+
+# text = Sie schiebt den Kinderwagen ,
+1	Sie	Sie	PRON	PPER	_	2	subj	_	_
+2	schiebt	schieben	VERB	VVFIN	_	0	root	_	_
+3	den	d	DET	ART	_	4	det	_	_
+4	Kinderwagen	Kinderwagen	NOUN	NN	_	2	comp:obj	_	_
+5	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = er prellt mit einem Ball .
+1	er	er	PRON	PPER	_	2	subj	_	_
+2	prellt	prellen	VERB	VVFIN	_	0	root	_	_
+3	mit	mit	ADP	APPR	_	2	comp:obl	_	_
+4	einem	ein	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Gleichzeitig packt auf dem Parkplatz eine Frau ihre Einkäufe in ihren geöffneten Kofferraum
+1	Gleichzeitig	gleichzeitig	ADJ	ADJD	_	2	mod	_	_
+2	packt	packen	VERB	VVFIN	_	0	root	_	_
+3	auf	auf	ADP	APPR	_	2	mod	_	_
+4	dem	d	DET	ART	_	5	det	_	_
+5	Parkplatz	Parkplatz	NOUN	NN	_	3	comp:obj	_	_
+6	eine	ein	DET	ART	_	7	det	_	_
+7	Frau	Frau	NOUN	NN	_	2	subj	_	_
+8	ihre	ihr	DET	PPOSAT	_	9	det	_	_
+9	Einkäufe	Einkäufe	NOUN	NN	_	2	comp:obj	_	_
+10	in	in	ADP	APPR	_	2	comp:obl	_	_
+11	ihren	ihr	DET	PPOSAT	_	13	det	_	_
+12	geöffneten	geöffnet	ADJ	ADJA	_	13	mod	_	_
+13	Kofferraum	Kofferraum	NOUN	NN	_	10	comp:obj	_	_
+
+# text = und hat dabei ihren Hund an der Leine .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	dabei	dabei	ADV	ADV	_	2	mod	_	_
+4	ihren	ihr	DET	PPOSAT	_	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	2	comp:obj	_	_
+6	an	an	ADP	APPR	_	2	comp:obl	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Leine	Leine	PROPN	NN	_	6	comp:obj	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Das Pärchen biegt vom Gehweg auf den Parkplatz ab , während sich von hinteren Teil des Parkplatzes zwei Autos nähern .
+1	Das	d	DET	ART	_	2	det	_	_
+2	Pärchen	Pärchen	NOUN	NN	_	3	subj	_	_
+3	biegt	biegen	VERB	VVFIN	_	0	root	_	_
+4	vom	von	PROPN	APPRART	_	3	mod	_	_
+5	Gehweg	Gehweg	PROPN	NN	_	4	comp:obj	_	_
+6	auf	auf	ADP	APPR	_	3	comp:obl	_	_
+7	den	d	DET	ART	_	8	det	_	_
+8	Parkplatz	Parkplatz	NOUN	NN	_	6	comp:obj	_	_
+9	ab	ab	ADP	PTKVZ	_	3	compound@prt	_	_
+10	,	,	PUNCT	$,	_	3	punct	_	_
+11	während	während	ADP	APPR	_	3	mod	_	_
+12	sich	er|es|sie	PRON	PRF	_	20	comp:obj	_	_
+13	von	von	ADP	APPR	_	20	mod	_	_
+14	hinteren	hinter	ADJ	ADJA	_	15	mod	_	_
+15	Teil	Teil	NOUN	NN	_	13	comp:obj	_	_
+16	des	d	DET	ART	_	17	det	_	_
+17	Parkplatzes	Parkplatz	NOUN	NN	_	15	mod@poss	_	_
+18	zwei	zwei	NUM	CARD	_	19	mod	_	_
+19	Autos	Auto	NOUN	NN	_	20	subj	_	_
+20	nähern	nähern	VERB	VVFIN	_	11	comp:obj	_	_
+21	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Kurz vor erreichen der Mitte des Parkplatzes verspringt dem Mann der Ball
+1	Kurz	kurz	ADJ	ADJD	_	2	mod	_	_
+2	vor	vor	ADP	PTKVZ	_	8	mod	_	_
+3	Erreichen	Erreichen	NOUN	NN	_	2	comp:obj	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Mitte	Mitte	NOUN	NN	_	3	mod@poss	_	_
+6	des	d	DET	ART	_	7	det	_	_
+7	Parkplatzes	Parkplatz	NOUN	NN	_	5	mod@poss	_	_
+8	verspringt	verspringen	VERB	VVFIN	_	0	root	_	_
+9	dem	d	DET	ART	_	10	det	_	_
+10	Mann	Mann	NOUN	NN	_	8	comp:obj	_	_
+11	der	d	DET	ART	_	12	det	_	_
+12	Ball	Ball	PROPN	NN	_	8	subj	_	_
+
+# text = und fliegt auf die Fahrfläche ,
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	fliegt	fliegen	VERB	VVFIN	_	0	root	_	_
+3	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Fahrfläche	Fahrfläche	NOUN	NN	_	3	comp:obj	_	_
+6	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = der Hund der Frau die den Kofferraum einpackt bemerkt dies
+1	der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	9	subj	_	_
+3	der	d	DET	PDAT	_	4	det	_	_
+4	Frau	Frau	NOUN	NN	_	2	mod@poss	_	_
+5	die	die	PRON	PRELS	_	8	subj	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Kofferraum	Kofferraum	NOUN	NN	_	8	comp:obj	_	_
+8	einpackt	einpacken	VERB	VVFIN	_	4	mod@relcl	_	_
+9	bemerkt	bemerken	VERB	VVFIN	_	0	root	_	_
+10	dies	dies	PRON	PDS	_	9	comp:obj	_	_
+
+# text = und will sich auf den Ball stürzen ,
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	will	wollen	AUX	VMFIN	_	0	root	_	_
+3	sich	er|es|sie	PRON	PRF	_	7	comp:obj	_	_
+4	auf	auf	ADP	APPR	_	7	comp:obl	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	4	comp:obj	_	_
+7	stürzen	stürzen	VERB	VVINF	_	2	comp:aux	_	_
+8	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = die Leine verhindert dies jedoch .
+1	die	d	DET	ART	_	2	det	_	_
+2	Leine	Leine	NOUN	NN	_	3	subj	_	_
+3	verhindert	verhindern	VERB	VVFIN	_	0	root	_	_
+4	dies	dies	PRON	PDS	_	3	comp:obj	_	_
+5	jedoch	jedoch	ADV	ADV	_	3	mod	_	_
+6	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Das erste der sich nähernden Autos bremst ab , vermutlich aus Angst den Hund anzufahren .
+1	Das	d	DET	ART	_	2	det	_	_
+2	erste	erst	NOUN	ORD	_	7	subj	_	_
+3	der	d	DET	PRELS	_	6	det	_	_
+4	sich	er|es|sie	PRON	PRF	_	5	comp:obj	_	_
+5	nähernden	nähernd	ADJ	ADJA	_	6	mod	_	_
+6	Autos	Auto	NOUN	NN	_	2	mod@poss	_	_
+7	bremst	bremsen	VERB	VVFIN	_	0	root	_	_
+8	ab	ab	ADP	PTKVZ	_	7	compound@prt	_	_
+9	,	,	PUNCT	$,	_	7	punct	_	_
+10	vermutlich	vermutlich	ADJ	ADV	_	11	mod	_	_
+11	aus	aus	ADP	APPR	_	7	mod	_	_
+12	Angst	Angst	NOUN	NN	_	11	comp:obj	_	_
+13	den	d	DET	ART	_	14	det	_	_
+14	Hund	Hund	NOUN	NN	_	15	comp:obj	_	_
+15	anzufahren	anfahren	VERB	VVIZU	_	12	mod	_	_
+16	.	.	PUNCT	$.	_	7	punct	_	_
+
+# text = Das Auto dahinter fährt als Folge auf die Vollbremsung des Vorderem diesem hinten rein .
+1	Das	d	DET	ART	_	2	det	_	_
+2	Auto	Auto	NOUN	NN	_	4	subj	_	_
+3	dahinter	dahinter	ADV	ADV	_	2	mod	_	_
+4	fährt	fährt	VERB	VVFIN	_	0	root	_	_
+5	als	als	ADP	KON	_	4	mod	_	_
+6	Folge	Folge	NOUN	NN	_	5	comp:obj	_	_
+7	auf	auf	ADP	APPR	_	6	mod	_	_
+8	die	d	DET	ART	_	9	det	_	_
+9	Vollbremsung	Vollbremsung	NOUN	NN	_	7	comp:obj	_	_
+10	des	d	DET	ART	_	11	det	_	_
+11	Vorderem	Vorderem	NOUN	NN	_	9	mod@poss	_	_
+12	diesem	diese	PRON	PDAT	_	4	comp:obj	_	_
+13	hinten	hinten	ADV	ADV	_	4	mod	_	_
+14	rein	rein	ADV	PTKVZ	_	4	compound@prt	_	_
+15	.	.	PUNCT	$.	_	4	punct	_	_
+

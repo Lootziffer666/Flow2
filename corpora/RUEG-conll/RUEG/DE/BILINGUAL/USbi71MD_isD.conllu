@@ -1,0 +1,157 @@
+# text = hey USbi71MD_P
+1	hey	Hey	PROPN	NGIRR	_	2	discourse	_	_
+2	USbi71MD_P	USbi71MD_P	PROPN	NE	_	0	root	_	_
+
+# text = äh entschuldige die äh die Überraschungsanruf
+1	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+2	entschuldige	entschuldigen	ADJ	VVFIN	_	0	root	_	_
+3	die	d	DET	ART	_	5	reparandum	_	_
+4	äh	äh	NOUN	NGHES	_	2	discourse	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Überraschungsanruf	Überraschungsanruf	NOUN	NN	_	2	comp:obj	_	_
+
+# text = aber ich wollte dir nur sagen äh äh es war ein bisschen von eine Autounfall vor dem Gebäude nichts ziemlich Schlechtes
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+4	dir	du	PRON	PPER	_	6	comp:obl	_	_
+5	nur	nur	ADV	PTKIFG	_	3	mod	_	_
+6	sagen	sagen	VERB	VVINF	_	3	comp:aux	_	_
+7	äh	äh	ADV	NGHES	_	3	discourse	_	_
+8	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+9	es	es	PRON	PPER	_	10	subj@expl	_	_
+10	war	sein	VERB	VAFIN	_	6	comp:obj	_	_
+11	ein	ein	DET	ART	_	12	det	_	_
+12	bisschen	bisschen	NOUN	PIDS	_	10	comp:pred	_	_
+13	von	von	ADP	APPR	_	12	mod@poss	_	_
+14	eine	ein	DET	ART	_	15	det	_	_
+15	Autounfall	Autounfall	NOUN	NN	_	13	comp:obj	_	_
+16	vor	vor	ADP	APPR	_	15	mod	_	_
+17	dem	d	DET	ART	_	18	det	_	_
+18	Gebäude	Gebäude	NOUN	NN	_	16	comp:obj	_	_
+19	nichts	nichts	PRON	PIS	_	21	det	_	_
+20	ziemlich	ziemlich	ADV	PTKIFG	_	21	mod	_	_
+21	Schlechtes	Schlechte	PROPN	NN	_	15	appos	_	_
+
+# text = aber so es war ein Autos
+1	aber	aber	ADV	KON	_	4	cc	_	_
+2	so	so	ADV	SEDM	_	4	discourse	_	_
+3	es	es	PRON	PPER	_	4	subj@expl	_	_
+4	war	sein	VERB	VAFIN	_	0	root	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Autos	Auto	NOUN	NN	_	4	comp:pred	_	_
+
+# text = die haben in das äh Parkhof eingefahren
+1	die	d	PRON	ART	_	2	subj	_	_
+2	haben	haben	AUX	VAFIN	_	0	root	_	_
+3	in	in	ADP	APPR	_	7	comp:obl	_	_
+4	das	d	DET	ART	_	6	det	_	_
+5	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+6	Parkhof	Parkhof	PROPN	NN	_	3	comp:obj	_	_
+7	eingefahren	einfahren	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = und es gab eine andere Frau darüber
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	_	3	subj@expl	_	_
+3	gab	geben	VERB	VVFIN	_	0	root	_	_
+4	eine	ein	DET	ART	_	6	det	_	_
+5	andere	ander	ADJ	PIDAT	_	6	mod	_	_
+6	Frau	Frau	NOUN	NN	_	3	comp:obj	_	_
+7	darüber	darüber	ADV	APPR	_	3	mod	_	_
+
+# text = die hatte ein kleine Hund und ein paar ich weiß eigentlich nicht was äh was
+1	die	d	PRON	PRELS	_	2	subj	_	_
+2	hatte	haben	VERB	VAFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	5	det	_	_
+4	kleine	klein	ADJ	ADJA	_	5	mod	_	_
+5	Hund	Hund	NOUN	NN	_	2	comp:obj	_	_
+6	und	und	CCONJ	KON	_	8	cc	_	_
+7	ein	ein	DET	ART	_	8	det	_	_
+8	paar	paar	PRON	PIDAT	_	5	conj	_	_
+9	ich	ich	PRON	PPER	_	10	subj	_	_
+10	weiß	wissen	VERB	VVFIN	_	2	parataxis	_	_
+11	eigentlich	eigentlich	ADV	ADV	_	10	mod	_	_
+12	nicht	nicht	PART	PTKNEG	_	10	mod	_	_
+13	was	was	PRON	PWS	_	15	reparandum	_	_
+14	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+15	was	was	PRON	PWS	_	10	comp:obj	_	_
+
+# text = aber die hat es in ihr Auto getan
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	die	d	PRON	ART	_	3	subj	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	es	es	PRON	PPER	_	8	comp:obj	_	_
+5	in	in	ADP	APPR	_	8	comp:obl	_	_
+6	ihr	ihr	DET	PPOSAT	_	7	det	_	_
+7	Auto	Auto	NOUN	NN	_	5	comp:obj	_	_
+8	getan	tun	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und dann als die andere Autos angefahren haben hat der Hund plötzlich ausgeflippt und vor das erste Auto gesprungen
+1	und	und	CCONJ	KON	_	9	cc	_	_
+2	dann	dann	ADV	ADV	_	9	mod	_	_
+3	als	als	ADP	KOUS	_	13	mod	_	_
+4	die	d	DET	ART	_	6	det	_	_
+5	andere	ander	ADJ	PIDAT	_	6	mod	_	_
+6	Autos	Auto	NOUN	NN	_	8	subj	_	_
+7	angefahren	anfahren	VERB	VVPP	_	8	comp:aux	_	_
+8	haben	haben	AUX	VAFIN	_	3	comp:obj	_	_
+9	hat	haben	AUX	VAFIN	_	0	root	_	_
+10	der	d	DET	ART	_	11	det	_	_
+11	Hund	Hund	NOUN	NN	_	9	subj	_	_
+12	plötzlich	plötzlich	ADJ	ADV	_	9	mod	_	_
+13	ausgeflippt	ausflippen	VERB	VVPP	_	9	comp:aux	_	_
+14	und	und	CCONJ	KON	_	19	cc	_	_
+15	vor	vor	ADP	APPR	_	19	comp:obl	_	_
+16	das	d	DET	ART	_	18	det	_	_
+17	erste	erst	ADJ	ORD	_	18	mod	_	_
+18	Auto	Auto	NOUN	NN	_	15	comp:obj	_	_
+19	gesprungen	springen	VERB	VVPP	_	9	conj	_	_
+
+# text = in versuchen nicht das äh Hund zu treffen haben die Autos sich verammt
+1	in	in	ADP	APPR	_	8	mod	_	_
+2	Versuchen	Versuchen	NOUN	NN	_	1	comp:obj	_	_
+3	nicht	nicht	PART	PTKNEG	_	8	mod	_	_
+4	das	d	DET	ART	_	6	det	_	_
+5	äh	äh	ADJ	NGHES	_	9	discourse	_	_
+6	Hund	Hund	NOUN	NN	_	8	comp:obj	_	_
+7	zu	zu	PART	PTKZU	_	13	comp:obl	_	_
+8	treffen	treffen	VERB	VVINF	_	7	comp:obj	_	_
+9	haben	haben	AUX	VAFIN	_	0	root	_	_
+10	die	d	DET	ART	_	11	det	_	_
+11	Autos	Auto	NOUN	NN	_	9	subj	_	_
+12	sich	er|es|sie	PRON	PRF	_	13	comp:obj	_	_
+13	verrammt	verrammen	VERB	VVPP	_	9	comp:aux	_	_
+
+# text = äh aber niemand war verletzt
+1	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+2	aber	aber	ADV	KON	_	4	cc	_	_
+3	niemand	niemand	PRON	PIS	_	4	subj	_	_
+4	war	sein	AUX	VAFIN	_	0	root	_	_
+5	verletzt	verletzt	VERB	ADJD	_	4	comp:pred	_	_
+
+# text = so äh wieder äh entschuldige die äh äh Unterbrechung
+1	so	so	ADV	SEDM	_	5	discourse	_	_
+2	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+3	wieder	wieder	ADV	ADV	_	5	mod	_	_
+4	äh	äh	ADV	NGHES	_	5	discourse	_	_
+5	entschuldige	entschuldigen	ADJ	VVFIN	_	0	root	_	_
+6	die	d	DET	ART	_	9	det	_	_
+7	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+8	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+9	Unterbrechung	Unterbrechung	NOUN	NN	_	5	comp:obj	_	_
+
+# text = aber ich glaub dass äh du vielleicht das wissen wolltest
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	glaube	glauben	PROPN	VVFIN	_	0	root	_	_
+4	dass	dass	PROPN	KOUS	_	3	comp:obj	_	_
+5	äh	äh	PROPN	NGHES	_	3	discourse	_	_
+6	du	du	PROPN	PPER	_	10	subj	_	_
+7	vielleicht	vielleicht	ADV	ADV	_	10	mod	_	_
+8	das	d	PRON	PDS	_	9	comp:obj	_	_
+9	wissen	wissen	VERB	VVINF	_	10	comp:aux	_	_
+10	wolltest	wollen	ADJ	VMFIN	_	4	comp:obj	_	_
+
+# text = danke
+1	danke	danke	ADJ	NGIRR	_	0	root	_	_
+

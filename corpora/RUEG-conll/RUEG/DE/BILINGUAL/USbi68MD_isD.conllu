@@ -1,0 +1,220 @@
+# text = okay äh
+1	okay	okay	ADJ	SEDM	_	0	root	_	_
+2	äh	äh	ADJ	NGHES	_	1	discourse	_	_
+
+# text = ich hab grade ein Unfall gesehen äh wo eine Mutter und ihr älterer Sohn der einen Ball vor sich hin äh vor sich hintreibt äh oder hinspielt
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	hab	haben	AUX	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Unfall	Unfall	NOUN	NN	_	6	comp:obj	_	_
+6	gesehen	sehen	VERB	VVPP	_	2	comp:aux	_	_
+7	äh	äh	ADV	NGHES	_	2	discourse	_	_
+8	wo	wo	ADV	PWAV	_	10	comp:obl	_	_
+9	eine	ein	DET	ART	_	10	det	_	_
+10	Mutter	Mutter	NOUN	NN	_	5	mod@relcl	_	_
+11	und	und	CCONJ	KON	_	14	cc	_	_
+12	ihr	ihr	DET	PPOSAT	_	14	det	_	_
+13	älterer	alt	ADJ	ADJA	_	14	mod	_	_
+14	Sohn	Sohn	NOUN	NN	_	10	conj	_	_
+15	der	d	PRON	PRELS	_	24	subj	_	_
+16	einen	ein	DET	ART	_	17	det	_	_
+17	Ball	Ball	NOUN	NN	_	24	comp:obj	_	_
+18	vor	vor	ADP	APPR	_	20	comp:obl	_	_
+19	sich	er	PRON	PRF	_	18	comp:obj	_	_
+20	hin	hin	ADV	ADV	_	24	reparandum	_	_
+21	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+22	vor	vor	ADP	APPR	_	24	comp:obl	_	_
+23	sich	er	PRON	PRF	_	22	comp:obj	_	_
+24	hintreibt	hintreiben	VERB	VVFIN	_	14	mod@relcl	_	_
+25	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+26	oder	oder	CCONJ	KON	_	27	cc	_	_
+27	hinspielt	hinspielen	VERB	VVFIN	_	24	conj	_	_
+
+# text = äh der läuft mit seiner Mutter die Straße entlang
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	der	d	PRON	ART	_	3	subj	_	_
+3	läuft	laufen	VERB	VVFIN	_	0	root	_	_
+4	mit	mit	ADP	APPR	_	3	mod	_	_
+5	seiner	sein	DET	PPOSAT	_	6	det	_	_
+6	Mutter	Mutter	NOUN	NN	_	4	comp:obj	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Straße	Straße	NOUN	NN	_	3	comp:obj	_	_
+9	entlang	entlang	ADP	PTKVZ	_	3	compound@prt	_	_
+
+# text = äh auf der anderen Straßenseite war ein äh äh eine ältere Frau die grade Lebensmittel in ihr Auto einräumte
+1	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+2	auf	auf	ADP	APPR	_	6	comp:pred	_	_
+3	der	d	DET	ART	_	5	det	_	_
+4	anderen	ander	ADJ	PIDAT	_	5	mod	_	_
+5	Straßenseite	Straßenseite	NOUN	NN	_	2	comp:obj	_	_
+6	war	sein	VERB	VAFIN	_	0	root	_	_
+7	ein	ein	DET	ART	_	10	reparandum	_	_
+8	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+9	äh	äh	ADV	NGHES	_	6	discourse	_	_
+10	eine	ein	DET	ART	_	12	det	_	_
+11	ältere	alt	ADJ	ADJA	_	12	mod	_	_
+12	Frau	Frau	NOUN	NN	_	6	subj	_	_
+13	die	d	DET	PRELS	_	19	subj	_	_
+14	gerade	gerade	PROPN	ADJA	_	19	mod	_	_
+15	Lebensmittel	Lebensmittel	PROPN	NN	_	19	comp:obj	_	_
+16	in	in	ADP	APPR	_	19	comp:obl	_	_
+17	ihr	ihr	DET	PPOSAT	_	18	det	_	_
+18	Auto	Auto	NOUN	NN	_	16	comp:obj	_	_
+19	einräumte	einräumen	VERB	VVFIN	_	12	mod@relcl	_	_
+
+# text = äh die hat auch einen Hund an der Leine
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	die	d	PRON	ART	_	3	subj	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	auch	auch	ADV	PTKIFG	_	6	mod	_	_
+5	einen	ein	DET	ART	_	6	det	_	_
+6	Hund	Hund	NOUN	NN	_	3	comp:obj	_	_
+7	an	an	ADP	APPR	_	3	mod	_	_
+8	der	d	DET	ART	_	9	det	_	_
+9	Leine	Leine	NOUN	NN	_	7	comp:obj	_	_
+
+# text = äh danach geht der äh Junge mit seiner Mutter wollen die über die Straße gehen
+1	äh	äh	ADJ	NGHES	_	10	discourse	_	_
+2	danach	danach	ADV	ADV	_	10	mod	_	_
+3	geht	gehen	VERB	VVFIN	_	10	reparandum	_	_
+4	der	d	DET	ART	_	6	det	_	_
+5	äh	äh	NOUN	NGHES	_	10	discourse	_	_
+6	Junge	Junge	NOUN	NN	_	10	dislocated	_	_
+7	mit	mit	ADP	APPR	_	6	mod	_	_
+8	seiner	sein	DET	PPOSAT	_	9	det	_	_
+9	Mutter	Mutter	NOUN	NN	_	7	comp:obj	_	_
+10	wollen	wollen	AUX	VMFIN	_	0	root	_	_
+11	die	d	DET	ART	_	10	subj	_	_
+12	über	über	ADP	APPR	_	15	comp:obl	_	_
+13	die	d	DET	ART	_	14	det	_	_
+14	Straße	Straße	NOUN	NN	_	12	comp:obj	_	_
+15	gehen	gehen	VERB	VVINF	_	10	comp:aux	_	_
+
+# text = aber der äh der Junge der schon fast zwanzig Jahre ist sieht so aus der ist schon ein bisschen älter äh der äh lässt den Ball auf seinen Fuß fallen
+1	aber	aber	ADV	KON	_	24	cc	_	_
+2	der	d	DET	ART	_	4	cc	_	_
+3	äh	äh	NOUN	NGHES	_	24	discourse	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Junge	Junge	NOUN	NN	_	24	dislocated	_	_
+6	der	d	DET	PRELS	_	11	subj	_	_
+7	schon	schon	ADV	ADV	_	11	mod	_	_
+8	fast	fast	ADV	ADV	_	9	mod	_	_
+9	zwanzig	zwanzig	NUM	CARD	_	10	mod	_	_
+10	Jahre	Jahr	NOUN	NN	_	11	comp:pred	_	_
+11	ist	sein	AUX	VAFIN	_	5	mod@relcl	_	_
+12	sieht	sehen	VERB	VVFIN	_	24	parataxis	_	_
+13	so	so	ADV	PTKIFG	_	12	mod	_	_
+14	aus	aus	ADP	PTKVZ	_	12	compound@prt	_	_
+15	der	d	PRON	ART	_	16	subj	_	_
+16	ist	sein	VERB	VAFIN	_	24	parataxis	_	_
+17	schon	schon	ADV	PTKMA	_	19	mod	_	_
+18	ein	ein	DET	ART	_	19	det	_	_
+19	bisschen	bisschen	NOUN	PIDS	_	20	mod	_	_
+20	älter	alt	ADJ	ADJA	_	16	comp:pred	_	_
+21	äh	äh	ADV	NGHES	_	24	discourse	_	_
+22	der	d	DET	ART	_	24	subj	_	_
+23	äh	äh	NOUN	NGHES	_	24	discourse	_	_
+24	lässt	lassen	VERB	VVFIN	_	0	root	_	_
+25	den	d	DET	ART	_	26	det	_	_
+26	Ball	Ball	NOUN	NN	_	30	comp:obj	_	_
+27	auf	auf	ADP	APPR	_	30	comp:obl	_	_
+28	seinen	sein	DET	PPOSAT	_	29	det	_	_
+29	Fuß	Fuß	NOUN	NN	_	27	comp:obj	_	_
+30	fallen	fallen	VERB	VVINF	_	24	comp:obj	_	_
+
+# text = und der Hund der mit der Frau ist die Lebensmittel in das Auto einräumt äh der Hund rennt nach dem Ball der gerade über die Straße gefahren ist
+1	und	und	CCONJ	KON	_	18	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	18	dislocated	_	_
+4	der	d	DET	PRELS	_	8	subj	_	_
+5	mit	mit	ADP	APPR	_	8	comp:pred	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Frau	Frau	NOUN	NN	_	5	comp:obj	_	_
+8	ist	sein	VERB	VAFIN	_	3	mod@relcl	_	_
+9	die	d	DET	PRELS	_	14	subj	_	_
+10	Lebensmittel	Lebensmittel	NOUN	NN	_	14	comp:obj	_	_
+11	in	in	ADP	APPR	_	14	comp:obl	_	_
+12	das	d	DET	ART	_	13	det	_	_
+13	Auto	Auto	NOUN	NN	_	11	comp:obj	_	_
+14	einräumt	einräumen	VERB	VVFIN	_	7	mod@relcl	_	_
+15	äh	äh	ADV	NGHES	_	18	discourse	_	_
+16	der	d	DET	ART	_	17	det	_	_
+17	Hund	Hund	NOUN	NN	_	18	subj	_	_
+18	rennt	rennen	VERB	VVFIN	_	0	root	_	_
+19	nach	nach	ADP	APPR	_	18	comp:obl	_	_
+20	dem	d	DET	ART	_	21	det	_	_
+21	Ball	Ball	NOUN	NN	_	19	comp:obj	_	_
+22	der	d	DET	PRELS	_	28	subj	_	_
+23	gerade	gerade	ADV	ADV	_	28	mod	_	_
+24	über	über	ADP	APPR	_	27	comp:obl	_	_
+25	die	d	DET	ART	_	26	det	_	_
+26	Straße	Straße	NOUN	NN	_	24	comp:obj	_	_
+27	gefahren	fahren	VERB	VVPP	_	28	comp:aux	_	_
+28	ist	sein	AUX	VAFIN	_	21	mod@relcl	_	_
+
+# text = äh das genau in dem Moment kommen zwei Autos die Straße entlang
+1	äh	äh	ADJ	NGHES	_	7	discourse	_	_
+2	das	d	SCONJ	ART	_	9	reparandum	_	_
+3	genau	genau	ADJ	ADV	_	4	mod	_	_
+4	in	in	ADP	APPR	_	7	mod	_	_
+5	dem	d	DET	ART	_	6	det	_	_
+6	Moment	Moment	NOUN	NN	_	4	comp:obj	_	_
+7	kommen	kommen	VERB	VVFIN	_	0	root	_	_
+8	zwei	zwei	NUM	CARD	_	9	mod	_	_
+9	Autos	Auto	NOUN	NN	_	7	subj	_	_
+10	die	d	DET	ART	_	11	det	_	_
+11	Straße	Straße	NOUN	NN	_	7	comp:obj	_	_
+12	entlang	entlang	ADP	PTKVZ	_	7	compound@prt	_	_
+
+# text = und und äh das erste Auto bremst sehr sehr schnell
+1	und	und	CCONJ	KON	_	2	reparandum	_	_
+2	und	und	CCONJ	KON	_	7	cc	_	_
+3	äh	äh	ADJ	NGHES	_	7	discourse	_	_
+4	das	d	DET	ART	_	6	det	_	_
+5	erste	erst	ADJ	ORD	_	6	mod	_	_
+6	Auto	Auto	NOUN	NN	_	7	subj	_	_
+7	bremst	bremsen	VERB	VVFIN	_	0	root	_	_
+8	sehr	sehr	ADV	PTKIFG	_	9	mod	_	_
+9	sehr	sehr	ADV	PTKIFG	_	10	mod	_	_
+10	schnell	schnell	ADJ	ADJD	_	7	mod	_	_
+
+# text = aber das Auto da äh dahinter kann nicht schnell genug reagieren
+1	aber	aber	ADV	KON	_	7	cc	_	_
+2	das	d	DET	ART	_	3	det	_	_
+3	Auto	Auto	NOUN	NN	_	7	subj	_	_
+4	da	da	ADV	ADV	_	6	mod	_	_
+5	äh	äh	ADJ	NGHES	_	7	discourse	_	_
+6	dahinter	dahinter	ADP	ADV	_	3	mod	_	_
+7	kann	können	AUX	VMFIN	_	0	root	_	_
+8	nicht	nicht	PART	PTKNEG	_	10	mod	_	_
+9	schnell	schnell	ADJ	ADJD	_	10	mod	_	_
+10	genug	genug	ADV	PTKMWL	_	7	mod	_	_
+11	reagieren	reagieren	VERB	VVFIN	_	7	comp:aux	_	_
+
+# text = also trifft es das Auto davor
+1	also	also	ADV	KOUS	_	2	mod	_	_
+2	trifft	treffen	VERB	VVFIN	_	0	root	_	_
+3	es	es	PRON	PPER	_	2	subj	_	_
+4	das	d	DET	ART	_	5	det	_	_
+5	Auto	Auto	NOUN	NN	_	2	comp:obj	_	_
+6	davor	davor	ADV	ADV	_	5	mod	_	_
+
+# text = glaube niemand ist verletzt
+1	glaube	glauben	VERB	VVFIN	_	0	root	_	_
+2	niemand	niemand	PRON	PIS	_	3	subj	_	_
+3	ist	sein	AUX	VAFIN	_	1	comp:obj	_	_
+4	verletzt	verletzt	VERB	ADJD	_	3	comp:pred	_	_
+
+# text = aber äh ich fand das immer noch eine tolle Geschichte
+1	aber	aber	ADV	KON	_	4	cc	_	_
+2	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+3	ich	ich	PRON	PPER	_	4	subj	_	_
+4	fand	finden	VERB	VVFIN	_	0	root	_	_
+5	das	d	PRON	ART	_	4	comp:obj	_	_
+6	immer	immer	ADV	ADV	_	4	mod	_	_
+7	noch	noch	ADV	PTKMWL	_	6	mod	_	_
+8	eine	ein	DET	ART	_	10	det	_	_
+9	tolle	toll	ADJ	ADJA	_	10	mod	_	_
+10	Geschichte	Geschichte	NOUN	NN	_	4	comp:pred	_	_
+

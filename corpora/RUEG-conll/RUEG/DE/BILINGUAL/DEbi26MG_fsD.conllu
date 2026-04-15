@@ -1,0 +1,145 @@
+1	also	also	ADV	_	_	2	mod	_	_
+2	Fallnummer	Fallnummer	NOUN	_	_	0	root	_	_
+3	F16	F16	PROPN	_	_	2	appos	_	_
+
+1	äh	äh	ADJ	_	_	4	discourse	_	_
+2	ein	ein	DET	_	_	3	det	_	_
+3	Mann	Mann	NOUN	_	_	4	subj	_	_
+4	überquert	überquert	VERB	_	_	0	root	_	_
+5	mit	mit	ADP	_	_	4	mod	_	_
+6	seiner	sein	DET	_	_	7	det	_	_
+7	Frau	Frau	NOUN	_	_	5	comp:obj	_	_
+8	und	und	CCONJ	_	_	11	cc	_	_
+9	dem	d	DET	_	_	11	det	_	_
+10	kleinen	klein	ADJ	_	_	11	mod	_	_
+11	Kind	Kind	NOUN	_	_	7	conj	_	_
+12	die	d	DET	_	_	13	det	_	_
+13	Straße	Straße	NOUN	_	_	4	comp:obj	_	_
+14	nach	nach	ADP	_	_	4	mod	_	_
+15	ihren	ihr	DET	_	_	16	det	_	_
+16	Einkäufen	Einkäufen	NOUN	_	_	14	comp:obj	_	_
+
+1	plötzlich	plötzlich	ADJ	_	_	3	mod	_	_
+2	äh	äh	ADJ	_	_	3	discourse	_	_
+3	rollt	rollen	VERB	_	_	0	root	_	_
+4	der	d	DET	_	_	5	det	_	_
+5	Ball	Ball	NOUN	_	_	3	subj	_	_
+6	auf	auf	ADP	_	_	3	comp:obl	_	_
+7	die	d	DET	_	_	8	det	_	_
+8	Straße	Straße	NOUN	_	_	6	comp:obj	_	_
+9	sodass	sodass	SCONJ	_	_	3	mod	_	_
+10	äh	äh	ADV	_	_	3	discourse	_	_
+11	ein	ein	DET	_	_	13	det	_	_
+12	herbeifahrendes	herbeifahrendes	ADJ	_	_	13	mod	_	_
+13	Auto	Auto	NOUN	_	_	17	subj	_	_
+14	eine	eine	DET	_	_	15	det	_	_
+15	Vollbremsung	Vollbremsung	NOUN	_	_	16	comp:obj	_	_
+16	machen	machen	VERB	_	_	17	comp:aux	_	_
+17	muss	m�ssen	AUX	_	_	9	comp:obj	_	_
+
+1	und	und	CCONJ	_	_	7	cc	_	_
+2	ein	ein	DET	_	_	3	det	_	_
+3	Auto	Auto	NOUN	_	_	7	subj	_	_
+4	das	die	PRON	_	_	6	subj	_	_
+5	dahinter	dahinter	ADV	_	_	6	comp:pred	_	_
+6	war	sein	AUX	_	_	3	mod@relcl	_	_
+7	fährt	fährt	VERB	_	_	0	root	_	_
+8	halt	halt	ADV	_	_	7	discourse	_	_
+9	in	in	ADP	_	_	7	comp:obl	_	_
+10	das	d	DET	_	_	12	det	_	_
+11	erste	erst	ADJ	_	_	12	mod	_	_
+12	Auto	Auto	NOUN	_	_	9	comp:obj	_	_
+13	von	von	ADP	_	_	7	mod	_	_
+14	hinten	hinten	ADV	_	_	13	comp:obj	_	_
+15	herein	herein	ADV	_	_	7	compound@prt	_	_
+
+1	äh	äh	ADV	_	_	9	discourse	_	_
+2	eine	eine	DET	_	_	4	det	_	_
+3	andere	ander	ADJ	_	_	4	mod	_	_
+4	Frau	Frau	NOUN	_	_	9	subj	_	_
+5	die	die	DET	_	_	8	subj	_	_
+6	auch	auch	ADV	_	_	8	mod	_	_
+7	da	da	ADV	_	_	8	comp:pred	_	_
+8	war	sein	AUX	_	_	4	mod@relcl	_	_
+9	erschreckt	erschreckt	VERB	_	_	0	root	_	_
+10	sich	er|es|sie	PRON	_	_	9	comp:obl	_	_
+
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	lässt	lässt	VERB	_	_	0	root	_	_
+3	ihre	ihr	DET	_	_	4	det	_	_
+4	Einkäufe	Einkäufe	NOUN	_	_	5	comp:obj	_	_
+5	fallen	fallen	VERB	_	_	2	comp:obj	_	_
+
+1	außerdem	außerdem	ADV	_	_	2	mod	_	_
+2	hatte	haben	VERB	_	_	0	root	_	_
+3	die	d	DET	_	_	4	det	_	_
+4	Frau	Frau	NOUN	_	_	2	subj	_	_
+5	einen	ein	DET	_	_	6	det	_	_
+6	Hund	Hund	NOUN	_	_	2	comp:obj	_	_
+7	dabei	dabei	ADV	_	_	2	compound@prt	_	_
+
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	der	d	DET	_	_	3	det	_	_
+3	Hund	Hund	NOUN	_	_	4	subj	_	_
+4	fängt	fängt	VERB	_	_	0	root	_	_
+5	an	an	ADP	_	_	4	compound@prt	_	_
+6	zu	zu	PART	_	_	4	comp:obj	_	_
+7	bellen	bellen	VERB	_	_	6	comp:obj	_	_
+
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	will	wollen	AUX	_	_	0	root	_	_
+3	sich	er|es|sie	PRON	_	_	6	comp:obj	_	_
+4	der	d	DET	_	_	5	det	_	_
+5	Leine	Lein|Leine	NOUN	_	_	6	comp:obl	_	_
+6	entreißen	entreißen	VERB	_	_	2	comp:aux	_	_
+
+1	äh	äh	ADV	_	_	10	discourse	_	_
+2	der	d	DET	_	_	3	det	_	_
+3	Mann	Mann	NOUN	_	_	10	subj	_	_
+4	mit	mit	ADP	_	_	3	mod	_	_
+5	der	d	DET	_	_	6	det	_	_
+6	Frau	Frau	NOUN	_	_	4	comp:obj	_	_
+7	und	und	CCONJ	_	_	9	cc	_	_
+8	dem	d	DET	_	_	9	det	_	_
+9	Kind	Kind	PROPN	_	_	6	conj	_	_
+10	geht	gehen	VERB	_	_	0	root	_	_
+11	zur	zur	PROPN	_	_	10	comp:obl	_	_
+12	anderen	ander	ADJ	_	_	13	mod	_	_
+13	Frau	Frau	NOUN	_	_	11	comp:obj	_	_
+14	um	um	ADP	_	_	10	mod	_	_
+15	sie	ihr	DET	_	_	20	comp:obj	_	_
+16	mit	mit	ADP	_	_	20	mod	_	_
+17	den	d	DET	_	_	18	det	_	_
+18	Einkäufen	Einkäufen	NOUN	_	_	16	comp:obj	_	_
+19	zu	zu	PART	_	_	14	comp:obj	_	_
+20	helfen	helfen	VERB	_	_	19	comp:obj	_	_
+
+1	die	d	DET	_	_	3	det	_	_
+2	beiden	beide	PRON	_	_	3	mod	_	_
+3	Männer	Männer	NOUN	_	_	4	subj	_	_
+4	steigen	steigen	VERB	_	_	0	root	_	_
+5	aus	aus	ADP	_	_	4	comp:obl	_	_
+6	ihren	ihr	DET	_	_	7	det	_	_
+7	Autos	Auto	NOUN	_	_	5	comp:obj	_	_
+8	aus	aus	ADP	_	_	4	compound@prt	_	_
+
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	sehen	sehen	VERB	_	_	0	root	_	_
+3	sich	er|es|sie	PRON	_	_	2	comp:obl	_	_
+4	den	d	DET	_	_	5	det	_	_
+5	Schaden	Schaden	NOUN	_	_	2	comp:obj	_	_
+6	an	an	ADP	_	_	2	compound@prt	_	_
+
+1	der	d	DET	_	_	3	det	_	_
+2	eine	eine	NUM	_	_	3	mod	_	_
+3	Mann	Mann	NOUN	_	_	4	subj	_	_
+4	ruft	rufen	VERB	_	_	0	root	_	_
+5	die	d	PRON	_	_	6	det	_	_
+6	eins	eins	DET	_	_	9	reparandum	_	_
+7	eins	eins	NOUN	_	_	6	flat	_	_
+8	die	d	DET	_	_	9	det	_	_
+9	Nummer	Nummer	NOUN	_	_	4	comp:obj	_	_
+10	eins	eins	DET	_	_	9	appos	_	_
+11	eins	eins	DET	_	_	10	flat	_	_
+12	null	null	NUM	_	_	11	flat	_	_
+

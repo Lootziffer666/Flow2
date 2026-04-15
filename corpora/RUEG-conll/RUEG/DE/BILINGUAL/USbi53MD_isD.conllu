@@ -1,0 +1,232 @@
+# text = ja so äh es gab äh es gab eine Unfall heute
+1	ja	ja	ADV	NGIRR	_	8	discourse	_	_
+2	so	so	ADV	ADV	_	8	discourse	_	_
+3	äh	äh	ADJ	NGHES	Degree=Pos	8	discourse	_	_
+4	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	_
+5	gab	geben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	8	reparandum	_	_
+6	äh	äh	ADV	NGHES	_	8	discourse	_	_
+7	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	subj@expl	_	_
+8	gab	geben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+9	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Unfall	Unfall	NOUN	NN	Case=Acc|Number=Sing	8	comp:obj	_	_
+11	heute	heute	ADV	ADV	_	8	mod	_	_
+
+# text = ich habe gesehen es gab wie einem Kerl mit äh glaube ich sein äh seinem äh äh äh äh seine äh
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	gesehen	sehen	VERB	VVPP	VerbForm=Part	2	comp:aux	_	_
+4	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	_
+5	gab	geben	VERB	VVFIN	VerbForm=Fin	2	parataxis	_	_
+6	wie	wie	ADP	PWAV	_	8	mod	_	_
+7	einem	ein	DET	ART	Definite=Ind|PronType=Art	8	det	_	_
+8	Kerl	Kerl	NOUN	NN	_	5	comp:obj	_	_
+9	mit	mit	ADP	APPR	_	8	mod	_	_
+10	äh	äh	ADJ	NGHES	Degree=Pos	2	discourse	_	_
+11	glaube	glauben	NOUN	VVFIN	_	5	parataxis	_	_
+12	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	subj	_	_
+13	sein	sein	VERB	PPOSAT	VerbForm=Inf	15	reparandum	_	_
+14	äh	äh	ADV	NGHES	_	2	discourse	_	_
+15	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	20	reparandum	_	_
+16	äh	äh	ADJ	NGHES	Degree=Pos	2	discourse	_	_
+17	äh	äh	ADJ	NGHES	Degree=Pos	2	discourse	_	_
+18	äh	äh	ADJ	NGHES	Degree=Pos	2	discourse	_	_
+19	äh	äh	ADJ	NGHES	Degree=Pos	2	discourse	_	_
+20	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	9	comp:obj	_	_
+21	äh	äh	ADJ	NGHES	Degree=Pos	2	discourse	_	_
+
+# text = es gab auch ein Mann und Frau
+1	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+2	gab	geben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	auch	auch	ADV	PTKIFG	_	2	mod	_	_
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	2	comp:obj	_	_
+6	und	und	CCONJ	KON	_	7	cc	_	_
+7	Frau	Frau	NOUN	NN	_	5	conj	_	_
+
+# text = und die haben die Straße runtergelaufen mit einem Ball
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	die	d	PRON	PDS	Case=Nom|PronType=Dem	3	subj	_	_
+3	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	comp:obj	_	_
+6	runtergelaufen	runterlaufen	VERB	VVPP	Number=Plur|Person=3|VerbForm=Fin	3	comp:aux	_	_
+7	mit	mit	ADP	APPR	_	6	mod	_	_
+8	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	comp:obj	_	_
+
+# text = und äh sie hatten auch ein glaube ich ein Kind im Wagen rein drin
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	ADJ	NGHES	Degree=Pos	4	discourse	_	_
+3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	subj	_	_
+4	hatten	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	auch	auch	ADV	PTKIFG	_	4	mod	_	_
+6	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	9	reparandum	_	_
+7	glaube	glauben	NOUN	VVFIN	Case=Acc|Gender=Masc,Neut|Number=Sing	4	parataxis	_	_
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	subj	_	_
+9	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Kind	Kind	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	4	comp:obj	_	_
+11	im	im	PROPN	APPRART	_	10	mod	_	_
+12	Wagen	Wagen	PROPN	NN	_	11	comp:obj	_	_
+13	rein	rein	ADJ	APPR	Degree=Pos	14	reparandum	_	_
+14	drin	drinnen	NOUN	APPR	Case=Dat|Gender=Fem|Number=Sing	4	mod	_	_
+
+# text = und dann äh es gab auch eine äh Frau die äh äh äh die eingekauft hat
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	dann	dann	ADV	ADV	_	5	mod	_	_
+3	äh	äh	ADJ	NGHES	Degree=Pos	5	discourse	_	_
+4	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	_
+5	gab	geben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+6	auch	auch	ADV	PTKIFG	_	5	mod	_	_
+7	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	äh	äh	ADJ	NGHES	Degree=Pos	5	discourse	_	_
+9	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	comp:obj	_	_
+10	die	d	DET	PRELS	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	reparandum	_	_
+11	äh	äh	ADV	NGHES	_	5	discourse	_	_
+12	äh	äh	ADV	NGHES	_	5	discourse	_	_
+13	äh	äh	ADV	NGHES	_	5	discourse	_	_
+14	die	die	PRON	PRELS	Case=Nom|PronType=Dem	16	subj	_	_
+15	eingekauft	einkaufen	VERB	VVPP	VerbForm=Part	16	comp:aux	_	_
+16	hat	haben	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
+
+# text = sie hat auch ein Hund
+1	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+2	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	auch	auch	ADV	PTKIFG	_	2	mod	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	2	comp:obj	_	_
+
+# text = und wenn die ihren Sachen da reingetan hat hat der Mann sein Ball verloren
+1	und	und	CCONJ	KON	_	9	cc	_	_
+2	wenn	wenn	SCONJ	KOUS	_	14	mod	_	_
+3	die	d	PRON	PDS	Case=Nom|PronType=Dem	8	subj	_	_
+4	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	Sachen	Sache	NOUN	NN	Case=Acc|Number=Plur	7	comp:obj	_	_
+6	da	da	ADV	ADV	_	8	mod	_	_
+7	reingetan	reintun	VERB	VVPP	VerbForm=Part	8	comp:aux	_	_
+8	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
+9	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	subj	_	_
+12	sein	sein	DET	PPOSS	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+13	Ball	Ball	NOUN	NN	_	14	comp:obj	_	_
+14	verloren	verlieren	ADV	VVPP	_	9	comp:aux	_	_
+
+# text = das hat äh auf dem Straße dort durchgerollt
+1	das	d	PRON	PDS	Case=Nom|PronType=Dem	2	subj	_	_
+2	hat	haben	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	äh	äh	ADJ	NGHES	Degree=Pos	2	discourse	_	_
+4	aufm	aufm	ADP	APPR	_	7	comp:obl	_	_
+5	Straße	Straße	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	comp:obj	_	_
+6	dort	dort	ADV	ADV	_	2	mod	_	_
+7	durchgerollt	durchrollen	VERB	VVPP	VerbForm=Part	2	comp:aux	_	_
+
+# text = und dann hat der Auto
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Auto	Auto	NOUN	NN	_	3	subj	_	_
+
+# text = es gab auch zwei Autos das fahren das war am Fahren
+1	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+2	gab	geben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+3	auch	auch	ADV	PTKIFG	_	2	mod	_	_
+4	zwei	zwei	NUM	CARD	NumType=Card	5	mod	_	_
+5	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	2	comp:obj	_	_
+6	das	d	DET	PRELS	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	fahren	fahren	NOUN	VVFIN	Case=Acc|Gender=Neut|Number=Sing	9	reparandum	_	_
+8	das	d	PRON	PRELS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	9	subj	_	_
+9	war	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	5	mod@relcl	_	_
+10	am	an	ADJ	APPRART	Degree=Pos	9	comp:pred	_	_
+11	Fahren	Fahren	NOUN	NN	_	10	comp:obj	_	_
+
+# text = und die der ersten Auto hat äh gestoppt ganz schnell
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	die	d	PRON	ART	Case=Nom|PronType=Dem	3	reparandum	_	_
+3	der	d	DET	ART	Definite=Def|PronType=Art	5	det	_	_
+4	ersten	erst	ADJ	ORD	Degree=Pos|NumType=Ord	5	mod	_	_
+5	Auto	Auto	NOUN	NN	_	6	subj	_	_
+6	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	äh	äh	ADV	NGHES	_	6	discourse	_	_
+8	gestoppt	stoppen	VERB	VVPP	VerbForm=Part	6	comp:aux	_	_
+9	ganz	ganz	ADJ	PTKIFG	Degree=Pos	10	mod	_	_
+10	schnell	schnell	ADJ	ADJD	Degree=Pos	6	mod	_	_
+
+# text = und weil der Hund der ist auf dem Ball draufgehüpft
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	weil	weil	SCONJ	KOUS	_	6	discourse	_	_
+3	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	dislocated	_	_
+5	der	d	DET	PRELS	Definite=Def|PronType=Art	6	subj	_	_
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	aufm	aufm	ADP	APPR	_	9	comp:obl	_	_
+8	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	comp:obj	_	_
+9	draufgehüpft	draufhüpfen	VERB	VVPP	Person=3|VerbForm=Fin	6	comp:aux	_	_
+
+# text = und dann der Auto hinter ihn war nicht bereit
+1	und	und	CCONJ	KON	_	7	cc	_	_
+2	dann	dann	ADV	ADV	_	7	mod	_	_
+3	der	d	DET	ART	Definite=Def|PronType=Art	4	det	_	_
+4	Auto	Auto	NOUN	NN	_	7	subj	_	_
+5	hinter	hinter	ADP	APPR	_	4	mod	_	_
+6	ihn	er	PRON	PRF	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	_
+7	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	nicht	nicht	PART	PTKNEG	_	9	mod	_	_
+9	bereit	bereit	ADJ	ADJD	Degree=Pos	7	comp:pred	_	_
+
+# text = so der hat ihn dreingeschubst
+1	so	so	ADV	NGIRR	_	3	discourse	_	_
+2	der	d	PRON	PDS	Case=Nom|PronType=Dem	3	subj	_	_
+3	hat	haben	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ihn	er	PRON	PRF	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	_
+5	dreingeschubst	dreinschubsen	ADV	VVPP	_	3	comp:aux	_	_
+
+# text = und dann der Mann rausgehüpft und gesehen äh weder es gab wie eine Verletzung sowas
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	dann	dann	ADV	ADV	_	5	mod	_	_
+3	der	d	DET	ART	Definite=Def|PronType=Art	4	det	_	_
+4	Mann	Mann	NOUN	NN	_	5	subj	_	_
+5	hat	haben	AUX	VAFIN	_	_	_	_	_
+6	rausgehüpft	raushüpfen	VERB	VVPP	Number=Sing|Person=3|VerbForm=Fin	5	comp:aux	_	_
+7	und	und	CCONJ	KON	_	8	cc	_	_
+8	gesehen	sehen	VERB	VVPP	VerbForm=Part	5	conj	_	_
+9	äh	äh	ADJ	NGHES	Degree=Pos	5	discourse	_	_
+10	weder	weder	CCONJ	KON	_	8	comp:obj	_	_
+11	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	subj@expl	_	_
+12	gab	geben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	10	comp:obj	_	_
+13	wie	wie	ADP	PWAV	_	12	comp:obj	_	_
+14	eine	ein	DET	ART	Definite=Ind|PronType=Art	15	det	_	_
+15	Verletzung	Verletzung	NOUN	NN	_	13	comp:obj	_	_
+16	sowas	sowas	PRON	PIS	Case=Acc|PronType=Ind	15	appos	_	_
+
+# text = und dann wenn er geseht dass gar nicht wie falsch war dann hat er auf seinem Auto draufgeguckt
+1	und	und	CCONJ	KON	_	13	cc	_	_
+2	dann	dann	ADV	ADV	_	13	mod	_	_
+3	wenn	wenn	SCONJ	KOUS	_	18	mod	_	_
+4	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
+5	geseht	sehen	VERB	VVPP	Number=Sing|Person=3|VerbForm=Fin	3	comp:obj	_	_
+6	dass	dass	SCONJ	KOUS	_	5	comp:obj	_	_
+7	gar	gar	ADV	PTKIFG	_	8	mod	_	_
+8	nicht	nicht	PART	PTKNEG	_	11	mod	_	_
+9	wie	wie	ADV	PWAV	_	10	mod	_	_
+10	falsch	falsch	ADJ	ADJD	Degree=Pos	11	comp:pred	_	_
+11	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	comp:obj	_	_
+12	dann	dann	ADV	ADV	_	13	mod	_	_
+13	hat	haben	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj	_	_
+15	auf	auf	ADP	APPR	_	18	comp:obl	_	_
+16	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	17	det	_	_
+17	Auto	Auto	NOUN	NN	_	15	comp:obj	_	_
+18	draufgeguckt	draufgucken	VERB	VVPP	Number=Sing|Person=3|VerbForm=Fin	13	comp:aux	_	_
+
+# text = und äh dann hat er der Polizei angerufen
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	ADJ	NGHES	Degree=Pos	4	discourse	_	_
+3	dann	dann	ADV	ADV	_	4	mod	_	_
+4	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
+6	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Polizei	Polizei	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	comp:obj	_	_
+8	angerufen	anrufen	VERB	VVPP	Number=Plur|Person=3|VerbForm=Fin	4	comp:aux	_	_
+
+

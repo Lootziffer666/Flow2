@@ -1,0 +1,139 @@
+# text = F16
+1	F16	F16	NOUN	NE	_	0	root	_	_
+
+# text = ich heiße DEbi64FG
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	heiße	heißeN	PROPN	VVFIN	_	0	root	_	_
+3	DEbi64FG	DEbi64FG	PROPN	NE	_	2	comp:pred	_	_
+
+# text = war auf dem Weg zur Arbeit
+1	war	sein	VERB	VAFIN	_	0	root	_	_
+2	auf	auf	ADP	APPR	_	1	comp:pred	_	_
+3	dem	d	DET	ART	_	4	det	_	_
+4	Weg	Weg	NOUN	NN	_	2	comp:obj	_	_
+5	zur	zu	PROPN	APPRART	_	4	mod	_	_
+6	Arbeit	Arbeit	PROPN	NN	_	5	comp:obj	_	_
+
+# text = und äh bekam mit wie ein Autounfall äh zustande kam
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+3	bekam	bekommen	VERB	VVFIN	_	0	root	_	_
+4	mit	mit	ADP	PTKVZ	_	3	compound@prt	_	_
+5	wie	wie	ADP	PWAV	_	3	comp:obj	_	_
+6	ein	ein	DET	ART	_	7	det	_	_
+7	Autounfall	Autounfall	NOUN	NN	_	10	subj	_	_
+8	äh	äh	ADV	NGHES	_	3	discourse	_	_
+9	zustande	zustande	ADV	ADV	_	10	compound@prt	_	_
+10	kam	kommen	VERB	VVFIN	_	5	comp:obj	_	_
+
+# text = ich sah ein Mann dem der Ball aus aus der Hand fiel und den Hund aus dem Takt gebracht hat
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	sah	sehen	VERB	VVFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Mann	Mann	NOUN	NN	_	2	comp:obj	_	_
+5	dem	d	DET	ART	_	12	comp:obj	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Ball	Ball	NOUN	NN	_	12	subj	_	_
+8	aus	aus	ADP	APPR	_	9	reparandum	_	_
+9	aus	aus	ADP	APPR	_	12	comp:obl	_	_
+10	der	d	DET	ART	_	11	det	_	_
+11	Hand	Hand	NOUN	NN	_	9	comp:obj	_	_
+12	fiel	fallen	VERB	VVFIN	_	4	mod@relcl	_	_
+13	und	und	CCONJ	KON	_	20	cc	_	_
+14	den	d	DET	ART	_	15	det	_	_
+15	Hund	Hund	NOUN	NN	_	19	comp:obj	_	_
+16	aus	aus	ADP	APPR	_	19	comp:obl	_	_
+17	dem	d	DET	ART	_	18	det	_	_
+18	Takt	Takt	NOUN	NN	_	16	comp:obj	_	_
+19	gebracht	bringen	VERB	VVPP	_	20	comp:aux	_	_
+20	hat	haben	AUX	VAFIN	_	12	conj	_	_
+
+# text = er der Hund zog die Frau mit den Sachen in der Hand
+1	er	er	PRON	PPER	_	4	subj	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	1	appos	_	_
+4	zog	ziehen	VERB	VVFIN	_	0	root	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Frau	Frau	NOUN	NN	_	4	comp:obj	_	_
+7	mit	mit	ADP	APPR	_	6	mod	_	_
+8	den	d	DET	ART	_	9	det	_	_
+9	Sachen	Sache	NOUN	NN	_	7	comp:obj	_	_
+10	in	in	ADP	APPR	_	9	mod	_	_
+11	der	d	DET	ART	_	12	det	_	_
+12	Hand	Hand	NOUN	NN	_	10	comp:obj	_	_
+
+# text = und in dem Moment fuhren zwei Autos äh auf der Straße
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	in	in	ADP	APPR	_	5	mod	_	_
+3	dem	d	DET	ART	_	4	det	_	_
+4	Moment	Moment	NOUN	NN	_	2	comp:obj	_	_
+5	fuhren	fahren	VERB	VVFIN	_	0	root	_	_
+6	zwei	zwei	NUM	CARD	_	7	mod	_	_
+7	Autos	Auto	NOUN	NN	_	5	subj	_	_
+8	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+9	auf	auf	ADP	APPR	_	5	comp:obl	_	_
+10	der	d	DET	ART	_	11	det	_	_
+11	Straße	Straße	NOUN	NN	_	9	comp:obj	_	_
+
+# text = und knallten gegeneinander
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	knallten	knallen	ADJ	VVFIN	_	0	root	_	_
+3	gegeneinander	gegeneinander	NOUN	ADV	_	2	compound@prt	_	_
+
+# text = der Mann mit dem Ball der dem aus der der Ball der aus der Hand fiel äh half der Frau um die Sachen aufzuräumen und den Hund zur Ruhe zu bringen
+1	der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	18	subj	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	dem	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+6	der	d	DET	ART	_	2	appos	_	_
+7	dem	d	DET	ART	_	16	comp:obj	_	_
+8	aus	aus	ADP	APPR	_	10	reparandum	_	_
+9	der	d	DET	ART	_	8	comp:obj	_	_
+10	der	d	DET	ART	_	11	det	_	_
+11	Ball	Ball	NOUN	NN	_	16	subj	_	_
+12	der	d	DET	PRELS	_	13	reparandum	_	_
+13	aus	aus	ADP	APPR	_	16	comp:obl	_	_
+14	der	d	DET	ART	_	15	det	_	_
+15	Hand	Hand	NOUN	NN	_	13	comp:obj	_	_
+16	fiel	fallen	VERB	VVFIN	_	6	mod@relcl	_	_
+17	äh	äh	ADJ	NGHES	_	18	discourse	_	_
+18	half	helfen	VERB	VVFIN	_	0	root	_	_
+19	der	d	DET	ART	_	20	det	_	_
+20	Frau	Frau	NOUN	NN	_	18	comp:obj	_	_
+21	um	um	ADP	KOUI	_	18	mod	_	_
+22	die	d	DET	ART	_	23	det	_	_
+23	Sachen	Sache	NOUN	NN	_	24	comp:obj	_	_
+24	aufzuräumen	aufräumen	VERB	VVIZU	_	21	comp:obj	_	_
+25	und	und	CCONJ	KON	_	30	cc	_	_
+26	den	d	DET	ART	_	27	det	_	_
+27	Hund	Hund	NOUN	NN	_	31	comp:obj	_	_
+28	zur	zu	PROPN	APPRART	_	31	comp:obl	_	_
+29	Ruhe	Ruhe	PROPN	NN	_	28	comp:obj	_	_
+30	zu	zu	PART	PTKZU	_	21	conj	_	_
+31	bringen	bringen	VERB	VVINF	_	30	comp:obj	_	_
+
+# text = und gleich danach ging er zu den Männern um zu fragen ob die Hilfe brauchen um zu helfen wo er kann ja
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	gleich	gleich	ADJ	ADV	_	3	mod	_	_
+3	danach	danach	ADV	ADV	_	4	mod	_	_
+4	ging	gehen	VERB	VVFIN	_	0	root	_	_
+5	er	er	PRON	PPER	_	4	subj	_	_
+6	zu	zu	ADP	APPR	_	4	comp:obl	_	_
+7	den	d	DET	ART	_	8	det	_	_
+8	Männern	Mann	NOUN	NN	_	6	comp:obj	_	_
+9	um	um	ADP	KOUI	_	4	mod	_	_
+10	zu	zu	PART	PTKZU	_	9	comp:obj	_	_
+11	fragen	fragen	VERB	VVINF	_	10	comp:obj	_	_
+12	ob	ob	SCONJ	KOUS	_	11	comp:obj	_	_
+13	die	d	DET	ART	_	15	subj	_	_
+14	Hilfe	Hilfe	NOUN	NN	_	15	comp:obj	_	_
+15	brauchen	brauchen	VERB	VVFIN	_	12	comp:obj	_	_
+16	um	um	ADP	KOUI	_	15	mod	_	_
+17	zu	zu	PART	PTKZU	_	16	comp:obj	_	_
+18	helfen	helfen	VERB	VVINF	_	17	comp:obj	_	_
+19	wo	wo	ADV	ADV	_	18	mod	_	_
+20	er	er	PRON	PPER	_	21	subj	_	_
+21	kann	k�nnen	AUX	VMFIN	_	19	comp:obj	_	_
+22	ja	ja	ADV	NGIRR	_	4	discourse	_	_
+

@@ -1,0 +1,59 @@
+# text = Hi Jerome ,
+1	Hi	hi	PROPN	NGIRR	_	2	discourse	_	_
+2	Jerome	Jerome	PROPN	NE	_	0	root	_	_
+3	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = alles fit ?
+1	alles	all	PRON	PIS	_	0	root	_	_
+2	fit	fit	NOUN	ADJD	_	1	orphan	_	_
+3	?	?	PUNCT	$.	_	1	punct	_	_
+
+# text = als ich gerade nach der Studie auf dem Parkplatz gewartet habe gab es da einen Auffahrunfall zwischen . zwei Autos .
+1	als	als	SCONJ	KOUS	_	12	mod	_	_
+2	ich	ich	PRON	PPER	_	11	subj	_	_
+3	gerade	gerade	ADV	ADV	_	4	mod	_	_
+4	nach	nach	ADP	APPR	_	10	mod	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Studie	Studie	NOUN	NN	_	4	comp:obj	_	_
+7	auf	auf	ADP	APPR	_	10	comp:obl	_	_
+8	dem	d	DET	ART	_	9	det	_	_
+9	Parkplatz	Parkplatz	PROPN	NN	_	7	comp:obj	_	_
+10	gewartet	warten	VERB	VVPP	_	11	comp:aux	_	_
+11	habe	haben	AUX	VAFIN	_	1	comp:obj	_	_
+12	gab	geben	VERB	VVFIN	_	0	root	_	_
+13	es	es	PRON	PPER	_	12	subj@expl	_	_
+14	da	da	ADV	ADV	_	12	mod	_	_
+15	einen	ein	DET	ART	_	16	det	_	_
+16	Auffahrunfall	Auffahrunfall	NOUN	NN	_	12	comp:obj	_	_
+17	zwischen	zwischen	ADP	APPR	_	16	mod	_	_
+18	.	.	PUNCT	$.	_	12	punct	_	_
+19	zwei	zwei	NUM	CARD	_	20	mod	_	_
+20	Autos	Auto	NOUN	NN	_	17	comp:obj	_	_
+21	.	.	PUNCT	$.	_	12	punct	_	_
+
+# text = Da ist nämlich einem Mann ein Ball heruntergefallen und ein Hund vor die Autos gelaufen .
+1	Da	da	ADV	ADV	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	nämlich	nämlich	ADV	ADV	_	2	mod	_	_
+4	einem	ein	DET	ART	_	5	det	_	_
+5	Mann	Mann	NOUN	NN	_	8	comp:obj	_	_
+6	ein	ein	DET	ART	_	7	det	_	_
+7	Ball	Ball	NOUN	NN	_	2	subj	_	_
+8	heruntergefallen	herunterfallen	VERB	VVPP	_	2	comp:aux	_	_
+9	und	und	CCONJ	KON	_	15	cc	_	_
+10	ein	ein	DET	ART	_	11	det	_	_
+11	Hund	Hund	NOUN	NN	_	15	subj	_	_
+12	vor	vor	ADP	APPR	_	15	comp:obl	_	_
+13	die	d	DET	ART	_	14	det	_	_
+14	Autos	Auto	NOUN	NN	_	12	comp:obj	_	_
+15	gelaufen	laufen	VERB	VVPP	_	2	conj	_	_
+16	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Die haben jetzt die Polizei gerufen
+1	Die	die	PRON	PDS	_	2	subj	_	_
+2	haben	haben	VERB	VAFIN	_	0	root	_	_
+3	jetzt	jetzt	ADV	ADV	_	2	mod	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Polizei	Polizei	NOUN	NN	_	6	comp:obj	_	_
+6	gerufen	rufen	VERB	VVPP	_	2	comp:aux	_	_
+

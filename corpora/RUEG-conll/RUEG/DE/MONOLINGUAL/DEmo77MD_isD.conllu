@@ -1,0 +1,172 @@
+# text = ey
+1	ey	ey	PROPN	_	_	0	root	_	_
+
+# text = äh ich hab gesehen heute wie ein Pärchen mit einem Kinderwagen über die Straße gehen wollte
+1	äh	äh	ADJ	_	Degree=Pos	3	discourse	_	_
+2	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	hab	haben	AUX	_	Tense=Pres	0	root	_	_
+4	gesehen	sehen	VERB	_	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+5	heute	heute	ADV	_	_	3	mod	_	_
+6	wie	wie	ADP	_	_	16	mod	_	_
+7	ein	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Pärchen	Pärchen	NOUN	_	Case=Acc|Gender=Masc,Neut|Number=Sing	16	subj	_	_
+9	mit	mit	ADP	_	_	8	mod	_	_
+10	einem	ein	ADJ	_	Case=Dat|Degree=Pos|Number=Sing	11	mod	_	_
+11	Kinderwagen	Kinderwagen	NOUN	_	Case=Dat|Number=Plur	9	comp:obj	_	_
+12	über	über	ADP	_	_	15	comp:obl	_	_
+13	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	12	comp:obj	_	_
+15	gehen	gehen	VERB	_	VerbForm=Inf	16	comp:aux	_	_
+16	wollte	wollen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	comp:obj	_	_
+
+# text = und dann hat der Mann seinen Ball irgendwie fallen gelassen
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	dann	dann	ADV	_	_	3	mod	_	_
+3	hat	haben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Mann	Mann	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+6	seinen	sein	DET	_	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	Ball	Ball	NOUN	_	Case=Acc|Number=Sing	9	comp:obj	_	_
+8	irgendwie	irgendwie	ADV	_	_	3	mod	_	_
+9	fallen	fallen	VERB	_	Number=Plur|Person=3|VerbForm=Fin	10	comp:obj	_	_
+10	gelassen	lassen	VERB	_	Tense=Past	3	comp:aux	_	_
+
+# text = der ist über die Straße gerollt
+1	der	d	DET	_	Definite=Def|PronType=Art	2	subj	_	_
+2	ist	es	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Tense=Pres	0	root	_	_
+3	über	über	ADP	_	_	6	comp:obl	_	_
+4	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	comp:obj	_	_
+6	gerollt	rollen	VERB	_	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+
+# text = und dann ist irgendwie eine Frau mit
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	dann	dann	ADV	_	_	3	mod	_	_
+3	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	irgendwie	irgendwie	ADV	_	_	3	mod	_	_
+5	eine	ein	DET	_	Definite=Ind|PronType=Art	6	det	_	_
+6	Frau	Frau	NOUN	_	_	3	subj	_	_
+7	mit	mit	ADP	_	_	3	comp:aux	_	_
+
+# text = also der Hund ist auf den Ball zugerannt
+1	also	also	ADV	_	_	4	discourse	_	_
+2	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Hund	Hund	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+4	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	auf	auf	ADP	_	_	8	comp:obl	_	_
+6	den	d	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	Ball	Ball	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	comp:obj	_	_
+8	zugerannt	zurennen	VERB	_	Tense=Past|VerbForm=Part	4	comp:aux	_	_
+9	und	und	CCONJ	_	_	13	cc	_	_
+10	die	d	DET	_	Definite=Def|PronType=Art	11	det	_	_
+11	Frau	Frau	NOUN	_	_	13	subj	_	_
+12	irgendwie	irgendwie	ADV	_	_	13	mod	_	_
+13	hinterher	hinterher	ADV	_	_	4	conj	_	_
+
+# text = und dann kamen so zwei Autos an
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	dann	dann	ADV	_	_	3	mod	_	_
+3	kamen	kommen	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	so	so	ADV	_	_	6	mod	_	_
+5	zwei	zwei	NUM	_	NumType=Card	6	mod	_	_
+6	Autos	Auto	NOUN	_	Case=Nom|Number=Plur	3	subj	_	_
+7	an	an	ADP	_	_	3	compound@prt	_	_
+
+# text = das eine Auto musste eine Vollbremsung machen
+1	das	d	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+2	eine	ein	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	mod	_	_
+3	Auto	Auto	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	4	subj	_	_
+4	musste	müssen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	eine	ein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Vollbremsung	Vollbremsung	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	7	comp:obj	_	_
+7	machen	machen	VERB	_	VerbForm=Inf	4	comp:aux	_	_
+
+# text = und das andere ist dann irgendwie hinten reingefahren
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	das	d	DET	_	Definite=Def|PronType=Art	3	det	_	_
+3	andere	ander	NOUN	_	_	4	subj	_	_
+4	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	dann	dann	ADV	_	_	4	mod	_	_
+6	irgendwie	irgendwie	ADV	_	_	4	mod	_	_
+7	hinten	hinten	ADV	_	_	4	mod	_	_
+8	reingefahren	reinfahren	VERB	_	Tense=Past|VerbForm=Fin	4	comp:aux	_	_
+
+# text = ja
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	das	d	PRON	_	Case=Acc|PronType=Dem	6	comp:obj@expl	_	_
+3	fand	finden	VERB	_	Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+4	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+5	irgendwie	irgendwie	ADV	_	_	3	mod	_	_
+6	krass	krass	PROPN	_	_	3	comp:pred	_	_
+7	dass	dass	PROPN	_	_	6	comp:obj	_	_
+8	ja	ja	ADV	_	_	3	discourse	_	_
+9	da	da	ADV	_	_	14	mod	_	_
+10	irgendwie	irgendwie	ADV	_	_	14	mod	_	_
+11	ein	ein	NUM	_	NumType=Card	12	det	_	_
+12	Unfall	Unfall	NOUN	_	Case=Acc|Number=Sing	14	subj	_	_
+13	passiert	passieren	VERB	_	Tense=Past|VerbForm=Part	14	comp:aux	_	_
+14	ist	sein	AUX	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
+
+# text = und dann haben die halt auch direkt die Polizei angerufen
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	dann	dann	ADV	_	_	3	mod	_	_
+3	haben	haben	ADJ	_	Degree=Pos|Tense=Pres	0	root	_	_
+4	die	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	subj	_	_
+5	halt	halt	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	discourse	_	_
+6	auch	auch	ADV	_	_	3	mod	_	_
+7	direkt	direkt	ADJ	_	Degree=Pos	3	mod	_	_
+8	die	d	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Polizei	Polizei	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	10	comp:obj	_	_
+10	angerufen	anrufen	VERB	_	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+
+# text = und ich musste dann dazu auch eine Zeugenaussage machen
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	musste	müssen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	dann	dann	ADV	_	_	3	mod	_	_
+5	dazu	dazu	ADV	_	_	3	mod	_	_
+6	auch	auch	ADV	_	_	3	mod	_	_
+7	eine	ein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Zeugenaussage	Zeugenaussage	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	9	comp:obj	_	_
+9	machen	machen	VERB	_	VerbForm=Inf	3	comp:aux	_	_
+
+# text = und die mit dem Hund die haben direkt nur diese also die haben irgendwelche Sachen fallen gelassen Lebensmittel
+1	und	und	CCONJ	_	_	13	cc	_	_
+2	die	d	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	dislocated	_	_
+3	mit	mit	ADP	_	_	2	mod	_	_
+4	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Hund	Hund	PROPN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	3	comp:obj	_	_
+6	die	d	PROPN	_	_	7	subj	_	_
+7	haben	haben	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	reparandum	_	_
+8	direkt	direkt	ADV	_	_	7	mod	_	_
+9	nur	nur	ADV	_	_	7	mod	_	_
+10	diese	dies	PRON	_	Case=Nom|PronType=Dem	7	comp:obj	_	_
+11	also	also	ADV	_	_	13	mod	_	_
+12	die	d	PRON	_	Case=Acc|Number=Plur|PronType=Dem	13	subj	_	_
+13	haben	haben	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	irgendwelche	irgendwelche	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	15	det	_	_
+15	Sachen	Sache	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	16	comp:obj	_	_
+16	fallen	fallen	VERB	_	Number=Plur|Person=3|VerbForm=Fin	17	comp:obj	_	_
+17	gelassen	lassen	VERB	_	Tense=Past	13	comp:aux	_	_
+18	Lebensmittel	Lebensmittel	NOUN	_	Case=Acc|Number=Sing	15	appos	_	_
+
+# text = die haben die zuerst irgendwie erstmal eingesammelt anstatt zu gucken ob da irgendwas passiert ist
+1	die	d	PRON	_	Case=Nom|PronType=Dem	2	subj	_	_
+2	haben	haben	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	die	d	DET	_	Case=Nom|Definite=Def|Number=Plur|PronType=Art	7	comp:obj	_	_
+4	zuerst	zuerst	ADV	_	_	2	mod	_	_
+5	irgendwie	irgendwie	ADV	_	_	2	mod	_	_
+6	erstmal	erstmal	ADV	_	_	2	mod	_	_
+7	eingesammelt	einsammeln	VERB	_	Person=3|Tense=Past|VerbForm=Fin	2	comp:aux	_	_
+8	anstatt	anstatt	ADP	_	_	7	mod	_	_
+9	zu	zu	PART	_	_	8	comp:obj	_	_
+10	gucken	gucken	VERB	_	VerbForm=Inf	9	comp:obj	_	_
+11	ob	ob	SCONJ	_	_	10	comp:obj	_	_
+12	da	da	ADV	_	_	15	mod	_	_
+13	irgendwas	irgendwas	PRON	_	Case=Acc|PronType=Ind	15	subj	_	_
+14	passiert	passieren	VERB	_	Tense=Past|VerbForm=Part	15	comp:aux	_	_
+15	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	comp:obj	_	_
+
+# text = ja
+1	ja	ja	ADV	_	_	0	root	_	_
+

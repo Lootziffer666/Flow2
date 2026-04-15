@@ -1,0 +1,88 @@
+# text = Sehr geehrte Beamten/innen ,
+1	Sehr	sehr	ADV	PTKIFG	_	2	mod	_	_
+2	geehrte	geehrt	ADJ	ADJA	Degree=Pos	3	mod	_	_
+3	Beamten/innen	Beamter/Beamtin	NOUN	NN	_	0	root	_	_
+4	,	,	PUNCT	$,	_	3	punct	_	_
+
+# text = ich melde mich wegen des Vorfalls auf dem Parkplatz mit der Fallnummer F16 .
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	melde	melden	PROPN	VVFIN	Case=Acc|Number=Sing|Tense=Pres	0	root	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	comp:obj	_	_
+4	wegen	wegen	ADP	APPR	_	2	mod	_	_
+5	des	d	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Vorfalls	Vorfall	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	4	comp:obj	_	_
+7	auf	auf	ADP	APPR	_	6	mod	_	_
+8	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Parkplatz	Parkplatz	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	comp:obj	_	_
+10	mit	mit	ADP	APPR	_	6	mod	_	_
+11	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Fallnummer	Fallnummer	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	comp:obj	_	_
+13	F16	F16	PROPN	NE	_	12	appos	_	_
+14	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Es begab sich so , dass ein Hund auf die Straße lief , nachdem einem Mann ein Fußball fallen ließ .
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+2	begab	begeben	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs	2	comp:obj	_	_
+4	so	so	ADV	ADV	_	2	comp:obj	_	_
+5	,	,	PUNCT	$,	_	2	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	4	comp:obj	_	_
+7	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Hund	Hund	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	12	subj	_	_
+9	auf	auf	ADP	APPR	_	12	comp:obl	_	_
+10	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	comp:obj	_	_
+12	lief	laufen	VERB	VVFIN	Person=3|Tense=Past|VerbForm=Fin	6	comp:obj	_	_
+13	,	,	PUNCT	$,	_	6	punct	_	_
+14	nachdem	nachdem	SCONJ	KOUS	_	12	mod	_	_
+15	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	16	det	_	_
+16	Mann	Mann	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	20	subj	_	_
+17	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	18	det	_	_
+18	Fußball	Fußball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	comp:obj	_	_
+19	fallen	fallen	VERB	VVINF	Tense=Pres|VerbForm=Inf	20	comp:obj	_	_
+20	ließ	lassen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	comp:obj	_	_
+21	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Aufgrund dessen musste der Fahrer des ersten PKWs eine Vollbremsung einlegen um den Hund nicht zu verletzen .
+1	Aufgrund	aufgrund	ADP	APPR	_	11	mod	_	_
+2	dessen	d	PRON	PDS	Case=Gen|PronType=Dem	1	comp:obj	_	_
+3	musste	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Fahrer	Fahrer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+6	des	d	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+7	ersten	erst	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Masc,Neut|Number=Sing|NumType=Ord	8	mod	_	_
+8	PKWs	PKW	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	5	mod@poss	_	_
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Vollbremsung	Vollbremsung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	comp:obj	_	_
+11	einlegen	einlegen	VERB	VVINF	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	comp:aux	_	_
+12	um	um	ADP	APPR	_	11	mod	_	_
+13	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Hund	Hund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	comp:obj	_	_
+15	nicht	nicht	PART	PTKNEG	_	17	mod	_	_
+16	zu	zu	PART	PTKZU	_	12	comp:obj	_	_
+17	verletzen	verletzen	VERB	VVINF	Tense=Pres|VerbForm=Inf	16	comp:obj	_	_
+18	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Infolge dieser Bremsung fuhr ein weiterer PKW in das Heck des ersten PKWs .
+1	Infolge	infolge	ADP	APPR	_	4	mod	_	_
+2	dieser	diese	PRON	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	Bremsung	Bremsung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	comp:obj	_	_
+4	fuhr	fahren	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+6	weiterer	weit	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Masc,Neut|Number=Sing	7	mod	_	_
+7	PKW	PKW	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	4	subj	_	_
+8	in	in	ADP	APPR	_	4	comp:obl	_	_
+9	das	d	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Heck	Heck	NOUN	NN	_	8	comp:obj	_	_
+11	des	d	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	13	det	_	_
+12	ersten	erst	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Masc,Neut|Number=Sing|NumType=Ord	13	mod	_	_
+13	PKWs	PKW	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	10	mod@poss	_	_
+14	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Mit freundlichen Grüßen DEmo63MD .
+1	Mit	mit	ADP	APPR	_	4	mod	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	3	mod	_	_
+3	Grüßen	Gruß	VERB	NN	Number=Plur|Person=3|VerbForm=Fin	1	comp:obj	_	_
+4	DEmo63MD	DEmo63MD	PROPN	NE	Case=Nom|Number=Sing	0	root	_	_
+5	.	.	PUNCT	$.	_	4	punct	_	_
+

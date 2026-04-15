@@ -1,0 +1,113 @@
+# text = da war eine Familie
+1	da	da	ADV	_	_	2	comp:pred	_	_
+2	war	sein	VERB	_	_	0	root	_	_
+3	eine	eine	DET	_	_	4	det	_	_
+4	Familie	Familie	NOUN	_	_	2	subj	_	_
+
+# text = ich vermute mal dass es der Sohn der mit dem Ball gespielt hat .
+1	ich	ich	PRON	_	_	2	subj	_	_
+2	vermute	vermuten	VERB	_	_	0	root	_	_
+3	mal	mal	ADV	_	_	2	mod	_	_
+4	dass	dass	SCONJ	KOUS	_	2	comp:obj	_	_
+5	es	es	PRON	_	_	7	orphan	_	_
+6	der	d	DET	_	_	7	det	_	_
+7	Sohn	Sohn	NOUN	_	_	4	comp:obj	_	_
+8	der	die	DET	_	_	13	subj	_	_
+9	mit	mit	ADP	_	_	12	mod	_	_
+10	dem	d	DET	_	_	11	det	_	_
+11	Ball	Ball	NOUN	_	_	9	comp:obj	_	_
+12	gespielt	spielen	VERB	_	_	13	comp:aux	_	_
+13	hat	haben	AUX	_	_	7	mod@relcl	_	_
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Gegenüber war eine Frau mit ein Hund die ihren Einkauf ins Auto sortiert haben .
+1	Gegenüber	Gegenüber	ADP	_	_	2	comp:pred	_	_
+2	war	sein	VERB	_	_	0	root	_	_
+3	eine	eine	DET	_	_	4	det	_	_
+4	Frau	Frau	NOUN	_	_	2	subj	_	_
+5	mit	mit	ADP	_	_	4	mod	_	_
+6	ein	ein	DET	_	_	7	det	_	_
+7	Hund	Hund	NOUN	_	_	5	comp:obj	_	_
+8	die	die	PRON	_	_	14	subj	_	_
+9	ihren	ihr	DET	_	_	10	det	_	_
+10	Einkauf	Einkauf	NOUN	_	_	13	comp:obj	_	_
+11	ins	ins	PROPN	_	_	13	mod	_	_
+12	Auto	Auto	PROPN	_	_	11	comp:obj	_	_
+13	sortiert	sortieren	VERB	_	_	14	comp:aux	_	_
+14	haben	haben	AUX	_	_	4	mod@relcl	_	_
+15	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = der Junge hat mit dem Ball gespielt
+1	der	d	DET	_	_	2	det	_	_
+2	Junge	Junge	NOUN	_	_	3	subj	_	_
+3	hat	haben	AUX	_	_	0	root	_	_
+4	mit	mit	ADP	_	_	7	mod	_	_
+5	dem	d	DET	_	_	6	det	_	_
+6	Ball	Ball	NOUN	_	_	4	comp:obj	_	_
+7	gespielt	spielen	VERB	_	_	3	comp:aux	_	_
+
+# text = und wo sie die Straße überqueren fällt der Ball aus seiner Hand
+1	und	und	CCONJ	_	_	7	cc	_	_
+2	wo	wo	ADV	_	_	7	mod	_	_
+3	sie	sie	PRON	_	_	6	subj	_	_
+4	die	d	DET	_	_	5	det	_	_
+5	Straße	Straße	NOUN	_	_	6	comp:obj	_	_
+6	überqueren	überqueren	VERB	_	_	2	comp:obj	_	_
+7	fällt	fällt	VERB	_	_	0	root	_	_
+8	der	d	DET	_	_	9	det	_	_
+9	Ball	Ball	NOUN	_	_	7	subj	_	_
+10	aus	aus	ADP	_	_	7	comp:obl	_	_
+11	seiner	sein	DET	_	_	12	det	_	_
+12	Hand	Hand	NOUN	_	_	10	comp:obj	_	_
+
+# text = in diesem Moment rennt der Hund
+1	in	in	ADP	_	_	4	mod	_	_
+2	diesem	diese	PRON	_	_	3	det	_	_
+3	Moment	Moment	NOUN	_	_	1	comp:obj	_	_
+4	rennt	rennen	VERB	_	_	0	root	_	_
+5	der	d	DET	_	_	6	det	_	_
+6	Hund	Hund	NOUN	_	_	4	subj	_	_
+
+# text = und bellt ganz laut .
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	bellt	bellen	VERB	_	_	0	root	_	_
+3	ganz	ganz	ADV	_	_	4	mod	_	_
+4	laut	laut	ADJ	_	_	2	mod	_	_
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Der Einkauf der Frau fällt aus ihrer Hand .
+1	Der	d	DET	_	_	2	det	_	_
+2	Einkauf	Einkauf	NOUN	_	_	5	subj	_	_
+3	der	d	DET	_	_	4	det	_	_
+4	Frau	Frau	NOUN	_	_	2	mod@poss	_	_
+5	fällt	fällt	VERB	_	_	0	root	_	_
+6	aus	aus	ADP	_	_	5	comp:obl	_	_
+7	ihrer	ihr	DET	_	_	8	det	_	_
+8	Hand	Hand	NOUN	_	_	6	comp:obj	_	_
+9	.	.	PUNCT	_	_	5	punct	_	_
+
+# text = Wo das alles passiert ist sind zwei Autos angefahren gekommen
+1	Wo	wo	ADV	_	_	9	mod	_	_
+2	das	die	PRON	_	_	5	subj	_	_
+3	alles	alle	PRON	_	_	2	appos	_	_
+4	passiert	passieren	VERB	_	_	5	comp:aux	_	_
+5	ist	sein	AUX	_	_	1	comp:obj	_	_
+6	sind	sein	AUX	_	_	0	root	_	_
+7	zwei	zwei	NUM	_	_	8	mod	_	_
+8	Autos	Auto	NOUN	_	_	6	subj	_	_
+9	angefahren	anfahren	VERB	_	_	10	comp:obj	_	_
+10	gekommen	kommen	VERB	_	_	6	comp:aux	_	_
+
+# text = und der hintere Auto ist ins Auto eins Auto reingefahren .
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	der	d	DET	_	_	4	det	_	_
+3	hintere	hinter	ADJ	_	_	4	mod	_	_
+4	Auto	Auto	NOUN	_	_	5	subj	_	_
+5	ist	sein	VERB	_	_	0	root	_	_
+6	ins	ins	PROPN	_	_	10	comp:obl	_	_
+7	Auto	Auto	NOUN	_	_	9	reparandum	_	_
+8	eins	eins	DET	_	_	9	det	_	_
+9	Auto	Auto	NOUN	_	_	6	comp:obj	_	_
+10	reingefahren	reingefahren	VERB	_	_	5	comp:aux	_	_
+11	.	.	PUNCT	_	_	5	punct	_	_
+

@@ -1,0 +1,156 @@
+# text = ﻿Fallnummer F16
+1	﻿Fallnummer	Fallnummer	PROPN	NN	_	0	root	_	_
+2	F16	F16	PROPN	NE	_	1	appos	_	_
+
+# text = Es war zuerst eine ganz normale Parkplatzsituation .
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	zuerst	zuerst	ADV	ADV	_	2	mod	_	_
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+5	ganz	ganz	ADV	PTKIFG	_	6	mod	_	_
+6	normale	normal	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	mod	_	_
+7	Parkplatzsituation	Parkplatzsituation	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	comp:pred	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Eine Frau steht an ihrem Auto auf dem Parkplatz
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	subj	_	_
+3	steht	stehen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	an	an	ADP	APPR	_	3	comp:obl	_	_
+5	ihrem	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	Auto	Auto	NOUN	NN	_	4	comp:obj	_	_
+7	auf	auf	ADP	APPR	_	6	mod	_	_
+8	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Parkplatz	Parkplatz	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	comp:obj	_	_
+
+# text = und hat ihren Hund dabei .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	4	det	_	_
+4	Hund	Hund	NOUN	NN	Case=Acc|Number=Sing	2	comp:obj	_	_
+5	dabei	dabei	ADV	ADV	_	2	compound@prt	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Schräg gegenüber steht ein weißer Sprinter .
+1	Schräg	schräg	ADJ	ADJA	Degree=Pos	2	mod	_	_
+2	gegenüber	gegenüber	ADV	ADV	_	3	mod	_	_
+3	steht	stehen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+5	weißer	weiß	ADJ	ADJA	Case=Nom|Degree=Cmp,Pos|Gender=Masc,Neut|Number=Sing	6	mod	_	_
+6	Sprinter	Sprinter	NOUN	NE	_	3	subj	_	_
+7	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Eine Familie mit Kinderwagen läuft hinter dem Sprinter auf dem Gehweg
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Familie	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	subj	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	Kinderwagen	Kinderwagen	NOUN	NN	Case=Dat|Number=Plur	3	comp:obj	_	_
+5	läuft	laufen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	hinter	hinter	ADP	APPR	_	5	udep	_	_
+7	dem	d	DET	ART	Definite=Def|PronType=Art	8	det	_	_
+8	Sprinter	Sprinter	NOUN	NN	_	6	comp:obj	_	_
+9	auf	auf	ADP	APPR	_	5	udep	_	_
+10	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Gehweg	Gehweg	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	9	comp:obj	_	_
+
+# text = und will auf die andere Seite , dorthin wo die Frau steht jetzt kommen relativ schnell zwei Autos über den Parkplatz gefahren .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	will	wollen	AUX	VMFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+4	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	andere	ander	ADJ	PIDAT	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	mod	_	_
+6	Seite	Seite	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	comp:obj	_	_
+7	,	,	PUNCT	$,	_	2	punct	_	_
+8	dorthin	dorthin	ADV	ADV	_	12	mod	_	_
+9	wo	wo	ADV	PWAV	_	12	comp:obl	_	_
+10	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	subj	_	_
+12	steht	stehen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	_
+
+1	jetzt	jetzt	ADV	ADV	_	2	mod	_	_
+2	kommen	kommen	VERB	VVFIN	Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	relativ	relativ	ADJ	PTKIFG	Degree=Pos	4	mod	_	_
+4	schnell	schnell	ADV	ADJD	_	2	mod	_	_
+5	zwei	zwei	NUM	CARD	NumType=Card	6	mod	_	_
+6	Autos	Auto	NOUN	NN	Case=Acc|Number=Sing	2	subj	_	_
+7	über	über	ADP	APPR	_	10	comp:obl	_	_
+8	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Parkplatz	Parkplatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	comp:obj	_	_
+10	gefahren	fahren	VERB	VVPP	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = In dem Moment als sie auf Höhe des Sprinters sind kommt die Familie vor dem Sprinter hervor .
+1	In	in	ADP	APPR	_	4	mod	_	_
+2	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Moment	Moment	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	1	comp:obj	_	_
+4	als	als	ADP	KOUS	_	11	mod	_	_
+5	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	subj	_	_
+6	auf	auf	ADP	APPR	_	10	comp:pred	_	_
+7	Höhe	Höhe	NOUN	NN	_	6	comp:obj	_	_
+8	des	d	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Sprinters	Sprinter	NOUN	NE	Case=Gen|Gender=Masc,Neut|Number=Sing	7	mod@poss	_	_
+10	sind	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
+11	kommt	kommen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Familie	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	subj	_	_
+14	vor	vor	ADP	APPR	_	11	comp:obl	_	_
+15	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	16	det	_	_
+16	Sprinter	Sprinter	PROPN	NE	_	14	comp:obj	_	_
+17	hervor	hervor	ADV	PTKVZ	_	11	compound@prt	_	_
+18	.	.	PUNCT	$.	_	11	punct	_	_
+
+# text = Unglücklicherweise fällt in dem Augenblick dem Vater der Ball runter auf die Straße .
+1	Unglücklicherweise	unglücklicherweise	ADV	ADV	_	2	mod	_	_
+2	fällt	fallen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	APPR	_	2	mod	_	_
+4	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Augenblick	Augenblick	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	3	comp:obl	_	_
+6	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Vater	Vater	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	comp:obj	_	_
+8	der	d	DET	ART	Definite=Def|PronType=Art	9	det	_	_
+9	Ball	Ball	PROPN	NN	_	2	subj	_	_
+10	runter	runter	PROPN	PTKVZ	_	2	compound@prt	_	_
+11	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+12	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	comp:obj	_	_
+14	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Deswegen springt auch der Hund auf die Straße .
+1	Deswegen	deswegen	ADV	ADV	_	2	mod	_	_
+2	springt	springen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	auch	auch	ADV	PTKIFG	_	2	mod	_	_
+4	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	subj	_	_
+6	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+7	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	comp:obj	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Das blaue vordere Auto kann noch abbremsen
+1	Das	d	DET	ART	Definite=Def|PronType=Art	4	det	_	_
+2	blaue	blau	ADJ	ADJA	Degree=Pos	4	mod	_	_
+3	vordere	vorder	ADJ	ADJA	Degree=Pos	4	mod	_	_
+4	Auto	Auto	NOUN	NN	_	5	subj	_	_
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	noch	noch	ADV	PTKMWL	_	5	mod	_	_
+7	abbremsen	abbremsen	VERB	VVINF	VerbForm=Inf	5	comp:aux	_	_
+8	aber	aber	ADV	KON	_	12	cc	_	_
+9	das	d	DET	PDS	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+10	dicht	dicht	ADJ	ADJD	Degree=Pos	11	mod	_	_
+11	dahinter	dahinter	ADP	ADV	_	12	mod	_	_
+12	Fahrende	Fahrende	NOUN	NN	_	5	conj	_	_
+13	nicht	nicht	PART	PTKNEG	_	12	orphan	_	_
+14	mehr	mehr	ADV	PTKMWL	_	13	mod	_	_
+15	.	.	PUNCT	$.	_	5	punct	_	_
+
+# text = Deshalb fährt es dem Blauen hinten auf .
+1	Deshalb	deshalb	ADV	ADV	_	2	mod	_	_
+2	fährt	fshren	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+4	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Blauen	Blaue	NOUN	NN	Case=Dat|Number=Plur	2	comp:obj	_	_
+6	hinten	hinten	ADV	ADV	_	2	mod	_	_
+7	auf	auf	ADP	PTKVZ	_	2	compound@prt	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+

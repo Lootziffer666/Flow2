@@ -1,0 +1,139 @@
+# text = ﻿Auf der einen Straßenseite ist eine Familie mit Kinderwagen entlanggelaufen .
+1	﻿Auf	﻿Auf	ADV	APPR	_	10	comp:obl	_	_
+2	der	d	DET	ART	Definite=Def|PronType=Art	4	det	_	_
+3	einen	ein	ADJ	PIDAT	Degree=Pos	4	mod	_	_
+4	Straßenseite	Straßenseite	NOUN	NN	_	1	comp:obj	_	_
+5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	eine	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
+7	Familie	Familie	NOUN	NN	_	5	subj	_	_
+8	mit	mit	ADP	APPR	_	7	mod	_	_
+9	Kinderwagen	Kinderwagen	NOUN	NN	Case=Dat|Number=Plur	8	comp:obj	_	_
+10	entlanggelaufen	entlanglaufen	VERB	VVPP	Tense=Past|VerbForm=Inf	5	comp:aux	_	_
+11	.	.	PUNCT	$.	_	5	punct	_	_
+
+# text = Der Vater hat dabei einen Ball in der Hand gehalten .
+1	Der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Vater	Vater	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	dabei	dabei	ADV	ADV	_	3	mod	_	_
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	comp:obj	_	_
+7	in	in	ADP	APPR	_	10	mod	_	_
+8	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Hand	Hand	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	comp:obj	_	_
+10	gehalten	halten	ADJ	VVPP	Tense=Past	3	comp:aux	_	_
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Auf der anderen Straßenseite war eine Frau mit ihrem Hund .
+1	Auf	auf	ADP	APPR	_	5	comp:pred	_	_
+2	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	anderen	ander	ADJ	PIDAT	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	4	mod	_	_
+4	Straßenseite	Straßenseite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	comp:obj	_	_
+5	war	sein	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	eine	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
+7	Frau	Frau	NOUN	NN	_	5	subj	_	_
+8	mit	mit	ADP	APPR	_	7	mod	_	_
+9	ihrem	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	Hund	Hund	NOUN	NN	Case=Dat|Number=Sing	8	comp:obj	_	_
+11	.	.	PUNCT	$.	_	5	punct	_	_
+
+# text = Sie hat ihren Einkauf in den Kofferraum getan .
+1	Sie	Sie	PRON	PPER	Case=Nom|Person=2|PronType=Prs	2	subj	_	_
+2	hat	haben	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	4	det	_	_
+4	Einkauf	Einkauf	NOUN	NN	Case=Dat|Number=Sing	8	comp:obj	_	_
+5	in	in	ADP	APPR	_	8	comp:obl	_	_
+6	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Kofferraum	Kofferraum	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	comp:obj	_	_
+8	getan	tun	VERB	VVPP	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Als die Familie dann die Straße überqueren wollte , ist dem Mann sein Ball aus der Hand gefallen und auf die Straße gerollt .
+1	Als	als	SCONJ	KON	_	18	mod	_	_
+2	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Familie	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	subj	_	_
+4	dann	dann	ADV	ADV	_	8	mod	_	_
+5	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	comp:obj	_	_
+7	überqueren	überqueren	VERB	VVINF	Tense=Pres|VerbForm=Inf	8	comp:aux	_	_
+8	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	comp:obj	_	_
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Mann	Mann	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	18	comp:obj	_	_
+13	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+14	Ball	Ball	NOUN	NN	_	10	subj	_	_
+15	aus	aus	ADP	APPR	_	18	comp:obl	_	_
+16	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Hand	Hand	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	comp:obj	_	_
+18	gefallen	fallen	VERB	VVPP	Tense=Past|VerbForm=Part	10	comp:aux	_	_
+19	und	und	CCONJ	KON	_	23	cc	_	_
+20	auf	auf	ADP	APPR	_	23	comp:obl	_	_
+21	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	comp:obj	_	_
+23	gerollt	rollen	VERB	VVPP	Tense=Past|VerbForm=Part	10	conj	_	_
+24	.	.	PUNCT	$.	_	10	punct	_	_
+
+# text = Der Hund der Frau ist dem Ball auf die Straße hinterhergerannt .
+1	Der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	subj	_	_
+3	der	d	DET	ART	Definite=Def|PronType=Art	4	det	_	_
+4	Frau	Frau	NOUN	NN	_	2	mod@poss	_	_
+5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	11	comp:obj	_	_
+8	auf	auf	ADP	APPR	_	11	comp:obl	_	_
+9	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	comp:obj	_	_
+11	hinterhergerannt	hinterherrennen	ADJ	VVPP	Tense=Past	5	comp:aux	_	_
+12	.	.	PUNCT	$.	_	5	punct	_	_
+
+# text = Zur gleichen Zeit ist ein Auto die Straße entlanggefahren
+1	Zur	zu	NOUN	APPRART	_	9	mod	_	_
+2	gleichen	gleich	ADJ	ADJA	Degree=Pos	3	mod	_	_
+3	Zeit	Zeit	NOUN	NN	_	1	comp:obj	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ein	ein	DET	ART	Definite=Ind|PronType=Art	6	det	_	_
+6	Auto	Auto	NOUN	NN	_	4	subj	_	_
+7	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	comp:obj	_	_
+9	entlanggefahren	entlangfahren	VERB	VVPP	Tense=Past|VerbForm=Fin	4	comp:aux	_	_
+
+# text = und musste wegen dem Hund abrupt anhalten .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	musste	m�ssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	wegen	wegen	ADP	APPR	_	7	mod	_	_
+4	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Hund	Hund	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	3	comp:obj	_	_
+6	abrupt	abrupt	ADJ	ADJD	Degree=Pos	2	mod	_	_
+7	anhalten	anhalten	VERB	VVINF	Tense=Pres|VerbForm=Part	2	comp:aux	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Hinter diesem Auto war noch ein zweites Auto , welches dann in das erste Auto hineingefahren ist , da es so abrupt gestoppt hat .
+1	Hinter	hinter	ADP	APPR	_	4	comp:pred	_	_
+2	diesem	dies	PRON	PDAT	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Dem	3	det	_	_
+3	Auto	Auto	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	1	comp:obj	_	_
+4	war	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	noch	noch	ADV	PTKMWL	_	4	mod	_	_
+6	ein	ein	DET	ART	Definite=Ind|PronType=Art	8	det	_	_
+7	zweites	zweit	ADJ	ORD	Degree=Pos|NumType=Ord	8	mod	_	_
+8	Auto	Auto	NOUN	NN	_	4	subj	_	_
+9	,	,	PUNCT	$,	_	4	punct	_	_
+10	welches	welch	PRON	PRELS	Case=Nom|PronType=Rel	17	subj	_	_
+11	dann	dann	ADV	ADV	_	17	mod	_	_
+12	in	in	ADP	APPR	_	16	comp:obl	_	_
+13	das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
+14	erste	erst	ADJ	ORD	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	15	mod	_	_
+15	Auto	Auto	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	comp:obj	_	_
+16	hineingefahren	hineinfahren	VERB	VVPP	Tense=Past|VerbForm=Fin	17	comp:aux	_	_
+17	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	_
+18	,	,	PUNCT	$,	_	17	punct	_	_
+19	da	da	SCONJ	KOUS	_	16	mod	_	_
+20	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	subj	_	_
+21	so	so	ADV	ADV	_	22	mod	_	_
+22	abrupt	abrupt	ADJ	ADJD	Degree=Pos	23	mod	_	_
+23	gestoppt	stoppen	VERB	VVPP	Tense=Past|VerbForm=Part	24	comp:aux	_	_
+24	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	comp:obj	_	_
+25	.	.	PUNCT	$.	_	4	punct	_	_
+
+

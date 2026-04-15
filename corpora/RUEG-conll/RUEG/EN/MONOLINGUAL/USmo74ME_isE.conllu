@@ -1,0 +1,100 @@
+1	hey	hey	INTJ	ITJ	_	0	root	_	_
+
+1	I	i	PRON	PNP	_	3	nsubj	_	_
+2	just	just	ADV	AV0	_	3	advmod	_	_
+3	saw	see	VERB	VVD	_	0	root	_	_
+4	a	a	DET	AT0	_	6	det	_	_
+5	car	car	NOUN	NN1	_	6	compound	_	_
+6	crash	crash	NOUN	NN1	_	3	obj	_	_
+
+1	it	it	PRON	PNP	_	3	nsubj	_	_
+2	was	be	AUX	VBD	_	3	cop	_	_
+3	like	like	INTJ	ITJ	_	7	discourse	_	_
+4	there	there	ADV	EX0	_	3	advmod	_	_
+5	was	be	AUX	VBD	_	7	cop	_	_
+6	this	this	DET	DT0	_	7	det	_	_
+7	there	there	ADV	EX0	_	0	root	_	_
+8	was	be	AUX	VBD	_	7	cop	_	_
+9	like	like	INTJ	ITJ	_	12	discourse	_	_
+10	a	a	DET	AT0	_	12	det:predet	_	_
+11	a	a	DET	AT0	_	12	det	_	_
+12	ball	ball	NOUN	NN1	_	7	parataxis	_	_
+13	that	that	SCONJ	CJT	_	14	mark	_	_
+14	flew	fly	VERB	VVD	_	12	acl	_	_
+15	into	into	ADP	PRP	_	17	case	_	_
+16	the	the	DET	AT0	_	17	det	_	_
+17	road	road	NOUN	NN1	_	14	obl	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	a	a	DET	AT0	_	3	det	_	_
+3	dog	dog	NOUN	NN1	_	4	nsubj	_	_
+4	jumped	jump	VERB	VVD	_	0	root	_	_
+5	out	out	ADP	AVP	_	4	compound:prt	_	_
+
+1	and	and	CCONJ	CJC	_	2	cc	_	_
+2	chased	chase	VERB	VVD	_	0	root	_	_
+3	it	it	PRON	PNP	_	2	obj	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	then	then	ADV	AV0	_	3	advmod	_	_
+3	there	there	ADV	EX0	_	0	root	_	_
+4	was	be	AUX	VBD	_	7	cop	_	_
+5	like	like	INTJ	ITJ	_	7	discourse	_	_
+6	a	a	DET	AT0	_	7	det	_	_
+7	car	car	NOUN	NN1	_	3	nsubj	_	_
+8	that	that	SCONJ	CJT	_	10	mark	_	_
+9	was	be	AUX	VBD	_	10	aux	_	_
+10	coming	come	VERB	VVG	_	7	acl	_	_
+11	up	up	ADP	AVP	_	10	compound:prt	_	_
+12	that	that	SCONJ	CJT	_	14	mark	_	_
+13	like	like	INTJ	ITJ	_	14	discourse	_	_
+14	screeched	screech	VERB	VVD	_	10	ccomp	_	_
+15	to	to	ADP	PRP	_	17	case	_	_
+16	a	a	DET	AT0	_	17	det	_	_
+17	stop	stop	NOUN	NN1	_	14	obl	_	_
+
+1	and	and	CCONJ	CJC	_	6	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	car	car	NOUN	NN1	_	6	nsubj	_	_
+4	behind	behind	ADP	PRP	_	5	case	_	_
+5	it	it	PRON	PNP	_	3	nmod	_	_
+6	hit	hit	VERB	VVD	_	0	root	_	_
+7	it	it	PRON	PNP	_	6	obj	_	_
+
+1	and	and	CCONJ	CJC	_	7	cc	_	_
+2	and	and	CCONJ	CJC	_	3	cc	_	_
+3	like	like	INTJ	ITJ	_	7	conj	_	_
+4	and	and	CCONJ	CJC	_	7	cc	_	_
+5	the	the	DET	AT0	_	6	det	_	_
+6	driver	driver	NOUN	NN1	_	7	nsubj	_	_
+7	got	get	VERB	VVD	_	0	root	_	_
+8	out	out	ADP	AVP	_	7	compound:prt	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	was	be	AUX	VBD	_	4	cop	_	_
+3	super	super	ADV	AV0	_	4	advmod	_	_
+4	mad	mad	ADJ	AJ0	_	0	root	_	_
+
+1	I	i	PRON	PNP	_	2	nsubj	_	_
+2	think	think	VERB	VVB	_	0	root	_	_
+3	I	i	PRON	PNP	_	4	nsubj	_	_
+4	think	think	VERB	VVB	_	2	ccomp	_	_
+5	he	he	PRON	PNP	_	6	nsubj	_	_
+6	called	call	VERB	VVD	_	4	ccomp	_	_
+7	911	911	PROPN	NP0	_	6	xcomp	_	_
+
+1	I	i	PRON	PNP	_	4	nsubj	_	_
+2	do	do	AUX	VDB	_	4	aux	_	_
+3	not	not	PART	XX0	_	4	advmod	_	_
+4	know	know	VERB	VVI	_	0	root	_	_
+5	it	it	PRON	PNP	_	9	nsubj	_	_
+6	's	be	AUX	VBZ	_	9	cop	_	_
+7	kind	kind	ADV	AV0	_	9	advmod	_	_
+8	of	of	ADP	PRF	_	7	fixed	_	_
+9	creepy	creepy	ADJ	AJ0	_	4	ccomp	_	_
+
+1	yeah	yeah	INTJ	ITJ	_	4	discourse	_	_
+2	that	that	DET	DT0	_	4	nsubj	_	_
+3	's	be	AUX	VBZ	_	4	cop	_	_
+4	it	it	PRON	PNP	_	0	root	_	_
+

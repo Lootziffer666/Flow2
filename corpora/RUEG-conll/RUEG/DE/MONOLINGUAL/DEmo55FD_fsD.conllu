@@ -1,0 +1,198 @@
+# text = guten Tag
+1	guten	gut	ADJ	ADJA	_	2	mod	_	_
+2	Tag	Tag	NOUN	NN	_	0	root	_	_
+
+# text = hier ist DEmo55FD
+1	hier	hier	ADV	ADV	_	2	comp:pred	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	DEmo55FD	DEmo55FD	PROPN	NE	_	2	subj	_	_
+
+# text = ich wollte etwas zur Fallnummer 16 mitteilen
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+3	etwas	etwas	PRON	PIS	_	7	comp:obj	_	_
+4	zur	zu	NOUN	APPRART	_	3	mod	_	_
+5	Fallnummer	Fallnummer	NOUN	NN	_	4	comp:obj	_	_
+6	16	@card@	NUM	CARD	_	5	appos	_	_
+7	mitteilen	mitteilen	VERB	VVINF	_	2	comp:aux	_	_
+
+# text = und zwar habe ich gerade den Unfall beobachtet auf einem Parkplatz
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	zwar	zwar	ADV	ADV	_	3	mod	_	_
+3	habe	haben	AUX	VAFIN	_	0	root	_	_
+4	ich	ich	PRON	PPER	_	3	subj	_	_
+5	gerade	gerade	ADV	ADV	_	3	mod	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Unfall	Unfall	NOUN	NN	_	8	comp:obj	_	_
+8	beobachtet	beobachten	VERB	VVPP	_	3	comp:aux	_	_
+9	auf	auf	ADP	APPR	_	8	mod	_	_
+10	einem	ein	DET	ART	_	11	det	_	_
+11	Parkplatz	Parkplatz	NOUN	NN	_	9	comp:obj	_	_
+
+# text = dort äh ist ein Mann mit einem Fußball und eine Frau mit einem Kinderwagen auf dem Bürgersteig gelaufen
+1	dort	dort	ADV	ADV	_	3	mod	_	_
+2	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Mann	Mann	NOUN	NN	_	3	subj	_	_
+6	mit	mit	ADP	APPR	_	5	mod	_	_
+7	einem	ein	DET	ART	_	8	det	_	_
+8	Fußball	Fußball	NOUN	NN	_	6	comp:obj	_	_
+9	und	und	CCONJ	KON	_	11	cc	_	_
+10	eine	ein	DET	ART	_	11	det	_	_
+11	Frau	Frau	NOUN	NN	_	5	conj	_	_
+12	mit	mit	ADP	APPR	_	11	mod	_	_
+13	einem	ein	DET	ART	_	14	det	_	_
+14	Kinderwagen	Kinderwagen	NOUN	NN	_	12	comp:obj	_	_
+15	auf	auf	ADP	APPR	_	18	comp:obl	_	_
+16	dem	d	DET	ART	_	17	det	_	_
+17	Bürgersteig	Bürgersteig	PROPN	NN	_	15	comp:obj	_	_
+18	gelaufen	laufen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = äh auf der anderen Straßenseite war eine Frau am Auto
+1	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+2	auf	auf	ADP	APPR	_	6	mod	_	_
+3	der	d	DET	ART	_	5	det	_	_
+4	anderen	ander	ADJ	PIDAT	_	5	mod	_	_
+5	Straßenseite	Straßenseite	NOUN	NN	_	2	comp:obj	_	_
+6	war	sein	VERB	VAFIN	_	0	root	_	_
+7	eine	ein	DET	ART	_	8	det	_	_
+8	Frau	Frau	NOUN	NN	_	6	subj	_	_
+9	am	an	ADJ	APPRART	_	6	comp:pred	_	_
+10	Auto	Auto	NOUN	NN	_	9	comp:obj	_	_
+
+# text = und hat ihren Einkauf eingepackt
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	ihren	ihr	DET	PPOSAT	_	4	det	_	_
+4	Einkauf	Einkauf	NOUN	NN	_	5	comp:obj	_	_
+5	eingepackt	einpacken	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = gut tschüss
+1	in	in	ADP	APPR	_	5	mod	_	_
+2	der	d	DET	ART	_	4	det	_	_
+3	einen	ein	ADJ	ART	_	4	mod	_	_
+4	Hand	Hand	NOUN	NN	_	1	comp:obj	_	_
+5	hatte	haben	VERB	VAFIN	_	0	root	_	_
+6	sie	sie	PRON	PPER	_	5	subj	_	_
+7	eine	ein	DET	ART	_	8	det	_	_
+8	Tüte	Tüte	NOUN	NN	_	5	comp:obj	_	_
+9	in	in	NOUN	APPRART	_	14	orphan	_	_
+10	der	in	NOUN	APPRART	_	12	det	_	_
+11	anderen	ander	ADJ	PIDAT	_	12	mod	_	_
+12	Hand	Hand	NOUN	NN	_	9	comp:obj	_	_
+13	einen	ein	DET	ART	_	14	det	_	_
+14	Hund	Hund	NOUN	NN	_	5	conj	_	_
+
+# text = äh die Frau und der Mann mit dem Fußball wollten den Parkplatz überqueren
+1	äh	äh	ADJ	NGHES	_	10	discourse	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Frau	Frau	NOUN	NN	_	10	subj	_	_
+4	und	und	CCONJ	KON	_	6	cc	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Mann	Mann	NOUN	NN	_	3	conj	_	_
+7	mit	mit	ADP	APPR	_	6	mod	_	_
+8	dem	d	DET	ART	_	9	det	_	_
+9	Fußball	Fußball	NOUN	NN	_	7	comp:obj	_	_
+10	wollten	wollen	AUX	VMFIN	_	0	root	_	_
+11	den	d	DET	ART	_	12	det	_	_
+12	Parkplatz	Parkplatz	NOUN	NN	_	13	comp:obj	_	_
+13	überqueren	überqueren	VERB	VVINF	_	10	comp:aux	_	_
+
+# text = dabei ist dem Mann der Fußball aus der Hand gefallen
+1	dabei	dabei	ADV	ADV	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	dem	d	DET	ART	_	4	det	_	_
+4	Mann	Mann	NOUN	NN	_	10	comp:obj	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Fußball	Fußball	NOUN	NN	_	2	subj	_	_
+7	aus	aus	ADP	APPR	_	10	mod	_	_
+8	der	d	DET	ART	_	9	det	_	_
+9	Hand	Hand	NOUN	NN	_	7	comp:obj	_	_
+10	gefallen	fallen	ADJ	VVINF	_	2	comp:aux	_	_
+
+# text = und ist dann über die Straße gerollt
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	dann	dann	ADV	ADV	_	2	mod	_	_
+4	über	über	ADP	APPR	_	7	comp:obl	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Straße	Straße	NOUN	NN	_	4	comp:obj	_	_
+7	gerollt	rollen	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = gut tschüss
+1	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+2	genau	genau	ADJ	PTKIFG	_	3	mod	_	_
+3	zu	zu	ADP	APPR	_	6	mod	_	_
+4	dem	d	DET	ART	_	5	det	_	_
+5	Zeitpunkt	Zeitpunkt	NOUN	NN	_	3	comp:obj	_	_
+6	kamen	kommen	VERB	VVFIN	_	0	root	_	_
+7	dann	dann	ADV	ADV	_	6	mod	_	_
+8	ein	ein	DET	ART	_	9	det	_	_
+9	Auto	Auto	NOUN	NN	_	6	subj	_	_
+10	dahinter	dahinter	ADV	ADV	_	13	mod	_	_
+11	noch	noch	ADV	PTKMWL	_	13	mod	_	_
+12	ein	ein	DET	ART	_	13	det	_	_
+13	Auto	Auto	NOUN	NN	_	9	conj	_	_
+
+# text = der Hund hat dann den Ball gesehen
+1	der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	den	d	AUX	ART	_	6	det	_	_
+6	Ball	Ball	PROPN	NN	_	7	comp:obj	_	_
+7	gesehen	sehen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = ist dem Ball hinterhergerannt
+1	ist	sein	VERB	VAFIN	_	0	root	_	_
+2	dem	d	DET	ART	_	3	det	_	_
+3	Ball	Ball	NOUN	NN	_	4	comp:obj	_	_
+4	hinterhergerannt	hinterherrennen	ADJ	VVPP	_	1	comp:aux	_	_
+
+# text = und dadurch hat das erste Auto gebremst
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dadurch	dadurch	ADV	ADV	_	3	mod	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	das	d	DET	ART	_	6	det	_	_
+5	erste	erst	ADJ	ORD	_	6	mod	_	_
+6	Auto	Auto	NOUN	NN	_	3	subj	_	_
+7	gebremst	bremsen	ADV	VVPP	_	3	comp:aux	_	_
+
+# text = und das zweite Auto ist dem ersten Auto dann hinten raufgefahren
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	das	d	DET	ART	_	4	det	_	_
+3	zweite	zweit	ADJ	ORD	_	4	mod	_	_
+4	Auto	Auto	NOUN	NN	_	5	subj	_	_
+5	ist	sein	VERB	VAFIN	_	0	root	_	_
+6	dem	d	DET	ART	_	8	det	_	_
+7	ersten	erst	ADJ	ORD	_	8	mod	_	_
+8	Auto	Auto	NOUN	NN	_	11	comp:obj	_	_
+9	dann	dann	ADV	ADV	_	5	mod	_	_
+10	hinten	hinten	ADV	ADV	_	5	mod	_	_
+11	raufgefahren	rauffahren	VERB	VVPP	_	5	comp:aux	_	_
+
+# text = und dadurch gab es dann ein Unfall
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dadurch	dadurch	ADV	ADV	_	3	mod	_	_
+3	gab	geben	VERB	VVFIN	_	0	root	_	_
+4	es	es	PRON	PPER	_	3	subj@expl	_	_
+5	dann	dann	ADV	ADV	_	3	mod	_	_
+6	ein	ein	DET	ART	_	7	det	_	_
+7	Unfall	Unfall	NOUN	NN	_	3	comp:obj	_	_
+
+# text = und das würde ich jetzt gerne melden
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	das	d	PRON	PDS	_	7	comp:obj	_	_
+3	würde	werden	AUX	VAFIN	_	0	root	_	_
+4	ich	ich	PRON	PPER	_	3	subj	_	_
+5	jetzt	jetzt	ADV	ADV	_	3	mod	_	_
+6	gerne	gerne	ADV	ADV	_	3	mod	_	_
+7	melden	melden	VERB	VVINF	_	3	comp:aux	_	_
+
+# text = gut tschüss
+1	gut	gut	ADJ	NGIRR	_	0	root	_	_
+
+# text = gut tschüss
+1	tschüss	tschüss	PROPN	NGIRR	_	0	root	_	_
+

@@ -1,0 +1,261 @@
+# text = äh guten Tag
+1	äh	äh	ADJ	_	_	3	discourse	_	_
+2	guten	gut	ADJ	_	_	3	mod	_	_
+3	Tag	Tag	NOUN	_	_	0	root	_	_
+
+# text = ich bin DEbi87FT
+1	ich	ich	PRON	_	_	2	subj	_	_
+2	bin	sein	VERB	_	_	0	root	_	_
+3	DEbi87FT	DEbi87FT	PROPN	_	_	2	comp:pred	_	_
+
+# text = und wurde Zeugin des Falls F16
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	wurde	werden	VERB	_	_	0	root	_	_
+3	Zeugin	Zeugin	NOUN	_	_	2	comp:pred	_	_
+4	des	d	DET	_	_	5	det	_	_
+5	Falls	Fall	NOUN	_	_	3	mod@poss	_	_
+6	F16	F16	PROPN	_	_	5	appos	_	_
+
+# text = äh es handelt sich hierbei um einen Autounfall auf dem Parkplatz des Rewe-Supermarktes
+1	äh	äh	ADJ	_	_	3	discourse	_	_
+2	es	es	PRON	_	_	3	subj@expl	_	_
+3	handelt	handeln	VERB	_	_	0	root	_	_
+4	sich	er|es|sie	PRON	_	_	3	comp:obj	_	_
+5	hierbei	hierbei	ADV	_	_	3	mod	_	_
+6	um	um	ADP	_	_	3	comp:obl	_	_
+7	einen	ein	DET	_	_	8	det	_	_
+8	Autounfall	Autounfall	NOUN	_	_	6	comp:obj	_	_
+9	auf	auf	ADP	_	_	8	mod	_	_
+10	dem	d	DET	_	_	11	det	_	_
+11	Parkplatz	Parkplatz	NOUN	_	_	9	comp:obj	_	_
+12	des	d	DET	_	_	13	det	_	_
+13	Rewe-Supermarktes	Rewe-Supermarktes	NOUN	_	_	11	mod@poss	_	_
+
+# text = und zwar äh lief ein Paar mit einem Kinderwagen einem den Gehweg neben dem Parkplatz entlang
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	zwar	zwar	ADV	_	_	4	mod	_	_
+3	äh	äh	ADJ	_	_	4	discourse	_	_
+4	lief	laufen	VERB	_	_	0	root	_	_
+5	ein	ein	DET	_	_	6	det	_	_
+6	Paar	Paar	NOUN	_	_	4	subj	_	_
+7	mit	mit	ADP	_	_	6	mod	_	_
+8	einem	ein	DET	_	_	9	det	_	_
+9	Kinderwagen	Kinderwagen	NOUN	_	_	7	comp:obj	_	_
+10	einem	ein	PRON	_	_	11	reparandum	_	_
+11	den	d	DET	_	_	12	det	_	_
+12	Gehweg	Gehweg	NOUN	_	_	4	comp:obj	_	_
+13	neben	neben	ADP	_	_	12	mod	_	_
+14	dem	d	DET	_	_	15	det	_	_
+15	Parkplatz	Parkplatz	NOUN	_	_	13	comp:obj	_	_
+16	entlang	entlang	ADP	_	_	4	compound@prt	_	_
+
+# text = und lief dann in den Parkplatz hinein
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	lief	laufen	VERB	_	_	0	root	_	_
+3	dann	dann	ADV	_	_	2	mod	_	_
+4	in	in	ADP	_	_	2	comp:obl	_	_
+5	den	d	DET	_	_	6	det	_	_
+6	Parkplatz	Parkplatz	NOUN	_	_	4	comp:obj	_	_
+7	hinein	hinein	ADV	_	_	2	compound@prt	_	_
+
+# text = und äh der Mann des es handelt sich um einen Mann und um eine Frau
+1	und	und	CCONJ	_	_	7	cc	_	_
+2	äh	äh	ADV	_	_	7	discourse	_	_
+3	der	d	DET	_	_	4	det	_	_
+4	Mann	Mann	NOUN	_	_	7	reparandum	_	_
+5	des	d	DET	_	_	4	mod@poss	_	_
+6	es	es	NOUN	_	_	7	subj@expl	_	_
+7	handelt	handeln	VERB	_	_	0	root	_	_
+8	sich	er|es|sie	PRON	_	_	7	comp:obj	_	_
+9	um	um	ADP	_	_	7	comp:obl	_	_
+10	einen	ein	DET	_	_	11	det	_	_
+11	Mann	Mann	NOUN	_	_	9	comp:obj	_	_
+12	und	und	CCONJ	_	_	13	cc	_	_
+13	um	um	ADP	_	_	9	conj	_	_
+14	eine	eine	DET	_	_	15	det	_	_
+15	Frau	Frau	NOUN	_	_	13	comp:obj	_	_
+
+# text = und äh der Mann hat mit einem Ball gespielt äh der dann daraufhin eine Frau getroffen hat die am Parkplatz stand und ihr Auto gerade mit ihren Einkaufstüten eingeladen hat
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	äh	äh	ADV	_	_	5	discourse	_	_
+3	der	d	DET	_	_	4	det	_	_
+4	Mann	Mann	NOUN	_	_	5	subj	_	_
+5	hat	haben	AUX	_	_	0	root	_	_
+6	mit	mit	ADP	_	_	9	mod	_	_
+7	einem	ein	DET	_	_	8	det	_	_
+8	Ball	Ball	NOUN	_	_	6	comp:obj	_	_
+9	gespielt	spielen	VERB	_	_	5	mod	_	_
+10	äh	äh	ADV	_	_	5	discourse	_	_
+11	der	die	DET	_	_	17	subj	_	_
+12	dann	dann	ADV	_	_	17	mod	_	_
+13	daraufhin	daraufhin	ADV	_	_	17	mod	_	_
+14	eine	eine	DET	_	_	15	det	_	_
+15	Frau	Frau	NOUN	_	_	16	comp:obj	_	_
+16	getroffen	treffen|triefen	VERB	_	_	17	comp:aux	_	_
+17	hat	haben	AUX	_	_	8	mod@relcl	_	_
+18	die	die	DET	_	_	21	subj	_	_
+19	am	am	ADJ	_	_	20	mod	_	_
+20	Parkplatz	Parkplatz	NOUN	_	_	21	comp:obl	_	_
+21	stand	stehen	VERB	_	_	15	mod@relcl	_	_
+22	und	und	CCONJ	_	_	30	cc	_	_
+23	ihr	ihr	DET	_	_	24	det	_	_
+24	Auto	Auto	NOUN	_	_	29	comp:obj	_	_
+25	gerade	gerade	ADV	_	_	30	mod	_	_
+26	mit	mit	ADP	_	_	29	mod	_	_
+27	ihren	ihr	DET	_	_	28	det	_	_
+28	Einkaufstüten	Einkaufstüten	NOUN	_	_	26	comp:obj	_	_
+29	eingeladen	einladen	VERB	_	_	30	comp:aux	_	_
+30	hat	haben	AUX	_	_	21	conj	_	_
+
+# text = und äh ja also der Ball hat die Frau getroffen
+1	und	und	CCONJ	_	_	7	cc	_	_
+2	äh	äh	ADJ	_	_	7	discourse	_	_
+3	ja	ja	ADV	_	_	7	discourse	_	_
+4	also	also	ADV	_	_	7	discourse	_	_
+5	der	d	DET	_	_	6	det	_	_
+6	Ball	Ball	NOUN	_	_	7	subj	_	_
+7	hat	haben	AUX	_	_	0	root	_	_
+8	die	d	DET	_	_	9	det	_	_
+9	Frau	Frau	NOUN	_	_	10	comp:obj	_	_
+10	getroffen	treffen|triefen	VERB	_	_	7	comp:aux	_	_
+
+# text = und äh währenddessen sind dann ihre Einkaufstüten aus der Hand gefallen
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	äh	äh	ADV	_	_	4	discourse	_	_
+3	währenddessen	währenddessen	ADV	_	_	4	mod	_	_
+4	sind	sein	AUX	_	_	0	root	_	_
+5	dann	dann	ADV	_	_	4	mod	_	_
+6	ihre	ihr	DET	_	_	7	det	_	_
+7	Einkaufstüten	Einkaufstüten	NOUN	_	_	4	subj	_	_
+8	aus	aus	ADP	_	_	11	comp:obl	_	_
+9	der	d	DET	_	_	10	det	_	_
+10	Hand	Hand	NOUN	_	_	8	comp:obj	_	_
+11	gefallen	gefallen	VERB	_	_	4	comp:aux	_	_
+
+# text = und sie hatte noch einen Hund an der Leine äh der ihr dann entrissen ist
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	sie	sie	PRON	_	_	3	subj	_	_
+3	hatte	haben	VERB	_	_	0	root	_	_
+4	noch	noch	ADV	_	_	3	mod	_	_
+5	einen	ein	DET	_	_	6	det	_	_
+6	Hund	Hund	NOUN	_	_	3	comp:obj	_	_
+7	an	an	ADP	_	_	3	comp:obl	_	_
+8	der	d	DET	_	_	9	det	_	_
+9	Leine	Lein|Leine	PROPN	_	_	7	comp:obj	_	_
+10	äh	äh	PROPN	_	_	3	discourse	_	_
+11	der	die	DET	_	_	14	subj	_	_
+12	ihr	ihr	PRON	_	_	14	comp:obj	_	_
+13	dann	dann	ADV	_	_	15	mod	_	_
+14	entrissen	entreißen	VERB	_	_	15	comp:aux	_	_
+15	ist	sein	VERB	_	_	6	mod@relcl	_	_
+
+# text = und äh während diesem Durcheinander äh haben halt dieser die Frau und der Mann noch versucht äh die Sachen aus den Tüten einzusammeln und äh den Hund wieder einzufangen
+1	und	und	CCONJ	_	_	7	cc	_	_
+2	äh	äh	ADV	_	_	7	discourse	_	_
+3	während	während	ADP	_	_	7	mod	_	_
+4	diesem	diese	PRON	_	_	5	det	_	_
+5	Durcheinander	Durcheinander	ADV	_	_	3	comp:obj	_	_
+6	äh	äh	ADV	_	_	7	discourse	_	_
+7	haben	haben	VERB	_	_	0	root	_	_
+8	halt	halt	ADV	_	_	7	discourse	_	_
+9	dieser	diese	PRON	_	_	10	reparandum	_	_
+10	die	d	DET	_	_	11	det	_	_
+11	Frau	Frau	NOUN	_	_	7	subj	_	_
+12	und	und	CCONJ	_	_	14	cc	_	_
+13	der	d	DET	_	_	14	det	_	_
+14	Mann	Mann	NOUN	_	_	11	conj	_	_
+15	noch	noch	ADV	_	_	7	mod	_	_
+16	versucht	versuchen	VERB	_	_	7	comp:aux	_	_
+17	äh	äh	ADJ	_	_	7	discourse	_	_
+18	die	d	DET	_	_	19	det	_	_
+19	Sachen	Sache	NOUN	_	_	23	comp:obj	_	_
+20	aus	aus	ADP	_	_	19	mod	_	_
+21	den	d	DET	_	_	22	det	_	_
+22	Tüten	Tüten	NOUN	_	_	20	comp:obj	_	_
+23	einzusammeln	einsammeln	VERB	_	_	16	comp:obj	_	_
+24	und	und	CCONJ	_	_	29	cc	_	_
+25	äh	äh	ADJ	_	_	7	discourse	_	_
+26	den	d	DET	_	_	27	det	_	_
+27	Hund	Hund	NOUN	_	_	29	comp:obj	_	_
+28	wieder	wieder	ADV	_	_	29	mod	_	_
+29	einzufangen	einfangen	VERB	_	_	23	conj	_	_
+
+# text = und äh während dieser ganzen Situation kam noch ein Auto in den Parkplatz eingefahren
+1	und	und	CCONJ	_	_	7	cc	_	_
+2	äh	äh	ADV	_	_	7	discourse	_	_
+3	während	während	ADP	_	_	14	mod	_	_
+4	dieser	diese	PRON	_	_	6	det	_	_
+5	ganzen	ganz	ADJ	_	_	6	mod	_	_
+6	Situation	Situation	NOUN	_	_	3	comp:obj	_	_
+7	kam	kommen	VERB	_	_	0	root	_	_
+8	noch	noch	ADV	_	_	7	mod	_	_
+9	ein	ein	DET	_	_	10	det	_	_
+10	Auto	Auto	NOUN	_	_	7	subj	_	_
+11	in	in	ADP	_	_	14	comp:obl	_	_
+12	den	d	DET	_	_	13	det	_	_
+13	Parkplatz	Parkplatz	NOUN	_	_	11	comp:obj	_	_
+14	eingefahren	einfahren	VERB	_	_	7	comp:obl	_	_
+
+# text = und äh blieb dann ruckartig stehen weil halt diese ganze Situation passiert ist
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	äh	äh	ADJ	_	_	3	discourse	_	_
+3	blieb	bleiben	VERB	_	_	0	root	_	_
+4	dann	dann	ADV	_	_	3	mod	_	_
+5	ruckartig	ruckartig	ADJ	_	_	6	mod	_	_
+6	stehen	stehen	VERB	_	_	3	comp:obj	_	_
+7	weil	weil	SCONJ	_	_	6	mod	_	_
+8	halt	halt	ADV	_	_	3	discourse	_	_
+9	diese	diese	PRON	_	_	11	det	_	_
+10	ganze	ganz	ADJ	_	_	11	mod	_	_
+11	Situation	Situation	NOUN	_	_	13	subj	_	_
+12	passiert	passieren	VERB	_	_	13	comp:aux	_	_
+13	ist	sein	AUX	_	_	7	comp:obj	_	_
+
+# text = und äh ja und dann kam noch ein weiteres Auto äh hinterhergefahren äh was halt wegen dem ersten Auto dann auch plötzlich stehen geblieben ist aber äh dann leider in das erste Auto hineingefahren ist weshalb jetzt das Auto beschädigt ist
+1	und	und	CCONJ	_	_	6	cc	_	_
+2	äh	äh	ADV	_	_	6	discourse	_	_
+3	ja	ja	ADV	_	_	6	discourse	_	_
+4	und	und	CCONJ	_	_	6	cc	_	_
+5	dann	dann	ADV	_	_	6	mod	_	_
+6	kam	kommen	VERB	_	_	0	root	_	_
+7	noch	noch	ADV	_	_	6	mod	_	_
+8	ein	ein	DET	_	_	10	det	_	_
+9	weiteres	weit	ADJ	_	_	10	mod	_	_
+10	Auto	Auto	NOUN	_	_	6	subj	_	_
+11	äh	äh	ADJ	_	_	6	discourse	_	_
+12	hinterhergefahren	hinterherfahren	VERB	_	_	6	comp:obj	_	_
+13	äh	äh	ADV	_	_	6	discourse	_	_
+14	was	was	PRON	_	_	25	subj	_	_
+15	halt	halt	VERB	_	_	6	discourse	_	_
+16	wegen	wegen	ADP	_	_	23	mod	_	_
+17	dem	d	DET	_	_	19	det	_	_
+18	ersten	erst	ADJ	_	_	19	mod	_	_
+19	Auto	Auto	NOUN	_	_	16	comp:obj	_	_
+20	dann	dann	ADV	_	_	25	mod	_	_
+21	auch	auch	ADV	_	_	25	mod	_	_
+22	plötzlich	plötzlich	ADJ	_	_	25	mod	_	_
+23	stehen	stehen	VERB	_	_	24	comp:obj	_	_
+24	geblieben	bleiben	VERB	_	_	25	comp:aux	_	_
+25	ist	sein	VERB	_	_	10	mod@relcl	_	_
+26	aber	aber	ADV	_	_	35	cc	_	_
+27	äh	äh	ADJ	_	_	6	discourse	_	_
+28	dann	dann	ADV	_	_	35	mod	_	_
+29	leider	leider	ADV	_	_	35	mod	_	_
+30	in	in	ADP	_	_	34	comp:obl	_	_
+31	das	d	DET	_	_	33	det	_	_
+32	erste	erst	ADJ	_	_	33	mod	_	_
+33	Auto	Auto	NOUN	_	_	30	comp:obj	_	_
+34	hineingefahren	hineinfahren	VERB	_	_	35	comp:aux	_	_
+35	ist	sein	AUX	_	_	25	conj	_	_
+36	weshalb	weshalb	SCONJ	_	_	34	mod	_	_
+37	jetzt	jetzt	ADV	_	_	41	mod	_	_
+38	das	d	DET	_	_	39	det	_	_
+39	Auto	Auto	NOUN	_	_	41	subj@pass	_	_
+40	beschädigt	beschädigt	VERB	_	_	41	comp:aux@pass	_	_
+41	ist	sein	AUX	_	_	36	comp:obj	_	_
+
+# text = und ja
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	ja	ja	ADV	_	_	0	root	_	_
+
+

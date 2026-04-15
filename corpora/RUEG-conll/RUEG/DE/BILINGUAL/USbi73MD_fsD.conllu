@@ -1,0 +1,152 @@
+# text = äh das ist Datei F16
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	das	d	PRON	PDS	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	Datei	Datei	NOUN	NN	_	3	comp:pred	_	_
+5	F16	F16	PROPN	NE	_	4	appos	_	_
+
+# text = und ich war da
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	da	da	ADV	ADV	_	3	comp:pred	_	_
+
+# text = und da war ein kleines Autounfall
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	comp:pred	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	6	det	_	_
+5	kleines	klein	ADJ	ADJA	_	6	mod	_	_
+6	Autounfall	Autounfall	NOUN	NN	_	3	subj	_	_
+
+# text = ein Mann hatte ein Fußball auf ein Gehstein so geschmissen
+1	ein	ein	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	hatte	haben	VERB	VAFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Fußball	Fußball	NOUN	NN	_	3	comp:obj	_	_
+6	auf	auf	ADP	APPR	_	10	comp:obl	_	_
+7	ein	ein	DET	ART	_	8	det	_	_
+8	Gehstein	Gehstein	NOUN	NN	_	6	comp:obj	_	_
+9	so	so	ADV	ADV	_	3	mod	_	_
+10	geschmissen	schmeißen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und dann ist es auf die Straße gerollt
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	es	es	PRON	PPER	_	3	subj	_	_
+5	auf	auf	ADP	APPR	_	8	comp:obl	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Straße	Straße	NOUN	NN	_	5	comp:obj	_	_
+8	gerollt	rollen	ADJ	VVPP	_	3	comp:aux	_	_
+
+# text = und dann musste ein Auto schnell stoppen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	musste	müssen	AUX	VMFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Auto	Auto	NOUN	NN	_	3	subj	_	_
+6	schnell	schnell	ADJ	ADJD	_	3	mod	_	_
+7	stoppen	stoppen	VERB	VVINF	_	3	comp:aux	_	_
+
+# text = und das Auto hinter das erste Auto ist reingefahren in das erste Auto
+1	und	und	CCONJ	KON	_	8	cc	_	_
+2	das	d	DET	ART	_	3	det	_	_
+3	Auto	Auto	NOUN	NN	_	8	subj	_	_
+4	hinter	hinter	ADP	APPR	_	3	mod	_	_
+5	das	d	DET	ART	_	7	det	_	_
+6	erste	erst	ADJ	ORD	_	7	mod	_	_
+7	Auto	Auto	NOUN	NN	_	4	comp:obj	_	_
+8	ist	sein	AUX	VAFIN	_	0	root	_	_
+9	reingefahren	reinfahren	VERB	VVPP	_	8	comp:aux	_	_
+10	in	in	ADP	APPR	_	9	comp:obl	_	_
+11	das	d	DET	ART	_	13	det	_	_
+12	erste	erst	ADJ	ORD	_	13	mod	_	_
+13	Auto	Auto	NOUN	NN	_	10	comp:obj	_	_
+
+# text = und während das passiert ist ein Hunde wollte den Ball fangen
+1	und	und	CCONJ	KON	_	8	cc	_	_
+2	während	während	ADP	ADV	_	11	mod	_	_
+3	das	d	DET	PDS	_	5	subj	_	_
+4	passiert	passieren	VERB	VVPP	_	5	comp:aux	_	_
+5	ist	sein	VERB	VAFIN	_	2	comp:obj	_	_
+6	ein	ein	DET	ART	_	7	det	_	_
+7	Hunde	Hund	NOUN	NN	_	8	subj	_	_
+8	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+9	den	d	DET	ART	_	10	det	_	_
+10	Ball	Ball	NOUN	NN	_	11	comp:obj	_	_
+11	fangen	fangen	VERB	VVINF	_	8	comp:aux	_	_
+
+# text = und der ist so weggehüpft
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	der	d	PRON	PDS	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	so	so	ADV	ADV	_	3	mod	_	_
+5	weggehüpft	weghüpfen	ADJ	VVPP	_	3	comp:aux	_	_
+
+# text = und dann äh eine Frau hat ihre Tasche ihre Tasche ist umgekippt
+1	und	und	CCONJ	KON	_	11	cc	_	_
+2	dann	dann	ADV	ADV	_	11	mod	_	_
+3	äh	äh	ADJ	NGHES	_	11	discourse	_	_
+4	eine	ein	DET	ART	_	5	det	_	_
+5	Frau	Frau	NOUN	NN	_	6	subj	_	_
+6	hat	haben	VERB	VAFIN	_	11	reparandum	_	_
+7	ihre	ihr	DET	PPOSAT	_	8	det	_	_
+8	Tasche	Tasche	NOUN	NN	_	6	comp:obj	_	_
+9	ihre	ihr	DET	PPOSAT	_	10	det	_	_
+10	Tasche	Tasche	NOUN	NN	_	11	subj	_	_
+11	ist	sein	VERB	VAFIN	_	0	root	_	_
+12	umgekippt	umkippen	ADJ	VVPP	_	11	comp:aux	_	_
+
+# text = und äh Wasser und paar Äpfel sind rausgefallen
+1	und	und	CCONJ	KON	_	7	cc	_	_
+2	äh	äh	ADJ	NGHES	_	7	discourse	_	_
+3	Wasser	Wasser	NOUN	NN	_	7	subj	_	_
+4	und	und	CCONJ	KON	_	6	cc	_	_
+5	paar	paar	PRON	PIDAT	_	6	det	_	_
+6	Äpfel	Äpfel	NOUN	NN	_	3	conj	_	_
+7	sind	sein	AUX	VAFIN	_	0	root	_	_
+8	rausgefallen	rausfallen	VERB	VVPP	_	7	comp:aux	_	_
+
+# text = und dann hat der Mann der den Ball verloren oder den Ball gedotzt hat der hat ihr geholfen
+1	und	und	CCONJ	KON	_	16	cc	_	_
+2	dann	dann	ADV	ADV	_	16	mod	_	_
+3	hat	haben	VERB	VAFIN	_	16	reparandum	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Mann	Mann	NOUN	NN	_	16	dislocated	_	_
+6	der	d	PRON	PRELS	_	14	subj	_	_
+7	den	d	DET	ART	_	8	det	_	_
+8	Ball	Ball	NOUN	NN	_	9	comp:obj	_	_
+9	verloren	verlieren	VERB	VVPP	_	14	comp:aux	_	_
+10	oder	oder	CCONJ	KON	_	13	cc	_	_
+11	den	d	DET	ART	_	12	det	_	_
+12	Ball	Ball	NOUN	NN	_	13	comp:obj	_	_
+13	gedotzt	dotzen	VERB	VVPP	_	14	conj	_	_
+14	hat	haben	AUX	VAFIN	_	5	mod@relcl	_	_
+15	der	d	PRON	PDS	_	16	subj	_	_
+16	hat	haben	AUX	VAFIN	_	0	root	_	_
+17	ihr	sie	PRON	PPER	_	18	comp:obj	_	_
+18	geholfen	helfen	VERB	VVPP	_	16	comp:aux	_	_
+
+# text = und dann haben die hat eins von die Autofahrer die Polizei angerufen
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	dann	dann	ADV	ADV	_	5	mod	_	_
+3	haben	haben	VERB	VAFIN	_	5	reparandum	_	_
+4	die	d	PRON	ART	_	3	subj	_	_
+5	hat	haben	AUX	VAFIN	_	0	root	_	_
+6	eins	ein	DET	PIS	_	5	subj	_	_
+7	von	von	ADP	APPR	_	6	mod@poss	_	_
+8	die	d	DET	ART	_	9	det	_	_
+9	Autofahrer	Autofahrer	NOUN	NN	_	7	comp:obj	_	_
+10	die	d	DET	ART	_	11	det	_	_
+11	Polizei	Polizei	NOUN	NN	_	12	comp:obj	_	_
+12	angerufen	anrufen	VERB	VVPP	_	5	comp:aux	_	_
+
+# text = und dann sind die hergekommen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	sind	sein	VERB	VAFIN	_	0	root	_	_
+4	die	d	PRON	PDS	_	3	subj	_	_
+5	hergekommen	herkommen	VERB	VVPP	_	3	comp:aux	_	_
+

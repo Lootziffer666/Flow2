@@ -1,0 +1,102 @@
+1	hallo	hallo	X	NGIRR	_	0	root	_	_
+
+1	das	d	PRON	PDS	_	2	comp:pred	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	die	d	DET	ART	_	4	det	_	_
+4	F16	F16	NOUN	NE	_	2	subj	_	_
+
+1	hier	hier	ADV	ADV	_	2	mod	_	_
+2	spricht	sprechen	VERB	VVFIN	_	0	root	_	_
+3	die	d	DET	ART	_	4	det	_	_
+4	Frau	Frau	NOUN	NN	_	2	subj	_	_
+5	DEbi68FR	DEbi68FR	PROPN	NE	_	4	flat	_	_
+
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	möchte	möchten	AUX	VMFIN	_	0	root	_	_
+4	eine	ein	DET	ART	_	5	det	_	_
+5	Zeugenaussage	Zeugenaussage	NOUN	NN	_	6	comp:obj	_	_
+6	machen	machen	VERB	VVINF	_	3	comp:aux	_	_
+7	zu	zu	ADP	APPR	_	6	mod	_	_
+8	dem	d	DET	ART	_	9	det	_	_
+9	Unfall	Unfall	NOUN	NN	_	7	comp:obj	_	_
+10	auf	auf	ADP	APPR	_	9	mod	_	_
+11	dem	d	DET	ART	_	12	det	_	_
+12	Parkplatz	Parkplatz	NOUN	NN	_	10	comp:obj	_	_
+
+1	es	es	PRON	PPER	_	2	subj@expl	_	_
+2	war	sein	VERB	VAFIN	_	9	reparandum	_	_
+3	eine	ein	DET	ART	_	4	det	_	_
+4	Frau	Frau	NOUN	NN	_	2	subj	_	_
+5	in	in	ADP	APPR	_	6	reparandum	_	_
+6	auf	auf	ADP	APPR	_	9	comp:pred	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Straße	Straße	NOUN	NN	_	6	comp:obj	_	_
+9	war	sein	VERB	VAFIN	_	0	root	_	_
+10	eine	ein	DET	ART	_	11	det	_	_
+11	Frau	Frau	NOUN	NN	_	9	subj	_	_
+12	die	d	PRON	PRELS	_	17	subj	_	_
+13	mit	mit	ADP	APPR	_	16	mod	_	_
+14	einem	ein	DET	ART	_	15	det	_	_
+15	Kinderwagen	Kinderwagen	NOUN	NN	_	13	comp:obj	_	_
+16	gelaufen	laufen	VERB	VVPP	_	17	comp:aux	_	_
+17	ist	sein	VERB	VAFIN	_	11	mod@relcl	_	_
+
+1	neben	neben	ADP	APPR	_	9	mod	_	_
+2	ihr	ihr	PRON	PPER	_	1	comp:obj	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Junge	Junge	NOUN	NN	_	3	subj	_	_
+6	mit	mit	ADP	APPR	_	9	mod	_	_
+7	einem	ein	DET	ART	_	8	det	_	_
+8	Ball	Ball	NOUN	NN	_	6	comp:obj	_	_
+9	gespielt	spielen	VERB	VVPP	_	3	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	9	cc	_	_
+2	als	als	ADP	KON	_	18	mod	_	_
+3	der	d	DET	PDS	_	4	det	_	_
+4	Junge	Junge	NOUN	NN	_	8	subj	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	7	comp:obj	_	_
+7	getreten	treten	VERB	VVPP	_	8	comp:aux	_	_
+8	hat	haben	AUX	VAFIN	_	2	comp:obj	_	_
+9	ist	sein	AUX	VAFIN	_	0	root	_	_
+10	der	d	DET	ART	_	11	det	_	_
+11	Hund	Hund	NOUN	NN	_	9	subj	_	_
+12	von	von	ADP	APPR	_	11	mod@poss	_	_
+13	einer	ein	DET	ART	_	15	det	_	_
+14	anderen	ander	ADJ	PIDAT	_	15	mod	_	_
+15	Dame	Dame	NOUN	NN	_	12	comp:obj	_	_
+16	dem	d	DET	ART	_	17	det	_	_
+17	Ball	Ball	NOUN	NN	_	18	comp:obj	_	_
+18	hinterhergelaufen	hinterherlaufen	VERB	VVPP	_	9	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	dann	dann	ADV	ADV	_	4	mod	_	_
+6	auf	auf	ADP	APPR	_	9	comp:obl	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Straße	Straße	NOUN	NN	_	6	comp:obj	_	_
+9	rausgelaufen	rauslaufen	VERB	VVPP	_	4	comp:aux	_	_
+10	wo	wo	ADV	PWAV	_	13	comp:obl	_	_
+11	das	d	DET	ART	_	12	det	_	_
+12	Auto	Auto	NOUN	NN	_	14	subj	_	_
+13	gefahren	fahren	VERB	VVPP	_	14	comp:aux	_	_
+14	ist	sein	AUX	VAFIN	_	9	mod	_	_
+15	und	und	CCONJ	KON	_	18	cc	_	_
+16	plötzlich	plötzlich	ADJ	ADJD	_	18	mod	_	_
+17	gebremst	bremsen	ADV	VVPP	_	18	comp:aux	_	_
+18	hat	haben	VERB	VAFIN	_	14	conj	_	_
+
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	das	d	DET	ART	_	4	det	_	_
+3	hintere	hinter	ADJ	ADJA	_	4	mod	_	_
+4	Auto	Auto	NOUN	NN	_	5	subj	_	_
+5	ist	sein	VERB	VAFIN	_	0	root	_	_
+6	in	in	ADP	APPR	_	9	comp:obl	_	_
+7	das	d	DET	ART	_	8	det	_	_
+8	Vordere	Vordere	ADJ	NN	_	6	comp:obj	_	_
+9	reingefahren	reinfahren	NOUN	VVPP	_	5	comp:aux	_	_
+

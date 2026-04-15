@@ -1,0 +1,47 @@
+1	hey	hey	INTJ	ITJ	_	0	root	_	_
+2	buddy	buddy	PROPN	NP0	_	1	vocative	_	_
+3	,	,	PUNCT	PUN	_	1	punct	_	_
+
+1	just	just	ADV	AV0	_	2	advmod	_	_
+2	saw	see	VERB	VVD	_	0	root	_	_
+3	a	a	DET	AT0	_	5	det	_	_
+4	fender	fender	NOUN	NN1	_	5	compound	_	_
+5	bender	bender	NOUN	NN1	_	2	obj	_	_
+6	.	.	PUNCT	SENT	_	2	punct	_	_
+
+1	some	some	DET	DT0	_	2	det	_	_
+2	guy	guy	NOUN	NN1	_	3	nsubj	_	_
+3	lost	lose	VERB	VVD	_	0	root	_	_
+4	his	he	DET	DPS	_	6	det	_	_
+5	soccer	soccer	NOUN	NN1	_	6	compound	_	_
+6	ball	ball	NOUN	NN1	_	3	obj	_	_
+7	in	in	ADP	PRP	_	9	case	_	_
+8	the	the	DET	AT0	_	9	det	_	_
+9	middle	middle	NOUN	NN1	_	3	obl	_	_
+10	of	of	ADP	PRF	_	12	case	_	_
+11	the	the	DET	AT0	_	12	det	_	_
+12	street	street	NOUN	NN1	_	9	nmod	_	_
+13	which	which	DET	DTQ	_	14	nsubj	_	_
+14	made	make	VERB	VVD	_	3	parataxis	_	_
+15	a	a	DET	AT0	_	16	det	_	_
+16	dog	dog	NOUN	NN1	_	14	obj	_	_
+17	go	go	VERB	VVI	_	14	xcomp	_	_
+18	crazy	crazy	ADJ	AJ0	_	17	advmod	_	_
+19	and	and	CCONJ	CJC	_	20	cc	_	_
+20	run	run	VERB	VVI	_	17	conj	_	_
+21	into	into	ADP	PRP	_	23	case	_	_
+22	the	the	DET	AT0	_	23	det	_	_
+23	street	street	NOUN	NN1	_	20	obl	_	_
+24	.	.	PUNCT	SENT	_	3	punct	_	_
+
+1	this	this	DET	DT0	_	2	det	_	_
+2	car	car	NOUN	NN1	_	3	nsubj	_	_
+3	stopped	stop	VERB	VVD	_	0	root	_	_
+4	short	short	ADV	AV0	_	3	advmod	_	_
+5	and	and	CCONJ	CJC	_	7	cc	_	_
+6	got	get	VERB	VVD	_	7	aux	_	_
+7	rear-ended	rear-end	VERB	VVN	_	3	conj	_	_
+8	from	from	ADP	PRP	_	9	case	_	_
+9	behind	behind	ADV	AV0	_	7	obl	_	_
+10	.	.	PUNCT	SENT	_	3	punct	_	_
+

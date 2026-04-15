@@ -1,0 +1,168 @@
+# text = Hey
+1	Hey	Hey	PROPN	NGIRR	_	0	root	_	_
+
+# text = ich war gerade bei ein Parkplatz , wo es eine Frau gab , und ein Mann der ein Fußball hatte .
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	bei	bei	ADP	APPR	_	2	comp:pred	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Parkplatz	Parkplatz	NOUN	NN	_	4	comp:obj	_	_
+7	,	,	PUNCT	$,	_	2	punct	_	_
+8	wo	wo	ADV	PWAV	_	12	mod	_	_
+9	es	es	PRON	PPER	_	12	subj@expl	_	_
+10	eine	ein	DET	ART	_	11	det	_	_
+11	Frau	Frau	NOUN	NN	_	12	comp:obj	_	_
+12	gab	geben	VERB	VVFIN	_	6	mod@relcl	_	_
+13	,	,	PUNCT	$,	_	16	punct	_	_
+14	und	und	CCONJ	KON	_	16	cc	_	_
+15	ein	ein	DET	ART	_	16	det	_	_
+16	Mann	Mann	NOUN	NN	_	11	conj	_	_
+17	der	d	DET	PRELS	_	20	subj	_	_
+18	ein	ein	NUM	ART	_	19	mod	_	_
+19	Fußball	Fußball	NOUN	NN	_	20	comp:obj	_	_
+20	hatte	haben	VERB	VAFIN	_	16	mod@relcl	_	_
+21	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Der Mann hat mit den Ball um die Ecke gedribbelt ,
+1	Der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	mit	mit	ADP	APPR	_	10	comp:obl	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	4	comp:obj	_	_
+7	um	um	ADP	APPR	_	10	mod	_	_
+8	die	d	DET	ART	_	9	det	_	_
+9	Ecke	Ecke	NOUN	NN	_	7	comp:obj	_	_
+10	gedribbelt	dribbeln	VERB	VVPP	_	3	comp:aux	_	_
+11	,	,	PUNCT	$,	_	3	punct	_	_
+
+# text = und die Frau hatte ein Hund
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Frau	Frau	NOUN	NN	_	4	subj	_	_
+4	hatte	haben	VERB	VAFIN	_	0	root	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Hund	Hund	NOUN	NN	_	4	comp:obj	_	_
+
+# text = und war im Mitten ihres Essen in ihre braune Tüte zu tun .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	im	im	PROPN	APPRART	_	2	comp:pred	_	_
+4	Mitten	Mitten	ADV	NN	_	3	comp:obj	_	_
+5	ihres	ihr	DET	PPOSAT	_	6	det	_	_
+6	Essen	Essen	NOUN	NN	_	12	comp:obj	_	_
+7	in	in	ADP	APPR	_	12	comp:obl	_	_
+8	ihre	ihr	DET	PPOSAT	_	10	det	_	_
+9	braune	braun	NOUN	ADJA	_	10	mod	_	_
+10	Tüte	Tüte	NOUN	NN	_	7	comp:obj	_	_
+11	zu	zu	PART	PTKZU	_	4	comp:obj	_	_
+12	tun	tun	VERB	VVINF	_	11	comp:obj	_	_
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Es gab dann diese zwei Autos ,
+1	Es	es	PRON	PPER	_	2	subj@expl	_	_
+2	gab	geben	VERB	VVFIN	_	0	root	_	_
+3	dann	dann	ADV	ADV	_	2	mod	_	_
+4	diese	diese	PRON	PDAT	_	6	det	_	_
+5	zwei	zwei	NUM	CARD	_	6	mod	_	_
+6	Autos	Auto	NOUN	NN	_	2	comp:obj	_	_
+7	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = und haben in das Parkplatz gefahren , gleich hintereinander .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	haben	haben	VERB	VAFIN	_	0	root	_	_
+3	ins	ins	ADP	APPR	_	5	comp:obl	_	_
+4	Parkplatz	Parkplatz	PROPN	NN	_	3	comp:obj	_	_
+5	gefahren	fahren	VERB	VVPP	_	2	comp:aux	_	_
+6	,	,	PUNCT	$,	_	2	punct	_	_
+7	gleich	gleich	ADV	ADV	_	8	mod@poss	_	_
+8	hintereinander	hintereinander	ADV	ADV	_	5	mod	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Der Mann hat den Ball verloren ,
+1	Der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	den	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	6	comp:obj	_	_
+6	verloren	verlieren	VERB	VVPP	_	3	comp:aux	_	_
+7	,	,	PUNCT	$,	_	3	punct	_	_
+
+# text = und es hat über die Straße gegangen .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	über	über	ADP	APPR	_	7	comp:obl	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Straße	Straße	NOUN	NN	_	4	comp:obj	_	_
+7	gegangen	gehen	VERB	VVPP	_	3	comp:aux	_	_
+8	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Der Hund wollte gleich darauf springen ,
+1	Der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	3	subj	_	_
+3	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+4	gleich	gleich	ADV	ADV	_	3	mod	_	_
+5	darauf	darauf	ADV	ADV	_	3	mod	_	_
+6	springen	springen	VERB	VVINF	_	3	comp:aux	_	_
+7	,	,	PUNCT	$,	_	3	punct	_	_
+
+# text = und des erstes Auto musste gleich bremsen , auch den zweites .
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	des	d	DET	ART	_	4	det	_	_
+3	erstes	erst	ADJ	ORD	_	4	mod	_	_
+4	Auto	Auto	NOUN	NN	_	5	subj	_	_
+5	musste	müssen	AUX	VMFIN	_	0	root	_	_
+6	gleich	gleich	ADJ	ADV	_	5	mod	_	_
+7	bremsen	bremsen	VERB	VVINF	_	5	comp:aux	_	_
+8	,	,	PUNCT	$,	_	5	punct	_	_
+9	auch	auch	ADV	ADV	_	5	mod	_	_
+10	den	d	DET	ART	_	11	det	_	_
+11	zweites	zweit	ADJ	ORD	_	4	conj	_	_
+12	.	.	PUNCT	$.	_	5	punct	_	_
+
+# text = Des zweites hatte hinten gegen des erstes getroffen ,
+1	Des	d	DET	ART	_	2	det	_	_
+2	zweites	zweit	NOUN	ORD	_	3	subj	_	_
+3	hatte	haben	AUX	VAFIN	_	0	root	_	_
+4	hinten	hinten	ADV	ADV	_	3	mod	_	_
+5	gegen	gegen	ADP	APPR	_	8	comp:obl	_	_
+6	des	d	DET	ART	_	7	det	_	_
+7	erstes	erst	NOUN	ORD	_	5	comp:obj	_	_
+8	getroffen	treffen	VERB	VVPP	_	3	comp:aux	_	_
+9	,	,	PUNCT	$,	_	3	punct	_	_
+
+# text = und der Mann holfte die Frau mit ihren Essen das rausgefallen hat .
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Mann	Mann	NOUN	NN	_	4	subj	_	_
+4	holfte	helfen	VERB	VVFIN	_	0	root	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Frau	Frau	NOUN	NN	_	4	comp:obj	_	_
+7	mit	mit	ADP	APPR	_	4	mod	_	_
+8	ihren	ihr	DET	PPOSAT	_	9	det	_	_
+9	Essen	Essen	NOUN	NN	_	7	comp:obj	_	_
+10	das	d	DET	PRELS	_	12	subj	_	_
+11	rausgefallen	rausfallen	NOUN	VVPP	_	12	comp:aux	_	_
+12	hat	haben	VERB	VAFIN	_	9	mod@relcl	_	_
+13	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Die Männer in das Auto haben 911 angerufen ,
+1	Die	d	DET	ART	_	2	det	_	_
+2	Männer	Mann	NOUN	NN	_	5	subj	_	_
+3	ins	ins	ADP	APPR	_	2	mod	_	_
+4	Auto	Auto	NOUN	NN	_	3	comp:obj	_	_
+5	haben	haben	AUX	VAFIN	_	0	root	_	_
+6	911	911	NUM	CARD	_	7	comp:obj	_	_
+7	angerufen	anrufen	VERB	VVPP	_	5	comp:aux	_	_
+8	,	,	PUNCT	$.	_	5	punct	_	_
+
+# text = und niemand war verletzt .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	niemand	niemand	PRON	PIS	_	3	subj@pass	_	_
+3	war	sein	AUX	VAFIN	_	0	root	_	_
+4	verletzt	verletzt	VERB	ADJD	_	3	comp:aux@pass	_	_
+5	.	.	PUNCT	$.	_	3	punct	_	_
+
+

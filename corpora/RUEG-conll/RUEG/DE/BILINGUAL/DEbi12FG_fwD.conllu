@@ -1,0 +1,251 @@
+# text = ﻿Augenzeugenbericht
+1	﻿Augenzeugenbericht	﻿Augenzeugenbericht	NOUN	_	_	0	root	_	_
+
+# text = Am Tag XX.XX.2019 passierte um XX.XX Uhr ein kleiner Unfall in der Musterstraße .
+1	Am	Am	PROPN	_	_	4	mod	_	_
+2	Tag	Tag	NOUN	_	_	1	comp:obj	_	_
+3	XX.XX.2019	XX.XX.2019	PROPN	_	_	2	appos	_	_
+4	passierte	passieren	VERB	_	_	0	root	_	_
+5	um	um	ADP	_	_	4	mod	_	_
+6	XX.XX	XX.XX	PROPN	_	_	7	mod	_	_
+7	Uhr	Uhr	NOUN	_	_	5	comp:obj	_	_
+8	ein	ein	DET	_	_	10	det	_	_
+9	kleiner	klein	ADJ	_	_	10	mod	_	_
+10	Unfall	Unfall	NOUN	_	_	4	subj	_	_
+11	in	in	ADP	_	_	4	mod	_	_
+12	der	d	DET	_	_	13	det	_	_
+13	Musterstraße	Musterstraße	NOUN	_	_	11	comp:obj	_	_
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = Ich hatte beobachtet , wie auf der einen Straßenseite eine junges Päarchen mit dem Kinderwagen unterwegs waren ,
+1	Ich	ich	PRON	_	_	2	subj	_	_
+2	hatte	haben	AUX	_	_	0	root	_	_
+3	beobachtet	beobachten	VERB	_	_	2	comp:aux	_	_
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	wie	wie	ADP	_	_	3	comp:obj	_	_
+6	auf	auf	ADP	_	_	17	mod	_	_
+7	der	d	DET	_	_	9	det	_	_
+8	einen	ein	DET	_	_	9	det	_	_
+9	Straßenseite	Straßenseite	NOUN	_	_	6	comp:obj	_	_
+10	eine	ein	DET	_	_	12	det	_	_
+11	junges	jung	ADJ	_	_	12	mod	_	_
+12	Päarchen	Pärchen	NOUN	_	_	17	subj	_	_
+13	mit	mit	ADP	_	_	17	mod	_	_
+14	dem	d	DET	_	_	15	det	_	_
+15	Kinderwagen	Kinderwagen	NOUN	_	_	13	comp:obj	_	_
+16	unterwegs	unterwegs	ADV	_	_	17	comp:pred	_	_
+17	waren	sein	VERB	_	_	5	comp:obj	_	_
+18	,	,	PUNCT	_	_	2	punct	_	_
+
+# text = der ( wahrscheinliche ) Vater hatte nebenbei mit einem Ball gespielt ,
+1	der	d	DET	_	_	5	det	_	_
+2	(	(	PUNCT	_	_	3	punct	_	_
+3	wahrscheinliche	wahrscheinlich	ADJ	_	_	5	mod	_	_
+4	)	)	PUNCT	_	_	3	punct	_	_
+5	Vater	Vater	NOUN	_	_	6	subj	_	_
+6	hatte	haben	AUX	_	_	0	root	_	_
+7	nebenbei	nebenbei	ADV	_	_	6	mod	_	_
+8	mit	mit	ADP	_	_	11	mod	_	_
+9	einem	ein	DET	_	_	10	det	_	_
+10	Ball	Ball	NOUN	_	_	8	comp:obj	_	_
+11	gespielt	spielen	VERB	_	_	6	comp:aux	_	_
+12	,	,	PUNCT	_	_	6	punct	_	_
+
+# text = dieser rollte , als er ihn nicht auffangen konnte , allerdings weg von ihm auf die andere Straßenseite , wo gerade eine ältere Frau ihren Einkauf in ihrem Auto verfrachten wollte .
+1	dieser	diese	PRON	_	_	2	subj	_	_
+2	rollte	rollen	VERB	_	_	0	root	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	als	als	SCONJ	_	_	2	mod	_	_
+5	er	er	PRON	_	_	9	subj	_	_
+6	ihn	er	PRON	_	_	8	comp:obj	_	_
+7	nicht	nicht	PART	_	_	9	mod	_	_
+8	auffangen	auffangen	VERB	_	_	9	comp:aux	_	_
+9	konnte	können	AUX	_	_	4	comp:obj	_	_
+10	,	,	PUNCT	_	_	4	punct	_	_
+11	allerdings	allerdings	ADV	_	_	2	mod	_	_
+12	weg	weg	PART	_	_	2	compound@prt	_	_
+13	von	von	ADP	_	_	2	mod	_	_
+14	ihm	er	PRON	_	_	13	comp:obj	_	_
+15	auf	auf	ADP	_	_	2	mod	_	_
+16	die	d	DET	_	_	18	det	_	_
+17	andere	ander	ADJ	_	_	18	mod	_	_
+18	Straßenseite	Straßenseite	NOUN	_	_	15	comp:obj	_	_
+19	,	,	PUNCT	_	_	2	punct	_	_
+20	wo	wo	ADV	_	_	31	mod	_	_
+21	gerade	gerade	ADV	_	_	31	mod	_	_
+22	eine	ein	DET	_	_	24	det	_	_
+23	ältere	älter	ADJ	_	_	24	mod	_	_
+24	Frau	Frau	NOUN	_	_	31	subj	_	_
+25	ihren	ihr	DET	_	_	26	det	_	_
+26	Einkauf	Einkauf	NOUN	_	_	30	comp:obj	_	_
+27	in	in	ADP	_	_	30	comp:obl	_	_
+28	ihrem	ihr	DET	_	_	29	det	_	_
+29	Auto	Auto	NOUN	_	_	27	comp:obj	_	_
+30	verfrachten	verfrachten	VERB	_	_	31	comp:aux	_	_
+31	wollte	wollen	AUX	_	_	18	mod@relcl	_	_
+32	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Nebenbei hielt sie auch ihren Hund an die Leine .
+1	Nebenbei	nebenbei	ADV	_	_	2	mod	_	_
+2	hielt	halten	VERB	_	_	0	root	_	_
+3	sie	sie	PRON	_	_	2	subj	_	_
+4	auch	auch	ADV	_	_	2	mod	_	_
+5	ihren	ihr	DET	_	_	6	det	_	_
+6	Hund	Hund	NOUN	_	_	2	comp:obj	_	_
+7	an	an	ADP	_	_	2	comp:obl	_	_
+8	die	d	DET	_	_	9	det	_	_
+9	Leine	Lein|Leine	NOUN	_	_	7	comp:obj	_	_
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Als der Ball in ihrer Richtung rollte , fing daraufhin der Hund an zu bellen , woraufhin die Frau aufgeschreckt ist und ihren Einkauf auf die Straße fallen gelassen hatte .
+1	Als	als	SCONJ	_	_	9	mod	_	_
+2	der	d	DET	_	_	3	det	_	_
+3	Ball	Ball	NOUN	_	_	7	subj	_	_
+4	in	in	ADP	_	_	7	comp:obl	_	_
+5	ihrer	ihr	DET	_	_	6	det	_	_
+6	Richtung	Richtung	NOUN	_	_	4	comp:obj	_	_
+7	rollte	rollen	VERB	_	_	1	comp:obj	_	_
+8	,	,	PUNCT	_	_	1	punct	_	_
+9	fing	fangen	VERB	_	_	0	root	_	_
+10	daraufhin	daraufhin	ADV	_	_	9	mod	_	_
+11	der	d	DET	_	_	12	det	_	_
+12	Hund	Hund	NOUN	_	_	9	subj	_	_
+13	an	an	ADP	_	_	9	compound@prt	_	_
+14	zu	zu	PART	_	_	9	comp:obj	_	_
+15	bellen	bellen	VERB	_	_	14	comp:obj	_	_
+16	,	,	PUNCT	_	_	9	punct	_	_
+17	woraufhin	woraufhin	ADV	_	_	9	mod	_	_
+18	die	d	DET	_	_	19	det	_	_
+19	Frau	Frau	NOUN	_	_	21	subj	_	_
+20	aufgeschreckt	aufschrecken	VERB	_	_	21	comp:aux	_	_
+21	ist	sein	AUX	_	_	17	comp:obj	_	_
+22	und	und	CCONJ	_	_	30	cc	_	_
+23	ihren	ihr	DET	_	_	24	det	_	_
+24	Einkauf	Einkauf	NOUN	_	_	28	comp:obj	_	_
+25	auf	auf	ADP	_	_	28	comp:obl	_	_
+26	die	d	DET	_	_	27	det	_	_
+27	Straße	Straße	NOUN	_	_	25	comp:obj	_	_
+28	fallen	fallen	VERB	_	_	29	comp:obj	_	_
+29	gelassen	lassen	VERB	_	_	30	comp:aux	_	_
+30	hatte	haben	AUX	_	_	21	conj	_	_
+31	.	.	PUNCT	_	_	9	punct	_	_
+
+# text = Der Mann , der den Ball verloren hatte , eilte der älteren Frau zu Hilfe ,
+1	Der	d	DET	_	_	2	det	_	_
+2	Mann	Mann	NOUN	_	_	10	subj	_	_
+3	,	,	PUNCT	_	_	10	punct	_	_
+4	der	die	PRON	_	_	8	subj	_	_
+5	den	d	DET	_	_	6	det	_	_
+6	Ball	Ball	NOUN	_	_	7	comp:obj	_	_
+7	verloren	verlieren	VERB	_	_	8	comp:aux	_	_
+8	hatte	haben	AUX	_	_	2	mod@relcl	_	_
+9	,	,	PUNCT	_	_	2	punct	_	_
+10	eilte	eilen	VERB	_	_	0	root	_	_
+11	der	d	DET	_	_	13	det	_	_
+12	älteren	älter	ADJ	_	_	13	mod	_	_
+13	Frau	Frau	NOUN	_	_	10	comp:obj	_	_
+14	zu	zu	ADP	_	_	10	comp:obl	_	_
+15	Hilfe	Hilfe	NOUN	_	_	14	comp:obj	_	_
+16	,	,	PUNCT	_	_	2	punct	_	_
+
+# text = achtete dabei nicht auf die Straße , wo ein blaues Auto auf ihnen zukam .
+1	achtete	achten	VERB	_	_	0	root	_	_
+2	dabei	dabei	ADV	_	_	1	mod	_	_
+3	nicht	nicht	PART	_	_	1	mod	_	_
+4	auf	auf	ADP	_	_	1	comp:obl	_	_
+5	die	d	DET	_	_	6	det	_	_
+6	Straße	Straße	NOUN	_	_	4	comp:obj	_	_
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	wo	wo	ADV	_	_	14	mod	_	_
+9	ein	ein	DET	_	_	11	det	_	_
+10	blaues	blau	ADJ	_	_	11	mod	_	_
+11	Auto	Auto	NOUN	_	_	14	subj	_	_
+12	auf	auf	ADP	_	_	14	comp:obl	_	_
+13	ihnen	sie	PRON	_	_	12	comp:obj	_	_
+14	zukam	zukommen	VERB	_	_	6	mod@relcl	_	_
+15	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = Gerade rechtzeitig hielt vor ihnen der Wagen an , um einen Zusammenstoß zu vermeiden .
+1	Gerade	gerade	ADV	_	_	2	mod	_	_
+2	rechtzeitig	rechtzeitig	ADJ	_	_	3	mod	_	_
+3	hielt	halten	VERB	_	_	0	root	_	_
+4	vor	vor	ADP	_	_	3	comp:obl	_	_
+5	ihnen	sie	PRON	_	_	4	comp:obj	_	_
+6	der	d	DET	_	_	7	det	_	_
+7	Wagen	Wagen	NOUN	_	_	3	subj	_	_
+8	an	an	ADPZ	_	_	3	compound@prt	_	_
+9	,	,	PUNCT	_	_	3	punct	_	_
+10	um	um	ADP	_	_	3	mod	_	_
+11	einen	ein	DET	_	_	12	det	_	_
+12	Zusammenstoß	Zusammenstoß	NOUN	_	_	14	comp:obj	_	_
+13	zu	zu	PART	_	_	10	comp:obj	_	_
+14	vermeiden	vermeiden	VERB	_	_	13	comp:obj	_	_
+15	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Allerdings konnte der Hintere , weißer Wagen nicht schnell genug reagieren um zu bremsen
+1	Allerdings	allerdings	ADV	_	_	2	mod	_	_
+2	konnte	können	AUX	_	_	0	root	_	_
+3	der	d	DET	_	_	4	det	_	_
+4	Hintere	Hintere	ADJ	_	_	2	subj	_	_
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	weißer	weiß	ADJ	_	_	7	mod	_	_
+7	Wagen	Wagen	NOUN	_	_	4	appos	_	_
+8	nicht	nicht	PART	_	_	9	mod	_	_
+9	schnell	schnell	ADJ	_	_	2	mod	_	_
+10	genug	genug	ADV	_	_	9	mod	_	_
+11	reagieren	reagieren	VERB	_	_	2	comp:aux	_	_
+12	um	um	ADP	_	_	11	mod	_	_
+13	zu	zu	PART	_	_	12	comp:obj	_	_
+14	bremsen	bremsen	VERB	_	_	13	comp:obj	_	_
+
+# text = und stoß dementsprechend am Hinterrumpf des blauen Autos an .
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	stoß	stoß	ADJ	_	_	0	root	_	_
+3	dementsprechend	dementsprechend	ADJ	_	_	2	mod	_	_
+4	am	am	ADJ	_	_	2	comp:obl	_	_
+5	Hinterrumpf	Hinterrumpf	NOUN	_	_	4	comp:obj	_	_
+6	des	d	DET	_	_	8	det	_	_
+7	blauen	blau	VERB	_	_	8	mod	_	_
+8	Autos	Auto	NOUN	_	_	5	mod@poss	_	_
+9	an	an	ADP	_	_	2	compound@prt	_	_
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Beide Fahrer stiegen aus ihren Autos aus
+1	Beide	beide	PRON	_	_	2	det	_	_
+2	Fahrer	Fahrer	NOUN	_	_	3	subj	_	_
+3	stiegen	steigen	VERB	_	_	0	root	_	_
+4	aus	aus	ADP	_	_	3	comp:obl	_	_
+5	ihren	ihr	DET	_	_	6	det	_	_
+6	Autos	Auto	NOUN	_	_	4	comp:obj	_	_
+7	aus	aus	ADP	_	_	3	compound@prt	_	_
+
+# text = und riefen die Polizei , um den Fall zu dokumentieren und dies unter sich zu regeln .
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	riefen	rufen	VERB	_	_	0	root	_	_
+3	die	d	DET	_	_	4	det	_	_
+4	Polizei	Polizei	NOUN	_	_	2	comp:obj	_	_
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	um	um	ADP	_	_	4	mod	_	_
+7	den	d	DET	_	_	8	det	_	_
+8	Fall	Fall	NOUN	_	_	10	comp:obj	_	_
+9	zu	zu	PART	_	_	6	comp:obj	_	_
+10	dokumentieren	dokumentieren	VERB	_	_	9	comp:obj	_	_
+11	und	und	CCONJ	_	_	15	cc	_	_
+12	dies	dies	PRON	_	_	16	comp:obj	_	_
+13	unter	unter	ADP	_	_	16	mod	_	_
+14	sich	er|es|sie	PRON	_	_	13	comp:obj	_	_
+15	zu	zu	PART	_	_	9	conj	_	_
+16	regeln	regeln	VERB	_	_	15	comp:obj	_	_
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Alle Personen sind in dieser Situation unversehrt davongekommen .
+1	Alle	alle	PRON	_	_	2	det	_	_
+2	Personen	Person	NOUN	_	_	3	subj	_	_
+3	sind	sein	VERB	_	_	0	root	_	_
+4	in	in	ADP	_	_	8	mod	_	_
+5	dieser	diese	PRON	_	_	6	det	_	_
+6	Situation	Situation	NOUN	_	_	4	comp:obj	_	_
+7	unversehrt	unversehrt	ADJ	_	_	8	mod	_	_
+8	davongekommen	davonkommen	NOUN	_	_	3	comp:aux	_	_
+9	.	.	PUNCT	_	_	3	punct	_	_
+

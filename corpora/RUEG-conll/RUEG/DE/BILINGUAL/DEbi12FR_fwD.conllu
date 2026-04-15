@@ -1,0 +1,139 @@
+1	Fallnummer	Fallnummer	NOUN	NN	_	0	root	_	_
+2	F16	F16	PROPN	NE	_	1	appos	_	_
+3	-	-	PUNCT	$.	_	1	punct	_	_
+
+1	Zeugenbericht	Zeugenbericht	NOUN	NN	_	0	root	_	_
+
+1	Auf	Auf	ADP	APPR	_	11	mod	_	_
+2	dem	d	DET	ART	_	3	det	_	_
+3	Weg	Weg	PROPN	NN	_	1	comp:obj	_	_
+4	zum	zu	PROPN	APPRART	_	3	mod	_	_
+5	Einkaufen	Einkaufen	VERB	NN	_	4	comp:obj	_	_
+6	habe	haben	AUX	VAFIN	_	0	root	_	_
+7	ich	ich	PRON	PPER	_	6	subj	_	_
+8	einen	ein	DET	ART	_	10	det	_	_
+9	kleinen	klein	ADJ	ADJA	_	10	mod	_	_
+10	Unfall	Unfall	NOUN	NN	_	11	comp:obj	_	_
+11	mitbekommen	mitbekommen	VERB	VVPP	_	6	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	möchte	möchten	AUX	VVFIN	_	0	root	_	_
+3	diesen	diese	PRON	PDS	_	5	comp:obj	_	_
+4	gerne	gerne	ADV	ADV	_	2	mod	_	_
+5	schildern	schildern	VERB	VVINF	_	2	comp:aux	_	_
+6	:	:	PUNCT	$.	_	2	punct	_	_
+
+1	Ein	ein	DET	ART	_	2	det	_	_
+2	Pärchen	Pärchen	NOUN	NN	_	5	subj	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	Kinderwagen	Kinderwagen	NOUN	NN	_	3	comp:obj	_	_
+5	lief	laufen	VERB	VVFIN	_	0	root	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Weg	Weg	NOUN	NN	_	10	comp:obj	_	_
+8	zum	zu	PROPN	APPRART	_	7	mod	_	_
+9	Parkplatz	Parkplatz	PROPN	NN	_	8	comp:obj	_	_
+10	entlang	entlang	ADP	PTKVZ	_	5	compound@prt	_	_
+11	,	,	PUNCT	$,	_	5	punct	_	_
+
+1	der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	spielte	spielen	VERB	VVFIN	_	0	root	_	_
+4	mit	mit	ADP	APPR	_	3	mod	_	_
+5	einem	ein	DET	ART	_	6	det	_	_
+6	Fußball	Fußball	NOUN	NN	_	4	comp:obj	_	_
+7	,	,	PUNCT	$,	_	3	punct	_	_
+
+1	verlieh	verleihen	VERB	VVFIN	_	0	root	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Kontrolle	Kontrolle	NOUN	NN	_	1	comp:obj	_	_
+4	über	über	ADP	APPR	_	3	mod	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	4	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	er	er	PRON	PPER	_	3	subj	_	_
+3	rollte	rollen	VERB	VVFIN	_	0	root	_	_
+4	in	in	ADP	APPR	_	3	comp:obl	_	_
+5	Richtung	Richtung	NOUN	NN	_	4	comp:obj	_	_
+6	eines	ein	DET	ART	_	7	det	_	_
+7	Autos	Auto	NOUN	NN	_	5	mod@poss	_	_
+8	,	,	PUNCT	$,	_	3	punct	_	_
+9	wo	wo	ADV	PWAV	_	22	mod	_	_
+10	eine	ein	DET	ART	_	11	det	_	_
+11	Frau	Frau	NOUN	NN	_	22	subj	_	_
+12	mit	mit	ADP	APPR	_	11	mod	_	_
+13	ihrem	ihr	DET	PPOSAT	_	14	det	_	_
+14	Hund	Hund	NOUN	NN	_	12	comp:obj	_	_
+15	an	an	ADP	APPR	_	14	mod	_	_
+16	der	d	DET	ART	_	17	det	_	_
+17	Leine	Leine	PROPN	NN	_	15	comp:obj	_	_
+18	ihren	ihr	DET	PPOSAT	_	19	det	_	_
+19	Einkauf	Einkauf	NOUN	NN	_	22	comp:obj	_	_
+20	ins	in	PROPN	APPRART	_	22	comp:obl	_	_
+21	Auto	Auto	PROPN	NN	_	20	comp:obj	_	_
+22	verräumte	verräumen	VERB	VVFIN	_	5	mod	_	_
+23	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	Der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	3	subj	_	_
+3	bemerkte	bemerken	VERB	VVFIN	_	0	root	_	_
+4	den	d	DET	ART	_	8	det	_	_
+5	auf	auf	ADP	APPR	_	7	comp:obl	_	_
+6	ihn	er	PRON	PPER	_	5	comp:obj	_	_
+7	zurollenden	zurollenden	ADJ	ADJA	_	8	mod	_	_
+8	Ball	Ball	PROPN	NN	_	3	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	lief	laufen	VERB	VVFIN	_	0	root	_	_
+3	darauf	darauf	ADV	ADV	_	2	mod	_	_
+4	los	los	ADV	PTKVZ	_	2	compound@prt	_	_
+5	,	,	PUNCT	$,	_	2	punct	_	_
+6	vor	vor	ADP	APPR	_	2	mod	_	_
+7	ein	ein	DET	ART	_	8	det	_	_
+8	Auto	Auto	NOUN	NN	_	6	comp:obj	_	_
+9	,	,	PUNCT	$,	_	2	punct	_	_
+10	welches	welche	PRON	PRELS	_	17	subj	_	_
+11	in	in	ADP	APPR	_	16	mod	_	_
+12	dem	d	DET	ART	_	13	det	_	_
+13	Moment	Moment	NOUN	NN	_	11	comp:obj	_	_
+14	die	d	DET	ART	_	15	det	_	_
+15	Straße	Straße	NOUN	NN	_	16	comp:obj	_	_
+16	entlanggefahren	entlangfahren	VERB	VVPP	_	17	comp:obl	_	_
+17	kam	kommen	VERB	VVFIN	_	8	mod@relcl	_	_
+18	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Das	d	DET	ART	_	2	det	_	_
+2	Auto	Auto	NOUN	NN	_	3	subj	_	_
+3	bremste	bremsen	VERB	VVFIN	_	0	root	_	_
+4	scharf	scharf	ADJ	ADJD	_	3	mod	_	_
+5	ab	ab	ADP	PTKVZ	_	3	compound@prt	_	_
+
+1	und	und	CCONJ	KON	_	7	cc	_	_
+2	das	d	DET	ART	_	4	det	_	_
+3	zweite	zweit	ADJ	ORD	_	4	mod	_	_
+4	Auto	Auto	NOUN	NN	_	7	subj	_	_
+5	hinter	hinter	ADP	APPR	_	4	mod	_	_
+6	ihm	er	PRON	PPER	_	5	comp:obj	_	_
+7	rammte	rammen	VERB	VVFIN	_	0	root	_	_
+8	das	d	DET	ART	_	9	det	_	_
+9	Auto	Auto	NOUN	NN	_	7	comp:obj	_	_
+10	anscheinend	anscheinend	ADV	ADV	_	7	mod	_	_
+11	.	.	PUNCT	$.	_	7	punct	_	_
+
+1	Beide	beide	PRON	PIAT	_	2	mod	_	_
+2	Autofahrer	Autofahrer	NOUN	NN	_	3	subj	_	_
+3	stiegen	steigen	VERB	VVFIN	_	0	root	_	_
+4	direkt	direkt	ADJ	ADJD	_	3	mod	_	_
+5	aus	aus	ADP	PTKVZ	_	3	compound@prt	_	_
+6	und	und	CCONJ	KON	_	7	cc	_	_
+7	riefen	rufen	VERB	VVFIN	_	3	conj	_	_
+8	die	d	DET	ART	_	9	det	_	_
+9	Polizei	Polizei	NOUN	NN	_	7	comp:obj	_	_
+10	,	,	PUNCT	$,	_	3	punct	_	_
+11	um	um	ADP	KOUI	_	7	mod	_	_
+12	den	d	DET	ART	_	13	det	_	_
+13	Unfall	Unfall	NOUN	NN	_	15	comp:obj	_	_
+14	zu	zu	PART	PTKZU	_	11	comp:obj	_	_
+15	berichten	berichten	VERB	VVINF	_	14	comp:obj	_	_
+16	.	.	PUNCT	$.	_	3	punct	_	_
+

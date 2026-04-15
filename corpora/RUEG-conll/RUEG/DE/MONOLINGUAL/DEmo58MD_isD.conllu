@@ -1,0 +1,204 @@
+# text = Fredi hallo
+1	Fredi	Fredi	PROPN	NE	_	0	root	_	_
+2	hallo	hallo	PROPN	NGIRR	_	1	discourse	_	_
+
+# text = habe etwas Lustiges gesehen
+1	habe	haben	AUX	VAFIN	_	0	root	_	_
+2	etwas	etwas	ADV	PIAT	_	3	mod	_	_
+3	Lustiges	Lustige	NOUN	NN	_	4	comp:obj	_	_
+4	gesehen	sehen	VERB	VVPP	_	1	comp:aux	_	_
+
+# text = und zwar war ich hier gerade aufm Parkplatz
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	zwar	zwar	ADV	ADV	_	3	mod	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	ich	ich	PRON	PPER	_	3	subj	_	_
+5	hier	hier	ADV	ADV	_	3	mod	_	_
+6	gerade	gerade	ADV	PTKIFG	_	3	mod	_	_
+7	aufm	aufm	PROPN	APPRART	_	3	comp:pred	_	_
+8	Parkplatz	Parkplatz	PROPN	NN	_	7	comp:obj	_	_
+
+# text = und bin hier nur so herumgelaufen
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	bin	sein	VERB	VAFIN	_	0	root	_	_
+3	hier	hier	ADV	ADV	_	2	mod	_	_
+4	nur	nur	ADV	PTKIFG	_	2	mod	_	_
+5	so	so	ADV	PTKIFG	_	2	mod	_	_
+6	herumgelaufen	herumgelaufen	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = und da haben äh zwei Autos erstmal ein schönen Unfall gebaut
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	haben	haben	AUX	VAFIN	_	0	root	_	_
+4	äh	äh	ADV	NGHES	_	3	discourse	_	_
+5	zwei	zwei	NUM	CARD	_	6	mod	_	_
+6	Autos	Auto	NOUN	NN	_	3	subj	_	_
+7	erstmal	erstmal	ADV	ADV	_	3	mod	_	_
+8	ein	ein	DET	ART	_	10	det	_	_
+9	schönen	schönen	ADJ	ADJA	_	10	mod	_	_
+10	Unfall	Unfall	NOUN	NN	_	11	comp:obj	_	_
+11	gebaut	bauen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = da war irgend so ein Mann
+1	da	da	ADV	ADV	_	2	comp:pred	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	irgend	irgend	ADJ	ADV	_	6	mod	_	_
+4	so	so	ADV	PTKIFG	_	6	mod	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Mann	Mann	NOUN	NN	_	2	subj	_	_
+
+# text = der ist halt irgendwie der hatte ein na irgendwie mitm Ball gedribbelt oder gespielt
+1	der	die	PRON	PDS	_	2	subj	_	_
+2	ist	sein	VERB	VAFIN	_	6	reparandum	_	_
+3	halt	halt	ADV	PTKMA	_	6	discourse	_	_
+4	irgendwie	irgendwie	ADV	ADV	_	2	mod	_	_
+5	der	die	PRON	PDS	_	6	subj	_	_
+6	hatte	haben	VERB	VAFIN	_	0	root	_	_
+7	ein	ein	DET	ART	_	10	reparandum	_	_
+8	na	na	PROPN	NGIRR	_	6	discourse	_	_
+9	irgendwie	irgendwie	CCONJ	ADV	_	6	mod	_	_
+10	mitm	mitm	PROPN	APPRART	_	12	comp:obl	_	_
+11	Ball	Ball	PROPN	NN	_	10	comp:obj	_	_
+12	gedribbelt	gedribbelt	PROPN	VVPP	_	6	comp:aux	_	_
+13	oder	oder	CCONJ	KON	_	14	cc	_	_
+14	gespielt	spielen	VERB	VVPP	_	6	conj	_	_
+
+# text = und dem ist der Ball dann auf die oder aufn Parkplatz auf die Straße halt gerollt
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dem	die	PRON	PDS	_	16	comp:obj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	subj	_	_
+6	dann	dann	ADV	ADV	_	3	mod	_	_
+7	auf	auf	ADP	APPR	_	12	reparandum	_	_
+8	die	d	PRON	ART	_	7	comp:obj	_	_
+9	oder	oder	CCONJ	KON	_	10	cc	_	_
+10	aufn	auf	PROPN	APPRART	_	7	conj	_	_
+11	Parkplatz	Parkplatz	PROPN	NN	_	10	comp:obj	_	_
+12	auf	auf	ADP	APPR	_	16	comp:obl	_	_
+13	die	d	DET	ART	_	14	det	_	_
+14	Straße	Straße	NOUN	NN	_	12	comp:obj	_	_
+15	halt	halt	ADV	PTKMA	_	3	discourse	_	_
+16	gerollt	rollen	ADJ	VVPP	_	3	comp:aux	_	_
+
+# text = und gegenüber stand halt irgendwie noch eine Frau die dann mit ihrem Hund und von dem Hund auch auf die Straße so halb
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	gegenüber	gegenüber	ADV	ADJA	_	3	mod	_	_
+3	stand	stehen	VERB	VVFIN	_	0	root	_	_
+4	halt	halt	ADV	PTKMA	_	3	discourse	_	_
+5	irgendwie	irgendwie	ADV	ADV	_	3	mod	_	_
+6	noch	noch	ADV	PTKMWL	_	8	mod	_	_
+7	eine	eine	DET	ART	_	8	det	_	_
+8	Frau	Frau	NOUN	NN	_	3	subj	_	_
+9	die	die	PRON	PRELS	_	8	mod@relcl	_	_
+10	dann	dann	ADV	ADV	_	9	mod	_	_
+11	mit	mit	ADP	APPR	_	9	orphan	_	_
+12	ihrem	ihr	DET	PPOSAT	_	13	det	_	_
+13	Hund	Hund	NOUN	NN	_	11	comp:obj	_	_
+14	und	und	CCONJ	KON	_	15	cc	_	_
+15	von	von	ADP	APPR	_	9	conj	_	_
+16	dem	d	DET	ART	_	17	det	_	_
+17	Hund	Hund	NOUN	NN	_	15	comp:obj	_	_
+18	auch	auch	ADV	PTKIFG	_	19	mod	_	_
+19	auf	auf	ADP	APPR	_	15	orphan	_	_
+20	die	d	DET	ART	_	21	det	_	_
+21	Straße	Straße	NOUN	NN	_	19	comp:obj	_	_
+22	so	so	ADV	PTKIFG	_	23	mod	_	_
+23	halb	halb	ADV	ADJD	_	21	mod	_	_
+
+# text = na ja ist halt der Hund wollte halt den Ball jagen
+1	na	na	PROPN	NGIRR	_	7	discourse	_	_
+2	ja	ja	PROPN	NGIRR	_	1	fixed	_	_
+3	ist	sein	VERB	VAFIN	_	7	reparandum	_	_
+4	halt	halt	ADV	PTKMA	_	7	discourse	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Hund	Hund	NOUN	NN	_	7	subj	_	_
+7	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+8	halt	halt	ADV	PTKMA	_	7	discourse	_	_
+9	den	d	DET	ART	_	10	det	_	_
+10	Ball	Ball	NOUN	NN	_	11	comp:obj	_	_
+11	jagen	jagen	VERB	VVINF	_	7	comp:aux	_	_
+
+# text = und ist dann mit auf die Straße gekommen
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	dann	dann	ADV	ADV	_	2	mod	_	_
+4	mit	mit	ADP	APPR	_	2	mod	_	_
+5	auf	auf	ADP	APPR	_	8	comp:obl	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Straße	Straße	NOUN	NN	_	5	comp:obj	_	_
+8	gekommen	kommen	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = und auf jeden Fall sind halt gerade in die in den auf den Parkplatz auf die Straße halt zwei Autos eingebogen
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	auf	auf	ADP	APPR	_	21	mod	_	_
+3	jeden	jede	PRON	PIDAT	_	4	det	_	_
+4	Fall	Fall	NOUN	NN	_	2	comp:obj	_	_
+5	sind	sein	VERB	VAFIN	_	0	root	_	_
+6	halt	halt	ADV	PTKMA	_	5	discourse	_	_
+7	gerade	gerade	ADV	ADJD	_	5	mod	_	_
+8	in	in	ADP	APPR	_	10	reparandum	_	_
+9	die	d	DET	ART	_	8	comp:obj	_	_
+10	in	in	ADP	APPR	_	12	reparandum	_	_
+11	den	d	DET	ART	_	10	comp:obj	_	_
+12	auf	auf	ADP	APPR	_	15	reparandum	_	_
+13	den	d	DET	ART	_	14	det	_	_
+14	Parkplatz	Parkplatz	NOUN	NN	_	12	comp:obj	_	_
+15	auf	auf	ADP	APPR	_	21	comp:obl	_	_
+16	die	d	DET	ART	_	17	det	_	_
+17	Straße	Straße	NOUN	NN	_	15	comp:obj	_	_
+18	halt	halt	ADV	PTKMA	_	5	discourse	_	_
+19	zwei	zwei	NUM	CARD	_	20	mod	_	_
+20	Autos	Auto	NOUN	NN	_	5	subj	_	_
+21	eingebogen	eingebogen	ADJ	VVPP	_	5	comp:aux	_	_
+
+# text = und die haben dann schönen Unfall gebaut weil der vordere halt gebremst hat
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	die	die	PRON	PDS	_	3	subj	_	_
+3	haben	haben	VERB	VAFIN	_	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	schönen	schönen	ADJ	ADJA	_	6	mod	_	_
+6	Unfall	Unfall	NOUN	NN	_	7	comp:obj	_	_
+7	gebaut	bauen	VERB	VVPP	_	3	comp:aux	_	_
+8	weil	weil	SCONJ	KOUS	_	7	mod	_	_
+9	der	d	DET	ART	_	10	det	_	_
+10	vordere	vorder	ADJ	ADJA	_	13	subj	_	_
+11	halt	halt	NOUN	PTKMA	_	3	discourse	_	_
+12	gebremst	bremsen	VERB	VVPP	_	13	comp:aux	_	_
+13	hat	haben	AUX	VAFIN	_	8	comp:obj	_	_
+
+# text = und der hintere hat es wahrscheinlich nicht gesehen als der Ball halt auf die Straße gerollt ist
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	hintere	hinter	ADJ	ADJA	_	4	subj	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	es	es	PRON	PPER	_	8	comp:obj	_	_
+6	wahrscheinlich	wahrscheinlich	ADJ	ADV	_	4	mod	_	_
+7	nicht	nicht	PART	PTKNEG	_	4	mod	_	_
+8	gesehen	sehen	VERB	VVPP	_	4	comp:aux	_	_
+9	als	als	ADP	KOKOM	_	8	mod	_	_
+10	der	d	DET	ART	_	11	det	_	_
+11	Ball	Ball	NOUN	NN	_	17	subj	_	_
+12	halt	halt	VERB	PTKMA	_	4	discourse	_	_
+13	auf	auf	ADP	APPR	_	16	comp:obl	_	_
+14	die	d	DET	ART	_	15	det	_	_
+15	Straße	Straße	NOUN	NN	_	13	comp:obj	_	_
+16	gerollt	rollen	ADJ	VVPP	_	17	comp:aux	_	_
+17	ist	sein	VERB	VAFIN	_	9	comp:obj	_	_
+
+# text = und dann sind die aufeinander draufgefahren
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	sind	sein	VERB	VAFIN	_	0	root	_	_
+4	die	die	PRON	PDS	_	3	subj	_	_
+5	aufeinander	aufeinander	ADV	ADV	_	3	mod	_	_
+6	draufgefahren	draufgefahren	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = war spannend auf jeden Fall
+1	war	sein	VERB	VAFIN	_	0	root	_	_
+2	spannend	spannend	ADJ	ADJD	_	1	comp:pred	_	_
+3	auf	auf	ADP	APPR	_	2	mod	_	_
+4	jeden	jede	PRON	PIDAT	_	5	det	_	_
+5	Fall	Fall	NOUN	NN	_	3	comp:obj	_	_
+
+

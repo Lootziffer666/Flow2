@@ -1,0 +1,252 @@
+# text = du glaubst nicht was ich gerade gesehen habe
+1	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	subj	_	_
+2	glaubst	glauben	ADV	VVFIN	Tense=Pres	0	root	_	_
+3	nicht	nicht	PART	PTKNEG	_	2	mod	_	_
+4	was	was	VERB	PRELS	_	7	comp:obj	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	subj	_	_
+6	gerade	gerade	ADV	ADV	_	8	mod	_	_
+7	gesehen	sehen	VERB	VVPP	Tense=Past|VerbForm=Part	8	comp:aux	_	_
+8	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
+
+# text = und zwar das war auf einem Parkplatz
+1	und	und	CCONJ	KON	_	4	discourse	_	_
+2	zwar	zwar	ADV	ADV	_	1	fixed	_	_
+3	das	die	PRON	PDS	Case=Nom|PronType=Dem	4	subj	_	_
+4	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	auf	auf	ADP	APPR	_	4	comp:pred	_	_
+6	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Parkplatz	Parkplatz	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	comp:obj	_	_
+
+# text = und auf der einen Seite also stell dir das als Bild vor links stand ein Auto
+1	und	und	CCONJ	KON	_	14	cc	_	_
+2	auf	auf	ADP	APPR	_	14	mod	_	_
+3	der	d	DET	ART	Definite=Def|PronType=Art	5	det	_	_
+4	einen	ein	ADJ	ART	Degree=Pos	5	mod	_	_
+5	Seite	Seite	NOUN	NN	_	2	comp:obj	_	_
+6	also	also	ADV	SEDM	_	14	discourse	_	_
+7	stell	stellen	ADJ	VVIMP	Degree=Pos|Tense=Pres	14	parataxis	_	_
+8	dir	du	PRON	PRF	Case=Dat|Number=Sing|Person=2|PronType=Prs	7	comp:obl	_	_
+9	das	d	PRON	PDS	PronType=Dem	7	comp:obj	_	_
+10	als	als	ADP	KOKOM	_	7	mod	_	_
+11	Bild	Bild	NOUN	NN	_	10	comp:obj	_	_
+12	vor	vor	ADP	PTKVZ	_	7	compound@prt	_	_
+13	links	links	PROPN	ADV	_	14	mod	_	_
+14	stand	stehen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	16	det	_	_
+16	Auto	Auto	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	14	subj	_	_
+
+# text = und da war eine Frau dran die einen kleinen Kläffer anner Leine hatte
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	comp:pred	_	_
+3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	eine	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Frau	Frau	NOUN	NN	_	3	subj	_	_
+6	dran	dran	ADV	ADV	_	3	mod	_	_
+7	die	d	PRON	PRELS	Case=Nom|PronType=Rel	13	subj	_	_
+8	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	kleinen	kleine	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	mod	_	_
+10	Kläffer	Kläffer	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	comp:obj	_	_
+11	anner	an	PROPN	APPRART	_	13	comp:obl	_	_
+12	Leine	Leine	PROPN	NN	_	11	comp:obj	_	_
+13	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	mod@relcl	_	_
+
+# text = und die hat gerade ihren Einkauf eingeladen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	die	d	PRON	PDS	Case=Nom|PronType=Dem	3	subj	_	_
+3	hat	haben	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	gerade	gerade	ADV	ADV	_	3	mod	_	_
+5	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	Einkauf	Einkauf	NOUN	NN	_	7	comp:obj	_	_
+7	eingeladen	einladen	VERB	VVPP	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+
+# text = und dann war auf der anderen Seite kam so eine kleine Familie an mit äh mitm Kinderwagen
+1	und	und	CCONJ	KON	_	8	cc	_	_
+2	dann	dann	ADV	ADV	_	8	mod	_	_
+3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	reparandum	_	_
+4	auf	auf	ADP	APPR	_	8	mod	_	_
+5	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	anderen	ander	ADJ	PIDAT	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	7	mod	_	_
+7	Seite	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	comp:obj	_	_
+8	kam	kommen	VERB	VVFIN	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	so	so	ADV	PTKIFG	_	12	mod	_	_
+10	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	kleine	kleine	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	mod	_	_
+12	Familie	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	subj	_	_
+13	an	an	ADP	PTKVZ	_	8	compound@prt	_	_
+14	mit	mit	ADP	APPR	_	16	reparandum	_	_
+15	äh	äh	ADJ	NGHES	Degree=Pos	8	discourse	_	_
+16	mitm	mit	NOUN	APPRART	Case=Acc|Gender=Neut|Number=Sing	8	mod	_	_
+17	Kinderwagen	Kinderwagen	NOUN	NN	_	16	comp:obj	_	_
+
+# text = und der ich nehme jetzt mal an der wahrscheinlich Vater man weiß ja nie äh hat dann äh nebenbei so einen Ball gedribbelt oder halt immer aufn Boden gehauen und wieder gefangen
+1	und	und	CCONJ	KON	_	16	cc	_	_
+2	der	d	PRON	PDS	PronType=Dem	16	subj	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	_
+4	nehme	nehmen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	parataxis	_	_
+5	jetzt	jetzt	ADV	ADV	_	4	mod	_	_
+6	mal	mal	ADV	PTKMA	_	4	mod	_	_
+7	an	an	ADP	PTKVZ	_	4	compound@prt	_	_
+8	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	wahrscheinlich	wahrscheinliche	ADJ	ADJA	Degree=Pos	10	mod	_	_
+10	Vater	Vater	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	comp:obj	_	_
+11	man	man	PRON	PIS	Case=Nom|PronType=Ind	12	subj	_	_
+12	weiß	wissen	VERB	VVFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	16	parataxis	_	_
+13	ja	ja	ADV	PTKMA	_	12	discourse	_	_
+14	nie	nie	ADV	ADV	_	12	mod	_	_
+15	äh	äh	PROPN	NGHES	Case=Nom|Number=Sing	16	discourse	_	_
+16	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	dann	dann	ADV	ADV	_	16	mod	_	_
+18	äh	äh	ADJ	NGHES	Degree=Pos	16	discourse	_	_
+19	nebenbei	nebenbei	ADV	ADV	_	16	mod	_	_
+20	so	so	ADV	PTKIFG	_	22	mod	_	_
+21	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	23	comp:obj	_	_
+23	gedribbelt	dribbeln	VERB	VVPP	Person=3|Tense=Past|VerbForm=Fin	16	comp:aux	_	_
+24	oder	oder	CCONJ	KON	_	29	cc	_	_
+25	halt	halt	ADV	PTKMA	_	16	discourse	_	_
+26	immer	immer	ADV	ADV	_	29	mod	_	_
+27	aufn	auf	VERB	APPRART	VerbForm=Inf	29	comp:obl	_	_
+28	Boden	Boden	NOUN	NN	Case=Nom|Number=Plur	27	comp:obj	_	_
+29	gehauen	hauen	VERB	VVPP	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	conj	_	_
+30	und	und	CCONJ	KON	_	32	cc	_	_
+31	wieder	wieder	ADV	ADV	_	32	mod	_	_
+32	gefangen	fangen	VERB	VVPP	Tense=Past|VerbForm=Part	16	conj	_	_
+
+# text = und dann sind die halt im Endeffekt äh auf die Frau im Auto zugegangen äh am Auto zugegangen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	die	d	DET	PDS	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	subj	_	_
+5	halt	halt	ADV	PTKMA	_	3	discourse	_	_
+6	im	in	PROPN	APPRART	_	18	mod	_	_
+7	Endeffekt	Endeffekt	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	6	comp:obj	_	_
+8	äh	äh	ADJ	NGHES	Degree=Pos	3	discourse	_	_
+9	auf	auf	ADP	APPR	_	18	comp:obl	_	_
+10	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Frau	Frau	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	comp:obj	_	_
+12	im	in	PROPN	APPRART	_	16	reparandum	_	_
+13	Auto	Auto	PROPN	NN	_	12	comp:obj	_	_
+14	zugegangen	zugehen	PROPN	VVPP	Tense=Past	18	reparandum	_	_
+15	äh	äh	ADJ	NGHEES	Degree=Pos	3	discourse	_	_
+16	am	an	ADJ	APPRART	Degree=Pos	11	mod	_	_
+17	Auto	Auto	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	16	comp:obj	_	_
+18	zugegangen	zugehen	VERB	VVPP	Tense=Past|VerbForm=Inf	3	comp:aux	_	_
+
+# text = und dann kamen parallel aber noch zwei Autos dicht hintereinander äh auch auf die zu sodass die dann quasi von drei Seiten aufeinander zugekommen sind
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	kamen	kommen	VERB	VVFIN	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	parallel	parallel	ADJ	ADJD	Degree=Pos	3	mod	_	_
+5	aber	aber	ADV	KON	_	3	mod	_	_
+6	noch	noch	ADV	ADV	_	3	mod	_	_
+7	zwei	zwei	NUM	CARD	NumType=Card	8	mod	_	_
+8	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	3	subj	_	_
+9	dicht	dicht	ADJ	ADJD	Degree=Pos	10	mod	_	_
+10	hintereinander	hintereinander	ADV	ADV	_	3	mod	_	_
+11	äh	äh	ADJ	NGHEES	Degree=Pos	3	discourse	_	_
+12	auch	auch	ADV	PTKIFG	_	3	mod	_	_
+13	auf	auf	ADP	APPR	_	3	comp:obl	_	_
+14	die	d	DET	PDS	Case=Acc|Definite=Def|Number=Plur|PronType=Art	13	comp:obj	_	_
+15	zu	zu	ADP	PTKVZ	_	3	compound@prt	_	_
+16	sodass	sodass	SCONJ	KOUS	_	3	mod	_	_
+17	die	d	PRON	PDS	Case=Nom|PronType=Dem	25	subj	_	_
+18	dann	dann	ADV	ADV	_	25	mod	_	_
+19	quasi	quasi	ADV	ADV	_	25	mod	_	_
+20	von	von	ADP	APPR	_	24	mod	_	_
+21	drei	drei	NUM	CARD	NumType=Card	22	mod	_	_
+22	Seiten	Seite	NOUN	NN	Case=Dat|Number=Plur	20	comp:obj	_	_
+23	aufeinander	aufeinander	ADV	ADV	_	25	mod	_	_
+24	zugekommen	zukommen	VERB	VVPP	Tense=Past|VerbForm=Part	25	comp:aux	_	_
+25	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	comp:obj	_	_
+
+# text = nur halt dann lässt der Vater den Ball fallen
+1	nur	nur	ADV	ADV	_	4	mod	_	_
+2	halt	halt	ADV	PTKMA	_	4	discourse	_	_
+3	dann	dann	ADV	ADV	_	4	mod	_	_
+4	lässt	lassen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Vater	Vater	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+7	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	comp:obj	_	_
+9	fallen	fallen	VERB	VVINF	Number=Plur|Person=3|VerbForm=Fin	4	comp:obj	_	_
+
+# text = und der rollt weg
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	der	d	PRON	PDS	PronType=Dem	3	subj	_	_
+3	rollt	rollen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	weg	weg	ADV	PTKVZ	_	3	compound@prt	_	_
+
+# text = und natürlich kleiner Kläffer äh hat keine Manieren
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	natürlich	natürlich	ADV	ADJD	_	6	mod	_	_
+3	kleiner	kleine	ADJ	ADJA	Degree=Cmp,Pos	4	mod	_	_
+4	Kläffer	Kläffer	PROPN	NN	_	6	subj	_	_
+5	äh	äh	PROPN	NGHES	Case=Nom|Number=Sing	6	discourse	_	_
+6	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	keine	keine	PRON	PIAT	PronType=Neg	8	mod	_	_
+8	Manieren	Manier	NOUN	NN	_	6	comp:obj	_	_
+
+# text = und rennt dem Ball hinterher
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	rennt	rennen	VERB	VVFIN	Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	comp:obj	_	_
+5	hinterher	hinterher	ADV	PTKVZ	_	2	compound@prt	_	_
+
+# text = Auto muss bremsen
+1	Auto	Auto	NOUN	NN	_	2	subj	_	_
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	bremsen	bremsen	VERB	VVINF	VerbForm=Inf	2	comp:aux	_	_
+
+# text = und der unfähige Fahrer hinten fährt drauf
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	unfähige	unfähige	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	mod	_	_
+4	Fahrer	Fahrer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	subj	_	_
+5	hinten	hinten	ADV	ADV	_	6	mod	_	_
+6	fährt	fahren	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	drauf	drauf	ADV	ADV	_	6	compound@prt	_	_
+
+# text = also mal wieder komplett unfähig
+1	also	also	ADV	SEDM	_	5	discourse	_	_
+2	mal	mal	ADV	ADV	_	3	mod	_	_
+3	wieder	wieder	ADV	ADV	_	5	mod	_	_
+4	komplett	komplett	ADJ	ADJD	Degree=Pos	5	mod	_	_
+5	unfähig	unfähig	ADJ	ADJD	Degree=Pos	0	root	_	_
+
+# text = und ne dann rufen die auch noch direkt die Polizei
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	ne	ne	DET	SEQU	Definite=Ind|PronType=Art	4	discourse	_	_
+3	dann	dann	ADV	ADV	_	4	mod	_	_
+4	rufen	rufen	VERB	VVFIN	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	die	d	DET	PDS	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	subj	_	_
+6	auch	auch	ADV	PTKIFG	_	7	mod	_	_
+7	noch	noch	ADV	PTKMWL	_	4	mod	_	_
+8	direkt	direkt	ADJ	ADJD	Degree=Pos	4	mod	_	_
+9	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Polizei	Polizei	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	comp:obj	_	_
+
+# text = und probieren nicht mal selber ihr die Sachen also das zu regeln
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	probieren	probieren	ADJ	VVFIN	Degree=Pos|Tense=Pres	0	root	_	_
+3	nicht	nicht	PART	PTKNEG	_	4	mod	_	_
+4	mal	mal	ADV	PTKMA	_	2	mod	_	_
+5	selber	selber	ADV	PPER	_	2	mod	_	_
+6	ihr	ihr	PRON	PRF	Case=Dat|Number=Plur|Person=2|PronType=Prs	8	reparandum	_	_
+7	die	d	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+8	Sachen	Sache	NOUN	NN	Case=Acc|Number=Plur	10	reparandum	_	_
+9	also	also	ADV	SEDM	_	2	discourse	_	_
+10	das	d	PRON	PDS	PronType=Dem	12	comp:obj	_	_
+11	zu	zu	PART	PTKZU	_	2	comp:obj	_	_
+12	regeln	regeln	VERB	VVINF	VerbForm=Inf	11	comp:obj	_	_
+
+# text = ich mein warum
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	mein	meinen	PRON	VVFIN	Person=1|Poss=Yes|PronType=Prs	0	root	_	_
+3	warum	warum	ADV	PWAV	PronType=Int	2	parataxis	_	_
+
+# text = das komplett unfähig
+1	das	d	DET	PDS	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	0	root	_	_
+2	komplett	komplett	ADJ	ADJD	Degree=Pos	3	mod	_	_
+3	unfähig	unfähig	ADJ	ADJD	Degree=Pos	1	orphan	_	_
+

@@ -1,0 +1,103 @@
+# text = Tagchen Peter ,
+1	Tagchen	Tagchen	NOUN	NGIRR	_	2	discourse	_	_
+2	Peter	Peter	PROPN	NE	_	0	root	_	_
+3	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = ich war gerade so am Laufen
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	so	so	ADV	PTKIFG	_	5	mod	_	_
+5	am	an	ADJ	APPRART	Degree=Pos	2	comp:pred	_	_
+6	Laufen	Laufen	NOUN	NN	_	5	comp:obj	_	_
+
+# text = und da . kam so eine Frau mit ihrem Mann und einem Kinderwagen .
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	da	da	ADV	ADV	_	4	mod	_	_
+3	.	.	PUNCT	$.	_	4	punct	_	_
+4	kam	kommen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	so	so	ADV	PTKIFG	_	7	mod	_	_
+6	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	subj	_	_
+8	mit	mit	ADP	APPR	_	7	mod	_	_
+9	ihrem	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	Mann	Mann	NOUN	NN	Case=Dat|Number=Sing	8	comp:obj	_	_
+11	und	und	CCONJ	KON	_	13	cc	_	_
+12	einem	ein	DET	ART	Definite=Ind|PronType=Art	13	det	_	_
+13	Kinderwagen	Kinderwagen	NOUN	NN	_	10	conj	_	_
+14	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Der Typ hat mit seinem Ball gespielt
+1	Der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Typ	Typ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	mit	mit	ADP	APPR	_	7	mod	_	_
+5	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	4	comp:obj	_	_
+7	gespielt	spielen	VERB	VVPP	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+
+# text = und der ist so auf die Straße geflogen ,
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	der	d	PRON	PDS	Case=Nom|PronType=Dem	3	subj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	so	so	ADV	PTKIFG	_	3	mod	_	_
+5	auf	auf	ADP	APPR	_	8	comp:obl	_	_
+6	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	comp:obj	_	_
+8	geflogen	fliegen	ADJ	VVPP	Degree=Pos|Tense=Past|VerbForm=Part	3	comp:aux	_	_
+9	,	,	PUNCT	$,	_	3	punct	_	_
+
+# text = der Hund von einer anderen Frau hinterher .
+1	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	subj	_	_
+3	von	von	ADP	APPR	_	2	mod@poss	_	_
+4	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	anderen	ander	ADJ	PIDAT	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	mod	_	_
+6	Frau	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	comp:obj	_	_
+7	hinterher	hinterher	ADV	ADV	_	0	root	_	_
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# text = ein Autofahrer kam
+1	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Autofahrer	Autofahrer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	subj	_	_
+3	kam	kommen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+
+# text = und musste Vollbremsung machen ,
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	musste	müssen	AUX	VMFIN	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Vollbremsung	Vollbremsung	NOUN	NN	_	4	comp:obj	_	_
+4	machen	machen	VERB	VVINF	VerbForm=Inf	2	comp:aux	_	_
+5	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = anderer Typ hinter rein
+1	anderer	ander	ADJ	PIAT	Degree=Cmp,Pos	2	mod	_	_
+2	Typ	Typ	NOUN	NN	_	4	orphan	_	_
+3	hinter	hinter	ADP	ADV	_	2	mod	_	_
+4	rein	rein	ADJ	ADV	Degree=Pos	0	root	_	_
+
+# text = und erstmal Bullen rufen .
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	erstmal	erstmal	ADJ	ADV	Degree=Pos	4	mod	_	_
+3	Bullen	Bulle	NOUN	NN	Case=Dat|Number=Plur	4	comp:obj	_	_
+4	rufen	rufen	VERB	VVINF	VerbForm=Part	0	root	_	_
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Mega gut ,
+1	Mega	mega	ADJ	PTKIFG	Degree=Pos	2	mod	_	_
+2	gut	gut	ADJ	ADJD	Degree=Pos	0	root	_	_
+3	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = ich stand nur da
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	stand	stehen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	nur	nur	ADV	PTKIFG	_	2	mod	_	_
+4	da	da	ADV	ADV	_	2	compound@prt	_	_
+
+# text = und habe es beobachtet .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	_
+4	beobachtet	beobachten	VERB	VVPP	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+

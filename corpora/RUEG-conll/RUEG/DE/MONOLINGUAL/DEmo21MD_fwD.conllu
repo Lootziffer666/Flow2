@@ -1,0 +1,206 @@
+# text = ﻿Augenzeugenbericht
+1	﻿Augenzeugenbericht	Augenzeugenbericht	NOUN	NN	_	0	root	_	_
+
+# text = Als ich auf dem Parkplatz gewartet habe , habe ich ein junges Pärchen mit einem Kinderwagen auf der rechten Seite gesehen , wobei der Mann mit einem Ball gespielt hat .
+1	Als	als	SCONJ	KOUS	_	21	mod	_	_
+2	ich	ich	PRON	PPER	_	7	subj	_	_
+3	auf	auf	ADP	APPR	_	6	mod	_	_
+4	dem	d	DET	ART	_	5	det	_	_
+5	Parkplatz	Parkplatz	PROPN	NN	_	3	comp:obj	_	_
+6	gewartet	warten	VERB	VVPP	_	7	comp:aux	_	_
+7	habe	haben	AUX	VAFIN	_	1	comp:obj	_	_
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9	habe	haben	AUX	VAFIN	_	0	root	_	_
+10	ich	ich	PRON	PPER	_	9	subj	_	_
+11	ein	ein	DET	ART	_	13	det	_	_
+12	junges	jung	ADJ	ADJA	_	13	mod	_	_
+13	Pärchen	Pärchen	NOUN	NN	_	21	comp:obj	_	_
+14	mit	mit	ADP	APPR	_	13	mod	_	_
+15	einem	ein	DET	ART	_	16	det	_	_
+16	Kinderwagen	Kinderwagen	NOUN	NN	_	14	comp:obj	_	_
+17	auf	auf	ADP	APPR	_	21	mod	_	_
+18	der	d	DET	ART	_	20	det	_	_
+19	rechten	recht	ADJ	ADJA	_	20	mod	_	_
+20	Seite	Seite	NOUN	NN	_	17	comp:obj	_	_
+21	gesehen	sehen	VERB	VVPP	_	9	comp:aux	_	_
+22	,	,	PUNCT	$,	_	9	punct	_	_
+23	wobei	wobei	SCONJ	PWAV	_	30	mod	_	_
+24	der	d	DET	ART	_	25	det	_	_
+25	Mann	Mann	NOUN	NN	_	30	subj	_	_
+26	mit	mit	ADP	APPR	_	29	mod	_	_
+27	einem	ein	DET	ART	_	28	det	_	_
+28	Ball	Ball	NOUN	NN	_	26	comp:obj	_	_
+29	gespielt	spielen	VERB	VVPP	_	30	comp:aux	_	_
+30	hat	haben	AUX	VAFIN	_	21	mod	_	_
+31	.	.	PUNCT	$.	_	9	punct	_	_
+
+# text = Auf der linken Seite des Parkplatzes stand eine junge Frau mit ihrem Wagen , die gerade einkaufen war .
+1	Auf	auf	ADP	APPR	_	7	comp:obl	_	_
+2	der	d	DET	ART	_	4	det	_	_
+3	linken	link	ADJ	ADJA	_	4	mod	_	_
+4	Seite	Seite	NOUN	NN	_	1	comp:obj	_	_
+5	des	d	DET	ART	_	6	det	_	_
+6	Parkplatzes	Parkplatz	NOUN	NN	_	4	mod@poss	_	_
+7	stand	stehen	VERB	VVFIN	_	0	root	_	_
+8	eine	ein	DET	ART	_	10	det	_	_
+9	junge	jung	ADJ	ADJA	_	10	mod	_	_
+10	Frau	Frau	NOUN	NN	_	7	subj	_	_
+11	mit	mit	ADP	APPR	_	10	mod	_	_
+12	ihrem	ihr	DET	PPOSAT	_	13	det	_	_
+13	Wagen	Wagen	NOUN	NN	_	11	comp:obj	_	_
+14	,	,	PUNCT	$,	_	7	punct	_	_
+15	die	d	PRON	PRELS	_	18	subj	_	_
+16	gerade	gerade	ADV	ADV	_	18	mod	_	_
+17	einkaufen	einkaufen	VERB	VVINF	_	18	comp:aux	_	_
+18	war	sein	AUX	VAFIN	_	13	mod@relcl	_	_
+19	.	.	PUNCT	$.	_	7	punct	_	_
+
+# text = Sie hatte einen Hund dabei .
+1	Sie	Sie	PRON	PPER	_	2	subj	_	_
+2	hatte	haben	VERB	VAFIN	_	0	root	_	_
+3	einen	ein	DET	ART	_	4	det	_	_
+4	Hund	Hund	NOUN	NN	_	2	comp:obj	_	_
+5	dabei	dabei	ADV	ADV	_	2	compound@prt	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Das Pärchen wollte dann über den Parkplatz gehen
+1	Das	d	DET	ART	_	2	det	_	_
+2	Pärchen	Pärchen	NOUN	NN	_	3	subj	_	_
+3	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	über	über	ADP	APPR	_	8	comp:obl	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Parkplatz	Parkplatz	NOUN	NN	_	5	comp:obj	_	_
+8	gehen	gehen	VERB	VVINF	_	3	comp:aux	_	_
+
+# text = und dabei ist dem Mann der Ball weggesprungen in Richtung der parkenden Frau .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dabei	dabei	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	dem	d	DET	ART	_	5	det	_	_
+5	Mann	Mann	NOUN	NN	_	8	comp:obj	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Ball	Ball	PROPN	NN	_	3	subj	_	_
+8	weggesprungen	wegspringen	NOUN	VVPP	_	3	comp:aux	_	_
+9	in	in	ADP	APPR	_	8	comp:obl	_	_
+10	Richtung	Richtung	NOUN	NN	_	9	comp:obj	_	_
+11	der	d	DET	ART	_	13	det	_	_
+12	parkenden	parkend	ADJ	ADJA	_	13	mod@poss	_	_
+13	Frau	Frau	NOUN	NN	_	10	mod@poss	_	_
+14	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Der Hund hat auf den Ball reagiert und ist auf den Parkplatz gelaufen , bellend .
+1	Der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	auf	auf	ADP	APPR	_	7	comp:obl	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	4	comp:obj	_	_
+7	reagiert	reagieren	VERB	VVPP	_	3	comp:aux	_	_
+8	und	und	CCONJ	KON	_	9	cc	_	_
+9	ist	sein	VERB	VAFIN	_	3	conj	_	_
+10	auf	auf	ADP	APPR	_	13	comp:obl	_	_
+11	den	d	DET	ART	_	12	det	_	_
+12	Parkplatz	Parkplatz	NOUN	NN	_	10	comp:obj	_	_
+13	gelaufen	laufen	VERB	VVPP	_	9	comp:aux	_	_
+14	,	,	PUNCT	$,	_	9	punct	_	_
+15	bellend	bellend	ADJ	ADJD	_	9	mod	_	_
+16	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Gerade in diesem Moment kamen zwei Autos auf den Parkplatz
+1	Gerade	gerade	ADV	ADV	_	2	mod	_	_
+2	in	in	ADP	APPR	_	5	mod	_	_
+3	diesem	diese	PRON	PDAT	_	4	det	_	_
+4	Moment	Moment	NOUN	NN	_	2	comp:obj	_	_
+5	kamen	kommen	VERB	VVFIN	_	0	root	_	_
+6	zwei	zwei	NUM	CARD	_	7	mod	_	_
+7	Autos	Auto	NOUN	NN	_	5	subj	_	_
+8	auf	auf	ADP	APPR	_	5	comp:obl	_	_
+9	den	d	DET	ART	_	10	det	_	_
+10	Parkplatz	Parkplatz	NOUN	NN	_	8	comp:obj	_	_
+
+# text = und das erste , blaue Auto hat eine Vollbremsung gemacht , sodass das dahinter fahrende , weiße Auto aufgefahren ist .
+1	und	und	CCONJ	KON	_	7	cc	_	_
+2	das	d	DET	ART	_	6	det	_	_
+3	erste	erst	ADJ	ORD	_	6	mod	_	_
+4	,	,	PUNCT	$,	_	5	punct	_	_
+5	blaue	blau	ADJ	ADJA	_	6	mod	_	_
+6	Auto	Auto	NOUN	NN	_	7	subj	_	_
+7	hat	haben	AUX	VAFIN	_	0	root	_	_
+8	eine	ein	DET	ART	_	9	det	_	_
+9	Vollbremsung	Vollbremsung	NOUN	NN	_	10	comp:obj	_	_
+10	gemacht	machen	VERB	VVPP	_	7	comp:aux	_	_
+11	,	,	PUNCT	$,	_	7	punct	_	_
+12	sodass	sodass	SCONJ	KOUS	_	7	mod	_	_
+13	das	d	DET	PDS	_	18	det	_	_
+14	dahinter	dahinter	ADV	ADV	_	15	mod	_	_
+15	fahrende	fahrend	ADJ	ADJA	_	18	mod	_	_
+16	,	,	PUNCT	$,	_	17	punct	_	_
+17	weiße	weiß	ADJ	ADJA	_	18	mod	_	_
+18	Auto	Auto	NOUN	NN	_	20	subj	_	_
+19	aufgefahren	auffahren	VERB	VVPP	_	20	comp:aux	_	_
+20	ist	sein	AUX	VAFIN	_	12	comp:obj	_	_
+21	.	.	PUNCT	$.	_	7	punct	_	_
+
+# text = Der junge Mann von den Pärchen hat der Frau geholfen und ihre eingekauften Sachen ( Äpfel , Zitronen ) aufgesammelt und ihr gegeben , während die Frau ihren Hund festgehalten hat .
+1	Der	d	DET	ART	_	3	det	_	_
+2	junge	jung	ADJ	ADJA	_	3	mod	_	_
+3	Mann	Mann	NOUN	NN	_	7	subj	_	_
+4	von	von	ADP	APPR	_	3	mod@poss	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Pärchen	Pärchen	NOUN	NN	_	4	comp:obj	_	_
+7	hat	haben	AUX	VAFIN	_	0	root	_	_
+8	der	d	DET	ART	_	9	det	_	_
+9	Frau	Frau	NOUN	NN	_	10	comp:obj	_	_
+10	geholfen	helfen	VERB	VVPP	_	7	comp:aux	_	_
+11	und	und	CCONJ	KON	_	20	cc	_	_
+12	ihre	ihr	PRON	PPOSAT	_	14	det	_	_
+13	eingekauften	eingekauften	VERB	ADJA	_	14	mod	_	_
+14	Sachen	Sache	NOUN	NN	_	20	comp:obj	_	_
+15	(	(	PUNCT	$(	_	16	punct	_	_
+16	Äpfel	Apfel	NOUN	NN	_	14	appos	_	_
+17	,	,	PUNCT	$,	_	18	punct	_	_
+18	Zitronen	Zitrone	NOUN	NN	_	16	conj	_	_
+19	)	)	PUNCT	$(	_	16	punct	_	_
+20	aufgesammelt	aufsammeln	VERB	VVPP	_	7	conj	_	_
+21	und	und	CCONJ	KON	_	23	cc	_	_
+22	ihr	ihr	PRON	PPER	_	23	comp:obj	_	_
+23	gegeben	geben	VERB	VVPP	_	7	conj	_	_
+24	,	,	PUNCT	$,	_	23	punct	_	_
+25	während	während	SCONJ	APPR	_	23	mod	_	_
+26	die	d	DET	ART	_	27	det	_	_
+27	Frau	Frau	NOUN	NN	_	31	subj	_	_
+28	ihren	ihr	DET	PPOSAT	_	29	det	_	_
+29	Hund	Hund	NOUN	NN	_	30	comp:obj	_	_
+30	festgehalten	festhalten	VERB	VVPP	_	31	comp:aux	_	_
+31	hat	haben	AUX	VAFIN	_	25	comp:obj	_	_
+32	.	.	PUNCT	$.	_	7	punct	_	_
+
+# text = Sobald die Sachen alle wieder in der Einkaufstasche waren , ging der junge Mann zu den beiden Autofahrern , die schon die Polizei gerufen hatten .
+1	Sobald	sobald	SCONJ	KOUS	_	11	mod	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Sachen	Sache	NOUN	NN	_	9	subj	_	_
+4	alle	all	PRON	PIS	_	3	appos	_	_
+5	wieder	wieder	ADV	ADV	_	9	mod	_	_
+6	in	in	ADP	APPR	_	9	comp:pred	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Einkaufstasche	Einkaufstasche	NOUN	NN	_	6	comp:obj	_	_
+9	waren	sein	VERB	VAFIN	_	1	comp:obj	_	_
+10	,	,	PUNCT	$,	_	9	punct	_	_
+11	ging	gehen	VERB	VVFIN	_	0	root	_	_
+12	der	d	DET	ART	_	14	det	_	_
+13	junge	jung	ADJ	ADJA	_	14	mod	_	_
+14	Mann	Mann	NOUN	NN	_	11	subj	_	_
+15	zu	zu	ADP	APPR	_	11	comp:obl	_	_
+16	den	d	DET	ART	_	18	det	_	_
+17	beiden	beide	PRON	PIDAT	_	18	mod	_	_
+18	Autofahrern	Autofahrer	NOUN	NN	_	15	comp:obj	_	_
+19	,	,	PUNCT	$,	_	11	punct	_	_
+20	die	d	PRON	PRELS	_	25	subj	_	_
+21	schon	schon	ADV	ADV	_	25	mod	_	_
+22	die	d	DET	ART	_	23	det	_	_
+23	Polizei	Polizei	NOUN	NN	_	24	comp:obj	_	_
+24	gerufen	rufen	VERB	VVPP	_	25	comp:aux	_	_
+25	hatten	haben	AUX	VAFIN	_	18	mod@relcl	_	_
+26	.	.	PUNCT	$.	_	11	punct	_	_
+

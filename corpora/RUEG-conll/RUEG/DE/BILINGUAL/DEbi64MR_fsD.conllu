@@ -1,0 +1,145 @@
+# text = guten Tag
+1	guten	gut	ADJ	ADJA	_	2	mod	_	_
+2	Tag	Tag	NOUN	NN	_	0	root	_	_
+
+# text = DEbi64MR mein Name
+1	DEbi64MR	DEbi64MR	NOUN	NE	_	3	orphan	_	_
+2	mein	mein	PRON	PPOSAT	_	3	det	_	_
+3	Name	Name	NOUN	NN	_	0	root	_	_
+
+# text = hier handelt es sich um den Fall F16
+1	hier	hier	ADV	ADV	_	2	mod	_	_
+2	handelt	handeln	VERB	VVFIN	_	0	root	_	_
+3	es	es	PRON	PPER	_	2	subj@expl	_	_
+4	sich	er|es|sie	PRON	PRF	_	2	comp:obj	_	_
+5	um	um	ADP	APPR	_	2	comp:obl	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Fall	Fall	NOUN	NN	_	5	comp:obj	_	_
+8	F16	F16	PROPN	NE	_	7	appos	_	_
+
+# text = ich wurde soeben Zeuge eines klein Autounfalls äh am Aldi in der {streetname}straße äh heute um 15 Uhr
+1	ich	ich	PRON	PPER	_	2	subj@pass	_	_
+2	wurde	werden	AUX	VAFIN	_	0	root	_	_
+3	soeben	soeben	VERB	ADV	_	2	mod	_	_
+4	Zeuge	Zeuge	PROPN	NN	_	2	comp:pred	_	_
+5	eines	ein	DET	ART	_	7	det	_	_
+6	klein	kleine	ADJ	ADJA	_	7	mod	_	_
+7	Autounfalls	Autounfall	NOUN	NN	_	4	mod@poss	_	_
+8	äh	äh	PROPN	NGHES	_	2	discourse	_	_
+9	am	an	PROPN	APPRART	_	7	mod	_	_
+10	Aldi	Aldi	PROPN	NE	_	9	comp:obj	_	_
+11	in	in	ADP	APPR	_	10	mod	_	_
+12	der	d	DET	ART	_	13	det	_	_
+13	{streetname}straße	{streetname}straße	PROPN	NE	_	11	comp:obj	_	_
+14	äh	äh	PROPN	NGHES	_	2	discourse	_	_
+15	heute	heute	ADV	ADV	_	7	mod	_	_
+16	um	um	ADP	APPR	_	7	mod	_	_
+17	15	@card@	NUM	CARD	_	18	mod	_	_
+18	Uhr	Uhr	NOUN	NN	_	16	comp:obj	_	_
+
+# text = ein Junge spielte mit sein Ball
+1	ein	ein	DET	ART	_	2	det	_	_
+2	Junge	Junge	NOUN	NN	_	3	subj	_	_
+3	spielte	spielen	VERB	VVFIN	_	0	root	_	_
+4	mit	mit	ADP	APPR	_	3	mod	_	_
+5	sein	sein	DET	PPOSAT	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	4	comp:obj	_	_
+
+# text = dieser Ball rollte auf die Straße
+1	dieser	diese	PRON	PDAT	_	2	det	_	_
+2	Ball	Ball	NOUN	NN	_	3	subj	_	_
+3	rollte	rollen	VERB	VVFIN	_	0	root	_	_
+4	auf	auf	ADP	APPR	_	3	comp:obl	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Straße	Straße	NOUN	NN	_	4	comp:obj	_	_
+
+# text = danach bellte ein Hund
+1	danach	danach	ADV	ADV	_	2	mod	_	_
+2	bellte	bellen	VERB	VVFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Hund	Hund	NOUN	NN	_	2	subj	_	_
+
+# text = und rannte dem Ball hinterher
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	rannte	rennen	VERB	VVFIN	_	0	root	_	_
+3	dem	d	DET	ART	_	4	det	_	_
+4	Ball	Ball	NOUN	NN	_	2	comp:obj	_	_
+5	hinterher	hinterher	ADV	PTKVZ	_	2	compound@prt	_	_
+
+# text = äh ein Auto das über die Straße fuhr bremste
+1	äh	äh	ADJ	NGHES	_	9	discourse	_	_
+2	ein	ein	DET	ART	_	3	det	_	_
+3	Auto	Auto	NOUN	NN	_	9	subj	_	_
+4	das	d	DET	PRELS	_	8	subj	_	_
+5	über	über	ADP	APPR	_	8	comp:obl	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Straße	Straße	NOUN	NN	_	5	comp:obj	_	_
+8	fuhr	fahren	VERB	VVFIN	_	3	mod@relcl	_	_
+9	bremste	bremsen	ADJ	VVFIN	_	0	root	_	_
+
+# text = aber das Auto dahinter schaffte es nicht mehr abzubremsen
+1	aber	aber	ADV	KON	_	5	cc	_	_
+2	das	d	DET	ART	_	3	det	_	_
+3	Auto	Auto	NOUN	NN	_	5	subj	_	_
+4	dahinter	dahinter	ADV	ADV	_	3	mod	_	_
+5	schaffte	schaffen	VERB	VVFIN	_	0	root	_	_
+6	es	es	PRON	PPER	_	5	comp:obj@expl	_	_
+7	nicht	nicht	PART	PTKNEG	_	5	mod	_	_
+8	mehr	mehr	ADV	PTKMWL	_	7	mod	_	_
+9	abzubremsen	abbremsen	PROPN	VVIZU	_	5	comp:obj	_	_
+
+# text = und fuhr deswegen hinten rein
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	fuhr	fahren	VERB	VVFIN	_	0	root	_	_
+3	deswegen	deswegen	ADV	ADV	_	2	mod	_	_
+4	hinten	hinten	ADV	ADV	_	2	mod	_	_
+5	rein	rein	ADJ	PTKVZ	_	2	compound@prt	_	_
+
+# text = äh dabei ist aber niemand zu Schaden gekommen
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	dabei	dabei	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	aber	aber	ADV	PTKMA	_	3	mod	_	_
+5	niemand	niemand	PRON	PIS	_	3	subj	_	_
+6	zu	zu	ADP	APPR	_	8	comp:obl	_	_
+7	Schaden	Schaden	NOUN	NN	_	6	comp:obj	_	_
+8	gekommen	kommen	ADJ	VVPP	_	3	comp:aux	_	_
+
+# text = nur nur des erste Auto trug etwas Schaden davon aber keine Personenschäden
+1	nur	nur	ADV	PTKIFG	_	2	reparandum	_	_
+2	nur	nur	ADV	PTKIFG	_	6	mod	_	_
+3	des	d	DET	ART	_	5	det	_	_
+4	erste	erste	ADJ	ORD	_	5	mod	_	_
+5	Auto	Auto	NOUN	NN	_	6	subj	_	_
+6	trug	tragen	VERB	VVFIN	_	0	root	_	_
+7	etwas	etwas	PRON	PIAT	_	8	det	_	_
+8	Schaden	Schaden	NOUN	NN	_	6	comp:obj	_	_
+9	davon	davon	ADV	ADV	_	6	compound@prt	_	_
+10	aber	aber	ADV	KON	_	12	cc	_	_
+11	keine	kein	PRON	PIAT	_	12	det	_	_
+12	Personenschäden	Personenschaden	NOUN	NN	_	8	conj	_	_
+
+# text = genau der Junge versuchte dabei noch der Frau zu helfen die Besitzerin des Hundes
+1	genau	genau	ADJ	NGIRR	_	4	discourse	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Junge	Junge	NOUN	NN	_	4	subj	_	_
+4	versuchte	versuchen	VERB	VVFIN	_	0	root	_	_
+5	dabei	dabei	ADV	ADV	_	4	mod	_	_
+6	noch	noch	ADV	ADV	_	4	mod	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Frau	Frau	NOUN	NN	_	10	comp:obj	_	_
+9	zu	zu	PART	PTKZU	_	4	comp:obj	_	_
+10	helfen	helfen	VERB	VVINF	_	9	comp:obj	_	_
+11	die	d	DET	ART	_	12	det	_	_
+12	Besitzerin	Besitzerin	NOUN	NN	_	8	appos	_	_
+13	des	d	DET	ART	_	14	det	_	_
+14	Hundes	Hund	NOUN	NN	_	12	mod@poss	_	_
+
+# text = sie hatte einige Sachen fallen lassen
+1	sie	sie	PRON	PPER	_	2	subj	_	_
+2	hatte	haben	AUX	VAFIN	_	0	root	_	_
+3	einige	einige	PRON	PIAT	_	4	det	_	_
+4	Sachen	Sache	NOUN	NN	_	5	comp:obj	_	_
+5	fallen	fallen	VERB	VVINF	_	6	comp:obj	_	_
+6	lassen	lassen	VERB	VVINF	_	2	comp:aux	_	_
+

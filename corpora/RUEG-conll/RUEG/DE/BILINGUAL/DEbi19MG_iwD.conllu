@@ -1,0 +1,178 @@
+1	Hey	Hey	PROPN	NGIRR	_	2	discourse	_	_
+2	Größer	Größer	NOUN	NN	_	0	root	_	_
+
+1	muss	müssen	AUX	VMFIN	_	0	root	_	_
+2	dir	du	PRON	PPER	_	4	comp:obl	_	_
+3	etwas	etwas	ADV	PIS	_	4	comp:obj	_	_
+4	erzählen	erzählen	VERB	VVFIN	_	1	comp:aux	_	_
+5	was	was	PRON	PWS	_	8	subj	_	_
+6	gerade	gerade	ADV	ADV	_	8	mod	_	_
+7	passiert	passieren	VERB	VVPP	_	8	comp:aux	_	_
+8	ist	sein	AUX	VAFIN	_	3	mod@relcl	_	_
+9	.	.	PUNCT	$.	_	1	punct	_	_
+
+1	Ich	ich	PRON	PPER	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	PTKIFG	_	2	mod	_	_
+4	Treptower	Treptower	PRON	NE	_	2	comp:pred	_	_
+5	Park	Park	NOUN	NE	_	4	flat	_	_
+6	wo	wo	ADV	PWAV	_	11	comp:obl	_	_
+7	wir	wir	PRON	PPER	_	11	subj	_	_
+8	immer	immer	ADV	ADV	_	11	mod	_	_
+9	unsere	unser	PRON	PPOSAT	_	10	det	_	_
+10	Partys	Party	NOUN	NN	_	11	comp:obj	_	_
+11	machen	machen	VERB	VVINF	_	4	mod@relcl	_	_
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	:collision::collision:	💥💥	SYM	EMO	_	0	root	_	_
+
+1	Naja	Naja	ADV	NGIRR	_	9	discourse	_	_
+2	plötzlich	plötzlich	ADJ	ADV	_	9	mod	_	_
+3	als	als	ADP	KOUS	_	9	mod	_	_
+4	ich	ich	PRON	PPER	_	8	subj	_	_
+5	nach	nach	ADP	APPR	_	7	comp:obl	_	_
+6	Hause	Hause	NOUN	NN	_	5	comp:obj	_	_
+7	gehen	gehen	VERB	VVINF	_	8	comp:aux	_	_
+8	wollte	wollen	AUX	VMFIN	_	3	comp:obj	_	_
+9	war	sein	VERB	VAFIN	_	0	root	_	_
+10	ich	ich	PRON	PPER	_	9	subj	_	_
+11	am	am	ADJ	APPRART	_	9	comp:pred	_	_
+12	Parkplatz	Parkplatz	NOUN	NN	_	11	comp:obj	_	_
+13	.	.	PUNCT	$.	_	9	punct	_	_
+
+1	Da	da	ADV	ADV	_	2	mod	_	_
+2	hab	haben	AUX	VAFIN	_	0	root	_	_
+3	ich	ich	PRON	PPER	_	2	subj	_	_
+4	ein	ein	DET	ART	_	6	det	_	_
+5	junges	jung	ADJ	ADJA	_	6	mod	_	_
+6	Pärchen	Pärchen	NOUN	NN	_	7	comp:obj	_	_
+7	gesehen	sehen	VERB	VVPP	_	2	comp:aux	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Der	d	DET	ART	_	2	det	_	_
+2	Typ	Typ	NOUN	NN	_	3	subj	_	_
+3	hatte	haben	VERB	VAFIN	_	0	root	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	7	comp:obj	_	_
+6	dabei	dabei	ADV	ADV	_	7	compound@prt	_	_
+7	gehabt	haben	VERB	VAPP	_	3	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	mit	mit	ADP	APPR	_	5	comp:obl	_	_
+4	dem	d	DET	PDS	_	3	comp:obj	_	_
+5	gedribbelt	dribbeln	PROPN	VVPP	_	2	comp:aux	_	_
+6	ganz	ganz	ADV	PTKIFG	_	7	mod	_	_
+7	cool	cool	ADJ	ADJD	_	2	mod	_	_
+8	:smiling_face_with_sunglasses:	😎	SYM	EMO	_	2	discourse	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Auf	auf	ADP	APPR	_	3	mod	_	_
+2	einmal	einmal	ADV	ADV	_	1	fixed	_	_
+3	verlor	verlieren	VERB	VVFIN	_	0	root	_	_
+4	er	er	PRON	PPER	_	3	subj	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+7	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	Da	da	ADV	ADV	_	2	mod	_	_
+2	war	sein	AUX	VAFIN	_	0	root	_	_
+3	aber	aber	ADV	ADV	_	2	mod	_	_
+4	noch	noch	ADV	PTKMWL	_	6	mod	_	_
+5	eine	ein	DET	ART	_	6	det	_	_
+6	Frau	Frau	NOUN	NN	_	2	subj	_	_
+7	die	d	PRON	PRELS	_	12	subj	_	_
+8	ihre	ihr	DET	PPOSAT	_	9	det	_	_
+9	Einkäufe	Einkauf	NOUN	NN	_	12	comp:obj	_	_
+10	ins	ins	PROPN	APPRART	_	12	comp:obl	_	_
+11	Auto	Auto	PROPN	NN	_	10	comp:obj	_	_
+12	packte	packen	VERB	VVFIN	_	6	mod@relcl	_	_
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Die	d	DET	ART	_	2	det	_	_
+2	Frau	Frau	NOUN	NN	_	3	subj	_	_
+3	hatte	haben	AUX	VAFIN	_	0	root	_	_
+4	noch	noch	ADV	PTKMWL	_	3	mod	_	_
+5	ein	ein	NUM	ART	_	6	det	_	_
+6	Hund	Hund	NOUN	NN	_	7	comp:obj	_	_
+7	gehabt	haben	VERB	VAPP	_	3	comp:aux	_	_
+8	der	d	DET	PRELS	_	13	subj	_	_
+9	auf	auf	ADP	APPR	_	13	mod	_	_
+10	einmal	einmal	ADV	ADV	_	9	fixed	_	_
+11	zum	zum	PROPN	APPRART	_	13	comp:obl	_	_
+12	Ball	Ball	PROPN	NN	_	11	comp:obj	_	_
+13	rannte	rennen	VERB	VVFIN	_	6	mod@relcl	_	_
+
+1	...	...	PUNCT	$.	_	0	root	_	_
+
+1	Frau	Frau	NOUN	NN	_	2	subj	_	_
+2	fiel	fallen	VERB	VVFIN	_	0	root	_	_
+3	hin	hin	ADV	PTKVZ	_	2	compound@prt	_	_
+
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	in	in	ADP	APPR	_	6	mod	_	_
+3	dem	d	DET	ART	_	5	det	_	_
+4	gleichen	gleich	ADJ	ADJA	_	5	mod	_	_
+5	Moment	Moment	NOUN	NN	_	2	comp:obj	_	_
+6	kamen	kommen	VERB	VVFIN	_	0	root	_	_
+7	zwei	zwei	NUM	CARD	_	8	mod	_	_
+8	Autos	Auto	NOUN	NN	_	6	subj	_	_
+9	auf	auf	ADP	APPR	_	6	comp:obl	_	_
+10	dem	d	DET	ART	_	11	det	_	_
+11	parkplatz	Parkplatz	PROPN	NN	_	9	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	vor	vor	ADP	APPR	_	4	mod	_	_
+3	Schreck	Schreck	NOUN	NN	_	2	comp:obj	_	_
+4	krachte	krachen	VERB	VVFIN	_	0	root	_	_
+5	es	es	PRON	PPER	_	4	subj@expl	_	_
+6	:man_facepalming_medium_skin_tone:	🤦🏽‍♂️	NOUN	EMO	_	4	discourse	_	_
+7	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	Der	d	DET	ART	_	3	det	_	_
+2	junge	jung	ADJ	ADJA	_	3	mod	_	_
+3	Mann	Mann	NOUN	NN	_	4	subj	_	_
+4	ging	gehen	VERB	VVFIN	_	0	root	_	_
+5	zur	zur	PROPN	APPRART	_	4	comp:obl	_	_
+6	Frau	Frau	NOUN	NN	_	5	comp:obj	_	_
+
+1	half	helfen	VERB	VVFIN	_	0	root	_	_
+2	ihr	ihr	PRON	PPER	_	1	comp:obj	_	_
+3	mit	mit	ADP	APPR	_	1	mod	_	_
+4	den	d	DET	ART	_	5	det	_	_
+5	Einkäufen	Einkauf	NOUN	NN	_	3	comp:obj	_	_
+6	.	.	PUNCT	$.	_	1	punct	_	_
+
+1	In	in	ADP	APPR	_	4	mod	_	_
+2	dem	d	DET	ART	_	3	det	_	_
+3	Moment	Moment	NOUN	NN	_	1	comp:obj	_	_
+4	rief	rufen	VERB	VVFIN	_	0	root	_	_
+5	der	d	DET	ART	_	7	det	_	_
+6	eine	ein	NUM	ART	_	7	mod	_	_
+7	Autofahrer	Autofahrer	NOUN	NN	_	4	subj	_	_
+8	die	d	DET	ART	_	9	det	_	_
+9	Polizei	Polizei	NOUN	NN	_	4	comp:obj	_	_
+10	an	an	ADP	APPR	_	4	compound@prt	_	_
+
+1	...	...	PUNCT	$.	_	0	root	_	_
+
+1	Dann	Dann	ADV	ADV	_	2	mod	_	_
+2	ging	gehen	VERB	VVFIN	_	0	root	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Junge	Junge	NOUN	NN	_	2	subj	_	_
+5	zu	zu	ADP	APPR	_	2	comp:obl	_	_
+6	den	d	DET	ART	_	8	det	_	_
+7	anderen	ander	ADJ	PIDAT	_	8	mod	_	_
+8	beiden	Beide	PRON	NN	_	5	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	schaute	schauen	VERB	VVFIN	_	0	root	_	_
+3	ob	ob	SCONJ	KOUS	_	2	comp:obj	_	_
+4	alles	alle	PRON	PIS	_	7	subj	_	_
+5	in	in	ADP	APPR	_	7	comp:pred	_	_
+6	Ordnung	Ordnung	NOUN	NN	_	5	comp:obj	_	_
+7	ist	sein	VERB	VAFIN	_	3	comp:obj	_	_
+8	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	:victory_hand_light_skin_tone:	✌🏻	SYM	EMO	_	0	root	_	_
+

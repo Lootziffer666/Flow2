@@ -1,0 +1,116 @@
+1	Hi	hi	PROPN	NGIRR	_	0	root	_	_
+2	,	,	PUNCT	$,	_	1	punct	_	_
+
+1	nichts	nichts	PRON	PIAT	_	2	det	_	_
+2	Schlimmes	Schlimme	NOUN	NN	_	0	root	_	_
+3	,	,	PUNCT	$,	_	6	punct	_	_
+4	aber	aber	CCONJ	KON	_	6	cc	_	_
+5	ich	ich	PRON	PPER	_	6	subj	_	_
+6	habe	haben	AUX	VAFIN	_	2	conj	_	_
+7	gerade	gerade	ADV	ADV	_	6	mod	_	_
+8	einen	ein	DET	ART	_	10	det	_	_
+9	kleinen	klein	ADJ	ADJA	_	10	mod	_	_
+10	Auffahrunfall	Auffahrunfall	NOUN	NN	_	11	comp:obj	_	_
+11	mitbekommen	mitbekommen	VERB	VVPP	_	6	comp:aux	_	_
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	ein	ein	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	im	in	PROPN	APPRART	_	8	mod	_	_
+5	Gehen	Gehen	NOUN	NN	_	4	comp:obj	_	_
+6	einen	ein	DET	ART	_	7	det	_	_
+7	Ball	Ball	NOUN	NN	_	8	comp:obj	_	_
+8	geprellt	prellen	VERB	VVPP	_	3	comp:aux	_	_
+9	,	,	PUNCT	$,	_	3	punct	_	_
+
+1	konnte	können	AUX	VMFIN	_	0	root	_	_
+2	es	es	PRON	PPER	_	1	comp:obj@expl	_	_
+3	aber	aber	ADV	PTKMA	_	1	cc	_	_
+4	anscheinend	anscheinend	ADV	ADV	_	1	mod	_	_
+5	nicht	nicht	PART	PTKNEG	_	1	mod	_	_
+6	gut	gut	ADJ	ADJD	_	1	mod	_	_
+7	genug	genug	ADV	PTKMWL	_	6	mod	_	_
+8	,	,	PUNCT	$,	_	1	punct	_	_
+
+1	hat	haben	AUX	VAFIN	_	0	root	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Kontrolle	Kontrolle	NOUN	NN	_	4	comp:obj	_	_
+4	verloren	verlieren	VERB	VVPP	_	1	comp:aux	_	_
+5	.	.	PUNCT	$.	_	1	punct	_	_
+
+1	Ball	Ball	PROPN	NN	_	0	root	_	_
+2	vors	vor	PROPN	APPRART	_	1	orphan	_	_
+3	Auto	Auto	PROPN	NN	_	2	comp:obj	_	_
+4	,	,	PUNCT	$,	_	1	punct	_	_
+
+1	dann	dann	ADV	ADV	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	von	von	ADP	APPR	_	12	udep	_	_
+4	der	d	DET	ART	_	6	det	_	_
+5	anderen	ander	ADJ	PIDAT	_	6	mod	_	_
+6	Seite	Seite	NOUN	NN	_	3	comp:obj	_	_
+7	noch	noch	ADV	PTKMWL	_	9	mod	_	_
+8	ein	ein	DET	ART	_	9	det	_	_
+9	Hund	Hund	NOUN	NN	_	2	subj	_	_
+10	zum	zu	PROPN	APPRART	_	12	udep	_	_
+11	Ball	Ball	PROPN	NN	_	10	flat	_	_
+12	gelaufen	laufen	VERB	VVPP	_	2	comp:aux	_	_
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Autofahrer	Autofahrer	NOUN	NN	_	2	subj	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	gebremst	bremsen	ADV	VVPP	_	2	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Wagen	Wagen	NOUN	NN	_	6	subj	_	_
+4	hinter	hinter	ADP	APPR	_	3	mod	_	_
+5	ihm	er	PRON	PPER	_	4	comp:obj	_	_
+6	ist	sein	AUX	VAFIN	_	0	root	_	_
+7	aufgefahren	auffahren	VERB	VVPP	_	6	comp:aux	_	_
+8	.	.	PUNCT	$.	_	6	punct	_	_
+
+1	Niemand	niemand	PRON	PIS	_	0	root	_	_
+2	verletzt	verletzen	VERB	ADJD	_	1	orphan	_	_
+3	und	und	CCONJ	KON	_	4	cc	_	_
+4	so	so	ADV	ADV	_	1	conj	_	_
+5	,	,	PUNCT	$,	_	1	punct	_	_
+
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	völlig	völlig	ADJ	ADJD	_	3	mod	_	_
+3	unnötig	unnötig	ADJ	ADJD	_	0	root	_	_
+4	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	wenn	wenn	SCONJ	KOUS	_	12	mod	_	_
+2	man	man	PRON	PIS	_	8	subj	_	_
+3	nicht	nicht	PART	PTKNEG	_	8	mod	_	_
+4	mit	mit	ADP	APPR	_	7	comp:obl	_	_
+5	einem	ein	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	4	comp:obj	_	_
+7	umgehen	umgehen	VERB	VVINF	_	8	comp:aux	_	_
+8	kann	können	AUX	VMFIN	_	1	comp:obj	_	_
+9	sollte	sollen	AUX	VMFIN	_	0	root	_	_
+10	man	man	PRON	PIS	_	9	subj	_	_
+11	es	es	PRON	PPER	_	12	comp:obj@expl	_	_
+12	lassen	lassen	VERB	VVINF	_	9	comp:obj	_	_
+13	...	...	PUNCT	$.	_	9	discourse	_	_
+
+1	:face_with_rolling_eyes:	🙄	SYM	EMO	_	0	root	_	_
+
+1	so	so	ADV	PTKIFG	_	3	mod	_	_
+2	ein	ein	DET	ART	_	3	det	_	_
+3	Vollidiot	Vollidiot	NOUN	NN	_	0	root	_	_
+4	,	,	PUNCT	$,	_	3	punct	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	wahrscheinlich	wahrscheinlich	ADJ	ADV	_	3	mod	_	_
+3	bekommen	bekommen	VERB	VVFIN	_	0	root	_	_
+4	nur	nur	ADV	PTKIFG	_	6	mod	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Autofahrer	Autofahrer	NOUN	NN	_	3	subj	_	_
+7	Schuld	Schuld	NOUN	NN	_	3	comp:obj	_	_
+8	...	...	PUNCT	$.	_	3	discourse	_	_
+
+1	:face_with_rolling_eyes:	🙄	SYM	EMO	_	0	root	_	_
+

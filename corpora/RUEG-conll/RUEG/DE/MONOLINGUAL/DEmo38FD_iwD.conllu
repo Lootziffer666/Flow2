@@ -1,0 +1,139 @@
+# text = Sabi ,
+1	Sabi	Sabi	PROPN	NE	_	0	root	_	_
+2	,	,	PUNCT	$,	_	1	punct	_	_
+
+# text = ich habe gerade etwas miterlebt
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	PTKIFG	_	2	mod	_	_
+4	etwas	etwas	ADV	PIS	_	5	comp:obj	_	_
+5	miterlebt	miterleben	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = und musste der Polizei aussagen .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	musste	müssen	AUX	VMFIN	_	0	root	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Polizei	Polizei	NOUN	NN	_	5	comp:obj	_	_
+5	aussagen	aussagen	VERB	VVINF	_	2	comp:aux	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Ich war auf einem Parkplatz als ein Auffahrunfall enstanden ist .
+1	Ich	ich	PRON	PPER	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	auf	auf	ADP	APPR	_	2	comp:pred	_	_
+4	einem	ein	DET	ART	_	5	det	_	_
+5	Parkplatz	Parkplatz	NOUN	NN	_	3	comp:obj	_	_
+6	als	als	ADP	KOKOM	_	2	mod	_	_
+7	ein	ein	DET	ART	_	8	det	_	_
+8	Auffahrunfall	Auffahrunfall	NOUN	NN	_	10	subj	_	_
+9	entstanden	entstanden	ADJ	VVPP	_	10	comp:aux	_	_
+10	ist	sein	VERB	VAFIN	_	6	comp:obj	_	_
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Neben mir lief ein Paar
+1	Neben	neben	ADP	APPR	_	3	comp:obl	_	_
+2	mir	ich	PRON	PPER	_	1	comp:obj	_	_
+3	lief	laufen	VERB	VVFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Paar	Paar	NOUN	NN	_	3	subj	_	_
+
+# text = und der Mann hat mit einem Ball gespielt
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Mann	Mann	NOUN	NN	_	4	subj	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	mit	mit	ADP	APPR	_	8	mod	_	_
+6	einem	ein	DET	ART	_	7	det	_	_
+7	Ball	Ball	NOUN	NN	_	5	comp:obj	_	_
+8	gespielt	spielen	VERB	VVPP	_	4	comp:aux	_	_
+
+# text = und auf der anderen Seite eine Frau , die ihre Tüten ausgepackt hat .
+1	und	und	CCONJ	KON	_	7	cc	_	_
+2	auf	auf	ADP	APPR	_	7	orphan	_	_
+3	der	d	DET	ART	_	5	det	_	_
+4	anderen	ander	ADJ	PIDAT	_	5	mod	_	_
+5	Seite	Seite	NOUN	NN	_	2	comp:obj	_	_
+6	eine	ein	DET	ART	_	7	det	_	_
+7	Frau	Frau	NOUN	NN	_	0	root	_	_
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9	die	die	PRON	PRELS	_	13	subj	_	_
+10	ihre	ihr	DET	PPOSAT	_	11	det	_	_
+11	Tüten	Tüten	NOUN	NN	_	12	comp:obj	_	_
+12	ausgepackt	auspacken	VERB	VVPP	_	13	comp:aux	_	_
+13	hat	haben	AUX	VAFIN	_	7	mod@relcl	_	_
+14	.	.	PUNCT	$.	_	7	punct	_	_
+
+# text = Der Ball rollt auf einmal auf den Parkplatz
+1	Der	d	DET	ART	_	2	det	_	_
+2	Ball	Ball	NOUN	NN	_	3	subj	_	_
+3	rollt	rollen	VERB	VVFIN	_	0	root	_	_
+4	auf	auf	ADP	APPR	_	3	mod	_	_
+5	einmal	einmal	ADV	ADV	_	4	fixed	_	_
+6	auf	auf	ADP	APPR	_	3	comp:obl	_	_
+7	den	d	DET	ART	_	8	det	_	_
+8	Parkplatz	Parkplatz	NOUN	NN	_	6	comp:obj	_	_
+
+# text = und dann läuft der Hund auch noch hinzu .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	läuft	laufen	VERB	VVFIN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	3	subj	_	_
+6	auch	auch	ADV	PTKIFG	_	3	mod	_	_
+7	noch	noch	ADV	PTKMWL	_	3	mod	_	_
+8	hinzu	hinzu	ADV	PTKVZ	_	3	compound@prt	_	_
+9	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Ein blaues Auto musste in dem Moment stark abbremsen
+1	Ein	ein	DET	ART	_	3	det	_	_
+2	blaues	blau	ADJ	ADJA	_	3	mod	_	_
+3	Auto	Auto	NOUN	NN	_	4	subj	_	_
+4	musste	müssen	AUX	VMFIN	_	0	root	_	_
+5	in	in	ADP	APPR	_	9	mod	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	Moment	Moment	NOUN	NN	_	5	comp:obj	_	_
+8	stark	stark	ADJ	ADJD	_	4	mod	_	_
+9	abbremsen	abbremsen	VERB	VVINF	_	4	comp:aux	_	_
+
+# text = und das weiße Auto dahinter ist aufgefahren .
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	das	d	DET	ART	_	4	det	_	_
+3	weiße	weiß	ADJ	ADJA	_	4	mod	_	_
+4	Auto	Auto	NOUN	NN	_	6	subj	_	_
+5	dahinter	dahinter	ADV	ADV	_	4	mod	_	_
+6	ist	sein	AUX	VAFIN	_	0	root	_	_
+7	aufgefahren	auffahren	VERB	VVPP	_	6	comp:aux	_	_
+8	.	.	PUNCT	$.	_	6	punct	_	_
+
+# text = Gut , dass das blaue Auto noch bremsen konnte .
+1	Gut	gut	VERB	NGIRR	_	0	root	_	_
+2	,	,	PUNCT	$,	_	1	punct	_	_
+3	dass	dass	SCONJ	KOUS	_	1	comp:obj	_	_
+4	das	d	DET	ART	_	6	det	_	_
+5	blaue	blau	PROPN	ADJA	_	6	mod	_	_
+6	Auto	Auto	PROPN	NN	_	9	subj	_	_
+7	noch	noch	ADV	PTKMWL	_	9	mod	_	_
+8	bremsen	bremsen	VERB	VVINF	_	9	comp:aux	_	_
+9	konnte	können	AUX	VMFIN	_	3	comp:obj	_	_
+10	.	.	PUNCT	$.	_	1	punct	_	_
+
+# text = Es wirkte sehr durcheinander auf dem Parkplatz
+1	Es	es	PRON	PPER	_	2	subj@expl	_	_
+2	wirkte	wirken	VERB	VVFIN	_	0	root	_	_
+3	sehr	sehr	ADV	PTKIFG	_	4	mod	_	_
+4	durcheinander	durcheinander	ADV	ADV	_	2	comp:pred	_	_
+5	auf	auf	ADP	APPR	_	2	mod	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	Parkplatz	Parkplatz	NOUN	NN	_	5	comp:obj	_	_
+
+# text = und bestimmt hätte noch etwas Schlimmeres passieren können .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	bestimmt	bestimmt	VERB	ADV	_	3	mod	_	_
+3	hätte	haben	AUX	NN	_	0	root	_	_
+4	noch	noch	ADV	PTKMWL	_	3	mod	_	_
+5	etwas	etwas	ADV	PIAT	_	6	mod	_	_
+6	Schlimmeres	Schlimmere	NOUN	NN	_	3	subj	_	_
+7	passieren	passieren	VERB	VVINF	_	8	comp:aux	_	_
+8	können	können	AUX	VVINF	_	3	comp:aux	_	_
+9	.	.	PUNCT	$.	_	3	punct	_	_
+

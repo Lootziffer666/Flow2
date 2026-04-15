@@ -1,0 +1,132 @@
+1	richtig	richtig	ADJ	_	Degree=Pos	2	mod	_	_
+2	krass	krass	PROPN	_	Case=Nom|Number=Sing	0	root	_	_
+3	gerade	gerade	ADV	_	_	2	mod	_	_
+
+1	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	war	sein	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	gerade	gerade	ADV	_	_	2	mod	_	_
+4	so	so	ADV	_	_	2	mod	_	_
+5	auf	auf	ADP	_	_	2	comp:pred	_	_
+6	so	so	ADV	_	_	8	mod	_	_
+7	einem	ein	DET	_	Definite=Ind|PronType=Art	8	det	_	_
+8	Parkplatz	Parkplatz	NOUN	_	_	5	comp:obj	_	_
+
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	da	da	ADV	_	_	3	mod	_	_
+3	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	halt	halt	ADV	_	_	3	discourse	_	_
+5	so	so	ADV	_	_	7	mod	_	_
+6	ein	ein	NUM	_	NumType=Card	7	det	_	_
+7	Unfall	Unfall	NOUN	_	Case=Acc|Number=Sing	3	subj	_	_
+8	passiert	passieren	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	das	die	PRON	_	Case=Nom|PronType=Dem	3	subj	_	_
+3	war	sein	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	halt	halt	ADV	_	_	3	discourse	_	_
+5	so	so	ADV	_	_	3	comp:pred	_	_
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	dass	dass	SCONJ	_	_	5	comp:obj	_	_
+8	so	so	ADV	_	_	10	mod	_	_
+9	ein	ein	DET	_	Definite=Ind|PronType=Art	10	det	_	_
+10	Typ	Typ	NOUN	_	_	7	comp:obj	_	_
+11	der	die	DET	_	Definite=Def|PronType=Art	18	subj	_	_
+12	halt	halt	ADV	_	_	3	discourse	_	_
+13	mit	mit	ADP	_	_	17	comp:obl	_	_
+14	einem	ein	DET	_	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Ball	Ball	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	13	comp:obj	_	_
+16	so	so	ADV	_	_	18	mod	_	_
+17	gedrippelt	gedrippelt	VERB	_	Tense=Past|VerbForm=Part	18	comp:aux	_	_
+18	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	_
+19	und	und	CCONJ	_	_	26	cc	_	_
+20	der	d	PRON	_	Case=Nom|PronType=Dem	26	subj	_	_
+21	dann	dann	ADV	_	_	26	mod	_	_
+22	auf	auf	ADP	_	_	25	comp:obl	_	_
+23	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	22	comp:obj	_	_
+25	gerollt	rollen	VERB	_	Tense=Past|VerbForm=Part	26	comp:aux	_	_
+26	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+27	.	.	PUNCT	_	_	3	punct	_	_
+
+1	Auf	auf	ADP	_	_	5	comp:pred	_	_
+2	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	anderen	ander	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	4	mod	_	_
+4	Straßenseite	Straßenseite	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	1	comp:obj	_	_
+5	war	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	eine	eine	DET	_	Definite=Ind|PronType=Art	7	det	_	_
+7	Frau	Frau	NOUN	_	_	5	subj	_	_
+8	mit	mit	ADP	_	_	7	mod	_	_
+9	einem	ein	DET	_	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Hund	Hund	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	8	comp:obj	_	_
+
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	der	die	PRON	_	Case=Nom|PronType=Dem	3	subj	_	_
+3	ist	sein	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	dann	dann	ADV	_	_	3	mod	_	_
+5	halt	halt	ADV	_	_	3	discourse	_	_
+6	so	so	ADV	_	_	7	mod	_	_
+7	voll	voll	ADJ	_	Degree=Pos	3	mod	_	_
+8	auf	auf	ADP	_	_	11	comp:obl	_	_
+9	den	d	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Ball	Ball	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	8	comp:obj	_	_
+11	gestürmt	gestürmt	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+12	...	...	PUNCT	_	_	3	discourse	_	_
+
+1	genau	genau	ADJ	_	Degree=Pos	2	mod	_	_
+2	wie	wie	ADP	_	_	8	mod	_	_
+3	man	man	PRON	_	Case=Nom|PronType=Ind	8	subj	_	_
+4	es	es	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	comp:obj@expl	_	_
+5	bei	bei	ADP	_	_	8	mod	_	_
+6	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Fahrschule	Fahrschule	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	5	comp:obj	_	_
+8	lernt	lernen	VERB	_	Tense=Pres|VerbForm=Part	26	mod	_	_
+9	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	das	d	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Auto	Auto	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	9	subj	_	_
+12	,	,	PUNCT	_	_	9	punct	_	_
+13	was	was	PRON	_	Case=Nom|Number=Sing|PronType=Rel	23	subj	_	_
+14	da	da	ADV	_	_	23	mod	_	_
+15	halt	halt	ADV	_	_	9	discourse	_	_
+16	*	*	PUNCT	_	_	17	punct	_	_
+17	zufällig	zufallig	ADJ	_	_	23	mod	_	_
+18	*	*	PUNCT	_	_	17	punct	_	_
+19	in	in	ADP	_	_	23	mod	_	_
+20	genau	genau	ADJ	_	Degree=Pos	22	mod	_	_
+21	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	22	det	_	_
+22	Moment	Moment	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	19	comp:obj	_	_
+23	kam	kommen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	mod@relcl	_	_
+24	eine	eine	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Vollbremsung	Vollbremsung	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	26	comp:obj	_	_
+26	hingelegt	hinlegen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	comp:aux	_	_
+
+1	und	und	CCONJ	_	_	7	cc	_	_
+2	das	d	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Auto	Auto	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	7	subj	_	_
+4	was	was	PRON	_	Case=Nom|Number=Sing|PronType=Int	6	subj	_	_
+5	danach	danach	ADV	_	_	6	mod	_	_
+6	kam	kommen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	mod@relcl	_	_
+7	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	dann	dann	ADV	_	_	7	mod	_	_
+9	voll	voll	ADJ	_	Degree=Pos	7	mod	_	_
+10	raufgefahren	raufgefahren	NOUN	_	Tense=Past	7	comp:aux	_	_
+
+1	:person_facepalming_light_skin_tone::female_sign:	🤦🏻‍♀	NOUN	_	_	0	root	_	_
+
+1	richtig	richtig	ADJ	_	Degree=Pos	2	mod	_	_
+2	dumm	dumm	ADJ	_	Degree=Pos	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+1	Zum	zum	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	3	mod	_	_
+2	Glück	Glück	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	1	comp:obj	_	_
+3	geht	gehen	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	es	es	PRON	_	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+5	allen	alle	PRON	_	Case=Dat|Gender=Neut|Number=Plur|PronType=Tot	3	comp:obj	_	_
+6	gut	gut	ADJ	_	Degree=Pos	3	comp:pred	_	_
+
+1	aber	aber	CCONJ	_	_	4	cc	_	_
+2	trotzdem	trotzdem	ADV	_	_	4	mod	_	_
+3	voll	voll	ADJ	_	Degree=Pos	4	mod	_	_
+4	scheiße	scheiße	ADJ	_	Degree=Pos	0	root	_	_
+
+1	:slightly_frowning_face:	🙁	SYM	_	_	0	root	_	_
+

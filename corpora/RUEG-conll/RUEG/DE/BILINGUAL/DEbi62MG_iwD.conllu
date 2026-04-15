@@ -1,0 +1,199 @@
+# text = Jo Rich
+1	Jo	Jo	PROPN	NGIRR	_	2	discourse	_	_
+2	Rich	Rich	PROPN	NE	_	0	root	_	_
+
+# text = Du weißt nicht , was hier passiert ist .
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	subj	_	_
+2	weißt	wissen	VERB	VVFIN	Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nicht	nicht	PART	PTKNEG	_	2	mod	_	_
+4	,	,	PUNCT	$,	_	2	punct	_	_
+5	was	was	PRON	PRELS	Case=Nom|Number=Sing|PronType=Rel	8	subj	_	_
+6	hier	hier	ADV	ADV	_	8	mod	_	_
+7	passiert	passieren	VERB	VVPP	Tense=Past|VerbForm=Part	8	comp:aux	_	_
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Da stehe ich hier gerade auf einem Parkplatz
+1	Da	da	ADV	ADV	_	2	mod	_	_
+2	stehe	stehen	VERB	VVFIN	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+4	hier	hier	ADV	ADV	_	2	mod	_	_
+5	gerade	gerade	ADV	ADV	_	2	mod	_	_
+6	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+7	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Parkplatz	Parkplatz	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	6	comp:obj	_	_
+
+# text = und da kommt so ein jüngeres Paar mit einem Kinderwagen .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	kommt	kommen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	so	so	ADV	PTKIFG	_	7	mod	_	_
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+6	jüngeres	jünger	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Masc,Neut|Number=Sing	7	mod	_	_
+7	Paar	Paar	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	3	subj	_	_
+8	mit	mit	ADP	APPR	_	3	mod	_	_
+9	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Kinderwagen	Kinderwagen	NOUN	NN	Case=Dat|Number=Plur	8	comp:obj	_	_
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Der Mann hält einen Fußball in der Hand .
+1	Der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	hält	halten	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Fußball	Fußball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	comp:obj	_	_
+6	in	in	ADP	APPR	_	3	comp:obl	_	_
+7	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Hand	Hand	NOUN	NE	_	6	comp:obj	_	_
+9	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Auf der anderen Seite räumt eine Frau gerade mit ihren Hund ( der übrigens doch angeleint ist ) ihren Einkauf in so eine Papiertüte .
+1	Auf	Auf	ADP	APPR	_	5	mod	_	_
+2	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	anderen	ander	ADJ	PIDAT	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	4	mod	_	_
+4	Seite	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	comp:obj	_	_
+5	räumt	räumen	VERB	VVPP	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	subj	_	_
+8	gerade	gerade	ADV	ADV	_	5	mod	_	_
+9	mit	mit	ADP	APPR	_	5	mod	_	_
+10	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	Hund	Hund	NOUN	NN	Case=Dat|Number=Sing	9	comp:obj	_	_
+12	(	(	PUNCT	$(	_	5	punct	_	_
+13	der	d	PRON	ART	Case=Nom|PronType=Rel	17	subj	_	_
+14	übrigens	übrigens	ADV	ADV	_	17	mod	_	_
+15	doch	doch	ADV	PTKMA	_	17	mod	_	_
+16	angeleint	anleinen	VERB	VVPP	Tense=Past|VerbForm=Part	17	comp:aux	_	_
+17	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	_
+18	)	)	PUNCT	$(	_	17	punct	_	_
+19	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	20	det	_	_
+20	Einkauf	Einkauf	NOUN	NN	Case=Nom|Number=Sing	5	comp:obj	_	_
+21	in	in	ADP	APPR	_	5	comp:obl	_	_
+22	so	so	ADV	PTKIFG	_	24	mod	_	_
+23	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Papiertüte	Papiertüte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	comp:obj	_	_
+25	.	.	PUNCT	$.	_	5	punct	_	_
+
+# text = Da will das Paar gerade über die Straße gehen ,
+1	Da	da	ADV	ADV	_	2	mod	_	_
+2	will	wollen	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Paar	Paar	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	subj	_	_
+5	gerade	gerade	ADV	ADV	_	2	mod	_	_
+6	über	über	ADP	APPR	_	9	comp:obl	_	_
+7	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	comp:obj	_	_
+9	gehen	gehen	VERB	VVINF	VerbForm=Inf	2	comp:aux	_	_
+10	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = da fällt dem Mann der Ball aus der Hand
+1	da	da	SCONJ	ADV	_	2	mod	_	_
+2	fällt	fallen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Mann	Mann	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	comp:obj	_	_
+5	der	d	DET	ART	Definite=Def|PronType=Art	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	2	subj	_	_
+7	aus	aus	ADP	APPR	_	2	comp:obl	_	_
+8	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Hand	Hand	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	comp:obj	_	_
+
+# text = und rollt über die Straße .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	rollt	rollen	VERB	VVFIN	Degree=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	über	über	ADP	APPR	_	2	comp:obl	_	_
+4	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	comp:obj	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Der Hund der anderen Frau jagt dem sofort hinterher .
+1	Der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	subj	_	_
+3	der	d	DET	ART	Definite=Def|PronType=Art	5	det	_	_
+4	anderen	ander	ADJ	PIDAT	Degree=Pos	5	mod	_	_
+5	Frau	Frau	NOUN	NN	_	2	mod@poss	_	_
+6	jagt	jagen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	dem	die	DET	PDS	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	comp:obj	_	_
+8	sofort	sofort	ADV	ADV	_	6	mod	_	_
+9	hinterher	hinterher	ADV	ADV	_	6	mod	_	_
+10	.	.	PUNCT	$.	_	6	punct	_	_
+
+# text = Im gleichen Moment waren aber hinter ihnen zwei Autos abgebogen , die nun abbremsen mussten , sodass der eine dem vorderen hinten draufgefahren ist .
+1	Im	im	NOUN	APPRART	_	4	mod	_	_
+2	gleichen	gleich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	3	mod	_	_
+3	Moment	Moment	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	1	comp:obj	_	_
+4	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	aber	aber	ADV	KOUS	_	4	mod	_	_
+6	hinter	hinter	ADP	APPR	_	10	mod	_	_
+7	ihnen	sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	6	comp:obj	_	_
+8	zwei	zwei	NUM	CARD	NumType=Card	9	mod	_	_
+9	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	4	subj	_	_
+10	abgebogen	abbiegen	VERB	VVPP	Tense=Past|VerbForm=Part	4	comp:aux	_	_
+11	,	,	PUNCT	$,	_	4	punct	_	_
+12	die	d	PRON	PRELS	Case=Nom|PronType=Rel	15	subj	_	_
+13	nun	nun	ADV	ADV	_	15	mod	_	_
+14	abbremsen	abbremsen	VERB	VVINF	VerbForm=Inf	15	comp:aux	_	_
+15	mussten	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	mod@relcl	_	_
+16	,	,	PUNCT	$,	_	15	punct	_	_
+17	sodass	sodass	SCONJ	KOUS	_	10	mod	_	_
+18	der	d	PRON	PDS	Case=Nom|PronType=Dem	19	det	_	_
+19	eine	ein	PRON	ART	Case=Nom|PronType=Ind	24	subj	_	_
+20	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	21	det	_	_
+21	vorderen	vorder	ADJ	ADJA	Case=Dat|Degree=Cmp|Gender=Masc,Neut|Number=Sing	24	comp:obj	_	_
+22	hinten	hinten	ADV	ADV	_	23	mod	_	_
+23	draufgefahren	drauffahren	VERB	VVPP	Tense=Past|VerbForm=Part	24	comp:aux	_	_
+24	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	comp:obj	_	_
+25	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Es wurde jetzt sogar die Polizei gerufen
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+2	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	jetzt	jetzt	ADV	ADV	_	2	mod	_	_
+4	sogar	sogar	ADV	PTKIFG	_	2	mod	_	_
+5	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Polizei	Polizei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	subj@pass	_	_
+7	gerufen	rufen	VERB	VVPP	Tense=Past|VerbForm=Part	2	comp:aux@pass	_	_
+
+# text = und ich hoffe , dass ich hier nicht als Zeuge dableiben muss ,
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	hoffe	hoffen	VERB	VVFIN	Tense=Pres|VerbForm=Fin	0	root	_	_
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	3	comp:obj	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	subj	_	_
+7	hier	hier	ADV	ADV	_	12	mod	_	_
+8	nicht	nicht	PART	PTKNEG	_	12	mod	_	_
+9	als	als	ADP	KON	_	11	mod	_	_
+10	Zeuge	Zeuge	NOUN	NN	_	9	comp:obj	_	_
+11	dableiben	dableiben	VERB	VVINF	Number=Plur|Person=3|VerbForm=Fin	12	comp:aux	_	_
+12	muss	müssen	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
+13	,	,	PUNCT	$,	_	5	punct	_	_
+
+# text = denn ich weiß echt nicht, wer hier Schuld an der Sache ist
+1	denn	denn	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	weiß	wissen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
+4	echt	echt	ADV	PTKIFG	_	5	mod	_	_
+5	nicht	nicht	PART	PTKNEG	_	3	mod	_	_
+6	,	,	PUNCT	$,	_	3	punct	_	_
+7	wer	wer	PRON	PRELS	Number=Sing|PronType=Int	13	subj	_	_
+8	hier	hier	ADV	ADV	_	13	mod	_	_
+9	Schuld	Schuld	ADJ	NN	_	13	comp:pred	_	_
+10	an	an	ADP	APPR	_	9	mod	_	_
+11	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Sache	Sache	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	comp:obj	_	_
+13	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
+14	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Also bis dann
+1	Also	also	ADV	SEDM	_	2	discourse	_	_
+2	bis	bis	ADP	APPR	_	0	root	_	_
+3	dann	dann	ADV	ADV	_	2	comp:obj	_	_
+
+# text = Wir sehen uns ja wahrscheinlich morgen
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	subj	_	_
+2	sehen	sehen	VERB	VVFIN	Tense=Pres|VerbForm=Fin	0	root	_	_
+3	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	comp:obj	_	_
+4	ja	ja	ADV	PTKMA	_	2	discourse	_	_
+5	wahrscheinlich	wahrscheinlich	ADJ	ADV	Degree=Pos	2	mod	_	_
+6	morgen	morgen	ADV	ADV	_	2	mod	_	_
+

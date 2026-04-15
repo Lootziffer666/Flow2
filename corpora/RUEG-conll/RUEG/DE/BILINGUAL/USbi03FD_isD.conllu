@@ -1,0 +1,177 @@
+# text = äh ja es gab äh äh zwei Leute
+1	äh	äh	INTJ	NGHES	Degree=Pos	4	discourse	_	_
+2	ja	ja	INTJ	NGIRR	_	4	discourse	_	_
+3	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	_
+4	gab	geben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	äh	äh	INTJ	NGHES	_	4	discourse	_	_
+6	äh	äh	INTJ	NGHES	_	4	discourse	_	_
+7	zwei	zwei	NUM	CARD	NumType=Card	8	mod	_	_
+8	Leute	Leute	NOUN	NN	_	4	comp:obj	_	_
+
+# text = die äh die waren im Parkplatz
+1	die	die	PRON	PDS	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	reparandum	_	_
+2	äh	äh	INTJ	NGHES	Degree=Pos	4	discourse	_	_
+3	die	die	PRON	PDS	Case=Acc|PronType=Dem	4	subj	_	_
+4	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	im	in	ADP	APPRART	_	4	comp:pred	_	_
+6	Parkplatz	Parkplatz	NOUN	NN	_	5	comp:obj	_	_
+
+# text = und äh hatten ein ein Baby glaube ich
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	äh	äh	INTJ	NGHES	_	3	discourse	_	_
+3	hatten	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	5	reparandum	_	_
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Baby	Baby	NOUN	NN	_	3	comp:obj	_	_
+7	glaube	glauben	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	3	parataxis	_	_
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	subj	_	_
+
+# text = äh und dann es gab auch eine Frau
+1	äh	äh	INTJ	NGHES	Degree=Pos	5	discourse	_	_
+2	und	und	CCONJ	KON	_	5	cc	_	_
+3	dann	dann	ADV	ADV	_	5	mod	_	_
+4	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	_
+5	gab	geben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+6	auch	auch	ADV	PTKIFG	_	5	mod	_	_
+7	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	comp:obj	_	_
+
+# text = und äh die hatte ein Hund
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	INTJ	NGHES	Degree=Pos	4	discourse	_	_
+3	die	die	PRON	PDS	Case=Nom|PronType=Dem	4	subj	_	_
+4	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Hund	Hund	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	4	comp:obj	_	_
+
+# text = und äh sie war gerade so im äh äh äh Essen kaufen oder sowas
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	INTJ	NGHES	Degree=Pos	4	discourse	_	_
+3	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
+4	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	gerade	gerade	ADV	ADV	_	4	mod	_	_
+6	so	so	ADV	PTKIFG	_	4	mod	_	_
+7	im	in	ADP	APPRART	Case=Nom|Number=Sing	11	reparandum	_	_
+8	äh	äh	INTJ	NGHES	Degree=Pos	4	discourse	_	_
+9	äh	äh	INTJ	NGHES	Degree=Pos	4	discourse	_	_
+10	äh	äh	INTJ	NGHES	Degree=Pos	4	discourse	_	_
+11	Essen	Essen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	comp:obj	_	_
+12	kaufen	kaufen	VERB	VVINF	VerbForm=Inf	4	comp:aux	_	_
+13	oder	oder	CCONJ	KON	_	14	cc	_	_
+14	sowas	sowas	PRON	PIS	PronType=Ind	4	parataxis	_	_
+
+# text = und äh sie wollte ihre Sachen in äh Auto äh äh hinpacken
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	INTJ	NGHES	Degree=Pos	4	discourse	_	_
+3	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
+4	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	Sachen	Sache	NOUN	NN	Case=Acc|Number=Plur	12	comp:obj	_	_
+7	in	in	ADP	APPR	_	12	comp:obl	_	_
+8	äh	äh	INTJ	NGHES	Degree=Pos	4	discourse	_	_
+9	Auto	Auto	NOUN	NN	_	7	comp:obj	_	_
+10	äh	äh	INTJ	NGHES	_	4	discourse	_	_
+11	äh	äh	INTJ	NGHES	Degree=Pos	4	discourse	_	_
+12	hinpacken	hinpacken	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	4	comp:aux	_	_
+
+# text = und dann äh kam ein Auto
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	dann	dann	ADV	ADV	_	4	mod	_	_
+3	äh	äh	INTJ	NGHES	Degree=Pos	4	discourse	_	_
+4	kam	kommen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Auto	Auto	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	4	subj	_	_
+
+# text = und äh es musste ganz schnell äh stoppen
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	INTJ	NGHES	Degree=Pos	4	discourse	_	_
+3	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
+4	musste	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	ganz	ganz	ADV	PTKIFG	Degree=Pos	6	mod	_	_
+6	schnell	schnell	ADJ	ADJD	Degree=Pos	4	mod	_	_
+7	äh	äh	INTJ	NGHES	Degree=Pos	4	discourse	_	_
+8	stoppen	stoppen	VERB	VVINF	VerbForm=Inf	4	comp:aux	_	_
+
+# text = und dann ein ein anderes Auto ist beinah äh ins ersten Auto reingefahren
+1	und	und	CCONJ	KON	_	7	cc	_	_
+2	dann	dann	ADV	ADV	_	7	mod	_	_
+3	ein	ein	DET	ART	Definite=Ind|PronType=Art	4	reparandum	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	6	det	_	_
+5	anderes	ander	PRON	PIDAT	Degree=Pos	6	mod	_	_
+6	Auto	Auto	NOUN	NN	_	7	subj	_	_
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	beinah	beinah	ADV	ADV	Degree=Pos	7	mod	_	_
+9	äh	äh	INTJ	NGHES	Degree=Pos	7	discourse	_	_
+10	ins	ins	ADP	APPRART	_	13	comp:obl	_	_
+11	ersten	erst	ADJ	ORD	Case=Acc|Degree=Pos|Number=Plur|NumType=Ord	12	mod	_	_
+12	Auto	Auto	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	comp:obj	_	_
+13	reingefahren	reinfahren	VERB	VVPP	VerbForm=Fin	7	comp:aux	_	_
+
+# text = und äh es war ein bisschen gefährlich
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	INTJ	NGHES	Degree=Pos	4	discourse	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	_
+4	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	ein	ein	DET	ART	Definite=Ind|PronType=Art	6	det	_	_
+6	bisschen	bisschen	NOUN	PIDS	_	4	mod	_	_
+7	gefährlich	gefährlich	ADJ	ADJD	Degree=Pos	4	comp:pred	_	_
+
+# text = und dann ist äh die die äh die in Auto waren musste äh äh nine one one auf auf Telefon äh äh äh äh ja dialen
+1	und	und	CCONJ	KON	_	13	cc	_	_
+2	dann	dann	ADV	ADV	_	3	reparandum	_	_
+3	dann	dann	ADV	ADV	_	13	mod	_	_
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	reparandum	_	_
+5	äh	äh	INTJ	NGHES	Degree=Pos	13	discourse	_	_
+6	die	die	PRON	PDS	Case=Nom|PronType=Dem	13	subj	_	_
+7	die	d	PRON	PRELS	Case=Nom|Definite=Def|Number=Plur|PronType=Art	9	reparandum	_	_
+8	äh	äh	INTJ	NGHES	Degree=Pos	13	discourse	_	_
+9	die	d	PRON	PRELS	Case=Acc|PronType=Dem	12	subj	_	_
+10	in	in	ADP	APPR	_	12	comp:pred	_	_
+11	Auto	Auto	NOUN	NN	_	10	comp:obj	_	_
+12	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	mod@relcl	_	_
+13	musste	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	äh	äh	INTJ	NGHES	Degree=Pos	13	discourse	_	_
+15	äh	äh	INTJ	NGHES	Degree=Pos	13	discourse	_	_
+16	nine	nine	X	FM	_	27	comp:obj	_	_
+17	one	one	X	FM	_	16	flat	_	_
+18	one	one	X	FM	_	16	flat	_	_
+19	auf	auf	ADP	APPR	_	20	reparandum	_	_
+20	auf	auf	ADP	APPR	_	27	mod	_	_
+21	Telefon	Telefon	NOUN	NN	_	20	comp:obj	_	_
+22	äh	äh	INTJ	NGHES	Degree=Pos	13	discourse	_	_
+23	äh	äh	INTJ	NGHES	Degree=Pos	13	discourse	_	_
+24	äh	äh	INTJ	NGHES	Degree=Pos	13	discourse	_	_
+25	äh	äh	INTJ	NGHES	Degree=Pos	13	discourse	_	_
+26	ja	ja	INTJ	NGIRR	_	13	discourse	_	_
+27	dialen	dialen	X	FM	VerbForm=Inf	13	comp:aux	_	_
+
+# text = und dann äh ja aber aber ja es es war eigentlich okay
+1	und	und	CCONJ	KON	_	10	cc	_	_
+2	dann	dann	ADV	ADV	_	10	mod	_	_
+3	äh	äh	INTJ	NGHES	Degree=Pos	10	discourse	_	_
+4	ja	ja	INTJ	NGIRR	_	10	discourse	_	_
+5	aber	aber	ADV	PTKMA	_	6	reparandum	_	_
+6	aber	aber	ADV	PTKMA	_	10	cc	_	_
+7	ja	ja	INTJ	NGIRR	_	10	discourse	_	_
+8	alles	all	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	reparandum	_	_
+9	alles	all	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	subj@expl	_	_
+10	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	eigentlich	eigentlich	ADV	ADV	Degree=Pos	12	mod	_	_
+12	okay	okay	ADJ	ADJD	_	10	comp:pred	_	_
+
+# text = und äh es war nur ein kleines äh kleine oder sowas ja
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	INTJ	NGHES	Degree=Pos	4	discourse	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	_
+4	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	nur	nur	ADV	PTKIFG	_	4	mod	_	_
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	kleines	klein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc,Neut|Number=Sing	4	comp:pred	_	_
+8	äh	äh	INTJ	NGHES	Degree=Pos	4	discourse	_	_
+9	keine	kein	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Plur	4	parataxis	_	_
+10	verletzt	verletzt	ADJ	ADJS	_	9	orphan	_	_
+11	oder	oder	CCONJ	KON	_	12	cc	_	_
+12	sowas	sowas	PRON	PIS	PronType=Ind	10	conj	_	_
+13	ja	ja	INTJ	NGIRR	_	4	discourse	_	_
+
+

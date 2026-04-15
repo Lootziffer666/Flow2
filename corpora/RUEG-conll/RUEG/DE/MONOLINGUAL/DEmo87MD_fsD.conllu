@@ -1,0 +1,161 @@
+# text = und der äh Wagen hinter ihm konnte nicht mehr so schnell reagieren und ist ihm deswegen dann aufgefahren
+1	hallo	hallo	X	_	_	0	root	_	_
+
+# text = und der äh Wagen hinter ihm konnte nicht mehr so schnell reagieren und ist ihm deswegen dann aufgefahren
+1	hier	hier	ADV	_	_	2	comp:pred	_	_
+2	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	DEmo87MD	DEmo87MD	PROPN	_	Case=Nom|Number=Sing	2	subj	_	_
+
+# text = ich bin äh Zeuge im fall F16
+1	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	bin	sein	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	äh	äh	ADJ	_	Degree=Pos	2	discourse	_	_
+4	Zeuge	Zeuge	PROPN	_	_	2	comp:pred	_	_
+5	im	im	PROPN	_	_	4	mod	_	_
+6	fall	Fall	PROPN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	5	comp:obj	_	_
+7	F16	F16	PROPN	_	_	6	appos	_	_
+
+# text = und äh möchte von dem Unfall berichten
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	äh	äh	ADV	_	_	3	discourse	_	_
+3	möchte	möchte	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	von	von	ADP	_	_	7	comp:obl	_	_
+5	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Unfall	Unfall	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	4	comp:obj	_	_
+7	berichten	berichten	VERB	_	VerbForm=Inf	3	comp:aux	_	_
+
+# text = äh die Familie also der Vater also der vermutliche Vater und mit der Mutter und mit dem Kinderwagen ist die Straße entlanggelaufen
+1	äh	äh	ADJ	_	Degree=Pos	19	discourse	_	_
+2	die	d	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Familie	Familie	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	19	subj	_	_
+4	also	also	ADV	_	_	19	discourse	_	_
+5	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Vater	Vater	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	10	reparandum	_	_
+7	also	also	ADV	_	_	19	discourse	_	_
+8	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	vermutliche	vermutliche	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	mod	_	_
+10	Vater	Vater	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
+11	und	und	CCONJ	_	_	12	cc	_	_
+12	mit	mit	ADP	_	_	10	mod	_	_
+13	der	d	DET	_	Definite=Def|PronType=Art	14	det	_	_
+14	Mutter	Mutter	NOUN	_	_	12	comp:obj	_	_
+15	und	und	CCONJ	_	_	16	cc	_	_
+16	mit	mit	ADP	_	_	12	conj	_	_
+17	dem	d	DET	_	Definite=Def|PronType=Art	18	det	_	_
+18	Kinderwagen	Kinderwagen	NOUN	_	Case=Dat|Number=Plur	16	comp:obj	_	_
+19	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	die	d	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Straße	Straße	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	22	comp:obj	_	_
+22	entlanggelaufen	entlanglaufen	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	comp:aux	_	_
+
+# text = und wollten dann äh die Straße überqueren
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	wollten	wollen	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	dann	dann	ADV	_	_	2	mod	_	_
+4	äh	äh	ADJ	_	Degree=Pos	2	discourse	_	_
+5	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	7	comp:obj	_	_
+7	überqueren	überqueren	VERB	_	VerbForm=Inf	2	comp:aux	_	_
+
+# text = dabei ist dem Mann der ein Fußball aus der Hand gefallen welcher dann daraufhin über die Straße rollte
+1	dabei	dabei	ADV	_	_	2	mod	_	_
+2	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Mann	Mann	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	11	comp:obj	_	_
+5	der	d	DET	_	Definite=Def|PronType=Art	6	reparandum	_	_
+6	ein	ein	DET	_	Definite=Ind|PronType=Art	7	det	_	_
+7	Fußball	Fußball	NOUN	_	_	2	subj	_	_
+8	aus	aus	ADP	_	_	11	comp:obl	_	_
+9	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Hand	Hand	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	8	comp:obj	_	_
+11	gefallen	gefallen	ADJ	_	Degree=Pos|Tense=Past	2	comp:aux	_	_
+12	welcher	welche	PRON	_	Case=Nom|PronType=Int	18	subj	_	_
+13	dann	dann	ADV	_	_	18	mod	_	_
+14	daraufhin	daraufhin	ADV	_	_	18	mod	_	_
+15	über	über	ADP	_	_	18	comp:obl	_	_
+16	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	15	comp:obj	_	_
+18	rollte	rollen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	mod@relcl	_	_
+
+# text = die äh auf der anderen Seite der Straße war eine Frau mit ihrem Hund
+1	die	d	DET	_	Case=Nom|Definite=Def|PronType=Art	9	reparandum	_	_
+2	äh	äh	ADJ	_	Degree=Pos	9	discourse	_	_
+3	auf	auf	ADP	_	_	9	comp:pred	_	_
+4	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	anderen	ander	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	mod	_	_
+6	Seite	Seite	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	3	comp:obj	_	_
+7	der	d	DET	_	Definite=Def|PronType=Art	8	det	_	_
+8	Straße	Straße	PROPN	_	_	6	mod@poss	_	_
+9	war	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	eine	ein	DET	_	Definite=Ind|PronType=Art	11	det	_	_
+11	Frau	Frau	NOUN	_	_	9	subj	_	_
+12	mit	mit	ADP	_	_	11	mod	_	_
+13	ihrem	ihr	DET	_	Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+14	Hund	Hund	NOUN	_	Case=Dat|Number=Sing	12	comp:obj	_	_
+
+# text = und der Hund der Frau ist dann zum Ball gelaufen weswegen das äh weswegen die beiden Autos welche um die Kurve kamen äh bremsen mussten
+1	und	und	CCONJ	_	_	6	cc	_	_
+2	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Hund	Hund	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	subj	_	_
+4	der	d	DET	_	Definite=Def|PronType=Art	5	det	_	_
+5	Frau	Frau	NOUN	_	_	3	mod@poss	_	_
+6	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	dann	dann	ADV	_	_	6	mod	_	_
+8	zum	zum	PROPN	_	_	10	comp:obl	_	_
+9	Ball	Ball	PROPN	_	_	8	comp:obj	_	_
+10	gelaufen	laufen	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	comp:aux	_	_
+11	weswegen	weswegen	VERB	_	Number=Plur|Person=3|VerbForm=Fin	14	reparandum	_	_
+12	das	d	PRON	_	Case=Nom|PronType=Dem	11	subj	_	_
+13	äh	äh	ADV	_	_	6	discourse	_	_
+14	weswegen	weswegen	VERB	_	Number=Plur|Person=3|VerbForm=Fin	10	mod	_	_
+15	die	d	DET	_	Case=Nom|Definite=Def|Number=Plur|PronType=Art	17	det	_	_
+16	beiden	beide	PRON	_	Case=Nom|Number=Plur|NumType=Card|PronType=Tot	17	mod	_	_
+17	Autos	Auto	NOUN	_	Case=Nom|Number=Plur	25	subj	_	_
+18	welche	welche	PRON	_	Case=Nom|Number=Plur|PronType=Rel	22	subj	_	_
+19	um	um	ADP	_	_	22	comp:obl	_	_
+20	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Kurve	Kurve	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	19	comp:obj	_	_
+22	kamen	kommen	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	mod@relcl	_	_
+23	äh	äh	ADJ	_	Degree=Pos	6	discourse	_	_
+24	bremsen	bremsen	VERB	_	VerbForm=Inf	25	comp:aux	_	_
+25	mussten	müssen	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	comp:obj	_	_
+
+# text = und der blaue Wagen welcher zuerst in die Kurve gefahren ist hat eine Vollbremsung gemacht
+1	und	und	CCONJ	_	_	12	cc	_	_
+2	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	blaue	blau	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	mod	_	_
+4	Wagen	Wagen	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	12	subj	_	_
+5	welcher	welche	PRON	_	Case=Nom|PronType=Int	11	subj	_	_
+6	zuerst	zuerst	ADV	_	_	11	mod	_	_
+7	in	in	ADP	_	_	10	comp:obl	_	_
+8	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Kurve	Kurve	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	7	comp:obj	_	_
+10	gefahren	fahren	VERB	_	Tense=Past|VerbForm=Part	11	comp:aux	_	_
+11	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
+12	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	eine	eine	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Vollbremsung	Vollbremsung	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	15	comp:obj	_	_
+15	gemacht	machen	VERB	_	Tense=Past|VerbForm=Part	12	comp:aux	_	_
+
+# text = und der Hund der Frau ist dann zum Ball gelaufen weswegen das äh weswegen die beiden Autos welche um die Kurve kamen äh bremsen mussten
+1	und	und	CCONJ	_	_	7	cc	_	_
+2	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	äh	äh	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	7	discourse	_	_
+4	Wagen	Wagen	PROPN	_	_	7	subj	_	_
+5	hinter	hinter	ADP	_	_	4	mod	_	_
+6	ihm	er	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	_
+7	konnte	können	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	nicht	nicht	PART	_	_	7	mod	_	_
+9	mehr	mehr	ADV	_	_	8	mod	_	_
+10	so	so	ADV	_	_	11	mod	_	_
+11	schnell	schnell	ADV	_	_	7	mod	_	_
+12	reagieren	reagieren	VERB	_	VerbForm=Inf	7	comp:aux	_	_
+
+# text = und der Hund der Frau ist dann zum Ball gelaufen weswegen das äh weswegen die beiden Autos welche um die Kurve kamen äh bremsen mussten
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	ist	sein	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ihm	er	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	_
+4	deswegen	deswegen	ADV	_	_	2	mod	_	_
+5	dann	dann	ADV	_	_	2	mod	_	_
+6	aufgefahren	auffahren	VERB	_	Tense=Past|VerbForm=Fin	2	comp:aux	_	_
+

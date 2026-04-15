@@ -1,0 +1,140 @@
+1	hi	hi	X	NGIRR	_	0	root	_	_
+
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Auffahrunfall	Auffahrunfall	NOUN	NN	_	6	comp:obj	_	_
+6	gesehen	sehen	VERB	VVPP	_	2	comp:aux	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Ich	ich	PRON	PPER	_	2	subj	_	_
+2	bin	sein	VERB	VAFIN	_	0	root	_	_
+3	wie	wie	CCONJ	KOKOM	_	10	mod	_	_
+4	immer	immer	ADV	ADV	_	3	comp:obj	_	_
+5	über	über	ADP	ADJA	_	10	comp:obl	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Parkplatz	Parkplatz	NOUN	NN	_	5	comp:obj	_	_
+8	der	d	DET	ART	_	9	det	_	_
+9	Universität	Universität	NOUN	NN	_	7	mod@poss	_	_
+10	gelaufen	laufen	VERB	VVPP	_	2	comp:aux	_	_
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Da	da	ADV	ADV	_	2	mod	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Mann	Mann	NOUN	NN	_	2	subj	_	_
+5	mit	mit	ADP	APPR	_	8	comp:obl	_	_
+6	einem	ein	DET	ART	_	7	det	_	_
+7	Ball	Ball	NOUN	NN	_	5	comp:obj	_	_
+8	gedribbelt	dribbeln	VERB	VVPP	_	2	comp:aux	_	_
+9	und	und	CCONJ	KON	_	12	cc	_	_
+10	seinen	sein	DET	PPOSAT	_	11	det	_	_
+11	Fuß	Fuß	NOUN	NN	_	12	comp:obj	_	_
+12	getroffen	treffen	VERB	VVPP	_	2	conj	_	_
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Der	d	DET	ART	_	2	det	_	_
+2	Ball	Ball	NOUN	NN	_	3	subj	_	_
+3	rollte	rollen	VERB	VVFIN	_	0	root	_	_
+4	über	über	ADP	NN	_	3	comp:obl	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Parkplatzstraße	Parkplatzstraße	NOUN	NN	_	4	comp:obj	_	_
+7	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	Auf	auf	ADP	APPR	_	5	comp:pred	_	_
+2	der	d	DET	ART	_	4	det	_	_
+3	anderen	ander	ADJ	PIDAT	_	4	mod	_	_
+4	Seite	Seite	NOUN	NN	_	1	comp:obj	_	_
+5	war	sein	VERB	VAFIN	_	0	root	_	_
+6	eine	ein	DET	ART	_	7	det	_	_
+7	Frau	Frau	NOUN	NN	_	5	subj	_	_
+8	mit	mit	ADP	APPR	_	7	mod	_	_
+9	ihrem	ihr	DET	PPOSAT	_	11	det	_	_
+10	kleinen	klein	ADJ	ADJA	_	11	mod	_	_
+11	Hund	Hund	NOUN	NN	_	8	comp:obj	_	_
+12	und	und	CCONJ	KON	_	15	cc	_	_
+13	einer	ein	DET	ART	_	15	det	_	_
+14	vollen	voll	ADJ	ADJA	_	15	mod	_	_
+15	Einkaufstüte	Einkaufstüte	NOUN	NN	_	11	conj	_	_
+16	.	.	PUNCT	$.	_	5	punct	_	_
+
+1	Der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	3	subj	_	_
+3	rannte	rennen	VERB	VVFIN	_	0	root	_	_
+4	zum	zu	NOUN	APPRART	_	3	comp:obl	_	_
+5	Ball	Ball	PROPN	NN	_	4	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Frau	Frau	NOUN	NN	_	7	comp:obj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Einkaufstüte	Einkaufstüte	NOUN	NN	_	4	subj	_	_
+7	heruntergefallen	herunterfallen	VERB	VVPP	_	4	comp:aux	_	_
+8	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	Von	von	ADP	APPR	_	10	mod	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Straße	Straße	NOUN	NN	_	1	comp:obj	_	_
+4	sind	sein	VERB	VAFIN	_	0	root	_	_
+5	2	@card@	NUM	CARD	_	6	mod	_	_
+6	Autos	Auto	NOUN	NN	_	4	subj	_	_
+7	auf	auf	ADP	APPR	_	10	mod	_	_
+8	den	d	DET	ART	_	9	det	_	_
+9	Parkplatz	Parkplatz	NOUN	NN	_	7	comp:obj	_	_
+10	abgebogen	abbiegen	VERB	VVPP	_	4	comp:aux	_	_
+11	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	Der	d	DET	ART	_	2	det	_	_
+2	Hintere	Hintere	ADJ	NN	_	3	subj	_	_
+3	hatte	haben	VERB	VAFIN	_	0	root	_	_
+4	fast	fast	ADV	PTKIFG	_	5	mod	_	_
+5	keinen	keine	PRON	PIAT	_	6	det	_	_
+6	Abstand	Abstand	NOUN	NN	_	3	comp:obj	_	_
+7	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	Der	d	DET	ART	_	2	det	_	_
+2	Vordere	Vordere	ADJ	NN	_	3	subj	_	_
+3	musste	müssen	AUX	VMFIN	_	0	root	_	_
+4	stark	stark	ADJ	ADJD	_	3	mod	_	_
+5	bremsen	bremsen	VERB	VVINF	_	3	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Hintere	Hintere	ADJ	NN	_	4	subj	_	_
+4	ist	sein	NOUN	VAFIN	_	0	root	_	_
+5	aufgefahren	auffahren	VERB	VVPP	_	4	comp:aux	_	_
+6	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	Es	es	PRON	PPER	_	2	subj@expl	_	_
+2	ist	sein	AUX	VAFIN	_	0	root	_	_
+3	nichts	nichts	PRON	PIS	_	2	subj	_	_
+4	weiter	weiter	ADV	ADV	_	3	mod	_	_
+5	passiert	passieren	VERB	VVFIN	_	2	comp:aux	_	_
+6	,	,	PUNCT	$,	_	2	punct	_	_
+7	nur	nur	ADV	PTKIFG	_	8	mod	_	_
+8	Sachschaden	Sachschaden	PROPN	NN	_	3	appos	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Die	d	DET	ART	_	2	det	_	_
+2	Polizei	Polizei	NOUN	NN	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	auch	auch	ADV	PTKIFG	_	3	mod	_	_
+5	schnell	schnell	ADJ	ADJD	_	6	mod	_	_
+6	da	da	ADV	ADV	_	3	comp:pred	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Fahrer	Fahrer	NOUN	NN	_	4	subj	_	_
+4	waren	sein	VERB	VAFIN	_	0	root	_	_
+5	friedlich	friedlich	ADJ	ADJD	_	4	comp:pred	_	_
+6	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	Wir	wir	PRON	PPER	_	2	subj	_	_
+2	sehen	sehen	VERB	VVFIN	_	0	root	_	_
+3	uns	wir	PRON	PRF	_	2	comp:obj	_	_
+4	nachher	nachher	ADJ	ADV	_	2	mod	_	_
+
+1	:face_blowing_a_kiss:	😘	SYM	NE	_	0	root	_	_
+

@@ -1,0 +1,144 @@
+# text = huhu
+1	huhu	huhu	PROPN	_	_	0	root	_	_
+
+# text = äh ich habe gerade einen Unfall gesehen
+1	äh	äh	ADJ	_	Degree=Pos	3	discourse	_	_
+2	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	habe	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	gerade	gerade	ADV	_	_	3	mod	_	_
+5	einen	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Unfall	Unfall	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	7	comp:obj	_	_
+7	gesehen	sehen	VERB	_	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+
+# text = und zwar da war so eine Familie so
+1	und	und	CCONJ	_	_	4	discourse	_	_
+2	zwar	zwar	ADV	_	_	1	fixed	_	_
+3	da	da	ADV	_	_	4	comp:pred	_	_
+4	war	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	so	so	ADV	_	_	7	mod	_	_
+6	eine	eine	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Familie	Familie	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	4	subj	_	_
+8	so	so	ADV	_	_	4	discourse	_	_
+
+# text = und der Typ der hat irgendwie mitm Ball gespielt
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Typ	Typ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	subj	_	_
+4	der	die	DET	_	Definite=Def|PronType=Art	5	subj	_	_
+5	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	irgendwie	irgendwie	ADV	_	_	5	mod	_	_
+7	mitm	mit	PROPN	_	_	9	mod	_	_
+8	Ball	Ball	PROPN	_	_	7	comp:obj	_	_
+9	gespielt	spielen	VERB	_	Tense=Past|VerbForm=Part	5	comp:aux	_	_
+
+# text = der wollte immer das
+1	der	d	PRON	_	Case=Nom|PronType=Dem	2	subj	_	_
+2	wollte	wollen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	immer	immer	ADV	_	_	2	mod	_	_
+4	das	d	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	comp:obj	_	_
+
+# text = also der hat den Ball verloren
+1	also	also	ADV	_	_	3	discourse	_	_
+2	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	subj	_	_
+3	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	den	d	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	Ball	Ball	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	6	comp:obj	_	_
+6	verloren	verlieren	VERB	_	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+
+# text = der ist aufe Straße gerollt
+1	der	die	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	subj	_	_
+2	ist	sein	NOUN	_	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres	0	root	_	_
+3	aufe	auf	PROPN	_	_	5	comp:obl	_	_
+4	Straße	Straße	PROPN	_	_	3	comp:obj	_	_
+5	gerollt	rollen	VERB	_	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+
+# text = und dann links da war nur so ein andere Mädel irgendwie
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	dann	dann	ADV	_	_	5	mod	_	_
+3	links	links	ADV	_	_	5	mod	_	_
+4	da	da	ADV	_	_	5	comp:pred	_	_
+5	war	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	nur	nur	ADV	_	_	5	mod	_	_
+7	so	so	ADV	_	_	10	mod	_	_
+8	ein	ein	DET	_	Definite=Ind|PronType=Art	10	det	_	_
+9	andere	ander	ADJ	_	Degree=Pos	10	mod	_	_
+10	Mädel	Mädel	NOUN	_	_	5	subj	_	_
+11	irgendwie	irgendwie	ADV	_	_	5	mod	_	_
+
+# text = die hat gerade einen Einkauf eingepackt mitm Hund
+1	die	d	PRON	_	Case=Nom|PronType=Dem	2	subj	_	_
+2	hat	haben	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	gerade	gerade	ADV	_	_	2	mod	_	_
+4	einen	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Einkauf	Einkauf	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	6	comp:obj	_	_
+6	eingepackt	einpacken	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	comp:aux	_	_
+7	mitm	mit	PROPN	_	_	6	mod	_	_
+8	Hund	Hund	PROPN	_	_	7	comp:obj	_	_
+
+# text = und der Hund wollte zum Ball rennen
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Hund	Hund	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+4	wollte	wollen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	zum	zum	PROPN	_	_	7	comp:obl	_	_
+6	Ball	Ball	PROPN	_	_	5	comp:obj	_	_
+7	rennen	rennen	VERB	_	Tense=Pres|VerbForm=Fin	4	comp:aux	_	_
+
+# text = und dann kamen zwei Autos um eine Ecke so
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	dann	dann	ADV	_	_	3	mod	_	_
+3	kamen	kommen	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	zwei	zwei	NUM	_	NumType=Card	5	mod	_	_
+5	Autos	Auto	NOUN	_	Case=Nom|Number=Plur	3	subj	_	_
+6	um	um	ADP	_	_	3	comp:obl	_	_
+7	eine	eine	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Ecke	Ecke	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	comp:obj	_	_
+9	so	so	ADV	_	_	3	mod	_	_
+
+# text = und bäm
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	bäm	bäm	PROPN	_	_	0	root	_	_
+
+# text = denn hat es gebumst
+1	denn	denn	ADV	_	_	2	mod	_	_
+2	hat	haben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	_	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+4	gebumst	gebumst	ADV	_	Tense=Past	2	comp:aux	_	_
+
+# text = also hat die Autos haben zusammengecrasht
+1	also	also	ADV	_	_	5	discourse	_	_
+2	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	reparandum	_	_
+3	die	d	DET	_	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+4	Autos	Auto	NOUN	_	Case=Nom|Number=Plur	5	subj	_	_
+5	haben	haben	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	zusammengecrasht	zusammengecrasht	VERB	_	Tense=Past|VerbForm=Part	5	comp:aux	_	_
+
+# text = äh na ja jedenfalls komme ich zu spät denn ich muss noch eine Zeugenaussage machen
+1	äh	äh	ADJ	_	Degree=Pos	5	discourse	_	_
+2	na	na	PROPN	_	_	5	discourse	_	_
+3	ja	ja	ADV	_	_	2	fixed	_	_
+4	jedenfalls	jedenfalls	ADV	_	_	5	mod	_	_
+5	komme	kommen	VERB	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	subj	_	_
+7	zu	zu	ADV	_	_	8	mod	_	_
+8	spät	spät	ADJ	_	Degree=Pos	5	mod	_	_
+9	denn	denn	SCONJ	_	_	5	mod	_	_
+10	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	subj	_	_
+11	muss	müssen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	comp:obj	_	_
+12	noch	noch	ADV	_	_	11	mod	_	_
+13	eine	eine	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Zeugenaussage	Zeugenaussage	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	15	comp:obj	_	_
+15	machen	machen	VERB	_	Tense=Pres|VerbForm=Inf	11	comp:aux	_	_
+
+# text = und ich würde sagen denn bis später
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	würde	würde	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	sagen	sagen	VERB	_	Tense=Pres|VerbForm=Inf	3	comp:aux	_	_
+5	denn	denn	SCONJ	_	_	3	mod	_	_
+6	bis	bis	ADP	_	_	4	comp:obj	_	_
+7	später	später	ADJ	_	Degree=Cmp,Pos	6	comp:obj	_	_
+
+# text = tschüssi
+1	tschüssi	tschüssi	PROPN	_	Case=Nom|Number=Sing	0	root	_	_
+

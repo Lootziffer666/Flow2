@@ -1,0 +1,191 @@
+# text = ey gerade eben ich war so im Park
+1	ey	ey	PROPN	_	_	5	discourse	_	_
+2	gerade	gerade	ADV	_	_	5	mod	_	_
+3	eben	eben	VERB	_	_	5	mod	_	_
+4	ich	ich	PRON	_	_	5	subj	_	_
+5	war	sein	VERB	_	_	0	root	_	_
+6	so	so	ADV	_	_	5	mod	_	_
+7	im	im	PROPN	_	_	5	comp:pred	_	_
+8	Park	Park	PROPN	_	_	7	comp:obj	_	_
+
+# text = dann ich habe so eine Frau gesehen mit ihrem Kind glaube ich
+1	dann	dann	ADV	_	_	3	mod	_	_
+2	ich	ich	PRON	_	_	3	subj	_	_
+3	habe	haben	AUX	_	_	0	root	_	_
+4	so	so	ADV	_	_	6	mod	_	_
+5	eine	eine	DET	_	_	6	det	_	_
+6	Frau	Frau	NOUN	_	_	7	comp:obj	_	_
+7	gesehen	sehen	VERB	_	_	3	comp:aux	_	_
+8	mit	mit	ADP	_	_	7	mod	_	_
+9	ihrem	ihr	DET	_	_	10	det	_	_
+10	Kind	Kind	PROPN	_	_	8	comp:obj	_	_
+11	glaube	glaub	PROPN	_	_	3	parataxis	_	_
+12	ich	ich	PRON	_	_	11	subj	_	_
+
+# text = also sie hatte einen Ball in der Hand
+1	also	also	ADV	_	_	3	discourse	_	_
+2	sie	sie	PRON	_	_	3	subj	_	_
+3	hatte	haben	VERB	_	_	0	root	_	_
+4	einen	ein	DET	_	_	5	det	_	_
+5	Ball	Ball	NOUN	_	_	3	comp:obj	_	_
+6	in	in	ADP	_	_	3	mod	_	_
+7	der	d	DET	_	_	8	det	_	_
+8	Hand	Hand	NOUN	_	_	6	comp:obj	_	_
+
+# text = und da war so halt im Park so eine Frau
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	da	da	ADV	_	_	3	mod	_	_
+3	war	sein	VERB	_	_	0	root	_	_
+4	so	so	ADV	_	_	3	mod	_	_
+5	halt	halt	ADV	_	_	3	discourse	_	_
+6	im	im	PROPN	_	_	3	comp:pred	_	_
+7	Park	Park	PROPN	_	_	6	comp:obj	_	_
+8	so	so	ADV	_	_	10	mod	_	_
+9	eine	eine	DET	_	_	10	det	_	_
+10	Frau	Frau	NOUN	_	_	3	subj	_	_
+
+# text = sie war glaube ich einkaufen mit ihrem Hund
+1	sie	sie	PRON	_	_	2	subj	_	_
+2	war	sein	VERB	_	_	0	root	_	_
+3	glaube	glaub	PROPN	_	_	2	parataxis	_	_
+4	ich	ich	PRON	_	_	3	subj	_	_
+5	einkaufen	einkaufen	VERB	_	_	2	comp:aux	_	_
+6	mit	mit	ADP	_	_	5	mod	_	_
+7	ihrem	ihr	DET	_	_	8	det	_	_
+8	Hund	Hund	NOUN	_	_	6	comp:obj	_	_
+
+# text = sie wollte ihre Sachen so in ihr Auto reinlegen
+1	sie	sie	PRON	_	_	2	subj	_	_
+2	wollte	wollen	AUX	_	_	0	root	_	_
+3	ihre	ihr	DET	_	_	4	det	_	_
+4	Sachen	Sache	NOUN	_	_	9	comp:obj	_	_
+5	so	so	ADV	_	_	2	mod	_	_
+6	in	in	ADP	_	_	9	comp:obl	_	_
+7	ihr	ihr	DET	_	_	8	det	_	_
+8	Auto	Auto	NOUN	_	_	6	comp:obj	_	_
+9	reinlegen	reinlegen	VERB	_	_	2	comp:aux	_	_
+
+# text = und plötzlich kam so ein Dings her so halt zwei Autos
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	plötzlich	plötzlich	ADV	_	_	3	mod	_	_
+3	kam	kommen	VERB	_	_	0	root	_	_
+4	so	so	ADV	_	_	6	mod	_	_
+5	ein	ein	DET	_	_	6	det	_	_
+6	Dings	Ding	NOUN	_	_	3	subj	_	_
+7	her	her	ADV	_	_	3	compound@prt	_	_
+8	so	so	ADV	_	_	11	mod	_	_
+9	halt	halt	ADV	_	_	3	discourse	_	_
+10	zwei	zwei	NUM	_	_	11	mod	_	_
+11	Autos	Auto	NOUN	_	_	6	appos	_	_
+
+# text = danach dieser eine Junge er hatte so einen Ball in der Hand
+1	danach	danach	ADV	_	_	6	mod	_	_
+2	dieser	diese	PRON	_	_	4	det	_	_
+3	eine	eine	DET	_	_	4	det	_	_
+4	Junge	Junge	NOUN	_	_	6	subj	_	_
+5	er	er	PRON	_	_	4	appos	_	_
+6	hatte	haben	VERB	_	_	0	root	_	_
+7	so	so	ADV	_	_	9	mod	_	_
+8	einen	ein	DET	_	_	9	det	_	_
+9	Ball	Ball	NOUN	_	_	6	comp:obj	_	_
+10	in	in	ADP	_	_	6	mod	_	_
+11	der	d	DET	_	_	12	det	_	_
+12	Hand	Hand	NOUN	_	_	10	comp:obj	_	_
+
+# text = dann ist einfach aus sein Hand runtergefallen
+1	dann	dann	ADV	_	_	2	mod	_	_
+2	ist	sein	VERB	_	_	0	root	_	_
+3	einfach	einfach	ADJ	_	_	2	mod	_	_
+4	aus	aus	ADP	_	_	7	mod	_	_
+5	sein	sein	DET	_	_	6	det	_	_
+6	Hand	Hand	NOUN	_	_	4	comp:obj	_	_
+7	runtergefallen	runtergefallen	ADJ	_	_	2	comp:aux	_	_
+
+# text = und dieser Hund hat diesen Ball gesehen
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	dieser	diese	PRON	_	_	3	det	_	_
+3	Hund	Hund	NOUN	_	_	4	subj	_	_
+4	hat	haben	AUX	_	_	0	root	_	_
+5	diesen	diese	PRON	_	_	6	det	_	_
+6	Ball	Ball	PROPN	_	_	7	comp:obj	_	_
+7	gesehen	sehen	VERB	_	_	4	comp:aux	_	_
+
+# text = ist dann halt ausgerastet
+1	ist	sein	VERB	_	_	0	root	_	_
+2	dann	dann	ADV	_	_	1	mod	_	_
+3	halt	halt	ADV	_	_	1	discourse	_	_
+4	ausgerastet	ausgerastet	ADJ	_	_	1	comp:aux	_	_
+
+# text = oder wollte spielen
+1	oder	oder	CCONJ	_	_	2	cc	_	_
+2	wollte	wollen	AUX	_	_	0	root	_	_
+3	spielen	spielen	VERB	_	_	2	comp:aux	_	_
+
+# text = ist zu diesem Ball hingerannt
+1	ist	sein	VERB	_	_	0	root	_	_
+2	zu	zu	ADP	_	_	5	comp:obl	_	_
+3	diesem	diese	PRON	_	_	4	det	_	_
+4	Ball	Ball	NOUN	_	_	2	comp:obj	_	_
+5	hingerannt	hingerannt	ADV	_	_	1	comp:aux	_	_
+
+# text = und hat dabei gebellt
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	hat	haben	AUX	_	_	0	root	_	_
+3	dabei	dabei	ADV	_	_	2	mod	_	_
+4	gebellt	gebellt	VERB	_	_	2	comp:aux	_	_
+
+# text = dann als dieser Hund vor diesem Auto war ist dieser vordere Auto direkt stehen geblieben
+1	dann	dann	ADV	_	_	9	mod	_	_
+2	als	als	ADP	_	_	14	mod	_	_
+3	dieser	diese	PRON	_	_	4	det	_	_
+4	Hund	Hund	NOUN	_	_	8	subj	_	_
+5	vor	vor	ADP	_	_	8	comp:pred	_	_
+6	diesem	diese	PRON	_	_	7	det	_	_
+7	Auto	Auto	NOUN	_	_	5	comp:obj	_	_
+8	war	sein	VERB	_	_	2	comp:obj	_	_
+9	ist	sein	AUX	_	_	0	root	_	_
+10	dieser	diese	PRON	_	_	12	det	_	_
+11	vordere	vorder	ADJ	_	_	12	mod	_	_
+12	Auto	Auto	NOUN	_	_	9	subj	_	_
+13	direkt	direkt	ADJ	_	_	14	mod	_	_
+14	stehen	stehen	VERB	_	_	15	comp:obj	_	_
+15	geblieben	bleiben	VERB	_	_	9	comp:aux	_	_
+
+# text = und dieser hintere Auto hat diesen vorderen Auto halt glaube ich so ungewollt angefahren
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	dieser	diese	PRON	_	_	4	det	_	_
+3	hintere	hinter	ADJ	_	_	4	mod	_	_
+4	Auto	Auto	NOUN	_	_	5	subj	_	_
+5	hat	haben	AUX	_	_	0	root	_	_
+6	diesen	diese	PRON	_	_	8	det	_	_
+7	vorderen	vorder	ADJ	_	_	8	mod	_	_
+8	Auto	Auto	NOUN	_	_	14	comp:obj	_	_
+9	halt	halt	VERB	_	_	5	discourse	_	_
+10	glaube	glaub	PROPN	_	_	5	parataxis	_	_
+11	ich	ich	PRON	_	_	10	subj	_	_
+12	so	so	ADV	_	_	5	mod	_	_
+13	ungewollt	ungewollt	ADJ	_	_	5	mod	_	_
+14	angefahren	anfahren	VERB	_	_	5	comp:aux	_	_
+
+# text = ja das war alles so scheiße so
+1	ja	ja	ADV	_	_	3	discourse	_	_
+2	das	die	PRON	_	_	3	subj	_	_
+3	war	sein	VERB	_	_	0	root	_	_
+4	alles	alle	PRON	_	_	2	appos	_	_
+5	so	so	ADV	_	_	6	mod	_	_
+6	scheiße	scheiße	ADJ	_	_	3	comp:pred	_	_
+7	so	so	ADV	_	_	6	mod	_	_
+
+# text = aber alles so in einem Moment
+1	aber	aber	ADV	_	_	2	cc	_	_
+2	alles	alle	PRON	_	_	0	root	_	_
+3	so	so	ADV	_	_	2	mod	_	_
+4	in	in	ADP	_	_	2	mod	_	_
+5	einem	ein	DET	_	_	6	det	_	_
+6	Moment	Moment	NOUN	_	_	4	comp:obj	_	_
+
+# text = so richtig komisch
+1	so	so	ADV	_	_	3	mod	_	_
+2	richtig	richtig	ADJ	_	_	3	mod	_	_
+3	komisch	komisch	ADJ	_	_	0	root	_	_
+

@@ -1,0 +1,99 @@
+1	Hi	hi	PROPN	NGIRR	_	0	root	_	_
+2	,	,	PUNCT	$,	_	1	punct	_	_
+
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	mir	ich	PRON	PPER	_	6	comp:obl	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Video	Video	NOUN	NN	_	6	comp:obj	_	_
+6	angeguckt	angucken	VERB	VVPP	_	2	comp:aux	_	_
+7	auf	auf	ADP	APPR	_	13	comp:obl	_	_
+8	dem	d	DET	ART	_	7	comp:obj	_	_
+9	man	man	PRON	PIS	_	13	subj	_	_
+10	eine	ein	DET	ART	_	12	det	_	_
+11	kleine	klein	ADJ	ADJA	_	12	mod	_	_
+12	Familie	Familie	NOUN	NN	_	13	comp:obj	_	_
+13	sieht	sehen	VERB	VVFIN	_	5	mod@relcl	_	_
+14	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	spielt	spielen	VERB	VVFIN	_	0	root	_	_
+4	mit	mit	ADP	APPR	_	3	mod	_	_
+5	einem	ein	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	4	comp:obj	_	_
+7	,	,	PUNCT	$,	_	3	punct	_	_
+
+1	eine	eine	DET	ART	_	2	det	_	_
+2	Frau	Frau	NOUN	NN	_	6	subj	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	einem	ein	DET	ART	_	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	3	comp:obj	_	_
+6	sortiert	sortieren	VERB	VVFIN	_	0	root	_	_
+7	ihre	ihr	DET	PPOSAT	_	8	det	_	_
+8	Einkäufe	Einkäufe	NOUN	NN	_	6	comp:obj	_	_
+9	in	in	ADP	APPR	_	6	comp:obl	_	_
+10	ihr	ihr	DET	PPOSAT	_	11	det	_	_
+11	Auto	Auto	NOUN	NN	_	9	comp:obj	_	_
+12	,	,	PUNCT	$,	_	6	punct	_	_
+
+1	der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	PRON	NN	_	3	subj	_	_
+3	lässt	lässt	VERB	VVFIN	_	0	root	_	_
+4	den	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	6	comp:obj	_	_
+6	fallen	fallen	VERB	VVINF	_	3	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	4	subj	_	_
+4	rennt	rennen	VERB	VVFIN	_	0	root	_	_
+5	hinterher	hinterher	ADV	ADV	_	4	compound@prt	_	_
+6	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	Wärenddessen	Wärenddessen	NOUN	ADV	_	2	mod	_	_
+2	fahren	fahren	VERB	VVFIN	_	0	root	_	_
+3	zwei	zwei	NUM	CARD	_	4	mod	_	_
+4	Autos	Auto	NOUN	NN	_	2	subj	_	_
+5	hintereinander	hintereinander	ADV	ADV	_	2	compound@prt	_	_
+6	in	in	ADP	APPR	_	2	comp:obl	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Richtung	Richtung	NOUN	NN	_	6	comp:obj	_	_
+
+1	der	d	DET	ART	_	3	det	_	_
+2	vordere	vorder	ADJ	ADJA	_	3	mod	_	_
+3	Wagen	Wagen	NOUN	NN	_	4	subj	_	_
+4	macht	machen	VERB	VVFIN	_	0	root	_	_
+5	eine	eine	DET	ART	_	6	det	_	_
+6	Vollbremse	Vollbremsung	NOUN	NN	_	4	comp:obj	_	_
+7	weshalb	weshalb	ADP	PWAV	_	4	mod	_	_
+8	der	d	DET	ART	_	9	det	_	_
+9	hintere	Hintere	ADJ	NN	_	12	subj	_	_
+10	in	in	ADP	APPR	_	12	comp:obl	_	_
+11	ihn	er	PRON	PPER	_	10	comp:obj	_	_
+12	hineinfährt	hineinfahren	VERB	VVINF	_	7	comp:obj	_	_
+13	:persevering_face:	😣	SYM	EMO	_	4	discourse	_	_
+14	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	Der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	8	subj	_	_
+3	welcher	welche	PRON	PWS	_	7	subj	_	_
+4	den	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	6	comp:obj	_	_
+6	fallenlassen	fallenlassen	VERB	VVPP	_	7	comp:aux	_	_
+7	hat	haben	AUX	VAFIN	_	2	mod@relcl	_	_
+8	hilft	helfen	VERB	VVFIN	_	0	root	_	_
+9	der	d	DET	ART	_	10	det	_	_
+10	Frau	Frau	NOUN	NN	_	8	comp:obj	_	_
+11	mit	mit	ADP	APPR	_	8	mod	_	_
+12	ihren	ihr	DET	PPOSAT	_	13	det	_	_
+13	Einkäufen	Einkäufe	NOUN	NN	_	11	comp:obj	_	_
+14	.	.	PUNCT	$.	_	8	punct	_	_
+
+1	Und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	wird	werden	AUX	VAFIN	_	0	root	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Polizei	Polizei	NOUN	NN	_	3	subj@pass	_	_
+6	angerufen	anrufen	VERB	VVPP	_	3	comp:aux	_	_
+

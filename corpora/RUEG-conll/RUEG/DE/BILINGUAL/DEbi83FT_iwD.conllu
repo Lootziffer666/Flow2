@@ -1,0 +1,32 @@
+1	kiz	kiz	NOUN	FM	_	0	root	_	_
+2	Aylin	Aylin	PROPN	NE	_	1	appos	_	_
+
+1	hier	hier	ADV	ADV	_	2	mod	_	_
+2	am	an	ADJ	APPRART	_	7	mod	_	_
+3	Hermanstraße	Hermanstraße	NOUN	NN	_	2	comp:obj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Unfall	Unfall	NOUN	NN	_	4	subj	_	_
+7	passiert	passieren	VERB	VVPP	_	4	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	zwar	zwar	ADV	ADV	_	3	mod	_	_
+3	haben	haben	AUX	VAFIN	_	0	root	_	_
+4	sich	er|es|sie	PRON	PRF	_	7	comp:obj	_	_
+5	zwei	zwei	NUM	CARD	_	6	mod	_	_
+6	Autos	Auto	NOUN	NN	_	3	subj	_	_
+7	gestoßen	stoßen	VERB	VVPP	_	3	comp:aux	_	_
+8	weil	weil	SCONJ	KOUS	_	7	mod	_	_
+9	ein	ein	DET	ART	_	10	det	_	_
+10	Mann	Mann	NOUN	NN	_	15	subj	_	_
+11	sein	sein	DET	PPOSAT	_	12	det	_	_
+12	Ball	Ball	NOUN	NN	_	13	comp:obj	_	_
+13	fallen	fallen	VERB	VVINF	_	14	comp:obj	_	_
+14	gelassen	lassen	VERB	VVPP	_	15	comp:aux	_	_
+15	hat	haben	AUX	VAFIN	_	8	comp:obj	_	_
+16	und	und	CCONJ	KON	_	20	cc	_	_
+17	irgendein	irgendein	PROPN	PIAT	_	18	det	_	_
+18	Hund	Hund	PROPN	NN	_	20	subj	_	_
+19	gebellt	bellen	VERB	VVPP	_	20	comp:aux	_	_
+20	hat	haben	AUX	VAFIN	_	15	conj	_	_
+

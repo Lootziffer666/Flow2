@@ -1,0 +1,24 @@
+# text = Hey Schatz
+1	Hey	Hey	PROPN	NGIRR	_	2	discourse	_	_
+2	Schatz	Schatz	PROPN	NN	_	0	root	_	_
+
+# text = ein Idiot gerade über eine Straße gelaufen
+1	ein	ein	DET	ART	_	2	det	_	_
+2	Idiot	Idiot	NOUN	NN	_	7	subj	_	_
+3	gerade	gerad	ADV	ADJA	_	7	mod	_	_
+4	über	über	ADP	APPR	_	7	comp:obl	_	_
+5	eine	ein	DET	ART	_	6	det	_	_
+6	Straße	Straße	NOUN	NN	_	4	comp:obj	_	_
+7	gelaufen	laufen	VERB	VVPP	_	0	root	_	_
+
+# text = und durch ihn wurde ein Unfall verursacht worden .
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	durch	durch	ADP	APPR	_	7	mod	_	_
+3	ihn	er	PRON	PPER	_	2	comp:obj	_	_
+4	wurde	werden	AUX	VAFIN	_	0	root	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Unfall	Unfall	NOUN	NN	_	4	subj@pass	_	_
+7	verursacht	verursachen	VERB	VVPP	_	8	comp:aux@pass	_	_
+8	worden	werden	AUX	VAFIN	_	4	comp:aux	_	_
+9	.	.	PUNCT	$.	_	4	punct	_	_
+

@@ -1,0 +1,242 @@
+# text = äh hallo
+1	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+2	hallo	hallo	X	NGIRR	_	0	root	_	_
+
+# text = hier ist USbi66FD von dem Fall F16
+1	hier	hier	ADV	ADV	_	2	comp:pred	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	USbi66FD	USbi66FD	PROPN	NE	_	2	subj	_	_
+4	von	von	ADP	APPR	_	3	mod@poss	_	_
+5	dem	d	DET	ART	_	6	det	_	_
+6	Fall	Fall	NOUN	NN	_	4	comp:obj	_	_
+7	F16	F16	PROPN	NE	_	6	appos	_	_
+
+# text = und äh ich ihr habt mich gebeten anzurufen
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+3	ich	ich	PRON	PPER	_	4	reparandum	_	_
+4	ihr	ihr	PRON	PPER	_	5	subj	_	_
+5	habt	haben	VERB	VAFIN	_	0	root	_	_
+6	mich	ich	PRON	PPER	_	7	comp:obl	_	_
+7	gebeten	bitten	VERB	VVPP	_	5	comp:aux	_	_
+8	anzurufen	anrufen	VERB	VVIZU	_	7	comp:obj	_	_
+
+# text = also der es ist ein Unfall passiert im Parkplatz äh neben dem großen Gebäude mit vielen Fenstern
+1	also	also	ADV	SEDM	_	4	discourse	_	_
+2	der	d	DET	ART	_	3	reparandum	_	_
+3	es	es	PRON	PPER	_	4	subj@expl	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Unfall	Unfall	NOUN	NN	_	7	comp:obj	_	_
+7	passiert	passieren	VERB	VVPP	_	4	comp:aux	_	_
+8	im	in	PROPN	APPRART	_	7	comp:obl	_	_
+9	Parkplatz	Parkplatz	PROPN	NN	_	8	comp:obj	_	_
+10	äh	äh	ADV	NGHES	_	4	discourse	_	_
+11	neben	neben	ADP	APPR	_	9	mod	_	_
+12	dem	d	DET	ART	_	14	det	_	_
+13	großen	groß	ADJ	ADJA	_	14	mod	_	_
+14	Gebäude	Gebäude	NOUN	NN	_	11	comp:obj	_	_
+15	mit	mit	ADP	APPR	_	14	mod	_	_
+16	vielen	viel	ADJ	PIAT	_	17	mod	_	_
+17	Fenstern	Fenster	NOUN	NN	_	15	comp:obj	_	_
+
+# text = und ein Mann in weißen äh Shirt ist mit seiner Frau und seinem Kind äh durch den Parkplatz gelaufen
+1	und	und	CCONJ	KON	_	8	cc	_	_
+2	ein	ein	DET	ART	_	3	det	_	_
+3	Mann	Mann	NOUN	NN	_	8	subj	_	_
+4	in	in	ADP	APPR	_	3	mod	_	_
+5	weißen	weiß	ADJ	ADJA	_	7	mod	_	_
+6	äh	äh	ADJ	NGHES	_	8	discourse	_	_
+7	Shirt	Shirt	NOUN	NN	_	4	comp:obj	_	_
+8	ist	sein	VERB	VAFIN	_	0	root	_	_
+9	mit	mit	ADP	APPR	_	19	mod	_	_
+10	seiner	sein	DET	PPOSAT	_	11	det	_	_
+11	Frau	Frau	NOUN	NN	_	9	comp:obj	_	_
+12	und	und	CCONJ	KON	_	14	cc	_	_
+13	seinem	sein	DET	PPOSAT	_	14	det	_	_
+14	Kind	Kind	NOUN	NN	_	11	conj	_	_
+15	äh	äh	ADJ	NGHES	_	8	discourse	_	_
+16	durch	durch	ADP	APPR	_	19	comp:obl	_	_
+17	den	d	DET	ART	_	18	det	_	_
+18	Parkplatz	Parkplatz	NOUN	NN	_	16	comp:obj	_	_
+19	gelaufen	laufen	VERB	VVPP	_	8	comp:aux	_	_
+
+# text = aber er hat aus Versehen seinen Ball fallen gelassen
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	er	er	PRON	PPER	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	aus	aus	ADP	APPR	_	8	mod	_	_
+5	Versehen	Versehen	NOUN	NN	_	4	comp:obj	_	_
+6	seinen	sein	DET	PPOSAT	_	7	det	_	_
+7	Ball	Ball	NOUN	NN	_	8	comp:obj	_	_
+8	fallen	fallen	VERB	VVINF	_	9	comp:obj	_	_
+9	gelassen	lassen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und es ist vorgerollt
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	vorgerollt	vorrollen	ADJ	VVPP	_	3	comp:aux	_	_
+
+# text = und dann ist ein Hund auf der anderen Seite von dem Parkplatz äh ein bisschen ausgeflippt
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	3	subj	_	_
+6	auf	auf	ADP	APPR	_	5	mod	_	_
+7	der	d	DET	ART	_	9	det	_	_
+8	anderen	ander	ADJ	PIDAT	_	9	mod	_	_
+9	Seite	Seite	NOUN	NN	_	6	comp:obj	_	_
+10	von	von	ADP	APPR	_	9	mod@poss	_	_
+11	dem	d	DET	ART	_	12	det	_	_
+12	Parkplatz	Parkplatz	NOUN	NN	_	10	comp:obj	_	_
+13	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+14	ein	ein	DET	ART	_	15	det	_	_
+15	bisschen	bisschen	NOUN	PIDS	_	3	mod	_	_
+16	ausgeflippt	ausflippen	ADJ	VVPP	_	3	comp:aux	_	_
+
+# text = und seine Besitzerin hat aus Versehen ihre ganze Einkaufstüte gefallen fallen gelassen
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	seine	sein	DET	PPOSAT	_	3	det	_	_
+3	Besitzerin	Besitzerin	NOUN	NN	_	4	subj	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	aus	aus	ADP	APPR	_	11	mod	_	_
+6	Versehen	Versehen	NOUN	NN	_	5	comp:obj	_	_
+7	ihre	ihr	DET	PPOSAT	_	9	det	_	_
+8	ganze	ganz	ADJ	ADJA	_	9	mod	_	_
+9	Einkaufstüte	Einkaufstüte	NOUN	NN	_	11	comp:obj	_	_
+10	gefallen	fallen	VERB	VVPP	_	11	reparandum	_	_
+11	fallen	fallen	VERB	VVINF	_	12	comp:obj	_	_
+12	gelassen	lassen	VERB	VVPP	_	4	comp:aux	_	_
+
+# text = und ihre Einkaufssachen sind einfach über auf den Parkplatz gegangen
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	ihre	ihr	DET	PPOSAT	_	3	det	_	_
+3	Einkaufssachen	Einkaufssache	NOUN	NN	_	4	subj	_	_
+4	sind	sein	VERB	VAFIN	_	0	root	_	_
+5	einfach	einfach	ADJ	PTKMA	_	4	mod	_	_
+6	über	über	ADV	APPR	_	7	reparandum	_	_
+7	aufn	aufn	ADP	APPR	_	9	comp:obl	_	_
+8	Parkplatz	Parkplatz	NOUN	NN	_	7	comp:obj	_	_
+9	gegangen	gehen	VERB	VVPP	_	4	comp:aux	_	_
+
+# text = äh aber in der mittlerweile in der in der mittlerweile okay äh egal äh ist auch ein blaues Auto äh ein blaues Auto ist fast äh in den Mann reingefahren weil er zu der Frau gegangen ist um sie zu helfen
+1	äh	äh	ADJ	NGHES	_	24	discourse	_	_
+2	aber	aber	ADV	KON	_	24	cc	_	_
+3	in	in	ADP	APPR	_	6	reparandum	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	mittlerweile	mittlerweile	ADV	ADV	_	3	comp:obj	_	_
+6	in	in	ADP	APPR	_	8	reparandum	_	_
+7	der	d	DET	ART	_	6	comp:obj	_	_
+8	in	in	ADP	APPR	_	30	mod	_	_
+9	der	d	DET	ART	_	10	det	_	_
+10	mittlerweile	mittlerweile	ADV	ADV	_	8	comp:obj	_	_
+11	okay	okay	ADJ	ADJD	_	24	discourse	_	_
+12	äh	äh	ADJ	NGHES	_	24	discourse	_	_
+13	egal	egal	ADJ	ADJD	_	24	discourse	_	_
+14	äh	äh	ADJ	NGHES	_	24	discourse	_	_
+15	ist	sein	VERB	VAFIN	_	24	reparandum	_	_
+16	auch	auch	ADV	ADV	_	15	mod	_	_
+17	ein	ein	DET	ART	_	19	det	_	_
+18	blaues	blau	ADJ	ADJA	_	19	mod	_	_
+19	Auto	Auto	NOUN	NN	_	15	subj	_	_
+20	äh	äh	ADJ	NGHES	_	24	discourse	_	_
+21	ein	ein	DET	ART	_	23	det	_	_
+22	blaues	blau	ADJ	ADJA	_	23	mod	_	_
+23	Auto	Auto	NOUN	NN	_	24	subj	_	_
+24	ist	sein	VERB	VAFIN	_	0	root	_	_
+25	fast	fast	ADV	PTKIFG	_	24	mod	_	_
+26	äh	äh	ADJ	NGHES	_	24	discourse	_	_
+27	in	in	ADP	APPR	_	30	comp:obl	_	_
+28	den	d	DET	ART	_	29	det	_	_
+29	Mann	Mann	NOUN	NN	_	27	comp:obj	_	_
+30	reingefahren	reinfahren	VERB	VVPP	_	24	comp:aux	_	_
+31	weil	weil	SCONJ	KOUS	_	30	mod	_	_
+32	er	er	PRON	PPER	_	37	subj	_	_
+33	zu	zu	ADP	APPR	_	36	comp:obl	_	_
+34	der	d	DET	ART	_	35	det	_	_
+35	Frau	Frau	NOUN	NN	_	33	comp:obj	_	_
+36	gegangen	gehen	VERB	VVPP	_	37	comp:aux	_	_
+37	ist	sein	AUX	VAFIN	_	31	comp:obj	_	_
+38	um	um	ADP	KOUI	_	36	mod	_	_
+39	sie	sie	PRON	PPER	_	41	comp:obj	_	_
+40	zu	zu	PART	PTKZU	_	38	comp:obj	_	_
+41	helfen	helfen	VERB	VVINF	_	40	comp:obj	_	_
+
+# text = und er hat dann Ball geholt
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	er	er	PRON	PPER	_	3	subj	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	Ball	Ball	PROPN	NN	_	6	comp:obj	_	_
+6	geholt	holen	PROPN	VVPP	_	3	comp:aux	_	_
+
+# text = und aber das blau Auto hat gebremst
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	aber	aber	ADV	KON	_	1	fixed	_	_
+3	das	d	DET	ART	_	5	det	_	_
+4	blau	blau	ADJ	ADJD	_	5	mod	_	_
+5	Auto	Auto	NOUN	NN	_	6	subj	_	_
+6	hat	haben	VERB	VAFIN	_	0	root	_	_
+7	gebremst	bremsen	ADV	VVPP	_	6	comp:aux	_	_
+
+# text = aber hinter ihm war ein weißes Auto das ein bisschen zu schnell gegangen ist
+1	aber	aber	ADV	KON	_	4	cc	_	_
+2	hinter	hinter	ADP	ADV	_	4	comp:pred	_	_
+3	ihm	er	PRON	PPER	_	2	comp:obj	_	_
+4	war	sein	VERB	VAFIN	_	0	root	_	_
+5	ein	ein	DET	ART	_	7	det	_	_
+6	weißes	weiß	ADJ	ADJA	_	7	mod	_	_
+7	Auto	Auto	NOUN	NN	_	4	subj	_	_
+8	das	d	DET	PRELS	_	14	subj	_	_
+9	ein	ein	DET	ART	_	10	det	_	_
+10	bisschen	bisschen	NOUN	PIDS	_	12	mod	_	_
+11	zu	zu	ADV	PTKA	_	12	mod	_	_
+12	schnell	schnell	ADJ	ADJD	_	14	mod	_	_
+13	gegangen	gehen	VERB	VVPP	_	14	comp:aux	_	_
+14	ist	sein	AUX	VAFIN	_	7	mod@relcl	_	_
+
+# text = und ist in das blaue Auto reingekracht
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	in	in	ADP	APPR	_	7	comp:obl	_	_
+4	das	d	DET	ART	_	6	det	_	_
+5	blaue	blau	ADJ	ADJA	_	6	mod	_	_
+6	Auto	Auto	NOUN	NN	_	3	comp:obj	_	_
+7	reingekracht	reinkrachen	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = es wurde niemand verletzt
+1	es	es	PRON	PPER	_	2	subj@expl	_	_
+2	wurde	werden	AUX	VAFIN	_	0	root	_	_
+3	niemand	niemand	PRON	PIS	_	2	subj@pass	_	_
+4	verletzt	verletzen	VERB	VVPP	_	2	comp:aux@pass	_	_
+
+# text = aber äh ich wette es war ein bisschen Schaden aufm Auto
+1	aber	aber	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	ADV	NGHES	_	4	discourse	_	_
+3	ich	ich	PRON	PPER	_	4	subj	_	_
+4	wette	wetten	PROPN	VVFIN	_	0	root	_	_
+5	es	es	PRON	PPER	_	6	subj@expl	_	_
+6	war	sein	VERB	VAFIN	_	4	comp:obj	_	_
+7	ein	ein	DET	ART	_	9	det	_	_
+8	bisschen	bisschen	ADJ	PIDAT	_	9	mod	_	_
+9	Schaden	Schaden	NOUN	NN	_	6	subj	_	_
+10	aufm	auf	ADP	APPRART	_	6	comp:pred	_	_
+11	Auto	Auto	NOUN	NN	_	10	comp:obj	_	_
+
+# text = und nichts Weiteres ist passiert weil wir dann die Polizei angerufen haben
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	nichts	nichts	PRON	PIAT	_	3	det	_	_
+3	Weiteres	Weiter	PROPN	NN	_	4	subj	_	_
+4	ist	sein	AUX	VAFIN	_	0	root	_	_
+5	passiert	passieren	VERB	VVPP	_	4	comp:aux	_	_
+6	weil	weil	SCONJ	KOUS	_	5	mod	_	_
+7	wir	wir	PRON	PPER	_	12	subj	_	_
+8	dann	dann	ADV	ADV	_	12	mod	_	_
+9	die	d	DET	ART	_	10	det	_	_
+10	Polizei	Polizei	NOUN	NN	_	11	comp:obj	_	_
+11	angerufen	anrufen	VERB	VVPP	_	12	comp:aux	_	_
+12	haben	haben	AUX	VAFIN	_	6	comp:obj	_	_
+
+

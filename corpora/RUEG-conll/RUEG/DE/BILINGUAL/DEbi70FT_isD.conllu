@@ -1,0 +1,159 @@
+# text = ey du weißt nicht was hier gerade passiert ist
+1	ey	ey	PROPN	_	_	3	discourse	_	_
+2	du	du	PROPN	_	_	3	subj	_	_
+3	weißt	weißt	VERB	_	_	0	root	_	_
+4	nicht	nicht	PART	_	_	3	mod	_	_
+5	was	was	PRON	_	_	9	subj	_	_
+6	hier	hier	ADV	_	_	8	mod	_	_
+7	gerade	gerade	ADV	_	_	8	mod	_	_
+8	passiert	passieren	VERB	_	_	9	comp:aux	_	_
+9	ist	sein	AUX	_	_	3	comp:obj	_	_
+
+# text = hier gab es also hier ist eine Familie
+1	hier	hier	ADV	_	_	2	mod	_	_
+2	gab	geben	VERB	_	_	6	reparandum	_	_
+3	es	es	PRON	_	_	2	subj@expl	_	_
+4	also	also	ADV	_	_	6	discourse	_	_
+5	hier	hier	ADV	_	_	6	comp:pred	_	_
+6	ist	sein	VERB	_	_	0	root	_	_
+7	eine	eine	DET	_	_	8	det	_	_
+8	Familie	Familie	NOUN	_	_	6	subj	_	_
+
+# text = und äh der Sohn hat hat mit dem Ball gespielt
+1	und	und	CCONJ	_	_	6	cc	_	_
+2	äh	äh	ADJ	_	_	6	discourse	_	_
+3	der	d	DET	_	_	4	det	_	_
+4	Sohn	Sohn	NOUN	_	_	6	subj	_	_
+5	hat	haben	VERB	_	_	6	reparandum	_	_
+6	hat	haben	AUX	_	_	0	root	_	_
+7	mit	mit	ADP	_	_	10	mod	_	_
+8	dem	d	DET	_	_	9	det	_	_
+9	Ball	Ball	NOUN	_	_	7	comp:obj	_	_
+10	gespielt	spielen	VERB	_	_	6	comp:aux	_	_
+
+# text = also ich glaube mal dass der Sohn ist
+1	also	also	ADV	_	_	3	discourse	_	_
+2	ich	ich	PRON	_	_	3	subj	_	_
+3	glaube	glaub	PROPN	_	_	0	root	_	_
+4	mal	mal	ADV	_	_	3	mod	_	_
+5	dass	dass	SCONJ	_	_	3	comp:obj	_	_
+6	der	d	DET	_	_	7	det	_	_
+7	Sohn	Sohn	NOUN	_	_	8	subj	_	_
+8	ist	sein	VERB	_	_	5	comp:obj	_	_
+
+# text = und äh gegenüber der Straße war eine Frau mit äh ihrem Hund
+1	und	und	CCONJ	_	_	6	cc	_	_
+2	äh	äh	ADV	_	_	6	discourse	_	_
+3	gegenüber	gegenüber	ADP	_	_	6	comp:pred	_	_
+4	der	d	DET	_	_	5	det	_	_
+5	Straße	Straße	NOUN	_	_	3	comp:obj	_	_
+6	war	sein	VERB	_	_	0	root	_	_
+7	eine	eine	DET	_	_	8	det	_	_
+8	Frau	Frau	NOUN	_	_	6	subj	_	_
+9	mit	mit	ADP	_	_	8	mod	_	_
+10	äh	äh	ADJ	_	_	6	discourse	_	_
+11	ihrem	ihr	DET	_	_	12	det	_	_
+12	Hund	Hund	NOUN	_	_	9	comp:obj	_	_
+
+# text = und sie hat gerade den Einkauf in ins Auto äh einsortiert
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	sie	sie	PRON	_	_	3	subj	_	_
+3	hat	haben	VERB	_	_	0	root	_	_
+4	gerade	gerade	ADV	_	_	3	mod	_	_
+5	den	d	DET	_	_	6	det	_	_
+6	Einkauf	Einkauf	NOUN	_	_	11	comp:obj	_	_
+7	in	in	ADP	_	_	8	reparandum	_	_
+8	ins	ins	PROPN	_	_	11	comp:obl	_	_
+9	Auto	Auto	PROPN	_	_	8	comp:obj	_	_
+10	äh	äh	PROPN	_	_	3	discourse	_	_
+11	einsortiert	einsortieren	VERB	_	_	3	comp:aux	_	_
+
+# text = und äh wo halt die Familie die Straße überqueren wollte ist äh dem dieser Ball aus seinem Hand äh gefallen
+1	und	und	CCONJ	_	_	11	cc	_	_
+2	äh	äh	ADJ	_	_	11	discourse	_	_
+3	wo	wo	ADV	_	_	20	mod	_	_
+4	halt	halt	VERB	_	_	11	discourse	_	_
+5	die	d	DET	_	_	6	det	_	_
+6	Familie	Familie	NOUN	_	_	10	subj	_	_
+7	die	d	DET	_	_	8	det	_	_
+8	Straße	Straße	NOUN	_	_	9	comp:obj	_	_
+9	überqueren	überqueren	VERB	_	_	10	comp:aux	_	_
+10	wollte	wollen	AUX	_	_	3	comp:obj	_	_
+11	ist	sein	VERB	_	_	0	root	_	_
+12	äh	äh	ADJ	_	_	11	discourse	_	_
+13	dem	die	DET	_	_	20	comp:obj	_	_
+14	dieser	diese	PRON	_	_	15	det	_	_
+15	Ball	Ball	NOUN	_	_	11	subj	_	_
+16	aus	aus	ADP	_	_	20	comp:obl	_	_
+17	seinem	sein	DET	_	_	18	det	_	_
+18	Hand	Hand	NOUN	_	_	16	comp:obj	_	_
+19	äh	äh	ADJ	_	_	11	discourse	_	_
+20	gefallen	gefallen	VERB	_	_	11	comp:aux	_	_
+
+# text = und der ganze Einkauf lag aufm Boden
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	der	d	DET	_	_	4	det	_	_
+3	ganze	ganz	ADJ	_	_	4	mod	_	_
+4	Einkauf	Einkauf	NOUN	_	_	5	subj	_	_
+5	lag	liegen	VERB	_	_	0	root	_	_
+6	aufm	aufm	PROPN	_	_	5	comp:obl	_	_
+7	Boden	Boden	PROPN	_	_	6	comp:obj	_	_
+
+# text = und dann äh und genau da kommen zwei Autos
+1	und	und	CCONJ	_	_	7	cc	_	_
+2	dann	dann	ADV	_	_	7	mod	_	_
+3	äh	äh	ADJ	_	_	7	discourse	_	_
+4	und	und	CCONJ	_	_	7	cc	_	_
+5	genau	genau	ADJ	_	_	7	mod	_	_
+6	da	da	ADV	_	_	7	mod	_	_
+7	kommen	kommen	VERB	_	_	0	root	_	_
+8	zwei	zwei	NUM	_	_	9	mod	_	_
+9	Autos	Auto	NOUN	_	_	7	subj	_	_
+
+# text = und äh äh fing der Hund zu bellen
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	äh	äh	ADJ	_	_	4	discourse	_	_
+3	äh	äh	ADJ	_	_	4	discourse	_	_
+4	fing	fangen	VERB	_	_	0	root	_	_
+5	der	d	DET	_	_	6	det	_	_
+6	Hund	Hund	NOUN	_	_	4	subj	_	_
+7	zu	zu	PART	_	_	4	comp:obj	_	_
+8	bellen	bellen	VERB	_	_	7	comp:obj	_	_
+
+# text = und äh hat äh war sehr laut
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	äh	äh	ADJ	_	_	5	discourse	_	_
+3	hat	haben	VERB	_	_	5	reparandum	_	_
+4	äh	äh	ADV	_	_	5	discourse	_	_
+5	war	sein	AUX	_	_	0	root	_	_
+6	sehr	sehr	ADV	_	_	7	mod	_	_
+7	laut	laut	ADP	_	_	5	comp:pred	_	_
+
+# text = und der erste Auto muss dann halt sehr äh schnell bremsen
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	der	d	DET	_	_	4	det	_	_
+3	erste	erst	ADJ	_	_	4	mod	_	_
+4	Auto	Auto	NOUN	_	_	5	subj	_	_
+5	muss	m�ssen	AUX	_	_	0	root	_	_
+6	dann	dann	ADV	_	_	5	mod	_	_
+7	halt	halt	ADV	_	_	5	discourse	_	_
+8	sehr	sehr	ADV	_	_	10	mod	_	_
+9	äh	äh	ADJ	_	_	5	discourse	_	_
+10	schnell	schnell	ADJ	_	_	5	mod	_	_
+11	bremsen	bremsen	VERB	_	_	5	comp:aux	_	_
+
+# text = und der zweite Auto hinter ihm äh ist in den ersten Auto reingefahren
+1	und	und	CCONJ	_	_	8	cc	_	_
+2	der	d	DET	_	_	4	det	_	_
+3	zweite	zweit	ADJ	_	_	4	mod	_	_
+4	Auto	Auto	NOUN	_	_	8	subj	_	_
+5	hinter	hinter	ADP	_	_	4	mod	_	_
+6	ihm	er	PRON	_	_	5	comp:obj	_	_
+7	äh	äh	ADJ	_	_	8	discourse	_	_
+8	ist	sein	VERB	_	_	0	root	_	_
+9	in	in	ADP	_	_	13	comp:obl	_	_
+10	den	d	DET	_	_	12	det	_	_
+11	ersten	erst	ADJ	_	_	12	mod	_	_
+12	Auto	Auto	NOUN	_	_	9	comp:obj	_	_
+13	reingefahren	reingefahren	VERB	_	_	8	comp:aux	_	_
+

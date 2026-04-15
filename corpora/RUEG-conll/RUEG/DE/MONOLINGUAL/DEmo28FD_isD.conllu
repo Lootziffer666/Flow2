@@ -1,0 +1,123 @@
+# sent_id = 1628164147.969865-809570_00001
+# timestamp = 1628172341096
+# user_id = nzuern
+1	ja	ja	ADV	NGIRR	_	2	discourse	_	_
+2	hallo	hallo	X	NGIRR	_	0	root	_	_
+
+# sent_id = 1628164147.969865-809570_00002
+# timestamp = 1628172400248
+# user_id = nzuern
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	bin	sein	VERB	VAFIN	_	0	root	_	_
+4	gerade	gerade	ADV	ADV	_	3	mod	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	bisschen	bisschen	NOUN	PIDS	_	3	mod	_	_
+7	irgendwie	irgendwie	ADV	ADV	_	3	mod	_	_
+8	geschockt	schocken	ADJ	VVPP	_	3	comp:aux	_	_
+
+# sent_id = 1628164147.969865-809570_00003
+# timestamp = 1628172511640
+# user_id = nzuern
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	äh	äh	ADV	NGHES	_	2	discourse	_	_
+5	so	so	ADV	PTKIFG	_	9	mod	_	_
+6	einen	ein	DET	ART	_	9	det	_	_
+7	kleinen	klein	ADJ	ADJA	_	9	mod	_	_
+8	Auffallunfall	Auffallunfall	NOUN	NN	_	9	reparandum	_	_
+9	Unfall	Unfall	NOUN	NN	_	10	comp:obj	_	_
+10	gesehen	sehen	VERB	VVPP	_	2	comp:aux	_	_
+
+# sent_id = 1628164147.969865-809570_00004
+# timestamp = 1628172697144
+# user_id = nzuern
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	hatte	haben	AUX	VAFIN	_	0	root	_	_
+4	irgendwie	irgendwie	ADV	ADV	_	3	mod	_	_
+5	äh	äh	ADV	NGHES	_	3	discourse	_	_
+6	gerade	gerade	ADV	PTKIFG	_	3	mod	_	_
+7	kurz	kurz	ADJ	ADJD	_	3	mod	_	_
+8	Angst	Angst	NOUN	NN	_	3	comp:obj	_	_
+9	weil	weil	SCONJ	KOUS	_	3	mod	_	_
+10	da	da	ADV	ADV	_	20	mod	_	_
+11	äh	äh	ADV	NGHES	_	3	discourse	_	_
+12	auch	auch	ADV	PTKIFG	_	14	mod	_	_
+13	ein	ein	NUM	ART	_	14	det	_	_
+14	Hund	Hund	NOUN	NN	_	20	subj	_	_
+15	äh	äh	ADV	NGHES	_	3	discourse	_	_
+16	irgendwie	irgendwie	ADV	ADV	_	20	mod	_	_
+17	vors	vor	PROPN	APPRART	_	19	comp:obl	_	_
+18	Auto	Auto	PROPN	NN	_	17	comp:obj	_	_
+19	gelaufen	laufen	VERB	VVPP	_	20	comp:aux	_	_
+20	ist	sein	AUX	VAFIN	_	9	comp:obj	_	_
+
+# sent_id = 1628164147.969865-809570_00005
+# timestamp = 1628172741814
+# user_id = nzuern
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	der	d	PRON	PDS	_	3	subj@pass	_	_
+3	wurde	werden	AUX	VAFIN	_	0	root	_	_
+4	nicht	nicht	PART	PTKNEG	_	3	mod	_	_
+5	angefahren	anfahren	VERB	VVPP	_	3	comp:aux@pass	_	_
+
+# sent_id = 1628164147.969865-809570_00006
+# timestamp = 1628172843769
+# user_id = nzuern
+1	aber	aber	ADV	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Autofahrer	Autofahrer	NOUN	NN	_	4	subj	_	_
+4	hat	haben	VERB	VAFIN	_	0	root	_	_
+5	gebremst	bremsen	ADV	VVPP	_	4	comp:aux	_	_
+
+# sent_id = 1628164147.969865-809570_00007
+# timestamp = 1628172922970
+# user_id = nzuern
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dadurch	dadurch	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Hintermann	Hintermann	NOUN	NN	_	3	subj	_	_
+6	draufgefahren	drauffahren	VERB	VVPP	_	3	comp:aux	_	_
+
+# sent_id = 1628164147.969865-809570_00008
+# timestamp = 1628173433556
+# user_id = nzuern
+1	und	und	CCONJ	KON	_	9	cc	_	_
+2	na	na	PROPN	NGIRR	_	9	discourse	_	_
+3	ja	ja	ADV	NGIRR	_	2	fixed	_	_
+4	voll	voll	ADJ	PTKIFG	_	5	mod	_	_
+5	blöd	blöd	ADJ	ADJD	_	9	comp:pred	_	_
+6	also	also	ADV	SEDM	_	9	discourse	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Frau	Frau	NOUN	NN	_	9	comp:obj	_	_
+9	finde	finden	VERB	VVFIN	_	0	root	_	_
+10	ich	ich	PRON	PPER	_	9	subj	_	_
+11	die	d	PRON	PRELS	_	17	subj	_	_
+12	den	d	DET	ART	_	13	det	_	_
+13	Hund	Hund	NOUN	NN	_	17	comp:obj	_	_
+14	nicht	nicht	PART	PTKNEG	_	17	mod	_	_
+15	unter	unter	ADP	APPR	_	17	comp:obl	_	_
+16	Kontrolle	Kontrolle	NOUN	NN	_	15	comp:obj	_	_
+17	hatte	haben	VERB	VAFIN	_	8	mod@relcl	_	_
+
+# sent_id = 1628164147.969865-809570_00009
+# timestamp = 1628173176870
+# user_id = nzuern
+1	okay	okay	ADJ	NGIRR	_	3	discourse	_	_
+2	ja	ja	ADV	NGIRR	_	3	discourse	_	_
+3	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+4	ich	ich	PRON	PPER	_	3	subj	_	_
+5	dir	du	PRON	PPER	_	8	comp:obj	_	_
+6	nur	nur	ADV	PTKIFG	_	7	mod	_	_
+7	kurz	kurz	ADJ	ADJD	_	3	mod	_	_
+8	mitteilen	mitteilen	VERB	VVINF	_	3	comp:aux	_	_
+
+# sent_id = 1628164147.969865-809570_00010
+# timestamp = 1628164147924
+# user_id = nzuern
+1	tschüss	tschüss	PROPN	NGIRR	_	0	root	_	_
+
+

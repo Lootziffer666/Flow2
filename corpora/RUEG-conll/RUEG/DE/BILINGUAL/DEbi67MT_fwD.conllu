@@ -1,0 +1,340 @@
+# text = F16
+1	F16	F16	NOUN	_	_	0	root	_	_
+
+# text = Hallo Herr Komissar ,
+1	Hallo	Hallo	PROPN	_	_	2	discourse	_	_
+2	Herr	Herr	PROPN	_	_	0	root	_	_
+3	Komissar	Komissar	PROPN	_	_	2	flat	_	_
+4	,	,	PUNCT	_	_	2	punct	_	_
+
+# text = Ich wurde gestern Zeuge eines Unfalls .
+1	Ich	Ich	PRON	_	_	2	subj@pass	_	_
+2	wurde	werden	AUX	_	_	0	root	_	_
+3	gestern	gestern	VERB	_	_	2	mod	_	_
+4	Zeuge	Zeuge	PROPN	_	_	2	comp:pred	_	_
+5	eines	ein	DET	_	_	6	det	_	_
+6	Unfalls	Unfall	PROPN	_	_	4	mod@poss	_	_
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Als ich gestern auf dem Nachhauseweg war , wurde ich Zeuge eines Unfalls .
+1	Als	als	SCONJ	_	_	9	mod	_	_
+2	ich	ich	PRON	_	_	7	subj	_	_
+3	gestern	gestern	ADV	_	_	7	mod	_	_
+4	auf	auf	ADP	_	_	7	comp:pred	_	_
+5	dem	d	DET	_	_	6	det	_	_
+6	Nachhauseweg	Nachhauseweg	NOUN	_	_	4	comp:obj	_	_
+7	war	sein	VERB	_	_	1	comp:obj	_	_
+8	,	,	PUNCT	_	_	1	punct	_	_
+9	wurde	werden	VERB	_	_	0	root	_	_
+10	ich	ich	PRON	_	_	9	subj@pass	_	_
+11	Zeuge	Zeuge	NOUN	_	_	9	comp:pred	_	_
+12	eines	ein	DET	_	_	13	det	_	_
+13	Unfalls	Unfall	NOUN	_	_	11	mod@poss	_	_
+14	.	.	PUNCT	_	_	9	punct	_	_
+
+# text = Hierbei hat es sich um ein blauen Toyota & einem weißen VW Golf gehandelt .
+1	Hierbei	hierbei	ADV	_	_	2	mod	_	_
+2	hat	haben	AUX	_	_	0	root	_	_
+3	es	es	PRON	_	_	2	subj@expl	_	_
+4	sich	er|es|sie	PRON	_	_	14	comp:obj	_	_
+5	um	um	ADP	_	_	14	comp:obl	_	_
+6	ein	ein	NUM	_	_	8	det	_	_
+7	blauen	blau	VERB	_	_	8	mod	_	_
+8	Toyota	Toyota	PROPN	_	_	5	comp:obj	_	_
+9	&	&	PUNCT	_	_	12	cc	_	_
+10	einem	ein	DET	_	_	12	det	_	_
+11	weißen	weißen	PROPN	_	_	12	mod	_	_
+12	VW	VW	PROPN	_	_	8	conj	_	_
+13	Golf	Golf	PROPN	_	_	12	flat	_	_
+14	gehandelt	handeln	VERB	_	_	2	comp:aux	_	_
+15	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Alles fing damit an als ich ein Paar gesehen habe , eine Frau & ein Mann .
+1	Alles	alle	PRON	_	_	2	subj	_	_
+2	fing	fangen	VERB	_	_	0	root	_	_
+3	damit	damit	ADV	_	_	2	mod	_	_
+4	an	an	ADP	_	_	2	compound@prt	_	_
+5	als	als	SCONJ	_	_	2	comp:obj	_	_
+6	ich	ich	PRON	_	_	10	subj	_	_
+7	ein	ein	DET	_	_	8	det	_	_
+8	Paar	Paar	NOUN	_	_	9	comp:obj	_	_
+9	gesehen	sehen	VERB	_	_	10	comp:aux	_	_
+10	habe	haben	AUX	_	_	5	comp:obj	_	_
+11	,	,	PUNCT	_	_	2	punct	_	_
+12	eine	eine	DET	_	_	13	det	_	_
+13	Frau	Frau	NOUN	_	_	8	appos	_	_
+14	&	&	PUNCT	_	_	16	cc	_	_
+15	ein	ein	DET	_	_	16	det	_	_
+16	Mann	Mann	NOUN	_	_	13	conj	_	_
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Die Frau hatte einen Kinderwagen & der Mann einen Fußball in der Hand .
+1	Die	d	DET	_	_	2	det	_	_
+2	Frau	Frau	NOUN	_	_	3	subj	_	_
+3	hatte	haben	VERB	_	_	0	root	_	_
+4	einen	ein	DET	_	_	5	det	_	_
+5	Kinderwagen	Kinderwagen	NOUN	_	_	3	comp:obj	_	_
+6	&	&	PUNCT	_	_	8	cc	_	_
+7	der	d	DET	_	_	8	det	_	_
+8	Mann	Mann	NOUN	_	_	2	conj	_	_
+9	einen	ein	DET	_	_	10	det	_	_
+10	Fußball	Fußball	NOUN	_	_	5	conj	_	_
+11	in	in	ADP	_	_	3	mod	_	_
+12	der	d	DET	_	_	13	det	_	_
+13	Hand	Hand	NOUN	_	_	11	comp:obj	_	_
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Der Mann mit dem Fußball fing an damit an zu spielen als wäre es ein Basketball ,
+1	Der	d	DET	_	_	2	det	_	_
+2	Mann	Mann	NOUN	_	_	6	subj	_	_
+3	mit	mit	ADP	_	_	2	mod	_	_
+4	dem	d	DET	_	_	5	det	_	_
+5	Fußball	Fußball	NOUN	_	_	3	comp:obj	_	_
+6	fing	fangen	VERB	_	_	0	root	_	_
+7	an	an	ADP	_	_	9	reparandum	_	_
+8	damit	damit	ADV	_	_	6	mod	_	_
+9	an	an	ADP	_	_	6	compound@prt	_	_
+10	zu	zu	PART	_	_	6	comp:obj	_	_
+11	spielen	spielen	VERB	_	_	10	comp:obj	_	_
+12	als	als	ADP	_	_	11	mod	_	_
+13	wäre	wäre	VERB	_	_	12	comp:obj	_	_
+14	es	es	PRON	_	_	13	subj	_	_
+15	ein	ein	DET	_	_	16	det	_	_
+16	Basketball	Basketball	NOUN	_	_	13	comp:pred	_	_
+17	,	,	PUNCT	_	_	6	punct	_	_
+
+# text = er ließ den Ball wie ein Basketball auf den Boden klatschen .
+1	er	er	PRON	_	_	2	subj	_	_
+2	ließ	ließ	VERB	_	_	0	root	_	_
+3	den	d	DET	_	_	4	det	_	_
+4	Ball	Ball	NOUN	_	_	11	comp:obj	_	_
+5	wie	wie	ADP	_	_	11	mod	_	_
+6	ein	ein	DET	_	_	7	det	_	_
+7	Basketball	Basketball	NOUN	_	_	5	comp:obj	_	_
+8	auf	auf	ADP	_	_	11	comp:obl	_	_
+9	den	d	DET	_	_	10	det	_	_
+10	Boden	Boden	NOUN	_	_	8	comp:obj	_	_
+11	klatschen	klatschen	ADJ	_	_	2	comp:obj	_	_
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Zu dieser Zeit war auf der anderen Straßenseite eine Dame mit ihrem geparktem Auto & offenem Kofferraum , dabei ihren Einkauf zu leeren .
+1	Zu	zu	ADP	_	_	4	mod	_	_
+2	dieser	diese	PRON	_	_	3	det	_	_
+3	Zeit	Zeit	NOUN	_	_	1	comp:obj	_	_
+4	war	sein	VERB	_	_	0	root	_	_
+5	auf	auf	ADP	_	_	4	mod	_	_
+6	der	d	DET	_	_	8	det	_	_
+7	anderen	ander	ADJ	_	_	8	mod	_	_
+8	Straßenseite	Straßenseite	NOUN	_	_	5	comp:obj	_	_
+9	eine	eine	DET	_	_	10	det	_	_
+10	Dame	Dame	NOUN	_	_	4	subj	_	_
+11	mit	mit	ADP	_	_	10	mod	_	_
+12	ihrem	ihr	DET	_	_	14	det	_	_
+13	geparktem	geparktem	ADJ	_	_	14	mod	_	_
+14	Auto	Auto	NOUN	_	_	11	comp:obj	_	_
+15	&	&	PUNCT	_	_	17	cc	_	_
+16	offenem	offen	ADJ	_	_	17	mod	_	_
+17	Kofferraum	Kofferraum	NOUN	_	_	14	conj	_	_
+18	,	,	PUNCT	_	_	4	punct	_	_
+19	dabei	dabei	ADV	_	_	4	comp:pred	_	_
+20	ihren	ihr	DET	_	_	21	det	_	_
+21	Einkauf	Einkauf	NOUN	_	_	23	comp:obj	_	_
+22	zu	zu	PART	_	_	19	comp:obj	_	_
+23	leeren	leeren	VERB	_	_	22	comp:obj	_	_
+24	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = Ich muss noch erwähnen dass sie in einer ihrer Hände noch einen Hund hatte ,
+1	Ich	ich	PRON	_	_	2	subj	_	_
+2	muss	m�ssen	AUX	_	_	0	root	_	_
+3	noch	noch	ADV	_	_	2	mod	_	_
+4	erwähnen	erwähnen	VERB	_	_	2	comp:aux	_	_
+5	dass	dass	SCONJ	_	_	4	comp:obj	_	_
+6	sie	sie	PRON	_	_	14	subj	_	_
+7	in	in	ADP	_	_	14	comp:obl	_	_
+8	einer	ein	DET	_	_	10	det	_	_
+9	ihrer	ihr	DET	_	_	10	det	_	_
+10	Hände	Hände	NOUN	_	_	7	comp:obj	_	_
+11	noch	noch	ADV	_	_	14	mod	_	_
+12	einen	ein	DET	_	_	13	det	_	_
+13	Hund	Hund	NOUN	_	_	14	comp:obj	_	_
+14	hatte	haben	VERB	_	_	5	comp:obj	_	_
+15	,	,	PUNCT	_	_	2	punct	_	_
+
+# text = sprich sie hatte beide Hände voll * *
+1	sprich	spechen	PROPN	_	_	0	root	_	_
+2	sie	sie	PRON	_	_	3	subj	_	_
+3	hatte	haben	AUX	_	_	1	parataxis	_	_
+4	beide	beide	PRON	_	_	5	det	_	_
+5	Hände	Hände	NOUN	_	_	3	comp:obj	_	_
+6	voll	voll	ADJ	_	_	3	comp:pred	_	_
+7	*	*	X	_	_	1	punct	_	_
+8	*	*	X	_	_	1	punct	_	_
+
+# text = Daraufhin fuhren dann die jeweiligen beiden Autos die Straße runter , erst das blaue und gleich dahinter dann auch das weiße .
+1	Daraufhin	Daraufhin	ADV	_	_	2	mod	_	_
+2	fuhren	fahren	VERB	_	_	0	root	_	_
+3	dann	dann	ADV	_	_	2	mod	_	_
+4	die	d	DET	_	_	7	det	_	_
+5	jeweiligen	jeweilig	ADJ	_	_	7	mod	_	_
+6	beiden	beide	PRON	_	_	7	mod	_	_
+7	Autos	Auto	NOUN	_	_	2	subj	_	_
+8	die	d	DET	_	_	9	det	_	_
+9	Straße	Straße	NOUN	_	_	2	comp:obj	_	_
+10	runter	runter	PROPN	_	_	2	compound@prt	_	_
+11	,	,	PUNCT	_	_	2	punct	_	_
+12	erst	erst	ADV	_	_	14	orphan	_	_
+13	das	d	DET	_	_	14	det	_	_
+14	blaue	blau	ADJ	_	_	7	appos	_	_
+15	und	und	CCONJ	_	_	21	cc	_	_
+16	gleich	gleich	ADV	_	_	21	orphan	_	_
+17	dahinter	dahinter	ADV	_	_	21	orphan	_	_
+18	dann	dann	ADV	_	_	21	orphan	_	_
+19	auch	auch	ADV	_	_	21	orphan	_	_
+20	das	d	DET	_	_	21	det	_	_
+21	weiße	weiße	PROPN	_	_	14	conj	_	_
+22	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Zeitgleich fiel dann der Ball von dem Typen mit dem Fußball , durch den Fall auf seinem rechten Fuß
+1	Zeitgleich	zeitgleich	ADV	_	_	2	mod	_	_
+2	fiel	fallen	VERB	_	_	0	root	_	_
+3	dann	dann	ADV	_	_	2	mod	_	_
+4	der	d	DET	_	_	5	det	_	_
+5	Ball	Ball	NOUN	_	_	2	subj	_	_
+6	von	von	ADP	_	_	5	mod@poss	_	_
+7	dem	d	DET	_	_	8	det	_	_
+8	Typen	Typ|Type|Typus	NOUN	_	_	6	comp:obj	_	_
+9	mit	mit	ADP	_	_	8	mod	_	_
+10	dem	d	DET	_	_	11	det	_	_
+11	Fußball	Fußball	NOUN	_	_	9	comp:obj	_	_
+12	,	,	PUNCT	_	_	2	punct	_	_
+13	durch	durch	ADP	_	_	2	mod	_	_
+14	den	d	DET	_	_	15	det	_	_
+15	Fall	Fall	NOUN	_	_	13	comp:obj	_	_
+16	auf	auf	ADP	_	_	2	comp:obl	_	_
+17	seinem	sein	DET	_	_	19	det	_	_
+18	rechten	recht	ADJ	_	_	19	mod	_	_
+19	Fuß	Fuß	NOUN	_	_	16	comp:obj	_	_
+
+# text = & rollte die Straße herunter ,
+1	&	&	PUNCT	_	_	2	cc	_	_
+2	rollte	rollen	AUX	_	_	0	root	_	_
+3	die	d	DET	_	_	4	det	_	_
+4	Straße	Straße	NOUN	_	_	2	comp:obj	_	_
+5	herunter	herunter	PROPN	_	_	2	compound@prt	_	_
+6	,	,	PUNCT	_	_	2	punct	_	_
+
+# text = zudem versuchte der Hund seinen Besitzer zu schützen
+1	zudem	zudem	ADV	_	_	2	mod	_	_
+2	versuchte	versuchen	VERB	_	_	0	root	_	_
+3	der	d	DET	_	_	4	det	_	_
+4	Hund	Hund	NOUN	_	_	2	subj	_	_
+5	seinen	sein	DET	_	_	6	det	_	_
+6	Besitzer	Besitzer	NOUN	_	_	8	comp:obj	_	_
+7	zu	zu	PART	_	_	2	comp:obj	_	_
+8	schützen	schützen	VERB	_	_	7	comp:obj	_	_
+
+# text = & sprang auf die Straße . Wodurch dann auch das blaue Auto eine Notbremse auslösen musste & das weiße Auto dahinter einen Unfall verursachte .
+1	&	&	PUNCT	_	_	2	cc	_	_
+2	sprang	springen	VERB	_	_	0	root	_	_
+3	auf	auf	ADP	_	_	2	comp:obl	_	_
+4	die	d	DET	_	_	5	det	_	_
+5	Straße	Straße	NOUN	_	_	3	comp:obj	_	_
+6	.	.	PUNCT	_	_	2	punct	_	_
+7	Wodurch	wodurch	ADV	_	_	2	mod	_	_
+8	dann	dann	ADV	_	_	16	mod	_	_
+9	auch	auch	ADV	_	_	16	mod	_	_
+10	das	d	DET	_	_	12	det	_	_
+11	blaue	blau	ADJ	_	_	12	mod	_	_
+12	Auto	Auto	NOUN	_	_	16	subj	_	_
+13	eine	eine	DET	_	_	14	det	_	_
+14	Notbremse	Notbremse	NOUN	_	_	15	comp:obj	_	_
+15	auslösen	auslösen	VERB	_	_	16	comp:aux	_	_
+16	musste	m�ssen	AUX	_	_	7	comp:obj	_	_
+17	&	&	PUNCT	_	_	24	cc	_	_
+18	das	d	DET	_	_	20	det	_	_
+19	weiße	weiße	ADJ	_	_	20	mod	_	_
+20	Auto	Auto	NOUN	_	_	24	subj	_	_
+21	dahinter	dahinter	ADP	_	_	20	mod	_	_
+22	einen	ein	DET	_	_	23	det	_	_
+23	Unfall	Unfall	NOUN	_	_	24	comp:obj	_	_
+24	verursachte	verursachen	VERB	_	_	16	conj	_	_
+25	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Allerdings ist der Mann mit dem Ball , der meiner Meinung nach Schuld des ganzes Geschehens ist , zu der Dame mit dem Einkauf hin
+1	Allerdings	allerdings	ADV	_	_	2	mod	_	_
+2	ist	sein	VERB	_	_	0	root	_	_
+3	der	d	DET	_	_	4	det	_	_
+4	Mann	Mann	NOUN	_	_	2	subj	_	_
+5	mit	mit	ADP	_	_	4	mod	_	_
+6	dem	d	DET	_	_	7	det	_	_
+7	Ball	Ball	NOUN	_	_	5	comp:obj	_	_
+8	,	,	PUNCT	_	_	2	punct	_	_
+9	der	die	PRON	_	_	17	subj	_	_
+10	meiner	mein	PRON	_	_	11	det	_	_
+11	Meinung	Meinung	NOUN	_	_	12	comp:obj	_	_
+12	nach	nach	ADP	_	_	17	mod	_	_
+13	Schuld	Schuld	NOUN	_	_	17	comp:pred	_	_
+14	des	d	DET	_	_	16	det	_	_
+15	ganzes	ganz	PROPN	_	_	16	mod	_	_
+16	Geschehens	Geschehen	PROPN	_	_	13	mod@poss	_	_
+17	ist	sein	VERB	_	_	4	mod@relcl	_	_
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	zu	zu	ADP	_	_	25	comp:obl	_	_
+20	der	d	DET	_	_	21	det	_	_
+21	Dame	Dame	NOUN	_	_	19	comp:obj	_	_
+22	mit	mit	ADP	_	_	21	mod	_	_
+23	dem	d	DET	_	_	24	det	_	_
+24	Einkauf	Einkauf	NOUN	_	_	22	comp:obj	_	_
+25	hin	hin	ADV	_	_	2	comp:aux	_	_
+
+# text = & hat geholfen ,
+1	&	&	PUNCT	_	_	2	cc	_	_
+2	hat	haben	AUX	_	_	0	root	_	_
+3	geholfen	helfen	VERB	_	_	2	comp:aux	_	_
+4	,	,	PUNCT	_	_	2	punct	_	_
+
+# text = demnach half er auch den beiden Typen dessen Autos beschädigt wurden
+1	demnach	demnach	ADV	_	_	2	mod	_	_
+2	half	helfen	VERB	_	_	0	root	_	_
+3	er	er	PRON	_	_	2	subj	_	_
+4	auch	auch	ADV	_	_	2	mod	_	_
+5	den	d	DET	_	_	7	det	_	_
+6	beiden	beide	PRON	_	_	7	mod	_	_
+7	Typen	Typ|Type|Typus	NOUN	_	_	2	comp:obj	_	_
+8	dessen	die	DET	_	_	9	det	_	_
+9	Autos	Auto	NOUN	_	_	11	subj@pass	_	_
+10	beschädigt	beschädigt	VERB	_	_	11	comp:aux@pass	_	_
+11	wurden	werden	AUX	_	_	7	mod@relcl	_	_
+
+# text = & sie alarmierten zusammen die Polizei .
+1	&	&	PUNCT	_	_	3	cc	_	_
+2	sie	sie	PRON	_	_	3	subj	_	_
+3	alarmierten	alarmieren	VERB	_	_	0	root	_	_
+4	zusammen	zusammen	ADV	_	_	3	mod	_	_
+5	die	d	DET	_	_	6	det	_	_
+6	Polizei	Polizei	NOUN	_	_	3	comp:obj	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Schadenersatz wäre meiner Meinung nach ausreichend .
+1	Schadenersatz	Schadenersatz	NOUN	_	_	2	subj	_	_
+2	wäre	wäre	VERB	_	_	0	root	_	_
+3	meiner	mein	DET	_	_	4	det	_	_
+4	Meinung	Meinung	NOUN	_	_	5	comp:obj	_	_
+5	nach	nach	ADP	_	_	2	mod	_	_
+6	ausreichend	ausreichend	ADV	_	_	2	comp:pred	_	_
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Ich hoffe ihren Ermittlungen damit geholfen zu haben ,
+1	Ich	ich	PRON	_	_	2	subj	_	_
+2	hoffe	hoffen	VERB	_	_	0	root	_	_
+3	ihren	ihr	DET	_	_	4	det	_	_
+4	Ermittlungen	Ermittlung	NOUN	_	_	6	comp:obj	_	_
+5	damit	damit	ADV	_	_	6	mod	_	_
+6	geholfen	helfen	VERB	_	_	2	comp:obj	_	_
+7	zu	zu	PART	_	_	6	comp:obl	_	_
+8	haben	haben	AUX	_	_	7	comp:obj	_	_
+9	,	,	PUNCT	_	_	2	punct	_	_
+
+# text = danke
+1	danke	danke	ADJ	_	_	0	root	_	_
+

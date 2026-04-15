@@ -1,0 +1,140 @@
+# text = Auf einem Parkplatz in der {streetname}straße 14 hat sich am 06.02.18 ein Autounfall ereignet .
+1	Auf	auf	ADP	APPR	_	14	mod	_	_
+2	einem	ein	DET	ART	_	3	det	_	_
+3	Parkplatz	Parkplatz	NOUN	NN	_	1	comp:obj	_	_
+4	in	in	ADP	APPR	_	3	mod	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	{streetname}straße	{streetname}straße	PROPN	NE	_	4	comp:obj	_	_
+7	14	@card@	PROPN	CARD	_	6	flat	_	_
+8	hat	haben	AUX	VAFIN	_	0	root	_	_
+9	sich	er|es|sie	PRON	PRF	_	14	comp:obj	_	_
+10	am	an	ADJ	APPRART	_	14	mod	_	_
+11	06.02.18	@card@	X	CARD	_	10	comp:obj	_	_
+12	ein	ein	DET	ART	_	13	det	_	_
+13	Autounfall	Autounfall	NOUN	NN	_	8	subj	_	_
+14	ereignet	ereignen	VERB	VVPP	_	8	comp:aux	_	_
+15	.	.	PUNCT	$.	_	8	punct	_	_
+
+# text = Eine Familie mit einem Kinderwagen war dabei , die Straße zu überqueren .
+1	Eine	ein	DET	ART	_	2	det	_	_
+2	Familie	Familie	NOUN	NN	_	6	subj	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	einem	ein	DET	ART	_	5	det	_	_
+5	Kinderwagen	Kinderwagen	NOUN	NN	_	3	comp:obj	_	_
+6	war	sein	VERB	VAFIN	_	0	root	_	_
+7	dabei	dabei	ADV	ADV	_	6	comp:pred	_	_
+8	,	,	PUNCT	$,	_	6	punct	_	_
+9	die	d	DET	ART	_	10	det	_	_
+10	Straße	Straße	NOUN	NN	_	12	comp:obj	_	_
+11	zu	zu	PART	PTKZU	_	7	comp:obj	_	_
+12	überqueren	überqueren	VERB	VVINF	_	11	comp:obj	_	_
+13	.	.	PUNCT	$.	_	6	punct	_	_
+
+# text = Der Familienvater ließ einen Ball fallen , welcher dann über die Straße gerollt ist .
+1	Der	d	DET	ART	_	2	det	_	_
+2	Familienvater	Familienvater	NOUN	NN	_	3	subj	_	_
+3	ließ	lassen	VERB	VVFIN	_	0	root	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	6	comp:obj	_	_
+6	fallen	fallen	VERB	VVINF	_	3	comp:obj	_	_
+7	,	,	PUNCT	$,	_	6	punct	_	_
+8	welcher	welch	PRON	PRELS	_	14	subj	_	_
+9	dann	dann	ADV	ADV	_	14	mod	_	_
+10	über	über	ADP	APPR	_	13	comp:obl	_	_
+11	die	d	DET	ART	_	12	det	_	_
+12	Straße	Straße	NOUN	NN	_	10	comp:obj	_	_
+13	gerollt	rollen	VERB	VVPP	_	14	comp:aux	_	_
+14	ist	sein	AUX	VAFIN	_	5	mod@relcl	_	_
+15	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Auf der anderen Seite der Straße war eine Hundebesitzerin dabei ihre Einkäufe ins Auto zu räumen , als ihr Hund dann auf den Ball zugerannt ist .
+1	Auf	auf	ADP	APPR	_	7	mod	_	_
+2	der	d	DET	ART	_	4	det	_	_
+3	anderen	ander	ADJ	PIDAT	_	4	mod	_	_
+4	Seite	Seite	NOUN	NN	_	1	comp:obj	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Straße	Straße	PROPN	NN	_	4	mod@poss	_	_
+7	war	sein	VERB	VAFIN	_	0	root	_	_
+8	eine	ein	DET	ART	_	9	det	_	_
+9	Hundebesitzerin	Hundebesitzerin	NOUN	NN	_	7	subj	_	_
+10	dabei	dabei	ADV	ADV	_	7	comp:pred	_	_
+11	ihre	ihr	DET	PPOSAT	_	12	det	_	_
+12	Einkäufe	Einkauf	NOUN	NN	_	16	comp:obj	_	_
+13	ins	in	PROPN	APPRART	_	16	comp:obl	_	_
+14	Auto	Auto	PROPN	NN	_	13	comp:obj	_	_
+15	zu	zu	ADP	PTKZU	_	10	comp:obj	_	_
+16	räumen	räumen	NOUN	VVINF	_	15	comp:obj	_	_
+17	,	,	PUNCT	$,	_	7	punct	_	_
+18	als	als	ADP	KON	_	7	mod	_	_
+19	ihr	ihr	DET	PPOSAT	_	20	det	_	_
+20	Hund	Hund	NOUN	NN	_	26	subj	_	_
+21	dann	dann	ADV	ADV	_	26	mod	_	_
+22	auf	auf	ADP	APPR	_	25	comp:obl	_	_
+23	den	d	DET	ART	_	24	det	_	_
+24	Ball	Ball	NOUN	NN	_	22	comp:obj	_	_
+25	zugerannt	zurennen	ADJ	VVPP	_	26	comp:aux	_	_
+26	ist	sein	VERB	VAFIN	_	18	comp:obj	_	_
+27	.	.	PUNCT	$.	_	7	punct	_	_
+
+# text = Dies hat ein blaues Auto dazu gebracht , plötzlich anzuhalten , wodurch ein weißes Auto , welches dem blauen Auto hinterherfuhr , in das blaue Auto reingefahren ist und so den Unfall verursacht hat .
+1	Dies	dies	PRON	PDS	_	2	subj	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	5	det	_	_
+4	blaues	blaue	PROPN	ADJA	_	5	mod	_	_
+5	Auto	Auto	PROPN	NN	_	7	comp:obj	_	_
+6	dazu	dazu	ADV	ADV	_	7	comp:obl	_	_
+7	gebracht	bringen	VERB	VVPP	_	2	comp:aux	_	_
+8	,	,	PUNCT	$,	_	2	punct	_	_
+9	plötzlich	plötzlich	ADJ	ADJD	_	10	mod	_	_
+10	anzuhalten	anhalten	VERB	VVIZU	_	6	comp:obl	_	_
+11	,	,	PUNCT	$,	_	10	punct	_	_
+12	wodurch	wodurch	PRON	PWAV	_	7	mod	_	_
+13	ein	ein	DET	ART	_	15	det	_	_
+14	weißes	weiße	ADJ	ADJA	_	15	mod	_	_
+15	Auto	Auto	NOUN	NN	_	28	subj	_	_
+16	,	,	PUNCT	$,	_	28	punct	_	_
+17	welches	welch	PRON	PRELS	_	21	subj	_	_
+18	dem	d	DET	ART	_	20	det	_	_
+19	blauen	blaue	ADJ	ADJA	_	20	mod	_	_
+20	Auto	Auto	NOUN	NN	_	21	comp:obj	_	_
+21	hinterherfuhr	hinterherfahren	VERB	VVFIN	_	15	mod@relcl	_	_
+22	,	,	PUNCT	$,	_	21	punct	_	_
+23	in	in	ADP	APPR	_	27	comp:obl	_	_
+24	das	d	DET	ART	_	26	det	_	_
+25	blaue	blaue	ADJ	ADJA	_	26	mod	_	_
+26	Auto	Auto	NOUN	NN	_	23	comp:obj	_	_
+27	reingefahren	reinfahren	VERB	VVPP	_	28	comp:aux	_	_
+28	ist	sein	VERB	VAFIN	_	12	comp:obj	_	_
+29	und	und	CCONJ	KON	_	34	cc	_	_
+30	so	so	ADV	ADV	_	34	mod	_	_
+31	den	d	DET	ART	_	32	det	_	_
+32	Unfall	Unfall	NOUN	NN	_	33	comp:obj	_	_
+33	verursacht	verursachen	VERB	VVPP	_	34	comp:aux	_	_
+34	hat	haben	AUX	VAFIN	_	28	conj	_	_
+35	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Die beteiligten Autobesitzer haben daraufhin sofort die Polizei benachrichtigt
+1	Die	d	DET	ART	_	3	det	_	_
+2	beteiligten	beteiligtE	ADJ	ADJA	_	3	mod	_	_
+3	Autobesitzer	Autobesitzer	NOUN	NN	_	4	subj	_	_
+4	haben	haben	AUX	VAFIN	_	0	root	_	_
+5	daraufhin	daraufhin	ADV	ADV	_	4	mod	_	_
+6	sofort	sofort	ADV	ADV	_	4	mod	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Polizei	Polizei	NOUN	NN	_	9	comp:obj	_	_
+9	benachrichtigt	benachrichtigen	VERB	VVPP	_	4	comp:aux	_	_
+
+# text = und der Familienvater hat der Hundebesitzerin geholfen , ihre Einkäufe aufzusammeln .
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Familienvater	Familienvater	NOUN	NN	_	4	subj	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Hundebesitzerin	Hundebesitzerin	NOUN	NN	_	7	comp:obj	_	_
+7	geholfen	helfen	VERB	VVPP	_	4	comp:aux	_	_
+8	,	,	PUNCT	$,	_	4	punct	_	_
+9	ihre	ihr	DET	PPOSAT	_	10	det	_	_
+10	Einkäufe	Einkauf	NOUN	NN	_	11	comp:obj	_	_
+11	aufzusammeln	aufsammeln	VERB	VVIZU	_	7	comp:obl	_	_
+12	.	.	PUNCT	$.	_	4	punct	_	_
+

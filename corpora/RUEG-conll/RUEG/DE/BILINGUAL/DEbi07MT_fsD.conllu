@@ -1,0 +1,146 @@
+# text = äh Fallnummer F16
+1	äh	äh	INTJ	NGHES	Degree=Pos	2	discourse	_	_
+2	Fallnummer	Fallnummer	NOUN	NN	_	0	root	_	_
+3	F16	F16	PROPN	NE	_	2	appos	_	_
+
+# text = äh ein Mann dribbelte mit ein Mann dribbelte mit einem Ball auf dem Bürgersteig
+1	äh	äh	INTJ	NGHES	Degree=Pos	8	discourse	_	_
+2	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	4	subj	_	_
+4	dribbelte	dribbeln	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	8	reparandum	_	_
+5	mit	mit	ADP	APPR	_	4	comp:obl	_	_
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	8	subj	_	_
+8	dribbelte	dribbeln	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+9	mit	mit	ADP	APPR	_	8	comp:obl	_	_
+10	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	9	comp:obj	_	_
+12	auf	auf	ADP	APPR	_	8	mod	_	_
+13	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	14	det	_	_
+14	Bürgersteig	Bürgersteig	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	12	comp:obj	_	_
+
+# text = und äh dabei entfloh das Ball äh der äh der Ball über die Straße
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	INTJ	NGHES	Degree=Pos	4	discourse	_	_
+3	dabei	dabei	ADV	ADV	_	4	mod	_	_
+4	entfloh	entfliehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	8	reparandum	_	_
+7	äh	äh	INTJ	NGHES	_	4	discourse	_	_
+8	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	reparandum	_	_
+9	äh	äh	VERB	VVFIN	Case=Nom|Gender=Masc|Number=Sing	4	discourse	_	_
+10	der	d	DET	ART	Definite=Def|PronType=Art	11	det	_	_
+11	Ball	Ball	NOUN	NN	_	4	subj	_	_
+12	über	über	NOUN	NN	_	4	comp:obl	_	_
+13	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	comp:obj	_	_
+
+# text = und überquerte die Straße
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	überquerte	überqueren	VERB	VVFIN	VerbForm=Fin	0	root	_	_
+3	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	comp:obj	_	_
+
+# text = gegenüber auf der Straße war dann eine Dame die gerade ihren Einkauf einpackte in ihr Auto und ihr Hund nicht ganz festhielt
+1	gegenüber	gegenüber	ADP	APPR	_	2	mod	_	_
+2	auf	auf	ADP	APPR	_	5	comp:pred	_	_
+3	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Straße	Straße	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	comp:obj	_	_
+5	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	dann	dann	ADV	ADV	_	5	mod	_	_
+7	eine	ein	DET	ART	Definite=Ind|PronType=Art	8	det	_	_
+8	Dame	Dame	NOUN	NN	_	5	subj	_	_
+9	die	d	PRON	PRELS	Case=Nom|PronType=Dem	13	subj	_	_
+10	gerade	gerade	ADV	ADV	_	13	mod	_	_
+11	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	Einkauf	Einkauf	NOUN	NN	_	13	comp:obj	_	_
+13	einpackte	einpackte	VERB	VVFIN	_	8	mod@relcl	_	_
+14	in	in	ADP	APPR	_	13	comp:obl	_	_
+15	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	16	det	_	_
+16	Auto	Auto	NOUN	NN	_	14	comp:obj	_	_
+17	und	und	CCONJ	KON	_	22	cc	_	_
+18	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	19	det	_	_
+19	Hund	Hund	NOUN	NN	Case=Acc|Number=Sing	22	comp:obj	_	_
+20	nicht	nicht	INTJ	PTKNEG	_	21	mod	_	_
+21	ganz	ganz	ADJ	ADJD	Degree=Pos	22	mod	_	_
+22	festhielt	festhalten	VERB	VVFIN	Person=3|VerbForm=Fin	13	conj	_	_
+
+# text = nachdem der Ball über die Straße äh ja überquerte äh äh sprang der Hund auf
+1	nachdem	nachdem	CCONJ	KOUS	_	12	mod	_	_
+2	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Ball	Ball	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	subj	_	_
+4	über	über	ADP	APPR	_	9	comp:obl	_	_
+5	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	comp:obj	_	_
+7	äh	äh	INTJ	NGHES	Degree=Pos	12	discourse	_	_
+8	ja	ja	ADV	PTKMA	_	12	discourse	_	_
+9	überquerte	überqueren	VERB	VVFIN	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	comp:obj	_	_
+10	äh	äh	INTJ	NGHES	Case=Nom|Gender=Masc|Number=Sing	12	discourse	_	_
+11	äh	äh	INTJ	NGHES	Degree=Pos	12	discourse	_	_
+12	sprang	springen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+13	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	subj	_	_
+15	auf	auf	ADV	PTKVZ	_	12	compound@prt	_	_
+
+# text = und ging dann halt zum Ball hin
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ging	gehen	VERB	VVFIN	VerbForm=Fin	0	root	_	_
+3	dann	dann	ADV	ADV	_	2	mod	_	_
+4	halt	halt	ADV	PTKMA	_	2	discourse	_	_
+5	zum	zum	ADP	APPRART	_	2	comp:obl	_	_
+6	Ball	Ball	NOUN	NN	_	5	comp:obj	_	_
+7	hin	hin	ADV	PTKVZ	_	2	compound@prt	_	_
+
+# text = und kurz davor äh bog halt der blaue Renault und der weiße Volkswagen in die Straße ein
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	kurz	kurz	ADJ	ADJA	Degree=Pos	3	mod	_	_
+3	davor	davor	ADV	ADV	_	5	mod	_	_
+4	äh	äh	INTJ	NGHES	Degree=Pos	5	discourse	_	_
+5	bog	biegen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+6	halt	halt	ADV	PTKMA	_	5	discourse	_	_
+7	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	blaue	blau	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	9	mod	_	_
+9	Renault	Renault	NOUN	NN	_	5	subj	_	_
+10	und	und	CCONJ	KON	_	13	cc	_	_
+11	der	d	DET	ART	Definite=Def|PronType=Art	13	det	_	_
+12	weiße	weiß	ADJ	ADJA	Degree=Pos	13	mod	_	_
+13	Volkswagen	Volkswagen	PROPN	NE	_	9	conj	_	_
+14	in	in	ADP	APPR	_	5	comp:obl	_	_
+15	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	comp:obj	_	_
+17	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	5	compound@prt	_	_
+
+# text = äh nachdem plötzlich halt der Ball und ein Hund auf der Straße war im Verkehr war hat der blaue Renault dann äh abgebremst
+1	äh	äh	INTJ	NGHES	Degree=Pos	17	discourse	_	_
+2	nachdem	nachdem	CCONJ	KOUS	_	23	mod	_	_
+3	plötzlich	plötzlich	ADJ	ADJD	Degree=Pos	13	mod	_	_
+4	halt	halt	ADV	PTKMA	_	17	discourse	_	_
+5	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Ball	Ball	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	subj	_	_
+7	und	und	CCONJ	KON	_	9	cc	_	_
+8	ein	ein	DET	ART	Definite=Ind|PronType=Art	9	det	_	_
+9	Hund	Hund	NOUN	NN	_	6	conj	_	_
+10	auf	auf	ADP	APPR	_	13	comp:pred	_	_
+11	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Straße	Straße	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	comp:obj	_	_
+13	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	comp:obj	_	_
+14	im	im	ADP	APPRART	Case=Nom|Number=Sing	16	comp:pred	_	_
+15	Verkehr	Verkehr	NOUN	NN	Case=Nom|Number=Sing	14	comp:obj	_	_
+16	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	conj	_	_
+17	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	blaue	blau	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	20	mod	_	_
+20	Renault	Renault	NOUN	NN	_	17	subj	_	_
+21	dann	dann	ADV	ADV	_	17	mod	_	_
+22	äh	äh	INTJ	NGHES	Degree=Pos	17	discourse	_	_
+23	abgebremst	abbremsen	VERB	VVPP	_	17	comp:aux	_	_
+
+# text = und der weiße Volkswagen ist hinten raufgefahren
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	der	d	DET	ART	Definite=Def|PronType=Art	4	det	_	_
+3	weiße	weiß	ADJ	ADJA	Degree=Pos	4	mod	_	_
+4	Volkswagen	Volkswagen	PROPN	NE	_	5	subj	_	_
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	hinten	hinten	ADV	ADV	_	5	mod	_	_
+7	raufgefahren	raufgefahren	VERB	VVFIN	VerbForm=Inf	5	comp:aux	_	_
+

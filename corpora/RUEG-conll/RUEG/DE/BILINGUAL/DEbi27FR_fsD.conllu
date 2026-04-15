@@ -1,0 +1,83 @@
+# text = äh hallo
+1	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+2	hallo	hallo	X	NGIRR	_	0	root	_	_
+
+# text = DEbi27FR hier mit der Fallnummer F16
+1	DEbi27FR	DEbi27FR	NOUN	NE	_	0	root	_	_
+2	hier	hier	ADV	ADV	_	1	orphan	_	_
+3	mit	mit	ADP	APPR	_	1	mod	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Fallnummer	Fallnummer	NOUN	NN	_	3	comp:obj	_	_
+6	F16	F16	PROPN	NE	_	5	appos	_	_
+
+# text = ich habe gerade einen Auffahrunfall äh auf dem Parkplatz x y beobachtet
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Auffahrunfall	Auffahrunfall	NOUN	NN	_	12	comp:obj	_	_
+6	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+7	auf	auf	ADP	APPR	_	5	mod	_	_
+8	dem	d	DET	ART	_	9	det	_	_
+9	Parkplatz	Parkplatz	NOUN	NN	_	7	comp:obj	_	_
+10	x	x	PROPN	XY	_	9	appos	_	_
+11	y	y	PROPN	YX	_	10	flat	_	_
+12	beobachtet	beobachten	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = dabei äh ist einem Fußgänger der äh Fußball aus der Hand gefallen und auf die Fahrbahn gerollt
+1	dabei	dabei	ADV	ADV	_	3	mod	_	_
+2	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	einem	ein	DET	ART	_	5	det	_	_
+5	Fußgänger	Fußgänger	NOUN	NN	_	12	comp:obj	_	_
+6	der	d	DET	ART	_	8	det	_	_
+7	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+8	Fußball	Fußball	NOUN	NN	_	3	subj	_	_
+9	aus	aus	ADP	APPR	_	12	comp:obl	_	_
+10	der	d	DET	ART	_	11	det	_	_
+11	Hand	Hand	NOUN	NN	_	9	comp:obj	_	_
+12	gefallen	fallen	ADJ	VVPP	_	3	comp:aux	_	_
+13	und	und	CCONJ	KON	_	17	cc	_	_
+14	auf	auf	ADP	APPR	_	17	comp:obl	_	_
+15	die	d	DET	ART	_	16	det	_	_
+16	Fahrbahn	Fahrbahn	NOUN	NN	_	14	comp:obj	_	_
+17	gerollt	rollen	VERB	VVPP	_	3	conj	_	_
+
+# text = äh und daraufhin musste äh ein anfahrendes Auto scharf bremsen woraufhin das Auto dahinter keine Zeit mehr hatte und dementsprechend äh dem ersten Auto hinten aufgefahren ist
+1	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+2	und	und	CCONJ	KON	_	4	cc	_	_
+3	daraufhin	daraufhin	ADV	ADV	_	4	mod	_	_
+4	musste	müssen	AUX	VMFIN	_	0	root	_	_
+5	äh	äh	ADV	NGHES	_	4	discourse	_	_
+6	ein	ein	DET	ART	_	8	det	_	_
+7	anfahrendes	anfahrende	ADJ	ADJA	_	8	mod	_	_
+8	Auto	Auto	NOUN	NN	_	4	subj	_	_
+9	scharf	scharf	ADJ	ADJD	_	4	mod	_	_
+10	bremsen	bremsen	VERB	VVINF	_	4	comp:aux	_	_
+11	woraufhin	woraufhin	ADV	PWAV	_	10	mod	_	_
+12	das	d	DET	ART	_	13	det	_	_
+13	Auto	Auto	NOUN	NN	_	18	subj	_	_
+14	dahinter	dahinter	ADP	ADV	_	13	mod	_	_
+15	keine	kein	PRON	PIAT	_	16	det	_	_
+16	Zeit	Zeit	NOUN	NN	_	18	comp:obj	_	_
+17	mehr	mehr	ADV	ADV	_	16	mod	_	_
+18	hatte	haben	VERB	VAFIN	_	11	comp:obj	_	_
+19	und	und	CCONJ	KON	_	27	cc	_	_
+20	dementsprechend	dementsprechend	ADJ	ADJD	_	27	mod	_	_
+21	äh	äh	NOUN	NGHES	_	4	discourse	_	_
+22	dem	d	DET	ART	_	24	det	_	_
+23	ersten	erst	ADJ	ORD	_	24	mod	_	_
+24	Auto	Auto	NOUN	NN	_	26	comp:obj	_	_
+25	hinten	hinten	ADV	ADV	_	27	mod	_	_
+26	aufgefahren	auffahren	VERB	VVPP	_	27	comp:aux	_	_
+27	ist	sein	VERB	VAFIN	_	18	conj	_	_
+
+# text = ja freue mich auf Rückruf
+1	ja	ja	ADV	NGIRR	_	2	discourse	_	_
+2	freue	freuen	VERB	VVFIN	_	0	root	_	_
+3	mich	ich	PRON	PRF	_	2	comp:obj	_	_
+4	auf	auf	ADP	APPR	_	2	mod	_	_
+5	Rückruf	Rückruf	NOUN	NN	_	4	comp:obj	_	_
+
+
+

@@ -1,0 +1,101 @@
+# text = ey gerade ist ein Typ in einen anderen Typen hinten reingefahren weil weil äh ein Typ einen Ball auf die Straße geschmissen hat und äh daraufhin eine Fußhupe äh diesen verfolgt hat und die Frau an die die Leine von dem äh Hund gehalten hat äh ins Straucheln kam und dadurch sich ihr kompletter Tüteninhalt auf dem Boden verteilt hat
+1	ey	ey	PROPN	NGIRR	Case=Nom|Number=Sing	3	discourse	_	_
+2	gerade	gerade	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Typ	Typ	NOUN	NN	_	3	subj	_	_
+6	in	in	ADP	APPR	_	11	comp:obl	_	_
+7	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	anderen	ander	ADJ	PIDAT	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	9	mod	_	_
+9	Typen	Typ	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	comp:obj	_	_
+10	hinten	hinten	ADV	ADV	_	3	mod	_	_
+11	reingefahren	reinfahren	VERB	VVPP	Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+12	weil	weil	SCONJ	KOUS	_	13	reparandum	_	_
+13	weil	weil	SCONJ	KOUS	_	11	mod	_	_
+14	äh	äh	ADV	NGHES	_	3	discourse	_	_
+15	ein	ein	DET	ART	Definite=Ind|PronType=Art	16	det	_	_
+16	Typ	Typ	NOUN	NN	_	23	subj	_	_
+17	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	comp:obj	_	_
+19	auf	auf	ADP	APPR	_	22	mod	_	_
+20	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	comp:obj	_	_
+22	geschmissen	schmeißen	VERB	VVPP	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	comp:aux	_	_
+23	hat	haben	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	13	comp:obj	_	_
+24	und	und	CCONJ	KON	_	32	cc	_	_
+25	äh	äh	ADJ	NGHES	Degree=Pos	3	discourse	_	_
+26	daraufhin	daraufhin	ADV	ADV	_	32	mod	_	_
+27	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Fußhupe	Fußhupe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	32	subj	_	_
+29	äh	äh	ADV	NGHES	_	3	discourse	_	_
+30	diesen	dies	PRON	PDS	Case=Acc|PronType=Dem	31	comp:obj	_	_
+31	verfolgt	verfolgen	VERB	VVPP	Tense=Past|VerbForm=Part	32	comp:aux	_	_
+32	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	conj	_	_
+33	und	und	CCONJ	KON	_	49	cc	_	_
+34	die	d	DET	ART	Definite=Def|PronType=Art	35	det	_	_
+35	Frau	Frau	NOUN	NN	_	49	subj	_	_
+36	an	an	ADP	APPR	_	37	reparandum	_	_
+37	die	d	PRON	PRELS	Case=Acc|PronType=Rel	45	subj	_	_
+38	die	d	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	39	det	_	_
+39	Leine	Leine	NOUN	NN	Case=Nom|Number=Plur	44	comp:obj	_	_
+40	von	von	ADP	APPR	_	39	mod@poss	_	_
+41	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	43	det	_	_
+42	äh	äh	NOUN	NGHES	Case=Dat|Gender=Masc,Neut|Number=Sing	3	discourse	_	_
+43	Hund	Hund	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	40	comp:obj	_	_
+44	gehalten	halten	VERB	VVPP	Tense=Past|VerbForm=Part	45	comp:aux	_	_
+45	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	mod@relcl	_	_
+46	äh	äh	PROPN	NGHES	Case=Nom|Number=Sing	3	discourse	_	_
+47	ins	in	PROPN	APPRART	Case=Nom|Gender=Fem|Number=Sing	49	comp:obl	_	_
+48	Straucheln	Straucheln	NOUN	NN	Case=Acc|Number=Plur	47	comp:obj	_	_
+49	kam	kommen	VERB	VVFIN	Person=3|Tense=Past|VerbForm=Fin	32	conj	_	_
+50	und	und	CCONJ	KON	_	60	cc	_	_
+51	dadurch	dadurch	ADV	ADV	_	60	mod	_	_
+52	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs	59	comp:obj	_	_
+53	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	55	det	_	_
+54	kompletter	komplette	NOUN	ADJA	Case=Nom|Number=Sing	55	mod	_	_
+55	Tüteninhalt	Tüteninhalt	VERB	NN	_	60	subj	_	_
+56	auf	auf	ADP	APPR	_	59	mod	_	_
+57	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	58	det	_	_
+58	Boden	Boden	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	56	comp:obj	_	_
+59	verteilt	verteilen	VERB	VVPP	Tense=Past|VerbForm=Part	60	comp:aux	_	_
+60	hat	haben	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	49	conj	_	_
+
+# text = äh wie gesagt der Typ ist ihm halt hinten draufgefahren
+1	äh	äh	ADJ	NGHES	Degree=Pos	6	discourse	_	_
+2	wie	wie	ADV	KOUS	_	3	mod	_	_
+3	gesagt	sagen	VERB	VVPP	Tense=Past|VerbForm=Part	6	parataxis	_	_
+4	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Typ	Typ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	subj	_	_
+6	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	comp:obj	_	_
+8	halt	halt	ADV	PTKMA	_	6	discourse	_	_
+9	hinten	hinten	ADV	ADV	_	6	mod	_	_
+10	draufgefahren	drauffahren	VERB	VVPP	Tense=Past|VerbForm=Fin	6	comp:aux	_	_
+
+# text = der Vordere ist dann ausgestiegen
+1	der	d	DET	ART	Definite=Def|PronType=Art	2	det	_	_
+2	Vordere	Vordere	ADJ	NN	Case=Nom|Degree=Pos|Number=Sing	3	subj	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	ausgestiegen	aussteigen	VERB	VVPP	Tense=Past|VerbForm=Inf	3	comp:aux	_	_
+
+# text = sah aus wie der letzte Pleb
+1	sah	sehen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	aus	aus	ADV	PTKVZ	_	1	compound@prt	_	_
+3	wie	wie	ADP	KOKOM	_	1	mod	_	_
+4	der	d	DET	ART	Definite=Def|PronType=Art	6	det	_	_
+5	letzte	letzte	ADJ	ADJA	Degree=Pos	6	mod	_	_
+6	Pleb	Pleb	NOUN	NN	_	3	comp:obj	_	_
+
+# text = äh hat die Polizei gerufen
+1	äh	äh	ADJ	NGHES	Degree=Pos	2	discourse	_	_
+2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Polizei	Polizei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	comp:obj	_	_
+5	gerufen	rufen	VERB	VVPP	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+
+# text = äh ja
+1	äh	äh	ADJ	NGHES	Degree=Pos	2	discourse	_	_
+2	ja	ja	ADV	NGIRR	_	0	root	_	_
+
+

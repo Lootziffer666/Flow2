@@ -1,0 +1,81 @@
+1	yeah	yeah	INTJ	ITJ	_	0	root	_	_
+2	hey	hey	INTJ	ITJ	_	1	discourse	_	_
+
+1	how	how	ADV	AVQ	_	4	advmod	_	_
+2	's	be	AUX	VBZ	_	3	cop	_	_
+3	it	it	PRON	PNP	_	4	nsubj	_	_
+4	going	go	VERB	VVG	_	0	root	_	_
+
+1	yeah	yeah	INTJ	ITJ	_	4	discourse	_	_
+2	I	i	PRON	PNP	_	4	nsubj	_	_
+3	am	be	AUX	VBB	_	4	aux	_	_
+4	calling	call	VERB	VVG	_	0	root	_	_
+5	in	in	ADP	PRP	_	6	case	_	_
+6	regards	regards	NOUN	NN2	_	4	obl	_	_
+7	to	to	ADP	PRP	_	9	case	_	_
+8	case	case	NOUN	NN1	_	7	fixed	_	_
+9	F16	F16	PROPN	NP0	_	6	nmod	_	_
+
+1	yeah	yeah	INTJ	ITJ	_	6	discourse	_	_
+2	there	there	ADV	EX0	_	6	advmod	_	_
+3	was	be	AUX	VBD	_	6	cop	_	_
+4	a	a	DET	AT0	_	6	det	_	_
+5	car	car	NOUN	NN1	_	6	compound	_	_
+6	accident	accident	NOUN	NN1	_	0	root	_	_
+
+1	white	white	ADJ	AJ0	_	2	amod	_	_
+2	car	car	NOUN	NN1	_	3	nsubj	_	_
+3	crashed	crash	VERB	VVD	_	0	root	_	_
+4	into	into	ADP	PRP	_	7	case	_	_
+5	a	a	DET	AT0	_	7	det	_	_
+6	blue	blue	ADJ	AJ0	_	7	amod	_	_
+7	Opel	opel	NOUN	NN1	_	3	obl	_	_
+
+1	I	i	PRON	PNP	_	2	nsubj	_	_
+2	mean	mean	VERB	VVB	_	6	discourse	_	_
+3	it	it	PRON	PNP	_	6	nsubj	_	_
+4	was	be	AUX	VBD	_	6	cop	_	_
+5	a	a	DET	AT0	_	6	det	_	_
+6	bunch	bunch	NOUN	NN1	_	0	root	_	_
+7	of	of	ADP	PRF	_	8	case	_	_
+8	chaos	chaos	NOUN	NN1	_	6	nmod	_	_
+
+1	yeah	yeah	INTJ	ITJ	_	4	discourse	_	_
+2	some	some	DET	DT0	_	3	det	_	_
+3	guy	guy	NOUN	NN1	_	4	nsubj	_	_
+4	drops	drop	VERB	VVZ	_	0	root	_	_
+5	groceries	grocery	NOUN	NN2	_	4	obj	_	_
+
+1	a	a	DET	AT0	_	2	det	_	_
+2	dog	dog	NOUN	NN1	_	3	nsubj	_	_
+3	ran	run	VERB	VVD	_	0	root	_	_
+4	out	out	ADP	AVP	_	3	compound:prt	_	_
+5	on	on	ADP	PRP	_	7	case	_	_
+6	the	the	DET	AT0	_	7	det	_	_
+7	street	street	NOUN	NN1	_	3	obl	_	_
+
+1	I	i	PRON	PNP	_	2	nsubj	_	_
+2	mean	mean	VERB	VVB	_	6	discourse	_	_
+3	everybody	everybody	PRON	PNI	_	6	nsubj	_	_
+4	was	be	AUX	VBD	_	6	cop	_	_
+5	generally	generally	ADV	AV0	_	6	advmod	_	_
+6	okay	okay	ADJ	AJ0	_	0	root	_	_
+
+1	but	but	CCONJ	CJC	_	6	cc	_	_
+2	it	it	PRON	PNP	_	6	nsubj	_	_
+3	was	be	AUX	VBD	_	6	cop	_	_
+4	kind	kind	ADV	AV0	_	6	advmod	_	_
+5	of	of	ADP	PRF	_	4	fixed	_	_
+6	chaotic	chaotic	ADJ	AJ0	_	0	root	_	_
+
+1	yeah	yeah	INTJ	ITJ	_	0	root	_	_
+
+1	so	so	INTJ	ITJ	_	7	discourse	_	_
+2	yeah	yeah	INTJ	ITJ	_	1	discourse	_	_
+3	if	if	SCONJ	CJS	_	7	mark	_	_
+4	you	you	PRON	PNP	_	7	nsubj	_	_
+5	guys	guy	NOUN	NN2	_	4	appos	_	_
+6	could	could	AUX	VM0	_	7	aux	_	_
+7	come	come	VERB	VVI	_	0	root	_	_
+8	down	down	ADP	AVP	_	7	compound:prt	_	_
+

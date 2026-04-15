@@ -1,0 +1,116 @@
+# text = Hauptsache ich laufe hier gerade so entlang
+1	Hauptsache	Hauptsache	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+2	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	laufe	laufen	VERB	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	orphan	_	_
+4	hier	hier	ADV	_	_	3	mod	_	_
+5	gerade	gerade	ADV	_	_	3	mod	_	_
+6	so	so	ADV	_	_	3	mod	_	_
+7	entlang	entlang	ADJ	_	Degree=Pos	3	compound@prt	_	_
+
+# text = und da war so ein Pärchen
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	da	da	ADV	_	_	3	comp:pred	_	_
+3	war	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	so	so	ADV	_	_	6	mod	_	_
+5	ein	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Pärchen	Pärchen	NOUN	_	Case=Acc|Gender=Masc,Neut|Number=Sing	3	subj	_	_
+
+# text = und der Mann hat mit einem Ball gespielt
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Mann	Mann	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+4	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	mit	mit	ADP	_	_	8	mod	_	_
+6	einem	ein	DET	_	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Ball	Ball	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	5	comp:obj	_	_
+8	gespielt	spielen	VERB	_	Tense=Past|VerbForm=Part	4	comp:aux	_	_
+
+# text = und auf dem Parkplatz war eine Frau gerade beim Einpacken von ihren Einkäufen
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	auf	auf	ADP	_	_	5	mod	_	_
+3	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Parkplatz	Parkplatz	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	2	comp:obj	_	_
+5	war	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	eine	eine	DET	_	Definite=Ind|PronType=Art	7	det	_	_
+7	Frau	Frau	NOUN	_	_	5	subj	_	_
+8	gerade	gerade	ADV	_	_	5	mod	_	_
+9	beim	beim	ADV	_	_	5	comp:pred	_	_
+10	Einpacken	Einpacken	NOUN	_	Case=Acc|Number=Plur	9	comp:obj	_	_
+11	von	von	ADP	_	_	10	mod@poss	_	_
+12	ihren	ihr	DET	_	Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+13	Einkäufen	Einkäufen	NOUN	_	Case=Dat|Number=Plur	11	comp:obj	_	_
+
+# text = und die hatte einen Hund dabei .
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	die	die	PRON	_	Case=Nom|PronType=Dem	3	subj	_	_
+3	hatte	haben	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+4	einen	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Hund	Hund	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	3	comp:obj	_	_
+6	dabei	dabei	ADV	_	_	3	compound@prt	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Aber das haben die Leute dann gemacht
+1	Dann	dann	ADV	_	_	2	mod	_	_
+2	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Ball	Ball	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	subj	_	_
+5	auf	auf	ADP	_	_	8	comp:obl	_	_
+6	den	d	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Parkplatz	Parkplatz	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	comp:obj	_	_
+8	gerollt	rollen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	comp:aux	_	_
+9	und	und	CCONJ	_	_	11	cc	_	_
+10	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Hund	Hund	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+12	dahin	dahin	ADV	_	_	11	orphan	_	_
+13	,	,	PUNCT	_	_	11	punct	_	_
+
+# text = von hinten kamen 2 Autos
+1	von	von	ADP	_	_	3	comp:obl	_	_
+2	hinten	hinten	ADV	_	_	1	comp:obj	_	_
+3	kamen	kommen	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	2	@card@	NUM	_	NumType=Card	5	mod	_	_
+5	Autos	Auto	NOUN	_	Case=Nom|Number=Plur	3	subj	_	_
+
+# text = und der erste hat eine Gefahrenbremsung gemacht
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	erste	erst	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	4	subj	_	_
+4	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	eine	eine	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Gefahrenbremsung	Gefahrenbremsung	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	7	comp:obj	_	_
+7	gemacht	machen	VERB	_	Tense=Past|VerbForm=Part	4	comp:aux	_	_
+
+# text = und der dahinter ist volle Kanne hinten rein gefahren
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	der	die	PRON	_	PronType=Dem	4	subj	_	_
+3	dahinter	dahinter	ADV	_	_	2	mod	_	_
+4	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	volle	voll	ADJ	_	Degree=Pos	6	mod	_	_
+6	Kanne	Kanne	NOUN	_	_	4	mod	_	_
+7	hinten	hinten	ADV	_	_	4	mod	_	_
+8	rein	rein	ADJ	_	Degree=Pos	9	compound@prt	_	_
+9	gefahren	fahren	VERB	_	Tense=Past|VerbForm=Part	4	comp:aux	_	_
+
+# text = Ich wusste gar nicht ob ich da jetzt helfen soll oder nicht
+1	Ich	Ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	wusste	wissen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	gar	gar	ADV	_	_	4	mod	_	_
+4	nicht	nicht	PART	_	_	2	mod	_	_
+5	ob	ob	SCONJ	_	_	2	comp:obj	_	_
+6	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	subj	_	_
+7	da	da	ADV	_	_	10	mod	_	_
+8	jetzt	jetzt	ADV	_	_	10	mod	_	_
+9	helfen	helfen	VERB	_	VerbForm=Inf	10	comp:aux	_	_
+10	soll	sollen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
+11	oder	oder	CCONJ	_	_	12	cc	_	_
+12	nicht	nicht	PART	_	_	2	parataxis	_	_
+
+# text = Aber das haben die Leute dann gemacht
+1	Aber	Aber	ADV	_	_	3	cc	_	_
+2	das	die	PRON	_	Case=Nom|PronType=Dem	7	comp:obj	_	_
+3	haben	haben	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Leute	Leute	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	subj	_	_
+6	dann	dann	ADV	_	_	3	mod	_	_
+7	gemacht	machen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+

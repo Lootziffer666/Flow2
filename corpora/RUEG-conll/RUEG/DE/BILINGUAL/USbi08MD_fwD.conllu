@@ -1,0 +1,137 @@
+# text = Es gibt zwei Leute das laufed neben der Straße
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+2	gibt	geben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	zwei	zwei	NUM	CARD	NumType=Card	4	mod	_	_
+4	Leute	Leute	NOUN	NN	Case=Acc|Number=Sing	2	comp:obj	_	_
+5	das	d	DET	PRELS	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	subj	_	_
+6	laufed	laufen	NOUN	VVFIN	Case=Nom|Gender=Neut|Number=Sing	4	mod@relcl	_	_
+7	neben	neben	ADP	APPR	_	6	mod	_	_
+8	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Straße	Straße	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	comp:obj	_	_
+
+# text = und sie ein hat ein Ball auf der Straße gestellt .
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
+3	ein	ein	DET	PIS	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	reparandum	_	_
+4	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Ball	Ball	NOUN	NN	Case=Acc|Number=Sing	10	comp:obj	_	_
+7	auf	auf	ADP	APPR	_	10	comp:obl	_	_
+8	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Straße	Straße	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	comp:obj	_	_
+10	gestellt	stellen	VERB	VVPP	VerbForm=Part	4	comp:aux	_	_
+11	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Jemand hat ein Hund
+1	Jemand	jemand	PRON	PIS	Case=Nom|PronType=Ind	2	subj	_	_
+2	hat	haben	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Hund	Hund	NOUN	NN	Case=Acc|Number=Sing	2	comp:obj	_	_
+
+# text = und ihre Hund hat die Ball gesehen
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	Hund	Hund	NOUN	NN	Case=Acc|Number=Sing	4	subj	_	_
+4	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Ball	Ball	PROPN	NN	_	7	comp:obj	_	_
+7	gesehen	sehen	VERB	VVPP	VerbForm=Part	4	comp:aux	_	_
+
+# text = und hat an das Laufen in der Straße .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	an	an	ADP	APPR	_	2	udep	_	_
+4	das	d	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Laufen	Laufen	NOUN	NN	_	3	comp:obj	_	_
+6	in	in	ADP	APPR	_	2	mod	_	_
+7	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Straße	Straße	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	comp:obj	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Die blaue Auto hat gehaltet
+1	Die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	blaue	blau	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	mod	_	_
+3	Auto	Auto	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	subj	_	_
+4	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	gehaltet	halten	VERB	VVPP	VerbForm=Part	4	comp:aux	_	_
+
+# text = weil die Ball und Hund war vorne es
+1	weil	weil	SCONJ	KOUS	_	6	discourse	_	_
+2	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Ball	Ball	PROPN	NN	_	6	subj	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Hund	Hund	PROPN	NN	_	3	conj	_	_
+6	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	vorne	vorn	ADV	ADV	_	6	comp:pred	_	_
+8	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	_
+
+# text = und die weiße Auto hat Platz zu halten
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	die	d	DET	ART	Definite=Def|PronType=Art	4	det	_	_
+3	weiße	weiß	ADJ	ADJA	Degree=Pos	4	mod	_	_
+4	Auto	Auto	NOUN	NN	_	5	subj	_	_
+5	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	Platz	Platz	NOUN	NN	Case=Acc|Number=Sing	5	comp:obj	_	_
+7	zu	zu	PART	PTKZU	_	5	mod	_	_
+8	halten	halten	VERB	VVINF	VerbForm=Inf	7	comp:obj	_	_
+
+# text = aber hat nicht gehalten vor es
+1	aber	aber	ADV	KON	_	2	cc	_	_
+2	hat	haben	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nicht	nicht	PART	PTKNEG	_	2	mod	_	_
+4	gehalten	halten	VERB	VVPP	VerbForm=Part	2	comp:aux	_	_
+5	vor	vor	ADP	APPR	_	4	comp:obl	_	_
+6	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	_
+
+# text = hat die blaue Auto geschlagt .
+1	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	blaue	blau	PROPN	ADJA	_	4	mod	_	_
+4	Auto	Auto	PROPN	NN	_	5	comp:obj	_	_
+5	geschlagt	schlagen	VERB	VVPP	VerbForm=Part	1	comp:aux	_	_
+6	.	.	PUNCT	$.	_	1	punct	_	_
+
+# text = Die Leute in die zwei Autos hat die Polizei telefoniert
+1	Die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Leute	Leute	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	subj	_	_
+3	in	in	ADP	APPR	_	2	mod	_	_
+4	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	zwei	zwei	NUM	CARD	NumType=Card	6	mod	_	_
+6	Autos	Auto	NOUN	NN	Case=Acc|Number=Sing	3	comp:obj	_	_
+7	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Polizei	Polizei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	comp:obj	_	_
+10	telefoniert	telefonieren	VERB	VVPP	VerbForm=Part	7	comp:aux	_	_
+
+# text = und die Mann wo hat der Ball hat die Frau mit der Hund geholfen
+1	und	und	CCONJ	KON	_	8	cc	_	_
+2	die	d	DET	ART	Definite=Def|PronType=Art	3	det	_	_
+3	Mann	Mann	NOUN	NN|FM	_	8	subj	_	_
+4	wo	wo	ADV	PRELS	PronType=Int	5	subj	_	_
+5	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	_
+6	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Ball	Ball	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	comp:obj	_	_
+8	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Frau	Frau	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	comp:obj	_	_
+11	mit	mit	ADP	APPR	_	10	mod	_	_
+12	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Hund	Hund	NOUN	NN	Case=Dat|Number=Sing	11	comp:obj	_	_
+14	geholfen	helfen	VERB	VVPP	VerbForm=Inf	8	comp:aux	_	_
+
+# text = und dann hat mit die zwei Leute gesprochen das war von die Autos .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	mit	mit	ADP	APPR	_	8	mod	_	_
+5	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	zwei	zwei	NUM	CARD	NumType=Card	7	mod	_	_
+7	Leute	Leute	NOUN	NN	Case=Nom|Number=Sing	4	comp:obj	_	_
+8	gesprochen	sprechen	VERB	VVPP	VerbForm=Part	3	comp:aux	_	_
+9	das	d	PRON	PRELS	Case=Acc|PronType=Dem	10	subj	_	_
+10	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	mod@relcl	_	_
+11	von	von	ADP	APPR	_	10	comp:pred	_	_
+12	die	d	DET	ART	Definite=Def|PronType=Art	13	det	_	_
+13	Autos	Auto	NOUN	NN	Case=Dat|Number=Plur	11	comp:obj	_	_
+14	.	.	PUNCT	$.	_	3	punct	_	_
+

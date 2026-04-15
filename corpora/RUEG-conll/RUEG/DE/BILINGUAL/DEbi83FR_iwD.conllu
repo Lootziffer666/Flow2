@@ -1,0 +1,94 @@
+1	hi	hi	X	_	_	2	discourse	_	_
+2	du	du	PROPN	_	_	0	root	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+
+1	ich	ich	PRON	_	_	2	subj	_	_
+2	bin	sein	VERB	_	_	0	root	_	_
+3	gerade	gerade	ADV	_	_	2	mod	_	_
+4	nach	nach	ADP	_	_	6	comp:obl	_	_
+5	Hause	Haus	NOUN	_	_	4	comp:obj	_	_
+6	gelaufen	laufen	VERB	_	_	2	comp:aux	_	_
+
+1	und	und	CCONJ	_	_	7	cc	_	_
+2	auf	auf	ADP	_	_	13	mod	_	_
+3	dem	d	DET	_	_	4	det	_	_
+4	Parkplatz	Parkplatz	NOUN	_	_	2	comp:obj	_	_
+5	vor	vor	ADP	_	_	4	mod	_	_
+6	Penny	Penny	PROPN	_	_	5	comp:obj	_	_
+7	ist	sein	VERB	_	_	0	root	_	_
+8	in	in	ADP	_	_	13	mod	_	_
+9	dem	d	DET	_	_	10	det	_	_
+10	Moment	Moment	NOUN	_	_	8	comp:obj	_	_
+11	ein	ein	DET	_	_	12	det	_	_
+12	Unfall	Unfall	NOUN	_	_	7	subj	_	_
+13	passiert	passieren	ADJ	_	_	7	comp:aux	_	_
+14	.	.	PUNCT	_	_	7	punct	_	_
+
+1	Nichts	nichts	PRON	_	_	2	det	_	_
+2	Schlimmes	Schlimme	NOUN	_	_	0	root	_	_
+
+1	...	...	PUNCT	_	_	0	root	_	_
+
+1	Ein	ein	DET	_	_	2	det	_	_
+2	Mann	Mann	NOUN	_	_	3	subj	_	_
+3	hat	haben	VERB	_	_	0	root	_	_
+4	seinen	sein	DET	_	_	5	det	_	_
+5	Ball	Ball	NOUN	_	_	9	comp:obj	_	_
+6	aus	aus	ADP	_	_	9	mod	_	_
+7	der	d	DET	_	_	8	det	_	_
+8	Hand	Hand	NOUN	_	_	6	comp:obj	_	_
+9	verloren	verlieren	VERB	_	_	3	comp:aux	_	_
+
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	ein	ein	DET	_	_	3	det	_	_
+3	Hund	Hund	NOUN	_	_	4	subj	_	_
+4	ist	sein	VERB	_	_	0	root	_	_
+5	dem	d	DET	_	_	6	det	_	_
+6	Ball	Ball	NOUN	_	_	7	comp:obj	_	_
+7	hinterhergerannt	hinterherrennen	ADJ	_	_	4	comp:aux	_	_
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+1	Im	in	NOUN	_	_	10	mod	_	_
+2	gleichen	gleiche	ADJ	_	_	3	mod	_	_
+3	Moment	Moment	NOUN	_	_	1	comp:obj	_	_
+4	sind	sein	VERB	_	_	0	root	_	_
+5	zwei	zwei	NUM	_	_	6	mod	_	_
+6	Autos	Auto	NOUN	_	_	4	subj	_	_
+7	auf	auf	ADP	_	_	10	comp:obl	_	_
+8	den	d	DET	_	_	9	det	_	_
+9	Parkplatz	Parkplatz	NOUN	_	_	7	comp:obj	_	_
+10	gefahren	fahren	ADV	_	_	4	comp:aux	_	_
+11	..	..	PUNCT	_	_	4	discourse	_	_
+
+1	Das	d	DET	_	_	2	det	_	_
+2	Vordere	Vordere	ADJ	_	_	3	subj	_	_
+3	hat	haben	AUX	_	_	0	root	_	_
+4	extrem	extrem	ADJ	_	_	5	mod	_	_
+5	stark	stark	ADJ	_	_	6	mod	_	_
+6	gebremst	bremsen	VERB	_	_	3	comp:aux	_	_
+
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	der	d	PRON	_	_	4	subj	_	_
+3	dahinter	dahinter	ADV	_	_	2	mod	_	_
+4	ist	sein	VERB	_	_	0	root	_	_
+5	ihm	er	PRON	_	_	6	comp:obj	_	_
+6	aufgefahren	auffahren.	ADV	_	_	4	comp:aux	_	_
+7	.	.	PUNCT	_	_	4	punct	_	_
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+1	Sie	Sie	PRON	_	_	2	subj	_	_
+2	haben	haben	AUX	_	_	0	root	_	_
+3	direkt	direkt	ADJ	_	_	2	mod	_	_
+4	die	d	DET	_	_	5	det	_	_
+5	Polizei	Polizei	NOUN	_	_	6	comp:obj	_	_
+6	gerufen	rufen	VERB	_	_	2	comp:aux	_	_
+
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	ich	ich	PRON	_	_	3	subj	_	_
+3	habe	haben	AUX	_	_	0	root	_	_
+4	als	als	ADP	_	_	6	mod	_	_
+5	Zeuge	Zeuge	NOUN	_	_	4	comp:obj	_	_
+6	ausgesagt	aussagen	VERB	_	_	3	comp:aux	_	_
+
+1	:grimacing_face:	😬	SYM	_	_	0	root	_	_
+

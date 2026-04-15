@@ -1,0 +1,93 @@
+1	äh	äh	ADJ	_	Degree=Pos	4	discourse	_	_
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	_
+4	habe	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	hier	hier	ADV	_	_	4	mod	_	_
+6	gerade	gerade	ADV	_	_	4	mod	_	_
+7	voll	voll	ADJ	_	Degree=Pos	8	mod	_	_
+8	Action	Action	NOUN	_	_	12	comp:obj	_	_
+9	in	in	ADP	_	_	8	mod	_	_
+10	real	real	PROPN	_	_	9	comp:obj	_	_
+11	life	life	PROPN	_	_	10	flat	_	_
+12	erlebt	erleben	VERB	_	Tense=Past|VerbForm=Part	4	comp:aux	_	_
+13	und	und	CCONJ	_	_	14	cc	_	_
+14	das	die	PRON	_	Case=Nom|PronType=Dem	4	conj	_	_
+15	ausgerechnet	ausgerechnet	VERB	_	VerbForm=Part	14	orphan	_	_
+16	in	in	ADP	_	_	14	orphan	_	_
+17	Golm	Golm	PROPN	_	_	16	comp:obj	_	_
+
+1	:face_with_tears_of_joy:	😂	SYM	_	_	0	root	_	_
+
+1	hier	hier	ADV	_	_	2	mod	_	_
+2	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	einem	ein	DET	_	Definite=Ind|PronType=Art	4	det	_	_
+4	Typen	Typ|Type|Typus	NOUN	_	_	15	comp:obj	_	_
+5	gerade	gerade	ADV	_	_	2	mod	_	_
+6	beim	beim	ADV	_	_	15	mod	_	_
+7	Überqueren	Überqueren	NOUN	_	Case=Dat|Number=Plur	6	comp:obj	_	_
+8	der	d	DET	_	Definite=Def|PronType=Art	9	det	_	_
+9	Straße	Straße	NOUN	_	_	7	mod@poss	_	_
+10	sein	sein	DET	_	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	Ball	Ball	NOUN	_	_	2	subj	_	_
+12	aus	aus	ADP	_	_	15	comp:obl	_	_
+13	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Hand	Hand	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	12	comp:obj	_	_
+15	gefallen	gefallen	ADJ	_	Degree=Pos|Tense=Past|VerbForm=Part	2	comp:aux	_	_
+16	als	als	ADP	_	_	15	mod	_	_
+17	gerade	gerade	ADV	_	_	21	mod	_	_
+18	ein	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	19	det	_	_
+19	Auto	Auto	NOUN	_	Case=Acc|Gender=Masc,Neut|Number=Sing	21	subj	_	_
+20	angefahren	anfahren	VERB	_	Tense=Past|VerbForm=Part	21	comp:obj	_	_
+21	kam	kommen	VERB	_	Person=3|Tense=Past|VerbForm=Fin	16	comp:obj	_	_
+22	.	.	PUNCT	_	_	2	punct	_	_
+
+1	Der	die	PRON	_	Case=Nom|PronType=Dem	2	subj	_	_
+2	musste	m�ssen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	halt	halt	ADV	_	_	2	discourse	_	_
+4	richtig	richtig	ADJ	_	Degree=Pos	5	mod	_	_
+5	heftig	heftig	ADJ	_	Degree=Pos	2	mod	_	_
+6	bremsen	bremsen	VERB	_	VerbForm=Inf	2	comp:aux	_	_
+7	weil	weil	SCONJ	_	_	6	mod	_	_
+8	da	da	ADV	_	_	19	mod	_	_
+9	auf	auf	ADP	_	_	19	comp:obl	_	_
+10	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	anderen	ander	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	12	mod	_	_
+12	Seite	Seite	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	9	comp:obj	_	_
+13	auch	auch	ADV	_	_	14	mod	_	_
+14	noch	noch	ADV	_	_	19	mod	_	_
+15	eine	eine	DET	_	Case=Acc|Definite=Ind|Number=Plur|PronType=Art	19	subj	_	_
+16	mit	mit	ADP	_	_	15	mod	_	_
+17	einem	ein	DET	_	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	18	det	_	_
+18	Hund	Hund	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	16	comp:obj	_	_
+19	stand	stehen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	comp:obj	_	_
+
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	der	die	PRON	_	Case=Nom|PronType=Dem	3	subj	_	_
+3	dachte	denken	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	sich	er|es|sie	PRON	_	Case=Acc|Person=3|PronType=Prs	3	comp:obj	_	_
+5	"	"	PUNCT	_	_	8	punct	_	_
+6	yo	yo	PROPN	_	Case=Nom|Number=Sing	8	discourse	_	_
+7	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	subj	_	_
+8	renne	renne	VERB	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+9	jetzt	jetzt	ADV	_	_	8	mod	_	_
+10	mal	mal	ADV	_	_	8	mod	_	_
+11	auf	auf	ADP	_	_	8	comp:obl	_	_
+12	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Straße	Straße	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	11	comp:obj	_	_
+14	bye	bye	PROPN	_	_	8	discourse	_	_
+15	"	"	PUNCT	_	_	8	punct	_	_
+16	.	.	PUNCT	_	_	8	punct	_	_
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+1	Auffahrunfall	Auffahrunfall	NOUN	_	_	0	root	_	_
+2	jedenfalls	jedenfalls	ADV	_	_	1	orphan	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+1	Immerhin	immerhin	ADV	_	_	3	orphan	_	_
+2	ohne	ohne	ADP	_	_	3	mod	_	_
+3	Fahrerflucht	Fahrerflucht	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	0	root	_	_
+4	oder	oder	CCONJ	_	_	5	cc	_	_
+5	Verletzte	Verletzte	NOUN	_	_	3	conj	_	_
+
+1	:face_with_rolling_eyes:	🙄	SYM	_	_	0	root	_	_
+

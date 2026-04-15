@@ -1,0 +1,100 @@
+# text = Ein Mann spielte mit einem Ball , der ihm beim Überqueren des Parkplatzes auf herunter fiel .
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	3	subj	_	_
+3	spielte	spielen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	mit	mit	ADP	APPR	_	3	mod	_	_
+5	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	comp:obj	_	_
+7	,	,	PUNCT	$,	_	3	punct	_	_
+8	der	d	PRON	PRELS	Case=Nom|PronType=Rel	15	subj	_	_
+9	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	comp:obj	_	_
+10	beim	beim	ADV	APPRART	_	15	mod	_	_
+11	Überqueren	Überqueren	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	10	comp:obj	_	_
+12	des	d	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Parkplatzes	Parkplatz	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	11	mod@poss	_	_
+14	auf	auf	ADP	APPR	_	15	reparandum	_	_
+15	herunterfiel	herunterfallen	VERB	VVFIN	Tense=Past	6	mod@relcl	_	_
+16	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Eine Frau die gerade Ihr Auto mit ihren Einkäufen belud , achtete nicht auf Ihren Hund , sodass dieser dem Ball hinterher rannte und damit auf die Fahrbahn .
+1	Eine	ein	DET	ART	Definite=Ind|PronType=Art	2	det	_	_
+2	Frau	Frau	NOUN	NN	_	12	subj	_	_
+3	die	die	PRON	PRELS	Case=Nom|PronType=Dem	10	subj	_	_
+4	gerade	gerade	ADV	ADV	_	10	mod	_	_
+5	Ihr	ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	6	det	_	_
+6	Auto	Auto	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	comp:obj	_	_
+7	mit	mit	ADP	APPR	_	10	comp:obl	_	_
+8	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	Einkäufen	Einkäufen	NOUN	NN	Case=Dat|Number=Plur	7	comp:obj	_	_
+10	belud	beladen	VERB	VVFIN	Tense=Past|VerbForm=Fin	2	mod@relcl	_	_
+11	,	,	PUNCT	$,	_	12	punct	_	_
+12	achtete	achten	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	nicht	nicht	PART	ADV	_	12	mod	_	_
+14	auf	auf	ADP	APPR	_	12	comp:obl	_	_
+15	Ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	16	det	_	_
+16	Hund	Hund	NOUN	NN	_	14	comp:obj	_	_
+17	,	,	PUNCT	$,	_	12	punct	_	_
+18	sodass	sodass	SCONJ	KOUS	_	12	mod	_	_
+19	dieser	diese	PRON	PDAT	Case=Nom|PronType=Dem	22	subj	_	_
+20	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	21	det	_	_
+21	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	22	comp:obj	_	_
+22	hinterherrannte	hinterherrennen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	comp:obj	_	_
+23	und	und	CCONJ	KON	_	25	cc	_	_
+24	damit	damit	ADV	ADV	_	25	mod	_	_
+25	auf	auf	ADP	APPR	_	22	orphan	_	_
+26	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Fahrbahn	Fahrbahn	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	comp:obj	_	_
+28	.	.	PUNCT	$.	_	12	punct	_	_
+
+# text = Es kamen gerade zwei Autos hintereinander um die Ecke gefahren .
+1	Es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+2	kamen	kommen	VERB	VVFIN	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	zwei	zwei	NUM	CARD	NumType=Card	5	mod	_	_
+5	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	2	subj	_	_
+6	hintereinander	hintereinander	ADV	ADV	_	2	mod	_	_
+7	um	um	ADP	APPR	_	10	comp:obl	_	_
+8	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Ecke	Ecke	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	comp:obj	_	_
+10	gefahren	fahren	VERB	VVPP	Tense=Past|VerbForm=Part	2	comp:obl	_	_
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Der Hund rannte vor das erste blaue Auto , sodass dieses , abrupt bremsen musste .
+1	Der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	rannte	rennen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	vor	vor	ADP	APPR	_	3	comp:obl	_	_
+5	das	d	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+6	erste	erst	ADJ	ORD	Degree=Pos|NumType=Ord	8	mod	_	_
+7	blaue	blau	ADJ	ADJA	Degree=Pos	8	mod	_	_
+8	Auto	Auto	NOUN	NN	_	4	comp:obj	_	_
+9	,	,	PUNCT	$,	_	3	punct	_	_
+10	sodass	sodass	SCONJ	KOUS	_	3	mod	_	_
+11	dieses	dies	PRON	PDAT	Case=Nom|PronType=Dem	15	subj	_	_
+12	,	,	PUNCT	$,	_	3	punct	_	_
+13	abrupt	abrupt	ADV	ADJD	_	14	mod	_	_
+14	bremsen	bremsen	VERB	VVINF	VerbForm=Inf	15	comp:aux	_	_
+15	musste	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	comp:obj	_	_
+16	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Der Fahrer des zweite weißen Autos konnte nicht schnell genug bremsen , sodass es dem blauen Auto auffuhr .
+1	Der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Fahrer	Fahrer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	subj	_	_
+3	des	d	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+4	zweite	zweit	ADJ	ORD	Case=Acc|Degree=Pos|Number=Sing|NumType=Ord	6	mod	_	_
+5	weißen	weiß	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Sing	6	mod	_	_
+6	Autos	Auto	NOUN	NN	Case=Acc|Number=Sing	2	mod@poss	_	_
+7	konnte	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	nicht	nicht	PART	PTKNEG	_	7	mod	_	_
+9	schnell	schnell	ADJ	ADJD	Degree=Pos	7	mod	_	_
+10	genug	genug	ADV	PTKMWL	_	9	mod	_	_
+11	bremsen	bremsen	VERB	VVINF	VerbForm=Inf	9	mod	_	_
+12	,	,	PUNCT	$,	_	7	punct	_	_
+13	sodass	sodass	SCONJ	KOUS	_	11	mod	_	_
+14	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	subj	_	_
+15	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	17	det	_	_
+16	blauen	blau	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	17	mod	_	_
+17	Auto	Auto	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	18	comp:obl	_	_
+18	auffuhr	auffahren	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	comp:obj	_	_
+19	.	.	PUNCT	$.	_	7	punct	_	_
+

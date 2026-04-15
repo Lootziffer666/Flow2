@@ -1,0 +1,179 @@
+# text = gerade war ein Unfall auf REWE-Parkplatz
+1	gerade	gerade	ADV	ADV	_	2	mod	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	ART	Definite=Ind|PronType=Art	4	det	_	_
+4	Unfall	Unfall	NOUN	NN	_	2	subj	_	_
+5	auf	auf	ADP	APPR	_	2	comp:pred	_	_
+6	REWE-Parkplatz	REWE-Parkplatz	NOUN	NN	_	5	comp:obj	_	_
+
+# text = ein Typ ist mit seiner Frau auf dem Bürgersteig gelaufen
+1	ein	ein	DET	ART	Definite=Ind|PronType=Art	2	det	_	_
+2	Typ	Typ	NOUN	NN	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	mit	mit	ADP	APPR	_	10	mod	_	_
+5	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	Frau	Frau	NOUN	NN	Case=Dat|Number=Sing	4	comp:obj	_	_
+7	auf	auf	ADP	APPR	_	10	comp:obl	_	_
+8	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Bürgersteig	Bürgersteig	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	comp:obj	_	_
+10	gelaufen	laufen	VERB	VVPP	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+
+# text = und hat ein Ball geprellt
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	comp:obj	_	_
+5	geprellt	prellen	VERB	VVPP	Person=3|Tense=Past|VerbForm=Fin	2	comp:aux	_	_
+
+# text = der Ball ist ihm versprungen und auf die Straße geflogen
+1	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Ball	Ball	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	_
+5	versprungen	verspringen	VERB	VVPP	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+6	und	und	CCONJ	KON	_	10	cc	_	_
+7	auf	auf	ADP	APPR	_	10	comp:obl	_	_
+8	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	comp:obj	_	_
+10	geflogen	fliegen	VERB	VVPP	Tense=Past|VerbForm=Part	3	conj	_	_
+
+# text = eine Fußhupe hat danach versucht sich den Ball zu schnappen
+1	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Fußhupe	Fußhupe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	subj	_	_
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	danach	danach	ADV	ADV	_	3	mod	_	_
+5	versucht	versuchen	VERB	VVPP	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+6	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs	10	comp:obl	_	_
+7	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	comp:obj	_	_
+9	zu	zu	ADP	PTKZU	_	5	comp:obj	_	_
+10	schnappen	schnappen	NOUN	VVINF	Case=Dat|Number=Sing	9	comp:obj	_	_
+
+# text = und hat das Weibchen angerempelt da er an der Leine gezogen
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	das	d	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Weibchen	Weibchen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	comp:obj	_	_
+5	angerempelt	anrempeln	VERB	VVPP	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	comp:aux	_	_
+6	da	da	ADV	KOUS	_	5	mod	_	_
+7	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj	_	_
+8	an	an	ADP	APPR	_	11	comp:obl	_	_
+9	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Leine	Leine	PROPN	NN	_	8	comp:obj	_	_
+11	gezogen	ziehen	VERB	VVPP	Tense=Past|VerbForm=Part	6	comp:obj	_	_
+
+# text = dadurch ist die Papiertüte gerissen die sie in der Hand hielt
+1	dadurch	dadurch	ADV	ADV	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Papiertüte	Papiertüte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	subj	_	_
+5	gerissen	reißen	VERB	VVPP	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+6	die	d	PRON	PRELS	Case=Acc|PronType=Rel	11	comp:obj	_	_
+7	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	subj	_	_
+8	in	in	ADP	APPR	_	11	comp:obl	_	_
+9	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Hand	Hand	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	comp:obj	_	_
+11	hielt	halten	VERB	VVFIN	Person=3|Tense=Past|VerbForm=Fin	4	mod@relcl	_	_
+
+# text = und der Inhalt hat sich auf dem Boden verteilt
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Inhalt	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+4	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs	9	comp:obj	_	_
+6	auf	auf	ADP	APPR	_	9	mod	_	_
+7	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Boden	Boden	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	6	comp:obj	_	_
+9	verteilt	verteilen	VERB	VVPP	Tense=Past|VerbForm=Part	4	comp:aux	_	_
+
+# text = währenddessen sind zwei Autos abgebogen
+1	währenddessen	währenddessen	ADV	ADV	_	2	mod	_	_
+2	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	zwei	zwei	NUM	CARD	NumType=Card	4	mod	_	_
+4	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	2	subj	_	_
+5	abgebogen	abbiegen	ADJ	VVPP	Degree=Pos|Tense=Past|VerbForm=Part	2	comp:aux	_	_
+
+# text = und durch den Hund und den Ball hat der vordere Fahrer gebremst
+1	und	und	CCONJ	KON	_	8	cc	_	_
+2	durch	durch	ADP	APPR	_	8	mod	_	_
+3	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Hund	Hund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	comp:obj	_	_
+5	und	und	CCONJ	KON	_	7	cc	_	_
+6	den	d	DET	ART	Definite=Def|PronType=Art	7	det	_	_
+7	Ball	Ball	PROPN	NN	_	4	conj	_	_
+8	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	der	d	DET	ART	Definite=Def|PronType=Art	11	det	_	_
+10	vordere	vordere	ADJ	ADJA	Degree=Pos	11	mod	_	_
+11	Fahrer	Fahrer	NOUN	NN	_	8	subj	_	_
+12	gebremst	bremsen	ADV	VVPP	Tense=Past|VerbForm=Part	8	comp:aux	_	_
+
+# text = daraufhin ist der andere dem hinten reingefahren
+1	daraufhin	daraufhin	ADV	ADV	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	der	d	DET	ART	Definite=Def|PronType=Art	4	det	_	_
+4	andere	ander	NOUN	PIDS	_	2	subj	_	_
+5	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	comp:obj	_	_
+6	hinten	hinten	ADV	ADJD	_	2	mod	_	_
+7	reingefahren	reinfahren	NOUN	VVPP	Case=Dat|Gender=Masc,Neut|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	_
+
+# text = der Fahrer des ersten Autos hatte ein zu kleines weißes T-Shirt an und eine Jeanshose
+1	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Fahrer	Fahrer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	subj	_	_
+3	des	d	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+4	ersten	erste	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Masc,Neut|Number=Sing|NumType=Ord	5	mod	_	_
+5	Autos	Auto	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	2	mod@poss	_	_
+6	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+8	zu	zu	ADP	PTKIFG	_	9	mod	_	_
+9	kleines	kleine	ADJ	ADJA	Degree=Pos	11	mod	_	_
+10	weißes	weiße	ADJ	ADJA	Degree=Pos	11	mod	_	_
+11	T-Shirt	T-Shirt	NOUN	NN	_	6	comp:obj	_	_
+12	an	an	ADP	PTKVZ	_	6	compound@prt	_	_
+13	und	und	CCONJ	KON	_	15	cc	_	_
+14	eine	ein	DET	ART	Definite=Ind|PronType=Art	15	det	_	_
+15	Jeanshose	Jeanshose	NOUN	NN	_	11	conj	_	_
+
+# text = der Typ sah echt aus wie der letzte Pleb
+1	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Typ	Typ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	sah	sehen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	echt	echt	ADV	PTKIFG	_	3	mod	_	_
+5	aus	aus	ADV	PTKVZ	_	3	compound@prt	_	_
+6	wie	wie	ADP	KOKOM	_	3	mod	_	_
+7	der	d	DET	ART	Definite=Def|PronType=Art	9	det	_	_
+8	letzte	letzte	ADJ	ADJA	Degree=Pos	9	mod	_	_
+9	Pleb	Pleb	NOUN	NN	_	6	comp:obj	_	_
+
+# text = der hat dann auch die Polizei gerufen auf iPhone das ihn 200 € mehr als ein richtiges Handy gekostet hat
+1	der	die	PRON	PDS	Case=Nom|PronType=Dem	2	subj	_	_
+2	hat	haben	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dann	dann	ADV	ADV	_	2	mod	_	_
+4	auch	auch	ADV	PTKIFG	_	2	mod	_	_
+5	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Polizei	Polizei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	comp:obj	_	_
+7	gerufen	rufen	VERB	VVPP	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	comp:aux	_	_
+8	auf	auf	ADP	APPR	_	7	mod	_	_
+9	iPhone	iPhone	NOUN	NN	_	8	comp:obj	_	_
+10	das	d	PRON	PRELS	Case=Nom|PronType=Dem	20	subj	_	_
+11	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	comp:obl	_	_
+12	200	@card@	NUM	ACARD	NumType=Card	13	mod	_	_
+13	€	€	X	YX	_	19	comp:obj	_	_
+14	mehr	mehr	ADV	PTKMWL	_	13	mod	_	_
+15	als	als	ADP	KOKOM	_	14	mod	_	_
+16	ein	ein	DET	ART	Definite=Ind|PronType=Art	18	det	_	_
+17	richtiges	richtige	ADJ	ADJA	Degree=Pos	18	mod	_	_
+18	Handy	Handy	NOUN	NN	_	15	comp:obj	_	_
+19	gekostet	kosten	VERB	VVPP	Tense=Past|VerbForm=Part	20	comp:aux	_	_
+20	hat	haben	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
+
+# text = XD
+1	XD	XD	ADJ	EMO	Degree=Pos	0	root	_	_
+
+# text = aber jeder macht Fehler .
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	jeder	jede	PRON	PIS	PronType=Tot	3	subj	_	_
+3	macht	machen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	Fehler	Fehler	NOUN	NN	Case=Acc|Number=Sing	3	comp:obj	_	_
+5	.	.	PUNCT	$.	_	3	punct	_	_
+
+

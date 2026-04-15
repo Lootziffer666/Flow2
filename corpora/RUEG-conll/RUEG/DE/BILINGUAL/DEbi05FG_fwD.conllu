@@ -1,0 +1,211 @@
+# text = ﻿ich war am 15.10.2018 um 12.30 in der {streetname}str. 26 in den Parkgelände gegenüber von der Stadtbibliothek
+1	﻿ich	﻿ich	ADJ	PPER	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	am	am	ADJ	APPRART	_	2	mod	_	_
+4	15.10.2018	@card@	NOUN	CARD	_	3	comp:obj	_	_
+5	um	um	ADP	APPR	_	4	mod	_	_
+6	12.30	@card@	NUM	CARD	_	5	comp:obj	_	_
+7	in	in	ADP	APPR	_	2	mod	_	_
+8	der	d	DET	ART	_	9	det	_	_
+9	{streetname}str.	{streetname}str.	X	NE	_	7	comp:obj	_	_
+10	26	@card@	NUM	CARD	_	9	appos	_	_
+11	in	in	ADP	APPR	_	2	comp:pred	_	_
+12	den	d	DET	ART	_	13	det	_	_
+13	Parkgelände	Parkgelände	NOUN	NN	_	11	comp:obj	_	_
+14	gegenüber	gegenüber	ADP	ADV	_	13	mod	_	_
+15	von	von	ADP	APPR	_	14	comp:obj	_	_
+16	der	d	DET	ART	_	17	det	_	_
+17	Stadtbibliothek	Stadtbibliothek	NOUN	NN	_	15	comp:obj	_	_
+
+# text = habe beobachtet das ein Paar mit dem Babywagen gegenüber zum Parkplatz gelaufen sind
+1	habe	haben	AUX	VAFIN	_	0	root	_	_
+2	beobachtet	beobachten	VERB	VVPP	_	1	comp:aux	_	_
+3	dass	dass	CCONJ	KOUS	_	2	comp:obj	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Paar	Paar	NOUN	NN	_	13	subj	_	_
+6	mit	mit	ADP	APPR	_	5	mod	_	_
+7	dem	d	DET	ART	_	8	det	_	_
+8	Babywagen	Babywagen	NOUN	NN	_	6	comp:obj	_	_
+9	gegenüber	gegenüber	ADP	ADV	_	13	mod	_	_
+10	zum	zu	PROPN	APPRART	_	12	comp:obl	_	_
+11	Parkplatz	Parkplatz	PROPN	NN	_	10	comp:obj	_	_
+12	gelaufen	laufen	VERB	VVPP	_	13	comp:aux	_	_
+13	sind	sein	AUX	VAFIN	_	3	comp:obj	_	_
+
+# text = und der spielte mit dem Ball
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	der	d	PRON	PDS	_	3	subj	_	_
+3	spielte	spielen	VERB	VVFIN	_	0	root	_	_
+4	mit	mit	ADP	APPR	_	3	mod	_	_
+5	dem	d	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	4	comp:obj	_	_
+
+# text = und dabei leider ihm aus dem Händen fiel
+1	und	und	CCONJ	KON	_	8	cc	_	_
+2	dabei	dabei	ADV	ADV	_	8	mod	_	_
+3	leider	leider	ADV	ADV	_	8	mod	_	_
+4	ihm	er	PRON	PPER	_	8	comp:obj	_	_
+5	aus	aus	ADP	APPR	_	8	comp:obl	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	Händen	Hände	NOUN	NN	_	5	comp:obj	_	_
+8	fiel	fallen	VERB	VVFIN	_	0	root	_	_
+
+# text = und rollte gegenüber .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	rollte	rollen	VERB	VVFIN	_	0	root	_	_
+3	gegenüber	gegenüber	ADV	ADJA	_	2	mod	_	_
+4	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = in der Zeit war auch eine Frau mit ihrem Hund
+1	in	in	ADP	APPR	_	4	comp:pred	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Zeit	Zeit	NOUN	NN	_	1	comp:obj	_	_
+4	war	sein	VERB	VAFIN	_	0	root	_	_
+5	auch	auch	ADV	PTKIFG	_	4	mod	_	_
+6	eine	ein	DET	ART	_	7	det	_	_
+7	Frau	Frau	NOUN	NN	_	4	subj	_	_
+8	mit	mit	ADP	APPR	_	7	mod	_	_
+9	ihrem	ihr	DET	PPOSAT	_	10	det	_	_
+10	Hund	Hund	NOUN	NN	_	8	comp:obj	_	_
+
+# text = in den Moment wo der Ball rüberrollt reagierte der Hund
+1	in	in	ADP	APPR	_	8	mod	_	_
+2	den	d	DET	ART	_	3	det	_	_
+3	Moment	Moment	NOUN	NN	_	1	comp:obj	_	_
+4	wo	wo	ADV	PWAV	_	7	comp:obl	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	7	subj	_	_
+7	rüberrollt	rüberrollen	VERB	VVPP	_	3	mod@relcl	_	_
+8	reagierte	reagieren	VERB	VVFIN	_	0	root	_	_
+9	der	d	DET	ART	_	10	det	_	_
+10	Hund	Hund	NOUN	NN	_	8	subj	_	_
+
+# text = und läuft zum Ball
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	läuft	laufen	VERB	VVFIN	_	0	root	_	_
+3	zum	zum	NOUN	APPRART	_	2	comp:obl	_	_
+4	Ball	Ball	PROPN	NN	_	3	comp:obj	_	_
+
+# text = die Frau packte ihre Einkäufe in dem Auto herein
+1	die	d	DET	ART	_	2	det	_	_
+2	Frau	Frau	NOUN	NN	_	3	subj	_	_
+3	packte	packen	VERB	VVFIN	_	0	root	_	_
+4	ihre	ihr	DET	PPOSAT	_	5	det	_	_
+5	Einkäufe	Einkäufe	NOUN	NN	_	3	comp:obj	_	_
+6	in	in	ADP	APPR	_	3	comp:obl	_	_
+7	dem	d	DET	ART	_	8	det	_	_
+8	Auto	Auto	NOUN	NN	_	6	comp:obj	_	_
+9	herein	herein	ADV	PTKVZ	_	3	compound@prt	_	_
+
+# text = und dabei fiel die Tüte mit ihre Einkäufe herunter
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dabei	dabei	ADV	ADV	_	3	mod	_	_
+3	fiel	fallen	VERB	VVFIN	_	0	root	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Tüte	Tüte	NOUN	NN	_	3	subj	_	_
+6	mit	mit	ADP	APPR	_	5	mod	_	_
+7	ihre	ihr	DET	PPOSAT	_	8	det	_	_
+8	Einkäufe	Einkäufe	NOUN	NN	_	6	comp:obj	_	_
+9	herunter	herunter	ADJ	PTKVZ	_	3	compound@prt	_	_
+
+# text = der Mann half ihr die Sachen wieder in die Einkauftasche zu packen .
+1	der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	half	helfen	VERB	VVFIN	_	0	root	_	_
+4	ihr	ihr	PRON	PPER	_	3	comp:obj	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Sachen	Sache	NOUN	NN	_	12	comp:obj	_	_
+7	wieder	wieder	ADV	ADV	_	12	mod	_	_
+8	in	in	ADP	APPR	_	12	comp:obl	_	_
+9	die	d	DET	ART	_	10	det	_	_
+10	Einkauftasche	Einkauftasche	NOUN	NN	_	8	comp:obj	_	_
+11	zu	zu	PART	PTKZU	_	3	comp:obl	_	_
+12	packen	packen	VERB	VVINF	_	11	comp:obj	_	_
+13	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = gleich Zeit den Moment kommen zwei Autos ein blaues und ein weißes
+1	gleich	gleich	ADJ	ADV	_	2	mod	_	_
+2	Zeit	Zeit	NOUN	NN	_	5	mod	_	_
+3	den	d	DET	ART	_	4	det	_	_
+4	Moment	Moment	NOUN	NN	_	5	mod	_	_
+5	kommen	kommen	VERB	VVFIN	_	0	root	_	_
+6	zwei	zwei	NUM	CARD	_	7	mod	_	_
+7	Autos	Auto	NOUN	NN	_	5	subj	_	_
+8	ein	ein	DET	ART	_	9	det	_	_
+9	blaues	blau	ADJ	ADJA	_	7	appos	_	_
+10	und	und	CCONJ	KON	_	12	cc	_	_
+11	ein	ein	DET	ART	_	12	det	_	_
+12	weißes	weiß	ADJ	ADJA	_	9	conj	_	_
+
+# text = der blaue fuhr als erstes herein in den Parkplatzgelände
+1	der	d	DET	ART	_	2	det	_	_
+2	blaue	blau	ADJ	ADJA	_	3	subj	_	_
+3	fuhr	fahren	NOUN	VVFIN	_	0	root	_	_
+4	als	als	ADP	KON	_	3	mod	_	_
+5	erstes	erste	NUM	ORD	_	4	comp:obj	_	_
+6	herein	herein	ADV	PTKVZ	_	3	compound@prt	_	_
+7	in	in	ADP	APPR	_	3	comp:obl	_	_
+8	den	d	DET	ART	_	9	det	_	_
+9	Parkplatzgelände	Parkplatzgelände	NOUN	NN	_	7	comp:obj	_	_
+
+# text = und musste vollbremsen da der Ball von dem Mann wo der damit spielte herübergerollt ist
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	musste	müssen	AUX	VMFIN	_	0	root	_	_
+3	vollbremsen	vollbremsen	VERB	VVINF	_	2	comp:aux	_	_
+4	da	da	SCONJ	ADV	_	3	mod	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	15	subj	_	_
+7	von	von	ADP	APPR	_	6	mod@poss	_	_
+8	dem	d	DET	ART	_	9	det	_	_
+9	Mann	Mann	NOUN	NN	_	7	comp:obj	_	_
+10	wo	wo	ADV	PWAV	_	13	mod	_	_
+11	der	die	DET	PDS	_	13	subj	_	_
+12	damit	damit	ADV	ADV	_	13	mod	_	_
+13	spielte	spielen	VERB	VVFIN	_	9	mod@relcl	_	_
+14	herübergerollt	herüberrollen	AUX	VVPP	_	15	comp:aux	_	_
+15	ist	sein	AUX	VAFIN	_	4	comp:obj	_	_
+
+# text = und der weiße Auto fuhr ihm hinterher
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	der	d	DET	ART	_	4	det	_	_
+3	weiße	weiß	ADJ	ADJA	_	4	mod	_	_
+4	Auto	Auto	NOUN	NN	_	5	subj	_	_
+5	fuhr	fahren	VERB	VVFIN	_	0	root	_	_
+6	ihm	er	PRON	PPER	_	5	comp:obj	_	_
+7	hinterher	hinterher	ADV	PTKVZ	_	5	compound@prt	_	_
+
+# text = und plötzlich knallte es .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	plötzlich	plötzlich	ADJ	ADJD	_	3	mod	_	_
+3	knallte	knallen	VERB	VVFIN	_	0	root	_	_
+4	es	es	PRON	PPER	_	3	subj@expl	_	_
+5	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = der Mann von den blauen Auto stieg aus
+1	der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	7	subj	_	_
+3	von	von	ADP	APPR	_	2	mod@poss	_	_
+4	den	d	DET	ART	_	6	det	_	_
+5	blauen	blau	ADJ	ADJA	_	6	mod	_	_
+6	Auto	Auto	NOUN	NN	_	3	comp:obj	_	_
+7	stieg	steigen	VERB	VVFIN	_	0	root	_	_
+8	aus	aus	ADP	PTKVZ	_	7	compound@prt	_	_
+
+# text = und fragte ob alles okay wäre zu allen .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	fragte	fragen	VERB	VVFIN	_	0	root	_	_
+3	ob	ob	SCONJ	KOUS	_	2	comp:obj	_	_
+4	alles	alle	PRON	PIS	_	6	subj	_	_
+5	okay	okay	ADJ	ADJD	_	6	comp:pred	_	_
+6	wäre	sein	VERB	VAFIN	_	3	comp:obj	_	_
+7	zu	zu	ADP	PTKA	_	2	mod	_	_
+8	allen	alle	PRON	PIS	_	7	comp:obj	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = danach ruften die Polizei .
+1	danach	danach	ADV	ADV	_	2	mod	_	_
+2	ruften	ruften	VERB	VVFIN	_	0	root	_	_
+3	die	d	DET	ART	_	4	det	_	_
+4	Polizei	Polizei	NOUN	NN	_	2	comp:obj	_	_
+5	.	.	PUNCT	$.	_	2	punct	_	_
+

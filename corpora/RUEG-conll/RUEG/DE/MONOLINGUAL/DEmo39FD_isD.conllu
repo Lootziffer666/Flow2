@@ -1,0 +1,155 @@
+# text = hey Lisa
+1	hey	Hey	PROPN	NGIRR	_	2	discourse	_	_
+2	Lisa	Lisa	PROPN	NE	_	0	root	_	_
+
+# text = äh äh sorry ich wollte nur sagen ich komme gleich zu spät
+1	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+2	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+3	sorry	sorry	NOUN	NGIRR	_	5	discourse	_	_
+4	ich	ich	PRON	PPER	_	5	subj	_	_
+5	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+6	nur	nur	ADV	PTKIFG	_	5	mod	_	_
+7	sagen	sagen	VERB	VVINF	_	5	comp:aux	_	_
+8	ich	ich	PRON	PPER	_	9	subj	_	_
+9	komme	kommen	VERB	VVFIN	_	7	comp:obj	_	_
+10	gleich	gleich	ADV	ADV	_	9	mod	_	_
+11	zu	zu	ADP	PTKZU	_	12	mod	_	_
+12	spät	spät	ADJ	VVINF	_	9	mod	_	_
+
+# text = weil hier ist noch ein Unfall bei dem ich noch als Zeuge sein muss
+1	weil	weil	SCONJ	KOUS	_	3	discourse	_	_
+2	hier	hier	ADV	ADV	_	3	comp:pred	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	noch	noch	ADV	ADV	_	3	mod	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Unfall	Unfall	NOUN	NN	_	3	subj	_	_
+7	bei	bei	ADP	APPR	_	13	comp:pred	_	_
+8	dem	d	DET	PRELS	_	7	comp:obj	_	_
+9	ich	ich	PRON	PPER	_	14	subj	_	_
+10	noch	noch	ADV	ADV	_	14	mod	_	_
+11	als	als	ADP	KOUS	_	13	mod	_	_
+12	Zeuge	Zeuge	NOUN	NN	_	11	comp:obj	_	_
+13	sein	sein	VERB	VAINF	_	14	comp:aux	_	_
+14	muss	müssen	AUX	VMFIN	_	6	mod@relcl	_	_
+
+# text = da ist nämlich äh ein Hund vor ein Auto gerannt
+1	da	da	ADV	ADV	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	nämlich	nämlich	ADV	ADV	_	2	mod	_	_
+4	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Hund	Hund	NOUN	NN	_	2	subj	_	_
+7	vor	vor	ADV	APPR	_	10	comp:obl	_	_
+8	ein	ein	DET	ART	_	9	det	_	_
+9	Auto	Auto	NOUN	NN	_	7	comp:obj	_	_
+10	gerannt	rennen	ADJ	VVPP	_	2	comp:aux	_	_
+
+# text = aber äh das Auto hat noch gebremst
+1	aber	aber	ADV	KON	_	5	cc	_	_
+2	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+3	das	d	DET	ART	_	4	det	_	_
+4	Auto	Auto	NOUN	NN	_	5	subj	_	_
+5	hat	haben	VERB	VAFIN	_	0	root	_	_
+6	noch	noch	ADV	ADV	_	5	mod	_	_
+7	gebremst	bremsen	ADV	VVPP	_	5	comp:aux	_	_
+
+# text = also dem Hund ist nichs passiert
+1	also	also	ADV	SEDM	_	4	discourse	_	_
+2	dem	d	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	6	comp:obj	_	_
+4	ist	sein	AUX	VAFIN	_	0	root	_	_
+5	nichs	nichs	NOUN	ADV	_	4	subj	_	_
+6	passiert	passieren	VERB	VVFIN	_	4	comp:aux	_	_
+
+# text = nur der Besitzerin sind die Einkäufe runtergefallen
+1	nur	nur	ADV	ADV	_	4	mod	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Besitzerin	Besitzerin	NOUN	NN	_	7	comp:obj	_	_
+4	sind	sein	VERB	VAFIN	_	0	root	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Einkäufe	Einkauf	NOUN	NN	_	4	subj	_	_
+7	runtergefallen	runterfallen	ADJ	VVPP	_	4	comp:aux	_	_
+
+# text = äh aber der hinter das hintere Auto ist jetzt dem äh Bremser quasi ins in hinten reingefahren
+1	äh	äh	ADJ	NGHES	_	8	discourse	_	_
+2	aber	aber	ADV	KON	_	8	cc	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	hinter	hinter	ADP	APPR	_	7	reparandum	_	_
+5	das	d	DET	ART	_	7	det	_	_
+6	hintere	hinter	ADJ	ADJA	_	7	mod	_	_
+7	Auto	Auto	NOUN	NN	_	8	subj	_	_
+8	ist	sein	VERB	VAFIN	_	0	root	_	_
+9	jetzt	jetzt	ADV	ADV	_	8	mod	_	_
+10	dem	d	DET	ART	_	12	det	_	_
+11	äh	äh	NOUN	NGHES	_	8	discourse	_	_
+12	Bremser	Bremser	PROPN	NN	_	17	comp:obj	_	_
+13	quasi	quasi	ADV	ADV	_	8	mod	_	_
+14	ins	ins	null	APPRART	_	15	reparandum	_	_
+15	in	in	ADP	APPR	_	16	reparandum	_	_
+16	hinten	hinten	ADV	ADV	_	8	mod	_	_
+17	reingefahren	reinfahren	VERB	VVPP	_	8	comp:aux	_	_
+
+# text = jetzt ein Blechschaden
+1	jetzt	jetzt	ADV	ADV	_	3	mod	_	_
+2	ein	ein	DET	ART	_	3	det	_	_
+3	Blechschaden	Blechschaden	NOUN	NN	_	0	root	_	_
+
+# text = jetzt kommt die Polizei um den Unfall aufzunehmen und so
+1	jetzt	jetzt	ADV	ADV	_	2	mod	_	_
+2	kommt	kommen	VERB	VVFIN	_	0	root	_	_
+3	die	d	DET	ART	_	4	det	_	_
+4	Polizei	Polizei	NOUN	NN	_	2	subj	_	_
+5	um	um	ADP	KOUI	_	2	mod	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Unfall	Unfall	NOUN	NN	_	8	comp:obj	_	_
+8	aufzunehmen	aufnehmen	VERB	VVIZU	_	5	comp:obj	_	_
+9	und	und	CCONJ	KON	_	10	cc	_	_
+10	so	so	ADV	ADV	_	2	parataxis	_	_
+
+# text = und jetzt muss ich hier mit äh halt den Anderen äh auch noch so ein Pärchen mit Kinderwagen zum Beispiel die dann der Frau mit den Einkäufen gefholfen und und dem Hund geholfen haben müssen auch noch warten
+1	und	und	CCONJ	KON	_	33	cc	_	_
+2	jetzt	jetzt	ADV	ADV	_	3	mod	_	_
+3	muss	müssen	AUX	VMFIN	_	33	reparandum	_	_
+4	ich	ich	PRON	PPER	_	3	subj	_	_
+5	hier	hier	ADV	ADV	_	3	mod	_	_
+6	mit	mit	ADP	APPR	_	3	mod	_	_
+7	äh	äh	ADJ	NGHES	_	33	discourse	_	_
+8	halt	halt	VERB	PTKMA	_	33	discourse	_	_
+9	den	d	DET	ART	_	10	det	_	_
+10	Anderen	Anderen	NOUN	NN	_	6	comp:obj	_	_
+11	äh	äh	ADJ	NGHES	_	33	discourse	_	_
+12	auch	auch	ADV	PTKIFG	_	33	mod	_	_
+13	noch	noch	ADV	PTKMWL	_	33	mod	_	_
+14	so	so	ADV	PTKMA	_	16	mod	_	_
+15	ein	ein	DET	ART	_	16	det	_	_
+16	Pärchen	Pärchen	NOUN	NN	_	33	subj	_	_
+17	mit	mit	ADP	APPR	_	16	mod	_	_
+18	Kinderwagen	Kinderwagen	NOUN	NN	_	17	comp:obj	_	_
+19	zum	zu	NOUN	APPRART	_	36	mod	_	_
+20	Beispiel	Beispiel	NOUN	NN	_	19	comp:obj	_	_
+21	die	d	DET	PRELS	_	32	subj	_	_
+22	dann	dann	ADV	ADV	_	32	mod	_	_
+23	der	d	DET	ART	_	24	det	_	_
+24	Frau	Frau	NOUN	NN	_	31	comp:obj	_	_
+25	mit	mit	ADP	APPR	_	31	mod	_	_
+26	den	d	DET	ART	_	27	det	_	_
+27	Einkäufen	Einkauf	NOUN	NN	_	25	comp:obj	_	_
+28	und	und	CCONJ	KON	_	30	cc	_	_
+29	dem	d	DET	ART	_	30	det	_	_
+30	Hund	Hund	NOUN	NN	_	27	conj	_	_
+31	geholfen	helfen	VERB	VVPP	_	32	comp:aux	_	_
+32	haben	haben	AUX	VAFIN	_	16	mod@relcl	_	_
+33	müssen	müssen	AUX	VVFIN	_	0	root	_	_
+34	auch	auch	ADV	PTKIFG	_	33	mod	_	_
+35	noch	noch	ADV	PTKMWL	_	33	mod	_	_
+36	warten	warten	VERB	VVINF	_	33	comp:aux	_	_
+
+# text = äh genau muss ich auch noch warten
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	genau	genau	ADV	NGIRR	_	3	discourse	_	_
+3	muss	müssen	AUX	VMFIN	_	0	root	_	_
+4	ich	ich	PRON	PPER	_	3	subj	_	_
+5	auch	auch	ADV	PTKIFG	_	3	mod	_	_
+6	noch	noch	ADV	PTKMWL	_	3	mod	_	_
+7	warten	warten	VERB	VVINF	_	3	comp:aux	_	_
+

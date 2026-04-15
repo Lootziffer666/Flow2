@@ -1,0 +1,77 @@
+1	Hey	hey	INTJ	ITJ	_	0	root	_	_
+2	USbi63MD_P	USbi63MD_P	PROPN	NP0	_	1	vocative	_	_
+3	.	.	PUNCT	SENT	_	1	punct	_	_
+
+1	There	there	ADV	EX0	_	6	advmod	_	_
+2	was	be	AUX	VBD	_	6	cop	_	_
+3	just	just	ADV	AV0	_	6	advmod	_	_
+4	a	a	DET	AT0	_	6	det	_	_
+5	car	car	NOUN	NN1	_	6	compound	_	_
+6	accident	accident	NOUN	NN1	_	0	root	_	_
+7	behind	behind	ADP	PRP	_	9	case	_	_
+8	the	the	DET	AT0	_	9	det	_	_
+9	apartment	apartment	NOUN	NN1	_	6	nmod	_	_
+10	building	building	NOUN	NN1	_	9	nmod	_	_
+11	on	on	ADP	PRP	_	13	case	_	_
+12	Main	main	PROPN	NP0	_	13	compound	_	_
+13	st	st	PROPN	NP0	_	10	nmod	_	_
+14	.	.	PUNCT	SENT	_	6	punct	_	_
+
+1	A	a	DET	AT0	_	2	det	_	_
+2	guy	guy	NOUN	NN1	_	6	nsubj	_	_
+3	with	with	ADP	PRP	_	5	case	_	_
+4	a	a	DET	AT0	_	5	det	_	_
+5	ball	ball	NOUN	NN1	_	2	nmod	_	_
+6	wanted	want	VERB	VVD	_	0	root	_	_
+7	to	to	PART	TO0	_	8	mark	_	_
+8	walk	walk	VERB	VVI	_	6	xcomp	_	_
+9	over	over	ADP	PRP	_	11	case	_	_
+10	the	the	DET	AT0	_	11	det	_	_
+11	street	street	NOUN	NN1	_	8	obl	_	_
+12	when	when	SCONJ	CJS	_	14	mark	_	_
+13	he	he	PRON	PNP	_	14	nsubj	_	_
+14	dropped	drop	VERB	VVD	_	8	advcl	_	_
+15	his	he	DET	DPS	_	16	det	_	_
+16	ball	ball	NOUN	NN1	_	14	obj	_	_
+17	and	and	CCONJ	CJC	_	18	cc	_	_
+18	kicked	kick	VERB	VVD	_	6	conj	_	_
+19	it	it	PRON	PNP	_	18	obj	_	_
+20	over	over	ADP	PRP	_	22	case	_	_
+21	the	the	DET	AT0	_	22	det	_	_
+22	street	street	NOUN	NN1	_	18	obl	_	_
+23	.	.	PUNCT	SENT	_	6	punct	_	_
+
+1	A	a	DET	AT0	_	2	det	_	_
+2	dog	dog	NOUN	NN1	_	11	nsubj	_	_
+3	on	on	ADP	PRP	_	11	case	_	_
+4	the	the	DET	AT0	_	11	det	_	_
+5	other	other	ADJ	AJ0	_	7	advmod	_	_
+6	side	side	NOUN	NN1	_	7	nsubj	_	_
+7	ran	run	VERB	VVD	_	11	acl	_	_
+8	after	after	ADP	PRP	_	10	case	_	_
+9	the	the	DET	AT0	_	10	det	_	_
+10	ball	ball	NOUN	NN1	_	7	obl	_	_
+11	causing	cause	VERB	VVG	_	0	root	_	_
+12	a	a	DET	AT0	_	13	det	_	_
+13	car	car	NOUN	NN1	_	11	obj	_	_
+14	to	to	PART	TO0	_	16	mark	_	_
+15	abruptly	abruptly	ADV	AV0	_	16	advmod	_	_
+16	stop	stop	VERB	VVI	_	11	advcl	_	_
+17	.	.	PUNCT	SENT	_	11	punct	_	_
+
+1	the	the	DET	AT0	_	3	det	_	_
+2	second	second	ADJ	ORD	_	3	amod	_	_
+3	car	car	NOUN	NN1	_	4	nsubj	_	_
+4	ran	run	VERB	VVD	_	0	root	_	_
+5	into	into	ADP	PRP	_	7	case	_	_
+6	the	the	DET	AT0	_	7	det	_	_
+7	first	first	NOUN	NN1	_	4	obl	_	_
+8	causing	cause	VERB	VVG	_	4	advcl	_	_
+9	an	an	DET	AT0	_	10	det	_	_
+10	accident	accident	NOUN	NN1	_	8	obj	_	_
+
+1	but	but	CCONJ	CJC	_	4	cc	_	_
+2	everything	everything	PRON	PNI	_	4	nsubj	_	_
+3	is	be	AUX	VBZ	_	4	cop	_	_
+4	okay	okay	ADJ	AJ0	_	0	root	_	_
+

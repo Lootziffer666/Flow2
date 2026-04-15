@@ -1,0 +1,269 @@
+# text = äh guten Tag
+1	äh	äh	ADJ	_	_	3	discourse	_	_
+2	guten	gut	ADJ	_	_	3	mod	_	_
+3	Tag	Tag	NOUN	_	_	0	root	_	_
+
+# text = mein Name ist äh DEbi14MG
+1	mein	mein	PRON	_	_	2	det	_	_
+2	Name	Name	NOUN	_	_	3	subj	_	_
+3	ist	sein	VERB	_	_	0	root	_	_
+4	äh	äh	ADJ	_	_	3	discourse	_	_
+5	DEbi14MG	DEbi14MG	PROPN	_	_	3	comp:pred	_	_
+
+# text = ich äh bin Zeuge eines kleinen Unfalls des äh der Bearbeitungsnummer F16
+1	ich	ich	PRON	_	_	3	subj	_	_
+2	äh	äh	ADV	_	_	3	discourse	_	_
+3	bin	sein	VERB	_	_	0	root	_	_
+4	Zeuge	Zeug	NOUN	_	_	3	comp:pred	_	_
+5	eines	ein	DET	_	_	7	det	_	_
+6	kleinen	klein	ADJ	_	_	7	mod	_	_
+7	Unfalls	Unfall	NOUN	_	_	4	mod@poss	_	_
+8	des	d	DET	_	_	10	reparandum	_	_
+9	äh	äh	ADJ	_	_	3	discourse	_	_
+10	der	d	DET	_	_	11	det	_	_
+11	Bearbeitungsnummer	Bearbeitungsnummer	NOUN	_	_	7	mod@poss	_	_
+12	F16	F16	PROPN	_	_	11	appos	_	_
+
+# text = äh und möchte dazu kurz Stellung nehmen
+1	äh	äh	ADJ	_	_	3	discourse	_	_
+2	und	und	CCONJ	_	_	3	cc	_	_
+3	möchte	möchten	VERB	_	_	0	root	_	_
+4	dazu	dazu	ADV	_	_	3	mod	_	_
+5	kurz	kurz	ADJ	_	_	3	mod	_	_
+6	Stellung	Stellung	NOUN	_	_	7	comp:obj	_	_
+7	nehmen	nehmen	VERB	_	_	3	comp:aux	_	_
+
+# text = äh ich war auf dem Weg zur Arbeit
+1	äh	äh	ADJ	_	_	3	discourse	_	_
+2	ich	ich	PRON	_	_	3	subj	_	_
+3	war	sein	VERB	_	_	0	root	_	_
+4	auf	auf	ADP	_	_	3	comp:pred	_	_
+5	dem	d	DET	_	_	6	det	_	_
+6	Weg	Weg	NOUN	_	_	4	comp:obj	_	_
+7	zur	zur	PROPN	_	_	6	mod	_	_
+8	Arbeit	Arbeit	PROPN	_	_	7	comp:obj	_	_
+
+# text = und äh ich befand mich äh zu dem Zeitpunkt des Unfalls auf einem kleinen Parkplatz
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	äh	äh	ADJ	_	_	4	discourse	_	_
+3	ich	ich	PRON	_	_	4	subj	_	_
+4	befand	befinden	VERB	_	_	0	root	_	_
+5	mich	ich	PRON	_	_	4	comp:obj	_	_
+6	äh	äh	ADV	_	_	4	discourse	_	_
+7	zu	zu	ADP	_	_	4	mod	_	_
+8	dem	d	DET	_	_	9	det	_	_
+9	Zeitpunkt	Zeitpunkt	NOUN	_	_	7	comp:obj	_	_
+10	des	d	DET	_	_	11	det	_	_
+11	Unfalls	Unfall	NOUN	_	_	9	mod@poss	_	_
+12	auf	auf	ADP	_	_	4	comp:obl	_	_
+13	einem	ein	DET	_	_	15	det	_	_
+14	kleinen	klein	ADJ	_	_	15	mod	_	_
+15	Parkplatz	Parkplatz	NOUN	_	_	12	comp:obj	_	_
+
+# text = dort habe ich gesehen wie äh auf der linken Seite des Parkplatz äh äh sage ich mal zwei Personen ihren Einkauf äh in den äh in den äh Kofferraum beladen haben
+1	dort	dort	ADV	_	_	2	mod	_	_
+2	habe	haben	AUX	_	_	0	root	_	_
+3	ich	ich	PRON	_	_	2	subj	_	_
+4	gesehen	sehen	VERB	_	_	2	comp:aux	_	_
+5	wie	wie	ADV	_	_	4	comp:obj	_	_
+6	äh	äh	ADJ	_	_	2	discourse	_	_
+7	auf	auf	ADP	_	_	30	mod	_	_
+8	der	d	DET	_	_	10	det	_	_
+9	linken	link	ADJ	_	_	10	mod	_	_
+10	Seite	Seite	NOUN	_	_	7	comp:obj	_	_
+11	des	d	DET	_	_	12	det	_	_
+12	Parkplatz	Parkplatz	NOUN	_	_	10	mod@poss	_	_
+13	äh	äh	ADJ	_	_	2	discourse	_	_
+14	äh	äh	ADJ	_	_	2	discourse	_	_
+15	sage	sagen	NOUN	_	_	2	parataxis	_	_
+16	ich	ich	PRON	_	_	15	subj	_	_
+17	mal	mal	ADV	_	_	15	mod	_	_
+18	zwei	zwei	NUM	_	_	19	mod	_	_
+19	Personen	Person	NOUN	_	_	31	subj	_	_
+20	ihren	ihr	DET	_	_	21	det	_	_
+21	Einkauf	Einkauf	NOUN	_	_	30	comp:obj	_	_
+22	äh	äh	ADJ	_	_	2	discourse	_	_
+23	in	in	ADP	_	_	26	reparandum	_	_
+24	den	d	DET	_	_	23	comp:obj	_	_
+25	äh	äh	ADJ	_	_	2	discourse	_	_
+26	in	in	ADP	_	_	30	comp:obl	_	_
+27	den	d	DET	_	_	29	det	_	_
+28	äh	äh	ADJ	_	_	2	discourse	_	_
+29	Kofferraum	Kofferraum	PROPN	_	_	26	comp:obj	_	_
+30	beladen	beladen	PROPN	_	_	31	comp:aux	_	_
+31	haben	haben	AUX	_	_	5	comp:obj	_	_
+
+# text = zur selben Zeit äh standen auf der anderen Seite des Parkplatzes äh zwei äh Personen und eine äh Person mit Kinderwagen die andere mit einem Ball
+1	zur	zur	NOUN	_	_	5	mod	_	_
+2	selben	selb	ADJ	_	_	3	mod	_	_
+3	Zeit	Zeit	NOUN	_	_	1	comp:obj	_	_
+4	äh	äh	ADJ	_	_	5	discourse	_	_
+5	standen	stehen	VERB	_	_	0	root	_	_
+6	auf	auf	ADP	_	_	5	comp:obl	_	_
+7	der	d	DET	_	_	9	det	_	_
+8	anderen	ander	ADJ	_	_	9	mod	_	_
+9	Seite	Seite	NOUN	_	_	6	comp:obj	_	_
+10	des	d	DET	_	_	11	det	_	_
+11	Parkplatzes	Parkplatz	NOUN	_	_	9	mod@poss	_	_
+12	äh	äh	ADV	_	_	5	discourse	_	_
+13	zwei	zwei	NUM	_	_	15	mod	_	_
+14	äh	äh	ADJ	_	_	5	discourse	_	_
+15	Personen	Person	NOUN	_	_	5	subj	_	_
+16	und	und	CCONJ	_	_	19	cc	_	_
+17	eine	ein	DET	_	_	19	det	_	_
+18	äh	äh	ADJ	_	_	5	discourse	_	_
+19	Person	Person	NOUN	_	_	15	appos	_	_
+20	mit	mit	ADP	_	_	19	mod	_	_
+21	Kinderwagen	Kinderwagen	NOUN	_	_	20	comp:obj	_	_
+22	die	d	DET	_	_	23	det	_	_
+23	andere	ander	NOUN	_	_	19	conj	_	_
+24	mit	mit	ADP	_	_	23	mod	_	_
+25	einem	ein	DET	_	_	26	det	_	_
+26	Ball	Ball	NOUN	_	_	24	comp:obj	_	_
+
+# text = der der Ball wurde halt hoch und runter gespielt
+1	der	d	DET	_	_	2	reparandum	_	_
+2	der	d	DET	_	_	3	det	_	_
+3	Ball	Ball	NOUN	_	_	4	subj@pass	_	_
+4	wurde	werden	AUX	_	_	0	root	_	_
+5	halt	halt	ADV	_	_	4	discourse	_	_
+6	hoch	hoch	ADJ	_	_	9	compound@prt	_	_
+7	und	und	CCONJ	_	_	8	cc	_	_
+8	runter	runter	ADJ	_	_	6	conj	_	_
+9	gespielt	spielen	VERB	_	_	4	comp:aux@pass	_	_
+
+# text = äh und zur selben Zeit fuhren durch den Mittelstreifen zwei Autos mit etwas erhöhter Geschwindigkeit
+1	äh	äh	ADJ	_	_	6	discourse	_	_
+2	und	und	CCONJ	_	_	6	cc	_	_
+3	zur	zur	PROPN	_	_	6	mod	_	_
+4	selben	selb	ADJ	_	_	5	mod	_	_
+5	Zeit	Zeit	NOUN	_	_	3	comp:obj	_	_
+6	fuhren	fahren	VERB	_	_	0	root	_	_
+7	durch	durch	ADP	_	_	6	comp:obl	_	_
+8	den	d	DET	_	_	9	det	_	_
+9	Mittelstreifen	Mittelstreifen	NOUN	_	_	7	comp:obj	_	_
+10	zwei	zwei	NUM	_	_	11	mod	_	_
+11	Autos	Auto	NOUN	_	_	6	subj	_	_
+12	mit	mit	ADP	_	_	6	mod	_	_
+13	etwas	etwas	ADV	_	_	14	mod	_	_
+14	erhöhter	erhöht	ADJ	_	_	15	mod	_	_
+15	Geschwindigkeit	Geschwindigkeit	NOUN	_	_	12	comp:obj	_	_
+
+# text = äh daraufhin kullerte der Ball des einen Passanten halt auf die Fahrbahn
+1	äh	äh	ADJ	_	_	3	discourse	_	_
+2	daraufhin	daraufhin	ADV	_	_	3	mod	_	_
+3	kullerte	kullern	VERB	_	_	0	root	_	_
+4	der	d	DET	_	_	5	det	_	_
+5	Ball	Ball	NOUN	_	_	3	subj	_	_
+6	des	d	DET	_	_	8	det	_	_
+7	einen	ein	DET	_	_	8	det	_	_
+8	Passanten	Passant	NOUN	_	_	5	mod@poss	_	_
+9	halt	halt	ADV	_	_	3	discourse	_	_
+10	auf	auf	ADP	_	_	3	comp:obl	_	_
+11	die	d	DET	_	_	12	det	_	_
+12	Fahrbahn	Fahrbahn	NOUN	_	_	10	comp:obj	_	_
+
+# text = und der vordere Wagen musste halt stark bremsen
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	der	d	DET	_	_	4	det	_	_
+3	vordere	vorder	ADJ	_	_	4	mod	_	_
+4	Wagen	Wagen	PROPN	_	_	5	subj	_	_
+5	musste	müssen	AUX	_	_	0	root	_	_
+6	halt	halt	ADV	_	_	5	discourse	_	_
+7	stark	stark	ADJ	_	_	5	mod	_	_
+8	bremsen	bremsen	VERB	_	_	5	comp:aux	_	_
+
+# text = und der hintere Wagen fuhr ihm halt äh hinten ran
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	der	d	DET	_	_	4	det	_	_
+3	hintere	hinter	ADJ	_	_	4	mod	_	_
+4	Wagen	Wagen	NOUN	_	_	5	subj	_	_
+5	fuhr	fahren	VERB	_	_	0	root	_	_
+6	ihm	er	PRON	_	_	5	comp:obj	_	_
+7	halt	halt	ADV	_	_	5	discourse	_	_
+8	äh	äh	ADV	_	_	5	discourse	_	_
+9	hinten	hinten	ADV	_	_	5	mod	_	_
+10	ran	ran	ADV	_	_	5	compound@prt	_	_
+
+# text = äh daraufhin habe ich gesehen wie äh äh die Person die ihren Einkauf beladen haben erschraken
+1	äh	äh	ADJ	_	_	3	discourse	_	_
+2	daraufhin	daraufhin	ADV	_	_	3	mod	_	_
+3	habe	haben	AUX	_	_	0	root	_	_
+4	ich	ich	PRON	_	_	3	subj	_	_
+5	gesehen	sehen	VERB	_	_	3	comp:aux	_	_
+6	wie	wie	ADV	_	_	5	comp:obj	_	_
+7	äh	äh	ADJ	_	_	3	discourse	_	_
+8	äh	äh	ADV	_	_	3	discourse	_	_
+9	die	d	DET	_	_	10	det	_	_
+10	Person	Person	NOUN	_	_	16	subj	_	_
+11	die	die	PRON	_	_	15	subj	_	_
+12	ihren	ihr	DET	_	_	13	det	_	_
+13	Einkauf	Einkauf	NOUN	_	_	14	comp:obj	_	_
+14	beladen	beladen	PROPN	_	_	15	comp:aux	_	_
+15	haben	haben	AUX	_	_	10	mod@relcl	_	_
+16	erschraken	erschrecken	VERB	_	_	6	comp:obj	_	_
+
+# text = deren Einkauf fiel aufn Boden
+1	deren	die	PRON	_	_	2	det	_	_
+2	Einkauf	Einkauf	NOUN	_	_	3	subj	_	_
+3	fiel	fallen	VERB	_	_	0	root	_	_
+4	aufn	aufn	PROPN	_	_	3	comp:obl	_	_
+5	Boden	Boden	PROPN	_	_	4	comp:obj	_	_
+
+# text = die Äpfel kullerten auf die äh Fahrbahn
+1	die	d	DET	_	_	2	det	_	_
+2	Äpfel	Äpfel	NOUN	_	_	3	subj	_	_
+3	kullerten	kullern	VERB	_	_	0	root	_	_
+4	auf	auf	ADP	_	_	3	comp:obl	_	_
+5	die	d	DET	_	_	7	det	_	_
+6	äh	äh	ADJ	_	_	3	discourse	_	_
+7	Fahrbahn	Fahrbahn	NOUN	_	_	4	comp:obj	_	_
+
+# text = äh war aber keiner verletzt oder des Weiteren
+1	äh	äh	ADJ	_	_	2	discourse	_	_
+2	war	sein	VERB	_	_	0	root	_	_
+3	aber	aber	ADV	_	_	2	mod	_	_
+4	keiner	keine	PRON	_	_	2	subj	_	_
+5	verletzt	verletzen	ADV	_	_	2	comp:pred	_	_
+6	oder	oder	CCONJ	_	_	8	cc	_	_
+7	des	d	DET	_	_	8	det	_	_
+8	Weiteren	weit	ADJ	_	_	5	conj	_	_
+
+# text = äh und äh der Fahrer der dessen Auto angefahren wurde hat quasi die Polizei gerufen um dem Unfall äh wahrscheinlich aufzunehmen
+1	äh	äh	ADJ	_	_	11	discourse	_	_
+2	und	und	CCONJ	_	_	11	cc	_	_
+3	äh	äh	ADJ	_	_	11	discourse	_	_
+4	der	d	DET	_	_	5	det	_	_
+5	Fahrer	Fahrer	NOUN	_	_	11	subj	_	_
+6	der	die	DET	_	_	5	appos	_	_
+7	dessen	die	PRON	_	_	8	det	_	_
+8	Auto	Auto	NOUN	_	_	10	subj@pass	_	_
+9	angefahren	anfahren	VERB	_	_	10	comp:aux@pass	_	_
+10	wurde	werden	AUX	_	_	6	mod@relcl	_	_
+11	hat	haben	AUX	_	_	0	root	_	_
+12	quasi	quasi	ADV	_	_	11	mod	_	_
+13	die	d	DET	_	_	14	det	_	_
+14	Polizei	Polizei	NOUN	_	_	15	comp:obj	_	_
+15	gerufen	rufen	VERB	_	_	11	comp:aux	_	_
+16	um	um	ADP	_	_	15	mod	_	_
+17	dem	d	DET	_	_	18	det	_	_
+18	Unfall	Unfall	NOUN	_	_	21	comp:obj	_	_
+19	äh	äh	ADJ	_	_	11	discourse	_	_
+20	wahrscheinlich	wahrscheinlich	ADJ	_	_	21	mod	_	_
+21	aufzunehmen	aufnehmen	VERB	_	_	16	comp:obj	_	_
+
+# text = und es gab aber keine Verletzten äh und keine Aufruhr sage ich mal
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	es	es	PRON	_	_	3	subj@expl	_	_
+3	gab	geben	VERB	_	_	0	root	_	_
+4	aber	aber	ADV	_	_	3	mod	_	_
+5	keine	keine	PRON	_	_	6	det	_	_
+6	Verletzten	Verletzte	NOUN	_	_	3	comp:obj	_	_
+7	äh	äh	ADJ	_	_	3	discourse	_	_
+8	und	und	CCONJ	_	_	10	cc	_	_
+9	keine	keine	PRON	_	_	10	mod	_	_
+10	Aufruhr	Aufruhr	PROPN	_	_	6	conj	_	_
+11	sage	sagen	PROPN	_	_	3	parataxis	_	_
+12	ich	ich	PRON	_	_	11	subj	_	_
+13	mal	mal	ADV	_	_	11	mod	_	_
+

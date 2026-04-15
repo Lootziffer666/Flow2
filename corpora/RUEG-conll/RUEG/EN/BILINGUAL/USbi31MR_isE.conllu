@@ -1,0 +1,61 @@
+1	hey	hey	INTJ	ITJ	_	2	discourse	_	_
+2	Dennis	dennis	PROPN	NP0	_	0	root	_	_
+
+1	I	i	PRON	PNP	_	4	nsubj	_	_
+2	was	be	AUX	VBD	_	4	aux	_	_
+3	just	just	ADV	AV0	_	4	advmod	_	_
+4	standing	stand	VERB	VVG	_	0	root	_	_
+5	outside	outside	ADV	AV0	_	4	advmod	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	I	i	PRON	PNP	_	3	nsubj	_	_
+3	saw	see	VERB	VVD	_	0	root	_	_
+4	an	an	DET	AT0	_	5	det	_	_
+5	accident	accident	NOUN	NN1	_	3	obj	_	_
+
+1	a	a	DET	AT0	_	2	det	_	_
+2	car	car	NOUN	NN1	_	3	nsubj	_	_
+3	rear-ended	rear-end	VERB	VVD	_	0	root	_	_
+4	somebody	somebody	PRON	PNI	_	3	obj	_	_
+5	else	else	ADV	AV0	_	4	advmod	_	_
+
+1	they	they	PRON	PNP	_	3	nsubj	_	_
+2	were	be	AUX	VBD	_	3	cop	_	_
+3	driving	drive	VERB	VVG	_	0	root	_	_
+4	along	along	ADP	AVP	_	5	case	_	_
+5	slowly	slowly	ADV	AV0	_	3	obl	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	a	a	DET	AT0	_	3	det	_	_
+3	dog	dog	NOUN	NN1	_	8	nmod:poss	_	_
+4	's	's	PART	POS	_	3	case	_	_
+5	this	this	DET	DT0	_	6	det	_	_
+6	lady	lady	NOUN	NN1	_	8	nmod:poss	_	_
+7	's	's	PART	POS	_	6	case	_	_
+8	dog	dog	NOUN	NN1	_	9	nsubj	_	_
+9	ran	run	VERB	VVD	_	0	root	_	_
+10	out	out	ADP	AVP	_	9	compound:prt	_	_
+11	into	into	ADP	PRP	_	13	case	_	_
+12	the	the	DET	AT0	_	13	det	_	_
+13	street	street	NOUN	NN1	_	9	obl	_	_
+14	at	at	ADP	PRP	_	17	case	_	_
+15	the	the	DET	AT0	_	17	det	_	_
+16	same	same	ADJ	AJ0	_	17	amod	_	_
+17	time	time	NOUN	NN1	_	9	obl	_	_
+18	as	as	SCONJ	CJS	_	22	mark	_	_
+19	some	some	DET	DT0	_	22	advcl	_	_
+20	other	other	ADJ	AJ0	_	22	advmod	_	_
+21	guy	guy	NOUN	NN1	_	22	nsubj	_	_
+22	dropped	drop	VERB	VVD	_	9	advcl	_	_
+23	his	he	DET	DPS	_	24	det	_	_
+24	groceries	grocery	NOUN	NN2	_	22	obj	_	_
+25	all	all	ADV	AV0	_	9	obl	_	_
+26	over	over	ADP	AVP	_	25	case	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	he	he	PRON	PNP	_	3	nsubj	_	_
+3	rear-ended	rear-end	VERB	VVD	_	0	root	_	_
+4	him	he	PRON	PNP	_	3	obj	_	_
+
+1	yeah	yeah	INTJ	ITJ	_	0	root	_	_
+

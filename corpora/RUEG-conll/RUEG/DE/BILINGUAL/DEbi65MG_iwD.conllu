@@ -1,0 +1,125 @@
+1	Jo	Jo	PROPN	NGIRR	_	2	discourse	_	_
+2	Bro	Bro	PROPN	NN	Case=Nom|Number=Sing	0	root	_	_
+
+1	alles	alle	PRON	PIS	PronType=Tot	0	root	_	_
+2	klar	klar	ADJ	ADJD	Degree=Pos	1	orphan	_	_
+3	?	?	PUNCT	$.	_	1	punct	_	_
+
+1	Ey	ey	PROPN	NGIRR	Case=Nom|Number=Sing	2	discourse	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	jetzt	jetzt	ADV	ADV	_	2	mod	_	_
+4	Schlesi	Schlesi	NOUN	NE	_	2	comp:pred	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Zeuge	Zeuge	NOUN	NN	_	6	comp:pred	_	_
+4	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Unfalls	Unfall	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	3	mod@poss	_	_
+6	geworden	werden	VERB	VAPP	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+
+1	..	..	PUNCT	$.	_	0	root	_	_
+
+1	Zwei	Zwei	NUM	CARD	NumType=Card	2	mod	_	_
+2	Personen	Person	NOUN	NN	Case=Nom|Number=Plur	7	mod	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Kinderwagen	Kinderwagen	NOUN	NN	Case=Dat|Number=Plur	3	comp:obj	_	_
+6	der	d	DET	ART	Definite=Def|PronType=Art	7	det	_	_
+7	Typ	Typ	NOUN	NN	_	8	subj	_	_
+8	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Fußball	Fußball	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	comp:obj	_	_
+11	dabei	dabei	ADV	ADV	_	8	compound	_	_
+12	.	.	PUNCT	$.	_	8	punct	_	_
+
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	auf	auf	ADP	APPR	_	6	comp:obl	_	_
+4	diesem	dies	PRON	PDAT	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Dem	5	det	_	_
+5	Parkplatz	Parkplatz	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	3	comp:obj	_	_
+6	rumgespielt	rumspielen	VERB	VVPP	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	comp:aux	_	_
+
+1	da	da	ADV	ADV	_	2	comp:pred	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	so	so	ADV	PTKIFG	_	5	mod	_	_
+4	eine	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Frau	Frau	NOUN	NN	_	2	subj	_	_
+6	die	d	PRON	PRELS	Case=Nom|PronType=Dem	13	subj	_	_
+7	gerade	gerade	ADV	ADV	_	13	mod	_	_
+8	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	Einkauf	Einkauf	NOUN	NN	_	13	comp:obj	_	_
+10	in	in	ADP	APPR	_	13	comp:obl	_	_
+11	ihrem	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	Kofferrum	Kofferrum	NOUN	NE	_	10	comp:obj	_	_
+13	einpackte	einpacken	ADJ	VVFIN	Tense=Past|VerbForm=Fin	5	mod@relcl	_	_
+14	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Sie	Sie	PRON	PPER	Case=Nom|Person=2|PronType=Prs	2	subj	_	_
+2	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	auch	auch	ADV	PTKIFG	_	2	mod	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	2	comp:obj	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Typ	Typ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Fußball	Fußball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	comp:obj	_	_
+6	fallen	fallen	VERB	VVINF	VerbForm=Inf	7	comp:obj	_	_
+7	lassen	lassen	VERB	VVINF	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	auf	auf	ADP	APPR	_	6	comp:obl	_	_
+4	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	comp:obj	_	_
+6	gerollt	rollen	VERB	VVPP	Number=Sing|Person=3|Tense=Past|VerbForm=Part	2	comp:aux	_	_
+
+1	..	..	PUNCT	$.	_	0	root	_	_
+
+1	in	in	ADP	APPR	_	10	mod	_	_
+2	diesem	dies	PRON	PDAT	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Dem	3	det	_	_
+3	Augenblick	Augenblick	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	1	comp:obj	_	_
+4	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	zwei	zwei	NUM	CARD	NumType=Card	6	mod	_	_
+6	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	4	subj	_	_
+7	in	in	ADP	APPR	_	10	comp:obl	_	_
+8	deren	die	DET	PDAT	PronType=Dem	9	det	_	_
+9	Richtung	Richtung	NOUN	NN	_	7	comp:obj	_	_
+10	gefahren	fahren	VERB	VVPP	Tense=Past|VerbForm=Part	4	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	Definite=Def|PronType=Art	3	det	_	_
+3	vordere	vorder	ADJ	ADJA	Degree=Pos	4	subj	_	_
+4	musste	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Vollbremsung	Vollbremsung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	comp:obj	_	_
+7	machen	machen	VERB	VVINF	VerbForm=Inf	4	comp:aux	_	_
+
+1	natürlich	natürlich	ADJ	ADV	Degree=Pos	2	mod	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	andere	ander	ADJ	PIDAT	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	mod	_	_
+5	Fahrer	Fahrer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	subj	_	_
+6	hinten	hinten	ADV	ADV	_	2	mod	_	_
+7	reingefahren	reinfahren	VERB	VVINF	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+
+1	xd	xd	ADJ	EMO	Degree=Pos	0	root	_	_
+
+1	what	what	VERB	FM	Mood=Ind|Number=Sing|Person=3	0	root	_	_
+2	the	the	PROPN	FM	_	1	fixed	_	_
+3	fuck	fuck	PROPN	FM	_	1	fixed	_	_
+
+1	was	was	PRON	PWS	Case=Acc|Number=Sing|PronType=Int	0	root	_	_
+2	das	d	PRON	PDS	Case=Acc|PronType=Dem	1	orphan	_	_
+3	für	für	ADP	VVFIN	_	2	mod	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Tag	Tag	NOUN	NN	_	3	comp:obj	_	_
+
+1	bis	bis	ADP	APPR	_	0	root	_	_
+2	Moin	Moin	PROPN	NN	_	1	comp:obj	_	_
+3	Großer	Großer	NOUN	NN	_	1	vocative	_	_
+
+1	:victory_hand:	✌️	NOUN	EMO	_	0	root	_	_
+

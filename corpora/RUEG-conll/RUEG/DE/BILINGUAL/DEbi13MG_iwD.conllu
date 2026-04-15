@@ -1,0 +1,88 @@
+1	Ey	ey	PROPN	NGIRR	_	2	discourse	_	_
+2	Dicker	Dicker	PROPN	NE	_	0	root	_	_
+
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	auf	auf	ADP	APPR	_	10	mod	_	_
+4	dem	d	DET	ART	_	5	det	_	_
+5	Weg	Weg	NOUN	NN	_	3	comp:obj	_	_
+6	zur	zu	PROPN	APPRART	_	5	mod	_	_
+7	Arbeit	Arbeit	PROPN	NN	_	6	comp:obj	_	_
+8	einen	ein	DET	ART	_	9	det	_	_
+9	Autounfall	Autounfall	NOUN	NN	_	10	comp:obj	_	_
+10	gesehen	sehen	VERB	VVPP	_	2	comp:aux	_	_
+11	!	!	PUNCT	$.	_	2	punct	_	_
+12	!	!	PUNCT	$.	_	2	punct	_	_
+
+1	Ein	ein	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	kam	kommen	VERB	VVFIN	_	0	root	_	_
+4	mit	mit	ADP	APPR	_	3	mod	_	_
+5	seiner	sein	DET	PPOSAT	_	6	det	_	_
+6	Frau	Frau	NOUN	NN	_	4	comp:obj	_	_
+7	entgegen	entgegen	ADP	PTKVZ	_	3	compound@prt	_	_
+
+1	er	er	PRON	PPER	_	2	subj	_	_
+2	hielt	halten	VERB	VVFIN	_	0	root	_	_
+3	einen	ein	DET	ART	_	4	det	_	_
+4	Ball	Ball	NOUN	NN	_	2	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	sie	sie	PRON	PPER	_	3	subj	_	_
+3	schob	schieben	VERB	VVFIN	_	0	root	_	_
+4	den	d	DET	ART	_	5	det	_	_
+5	Kinderwagen	Kinderwagen	NOUN	NN	_	3	comp:obj	_	_
+6	vor	vor	ADP	APPR	_	3	mod	_	_
+7	sich	er|es|sie	PRON	PRF	_	8	comp:obj	_	_
+8	hin	hin	ADV	ADV	_	6	comp:obj	_	_
+9	!	!	PUNCT	$.	_	5	punct	_	_
+10	!	!	PUNCT	$.	_	5	punct	_	_
+
+1	Auf	auf	ADP	APPR	_	4	comp:pred	_	_
+2	anderen	ander	ADJ	PIDAT	_	3	mod	_	_
+3	Straßenseite	Straßenseite	NOUN	NN	_	1	comp:obj	_	_
+4	war	sein	VERB	VAFIN	_	0	root	_	_
+5	eine	ein	DET	ART	_	6	det	_	_
+6	Frau	Frau	NOUN	NN	_	4	subj	_	_
+7	die	d	PRON	PRELS	_	12	subj	_	_
+8	ihren	ihr	DET	PPOSAT	_	9	det	_	_
+9	Einkauf	Einkauf	NOUN	NN	_	12	comp:obj	_	_
+10	ins	ins	_	APPRART	_	12	comp:obl	_	_
+11	Auto	Auto	NOUN	NN	_	10	comp:obj	_	_
+12	packte	packen	ADJ	VVFIN	_	6	mod@relcl	_	_
+13	!	!	PUNCT	$.	_	4	punct	_	_
+14	!	!	PUNCT	$.	_	4	punct	_	_
+
+1	Der	d	DET	ART	_	2	det	_	_
+2	Typ	Typ	NOUN	NN	_	3	subj@expl	_	_
+3	ist	sein	AUX	VAFIN	_	0	root	_	_
+4	ohne	ohne	ADP	APPR	_	3	mod	_	_
+5	zu	zu	PART	PTKZU	_	4	comp:obj	_	_
+6	gucken	gucken	VERB	VVINF	_	5	comp:obj	_	_
+7	auf	auf	ADP	APPR	_	3	comp:obl	_	_
+8	die	d	DET	ART	_	9	det	_	_
+9	Straße	Straße	NOUN	NN	_	7	comp:obj	_	_
+10	,	,	PUNCT	$,	_	3	punct	_	_
+
+1	zack	zack	PROPN	NGONO	_	2	discourse	_	_
+2	kamen	kommen	VERB	VVFIN	_	0	root	_	_
+3	zwei	zwei	NUM	CARD	_	4	mod	_	_
+4	Autos	Auto	NOUN	NN	_	2	subj	_	_
+
+1	er	er	PRON	PPER	_	2	subj	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	sich	er|es|sie	PRON	PRF	_	5	comp:obj	_	_
+4	mies	mies	NOUN	ADJD	_	5	mod	_	_
+5	erschrocken	erschrecken	VERB	VVPP	_	2	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	boom	boom	PROPN	NGONO	_	3	discourse	_	_
+3	krachten	krachen	VERB	VVFIN	_	0	root	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Autos	Auto	NOUN	NN	_	3	subj	_	_
+6	aufeinander	aufeinander	ADV	ADV	_	3	compound@prt	_	_
+
+1	:face_with_rolling_eyes:	🙄	SYM	EMO	_	0	root	_	_
+
+1	:face_without_mouth:	😶	SYM	EMO	_	0	root	_	_
+

@@ -1,0 +1,185 @@
+1	guten	gut	ADJ	ADJA	_	2	mod	_	_
+2	Tag	Tag	NOUN	NN	_	0	root	_	_
+
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	bin	sein	VERB	VAFIN	_	0	root	_	_
+3	DEbi82FT	DEbi82FT	PROPN	NE	_	2	comp:pred	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	habe	haben	VERB	VAFIN	_	0	root	_	_
+4	den	d	DET	ART	_	5	det	_	_
+5	Vorfall	Vorfall	NOUN	NN	_	8	comp:obj	_	_
+6	von	von	ADP	APPR	_	5	mod	_	_
+7	F16	F16	NUM	NE	_	6	comp:obj	_	_
+8	beobachtet	beobachten	VERB	VVPP	_	3	comp:aux	_	_
+
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	es	es	PRON	PPER	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	eine	ein	PRON	ART	_	5	reparandum	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Mann	Mann	NOUN	NN	_	9	reparandum	_	_
+7	also	also	ADV	ADV	_	3	discourse	_	_
+8	eine	ein	DET	ART	_	9	det	_	_
+9	Familie	Familie	NOUN	NN	_	3	comp:pred	_	_
+10	ein	ein	DET	ART	_	11	det	_	_
+11	Mann	Mann	NOUN	NN	_	9	appos	_	_
+12	und	und	CCONJ	KON	_	14	cc	_	_
+13	seine	sein	DET	PPOSAT	_	14	det	_	_
+14	Frau	Frau	NOUN	NN	_	11	conj	_	_
+15	und	und	CCONJ	KON	_	17	cc	_	_
+16	ein	ein	DET	ART	_	17	det	_	_
+17	Kinderwagen	Kinderwagen	NOUN	NN	_	11	conj	_	_
+18	die	d	PRON	ART	_	22	subj	_	_
+19	über	über	ADP	APPR	_	22	comp:obl	_	_
+20	die	d	DET	ART	_	21	det	_	_
+21	Straße	Straße	NOUN	NN	_	19	comp:obj	_	_
+22	gingen	gehen	VERB	VVFIN	_	9	mod@relcl	_	_
+23	und	und	CCONJ	KON	_	31	cc	_	_
+24	der	d	DET	ART	_	26	det	_	_
+25	äh	äh	NOUN	NGHES	_	3	discourse	_	_
+26	Ball	Ball	PROPN	NN	_	31	subj	_	_
+27	über	über	ADP	APPR	_	30	comp:obl	_	_
+28	die	d	DET	ART	_	29	det	_	_
+29	Straße	Straße	NOUN	NN	_	27	comp:obj	_	_
+30	gerollt	rollen	ADJ	VVPP	_	31	comp:aux	_	_
+31	ist	sein	VERB	VAFIN	_	22	conj	_	_
+
+1	denn	denn	CCONJ	KON	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Auto	Auto	NOUN	NN	_	2	subj	_	_
+5	gekommen	kommen	VERB	VVPP	_	2	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	kurzfristig	kurzfristig	ADJ	ADJD	_	2	mod	_	_
+4	gebremst	bremsen	ADV	VVPP	_	2	comp:aux	_	_
+5	wegen	wegen	ADP	APPR	_	4	mod	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	Ball	Ball	NOUN	NN	_	5	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	vom	vom	PROPN	APPRART	_	4	comp:obl	_	_
+3	hinten	hinten	ADV	ADV	_	2	mod	_	_
+4	kam	kommen	VERB	VVFIN	_	0	root	_	_
+5	ein	ein	DET	ART	_	7	det	_	_
+6	anderes	ander	ADJ	PIDAT	_	7	mod	_	_
+7	Auto	Auto	NOUN	NN	_	4	subj	_	_
+8	was	was	PRON	PRELS	_	13	subj	_	_
+9	dann	dann	ADV	ADV	_	13	mod	_	_
+10	an	an	ADP	APPR	_	12	comp:obl	_	_
+11	ihn	er	PRON	PPER	_	10	comp:obj	_	_
+12	geknallt	knallen	VERB	VVPP	_	13	comp:aux	_	_
+13	ist	sein	AUX	VAFIN	_	7	mod@relcl	_	_
+14	weil	weil	SCONJ	KOUS	_	12	mod	_	_
+15	er	er	PRON	PPER	_	19	subj	_	_
+16	so	so	ADV	PTKIFG	_	17	mod	_	_
+17	kurzfristig	kurzfristig	ADJ	ADJD	_	19	mod	_	_
+18	gebremst	bremsen	ADV	VVPP	_	19	comp:aux	_	_
+19	hat	haben	VERB	VAFIN	_	14	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Mann	Mann	NOUN	NN	_	3	subj	_	_
+6	den	d	DET	ART	_	9	comp:obj	_	_
+7	den	d	DET	ART	_	8	det	_	_
+8	Ball	Ball	NOUN	NN	_	10	subj	_	_
+9	heruntergefallen	heruntergfallen	ADJ	VVPP	_	10	comp:aux	_	_
+10	ist	sein	VERB	VAFIN	_	5	mod@relcl	_	_
+
+1	mit	mit	ADP	APPR	_	4	mod	_	_
+2	Panik	Panik	NOUN	NN	_	1	comp:obj	_	_
+3	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+4	hat	haben	VERB	VAFIN	_	0	root	_	_
+5	er	er	PRON	PPER	_	4	subj	_	_
+6	dann	dann	ADV	ADV	_	4	mod	_	_
+
+1	drüben	drüben	ADV	ADV	_	2	mod	_	_
+2	stand	stehen	VERB	VVFIN	_	0	root	_	_
+3	eine	eine	DET	ART	_	4	det	_	_
+4	frau	Frau	ADJ	NN	_	2	subj	_	_
+5	mit	mit	ADP	APPR	_	4	mod	_	_
+6	ein	ein	DET	ART	_	7	det	_	_
+7	Hund	Hund	NOUN	NN	_	5	comp:obj	_	_
+8	die	die	PRON	PRELS	_	15	subj	_	_
+9	ihr	ihr	DET	PPOSAT	_	10	det	_	_
+10	Einkauf	Einkauf	NOUN	NN	_	14	comp:obj	_	_
+11	in	in	ADP	APPR	_	14	comp:obl	_	_
+12	ihr	ihr	DET	PPOSAT	_	13	det	_	_
+13	Auto	Auto	NOUN	NN	_	11	comp:obj	_	_
+14	sortiert	sortieren	VERB	VVPP	_	15	comp:aux	_	_
+15	hat	haben	AUX	VAFIN	_	4	mod@relcl	_	_
+
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	ihre	ihr	PRON	PPOSAT	_	3	reparandum	_	_
+3	ihr	ihr	DET	PPOSAT	_	4	det	_	_
+4	Einkauf	Einkauf	NOUN	NN	_	5	subj	_	_
+5	ist	sein	VERB	VAFIN	_	0	root	_	_
+6	heruntergfallen	herunterfallen	ADJ	VVPP	_	5	comp:aux	_	_
+7	weil	weil	SCONJ	KOUS	_	6	mod	_	_
+8	sie	sie	PRON	PPER	_	12	subj	_	_
+9	auch	auch	ADV	PTKIFG	_	12	mod	_	_
+10	Schock	Schock	NOUN	NN	_	11	comp:obj	_	_
+11	bekommen	bekommen	VERB	VVPP	_	12	comp:aux	_	_
+12	hat	haben	AUX	VAFIN	_	7	comp:obj	_	_
+
+1	der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	sehr	sehr	ADV	PTKIFG	_	5	mod	_	_
+5	doll	doll	ADV	ADJD	_	3	mod	_	_
+6	gebellt	bellen	VERB	VVPP	_	3	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Mann	Mann	NOUN	NN	_	4	subj	_	_
+4	ist	sein	AUX	VAFIN	_	0	root	_	_
+5	dann	dann	ADV	ADV	_	4	mod	_	_
+6	herübergerannt	herüberrennen	VERB	VVPP	_	4	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	in	in	ADP	APPR	_	5	mod	_	_
+4	Panik	Panik	PROPN	NN	_	3	comp:obj	_	_
+5	geholfen	helfen	VERB	VVPP	_	2	comp:aux	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Sachen	Sache	NOUN	NN	_	8	comp:obj	_	_
+8	aufzuheben	aufheben	VERB	VVIZU	_	5	comp:obl	_	_
+
+1	ist	sein	VERB	VAFIN	_	0	root	_	_
+2	dann	dann	ADV	ADV	_	1	mod	_	_
+3	auch	auch	ADV	PTKIFG	_	1	mod	_	_
+4	äh	äh	ADJ	NGHES	_	1	discourse	_	_
+5	zum	zum	NOUN	APPRART	_	7	comp:obl	_	_
+6	Auto	Auto	NOUN	NN	_	5	comp:obj	_	_
+7	gegangen	gehen	VERB	VVPP	_	1	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	geguckt	gucken	VERB	VVPP	_	2	comp:aux	_	_
+4	was	was	PRON	PWS	_	7	subj	_	_
+5	da	da	ADV	ADV	_	7	mod	_	_
+6	passiert	passieren	VERB	VVPP	_	7	comp:aux	_	_
+7	ist	sein	AUX	VAFIN	_	3	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	9	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Autofahrer	Autofahrer	NOUN	NN	_	9	subj	_	_
+4	der	d	PRON	ART	_	8	subj	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Unfall	Unfall	NOUN	NN	_	7	comp:obj	_	_
+7	gemacht	machen	VERB	VVPP	_	8	comp:aux	_	_
+8	hat	haben	AUX	VAFIN	_	3	mod@relcl	_	_
+9	hat	haben	AUX	VAFIN	_	0	root	_	_
+10	dann	dann	ADV	ADV	_	9	mod	_	_
+11	auch	auch	ADV	PTKIFG	_	9	mod	_	_
+12	die	d	DET	ART	_	13	det	_	_
+13	Polizei	Polizei	NOUN	NN	_	14	comp:obj	_	_
+14	gerufen	rufen	VERB	VVPP	_	9	comp:aux	_	_
+
+1	ja	ja	ADV	NGIRR	_	0	root	_	_
+

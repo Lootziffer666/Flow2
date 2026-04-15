@@ -1,0 +1,55 @@
+# text = ﻿F 16
+1	﻿F	﻿F	PROPN	SPELL	_	0	root	_	_
+2	16	@card@	NUM	CARD	NumType=Card	1	appos	_	_
+
+# text = Eine Familie ist mit dem Kinderwagen spazieren
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Familie	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	subj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	mit	mit	ADP	APPR	_	7	mod	_	_
+5	dem	d	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+6	Kinderwagen	Kinderwagen	NOUN	NN	Case=Dat|Number=Plur	4	comp:obj	_	_
+7	spazieren	spazieren	VERB	VVINF	Number=Plur|Person=3|VerbForm=Fin	3	comp:aux	_	_
+
+# text = und der Vater hat einen Fußball in der Hand.
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Vater	Vater	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+4	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Fußball	Fußball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	comp:obj	_	_
+7	in	in	ADP	APPR	_	4	mod	_	_
+8	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Hand.	Hand	PROPN	NN	_	7	comp:obj	_	_
+
+# text = Beim überqueren des Parkplatzes fällt der Ball dem Vater aus der Hand
+1	Beim	bei	ADV	APPART	_	5	mod	_	_
+2	überqueren	überqueren	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	1	comp:obj	_	_
+3	des	d	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Parkplatzes	Parkplatz	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	2	mod@poss	_	_
+5	fällt	fallen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+6	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Ball	Ball	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	subj	_	_
+8	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Vater	Vater	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	comp:obj	_	_
+10	aus	aus	ADP	APPR	_	5	comp:obl	_	_
+11	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Hand	Hand	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	comp:obj	_	_
+
+# text = und rollt über die Straße .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	rollt	rollen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	über	über	ADP	NN	_	2	comp:obl	_	_
+4	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	comp:obj	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Dabei fahren zwei herankommende Fahrzeuge ineinander .
+1	Dabei	dabei	ADV	ADV	_	2	mod	_	_
+2	fahren	fahren	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+3	zwei	zwei	NUM	CARD	NumType=Card	5	mod	_	_
+4	herankommende	herankommende	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	5	mod	_	_
+5	Fahrzeuge	Fahrzeug	NOUN	NN	Case=Nom|Number=Plur	2	subj	_	_
+6	ineinander	ineinander	ADV	PTKVZ	_	2	compound@prt	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+

@@ -1,0 +1,248 @@
+# text = ey du weißt nicht was gerade passiert ist
+1	ey	ey	PROPN	_	_	3	discourse	_	_
+2	du	du	PROPN	_	_	3	subj	_	_
+3	weißt	weißt	VERB	_	_	8	comp:obj	_	_
+4	nicht	nicht	PART	_	_	3	mod	_	_
+5	was	was	PRON	_	_	8	subj	_	_
+6	gerade	gerade	ADV	_	_	8	mod	_	_
+7	passiert	passieren	VERB	_	_	8	comp:aux	_	_
+8	ist	sein	AUX	_	_	0	root	_	_
+
+# text = ich stand da so am Parkplatz
+1	ich	ich	PRON	_	_	2	subj	_	_
+2	stand	stehen	VERB	_	_	0	root	_	_
+3	da	da	ADV	_	_	2	mod	_	_
+4	so	so	ADV	_	_	2	mod	_	_
+5	am	am	ADJ	_	_	2	comp:obl	_	_
+6	Parkplatz	Parkplatz	NOUN	_	_	5	comp:obj	_	_
+
+# text = und auf einmal sehe ich wie so ein Typ mit seiner Frau da vorbeiläuft
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	auf	auf	ADP	_	_	4	mod	_	_
+3	einmal	einmal	ADV	_	_	2	fixed	_	_
+4	sehe	sehen	VERB	_	_	0	root	_	_
+5	ich	ich	PRON	_	_	4	subj	_	_
+6	wie	wie	CCONJ	_	_	4	comp:obj	_	_
+7	so	so	ADV	_	_	9	mod	_	_
+8	ein	ein	DET	_	_	9	det	_	_
+9	Typ	Typ	NOUN	_	_	14	subj	_	_
+10	mit	mit	ADP	_	_	9	mod	_	_
+11	seiner	sein	DET	_	_	12	det	_	_
+12	Frau	Frau	NOUN	_	_	10	comp:obj	_	_
+13	da	da	ADV	_	_	14	mod	_	_
+14	vorbeiläuft	vorbeilaufen	VERB	_	_	6	comp:obj	_	_
+
+# text = die haben so einen Kinderwagen
+1	die	die	PRON	_	_	2	subj	_	_
+2	haben	haben	VERB	_	_	0	root	_	_
+3	so	so	ADV	_	_	5	mod	_	_
+4	einen	ein	DET	_	_	5	det	_	_
+5	Kinderwagen	Kinderwagen	NOUN	_	_	2	comp:obj	_	_
+
+# text = und der spielt mitm Ball
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	der	die	DET	_	_	3	subj	_	_
+3	spielt	spielen	ADJ	_	_	0	root	_	_
+4	mitm	mitm	PROPN	_	_	3	mod	_	_
+5	Ball	Ball	PROPN	_	_	4	comp:obj	_	_
+
+# text = und auf deren Seite ist so eine Frau die gerade so ihre Einkaufstüten äh in ihr Auto reintut
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	auf	auf	ADP	_	_	5	comp:pred	_	_
+3	deren	die	DET	_	_	4	det	_	_
+4	Seite	Seite	NOUN	_	_	2	comp:obj	_	_
+5	ist	sein	VERB	_	_	0	root	_	_
+6	so	so	ADV	_	_	8	mod	_	_
+7	eine	eine	DET	_	_	8	det	_	_
+8	Frau	Frau	NOUN	_	_	5	subj	_	_
+9	die	die	PRON	_	_	18	subj	_	_
+10	gerade	gerade	ADV	_	_	18	mod	_	_
+11	so	so	ADV	_	_	18	mod	_	_
+12	ihre	ihr	DET	_	_	13	det	_	_
+13	Einkaufstüten	Einkaufstüten	NOUN	_	_	18	comp:obj	_	_
+14	äh	äh	ADJ	_	_	5	discourse	_	_
+15	in	in	ADP	_	_	18	comp:obl	_	_
+16	ihr	ihr	DET	_	_	17	det	_	_
+17	Auto	Auto	NOUN	_	_	15	comp:obj	_	_
+18	reintut	reintun	VERB	_	_	8	mod@relcl	_	_
+
+# text = und der spielt dann so mit diesem Ball
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	der	die	PRON	_	_	3	subj	_	_
+3	spielt	spielen	VERB	_	_	0	root	_	_
+4	dann	dann	ADV	_	_	3	mod	_	_
+5	so	so	ADV	_	_	3	mod	_	_
+6	mit	mit	ADP	_	_	3	mod	_	_
+7	diesem	diese	PRON	_	_	8	det	_	_
+8	Ball	Ball	NOUN	_	_	6	comp:obj	_	_
+
+# text = und der trifft dann wirklich genau in dem Moment diese Frau mit diesen Einkaufstüten
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	der	die	PRON	_	_	3	subj	_	_
+3	trifft	treffen	VERB	_	_	0	root	_	_
+4	dann	dann	ADV	_	_	3	mod	_	_
+5	wirklich	wirklich	ADV	_	_	3	mod	_	_
+6	genau	genau	ADJ	_	_	7	mod	_	_
+7	in	in	ADP	_	_	3	mod	_	_
+8	dem	d	DET	_	_	9	det	_	_
+9	Moment	Moment	NOUN	_	_	7	comp:obj	_	_
+10	diese	diese	PRON	_	_	11	det	_	_
+11	Frau	Frau	NOUN	_	_	3	comp:obj	_	_
+12	mit	mit	ADP	_	_	11	mod	_	_
+13	diesen	diese	PRON	_	_	14	det	_	_
+14	Einkaufstüten	Einkaufstüten	NOUN	_	_	12	comp:obj	_	_
+
+# text = und sie hat so an der einen Hand noch so die Hundeleine
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	sie	sie	PRON	_	_	3	subj	_	_
+3	hat	haben	VERB	_	_	0	root	_	_
+4	so	so	ADV	_	_	3	mod	_	_
+5	an	an	ADP	_	_	3	comp:obl	_	_
+6	der	d	DET	_	_	8	det	_	_
+7	einen	ein	ADJ	_	_	8	mod	_	_
+8	Hand	Hand	NOUN	_	_	5	comp:obj	_	_
+9	noch	noch	ADV	_	_	3	mod	_	_
+10	so	so	ADV	_	_	3	mod	_	_
+11	die	d	DET	_	_	12	det	_	_
+12	Hundeleine	Hundeleine	NOUN	_	_	3	comp:obj	_	_
+
+# text = und äh musst dir vorstellen einfach dieser Hund ist dann einfach also weggelaufen während sie getroffen wurde
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	äh	äh	ADV	_	_	3	discourse	_	_
+3	musst	m�ssen	VERB	_	_	0	root	_	_
+4	dir	du	PRON	_	_	5	comp:obl	_	_
+5	vorstellen	vorstellen	ADJ	_	_	3	comp:aux	_	_
+6	einfach	einfach	ADV	_	_	3	mod	_	_
+7	dieser	diese	PRON	_	_	8	det	_	_
+8	Hund	Hund	NOUN	_	_	9	subj	_	_
+9	ist	sein	VERB	_	_	5	comp:obj	_	_
+10	dann	dann	ADV	_	_	9	mod	_	_
+11	einfach	einfach	ADJ	_	_	9	mod	_	_
+12	also	also	ADV	_	_	3	discourse	_	_
+13	weggelaufen	weglaufen	VERB	_	_	9	comp:aux	_	_
+14	während	während	ADP	_	_	13	mod	_	_
+15	sie	sie	PRON	_	_	17	subj@pass	_	_
+16	getroffen	treffen|triefen	VERB	_	_	17	comp:aux@pass	_	_
+17	wurde	werden	AUX	_	_	14	comp:obj	_	_
+
+# text = sie versucht diesem Hund hinterherzulaufen
+1	sie	sie	PRON	_	_	2	subj	_	_
+2	versucht	versuchen	VERB	_	_	0	root	_	_
+3	diesem	diese	DET	_	_	4	det	_	_
+4	Hund	Hund	NOUN	_	_	5	comp:obj	_	_
+5	hinterherzulaufen	hinterherlaufen	VERB	_	_	2	comp:obj	_	_
+
+# text = ihr fallen währenddessen noch äh ihre Tüten aus der Hand und ihre Sachen die dadrin waren
+1	ihr	ihr	PRON	_	_	2	comp:obj	_	_
+2	fallen	fallen	VERB	_	_	0	root	_	_
+3	währenddessen	währenddessen	ADV	_	_	2	mod	_	_
+4	noch	noch	ADV	_	_	2	mod	_	_
+5	äh	äh	ADJ	_	_	2	discourse	_	_
+6	ihre	ihr	DET	_	_	7	det	_	_
+7	Tüten	Tüten	NOUN	_	_	2	subj	_	_
+8	aus	aus	ADP	_	_	2	comp:obl	_	_
+9	der	d	DET	_	_	10	det	_	_
+10	Hand	Hand	NOUN	_	_	8	comp:obj	_	_
+11	und	und	CCONJ	_	_	13	cc	_	_
+12	ihre	ihr	DET	_	_	13	det	_	_
+13	Sachen	Sache	NOUN	_	_	7	conj	_	_
+14	die	die	DET	_	_	16	subj	_	_
+15	dadrin	dadrin	ADV	_	_	16	comp:pred	_	_
+16	waren	sein	VERB	_	_	13	mod@relcl	_	_
+
+# text = und äh der versucht wahrscheinlich noch so ihr zu helfen und so keine Ahnung diese Tüten also die Sachen aus den Tüten noch da so reinzutun also wieder aufzuheben
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	äh	äh	ADJ	_	_	4	discourse	_	_
+3	der	die	DET	_	_	4	subj	_	_
+4	versucht	versuchen	VERB	_	_	0	root	_	_
+5	wahrscheinlich	wahrscheinlich	ADV	_	_	4	mod	_	_
+6	noch	noch	ADV	_	_	4	mod	_	_
+7	so	so	ADV	_	_	4	mod	_	_
+8	ihr	ihr	PRON	_	_	10	comp:obj	_	_
+9	zu	zu	PART	_	_	4	comp:obj	_	_
+10	helfen	helfen	VERB	_	_	9	comp:obj	_	_
+11	und	und	CCONJ	_	_	26	cc	_	_
+12	so	so	ADV	_	_	26	mod	_	_
+13	keine	keine	PRON	_	_	14	mod	_	_
+14	Ahnung	Ahnung	NOUN	_	_	4	parataxis	_	_
+15	diese	diese	PRON	_	_	16	det	_	_
+16	Tüten	Tüten	NOUN	_	_	26	comp:obj	_	_
+17	also	also	ADV	_	_	26	mod	_	_
+18	die	d	DET	_	_	19	det	_	_
+19	Sachen	Sache	NOUN	_	_	16	appos	_	_
+20	aus	aus	ADP	_	_	19	mod	_	_
+21	den	d	DET	_	_	22	det	_	_
+22	Tüten	Tüten	NOUN	_	_	20	comp:obj	_	_
+23	noch	noch	ADV	_	_	26	mod	_	_
+24	da	da	ADV	_	_	26	mod	_	_
+25	so	so	ADV	_	_	26	mod	_	_
+26	reinzutun	reintun	VERB	_	_	9	conj	_	_
+27	also	also	ADV	_	_	29	mod	_	_
+28	wieder	wieder	ADV	_	_	29	mod	_	_
+29	aufzuheben	aufheben	VERB	_	_	26	conj	_	_
+
+# text = und ey es war wirklich unglaublich
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	ey	ey	PROPN	_	_	4	discourse	_	_
+3	es	es	PRON	_	_	4	subj@expl	_	_
+4	war	sein	VERB	_	_	0	root	_	_
+5	wirklich	wirklich	ADV	_	_	4	mod	_	_
+6	unglaublich	unglaublich	ADJ	_	_	4	comp:pred	_	_
+
+# text = und genau während da dieser ganzen Situation kommen da zwei Autos angefahren
+1	und	und	CCONJ	_	_	8	cc	_	_
+2	genau	genau	ADJ	_	_	3	mod	_	_
+3	während	während	ADJ	_	_	12	mod	_	_
+4	da	da	SCONJ	_	_	5	reparandum	_	_
+5	dieser	diese	PRON	_	_	7	det	_	_
+6	ganzen	ganz	ADJ	_	_	7	mod	_	_
+7	Situation	Situation	NOUN	_	_	3	comp:obj	_	_
+8	kommen	kommen	VERB	_	_	0	root	_	_
+9	da	da	ADV	_	_	8	mod	_	_
+10	zwei	zwei	NUM	_	_	11	mod	_	_
+11	Autos	Auto	NOUN	_	_	8	subj	_	_
+12	angefahren	anfahren	VERB	_	_	8	comp:obl	_	_
+
+# text = und ja kannst dir wahrscheinlich schon denken so
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	ja	ja	ADV	_	_	3	discourse	_	_
+3	kannst	k�nnen	AUX	_	_	0	root	_	_
+4	dir	du	PRON	_	_	7	comp:obj	_	_
+5	wahrscheinlich	wahrscheinlich	ADJ	_	_	3	mod	_	_
+6	schon	schon	ADV	_	_	3	mod	_	_
+7	denken	denken	VERB	_	_	3	comp:aux	_	_
+8	so	so	ADV	_	_	3	mod	_	_
+
+# text = das erste Auto muss bremsen
+1	das	d	DET	_	_	3	det	_	_
+2	erste	erst	ADJ	_	_	3	mod	_	_
+3	Auto	Auto	NOUN	_	_	4	subj	_	_
+4	muss	m�ssen	AUX	_	_	0	root	_	_
+5	bremsen	bremsen	VERB	_	_	4	comp:aux	_	_
+
+# text = das andere fährt dann volle Kanne hinten rein
+1	das	d	DET	_	_	2	det	_	_
+2	andere	ander	NOUN	_	_	3	subj	_	_
+3	fährt	fährt	VERB	_	_	0	root	_	_
+4	dann	dann	ADV	_	_	3	mod	_	_
+5	volle	voll	ADJ	_	_	6	mod	_	_
+6	Kanne	Kanne	NOUN	_	_	3	mod	_	_
+7	hinten	hinten	ADV	_	_	3	mod	_	_
+8	rein	rein	ADJ	_	_	3	compound@prt	_	_
+
+# text = und dann ja jetzt muss die Polizei kommen gerufen werden
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	dann	dann	ADV	_	_	5	mod	_	_
+3	ja	ja	ADV	_	_	5	discourse	_	_
+4	jetzt	jetzt	ADV	_	_	5	mod	_	_
+5	muss	m�ssen	AUX	_	_	0	root	_	_
+6	die	d	DET	_	_	7	det	_	_
+7	Polizei	Polizei	NOUN	_	_	10	subj@pass	_	_
+8	kommen	kommen	PROPN	_	_	10	reparandum	_	_
+9	gerufen	rufen	VERB	_	_	10	comp:aux@pass	_	_
+10	werden	werden	AUX	_	_	5	comp:aux	_	_
+
+# text = toll ne
+1	toll	toll	ADJ	_	_	0	root	_	_
+2	ne	ne	DET	_	_	1	discourse	_	_
+

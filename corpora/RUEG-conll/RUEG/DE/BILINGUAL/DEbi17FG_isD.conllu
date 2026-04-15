@@ -1,0 +1,173 @@
+# text = äh hi Baby
+1	äh	äh	ADJ	_	Degree=Pos	3	discourse	_	_
+2	hi	hi	X	_	_	3	discourse	_	_
+3	Baby	Baby	PROPN	_	_	0	root	_	_
+
+# text = ich habe vor gerade ein Pärchen zugeschaut äh das beinahe ein Unfall kreiert hätte
+1	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	habe	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	vor	vor	ADP	_	_	4	reparandum	_	_
+4	gerade	gerade	ADV	_	_	2	mod	_	_
+5	ein	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Pärchen	Pärchen	NOUN	_	Case=Acc|Gender=Masc,Neut|Number=Sing	7	comp:obj	_	_
+7	zugeschaut	zuschauen	VERB	_	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+8	äh	äh	ADV	_	_	2	discourse	_	_
+9	das	d	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	subj	_	_
+10	beinahe	beinahe	ADJ	_	Degree=Pos	14	mod	_	_
+11	ein	ein	NUM	_	NumType=Card	12	mod	_	_
+12	Unfall	Unfall	NOUN	_	Case=Acc|Number=Sing	13	comp:obj	_	_
+13	kreiert	kreieren	VERB	_	Tense=Past|VerbForm=Part	14	comp:aux	_	_
+14	hätte	haben	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	mod@relcl	_	_
+
+# text = und zwar liefen die auf der rechten Straßenseite entlang mit einem Kinderwagen
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	zwar	zwar	ADV	_	_	3	mod	_	_
+3	liefen	laufen	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	die	d	DET	_	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	subj	_	_
+5	auf	auf	ADP	_	_	3	comp:obl	_	_
+6	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	rechten	recht	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	mod	_	_
+8	Straßenseite	Straßenseite	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	5	comp:obj	_	_
+9	entlang	entlang	ADV	_	_	3	compound@prt	_	_
+10	mit	mit	ADP	_	_	3	mod	_	_
+11	einem	ein	DET	_	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Kinderwagen	Kinderwagen	NOUN	_	Case=Dat|Number=Plur	10	comp:obj	_	_
+
+# text = und der Mann hatte ein Ball in der Hand
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Mann	Mann	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+4	hatte	haben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	ein	ein	DET	_	Definite=Ind|PronType=Art	6	det	_	_
+6	Ball	Ball	NOUN	_	_	4	comp:obj	_	_
+7	in	in	ADP	_	_	4	mod	_	_
+8	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Hand	Hand	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	7	comp:obj	_	_
+
+# text = und das glitt ihm natürlich aus der Hand
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	das	d	PRON	_	Case=Nom|PronType=Dem	3	subj	_	_
+3	glitt	gleiten	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	ihm	er	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	_
+5	natürlich	natürlich	ADJ	_	Degree=Pos	3	mod	_	_
+6	aus	aus	ADP	_	_	3	comp:obl	_	_
+7	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Hand	Hand	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	6	comp:obj	_	_
+
+# text = und da auf der anderen Seite war aber gleichzeitig eine Frau die ihre Einkäufe ja in den äh Auto gepackt hatte
+1	und	und	CCONJ	_	_	7	cc	_	_
+2	da	da	ADV	_	_	7	mod	_	_
+3	auf	auf	ADP	_	_	7	comp:pred	_	_
+4	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	anderen	ander	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	mod	_	_
+6	Seite	Seite	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	3	comp:obj	_	_
+7	war	sein	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	aber	aber	ADV	_	_	7	mod	_	_
+9	gleichzeitig	gleichzeitig	ADJ	_	Degree=Pos	7	mod	_	_
+10	eine	ein	DET	_	Definite=Ind|PronType=Art	11	det	_	_
+11	Frau	Frau	NOUN	_	_	7	subj	_	_
+12	die	d	PRON	_	Case=Nom|PronType=Dem	21	subj	_	_
+13	ihre	ihr	DET	_	Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+14	Einkäufe	Einkauf	NOUN	_	Case=Acc|Number=Plur	20	comp:obj	_	_
+15	ja	ja	ADV	_	_	7	discourse	_	_
+16	in	in	ADP	_	_	20	comp:obl	_	_
+17	den	d	DET	_	Case=Dat|Definite=Def|Number=Plur|PronType=Art	19	det	_	_
+18	äh	äh	ADJ	_	Degree=Pos	7	discourse	_	_
+19	Auto	Auto	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	16	comp:obj	_	_
+20	gepackt	packen	ADJ	_	Tense=Past	21	comp:aux	_	_
+21	hatte	haben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	mod@relcl	_	_
+
+# text = aber sie hatte noch einen Hund
+1	aber	aber	ADV	_	_	3	cc	_	_
+2	sie	sie	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
+3	hatte	haben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	noch	noch	ADV	_	_	3	mod	_	_
+5	einen	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Hund	Hund	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	3	comp:obj	_	_
+
+# text = und dieser Hund als natürlich der Ball dem Mann entglitten ist raste es auf der Straße
+1	und	und	CCONJ	_	_	12	cc	_	_
+2	dieser	diese	PRON	_	PronType=Dem	3	det	_	_
+3	Hund	Hund	NOUN	_	_	12	dislocated	_	_
+4	als	als	ADP	_	_	12	mod	_	_
+5	natürlich	natürlich	ADJ	_	Degree=Pos	11	mod	_	_
+6	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Ball	Ball	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	11	subj	_	_
+8	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Mann	Mann	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	10	comp:obj	_	_
+10	entglitten	entgleiten	VERB	_	Tense=Past|VerbForm=Inf	11	comp:aux	_	_
+11	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
+12	raste	rasen	ADJ	_	Degree=Sup|Tense=Past	0	root	_	_
+13	es	es	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	subj	_	_
+14	auf	auf	ADP	_	_	12	comp:obl	_	_
+15	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Straße	Straße	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	14	comp:obj	_	_
+
+# text = und bellte natürlich ganz wild los
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	bellte	bellen	VERB	_	Tense=Past|VerbForm=Fin	0	root	_	_
+3	natürlich	natürlich	ADJ	_	Degree=Pos	2	mod	_	_
+4	ganz	ganz	ADJ	_	Degree=Pos	5	mod	_	_
+5	wild	wild	ADJ	_	Degree=Pos	2	mod	_	_
+6	los	los	ADV	_	_	2	compound@prt	_	_
+
+# text = und dann passierte ein Unfall
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	dann	dann	ADV	_	_	3	mod	_	_
+3	passierte	passieren	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	ein	ein	DET	_	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Unfall	Unfall	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	3	subj	_	_
+
+# text = weil von unten kamen gleichzeitig zwei Wagen
+1	weil	weil	SCONJ	_	_	4	discourse	_	_
+2	von	von	ADP	_	_	4	mod	_	_
+3	unten	unten	ADV	_	_	2	comp:obj	_	_
+4	kamen	kommen	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	gleichzeitig	gleichzeitig	ADJ	_	Degree=Pos	4	mod	_	_
+6	zwei	zwei	NUM	_	NumType=Card	7	mod	_	_
+7	Wagen	Wagen	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	4	subj	_	_
+
+# text = und der Eine wollte natürlich den Hund nicht überfahren
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	der	d	DET	_	Case=Nom|Definite=Def|PronType=Art	3	det	_	_
+3	Eine	Eine	PRON	_	Case=Nom|PronType=Ind	4	subj	_	_
+4	wollte	wollen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	natürlich	natürlich	ADJ	_	Degree=Pos	4	mod	_	_
+6	den	d	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Hund	Hund	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	9	comp:obj	_	_
+8	nicht	nicht	PART	_	_	4	mod	_	_
+9	überfahren	überfahren	VERB	_	VerbForm=Part	4	comp:aux	_	_
+
+# text = also bremste er stark
+1	also	also	ADV	_	_	2	mod	_	_
+2	bremste	bremsen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	er	er	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+4	stark	stark	ADJ	_	Degree=Pos	2	mod	_	_
+
+# text = und ja so wurde der Hintere dann quasi getroffen
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	ja	ja	ADV	_	_	4	discourse	_	_
+3	so	so	ADV	_	_	4	mod	_	_
+4	wurde	werden	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Hintere	Hintere	ADJ	_	Case=Acc|Degree=Cmp|Number=Sing	4	subj@pass	_	_
+7	dann	dann	ADV	_	_	4	mod	_	_
+8	quasi	quasi	ADV	_	_	4	mod	_	_
+9	getroffen	treffen	VERB	_	Tense=Past|VerbForm=Part	4	comp:aux@pass	_	_
+
+# text = denn haben sie natürlich die Polizei gerufen
+1	denn	denn	ADV	_	_	2	mod	_	_
+2	haben	haben	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sie	sie	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
+4	natürlich	natürlich	ADJ	_	Degree=Pos	2	mod	_	_
+5	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Polizei	Polizei	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	7	comp:obj	_	_
+7	gerufen	rufen	VERB	_	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+
+# text = und ja das war es
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	ja	ja	ADV	_	_	4	discourse	_	_
+3	das	d	PRON	_	Case=Nom|PronType=Dem	4	subj	_	_
+4	war	sein	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	es	es	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	comp:pred	_	_
+

@@ -1,0 +1,165 @@
+# text = hi
+1	hi	hi	X	NGIRR	_	0	root	_	_
+
+# text = äh also ich war gerade an einem Parkplatz
+1	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+2	also	also	ADV	SEDM	_	4	discourse	_	_
+3	ich	ich	PRON	PPER	_	4	subj	_	_
+4	war	sein	VERB	VAFIN	_	0	root	_	_
+5	gerade	gerade	ADV	ADV	_	4	mod	_	_
+6	an	an	ADP	APPR	_	4	comp:pred	_	_
+7	einem	ein	DET	ART	_	8	det	_	_
+8	Parkplatz	Parkplatz	NOUN	NN	_	6	comp:obj	_	_
+
+# text = und vor mir ist glaube ich ein Unfall passiert
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	vor	vor	ADP	APPR	_	9	mod	_	_
+3	mir	ich	PRON	PPER	_	2	comp:obj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	glaube	glauben	PROPN	VVFIN	_	4	parataxis	_	_
+6	ich	ich	PRON	PPER	_	5	subj	_	_
+7	ein	ein	DET	ART	_	8	det	_	_
+8	Unfall	Unfall	NOUN	NN	_	4	subj	_	_
+9	passiert	passieren	VERB	VVPP	_	4	comp:aux	_	_
+
+# text = also ein Mann also eine Familie mit einem Kinderwagen äh ist auf die Straße zugelaufen
+1	also	also	ADV	SEDM	_	11	discourse	_	_
+2	ein	ein	DET	ART	_	3	det	_	_
+3	Mann	Mann	NOUN	NN	_	6	reparandum	_	_
+4	also	also	ADV	ADV	_	11	mod	_	_
+5	eine	ein	DET	ART	_	6	det	_	_
+6	Familie	Familie	NOUN	NN	_	11	subj	_	_
+7	mit	mit	ADP	APPR	_	6	mod	_	_
+8	einem	ein	DET	ART	_	9	det	_	_
+9	Kinderwagen	Kinderwagen	NOUN	NN	_	7	comp:obj	_	_
+10	äh	äh	ADJ	NGHES	_	11	discourse	_	_
+11	ist	sein	VERB	VAFIN	_	0	root	_	_
+12	auf	auf	ADP	APPR	_	15	comp:obl	_	_
+13	die	d	DET	ART	_	14	det	_	_
+14	Straße	Straße	NOUN	NN	_	12	comp:obj	_	_
+15	zugelaufen	zulaufen	VERB	VVPP	_	11	comp:aux	_	_
+
+# text = und der Vater hat einen Ball fallen lassen
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Vater	Vater	NOUN	NN	_	4	subj	_	_
+4	hat	haben	VERB	VAFIN	_	0	root	_	_
+5	einen	ein	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	7	comp:obj	_	_
+7	fallen	fallen	VERB	VVINF	_	8	comp:obj	_	_
+8	lassen	lassen	VERB	VVINF	_	4	comp:aux	_	_
+
+# text = und darauf hat der Hund auf der anderen Seite der Straße äh ist dann halt auf den Ball zugerannt
+1	und	und	CCONJ	KON	_	13	cc	_	_
+2	darauf	darauf	ADV	ADV	_	3	mod	_	_
+3	hat	haben	AUX	VAFIN	_	13	reparandum	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	13	subj	_	_
+6	auf	auf	ADP	APPR	_	5	mod	_	_
+7	der	d	DET	ART	_	9	det	_	_
+8	anderen	ander	ADJ	PIDAT	_	9	mod	_	_
+9	Seite	Seite	NOUN	NN	_	6	comp:obj	_	_
+10	der	d	DET	ART	_	11	det	_	_
+11	Straße	Straße	PROPN	NN	_	9	mod@poss	_	_
+12	äh	äh	PROPN	NGHES	_	13	discourse	_	_
+13	ist	sein	VERB	VAFIN	_	0	root	_	_
+14	dann	dann	ADV	ADV	_	13	mod	_	_
+15	halt	halt	ADV	PTKMA	_	13	discourse	_	_
+16	auf	auf	ADP	APPR	_	19	comp:obl	_	_
+17	den	d	DET	ART	_	18	det	_	_
+18	Ball	Ball	NOUN	NN	_	16	comp:obj	_	_
+19	zugerannt	zurennen	ADV	VVPP	_	13	comp:aux	_	_
+
+# text = und äh währenddessen sind zwei Autos auf die Situation zugefahren
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+3	währenddessen	währenddessen	ADV	ADV	_	4	mod	_	_
+4	sind	sein	VERB	VAFIN	_	0	root	_	_
+5	zwei	zwei	NUM	CARD	_	6	mod	_	_
+6	Autos	Auto	NOUN	NN	_	4	subj	_	_
+7	auf	auf	ADP	APPR	_	10	comp:obl	_	_
+8	die	d	DET	ART	_	9	det	_	_
+9	Situation	Situation	NOUN	NN	_	7	comp:obj	_	_
+10	zugefahren	zufahren	VERB	VVPP	_	4	comp:aux	_	_
+
+# text = und der Autofahrer hat dann auf einmal angehalten weil er nicht den Hund anfahren wollte
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Autofahrer	Autofahrer	NOUN	NN	_	4	subj	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	dann	dann	ADV	ADV	_	4	mod	_	_
+6	auf	auf	ADP	APPR	_	8	mod	_	_
+7	einmal	einmal	ADV	ADV	_	6	fixed	_	_
+8	angehalten	anhalten	VERB	VVPP	_	4	comp:aux	_	_
+9	weil	weil	SCONJ	KOUS	_	8	mod	_	_
+10	er	er	PRON	PPER	_	15	subj	_	_
+11	nicht	nicht	PART	PTKNEG	_	15	mod	_	_
+12	den	d	DET	ART	_	13	det	_	_
+13	Hund	Hund	NOUN	NN	_	14	comp:obj	_	_
+14	anfahren	anfahren	VERB	VVINF	_	15	comp:aux	_	_
+15	wollte	wollen	AUX	VMFIN	_	9	comp:obj	_	_
+
+# text = und dadurch ist das Auto hinter dem Auto äh in das Auto reingefahren
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dadurch	dadurch	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	das	d	DET	ART	_	5	det	_	_
+5	Auto	Auto	NOUN	NN	_	3	subj	_	_
+6	hinter	hinter	ADP	APPR	_	5	mod	_	_
+7	dem	d	DET	ART	_	8	det	_	_
+8	Auto	Auto	NOUN	NN	_	6	comp:obj	_	_
+9	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+10	in	in	ADP	APPR	_	13	comp:obl	_	_
+11	das	d	DET	ART	_	12	det	_	_
+12	Auto	Auto	NOUN	NN	_	10	comp:obj	_	_
+13	reingefahren	reinfahren	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und äh ja jetzt haben sie die Polizei gerufen
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+3	ja	ja	ADV	NGIRR	_	5	discourse	_	_
+4	jetzt	jetzt	ADV	ADV	_	5	mod	_	_
+5	haben	haben	AUX	VAFIN	_	0	root	_	_
+6	sie	sie	PRON	PPER	_	5	subj	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Polizei	Polizei	NOUN	NN	_	9	comp:obj	_	_
+9	gerufen	rufen	VERB	VVPP	_	5	comp:aux	_	_
+
+# text = und äh gerade warten wir auf die Polizei
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+3	gerade	gerade	ADV	ADV	_	4	mod	_	_
+4	warten	warten	VERB	VVFIN	_	0	root	_	_
+5	wir	wir	PRON	PPER	_	4	subj	_	_
+6	auf	auf	ADP	APPR	_	4	comp:obl	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Polizei	Polizei	NOUN	NN	_	6	comp:obj	_	_
+
+# text = und es könnte sein dass ich dann aussagen muss
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	_	3	subj@expl	_	_
+3	könnte	können	AUX	VMFIN	_	0	root	_	_
+4	sein	sein	VERB	VAINF	_	3	comp:aux	_	_
+5	dass	dass	SCONJ	KOUS	_	3	subj	_	_
+6	ich	ich	PRON	PPER	_	9	subj	_	_
+7	dann	dann	ADV	ADV	_	9	mod	_	_
+8	aussagen	aussagen	VERB	VVINF	_	9	comp:aux	_	_
+9	muss	müssen	AUX	VMFIN	_	5	comp:obj	_	_
+
+# text = ja aber es wurde niemand verletzt
+1	ja	ja	ADV	NGIRR	_	4	discourse	_	_
+2	aber	aber	ADV	KON	_	4	mod	_	_
+3	es	es	PRON	PPER	_	4	subj@expl	_	_
+4	wurde	werden	AUX	VAFIN	_	0	root	_	_
+5	niemand	niemand	PRON	PIS	_	4	subj@pass	_	_
+6	verletzt	verletzen	VERB	VVPP	_	4	comp:aux@pass	_	_
+
+# text = und es war jetzt kein großer Unfall
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	_	3	subj@expl	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	jetzt	jetzt	ADV	ADV	_	3	mod	_	_
+5	kein	kein	PRON	PIAT	_	7	det	_	_
+6	großer	große	ADJ	ADJA	_	7	mod	_	_
+7	Unfall	Unfall	NOUN	NN	_	3	comp:pred	_	_
+

@@ -1,0 +1,124 @@
+# text = Hallo Süße
+1	Hallo	hallo	X	NGIRR	_	2	discourse	_	_
+2	Süße	Süße	NOUN	NE	_	0	root	_	_
+
+# text = hier ist gerade ein Unfall passiert .
+1	hier	hier	ADV	ADV	_	2	mod	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	gerade	gerade	ADV	PTKIFG	_	2	mod	_	_
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Unfall	Unfall	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	subj	_	_
+6	passiert	passieren	VERB	VVPP	VerbForm=Part	2	comp:aux	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Eine Familie war mit Kinderwagen unterwegs
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Familie	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	subj	_	_
+3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	mit	mit	ADP	APPR	_	3	mod	_	_
+5	Kinderwagen	Kinderwagen	NOUN	NN	Case=Dat|Number=Plur	4	comp:obj	_	_
+6	unterwegs	unterwegs	ADV	ADV	_	3	compound@prt	_	_
+
+# text = und der Vater hat mit einem Ball gespielt , der ihm dann heruntergefallen ist .
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Vater	Vater	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+4	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	mit	mit	ADP	APPR	_	8	mod	_	_
+6	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	comp:obj	_	_
+8	gespielt	spielen	VERB	VVPP	VerbForm=Part	4	comp:aux	_	_
+9	,	,	PUNCT	$,	_	4	punct	_	_
+10	der	die	PRON	PRELS	Case=Nom|PronType=Rel	14	subj	_	_
+11	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	comp:obl	_	_
+12	dann	dann	ADV	ADV	_	14	mod	_	_
+13	heruntergefallen	herunterfallen	VERB	VVPP	VerbForm=Inf	14	comp:aux	_	_
+14	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	_
+15	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Gerade rüber hat sich ein Hund erschocken
+1	Gerade	gerade	ADJ	ADJA	Degree=Pos	3	mod	_	_
+2	rüber	rüber	ADV	APPR	_	3	mod	_	_
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs	7	comp:obj	_	_
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Hund	Hund	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	3	subj	_	_
+7	erschocken	erschrecken	VERB	VVPP	Number=Plur|Person=3|VerbForm=Fin	3	comp:aux	_	_
+
+# text = und wollte auf den Ball los .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	wollte	wollen	VERB	VMFIN	VerbForm=Fin	0	root	_	_
+3	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+4	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	comp:obj	_	_
+6	los	los	ADV	PTKVZ	_	2	compound@prt	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Da kamen zwei Autos herangefahren
+1	Da	da	ADV	ADV	_	2	mod	_	_
+2	kamen	kommen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+3	zwei	zwei	NUM	CARD	NumType=Card	4	mod	_	_
+4	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	2	subj	_	_
+5	herangefahren	heranfahren	VERB	VVPP	VerbForm=Fin	2	comp:aux	_	_
+
+# text = und sind durch die Attacke des Hundes auf den Ball ineinandergefahren .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	sind	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	durch	durch	ADP	APPR	_	11	mod	_	_
+4	die	d	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+5	Attacke	Attacke	NOUN	NN	Case=Acc|Number=Plur	3	comp:obj	_	_
+6	des	d	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Hundes	Hund	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	5	mod@poss	_	_
+8	auf	auf	ADP	APPR	_	11	comp:obl	_	_
+9	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	comp:obj	_	_
+11	ineinandergefahren	ineinanderfahren	VERB	VVPP	VerbForm=Inf	2	comp:aux	_	_
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Wahrscheinlich nur ein kleiner Blechschaden .
+1	Wahrscheinlich	wahrscheinlich	ADJ	ADV	Degree=Pos	5	mod	_	_
+2	nur	nur	ADV	PTKIFG	_	5	mod	_	_
+3	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+4	kleiner	klein	ADJ	ADJA	Degree=Cmp,Pos	5	mod	_	_
+5	Blechschaden	Blechschaden	NOUN	NN	_	0	root	_	_
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# text = Der eine Fahrer hat die Polizei gerufen
+1	Der	d	PRON	ART	Case=Nom|PronType=Dem	3	det	_	_
+2	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	mod	_	_
+3	Fahrer	Fahrer	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	subj	_	_
+4	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Polizei	Polizei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	comp:obj	_	_
+7	gerufen	rufen	VERB	VVPP	VerbForm=Part	4	comp:aux	_	_
+
+# text = und ich werde mal warten ob die mich noch als Zeugen brauchen .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	werde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	mal	mal	ADV	PTKMA	_	3	mod	_	_
+5	warten	warten	VERB	VVINF	VerbForm=Inf	3	comp:aux	_	_
+6	ob	ob	SCONJ	KOUS	_	5	comp:obj	_	_
+7	die	die	PRON	PDS	Case=Acc|PronType=Dem	12	subj	_	_
+8	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	comp:obj	_	_
+9	noch	noch	ADV	ADV	_	12	mod	_	_
+10	als	als	ADP	KOKOM	_	12	mod	_	_
+11	Zeugen	Zeuge	NOUN	NN	_	10	comp:obj	_	_
+12	brauchen	brauchen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	6	comp:obj	_	_
+13	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Kann dir ja nachher berichten was herausgekommen ist .
+1	Kann	k�nnen	AUX	VMFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|PronType=Prs	5	comp:obj	_	_
+3	ja	ja	ADV	PTKMA	_	1	discourse	_	_
+4	nachher	nachher	ADJ	ADV	Degree=Cmp,Pos	1	mod	_	_
+5	berichten	berichten	ADJ	VVINF	Degree=Pos	1	comp:aux	_	_
+6	was	was	PRON	PWS	Case=Acc|PronType=Ind	8	subj	_	_
+7	herausgekommen	herauskommen	VERB	VVPP	VerbForm=Part	8	comp:aux	_	_
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
+9	.	.	PUNCT	$.	_	1	punct	_	_
+
+# text = Bis dann
+1	Bis	bis	ADP	APPR	_	0	root	_	_
+2	dann	dann	ADV	ADV	_	1	comp:obj	_	_
+

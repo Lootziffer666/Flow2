@@ -1,0 +1,121 @@
+1	hey	Hey	PROPN	NGIRR	_	2	discourse	_	_
+2	Dikka	Dikka	PROPN	NN	_	0	root	_	_
+
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	bei	bei	ADP	APPR	_	2	mod	_	_
+5	uns	wir	PRON	PRF	_	4	comp:obj	_	_
+6	hier	hier	ADV	ADV	_	2	mod	_	_
+7	auf	auf	ADP	APPR	_	2	comp:pred	_	_
+8	Lidl-Parkplatz	Lidl-Parkplatz	NOUN	NN	_	7	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	12	cc	_	_
+2	dann	dann	ADV	ADV	_	12	mod	_	_
+3	so	so	ADV	PTKIFG	_	5	mod	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Mann	Mann	NOUN	NN	_	12	subj	_	_
+6	der	d	DET	ART	_	11	subj	_	_
+7	gerade	gerade	ADV	ADJA	_	11	mod	_	_
+8	seine	sein	ADJ	PPOSAT	_	9	det	_	_
+9	Auto	Auto	NOUN	NN	_	10	comp:obj	_	_
+10	gepackt	packen	VERB	VVPP	_	11	comp:aux	_	_
+11	hat	haben	AUX	VAFIN	_	5	mod@relcl	_	_
+12	hat	haben	VERB	VAFIN	_	0	root	_	_
+13	so	so	ADV	PTKIFG	_	15	mod	_	_
+14	einen	ein	DET	ART	_	15	det	_	_
+15	Ball	Ball	NOUN	NN	_	16	comp:obj	_	_
+16	fallen	fallen	VERB	VVINF	_	17	comp:obj	_	_
+17	lassen	lassen	VERB	VVINF	_	12	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	3	subj	_	_
+6	äh	äh	ADJ	NGIRR	_	3	discourse	_	_
+7	von	von	ADP	APPR	_	5	mod@poss	_	_
+8	so	so	ADV	PTKIFG	_	10	mod	_	_
+9	einer	ein	DET	ART	_	10	det	_	_
+10	Frau	Frau	NOUN	NN	_	7	comp:obj	_	_
+11	dem	d	DET	ART	_	12	det	_	_
+12	Ball	Ball	NOUN	NN	_	13	comp:obj	_	_
+13	hinterhergerannt	hinterherrennen	ADV	VVPP	_	3	comp:aux	_	_
+
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Auto	Auto	NOUN	NN	_	3	subj	_	_
+7	gekommen	kommen	ADJ	VVPP	_	3	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Fahrer	Fahrer	NOUN	NN	_	3	subj	_	_
+6	Vollbremsung	Vollbremsung	PROPN	NN	_	7	comp:obj	_	_
+7	gemacht	machen	VERB	VVPP	_	3	comp:aux	_	_
+8	und	und	CCONJ	KON	_	9	reparandum	_	_
+9	damit	damit	ADV	KOUS	_	7	mod	_	_
+10	er	er	PRON	PPER	_	14	subj	_	_
+11	den	d	DET	ART	_	12	det	_	_
+12	Hund	Hund	NOUN	NN	_	14	comp:obj	_	_
+13	nicht	nicht	PART	PTKNEG	_	14	mod	_	_
+14	überfährt	überfahren	VERB	VVPP	_	9	comp:obj	_	_
+
+1	zum	zu	PROPN	APPRART	_	6	mod	_	_
+2	Glück	Glück	NOUN	NE	_	1	comp:obj	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	er	er	PRON	PPER	_	3	subj	_	_
+5	noch	noch	ADV	PTKMWL	_	3	mod	_	_
+6	gebremst	bremsen	ADV	VVPP	_	3	comp:aux	_	_
+
+1	aber	aber	ADV	KON	_	7	cc	_	_
+2	wegen	wegen	ADP	APPR	_	12	mod	_	_
+3	dem	d	DET	ART	_	4	det	_	_
+4	Hund	Hund	NOUN	NN	_	2	comp:obj	_	_
+5	ist	sein	VERB	VAFIN	_	7	reparandum	_	_
+6	dann	dann	ADV	ADV	_	5	mod	_	_
+7	ist	sein	VERB	VAFIN	_	0	root	_	_
+8	ihm	er	PRON	PPER	_	12	comp:obj	_	_
+9	dann	dann	ADV	ADV	_	7	mod	_	_
+10	hinten	hinten	ADV	ADV	_	7	mod	_	_
+11	jemand	jemand	PRON	PIS	_	7	subj	_	_
+12	reingefahren	reinfahren	VERB	VVPP	_	7	comp:aux	_	_
+
+1	ist	sein	VERB	VAFIN	_	0	root	_	_
+2	voll	voll	ADJ	PTKIFG	_	3	mod	_	_
+3	scheiße	scheiße	ADJ	ADJD	_	1	comp:pred	_	_
+4	dass	dass	CCONJ	KOUS	_	1	subj	_	_
+5	deswegen	deswegen	ADV	ADV	_	9	mod	_	_
+6	hinten	hinten	ADV	ADV	_	9	mod	_	_
+7	jemand	jemand	PRON	PIS	_	9	subj	_	_
+8	reingefahren	reinfahren	NOUN	VVPP	_	9	comp:aux	_	_
+9	ist	sein	VERB	VAFIN	_	4	comp:obj	_	_
+
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	weiß	weiß	VERB	VVFIN	_	0	root	_	_
+4	jetzt	jetzt	ADV	ADV	_	3	mod	_	_
+5	auch	auch	ADV	PTKIFG	_	6	mod	_	_
+6	nicht	nicht	PART	PTKNEG	_	3	mod	_	_
+7	wer	wer	PRON	PWS	_	9	subj	_	_
+8	Schuld	Schuld	ADJ	NN	_	9	comp:pred	_	_
+9	ist	sein	VERB	VAFIN	_	3	comp:obj	_	_
+
+1	aber	aber	ADV	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	scheiße	scheiße	ADJ	ADJD	_	2	comp:pred	_	_
+4	dass	dass	SCONJ	KOUS	_	2	subj	_	_
+5	ihm	er	PRON	PPER	_	11	comp:obj	_	_
+6	jetzt	jetzt	ADV	ADV	_	12	mod	_	_
+7	nur	nur	ADV	PTKIFG	_	8	mod	_	_
+8	deswegen	deswegen	ADV	ADV	_	12	mod	_	_
+9	jemand	jemand	PRON	PIS	_	12	subj	_	_
+10	hinten	hinten	ADV	ADV	_	12	mod	_	_
+11	reingefahren	reingefahren	NOUN	VVPP	_	12	comp:aux	_	_
+12	ist	sein	VERB	VAFIN	_	4	comp:obj	_	_
+
+

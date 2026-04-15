@@ -1,0 +1,117 @@
+# text = hey
+1	hey	hey	PROPN	NGIRR	_	0	root	_	_
+
+# text = ich habe eine Geschichte haha
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Geschichte	Geschichte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	comp:obj	_	_
+5	haha	haha	PROPN	NGIRR	_	2	discourse	_	_
+
+# text = ich habe gerade einen Autounfall gesehen
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Autounfall	Autounfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	comp:obj	_	_
+6	gesehen	sehen	VERB	VVPP	VerbForm=Part	2	comp:aux	_	_
+
+# text = das hört sich jetzt schlimm an
+1	das	d	PRON	PDS	Case=Nom|PronType=Dem	2	subj	_	_
+2	hört	hören	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	_
+3	sich	er|sie|es	PRON	PRF	Case=Acc|Person=3|PronType=Prs	2	comp:obj	_	_
+4	jetzt	jetzt	ADV	ADV	_	2	mod	_	_
+5	schlimm	schlimm	ADJ	ADJD	Degree=Pos	2	mod	_	_
+6	an	an	ADP	PTKVZ	_	2	compound@prt	_	_
+
+# text = aber es ist keiner verletzt .
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	keiner	kein	PRON	PIS	PronType=Neg	3	subj	_	_
+5	verletzt	verletzen	VERB	ADJD	VerbForm=Part	3	comp:pred	_	_
+6	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = ehrlich gesagt waren alle eigentlich voll ruhig dafür dass ein Unfall war .
+1	ehrlich	ehrlich	ADJ	ADJD	Degree=Pos	2	mod	_	_
+2	gesagt	sagen	VERB	VVPP	VerbForm=Part	3	parataxis	_	_
+3	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	alle	all	PRON	PIS	Case=Nom|PronType=Tot	3	subj	_	_
+5	eigentlich	eigentlich	ADJ	ADV	Degree=Pos	3	mod	_	_
+6	voll	voll	ADJ	PTKIFG	Degree=Pos	7	mod	_	_
+7	ruhig	ruhig	ADJ	ADJD	Degree=Pos	3	comp:pred	_	_
+8	dafür	dafür	ADV	ADV	_	3	mod	_	_
+9	dass	dass	SCONJ	KOUS	_	8	mod	_	_
+10	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Unfall	Unfall	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	12	subj	_	_
+12	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	comp:obj	_	_
+13	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = ein Mann hat aus Versehen einen Ball in die Straße geworfen ,
+1	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	3	subj	_	_
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	aus	aus	ADP	APPR	_	11	mod	_	_
+5	Versehen	Versehen	NOUN	NN	Case=Acc|Number=Sing	4	comp:obj	_	_
+6	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	comp:obj	_	_
+8	in	in	ADP	APPR	_	11	comp:obl	_	_
+9	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	comp:obj	_	_
+11	geworfen	werfen	VERB	VVPP	VerbForm=Part	3	comp:aux	_	_
+12	,	,	PUNCT	$,	_	3	punct	_	_
+
+# text = und ein Hund ist dem Ball nachgerannt
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	ein	ein	DET	ART	Definite=Ind|PronType=Art	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	comp:obj	_	_
+7	nachgerannt	nachrennen	ADJ	VVPP	_	4	comp:aux	_	_
+
+# text = und ist einem Auto vor den Weg gelaufen .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	einem	ein	DET	ART	Definite=Ind|PronType=Art	4	det	_	_
+4	Auto	Auto	NOUN	NN	_	8	comp:obj	_	_
+5	vor	vor	ADP	APPR	_	8	comp:obl	_	_
+6	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Weg	Weg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	comp:obj	_	_
+8	gelaufen	laufen	VERB	VVPP	VerbForm=Inf	2	comp:aux	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = das Auto dahinter ist bei dem ersten Auto hinten draufgefahren .
+1	das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Auto	Auto	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	subj	_	_
+3	dahinter	dahinter	ADV	ADV	_	2	mod	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	bei	bei	ADP	APPR	_	10	comp:obl	_	_
+6	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+7	ersten	erst	ADJ	ORD	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing|NumType=Ord	8	mod	_	_
+8	Auto	Auto	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	comp:obj	_	_
+9	hinten	hinten	ADV	APPR	_	4	mod	_	_
+10	draufgefahren	drauffahren	VERB	VVPP	VerbForm=Part	4	comp:aux	_	_
+11	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = ich musste sogar schon mit der Polizei reden ,
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	musste	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	sogar	sogar	ADV	PTKIFG	_	2	mod	_	_
+4	schon	schon	ADV	ADV	_	2	mod	_	_
+5	mit	mit	ADP	APPR	_	8	comp:obl	_	_
+6	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Polizei	Polizei	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	comp:obj	_	_
+8	reden	reden	VERB	VVINF	VerbForm=Inf	2	comp:aux	_	_
+9	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = aber war im Endeffekt alles ok !
+1	aber	aber	ADV	KON	_	2	cc	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	im	in	PROPN	APPRART	Case=Nom|Number=Sing	2	mod	_	_
+4	Endeffekt	Endeffekt	NOUN	NN	_	3	comp:obj	_	_
+5	alles	all	PRON	PIS	PronType=Tot	2	subj	_	_
+6	ok	ok	ADJ	ADJD	Degree=Pos	2	comp:pred	_	_
+7	!	!	PUNCT	$.	_	2	punct	_	_
+
+

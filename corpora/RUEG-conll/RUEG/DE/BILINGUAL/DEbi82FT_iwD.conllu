@@ -1,0 +1,71 @@
+1	Ey	ey	PROPN	NGIRR	_	2	discourse	_	_
+2	Aleyna	Aleyna	PROPN	NE	_	0	root	_	_
+
+1	habe	haben	AUX	VAFIN	_	0	root	_	_
+2	gerade	gerade	ADV	PTKIFG	_	1	mod	_	_
+3	einen	ein	DET	ART	_	4	det	_	_
+4	Autounfall	Autounfall	NOUN	NN	_	5	comp:obj	_	_
+5	mitbeobachtet	mitbeobachten	VERB	VVFIN	_	1	comp:aux	_	_
+
+1	irgendein	irgendeine	PRON	PIAT	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	über	über	ADP	APPR	_	7	comp:obl	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Straße	Straße	NOUN	NN	_	4	comp:obj	_	_
+7	gelaufen	laufen	VERB	VVPP	_	3	comp:aux	_	_
+8	mit	mit	ADP	APPR	_	7	mod	_	_
+9	seinen	sein	DET	PPOSAT	_	10	det	_	_
+10	Ball	Ball	NOUN	NN	_	8	comp:obj	_	_
+11	in	in	ADP	APPR	_	10	mod	_	_
+12	der	d	DET	ART	_	13	det	_	_
+13	Hand	Hand	NOUN	NN	_	11	comp:obj	_	_
+
+1	sein	sein	DET	VAINF	_	2	det	_	_
+2	Ball	Ball	PROPN	NN	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	runtergefallen	runterfallen	ADJ	VVPP	_	3	comp:aux	_	_
+6	auf	auf	ADP	APPR	_	5	comp:obl	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Strasse	Straße	NOUN	NN	_	6	comp:obj	_	_
+
+1	tam	tam	ADJ	ADJA	_	0	root	_	_
+2	orada	orada	PROPN	ADV	_	1	udep	_	_
+3	araba	araba	PROPN	AVD	_	2	udep	_	_
+4	geldi	geldi	PROPN	NGIRR	_	3	udep	_	_
+
+1	dann	dann	ADV	ADV	_	2	mod	_	_
+2	birden	birden	PROPN	ADV	_	0	root	_	_
+3	durdu	durdu	PROPN	ADJD	_	2	udep	_	_
+
+1	von	von	ADP	APPR	_	8	comp:obl	_	_
+2	hinten	hinten	ADV	ADV	_	1	comp:obj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	ein	ein	DET	ART	_	7	det	_	_
+6	anderes	anderes	ADJ	PIDAT	_	7	mod	_	_
+7	Auto	Auto	NOUN	NN	_	3	subj	_	_
+8	rangeknallt	heranknallen	VERB	VVPP	_	3	comp:aux	_	_
+9	weil	weil	SCONJ	KOUS	_	8	mod	_	_
+10	er	er	PRON	PPER	_	15	subj	_	_
+11	nicht	nicht	PART	PTKNEG	_	15	mod	_	_
+12	so	so	ADV	PTKIFG	_	13	mod	_	_
+13	schnell	schnell	ADJ	ADJD	_	15	mod	_	_
+14	bremsen	bremsen	VERB	VVINF	_	15	comp:aux	_	_
+15	konnte	können	AUX	VMFIN	_	9	comp:obj	_	_
+
+1	der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	hatte	haben	AUX	VAFIN	_	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	voll	voll	ADJ	PTKIFG	_	3	mod	_	_
+6	Panik	Panik	NOUN	NN	_	3	comp:obj	_	_
+
+1	wusste	wissen	ADJ	VVFIN	_	0	root	_	_
+2	nichgt	nicht	VERB	PTKNEG	_	1	mod	_	_
+3	was	was	PRON	PWS	_	5	comp:obj	_	_
+4	er	er	PRON	PPER	_	5	subj	_	_
+5	machen	machen	VERB	VVFIN	_	1	comp:obj	_	_
+6	.	.	PUNCT	$.	_	1	punct	_	_
+

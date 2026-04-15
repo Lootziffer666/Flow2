@@ -1,0 +1,52 @@
+1	Ball	Ball	NOUN	NN	_	4	subj	_	_
+2	einer	ein	DET	ART	_	3	det	_	_
+3	Familie	Familie	NOUN	NN	_	1	mod@poss	_	_
+4	rollte	rollen	VERB	VVFIN	_	0	root	_	_
+5	auf	auf	ADP	APPR	_	4	comp:obl	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Straße	Straße	NOUN	NN	_	5	comp:obj	_	_
+8	worauf	worauf	ADV	PWAV	_	4	mod	_	_
+9	der	d	DET	ART	_	10	det	_	_
+10	Hund	Hund	NOUN	NN	_	19	subj	_	_
+11	der	d	DET	ART	_	12	det	_	_
+12	Frau	Frau	NOUN	NN	_	10	mod@poss	_	_
+13	des	d	DET	ART	_	15	det	_	_
+14	parkenden	parkende	ADJ	ADJA	_	15	mod	_	_
+15	PKW	PKW	NOUN	NN	_	12	mod@poss	_	_
+16	in	in	ADP	APPR	_	19	comp:obl	_	_
+17	Richtung	Richtung	NOUN	NN	_	16	comp:obj	_	_
+18	Ball	Ball	PROPN	NN	_	17	mod@poss	_	_
+19	rannte	rennen	VERB	VVFIN	_	8	comp:obj	_	_
+20	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	Zwar	zwar	ADV	ADV	_	2	mod	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Hund	Hund	NOUN	NN	_	2	subj	_	_
+5	an	an	ADP	APPR	_	2	comp:pred	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Leine	Leine	NOUN	NN	_	5	comp:obj	_	_
+8	,	,	PUNCT	$,	_	2	punct	_	_
+
+1	jedoch	jedoch	ADV	ADV	_	2	mod	_	_
+2	bremste	bremsen	VERB	VVFIN	_	0	root	_	_
+3	der	d	DET	ART	_	5	det	_	_
+4	blaue	blaue	ADJ	ADJA	_	5	mod	_	_
+5	PKW	PKW	NOUN	NN	_	2	subj	_	_
+6	stark	stark	ADJ	ADJD	_	2	mod	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Weißer	Weißer	NOUN	ADJA	_	2	mod	_	_
+2	PKW	PKW	PROPN	NN	_	3	subj	_	_
+3	reagierte	reagieren	VERB	VVFIN	_	0	root	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	bremste	bremsen	VERB	VVFIN	_	0	root	_	_
+3	bei	bei	ADP	APPR	_	2	mod	_	_
+4	kleinem	kleine	PRON	ADJA	_	5	mod	_	_
+5	Abstand	Abstand	NOUN	NN	_	3	comp:obj	_	_
+6	zum	zu	NOUN	APPRART	_	5	mod	_	_
+7	blauen	blaue	ADJ	ADJA	_	8	mod	_	_
+8	PKW	PKW	NOUN	NN	_	6	comp:obj	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+

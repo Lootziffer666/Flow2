@@ -1,0 +1,184 @@
+# text = Hey Linda ,
+1	Hey	hey	PROPN	NGIRR	_	2	discourse	_	_
+2	Linda	Linda	PROPN	NE	_	0	root	_	_
+3	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = ich bin heute in eine krasse Situation gekommen ,
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	bin	sein	VERB	VAFIN	_	0	root	_	_
+3	heute	heute	ADV	ADV	_	2	mod	_	_
+4	in	in	ADP	APPR	_	8	comp:obl	_	_
+5	eine	ein	DET	ART	_	7	det	_	_
+6	krasse	krass	NOUN	ADJA	_	7	mod	_	_
+7	Situation	Situation	NOUN	NN	_	4	comp:obj	_	_
+8	gekommen	kommen	VERB	VVPP	_	2	comp:aux	_	_
+9	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = ich habe einen Unfall miterlebt ,
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	habe	haben	VERB	VAFIN	_	0	root	_	_
+3	einen	ein	DET	ART	_	4	det	_	_
+4	Unfall	Unfall	NOUN	NN	_	5	comp:obj	_	_
+5	miterlebt	miterleben	VERB	VVPP	_	2	comp:aux	_	_
+6	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = ich bin gerade an einer Wohnsiedlung vorbeigegangen
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	bin	sein	VERB	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	an	an	ADP	APPR	_	7	comp:obl	_	_
+5	einer	ein	DET	ART	_	6	det	_	_
+6	Wohnsiedlung	Wohnsiedlung	NOUN	NN	_	4	comp:obj	_	_
+7	vorbeigegangen	vorbeigehen	NOUN	VVPP	_	2	comp:aux	_	_
+
+# text = und ein Paar ist vor mir entlanggegangen mit einem Kinderwagen ,
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	ein	ein	DET	ART	_	3	det	_	_
+3	Paar	Paar	NOUN	NN	_	4	subj	_	_
+4	ist	sein	AUX	VAFIN	_	0	root	_	_
+5	vor	vor	ADP	APPR	_	7	comp:obl	_	_
+6	mir	ich	PRON	PPER	_	5	comp:obj	_	_
+7	entlanggegangen	entlanggehen	VERB	VVFIN	_	4	comp:aux	_	_
+8	mit	mit	ADP	APPR	_	7	mod	_	_
+9	einem	ein	DET	ART	_	10	det	_	_
+10	Kinderwagen	Kinderwagen	NOUN	NN	_	8	comp:obj	_	_
+11	,	,	PUNCT	$,	_	4	punct	_	_
+
+# text = der Mann hat vor sich einen Ball gedribbelt ,
+1	der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	vor	vor	ADP	APPR	_	8	mod	_	_
+5	sich	er|es|sie	PRON	PRF	_	4	comp:obj	_	_
+6	einen	ein	DET	ART	_	7	det	_	_
+7	Ball	Ball	NOUN	NN	_	8	comp:obj	_	_
+8	gedribbelt	dribbeln	VERB	VVPP	_	3	comp:aux	_	_
+9	,	,	PUNCT	$,	_	3	punct	_	_
+
+# text = der Ball ist ihm daraufhin auf den Boden weggesprungen und auf die anliegende Straße gerollt ,
+1	der	d	DET	ART	_	2	det	_	_
+2	Ball	Ball	NOUN	NN	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	ihm	er	PRON	PPER	_	9	comp:obj	_	_
+5	daraufhin	daraufhin	ADV	ADV	_	3	mod	_	_
+6	auf	auf	ADP	APPR	_	9	mod	_	_
+7	den	d	DET	ART	_	8	det	_	_
+8	Boden	Boden	NOUN	NN	_	6	comp:obj	_	_
+9	weggesprungen	wegspringen	VERB	VVPP	_	3	comp:aux	_	_
+10	und	und	CCONJ	KON	_	15	cc	_	_
+11	auf	auf	ADP	APPR	_	15	comp:obl	_	_
+12	die	d	DET	ART	_	14	det	_	_
+13	anliegende	anliegend	ADJ	ADJA	_	14	mod	_	_
+14	Straße	Straße	NOUN	NN	_	11	comp:obj	_	_
+15	gerollt	rollen	VERB	VVPP	_	3	conj	_	_
+16	,	,	PUNCT	$,	_	3	punct	_	_
+
+# text = neben der Straße waren Parkplätze
+1	neben	neben	ADP	APPR	_	4	comp:pred	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Straße	Straße	NOUN	NN	_	1	comp:obj	_	_
+4	waren	sein	VERB	VAFIN	_	0	root	_	_
+5	Parkplätze	Parkplätze	NOUN	NN	_	4	subj	_	_
+6	,	,	PUNCT	$,	_	4	punct	_	_
+
+# text = , auf einem davon parkte eine Frau , welche gerade ihre Einkäufe auslud ,
+1	auf	auf	ADP	APPR	_	4	comp:obl	_	_
+2	einem	ein	DET	ART	_	3	det	_	_
+3	davon	davon	ADV	ADV	_	1	comp:obj	_	_
+4	parkte	parken	VERB	VVFIN	_	0	root	_	_
+5	eine	ein	DET	ART	_	6	det	_	_
+6	Frau	Frau	NOUN	NN	_	4	subj	_	_
+7	,	,	PUNCT	$,	_	4	punct	_	_
+8	welche	welche	PRON	PRELS	_	12	subj	_	_
+9	gerade	gerade	ADV	ADV	_	12	mod	_	_
+10	ihre	ihr	DET	PPOSAT	_	11	det	_	_
+11	Einkäufe	Einkauf	NOUN	NN	_	12	comp:obj	_	_
+12	auslud	ausladen	PROPN	VVFIN	_	6	mod@relcl	_	_
+13	,	,	PUNCT	$,	_	4	punct	_	_
+
+# text = sie hatte ebenfalls einen Hund an der Leine , der versuchte wiederum dem auf die Straße gerollten Ball hinterherzujagen ,
+1	sie	sie	PRON	PPER	_	2	subj	_	_
+2	hatte	haben	VERB	VAFIN	_	0	root	_	_
+3	ebenfalls	ebenfalls	ADV	ADV	_	2	mod	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	2	comp:obj	_	_
+6	an	an	ADP	APPR	_	2	comp:obl	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Leine	Leine	NOUN	NN	_	6	comp:obj	_	_
+9	,	,	PUNCT	$,	_	2	punct	_	_
+10	der	d	PRON	PDS	_	11	subj	_	_
+11	versuchte	versuchen	VERB	VVFIN	_	5	mod@relcl	_	_
+12	wiederum	wiederum	ADV	ADV	_	19	mod	_	_
+13	dem	d	DET	ART	_	18	det	_	_
+14	auf	auf	ADP	APPR	_	17	comp:obl	_	_
+15	die	d	DET	ART	_	16	det	_	_
+16	Straße	Straße	NOUN	NN	_	14	comp:obj	_	_
+17	gerollten	gerollten	ADJ	ADJA	_	18	mod	_	_
+18	Ball	Ball	NOUN	NN	_	19	comp:obj	_	_
+19	hinterherzujagen	hinterherjagen	VERB	VVIZU	_	11	comp:obj	_	_
+20	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = die zwei Autos , die gerade in die Straße einbogen , kollidierten , als das eine Auto plötzlich , wegen dem auf die Straße laufenden Hund bremste ,
+1	die	d	DET	ART	_	3	det	_	_
+2	zwei	zwei	NUM	CARD	_	3	mod	_	_
+3	Autos	Auto	NOUN	NN	_	12	subj	_	_
+4	,	,	PUNCT	$,	_	12	punct	_	_
+5	die	d	PRON	PRELS	_	10	subj	_	_
+6	gerade	gerade	ADV	ADV	_	10	mod	_	_
+7	in	in	ADP	APPR	_	10	comp:obl	_	_
+8	die	d	DET	ART	_	9	det	_	_
+9	Straße	Straße	NOUN	NN	_	7	comp:obj	_	_
+10	einbogen	einbiegen	VERB	VVPP	_	3	mod@relcl	_	_
+11	,	,	PUNCT	$,	_	10	punct	_	_
+12	kollidierten	kollidieren	VERB	VVFIN	_	0	root	_	_
+13	,	,	PUNCT	$,	_	12	punct	_	_
+14	als	als	SCONJ	KOUS	_	12	mod	_	_
+15	das	d	DET	ART	_	17	det	_	_
+16	eine	ein	ADJ	PIDAT	_	17	mod	_	_
+17	Auto	Auto	NOUN	NN	_	27	subj	_	_
+18	plötzlich	plötzlich	ADV	ADJD	_	27	mod	_	_
+19	,	,	PUNCT	$,	_	14	punct	_	_
+20	wegen	wegen	ADP	APPR	_	27	mod	_	_
+21	dem	d	PRON	ART	_	26	det	_	_
+22	auf	auf	ADP	APPR	_	25	comp:obl	_	_
+23	die	d	DET	ART	_	24	det	_	_
+24	Straße	Straße	NOUN	NN	_	22	comp:obj	_	_
+25	laufenden	laufend	ADJ	ADJA	_	26	mod	_	_
+26	Hund	Hund	NOUN	NN	_	20	comp:obj	_	_
+27	bremste	bremsen	VERB	VVFIN	_	14	comp:obj	_	_
+28	,	,	PUNCT	$,	_	12	punct	_	_
+
+# text = der Mann mit dem Ball half der Frau mit dem Hund ihre Einkäufe , welche heruntergefallen waren aufzusammeln ,
+1	der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	6	subj	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	dem	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+6	half	helfen	VERB	VVFIN	_	0	root	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Frau	Frau	NOUN	NN	_	6	comp:obj	_	_
+9	mit	mit	ADP	APPR	_	8	mod	_	_
+10	dem	d	DET	ART	_	11	det	_	_
+11	Hund	Hund	NOUN	NN	_	9	comp:obj	_	_
+12	ihre	ihr	DET	PPOSAT	_	13	det	_	_
+13	Einkäufe	Einkauf	NOUN	NN	_	18	comp:obj	_	_
+14	,	,	PUNCT	$,	_	6	punct	_	_
+15	welche	welche	PRON	PRELS	_	17	subj	_	_
+16	heruntergefallen	herunterfallen	VERB	VVPP	_	17	comp:aux	_	_
+17	waren	sein	AUX	VAFIN	_	13	mod@relcl	_	_
+18	aufzusammeln	aufsammeln	VERB	VVIZU	_	6	comp:obl	_	_
+19	,	,	PUNCT	$,	_	6	punct	_	_
+
+# text = die zwei Männer aus den Autos riefen die Polizei !
+1	die	d	DET	ART	_	3	det	_	_
+2	zwei	zwei	NUM	CARD	_	3	mod	_	_
+3	Männer	Männer	NOUN	NN	_	7	subj	_	_
+4	aus	aus	ADP	APPR	_	3	mod	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Autos	Auto	NOUN	NN	_	4	comp:obj	_	_
+7	riefen	rufen	VERB	VVFIN	_	0	root	_	_
+8	die	d	DET	ART	_	9	det	_	_
+9	Polizei	Polizei	NOUN	NN	_	7	comp:obj	_	_
+10	!	!	PUNCT	$.	_	7	punct	_	_
+
+

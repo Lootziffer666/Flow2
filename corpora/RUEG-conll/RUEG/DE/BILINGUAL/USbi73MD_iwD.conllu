@@ -1,0 +1,46 @@
+# text = hallo Patrick
+1	hallo	hallo	X	NGIRR	_	2	discourse	_	_
+2	Patrick	Patrick	PROPN	NE	_	0	root	_	_
+
+# text = ein Auto ist in ein anderes Auto reingefahren
+1	ein	ein	DET	ART	_	2	det	_	_
+2	Auto	Auto	NOUN	NN	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	in	in	ADP	APPR	_	8	comp:obl	_	_
+5	ein	ein	DET	ART	_	7	det	_	_
+6	anderes	ander	ADJ	PIDAT	_	7	mod	_	_
+7	Auto	Auto	NOUN	NN	_	4	comp:obj	_	_
+8	reingefahren	reinfahren	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = ein Mann sein Ball ist in der Strasse gerolled
+1	ein	ein	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	4	mod@poss	_	_
+3	sein	sein	DET	PPOSAT	_	4	det	_	_
+4	Ball	Ball	NOUN	NN	_	5	subj	_	_
+5	ist	sein	VERB	VAFIN	_	0	root	_	_
+6	in	in	ADP	APPR	_	9	comp:obl	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Strasse	Straße	NOUN	NN	_	6	comp:obj	_	_
+9	gerolled	rollen	PROPN	VVPP	_	5	comp:aux	_	_
+
+# text = und dann mussten die Autos schnell stoppen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	mussten	müssen	AUX	VMFIN	_	0	root	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Autos	Auto	NOUN	NN	_	3	subj	_	_
+6	schnell	schnell	ADJ	ADJD	_	3	mod	_	_
+7	stoppen	stoppen	VERB	VVINF	_	3	comp:aux	_	_
+
+# text = alles war in Ordnung
+1	alles	all	PRON	PIS	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	in	in	ADP	APPR	_	2	comp:pred	_	_
+4	Ordnung	Ordnung	NOUN	NN	_	3	comp:obj	_	_
+
+# text = und keiner war verletzt
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	keiner	kein	PRON	PIS	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	verletzt	verletzt	VERB	ADJD	_	3	comp:pred	_	_
+

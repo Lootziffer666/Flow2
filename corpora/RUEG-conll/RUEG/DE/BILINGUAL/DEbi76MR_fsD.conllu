@@ -1,0 +1,149 @@
+# text = äh guten Tag
+1	äh	äh	ADJ	NGHES	Degree=Pos	3	discourse	_	_
+2	guten	gut	ADJ	ADJA	Degree=Pos	3	mod	_	_
+3	Tag	Tag	NOUN	NN	_	0	root	_	_
+
+# text = hier ist DEbi76MR
+1	hier	hier	ADV	ADV	_	2	comp:pred	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	DEbi76MR	DEbi76MR	PROPN	NE	_	2	subj	_	_
+
+# text = und ich bin die Fallnummer F16
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Fallnummer	Fallnummer	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	comp:pred	_	_
+6	F16	F16	PROPN	NE	_	5	appos	_	_
+
+# text = und ich hab gerade den Autounfall gesehen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	hab	haben	AUX	VAFIN	Tense=Pres	0	root	_	_
+4	gerade	gerade	ADV	ADV	_	3	mod	_	_
+5	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	Autounfall	Autounfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	comp:obj	_	_
+7	gesehen	sehen	VERB	VVPP	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+
+# text = und zwar ist gerade eben eine Familie mit einem Vater einer einer Mutter und einem Kind äh ja an einer Straße vorbeigelaufen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	zwar	zwar	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	gerade	gerade	ADV	ADV	_	3	mod	_	_
+5	eben	eben	ADV	ADV	_	3	mod	_	_
+6	eine	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
+7	Familie	Familie	NOUN	NN	_	3	subj	_	_
+8	mit	mit	ADP	APPR	_	7	mod	_	_
+9	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Vater	Vater	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	8	comp:obj	_	_
+11	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	reparandum	_	_
+12	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Mutter	Mutter	NOUN	NN	_	10	conj	_	_
+14	und	und	CCONJ	KON	_	16	cc	_	_
+15	einem	ein	DET	ART	Definite=Ind|PronType=Art	16	det	_	_
+16	Kind	Kind	NOUN	NN	_	10	conj	_	_
+17	äh	äh	ADJ	NGHES	Degree=Pos	3	discourse	_	_
+18	ja	ja	ADV	NGIRR	_	3	discourse	_	_
+19	an	an	ADP	APPR	_	22	comp:obl	_	_
+20	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Straße	Straße	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	comp:obj	_	_
+22	vorbeigelaufen	vorbeilaufen	VERB	VVPP	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+
+# text = der Vater hat währenddessen mit dem Ball gespielt
+1	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Vater	Vater	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	währenddessen	währenddessen	ADV	ADV	_	3	mod	_	_
+5	mit	mit	ADP	APPR	_	8	mod	_	_
+6	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	comp:obj	_	_
+8	gespielt	spielen	VERB	VVPP	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+
+# text = als sie die Straße überqueren wollten ist dem Vater der Ball aus der Hand gefallen
+1	als	als	SCONJ	KOUS	_	7	mod	_	_
+2	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
+3	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	comp:obj	_	_
+5	überqueren	überqueren	VERB	VVINF	Tense=Pres|VerbForm=Inf	6	comp:aux	_	_
+6	wollten	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	comp:obj	_	_
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Vater	Vater	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	15	comp:obj	_	_
+10	der	d	DET	ART	Definite=Def|PronType=Art	11	det	_	_
+11	Ball	Ball	NOUN	NN	_	7	subj	_	_
+12	aus	aus	ADP	APPR	_	15	comp:obl	_	_
+13	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Hand	Hand	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	comp:obj	_	_
+15	gefallen	fallen	VERB	VVPP	Tense=Past|VerbForm=Part	7	comp:aux	_	_
+
+# text = und auf der gegenüberliegenden Straßenseite war halt eine Frau mit einer einem einer Einkaufstüte und einem Hund
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	auf	auf	ADP	APPR	_	6	comp:pred	_	_
+3	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	gegenüberliegenden	gegenüberliegend	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	5	mod	_	_
+5	Straßenseite	Straßenseite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	comp:obj	_	_
+6	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	halt	halt	ADV	PTKMA	_	6	discourse	_	_
+8	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	subj	_	_
+10	mit	mit	ADP	APPR	_	9	mod	_	_
+11	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	reparandum	_	_
+12	einem	ein	PRON	ART	Case=Dat|PronType=Ind	13	reparandum	_	_
+13	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Einkaufstüte	Einkaufstüte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	comp:obj	_	_
+15	und	und	CCONJ	KON	_	17	cc	_	_
+16	einem	ein	DET	ART	Definite=Ind|PronType=Art	17	det	_	_
+17	Hund	Hund	NOUN	NN	_	14	conj	_	_
+
+# text = der Hund ist auf den Ball zugelaufen woraufhin ein blaues Auto welches äh nein woraufhin ein blaues Auto vor dem Ball gebremst hat
+1	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	auf	auf	ADP	APPR	_	7	comp:obl	_	_
+5	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	comp:obj	_	_
+7	zugelaufen	zulaufen	VERB	VVPP	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+8	woraufhin	woraufhin	ADV	PWAV	_	15	reparandum	_	_
+9	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+10	blaues	blau	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc,Neut|Number=Sing	11	mod	_	_
+11	Auto	Auto	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	8	comp:obj	_	_
+12	welches	welche	PRON	PRELS	Case=Acc|PronType=Int	11	mod@relcl	_	_
+13	äh	äh	ADJ	NGHES	Degree=Pos	3	discourse	_	_
+14	nein	nein	PART	NGIRR	_	3	discourse	_	_
+15	woraufhin	woraufhin	ADV	PWAV	_	7	mod	_	_
+16	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	18	det	_	_
+17	blaues	blau	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc,Neut|Number=Sing	18	mod	_	_
+18	Auto	Auto	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	23	subj	_	_
+19	vor	vor	ADP	APPR	_	22	mod	_	_
+20	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	21	det	_	_
+21	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	19	comp:obj	_	_
+22	gebremst	bremsen	ADV	VVPP	Tense=Past	23	comp:aux	_	_
+23	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	comp:obj	_	_
+
+# text = und daraufhin hatte das weiße Auto hinter dem blauen Auto keine Zeit zum keine Zeit zu bremsen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	daraufhin	darafhin	ADV	ADV	_	3	mod	_	_
+3	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+5	weiße	weiße	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Plur	6	mod	_	_
+6	Auto	Auto	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	subj	_	_
+7	hinter	hinter	ADP	APPR	_	6	mod	_	_
+8	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+9	blauen	blau	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	10	mod	_	_
+10	Auto	Auto	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	comp:obj	_	_
+11	keine	keine	PRON	PIAT	PronType=Neg	12	mod	_	_
+12	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	reparandum	_	_
+13	zum	zum	NOUN	APPRART	Case=Acc|Gender=Neut|Number=Sing	12	mod	_	_
+14	keine	keine	PRON	PIAT	PronType=Neg	15	mod	_	_
+15	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	comp:obj	_	_
+16	zu	zu	PART	PTKZU	_	15	mod	_	_
+17	bremsen	bremsen	VERB	VVINF	Tense=Pres|VerbForm=Inf	16	comp:obj	_	_
+
+# text = und ja ist ins blaue reingekracht
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	ja	ja	ADV	NGIRR	_	3	discourse	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ins	ins	PROPN	APPRART	Case=Nom|Gender=Fem|Number=Sing	6	comp:obl	_	_
+5	blaue	blau	PROPN	ADJA	_	4	comp:obj	_	_
+6	reingekracht	reingekracht	VERB	VVPP	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+

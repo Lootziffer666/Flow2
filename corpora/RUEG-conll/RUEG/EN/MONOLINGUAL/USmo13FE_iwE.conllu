@@ -1,0 +1,77 @@
+1	hey	hey	INTJ	ITJ	_	2	discourse	_	_
+2	sissy	sissy	PROPN	NP0	_	0	root	_	_
+
+1	so	so	INTJ	ITJ	_	2	discourse	_	_
+2	tell	tell	VERB	VVB	_	0	root	_	_
+3	me	i	PRON	PNP	_	2	obj	_	_
+4	why	why	ADV	AVQ	_	2	advmod	_	_
+5	I	i	PRON	PNP	_	7	nsubj	_	_
+6	just	just	ADV	AV0	_	7	advmod	_	_
+7	witness	witness	VERB	VVB	_	2	ccomp	_	_
+8	an	an	DET	AT0	_	9	det	_	_
+9	accident	accident	NOUN	NN1	_	7	obj	_	_
+
+1	shaking	shake	VERB	VVG	_	0	root	_	_
+2	my	i	DET	DPS	_	3	det	_	_
+3	head	head	NOUN	NN1	_	1	obj	_	_
+
+1	the	the	DET	AT0	_	2	det	_	_
+2	dude	dude	NOUN	NN1	_	4	nsubj	_	_
+3	was	be	AUX	VBD	_	4	aux	_	_
+4	bouncing	bounce	VERB	VVG	_	0	root	_	_
+5	the	the	DET	AT0	_	7	det	_	_
+6	darn	darn	ADJ	AJ0	_	7	amod	_	_
+7	ball	ball	NOUN	NN1	_	4	obj	_	_
+8	that	that	SCONJ	CJT	_	9	mark	_	_
+9	ran	run	VERB	VVD	_	7	acl	_	_
+10	in	in	ADP	PRP	_	12	case	_	_
+11	the	the	DET	AT0	_	12	det	_	_
+12	street	street	NOUN	NN1	_	9	obl	_	_
+13	next	next	ADP	PRP	_	16	case	_	_
+14	to	to	ADP	PRP	_	16	case	_	_
+15	a	a	DET	AT0	_	16	det	_	_
+16	dog	dog	NOUN	NN1	_	9	obl	_	_
+17	.	.	PUNCT	SENT	_	4	punct	_	_
+
+1	that	that	DET	DT0	_	2	det	_	_
+2	thing	thing	NOUN	NN1	_	4	nsubj	_	_
+3	almost	almost	ADV	AV0	_	4	advmod	_	_
+4	got	get	VERB	VVD	_	0	root	_	_
+5	hit	hit	VERB	VVN	_	8	xcomp	_	_
+6	because	because	SCONJ	CJS	_	8	mark	_	_
+7	it	it	PRON	PNP	_	8	nsubj	_	_
+8	ran	run	VERB	VVD	_	4	advcl	_	_
+9	in	in	ADP	PRP	_	8	compound:prt	_	_
+10	front	front	ADP	PRP	_	13	case	_	_
+11	of	of	ADP	PRF	_	13	case	_	_
+12	a	a	DET	AT0	_	13	det	_	_
+13	car	car	NOUN	NN1	_	8	obl	_	_
+14	.	.	PUNCT	SENT	_	4	punct	_	_
+
+1	made	make	VERB	VVD	_	0	root	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	owner	owner	NOUN	NN1	_	4	nsubj	_	_
+4	drop	drop	VERB	VVI	_	1	ccomp	_	_
+5	all	all	DET	DT0	_	7	det:predet	_	_
+6	her	she	DET	DPS	_	7	det	_	_
+7	crap	crap	NOUN	NN1	_	4	obj	_	_
+8	LOL	lol	INTJ	ITJ	_	1	discourse	_	_
+
+1	the	the	DET	AT0	_	2	det	_	_
+2	man	man	NOUN	NN1	_	4	nsubj	_	_
+3	did	do	AUX	VDD	_	4	aux	_	_
+4	check	check	VERB	VVI	_	0	root	_	_
+5	on	on	ADP	AVP	_	4	compound:prt	_	_
+6	everyone	everyone	PRON	PNI	_	4	obj	_	_
+
+1	feel	feel	VERB	VVB	_	0	root	_	_
+2	bad	bad	ADJ	AJ0	_	1	xcomp	_	_
+3	for	for	ADP	PRP	_	5	case	_	_
+4	the	the	DET	AT0	_	5	det	_	_
+5	men	man	NOUN	NN2	_	1	obl	_	_
+6	in	in	ADP	PRP	_	8	case	_	_
+7	the	the	DET	AT0	_	8	det	_	_
+8	car	car	NOUN	NN1	_	5	nmod	_	_
+9	though	though	ADV	AV0	_	1	advmod	_	_
+10	.	.	PUNCT	SENT	_	1	punct	_	_
+

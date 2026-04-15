@@ -1,0 +1,85 @@
+# text = F16
+1	F16	F16	NOUN	NE	_	0	root	_	_
+
+# text = es gab ein Mann äh eine Familie die ein Ball hatten
+1	es	es	PRON	PPER	_	2	subj@expl	_	_
+2	gab	geben	VERB	VVFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Mann	Mann	NOUN	NN	_	7	reparandum	_	_
+5	äh	äh	ADV	NGHES	_	2	discourse	_	_
+6	eine	ein	DET	ART	_	7	det	_	_
+7	Familie	Familie	NOUN	NN	_	2	comp:obj	_	_
+8	die	d	DET	PRELS	_	11	subj	_	_
+9	ein	ein	NUM	ART	_	10	mod	_	_
+10	Ball	Ball	NOUN	NN	_	11	comp:obj	_	_
+11	hatten	haben	VERB	VAFIN	_	7	mod@relcl	_	_
+
+# text = und der Ball ist dann auf dem Fuß des Mannes draufgerutscht und auf über die Straße gegangen
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Ball	Ball	NOUN	NN	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	dann	dann	ADV	ADV	_	4	mod	_	_
+6	aufm	aufm	ADP	APPR	_	10	comp:obl	_	_
+7	Fuß	Fuß	NOUN	NN	_	6	comp:obj	_	_
+8	des	d	DET	ART	_	9	det	_	_
+9	Mannes	Mann	NOUN	NN	_	7	mod@poss	_	_
+10	draufgerutscht	draufrutschen	ADJ	VVPP	_	4	comp:aux	_	_
+11	und	und	CCONJ	KON	_	16	cc	_	_
+12	auf	auf	ADP	APPR	_	13	reparandum	_	_
+13	über	über	ADP	APPR	_	16	comp:obl	_	_
+14	die	d	DET	ART	_	15	det	_	_
+15	Straße	Straße	NOUN	NN	_	13	comp:obj	_	_
+16	gegangen	gehen	VERB	VVPP	_	4	conj	_	_
+
+# text = dabei ist ein Hund von einer anderen Familie ist der rausgegangen
+1	dabei	dabei	ADV	ADV	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	_	9	reparandum	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Hund	Hund	NOUN	NN	_	2	subj	_	_
+5	von	von	ADP	APPR	_	4	mod@poss	_	_
+6	einer	ein	DET	ART	_	8	det	_	_
+7	anderen	ander	ADJ	PIDAT	_	8	mod	_	_
+8	Familie	Familie	NOUN	NN	_	5	comp:obj	_	_
+9	ist	sein	VERB	VAFIN	_	0	root	_	_
+10	der	d	DET	PDS	_	9	subj	_	_
+11	rausgegangen	rausgehen	NOUN	VVPP	_	9	comp:aux	_	_
+
+# text = hat angefangen zu bellen
+1	hat	haben	AUX	VAFIN	_	0	root	_	_
+2	angefangen	anfangen	VERB	VVPP	_	1	comp:aux	_	_
+3	zu	zu	PART	PTKZU	_	2	comp:obj	_	_
+4	bellen	bellen	VERB	VVINF	_	3	comp:obj	_	_
+
+# text = dabei muss ein Auto das vorkomm anhalten
+1	dabei	dabei	ADV	ADV	_	2	mod	_	_
+2	muss	müssen	AUX	VMFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Auto	Auto	NOUN	NN	_	2	subj	_	_
+5	das	d	DET	PRELS	_	6	subj	_	_
+6	vorkomm	vorkommen	NOUN	VVFIN	_	4	mod@relcl	_	_
+7	anhalten	anhalten	VERB	VVINF	_	2	comp:aux	_	_
+
+# text = und das Auto das hinter dem ersten Auto war konnte nicht rechtzeitig bremsen
+1	und	und	CCONJ	KON	_	10	cc	_	_
+2	das	d	DET	ART	_	3	det	_	_
+3	Auto	Auto	NOUN	NN	_	10	subj	_	_
+4	das	d	DET	PRELS	_	9	subj	_	_
+5	hinter	hinter	ADP	APPR	_	9	comp:pred	_	_
+6	dem	d	DET	ART	_	8	det	_	_
+7	ersten	erst	ADJ	ORD	_	8	mod	_	_
+8	Auto	Auto	NOUN	NN	_	5	comp:obj	_	_
+9	war	sein	VERB	VAFIN	_	3	mod@relcl	_	_
+10	konnte	können	AUX	VMFIN	_	0	root	_	_
+11	nicht	nicht	PART	PTKNEG	_	12	mod	_	_
+12	rechtzeitig	rechtzeitig	ADJ	ADJD	_	10	mod	_	_
+13	bremsen	bremsen	PROPN	VVINF	_	10	comp:aux	_	_
+
+# text = und ist dann hinten reingefahren
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	dann	dann	ADV	ADV	_	2	mod	_	_
+4	hinten	hinten	ADV	ADV	_	2	mod	_	_
+5	reingefahren	reinfahren	VERB	VVPP	_	2	comp:aux	_	_
+
+

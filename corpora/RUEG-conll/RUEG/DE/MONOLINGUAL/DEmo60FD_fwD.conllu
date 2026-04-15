@@ -1,0 +1,178 @@
+# text = DEmo60FD
+1	Guten	gut	ADJ	_	Degree=Pos	2	mod	_	_
+2	Tag	Tag	NOUN	_	_	0	root	_	_
+
+# text = DEmo60FD
+1	mein	mein	PRON	_	Case=Nom|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
+2	Name	Name	NOUN	_	Case=Nom|Number=Sing	3	subj	_	_
+3	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	DEmo60FD	DEmo60FD	PROPN	_	_	3	comp:pred	_	_
+
+# text = ich melde mich als Zeugin im Fall F16 .
+1	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	melde	melden	PROPN	_	Case=Acc|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	mich	ich	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	comp:obj	_	_
+4	als	als	ADP	_	_	2	comp:obl	_	_
+5	Zeugin	Zeugin	NOUN	_	_	4	comp:obj	_	_
+6	im	in	PROPN	_	_	5	mod	_	_
+7	Fall	Fall	PROPN	_	_	6	comp:obj	_	_
+8	F16	F16	PROPN	_	_	7	appos	_	_
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Ich habe beobachtet , wie , ausgelöst durch den fallenden Fußball eines Mannes , ein Auto einem weiteren hinten aufgefahren ist .
+1	Ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	habe	haben	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	beobachtet	beobachten	VERB	_	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	wie	wie	ADP	_	_	21	mod	_	_
+6	,	,	PUNCT	_	_	21	punct	_	_
+7	ausgelöst	auslösen	VERB	_	Tense=Past|VerbForm=Part	20	mod	_	_
+8	durch	durch	ADP	_	_	7	comp:obl	_	_
+9	den	d	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	fallenden	fallende	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	mod	_	_
+11	Fußball	Fußball	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	8	comp:obj	_	_
+12	eines	ein	DET	_	Case=Gen|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Mannes	Mann	NOUN	_	Case=Gen|Gender=Masc,Neut|Number=Sing	11	mod@poss	_	_
+14	,	,	PUNCT	_	_	7	punct	_	_
+15	ein	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	16	det	_	_
+16	Auto	Auto	NOUN	_	Case=Acc|Gender=Masc,Neut|Number=Sing	21	subj	_	_
+17	einem	ein	DET	_	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	18	det	_	_
+18	weiteren	weit	ADJ	_	Case=Dat|Degree=Cmp|Gender=Masc,Neut|Number=Sing	20	comp:obj	_	_
+19	hinten	hinten	NOUN	_	_	21	mod	_	_
+20	aufgefahren	auffahren	VERB	_	Tense=Past|VerbForm=Fin	21	comp:aux	_	_
+21	ist	sein	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
+22	.	.	PUNCT	_	_	2	mod	_	_
+
+# text = Der Mann der mit seiner Frau und einem Kinderwagen hinter einem großen parkenden PKW hervorkam ließ den Fußball mit dem er zuvor gespielt hatte auf die Fahrfläche fallen .
+1	Der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Mann	Mann	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	16	subj	_	_
+3	der	d	DET	_	Definite=Def|PronType=Art	15	subj	_	_
+4	mit	mit	ADP	_	_	15	mod	_	_
+5	seiner	sein	DET	_	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	Frau	Frau	NOUN	_	Case=Dat|Number=Sing	4	comp:obj	_	_
+7	und	und	CCONJ	_	_	9	cc	_	_
+8	einem	ein	DET	_	Definite=Ind|PronType=Art	9	det	_	_
+9	Kinderwagen	Kinderwagen	NOUN	_	_	6	conj	_	_
+10	hinter	hinter	ADP	_	_	15	comp:obl	_	_
+11	einem	ein	DET	_	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	14	det	_	_
+12	großen	große	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc,Neut|Number=Sing	14	mod	_	_
+13	parkenden	parkende	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc,Neut|Number=Sing	14	mod	_	_
+14	PKW	PKW	PROPN	_	_	10	comp:obj	_	_
+15	hervorkam	hervorkommen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	mod@relcl	_	_
+16	ließ	ließ	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	den	d	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Fußball	Fußball	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	28	comp:obj	_	_
+19	mit	mit	ADP	_	_	23	comp:obl	_	_
+20	dem	d	PRON	_	Case=Dat|PronType=Dem	19	comp:obj	_	_
+21	er	er	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	subj	_	_
+22	zuvor	zuvor	ADV	_	_	24	mod	_	_
+23	gespielt	spielen	VERB	_	Tense=Past|VerbForm=Part	24	comp:aux	_	_
+24	hatte	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	mod@relcl	_	_
+25	auf	auf	ADP	_	_	28	comp:obl	_	_
+26	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Fahrfläche	Fahrfläche	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	25	comp:obj	_	_
+28	fallen	fallen	VERB	_	VerbForm=Inf	16	comp:obj	_	_
+29	.	.	PUNCT	_	_	16	punct	_	_
+
+# text = Am gegenüber parkenden PKW war gerade eine Frau ( mit Hund ) dabei ihre Einkäufe einzupacken .
+1	Am	an	ADJ	_	Degree=Pos	5	mod	_	_
+2	gegenüber	gegenüber	ADP	_	_	3	mod	_	_
+3	parkenden	parkende	ADJ	_	Degree=Pos	4	mod	_	_
+4	PKW	PKW	NOUN	_	_	1	comp:obj	_	_
+5	war	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	gerade	gerade	ADV	_	_	5	mod	_	_
+7	eine	ein	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Frau	Frau	NOUN	_	_	5	subj	_	_
+9	(	(	PUNCT	_	_	10	punct	_	_
+10	mit	mit	ADP	_	_	8	mod	_	_
+11	Hund	Hund	NOUN	_	Case=Dat|Number=Sing	10	comp:obj	_	_
+12	)	)	PUNCT	_	_	10	punct	_	_
+13	dabei	dabei	ADV	_	_	5	comp:pred	_	_
+14	ihre	ihr	DET	_	Person=3|Poss=Yes|PronType=Prs	15	det	_	_
+15	Einkäufe	Einkauf	NOUN	_	Case=Acc|Number=Plur	16	comp:obj	_	_
+16	einzupacken	einpacken	VERB	_	VerbForm=Inf	13	comp:obj	_	_
+17	.	.	PUNCT	_	_	5	punct	_	_
+
+# text = Durch diese plötzliche Bewegung auf der Fahrbahn musste ein gerade heranfahrender PKW abbrubt bremsen was wiederrum einen weiteren PKW der hinter dem ersten fuhr nicht schnell genug bemerkte
+1	Durch	durch	ADP	_	_	8	mod	_	_
+2	den	d	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+3	über	über	ADP	_	_	6	comp:obl	_	_
+4	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Fahrbahn	Fahrbahn	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	comp:obj	_	_
+6	rollenden	rollende	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	7	mod	_	_
+7	Ball	Ball	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	1	comp:obj	_	_
+8	fing	fangen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Hund	Hund	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	8	subj	_	_
+11	an	an	ADP	_	_	8	compound@prt	_	_
+12	zu	zu	PART	_	_	8	comp:obj	_	_
+13	bellen	bellen	VERB	_	VerbForm=Inf	12	comp:obj	_	_
+
+# text = Durch diese plötzliche Bewegung auf der Fahrbahn musste ein gerade heranfahrender PKW abbrubt bremsen was wiederrum einen weiteren PKW der hinter dem ersten fuhr nicht schnell genug bemerkte
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	lief	laufen	VERB	_	Tense=Past|VerbForm=Fin	0	root	_	_
+3	ebenfalls	ebenfalls	ADV	_	_	2	mod	_	_
+4	auf	auf	ADP	_	_	2	comp:obl	_	_
+5	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Fahrbahn	Fahrbahn	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	4	comp:obj	_	_
+7	,	,	PUNCT	_	_	2	punct	_	_
+8	weswegen	weswegen	VERB	_	VerbForm=Fin	2	mod	_	_
+9	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Frau	Frau	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	13	comp:obj	_	_
+11	die	d	DET	_	Case=Acc|Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+12	Einkäufe	Einkauf	NOUN	_	Case=Acc|Number=Plur	13	subj	_	_
+13	herunterfielen	herunterfallen	VERB	_	Tense=Past|VerbForm=Inf	8	comp:obj	_	_
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = DEmo60FD
+1	Durch	durch	ADP	_	_	14	mod	_	_
+2	diese	diese	PRON	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+3	plötzliche	plötzliche	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	mod	_	_
+4	Bewegung	Bewegung	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	1	comp:obj	_	_
+5	auf	auf	ADP	_	_	4	mod	_	_
+6	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Fahrbahn	Fahrbahn	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	5	comp:obj	_	_
+8	musste	müssen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	ein	ein	DET	_	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+10	gerade	gerade	ADV	_	_	11	mod	_	_
+11	heranfahrender	heranfahrend	ADV	_	_	12	mod	_	_
+12	PKW	PKW	PROPN	_	Case=Nom|Number=Sing	8	subj	_	_
+13	abrupt	abrupt	VERB	_	Number=Sing|Person=3	8	mod	_	_
+14	bremsen	bremsen	PROPN	_	_	8	comp:aux	_	_
+15	was	was	PROPN	_	_	28	comp:obj	_	_
+16	wiederrum	wiederrum	PROPN	_	Case=Nom|Gender=Neut|Number=Sing	28	mod	_	_
+17	einen	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	weiteren	weitere	ADJ	_	Case=Dat|Degree=Cmp|Gender=Masc|Number=Plur	19	mod	_	_
+19	PKW	PKW	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	28	subj	_	_
+20	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	subj	_	_
+21	hinter	hinter	ADP	_	_	24	comp:obl	_	_
+22	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	23	det	_	_
+23	ersten	erst	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing|NumType=Ord	21	comp:obj	_	_
+24	fuhr	fahren	VERB	_	Tense=Past|VerbForm=Fin	19	mod@relcl	_	_
+25	nicht	nicht	PART	_	_	28	comp:obj	_	_
+26	schnell	schnell	ADJ	_	Degree=Pos	27	mod	_	_
+27	genug	genug	ADV	_	_	25	mod	_	_
+28	bemerkte	bemerkt	VERB	_	Tense=Past|VerbForm=Fin	14	mod	_	_
+29	und	und	CCONJ	_	_	34	cc	_	_
+30	so	so	ADV	_	_	34	mod	_	_
+31	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	32	det	_	_
+32	ersten	erst	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing|NumType=Ord	34	comp:obj	_	_
+33	hinten	hinten	NOUN	_	_	34	mod	_	_
+34	auffuhr	auffahren	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	conj	_	_
+35	.	.	PUNCT	_	_	8	punct	_	_
+
+# text = Bei Rückfragen stehe ich Ihnen gerne zur Verfügung .
+1	Bei	bei	ADP	_	_	3	mod	_	_
+2	Rückfragen	Rückfrage	NOUN	_	Case=Dat|Number=Plur	1	comp:obj	_	_
+3	stehe	stehen	VERB	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+5	Ihnen	Sie	PRON	_	Case=Dat|Person=2|PronType=Prs	3	comp:obj	_	_
+6	gerne	gerne	ADV	_	_	3	mod	_	_
+7	zur	zu	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	comp:obl	_	_
+8	Verfügung	Verfügung	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	7	comp:obj	_	_
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = DEmo60FD
+1	DEmo60FD	DEmo60FD	ADJ	_	Degree=Pos	0	root	_	_
+
+

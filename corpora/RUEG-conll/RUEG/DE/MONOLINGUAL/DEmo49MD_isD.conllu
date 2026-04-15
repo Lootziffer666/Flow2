@@ -1,0 +1,210 @@
+# text = hallo meine Liebe
+1	hallo	hallo	X	NGIRR	_	3	discourse	_	_
+2	meine	mein	PRON	PPOSAT	_	3	det	_	_
+3	Liebe	Liebe	NOUN	NN	_	0	root	_	_
+
+# text = du mir ist gerade etwas Krasses passiert
+1	du	du	PRON	PPER	_	3	vocative	_	_
+2	mir	ich	PRON	PPER	_	7	comp:obj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	gerade	gerade	ADV	ADJD	_	3	mod	_	_
+5	etwas	etwas	PRON	PWS	_	6	det	_	_
+6	Krasses	Krasses	NOUN	NN	_	3	subj	_	_
+7	passiert	passieren	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = ich habe das noch nie gesehen
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	das	d	PRON	PDS	_	6	comp:obj	_	_
+4	noch	noch	ADV	PTKMWL	_	5	mod	_	_
+5	nie	nie	ADV	ADV	_	2	mod	_	_
+6	gesehen	sehen	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = aber ich bin gerade über den Campus gelaufen
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	bin	sein	VERB	VAFIN	_	0	root	_	_
+4	gerade	gerade	ADV	PTKIFG	_	3	mod	_	_
+5	über	über	PROPN	APPR	_	8	comp:obl	_	_
+6	den	d	null	ART	_	7	det	_	_
+7	Campus	Campus	PROPN	NN	_	5	comp:obj	_	_
+8	gelaufen	laufen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und dann gab es da einen Autounfall
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	gab	geben	VERB	VVFIN	_	0	root	_	_
+4	es	es	PRON	PPER	_	3	subj@expl	_	_
+5	da	da	ADV	ADV	_	3	mod	_	_
+6	einen	ein	DET	ART	_	7	det	_	_
+7	Autounfall	Autounfall	NOUN	NN	_	3	comp:obj	_	_
+
+# text = aber ist nichts Schlimmes passiert
+1	aber	aber	ADV	KON	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	nichts	nichts	PRON	PIAT	_	4	det	_	_
+4	Schlimmes	Schlimme	NOUN	NN	_	2	subj	_	_
+5	passiert	passieren	VERB	VVFIN	_	2	comp:aux	_	_
+
+# text = nur war da wieder wieder so ein Hund
+1	nur	nur	ADV	PTKIFG	_	2	mod	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	da	da	ADV	_	_	2	comp:pred	_	_
+4	wieder	wieder	ADV	_	_	5	reparandum	_	_
+5	wieder	wieder	ADV	ADV	_	2	mod	_	_
+6	so	so	ADV	PTKIFG	_	8	mod	_	_
+7	ein	ein	DET	ART	_	8	det	_	_
+8	Hund	Hund	NOUN	NN	_	2	subj	_	_
+
+# text = und der war wohl nicht so gut erzogen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	der	d	PRON	PDS	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	wohl	wohl	ADV	PTKMA	_	3	mod	_	_
+5	nicht	nicht	PART	PTKNEG	_	7	mod	_	_
+6	so	so	ADV	PTKIFG	_	7	mod	_	_
+7	gut	gut	ADJ	ADJD	_	8	mod	_	_
+8	erzogen	erziehen	ADJ	VVPP	_	3	comp:pred	_	_
+
+# text = und äh na ja dann hat irgendjemand hat so ein so ein Kerl so ein Ball über die Straße rollen lassen
+1	und	und	CCONJ	KON	_	8	cc	_	_
+2	äh	äh	ADJ	NGHES	_	8	discourse	_	_
+3	na	na	PROPN	NGIRR	_	8	discourse	_	_
+4	ja	ja	PROPN	NGIRR	_	3	fixed	_	_
+5	dann	dann	ADV	ADV	_	8	mod	_	_
+6	hat	haben	AUX	VAFIN	_	8	reparandum	_	_
+7	irgendjemand	irgendjemand	PRON	PIS	_	6	subj	_	_
+8	hat	haben	VERB	VAFIN	_	0	root	_	_
+9	so	so	ADV	PTKIFG	_	10	mod	_	_
+10	ein	ein	DET	ART	_	13	reparandum	_	_
+11	so	so	ADV	PTKIFG	_	13	mod	_	_
+12	ein	ein	DET	ART	_	13	det	_	_
+13	Kerl	Kerl	NOUN	NN	_	8	subj	_	_
+14	so	so	ADV	PTKIFG	_	16	mod	_	_
+15	ein	ein	DET	ART	_	16	det	_	_
+16	Ball	Ball	NOUN	NN	_	20	comp:obj	_	_
+17	über	über	ADP	APPR	_	20	comp:obl	_	_
+18	die	d	DET	ART	_	19	det	_	_
+19	Straße	Straße	NOUN	NN	_	17	comp:obj	_	_
+20	rollen	rollen	VERB	VVINF	_	21	comp:obj	_	_
+21	lassen	lassen	VERB	VVINF	_	8	comp:aux	_	_
+
+# text = und dann ist der Hund richtig ausgerastet und irgendwie in die Richtung von diesem von diesem Ball gesprungen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	3	subj	_	_
+6	richtig	richtig	ADJ	ADJD	_	3	mod	_	_
+7	ausgerastet	ausrasten	ADJ	VVPP	_	3	comp:aux	_	_
+8	und	und	CCONJ	KON	_	18	cc	_	_
+9	irgendwie	irgendwie	ADV	ADV	_	18	mod	_	_
+10	in	in	ADP	APPR	_	18	comp:obl	_	_
+11	die	d	DET	ART	_	12	det	_	_
+12	Richtung	Richtung	NOUN	NN	_	10	comp:obj	_	_
+13	von	von	ADP	APPR	_	15	reparandum	_	_
+14	diesem	diese	PRON	PDAT	_	13	comp:obj	_	_
+15	von	von	ADP	APPR	_	12	mod@poss	_	_
+16	diesem	diese	PRON	PDAT	_	17	det	_	_
+17	Ball	Ball	NOUN	NN	_	15	comp:obj	_	_
+18	gesprungen	springen	VERB	VVPP	_	3	conj	_	_
+
+# text = und hat dabei noch sein Herrchen mit umgerissen
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	dabei	dabei	ADV	ADV	_	2	mod	_	_
+4	noch	noch	ADV	PTKMWL	_	2	mod	_	_
+5	sein	sein	DET	PPOSAT	_	6	det	_	_
+6	Herrchen	Herrchen	NOUN	NN	_	8	comp:obj	_	_
+7	mit	mit	ADP	APPR	_	8	mod	_	_
+8	umgerissen	umreißen	NOUN	VVPP	_	2	comp:aux	_	_
+
+# text = aber die ist ja selber Schuld wenn er nicht so gut erzogen ist
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	die	d	PRON	PDS	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	ja	ja	ADV	PTKMA	_	3	mod	_	_
+5	selber	selbe	ADV	ADV	_	3	mod	_	_
+6	Schuld	Schuld	ADJ	NN	_	3	comp:pred	_	_
+7	wenn	wenn	SCONJ	KOUS	_	3	mod	_	_
+8	er	er	PRON	PPER	_	13	subj	_	_
+9	nicht	nicht	PART	PTKNEG	_	11	mod	_	_
+10	so	so	ADV	PTKIFG	_	11	mod	_	_
+11	gut	gut	ADJ	ADJD	_	12	mod	_	_
+12	erzogen	erziehen	ADJ	VVPP	_	13	comp:pred	_	_
+13	ist	sein	VERB	VAFIN	_	7	comp:obj	_	_
+
+# text = äh na ja und dann kam halt ein Auto über den Parkplatz
+1	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+2	na	na	PROPN	NGIRR	_	6	discourse	_	_
+3	ja	ja	PROPN	NGIRR	_	2	fixed	_	_
+4	und	und	CCONJ	KON	_	6	cc	_	_
+5	dann	dann	ADV	ADV	_	6	mod	_	_
+6	kam	kommen	VERB	VVFIN	_	0	root	_	_
+7	halt	halt	ADV	PTKMA	_	6	discourse	_	_
+8	ein	ein	DET	ART	_	9	det	_	_
+9	Auto	Auto	NOUN	NN	_	6	subj	_	_
+10	über	über	PROPN	APPR	_	6	comp:obl	_	_
+11	den	d	DET	ART	_	12	det	_	_
+12	Parkplatz	Parkplatz	PROPN	NN	_	10	comp:obj	_	_
+
+# text = das musste hart bremsen
+1	das	d	PRON	PDS	_	2	subj	_	_
+2	musste	müssen	AUX	VMFIN	_	0	root	_	_
+3	hart	hart	ADJ	ADJD	_	2	mod	_	_
+4	bremsen	bremsen	VERB	VVINF	_	2	comp:aux	_	_
+
+# text = äh aber das Auto ist auf ihn draufgefahren
+1	äh	äh	ADJ	NGHES	_	5	mod	_	_
+2	aber	aber	ADV	KON	_	5	cc	_	_
+3	das	d	DET	ART	_	4	det	_	_
+4	Auto	Auto	NOUN	NN	_	5	subj	_	_
+5	ist	sein	VERB	VAFIN	_	0	root	_	_
+6	auf	auf	ADP	APPR	_	8	comp:obl	_	_
+7	ihn	er	PROPN	PPER	_	6	comp:obj	_	_
+8	draufgefahren	drauffahren	VERB	VVPP	_	5	comp:aux	_	_
+
+# text = aber waren nur Beulen drin
+1	aber	aber	ADV	KON	_	2	cc	_	_
+2	waren	sein	VERB	VAFIN	_	0	root	_	_
+3	nur	nur	ADV	PTKIFG	_	2	mod	_	_
+4	Beulen	Beule	NOUN	NN	_	2	subj	_	_
+5	drin	drin	PROPN	ADV	_	2	comp:pred	_	_
+
+# text = ob und war aber trotzdem echt laut
+1	ob	ob	SCONJ	KOUS	_	3	reparandum	_	_
+2	und	und	CCONJ	KON	_	3	cc	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	aber	aber	ADV	PTKMA	_	3	mod	_	_
+5	trotzdem	trotzdem	ADV	ADV	_	3	mod	_	_
+6	echt	echt	ADV	PTKIFG	_	7	mod	_	_
+7	laut	laut	ADJ	ADJD	_	3	comp:pred	_	_
+
+# text = ich habe mich voll erschrocken
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	mich	ich	PRON	PRF	_	5	comp:obj	_	_
+4	voll	voll	ADJ	PTKIFG	_	2	mod	_	_
+5	erschrocken	erschrecken	VERB	VVFIN	_	2	comp:aux	_	_
+
+# text = na ja äh genau dann äh sehen wir uns heute Abend hoffentlich
+1	na	na	PROPN	NGIRR	_	7	discourse	_	_
+2	ja	ja	PROPN	NGIRR	_	1	fixed	_	_
+3	äh	äh	PROPN	NGHES	_	7	discourse	_	_
+4	genau	genau	ADJ	PTKIFG	_	7	discourse	_	_
+5	dann	dann	ADV	ADV	_	7	mod	_	_
+6	äh	äh	ADJ	NGHES	_	7	discourse	_	_
+7	sehen	sehen	VERB	VVFIN	_	0	root	_	_
+8	wir	wir	PRON	PPER	_	7	subj	_	_
+9	uns	wir	PRON	PRF	_	7	comp:obj	_	_
+10	heute	heute	ADV	ADV	_	7	mod	_	_
+11	Abend	Abend	NOUN	NN	_	10	mod	_	_
+12	hoffentlich	hoffentlich	ADJ	ADV	_	7	mod	_	_
+
+# text = bis bald kuss und tschüss
+1	bis	bis	ADP	APPR	_	0	root	_	_
+2	bald	bald	ADV	ADV	_	1	comp:obj	_	_
+3	kuss	kuss	NOUN	NN	_	1	parataxis	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	tschüss	tschüss	PROPN	NGIRR	_	3	conj	_	_
+

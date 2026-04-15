@@ -1,0 +1,301 @@
+# text = äh F16
+1	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+2	F16	F16	NOUN	NE	_	0	root	_	_
+
+# text = äh hallo Herr Kommissar
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	hallo	hallo	X	NGIRR	_	3	discourse	_	_
+3	Herr	Herr	NOUN	NN	_	0	root	_	_
+4	Kommissar	Kommissar	NOUN	NN	_	3	flat	_	_
+
+# text = ich habe ein Unfall gesehen
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Unfall	Unfall	NOUN	NN	_	5	comp:obj	_	_
+5	gesehen	sehen	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = und dazu möchte ich jetzt berichten
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dazu	dazu	ADV	ADV	_	3	mod	_	_
+3	möchte	mögen	AUX	VVFIN	_	0	root	_	_
+4	ich	ich	PRON	PPER	_	3	subj	_	_
+5	jetzt	jetzt	ADV	ADV	_	3	mod	_	_
+6	berichten	berichten	VERB	VVINF	_	3	comp:aux	_	_
+
+# text = äh als ich das letzte Mal äh nach Hause gegangen bin hab ich ein Paar gesehen eine Frau ein Mann
+1	äh	äh	ADJ	NGHES	_	12	discourse	_	_
+2	als	als	ADP	KOUS	_	16	mod	_	_
+3	ich	ich	PRON	PPER	_	11	subj	_	_
+4	das	d	PRON	ART	_	6	det	_	_
+5	letzte	letzt	VERB	ADJA	_	6	mod	_	_
+6	Mal	Mal	ADV	NN	_	11	mod	_	_
+7	äh	äh	ADJ	NGHES	_	12	discourse	_	_
+8	nach	nach	ADP	APPR	_	10	comp:obl	_	_
+9	Hause	Haus	NOUN	NN	_	8	comp:obj	_	_
+10	gegangen	gehen	VERB	VVPP	_	11	comp:aux	_	_
+11	bin	sein	AUX	VAFIN	_	2	comp:obj	_	_
+12	hab	haben	AUX	VAFIN	_	0	root	_	_
+13	ich	ich	PRON	PPER	_	12	subj	_	_
+14	ein	ein	DET	ART	_	15	det	_	_
+15	Paar	Paar	NOUN	NN	_	16	comp:obj	_	_
+16	gesehen	sehen	VERB	VVPP	_	12	comp:aux	_	_
+17	eine	ein	DET	ART	_	18	det	_	_
+18	Frau	Frau	NOUN	NN	_	15	appos	_	_
+19	ein	ein	DET	ART	_	20	det	_	_
+20	Mann	Mann	NOUN	NN	_	18	conj	_	_
+
+# text = und das äh nur wegen wegen dem Typen der mit dem Ball gespielt hat der wegen dem äh der Ball überhaupt die Straße runtergerollt ist wegen dem der Hund überhaupt äh auf die Straße gesprungen ist und äh deshalb auch das Auto davor bremsen musste
+1	Frau	Frau	NOUN	NN	_	2	subj	_	_
+2	hatte	haben	VERB	VAFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Kinderwagen	Kinderwagen	NOUN	NN	_	2	comp:obj	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Mann	Mann	NOUN	NN	_	2	conj	_	_
+7	ein	ein	DET	ART	_	8	det	_	_
+8	Fußball	Fußball	NOUN	NN	_	6	orphan	_	_
+
+# text = äh der Mann hat mit dem Fußball so gespielt als wenn es ein Basketball ist
+1	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Mann	Mann	NOUN	NN	_	4	subj	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	mit	mit	ADP	APPR	_	9	mod	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	Fußball	Fußball	NOUN	NN	_	5	comp:obj	_	_
+8	so	so	ADV	ADV	_	4	mod	_	_
+9	gespielt	spielen	VERB	VVPP	_	4	comp:aux	_	_
+10	als	als	ADP	KOUS	_	8	mod	_	_
+11	wenn	wenn	SCONJ	KOUS	_	10	fixed	_	_
+12	es	es	PRON	PPER	_	15	subj	_	_
+13	ein	ein	DET	ART	_	14	det	_	_
+14	Basketball	Basketball	NOUN	NN	_	15	comp:pred	_	_
+15	ist	sein	VERB	VAFIN	_	10	comp:obj	_	_
+
+# text = hat den einfach mal auf den Boden klatschen lassen
+1	hat	haben	AUX	VAFIN	_	0	root	_	_
+2	den	d	DET	PDS	_	8	comp:obj	_	_
+3	einfach	einfach	ADJ	PTKMA	_	1	mod	_	_
+4	mal	mal	ADV	PTKMA	_	1	mod	_	_
+5	auf	auf	ADP	APPR	_	8	comp:obl	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Boden	Boden	NOUN	NN	_	5	comp:obj	_	_
+8	klatschen	klatschen	ADJ	VVFIN	_	9	comp:obj	_	_
+9	lassen	lassen	VERB	VVFIN	_	1	comp:aux	_	_
+
+# text = und äh auf der anderen Straßenseite dann äh eine Frau mit deren geparkten Auto die äh ihren Kofferraum offen hatte ihren Einkauf ausgeleert und äh an einer Hand noch ein Hund hatte
+1	und	und	CCONJ	KON	_	10	cc	_	_
+2	äh	äh	ADV	NGHES	_	10	discourse	_	_
+3	auf	auf	ADP	APPR	_	10	orphan	_	_
+4	der	d	DET	ART	_	6	det	_	_
+5	anderen	ander	ADJ	PIDAT	_	6	mod	_	_
+6	Straßenseite	Straßenseite	NOUN	NN	_	3	comp:obj	_	_
+7	dann	dann	ADV	ADV	_	10	mod	_	_
+8	äh	äh	ADJ	NGHES	_	10	discourse	_	_
+9	eine	ein	DET	ART	_	10	det	_	_
+10	Frau	Frau	NOUN	NN	_	0	root	_	_
+11	mit	mit	ADP	APPR	_	10	mod	_	_
+12	deren	die	DET	PDAT	_	14	det	_	_
+13	geparkten	geparkt	ADJ	ADJA	_	14	mod	_	_
+14	Auto	Auto	NOUN	NN	_	11	comp:obj	_	_
+15	die	d	DET	ART	_	20	subj	_	_
+16	äh	äh	ADJ	NGHES	_	10	discourse	_	_
+17	ihren	ihr	PRON	PPOSAT	_	18	det	_	_
+18	Kofferraum	Kofferraum	NOUN	NN	_	19	comp:obj	_	_
+19	offen	offen	ADV	ADJD	_	20	comp:pred	_	_
+20	hatte	haben	AUX	VAFIN	_	10	mod@relcl	_	_
+21	ihren	ihr	PRON	PPOSAT	_	22	det	_	_
+22	Einkauf	Einkauf	ADV	NN	_	23	comp:obj	_	_
+23	ausgeleert	ausgeleert	VERB	VVPP	_	20	conj	_	_
+24	und	und	CCONJ	KON	_	32	cc	_	_
+25	äh	äh	ADJ	NGHES	_	10	discourse	_	_
+26	an	an	ADP	APPR	_	32	comp:obl	_	_
+27	einer	ein	DET	ART	_	28	det	_	_
+28	Hand	Hand	NOUN	NN	_	26	comp:obj	_	_
+29	noch	noch	ADV	PTKMWL	_	32	mod	_	_
+30	ein	ein	DET	ART	_	31	det	_	_
+31	Hund	Hund	NOUN	NN	_	32	comp:obj	_	_
+32	hatte	haben	VERB	VAFIN	_	20	conj	_	_
+
+# text = ja dann sind zwei Autos in die Straße reingefahren äh erst ein blaues danach ein weißes
+1	ja	ja	ADV	PTKMA	_	3	discourse	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	sind	sein	VERB	VAFIN	_	0	root	_	_
+4	zwei	zwei	NUM	CARD	_	5	mod	_	_
+5	Autos	Auto	NOUN	NN	_	3	subj	_	_
+6	in	in	ADP	APPR	_	9	comp:obl	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Straße	Straße	NOUN	NN	_	6	comp:obj	_	_
+9	reingefahren	reingefahren	VERB	VVPP	_	3	comp:aux	_	_
+10	äh	äh	ADV	VVFIN	_	3	discourse	_	_
+11	erst	erst	ADV	PTKMWL	_	13	orphan	_	_
+12	ein	ein	DET	ART	_	13	det	_	_
+13	blaues	blau	ADJ	ADJA	_	5	appos	_	_
+14	danach	danach	ADV	ADV	_	16	orphan	_	_
+15	ein	ein	DET	ART	_	16	det	_	_
+16	weißes	weißes	ADJ	ADJA	_	13	conj	_	_
+
+# text = äh ja genau dann als äh der Mann mit dem Fußball äh so gespielt hat als wenn es ein Basketball ist äh den Ball einfach mal auf den Boden klatschen lassen hat und äh der Ball dann auf seinen rechten Fuß gefallen und die Straße runtergerollt ist äh hat der äh der Hund von äh der Dame dem Besitzer äh versucht äh äh ihren Besitzer zu beschützen
+1	äh	äh	ADJ	ADJA	_	49	discourse	_	_
+2	ja	ja	ADV	NGIRR	_	49	discourse	_	_
+3	genau	genau	ADJ	NGIRR	_	49	discourse	_	_
+4	dann	dann	ADV	ADV	_	49	mod	_	_
+5	als	als	ADP	KON	_	61	mod	_	_
+6	äh	äh	ADJ	VVFIN	_	49	discourse	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Mann	Mann	NOUN	NN	_	15	subj	_	_
+9	mit	mit	ADP	APPR	_	14	mod	_	_
+10	dem	d	DET	ART	_	11	det	_	_
+11	Fußball	Fußball	NOUN	NN	_	9	comp:obj	_	_
+12	äh	äh	ADJ	VVFIN	_	49	discourse	_	_
+13	so	so	ADV	ADV	_	15	mod	_	_
+14	gespielt	spielen	VERB	VVPP	_	15	comp:aux	_	_
+15	hat	haben	AUX	VAFIN	_	5	comp:obj	_	_
+16	als	als	CCONJ	KON	_	13	mod	_	_
+17	wenn	wenn	SCONJ	KOUS	_	16	fixed	_	_
+18	es	es	PRON	PPER	_	21	subj	_	_
+19	ein	ein	DET	ART	_	20	det	_	_
+20	Basketball	Basketball	NOUN	NN	_	21	comp:pred	_	_
+21	ist	sein	VERB	VAFIN	_	16	comp:obj	_	_
+22	äh	äh	ADJ	ADJD	_	49	discourse	_	_
+23	den	d	DET	ART	_	24	det	_	_
+24	Ball	Ball	NOUN	NN	_	30	comp:obj	_	_
+25	einfach	einfach	ADJ	PTKMA	_	32	mod	_	_
+26	mal	mal	ADV	PTKMA	_	32	mod	_	_
+27	auf	auf	ADP	APPR	_	30	comp:obl	_	_
+28	den	d	DET	ART	_	29	det	_	_
+29	Boden	Boden	NOUN	NN	_	27	comp:obj	_	_
+30	klatschen	klatschen	ADJ	VVFIN	_	31	comp:obj	_	_
+31	lassen	lassen	VERB	VVINF	_	32	comp:aux	_	_
+32	hat	haben	AUX	VAFIN	_	15	conj	_	_
+33	und	und	CCONJ	KON	_	47	cc	_	_
+34	äh	äh	ADJ	VVFIN	_	49	discourse	_	_
+35	der	d	DET	ART	_	36	det	_	_
+36	Ball	Ball	NOUN	NN	_	42	subj	_	_
+37	dann	dann	ADV	ADV	_	42	mod	_	_
+38	auf	auf	ADP	APPR	_	42	comp:obl	_	_
+39	seinen	sein	DET	PPOSAT	_	41	det	_	_
+40	rechten	recht	ADJ	ADJA	_	41	mod	_	_
+41	Fuß	Fuß	NOUN	NE	_	38	comp:obj	_	_
+42	gefallen	gefallen	VERB	VVINF	_	15	conj	_	_
+43	und	und	CCONJ	KON	_	46	cc	_	_
+44	die	d	DET	ART	_	45	det	_	_
+45	Straße	Straße	NOUN	NN	_	46	comp:obj	_	_
+46	runtergerollt	runtergerollt	ADJ	VVPP	_	42	conj	_	_
+47	ist	sein	VERB	VAFIN	_	15	conj	_	_
+48	äh	äh	ADJ	VVPP	_	49	discourse	_	_
+49	hat	haben	VERB	VAFIN	_	0	root	_	_
+50	der	die	DET	PDS	_	52	reparandum	_	_
+51	äh	äh	NOUN	VVFIN	_	49	discourse	_	_
+52	der	d	DET	ART	_	53	det	_	_
+53	Hund	Hund	NOUN	NN	_	49	subj	_	_
+54	von	von	ADP	APPR	_	53	mod@poss	_	_
+55	äh	äh	ADV	ADJA	_	49	discourse	_	_
+56	der	d	DET	ART	_	57	det	_	_
+57	Dame	Dame	NOUN	NN	_	54	comp:obj	_	_
+58	dem	d	DET	ART	_	59	det	_	_
+59	Besitzer	Besitzer	NOUN	NN	_	65	reparandum	_	_
+60	äh	äh	ADJ	VVPP	_	49	discourse	_	_
+61	versucht	versuchen	VERB	VVIMP	_	49	comp:aux	_	_
+62	äh	äh	ADJ	ADJA	_	49	discourse	_	_
+63	äh	äh	ADV	ADJA	_	49	discourse	_	_
+64	ihren	ihr	DET	PPOSAT	_	65	det	_	_
+65	Besitzer	Besitzer	NOUN	NN	_	67	comp:obj	_	_
+66	zu	zu	PART	PTKZU	_	61	comp:obj	_	_
+67	beschützen	beschützen	VERB	VVINF	_	66	comp:obj	_	_
+
+# text = und äh ist dann die Straße runter runtergerannt
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	äh	äh	ADJ	ADJD	_	3	discourse	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Straße	Straße	NOUN	NN	_	8	comp:obj	_	_
+7	runter	runter	ADJ	ADV	_	8	reparandum	_	_
+8	runtergerannt	runtergerannt	ADJ	VVPP	_	3	comp:aux	_	_
+
+# text = und äh das Auto das äh das erste Auto das blaue Auto das die Straße runtergefahren ist musste dann Handbremse ziehen
+1	und	und	CCONJ	KON	_	18	cc	_	_
+2	äh	äh	ADJ	VVFIN	_	18	discourse	_	_
+3	das	d	DET	ART	_	4	det	_	_
+4	Auto	Auto	NOUN	NN	_	5	reparandum	_	_
+5	das	die	DET	PDS	_	9	reparandum	_	_
+6	äh	äh	ADJ	VVFIN	_	18	discourse	_	_
+7	das	d	DET	ART	_	9	det	_	_
+8	erste	erst	ADJ	ORD	_	9	mod	_	_
+9	Auto	Auto	NOUN	NN	_	18	subj	_	_
+10	das	d	DET	ART	_	12	det	_	_
+11	blaue	blau	ADJ	ADJA	_	12	mod	_	_
+12	Auto	Auto	NOUN	NN	_	9	appos	_	_
+13	das	d	PRON	ART	_	17	subj	_	_
+14	die	d	DET	ART	_	15	det	_	_
+15	Straße	Straße	NOUN	NN	_	16	comp:obj	_	_
+16	runtergefahren	runtergefahren	VERB	VVPP	_	17	comp:aux	_	_
+17	ist	sein	AUX	VAFIN	_	9	mod@relcl	_	_
+18	musste	müssen	AUX	VMFIN	_	0	root	_	_
+19	dann	dann	ADV	ADV	_	18	mod	_	_
+20	Handbremse	Handbremse	NOUN	NN	_	21	comp:obj	_	_
+21	ziehen	ziehen	VERB	VVINF	_	18	comp:aux	_	_
+
+# text = und das Auto dahinter ist voll in das Auto das davor stand reingefahren
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	das	d	DET	ART	_	3	det	_	_
+3	Auto	Auto	NOUN	NN	_	5	subj	_	_
+4	dahinter	dahinter	ADV	ADV	_	3	mod	_	_
+5	ist	sein	VERB	VAFIN	_	0	root	_	_
+6	voll	voll	ADJ	PTKIFG	_	5	mod	_	_
+7	in	in	ADP	APPR	_	13	comp:obl	_	_
+8	das	d	DET	ART	_	9	det	_	_
+9	Auto	Auto	NOUN	NN	_	7	comp:obj	_	_
+10	das	die	DET	PDS	_	12	subj	_	_
+11	davor	davor	ADV	ADV	_	12	mod	_	_
+12	stand	stehen	VERB	VVFIN	_	9	mod@relcl	_	_
+13	reingefahren	reingefahren	VERB	VVPP	_	5	comp:aux	_	_
+
+# text = und das äh nur wegen wegen dem Typen der mit dem Ball gespielt hat der wegen dem äh der Ball überhaupt die Straße runtergerollt ist wegen dem der Hund überhaupt äh auf die Straße gesprungen ist und äh deshalb auch das Auto davor bremsen musste
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	das	die	DET	PDS	_	0	root	_	_
+3	äh	äh	ADJ	VVFIN	_	2	discourse	_	_
+4	nur	nur	ADV	PTKIFG	_	6	mod	_	_
+5	wegen	wegen	ADP	APPR	_	6	reparandum	_	_
+6	wegen	wegen	ADP	APPR	_	2	orphan	_	_
+7	dem	d	DET	ART	_	8	det	_	_
+8	Typen	Typ|Type|Typus	NOUN	NN	_	6	comp:obj	_	_
+9	der	die	DET	PRELS	_	14	subj	_	_
+10	mit	mit	ADP	APPR	_	13	mod	_	_
+11	dem	d	DET	ART	_	12	det	_	_
+12	Ball	Ball	NOUN	NN	_	10	comp:obj	_	_
+13	gespielt	spielen	VERB	VVPP	_	14	comp:aux	_	_
+14	hat	haben	AUX	VAFIN	_	8	mod@relcl	_	_
+15	der	die	DET	PDS	_	8	appos	_	_
+16	wegen	wegen	ADP	APPR	_	24	comp:obl	_	_
+17	dem	d	DET	ART	_	16	comp:obj	_	_
+18	äh	äh	NOUN	ADJA	_	2	discourse	_	_
+19	der	d	DET	ART	_	20	det	_	_
+20	Ball	Ball	NOUN	NN	_	25	subj	_	_
+21	überhaupt	überhaupt	ADV	NE	_	25	mod	_	_
+22	die	d	DET	ART	_	23	det	_	_
+23	Straße	Straße	NOUN	NN	_	24	comp:obj	_	_
+24	runtergerollt	runtergerollt	VERB	VVPP	_	25	comp:aux	_	_
+25	ist	sein	AUX	VAFIN	_	15	mod@relcl	_	_
+26	wegen	wegen	ADP	APPR	_	35	comp:obl	_	_
+27	dem	d	PRON	ART	_	26	comp:obj	_	_
+28	der	d	DET	ART	_	29	det	_	_
+29	Hund	Hund	NOUN	NN	_	36	subj	_	_
+30	überhaupt	überhaupt	ADV	NE	_	36	mod	_	_
+31	äh	äh	ADJ	VVFIN	_	2	discourse	_	_
+32	auf	auf	ADP	APPR	_	35	mod	_	_
+33	die	d	DET	ART	_	34	det	_	_
+34	Straße	Straße	NOUN	NN	_	32	comp:obj	_	_
+35	gesprungen	springen	NOUN	VVPP	_	36	comp:aux	_	_
+36	ist	sein	VERB	VAFIN	_	15	mod@relcl	_	_
+37	und	und	CCONJ	KON	_	45	cc	_	_
+38	äh	äh	ADJ	VVFIN	_	2	discourse	_	_
+39	deshalb	deshalb	ADV	ADV	_	45	mod	_	_
+40	auch	auch	ADV	PTKIFG	_	45	mod	_	_
+41	das	d	DET	ART	_	42	det	_	_
+42	Auto	Auto	NOUN	NN	_	45	subj	_	_
+43	davor	davor	ADV	ADV	_	42	mod	_	_
+44	bremsen	bremsen	VERB	VVINF	_	45	comp:aux	_	_
+45	musste	müssen	AUX	VMFIN	_	36	conj	_	_
+

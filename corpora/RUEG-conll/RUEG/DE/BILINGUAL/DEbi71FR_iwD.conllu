@@ -1,0 +1,189 @@
+1	Hi	hi	PROPN	NGIRR	_	0	root	_	_
+2	,	,	PUNCT	$,	_	1	punct	_	_
+
+1	kannst	können	AUX	VMFIN	_	0	root	_	_
+2	du	du	PROPN	PPER	_	1	subj	_	_
+3	Bescheid	Bescheid	PROPN	NN	_	4	comp:obj	_	_
+4	sagen	sagen	VERB	VVINF	_	1	comp:aux	_	_
+5	,	,	PUNCT	$,	_	1	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	4	comp:obl	_	_
+7	ich	ich	PRON	PPER	_	10	subj	_	_
+8	zu	zu	ADV	PTKA	_	9	mod	_	_
+9	spät	spät	ADJ	ADJD	_	10	mod	_	_
+10	komme	kommen	VERB	VVFIN	_	6	comp:obj	_	_
+11	?	?	PUNCT	$.	_	1	punct	_	_
+
+1	Ich	ich	PRON	PPER	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	Zeuge	Zeuge	NOUN	NN	_	2	comp:pred	_	_
+5	eines	ein	DET	ART	_	6	det	_	_
+6	Autounfalls	Autounfalls	NOUN	NN	_	4	mod@poss	_	_
+7	...	...	PUNCT	$.	_	2	discourse	_	_
+
+1	:grinning_face_with_sweat:	😅	SYM	EMO	_	0	root	_	_
+
+1	Jedenfalls	Jedenfalls	SCONJ	ADV	_	3	mod	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	gerade	gerade	ADV	ADV	_	3	mod	_	_
+5	auf	auf	ADP	APPR	_	3	comp:pred	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	Weg	Weg	NOUN	NN	_	5	comp:obj	_	_
+8	zur	zu	PROPN	APPRART	_	7	mod	_	_
+9	Schule	Schule	PROPN	NN	_	8	comp:obj	_	_
+10	,	,	PUNCT	$,	_	3	punct	_	_
+11	also	also	ADV	ADV	_	3	mod	_	_
+12	dort	dort	ADV	ADV	_	3	mod	_	_
+13	bei	bei	ADP	APPR	_	12	mod	_	_
+14	der	d	DET	ART	_	16	det	_	_
+15	kleinen	kleine	ADJ	ADJA	_	16	mod	_	_
+16	Straßenseite	Straßenseite	NOUN	NN	_	13	comp:obj	_	_
+17	...	...	PUNCT	$.	_	3	discourse	_	_
+
+1	Du	du	PRON	PPER	_	2	subj	_	_
+2	weißt	wissen	VERB	VVFIN	_	0	root	_	_
+3	bestimmt	bestimmt	ADJ	ADV	_	2	mod	_	_
+4	wo	wo	ADV	ADV	_	2	comp:obj	_	_
+5	...	...	PUNCT	$.	_	2	discourse	_	_
+
+1	Und	Und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	comp:pred	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	so	so	ADV	PTKIFG	_	6	mod	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Mann	Mann	NOUN	NN	_	3	subj	_	_
+7	mit	mit	ADP	APPR	_	6	mod	_	_
+8	seiner	sein	DET	PPOSAT	_	9	det	_	_
+9	Frau	Frau	NOUN	NN	_	7	comp:obj	_	_
+10	und	und	CCONJ	KON	_	12	cc	_	_
+11	einem	ein	DET	ART	_	12	det	_	_
+12	Kinderwagen	Kinderwagen	NOUN	NN	_	9	conj	_	_
+13	,	,	PUNCT	$,	_	3	punct	_	_
+14	der	d	PRON	PRELS	_	19	subj	_	_
+15	mit	mit	ADP	APPR	_	18	mod	_	_
+16	einem	ein	DET	ART	_	17	det	_	_
+17	Fußball	Fußball	NOUN	NN	_	15	comp:obj	_	_
+18	gespielt	spielen	VERB	VVPP	_	19	comp:aux	_	_
+19	hat	haben	AUX	VAFIN	_	6	mod@relcl	_	_
+
+1	:person_facepalming_medium-light_skin_tone::female_sign:	🤦🏼‍♀	NOUN	EMO	_	0	root	_	_
+
+1	...	...	PUNCT	$.	_	0	root	_	_
+
+1	Er	er	PRON	PPER	_	2	subj	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	dann	dann	ADV	ADV	_	2	mod	_	_
+4	irgendwie	irgendwie	ADV	ADV	_	2	mod	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	7	comp:obj	_	_
+7	fallen	fallen	VERB	VVINF	_	8	comp:obj	_	_
+8	gelassen	lassen	VERB	VVPP	_	2	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	der	d	PRON	PDS	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	auf	auf	ADP	APPR	_	8	comp:obl	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Straße	Straße	NOUN	NN	_	5	comp:obj	_	_
+8	gerollt	rollen	VERB	VVPP	_	3	comp:aux	_	_
+9	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	Dann	dann	ADV	ADV	_	2	mod	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	da	da	ADV	ADV	_	2	mod	_	_
+4	noch	noch	ADV	PTKMWL	_	2	mod	_	_
+5	so	so	ADV	PTKIFG	_	7	mod	_	_
+6	ein	ein	DET	ART	_	7	det	_	_
+7	Hund	Hund	NOUN	NN	_	2	subj	_	_
+8	von	von	ADP	APPR	_	7	mod@poss	_	_
+9	einer	ein	DET	ART	_	10	det	_	_
+10	Frau	Frau	NOUN	NN	_	8	comp:obj	_	_
+11	auf	auf	ADP	APPR	_	2	comp:pred	_	_
+12	der	d	DET	ART	_	14	det	_	_
+13	anderen	ander	ADJ	PIDAT	_	14	mod	_	_
+14	Straßenseite	Straßenseite	NOUN	NN	_	11	comp:obj	_	_
+15	,	,	PUNCT	$,	_	2	punct	_	_
+16	der	d	PRON	PRELS	_	19	subj	_	_
+17	dann	dann	ADV	ADV	_	19	mod	_	_
+18	angefangen	anfangen	VERB	VVPP	_	19	comp:aux	_	_
+19	hat	haben	AUX	VAFIN	_	7	mod@relcl	_	_
+20	zu	zu	PART	PTKZU	_	18	comp:obj	_	_
+21	bellen	bellen	VERB	VVINF	_	20	comp:obj	_	_
+22	und	und	CCONJ	KON	_	30	cc	_	_
+23	voll	voll	ADJ	ADJD	_	24	mod	_	_
+24	ausgerastet	auserasten	VERB	VVPP	_	30	comp:aux	_	_
+25	und	und	CCONJ	KON	_	29	cc	_	_
+26	auf	auf	ADP	APPR	_	29	comp:obl	_	_
+27	die	d	DET	ART	_	28	det	_	_
+28	Straße	Straße	NOUN	NN	_	26	comp:obj	_	_
+29	gerannt	rennen	VERB	VVPP	_	30	conj	_	_
+30	ist	sein	AUX	VAFIN	_	19	conj	_	_
+31	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	PROPN	ADV	_	3	mod	_	_
+3	waren	sein	VERB	VAFIN	_	0	root	_	_
+4	da	da	ADV	ADV	_	3	comp:pred	_	_
+5	plötzlich	plötzlich	ADJ	ADJD	_	3	mod	_	_
+6	zwei	zwei	NUM	CARD	_	7	mod	_	_
+7	Autos	Auto	NOUN	NN	_	3	subj	_	_
+8	die	d	PRON	PRELS	_	12	subj	_	_
+9	dann	dann	ADV	ADV	_	12	mod	_	_
+10	abrupt	abrupt	ADV	ADJD	_	12	mod	_	_
+11	gebremst	bremsen	ADV	VVPP	_	12	comp:aux	_	_
+12	haben	haben	VERB	VAFIN	_	7	mod@relcl	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	das	d	DET	ART	_	3	det	_	_
+3	hintere	hintere	ADJ	ADJA	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	dann	dann	ADV	ADV	_	4	mod	_	_
+6	voll	voll	ADJ	PTKIFG	_	4	mod	_	_
+7	in	in	ADP	APPR	_	10	comp:obl	_	_
+8	das	d	DET	ART	_	9	det	_	_
+9	vordere	vordere	ADJ	ADJA	_	7	comp:obj	_	_
+10	reingefahren	reinfahren	NOUN	VVPP	_	4	comp:aux	_	_
+
+1	:grimacing_face:	😬	SYM	EMO	_	0	root	_	_
+
+1	Auf	Auf	ADP	APPR	_	5	mod	_	_
+2	jeden	jede	PRON	PIDAT	_	3	det	_	_
+3	Fall	Fall	NOUN	NN	_	1	comp:obj	_	_
+4	...	...	PUNCT	$.	_	5	discourse	_	_
+5	verspäte	verspäten	NOUN	VVFIN	_	0	root	_	_
+6	ich	ich	PRON	PPER	_	5	subj	_	_
+7	mich	ich	PRON	PRF	_	5	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	muss	müssen	AUX	VMFIN	_	0	root	_	_
+3	jetzt	jetzt	ADV	ADV	_	2	mod	_	_
+4	so	so	ADV	PTKIFG	_	6	mod	_	_
+5	einen	ein	NUM	ART	_	6	det	_	_
+6	Zeugenbericht	Zeugenbericht	NOUN	NN	_	7	comp:obj	_	_
+7	machen	machen	VERB	VVINF	_	2	comp:aux	_	_
+8	...	...	PUNCT	$.	_	2	discourse	_	_
+
+1	:face_with_rolling_eyes:	🙄	SYM	EMO	_	0	root	_	_
+
+1	:slightly_smiling_face:	🙂	SYM	EMO	_	0	root	_	_
+
+1	Nimm	nehmen	ADJ	VVIMP	_	0	root	_	_
+2	mir	ich	PRON	PPER	_	1	comp:obl	_	_
+3	dann	dann	ADV	ADV	_	1	mod	_	_
+4	mal	mal	ADV	PTKMA	_	1	mod	_	_
+5	bitte	bitte	NOUN	NGIRR	_	1	discourse	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Arbeitsblätter	Arbeitsblätter	NOUN	NN	_	1	comp:obj	_	_
+8	mit	mit	ADP	PTKVZ	_	1	compound@prt	_	_
+9	,	,	PUNCT	$,	_	1	punct	_	_
+
+1	danke	danke	NOUN	NGIRR	_	0	root	_	_
+2	.	.	PUNCT	$.	_	1	punct	_	_
+
+1	Bis	bis	ADP	APPR	_	0	root	_	_
+2	dann	dann	ADV	ADV	_	1	comp:obj	_	_
+
+1	:upside-down_face:	🙃	SYM	EMO	_	0	root	_	_
+

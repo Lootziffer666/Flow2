@@ -1,0 +1,85 @@
+# text = hallo Schatz
+1	hallo	hallo	X	NGIRR	_	2	discourse	_	_
+2	Schatz	Schatz	PROPN	NN	_	0	root	_	_
+
+# text = ich bin gerade Zeuge eines Unfalls geworden
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	bin	sein	VERB	VAFIN	_	0	root	_	_
+3	gerade	gerad	ADV	ADJA	_	2	mod	_	_
+4	Zeuge	Zeuge	NOUN	NN	_	7	comp:pred	_	_
+5	eines	ein	DET	ART	_	6	det	_	_
+6	Unfalls	Unfall	NOUN	NN	_	4	mod@poss	_	_
+7	geworden	werden	VERB	VAPP	_	2	comp:aux	_	_
+
+# text = da ist ein Idiot mit sein mit seiner Frau und seinem Kleinkind über also mit einem mit einem Kinderwagen über die Straße wollte
+1	da	da	ADV	ADV	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Idiot	Idiot	NOUN	NN	_	2	subj	_	_
+5	mit	mit	ADP	APPR	_	7	reparandum	_	_
+6	sein	sein	DET	PPOSAT	_	5	comp:obj	_	_
+7	mit	mit	ADP	APPR	_	4	mod	_	_
+8	seiner	sein	DET	PPOSAT	_	9	det	_	_
+9	Frau	Frau	NOUN	NN	_	7	comp:obj	_	_
+10	und	und	CCONJ	KON	_	12	cc	_	_
+11	seinem	sein	DET	PPOSAT	_	12	det	_	_
+12	Kleinkind	Kleinkind	NOUN	NN	_	9	conj	_	_
+13	über	über	ADP	APPR	_	20	reparandum	_	_
+14	also	also	ADV	ADV	_	2	discourse	_	_
+15	mit	mit	ADP	APPR	_	17	reparandum	_	_
+16	einem	ein	DET	ART	_	15	comp:obj	_	_
+17	mit	mit	ADP	APPR	_	23	mod	_	_
+18	einem	ein	DET	ART	_	19	det	_	_
+19	Kinderwagen	Kinderwagen	NOUN	NN	_	17	comp:obj	_	_
+20	über	über	ADP	APPR	_	23	comp:obl	_	_
+21	die	d	DET	ART	_	22	det	_	_
+22	Straße	Straße	NOUN	NN	_	20	comp:obj	_	_
+23	wollte	wollen	VERB	VMFIN	_	4	mod@relcl	_	_
+
+# text = und hat einen Ball gespielt
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	einen	ein	DET	ART	_	4	det	_	_
+4	Ball	Ball	NOUN	NN	_	5	comp:obj	_	_
+5	gespielt	spielen	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = und dann hat er einen Unfall verursacht
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	er	er	PRON	PPER	_	3	subj	_	_
+5	einen	ein	DET	ART	_	6	det	_	_
+6	Unfall	Unfall	NOUN	NN	_	7	comp:obj	_	_
+7	verursacht	versursachen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = da sind zwei Autos ineinander gekracht weil der über die Straße mit seinem Ball wollte
+1	da	da	ADV	ADV	_	2	mod	_	_
+2	sind	sein	VERB	VAFIN	_	0	root	_	_
+3	zwei	zwei	NUM	CARD	_	4	mod	_	_
+4	Autos	Auto	NOUN	NN	_	2	subj	_	_
+5	ineinander	ineinander	ADV	ADV	_	6	comp:obj	_	_
+6	gekracht	krachen	VERB	VVPP	_	2	comp:aux	_	_
+7	weil	weil	SCONJ	KOUS	_	6	mod	_	_
+8	der	d	DET	PDS	_	15	subj	_	_
+9	über	über	ADP	APPR	_	15	comp:obl	_	_
+10	die	d	DET	ART	_	11	det	_	_
+11	Straße	Straße	NOUN	NN	_	9	comp:obj	_	_
+12	mit	mit	ADP	APPR	_	15	mod	_	_
+13	seinem	sein	DET	PPOSAT	_	14	det	_	_
+14	Ball	Ball	NOUN	NN	_	12	comp:obj	_	_
+15	wollte	wollen	VERB	VMFIN	_	7	comp:obj	_	_
+
+# text = ey ich sage dir später noch mehr Bescheid
+1	ey	ey	PROPN	NGIRR	_	3	discourse	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	sage	sagen	PROPN	VVFIN	_	0	root	_	_
+4	dir	du	PRON	PRF	_	3	comp:obl	_	_
+5	später	später	ADJ	ADJD	_	3	mod	_	_
+6	noch	noch	ADV	PTKMWL	_	7	mod	_	_
+7	mehr	mehr	ADV	PIAT	_	3	mod	_	_
+8	Bescheid	Bescheid	PROPN	NN	_	3	comp:obj	_	_
+
+# text = bis dann
+1	bis	bis	ADP	APPR	_	0	root	_	_
+2	dann	dann	ADV	ADV	_	1	comp:obj	_	_
+

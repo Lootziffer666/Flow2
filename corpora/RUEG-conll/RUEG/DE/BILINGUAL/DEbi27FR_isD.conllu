@@ -1,0 +1,129 @@
+# text = äh hi Lara
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	hi	hi	X	NGIRR	_	3	discourse	_	_
+3	Lara	Lara	PROPN	NE	_	0	root	_	_
+
+# text = ich war gerade äh auf dem Weg äh zum Supermarkt
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+5	auf	auf	ADP	APPR	_	2	comp:pred	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	Weg	Weg	NOUN	NN	_	5	comp:obj	_	_
+8	äh	äh	PROPN	NGHES	_	2	discourse	_	_
+9	zum	zu	PROPN	APPRART	_	7	mod	_	_
+10	Supermarkt	Supermarkt	PROPN	NN	_	9	comp:obj	_	_
+
+# text = und bin über den Parkplatz gelaufen über den ich da immer muss
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	bin	sein	VERB	VAFIN	_	0	root	_	_
+3	über	über	ADP	APPR	_	6	comp:obl	_	_
+4	den	d	DET	ART	_	5	det	_	_
+5	Parkplatz	Parkplatz	NOUN	NN	_	3	comp:obj	_	_
+6	gelaufen	laufen	VERB	VVPP	_	2	comp:aux	_	_
+7	über	über	ADP	APPR	_	12	comp:obl	_	_
+8	den	d	PRON	PRELS	_	7	comp:obj	_	_
+9	ich	ich	PRON	PPER	_	12	subj	_	_
+10	da	da	ADV	ADV	_	12	mod	_	_
+11	immer	immer	ADV	ADV	_	12	mod	_	_
+12	muss	müssen	AUX	VMFIN	_	5	mod@relcl	_	_
+
+# text = und äh da äh war irgendein Dummkopf mit einem äh Ball
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+3	da	da	ADV	ADV	_	5	comp:pred	_	_
+4	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+5	war	sein	VERB	VAFIN	_	0	root	_	_
+6	irgendein	irgendein	PRON	PIAT	_	7	det	_	_
+7	Dummkopf	Dummkopf	NOUN	NN	_	5	subj	_	_
+8	mit	mit	ADP	APPR	_	7	mod	_	_
+9	einem	ein	DET	ART	_	11	det	_	_
+10	äh	äh	NOUN	NGHES	_	5	discourse	_	_
+11	Ball	Ball	PROPN	NN	_	8	comp:obj	_	_
+
+# text = und der hat irgendwie so gedribbelt
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	der	d	PRON	PDS	_	3	subj	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	irgendwie	irgendwie	ADV	ADV	_	3	mod	_	_
+5	so	so	ADV	PTKIFG	_	3	mod	_	_
+6	gedribbelt	dribbeln	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und hat den Ball dann verloren
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	den	d	DET	ART	_	4	det	_	_
+4	Ball	Ball	NOUN	NN	_	6	comp:obj	_	_
+5	dann	dann	ADV	ADV	_	2	mod	_	_
+6	verloren	verlieren	ADV	VVPP	_	2	comp:aux	_	_
+
+# text = und dann ist der Ball natürlich äh vorn Auto gerollt also fast
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	subj	_	_
+6	natürlich	natürlich	ADJ	ADV	_	3	mod	_	_
+7	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+8	vorn	von	ADV	APPRART	_	10	comp:obl	_	_
+9	Auto	Auto	NOUN	NN	_	8	comp:obj	_	_
+10	gerollt	rollen	AUX	VVPP	_	3	comp:aux	_	_
+11	also	also	ADV	ADV	_	3	discourse	_	_
+12	fast	fast	ADV	ADV	_	3	mod	_	_
+
+# text = und äh da war dann irgendwie so eine Dame mit einem Hund
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+3	da	da	ADV	ADV	_	4	comp:pred	_	_
+4	war	sein	VERB	VAFIN	_	0	root	_	_
+5	dann	dann	ADV	ADV	_	4	mod	_	_
+6	irgendwie	irgendwie	ADV	ADV	_	4	mod	_	_
+7	so	so	ADV	PTKIFG	_	9	mod	_	_
+8	eine	ein	DET	ART	_	9	det	_	_
+9	Dame	Dame	NOUN	NN	_	4	subj	_	_
+10	mit	mit	ADP	APPR	_	9	mod	_	_
+11	einem	ein	DET	ART	_	12	det	_	_
+12	Hund	Hund	NOUN	NN	_	10	comp:obj	_	_
+
+# text = und der ist äh sofort drauf los
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	der	d	PRON	PDS	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	äh	äh	ADV	NGHES	_	3	discourse	_	_
+5	sofort	sofort	ADV	ADV	_	3	mod	_	_
+6	drauf	drauf	ADV	ADV	_	7	mod	_	_
+7	los	los	ADV	PTKVZ	_	3	comp:aux	_	_
+
+# text = und auf jeden Fall äh ist dann ein anderes Auto noch dem äh äh ein hinten draufgefahren
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	auf	auf	ADP	APPR	_	17	mod	_	_
+3	jeden	jede	PRON	PIDAT	_	4	det	_	_
+4	Fall	Fall	NOUN	NN	_	2	comp:obj	_	_
+5	äh	äh	ADJ	NGHRD	_	6	discourse	_	_
+6	ist	sein	VERB	VAFIN	_	0	root	_	_
+7	dann	dann	ADV	ADV	_	6	mod	_	_
+8	ein	ein	DET	ART	_	10	det	_	_
+9	anderes	andere	ADJ	PIDAT	_	10	mod	_	_
+10	Auto	Auto	NOUN	NN	_	6	subj	_	_
+11	noch	noch	ADV	PTKMWL	_	6	mod	_	_
+12	dem	d	DET	ART	_	17	comp:obj	_	_
+13	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+14	äh	äh	NOUN	NGHES	_	6	discourse	_	_
+15	ein	ein	DET	CARD	_	16	reparandum	_	_
+16	hinten	hinten	ADV	ADV	_	6	mod	_	_
+17	draufgefahren	drauffahren	VERB	VVPP	_	6	comp:aux	_	_
+
+# text = und dann musste die Polizei gerufen werden
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	musste	müssen	AUX	VMFIN	_	0	root	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Polizei	Polizei	NOUN	NN	_	3	subj@pass	_	_
+6	gerufen	rufen	VERB	VVPP	_	7	comp:aux@pass	_	_
+7	werden	werden	AUX	VAINF	_	3	comp:aux	_	_
+
+# text = voll das Theater
+1	voll	voll	VERB	PTKIFG	_	3	mod	_	_
+2	das	d	DET	ART	_	3	det	_	_
+3	Theater	Theater	NOUN	NN	_	0	root	_	_

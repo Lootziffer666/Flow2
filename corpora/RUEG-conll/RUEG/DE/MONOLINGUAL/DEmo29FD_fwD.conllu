@@ -1,0 +1,122 @@
+# text = Augenzeugenbericht F16
+1	Augenzeugenbericht	Augenzeugenbericht	NOUN	NN	_	0	root	_	_
+2	F16	F16	NOUN	NE	_	1	appos	_	_
+
+# text = Fahrzeugunfall
+1	Fahrzeugunfall	Fahrzeugunfall	NOUN	NN	_	0	root	_	_
+
+# text = Ich konnte am Freitag den 05.10.2018 Folgendes beobachten :
+1	Ich	ich	PRON	PPER	_	2	subj	_	_
+2	konnte	können	AUX	VMFIN	_	0	root	_	_
+3	am	an	ADJ	APPRART	_	8	mod	_	_
+4	Freitag	Freitag	PROPN	NN	_	3	comp:obj	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	05.10.2018	@card@	NUM	CARD	_	4	mod	_	_
+7	Folgendes	Folgend	NOUN	NN	_	8	comp:obj	_	_
+8	beobachten	beobachten	VERB	VVINF	_	2	comp:aux	_	_
+9	:	:	PUNCT	$.	_	2	punct	_	_
+
+# text = Ein junger Mann ist zunächst mit seiner Familie auf dem Bürgersteig spaziert .
+1	Ein	ein	DET	ART	_	3	det	_	_
+2	junger	jung	ADJ	ADJA	_	3	mod	_	_
+3	Mann	Mann	NOUN	NN	_	4	subj	_	_
+4	ist	sein	AUX	VAFIN	_	0	root	_	_
+5	zunächst	zunächst	ADV	ADV	_	4	mod	_	_
+6	mit	mit	ADP	APPR	_	12	mod	_	_
+7	seiner	sein	DET	PPOSAT	_	8	det	_	_
+8	Familie	Familie	NOUN	NN	_	6	comp:obj	_	_
+9	auf	auf	ADP	APPR	_	12	comp:obl	_	_
+10	dem	d	DET	ART	_	11	det	_	_
+11	Bürgersteig	Bürgersteig	PROPN	NN	_	9	comp:obj	_	_
+12	spaziert	spazieren	VERB	VVPP	_	4	comp:aux	_	_
+13	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Er ließ aus Versehen einen Fußball , den er in der Hand hatte , fallen .
+1	Er	er	PRON	PPER	_	2	subj	_	_
+2	ließ	lassen	VERB	VVFIN	_	0	root	_	_
+3	aus	aus	ADP	APPR	_	15	mod	_	_
+4	Versehen	Versehen	NOUN	NN	_	3	comp:obj	_	_
+5	einen	ein	DET	ART	_	6	det	_	_
+6	Fußball	Fußball	NOUN	NN	_	15	comp:obj	_	_
+7	,	,	PUNCT	$,	_	2	punct	_	_
+8	den	d	PRON	PRELS	_	13	comp:obj	_	_
+9	er	er	PRON	PPER	_	13	subj	_	_
+10	in	in	ADP	APPR	_	13	mod	_	_
+11	der	d	DET	ART	_	12	det	_	_
+12	Hand	Hand	NOUN	NN	_	10	comp:obj	_	_
+13	hatte	haben	VERB	VAFIN	_	6	mod@relcl	_	_
+14	,	,	PUNCT	$,	_	13	punct	_	_
+15	fallen	fallen	VERB	VVINF	_	2	comp:aux	_	_
+16	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Dieser rollte auf die Straße , sodass ein fahrendes Auto schlagartig bremsen musste .
+1	Dieser	diese	PRON	PDS	_	2	subj	_	_
+2	rollte	rollen	AUX	VVFIN	_	0	root	_	_
+3	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Straße	Straße	NOUN	NE	_	3	comp:obj	_	_
+6	,	,	PUNCT	$,	_	2	punct	_	_
+7	sodass	sodass	SCONJ	KOUS	_	2	mod	_	_
+8	ein	ein	DET	ART	_	10	det	_	_
+9	fahrendes	fahrend	ADJ	ADJA	_	10	mod	_	_
+10	Auto	Auto	NOUN	NN	_	13	subj	_	_
+11	schlagartig	schlagartig	ADJ	ADJD	_	13	mod	_	_
+12	bremsen	bremsen	VERB	VVINF	_	13	comp:aux	_	_
+13	musste	m�ssen	AUX	VMFIN	_	7	comp:obj	_	_
+14	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Daraufhin fuhr ein zweites Auto dem bremsenden Auto hinten drauf
+1	Daraufhin	daraufhin	ADV	ADV	_	2	mod	_	_
+2	fuhr	fahren	VERB	VVFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	5	det	_	_
+4	zweites	zweit	ADJ	ORD	_	5	mod	_	_
+5	Auto	Auto	NOUN	NN	_	2	subj	_	_
+6	dem	d	DET	ART	_	8	det	_	_
+7	bremsenden	bremsend	ADJ	ADJA	_	8	mod	_	_
+8	Auto	Auto	NOUN	NN	_	2	comp:obj	_	_
+9	hinten	hinten	ADV	ADV	_	2	mod	_	_
+10	drauf	drauf	ADV	PTKVZ	_	2	compound@prt	_	_
+
+# text = und es kam zu einem Verkehrsunfall .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	_	3	subj@expl	_	_
+3	kam	kommen	VERB	VVFIN	_	0	root	_	_
+4	zu	zu	ADP	APPR	_	3	comp:obl	_	_
+5	einem	ein	DET	ART	_	6	det	_	_
+6	Verkehrsunfall	Verkehrsunfall	NOUN	NN	_	4	comp:obj	_	_
+7	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Es schien so als sei allen Beteiligten kein Schaden zugekommen .
+1	Es	es	PRON	PPER	_	2	subj@expl	_	_
+2	schien	scheinen	VERB	VVFIN	_	0	root	_	_
+3	so	so	ADV	ADV	_	2	comp:pred	_	_
+4	als	als	ADV	KON	_	3	mod	_	_
+5	sei	sein	VERB	VAIMP	_	4	comp:obj	_	_
+6	allen	alle	PRON	PIAT	_	7	det	_	_
+7	Beteiligten	Beteiligte	NOUN	NN	_	10	comp:obj	_	_
+8	kein	kein	PRON	PIAT	_	9	det	_	_
+9	Schaden	Schaden	NOUN	NN	_	5	subj	_	_
+10	zugekommen	zukommen	VERB	VVPP	_	5	comp:aux	_	_
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Der Mann mit dem Ball war hilfsbereit
+1	Der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	6	subj	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	dem	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+6	war	sein	VERB	VAFIN	_	0	root	_	_
+7	hilfsbereit	hilfsbereit	ADJ	ADJD	_	6	comp:pred	_	_
+
+# text = und alarmierte die Polizei um das Geschehen zu melden .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	alarmierte	alarmieren	VERB	VVFIN	_	0	root	_	_
+3	die	d	DET	ART	_	4	det	_	_
+4	Polizei	Polizei	NOUN	NN	_	2	comp:obj	_	_
+5	um	um	ADP	APPR	_	2	mod	_	_
+6	das	d	DET	ART	_	7	det	_	_
+7	Geschehen	Geschehen	NOUN	NN	_	9	comp:obj	_	_
+8	zu	zu	PART	PTKZU	_	5	comp:obj	_	_
+9	melden	melden	VERB	VVINF	_	8	comp:obj	_	_
+10	.	.	PUNCT	$.	_	2	punct	_	_
+

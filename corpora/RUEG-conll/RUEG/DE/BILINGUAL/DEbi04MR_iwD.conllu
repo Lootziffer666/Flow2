@@ -1,0 +1,66 @@
+# text = Hey Ili ,
+1	Hey	Hey	PROPN	NGIRR	_	2	discourse	_	_
+2	Ili	Ili	PROPN	NE	_	0	root	_	_
+3	,	,	PUNCT	$	_	2	punct	_	_
+
+# text = war gerade unterwegs
+1	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	gerade	gerade	ADV	ADV	_	1	mod	_	_
+3	unterwegs	unterwegs	ADV	ADV	_	1	mod	_	_
+
+# text = und habe einen kleinen Auffahrunfall gesehen ,
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	kleinen	klein	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	mod	_	_
+5	Auffahrunfall	Auffahrunfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	comp:obj	_	_
+6	gesehen	sehen	VERB	VVPP	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+7	,	,	PUNCT	$	_	2	punct	_	_
+
+# text = ziemlich typische Fahrschulsituation :
+1	ziemlich	ziemlich	ADV	PTKIFG	_	2	mod	_	_
+2	typische	typisch	ADJ	ADJA	Degree=Pos	3	mod	_	_
+3	Fahrschulsituation	Fahrschulsituation	NOUN	NN	_	0	root	_	_
+4	:	:	PUNCT	$	_	3	punct	_	_
+
+# text = Ball rollt auf die Straße ,
+1	Ball	Ball	PROPN	NN	Case=Nom|Number=Sing	2	subj	_	_
+2	rollt	rollen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+4	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	comp:obj	_	_
+6	,	,	PUNCT	$	_	2	punct	_	_
+
+# text = vorderes Auto bremst ,
+1	vorderes	vorder	ADJ	ADJA	Degree=Pos	2	mod	_	_
+2	Auto	Auto	NOUN	NN	_	3	subj	_	_
+3	bremst	bremsen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	,	,	PUNCT	$	_	3	punct	_	_
+
+# text = hinteres fährt auf .
+1	hinteres	hinteres	ADJ	ADJA	Degree=Pos	2	subj	_	_
+2	fährt	fahren	VERB	VVFIN	Tense=Pres|VerbForm=Fin	0	root	_	_
+3	auf	auf	ADP	APPR	_	2	compound@prt	_	_
+4	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Nichts passiert ,
+1	Nichts	nichts	PRON	PIS	Number=Sing|PronType=Neg	2	subj	_	_
+2	passiert	passieren	VERB	VVPP	Tense=Past|VerbForm=Part	0	root	_	_
+3	,	,	PUNCT	$	_	2	punct	_	_
+
+# text = alle heile ,
+1	alle	alle	PRON	PIS	PronType=Tot	2	subj	_	_
+2	heile	heil	ADJ	ADJD	_	0	root	_	_
+3	,	,	PUNCT	$	_	2	punct	_	_
+
+# text = bisschen Blechschaden oder so .
+1	bisschen	bisschen	ADJ	PIAT	Degree=Pos	2	mod	_	_
+2	Blechschaden	Blechschaden	NOUN	NN	_	0	root	_	_
+3	oder	oder	CCONJ	KON	_	4	cc	_	_
+4	so	so	ADV	ADV	_	2	conj	_	_
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Bis später
+1	Bis	bis	ADP	APPR	_	0	root	_	_
+2	später	später	ADJ	ADJA	Degree=Cmp,Pos	1	comp:obj	_	_
+

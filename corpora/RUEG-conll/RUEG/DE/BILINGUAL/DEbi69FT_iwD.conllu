@@ -1,0 +1,100 @@
+1	ey	ey	PROPN	_	Case=Dat|Gender=Fem|Number=Sing	3	discourse	_	_
+2	ey	ey	PROPN	_	Case=Dat|Gender=Fem|Number=Sing	3	discourse	_	_
+3	Lina	Lina	PROPN	_	_	0	root	_	_
+
+1	du	du	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	subj	_	_
+2	weißt	wissen	VERB	_	Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nicht	nicht	PART	_	_	2	mod	_	_
+4	was	was	PRON	_	Case=Nom|PronType=Ind	7	subj	_	_
+5	gerade	gerade	ADV	_	_	7	mod	_	_
+6	passiert	passieren	VERB	_	Tense=Past|VerbForm=Part	7	comp:aux	_	_
+7	ist	sein	AUX	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
+
+1	:dizzy_face:	😵	SYM	_	_	0	root	_	_
+
+1	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	habe	haben	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	beim	bei	ADV	_	_	7	mod	_	_
+4	Parkplatz	Parkplatz	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	comp:obj	_	_
+5	auf	auf	ADP	_	_	7	comp:obl	_	_
+6	dich	du	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	5	comp:obj	_	_
+7	gewartet	warten	VERB	_	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	derzeit	derzeit	ADV	_	_	3	mod	_	_
+3	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	eine	ein	DET	_	Definite=Ind|PronType=Art	5	det	_	_
+5	Mutter	Mutter	NOUN	_	_	3	subj	_	_
+6	mit	mit	ADP	_	_	5	mod	_	_
+7	seinem	sein	DET	_	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
+8	Sohn	Sohn	NOUN	_	Case=Dat|Number=Sing	6	comp:obj	_	_
+9	vorbeigelaufen	vorbeilaufen	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+
+1	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Sohn	Sohn	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	mit	mit	ADP	_	_	7	mod	_	_
+5	einem	ein	DET	_	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Ball	Ball	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	4	comp:obj	_	_
+7	gespielt	spielen	VERB	_	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	hat	haben	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	den	d	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	comp:obj	_	_
+4	aus	aus	ADP	_	_	6	mod	_	_
+5	Versehen	Versehen	NOUN	_	Case=Acc|Number=Sing	4	comp:obj	_	_
+6	fallen	fallen	VERB	_	Tense=Pres|VerbForm=Inf	7	comp:obj	_	_
+7	lassen	lassen	VERB	_	Tense=Pres|VerbForm=Inf	2	comp:aux	_	_
+
+1	der	d	PRON	_	Case=Nom|PronType=Dem	2	subj	_	_
+2	ist	sein	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dann	dann	ADV	_	_	2	mod	_	_
+4	Richtung	Richtung	NOUN	_	_	7	comp:obl	_	_
+5	eines	ein	DET	_	Case=Gen|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Hundes	Hund	NOUN	_	Case=Gen|Gender=Masc,Neut|Number=Sing	4	mod@poss	_	_
+7	gerollt	rollen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	comp:aux	_	_
+
+1	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Hund	Hund	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	dahin	dahin	ADV	_	_	3	mod	_	_
+5	gerannt	rennen	ADJ	_	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	dabei	dabei	ADV	_	_	3	mod	_	_
+3	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ihn	er	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	_
+5	ein	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Auto	Auto	NOUN	_	Case=Acc|Gender=Masc,Neut|Number=Sing	3	subj	_	_
+7	fast	fast	ADV	_	_	3	mod	_	_
+8	angefahren	anfahren	VERB	_	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+
+1	:anguished_face:	😧	SYM	_	_	0	root	_	_
+
+1	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Mann	Mann	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	subj	_	_
+3	im	in	PROPN	_	_	2	mod	_	_
+4	Auto	Auto	PROPN	_	_	3	comp:obj	_	_
+5	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	direkt	direkt	ADJ	_	Degree=Pos	5	mod	_	_
+7	gebremst	bremsen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	comp:aux	_	_
+8	wegen	wegen	ADP	_	_	7	mod	_	_
+9	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Hund	Hund	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	8	comp:obj	_	_
+
+1	deswegen	deswegen	ADV	_	_	2	mod	_	_
+2	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	das	d	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Auto	Auto	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	2	subj	_	_
+5	hinter	hinter	ADP	_	_	4	mod	_	_
+6	ihm	er	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	_
+7	von	von	ADP	_	_	13	mod	_	_
+8	hinten	hinten	ADV	_	_	7	comp:obj	_	_
+9	voll	voll	ADJ	_	Degree=Pos	2	mod	_	_
+10	in	in	ADP	_	_	13	comp:obl	_	_
+11	sein	sein	DET	_	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	Auto	Auto	NOUN	_	_	10	comp:obj	_	_
+13	reingefahren	reinfahren	VERB	_	Tense=Past|VerbForm=Fin	2	comp:aux	_	_
+
+1	:flushed_face:	😳	SYM	_	_	0	root	_	_
+

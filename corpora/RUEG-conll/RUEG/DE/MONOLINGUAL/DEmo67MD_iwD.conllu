@@ -1,0 +1,129 @@
+1	Hi	hi	PROPN	_	_	3	discourse	_	_
+2	ich	ich	PRON	_	_	3	subj	_	_
+3	habe	haben	AUX	_	_	0	root	_	_
+4	gerade	gerade	ADV	_	_	3	mod	_	_
+5	einen	ein	DET	_	_	7	det	_	_
+6	kleinen	klein	ADJ	_	_	7	mod	_	_
+7	Unfall	Unfall	NOUN	_	_	8	comp:obj	_	_
+8	miterlebt	miterleben	VERB	_	_	3	comp:aux	_	_
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+1	Ich	ich	PRON	_	_	2	subj	_	_
+2	stand	stehen	VERB	_	_	0	root	_	_
+3	da	da	ADV	_	_	2	mod	_	_
+4	gerade	gerade	ADV	_	_	2	mod	_	_
+5	so	so	ADV	_	_	2	mod	_	_
+6	auf	auf	ADP	_	_	2	comp:obl	_	_
+7	einem	ein	DET	_	_	8	det	_	_
+8	Parkplatz	Parkplatz	NOUN	_	_	6	comp:obj	_	_
+
+1	und	und	CCONJ	_	_	8	cc	_	_
+2	auf	auf	ADP	_	_	8	comp:obl	_	_
+3	der	d	DET	_	_	5	det	_	_
+4	rechten	recht	ADJ	_	_	5	mod	_	_
+5	Seite	Seite	NOUN	_	_	2	comp:obj	_	_
+6	vom	vom	PROPN	_	_	5	mod@poss	_	_
+7	Parkplatz	Parkplatz	PROPN	_	_	6	comp:obj	_	_
+8	liefen	laufen	VERB	_	_	0	root	_	_
+9	ein	ein	DET	_	_	10	det	_	_
+10	Mann	Mann	NOUN	_	_	8	subj	_	_
+11	und	und	CCONJ	_	_	13	cc	_	_
+12	eine	eine	DET	_	_	13	det	_	_
+13	Frau	Frau	NOUN	_	_	10	conj	_	_
+
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	wollten	wollen	AUX	_	_	0	root	_	_
+3	dann	dann	ADV	_	_	2	mod	_	_
+4	die	d	DET	_	_	5	det	_	_
+5	Straße	Straße	NOUN	_	_	8	comp:obj	_	_
+6	vom	vom	PROPN	_	_	5	mod@poss	_	_
+7	Parkplatz	Parkplatz	PROPN	_	_	6	comp:obj	_	_
+8	überqueren	überqueren	VERB	_	_	2	comp:aux	_	_
+
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	dabei	dabei	ADV	_	_	3	mod	_	_
+3	war	sein	VERB	_	_	0	root	_	_
+4	ihm	er	PRON	_	_	10	comp:obj	_	_
+5	sein	sein	DET	_	_	6	det	_	_
+6	Ball	Ball	NOUN	_	_	3	subj	_	_
+7	auf	auf	ADP	_	_	10	comp:obl	_	_
+8	die	d	DET	_	_	9	det	_	_
+9	Straße	Straße	NOUN	_	_	7	comp:obj	_	_
+10	gerollt	rollen	VERB	_	_	3	comp:aux	_	_
+
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	dadurch	dadurch	ADV	_	_	3	mod	_	_
+3	wurde	werden	AUX	_	_	0	root	_	_
+4	ein	ein	DET	_	_	5	det	_	_
+5	Hund	Hund	NOUN	_	_	3	subj@pass	_	_
+6	welcher	welche	PRON	_	_	15	subj	_	_
+7	sich	er|es|sie	PRON	_	_	15	comp:obj	_	_
+8	mit	mit	ADP	_	_	15	mod	_	_
+9	seiner	sein	DET	_	_	10	det	_	_
+10	Besitzerin	Besitzerin	NOUN	_	_	8	comp:obj	_	_
+11	auf	auf	ADP	_	_	15	comp:obl	_	_
+12	der	d	DET	_	_	14	det	_	_
+13	anderen	ander	ADJ	_	_	14	mod	_	_
+14	Straßenseite	Straßenseite	NOUN	_	_	11	comp:obj	_	_
+15	befand	befinden	NOUN	_	_	5	mod@relcl	_	_
+16	aufgeschreckt	aufschrecken	VERB	_	_	3	comp:aux@pass	_	_
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+1	In	in	ADP	_	_	4	mod	_	_
+2	dem	d	DET	_	_	3	det	_	_
+3	Moment	Moment	NOUN	_	_	1	comp:obj	_	_
+4	kamen	kommen	VERB	_	_	0	root	_	_
+5	auf	auf	ADP	_	_	4	comp:obl	_	_
+6	der	d	DET	_	_	7	det	_	_
+7	Straße	Straße	NOUN	_	_	5	comp:obj	_	_
+8	des	d	DET	_	_	9	det	_	_
+9	Parkplatzes	Parkplatz	NOUN	_	_	7	mod@poss	_	_
+10	2	@card@	NUM	_	_	11	mod	_	_
+11	Autos	Auto	NOUN	_	_	4	subj	_	_
+
+1	und	und	CCONJ	_	_	8	cc	_	_
+2	wegen	wegen	ADP	_	_	12	mod	_	_
+3	des	d	DET	_	_	4	det	_	_
+4	Hundes	Hund	NOUN	_	_	2	comp:obj	_	_
+5	und	und	CCONJ	_	_	7	cc	_	_
+6	des	d	DET	_	_	7	det	_	_
+7	Balles	Ball	PROPN	_	_	4	conj	_	_
+8	musste	müssen	AUX	_	_	0	root	_	_
+9	das	d	DET	_	_	11	det	_	_
+10	erste	erst	ADJ	_	_	11	mod	_	_
+11	Auto	Auto	NOUN	_	_	8	subj	_	_
+12	bremsen	bremsen	VERB	_	_	8	comp:aux	_	_
+
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	das	d	DET	_	_	3	det	_	_
+3	zweite	zweit	NOUN	_	_	4	subj	_	_
+4	fuhr	fahren	VERB	_	_	0	root	_	_
+5	ihm	es	PROPN	_	_	4	comp:obj	_	_
+6	hinten	hinten	ADV	_	_	4	mod	_	_
+7	rein	rein	ADV	_	_	4	compound@prt	_	_
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+1	Die	die	DET	_	_	2	subj	_	_
+2	hatten	haben	AUX	_	_	0	root	_	_
+3	dann	dann	ADV	_	_	2	mod	_	_
+4	die	d	DET	_	_	5	det	_	_
+5	Polizei	Polizei	NOUN	_	_	6	comp:obj	_	_
+6	geholt	holen	VERB	_	_	2	comp:aux	_	_
+
+1	aber	aber	ADV	_	_	3	mod	_	_
+2	kein	kein	PRON	_	_	3	mod	_	_
+3	Plan	Plan	NOUN	_	_	0	root	_	_
+4	was	was	PRON	_	_	6	subj	_	_
+5	dann	dann	ADV	_	_	6	mod	_	_
+6	war	sein	VERB	_	_	3	mod	_	_
+
+1	ich	ich	PRON	_	_	2	subj	_	_
+2	war	sein	AUX	_	_	0	root	_	_
+3	dann	dann	ADV	_	_	2	mod	_	_
+4	gegangen	gehen	VERB	_	_	2	comp:aux	_	_
+5	weil	weil	SCONJ	_	_	4	mod	_	_
+6	ich	ich	PRON	_	_	7	subj	_	_
+7	losmusste	losmusste	VERB	_	_	5	comp:obj	_	_
+
+1	:grinning_face_with_sweat:	😅	SYM	_	_	0	root	_	_
+

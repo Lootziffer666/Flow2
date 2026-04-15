@@ -1,0 +1,186 @@
+1	Hi	hi	X	NGIRR	_	0	root	_	_
+
+1	:flushed_face:	😳	SYM	EMO	_	0	root	_	_
+
+1	Ich	Ich	PRON	PPER	_	2	subj	_	_
+2	bin	sein	VERB	VAFIN	_	0	root	_	_
+3	vor	vor	ADP	APPR	_	10	mod	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	paar	paar	PRON	PIDAT	_	6	mod	_	_
+6	Minuten	Minute	NOUN	NN	_	3	comp:obj	_	_
+7	Zeuge	Zeuge	NOUN	NN	_	10	comp:pred	_	_
+8	eines	ein	DET	ART	_	9	det	_	_
+9	Unfalls	Unfall	NOUN	NN	_	7	mod@poss	_	_
+10	geworden	werden	VERB	VAPP	_	2	comp:aux	_	_
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Die	d	DET	ART	_	2	det	_	_
+2	Polizei	Polizei	NOUN	NN	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	auch	auch	ADV	ADV	_	5	mod	_	_
+5	schon	schon	ADV	PTKMWL	_	3	mod	_	_
+6	da	da	ADV	ADV	_	3	comp:pred	_	_
+
+1	...	...	PUNCT	$.	_	0	root	_	_
+
+1	musste	m�ssen	AUX	VMFIN	_	0	root	_	_
+2	alles	alle	PRON	PIS	_	3	comp:obj	_	_
+3	erzählen	erzählen	VERB	VVINF	_	1	comp:aux	_	_
+4	,	,	PUNCT	$,	_	1	punct	_	_
+5	was	was	PRON	PRELS	_	7	comp:obj	_	_
+6	ich	ich	PRON	PPER	_	8	subj	_	_
+7	gesehen	sehen	VERB	VVPP	_	8	comp:aux	_	_
+8	habe	haben	AUX	VAFIN	_	2	mod@relcl	_	_
+9	.	.	PUNCT	$.	_	1	punct	_	_
+
+1	Ich	ich	PRON	PPER	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	auf	auf	ADP	APPR	_	2	comp:pred	_	_
+5	dem	d	DET	ART	_	6	det	_	_
+6	Weg	Weg	PROPN	NN	_	4	comp:obj	_	_
+7	zum	zu	PROPN	APPRART	_	6	mod	_	_
+8	Sport	Sport	PROPN	NN	_	7	comp:obj	_	_
+9	,	,	PUNCT	$,	_	2	punct	_	_
+10	als	als	SCONJ	KON	_	2	mod	_	_
+11	es	es	PRON	PPER	_	12	subj	_	_
+12	passierte	passieren	VERB	VVFIN	_	10	comp:obj	_	_
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Mir	ich	PRON	PPER	_	2	comp:obj	_	_
+2	kam	kommen	VERB	VVFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Paar	Paar	NOUN	NN	_	2	subj	_	_
+5	entgegen	entgegen	ADV	PTKVZ	_	2	compound@prt	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	hatte	haben	VERB	VAFIN	_	0	root	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+6	in	in	ADP	APPR	_	3	mod	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Hand	Hand	NOUN	NN	_	6	comp:obj	_	_
+9	,	,	PUNCT	$,	_	3	punct	_	_
+10	mit	mit	ADP	APPR	_	13	comp:obl	_	_
+11	dem	d	PRON	ART	_	10	comp:obj	_	_
+12	er	er	PRON	PPER	_	13	subj	_	_
+13	herumspielte	herumspielen	VERB	VVFIN	_	5	mod@relcl	_	_
+14	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	Als	als	SCONJ	KOUS	_	18	mod	_	_
+2	er	er	PRON	PPER	_	9	subj	_	_
+3	mit	mit	ADP	APPR	_	8	mod	_	_
+4	seiner	sein	DET	PPOSAT	_	5	det	_	_
+5	Begleitung	Begleitung	NOUN	NN	_	3	comp:obj	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Straße	Straße	NOUN	NN	_	8	comp:obj	_	_
+8	überqueren	überqueren	VERB	VVINF	_	9	comp:aux	_	_
+9	wollte	wollen	AUX	VMFIN	_	1	comp:obj	_	_
+10	,	,	PUNCT	$,	_	1	punct	_	_
+11	ist	sein	VERB	VAFIN	_	0	root	_	_
+12	ihm	er	PRON	PPER	_	18	comp:obj	_	_
+13	der	d	DET	ART	_	14	det	_	_
+14	Ball	Ball	NOUN	NN	_	11	subj	_	_
+15	aus	aus	ADP	APPR	_	18	comp:obl	_	_
+16	den	d	DET	ART	_	17	det	_	_
+17	Händen	Hände	NOUN	NE	_	15	comp:obj	_	_
+18	gerutscht	rutschen	VERB	VVPP	_	11	comp:aux	_	_
+19	und	und	CCONJ	KON	_	23	cc	_	_
+20	auf	auf	ADP	APPR	_	23	comp:obl	_	_
+21	die	d	DET	ART	_	22	det	_	_
+22	Straße	Straße	NOUN	NN	_	20	comp:obj	_	_
+23	gerollt	rollen	VERB	VVPP	_	11	conj	_	_
+24	.	.	PUNCT	$.	_	11	punct	_	_
+
+1	Eine	ein	DET	ART	_	2	det	_	_
+2	Frau	Frau	NOUN	NN	_	6	subj	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	einem	ein	DET	ART	_	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	3	comp:obj	_	_
+6	befand	befinden	VERB	VVFIN	_	0	root	_	_
+7	sich	er|es|sie	PRON	PRF	_	6	comp:obj	_	_
+8	auf	auf	ADP	APPR	_	6	comp:obl	_	_
+9	der	d	DET	ART	_	11	det	_	_
+10	gegenüberliegenden	gegenüberliegend	ADJ	ADJA	_	11	mod	_	_
+11	Seite	Seite	NOUN	NN	_	8	comp:obj	_	_
+12	.	.	PUNCT	$.	_	6	punct	_	_
+
+1	Natürlich	Natürlich	ADV	NE	_	2	mod	_	_
+2	fing	fangen	VERB	VVFIN	_	0	root	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Hund	Hund	NOUN	NN	_	2	subj	_	_
+5	zu	zu	PART	PTKZU	_	2	comp:obj	_	_
+6	bellen	bellen	VERB	VVINF	_	5	comp:obj	_	_
+7	an	an	ADP	APPR	_	2	compound@prt	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	lief	laufen	VERB	VVFIN	_	0	root	_	_
+3	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+4	den	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+6	zu	zu	ADP	PTKVZ	_	2	compound@prt	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	In	in	ADP	APPR	_	7	mod	_	_
+2	dem	d	DET	ART	_	3	det	_	_
+3	Moment	Moment	NOUN	NN	_	1	comp:obj	_	_
+4	kamen	kommen	VERB	VVFIN	_	0	root	_	_
+5	zwei	zwei	NUM	CARD	_	6	mod	_	_
+6	Auto	Auto	NOUN	NN	_	4	subj	_	_
+7	angefahren	anfahren	VERB	VVPP	_	4	comp:obl	_	_
+8	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	Das	d	DET	ART	_	3	det	_	_
+2	erste	erst	ADJ	ORD	_	3	mod	_	_
+3	Auto	Auto	NOUN	NN	_	4	subj	_	_
+4	machte	machen	VERB	VVFIN	_	0	root	_	_
+5	eine	ein	DET	ART	_	6	det	_	_
+6	Vollbremsung	Vollbremsung	NOUN	NN	_	4	comp:obj	_	_
+7	,	,	PUNCT	$,	_	4	punct	_	_
+8	um	um	ADP	APPR	_	4	mod	_	_
+9	den	d	DET	ART	_	10	det	_	_
+10	Hund	Hund	NOUN	NN	_	14	comp:obj	_	_
+11	natürlich	natürlich	ADJ	ADJD	_	12	mod	_	_
+12	nicht	nicht	PART	PTKNEG	_	14	mod	_	_
+13	zu	zu	PART	PTKZU	_	8	comp:obj	_	_
+14	überfahren	überfahren	VERB	VVINF	_	13	comp:obj	_	_
+15	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	Das	d	DET	ART	_	2	det	_	_
+2	Auto	Auto	NOUN	NN	_	4	subj	_	_
+3	dahinter	dahinter	ADV	ADV	_	2	mod	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	dem	d	DET	ART	_	7	det	_	_
+6	ersten	erst	ADJ	ORD	_	7	mod	_	_
+7	Auto	Auto	NOUN	NN	_	9	comp:obj	_	_
+8	dann	dann	ADV	ADV	_	4	mod	_	_
+9	aufgefahren	auffahren	VERB	VVPP	_	4	comp:aux	_	_
+10	,	,	PUNCT	$,	_	4	punct	_	_
+11	weil	weil	SCONJ	KOUS	_	9	mod	_	_
+12	der	d	DET	ART	_	13	det	_	_
+13	Fahrer	Fahrer	NOUN	NN	_	18	subj	_	_
+14	nicht	nicht	PART	PTKNEG	_	18	mod	_	_
+15	schnell	schnell	ADJ	ADJD	_	18	mod	_	_
+16	genug	genug	ADV	PTKMWL	_	15	mod	_	_
+17	reagieren	reagieren	VERB	VVINF	_	18	comp:aux	_	_
+18	konnte	k�nnen	AUX	VMFIN	_	11	comp:obj	_	_
+19	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	Das	die	PRON	PDS	_	2	subj	_	_
+2	ging	gehen	VERB	VVFIN	_	0	root	_	_
+3	alles	alle	PRON	PIS	_	1	appos	_	_
+4	so	so	ADV	PTKIFG	_	5	mod	_	_
+5	schnell	schnell	ADJ	ADJD	_	2	comp:pred	_	_
+
+1	:downcast_face_with_sweat:	😓	SYM	EMO	_	0	root	_	_
+
+1	Zum	Zu	PROPN	APPR	_	5	mod	_	_
+2	Glück	Glück	PROPN	NN	_	1	comp:obj	_	_
+3	ist	sein	AUX	VAFIN	_	0	root	_	_
+4	niemand	niemand	PRON	PIS	_	3	subj@pass	_	_
+5	verletzt	verletzen	VERB	ADJD	_	6	comp:aux@pass	_	_
+6	worden	werden	AUX	VAPP	_	3	comp:aux	_	_
+7	.	.	PUNCT	$.	_	3	punct	_	_
+

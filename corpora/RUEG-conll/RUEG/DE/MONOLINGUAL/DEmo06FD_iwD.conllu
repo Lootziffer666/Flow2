@@ -1,0 +1,88 @@
+1	Hey	Hey	PROPN	_	Case=Nom|Number=Sing	0	root	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	hey	Hey	PROPN	_	_	1	discourse	_	_
+4	...	...	PUNCT	_	_	1	discourse	_	_
+
+1	das	d	PRON	_	Case=Nom|PronType=Dem	2	subj	_	_
+2	war	sein	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	eben	eben	ADV	_	_	2	mod	_	_
+4	strange	strange	ADV	_	_	2	comp:pred	_	_
+5	du	du	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	vocative	_	_
+6	:	:	PUNCT	_	_	2	punct	_	_
+
+1	bin	sein	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	die	d	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Ystraße	Ystraße	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	4	comp:obj	_	_
+4	lang	lang	ADJ	_	Degree=Pos	1	comp:aux	_	_
+5	,	,	PUNCT	_	_	1	punct	_	_
+
+1	gab	geben	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	da	da	ADV	_	_	1	mod	_	_
+3	einen	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Auffahrunfall	Auffahrunfall	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	1	comp:obj	_	_
+
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	musste	müssen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	aussagen	aussagen	VERB	_	VerbForm=Inf	3	comp:aux	_	_
+5	bei	bei	ADP	_	_	4	mod	_	_
+6	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Polizei	Polizei	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	5	comp:obj	_	_
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+1	Meinte	meinen	VERB	_	Tense=Past	0	root	_	_
+2	auch	auch	ADV	_	_	1	mod	_	_
+3	zu	zu	ADP	_	_	1	mod	_	_
+4	denen	den	PRON	_	PronType=Dem	3	comp:obj	_	_
+5	,	,	PUNCT	_	_	1	punct	_	_
+6	dass	dass	SCONJ	_	_	1	comp:obj	_	_
+7	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	subj	_	_
+8	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Vollbremsung	Vollbremsung	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	13	comp:obj	_	_
+10	des	d	DET	_	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Vordermannes	Vordermannes	NOUN	_	Case=Gen|Gender=Masc,Neut|Number=Sing	9	mod@poss	_	_
+12	nicht	nicht	PART	_	_	14	mod	_	_
+13	nachvollziehen	nachvollziehen	VERB	_	Tense=Pres|VerbForm=Inf	14	comp:aux	_	_
+14	kann	können	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
+15	,	,	PUNCT	_	_	6	punct	_	_
+16	da	da	SCONJ	_	_	13	mod	_	_
+17	er	er	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	subj	_	_
+18	langsam	langsam	ADJ	_	Degree=Pos	19	mod	_	_
+19	fuhr	fahren	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	comp:obj	_	_
+20	und	und	CCONJ	_	_	42	cc	_	_
+21	von	von	ADP	_	_	41	mod	_	_
+22	den	d	DET	_	Definite=Def|PronType=Art	23	det	_	_
+23	beiden	beide	PRON	_	Case=Acc|Gender=Fem|NumType=Card|Number=Sing|PronType=Tot	21	comp:obj	_	_
+24	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	subj	_	_
+25	auf	auf	ADP	_	_	28	comp:obl	_	_
+26	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Straße	Straße	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	25	comp:obj	_	_
+28	standen	stehen	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	mod@relcl	_	_
+29	(	(	PUNCT	_	_	32	punct	_	_
+30	einer	ein	DET	_	Definite=Ind|PronType=Art	31	det	_	_
+31	Frau	Frau	NOUN	_	_	35	comp:obj	_	_
+32	war	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+33	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	Einkauf	Einkauf	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	32	subj	_	_
+35	ausgekippt	ausgekippt	ADJ	_	Degree=Pos|Tense=Past	32	comp:aux	_	_
+36	)	)	PUNCT	_	_	32	punct	_	_
+37	echt	echt	ADJ	_	Degree=Pos	42	mod	_	_
+38	noch	noch	ADV	_	_	42	mod	_	_
+39	weit	weit	ADJ	_	Degree=Pos	40	mod	_	_
+40	genug	genug	ADV	_	_	42	mod	_	_
+41	entfernt	entfernt	ADJ	_	Degree=Pos	42	comp:pred	_	_
+42	war	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	conj	_	_
+43	um	um	ADP	_	_	41	mod	_	_
+44	normal	normal	ADJ	_	Degree=Pos	46	mod	_	_
+45	zu	zu	ADP	_	_	43	comp:obj	_	_
+46	bremsen	bremsen	PROPN	_	Tense=Pres	45	comp:obj	_	_
+47	...	...	PUNCT	_	_	1	discourse	_	_
+
+1	na	na	PROPN	_	_	3	discourse	_	_
+2	ja	ja	ADV	_	_	1	fixed	_	_
+3	komisch	komisch	ADJ	_	Degree=Pos	0	root	_	_
+4	wie	wie	CCONJ	_	_	5	mod	_	_
+5	gesagt	sagen	VERB	_	Tense=Past|VerbForm=Part	3	parataxis	_	_
+
+1	:person_shrugging_medium-light_skin_tone::female_sign:	🤷🏼‍♀	NOUN	_	_	0	root	_	_
+

@@ -1,0 +1,97 @@
+# text = ich wollte gerade über die Straße gehen
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	über	über	ADP	APPR	_	7	comp:obl	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Straße	Straße	NOUN	NN	_	4	comp:obj	_	_
+7	gehen	gehen	VERB	VVFIN	_	2	comp:aux	_	_
+
+# text = da sind einfach zwei Autos zusammengestoßen weil so ein Typ nicht aufgepasst hat und sein Ball auf die Straße gerollt ist
+1	da	da	SCONJ	ADV	_	0	root	_	_
+2	sind	sein	VERB	VAFIN	_	1	mod	_	_
+3	einfach	einfach	ADV	PTKMA	_	2	mod	_	_
+4	zwei	zwei	NUM	CARD	_	5	mod	_	_
+5	Autos	Auto	NOUN	NN	_	2	subj	_	_
+6	zusammengestoßen	zusammenstoßen	VERB	VVPP	_	2	comp:aux	_	_
+7	weil	weil	SCONJ	KOUS	_	6	mod	_	_
+8	so	so	ADV	PTKIFG	_	10	mod	_	_
+9	ein	ein	DET	ART	_	10	det	_	_
+10	Typ	Typ	NOUN	NN	_	13	subj	_	_
+11	nicht	nicht	PART	PTKNEG	_	13	mod	_	_
+12	aufgepasst	aufgepassen	VERB	VVPP	_	13	comp:aux	_	_
+13	hat	haben	AUX	VAFIN	_	7	comp:obj	_	_
+14	und	und	CCONJ	KON	_	21	cc	_	_
+15	sein	sein	DET	PPOSAT	_	16	det	_	_
+16	Ball	Ball	NOUN	NN	_	21	subj	_	_
+17	auf	auf	ADP	APPR	_	20	comp:obl	_	_
+18	die	d	DET	ART	_	19	det	_	_
+19	Straße	Straße	NOUN	NN	_	17	comp:obj	_	_
+20	gerollt	rollen	VERB	VVPP	_	21	comp:aux	_	_
+21	ist	sein	VERB	VAFIN	_	13	conj	_	_
+
+# text = aber ist nichts passiert
+1	aber	aber	ADV	KON	_	2	cc	_	_
+2	ist	sein	AUX	VAFIN	_	0	root	_	_
+3	nichts	nichts	PRON	PIS	_	2	subj	_	_
+4	passiert	passieren	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = die rufen jetzt die Polizei
+1	die	dies	PRON	PDS	_	2	subj	_	_
+2	rufen	rufen	VERB	VVFIN	_	0	root	_	_
+3	jetzt	jetzt	ADV	ADV	_	2	mod	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Polizei	Polizei	NOUN	NN	_	2	comp:obj	_	_
+
+# text = und so eine Frau auf der anderen Seite ist ihr Hund wegen dem Ball auf die Straße gelaufen
+1	und	und	CCONJ	KON	_	9	cc	_	_
+2	so	so	ADV	ADV	_	4	mod	_	_
+3	eine	ein	DET	ART	_	4	det	_	_
+4	Frau	Frau	NOUN	NN	_	18	comp:obj	_	_
+5	auf	auf	ADP	APPR	_	4	mod	_	_
+6	der	d	DET	ART	_	8	det	_	_
+7	anderen	ander	ADJ	PIDAT	_	8	mod	_	_
+8	Seite	Seite	NOUN	NN	_	5	comp:obj	_	_
+9	ist	sein	VERB	VAFIN	_	0	root	_	_
+10	ihr	ihr	DET	PPOSAT	_	11	det	_	_
+11	Hund	Hund	NOUN	NN	_	9	subj	_	_
+12	wegen	wegen	ADP	APPR	_	18	mod	_	_
+13	dem	d	DET	ART	_	14	det	_	_
+14	Ball	Ball	NOUN	NN	_	12	comp:obj	_	_
+15	auf	auf	ADP	APPR	_	18	comp:obl	_	_
+16	die	d	DET	ART	_	17	det	_	_
+17	Straße	Straße	NOUN	NN	_	15	comp:obj	_	_
+18	gelaufen	laufen	VERB	VVPP	_	9	comp:aux	_	_
+
+# text = der wurde fast überfahren
+1	der	dies	PRON	PDS	_	2	subj@pass	_	_
+2	wurde	werden	AUX	VAFIN	_	0	root	_	_
+3	fast	fast	ADV	ADV	_	2	mod	_	_
+4	überfahren	überfahren	VERB	VVFIN	_	2	comp:aux@pass	_	_
+
+# text = die Frau hat sich erschrocken
+1	die	d	DET	ART	_	2	det	_	_
+2	Frau	Frau	NOUN	NN	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	sich	er|es|sie	PRON	PRF	_	5	comp:obj	_	_
+5	erschrocken	erschrecken	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und ihr sind dabei ihre Einkäufe runtergefallen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	ihr	ihr	PRON	PPER	_	7	comp:obj	_	_
+3	sind	sein	VERB	VAFIN	_	0	root	_	_
+4	dabei	dabei	ADV	ADV	_	3	mod	_	_
+5	ihre	ihr	DET	PPOSAT	_	6	det	_	_
+6	Einkäufe	Einkäufe	NOUN	NN	_	3	subj	_	_
+7	runtergefallen	runterfallen	VERB	VVFIN	_	3	comp:aux	_	_
+
+# text = der Mann hat ihr die aber wieder aufgehoben
+1	der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	ihr	ihr	PRON	PPER	_	8	comp:obl	_	_
+5	die	dies	DET	PDS	_	8	comp:obj	_	_
+6	aber	aber	NOUN	ADV	_	3	mod	_	_
+7	wieder	wieder	ADV	ADV	_	3	mod	_	_
+8	aufgehoben	aufheben	VERB	VVPP	_	3	comp:aux	_	_
+

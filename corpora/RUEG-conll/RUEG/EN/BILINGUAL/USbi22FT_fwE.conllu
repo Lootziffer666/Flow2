@@ -1,0 +1,118 @@
+1	There	there	ADV	EX0	_	4	advmod	_	_
+2	was	be	AUX	VBD	_	4	cop	_	_
+3	a	a	DET	AT0	_	4	det	_	_
+4	women	woman	NOUN	NN2	_	0	root	_	_
+5	who	who	PRON	PNQ	_	7	nsubj	_	_
+6	was	be	AUX	VBD	_	7	cop	_	_
+7	putting	put	VERB	VVG	_	4	parataxis	_	_
+8	groceries	grocery	NOUN	NN2	_	7	obj	_	_
+9	into	into	ADP	PRP	_	11	case	_	_
+10	her	she	DET	DPS	_	11	det	_	_
+11	car	car	NOUN	NN1	_	7	obl	_	_
+12	.	.	PUNCT	SENT	_	4	punct	_	_
+
+1	She	she	PRON	PNP	_	4	nsubj	_	_
+2	had	have	AUX	VHD	_	4	aux	_	_
+3	a	a	DET	AT0	_	4	det	_	_
+4	dog	dog	NOUN	NN1	_	0	root	_	_
+5	who	who	PRON	PNQ	_	9	nsubj	_	_
+6	was	be	AUX	VBD	_	9	cop	_	_
+7	on	on	ADP	PRP	_	9	case	_	_
+8	a	a	DET	AT0	_	9	det	_	_
+9	leash	leash	NOUN	NN1	_	4	acl:relcl	_	_
+10	with	with	ADP	PRP	_	11	case	_	_
+11	her	she	PRON	PNP	_	9	obl	_	_
+12	.	.	PUNCT	SENT	_	4	punct	_	_
+
+1	There	there	ADV	EX0	_	6	advmod	_	_
+2	then	then	ADV	AV0	_	6	advmod	_	_
+3	was	be	AUX	VBD	_	6	cop	_	_
+4	a	a	DET	AT0	_	5	det	_	_
+5	family	family	NOUN	NN1	_	6	nsubj	_	_
+6	walking	walk	VERB	VVG	_	0	root	_	_
+7	together	together	ADV	AV0	_	6	advmod	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	guy	guy	NOUN	NN1	_	4	nsubj	_	_
+4	had	have	AUX	VHD	_	0	root	_	_
+5	a	a	DET	AT0	_	6	det	_	_
+6	football	football	NOUN	NN1	_	4	obj	_	_
+7	in	in	ADP	PRP	_	9	case	_	_
+8	his	he	DET	DPS	_	9	det	_	_
+9	hand	hand	NOUN	NN1	_	4	obl	_	_
+10	.	.	PUNCT	SENT	_	4	punct	_	_
+
+1	There	there	ADV	EX0	_	4	advmod	_	_
+2	were	be	AUX	VBD	_	4	cop	_	_
+3	also	also	ADV	AV0	_	4	advmod	_	_
+4	two	two	NUM	CRD	_	0	root	_	_
+5	cars	car	NOUN	NN2	_	6	nsubj	_	_
+6	entering	enter	VERB	VVG	_	4	ccomp	_	_
+7	into	into	ADP	PRP	_	9	case	_	_
+8	the	the	DET	AT0	_	9	det	_	_
+9	parkway	parkway	NOUN	NN1	_	6	obl	_	_
+10	at	at	ADP	PRP	_	13	case	_	_
+11	the	the	DET	AT0	_	13	det	_	_
+12	same	same	ADJ	AJ0	_	13	amod	_	_
+13	time	time	NOUN	NN1	_	6	obl	_	_
+14	.	.	PUNCT	SENT	_	4	punct	_	_
+
+1	The	the	DET	AT0	_	2	det	_	_
+2	guy	guy	NOUN	NN1	_	4	nmod:poss	_	_
+3	's	's	PART	POS	_	2	case	_	_
+4	ball	ball	NOUN	NN1	_	0	root	_	_
+5	slipped	slip	VERB	VVD	_	4	acl	_	_
+6	out	out	ADP	PRP	_	9	case	_	_
+7	of	of	ADP	PRF	_	9	case	_	_
+8	his	he	DET	DPS	_	9	det	_	_
+9	hand	hand	NOUN	NN1	_	5	obl	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	dog	dog	NOUN	NN1	_	4	nsubj	_	_
+4	saw	see	VERB	VVD	_	0	root	_	_
+
+1	and	and	CCONJ	CJC	_	2	cc	_	_
+2	jumped	jump	VERB	VVD	_	0	root	_	_
+3	towards	towards	ADP	PRP	_	4	case	_	_
+4	it	it	PRON	PNP	_	2	obl	_	_
+5	.	.	PUNCT	SENT	_	2	punct	_	_
+
+1	The	the	DET	AT0	_	2	det	_	_
+2	women	woman	NOUN	NN2	_	3	nsubj	_	_
+3	held	hold	VERB	VVD	_	0	root	_	_
+4	onto	onto	ADP	PRP	_	6	case	_	_
+5	the	the	DET	AT0	_	6	det	_	_
+6	leash	leash	NOUN	NN1	_	3	obl	_	_
+
+1	but	but	CCONJ	CJC	_	4	cc	_	_
+2	the	the	DET	AT0	_	4	det	_	_
+3	first	first	ADJ	ORD	_	4	amod	_	_
+4	car	car	NOUN	NN1	_	0	root	_	_
+5	that	that	SCONJ	CJT	_	10	mark	_	_
+6	had	have	AUX	VHD	_	7	aux	_	_
+7	entered	enter	VERB	VVN	_	10	nsubj	_	_
+8	had	have	AUX	VHD	_	10	aux	_	_
+9	already	already	ADV	AV0	_	10	advmod	_	_
+10	stopped	stop	VERB	VVN	_	4	acl	_	_
+11	.	.	PUNCT	SENT	_	4	punct	_	_
+
+1	The	the	DET	AT0	_	3	det	_	_
+2	second	second	ADJ	ORD	_	3	amod	_	_
+3	car	car	NOUN	NN1	_	6	nsubj	_	_
+4	did	do	AUX	VDD	_	6	aux	_	_
+5	not	not	PART	XX0	_	6	advmod	_	_
+6	react	react	VERB	VVI	_	0	root	_	_
+7	fast	fast	ADV	AV0	_	6	advmod	_	_
+8	enough	enough	ADV	AV0	_	6	advmod	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	his	he	DET	DPS	_	3	det	_	_
+3	car	car	NOUN	NN1	_	4	nsubj	_	_
+4	hit	hit	VERB	VVD	_	0	root	_	_
+5	the	the	DET	AT0	_	7	det	_	_
+6	first	first	ADJ	ORD	_	7	amod	_	_
+7	car	car	NOUN	NN1	_	4	obj	_	_
+8	.	.	PUNCT	SENT	_	4	punct	_	_
+

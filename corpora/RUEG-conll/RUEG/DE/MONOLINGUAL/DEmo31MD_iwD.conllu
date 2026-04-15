@@ -1,0 +1,56 @@
+# text = Habe hier gerade ein Unfall gesehen ,
+1	Habe	haben	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	hier	hier	ADV	ADV	_	1	mod	_	_
+3	gerade	gerade	ADV	ADV	_	1	mod	_	_
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Unfall	Unfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	comp:obj	_	_
+6	gesehen	sehen	VERB	VVPP	VerbForm=Part	1	comp:aux	_	_
+7	,	,	PUNCT	$,	_	1	punct	_	_
+
+# text = ein Mann mit Frau und Kind lässt vor Schreck ein Ball fallen , als 2 Autos ankamen .
+1	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	7	subj	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	Frau	Frau	NOUN	NN	Case=Dat|Number=Sing	3	comp:obj	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	Kind	Kind	NOUN	NN	_	4	conj	_	_
+7	lässt	lassen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+8	vor	vor	ADP	APPR	_	12	mod	_	_
+9	Schreck	Schreck	NOUN	NN	_	8	comp:obj	_	_
+10	ein	ein	DET	ART	Definite=Ind|PronType=Art	11	det	_	_
+11	Ball	Ball	NOUN	NN	_	12	comp:obj	_	_
+12	fallen	fallen	VERB	VVINF	VerbForm=Inf	7	comp:aux	_	_
+13	,	,	PUNCT	$,	_	7	punct	_	_
+14	als	als	ADP	KON	_	12	mod	_	_
+15	2	@card@	NUM	CARD	NumType=Card	16	mod	_	_
+16	Autos	Auto	PROPN	NN	_	17	subj	_	_
+17	ankamen	ankommen	PROPN	VVFIN	Case=Acc|Gender=Neut|Number=Sing	14	comp:obj	_	_
+18	.	.	PUNCT	$.	_	7	punct	_	_
+
+# text = eine andere Frau ließ dabei ihren Einkauf fallen als ihr Hund auf die Autos reagierte .
+1	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	andere	ander	ADJ	PIDAT	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	mod	_	_
+3	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	subj	_	_
+4	ließ	lassen	VERB	NE	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	dabei	dabei	ADV	ADV	_	4	mod	_	_
+6	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	Einkauf	Einkauf	NOUN	NN	Case=Nom|Number=Sing	8	comp:obj	_	_
+8	fallen	fallen	VERB	VVINF	Number=Plur|Person=3|VerbForm=Fin	4	comp:aux	_	_
+9	als	als	ADP	KOKOM	_	8	mod	_	_
+10	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	Hund	Hund	NOUN	NN	Case=Acc|Number=Sing	15	subj	_	_
+12	auf	auf	ADP	APPR	_	15	comp:obl	_	_
+13	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Autos	Auto	NOUN	NN	_	12	comp:obj	_	_
+15	reagierte	reagieren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	9	comp:obj	_	_
+16	.	.	PUNCT	$.	_	8	punct	_	_
+
+# text = Beide Autos fuhren dabei einander auf .
+1	Beide	beide	PRON	PIAT	Case=Nom|Number=Plur|NumType=Card|PronType=Tot	2	det	_	_
+2	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	3	subj	_	_
+3	fuhren	fahren	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+4	dabei	dabei	ADV	ADV	_	3	mod	_	_
+5	einander	einander	ADV	PRF	_	3	comp:obj	_	_
+6	auf	auf	ADP	PTKVZ	_	3	compound@prt	_	_
+7	.	.	PUNCT	$.	_	3	punct	_	_
+

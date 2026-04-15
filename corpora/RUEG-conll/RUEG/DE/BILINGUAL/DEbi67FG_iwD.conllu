@@ -1,0 +1,103 @@
+# text = Ey
+1	Ey	ey	PROPN	NGIRR	_	0	root	_	_
+
+# text = bin gerade hier hinten am Parkplatz
+1	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	gerade	gerade	ADV	ADV	_	1	mod	_	_
+3	hier	hier	ADV	ADV	_	4	mod	_	_
+4	hinten	hinten	ADV	ADV	_	1	mod	_	_
+5	am	am	ADJ	APPRART	Degree=Pos	1	comp:pred	_	_
+6	Parkplatz	Parkplatz	NOUN	NN	_	5	comp:obj	_	_
+
+# text = warte schon ganze Zeit auf dich yaow
+1	warte	warten	ADJ	VVFIN	Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	schon	schon	ADV	PTKMA	_	1	mod	_	_
+3	ganze	ganz	ADJ	ADJA	Degree=Pos	4	mod	_	_
+4	Zeit	Zeit	NOUN	NN	_	1	mod	_	_
+5	auf	auf	ADP	APPR	_	1	mod	_	_
+6	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|PronType=Prs	5	comp:obj	_	_
+7	yaow	yaow	PROPN	FM	Case=Acc|Number=Sing	1	udep	_	_
+
+# text = omg hier war so ein Typ
+1	omg	omg	ADJ	FM	Degree=Pos	3	discourse	_	_
+2	hier	hier	ADV	ADV	_	3	comp:pred	_	_
+3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	so	so	ADV	PTKIFG	_	6	mod	_	_
+5	ein	ein	DET	ART	Definite=Ind|PronType=Art	6	det	_	_
+6	Typ	Typ	NOUN	NN	_	3	subj	_	_
+
+# text = der hat sein Ball gerollt
+1	der	d	DET	PDS	Definite=Def|PronType=Art	2	subj	_	_
+2	hat	haben	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	4	det	_	_
+4	Ball	Ball	NOUN	NN	Case=Acc|Number=Sing	5	comp:obj	_	_
+5	gerollt	rollen	VERB	VVPP	Number=Sing|Person=3|Tense=Past|VerbForm=Part	2	comp:aux	_	_
+
+# text = boom auf einmal rollt Ball auf Straße
+1	boom	Boom	NOUN	FM	Case=Nom|Gender=Masc,Neut|Number=Sing	4	discourse	_	_
+2	auf	auf	APPR	APPR	Degree=Pos	4	mod	_	_
+3	einmal	einmal	ADV	ADV	Degree=Pos	2	fixed	_	_
+4	rollt	rollen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Ball	Ball	PROPN	NN	Case=Nom|Number=Sing	4	subj	_	_
+6	auf	auf	ADP	APPR	_	4	comp:obl	_	_
+7	Straße	Straße	PROPN	NN	_	6	comp:obj	_	_
+
+# text = plus der Hund rennt auf Ball zu
+1	plus	plus	PROPN	APPR	_	4	cc	_	_
+2	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+4	rennt	rennen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	auf	auf	ADP	APPR	_	4	comp:obl	_	_
+6	Ball	Ball	NOUN	NN	_	5	comp:obj	_	_
+7	zu	zu	ADP	PTKVZ	_	4	compound@prt	_	_
+
+# text = und was passiert ?
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	was	was	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	3	subj	_	_
+3	passiert	passieren	VERB	VVPP	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	?	?	PUNCT	$.	_	3	punct	_	_
+
+# text = ja geil direkt dahinter zwei Autos
+1	ja	ja	ADV	NGIRR	_	2	mod	_	_
+2	geil	geil	NOUN	NGIRR	Case=Nom|Gender=Masc,Neut|Number=Sing	6	discourse	_	_
+3	direkt	direkt	ADJ	ADJD	Degree=Pos	4	mod	_	_
+4	dahinter	dahinter	ADV	ADV	_	6	orphan	_	_
+5	zwei	zwei	NUM	CARD	NumType=Card	6	mod	_	_
+6	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+
+# text = das hintere ist in das vordere reingefahren
+1	das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	hintere	hinter	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	3	subj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	APPR	_	7	comp:obl	_	_
+5	das	d	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	vordere	vorder	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Plur	4	comp:obj	_	_
+7	reingefahren	reinfahren	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
+
+# text = muss jetzt eine Zeugenaussage machen weil ich doch alles gesehen habe
+1	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	jetzt	jetzt	ADV	ADV	_	1	mod	_	_
+3	eine	eine	DET	DET	Degree=Pos	4	det	_	_
+4	Zeugenaussage	Zeugenaussage	NOUN	NN	Case=Nom|Number=Sing	5	comp:obj	_	_
+5	machen	machen	VERB	VVINF	VerbForm=Inf	1	comp:aux	_	_
+6	weil	weil	VERB	KOUS	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	mod	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	subj	_	_
+8	doch	doch	ADV	PTKMA	_	11	mod	_	_
+9	alles	alle	PRON	PIS	Case=Acc|PronType=Tot	10	comp:obj	_	_
+10	gesehen	sehen	VERB	VVPP	Tense=Past|VerbForm=Part	11	comp:aux	_	_
+11	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
+
+# text = dies das glaube wird noch lange dauern
+1	dies	dies	PRON	PDS	Case=Acc|PronType=Dem	4	subj	_	_
+2	das	die	PRON	PDS	Case=Acc|PronType=Dem	1	fixed	_	_
+3	glaube	glauben	VERB	VVFIN	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+4	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	noch	noch	ADV	PTKMWL	_	6	mod	_	_
+6	lange	lange	ADV	ADJD	_	4	mod	_	_
+7	dauern	dauern	VERB	VVINF	VerbForm=Inf	4	comp:aux	_	_
+
+# text = ya sorry .
+1	ya	ya	PROPN	NGIRR	_	2	discourse	_	_
+2	sorry	sorry	PROPN	NGIRR	Case=Nom|Number=Sing	0	root	_	_
+3	.	.	PUNCT	$.	_	2	punct	_	_
+

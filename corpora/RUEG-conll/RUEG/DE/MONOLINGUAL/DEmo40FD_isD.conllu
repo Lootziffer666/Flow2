@@ -1,0 +1,219 @@
+# text = hallo Steffi
+1	hallo	hallo	X	NGIRR	_	2	discourse	_	_
+2	Steffi	Steffi	PROPN	NE	_	0	root	_	_
+
+# text = ich war gerade aufm Parkplatz äh bei dem bei mir vor der Arbeit
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	PTKIFG	_	2	mod	_	_
+4	aufm	auf	PROPN	APPART	_	2	comp:pred	_	_
+5	Parkplatz	Parkplatz	PROPN	NN	_	4	comp:obj	_	_
+6	äh	äh	ADV	NGHES	_	2	discourse	_	_
+7	bei	bei	ADP	APPR	_	2	mod	_	_
+8	dem	d	DET	PDS	_	7	comp:obj	_	_
+9	bei	bei	ADP	APPR	_	8	mod	_	_
+10	mir	ich	PRON	PPER	_	9	comp:obj	_	_
+11	vor	vor	ADP	APPR	_	10	mod	_	_
+12	der	d	DET	ART	_	13	det	_	_
+13	Arbeit	Arbeit	NOUN	NN	_	11	comp:obj	_	_
+
+# text = und du glaubst nicht was ich da beobachtet habe
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	du	du	PRON	PPER	_	3	subj	_	_
+3	glaubst	glauben	ADV	VVFIN	_	0	root	_	_
+4	nicht	nicht	PART	PTKNEG	_	3	mod	_	_
+5	was	was	VERB	PWS	_	8	comp:obj	_	_
+6	ich	ich	PRON	PPER	_	9	subj	_	_
+7	da	da	ADV	ADV	_	9	mod	_	_
+8	beobachtet	beobachten	VERB	VVPP	_	9	comp:aux	_	_
+9	habe	haben	AUX	VAFIN	_	3	comp:obj	_	_
+
+# text = da ist erstmal äh ein Auffahrunfall passiert
+1	da	da	ADV	ADV	_	2	mod	_	_
+2	ist	sein	AUX	VAFIN	_	0	root	_	_
+3	erstmal	erstmal	ADV	ADV	_	2	mod	_	_
+4	äh	äh	ADV	NGHES	_	2	discourse	_	_
+5	ein	ein	NUM	ART	_	6	mod	_	_
+6	Auffahrunfall	Auffahrunfall	NOUN	NN	_	2	subj	_	_
+7	passiert	passieren	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = und äh da ist halt so ein Pärchen an der Seite entlangspaziert mit einen Kinderwagen
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+3	da	da	ADV	ADV	_	4	mod	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	halt	halt	ADV	PTKMA	_	4	discourse	_	_
+6	so	so	ADV	PTKMA	_	8	mod	_	_
+7	ein	ein	DET	ART	_	8	det	_	_
+8	Pärchen	Pärchen	NOUN	NN	_	4	subj	_	_
+9	an	an	ADP	APPR	_	12	comp:obl	_	_
+10	der	d	DET	ART	_	11	det	_	_
+11	Seite	Seite	NOUN	NN	_	9	comp:obj	_	_
+12	entlangspaziert	entlangspazieren	VERB	VVPP	_	4	comp:aux	_	_
+13	mit	mit	ADP	APPR	_	12	mod	_	_
+14	einen	ein	DET	ART	_	15	det	_	_
+15	Kinderwagen	Kinderwagen	NOUN	NN	_	13	comp:obj	_	_
+
+# text = und er hat irgendwie mit so einem Fußball rumgespielt
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	er	er	PRON	PPER	_	3	subj	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	irgendwie	irgendwie	ADV	PTKIFG	_	3	mod	_	_
+5	mit	mit	ADP	APPR	_	9	comp:obl	_	_
+6	so	so	ADV	PTKMA	_	8	mod	_	_
+7	einem	ein	DET	ART	_	8	det	_	_
+8	Fußball	Fußball	NOUN	NN	_	5	comp:obj	_	_
+9	rumgespielt	rumspielen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = dann ist ihm der weggerollt quer über den Parkplatz rüber
+1	dann	dann	ADV	ADV	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	ihm	er	PRON	PPER	_	5	comp:obj	_	_
+4	der	die	DET	PDS	_	2	subj	_	_
+5	weggerollt	wegrollen	ADJ	VVPP	_	2	comp:aux	_	_
+6	quer	quer	ADV	ADV	_	10	comp:obj	_	_
+7	über	über	ADP	APPR	_	6	mod	_	_
+8	den	d	DET	ART	_	9	det	_	_
+9	Parkplatz	Parkplatz	NOUN	NN	_	7	comp:obj	_	_
+10	rüber	rüber	ADP	APPO	_	5	mod	_	_
+
+# text = und äh dabei war dann halt noch eine Frau
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+3	dabei	dabei	ADV	ADV	_	4	comp:pred	_	_
+4	war	sein	VERB	VAFIN	_	0	root	_	_
+5	dann	dann	ADV	ADV	_	4	mod	_	_
+6	halt	halt	ADV	PTKMA	_	4	discourse	_	_
+7	noch	noch	ADV	PTKMWL	_	4	mod	_	_
+8	eine	ein	DET	ART	_	9	det	_	_
+9	Frau	Frau	NOUN	NN	_	4	subj	_	_
+
+# text = die äh hat gerade ihr Auto ausgeräumt mit ihrem Einkauf irgendwie
+1	die	d	DET	PDS	_	3	subj	_	_
+2	äh	äh	PROPN	NGHES	_	3	discourse	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	gerade	gerade	ADV	ADV	_	3	mod	_	_
+5	ihr	ihr	DET	PPOSAT	_	6	det	_	_
+6	Auto	Auto	NOUN	NN	_	7	comp:obj	_	_
+7	ausgeräumt	ausräumen	ADJ	VVPP	_	3	comp:aux	_	_
+8	mit	mit	ADP	APPR	_	7	mod	_	_
+9	ihrem	ihr	DET	PPOSAT	_	10	det	_	_
+10	Einkauf	Einkauf	NOUN	NN	_	8	comp:obj	_	_
+11	irgendwie	irgendwie	ADV	ADV	_	3	mod	_	_
+
+# text = und der Hund hat sich erschrocken
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	4	subj	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	sich	er|es|sie	PRON	PRF	_	6	comp:obj	_	_
+6	erschrocken	erschrecken	VERB	VVPP	_	4	comp:aux	_	_
+
+# text = und der lief natürlich direkt zum Ball
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	der	die	PRON	PDS	_	3	subj	_	_
+3	lief	laufen	VERB	VVFIN	_	0	root	_	_
+4	natürlich	natürlich	ADJ	ADJD	_	3	mod	_	_
+5	direkt	direkt	ADJ	ADJD	_	3	mod	_	_
+6	zum	zu	NOUN	APPRART	_	3	comp:obl	_	_
+7	Ball	Ball	PROPN	NN	_	6	comp:obj	_	_
+
+# text = und äh ja riss den ganzen Einkauf mit runter
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	ADV	NGHES	_	4	discourse	_	_
+3	ja	ja	ADV	NGIRR	_	4	discourse	_	_
+4	riss	reißen	NOUN	VVFIN	_	0	root	_	_
+5	den	d	DET	ART	_	7	det	_	_
+6	ganzen	ganz	ADJ	ADJA	_	7	mod	_	_
+7	Einkauf	Einkauf	NOUN	NN	_	4	comp:obj	_	_
+8	mit	mit	ADP	APPR	_	4	compound@prt	_	_
+9	runter	runter	ADJ	PTKVZ	_	4	mod	_	_
+
+# text = und äh ja die Autos mussten bremsen
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+3	ja	ja	ADV	NGIRR	_	6	discourse	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Autos	Auto	NOUN	NN	_	6	subj	_	_
+6	mussten	müssen	AUX	VMFIN	_	0	root	_	_
+7	bremsen	bremsen	VERB	VVINF	_	6	comp:aux	_	_
+
+# text = und äh irgendwie so ein blauer Renaultfahrer und dahinter äh so ein weißes Auto mit so einem jüngeren Typen
+1	und	und	CCONJ	KON	_	7	cc	_	_
+2	äh	äh	ADJ	NGHES	_	7	discourse	_	_
+3	irgendwie	irgendwie	ADV	PTKIFG	_	7	mod	_	_
+4	so	so	ADV	PTKMA	_	7	mod	_	_
+5	ein	ein	DET	ART	_	7	det	_	_
+6	blauer	blau	PROPN	ADJA	_	7	mod	_	_
+7	Renaultfahrer	Renaultfahrer	NOUN	NN	_	0	root	_	_
+8	und	und	CCONJ	KON	_	14	cc	_	_
+9	dahinter	dahinter	ADV	ADV	_	14	orphan	_	_
+10	äh	äh	ADJ	NGHES	_	14	discourse	_	_
+11	so	so	ADV	PTKIFG	_	14	mod	_	_
+12	ein	ein	DET	ART	_	14	det	_	_
+13	weißes	weiß	ADJ	ADJA	_	14	mod	_	_
+14	Auto	Auto	NOUN	NN	_	7	conj	_	_
+15	mit	mit	ADP	APPR	_	14	mod	_	_
+16	so	so	ADV	PTKMA	_	19	mod	_	_
+17	einem	ein	DET	ART	_	19	det	_	_
+18	jüngeren	jung	ADJ	ADJA	_	19	mod	_	_
+19	Typen	Typ	NOUN	NN	_	15	comp:obj	_	_
+
+# text = der ist erstmal schön draufgefahren
+1	der	der	NOUN	PDS	_	2	subj	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	erstmal	erstmal	ADJ	ADV	_	2	mod	_	_
+4	schön	schön	ADJ	ADJD	_	2	mod	_	_
+5	draufgefahren	drauffahren	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = er konnte auch gar nichts mehr machen
+1	er	er	PRON	PPER	_	2	subj	_	_
+2	konnte	können	AUX	VMFIN	_	0	root	_	_
+3	auch	auch	ADV	PTKIFG	_	2	mod	_	_
+4	gar	gar	ADV	PTKIFG	_	5	mod	_	_
+5	nichts	nichts	PRON	PIS	_	7	comp:obj	_	_
+6	mehr	mehr	ADV	PTKMWL	_	5	mod	_	_
+7	machen	machen	VERB	VVINF	_	2	comp:aux	_	_
+
+# text = und äh ja Einkauf wurde dann eingesammelt
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+3	ja	ja	PART	NGIRR	_	5	discourse	_	_
+4	Einkauf	Einkauf	ADV	NN	_	5	subj@pass	_	_
+5	wurde	werden	AUX	VAFIN	_	0	root	_	_
+6	dann	dann	ADV	ADV	_	5	mod	_	_
+7	eingesammelt	einsammeln	VERB	VVPP	_	5	comp:aux@pass	_	_
+
+# text = und äh haben dann auch gleich geguckt nach dem Schaden und Polizei gerufen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	äh	äh	ADV	NGHES	_	3	discourse	_	_
+3	haben	haben	AUX	VAFIN	_	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	auch	auch	ADV	PTKIFG	_	3	mod	_	_
+6	gleich	gleich	ADV	ADJD	_	3	mod	_	_
+7	geguckt	gucken	VERB	VVPP	_	3	comp:aux	_	_
+8	nach	nach	ADP	APPR	_	7	mod	_	_
+9	dem	d	DET	ART	_	10	det	_	_
+10	Schaden	Schaden	NOUN	NN	_	8	comp:obj	_	_
+11	und	und	CCONJ	KON	_	13	cc	_	_
+12	Polizei	Polizei	NOUN	NN	_	13	comp:obj	_	_
+13	gerufen	rufen	VERB	VVPP	_	3	conj	_	_
+
+# text = aber bin mir nicht sicher ob das so gut war
+1	aber	aber	ADV	KON	_	2	cc	_	_
+2	bin	sein	VERB	VAFIN	_	0	root	_	_
+3	mir	ich	PRON	PPER	_	2	comp:obj	_	_
+4	nicht	nicht	PART	ADV	_	5	mod	_	_
+5	sicher	sicher	ADJ	ADJD	_	2	comp:pred	_	_
+6	ob	ob	SCONJ	KOUS	_	5	mod	_	_
+7	das	d	PRON	PDS	_	10	subj	_	_
+8	so	so	ADV	PTKIFG	_	9	mod	_	_
+9	gut	gut	ADJ	ADJD	_	10	comp:pred	_	_
+10	war	sein	VERB	VAFIN	_	6	comp:obj	_	_
+
+# text = na ja später mehr
+1	na	na	PROPN	NGIRR	_	3	discourse	_	_
+2	ja	ja	null	NGIRR	_	1	fixed	_	_
+3	später	später	ADJ	ADJA	_	0	root	_	_
+4	mehr	mehr	ADV	PIAT	_	3	orphan	_	_
+

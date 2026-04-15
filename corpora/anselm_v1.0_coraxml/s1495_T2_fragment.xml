@@ -1,0 +1,4569 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<text id="s1495_T2">
+  <cora-header name="Augsburg Schaur 1495 (Teil 2)" sigle="s1495_T2"/>
+  <header>Sigle: s1495_T2
+Aufbewahrungsort: Maria Laach Abteibibliothek
+Signatur: FF14
+Druck: 1495 gedruckt in Augsburg bei Johann (Fro)Schaur
+Handschrift_Druck: Dr
+Prosa_Vers: P
+Datum: 2nd half of 15th century
+Sprache: fnhd.
+Sprachtyp: obd. 
+Sprachraum: oschwäb.
+Token: 443
+Kenn-Name: Augsburg_Schaur_1495
+URL_Faksimile: 
+Bemerkungen: Druck in zwei Teilen, Fragment; aufgrund des Zustands ist die Lagenzählung nur zu vermuten, lediglich BI bis BIV und GI bis GII sind sicher, CI bis CIV wird angenommen [MT].</header>
+  <layoutinfo>
+    <page id="p1" no="GI" range="c1" side="r"/>
+    <column id="c1" range="l1..l18"/>
+    <line id="l1" name="01" range="t1_d1..t5_d1"/>
+    <line id="l2" name="02" range="t5_d2..t8_d1"/>
+    <line id="l3" name="03" range="t9_d1..t15_d1"/>
+    <line id="l4" name="04" range="t15_d2..t19_d1"/>
+    <line id="l5" name="05" range="t20_d1..t24_d1"/>
+    <line id="l6" name="06" range="t25_d1..t31_d1"/>
+    <line id="l7" name="07" range="t31_d2..t35_d1"/>
+    <line id="l8" name="08" range="t35_d2..t42_d1"/>
+    <line id="l9" name="09" range="t42_d2..t46_d1"/>
+    <line id="l10" name="10" range="t47_d1..t53_d1"/>
+    <line id="l11" name="11" range="t53_d2..t57_d1"/>
+    <line id="l12" name="12" range="t57_d2..t62_d1"/>
+    <line id="l13" name="13" range="t62_d2..t67_d1"/>
+    <line id="l14" name="14" range="t68_d1..t74_d1"/>
+    <line id="l15" name="15" range="t75_d1..t80_d1"/>
+    <line id="l16" name="16" range="t81_d1..t88_d1"/>
+    <line id="l17" name="17" range="t88_d2..t92_d1"/>
+    <line id="l18" name="18" range="t92_d2..t97_d1"/>
+    <page id="p2" no="GI" range="c2" side="v"/>
+    <column id="c2" range="l19..l36"/>
+    <line id="l19" name="01" range="t98_d1..t104_d1"/>
+    <line id="l20" name="02" range="t104_d2..t109_d2"/>
+    <line id="l21" name="03" range="t110_d1..t117_d1"/>
+    <line id="l22" name="04" range="t118_d1..t124_d1"/>
+    <line id="l23" name="05" range="t125_d1..t129_d1"/>
+    <line id="l24" name="06" range="t130_d1..t136_d1"/>
+    <line id="l25" name="07" range="t137_d1..t140_d1"/>
+    <line id="l26" name="08" range="t141_d1..t147_d1"/>
+    <line id="l27" name="09" range="t147_d2..t153_d1"/>
+    <line id="l28" name="10" range="t154_d1..t156_d1"/>
+    <line id="l29" name="11" range="t157_d1..t162_d1"/>
+    <line id="l30" name="12" range="t163_d1..t168_d1"/>
+    <line id="l31" name="13" range="t168_d2..t174_d1"/>
+    <line id="l32" name="14" range="t175_d1..t181_d1"/>
+    <line id="l33" name="15" range="t182_d1..t189_d1"/>
+    <line id="l34" name="16" range="t190_d1..t195_d1"/>
+    <line id="l35" name="17" range="t195_d2..t200_d1"/>
+    <line id="l36" name="18" range="t201_d1..t206_d1"/>
+    <page id="p3" no="GII" range="c3" side="r"/>
+    <column id="c3" range="l37..l54"/>
+    <line id="l37" name="01" range="t207_d1..t213_d1"/>
+    <line id="l38" name="02" range="t214_d1..t220_d1"/>
+    <line id="l39" name="03" range="t221_d1..t226_d1"/>
+    <line id="l40" name="04" range="t227_d1..t231_d1"/>
+    <line id="l41" name="05" range="t232_d1..t238_d1"/>
+    <line id="l42" name="06" range="t238_d2..t243_d1"/>
+    <line id="l43" name="07" range="t243_d2..t249_d1"/>
+    <line id="l44" name="08" range="t250_d1..t256_d1"/>
+    <line id="l45" name="09" range="t256_d2..t262_d1"/>
+    <line id="l46" name="10" range="t263_d1..t268_d1"/>
+    <line id="l47" name="11" range="t269_d1..t275_d1"/>
+    <line id="l48" name="12" range="t276_d1..t282_d1"/>
+    <line id="l49" name="13" range="t283_d1..t288_d1"/>
+    <line id="l50" name="14" range="t289_d1..t295_d1"/>
+    <line id="l51" name="15" range="t295_d2..t301_d1"/>
+    <line id="l52" name="16" range="t302_d1..t306_d1"/>
+    <line id="l53" name="17" range="t306_d2..t312_d1"/>
+    <line id="l54" name="18" range="t312_d2..t315_d1"/>
+    <page id="p4" no="GII" range="c4" side="v"/>
+    <column id="c4" range="l55..l70"/>
+    <line id="l55" name="01" range="t316_d1..t320_d2"/>
+    <line id="l56" name="02" range="t321_d1..t326_d1"/>
+    <line id="l57" name="03" range="t326_d2..t329_d1"/>
+    <line id="l58" name="04" range="t330_d1..t336_d1"/>
+    <line id="l59" name="05" range="t336_d2..t341_d1"/>
+    <line id="l60" name="06" range="t341_d2..t348_d1"/>
+    <line id="l61" name="07" range="t349_d1..t352_d1"/>
+    <line id="l62" name="08" range="t353_d1..t358_d1"/>
+    <line id="l63" name="09" range="t359_d1..t365_d1"/>
+    <line id="l64" name="10" range="t366_d1..t372_d1"/>
+    <line id="l65" name="11" range="t372_d2..t377_d1"/>
+    <line id="l66" name="12" range="t378_d1..t382_d1"/>
+    <line id="l67" name="13" range="t383_d1..t390_d1"/>
+    <line id="l68" name="14" range="t390_d2..t396_d1"/>
+    <line id="l69" name="15" range="t397_d1..t402_d1"/>
+    <line id="l70" name="16" range="t403_d1..t407_d1"/>
+  </layoutinfo>
+  <shifttags/>
+  <token id="t1" trans="vn$a\eglicher">
+    <tok_dipl id="t1_d1" trans="vn$a\eglicher" utf="vnſaͤglicher"/>
+    <tok_anno id="t1_m1" trans="vn$a\eglicher" utf="vnſaͤglicher" ascii="vnsaeglicher">
+      <norm tag="unsäglicher"/>
+      <pos tag="ADJA"/>
+      <lemma tag="unsäglich"/>
+      <morph tag="Pos.Fem.Dat.Sg"/>
+      <norm_broad tag="unsäglicher"/>
+    </tok_anno>
+  </token>
+  <token id="t2" trans="clarheit%.">
+    <tok_dipl id="t2_d1" trans="clarheit%." utf="clarheit·"/>
+    <tok_anno id="t2_m1" trans="clarheit" utf="clarheit" ascii="clarheit">
+      <norm tag="klarheit"/>
+      <pos tag="NN"/>
+      <lemma tag="Klarheit"/>
+      <morph tag="Fem.Dat.Sg"/>
+      <norm_broad tag="klarheit"/>
+    </tok_anno>
+    <tok_anno id="t2_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t3" trans="mit">
+    <tok_dipl id="t3_d1" trans="mit" utf="mit"/>
+    <tok_anno id="t3_m1" trans="mit" utf="mit" ascii="mit">
+      <norm tag="mit"/>
+      <pos tag="APPR"/>
+      <lemma tag="mit"/>
+      <morph tag="--"/>
+      <norm_broad tag="mit"/>
+    </tok_anno>
+  </token>
+  <token id="t4" trans="als">
+    <tok_dipl id="t4_d1" trans="als" utf="als"/>
+    <tok_anno id="t4_m1" trans="als" utf="als" ascii="als">
+      <norm tag="als"/>
+      <norm_broad tag="so"/>
+      <norm_type tag="semantic"/>
+      <pos tag="ADV"/>
+      <lemma tag="als"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t5" trans="gro$(=)$er">
+    <tok_dipl id="t5_d1" trans="gro$(=)" utf="groſ"/>
+    <tok_dipl id="t5_d2" trans="$er" utf="ſer"/>
+    <tok_anno id="t5_m1" trans="gro$(=)$er" utf="groſſer" ascii="grosser">
+      <norm tag="großer"/>
+      <pos tag="ADJA"/>
+      <lemma tag="groß"/>
+      <morph tag="Pos.Fem.Dat.Sg"/>
+      <norm_broad tag="großer"/>
+      <token_type tag="UL"/>
+    </tok_anno>
+  </token>
+  <token id="t6" trans="vn$a\eglicher">
+    <tok_dipl id="t6_d1" trans="vn$a\eglicher" utf="vnſaͤglicher"/>
+    <tok_anno id="t6_m1" trans="vn$a\eglicher" utf="vnſaͤglicher" ascii="vnsaeglicher">
+      <norm tag="unsäglicher"/>
+      <pos tag="ADJA"/>
+      <lemma tag="unsäglich"/>
+      <morph tag="Pos.Fem.Dat.Sg"/>
+      <norm_broad tag="unsäglicher"/>
+    </tok_anno>
+  </token>
+  <token id="t7" trans="herrschaffte%.">
+    <tok_dipl id="t7_d1" trans="herrschaffte%." utf="herrschaffte·"/>
+    <tok_anno id="t7_m1" trans="herrschaffte" utf="herrschaffte" ascii="herrschaffte">
+      <norm tag="herrschaft"/>
+      <norm_broad tag="herrlichkeit"/>
+      <norm_type tag="semantic"/>
+      <pos tag="NN"/>
+      <lemma tag="Herrschaft"/>
+      <morph tag="Fem.Dat.Sg"/>
+    </tok_anno>
+    <tok_anno id="t7_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t8" trans="Vnd">
+    <tok_dipl id="t8_d1" trans="Vnd" utf="Vnd"/>
+    <tok_anno id="t8_m1" trans="Vnd" utf="Vnd" ascii="Vnd">
+      <norm tag="und"/>
+      <pos tag="KON"/>
+      <lemma tag="und"/>
+      <morph tag="--"/>
+      <norm_broad tag="und"/>
+    </tok_anno>
+  </token>
+  <token id="t9" trans="was">
+    <tok_dipl id="t9_d1" trans="was" utf="was"/>
+    <tok_anno id="t9_m1" trans="was" utf="was" ascii="was">
+      <norm tag="war"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="sein"/>
+      <morph tag="3.Sg.Past.Ind"/>
+      <norm_broad tag="war"/>
+    </tok_anno>
+  </token>
+  <token id="t10" trans="$ein">
+    <tok_dipl id="t10_d1" trans="$ein" utf="ſein"/>
+    <tok_anno id="t10_m1" trans="$ein" utf="ſein" ascii="sein">
+      <norm tag="sein"/>
+      <pos tag="PPOSAT"/>
+      <lemma tag="sein"/>
+      <morph tag="Neut.Nom.Sg"/>
+      <norm_broad tag="sein"/>
+    </tok_anno>
+  </token>
+  <token id="t11" trans="antlucz">
+    <tok_dipl id="t11_d1" trans="antlucz" utf="antlucz"/>
+    <tok_anno id="t11_m1" trans="antlucz" utf="antlucz" ascii="antlucz">
+      <norm tag="antlitz"/>
+      <pos tag="NN"/>
+      <lemma tag="Antlitz"/>
+      <morph tag="Neut.Nom.Sg"/>
+      <norm_broad tag="antlitz"/>
+    </tok_anno>
+  </token>
+  <token id="t12" trans="vn\-">
+    <tok_dipl id="t12_d1" trans="vn\-" utf="vn̄"/>
+    <tok_anno id="t12_m1" trans="vn\-" utf="vn̄" ascii="vnd">
+      <norm tag="und"/>
+      <pos tag="KON"/>
+      <lemma tag="und"/>
+      <morph tag="--"/>
+      <norm_broad tag="und"/>
+    </tok_anno>
+  </token>
+  <token id="t13" trans="aller">
+    <tok_dipl id="t13_d1" trans="aller" utf="aller"/>
+    <tok_anno id="t13_m1" trans="aller" utf="aller" ascii="aller">
+      <norm tag="aller"/>
+      <norm_broad tag="all"/>
+      <norm_type tag="inflection"/>
+      <pos tag="PIAT"/>
+      <lemma tag="all"/>
+      <morph tag="Masc.Nom.Sg"/>
+    </tok_anno>
+  </token>
+  <token id="t14" trans="$ein">
+    <tok_dipl id="t14_d1" trans="$ein" utf="ſein"/>
+    <tok_anno id="t14_m1" trans="$ein" utf="ſein" ascii="sein">
+      <norm tag="sein"/>
+      <pos tag="PPOSAT"/>
+      <lemma tag="sein"/>
+      <morph tag="Masc.Nom.Sg"/>
+      <norm_broad tag="sein"/>
+    </tok_anno>
+  </token>
+  <token id="t15" trans="lei(=)be">
+    <tok_dipl id="t15_d1" trans="lei(=)" utf="lei"/>
+    <tok_dipl id="t15_d2" trans="be" utf="be"/>
+    <tok_anno id="t15_m1" trans="lei(=)be" utf="leibe" ascii="leibe">
+      <norm tag="leib"/>
+      <pos tag="NN"/>
+      <lemma tag="Leib"/>
+      <morph tag="Masc.Nom.Sg"/>
+      <norm_broad tag="leib"/>
+      <token_type tag="UL"/>
+    </tok_anno>
+  </token>
+  <token id="t16" trans="all$o">
+    <tok_dipl id="t16_d1" trans="all$o" utf="allſo"/>
+    <tok_anno id="t16_m1" trans="all$o" utf="allſo" ascii="allso">
+      <norm tag="also"/>
+      <pos tag="ADV"/>
+      <norm_broad tag="so"/>
+      <norm_type tag="semantic"/>
+      <lemma tag="also"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t17" trans="wunnigklichen">
+    <tok_dipl id="t17_d1" trans="wunnigklichen" utf="wunnigklichen"/>
+    <tok_anno id="t17_m1" trans="wunnigklichen" utf="wunnigklichen" ascii="wunnigklichen">
+      <norm tag="wonniglichen"/>
+      <norm_broad tag="wundervoll"/>
+      <pos tag="ADJD"/>
+      <lemma tag="wonniglich"/>
+      <norm_type tag="semantic"/>
+      <morph tag="Pos"/>
+    </tok_anno>
+  </token>
+  <token id="t18" trans="vnd">
+    <tok_dipl id="t18_d1" trans="vnd" utf="vnd"/>
+    <tok_anno id="t18_m1" trans="vnd" utf="vnd" ascii="vnd">
+      <norm tag="und"/>
+      <pos tag="KON"/>
+      <lemma tag="und"/>
+      <morph tag="--"/>
+      <norm_broad tag="und"/>
+    </tok_anno>
+  </token>
+  <token id="t19" trans="all$o">
+    <tok_dipl id="t19_d1" trans="all$o" utf="allſo"/>
+    <tok_anno id="t19_m1" trans="all$o" utf="allſo" ascii="allso">
+      <norm tag="also"/>
+      <pos tag="ADV"/>
+      <norm_broad tag="so"/>
+      <norm_type tag="semantic"/>
+      <lemma tag="also"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t20" trans="$cho\en%.">
+    <tok_dipl id="t20_d1" trans="$cho\en%." utf="ſchoͤn·"/>
+    <tok_anno id="t20_m1" trans="$cho\en" utf="ſchoͤn" ascii="schoen">
+      <norm tag="schön"/>
+      <pos tag="ADJD"/>
+      <lemma tag="schön"/>
+      <morph tag="Pos"/>
+      <norm_broad tag="schön"/>
+    </tok_anno>
+    <tok_anno id="t20_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t21" trans="vn\-">
+    <tok_dipl id="t21_d1" trans="vn\-" utf="vn̄"/>
+    <tok_anno id="t21_m1" trans="vn\-" utf="vn̄" ascii="vnd">
+      <norm tag="und"/>
+      <pos tag="KON"/>
+      <lemma tag="und"/>
+      <morph tag="--"/>
+      <norm_broad tag="und"/>
+    </tok_anno>
+  </token>
+  <token id="t22" trans="all$o">
+    <tok_dipl id="t22_d1" trans="all$o" utf="allſo"/>
+    <tok_anno id="t22_m1" trans="all$o" utf="allſo" ascii="allso">
+      <norm tag="also"/>
+      <pos tag="ADV"/>
+      <norm_broad tag="so"/>
+      <norm_type tag="semantic"/>
+      <lemma tag="also"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t23" trans="durchleüchtig%.">
+    <tok_dipl id="t23_d1" trans="durchleüchtig%." utf="durchleüchtig·"/>
+    <tok_anno id="t23_m1" trans="durchleüchtig" utf="durchleüchtig" ascii="durchleüchtig">
+      <norm tag="durchliuhtec"/>
+      <norm_broad tag="leuchtend"/>
+      <norm_type tag="extinct"/>
+      <pos tag="ADJD"/>
+      <lemma tag="durchliuhtec"/>
+      <morph tag="Pos"/>
+    </tok_anno>
+    <tok_anno id="t23_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t24" trans="als">
+    <tok_dipl id="t24_d1" trans="als" utf="als"/>
+    <tok_anno id="t24_m1" trans="als" utf="als" ascii="als">
+      <norm tag="als"/>
+      <norm_broad tag="wie"/>
+      <norm_type tag="semantic"/>
+      <pos tag="KOUS"/>
+      <lemma tag="als"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t25" trans="der">
+    <tok_dipl id="t25_d1" trans="der" utf="der"/>
+    <tok_anno id="t25_m1" trans="der" utf="der" ascii="der">
+      <norm tag="der"/>
+      <pos tag="ART"/>
+      <lemma tag="d-"/>
+      <morph tag="Masc.Nom.Sg"/>
+      <norm_broad tag="der"/>
+    </tok_anno>
+  </token>
+  <token id="t26" trans="wei$$ag">
+    <tok_dipl id="t26_d1" trans="wei$$ag" utf="weiſſag"/>
+    <tok_anno id="t26_m1" trans="wei$$ag" utf="weiſſag" ascii="weissag">
+      <norm tag="weissager"/>
+      <norm_broad tag="prophet"/>
+      <pos tag="NN"/>
+      <lemma tag="Weissager"/>
+      <norm_type tag="semantic"/>
+      <morph tag="Masc.Nom.Sg"/>
+    </tok_anno>
+  </token>
+  <token id="t27" trans="$prach%.">
+    <tok_dipl id="t27_d1" trans="$prach%." utf="ſprach·"/>
+    <tok_anno id="t27_m1" trans="$prach" utf="ſprach" ascii="sprach">
+      <norm tag="sprach"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="sprechen"/>
+      <morph tag="3.Sg.Past.Ind"/>
+      <norm_broad tag="sprach"/>
+    </tok_anno>
+    <tok_anno id="t27_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t28" trans="er">
+    <tok_dipl id="t28_d1" trans="er" utf="er"/>
+    <tok_anno id="t28_m1" trans="er" utf="er" ascii="er">
+      <norm tag="er"/>
+      <pos tag="PPER"/>
+      <lemma tag="er"/>
+      <morph tag="3.Sg.Masc.Nom"/>
+      <norm_broad tag="er"/>
+    </tok_anno>
+  </token>
+  <token id="t29" trans="was">
+    <tok_dipl id="t29_d1" trans="was" utf="was"/>
+    <tok_anno id="t29_m1" trans="was" utf="was" ascii="was">
+      <norm tag="war"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="sein"/>
+      <morph tag="3.Sg.Past.Ind"/>
+      <norm_broad tag="war"/>
+    </tok_anno>
+  </token>
+  <token id="t30" trans="der">
+    <tok_dipl id="t30_d1" trans="der" utf="der"/>
+    <tok_anno id="t30_m1" trans="der" utf="der" ascii="der">
+      <norm tag="der"/>
+      <pos tag="ART"/>
+      <lemma tag="d-"/>
+      <morph tag="Masc.Nom.Sg"/>
+      <norm_broad tag="der"/>
+    </tok_anno>
+  </token>
+  <token id="t31" trans="al=ler#$cho\en$t">
+    <tok_dipl id="t31_d1" trans="al=" utf="al="/>
+    <tok_dipl id="t31_d2" trans="ler#" utf="ler"/>
+    <tok_dipl id="t31_d3" trans="$cho\en$t" utf="ſchoͤnſt"/>
+    <tok_anno id="t31_m1" trans="al=ler#$cho\en$t" utf="allerſchoͤnſt" ascii="allerschoenst">
+      <norm tag="allerschönste"/>
+      <pos tag="ADJA"/>
+      <lemma tag="allerschönst"/>
+      <morph tag="Sup.Masc.Nom.Sg"/>
+      <norm_broad tag="allerschönste"/>
+      <token_type tag="UH US"/>
+    </tok_anno>
+  </token>
+  <token id="t32" trans="me\-$ch">
+    <tok_dipl id="t32_d1" trans="me\-$ch" utf="mēſch"/>
+    <tok_anno id="t32_m1" trans="me\-$ch" utf="mēſch" ascii="mensch">
+      <norm tag="mensch"/>
+      <pos tag="NN"/>
+      <lemma tag="Mensch"/>
+      <morph tag="Masc.Nom.Sg"/>
+      <norm_broad tag="mensch"/>
+    </tok_anno>
+  </token>
+  <token id="t33" trans="vor">
+    <tok_dipl id="t33_d1" trans="vor" utf="vor"/>
+    <tok_anno id="t33_m1" trans="vor" utf="vor" ascii="vor">
+      <norm tag="vor"/>
+      <pos tag="APPR"/>
+      <norm_broad tag="von"/>
+      <norm_type tag="semantic"/>
+      <lemma tag="vor"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t34" trans="alle\-">
+    <tok_dipl id="t34_d1" trans="alle\-" utf="allē"/>
+    <tok_anno id="t34_m1" trans="alle\-" utf="allē" ascii="allen">
+      <norm tag="allen"/>
+      <pos tag="PIAT"/>
+      <lemma tag="all"/>
+      <morph tag="*.Dat.Pl"/>
+      <norm_broad tag="allen"/>
+    </tok_anno>
+  </token>
+  <token id="t35" trans="men$ch(=)en">
+    <tok_dipl id="t35_d1" trans="men$ch(=)" utf="menſch"/>
+    <tok_dipl id="t35_d2" trans="en" utf="en"/>
+    <tok_anno id="t35_m1" trans="men$ch(=)en" utf="menſchen" ascii="menschen">
+      <norm tag="menschen"/>
+      <pos tag="NN"/>
+      <lemma tag="Mensch"/>
+      <morph tag="Masc.Gen.Pl"/>
+      <norm_broad tag="menschen"/>
+      <token_type tag="UL"/>
+    </tok_anno>
+  </token>
+  <token id="t36" trans="kind%.">
+    <tok_dipl id="t36_d1" trans="kind%." utf="kind·"/>
+    <tok_anno id="t36_m1" trans="kind" utf="kind" ascii="kind">
+      <norm tag="kind"/>
+      <norm_broad tag="kindern"/>
+      <norm_type tag="inflection"/>
+      <pos tag="NN"/>
+      <lemma tag="Kind"/>
+      <morph tag="*.Dat.Pl"/>
+    </tok_anno>
+    <tok_anno id="t36_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t37" trans="Vnd">
+    <tok_dipl id="t37_d1" trans="Vnd" utf="Vnd"/>
+    <tok_anno id="t37_m1" trans="Vnd" utf="Vnd" ascii="Vnd">
+      <norm tag="und"/>
+      <pos tag="KON"/>
+      <lemma tag="und"/>
+      <morph tag="--"/>
+      <norm_broad tag="und"/>
+    </tok_anno>
+  </token>
+  <token id="t38" trans="do">
+    <tok_dipl id="t38_d1" trans="do" utf="do"/>
+    <tok_anno id="t38_m1" trans="do" utf="do" ascii="do">
+      <norm tag="da"/>
+      <pos tag="KOUS"/>
+      <norm_broad tag="als"/>
+      <norm_type tag="semantic"/>
+      <lemma tag="da"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t39" trans="er">
+    <tok_dipl id="t39_d1" trans="er" utf="er"/>
+    <tok_anno id="t39_m1" trans="er" utf="er" ascii="er">
+      <norm tag="er"/>
+      <pos tag="PPER"/>
+      <lemma tag="er"/>
+      <morph tag="3.Sg.Masc.Nom"/>
+      <norm_broad tag="er"/>
+    </tok_anno>
+  </token>
+  <token id="t40" trans="mir">
+    <tok_dipl id="t40_d1" trans="mir" utf="mir"/>
+    <tok_anno id="t40_m1" trans="mir" utf="mir" ascii="mir">
+      <norm tag="mir"/>
+      <pos tag="PPER"/>
+      <lemma tag="ich"/>
+      <morph tag="1.Sg.*.Dat"/>
+      <norm_broad tag="mir"/>
+    </tok_anno>
+  </token>
+  <token id="t41" trans="all$o">
+    <tok_dipl id="t41_d1" trans="all$o" utf="allſo"/>
+    <tok_anno id="t41_m1" trans="all$o" utf="allſo" ascii="allso">
+      <norm tag="also"/>
+      <pos tag="ADV"/>
+      <norm_broad tag="so"/>
+      <norm_type tag="semantic"/>
+      <lemma tag="also"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t42" trans="ge=waltigklich">
+    <tok_dipl id="t42_d1" trans="ge=" utf="ge="/>
+    <tok_dipl id="t42_d2" trans="waltigklich" utf="waltigklich"/>
+    <tok_anno id="t42_m1" trans="ge=waltigklich" utf="gewaltigklich" ascii="gewaltigklich">
+      <norm tag="gewalteclich"/>
+      <norm_broad tag="gewaltig"/>
+      <norm_type tag="extinct"/>
+      <pos tag="ADJD"/>
+      <lemma tag="gewalteclich"/>
+      <morph tag="Pos"/>
+      <token_type tag="UH"/>
+    </tok_anno>
+  </token>
+  <token id="t43" trans="vn\-">
+    <tok_dipl id="t43_d1" trans="vn\-" utf="vn̄"/>
+    <tok_anno id="t43_m1" trans="vn\-" utf="vn̄" ascii="vnd">
+      <norm tag="und"/>
+      <pos tag="KON"/>
+      <lemma tag="und"/>
+      <morph tag="--"/>
+      <norm_broad tag="und"/>
+    </tok_anno>
+  </token>
+  <token id="t44" trans="mit">
+    <tok_dipl id="t44_d1" trans="mit" utf="mit"/>
+    <tok_anno id="t44_m1" trans="mit" utf="mit" ascii="mit">
+      <norm tag="mit"/>
+      <pos tag="APPR"/>
+      <lemma tag="mit"/>
+      <morph tag="--"/>
+      <norm_broad tag="mit"/>
+    </tok_anno>
+  </token>
+  <token id="t45" trans="all$o">
+    <tok_dipl id="t45_d1" trans="all$o" utf="allſo"/>
+    <tok_anno id="t45_m1" trans="all$o" utf="allſo" ascii="allso">
+      <norm tag="also"/>
+      <pos tag="ADV"/>
+      <norm_broad tag="so"/>
+      <norm_type tag="semantic"/>
+      <lemma tag="also"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t46" trans="gro$$er">
+    <tok_dipl id="t46_d1" trans="gro$$er" utf="groſſer"/>
+    <tok_anno id="t46_m1" trans="gro$$er" utf="groſſer" ascii="grosser">
+      <norm tag="großer"/>
+      <pos tag="ADJA"/>
+      <lemma tag="groß"/>
+      <morph tag="Pos.Fem.Dat.Sg"/>
+      <norm_broad tag="großer"/>
+    </tok_anno>
+  </token>
+  <token id="t47" trans="clarheit">
+    <tok_dipl id="t47_d1" trans="clarheit" utf="clarheit"/>
+    <tok_anno id="t47_m1" trans="clarheit" utf="clarheit" ascii="clarheit">
+      <norm tag="klarheit"/>
+      <pos tag="NN"/>
+      <lemma tag="Klarheit"/>
+      <morph tag="Fem.Dat.Sg"/>
+      <norm_broad tag="klarheit"/>
+    </tok_anno>
+  </token>
+  <token id="t48" trans="er$chin">
+    <tok_dipl id="t48_d1" trans="er$chin" utf="erſchin"/>
+    <tok_anno id="t48_m1" trans="er$chin" utf="erſchin" ascii="erschin">
+      <norm tag="erschien"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="erscheinen"/>
+      <morph tag="3.Sg.Past.Ind"/>
+      <norm_broad tag="erschien"/>
+    </tok_anno>
+  </token>
+  <token id="t49" trans="do">
+    <tok_dipl id="t49_d1" trans="do" utf="do"/>
+    <tok_anno id="t49_m1" trans="do" utf="do" ascii="do">
+      <norm tag="da"/>
+      <pos tag="ADV"/>
+      <lemma tag="da"/>
+      <morph tag="--"/>
+      <norm_broad tag="da"/>
+    </tok_anno>
+  </token>
+  <token id="t50" trans="$ach">
+    <tok_dipl id="t50_d1" trans="$ach" utf="ſach"/>
+    <tok_anno id="t50_m1" trans="$ach" utf="ſach" ascii="sach">
+      <norm tag="sah"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="sehen"/>
+      <morph tag="3.Sg.Past.Ind"/>
+      <norm_broad tag="sah"/>
+    </tok_anno>
+  </token>
+  <token id="t51" trans="er">
+    <tok_dipl id="t51_d1" trans="er" utf="er"/>
+    <tok_anno id="t51_m1" trans="er" utf="er" ascii="er">
+      <norm tag="er"/>
+      <pos tag="PPER"/>
+      <lemma tag="er"/>
+      <morph tag="3.Sg.Masc.Nom"/>
+      <norm_broad tag="er"/>
+    </tok_anno>
+  </token>
+  <token id="t52" trans="mich">
+    <tok_dipl id="t52_d1" trans="mich" utf="mich"/>
+    <tok_anno id="t52_m1" trans="mich" utf="mich" ascii="mich">
+      <norm tag="mich"/>
+      <pos tag="PPER"/>
+      <lemma tag="ich"/>
+      <morph tag="1.Sg.*.Acc"/>
+      <norm_broad tag="mich"/>
+    </tok_anno>
+  </token>
+  <token id="t53" trans="al(=)$o">
+    <tok_dipl id="t53_d1" trans="al(=)" utf="al"/>
+    <tok_dipl id="t53_d2" trans="$o" utf="ſo"/>
+    <tok_anno id="t53_m1" trans="al(=)$o" utf="alſo" ascii="also">
+      <norm tag="also"/>
+      <pos tag="ADV"/>
+      <norm_broad tag="so"/>
+      <norm_type tag="semantic"/>
+      <lemma tag="also"/>
+      <morph tag="--"/>
+      <token_type tag="UL"/>
+    </tok_anno>
+  </token>
+  <token id="t54" trans="minnigklich">
+    <tok_dipl id="t54_d1" trans="minnigklich" utf="minnigklich"/>
+    <tok_anno id="t54_m1" trans="minnigklich" utf="minnigklich" ascii="minnigklich">
+      <norm tag="minniglich"/>
+      <norm_broad tag="liebevoll"/>
+      <pos tag="ADJD"/>
+      <lemma tag="minniglich"/>
+      <norm_type tag="semantic"/>
+      <morph tag="Pos"/>
+    </tok_anno>
+  </token>
+  <token id="t55" trans="vnd">
+    <tok_dipl id="t55_d1" trans="vnd" utf="vnd"/>
+    <tok_anno id="t55_m1" trans="vnd" utf="vnd" ascii="vnd">
+      <norm tag="und"/>
+      <pos tag="KON"/>
+      <lemma tag="und"/>
+      <morph tag="--"/>
+      <norm_broad tag="und"/>
+    </tok_anno>
+  </token>
+  <token id="t56" trans="al$o">
+    <tok_dipl id="t56_d1" trans="al$o" utf="alſo"/>
+    <tok_anno id="t56_m1" trans="al$o" utf="alſo" ascii="also">
+      <norm tag="also"/>
+      <pos tag="ADV"/>
+      <norm_broad tag="so"/>
+      <norm_type tag="semantic"/>
+      <lemma tag="alos"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t57" trans="gu\etigk=lichen">
+    <tok_dipl id="t57_d1" trans="gu\etigk=" utf="guͤtigk="/>
+    <tok_dipl id="t57_d2" trans="lichen" utf="lichen"/>
+    <tok_anno id="t57_m1" trans="gu\etigk=lichen" utf="guͤtigklichen" ascii="guetigklichen">
+      <norm tag="güetlichen"/>
+      <norm_broad tag="gütig"/>
+      <norm_type tag="extinct"/>
+      <pos tag="ADJD"/>
+      <lemma tag="güetlich"/>
+      <morph tag="Pos"/>
+      <token_type tag="UH"/>
+    </tok_anno>
+  </token>
+  <token id="t58" trans="an%.">
+    <tok_dipl id="t58_d1" trans="an%." utf="an·"/>
+    <tok_anno id="t58_m1" trans="an" utf="an" ascii="an">
+      <norm tag="an"/>
+      <pos tag="PTKVZ"/>
+      <lemma tag="an"/>
+      <morph tag="--"/>
+      <norm_broad tag="an"/>
+    </tok_anno>
+    <tok_anno id="t58_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t59" trans="das">
+    <tok_dipl id="t59_d1" trans="das" utf="das"/>
+    <tok_anno id="t59_m1" trans="das" utf="das" ascii="das">
+      <norm tag="dass"/>
+      <pos tag="KOUS"/>
+      <lemma tag="dass"/>
+      <morph tag="--"/>
+      <norm_broad tag="dass"/>
+    </tok_anno>
+  </token>
+  <token id="t60" trans="ich">
+    <tok_dipl id="t60_d1" trans="ich" utf="ich"/>
+    <tok_anno id="t60_m1" trans="ich" utf="ich" ascii="ich">
+      <norm tag="ich"/>
+      <pos tag="PPER"/>
+      <lemma tag="ich"/>
+      <morph tag="1.Sg.*.Nom"/>
+      <norm_broad tag="ich"/>
+    </tok_anno>
+  </token>
+  <token id="t61" trans="meins">
+    <tok_dipl id="t61_d1" trans="meins" utf="meins"/>
+    <tok_anno id="t61_m1" trans="meins" utf="meins" ascii="meins">
+      <norm tag="meines"/>
+      <norm_broad tag="mein"/>
+      <norm_type tag="inflection"/>
+      <pos tag="PPOSAT"/>
+      <lemma tag="mein"/>
+      <morph tag="Fem.Gen.Sg"/>
+    </tok_anno>
+  </token>
+  <token id="t62" trans="herczen=leides">
+    <tok_dipl id="t62_d1" trans="herczen=" utf="herczen="/>
+    <tok_dipl id="t62_d2" trans="leides" utf="leides"/>
+    <tok_anno id="t62_m1" trans="herczen=leides" utf="herczenleides" ascii="herczenleides">
+      <norm tag="herzeleides"/>
+      <norm_broad tag="leid"/>
+      <norm_type tag="semantic"/>
+      <pos tag="NN"/>
+      <lemma tag="Herzeleid"/>
+      <morph tag="Fem.Gen.Sg"/>
+      <token_type tag="UH"/>
+    </tok_anno>
+  </token>
+  <token id="t63" trans="gancz">
+    <tok_dipl id="t63_d1" trans="gancz" utf="gancz"/>
+    <tok_anno id="t63_m1" trans="gancz" utf="gancz" ascii="gancz">
+      <norm tag="ganz"/>
+      <pos tag="ADJD"/>
+      <lemma tag="ganz"/>
+      <morph tag="Pos"/>
+      <norm_broad tag="ganz"/>
+    </tok_anno>
+  </token>
+  <token id="t64" trans="vn\-">
+    <tok_dipl id="t64_d1" trans="vn\-" utf="vn̄"/>
+    <tok_anno id="t64_m1" trans="vn\-" utf="vn̄" ascii="vnd">
+      <norm tag="und"/>
+      <pos tag="KON"/>
+      <lemma tag="und"/>
+      <morph tag="--"/>
+      <norm_broad tag="und"/>
+    </tok_anno>
+  </token>
+  <token id="t65" trans="gar">
+    <tok_dipl id="t65_d1" trans="gar" utf="gar"/>
+    <tok_anno id="t65_m1" trans="gar" utf="gar" ascii="gar">
+      <norm tag="gar"/>
+      <pos tag="ADJD"/>
+      <lemma tag="gar"/>
+      <morph tag="Pos"/>
+      <norm_broad tag="gar"/>
+    </tok_anno>
+  </token>
+  <token id="t66" trans="verga$z%.">
+    <tok_dipl id="t66_d1" trans="verga$z%." utf="vergaſz·"/>
+    <tok_anno id="t66_m1" trans="verga$z" utf="vergaſz" ascii="vergasz">
+      <norm tag="vergaß"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="vergessen"/>
+      <morph tag="1.Sg.Past.Ind"/>
+      <norm_broad tag="vergaß"/>
+    </tok_anno>
+    <tok_anno id="t66_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t67" trans="das">
+    <tok_dipl id="t67_d1" trans="das" utf="das"/>
+    <tok_anno id="t67_m1" trans="das" utf="das" ascii="das">
+      <norm tag="das"/>
+      <pos tag="PRELS"/>
+      <lemma tag="d-"/>
+      <morph tag="Neut.Acc.Sg"/>
+      <norm_broad tag="das"/>
+    </tok_anno>
+  </token>
+  <token id="t68" trans="ich">
+    <tok_dipl id="t68_d1" trans="ich" utf="ich"/>
+    <tok_anno id="t68_m1" trans="ich" utf="ich" ascii="ich">
+      <norm tag="ich"/>
+      <pos tag="PPER"/>
+      <lemma tag="ich"/>
+      <morph tag="1.Sg.*.Nom"/>
+      <norm_broad tag="ich"/>
+    </tok_anno>
+  </token>
+  <token id="t69" trans="ye">
+    <tok_dipl id="t69_d1" trans="ye" utf="ye"/>
+    <tok_anno id="t69_m1" trans="ye" utf="ye" ascii="ye">
+      <norm tag="je"/>
+      <pos tag="ADV"/>
+      <lemma tag="je"/>
+      <morph tag="--"/>
+      <norm_broad tag="je"/>
+    </tok_anno>
+  </token>
+  <token id="t70" trans="von">
+    <tok_dipl id="t70_d1" trans="von" utf="von"/>
+    <tok_anno id="t70_m1" trans="von" utf="von" ascii="von">
+      <norm tag="von"/>
+      <pos tag="APPR"/>
+      <lemma tag="von"/>
+      <morph tag="--"/>
+      <norm_broad tag="von"/>
+    </tok_anno>
+  </token>
+  <token id="t71" trans="ym">
+    <tok_dipl id="t71_d1" trans="ym" utf="ym"/>
+    <tok_anno id="t71_m1" trans="ym" utf="ym" ascii="ym">
+      <norm tag="ihm"/>
+      <pos tag="PPER"/>
+      <lemma tag="er"/>
+      <morph tag="3.Sg.Masc.Dat"/>
+      <norm_broad tag="ihm"/>
+    </tok_anno>
+  </token>
+  <token id="t72" trans="gewan">
+    <tok_dipl id="t72_d1" trans="gewan" utf="gewan"/>
+    <tok_anno id="t72_m1" trans="gewan" utf="gewan" ascii="gewan">
+      <norm tag="gewann"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="gewinnen"/>
+      <morph tag="1.Sg.Past.Ind"/>
+      <norm_broad tag="gewann"/>
+    </tok_anno>
+  </token>
+  <token id="t73" trans="vnd">
+    <tok_dipl id="t73_d1" trans="vnd" utf="vnd"/>
+    <tok_anno id="t73_m1" trans="vnd" utf="vnd" ascii="vnd">
+      <norm tag="und"/>
+      <pos tag="KON"/>
+      <lemma tag="und"/>
+      <morph tag="--"/>
+      <norm_broad tag="und"/>
+    </tok_anno>
+  </token>
+  <token id="t74" trans="gru\e$t">
+    <tok_dipl id="t74_d1" trans="gru\e$t" utf="gruͤſt"/>
+    <tok_anno id="t74_m1" trans="gru\e$t" utf="gruͤſt" ascii="gruest">
+      <norm tag="grüßt"/>
+      <norm_broad tag="grüßte"/>
+      <norm_type tag="inflection"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="grüßen"/>
+      <morph tag="3.Sg.Past.Ind"/>
+    </tok_anno>
+  </token>
+  <token id="t75" trans="mich">
+    <tok_dipl id="t75_d1" trans="mich" utf="mich"/>
+    <tok_anno id="t75_m1" trans="mich" utf="mich" ascii="mich">
+      <norm tag="mich"/>
+      <pos tag="PPER"/>
+      <lemma tag="ich"/>
+      <morph tag="1.Sg.*.Acc"/>
+      <norm_broad tag="mich"/>
+    </tok_anno>
+  </token>
+  <token id="t76" trans="liblich">
+    <tok_dipl id="t76_d1" trans="liblich" utf="liblich"/>
+    <tok_anno id="t76_m1" trans="liblich" utf="liblich" ascii="liblich">
+      <norm tag="lieblich"/>
+      <pos tag="ADJD"/>
+      <lemma tag="lieblich"/>
+      <morph tag="Pos"/>
+      <norm_broad tag="lieblich"/>
+    </tok_anno>
+  </token>
+  <token id="t77" trans="vn\-">
+    <tok_dipl id="t77_d1" trans="vn\-" utf="vn̄"/>
+    <tok_anno id="t77_m1" trans="vn\-" utf="vn̄" ascii="vnd">
+      <norm tag="und"/>
+      <pos tag="KON"/>
+      <lemma tag="und"/>
+      <morph tag="--"/>
+      <norm_broad tag="und"/>
+    </tok_anno>
+  </token>
+  <token id="t78" trans="zartlich">
+    <tok_dipl id="t78_d1" trans="zartlich" utf="zartlich"/>
+    <tok_anno id="t78_m1" trans="zartlich" utf="zartlich" ascii="zartlich">
+      <norm tag="zärtlich"/>
+      <pos tag="ADJD"/>
+      <lemma tag="zärtlich"/>
+      <morph tag="Pos"/>
+      <norm_broad tag="zärtlich"/>
+    </tok_anno>
+  </token>
+  <token id="t79" trans="vn\-">
+    <tok_dipl id="t79_d1" trans="vn\-" utf="vn̄"/>
+    <tok_anno id="t79_m1" trans="vn\-" utf="vn̄" ascii="vnd">
+      <norm tag="und"/>
+      <pos tag="KON"/>
+      <lemma tag="und"/>
+      <morph tag="--"/>
+      <norm_broad tag="und"/>
+    </tok_anno>
+  </token>
+  <token id="t80" trans="sprach">
+    <tok_dipl id="t80_d1" trans="sprach" utf="sprach"/>
+    <tok_anno id="t80_m1" trans="sprach" utf="sprach" ascii="sprach">
+      <norm tag="sprach"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="sprechen"/>
+      <morph tag="3.Sg.Past.Ind"/>
+      <norm_broad tag="sprach"/>
+    </tok_anno>
+  </token>
+  <token id="t81" trans="zu\o">
+    <tok_dipl id="t81_d1" trans="zu\o" utf="zuͦ"/>
+    <tok_anno id="t81_m1" trans="zu\o" utf="zuͦ" ascii="zuo">
+      <norm tag="zu"/>
+      <pos tag="APPR"/>
+      <lemma tag="zu"/>
+      <morph tag="--"/>
+      <norm_broad tag="zu"/>
+    </tok_anno>
+  </token>
+  <token id="t82" trans="mir%.">
+    <tok_dipl id="t82_d1" trans="mir%." utf="mir·"/>
+    <tok_anno id="t82_m1" trans="mir" utf="mir" ascii="mir">
+      <norm tag="mir"/>
+      <pos tag="PPER"/>
+      <lemma tag="ich"/>
+      <morph tag="1.Sg.*.Dat"/>
+      <norm_broad tag="mir"/>
+    </tok_anno>
+    <tok_anno id="t82_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t83" trans="got">
+    <tok_dipl id="t83_d1" trans="got" utf="got"/>
+    <tok_anno id="t83_m1" trans="got" utf="got" ascii="got">
+      <norm tag="gott"/>
+      <pos tag="NN"/>
+      <lemma tag="Gott"/>
+      <morph tag="Masc.Nom.Sg"/>
+      <norm_broad tag="gott"/>
+    </tok_anno>
+  </token>
+  <token id="t84" trans="gru\e$z">
+    <tok_dipl id="t84_d1" trans="gru\e$z" utf="gruͤſz"/>
+    <tok_anno id="t84_m1" trans="gru\e$z" utf="gruͤſz" ascii="gruesz">
+      <norm tag="grüße"/>
+      <pos tag="VVIMP"/>
+      <lemma tag="grüßen"/>
+      <morph tag="Sg"/>
+      <norm_broad tag="grüße"/>
+    </tok_anno>
+  </token>
+  <token id="t85" trans="dich">
+    <tok_dipl id="t85_d1" trans="dich" utf="dich"/>
+    <tok_anno id="t85_m1" trans="dich" utf="dich" ascii="dich">
+      <norm tag="dich"/>
+      <pos tag="PPER"/>
+      <lemma tag="du"/>
+      <morph tag="2.Sg.*.Acc"/>
+      <norm_broad tag="dich"/>
+    </tok_anno>
+  </token>
+  <token id="t86" trans="su\e$$e">
+    <tok_dipl id="t86_d1" trans="su\e$$e" utf="suͤſſe"/>
+    <tok_anno id="t86_m1" trans="su\e$$e" utf="suͤſſe" ascii="suesse">
+      <norm tag="süße"/>
+      <pos tag="ADJA"/>
+      <lemma tag="süß"/>
+      <morph tag="Pos.Fem.Nom.Sg"/>
+      <norm_broad tag="süße"/>
+    </tok_anno>
+  </token>
+  <token id="t87" trans="vn\-">
+    <tok_dipl id="t87_d1" trans="vn\-" utf="vn̄"/>
+    <tok_anno id="t87_m1" trans="vn\-" utf="vn̄" ascii="vnd">
+      <norm tag="und"/>
+      <pos tag="KON"/>
+      <lemma tag="und"/>
+      <morph tag="--"/>
+      <norm_broad tag="und"/>
+    </tok_anno>
+  </token>
+  <token id="t88" trans="mi(=)nigkliche">
+    <tok_dipl id="t88_d1" trans="mi(=)" utf="mi"/>
+    <tok_dipl id="t88_d2" trans="nigkliche" utf="nigkliche"/>
+    <tok_anno id="t88_m1" trans="mi(=)nigkliche" utf="minigkliche" ascii="minigkliche">
+      <norm tag="minnigliche"/>
+      <norm_broad tag="liebevolle"/>
+      <pos tag="ADJA"/>
+      <lemma tag="minniglich"/>
+      <norm_type tag="semantic"/>
+      <morph tag="Pos.Fem.Nom.Sg"/>
+      <token_type tag="UL"/>
+    </tok_anno>
+  </token>
+  <token id="t89" trans="mu\otter%.">
+    <tok_dipl id="t89_d1" trans="mu\otter%." utf="muͦtter·"/>
+    <tok_anno id="t89_m1" trans="mu\otter" utf="muͦtter" ascii="muotter">
+      <norm tag="mutter"/>
+      <pos tag="NN"/>
+      <lemma tag="Mutter"/>
+      <morph tag="Fem.Nom.Sg"/>
+      <norm_broad tag="mutter"/>
+    </tok_anno>
+    <tok_anno id="t89_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t90" trans="ge$egnet">
+    <tok_dipl id="t90_d1" trans="ge$egnet" utf="geſegnet"/>
+    <tok_anno id="t90_m1" trans="ge$egnet" utf="geſegnet" ascii="gesegnet">
+      <norm tag="gesegnet"/>
+      <pos tag="VVPP"/>
+      <lemma tag="segnen"/>
+      <morph tag="--"/>
+      <norm_broad tag="gesegnet"/>
+    </tok_anno>
+  </token>
+  <token id="t91" trans="ob">
+    <tok_dipl id="t91_d1" trans="ob" utf="ob"/>
+    <tok_anno id="t91_m1" trans="ob" utf="ob" ascii="ob">
+      <norm tag="ob"/>
+      <pos tag="APPR"/>
+      <norm_broad tag="über"/>
+      <norm_type tag="semantic"/>
+      <lemma tag="ob"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t92" trans="al=len">
+    <tok_dipl id="t92_d1" trans="al=" utf="al="/>
+    <tok_dipl id="t92_d2" trans="len" utf="len"/>
+    <tok_anno id="t92_m1" trans="al=len" utf="allen" ascii="allen">
+      <norm tag="allen"/>
+      <norm_type tag="inflection"/>
+      <pos tag="PIAT"/>
+      <lemma tag="all"/>
+      <morph tag="*.Dat.Pl"/>
+      <norm_broad tag="allen"/>
+      <token_type tag="UH"/>
+    </tok_anno>
+  </token>
+  <token id="t93" trans="frawen%.">
+    <tok_dipl id="t93_d1" trans="frawen%." utf="frawen·"/>
+    <tok_anno id="t93_m1" trans="frawen" utf="frawen" ascii="frawen">
+      <norm tag="frauen"/>
+      <pos tag="NN"/>
+      <lemma tag="Frau"/>
+      <morph tag="Fem.Dat.Pl"/>
+      <norm_broad tag="frauen"/>
+    </tok_anno>
+    <tok_anno id="t93_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t94" trans="la$z">
+    <tok_dipl id="t94_d1" trans="la$z" utf="laſz"/>
+    <tok_anno id="t94_m1" trans="la$z" utf="laſz" ascii="lasz">
+      <norm tag="lass"/>
+      <pos tag="VVIMP"/>
+      <lemma tag="lassen"/>
+      <morph tag="Sg"/>
+      <norm_broad tag="lass"/>
+    </tok_anno>
+  </token>
+  <token id="t95" trans="dein">
+    <tok_dipl id="t95_d1" trans="dein" utf="dein"/>
+    <tok_anno id="t95_m1" trans="dein" utf="dein" ascii="dein">
+      <norm tag="dein"/>
+      <norm_broad tag="deine"/>
+      <norm_type tag="inflection"/>
+      <pos tag="PPOSAT"/>
+      <lemma tag="dein"/>
+      <morph tag="Fem.Acc.Sg"/>
+    </tok_anno>
+  </token>
+  <token id="t96" trans="gro$$e">
+    <tok_dipl id="t96_d1" trans="gro$$e" utf="groſſe"/>
+    <tok_anno id="t96_m1" trans="gro$$e" utf="groſſe" ascii="grosse">
+      <norm tag="große"/>
+      <pos tag="ADJA"/>
+      <lemma tag="groß"/>
+      <morph tag="Pos.Fem.Acc.Sg"/>
+      <norm_broad tag="große"/>
+    </tok_anno>
+  </token>
+  <token id="t97" trans="clage">
+    <tok_dipl id="t97_d1" trans="clage" utf="clage"/>
+    <tok_anno id="t97_m1" trans="clage" utf="clage" ascii="clage">
+      <norm tag="klage"/>
+      <pos tag="NN"/>
+      <lemma tag="Klage"/>
+      <morph tag="Fem.Acc.Sg"/>
+      <norm_broad tag="klage"/>
+    </tok_anno>
+  </token>
+  <token id="t98" trans="vnd">
+    <tok_dipl id="t98_d1" trans="vnd" utf="vnd"/>
+    <tok_anno id="t98_m1" trans="vnd" utf="vnd" ascii="vnd">
+      <norm tag="und"/>
+      <pos tag="KON"/>
+      <lemma tag="und"/>
+      <morph tag="--"/>
+      <norm_broad tag="und"/>
+    </tok_anno>
+  </token>
+  <token id="t99" trans="yamer%.">
+    <tok_dipl id="t99_d1" trans="yamer%." utf="yamer·"/>
+    <tok_anno id="t99_m1" trans="yamer" utf="yamer" ascii="yamer">
+      <norm tag="jammer"/>
+      <pos tag="NN"/>
+      <lemma tag="Jammer"/>
+      <morph tag="Masc.Acc.Sg"/>
+      <norm_broad tag="jammer"/>
+    </tok_anno>
+    <tok_anno id="t99_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t100" trans="wan\-">
+    <tok_dipl id="t100_d1" trans="wan\-" utf="wan̄"/>
+    <tok_anno id="t100_m1" trans="wan\-" utf="wan̄" ascii="wan">
+      <norm tag="wann"/>
+      <norm_broad tag="denn"/>
+      <norm_type tag="semantic"/>
+      <pos tag="KON"/>
+      <lemma tag="wann"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t101" trans="dein">
+    <tok_dipl id="t101_d1" trans="dein" utf="dein"/>
+    <tok_anno id="t101_m1" trans="dein" utf="dein" ascii="dein">
+      <norm tag="dein"/>
+      <pos tag="PPOSAT"/>
+      <lemma tag="dein"/>
+      <morph tag="Neut.Nom.Sg"/>
+      <norm_broad tag="dein"/>
+    </tok_anno>
+  </token>
+  <token id="t102" trans="kind">
+    <tok_dipl id="t102_d1" trans="kind" utf="kind"/>
+    <tok_anno id="t102_m1" trans="kind" utf="kind" ascii="kind">
+      <norm tag="kind"/>
+      <pos tag="NN"/>
+      <lemma tag="Kind"/>
+      <morph tag="Neut.Nom.Sg"/>
+      <norm_broad tag="kind"/>
+    </tok_anno>
+  </token>
+  <token id="t103" trans="i$t">
+    <tok_dipl id="t103_d1" trans="i$t" utf="iſt"/>
+    <tok_anno id="t103_m1" trans="i$t" utf="iſt" ascii="ist">
+      <norm tag="ist"/>
+      <pos tag="VAFIN"/>
+      <lemma tag="sein"/>
+      <morph tag="3.Sg.Pres.Ind"/>
+      <norm_broad tag="ist"/>
+    </tok_anno>
+  </token>
+  <token id="t104" trans="er(=)$tanden">
+    <tok_dipl id="t104_d1" trans="er(=)" utf="er"/>
+    <tok_dipl id="t104_d2" trans="$tanden" utf="ſtanden"/>
+    <tok_anno id="t104_m1" trans="er(=)$tanden" utf="erſtanden" ascii="erstanden">
+      <norm tag="erstanden"/>
+      <pos tag="VVPP"/>
+      <norm_broad tag="auferstanden"/>
+      <norm_type tag="semantic"/>
+      <lemma tag="erstehen"/>
+      <morph tag="--"/>
+      <token_type tag="UL"/>
+    </tok_anno>
+  </token>
+  <token id="t105" trans="von">
+    <tok_dipl id="t105_d1" trans="von" utf="von"/>
+    <tok_anno id="t105_m1" trans="von" utf="von" ascii="von">
+      <norm tag="von"/>
+      <pos tag="APPR"/>
+      <lemma tag="von"/>
+      <morph tag="--"/>
+      <norm_broad tag="von"/>
+    </tok_anno>
+  </token>
+  <token id="t106" trans="de\-">
+    <tok_dipl id="t106_d1" trans="de\-" utf="dē"/>
+    <tok_anno id="t106_m1" trans="de\-" utf="dē" ascii="den">
+      <norm tag="dem"/>
+      <pos tag="ART"/>
+      <lemma tag="d-"/>
+      <morph tag="Masc.Dat.Sg"/>
+      <norm_broad tag="dem"/>
+    </tok_anno>
+  </token>
+  <token id="t107" trans="to#de%.">
+    <tok_dipl id="t107_d1" trans="to#" utf="to"/>
+    <tok_dipl id="t107_d2" trans="de%." utf="de·"/>
+    <tok_anno id="t107_m1" trans="to#de" utf="tode" ascii="tode">
+      <norm tag="tod"/>
+      <pos tag="NN"/>
+      <lemma tag="Tod"/>
+      <morph tag="Masc.Dat.Sg"/>
+      <norm_broad tag="tod"/>
+      <token_type tag="US"/>
+    </tok_anno>
+    <tok_anno id="t107_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t108" trans="vnd">
+    <tok_dipl id="t108_d1" trans="vnd" utf="vnd"/>
+    <tok_anno id="t108_m1" trans="vnd" utf="vnd" ascii="vnd">
+      <norm tag="und"/>
+      <pos tag="KON"/>
+      <lemma tag="und"/>
+      <morph tag="--"/>
+      <norm_broad tag="und"/>
+    </tok_anno>
+  </token>
+  <token id="t109" trans="zu\o#hand">
+    <tok_dipl id="t109_d1" trans="zu\o#" utf="zuͦ"/>
+    <tok_dipl id="t109_d2" trans="hand" utf="hand"/>
+    <tok_anno id="t109_m1" trans="zu\o#hand" utf="zuͦhand" ascii="zuohand">
+      <norm tag="zehant"/>
+      <pos tag="ADV"/>
+      <norm_broad tag="sogleich"/>
+      <norm_type tag="extinct"/>
+      <lemma tag="zehant"/>
+      <morph tag="--"/>
+      <token_type tag="US"/>
+    </tok_anno>
+  </token>
+  <token id="t110" trans="viel">
+    <tok_dipl id="t110_d1" trans="viel" utf="viel"/>
+    <tok_anno id="t110_m1" trans="viel" utf="viel" ascii="viel">
+      <norm tag="fiel"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="fallen"/>
+      <morph tag="1.Sg.Past.Ind"/>
+      <norm_broad tag="fiel"/>
+    </tok_anno>
+  </token>
+  <token id="t111" trans="ich">
+    <tok_dipl id="t111_d1" trans="ich" utf="ich"/>
+    <tok_anno id="t111_m1" trans="ich" utf="ich" ascii="ich">
+      <norm tag="ich"/>
+      <pos tag="PPER"/>
+      <lemma tag="ich"/>
+      <morph tag="1.Sg.*.Nom"/>
+      <norm_broad tag="ich"/>
+    </tok_anno>
+  </token>
+  <token id="t112" trans="nider">
+    <tok_dipl id="t112_d1" trans="nider" utf="nider"/>
+    <tok_anno id="t112_m1" trans="nider" utf="nider" ascii="nider">
+      <norm tag="nieder"/>
+      <pos tag="PTKVZ"/>
+      <lemma tag="nieder"/>
+      <morph tag="--"/>
+      <norm_broad tag="nieder"/>
+    </tok_anno>
+  </token>
+  <token id="t113" trans="vn\-">
+    <tok_dipl id="t113_d1" trans="vn\-" utf="vn̄"/>
+    <tok_anno id="t113_m1" trans="vn\-" utf="vn̄" ascii="vnd">
+      <norm tag="und"/>
+      <pos tag="KON"/>
+      <lemma tag="und"/>
+      <morph tag="--"/>
+      <norm_broad tag="und"/>
+    </tok_anno>
+  </token>
+  <token id="t114" trans="kü$t">
+    <tok_dipl id="t114_d1" trans="kü$t" utf="küſt"/>
+    <tok_anno id="t114_m1" trans="kü$t" utf="küſt" ascii="küst">
+      <norm tag="küsst"/>
+      <norm_broad tag="küsste"/>
+      <norm_type tag="inflection"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="küssen"/>
+      <morph tag="1.Sg.Past.Ind"/>
+    </tok_anno>
+  </token>
+  <token id="t115" trans="y\:m">
+    <tok_dipl id="t115_d1" trans="y\:m" utf="ÿm"/>
+    <tok_anno id="t115_m1" trans="y\:m" utf="ÿm" ascii="ym">
+      <norm tag="ihm"/>
+      <pos tag="PPER"/>
+      <lemma tag="er"/>
+      <morph tag="3.Sg.Masc.Dat"/>
+      <norm_broad tag="ihm"/>
+    </tok_anno>
+  </token>
+  <token id="t116" trans="$ein">
+    <tok_dipl id="t116_d1" trans="$ein" utf="ſein"/>
+    <tok_anno id="t116_m1" trans="$ein" utf="ſein" ascii="sein">
+      <norm tag="sein"/>
+      <norm_broad tag="seine"/>
+      <norm_type tag="inflection"/>
+      <pos tag="PPOSAT"/>
+      <lemma tag="sein"/>
+      <morph tag="*.Acc.Pl"/>
+    </tok_anno>
+  </token>
+  <token id="t117" trans="fü$z">
+    <tok_dipl id="t117_d1" trans="fü$z" utf="füſz"/>
+    <tok_anno id="t117_m1" trans="fü$z" utf="füſz" ascii="füsz">
+      <norm tag="füße"/>
+      <pos tag="NN"/>
+      <lemma tag="Fuß"/>
+      <morph tag="Masc.Acc.Pl"/>
+      <norm_broad tag="füße"/>
+    </tok_anno>
+  </token>
+  <token id="t118" trans="vnd">
+    <tok_dipl id="t118_d1" trans="vnd" utf="vnd"/>
+    <tok_anno id="t118_m1" trans="vnd" utf="vnd" ascii="vnd">
+      <norm tag="und"/>
+      <pos tag="KON"/>
+      <lemma tag="und"/>
+      <morph tag="--"/>
+      <norm_broad tag="und"/>
+    </tok_anno>
+  </token>
+  <token id="t119" trans="$prach">
+    <tok_dipl id="t119_d1" trans="$prach" utf="ſprach"/>
+    <tok_anno id="t119_m1" trans="$prach" utf="ſprach" ascii="sprach">
+      <norm tag="sprach"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="sprechen"/>
+      <morph tag="1.Sg.Past.Ind"/>
+      <norm_broad tag="sprach"/>
+    </tok_anno>
+  </token>
+  <token id="t120" trans="zu\o">
+    <tok_dipl id="t120_d1" trans="zu\o" utf="zuͦ"/>
+    <tok_anno id="t120_m1" trans="zu\o" utf="zuͦ" ascii="zuo">
+      <norm tag="zu"/>
+      <pos tag="APPR"/>
+      <lemma tag="zu"/>
+      <morph tag="--"/>
+      <norm_broad tag="zu"/>
+    </tok_anno>
+  </token>
+  <token id="t121" trans="y\:m%.">
+    <tok_dipl id="t121_d1" trans="y\:m%." utf="ÿm·"/>
+    <tok_anno id="t121_m1" trans="y\:m" utf="ÿm" ascii="ym">
+      <norm tag="ihm"/>
+      <pos tag="PPER"/>
+      <lemma tag="er"/>
+      <morph tag="3.Sg.Masc.Dat"/>
+      <norm_broad tag="ihm"/>
+    </tok_anno>
+    <tok_anno id="t121_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t122" trans="ein">
+    <tok_dipl id="t122_d1" trans="ein" utf="ein"/>
+    <tok_anno id="t122_m1" trans="ein" utf="ein" ascii="ein">
+      <norm tag="ein"/>
+      <pos tag="ART"/>
+      <lemma tag="ein"/>
+      <morph tag="Masc.Nom.Sg"/>
+      <norm_broad tag="ein"/>
+    </tok_anno>
+  </token>
+  <token id="t123" trans="ewiger">
+    <tok_dipl id="t123_d1" trans="ewiger" utf="ewiger"/>
+    <tok_anno id="t123_m1" trans="ewiger" utf="ewiger" ascii="ewiger">
+      <norm tag="ewiger"/>
+      <pos tag="ADJA"/>
+      <lemma tag="ewig"/>
+      <morph tag="Pos.Masc.Nom.Sg"/>
+      <norm_broad tag="ewiger"/>
+    </tok_anno>
+  </token>
+  <token id="t124" trans="$un">
+    <tok_dipl id="t124_d1" trans="$un" utf="ſun"/>
+    <tok_anno id="t124_m1" trans="$un" utf="ſun" ascii="sun">
+      <norm tag="sohn"/>
+      <pos tag="NN"/>
+      <lemma tag="Sohn"/>
+      <morph tag="Masc.Nom.Sg"/>
+      <norm_broad tag="sohn"/>
+    </tok_anno>
+  </token>
+  <token id="t125" trans="de$z">
+    <tok_dipl id="t125_d1" trans="de$z" utf="deſz"/>
+    <tok_anno id="t125_m1" trans="de$z" utf="deſz" ascii="desz">
+      <norm tag="des"/>
+      <pos tag="ART"/>
+      <lemma tag="d-"/>
+      <morph tag="Masc.Gen.Sg"/>
+      <norm_broad tag="des"/>
+    </tok_anno>
+  </token>
+  <token id="t126" trans="vatters">
+    <tok_dipl id="t126_d1" trans="vatters" utf="vatters"/>
+    <tok_anno id="t126_m1" trans="vatters" utf="vatters" ascii="vatters">
+      <norm tag="vaters"/>
+      <pos tag="NN"/>
+      <lemma tag="Vater"/>
+      <morph tag="Masc.Gen.Sg"/>
+      <norm_broad tag="vaters"/>
+    </tok_anno>
+  </token>
+  <token id="t127" trans="von">
+    <tok_dipl id="t127_d1" trans="von" utf="von"/>
+    <tok_anno id="t127_m1" trans="von" utf="von" ascii="von">
+      <norm tag="von"/>
+      <pos tag="APPR"/>
+      <norm_broad tag="vom"/>
+      <norm_type tag="inflection"/>
+      <lemma tag="von"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t128" trans="hymelreich">
+    <tok_dipl id="t128_d1" trans="hymelreich" utf="hymelreich"/>
+    <tok_anno id="t128_m1" trans="hymelreich" utf="hymelreich" ascii="hymelreich">
+      <norm tag="himmelreich"/>
+      <pos tag="NN"/>
+      <lemma tag="Himmelreich"/>
+      <morph tag="Neut.Dat.Sg"/>
+      <norm_broad tag="himmelreich"/>
+    </tok_anno>
+  </token>
+  <token id="t129" trans="vnd">
+    <tok_dipl id="t129_d1" trans="vnd" utf="vnd"/>
+    <tok_anno id="t129_m1" trans="vnd" utf="vnd" ascii="vnd">
+      <norm tag="und"/>
+      <pos tag="KON"/>
+      <lemma tag="und"/>
+      <morph tag="--"/>
+      <norm_broad tag="und"/>
+    </tok_anno>
+  </token>
+  <token id="t130" trans="mein">
+    <tok_dipl id="t130_d1" trans="mein" utf="mein"/>
+    <tok_anno id="t130_m1" trans="mein" utf="mein" ascii="mein">
+      <norm tag="mein"/>
+      <pos tag="PPOSAT"/>
+      <lemma tag="mein"/>
+      <morph tag="Neut.Nom.Sg"/>
+      <norm_broad tag="mein"/>
+    </tok_anno>
+  </token>
+  <token id="t131" trans="zarcz">
+    <tok_dipl id="t131_d1" trans="zarcz" utf="zarcz"/>
+    <tok_anno id="t131_m1" trans="zarcz" utf="zarcz" ascii="zarcz">
+      <norm tag="zartes"/>
+      <pos tag="ADJA"/>
+      <lemma tag="zart"/>
+      <morph tag="Pos.Neut.Nom.Sg"/>
+      <norm_broad tag="zartes"/>
+    </tok_anno>
+  </token>
+  <token id="t132" trans="kinde">
+    <tok_dipl id="t132_d1" trans="kinde" utf="kinde"/>
+    <tok_anno id="t132_m1" trans="kinde" utf="kinde" ascii="kinde">
+      <norm tag="kind"/>
+      <pos tag="NN"/>
+      <lemma tag="Kind"/>
+      <morph tag="Neut.Nom.Sg"/>
+      <norm_broad tag="kind"/>
+      <cora-flag name="general error"/>
+    </tok_anno>
+  </token>
+  <token id="t133" trans="ich">
+    <tok_dipl id="t133_d1" trans="ich" utf="ich"/>
+    <tok_anno id="t133_m1" trans="ich" utf="ich" ascii="ich">
+      <norm tag="ich"/>
+      <pos tag="PPER"/>
+      <lemma tag="ich"/>
+      <morph tag="1.Sg.*.Nom"/>
+      <norm_broad tag="ich"/>
+    </tok_anno>
+  </token>
+  <token id="t134" trans="lob">
+    <tok_dipl id="t134_d1" trans="lob" utf="lob"/>
+    <tok_anno id="t134_m1" trans="lob" utf="lob" ascii="lob">
+      <norm tag="lobe"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="loben"/>
+      <morph tag="1.Sg.Pres.Ind"/>
+      <norm_broad tag="lobe"/>
+    </tok_anno>
+  </token>
+  <token id="t135" trans="dich">
+    <tok_dipl id="t135_d1" trans="dich" utf="dich"/>
+    <tok_anno id="t135_m1" trans="dich" utf="dich" ascii="dich">
+      <norm tag="dich"/>
+      <pos tag="PPER"/>
+      <lemma tag="du"/>
+      <morph tag="2.Sg.*.Acc"/>
+      <norm_broad tag="dich"/>
+    </tok_anno>
+  </token>
+  <token id="t136" trans="das">
+    <tok_dipl id="t136_d1" trans="das" utf="das"/>
+    <tok_anno id="t136_m1" trans="das" utf="das" ascii="das">
+      <norm tag="dass"/>
+      <pos tag="KOUS"/>
+      <lemma tag="dass"/>
+      <morph tag="--"/>
+      <norm_broad tag="dass"/>
+    </tok_anno>
+  </token>
+  <token id="t137" trans="du">
+    <tok_dipl id="t137_d1" trans="du" utf="du"/>
+    <tok_anno id="t137_m1" trans="du" utf="du" ascii="du">
+      <norm tag="du"/>
+      <pos tag="PPER"/>
+      <lemma tag="du"/>
+      <morph tag="2.Sg.*.Nom"/>
+      <norm_broad tag="du"/>
+    </tok_anno>
+  </token>
+  <token id="t138" trans="men$chlichs">
+    <tok_dipl id="t138_d1" trans="men$chlichs" utf="menſchlichs"/>
+    <tok_anno id="t138_m1" trans="men$chlichs" utf="menſchlichs" ascii="menschlichs">
+      <norm tag="menschliches"/>
+      <pos tag="ADJA"/>
+      <lemma tag="menschlich"/>
+      <morph tag="Pos.Neut.Acc.Sg"/>
+      <norm_broad tag="menschliches"/>
+    </tok_anno>
+  </token>
+  <token id="t139" trans="ge$chla\echte">
+    <tok_dipl id="t139_d1" trans="ge$chla\echte" utf="geſchlaͤchte"/>
+    <tok_anno id="t139_m1" trans="ge$chla\echte" utf="geſchlaͤchte" ascii="geschlaechte">
+      <norm tag="geschlecht"/>
+      <pos tag="NN"/>
+      <lemma tag="Geschlecht"/>
+      <morph tag="Neut.Acc.Sg"/>
+      <norm_broad tag="geschlecht"/>
+    </tok_anno>
+  </token>
+  <token id="t140" trans="erlo\e$t">
+    <tok_dipl id="t140_d1" trans="erlo\e$t" utf="erloͤſt"/>
+    <tok_anno id="t140_m1" trans="erlo\e$t" utf="erloͤſt" ascii="erloest">
+      <norm tag="erlöst"/>
+      <pos tag="VVPP"/>
+      <lemma tag="erlösen"/>
+      <morph tag="--"/>
+      <norm_broad tag="erlöst"/>
+    </tok_anno>
+  </token>
+  <token id="t141" trans="ha$t">
+    <tok_dipl id="t141_d1" trans="ha$t" utf="haſt"/>
+    <tok_anno id="t141_m1" trans="ha$t" utf="haſt" ascii="hast">
+      <norm tag="hast"/>
+      <pos tag="VAFIN"/>
+      <lemma tag="haben"/>
+      <morph tag="2.Sg.Pres.Ind"/>
+      <norm_broad tag="hast"/>
+    </tok_anno>
+  </token>
+  <token id="t142" trans="mit">
+    <tok_dipl id="t142_d1" trans="mit" utf="mit"/>
+    <tok_anno id="t142_m1" trans="mit" utf="mit" ascii="mit">
+      <norm tag="mit"/>
+      <pos tag="APPR"/>
+      <lemma tag="mit"/>
+      <morph tag="--"/>
+      <norm_broad tag="mit"/>
+    </tok_anno>
+  </token>
+  <token id="t143" trans="deiner">
+    <tok_dipl id="t143_d1" trans="deiner" utf="deiner"/>
+    <tok_anno id="t143_m1" trans="deiner" utf="deiner" ascii="deiner">
+      <norm tag="deiner"/>
+      <pos tag="PPOSAT"/>
+      <lemma tag="dein"/>
+      <morph tag="Fem.Dat.Sg"/>
+      <norm_broad tag="deiner"/>
+    </tok_anno>
+  </token>
+  <token id="t144" trans="marter">
+    <tok_dipl id="t144_d1" trans="marter" utf="marter"/>
+    <tok_anno id="t144_m1" trans="marter" utf="marter" ascii="marter">
+      <norm tag="marter"/>
+      <pos tag="NN"/>
+      <lemma tag="Marter"/>
+      <morph tag="Fem.Dat.Sg"/>
+      <norm_broad tag="marter"/>
+    </tok_anno>
+  </token>
+  <token id="t145" trans="vn\-">
+    <tok_dipl id="t145_d1" trans="vn\-" utf="vn̄"/>
+    <tok_anno id="t145_m1" trans="vn\-" utf="vn̄" ascii="vnd">
+      <norm tag="und"/>
+      <pos tag="KON"/>
+      <lemma tag="und"/>
+      <morph tag="--"/>
+      <norm_broad tag="und"/>
+    </tok_anno>
+  </token>
+  <token id="t146" trans="mit">
+    <tok_dipl id="t146_d1" trans="mit" utf="mit"/>
+    <tok_anno id="t146_m1" trans="mit" utf="mit" ascii="mit">
+      <norm tag="mit"/>
+      <pos tag="APPR"/>
+      <lemma tag="mit"/>
+      <morph tag="--"/>
+      <norm_broad tag="mit"/>
+    </tok_anno>
+  </token>
+  <token id="t147" trans="dei(=)nem">
+    <tok_dipl id="t147_d1" trans="dei(=)" utf="dei"/>
+    <tok_dipl id="t147_d2" trans="nem" utf="nem"/>
+    <tok_anno id="t147_m1" trans="dei(=)nem" utf="deinem" ascii="deinem">
+      <norm tag="deinem"/>
+      <pos tag="PPOSAT"/>
+      <lemma tag="dein"/>
+      <morph tag="Masc.Dat.Sg"/>
+      <norm_broad tag="deinem"/>
+      <token_type tag="UL"/>
+    </tok_anno>
+  </token>
+  <token id="t148" trans="to#de%.">
+    <tok_dipl id="t148_d1" trans="to#" utf="to"/>
+    <tok_dipl id="t148_d2" trans="de%." utf="de·"/>
+    <tok_anno id="t148_m1" trans="to#de" utf="tode" ascii="tode">
+      <norm tag="tod"/>
+      <pos tag="NN"/>
+      <lemma tag="Tod"/>
+      <morph tag="Masc.Dat.Sg"/>
+      <norm_broad tag="tod"/>
+      <token_type tag="US"/>
+    </tok_anno>
+    <tok_anno id="t148_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t149" trans="vnd">
+    <tok_dipl id="t149_d1" trans="vnd" utf="vnd"/>
+    <tok_anno id="t149_m1" trans="vnd" utf="vnd" ascii="vnd">
+      <norm tag="und"/>
+      <pos tag="KON"/>
+      <lemma tag="und"/>
+      <morph tag="--"/>
+      <norm_broad tag="und"/>
+    </tok_anno>
+  </token>
+  <token id="t150" trans="$ey\:">
+    <tok_dipl id="t150_d1" trans="$ey\:" utf="ſeÿ"/>
+    <tok_anno id="t150_m1" trans="$ey\:" utf="ſeÿ" ascii="sey">
+      <norm tag="sei"/>
+      <pos tag="VAIMP"/>
+      <lemma tag="sein"/>
+      <morph tag="Sg"/>
+      <norm_broad tag="sei"/>
+    </tok_anno>
+  </token>
+  <token id="t151" trans="der">
+    <tok_dipl id="t151_d1" trans="der" utf="der"/>
+    <tok_anno id="t151_m1" trans="der" utf="der" ascii="der">
+      <norm tag="der"/>
+      <pos tag="ART"/>
+      <lemma tag="d-"/>
+      <morph tag="Masc.Nom.Sg"/>
+      <norm_broad tag="der"/>
+    </tok_anno>
+  </token>
+  <token id="t152" trans="vatter">
+    <tok_dipl id="t152_d1" trans="vatter" utf="vatter"/>
+    <tok_anno id="t152_m1" trans="vatter" utf="vatter" ascii="vatter">
+      <norm tag="vater"/>
+      <pos tag="NN"/>
+      <lemma tag="Vater"/>
+      <morph tag="Masc.Nom.Sg"/>
+      <norm_broad tag="vater"/>
+    </tok_anno>
+  </token>
+  <token id="t153" trans="von">
+    <tok_dipl id="t153_d1" trans="von" utf="von"/>
+    <tok_anno id="t153_m1" trans="von" utf="von" ascii="von">
+      <norm tag="von"/>
+      <pos tag="APPR"/>
+      <norm_broad tag="vom"/>
+      <norm_type tag="inflection"/>
+      <lemma tag="von"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t154" trans="hy\:melreich">
+    <tok_dipl id="t154_d1" trans="hy\:melreich" utf="hÿmelreich"/>
+    <tok_anno id="t154_m1" trans="hy\:melreich" utf="hÿmelreich" ascii="hymelreich">
+      <norm tag="himmelreich"/>
+      <lemma tag="Himmelreich"/>
+      <pos tag="NN"/>
+      <morph tag="Masc.Dat.Sg"/>
+      <norm_broad tag="himmelreich"/>
+    </tok_anno>
+  </token>
+  <token id="t155" trans="ewigklichen">
+    <tok_dipl id="t155_d1" trans="ewigklichen" utf="ewigklichen"/>
+    <tok_anno id="t155_m1" trans="ewigklichen" utf="ewigklichen" ascii="ewigklichen">
+      <norm tag="ewiglichen"/>
+      <norm_broad tag="ewiglich"/>
+      <norm_type tag="inflection"/>
+      <pos tag="ADJD"/>
+      <lemma tag="ewiglich"/>
+      <morph tag="Pos"/>
+    </tok_anno>
+  </token>
+  <token id="t156" trans="ge$egnet">
+    <tok_dipl id="t156_d1" trans="ge$egnet" utf="geſegnet"/>
+    <tok_anno id="t156_m1" trans="ge$egnet" utf="geſegnet" ascii="gesegnet">
+      <norm tag="gesegnet"/>
+      <pos tag="VVPP"/>
+      <lemma tag="segnen"/>
+      <morph tag="--"/>
+      <norm_broad tag="gesegnet"/>
+    </tok_anno>
+  </token>
+  <token id="t157" trans="der">
+    <tok_dipl id="t157_d1" trans="der" utf="der"/>
+    <tok_anno id="t157_m1" trans="der" utf="der" ascii="der">
+      <norm tag="der"/>
+      <pos tag="PRELS"/>
+      <lemma tag="d-"/>
+      <morph tag="Masc.Nom.Sg"/>
+      <norm_broad tag="der"/>
+    </tok_anno>
+  </token>
+  <token id="t158" trans="dich">
+    <tok_dipl id="t158_d1" trans="dich" utf="dich"/>
+    <tok_anno id="t158_m1" trans="dich" utf="dich" ascii="dich">
+      <norm tag="dich"/>
+      <pos tag="PPER"/>
+      <lemma tag="du"/>
+      <morph tag="2.Sg.*.Acc"/>
+      <norm_broad tag="dich"/>
+    </tok_anno>
+  </token>
+  <token id="t159" trans="darumbe">
+    <tok_dipl id="t159_d1" trans="darumbe" utf="darumbe"/>
+    <tok_anno id="t159_m1" trans="darumbe" utf="darumbe" ascii="darumbe">
+      <norm tag="darum"/>
+      <pos tag="PAV"/>
+      <lemma tag="darum"/>
+      <morph tag="--"/>
+      <norm_broad tag="darum"/>
+    </tok_anno>
+  </token>
+  <token id="t160" trans="auff">
+    <tok_dipl id="t160_d1" trans="auff" utf="auff"/>
+    <tok_anno id="t160_m1" trans="auff" utf="auff" ascii="auff">
+      <norm tag="auf"/>
+      <pos tag="APPR"/>
+      <lemma tag="auf"/>
+      <morph tag="--"/>
+      <norm_broad tag="auf"/>
+    </tok_anno>
+  </token>
+  <token id="t161" trans="erttrich">
+    <tok_dipl id="t161_d1" trans="erttrich" utf="erttrich"/>
+    <tok_anno id="t161_m1" trans="erttrich" utf="erttrich" ascii="erttrich">
+      <norm tag="erdreich"/>
+      <pos tag="NN"/>
+      <lemma tag="Erdreich"/>
+      <morph tag="Neut.Acc.Sg"/>
+      <norm_broad tag="erdreich"/>
+    </tok_anno>
+  </token>
+  <token id="t162" trans="zu\o">
+    <tok_dipl id="t162_d1" trans="zu\o" utf="zuͦ"/>
+    <tok_anno id="t162_m1" trans="zu\o" utf="zuͦ" ascii="zuo">
+      <norm tag="zu"/>
+      <pos tag="APPR"/>
+      <lemma tag="zu"/>
+      <morph tag="--"/>
+      <norm_broad tag="zu"/>
+    </tok_anno>
+  </token>
+  <token id="t163" trans="mir">
+    <tok_dipl id="t163_d1" trans="mir" utf="mir"/>
+    <tok_anno id="t163_m1" trans="mir" utf="mir" ascii="mir">
+      <norm tag="mir"/>
+      <pos tag="PPER"/>
+      <lemma tag="ich"/>
+      <morph tag="1.Sg.*.Dat"/>
+      <norm_broad tag="mir"/>
+    </tok_anno>
+  </token>
+  <token id="t164" trans="$ante%.">
+    <tok_dipl id="t164_d1" trans="$ante%." utf="ſante·"/>
+    <tok_anno id="t164_m1" trans="$ante" utf="ſante" ascii="sante">
+      <norm tag="sandte"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="senden"/>
+      <morph tag="3.Sg.Past.Ind"/>
+      <norm_broad tag="sandte"/>
+    </tok_anno>
+    <tok_anno id="t164_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t165" trans="das">
+    <tok_dipl id="t165_d1" trans="das" utf="das"/>
+    <tok_anno id="t165_m1" trans="das" utf="das" ascii="das">
+      <norm tag="dass"/>
+      <pos tag="KOUS"/>
+      <lemma tag="dass"/>
+      <morph tag="--"/>
+      <norm_broad tag="dass"/>
+    </tok_anno>
+  </token>
+  <token id="t166" trans="du">
+    <tok_dipl id="t166_d1" trans="du" utf="du"/>
+    <tok_anno id="t166_m1" trans="du" utf="du" ascii="du">
+      <norm tag="du"/>
+      <pos tag="PPER"/>
+      <lemma tag="du"/>
+      <morph tag="2.Sg.*.Nom"/>
+      <norm_broad tag="du"/>
+    </tok_anno>
+  </token>
+  <token id="t167" trans="men$chliche">
+    <tok_dipl id="t167_d1" trans="men$chliche" utf="menſchliche"/>
+    <tok_anno id="t167_m1" trans="men$chliche" utf="menſchliche" ascii="menschliche">
+      <norm tag="menschliche"/>
+      <pos tag="ADJA"/>
+      <lemma tag="menschlich"/>
+      <morph tag="Pos.Fem.Acc.Sg"/>
+      <norm_broad tag="menschliche"/>
+    </tok_anno>
+  </token>
+  <token id="t168" trans="na=tur">
+    <tok_dipl id="t168_d1" trans="na=" utf="na="/>
+    <tok_dipl id="t168_d2" trans="tur" utf="tur"/>
+    <tok_anno id="t168_m1" trans="na=tur" utf="natur" ascii="natur">
+      <norm tag="natur"/>
+      <pos tag="NN"/>
+      <lemma tag="Natur"/>
+      <morph tag="Fem.Acc.Sg"/>
+      <norm_broad tag="natur"/>
+      <token_type tag="UH"/>
+    </tok_anno>
+  </token>
+  <token id="t169" trans="von">
+    <tok_dipl id="t169_d1" trans="von" utf="von"/>
+    <tok_anno id="t169_m1" trans="von" utf="von" ascii="von">
+      <norm tag="von"/>
+      <pos tag="APPR"/>
+      <lemma tag="von"/>
+      <morph tag="--"/>
+      <norm_broad tag="von"/>
+    </tok_anno>
+  </token>
+  <token id="t170" trans="mir">
+    <tok_dipl id="t170_d1" trans="mir" utf="mir"/>
+    <tok_anno id="t170_m1" trans="mir" utf="mir" ascii="mir">
+      <norm tag="mir"/>
+      <pos tag="PPER"/>
+      <lemma tag="ich"/>
+      <morph tag="1.Sg.*.Dat"/>
+      <norm_broad tag="mir"/>
+    </tok_anno>
+  </token>
+  <token id="t171" trans="name$t">
+    <tok_dipl id="t171_d1" trans="name$t" utf="nameſt"/>
+    <tok_anno id="t171_m1" trans="name$t" utf="nameſt" ascii="namest">
+      <norm tag="nahmst"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="nehmen"/>
+      <morph tag="2.Sg.Past.Ind"/>
+      <norm_broad tag="nahmst"/>
+    </tok_anno>
+  </token>
+  <token id="t172" trans="vnd">
+    <tok_dipl id="t172_d1" trans="vnd" utf="vnd"/>
+    <tok_anno id="t172_m1" trans="vnd" utf="vnd" ascii="vnd">
+      <norm tag="und"/>
+      <pos tag="KON"/>
+      <lemma tag="und"/>
+      <morph tag="--"/>
+      <norm_broad tag="und"/>
+    </tok_anno>
+  </token>
+  <token id="t173" trans="alle">
+    <tok_dipl id="t173_d1" trans="alle" utf="alle"/>
+    <tok_anno id="t173_m1" trans="alle" utf="alle" ascii="alle">
+      <norm tag="alle"/>
+      <norm_broad tag="all"/>
+      <norm_type tag="inflection"/>
+      <pos tag="PIAT"/>
+      <lemma tag="all"/>
+      <morph tag="Fem.Acc.Sg"/>
+    </tok_anno>
+  </token>
+  <token id="t174" trans="di$e">
+    <tok_dipl id="t174_d1" trans="di$e" utf="diſe"/>
+    <tok_anno id="t174_m1" trans="di$e" utf="diſe" ascii="dise">
+      <norm tag="diese"/>
+      <pos tag="PDAT"/>
+      <lemma tag="dies"/>
+      <morph tag="Fem.Acc.Sg"/>
+      <norm_broad tag="diese"/>
+    </tok_anno>
+  </token>
+  <token id="t175" trans="welt">
+    <tok_dipl id="t175_d1" trans="welt" utf="welt"/>
+    <tok_anno id="t175_m1" trans="welt" utf="welt" ascii="welt">
+      <norm tag="welt"/>
+      <pos tag="NN"/>
+      <lemma tag="Welt"/>
+      <morph tag="Fem.Acc.Sg"/>
+      <norm_broad tag="welt"/>
+    </tok_anno>
+  </token>
+  <token id="t176" trans="erlo\esest%.">
+    <tok_dipl id="t176_d1" trans="erlo\esest%." utf="erloͤsest·"/>
+    <tok_anno id="t176_m1" trans="erlo\esest" utf="erloͤsest" ascii="erloesest">
+      <norm tag="erlöst"/>
+      <norm_broad tag="erlöstest"/>
+      <norm_type tag="inflection"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="erlösen"/>
+      <morph tag="2.Sg.Pres.Ind"/>
+    </tok_anno>
+    <tok_anno id="t176_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t177" trans="Vn\-">
+    <tok_dipl id="t177_d1" trans="Vn\-" utf="Vn̄"/>
+    <tok_anno id="t177_m1" trans="Vn\-" utf="Vn̄" ascii="Ven">
+      <norm tag="und"/>
+      <pos tag="KON"/>
+      <lemma tag="und"/>
+      <morph tag="--"/>
+      <norm_broad tag="und"/>
+    </tok_anno>
+  </token>
+  <token id="t178" trans="do">
+    <tok_dipl id="t178_d1" trans="do" utf="do"/>
+    <tok_anno id="t178_m1" trans="do" utf="do" ascii="do">
+      <norm tag="da"/>
+      <pos tag="KOUS"/>
+      <norm_broad tag="als"/>
+      <norm_type tag="semantic"/>
+      <lemma tag="da"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t179" trans="ich">
+    <tok_dipl id="t179_d1" trans="ich" utf="ich"/>
+    <tok_anno id="t179_m1" trans="ich" utf="ich" ascii="ich">
+      <norm tag="ich"/>
+      <pos tag="PPER"/>
+      <lemma tag="ich"/>
+      <morph tag="1.Sg.*.Nom"/>
+      <norm_broad tag="ich"/>
+    </tok_anno>
+  </token>
+  <token id="t180" trans="die">
+    <tok_dipl id="t180_d1" trans="die" utf="die"/>
+    <tok_anno id="t180_m1" trans="die" utf="die" ascii="die">
+      <norm tag="die"/>
+      <pos tag="ART"/>
+      <lemma tag="d-"/>
+      <morph tag="*.Acc.Pl"/>
+      <norm_broad tag="die"/>
+    </tok_anno>
+  </token>
+  <token id="t181" trans="wort">
+    <tok_dipl id="t181_d1" trans="wort" utf="wort"/>
+    <tok_anno id="t181_m1" trans="wort" utf="wort" ascii="wort">
+      <norm tag="wort"/>
+      <norm_broad tag="worte"/>
+      <norm_type tag="inflection"/>
+      <pos tag="NN"/>
+      <lemma tag="Wort"/>
+      <morph tag="Neut.Acc.Pl"/>
+    </tok_anno>
+  </token>
+  <token id="t182" trans="zu\o">
+    <tok_dipl id="t182_d1" trans="zu\o" utf="zuͦ"/>
+    <tok_anno id="t182_m1" trans="zu\o" utf="zuͦ" ascii="zuo">
+      <norm tag="zu"/>
+      <pos tag="APPR"/>
+      <lemma tag="zu"/>
+      <morph tag="--"/>
+      <norm_broad tag="zu"/>
+    </tok_anno>
+  </token>
+  <token id="t183" trans="y\.m">
+    <tok_dipl id="t183_d1" trans="y\.m" utf="ẏm"/>
+    <tok_anno id="t183_m1" trans="y\.m" utf="ẏm" ascii="ym">
+      <norm tag="ihm"/>
+      <pos tag="PPER"/>
+      <lemma tag="er"/>
+      <morph tag="3.Sg.Masc.Dat"/>
+      <norm_broad tag="ihm"/>
+    </tok_anno>
+  </token>
+  <token id="t184" trans="$prach">
+    <tok_dipl id="t184_d1" trans="$prach" utf="ſprach"/>
+    <tok_anno id="t184_m1" trans="$prach" utf="ſprach" ascii="sprach">
+      <norm tag="sprach"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="sprechen"/>
+      <morph tag="1.Sg.Past.Ind"/>
+      <norm_broad tag="sprach"/>
+    </tok_anno>
+  </token>
+  <token id="t185" trans="do">
+    <tok_dipl id="t185_d1" trans="do" utf="do"/>
+    <tok_anno id="t185_m1" trans="do" utf="do" ascii="do">
+      <norm tag="da"/>
+      <pos tag="ADV"/>
+      <lemma tag="da"/>
+      <morph tag="--"/>
+      <norm_broad tag="da"/>
+    </tok_anno>
+  </token>
+  <token id="t186" trans="$chied">
+    <tok_dipl id="t186_d1" trans="$chied" utf="ſchied"/>
+    <tok_anno id="t186_m1" trans="$chied" utf="ſchied" ascii="schied">
+      <norm tag="schied"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="scheiden"/>
+      <morph tag="3.Sg.Past.Ind"/>
+      <norm_broad tag="schied"/>
+    </tok_anno>
+  </token>
+  <token id="t187" trans="er">
+    <tok_dipl id="t187_d1" trans="er" utf="er"/>
+    <tok_anno id="t187_m1" trans="er" utf="er" ascii="er">
+      <norm tag="er"/>
+      <pos tag="PPER"/>
+      <lemma tag="er"/>
+      <morph tag="3.Sg.Masc.Nom"/>
+      <norm_broad tag="er"/>
+    </tok_anno>
+  </token>
+  <token id="t188" trans="von">
+    <tok_dipl id="t188_d1" trans="von" utf="von"/>
+    <tok_anno id="t188_m1" trans="von" utf="von" ascii="von">
+      <norm tag="von"/>
+      <pos tag="APPR"/>
+      <lemma tag="von"/>
+      <morph tag="--"/>
+      <norm_broad tag="von"/>
+    </tok_anno>
+  </token>
+  <token id="t189" trans="mir">
+    <tok_dipl id="t189_d1" trans="mir" utf="mir"/>
+    <tok_anno id="t189_m1" trans="mir" utf="mir" ascii="mir">
+      <norm tag="mir"/>
+      <pos tag="PPER"/>
+      <lemma tag="ich"/>
+      <morph tag="1.Sg.*.Dat"/>
+      <norm_broad tag="mir"/>
+    </tok_anno>
+  </token>
+  <token id="t190" trans="Darnach">
+    <tok_dipl id="t190_d1" trans="Darnach" utf="Darnach"/>
+    <tok_anno id="t190_m1" trans="Darnach" utf="Darnach" ascii="Darnach">
+      <norm tag="danach"/>
+      <pos tag="PAV"/>
+      <lemma tag="danach"/>
+      <morph tag="--"/>
+      <norm_broad tag="danach"/>
+    </tok_anno>
+  </token>
+  <token id="t191" trans="do">
+    <tok_dipl id="t191_d1" trans="do" utf="do"/>
+    <tok_anno id="t191_m1" trans="do" utf="do" ascii="do">
+      <norm tag="da"/>
+      <pos tag="ADV"/>
+      <lemma tag="da"/>
+      <morph tag="--"/>
+      <norm_broad tag="da"/>
+    </tok_anno>
+  </token>
+  <token id="t192" trans="kamen">
+    <tok_dipl id="t192_d1" trans="kamen" utf="kamen"/>
+    <tok_anno id="t192_m1" trans="kamen" utf="kamen" ascii="kamen">
+      <norm tag="kamen"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="kommen"/>
+      <morph tag="3.Pl.Past.Ind"/>
+      <norm_broad tag="kamen"/>
+    </tok_anno>
+  </token>
+  <token id="t193" trans="die">
+    <tok_dipl id="t193_d1" trans="die" utf="die"/>
+    <tok_anno id="t193_m1" trans="die" utf="die" ascii="die">
+      <norm tag="die"/>
+      <pos tag="ART"/>
+      <lemma tag="d-"/>
+      <morph tag="*.Nom.Pl"/>
+      <norm_broad tag="die"/>
+    </tok_anno>
+  </token>
+  <token id="t194" trans="zwo\elff">
+    <tok_dipl id="t194_d1" trans="zwo\elff" utf="zwoͤlff"/>
+    <tok_anno id="t194_m1" trans="zwo\elff" utf="zwoͤlff" ascii="zwoelff">
+      <norm tag="zwölf"/>
+      <pos tag="CARD"/>
+      <lemma tag="zwölf"/>
+      <morph tag="--"/>
+      <norm_broad tag="zwölf"/>
+    </tok_anno>
+  </token>
+  <token id="t195" trans="po(=)ten%.">
+    <tok_dipl id="t195_d1" trans="po(=)" utf="po"/>
+    <tok_dipl id="t195_d2" trans="ten%." utf="ten·"/>
+    <tok_anno id="t195_m1" trans="po(=)ten" utf="poten" ascii="poten">
+      <norm tag="boten"/>
+      <pos tag="NN"/>
+      <lemma tag="Bote"/>
+      <morph tag="Masc.Nom.Pl"/>
+      <norm_broad tag="boten"/>
+      <token_type tag="UL"/>
+    </tok_anno>
+    <tok_anno id="t195_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t196" trans="vn\-">
+    <tok_dipl id="t196_d1" trans="vn\-" utf="vn̄"/>
+    <tok_anno id="t196_m1" trans="vn\-" utf="vn̄" ascii="vnd">
+      <norm tag="und"/>
+      <pos tag="KON"/>
+      <lemma tag="und"/>
+      <morph tag="--"/>
+      <norm_broad tag="und"/>
+    </tok_anno>
+  </token>
+  <token id="t197" trans="mein">
+    <tok_dipl id="t197_d1" trans="mein" utf="mein"/>
+    <tok_anno id="t197_m1" trans="mein" utf="mein" ascii="mein">
+      <norm tag="mein"/>
+      <norm_broad tag="meine"/>
+      <norm_type tag="inflection"/>
+      <pos tag="PPOSAT"/>
+      <lemma tag="mein"/>
+      <morph tag="Fem.Nom.Sg"/>
+    </tok_anno>
+  </token>
+  <token id="t198" trans="$chwe$ter">
+    <tok_dipl id="t198_d1" trans="$chwe$ter" utf="ſchweſter"/>
+    <tok_anno id="t198_m1" trans="$chwe$ter" utf="ſchweſter" ascii="schwester">
+      <norm tag="schwester"/>
+      <pos tag="NN"/>
+      <lemma tag="Schwester"/>
+      <morph tag="Fem.Nom.Sg"/>
+      <norm_broad tag="schwester"/>
+    </tok_anno>
+  </token>
+  <token id="t199" trans="vn\-">
+    <tok_dipl id="t199_d1" trans="vn\-" utf="vn̄"/>
+    <tok_anno id="t199_m1" trans="vn\-" utf="vn̄" ascii="vnd">
+      <norm tag="und"/>
+      <pos tag="KON"/>
+      <lemma tag="und"/>
+      <morph tag="--"/>
+      <norm_broad tag="und"/>
+    </tok_anno>
+  </token>
+  <token id="t200" trans="maria">
+    <tok_dipl id="t200_d1" trans="maria" utf="maria"/>
+    <tok_anno id="t200_m1" trans="maria" utf="maria" ascii="maria">
+      <norm tag="maria"/>
+      <pos tag="NE"/>
+      <lemma tag="Maria"/>
+      <morph tag="Fem.Nom.Sg"/>
+      <norm_broad tag="maria"/>
+    </tok_anno>
+  </token>
+  <token id="t201" trans="magdalena">
+    <tok_dipl id="t201_d1" trans="magdalena" utf="magdalena"/>
+    <tok_anno id="t201_m1" trans="magdalena" utf="magdalena" ascii="magdalena">
+      <norm tag="magdalena"/>
+      <pos tag="NE"/>
+      <lemma tag="Magdalena"/>
+      <morph tag="Fem.Nom.Sg"/>
+      <norm_broad tag="magdalena"/>
+    </tok_anno>
+  </token>
+  <token id="t202" trans="vn\-">
+    <tok_dipl id="t202_d1" trans="vn\-" utf="vn̄"/>
+    <tok_anno id="t202_m1" trans="vn\-" utf="vn̄" ascii="vnd">
+      <norm tag="und"/>
+      <pos tag="KON"/>
+      <lemma tag="und"/>
+      <morph tag="--"/>
+      <norm_broad tag="und"/>
+    </tok_anno>
+  </token>
+  <token id="t203" trans="$agten">
+    <tok_dipl id="t203_d1" trans="$agten" utf="ſagten"/>
+    <tok_anno id="t203_m1" trans="$agten" utf="ſagten" ascii="sagten">
+      <norm tag="sagten"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="sagen"/>
+      <morph tag="3.Pl.Past.Ind"/>
+      <norm_broad tag="sagten"/>
+    </tok_anno>
+  </token>
+  <token id="t204" trans="mir">
+    <tok_dipl id="t204_d1" trans="mir" utf="mir"/>
+    <tok_anno id="t204_m1" trans="mir" utf="mir" ascii="mir">
+      <norm tag="mir"/>
+      <pos tag="PPER"/>
+      <lemma tag="ich"/>
+      <morph tag="1.Sg.*.Dat"/>
+      <norm_broad tag="mir"/>
+    </tok_anno>
+  </token>
+  <token id="t205" trans="das">
+    <tok_dipl id="t205_d1" trans="das" utf="das"/>
+    <tok_anno id="t205_m1" trans="das" utf="das" ascii="das">
+      <norm tag="dass"/>
+      <pos tag="KOUS"/>
+      <lemma tag="dass"/>
+      <morph tag="--"/>
+      <norm_broad tag="dass"/>
+    </tok_anno>
+  </token>
+  <token id="t206" trans="$y\:">
+    <tok_dipl id="t206_d1" trans="$y\:" utf="ſÿ"/>
+    <tok_anno id="t206_m1" trans="$y\:" utf="ſÿ" ascii="sy">
+      <norm tag="sie"/>
+      <pos tag="PPER"/>
+      <lemma tag="sie"/>
+      <morph tag="3.Pl.*.Nom"/>
+      <norm_broad tag="sie"/>
+    </tok_anno>
+  </token>
+  <token id="t207" trans="y\:n">
+    <tok_dipl id="t207_d1" trans="y\:n" utf="ÿn"/>
+    <tok_anno id="t207_m1" trans="y\:n" utf="ÿn" ascii="yn">
+      <norm tag="ihn"/>
+      <pos tag="PPER"/>
+      <lemma tag="er"/>
+      <morph tag="3.Sg.Masc.Acc"/>
+      <norm_broad tag="ihn"/>
+    </tok_anno>
+  </token>
+  <token id="t208" trans="ge$ehen">
+    <tok_dipl id="t208_d1" trans="ge$ehen" utf="geſehen"/>
+    <tok_anno id="t208_m1" trans="ge$ehen" utf="geſehen" ascii="gesehen">
+      <norm tag="gesehen"/>
+      <pos tag="VVPP"/>
+      <lemma tag="sehen"/>
+      <morph tag="--"/>
+      <norm_broad tag="gesehen"/>
+    </tok_anno>
+  </token>
+  <token id="t209" trans="hetten%.">
+    <tok_dipl id="t209_d1" trans="hetten%." utf="hetten·"/>
+    <tok_anno id="t209_m1" trans="hetten" utf="hetten" ascii="hetten">
+      <norm tag="hätten"/>
+      <pos tag="VAFIN"/>
+      <lemma tag="haben"/>
+      <morph tag="3.Pl.Past.Subj"/>
+      <norm_broad tag="hätten"/>
+    </tok_anno>
+    <tok_anno id="t209_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t210" trans="do">
+    <tok_dipl id="t210_d1" trans="do" utf="do"/>
+    <tok_anno id="t210_m1" trans="do" utf="do" ascii="do">
+      <norm tag="da"/>
+      <pos tag="ADV"/>
+      <lemma tag="da"/>
+      <morph tag="--"/>
+      <norm_broad tag="da"/>
+    </tok_anno>
+  </token>
+  <token id="t211" trans="$aget">
+    <tok_dipl id="t211_d1" trans="$aget" utf="ſaget"/>
+    <tok_anno id="t211_m1" trans="$aget" utf="ſaget" ascii="saget">
+      <norm tag="sagt"/>
+      <norm_broad tag="sagte"/>
+      <norm_type tag="inflection"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="sagen"/>
+      <morph tag="1.Sg.Past.Ind"/>
+    </tok_anno>
+  </token>
+  <token id="t212" trans="ich">
+    <tok_dipl id="t212_d1" trans="ich" utf="ich"/>
+    <tok_anno id="t212_m1" trans="ich" utf="ich" ascii="ich">
+      <norm tag="ich"/>
+      <pos tag="PPER"/>
+      <lemma tag="ich"/>
+      <morph tag="1.Sg.*.Nom"/>
+      <norm_broad tag="ich"/>
+    </tok_anno>
+  </token>
+  <token id="t213" trans="y\:n">
+    <tok_dipl id="t213_d1" trans="y\:n" utf="ÿn"/>
+    <tok_anno id="t213_m1" trans="y\:n" utf="ÿn" ascii="yn">
+      <norm tag="ihn"/>
+      <norm_broad tag="ihnen"/>
+      <norm_type tag="inflection"/>
+      <pos tag="PPER"/>
+      <lemma tag="sie"/>
+      <morph tag="3.Pl.*.Dat"/>
+    </tok_anno>
+  </token>
+  <token id="t214" trans="auch">
+    <tok_dipl id="t214_d1" trans="auch" utf="auch"/>
+    <tok_anno id="t214_m1" trans="auch" utf="auch" ascii="auch">
+      <norm tag="auch"/>
+      <pos tag="ADV"/>
+      <lemma tag="auch"/>
+      <morph tag="--"/>
+      <norm_broad tag="auch"/>
+    </tok_anno>
+  </token>
+  <token id="t215" trans="das">
+    <tok_dipl id="t215_d1" trans="das" utf="das"/>
+    <tok_anno id="t215_m1" trans="das" utf="das" ascii="das">
+      <norm tag="dass"/>
+      <pos tag="KOUS"/>
+      <lemma tag="dass"/>
+      <morph tag="--"/>
+      <norm_broad tag="dass"/>
+    </tok_anno>
+  </token>
+  <token id="t216" trans="ich">
+    <tok_dipl id="t216_d1" trans="ich" utf="ich"/>
+    <tok_anno id="t216_m1" trans="ich" utf="ich" ascii="ich">
+      <norm tag="ich"/>
+      <pos tag="PPER"/>
+      <lemma tag="ich"/>
+      <morph tag="1.Sg.*.Nom"/>
+      <norm_broad tag="ich"/>
+    </tok_anno>
+  </token>
+  <token id="t217" trans="y\:n">
+    <tok_dipl id="t217_d1" trans="y\:n" utf="ÿn"/>
+    <tok_anno id="t217_m1" trans="y\:n" utf="ÿn" ascii="yn">
+      <norm tag="ihn"/>
+      <pos tag="PPER"/>
+      <lemma tag="er"/>
+      <morph tag="3.Sg.Masc.Acc"/>
+      <norm_broad tag="ihn"/>
+    </tok_anno>
+  </token>
+  <token id="t218" trans="ge$ehen">
+    <tok_dipl id="t218_d1" trans="ge$ehen" utf="geſehen"/>
+    <tok_anno id="t218_m1" trans="ge$ehen" utf="geſehen" ascii="gesehen">
+      <norm tag="gesehen"/>
+      <pos tag="VVPP"/>
+      <lemma tag="sehen"/>
+      <morph tag="--"/>
+      <norm_broad tag="gesehen"/>
+    </tok_anno>
+  </token>
+  <token id="t219" trans="hette%.">
+    <tok_dipl id="t219_d1" trans="hette%." utf="hette·"/>
+    <tok_anno id="t219_m1" trans="hette" utf="hette" ascii="hette">
+      <norm tag="hätte"/>
+      <pos tag="VAFIN"/>
+      <lemma tag="haben"/>
+      <morph tag="1.Sg.Past.Subj"/>
+      <norm_broad tag="hätte"/>
+    </tok_anno>
+    <tok_anno id="t219_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t220" trans="$o">
+    <tok_dipl id="t220_d1" trans="$o" utf="ſo"/>
+    <tok_anno id="t220_m1" trans="$o" utf="ſo" ascii="so">
+      <norm tag="so"/>
+      <pos tag="ADV"/>
+      <lemma tag="so"/>
+      <morph tag="--"/>
+      <norm_broad tag="so"/>
+    </tok_anno>
+  </token>
+  <token id="t221" trans="mit">
+    <tok_dipl id="t221_d1" trans="mit" utf="mit"/>
+    <tok_anno id="t221_m1" trans="mit" utf="mit" ascii="mit">
+      <norm tag="mit"/>
+      <pos tag="APPR"/>
+      <lemma tag="mit"/>
+      <morph tag="--"/>
+      <norm_broad tag="mit"/>
+    </tok_anno>
+  </token>
+  <token id="t222" trans="gro$$en">
+    <tok_dipl id="t222_d1" trans="gro$$en" utf="groſſen"/>
+    <tok_anno id="t222_m1" trans="gro$$en" utf="groſſen" ascii="grossen">
+      <norm tag="großen"/>
+      <pos tag="ADJA"/>
+      <lemma tag="groß"/>
+      <morph tag="Pos.*.Dat.Pl"/>
+      <norm_broad tag="großen"/>
+    </tok_anno>
+  </token>
+  <token id="t223" trans="gnaden%.">
+    <tok_dipl id="t223_d1" trans="gnaden%." utf="gnaden·"/>
+    <tok_anno id="t223_m1" trans="gnaden" utf="gnaden" ascii="gnaden">
+      <norm tag="gnaden"/>
+      <pos tag="NN"/>
+      <lemma tag="Gnade"/>
+      <morph tag="Fem.Dat.Pl"/>
+      <norm_broad tag="gnaden"/>
+    </tok_anno>
+    <tok_anno id="t223_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t224" trans="do">
+    <tok_dipl id="t224_d1" trans="do" utf="do"/>
+    <tok_anno id="t224_m1" trans="do" utf="do" ascii="do">
+      <norm tag="da"/>
+      <pos tag="ADV"/>
+      <lemma tag="da"/>
+      <morph tag="--"/>
+      <norm_broad tag="da"/>
+    </tok_anno>
+  </token>
+  <token id="t225" trans="hetten">
+    <tok_dipl id="t225_d1" trans="hetten" utf="hetten"/>
+    <tok_anno id="t225_m1" trans="hetten" utf="hetten" ascii="hetten">
+      <norm tag="hatten"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="haben"/>
+      <morph tag="3.Pl.Past.Ind"/>
+      <norm_broad tag="hatten"/>
+    </tok_anno>
+  </token>
+  <token id="t226" trans="sy\:">
+    <tok_dipl id="t226_d1" trans="sy\:" utf="sÿ"/>
+    <tok_anno id="t226_m1" trans="sy\:" utf="sÿ" ascii="sy">
+      <norm tag="sie"/>
+      <pos tag="PPER"/>
+      <lemma tag="sie"/>
+      <morph tag="3.Pl.*.Nom"/>
+      <norm_broad tag="sie"/>
+    </tok_anno>
+  </token>
+  <token id="t227" trans="gro$$e">
+    <tok_dipl id="t227_d1" trans="gro$$e" utf="groſſe"/>
+    <tok_anno id="t227_m1" trans="gro$$e" utf="groſſe" ascii="grosse">
+      <norm tag="große"/>
+      <pos tag="ADJA"/>
+      <lemma tag="groß"/>
+      <morph tag="Pos.Fem.Acc.Sg"/>
+      <norm_broad tag="große"/>
+    </tok_anno>
+  </token>
+  <token id="t228" trans="freüd">
+    <tok_dipl id="t228_d1" trans="freüd" utf="freüd"/>
+    <tok_anno id="t228_m1" trans="freüd" utf="freüd" ascii="freüd">
+      <norm tag="freude"/>
+      <pos tag="NN"/>
+      <lemma tag="Freude"/>
+      <morph tag="Fem.Acc.Sg"/>
+      <norm_broad tag="freude"/>
+    </tok_anno>
+  </token>
+  <token id="t229" trans="von">
+    <tok_dipl id="t229_d1" trans="von" utf="von"/>
+    <tok_anno id="t229_m1" trans="von" utf="von" ascii="von">
+      <norm tag="von"/>
+      <pos tag="APPR"/>
+      <lemma tag="von"/>
+      <morph tag="--"/>
+      <norm_broad tag="von"/>
+    </tok_anno>
+  </token>
+  <token id="t230" trans="meinem">
+    <tok_dipl id="t230_d1" trans="meinem" utf="meinem"/>
+    <tok_anno id="t230_m1" trans="meinem" utf="meinem" ascii="meinem">
+      <norm tag="meinem"/>
+      <pos tag="PPOSAT"/>
+      <norm_broad tag="meiner"/>
+      <norm_type tag="inflection"/>
+      <lemma tag="mein"/>
+      <morph tag="Neut.Dat.Sg"/>
+    </tok_anno>
+  </token>
+  <token id="t231" trans="ge$icht">
+    <tok_dipl id="t231_d1" trans="ge$icht" utf="geſicht"/>
+    <tok_anno id="t231_m1" trans="ge$icht" utf="geſicht" ascii="gesicht">
+      <norm tag="gesicht"/>
+      <pos tag="NN"/>
+      <norm_broad tag="erscheinung"/>
+      <norm_type tag="semantic"/>
+      <lemma tag="Gesicht"/>
+      <morph tag="Neut.Dat.Sg"/>
+    </tok_anno>
+  </token>
+  <token id="t232" trans="Wir">
+    <tok_dipl id="t232_d1" trans="Wir" utf="Wir"/>
+    <tok_anno id="t232_m1" trans="Wir" utf="Wir" ascii="Wir">
+      <norm tag="wir"/>
+      <pos tag="PPER"/>
+      <lemma tag="wir"/>
+      <morph tag="1.Pl.*.Nom"/>
+      <norm_broad tag="wir"/>
+    </tok_anno>
+  </token>
+  <token id="t233" trans="freüten">
+    <tok_dipl id="t233_d1" trans="freüten" utf="freüten"/>
+    <tok_anno id="t233_m1" trans="freüten" utf="freüten" ascii="freüten">
+      <norm tag="freuten"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="freuen"/>
+      <morph tag="1.Pl.Past.Ind"/>
+      <norm_broad tag="freuten"/>
+    </tok_anno>
+  </token>
+  <token id="t234" trans="un$z">
+    <tok_dipl id="t234_d1" trans="un$z" utf="unſz"/>
+    <tok_anno id="t234_m1" trans="un$z" utf="unſz" ascii="unsz">
+      <norm tag="uns"/>
+      <pos tag="PRF"/>
+      <lemma tag="wir"/>
+      <morph tag="1.Pl.Acc"/>
+      <norm_broad tag="uns"/>
+    </tok_anno>
+  </token>
+  <token id="t235" trans="nit">
+    <tok_dipl id="t235_d1" trans="nit" utf="nit"/>
+    <tok_anno id="t235_m1" trans="nit" utf="nit" ascii="nit">
+      <norm tag="nicht"/>
+      <pos tag="PTKNEG"/>
+      <lemma tag="nicht"/>
+      <morph tag="--"/>
+      <norm_broad tag="nicht"/>
+    </tok_anno>
+  </token>
+  <token id="t236" trans="allein%.">
+    <tok_dipl id="t236_d1" trans="allein%." utf="allein·"/>
+    <tok_anno id="t236_m1" trans="allein" utf="allein" ascii="allein">
+      <norm tag="allein"/>
+      <pos tag="ADJD"/>
+      <lemma tag="allein"/>
+      <morph tag="Pos"/>
+      <norm_broad tag="allein"/>
+    </tok_anno>
+    <tok_anno id="t236_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t237" trans="die">
+    <tok_dipl id="t237_d1" trans="die" utf="die"/>
+    <tok_anno id="t237_m1" trans="die" utf="die" ascii="die">
+      <norm tag="die"/>
+      <pos tag="ART"/>
+      <lemma tag="d-"/>
+      <morph tag="Fem.Nom.Sg"/>
+      <norm_broad tag="die"/>
+    </tok_anno>
+  </token>
+  <token id="t238" trans="$u(=)nen">
+    <tok_dipl id="t238_d1" trans="$u(=)" utf="ſu"/>
+    <tok_dipl id="t238_d2" trans="nen" utf="nen"/>
+    <tok_anno id="t238_m1" trans="$u(=)nen" utf="ſunen" ascii="sunen">
+      <norm tag="sonnen"/>
+      <norm_broad tag="sonne"/>
+      <norm_type tag="inflection"/>
+      <pos tag="NN"/>
+      <lemma tag="Sonne"/>
+      <morph tag="Fem.Nom.Sg"/>
+      <token_type tag="UL"/>
+    </tok_anno>
+  </token>
+  <token id="t239" trans="ward">
+    <tok_dipl id="t239_d1" trans="ward" utf="ward"/>
+    <tok_anno id="t239_m1" trans="ward" utf="ward" ascii="ward">
+      <norm tag="ward"/>
+      <norm_broad tag="begann"/>
+      <norm_type tag="semantic"/>
+      <pos tag="VAFIN"/>
+      <lemma tag="werden"/>
+      <morph tag="3.Sg.Past.Ind"/>
+    </tok_anno>
+  </token>
+  <token id="t240" trans="$ich">
+    <tok_dipl id="t240_d1" trans="$ich" utf="ſich"/>
+    <tok_anno id="t240_m1" trans="$ich" utf="ſich" ascii="sich">
+      <norm tag="sich"/>
+      <pos tag="PRF"/>
+      <lemma tag="sich"/>
+      <morph tag="3.Sg.Acc"/>
+      <norm_broad tag="sich"/>
+    </tok_anno>
+  </token>
+  <token id="t241" trans="freüwen%.">
+    <tok_dipl id="t241_d1" trans="freüwen%." utf="freüwen·"/>
+    <tok_anno id="t241_m1" trans="freüwen" utf="freüwen" ascii="freüwen">
+      <norm tag="freuen"/>
+      <pos tag="VVINF"/>
+      <lemma tag="freuen"/>
+      <morph tag="--"/>
+      <norm_broad tag="freuen"/>
+    </tok_anno>
+    <tok_anno id="t241_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t242" trans="doch">
+    <tok_dipl id="t242_d1" trans="doch" utf="doch"/>
+    <tok_anno id="t242_m1" trans="doch" utf="doch" ascii="doch">
+      <norm tag="doch"/>
+      <pos tag="KON"/>
+      <lemma tag="doch"/>
+      <morph tag="--"/>
+      <norm_broad tag="doch"/>
+    </tok_anno>
+  </token>
+  <token id="t243" trans="ge=wan">
+    <tok_dipl id="t243_d1" trans="ge=" utf="ge="/>
+    <tok_dipl id="t243_d2" trans="wan" utf="wan"/>
+    <tok_anno id="t243_m1" trans="ge=wan" utf="gewan" ascii="gewan">
+      <norm tag="gewann"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="gewinnen"/>
+      <morph tag="3.Sg.Past.Ind"/>
+      <norm_broad tag="gewann"/>
+      <token_type tag="UH"/>
+    </tok_anno>
+  </token>
+  <token id="t244" trans="$y\:">
+    <tok_dipl id="t244_d1" trans="$y\:" utf="ſÿ"/>
+    <tok_anno id="t244_m1" trans="$y\:" utf="ſÿ" ascii="sy">
+      <norm tag="sie"/>
+      <pos tag="PPER"/>
+      <lemma tag="sie"/>
+      <morph tag="3.Sg.Fem.Nom"/>
+      <norm_broad tag="sie"/>
+    </tok_anno>
+  </token>
+  <token id="t245" trans="nit">
+    <tok_dipl id="t245_d1" trans="nit" utf="nit"/>
+    <tok_anno id="t245_m1" trans="nit" utf="nit" ascii="nit">
+      <norm tag="nicht"/>
+      <pos tag="PTKNEG"/>
+      <lemma tag="nicht"/>
+      <morph tag="--"/>
+      <norm_broad tag="nicht"/>
+    </tok_anno>
+  </token>
+  <token id="t246" trans="allen">
+    <tok_dipl id="t246_d1" trans="allen" utf="allen"/>
+    <tok_anno id="t246_m1" trans="allen" utf="allen" ascii="allen">
+      <norm tag="allen"/>
+      <norm_broad tag="all"/>
+      <norm_type tag="inflection"/>
+      <pos tag="PIAT"/>
+      <lemma tag="all"/>
+      <morph tag="Masc.Acc.Sg"/>
+    </tok_anno>
+  </token>
+  <token id="t247" trans="iren">
+    <tok_dipl id="t247_d1" trans="iren" utf="iren"/>
+    <tok_anno id="t247_m1" trans="iren" utf="iren" ascii="iren">
+      <norm tag="ihren"/>
+      <pos tag="PPOSAT"/>
+      <lemma tag="ihr"/>
+      <morph tag="Masc.Acc.Sg"/>
+      <norm_broad tag="ihren"/>
+    </tok_anno>
+  </token>
+  <token id="t248" trans="$chein%.">
+    <tok_dipl id="t248_d1" trans="$chein%." utf="ſchein·"/>
+    <tok_anno id="t248_m1" trans="$chein" utf="ſchein" ascii="schein">
+      <norm tag="schein"/>
+      <pos tag="NN"/>
+      <lemma tag="Schein"/>
+      <morph tag="Masc.Acc.Sg"/>
+      <norm_broad tag="schein"/>
+    </tok_anno>
+    <tok_anno id="t248_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t249" trans="Doch">
+    <tok_dipl id="t249_d1" trans="Doch" utf="Doch"/>
+    <tok_anno id="t249_m1" trans="Doch" utf="Doch" ascii="Doch">
+      <norm tag="doch"/>
+      <pos tag="KON"/>
+      <lemma tag="doch"/>
+      <morph tag="--"/>
+      <norm_broad tag="doch"/>
+    </tok_anno>
+  </token>
+  <token id="t250" trans="$ach">
+    <tok_dipl id="t250_d1" trans="$ach" utf="ſach"/>
+    <tok_anno id="t250_m1" trans="$ach" utf="ſach" ascii="sach">
+      <norm tag="sah"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="sehen"/>
+      <morph tag="3.Sg.Past.Ind"/>
+      <norm_broad tag="sah"/>
+    </tok_anno>
+  </token>
+  <token id="t251" trans="man">
+    <tok_dipl id="t251_d1" trans="man" utf="man"/>
+    <tok_anno id="t251_m1" trans="man" utf="man" ascii="man">
+      <norm tag="man"/>
+      <pos tag="PIS"/>
+      <lemma tag="man"/>
+      <morph tag="*.Nom.Sg"/>
+      <norm_broad tag="man"/>
+    </tok_anno>
+  </token>
+  <token id="t252" trans="$y\:">
+    <tok_dipl id="t252_d1" trans="$y\:" utf="ſÿ"/>
+    <tok_anno id="t252_m1" trans="$y\:" utf="ſÿ" ascii="sy">
+      <norm tag="sie"/>
+      <pos tag="PPER"/>
+      <lemma tag="sie"/>
+      <morph tag="3.Sg.Fem.Acc"/>
+      <norm_broad tag="sie"/>
+    </tok_anno>
+  </token>
+  <token id="t253" trans="fro\elich">
+    <tok_dipl id="t253_d1" trans="fro\elich" utf="froͤlich"/>
+    <tok_anno id="t253_m1" trans="fro\elich" utf="froͤlich" ascii="froelich">
+      <norm tag="fröhlich"/>
+      <pos tag="ADJD"/>
+      <lemma tag="fröhlich"/>
+      <morph tag="Pos"/>
+      <norm_broad tag="fröhlich"/>
+    </tok_anno>
+  </token>
+  <token id="t254" trans="an">
+    <tok_dipl id="t254_d1" trans="an" utf="an"/>
+    <tok_anno id="t254_m1" trans="an" utf="an" ascii="an">
+      <norm tag="an"/>
+      <pos tag="APPR"/>
+      <lemma tag="an"/>
+      <morph tag="--"/>
+      <norm_broad tag="an"/>
+    </tok_anno>
+  </token>
+  <token id="t255" trans="irem">
+    <tok_dipl id="t255_d1" trans="irem" utf="irem"/>
+    <tok_anno id="t255_m1" trans="irem" utf="irem" ascii="irem">
+      <norm tag="ihrem"/>
+      <pos tag="PPOSAT"/>
+      <lemma tag="ihr"/>
+      <morph tag="Masc.Dat.Sg"/>
+      <norm_broad tag="ihrem"/>
+    </tok_anno>
+  </token>
+  <token id="t256" trans="auff=gang">
+    <tok_dipl id="t256_d1" trans="auff=" utf="auff="/>
+    <tok_dipl id="t256_d2" trans="gang" utf="gang"/>
+    <tok_anno id="t256_m1" trans="auff=gang" utf="auffgang" ascii="auffgang">
+      <norm tag="aufgang"/>
+      <pos tag="NN"/>
+      <lemma tag="Aufgang"/>
+      <morph tag="Masc.Dat.Sg"/>
+      <norm_broad tag="aufgang"/>
+      <token_type tag="UH"/>
+    </tok_anno>
+  </token>
+  <token id="t257" trans="$pilen%.">
+    <tok_dipl id="t257_d1" trans="$pilen%." utf="ſpilen·"/>
+    <tok_anno id="t257_m1" trans="$pilen" utf="ſpilen" ascii="spilen">
+      <norm tag="spielen"/>
+      <pos tag="VVINF"/>
+      <lemma tag="spielen"/>
+      <morph tag="--"/>
+      <norm_broad tag="spielen"/>
+    </tok_anno>
+    <tok_anno id="t257_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t258" trans="Die">
+    <tok_dipl id="t258_d1" trans="Die" utf="Die"/>
+    <tok_anno id="t258_m1" trans="Die" utf="Die" ascii="Die">
+      <norm tag="die"/>
+      <pos tag="ART"/>
+      <lemma tag="d-"/>
+      <morph tag="Fem.Nom.Sg"/>
+      <norm_broad tag="die"/>
+    </tok_anno>
+  </token>
+  <token id="t259" trans="erd">
+    <tok_dipl id="t259_d1" trans="erd" utf="erd"/>
+    <tok_anno id="t259_m1" trans="erd" utf="erd" ascii="erd">
+      <norm tag="erde"/>
+      <pos tag="NN"/>
+      <lemma tag="Erde"/>
+      <morph tag="Fem.Nom.Sg"/>
+      <norm_broad tag="erde"/>
+    </tok_anno>
+  </token>
+  <token id="t260" trans="die">
+    <tok_dipl id="t260_d1" trans="die" utf="die"/>
+    <tok_anno id="t260_m1" trans="die" utf="die" ascii="die">
+      <norm tag="die"/>
+      <pos tag="PRELS"/>
+      <lemma tag="d-"/>
+      <morph tag="Fem.Nom.Sg"/>
+      <norm_broad tag="die"/>
+    </tok_anno>
+  </token>
+  <token id="t261" trans="$ich">
+    <tok_dipl id="t261_d1" trans="$ich" utf="ſich"/>
+    <tok_anno id="t261_m1" trans="$ich" utf="ſich" ascii="sich">
+      <norm tag="sich"/>
+      <pos tag="PRF"/>
+      <lemma tag="sich"/>
+      <morph tag="3.Sg.Acc"/>
+      <norm_broad tag="sich"/>
+    </tok_anno>
+  </token>
+  <token id="t262" trans="von">
+    <tok_dipl id="t262_d1" trans="von" utf="von"/>
+    <tok_anno id="t262_m1" trans="von" utf="von" ascii="von">
+      <norm tag="von"/>
+      <pos tag="APPR"/>
+      <norm_broad tag="durch"/>
+      <norm_type tag="semantic"/>
+      <lemma tag="von"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t263" trans="meins">
+    <tok_dipl id="t263_d1" trans="meins" utf="meins"/>
+    <tok_anno id="t263_m1" trans="meins" utf="meins" ascii="meins">
+      <norm tag="meines"/>
+      <pos tag="PPOSAT"/>
+      <lemma tag="mein"/>
+      <morph tag="Neut.Gen.Sg"/>
+      <norm_broad tag="meines"/>
+    </tok_anno>
+  </token>
+  <token id="t264" trans="kindes">
+    <tok_dipl id="t264_d1" trans="kindes" utf="kindes"/>
+    <tok_anno id="t264_m1" trans="kindes" utf="kindes" ascii="kindes">
+      <norm tag="kindes"/>
+      <pos tag="NN"/>
+      <lemma tag="Kind"/>
+      <morph tag="Neut.Gen.Sg"/>
+      <norm_broad tag="kindes"/>
+    </tok_anno>
+  </token>
+  <token id="t265" trans="tod">
+    <tok_dipl id="t265_d1" trans="tod" utf="tod"/>
+    <tok_anno id="t265_m1" trans="tod" utf="tod" ascii="tod">
+      <norm tag="tod"/>
+      <pos tag="NN"/>
+      <lemma tag="Tod"/>
+      <morph tag="Masc.Dat.Sg"/>
+      <norm_broad tag="tod"/>
+    </tok_anno>
+  </token>
+  <token id="t266" trans="er$chüt">
+    <tok_dipl id="t266_d1" trans="er$chüt" utf="erſchüt"/>
+    <tok_anno id="t266_m1" trans="er$chüt" utf="erſchüt" ascii="erschüt">
+      <norm tag="erschüte"/>
+      <pos tag="VVPP"/>
+      <lemma tag="erschüten"/>
+      <norm_broad tag="erschüttert"/>
+      <norm_type tag="extinct"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t267" trans="hat">
+    <tok_dipl id="t267_d1" trans="hat" utf="hat"/>
+    <tok_anno id="t267_m1" trans="hat" utf="hat" ascii="hat">
+      <norm tag="hat"/>
+      <norm_broad tag="hatte"/>
+      <norm_type tag="inflection"/>
+      <pos tag="VAFIN"/>
+      <lemma tag="haben"/>
+      <morph tag="3.Sg.Past.Ind"/>
+    </tok_anno>
+  </token>
+  <token id="t268" trans="die">
+    <tok_dipl id="t268_d1" trans="die" utf="die"/>
+    <tok_anno id="t268_m1" trans="die" utf="die" ascii="die">
+      <norm tag="die"/>
+      <pos tag="PDS"/>
+      <lemma tag="d-"/>
+      <morph tag="Fem.Nom.Sg"/>
+      <norm_broad tag="die"/>
+    </tok_anno>
+  </token>
+  <token id="t269" trans="freüwet">
+    <tok_dipl id="t269_d1" trans="freüwet" utf="freüwet"/>
+    <tok_anno id="t269_m1" trans="freüwet" utf="freüwet" ascii="freüwet">
+      <norm tag="freut"/>
+      <norm_broad tag="freute"/>
+      <norm_type tag="inflection"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="freuen"/>
+      <morph tag="3.Sg.Past.Ind"/>
+    </tok_anno>
+  </token>
+  <token id="t270" trans="$ich">
+    <tok_dipl id="t270_d1" trans="$ich" utf="ſich"/>
+    <tok_anno id="t270_m1" trans="$ich" utf="ſich" ascii="sich">
+      <norm tag="sich"/>
+      <pos tag="PRF"/>
+      <lemma tag="sich"/>
+      <morph tag="3.Sg.Acc"/>
+      <norm_broad tag="sich"/>
+    </tok_anno>
+  </token>
+  <token id="t271" trans="do">
+    <tok_dipl id="t271_d1" trans="do" utf="do"/>
+    <tok_anno id="t271_m1" trans="do" utf="do" ascii="do">
+      <norm tag="da"/>
+      <norm_broad tag="als"/>
+      <norm_type tag="semantic"/>
+      <pos tag="KOUS"/>
+      <lemma tag="da"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t272" trans="mein">
+    <tok_dipl id="t272_d1" trans="mein" utf="mein"/>
+    <tok_anno id="t272_m1" trans="mein" utf="mein" ascii="mein">
+      <norm tag="mein"/>
+      <pos tag="PPOSAT"/>
+      <lemma tag="mein"/>
+      <morph tag="Neut.Nom.Sg"/>
+      <norm_broad tag="mein"/>
+    </tok_anno>
+  </token>
+  <token id="t273" trans="kint">
+    <tok_dipl id="t273_d1" trans="kint" utf="kint"/>
+    <tok_anno id="t273_m1" trans="kint" utf="kint" ascii="kint">
+      <norm tag="kind"/>
+      <pos tag="NN"/>
+      <lemma tag="Kind"/>
+      <morph tag="Neut.Nom.Sg"/>
+      <norm_broad tag="kind"/>
+    </tok_anno>
+  </token>
+  <token id="t274" trans="aus">
+    <tok_dipl id="t274_d1" trans="aus" utf="aus"/>
+    <tok_anno id="t274_m1" trans="aus" utf="aus" ascii="aus">
+      <norm tag="aus"/>
+      <pos tag="APPR"/>
+      <lemma tag="aus"/>
+      <morph tag="--"/>
+      <norm_broad tag="aus"/>
+    </tok_anno>
+  </token>
+  <token id="t275" trans="de\-">
+    <tok_dipl id="t275_d1" trans="de\-" utf="dē"/>
+    <tok_anno id="t275_m1" trans="de\-" utf="dē" ascii="den">
+      <norm tag="dem"/>
+      <pos tag="ART"/>
+      <lemma tag="d-"/>
+      <morph tag="Neut.Dat.Sg"/>
+      <norm_broad tag="dem"/>
+    </tok_anno>
+  </token>
+  <token id="t276" trans="grab">
+    <tok_dipl id="t276_d1" trans="grab" utf="grab"/>
+    <tok_anno id="t276_m1" trans="grab" utf="grab" ascii="grab">
+      <norm tag="grab"/>
+      <pos tag="NN"/>
+      <lemma tag="Grab"/>
+      <morph tag="Neut.Dat.Sg"/>
+      <norm_broad tag="grab"/>
+    </tok_anno>
+  </token>
+  <token id="t277" trans="auff">
+    <tok_dipl id="t277_d1" trans="auff" utf="auff"/>
+    <tok_anno id="t277_m1" trans="auff" utf="auff" ascii="auff">
+      <norm tag="auf"/>
+      <pos tag="APPR"/>
+      <lemma tag="auf"/>
+      <morph tag="--"/>
+      <norm_broad tag="auf"/>
+    </tok_anno>
+  </token>
+  <token id="t278" trans="$y\:">
+    <tok_dipl id="t278_d1" trans="$y\:" utf="ſÿ"/>
+    <tok_anno id="t278_m1" trans="$y\:" utf="ſÿ" ascii="sy">
+      <norm tag="sie"/>
+      <pos tag="PPER"/>
+      <lemma tag="sie"/>
+      <morph tag="3.Sg.Fem.Acc"/>
+      <norm_broad tag="sie"/>
+    </tok_anno>
+  </token>
+  <token id="t279" trans="trat">
+    <tok_dipl id="t279_d1" trans="trat" utf="trat"/>
+    <tok_anno id="t279_m1" trans="trat" utf="trat" ascii="trat">
+      <norm tag="trat"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="treten"/>
+      <morph tag="3.Sg.Past.Ind"/>
+      <norm_broad tag="trat"/>
+    </tok_anno>
+  </token>
+  <token id="t280" trans="vnd">
+    <tok_dipl id="t280_d1" trans="vnd" utf="vnd"/>
+    <tok_anno id="t280_m1" trans="vnd" utf="vnd" ascii="vnd">
+      <norm tag="und"/>
+      <pos tag="KON"/>
+      <lemma tag="und"/>
+      <morph tag="--"/>
+      <norm_broad tag="und"/>
+    </tok_anno>
+  </token>
+  <token id="t281" trans="er$chüt">
+    <tok_dipl id="t281_d1" trans="er$chüt" utf="erſchüt"/>
+    <tok_anno id="t281_m1" trans="er$chüt" utf="erſchüt" ascii="erschüt">
+      <norm tag="erschüte"/>
+      <norm_broad tag="erschütterte"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="erschüten"/>
+      <norm_type tag="extinct"/>
+      <morph tag="3.Sg.Past.Ind"/>
+    </tok_anno>
+  </token>
+  <token id="t282" trans="sich">
+    <tok_dipl id="t282_d1" trans="sich" utf="sich"/>
+    <tok_anno id="t282_m1" trans="sich" utf="sich" ascii="sich">
+      <norm tag="sich"/>
+      <pos tag="PRF"/>
+      <lemma tag="sich"/>
+      <morph tag="3.Sg.Acc"/>
+      <norm_broad tag="sich"/>
+    </tok_anno>
+  </token>
+  <token id="t283" trans="von">
+    <tok_dipl id="t283_d1" trans="von" utf="von"/>
+    <tok_anno id="t283_m1" trans="von" utf="von" ascii="von">
+      <norm tag="von"/>
+      <pos tag="APPR"/>
+      <norm_broad tag="aus"/>
+      <norm_type tag="semantic"/>
+      <lemma tag="von"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t284" trans="rechten">
+    <tok_dipl id="t284_d1" trans="rechten" utf="rechten"/>
+    <tok_anno id="t284_m1" trans="rechten" utf="rechten" ascii="rechten">
+      <norm tag="rechten"/>
+      <norm_broad tag="aufrichtiger"/>
+      <norm_type tag="semantic"/>
+      <pos tag="ADJA"/>
+      <lemma tag="recht"/>
+      <morph tag="Pos.*.Dat.Pl"/>
+    </tok_anno>
+  </token>
+  <token id="t285" trans="freüden">
+    <tok_dipl id="t285_d1" trans="freüden" utf="freüden"/>
+    <tok_anno id="t285_m1" trans="freüden" utf="freüden" ascii="freüden">
+      <norm tag="freuden"/>
+      <pos tag="NN"/>
+      <norm_broad tag="freude"/>
+      <norm_type tag="inflection"/>
+      <lemma tag="Freude"/>
+      <morph tag="Fem.Dat.Pl"/>
+    </tok_anno>
+  </token>
+  <token id="t286" trans="vnd">
+    <tok_dipl id="t286_d1" trans="vnd" utf="vnd"/>
+    <tok_anno id="t286_m1" trans="vnd" utf="vnd" ascii="vnd">
+      <norm tag="und"/>
+      <pos tag="KON"/>
+      <lemma tag="und"/>
+      <morph tag="--"/>
+      <norm_broad tag="und"/>
+    </tok_anno>
+  </token>
+  <token id="t287" trans="gab">
+    <tok_dipl id="t287_d1" trans="gab" utf="gab"/>
+    <tok_anno id="t287_m1" trans="gab" utf="gab" ascii="gab">
+      <norm tag="gab"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="geben"/>
+      <morph tag="3.Sg.Past.Ind"/>
+      <norm_broad tag="gab"/>
+    </tok_anno>
+  </token>
+  <token id="t288" trans="die">
+    <tok_dipl id="t288_d1" trans="die" utf="die"/>
+    <tok_anno id="t288_m1" trans="die" utf="die" ascii="die">
+      <norm tag="die"/>
+      <pos tag="ART"/>
+      <lemma tag="d-"/>
+      <morph tag="*.Acc.Pl"/>
+      <norm_broad tag="die"/>
+    </tok_anno>
+  </token>
+  <token id="t289" trans="toten">
+    <tok_dipl id="t289_d1" trans="toten" utf="toten"/>
+    <tok_anno id="t289_m1" trans="toten" utf="toten" ascii="toten">
+      <norm tag="toten"/>
+      <lemma tag="tot"/>
+      <pos tag="NN"/>
+      <morph tag="*.Acc.Pl"/>
+      <norm_broad tag="toten"/>
+    </tok_anno>
+  </token>
+  <token id="t290" trans="wider">
+    <tok_dipl id="t290_d1" trans="wider" utf="wider"/>
+    <tok_anno id="t290_m1" trans="wider" utf="wider" ascii="wider">
+      <norm tag="wieder"/>
+      <pos tag="PTKVZ"/>
+      <lemma tag="wieder"/>
+      <morph tag="--"/>
+      <norm_broad tag="wieder"/>
+    </tok_anno>
+  </token>
+  <token id="t291" trans="die">
+    <tok_dipl id="t291_d1" trans="die" utf="die"/>
+    <tok_anno id="t291_m1" trans="die" utf="die" ascii="die">
+      <norm tag="die"/>
+      <pos tag="PRELS"/>
+      <lemma tag="d-"/>
+      <morph tag="*.Acc.Pl"/>
+      <norm_broad tag="die"/>
+    </tok_anno>
+  </token>
+  <token id="t292" trans="$y\:">
+    <tok_dipl id="t292_d1" trans="$y\:" utf="ſÿ"/>
+    <tok_anno id="t292_m1" trans="$y\:" utf="ſÿ" ascii="sy">
+      <norm tag="sie"/>
+      <pos tag="PPER"/>
+      <lemma tag="sie"/>
+      <morph tag="2.Sg.Fem.Nom"/>
+      <norm_broad tag="sie"/>
+    </tok_anno>
+  </token>
+  <token id="t293" trans="vo\-">
+    <tok_dipl id="t293_d1" trans="vo\-" utf="vō"/>
+    <tok_anno id="t293_m1" trans="vo\-" utf="vō" ascii="von">
+      <norm tag="von"/>
+      <pos tag="APPR"/>
+      <norm_broad tag="seit"/>
+      <norm_type tag="semantic"/>
+      <lemma tag="von"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t294" trans="adams">
+    <tok_dipl id="t294_d1" trans="adams" utf="adams"/>
+    <tok_anno id="t294_m1" trans="adams" utf="adams" ascii="adams">
+      <norm tag="adams"/>
+      <pos tag="NE"/>
+      <lemma tag="Adam"/>
+      <morph tag="Masc.Gen.Sg"/>
+      <norm_broad tag="adams"/>
+    </tok_anno>
+  </token>
+  <token id="t295" trans="zei=ten">
+    <tok_dipl id="t295_d1" trans="zei=" utf="zei="/>
+    <tok_dipl id="t295_d2" trans="ten" utf="ten"/>
+    <tok_anno id="t295_m1" trans="zei=ten" utf="zeiten" ascii="zeiten">
+      <norm tag="zeiten"/>
+      <pos tag="NN"/>
+      <lemma tag="Zeit"/>
+      <morph tag="Fem.Dat.Pl"/>
+      <norm_broad tag="zeiten"/>
+      <token_type tag="UH"/>
+    </tok_anno>
+  </token>
+  <token id="t296" trans="gefangen">
+    <tok_dipl id="t296_d1" trans="gefangen" utf="gefangen"/>
+    <tok_anno id="t296_m1" trans="gefangen" utf="gefangen" ascii="gefangen">
+      <norm tag="gefangen"/>
+      <pos tag="VVPP"/>
+      <lemma tag="fangen"/>
+      <morph tag="--"/>
+      <norm_broad tag="gefangen"/>
+    </tok_anno>
+  </token>
+  <token id="t297" trans="het">
+    <tok_dipl id="t297_d1" trans="het" utf="het"/>
+    <tok_anno id="t297_m1" trans="het" utf="het" ascii="het">
+      <norm tag="hat"/>
+      <norm_broad tag="hatte"/>
+      <norm_type tag="inflection"/>
+      <pos tag="VAFIN"/>
+      <lemma tag="haben"/>
+      <morph tag="3.Sg.Past.Ind"/>
+    </tok_anno>
+  </token>
+  <token id="t298" trans="vncz">
+    <tok_dipl id="t298_d1" trans="vncz" utf="vncz"/>
+    <tok_anno id="t298_m1" trans="vncz" utf="vncz" ascii="vncz">
+      <norm tag="unze"/>
+      <norm_broad tag="bis"/>
+      <norm_type tag="extinct"/>
+      <pos tag="APPR"/>
+      <lemma tag="unze"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t299" trans="dar">
+    <tok_dipl id="t299_d1" trans="dar" utf="dar"/>
+    <tok_anno id="t299_m1" trans="dar" utf="dar" ascii="dar">
+      <norm tag="dar"/>
+      <norm_broad tag="dahin"/>
+      <norm_type tag="semantic"/>
+      <pos tag="ADV"/>
+      <lemma tag="dar"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t300" trans="das">
+    <tok_dipl id="t300_d1" trans="das" utf="das"/>
+    <tok_anno id="t300_m1" trans="das" utf="das" ascii="das">
+      <norm tag="dass"/>
+      <pos tag="KOUS"/>
+      <lemma tag="dass"/>
+      <morph tag="--"/>
+      <norm_broad tag="dass"/>
+    </tok_anno>
+  </token>
+  <token id="t301" trans="$y\:">
+    <tok_dipl id="t301_d1" trans="$y\:" utf="ſÿ"/>
+    <tok_anno id="t301_m1" trans="$y\:" utf="ſÿ" ascii="sy">
+      <norm tag="sie"/>
+      <pos tag="PPER"/>
+      <lemma tag="sie"/>
+      <morph tag="3.Pl.*.Nom"/>
+      <norm_broad tag="sie"/>
+    </tok_anno>
+  </token>
+  <token id="t302" trans="weren">
+    <tok_dipl id="t302_d1" trans="weren" utf="weren"/>
+    <tok_anno id="t302_m1" trans="weren" utf="weren" ascii="weren">
+      <norm tag="wären"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="sein"/>
+      <morph tag="3.Pl.Past.Subj"/>
+      <norm_broad tag="wären"/>
+    </tok_anno>
+  </token>
+  <token id="t303" trans="zeügen">
+    <tok_dipl id="t303_d1" trans="zeügen" utf="zeügen"/>
+    <tok_anno id="t303_m1" trans="zeügen" utf="zeügen" ascii="zeügen">
+      <norm tag="zeugen"/>
+      <pos tag="NN"/>
+      <lemma tag="Zeuge"/>
+      <morph tag="Masc.Nom.Pl"/>
+      <norm_broad tag="zeugen"/>
+    </tok_anno>
+  </token>
+  <token id="t304" trans="d'">
+    <tok_dipl id="t304_d1" trans="d'" utf="dˢ"/>
+    <tok_anno id="t304_m1" trans="d'" utf="dˢ" ascii="der">
+      <norm tag="der"/>
+      <pos tag="ART"/>
+      <lemma tag="d-"/>
+      <morph tag="Fem.Gen.Sg"/>
+      <norm_broad tag="der"/>
+    </tok_anno>
+  </token>
+  <token id="t305" trans="go\etlichen">
+    <tok_dipl id="t305_d1" trans="go\etlichen" utf="goͤtlichen"/>
+    <tok_anno id="t305_m1" trans="go\etlichen" utf="goͤtlichen" ascii="goetlichen">
+      <norm tag="göttlichen"/>
+      <pos tag="ADJA"/>
+      <lemma tag="göttlich"/>
+      <morph tag="Pos.Fem.Gen.Sg"/>
+      <norm_broad tag="göttlichen"/>
+    </tok_anno>
+  </token>
+  <token id="t306" trans="vr$ten=de">
+    <tok_dipl id="t306_d1" trans="vr$ten=" utf="vrſten="/>
+    <tok_dipl id="t306_d2" trans="de" utf="de"/>
+    <tok_anno id="t306_m1" trans="vr$ten=de" utf="vrſtende" ascii="vrstende">
+      <norm tag="urstende"/>
+      <norm_broad tag="auferstehung"/>
+      <norm_type tag="extinct"/>
+      <pos tag="NN"/>
+      <lemma tag="urstende"/>
+      <morph tag="Fem.Gen.Sg"/>
+      <token_type tag="UH"/>
+    </tok_anno>
+  </token>
+  <token id="t307" trans="meins">
+    <tok_dipl id="t307_d1" trans="meins" utf="meins"/>
+    <tok_anno id="t307_m1" trans="meins" utf="meins" ascii="meins">
+      <norm tag="meines"/>
+      <pos tag="PPOSAT"/>
+      <lemma tag="mein"/>
+      <morph tag="Neut.Gen.Sg"/>
+      <norm_broad tag="meines"/>
+    </tok_anno>
+  </token>
+  <token id="t308" trans="kindes%.">
+    <tok_dipl id="t308_d1" trans="kindes%." utf="kindes·"/>
+    <tok_anno id="t308_m1" trans="kindes" utf="kindes" ascii="kindes">
+      <norm tag="kindes"/>
+      <pos tag="NN"/>
+      <lemma tag="Kind"/>
+      <morph tag="Neut.Gen.Sg"/>
+      <norm_broad tag="kindes"/>
+    </tok_anno>
+    <tok_anno id="t308_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t309" trans="Do">
+    <tok_dipl id="t309_d1" trans="Do" utf="Do"/>
+    <tok_anno id="t309_m1" trans="Do" utf="Do" ascii="Do">
+      <norm tag="da"/>
+      <pos tag="ADV"/>
+      <lemma tag="da"/>
+      <morph tag="--"/>
+      <norm_broad tag="da"/>
+    </tok_anno>
+  </token>
+  <token id="t310" trans="was">
+    <tok_dipl id="t310_d1" trans="was" utf="was"/>
+    <tok_anno id="t310_m1" trans="was" utf="was" ascii="was">
+      <norm tag="war"/>
+      <pos tag="VAFIN"/>
+      <lemma tag="sein"/>
+      <morph tag="3.Sg.Past.Ind"/>
+      <norm_broad tag="war"/>
+    </tok_anno>
+  </token>
+  <token id="t311" trans="mir">
+    <tok_dipl id="t311_d1" trans="mir" utf="mir"/>
+    <tok_anno id="t311_m1" trans="mir" utf="mir" ascii="mir">
+      <norm tag="mir"/>
+      <pos tag="PPER"/>
+      <lemma tag="ich"/>
+      <morph tag="1.Sg.*.Dat"/>
+      <norm_broad tag="mir"/>
+    </tok_anno>
+  </token>
+  <token id="t312" trans="al(=)les">
+    <tok_dipl id="t312_d1" trans="al(=)" utf="al"/>
+    <tok_dipl id="t312_d2" trans="les" utf="les"/>
+    <tok_anno id="t312_m1" trans="al(=)les" utf="alles" ascii="alles">
+      <norm tag="alles"/>
+      <norm_broad tag="all"/>
+      <norm_type tag="inflection"/>
+      <pos tag="PIAT"/>
+      <lemma tag="all"/>
+      <morph tag="Neut.Nom.Sg"/>
+      <token_type tag="UL"/>
+    </tok_anno>
+  </token>
+  <token id="t313" trans="mein">
+    <tok_dipl id="t313_d1" trans="mein" utf="mein"/>
+    <tok_anno id="t313_m1" trans="mein" utf="mein" ascii="mein">
+      <norm tag="mein"/>
+      <pos tag="PPOSAT"/>
+      <lemma tag="mein"/>
+      <morph tag="Neut.Nom.Sg"/>
+      <norm_broad tag="mein"/>
+    </tok_anno>
+  </token>
+  <token id="t314" trans="herczenleid">
+    <tok_dipl id="t314_d1" trans="herczenleid" utf="herczenleid"/>
+    <tok_anno id="t314_m1" trans="herczenleid" utf="herczenleid" ascii="herczenleid">
+      <norm tag="herzeleid"/>
+      <pos tag="NN"/>
+      <norm_broad tag="leid"/>
+      <norm_type tag="semantic"/>
+      <lemma tag="Herzeleid"/>
+      <morph tag="Neut.Nom.Sg"/>
+    </tok_anno>
+  </token>
+  <token id="t315" trans="genommen%.">
+    <tok_dipl id="t315_d1" trans="genommen%." utf="genommen·"/>
+    <tok_anno id="t315_m1" trans="genommen" utf="genommen" ascii="genommen">
+      <norm tag="genommen"/>
+      <pos tag="VVPP"/>
+      <lemma tag="nehmen"/>
+      <morph tag="--"/>
+      <norm_broad tag="genommen"/>
+    </tok_anno>
+    <tok_anno id="t315_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t316" trans="wann">
+    <tok_dipl id="t316_d1" trans="wann" utf="wann"/>
+    <tok_anno id="t316_m1" trans="wann" utf="wann" ascii="wann">
+      <norm tag="wann"/>
+      <norm_broad tag="weil"/>
+      <norm_type tag="semantic"/>
+      <pos tag="KOUS"/>
+      <lemma tag="wann"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t317" trans="ich">
+    <tok_dipl id="t317_d1" trans="ich" utf="ich"/>
+    <tok_anno id="t317_m1" trans="ich" utf="ich" ascii="ich">
+      <norm tag="ich"/>
+      <pos tag="PPER"/>
+      <lemma tag="ich"/>
+      <morph tag="1.Sg.*.Nom"/>
+      <norm_broad tag="ich"/>
+    </tok_anno>
+  </token>
+  <token id="t318" trans="mein">
+    <tok_dipl id="t318_d1" trans="mein" utf="mein"/>
+    <tok_anno id="t318_m1" trans="mein" utf="mein" ascii="mein">
+      <norm tag="mein"/>
+      <pos tag="PPOSAT"/>
+      <lemma tag="mein"/>
+      <morph tag="Neut.Acc.Sg"/>
+      <norm_broad tag="mein"/>
+    </tok_anno>
+  </token>
+  <token id="t319" trans="kind">
+    <tok_dipl id="t319_d1" trans="kind" utf="kind"/>
+    <tok_anno id="t319_m1" trans="kind" utf="kind" ascii="kind">
+      <norm tag="kind"/>
+      <pos tag="NN"/>
+      <lemma tag="Kind"/>
+      <morph tag="Neut.Acc.Sg"/>
+      <norm_broad tag="kind"/>
+    </tok_anno>
+  </token>
+  <token id="t320" trans="wider#hette%.">
+    <tok_dipl id="t320_d1" trans="wider#" utf="wider"/>
+    <tok_dipl id="t320_d2" trans="hette%." utf="hette·"/>
+    <tok_anno id="t320_m1" trans="wider#hette" utf="widerhette" ascii="widerhette">
+      <norm tag="wiederhätte"/>
+      <lemma tag="wiederhaben"/>
+      <norm_broad tag="wiederhatte"/>
+      <norm_type tag="inflection"/>
+      <pos tag="VVFIN"/>
+      <morph tag="1.Sg.Past.Ind"/>
+      <token_type tag="US"/>
+    </tok_anno>
+    <tok_anno id="t320_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t321" trans="Ich">
+    <tok_dipl id="t321_d1" trans="Ich" utf="Ich"/>
+    <tok_anno id="t321_m1" trans="Ich" utf="Ich" ascii="Ich">
+      <norm tag="ich"/>
+      <pos tag="PPER"/>
+      <lemma tag="ich"/>
+      <morph tag="1.Sg.*.Nom"/>
+      <norm_broad tag="ich"/>
+    </tok_anno>
+  </token>
+  <token id="t322" trans="freüwet">
+    <tok_dipl id="t322_d1" trans="freüwet" utf="freüwet"/>
+    <tok_anno id="t322_m1" trans="freüwet" utf="freüwet" ascii="freüwet">
+      <norm tag="freut"/>
+      <pos tag="VVFIN"/>
+      <norm_broad tag="freute"/>
+      <norm_type tag="inflection"/>
+      <lemma tag="freuen"/>
+      <morph tag="1.Sg.Past.Ind"/>
+    </tok_anno>
+  </token>
+  <token id="t323" trans="mich">
+    <tok_dipl id="t323_d1" trans="mich" utf="mich"/>
+    <tok_anno id="t323_m1" trans="mich" utf="mich" ascii="mich">
+      <norm tag="mich"/>
+      <pos tag="PRF"/>
+      <lemma tag="ich"/>
+      <morph tag="1.Sg.Acc"/>
+      <norm_broad tag="mich"/>
+    </tok_anno>
+  </token>
+  <token id="t324" trans="das">
+    <tok_dipl id="t324_d1" trans="das" utf="das"/>
+    <tok_anno id="t324_m1" trans="das" utf="das" ascii="das">
+      <norm tag="dass"/>
+      <pos tag="KOUS"/>
+      <lemma tag="dass"/>
+      <morph tag="--"/>
+      <norm_broad tag="dass"/>
+    </tok_anno>
+  </token>
+  <token id="t325" trans="alles">
+    <tok_dipl id="t325_d1" trans="alles" utf="alles"/>
+    <tok_anno id="t325_m1" trans="alles" utf="alles" ascii="alles">
+      <norm tag="alles"/>
+      <pos tag="PIAT"/>
+      <lemma tag="all"/>
+      <morph tag="Neut.Nom.Sg"/>
+      <norm_broad tag="alles"/>
+    </tok_anno>
+  </token>
+  <token id="t326" trans="me\-=$chliches">
+    <tok_dipl id="t326_d1" trans="me\-=" utf="mē="/>
+    <tok_dipl id="t326_d2" trans="$chliches" utf="ſchliches"/>
+    <tok_anno id="t326_m1" trans="me\-=$chliches" utf="mēſchliches" ascii="menschliches">
+      <norm tag="menschliches"/>
+      <norm_broad tag="menschliche"/>
+      <norm_type tag="inflection"/>
+      <pos tag="ADJA"/>
+      <lemma tag="menschlich"/>
+      <morph tag="Pos.Neut.Nom.Sg"/>
+      <token_type tag="UH"/>
+    </tok_anno>
+  </token>
+  <token id="t327" trans="ge$chla\echte">
+    <tok_dipl id="t327_d1" trans="ge$chla\echte" utf="geſchlaͤchte"/>
+    <tok_anno id="t327_m1" trans="ge$chla\echte" utf="geſchlaͤchte" ascii="geschlaechte">
+      <norm tag="geschlecht"/>
+      <pos tag="NN"/>
+      <lemma tag="Geschlecht"/>
+      <morph tag="Neut.Nom.Sg"/>
+      <norm_broad tag="geschlecht"/>
+    </tok_anno>
+  </token>
+  <token id="t328" trans="erlo\e$t">
+    <tok_dipl id="t328_d1" trans="erlo\e$t" utf="erloͤſt"/>
+    <tok_anno id="t328_m1" trans="erlo\e$t" utf="erloͤſt" ascii="erloest">
+      <norm tag="erlöst"/>
+      <pos tag="VVPP"/>
+      <lemma tag="erlösen"/>
+      <morph tag="--"/>
+      <norm_broad tag="erlöst"/>
+    </tok_anno>
+  </token>
+  <token id="t329" trans="was%.">
+    <tok_dipl id="t329_d1" trans="was%." utf="was·"/>
+    <tok_anno id="t329_m1" trans="was" utf="was" ascii="was">
+      <norm tag="war"/>
+      <pos tag="VAFIN"/>
+      <lemma tag="sein"/>
+      <morph tag="3.Sg.Past.Ind"/>
+      <norm_broad tag="war"/>
+    </tok_anno>
+    <tok_anno id="t329_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t330" trans="Dar#nach">
+    <tok_dipl id="t330_d1" trans="Dar#" utf="Dar"/>
+    <tok_dipl id="t330_d2" trans="nach" utf="nach"/>
+    <tok_anno id="t330_m1" trans="Dar#nach" utf="Darnach" ascii="Darnach">
+      <norm tag="danach"/>
+      <pos tag="PAV"/>
+      <lemma tag="danach"/>
+      <morph tag="--"/>
+      <norm_broad tag="danach"/>
+      <token_type tag="US"/>
+    </tok_anno>
+  </token>
+  <token id="t331" trans="über">
+    <tok_dipl id="t331_d1" trans="über" utf="über"/>
+    <tok_anno id="t331_m1" trans="über" utf="über" ascii="über">
+      <norm tag="über"/>
+      <pos tag="APPR"/>
+      <lemma tag="über"/>
+      <morph tag="--"/>
+      <norm_broad tag="über"/>
+    </tok_anno>
+  </token>
+  <token id="t332" trans="%.xl%.">
+    <tok_dipl id="t332_d1" trans="%.xl%." utf="%.xl%."/>
+    <tok_anno id="t332_m1" trans="%.xl%." utf="·xl·" ascii=".xl.">
+      <norm tag="xl"/>
+      <pos tag="CARD"/>
+      <lemma tag="XL"/>
+      <morph tag="--"/>
+      <norm_broad tag="xl"/>
+    </tok_anno>
+  </token>
+  <token id="t333" trans="iare">
+    <tok_dipl id="t333_d1" trans="iare" utf="iare"/>
+    <tok_anno id="t333_m1" trans="iare" utf="iare" ascii="iare">
+      <norm tag="jahre"/>
+      <pos tag="NN"/>
+      <lemma tag="Jahr"/>
+      <morph tag="Neut.Acc.Pl"/>
+      <norm_broad tag="jahre"/>
+    </tok_anno>
+  </token>
+  <token id="t334" trans="do">
+    <tok_dipl id="t334_d1" trans="do" utf="do"/>
+    <tok_anno id="t334_m1" trans="do" utf="do" ascii="do">
+      <norm tag="da"/>
+      <norm_broad tag="nachdem"/>
+      <norm_type tag="semantic"/>
+      <pos tag="KOUS"/>
+      <lemma tag="da"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t335" trans="das">
+    <tok_dipl id="t335_d1" trans="das" utf="das"/>
+    <tok_anno id="t335_m1" trans="das" utf="das" ascii="das">
+      <norm tag="das"/>
+      <pos tag="PDS"/>
+      <lemma tag="d-"/>
+      <morph tag="Neut.Nom.Sg"/>
+      <norm_broad tag="das"/>
+    </tok_anno>
+  </token>
+  <token id="t336" trans="al=les">
+    <tok_dipl id="t336_d1" trans="al=" utf="al="/>
+    <tok_dipl id="t336_d2" trans="les" utf="les"/>
+    <tok_anno id="t336_m1" trans="al=les" utf="alles" ascii="alles">
+      <norm tag="alles"/>
+      <pos tag="PIS"/>
+      <lemma tag="all"/>
+      <morph tag="Neut.Nom.Sg"/>
+      <norm_broad tag="alles"/>
+      <token_type tag="UH"/>
+    </tok_anno>
+  </token>
+  <token id="t337" trans="ge$chach">
+    <tok_dipl id="t337_d1" trans="ge$chach" utf="geſchach"/>
+    <tok_anno id="t337_m1" trans="ge$chach" utf="geſchach" ascii="geschach">
+      <norm tag="geschah"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="geschehen"/>
+      <morph tag="3.Sg.Past.Ind"/>
+      <norm_broad tag="geschah"/>
+    </tok_anno>
+  </token>
+  <token id="t338" trans="do">
+    <tok_dipl id="t338_d1" trans="do" utf="do"/>
+    <tok_anno id="t338_m1" trans="do" utf="do" ascii="do">
+      <norm tag="da"/>
+      <pos tag="ADV"/>
+      <lemma tag="da"/>
+      <morph tag="--"/>
+      <norm_broad tag="da"/>
+    </tok_anno>
+  </token>
+  <token id="t339" trans="kamen">
+    <tok_dipl id="t339_d1" trans="kamen" utf="kamen"/>
+    <tok_anno id="t339_m1" trans="kamen" utf="kamen" ascii="kamen">
+      <norm tag="kamen"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="kommen"/>
+      <morph tag="3.Pl.Past.Ind"/>
+      <norm_broad tag="kamen"/>
+    </tok_anno>
+  </token>
+  <token id="t340" trans="zwen">
+    <tok_dipl id="t340_d1" trans="zwen" utf="zwen"/>
+    <tok_anno id="t340_m1" trans="zwen" utf="zwen" ascii="zwen">
+      <norm tag="zwene"/>
+      <pos tag="CARD"/>
+      <norm_broad tag="zwei"/>
+      <norm_type tag="extinct"/>
+      <lemma tag="zwene"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t341" trans="her=ren">
+    <tok_dipl id="t341_d1" trans="her=" utf="her="/>
+    <tok_dipl id="t341_d2" trans="ren" utf="ren"/>
+    <tok_anno id="t341_m1" trans="her=ren" utf="herren" ascii="herren">
+      <norm tag="herren"/>
+      <pos tag="NN"/>
+      <lemma tag="Herr"/>
+      <morph tag="Masc.Nom.Pl"/>
+      <norm_broad tag="herren"/>
+      <token_type tag="UH"/>
+    </tok_anno>
+  </token>
+  <token id="t342" trans="von">
+    <tok_dipl id="t342_d1" trans="von" utf="von"/>
+    <tok_anno id="t342_m1" trans="von" utf="von" ascii="von">
+      <norm tag="von"/>
+      <pos tag="APPR"/>
+      <lemma tag="von"/>
+      <morph tag="--"/>
+      <norm_broad tag="von"/>
+    </tok_anno>
+  </token>
+  <token id="t343" trans="rom">
+    <tok_dipl id="t343_d1" trans="rom" utf="rom"/>
+    <tok_anno id="t343_m1" trans="rom" utf="rom" ascii="rom">
+      <norm tag="rom"/>
+      <pos tag="NE"/>
+      <lemma tag="Rom"/>
+      <morph tag="*.Dat.Sg"/>
+      <norm_broad tag="rom"/>
+    </tok_anno>
+  </token>
+  <token id="t344" trans="d'">
+    <tok_dipl id="t344_d1" trans="d'" utf="dˢ"/>
+    <tok_anno id="t344_m1" trans="d'" utf="dˢ" ascii="der">
+      <norm tag="der"/>
+      <pos tag="ART"/>
+      <lemma tag="d-"/>
+      <morph tag="Masc.Nom.Sg"/>
+      <norm_broad tag="der"/>
+    </tok_anno>
+  </token>
+  <token id="t345" trans="ein">
+    <tok_dipl id="t345_d1" trans="ein" utf="ein"/>
+    <tok_anno id="t345_m1" trans="ein" utf="ein" ascii="ein">
+      <norm tag="ein"/>
+      <norm_broad tag="eine"/>
+      <norm_type tag="inflection"/>
+      <pos tag="PIS"/>
+      <lemma tag="ein"/>
+      <morph tag="Masc.Nom.Sg"/>
+    </tok_anno>
+  </token>
+  <token id="t346" trans="hie$z">
+    <tok_dipl id="t346_d1" trans="hie$z" utf="hieſz"/>
+    <tok_anno id="t346_m1" trans="hie$z" utf="hieſz" ascii="hiesz">
+      <norm tag="hieß"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="heißen"/>
+      <morph tag="3.Sg.Past.Ind"/>
+      <norm_broad tag="hieß"/>
+    </tok_anno>
+  </token>
+  <token id="t347" trans="tytus">
+    <tok_dipl id="t347_d1" trans="tytus" utf="tytus"/>
+    <tok_anno id="t347_m1" trans="tytus" utf="tytus" ascii="tytus">
+      <norm tag="titus"/>
+      <pos tag="NE"/>
+      <lemma tag="Titus"/>
+      <morph tag="Masc.Nom.Sg"/>
+      <norm_broad tag="titus"/>
+    </tok_anno>
+  </token>
+  <token id="t348" trans="der">
+    <tok_dipl id="t348_d1" trans="der" utf="der"/>
+    <tok_anno id="t348_m1" trans="der" utf="der" ascii="der">
+      <norm tag="der"/>
+      <pos tag="ART"/>
+      <lemma tag="d-"/>
+      <morph tag="Masc.Nom.Sg"/>
+      <norm_broad tag="der"/>
+    </tok_anno>
+  </token>
+  <token id="t349" trans="ander">
+    <tok_dipl id="t349_d1" trans="ander" utf="ander"/>
+    <tok_anno id="t349_m1" trans="ander" utf="ander" ascii="ander">
+      <norm tag="andere"/>
+      <pos tag="PIS"/>
+      <lemma tag="ander"/>
+      <morph tag="Masc.Nom.Sg"/>
+      <norm_broad tag="andere"/>
+    </tok_anno>
+  </token>
+  <token id="t350" trans="ve$pa$ianus">
+    <tok_dipl id="t350_d1" trans="ve$pa$ianus" utf="veſpaſianus"/>
+    <tok_anno id="t350_m1" trans="ve$pa$ianus" utf="veſpaſianus" ascii="vespasianus">
+      <norm tag="vespasian"/>
+      <pos tag="NE"/>
+      <lemma tag="Vespasian"/>
+      <morph tag="Masc.Nom.Sg"/>
+      <norm_broad tag="vespasian"/>
+    </tok_anno>
+  </token>
+  <token id="t351" trans="die">
+    <tok_dipl id="t351_d1" trans="die" utf="die"/>
+    <tok_anno id="t351_m1" trans="die" utf="die" ascii="die">
+      <norm tag="die"/>
+      <pos tag="PDS"/>
+      <lemma tag="d-"/>
+      <morph tag="*.Nom.Pl"/>
+      <norm_broad tag="die"/>
+    </tok_anno>
+  </token>
+  <token id="t352" trans="zer$to\erten">
+    <tok_dipl id="t352_d1" trans="zer$to\erten" utf="zerſtoͤrten"/>
+    <tok_anno id="t352_m1" trans="zer$to\erten" utf="zerſtoͤrten" ascii="zerstoerten">
+      <norm tag="zerstörten"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="zerstören"/>
+      <morph tag="3.Pl.Past.Ind"/>
+      <norm_broad tag="zerstörten"/>
+    </tok_anno>
+  </token>
+  <token id="t353" trans="ieru$ale\-">
+    <tok_dipl id="t353_d1" trans="ieru$ale\-" utf="ieruſalē"/>
+    <tok_anno id="t353_m1" trans="ieru$ale\-" utf="ieruſalē" ascii="ierusalen">
+      <norm tag="jerusalem"/>
+      <pos tag="NE"/>
+      <lemma tag="Jerusalem"/>
+      <morph tag="*.Acc.Sg"/>
+      <norm_broad tag="jerusalem"/>
+    </tok_anno>
+  </token>
+  <token id="t354" trans="vnd">
+    <tok_dipl id="t354_d1" trans="vnd" utf="vnd"/>
+    <tok_anno id="t354_m1" trans="vnd" utf="vnd" ascii="vnd">
+      <norm tag="und"/>
+      <pos tag="KON"/>
+      <lemma tag="und"/>
+      <morph tag="--"/>
+      <norm_broad tag="und"/>
+    </tok_anno>
+  </token>
+  <token id="t355" trans="fiengent">
+    <tok_dipl id="t355_d1" trans="fiengent" utf="fiengent"/>
+    <tok_anno id="t355_m1" trans="fiengent" utf="fiengent" ascii="fiengent">
+      <norm tag="fingen"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="fangen"/>
+      <morph tag="3.Pl.Past.Ind"/>
+      <norm_broad tag="fingen"/>
+    </tok_anno>
+  </token>
+  <token id="t356" trans="als">
+    <tok_dipl id="t356_d1" trans="als" utf="als"/>
+    <tok_anno id="t356_m1" trans="als" utf="als" ascii="als">
+      <norm tag="als"/>
+      <norm_broad tag="so"/>
+      <norm_type tag="semantic"/>
+      <pos tag="ADV"/>
+      <lemma tag="als"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t357" trans="vil">
+    <tok_dipl id="t357_d1" trans="vil" utf="vil"/>
+    <tok_anno id="t357_m1" trans="vil" utf="vil" ascii="vil">
+      <norm tag="viel"/>
+      <norm_broad tag="viele"/>
+      <norm_type tag="inflection"/>
+      <lemma tag="viel"/>
+      <pos tag="PIAT"/>
+      <morph tag="*.Acc.Pl"/>
+    </tok_anno>
+  </token>
+  <token id="t358" trans="iude\-">
+    <tok_dipl id="t358_d1" trans="iude\-" utf="iudē"/>
+    <tok_anno id="t358_m1" trans="iude\-" utf="iudē" ascii="iuden">
+      <norm tag="juden"/>
+      <pos tag="NN"/>
+      <lemma tag="Jude"/>
+      <morph tag="Masc.Acc.Pl"/>
+      <norm_broad tag="juden"/>
+    </tok_anno>
+  </token>
+  <token id="t359" trans="das">
+    <tok_dipl id="t359_d1" trans="das" utf="das"/>
+    <tok_anno id="t359_m1" trans="das" utf="das" ascii="das">
+      <norm tag="dass"/>
+      <pos tag="KOUS"/>
+      <lemma tag="dass"/>
+      <morph tag="--"/>
+      <norm_broad tag="dass"/>
+    </tok_anno>
+  </token>
+  <token id="t360" trans="man">
+    <tok_dipl id="t360_d1" trans="man" utf="man"/>
+    <tok_anno id="t360_m1" trans="man" utf="man" ascii="man">
+      <norm tag="man"/>
+      <pos tag="PIS"/>
+      <lemma tag="man"/>
+      <morph tag="*.Nom.Sg"/>
+      <norm_broad tag="man"/>
+    </tok_anno>
+  </token>
+  <token id="t361" trans="ir">
+    <tok_dipl id="t361_d1" trans="ir" utf="ir"/>
+    <tok_anno id="t361_m1" trans="ir" utf="ir" ascii="ir">
+      <norm tag="ihr"/>
+      <norm_broad tag="ihrer"/>
+      <norm_type tag="inflection"/>
+      <pos tag="PPER"/>
+      <lemma tag="sie"/>
+      <morph tag="3.Pl.*.Gen"/>
+    </tok_anno>
+  </token>
+  <token id="t362" trans="%.xxx%.">
+    <tok_dipl id="t362_d1" trans="%.xxx%." utf="%.xxx%."/>
+    <tok_anno id="t362_m1" trans="%.xxx%." utf="·xxx·" ascii=".xxx.">
+      <norm tag="xxx"/>
+      <pos tag="CARD"/>
+      <lemma tag="XXX"/>
+      <morph tag="--"/>
+      <norm_broad tag="xxx"/>
+    </tok_anno>
+  </token>
+  <token id="t363" trans="vmb">
+    <tok_dipl id="t363_d1" trans="vmb" utf="vmb"/>
+    <tok_anno id="t363_m1" trans="vmb" utf="vmb" ascii="vmb">
+      <norm tag="um"/>
+      <pos tag="APPR"/>
+      <norm_broad tag="für"/>
+      <norm_type tag="semantic"/>
+      <lemma tag="um"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t364" trans="ein">
+    <tok_dipl id="t364_d1" trans="ein" utf="ein"/>
+    <tok_anno id="t364_m1" trans="ein" utf="ein" ascii="ein">
+      <norm tag="ein"/>
+      <pos tag="CARD"/>
+      <norm_broad tag="einen"/>
+      <norm_type tag="inflection"/>
+      <lemma tag="ein"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t365" trans="pfening">
+    <tok_dipl id="t365_d1" trans="pfening" utf="pfening"/>
+    <tok_anno id="t365_m1" trans="pfening" utf="pfening" ascii="pfening">
+      <norm tag="pfennig"/>
+      <pos tag="NN"/>
+      <lemma tag="Pfennig"/>
+      <morph tag="Masc.Acc.Sg"/>
+      <norm_broad tag="pfennig"/>
+    </tok_anno>
+  </token>
+  <token id="t366" trans="gabe%.">
+    <tok_dipl id="t366_d1" trans="gabe%." utf="gabe·"/>
+    <tok_anno id="t366_m1" trans="gabe" utf="gabe" ascii="gabe">
+      <norm tag="gab"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="geben"/>
+      <morph tag="3.Sg.Past.Ind"/>
+      <norm_broad tag="gab"/>
+    </tok_anno>
+    <tok_anno id="t366_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t367" trans="als">
+    <tok_dipl id="t367_d1" trans="als" utf="als"/>
+    <tok_anno id="t367_m1" trans="als" utf="als" ascii="als">
+      <norm tag="als"/>
+      <pos tag="KOUS"/>
+      <norm_broad tag="wie"/>
+      <norm_type tag="semantic"/>
+      <lemma tag="als"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t368" trans="$y\:">
+    <tok_dipl id="t368_d1" trans="$y\:" utf="ſÿ"/>
+    <tok_anno id="t368_m1" trans="$y\:" utf="ſÿ" ascii="sy">
+      <norm tag="sie"/>
+      <pos tag="PPER"/>
+      <lemma tag="sie"/>
+      <morph tag="3.Pl.*.Nom"/>
+      <norm_broad tag="sie"/>
+    </tok_anno>
+  </token>
+  <token id="t369" trans="allein">
+    <tok_dipl id="t369_d1" trans="allein" utf="allein"/>
+    <tok_anno id="t369_m1" trans="allein" utf="allein" ascii="allein">
+      <norm tag="allein"/>
+      <pos tag="ADV"/>
+      <lemma tag="allein"/>
+      <morph tag="--"/>
+      <norm_broad tag="allein"/>
+    </tok_anno>
+  </token>
+  <token id="t370" trans="mein">
+    <tok_dipl id="t370_d1" trans="mein" utf="mein"/>
+    <tok_anno id="t370_m1" trans="mein" utf="mein" ascii="mein">
+      <norm tag="mein"/>
+      <pos tag="PPOSAT"/>
+      <lemma tag="mein"/>
+      <morph tag="Neut.Acc.Sg"/>
+      <norm_broad tag="mein"/>
+    </tok_anno>
+  </token>
+  <token id="t371" trans="kind">
+    <tok_dipl id="t371_d1" trans="kind" utf="kind"/>
+    <tok_anno id="t371_m1" trans="kind" utf="kind" ascii="kind">
+      <norm tag="kind"/>
+      <pos tag="NN"/>
+      <lemma tag="Kind"/>
+      <morph tag="Neut.Acc.Sg"/>
+      <norm_broad tag="kind"/>
+    </tok_anno>
+  </token>
+  <token id="t372" trans="het=ten">
+    <tok_dipl id="t372_d1" trans="het=" utf="het="/>
+    <tok_dipl id="t372_d2" trans="ten" utf="ten"/>
+    <tok_anno id="t372_m1" trans="het=ten" utf="hetten" ascii="hetten">
+      <norm tag="hatten"/>
+      <pos tag="VAFIN"/>
+      <lemma tag="haben"/>
+      <morph tag="3.Pl.Past.Ind"/>
+      <norm_broad tag="hatten"/>
+      <token_type tag="UH"/>
+    </tok_anno>
+  </token>
+  <token id="t373" trans="geben">
+    <tok_dipl id="t373_d1" trans="geben" utf="geben"/>
+    <tok_anno id="t373_m1" trans="geben" utf="geben" ascii="geben">
+      <norm tag="geben"/>
+      <norm_broad tag="gegeben"/>
+      <norm_type tag="inflection"/>
+      <pos tag="VVPP"/>
+      <lemma tag="geben"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t374" trans="vmb">
+    <tok_dipl id="t374_d1" trans="vmb" utf="vmb"/>
+    <tok_anno id="t374_m1" trans="vmb" utf="vmb" ascii="vmb">
+      <norm tag="um"/>
+      <pos tag="APPR"/>
+      <norm_broad tag="für"/>
+      <norm_type tag="semantic"/>
+      <lemma tag="um"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t375" trans="%.xxx%.">
+    <tok_dipl id="t375_d1" trans="%.xxx%." utf="%.xxx%."/>
+    <tok_anno id="t375_m1" trans="%.xxx%." utf="·xxx·" ascii=".xxx.">
+      <norm tag="xxx"/>
+      <pos tag="CARD"/>
+      <lemma tag="XXX"/>
+      <morph tag="--"/>
+      <norm_broad tag="xxx"/>
+    </tok_anno>
+  </token>
+  <token id="t376" trans="pfening%.">
+    <tok_dipl id="t376_d1" trans="pfening%." utf="pfening·"/>
+    <tok_anno id="t376_m1" trans="pfening" utf="pfening" ascii="pfening">
+      <norm tag="pfennig"/>
+      <pos tag="NN"/>
+      <lemma tag="Pfennig"/>
+      <morph tag="Masc.Acc.Pl"/>
+      <norm_broad tag="pfennig"/>
+    </tok_anno>
+    <tok_anno id="t376_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t377" trans="Vnd">
+    <tok_dipl id="t377_d1" trans="Vnd" utf="Vnd"/>
+    <tok_anno id="t377_m1" trans="Vnd" utf="Vnd" ascii="Vnd">
+      <norm tag="und"/>
+      <pos tag="KON"/>
+      <lemma tag="und"/>
+      <morph tag="--"/>
+      <norm_broad tag="und"/>
+    </tok_anno>
+  </token>
+  <token id="t378" trans="rachen">
+    <tok_dipl id="t378_d1" trans="rachen" utf="rachen"/>
+    <tok_anno id="t378_m1" trans="rachen" utf="rachen" ascii="rachen">
+      <norm tag="rächen"/>
+      <norm_broad tag="rächten"/>
+      <norm_type tag="inflection"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="rächen"/>
+      <morph tag="3.Pl.Past.Ind"/>
+    </tok_anno>
+  </token>
+  <token id="t379" trans="darmit">
+    <tok_dipl id="t379_d1" trans="darmit" utf="darmit"/>
+    <tok_anno id="t379_m1" trans="darmit" utf="darmit" ascii="darmit">
+      <norm tag="damit"/>
+      <pos tag="PAV"/>
+      <lemma tag="damit"/>
+      <morph tag="--"/>
+      <norm_broad tag="damit"/>
+    </tok_anno>
+  </token>
+  <token id="t380" trans="meins">
+    <tok_dipl id="t380_d1" trans="meins" utf="meins"/>
+    <tok_anno id="t380_m1" trans="meins" utf="meins" ascii="meins">
+      <norm tag="meines"/>
+      <pos tag="PPOSAT"/>
+      <lemma tag="mein"/>
+      <morph tag="Neut.Gen.Sg"/>
+      <norm_broad tag="meines"/>
+    </tok_anno>
+  </token>
+  <token id="t381" trans="kindes">
+    <tok_dipl id="t381_d1" trans="kindes" utf="kindes"/>
+    <tok_anno id="t381_m1" trans="kindes" utf="kindes" ascii="kindes">
+      <norm tag="kindes"/>
+      <pos tag="NN"/>
+      <lemma tag="Kind"/>
+      <morph tag="Neut.Gen.Sg"/>
+      <norm_broad tag="kindes"/>
+    </tok_anno>
+  </token>
+  <token id="t382" trans="tode">
+    <tok_dipl id="t382_d1" trans="tode" utf="tode"/>
+    <tok_anno id="t382_m1" trans="tode" utf="tode" ascii="tode">
+      <norm tag="tod"/>
+      <pos tag="NN"/>
+      <lemma tag="Tod"/>
+      <morph tag="Masc.Acc.Sg"/>
+      <norm_broad tag="tod"/>
+    </tok_anno>
+  </token>
+  <token id="t383" trans="Wer">
+    <tok_dipl id="t383_d1" trans="Wer" utf="Wer"/>
+    <tok_anno id="t383_m1" trans="Wer" utf="Wer" ascii="Wer">
+      <norm tag="wer"/>
+      <pos tag="PWS"/>
+      <lemma tag="wer"/>
+      <morph tag="*.Nom.Sg"/>
+      <norm_broad tag="wer"/>
+    </tok_anno>
+  </token>
+  <token id="t384" trans="di$z">
+    <tok_dipl id="t384_d1" trans="di$z" utf="diſz"/>
+    <tok_anno id="t384_m1" trans="di$z" utf="diſz" ascii="disz">
+      <norm tag="dies"/>
+      <norm_broad tag="diese"/>
+      <norm_type tag="inflection"/>
+      <pos tag="PDS"/>
+      <lemma tag="dies"/>
+      <morph tag="Neut.Acc.Sg"/>
+    </tok_anno>
+  </token>
+  <token id="t385" trans="%.xij%.">
+    <tok_dipl id="t385_d1" trans="%.xij%." utf="%.xij%."/>
+    <tok_anno id="t385_m1" trans="%.xij%." utf="·xij·" ascii=".xij.">
+      <norm tag="xii"/>
+      <pos tag="CARD"/>
+      <lemma tag="XII"/>
+      <morph tag="--"/>
+      <norm_broad tag="xii"/>
+    </tok_anno>
+  </token>
+  <token id="t386" trans="zeit">
+    <tok_dipl id="t386_d1" trans="zeit" utf="zeit"/>
+    <tok_anno id="t386_m1" trans="zeit" utf="zeit" ascii="zeit">
+      <norm tag="zeit"/>
+      <pos tag="NN"/>
+      <lemma tag="Zeit"/>
+      <norm_broad tag="mal"/>
+      <norm_type tag="semantic"/>
+      <morph tag="Fem.Acc.Sg"/>
+    </tok_anno>
+  </token>
+  <token id="t387" trans="$pricht%.">
+    <tok_dipl id="t387_d1" trans="$pricht%." utf="ſpricht·"/>
+    <tok_anno id="t387_m1" trans="$pricht" utf="ſpricht" ascii="spricht">
+      <norm tag="spricht"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="sprechen"/>
+      <morph tag="3.Sg.Pres.Ind"/>
+      <norm_broad tag="spricht"/>
+    </tok_anno>
+    <tok_anno id="t387_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t388" trans="als">
+    <tok_dipl id="t388_d1" trans="als" utf="als"/>
+    <tok_anno id="t388_m1" trans="als" utf="als" ascii="als">
+      <norm tag="als"/>
+      <pos tag="KOUS"/>
+      <norm_broad tag="wie"/>
+      <norm_type tag="semantic"/>
+      <lemma tag="als"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t389" trans="$y\:">
+    <tok_dipl id="t389_d1" trans="$y\:" utf="ſÿ"/>
+    <tok_anno id="t389_m1" trans="$y\:" utf="ſÿ" ascii="sy">
+      <norm tag="sie"/>
+      <pos tag="PPER"/>
+      <lemma tag="sie"/>
+      <morph tag="3.Sg.Fem.Nom"/>
+      <norm_broad tag="sie"/>
+    </tok_anno>
+  </token>
+  <token id="t390" trans="ge(=)$chriben">
+    <tok_dipl id="t390_d1" trans="ge(=)" utf="ge"/>
+    <tok_dipl id="t390_d2" trans="$chriben" utf="ſchriben"/>
+    <tok_anno id="t390_m1" trans="ge(=)$chriben" utf="geſchriben" ascii="geschriben">
+      <norm tag="geschrieben"/>
+      <pos tag="VVPP"/>
+      <lemma tag="schreiben"/>
+      <morph tag="--"/>
+      <norm_broad tag="geschrieben"/>
+      <token_type tag="UL"/>
+    </tok_anno>
+  </token>
+  <token id="t391" trans="$tet">
+    <tok_dipl id="t391_d1" trans="$tet" utf="ſtet"/>
+    <tok_anno id="t391_m1" trans="$tet" utf="ſtet" ascii="stet">
+      <norm tag="steht"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="stehen"/>
+      <morph tag="3.Sg.Pres.Ind"/>
+      <norm_broad tag="steht"/>
+    </tok_anno>
+  </token>
+  <token id="t392" trans="mit">
+    <tok_dipl id="t392_d1" trans="mit" utf="mit"/>
+    <tok_anno id="t392_m1" trans="mit" utf="mit" ascii="mit">
+      <norm tag="mit"/>
+      <pos tag="APPR"/>
+      <lemma tag="mit"/>
+      <morph tag="--"/>
+      <norm_broad tag="mit"/>
+    </tok_anno>
+  </token>
+  <token id="t393" trans="andacht">
+    <tok_dipl id="t393_d1" trans="andacht" utf="andacht"/>
+    <tok_anno id="t393_m1" trans="andacht" utf="andacht" ascii="andacht">
+      <norm tag="andacht"/>
+      <pos tag="NN"/>
+      <lemma tag="Andacht"/>
+      <morph tag="Fem.Dat.Sg"/>
+      <norm_broad tag="andacht"/>
+    </tok_anno>
+  </token>
+  <token id="t394" trans="d'">
+    <tok_dipl id="t394_d1" trans="d'" utf="dˢ"/>
+    <tok_anno id="t394_m1" trans="d'" utf="dˢ" ascii="der">
+      <norm tag="der"/>
+      <pos tag="PDS"/>
+      <lemma tag="d-"/>
+      <morph tag="Masc.Nom.Sg"/>
+      <norm_broad tag="der"/>
+    </tok_anno>
+  </token>
+  <token id="t395" trans="hat">
+    <tok_dipl id="t395_d1" trans="hat" utf="hat"/>
+    <tok_anno id="t395_m1" trans="hat" utf="hat" ascii="hat">
+      <norm tag="hat"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="haben"/>
+      <morph tag="3.Sg.Pres.Ind"/>
+      <norm_broad tag="hat"/>
+    </tok_anno>
+  </token>
+  <token id="t396" trans="ein">
+    <tok_dipl id="t396_d1" trans="ein" utf="ein"/>
+    <tok_anno id="t396_m1" trans="ein" utf="ein" ascii="ein">
+      <norm tag="ein"/>
+      <pos tag="ART"/>
+      <lemma tag="ein"/>
+      <morph tag="Neut.Acc.Sg"/>
+      <norm_broad tag="ein"/>
+    </tok_anno>
+  </token>
+  <token id="t397" trans="iar">
+    <tok_dipl id="t397_d1" trans="iar" utf="iar"/>
+    <tok_anno id="t397_m1" trans="iar" utf="iar" ascii="iar">
+      <norm tag="jahr"/>
+      <pos tag="NN"/>
+      <lemma tag="Jahr"/>
+      <morph tag="Neut.Acc.Sg"/>
+      <norm_broad tag="jahr"/>
+    </tok_anno>
+  </token>
+  <token id="t398" trans="ablas">
+    <tok_dipl id="t398_d1" trans="ablas" utf="ablas"/>
+    <tok_anno id="t398_m1" trans="ablas" utf="ablas" ascii="ablas">
+      <norm tag="ablass"/>
+      <pos tag="NN"/>
+      <lemma tag="Ablass"/>
+      <morph tag="Masc.Acc.Sg"/>
+      <norm_broad tag="ablass"/>
+    </tok_anno>
+  </token>
+  <token id="t399" trans="to\etlicher">
+    <tok_dipl id="t399_d1" trans="to\etlicher" utf="toͤtlicher"/>
+    <tok_anno id="t399_m1" trans="to\etlicher" utf="toͤtlicher" ascii="toetlicher">
+      <norm tag="tödlicher"/>
+      <pos tag="ADJA"/>
+      <lemma tag="tödlich"/>
+      <morph tag="Pos.Fem.Gen.Sg"/>
+      <norm_broad tag="tödlicher"/>
+    </tok_anno>
+  </token>
+  <token id="t400" trans="$ünde%.">
+    <tok_dipl id="t400_d1" trans="$ünde%." utf="ſünde·"/>
+    <tok_anno id="t400_m1" trans="$ünde" utf="ſünde" ascii="sünde">
+      <norm tag="sünde"/>
+      <pos tag="NN"/>
+      <lemma tag="Sünde"/>
+      <morph tag="Fem.Gen.Sg"/>
+      <norm_broad tag="sünde"/>
+    </tok_anno>
+    <tok_anno id="t400_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t401" trans="als">
+    <tok_dipl id="t401_d1" trans="als" utf="als"/>
+    <tok_anno id="t401_m1" trans="als" utf="als" ascii="als">
+      <norm tag="als"/>
+      <pos tag="KOUS"/>
+      <norm_broad tag="so"/>
+      <norm_type tag="semantic"/>
+      <lemma tag="als"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t402" trans="dick">
+    <tok_dipl id="t402_d1" trans="dick" utf="dick"/>
+    <tok_anno id="t402_m1" trans="dick" utf="dick" ascii="dick">
+      <norm tag="dicke"/>
+      <norm_broad tag="oft"/>
+      <pos tag="ADV"/>
+      <lemma tag="dicke"/>
+      <norm_type tag="extinct"/>
+      <morph tag="--"/>
+    </tok_anno>
+  </token>
+  <token id="t403" trans="er||s">
+    <tok_dipl id="t403_d1" trans="er||s" utf="ers"/>
+    <tok_anno id="t403_m1" trans="er||" utf="er" ascii="er">
+      <norm tag="er"/>
+      <pos tag="PPER"/>
+      <lemma tag="er"/>
+      <morph tag="3.Sg.Masc.Nom"/>
+      <norm_broad tag="er"/>
+      <token_type tag="MS1"/>
+    </tok_anno>
+    <tok_anno id="t403_m2" trans="s" utf="s" ascii="s">
+      <norm tag="es"/>
+      <pos tag="PPER"/>
+      <lemma tag="es"/>
+      <morph tag="3.Sg.Neut.Acc"/>
+      <norm_broad tag="es"/>
+      <token_type tag="MS2"/>
+    </tok_anno>
+  </token>
+  <token id="t404" trans="$pricht%.">
+    <tok_dipl id="t404_d1" trans="$pricht%." utf="ſpricht·"/>
+    <tok_anno id="t404_m1" trans="$pricht" utf="ſpricht" ascii="spricht">
+      <norm tag="spricht"/>
+      <pos tag="VVFIN"/>
+      <lemma tag="sprechen"/>
+      <morph tag="3.Sg.Pres.Ind"/>
+      <norm_broad tag="spricht"/>
+    </tok_anno>
+    <tok_anno id="t404_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+  <token id="t405" trans="vo\-">
+    <tok_dipl id="t405_d1" trans="vo\-" utf="vō"/>
+    <tok_anno id="t405_m1" trans="vo\-" utf="vō" ascii="von">
+      <norm tag="von"/>
+      <pos tag="APPR"/>
+      <lemma tag="von"/>
+      <morph tag="--"/>
+      <norm_broad tag="von"/>
+    </tok_anno>
+  </token>
+  <token id="t406" trans="bab$t">
+    <tok_dipl id="t406_d1" trans="bab$t" utf="babſt"/>
+    <tok_anno id="t406_m1" trans="bab$t" utf="babſt" ascii="babst">
+      <norm tag="papst"/>
+      <pos tag="NN"/>
+      <lemma tag="Papst"/>
+      <morph tag="Masc.Dat.Sg"/>
+      <norm_broad tag="papst"/>
+    </tok_anno>
+  </token>
+  <token id="t407" trans="Innocencio%.">
+    <tok_dipl id="t407_d1" trans="Innocencio%." utf="Innocencio·"/>
+    <tok_anno id="t407_m1" trans="Innocencio" utf="Innocencio" ascii="Innocencio">
+      <norm tag="innozenz"/>
+      <pos tag="NE"/>
+      <lemma tag="Innozenz"/>
+      <morph tag="Masc.Dat.Sg"/>
+      <norm_broad tag="innozenz"/>
+    </tok_anno>
+    <tok_anno id="t407_m2" trans="%." utf="·" ascii=".">
+      <norm tag="."/>
+      <pos tag="$."/>
+      <lemma tag="."/>
+      <morph tag="--"/>
+      <norm_broad tag="."/>
+    </tok_anno>
+  </token>
+</text>

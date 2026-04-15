@@ -1,0 +1,156 @@
+# text = ich war auf der Strasse .
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	auf	auf	ADP	APPR	_	2	comp:pred	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Straße	Straße	NOUN	NN	_	3	comp:obj	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Um die Ecke kam ein Mann und eine Frau .
+1	Um	um	ADP	APPR	_	4	comp:obl	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Ecke	Eck|Ecke	NOUN	NN	_	1	comp:obj	_	_
+4	kam	kommen	VERB	VVFIN	_	0	root	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Mann	Mann	NOUN	NN	_	4	subj	_	_
+7	und	und	CCONJ	KON	_	9	cc	_	_
+8	eine	ein	DET	ART	_	9	det	_	_
+9	Frau	Frau	NOUN	NN	_	6	conj	_	_
+10	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = der Mann hatte ein Fußball in den Händen .
+1	der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	hatte	haben	VERB	VAFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Fußball	Fußball	NOUN	NN	_	3	comp:obj	_	_
+6	in	in	ADP	APPR	_	3	mod	_	_
+7	den	d	DET	ART	_	8	det	_	_
+8	Händen	Hand	NOUN	NN	_	6	comp:obj	_	_
+9	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = am anderen Ende von der Straße war eine Frau die Einkaufsessen aus ihrem Auto geholt hat .
+1	am	an	ADJ	APPRART	_	7	mod	_	_
+2	anderen	ander	ADJ	PIDAT	_	3	mod	_	_
+3	Ende	Ende	NOUN	NN	_	1	comp:obj	_	_
+4	von	von	ADP	APPR	_	3	mod@poss	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Straße	Straße	NOUN	NN	_	4	comp:obj	_	_
+7	war	sein	VERB	VAFIN	_	0	root	_	_
+8	eine	ein	DET	ART	_	9	det	_	_
+9	Frau	Frau	NOUN	NN	_	7	subj	_	_
+10	die	d	DET	PRELS	_	16	subj	_	_
+11	Einkaufsessen	Einkaufsessen	NOUN	NN	_	15	comp:obj	_	_
+12	aus	aus	ADP	APPR	_	15	comp:obl	_	_
+13	ihrem	ihr	DET	PPOSAT	_	14	det	_	_
+14	Auto	Auto	NOUN	NN	_	12	comp:obj	_	_
+15	geholt	holen	VERB	VVPP	_	16	comp:aux	_	_
+16	hat	haben	AUX	VAFIN	_	9	mod@relcl	_	_
+17	.	.	PUNCT	$.	_	7	punct	_	_
+
+# text = sie hatte auch einen kleinen Hund dabei .
+1	sie	sie	PRON	PPER	_	2	subj	_	_
+2	hatte	haben	VERB	VAFIN	_	0	root	_	_
+3	auch	auch	ADV	PTKIFG	_	2	mod	_	_
+4	einen	ein	DET	ART	_	6	det	_	_
+5	kleinen	klein	ADJ	ADJA	_	6	mod	_	_
+6	Hund	Hund	NOUN	NN	_	2	comp:obj	_	_
+7	dabei	dabei	ADV	ADV	_	2	compound@prt	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = um die Ecke sind zwei Autos gefahren . eins blau , und eins weiß .
+1	um	um	ADP	APPR	_	7	comp:obl	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Ecke	Eck|Ecke	NOUN	NN	_	1	comp:obj	_	_
+4	sind	sein	AUX	VAFIN	_	0	root	_	_
+5	zwei	zwei	PROPN	CARD	_	6	mod	_	_
+6	Autos	Auto	NOUN	NN	_	4	subj	_	_
+7	gefahren	fahren	VERB	VVPP	_	4	comp:aux	_	_
+8	.	.	PUNCT	$.	_	4	punct	_	_
+9	eins	ein	DET	ART	_	7	appos	_	_
+10	blau	blau	ADJ	ADJD	_	9	orphan	_	_
+11	,	,	PUNCT	$,	_	4	punct	_	_
+12	und	und	CCONJ	KON	_	13	cc	_	_
+13	eins	ein	DET	ART	_	9	conj	_	_
+14	weiß	weiß	NOUN	ADJD	_	13	orphan	_	_
+15	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = als der Mann und die Frau über die Straße gegangen sind , ist der Ball aus den Händen von den Mann gefallen .
+1	als	als	ADP	KOUS	_	13	mod	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Mann	Mann	NOUN	NN	_	11	subj	_	_
+4	und	und	CCONJ	KON	_	6	cc	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Frau	Frau	NOUN	NN	_	3	conj	_	_
+7	über	über	ADP	APPR	_	10	comp:obl	_	_
+8	die	d	DET	ART	_	9	det	_	_
+9	Straße	Straße	NOUN	NN	_	7	comp:obj	_	_
+10	gegangen	gehen	VERB	VVPP	_	11	comp:aux	_	_
+11	sind	sein	AUX	VAFIN	_	1	comp:obj	_	_
+12	,	,	PUNCT	$,	_	1	punct	_	_
+13	ist	sein	VERB	VAFIN	_	0	root	_	_
+14	der	d	DET	ART	_	15	det	_	_
+15	Ball	Ball	PROPN	NN	_	13	subj	_	_
+16	aus	aus	ADP	APPR	_	22	comp:obl	_	_
+17	den	d	DET	ART	_	18	det	_	_
+18	Händen	Hand	NOUN	NN	_	16	comp:obj	_	_
+19	von	von	ADP	APPR	_	18	mod@poss	_	_
+20	den	d	DET	ART	_	21	det	_	_
+21	Mann	Mann	NOUN	NN	_	19	comp:obj	_	_
+22	gefallen	fallen	VERB	VVPP	_	13	comp:aux	_	_
+23	.	.	PUNCT	$.	_	13	punct	_	_
+
+# text = der Hund an der anderen Seite von der Straße ist vorgerannt zum Ball .
+1	der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	10	subj	_	_
+3	an	an	ADP	APPR	_	2	mod	_	_
+4	der	d	DET	ART	_	6	det	_	_
+5	anderen	ander	ADJ	PIDAT	_	6	mod	_	_
+6	Seite	Seite	NOUN	NN	_	3	comp:obj	_	_
+7	von	von	ADP	APPR	_	6	mod@poss	_	_
+8	der	d	DET	ART	_	9	det	_	_
+9	Straße	Straße	NOUN	NN	_	7	comp:obj	_	_
+10	ist	sein	VERB	VAFIN	_	0	root	_	_
+11	vorgerannt	vorrennen	ADJ	VVPP	_	10	comp:aux	_	_
+12	zum	zu	PROPN	APPRART	_	11	comp:obl	_	_
+13	Ball	Ball	PROPN	NN	_	12	flat	_	_
+14	.	.	PUNCT	$.	_	10	punct	_	_
+
+# text = gerade dann , sind die zwei Autos vorgefahren .
+1	gerade	gerade	ADV	ADV	_	2	mod	_	_
+2	dann	dann	ADV	ADV	_	4	mod	_	_
+3	,	,	PUNCT	$,	_	4	punct	_	_
+4	sind	sein	VERB	VAFIN	_	0	root	_	_
+5	die	d	DET	ART	_	7	det	_	_
+6	zwei	zwei	NUM	CARD	_	7	mod	_	_
+7	Autos	Auto	NOUN	NN	_	4	subj	_	_
+8	vorgefahren	vorfahren	NOUN	VVPP	_	4	comp:aux	_	_
+9	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = weil der Hund in der Straße war ist das erste Auto gestoppt ,
+1	weil	weil	SCONJ	KOUS	_	12	mod	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	7	subj	_	_
+4	in	in	ADP	APPR	_	7	mod	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Straße	Straße	NOUN	NN	_	4	comp:obj	_	_
+7	war	sein	VERB	VAFIN	_	1	comp:obj	_	_
+8	ist	sein	AUX	VAFIN	_	0	root	_	_
+9	das	d	DET	ART	_	11	det	_	_
+10	erste	erst	ADJ	ORD	_	11	mod	_	_
+11	Auto	Auto	NOUN	NN	_	8	subj	_	_
+12	gestoppt	stoppen	ADJ	VVPP	_	8	comp:aux	_	_
+13	,	,	PUNCT	$,	_	8	punct	_	_
+
+# text = und das zweite Auto ist in des erste reingefahren .
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	das	d	DET	ART	_	4	det	_	_
+3	zweite	zweit	ADJ	ORD	_	4	mod	_	_
+4	Auto	Auto	NOUN	NN	_	5	subj	_	_
+5	ist	sein	VERB	VAFIN	_	0	root	_	_
+6	in	in	ADP	APPR	_	9	comp:obl	_	_
+7	das	d	DET	ART	_	8	det	_	_
+8	erste	erst	ADJ	ORD	_	6	comp:obj	_	_
+9	reingefahren	reinfahren	NOUN	VVPP	_	5	comp:aux	_	_
+10	.	.	PUNCT	$.	_	5	punct	_	_
+

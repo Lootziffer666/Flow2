@@ -1,0 +1,143 @@
+# text = Am ... um ... Uhr wurde ich Augenzeugin eines Auffahrunfalls in der ... Straße .
+1	Am	an	NOUN	APPRART	_	6	mod	_	_
+2	...	...	PUNCT	$.	_	1	comp:obj	_	_
+3	um	um	ADP	APPR	_	6	mod	_	_
+4	...	...	PUNCT	$.	_	5	mod	_	_
+5	Uhr	Uhr	NOUN	NN	_	3	comp:obj	_	_
+6	wurde	sein	VERB	VAFIN	_	0	root	_	_
+7	ich	ich	PRON	PPER	_	6	subj@pass	_	_
+8	Augenzeugin	Augenzeugin	NOUN	NN	_	6	comp:pred	_	_
+9	eines	ein	DET	ART	_	10	det	_	_
+10	Auffahrunfalls	Auffahrunfalls	NOUN	NN	_	8	mod@poss	_	_
+11	in	in	ADP	APPR	_	10	mod	_	_
+12	der	d	DET	ART	_	14	det	_	_
+13	...	...	PUNCT	$,	_	14	mod	_	_
+14	Straße	Straße	NOUN	NE	_	11	comp:obj	_	_
+15	.	.	PUNCT	$.	_	8	punct	_	_
+
+# text = Der Ablauf war wie folgt :
+1	Der	d	DET	ART	_	2	det	_	_
+2	Ablauf	Ablauf	NOUN	NN	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	wie	wie	ADP	PWAV	_	5	mod	_	_
+5	folgt	folgen	VERB	VVFIN	_	3	comp:pred	_	_
+6	:	:	PUNCT	$.	_	3	punct	_	_
+
+# text = Ein junger Mann mit einem Fußball ging zusammen mit seiner Familie über die Straße .
+1	Ein	ein	DET	ART	_	3	det	_	_
+2	junger	jung	ADJ	ADJA	_	3	mod	_	_
+3	Mann	Mann	NOUN	NN	_	7	subj	_	_
+4	mit	mit	ADP	APPR	_	3	mod	_	_
+5	einem	ein	DET	ART	_	6	det	_	_
+6	Fußball	Fußball	NOUN	NN	_	4	comp:obj	_	_
+7	ging	gehen	VERB	VVFIN	_	0	root	_	_
+8	zusammen	zusammen	ADV	ADV	_	9	mod	_	_
+9	mit	mit	ADP	APPR	_	7	mod	_	_
+10	seiner	sein	DET	PPOSAT	_	11	det	_	_
+11	Familie	Familie	NOUN	NN	_	9	comp:obj	_	_
+12	über	über	ADP	APPR	_	7	comp:obl	_	_
+13	die	d	DET	ART	_	14	det	_	_
+14	Straße	Straße	NOUN	NN	_	12	comp:obj	_	_
+15	.	.	PUNCT	$.	_	7	punct	_	_
+
+# text = Er verlor die Kontrolle über den Ball , sodass dieser über die Straße rollte .
+1	Er	er	PRON	PPER	_	2	subj	_	_
+2	verlor	verlieren	VERB	VVFIN	_	0	root	_	_
+3	die	d	DET	ART	_	4	det	_	_
+4	Kontrolle	Kontrolle	NOUN	NN	_	2	comp:obj	_	_
+5	über	über	ADP	APPR	_	4	mod	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Ball	Ball	NOUN	NN	_	5	comp:obj	_	_
+8	,	,	PUNCT	$,	_	2	punct	_	_
+9	sodass	sodass	SCONJ	KOUS	_	2	mod	_	_
+10	dieser	dies	PRON	PDS	_	14	subj	_	_
+11	über	über	ADP	APPR	_	14	comp:obl	_	_
+12	die	d	DET	ART	_	13	det	_	_
+13	Straße	Straße	NOUN	NN	_	11	comp:obj	_	_
+14	rollte	rollen	VERB	VVFIN	_	9	comp:obj	_	_
+15	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Der angeleinte Hund einer Passantin rannte daraufhin auf die Straße , weshalb der Fahrer des blauen Autos eine Vollbremsung machte und das hintere silberfarbene Auto dem vorderen blauen Auto hinten auffuhr .
+1	Der	d	DET	ART	_	3	det	_	_
+2	angeleinte	angeleint	ADJ	ADJA	_	3	mod	_	_
+3	Hund	Hund	NOUN	NN	_	6	subj	_	_
+4	einer	ein	DET	ART	_	5	det	_	_
+5	Passantin	Passantin	NOUN	NN	_	3	mod@poss	_	_
+6	rannte	rennen	VERB	VVFIN	_	0	root	_	_
+7	daraufhin	daraufhin	ADV	ADV	_	6	mod	_	_
+8	auf	auf	ADP	APPR	_	6	comp:obl	_	_
+9	die	d	DET	ART	_	10	det	_	_
+10	Straße	Straße	NOUN	NN	_	8	comp:obj	_	_
+11	,	,	PUNCT	$,	_	6	punct	_	_
+12	weshalb	weshalb	ADV	PWAV	_	6	mod	_	_
+13	der	d	DET	ART	_	14	det	_	_
+14	Fahrer	Fahrer	NOUN	NN	_	20	subj	_	_
+15	des	d	DET	ART	_	17	det	_	_
+16	blauen	blau	ADJ	ADJA	_	17	mod	_	_
+17	Autos	Auto	NOUN	NN	_	14	mod@poss	_	_
+18	eine	ein	DET	ART	_	19	det	_	_
+19	Vollbremsung	Vollbremsung	NOUN	NN	_	20	comp:obj	_	_
+20	machte	machen	VERB	VVFIN	_	12	comp:obj	_	_
+21	und	und	CCONJ	KON	_	31	cc	_	_
+22	das	d	DET	ART	_	25	det	_	_
+23	hintere	hinter	ADJ	ADJA	_	25	mod	_	_
+24	silberfarbene	silberfarben	ADJ	ADJA	_	25	mod	_	_
+25	Auto	Auto	NOUN	NN	_	31	subj	_	_
+26	dem	d	DET	ART	_	29	det	_	_
+27	vorderen	vorder	ADJ	ADJA	_	29	mod	_	_
+28	blauen	blau	ADJ	ADJA	_	29	mod	_	_
+29	Auto	Auto	NOUN	NN	_	31	comp:obj	_	_
+30	hinten	hinten	ADV	ADV	_	31	mod	_	_
+31	auffuhr	auffahren	VERB	VVFIN	_	20	conj	_	_
+32	.	.	PUNCT	$.	_	6	punct	_	_
+
+# text = Während die Autofahrer aus ihren Wagen stiegen , um die Polizei zu rufen , half der Mann , der den Fußball verloren hatte , der Passantin heruntergefallene Einkäufe wieder in eine Einkaufstüte zu packen .
+1	Während	während	SCONJ	KOUS	_	15	mod	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Autofahrer	Autofahrer	NOUN	NN	_	7	subj	_	_
+4	aus	aus	ADP	APPR	_	7	comp:obl	_	_
+5	ihren	ihr	DET	PPOSAT	_	6	det	_	_
+6	Wagen	Wagen	NOUN	NN	_	4	comp:obj	_	_
+7	stiegen	steigen	VERB	VVFIN	_	1	comp:obj	_	_
+8	,	,	PUNCT	$,	_	1	punct	_	_
+9	um	um	ADP	KOUI	_	7	mod	_	_
+10	die	d	DET	ART	_	11	det	_	_
+11	Polizei	Polizei	NOUN	NN	_	13	comp:obj	_	_
+12	zu	zu	PART	PTKZU	_	9	comp:obj	_	_
+13	rufen	rufen	VERB	VVINF	_	12	comp:obj	_	_
+14	,	,	PUNCT	$,	_	9	punct	_	_
+15	half	helfen	VERB	VVFIN	_	0	root	_	_
+16	der	d	DET	ART	_	17	det	_	_
+17	Mann	Mann	NOUN	NN	_	15	subj	_	_
+18	,	,	PUNCT	$,	_	15	punct	_	_
+19	der	d	PRON	PRELS	_	23	subj	_	_
+20	den	d	DET	ART	_	21	det	_	_
+21	Fußball	Fußball	NOUN	NN	_	22	comp:obj	_	_
+22	verloren	verlieren	VERB	VVPP	_	23	comp:aux	_	_
+23	hatte	haben	AUX	VAFIN	_	17	mod@relcl	_	_
+24	,	,	PUNCT	$,	_	23	punct	_	_
+25	der	d	DET	ART	_	26	det	_	_
+26	Passantin	Passantin	NOUN	NN	_	15	comp:obj	_	_
+27	heruntergefallene	heruntergefallen	ADJ	ADJA	_	28	mod	_	_
+28	Einkäufe	Einkauf	NOUN	NN	_	34	comp:obj	_	_
+29	wieder	wieder	ADV	ADV	_	34	mod	_	_
+30	in	in	ADP	APPR	_	34	comp:obl	_	_
+31	eine	ein	DET	ART	_	32	det	_	_
+32	Einkaufstüte	Einkaufstüte	NOUN	NN	_	30	comp:obj	_	_
+33	zu	zu	PART	PTKZU	_	15	comp:obl	_	_
+34	packen	packen	VERB	VVINF	_	33	comp:obj	_	_
+35	.	.	PUNCT	$.	_	15	punct	_	_
+
+# text = Die Frau behielt den kleinen Hund dabei auf dem Arm .
+1	Die	d	DET	ART	_	2	det	_	_
+2	Frau	Frau	NOUN	NN	_	3	subj	_	_
+3	behielt	behalten	VERB	VVFIN	_	0	root	_	_
+4	den	d	DET	ART	_	6	det	_	_
+5	kleinen	klein	ADJ	ADJA	_	6	mod	_	_
+6	Hund	Hund	NOUN	NN	_	3	comp:obj	_	_
+7	dabei	dabei	ADV	ADV	_	3	mod	_	_
+8	auf	auf	ADP	APPR	_	3	mod	_	_
+9	dem	d	DET	ART	_	10	det	_	_
+10	Arm	Arm	NOUN	NN	_	8	comp:obj	_	_
+11	.	.	PUNCT	$.	_	3	punct	_	_
+

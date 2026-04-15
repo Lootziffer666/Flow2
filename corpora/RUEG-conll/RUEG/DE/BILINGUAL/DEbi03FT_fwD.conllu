@@ -1,0 +1,119 @@
+# text = ﻿Am 12.11.2018 , sah ich um 10:28 Uhr einen Auffahrunfall .
+1	﻿Am	﻿an	ADP	APPRART	Degree=Pos	4	mod	_	_
+2	12.11.2018	@card@	NUM	CARD	_	1	comp:obj	_	_
+3	,	,	PUNCT	$,	_	4	punct	_	_
+4	sah	sehen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	_
+6	um	um	ADP	APPR	_	4	mod	_	_
+7	10:28	@card@	NUM	CARD	NumType=Card	8	mod	_	_
+8	Uhr	Uhr	NOUN	NN	Case=Acc|Number=Sing	6	comp:obj	_	_
+9	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Auffahrunfall	Auffahrunfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	comp:obj	_	_
+11	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Es trug sich zusammen ,
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+2	trug	tragen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs	2	comp:obj	_	_
+4	zusammen	zusammen	ADV	PTKVZ	_	2	compound@prt	_	_
+5	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = ein Fußgänger ließ sein Fußball tollpatschig fallen .
+1	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Fußgänger	Fußgänger	NOUN	NN	Case=Nom|Number=Sing	3	subj	_	_
+3	ließ	lassen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	sein	sein	AUX	VAINF	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	5	mod	_	_
+5	Fußball	Fußball	NOUN	NN	Case=Nom|Number=Sing	7	comp:obj	_	_
+6	tollpatschig	tollpatschig	ADJ	ADJD	Degree=Pos	3	mod	_	_
+7	fallen	fallen	VERB	VVINF	VerbForm=Inf	3	comp:obj	_	_
+8	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Auf der gegenüberliegenden Seite stand , war eine Dame mit ihrem Hund .
+1	Auf	auf	ADP	APPR	_	7	comp:pred	_	_
+2	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	gegenüberliegenden	gegenüberliegend	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	4	mod	_	_
+4	Seite	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	comp:obj	_	_
+5	stand	stehen	VERB	VVFIN	Person=3|VerbForm=Fin	7	reparandum	_	_
+6	,	,	PUNCT	$,	_	7	punct	_	_
+7	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	eine	ein	DET	ART	Definite=Ind|PronType=Art	9	det	_	_
+9	Dame	Dame	NOUN	NN	_	7	subj	_	_
+10	mit	mit	ADP	APPR	_	9	mod	_	_
+11	ihrem	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	Hund	Hund	NOUN	NN	Case=Dat|Number=Sing	10	comp:obj	_	_
+13	.	.	PUNCT	$.	_	7	punct	_	_
+
+# text = Sie war gerade dabei ihren Einkauf einzusortieren in ihr PKW
+1	Sie	sie	PRON	PPER	Case=Nom|Person=2|PronType=Prs	2	subj	_	_
+2	war	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	dabei	dabei	ADV	ADV	_	2	comp:pred	_	_
+5	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	Einkauf	Einkauf	NOUN	NN	Case=Nom|Number=Sing	7	comp:obj	_	_
+7	einzusortieren	einsortieren	VERB	VVIZU	Number=Plur|Person=3|VerbForm=Fin	4	comp:obj	_	_
+8	in	in	ADP	APPR	_	7	comp:obl	_	_
+9	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	PKW	Pkw	NOUN	NN	_	8	comp:obj	_	_
+
+# text = und war somit anderweitig beschäftigt , als auf ihr Hund aufzupassen .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	war	sein	AUX	VAFIN	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	somit	somit	ADV	ADV	_	2	mod	_	_
+4	anderweitig	anderweitig	ADJ	ADJD	Degree=Pos	5	mod	_	_
+5	beschäftigt	beschäftigt	ADJ	ADJD	_	2	comp:pred	_	_
+6	,	,	PUNCT	$,	_	2	punct	_	_
+7	als	als	CCONJ	KOUS	_	4	mod	_	_
+8	auf	auf	ADP	APPR	_	11	comp:obl	_	_
+9	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	Hund	Hund	NOUN	NN	_	8	comp:obj	_	_
+11	aufzupassen	aufpassen	VERB	VVIZU	VerbForm=Inf	7	comp:obj	_	_
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = ( dennoch angeleint ) .
+1	(	(	PUNCT	$(	_	3	punct	_	_
+2	dennoch	dennoch	ADV	ADV	_	3	mod	_	_
+3	angeleint	angeleint	ADJ	ADJD	VerbForm=Part	0	root	_	_
+4	)	)	PUNCT	$(	_	3	punct	_	_
+5	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Als ihr Hund den Ball sah riss er sich los zum Ball .
+1	Als	als	CCONJ	KOUS	_	7	mod	_	_
+2	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	Hund	Hund	NOUN	NN	Case=Acc|Number=Sing	6	subj	_	_
+4	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	comp:obj	_	_
+6	sah	sehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	1	comp:obj	_	_
+7	riss	rei�en	VERB	VVFIN	Case=Acc|Number=Plur	0	root	_	_
+8	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
+9	sich	er|es|sie	PRON	PRF	Case=Nom|Person=3|PronType=Prs	7	comp:obj	_	_
+10	los	los	ADV	PTKVZ	_	7	compound@prt	_	_
+11	zum	zu	ADP	APPRART	_	7	mod	_	_
+12	Ball	Ball	NOUN	NN	_	11	comp:obj	_	_
+13	.	.	PUNCT	$.	_	7	punct	_	_
+
+# text = Der weiße Wagen bremste abrupt
+1	Der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	weiße	weiß	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	mod	_	_
+3	Wagen	Wagen	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+4	bremste	bremsen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	abrupt	abrupt	ADJ	ADJD	_	4	mod	_	_
+
+# text = und der hintere hielt anscheinend nicht genug Abstand
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	Definite=Def|PronType=Art	3	det	_	_
+3	hintere	hinter	ADJ	ADJA	Degree=Cmp	4	subj	_	_
+4	hielt	halten	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	_
+5	anscheinend	anscheinend	ADV	ADV	_	4	mod	_	_
+6	nicht	nicht	INTJ	PTKNEG	_	7	mod	_	_
+7	genug	genug	ADV	PTKMWL	_	8	mod	_	_
+8	Abstand	Abstand	NOUN	NN	_	4	comp:obj	_	_
+
+# text = und fuhr auf den vorderen auf .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	fuhr	fahren	VERB	VVFIN	VerbForm=Fin	0	root	_	_
+3	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+4	den	d	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+5	vorderen	vorder	ADJ	ADJA	Case=Dat|Number=Plur	3	comp:obj	_	_
+6	auf	auf	ADP	APPR	_	2	compound@prt	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+

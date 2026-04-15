@@ -1,0 +1,103 @@
+1	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+2	hallo	hallo	X	NGIRR	_	0	root	_	_
+
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+3	mich	ich	PRON	PRF	_	7	comp:obj	_	_
+4	zum	zu	NOUN	APPRART	_	7	comp:obl	_	_
+5	Fall	Fall	NOUN	NN	_	4	comp:obj	_	_
+6	F16	F16	PROPN	NE	_	5	appos	_	_
+7	äußern	äußern	VERB	VVINF	_	2	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	zwar	zwar	ADV	ADV	_	3	mod	_	_
+3	hatte	haben	VERB	VAFIN	_	0	root	_	_
+4	das	d	DET	ART	_	5	det	_	_
+5	Pärchen	Pärchen	NOUN	NN	_	3	subj	_	_
+6	mit	mit	ADP	APPR	_	5	mod	_	_
+7	dem	d	DET	ART	_	8	det	_	_
+8	Ball	Ball	NOUN	NN	_	6	comp:obj	_	_
+9	den	d	DET	ART	_	10	det	_	_
+10	Ball	Ball	NOUN	NN	_	11	comp:obj	_	_
+11	fallen	fallen	VERB	VVINF	_	12	comp:obj	_	_
+12	gelassen	lassen	VERB	VVPP	_	3	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	auf	auf	ADP	APPR	_	8	comp:obl	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Parkplatz	Parkplatz	NOUN	NN	_	5	comp:obj	_	_
+8	gerollt	rollen	VERB	VVPP	_	3	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	3	subj	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Dame	Dame	NOUN	NN	_	5	mod@poss	_	_
+8	natürlich	natürlich	ADJ	ADV	_	3	mod	_	_
+9	hinter	hinter	ADP	APPR	_	12	comp:obl	_	_
+10	dem	d	DET	ART	_	11	det	_	_
+11	Ball	Ball	NOUN	NN	_	9	comp:obj	_	_
+12	hergerannt	herrennen	ADJ	VVPP	_	3	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	dann	dann	ADV	ADV	_	6	mod	_	_
+3	in	in	ADP	APPR	_	6	mod	_	_
+4	dem	d	DET	ART	_	5	det	_	_
+5	Moment	Moment	NOUN	NN	_	3	comp:obj	_	_
+6	kamen	kommen	VERB	VVFIN	_	0	root	_	_
+7	zwei	zwei	NUM	CARD	_	8	mod	_	_
+8	Autos	Auto	NOUN	NN	_	6	subj	_	_
+9	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+10	äh	äh	ADV	NGHES	_	6	discourse	_	_
+11	in	in	ADP	APPR	_	13	reparandum	_	_
+12	den	d	DET	ART	_	11	comp:obj	_	_
+13	in	in	ADP	APPR	_	6	comp:obl	_	_
+14	den	d	DET	ART	_	15	det	_	_
+15	Parkplatz	Parkplatz	NOUN	NN	_	13	comp:obj	_	_
+16	rein	rein	ADJ	PTKVZ	_	6	compound@prt	_	_
+
+1	dann	dann	ADV	ADV	_	2	mod	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	das	d	DET	ART	_	5	det	_	_
+4	vordere	vordere	ADJ	ADJA	_	5	mod	_	_
+5	Auto	Auto	NOUN	NN	_	2	subj	_	_
+6	zum	zu	NOUN	APPRART	_	11	mod	_	_
+7	Glück	Glück	NOUN	NE	_	6	comp:obj	_	_
+8	den	d	DET	ART	_	9	det	_	_
+9	Hund	Hund	NOUN	NN	_	11	comp:obj	_	_
+10	noch	noch	ADV	PTKMWL	_	2	mod	_	_
+11	gesehen	sehen	VERB	VVPP	_	2	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	stark	stark	ADJ	ADJD	_	2	mod	_	_
+4	abgebremst	abbremsen	ADV	VVPP	_	2	comp:aux	_	_
+
+1	aber	aber	ADV	KON	_	6	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	hintere	hintere	ADJ	ADJA	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	6	reparandum	_	_
+5	dadurch	dadurch	ADV	ADV	_	6	mod	_	_
+6	war	sein	VERB	VAFIN	_	0	root	_	_
+7	er	er	PRON	PPER	_	6	subj	_	_
+8	zu	zu	ADV	PTKA	_	9	mod	_	_
+9	nah	nah	ADJ	ADJD	_	6	comp:pred	_	_
+10	an	an	ADP	APPR	_	9	mod	_	_
+11	ihm	er	PRON	PPER	_	12	comp:obj	_	_
+12	dran	dran	ADV	ADV	_	10	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	dadurch	dadurch	ADV	ADV	_	2	mod	_	_
+4	dann	dann	ADV	ADV	_	2	mod	_	_
+5	hinten	hinten	ADV	ADV	_	2	mod	_	_
+6	aufgefahren	auffahren	VERB	VVPP	_	2	comp:aux	_	_
+
+1	tschüss	tschüss	PROPN	NGIRR	_	0	root	_	_
+
+

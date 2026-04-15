@@ -1,0 +1,88 @@
+# text = Hallo Friede !
+1	Hallo	hallo	X	NGIRR	_	2	discourse	_	_
+2	Friede	Friede	NOUN	NE	_	0	root	_	_
+3	!	!	PUNCT	$.	_	2	punct	_	_
+
+# text = Hör mal , was mir heute passiert ist !
+1	Hör	hören	NOUN	VVFIN	Case=Nom|Number=Sing	0	root	_	_
+2	mal	mal	ADV	PTKMA	_	1	mod	_	_
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	was	was	PRON	PWAV	Number=Sing|PronType=Int	8	subj	_	_
+5	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	7	comp:obj	_	_
+6	heute	heute	ADV	ADV	_	8	mod	_	_
+7	passiert	passieren	VERB	VVPP	Tense=Past|VerbForm=Part	8	comp:aux	_	_
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
+9	!	!	PUNCT	$.	_	1	punct	_	_
+
+# text = Ich habe einen Unfall beobachtet , total verrückt .
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	habe	haben	AUX	VAFIN	Tense=Pres	0	root	_	_
+3	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Unfall	Unfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	comp:obj	_	_
+5	beobachtet	beobachten	VERB	VVPP	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+6	,	,	PUNCT	$,	_	2	punct	_	_
+7	total	total	ADV	PTKIFG	_	8	mod	_	_
+8	verrückt	verrückt	VERB	ADJD	VerbForm=Part	2	parataxis	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Bei REWE auf dem Parkplatz sind zwei Autos ineinandergekracht , weil ein Mann unbedingt auf dem Parkplatz Ball spielen musste !
+1	Bei	bei	ADP	APPR	_	9	mod	_	_
+2	REWE	Rewe	PROPN	NE	Case=Dat|Number=Sing	1	comp:obj	_	_
+3	auf	auf	ADP	APPR	_	2	mod	_	_
+4	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Parkplatz	Parkplatz	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	3	comp:obj	_	_
+6	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	zwei	zwei	NUM	CARD	NumType=Card	8	mod	_	_
+8	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	6	subj	_	_
+9	ineinandergekracht	ineinanderkrachen	VERB	VVPP	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	comp:aux	_	_
+10	,	,	PUNCT	$,	_	6	punct	_	_
+11	weil	weil	SCONJ	KOUS	_	6	mod	_	_
+12	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	20	subj	_	_
+14	unbedingt	unbedingt	ADJ	ADV	Degree=Pos	20	mod	_	_
+15	auf	auf	ADP	APPR	_	19	comp:obl	_	_
+16	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	17	det	_	_
+17	Parkplatz	Parkplatz	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	15	comp:obj	_	_
+18	Ball	Ball	PROPN	NN	_	19	comp:obj	_	_
+19	spielen	spielen	VERB	VVINF	Tense=Pres|VerbForm=Inf	20	comp:aux	_	_
+20	musste	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	comp:obj	_	_
+21	!	!	PUNCT	$.	_	6	punct	_	_
+
+# text = Aber es niemandem etwas passiert , zum Glück .
+1	Aber	aber	CCONJ	KON	_	5	cc	_	_
+2	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	_
+3	niemandem	niemand	VERB	PIS	_	5	comp:obj	_	_
+4	etwas	etwas	ADV	PIS	_	5	subj	_	_
+5	passiert	passieren	ADJ	VVPP	Degree=Pos|Tense=Past	0	root	_	_
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	zum	zu	PROPN	APPRART	_	5	mod	_	_
+8	Glück	Glück	PROPN	NN	_	7	comp:obj	_	_
+9	.	.	PUNCT	$.	_	5	punct	_	_
+
+# text = Die Polizei habe ich danach dennoch angerufen , zur Sicherheit !
+1	Die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Polizei	Polizei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	comp:obj	_	_
+3	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+5	danach	danach	ADV	ADV	_	3	mod	_	_
+6	dennoch	dennoch	ADV	ADV	_	3	mod	_	_
+7	angerufen	anrufen	VERB	VVPP	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+8	,	,	PUNCT	$,	_	3	punct	_	_
+9	zur	zu	PROPN	APPRART	_	7	mod	_	_
+10	Sicherheit	Sicherheit	NOUN	NN	_	9	comp:obj	_	_
+11	!	!	PUNCT	$.	_	3	punct	_	_
+
+# text = okay , das war es schon !
+1	okay	okay	ADJ	NGIRR	_	4	discourse	_	_
+2	,	,	PUNCT	$,	_	4	punct	_	_
+3	das	d	PRON	PDS	Case=Nom|PronType=Dem	4	subj	_	_
+4	war	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	comp:pred	_	_
+6	schon	schon	ADV	PTKMA	_	4	mod	_	_
+7	!	!	PUNCT	$.	_	4	punct	_	_
+
+# text = Bis bald !
+1	Bis	bis	ADP	APPR	_	0	root	_	_
+2	bald	bald	ADV	ADV	_	1	comp:obj	_	_
+3	!	!	PUNCT	$.	_	1	punct	_	_
+

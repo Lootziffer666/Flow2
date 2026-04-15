@@ -1,0 +1,126 @@
+1	hey	hey	INTJ	ITJ	_	2	discourse	_	_
+2	cousin	cousin	PROPN	NP0	_	0	root	_	_
+
+1	why	why	ADV	AVQ	_	4	advmod	_	_
+2	am	be	AUX	VBB	_	4	aux	_	_
+3	I	i	PRON	PNP	_	4	nsubj	_	_
+4	walking	walk	VERB	VVG	_	0	root	_	_
+5	down	down	ADP	PRP	_	4	compound:prt	_	_
+6	the	the	DET	AT0	_	7	det	_	_
+7	street	street	NOUN	NN1	_	4	obl	_	_
+
+1	I	i	PRON	PNP	_	2	nsubj	_	_
+2	get	get	VERB	VVB	_	0	root	_	_
+3	to	to	ADP	PRP	_	5	case	_	_
+4	a	a	DET	AT0	_	5	det	_	_
+5	parking	parking	NOUN	NN1	_	2	obl	_	_
+
+1	and	and	CCONJ	CJC	_	2	cc	_	_
+2	see	see	VERB	VVB	_	0	root	_	_
+3	this	this	DET	DT0	_	4	det	_	_
+4	couple	couple	NOUN	NN1	_	2	obl:tmod	_	_
+5	with	with	ADP	PRP	_	7	case	_	_
+6	a	a	DET	AT0	_	7	det	_	_
+7	stroller	stroller	NOUN	NN1	_	8	obl	_	_
+8	crossing	cross	VERB	VVG	_	2	ccomp	_	_
+9	through	through	ADP	AVP	_	8	compound:prt	_	_
+10	.	.	PUNCT	SENT	_	2	punct	_	_
+
+1	two	2	NUM	CRD	_	4	nummod	_	_
+2	cars	car	NOUN	NN2	_	4	nsubj	_	_
+3	are	be	AUX	VBB	_	4	aux	_	_
+4	coming	come	VERB	VVG	_	0	root	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	dude	dude	NOUN	NN1	_	3	nsubj	_	_
+3	got	get	VERB	VVD	_	0	root	_	_
+4	a	a	DET	AT0	_	5	det	_	_
+5	ball	ball	NOUN	NN1	_	3	obj	_	_
+6	playing	play	VERB	VVG	_	3	parataxis	_	_
+7	with	with	ADP	PRP	_	6	obl	_	_
+8	while	while	SCONJ	CJS	_	9	mark	_	_
+9	walking	walk	VERB	VVG	_	6	advcl	_	_
+10	with	with	ADP	PRP	_	11	case	_	_
+11	shorty	shorty	NOUN	NN1	_	9	obl	_	_
+12	and	and	CCONJ	CJC	_	14	cc	_	_
+13	the	the	DET	AT0	_	14	det	_	_
+14	stroller	stroller	NOUN	NN1	_	11	conj	_	_
+15	.	.	PUNCT	SENT	_	3	punct	_	_
+
+1	he	he	PRON	PNP	_	2	nsubj	_	_
+2	drops	drop	VERB	VVZ	_	0	root	_	_
+3	the	the	DET	AT0	_	4	det	_	_
+4	ball	ball	NOUN	NN1	_	2	obj	_	_
+
+1	it	it	PRON	PNP	_	2	nsubj	_	_
+2	rolls	roll	VERB	VVZ	_	0	root	_	_
+3	in	in	ADP	PRP	_	4	case	_	_
+4	front	front	NOUN	NN1	_	2	obl	_	_
+5	of	of	ADP	PRF	_	8	case	_	_
+6	the	the	DET	AT0	_	8	det	_	_
+7	first	first	ADJ	ORD	_	8	amod	_	_
+8	car	car	NOUN	NN1	_	4	nmod	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	a	a	DET	AT0	_	3	det	_	_
+3	dog	dog	NOUN	NN1	_	0	root	_	_
+4	on	on	ADP	PRP	_	7	case	_	_
+5	the	the	DET	AT0	_	7	det	_	_
+6	other	other	ADJ	AJ0	_	7	amod	_	_
+7	side	side	NOUN	NN1	_	3	nmod	_	_
+8	of	of	ADP	PRF	_	10	case	_	_
+9	the	the	DET	AT0	_	10	det	_	_
+10	lot	lot	NOUN	NN1	_	7	nmod	_	_
+11	makes	make	VERB	VVZ	_	10	acl	_	_
+12	a	a	DET	AT0	_	13	det	_	_
+13	break	break	NOUN	NN1	_	11	obj	_	_
+14	for	for	ADP	PRP	_	15	case	_	_
+15	it	it	PRON	PNP	_	11	obl	_	_
+16	.	.	PUNCT	SENT	_	3	punct	_	_
+
+1	long	long	ADJ	AJ0	_	10	amod	_	_
+2	story	story	NOUN	NN1	_	9	advmod	_	_
+3	short	short	ADJ	AJ0	_	9	advmod	_	_
+4	driver	driver	NOUN	NN1	_	9	obl:npmod	_	_
+5	of	of	ADP	PRF	_	8	case	_	_
+6	the	the	DET	AT0	_	8	det	_	_
+7	first	first	ADJ	ORD	_	8	amod	_	_
+8	car	car	NOUN	NN1	_	4	nmod	_	_
+9	hit	hit	VERB	VVD	_	10	acl	_	_
+10	brakes	brake	NOUN	NN2	_	0	root	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	second	second	ADJ	ORD	_	4	advmod	_	_
+3	car	car	NOUN	NN1	_	4	nsubj	_	_
+4	rams	ram	VERB	VVZ	_	0	root	_	_
+5	right	right	ADV	AV0	_	7	advmod	_	_
+6	into	into	ADP	PRP	_	7	case	_	_
+7	it	it	PRON	PNP	_	4	obl	_	_
+8	.	.	PUNCT	SENT	_	4	punct	_	_
+
+1	sad	sad	ADJ	AJ0	_	0	root	_	_
+2	it	it	PRON	PNP	_	6	nsubj	_	_
+3	could	could	AUX	VM0	_	6	aux	_	_
+4	have	have	AUX	VHI	_	6	aux	_	_
+5	been	be	AUX	VBN	_	6	aux	_	_
+6	avoided	avoid	VERB	VVN	_	1	parataxis	_	_
+7	if	if	SCONJ	CJS	_	12	mark	_	_
+8	it	it	PRON	PNP	_	12	nsubj	_	_
+9	was	be	AUX	VBD	_	12	cop	_	_
+10	not	not	PART	XX0	_	12	advmod	_	_
+11	for	for	ADP	PRP	_	12	case	_	_
+12	dummy	dummy	NOUN	NN1	_	6	advcl	_	_
+13	with	with	ADP	PRP	_	15	case	_	_
+14	the	the	DET	AT0	_	15	det	_	_
+15	ball	ball	NOUN	NN1	_	18	obl	_	_
+16	and	and	CCONJ	CJC	_	17	cc	_	_
+17	dog	dog	NOUN	NN1	_	18	conj	_	_
+18	lady	lady	NOUN	NN1	_	12	obl	_	_
+19	not	not	PART	XX0	_	20	advmod	_	_
+20	holding	hold	VERB	VVG	_	18	conj	_	_
+21	on	on	ADP	PRP	_	20	compound:prt	_	_
+22	to	to	ADP	PRP	_	24	case	_	_
+23	her	she	DET	DPS	_	24	det	_	_
+24	animal	animal	NOUN	NN1	_	20	obl	_	_
+25	.	.	PUNCT	SENT	_	1	punct	_	_
+

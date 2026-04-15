@@ -1,0 +1,229 @@
+# text = Die Frau mit Einkauf und Hund war gerade dabei Ihr Auto einzuladen , als sich von der anderen Straßenseite die Frau mit Kinderwagen und der Mann mit Ball der Straße zum überqueren näherten .
+1	Die	d	DET	_	_	2	det	_	_
+2	Frau	Frau	NOUN	_	_	7	subj	_	_
+3	mit	mit	ADP	_	_	2	mod	_	_
+4	Einkauf	Einkauf	NOUN	_	_	3	comp:obj	_	_
+5	und	und	CCONJ	_	_	6	cc	_	_
+6	Hund	Hund	NOUN	_	_	4	conj	_	_
+7	war	sein	VERB	_	_	0	root	_	_
+8	gerade	gerade	ADV	_	_	7	mod	_	_
+9	dabei	dabei	ADV	_	_	7	comp:pred	_	_
+10	Ihr	ihr	DET	_	_	11	det	_	_
+11	Auto	Auto	NOUN	_	_	12	comp:obj	_	_
+12	einzuladen	einladen	VERB	_	_	9	comp:obj	_	_
+13	,	,	PUNCT	_	_	7	punct	_	_
+14	als	als	SCONJ	_	_	7	mod	_	_
+15	sich	er|es|sie	PRON	_	_	33	comp:obj	_	_
+16	von	von	ADP	_	_	33	mod	_	_
+17	der	d	DET	_	_	19	det	_	_
+18	anderen	ander	ADJ	_	_	19	mod	_	_
+19	Straßenseite	Straßenseite	NOUN	_	_	16	comp:obj	_	_
+20	die	d	DET	_	_	21	det	_	_
+21	Frau	Frau	NOUN	_	_	33	subj	_	_
+22	mit	mit	ADP	_	_	21	mod	_	_
+23	Kinderwagen	Kinderwagen	NOUN	_	_	22	comp:obj	_	_
+24	und	und	CCONJ	_	_	26	cc	_	_
+25	der	d	DET	_	_	26	det	_	_
+26	Mann	Mann	NOUN	_	_	21	conj	_	_
+27	mit	mit	ADP	_	_	26	mod	_	_
+28	Ball	Ball	PROPN	_	_	27	comp:obj	_	_
+29	der	d	DET	_	_	33	comp:obl	_	_
+30	Straße	Straße	PROPN	_	_	29	comp:obj	_	_
+31	zum	zu	PROPN	_	_	33	mod	_	_
+32	überqueren	überqueren	ADJ	_	_	31	comp:obj	_	_
+33	näherten	nähern	NOUN	_	_	14	comp:obj	_	_
+34	.	.	PUNCT	_	_	7	punct	_	_
+
+# text = Der Mann ließ den Ball beim laufen springen
+1	Der	d	DET	_	_	2	det	_	_
+2	Mann	Mann	NOUN	_	_	3	subj	_	_
+3	ließ	lassen	VERB	_	_	0	root	_	_
+4	den	d	DET	_	_	5	det	_	_
+5	Ball	Ball	NOUN	_	_	8	comp:obj	_	_
+6	beim	bei	ADV	_	_	8	mod	_	_
+7	laufen	Laufen	VERB	_	_	6	comp:obj	_	_
+8	springen	springen	VERB	_	_	3	comp:obj	_	_
+
+# text = und als er und die Frau gerade am Straßenrand waren , sprang der Ball auf die Straße , da er versehentlich den Fuß des Mannes beim Dribbeln berührte .
+1	und	und	CCONJ	_	_	12	cc	_	_
+2	als	als	CCONJ	_	_	0	root	_	_
+3	er	er	PRON	_	_	10	subj	_	_
+4	und	und	CCONJ	_	_	6	cc	_	_
+5	die	d	DET	_	_	6	det	_	_
+6	Frau	Frau	NOUN	_	_	3	conj	_	_
+7	gerade	gerade	ADV	_	_	10	mod	_	_
+8	am	an	ADJ	_	_	10	comp:pred	_	_
+9	Straßenrand	Straßenrand	NOUN	_	_	8	comp:obj	_	_
+10	waren	sein	VERB	_	_	2	comp:obj	_	_
+11	,	,	PUNCT	_	_	2	punct	_	_
+12	sprang	springen	VERB	_	_	2	mod	_	_
+13	der	d	DET	_	_	14	det	_	_
+14	Ball	Ball	NOUN	_	_	12	subj	_	_
+15	auf	auf	ADP	_	_	12	comp:obl	_	_
+16	die	d	DET	_	_	17	det	_	_
+17	Straße	Straße	NOUN	_	_	15	comp:obj	_	_
+18	,	,	PUNCT	_	_	12	punct	_	_
+19	da	da	SCONJ	_	_	12	mod	_	_
+20	er	er	PRON	_	_	28	subj	_	_
+21	versehentlich	versehentlich	ADJ	_	_	28	mod	_	_
+22	den	d	DET	_	_	23	det	_	_
+23	Fuß	Fuß	NOUN	_	_	28	comp:obj	_	_
+24	des	d	DET	_	_	25	det	_	_
+25	Mannes	Mann	NOUN	_	_	23	mod@poss	_	_
+26	beim	bei	ADV	_	_	28	mod	_	_
+27	Dribbeln	Dribbeln	NOUN	_	_	26	comp:obj	_	_
+28	berührte	berühren	VERB	_	_	19	comp:obj	_	_
+29	.	.	PUNCT	_	_	12	punct	_	_
+
+# text = Der Hund der eben noch ruhig neben seinem Herrchen saß sprang unverzüglich dem Ball entgegen auf die Straße , wobei etwas des Einkaufes der Frau auf die Straße fiel ,
+1	Der	d	DET	_	_	2	det	_	_
+2	Hund	Hund	NOUN	_	_	11	subj	_	_
+3	der	d	DET	_	_	10	subj	_	_
+4	eben	eben	ADV	_	_	10	mod	_	_
+5	noch	noch	ADV	_	_	10	mod	_	_
+6	ruhig	ruhig	ADJ	_	_	10	mod	_	_
+7	neben	neben	ADP	_	_	10	comp:obl	_	_
+8	seinem	sein	DET	_	_	9	det	_	_
+9	Herrchen	Herrchen	NOUN	_	_	7	comp:obj	_	_
+10	saß	sitzen	VERB	_	_	2	mod@relcl	_	_
+11	sprang	springen	VERB	_	_	0	root	_	_
+12	unverzüglich	unverzüglich	ADJ	_	_	11	mod	_	_
+13	dem	d	DET	_	_	14	det	_	_
+14	Ball	Ball	NOUN	_	_	11	comp:obj	_	_
+15	entgegen	entgegen	ADV	_	_	11	compound@prt	_	_
+16	auf	auf	ADP	_	_	11	comp:obl	_	_
+17	die	d	DET	_	_	18	det	_	_
+18	Straße	Straße	NOUN	_	_	16	comp:obj	_	_
+19	,	,	PUNCT	_	_	11	punct	_	_
+20	wobei	wobei	SCONJ	_	_	29	mod	_	_
+21	etwas	etwas	PRON	_	_	29	subj	_	_
+22	des	d	DET	_	_	23	det	_	_
+23	Einkaufes	Einkauf	NOUN	_	_	21	mod@poss	_	_
+24	der	d	DET	_	_	25	det	_	_
+25	Frau	Frau	NOUN	_	_	23	mod@poss	_	_
+26	auf	auf	ADP	_	_	29	comp:obl	_	_
+27	die	d	DET	_	_	28	det	_	_
+28	Straße	Straße	NOUN	_	_	26	comp:obj	_	_
+29	fiel	fallen	VERB	_	_	11	mod	_	_
+30	,	,	PUNCT	_	_	11	punct	_	_
+
+# text = und die Polizei wurde gerufen .
+1	kam	kommen	VERB	_	_	0	root	_	_
+2	aber	aber	ADV	_	_	1	mod	_	_
+3	wegen	wegen	ADP	_	_	1	mod	_	_
+4	seiner	sein	DET	_	_	5	det	_	_
+5	Leine	Leine	NOUN	_	_	3	comp:obj	_	_
+6	nur	nur	ADV	_	_	7	mod	_	_
+7	ein	ein	NUM	_	_	10	mod	_	_
+8	bis	bis	ADP	_	_	9	cc	_	_
+9	zwei	zwei	NUM	_	_	7	conj	_	_
+10	Meter	Meter	NOUN	_	_	11	mod	_	_
+11	weit	weit	ADJ	_	_	1	mod	_	_
+12	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = und die Polizei wurde gerufen .
+1	Die	d	DET	_	_	3	det	_	_
+2	Zwei	zwei	NUM	_	_	3	mod	_	_
+3	Autos	Auto	NOUN	_	_	12	subj	_	_
+4	,	,	PUNCT	_	_	12	punct	_	_
+5	die	d	PRON	_	_	10	subj	_	_
+6	Sich	sich	PRON	_	_	10	comp:obj	_	_
+7	hintereinander	hintereinander	ADV	_	_	10	mod	_	_
+8	dem	d	DET	_	_	9	det	_	_
+9	Unfallort	Unfallort	NOUN	_	_	10	comp:obl	_	_
+10	näherten	nähern	VERB	_	_	3	mod@relcl	_	_
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	waren	sein	AUX	_	_	0	root	_	_
+13	gerade	gerade	ADV	_	_	12	mod	_	_
+14	circa	circa	ADV	_	_	15	mod	_	_
+15	fünf	fünf	NUM	_	_	18	mod	_	_
+16	bis	bis	ADP	_	_	17	cc	_	_
+17	acht	acht	NUM	_	_	15	conj	_	_
+18	Meter	Meter	NOUN	_	_	25	mod	_	_
+19	von	von	ADP	_	_	25	mod	_	_
+20	dem	d	DET	_	_	21	det	_	_
+21	Ball	Ball	NOUN	_	_	19	comp:obj	_	_
+22	bzw.	bzw.	ADV	_	_	24	cc	_	_
+23	dem	d	DET	_	_	24	det	_	_
+24	Hund	Hund	NOUN	_	_	21	conj	_	_
+25	entfernt	entfernt	ADJ	_	_	12	comp:pred	_	_
+26	als	als	ADP	_	_	12	mod	_	_
+27	diese	dies	PRON	_	_	31	subj	_	_
+28	auf	auf	ADP	_	_	31	comp:obl	_	_
+29	die	d	DET	_	_	30	det	_	_
+30	Straße	Straße	NOUN	_	_	28	comp:obj	_	_
+31	kamen	kommen	VERB	_	_	26	comp:obj	_	_
+32	.	.	PUNCT	_	_	12	punct	_	_
+
+# text = Das vordere Auto bremste rasch
+1	Das	d	DET	_	_	3	det	_	_
+2	vordere	vordere	ADJ	_	_	3	mod	_	_
+3	Auto	Auto	NOUN	_	_	4	subj	_	_
+4	bremste	bremsen	VERB	_	_	0	root	_	_
+5	rasch	rasch	ADJ	_	_	4	mod	_	_
+
+# text = und kam schnell zum stehen , woraufhin aber das hintere Auto dem vordere Auto hinten auffuhr .
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	kam	kommen	VERB	_	_	0	root	_	_
+3	schnell	schnell	ADJ	_	_	2	mod	_	_
+4	zum	zu	NOUN	_	_	2	comp:obl	_	_
+5	stehen	stehen	VERB	_	_	4	comp:obj	_	_
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	woraufhin	woraufhin	ADV	_	_	2	mod	_	_
+8	aber	aber	ADV	_	_	16	mod	_	_
+9	das	d	DET	_	_	11	det	_	_
+10	hintere	hintere	ADJ	_	_	11	mod	_	_
+11	Auto	Auto	NOUN	_	_	16	subj	_	_
+12	dem	d	DET	_	_	14	det	_	_
+13	vordere	vordere	ADJ	_	_	14	mod	_	_
+14	Auto	Auto	NOUN	_	_	16	comp:obj	_	_
+15	hinten	hinten	ADV	_	_	16	mod	_	_
+16	auffuhr	auffahren	VERB	_	_	7	comp:obj	_	_
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Jetzt holte das Herrchen den Hund von der Straße
+1	Jetzt	jetzt	ADV	_	_	2	mod	_	_
+2	holte	holen	VERB	_	_	0	root	_	_
+3	das	d	DET	_	_	4	det	_	_
+4	Herrchen	Herrchen	NOUN	_	_	2	subj	_	_
+5	den	d	DET	_	_	6	det	_	_
+6	Hund	Hund	NOUN	_	_	2	comp:obj	_	_
+7	von	von	ADP	_	_	2	mod	_	_
+8	der	d	DET	_	_	9	det	_	_
+9	Straße	Straße	NOUN	_	_	7	comp:obj	_	_
+
+# text = und der Mann half den Einkauf von der Straße zu räumen .
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	der	d	DET	_	_	3	det	_	_
+3	Mann	Mann	NOUN	_	_	4	subj	_	_
+4	half	helfen	VERB	_	_	0	root	_	_
+5	den	d	DET	_	_	6	det	_	_
+6	Einkauf	Einkauf	NOUN	_	_	11	comp:obj	_	_
+7	von	von	ADP	_	_	11	comp:obl	_	_
+8	der	d	DET	_	_	9	det	_	_
+9	Straße	Straße	NOUN	_	_	7	comp:obj	_	_
+10	zu	zu	PART	_	_	4	comp:obj	_	_
+11	räumen	räumen	VERB	_	_	10	comp:obj	_	_
+12	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = Die Autofahrer stiegen im Anschluss des Unfalles aus Ihren Autos
+1	Die	d	DET	_	_	2	det	_	_
+2	Autofahrer	Autofahrer	NOUN	_	_	3	subj	_	_
+3	stiegen	steigen	VERB	_	_	0	root	_	_
+4	im	in	PROPN	_	_	3	mod	_	_
+5	Anschluss	Anschluß	NOUN	_	_	4	comp:obj	_	_
+6	des	d	DET	_	_	7	det	_	_
+7	Unfalles	Unfalles	NOUN	_	_	5	mod@poss	_	_
+8	aus	aus	ADP	_	_	3	comp:obl	_	_
+9	Ihren	ihr	DET	_	_	10	det	_	_
+10	Autos	Auto	NOUN	_	_	8	comp:obj	_	_
+
+# text = und die Polizei wurde gerufen .
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	die	d	DET	_	_	3	det	_	_
+3	Polizei	Polizei	NOUN	_	_	4	subj@pass	_	_
+4	wurde	werden	AUX	_	_	0	root	_	_
+5	gerufen	rufen	VERB	_	_	4	comp:aux@pass	_	_
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+

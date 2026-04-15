@@ -1,0 +1,97 @@
+# text = Jo Fabian
+1	Jo	Jo	PROPN	NGIRR	_	2	discourse	_	_
+2	Fabian	Fabian	PROPN	NE	_	0	root	_	_
+
+# text = ich habe gerade einen miesen Unfall gesehen ! ! !
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	einen	ein	DET	ART	_	6	det	_	_
+5	miesen	mies	VERB	ADJA	_	6	mod	_	_
+6	Unfall	Unfall	NOUN	NN	_	7	comp:obj	_	_
+7	gesehen	sehen	VERB	VVPP	_	2	comp:aux	_	_
+8	!	!	PUNCT	$.	_	2	punct	_	_
+9	!	!	PUNCT	$.	_	2	punct	_	_
+10	!	!	PUNCT	$.	_	2	punct	_	_
+
+# text = so ein Typ mit einem Fußball läuft über einen Parkplatz
+1	so	so	ADV	PTKIFG	_	3	mod	_	_
+2	ein	ein	DET	ART	_	3	det	_	_
+3	Typ	Typ	NOUN	NN	_	7	subj	_	_
+4	mit	mit	ADP	APPR	_	3	mod	_	_
+5	einem	ein	DET	ART	_	6	det	_	_
+6	Fußball	Fußball	NOUN	NN	_	4	comp:obj	_	_
+7	läuft	laufen	VERB	VVFIN	_	0	root	_	_
+8	über	über	ADP	APPR	_	7	comp:obl	_	_
+9	einen	ein	DET	ART	_	10	det	_	_
+10	Parkplatz	Parkplatz	NOUN	NN	_	8	comp:obj	_	_
+
+# text = und auf der anderen Seite steht eine Frau mit einem Hund .
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	auf	auf	ADP	APPR	_	6	comp:obl	_	_
+3	der	d	DET	ART	_	5	det	_	_
+4	anderen	ander	ADJ	PIDAT	_	5	mod	_	_
+5	Seite	Seite	NOUN	NN	_	2	comp:obj	_	_
+6	steht	stehen	VERB	VVFIN	_	0	root	_	_
+7	eine	ein	DET	ART	_	8	det	_	_
+8	Frau	Frau	NOUN	NN	_	6	subj	_	_
+9	mit	mit	ADP	APPR	_	8	mod	_	_
+10	einem	ein	DET	ART	_	11	det	_	_
+11	Hund	Hund	NOUN	NN	_	9	comp:obj	_	_
+12	.	.	PUNCT	$.	_	6	punct	_	_
+
+# text = dann kommen da einfach zwei Autos angedüst
+1	dann	dann	ADV	ADV	_	2	mod	_	_
+2	kommen	kommen	VERB	VVFIN	_	0	root	_	_
+3	da	da	ADV	ADV	_	2	mod	_	_
+4	einfach	einfach	ADV	PTKMA	_	2	mod	_	_
+5	zwei	zwei	NUM	CARD	_	6	mod	_	_
+6	Autos	Auto	NOUN	NN	_	2	subj	_	_
+7	angedüst	abdüsen	ADV	VVPP	_	2	comp:obl	_	_
+
+# text = und dem Typen fällt genau dann der Ball aus der Hand .
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	dem	d	DET	ART	_	3	det	_	_
+3	Typen	Typ	NOUN	NN	_	4	comp:obj	_	_
+4	fällt	fällt	VERB	VVPP	_	0	root	_	_
+5	genau	genau	ADJ	PTKIFG	_	6	mod	_	_
+6	dann	dann	ADV	ADV	_	4	mod	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Ball	Ball	PROPN	NN	_	4	subj	_	_
+9	aus	aus	ADP	APPR	_	4	comp:obl	_	_
+10	der	d	DET	ART	_	11	det	_	_
+11	Hand	Hand	NOUN	NN	_	9	comp:obj	_	_
+12	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = der Hund natürlich direkt hinterher
+1	der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	0	root	_	_
+3	natürlich	natürlich	ADJ	ADV	_	2	mod	_	_
+4	direkt	direkt	ADJ	ADJD	_	5	mod	_	_
+5	hinterher	hinterher	ADV	ADV	_	2	orphan	_	_
+
+# text = und das Auto das gerade auf den Parkplatz fährt muss so mies wegen dem Köter bremsen dass das hintere Auto voll drauffährt .
+1	und	und	CCONJ	KON	_	10	cc	_	_
+2	das	d	DET	ART	_	3	det	_	_
+3	Auto	Auto	NOUN	NN	_	10	subj	_	_
+4	das	d	DET	PRELS	_	9	subj	_	_
+5	gerade	gerade	ADV	ADV	_	9	mod	_	_
+6	auf	auf	ADP	APPR	_	9	comp:obl	_	_
+7	den	d	DET	ART	_	8	det	_	_
+8	Parkplatz	Parkplatz	NOUN	NN	_	6	comp:obj	_	_
+9	fährt	fahren	VERB	VVINF	_	3	mod@relcl	_	_
+10	muss	müssen	AUX	VMFIN	_	0	root	_	_
+11	so	so	ADV	PTKIFG	_	12	mod	_	_
+12	mies	mies	VERB	ADJD	_	10	mod	_	_
+13	wegen	wegen	ADP	APPR	_	16	mod	_	_
+14	dem	d	DET	ART	_	15	det	_	_
+15	Köter	Köter	NOUN	NN	_	13	comp:obj	_	_
+16	bremsen	bremsen	PROPN	VVINF	_	10	comp:aux	_	_
+17	dass	dass	SCONJ	KOUS	_	11	comp:obj	_	_
+18	das	d	DET	ART	_	20	det	_	_
+19	hintere	hinter	ADJ	ADJA	_	20	mod	_	_
+20	Auto	Auto	NOUN	NN	_	22	subj	_	_
+21	voll	voll	ADJ	ADJD	_	22	mod	_	_
+22	drauffährt	drauffahren	VERB	VVPP	_	17	comp:obj	_	_
+23	.	.	PUNCT	$.	_	10	punct	_	_
+

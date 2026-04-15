@@ -1,0 +1,49 @@
+1	yo	yo	INTJ	ITJ	_	2	discourse	_	_
+2	guys	guy	NOUN	NN2	_	0	root	_	_
+
+1	so	so	INTJ	ITJ	_	3	discourse	_	_
+2	so	so	INTJ	ITJ	_	3	discourse	_	_
+3	guess	guess	VERB	VVB	_	6	aux	_	_
+4	what	what	DET	DTQ	_	6	det	_	_
+5	just	just	ADV	AV0	_	6	advmod	_	_
+6	happened	happen	VERB	VVD	_	0	root	_	_
+
+1	this	this	DET	DT0	_	2	det	_	_
+2	dog	dog	NOUN	NN1	_	4	nsubj	_	_
+3	just	just	ADV	AV0	_	4	advmod	_	_
+4	jumped	jump	VERB	VVD	_	0	root	_	_
+5	out	out	ADP	AVP	_	4	compound:prt	_	_
+6	in	in	ADP	PRP	_	8	case	_	_
+7	the	the	DET	AT0	_	8	det	_	_
+8	middle	middle	NOUN	NN1	_	4	obl	_	_
+9	of	of	ADP	PRF	_	11	case	_	_
+10	the	the	DET	AT0	_	11	det	_	_
+11	road	road	NOUN	NN1	_	8	nmod	_	_
+
+1	and	and	CCONJ	CJC	_	6	cc	_	_
+2	these	these	DET	DT0	_	4	det	_	_
+3	two	two	NUM	CRD	_	4	nummod	_	_
+4	cars	car	NOUN	NN2	_	6	nsubj	_	_
+5	just	just	ADV	AV0	_	6	advmod	_	_
+6	crashed	crash	VERB	VVD	_	10	conj	_	_
+7	into	into	ADP	PRP	_	9	case	_	_
+8	each	each	DET	DT0	_	9	det	_	_
+9	other	other	NOUN	NN1	_	6	obl	_	_
+10	thanks	thank	NOUN	NN2	_	0	root	_	_
+11	to	to	ADP	PRP	_	13	case	_	_
+12	this	this	DET	DT0	_	13	det	_	_
+13	dog	dog	NOUN	NN1	_	10	nmod	_	_
+
+1	and	and	CCONJ	CJC	_	6	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	dog	dog	NOUN	NN1	_	6	nsubj	_	_
+4	is	be	AUX	VBZ	_	6	cop	_	_
+5	not	not	PART	XX0	_	6	advmod	_	_
+6	going	go	VERB	VVG	_	0	root	_	_
+7	to	to	PART	TO0	_	8	mark	_	_
+8	get	get	VERB	VVI	_	6	xcomp	_	_
+9	in	in	ADP	PRP	_	10	case	_	_
+10	trouble	trouble	NOUN	NN1	_	8	obl	_	_
+11	for	for	ADP	PRP	_	12	case	_	_
+12	it	it	PRON	PNP	_	8	obl	_	_
+

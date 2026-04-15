@@ -1,0 +1,140 @@
+1	Jo	Jo	PROPN	NEGIRR	_	4	discourse	_	_
+2	Dicker	Dicker	PROPN	NN	_	4	vocative	_	_
+3	,	,	PUNCT	$,	_	4	punct	_	_
+4	hab	haben	VERB	VAFIN	_	0	root	_	_
+5	heute	heute	ADV	ADV	_	4	mod	_	_
+6	eine	eine	DET	ART	_	8	det	_	_
+7	krasse	krass	NOUN	ADJA	_	8	mod	_	_
+8	Situation	Situation	NOUN	NN	_	9	comp:obj	_	_
+9	gesehen	sehen	VERB	VVPP	_	4	comp:aux	_	_
+10	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	Du	du	PRON	PPER	_	2	subj	_	_
+2	musst	müssen	ADJ	VMFIN	_	0	root	_	_
+3	dir	du	PRON	PRF	_	4	comp:obl	_	_
+4	vorstellen	vorstellen	VERB	VVINF	_	2	comp:aux	_	_
+5	ich	ich	PRON	PPER	_	6	subj	_	_
+6	stand	stehen	VERB	VVFIN	_	4	comp:obj	_	_
+7	an	an	ADP	APPR	_	6	comp:obl	_	_
+8	der	d	DET	ART	_	9	det	_	_
+9	Ecke	Ecke	NOUN	NN	_	7	comp:obj	_	_
+10	unserer	unser	PRON	PPOSAT	_	11	det	_	_
+11	Straße	Straße	NOUN	NN	_	9	mod@poss	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	kam	kommen	VERB	VVFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Paar	Paar	NOUN	NN	_	3	subj	_	_
+6	mit	mit	ADP	APPR	_	5	mod	_	_
+7	einem	ein	DET	ART	_	8	det	_	_
+8	Kinderwagen	Kinderwagen	NOUN	NN	_	6	comp:obj	_	_
+9	gerade	gerade	ADV	ADV	_	3	mod	_	_
+10	an	an	ADP	APPR	_	3	comp:obl	_	_
+11	die	d	DET	ART	_	12	det	_	_
+12	Kreuzung	Kreuzung	NOUN	NN	_	10	comp:obj	_	_
+13	als	als	ADP	KOUS	_	3	mod	_	_
+14	dem	d	DET	ART	_	15	det	_	_
+15	Mann	Mann	NOUN	NN	_	21	comp:obj	_	_
+16	eine	eine	DET	ART	_	17	det	_	_
+17	Wasserflasche	Wasserflasche	NOUN	NN	_	21	subj	_	_
+18	aus	aus	ADP	APPR	_	21	comp:obl	_	_
+19	der	d	DET	ART	_	20	det	_	_
+20	Hand	Hand	NOUN	NN	_	18	comp:obj	_	_
+21	fiel	fallen	VERB	VVFIN	_	13	comp:obj	_	_
+22	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	Diese	dies	PRON	PDS	_	2	subj	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	dann	dann	ADV	ADV	_	2	mod	_	_
+4	direkt	direkt	ADJ	ADV	_	2	mod	_	_
+5	auf	auf	ADP	APPR	_	8	comp:obl	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Straße	Straße	NOUN	NN	_	5	comp:obj	_	_
+8	gekullert	kullern	VERB	VVPP	_	2	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	ein	ein	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	sofort	sofort	ADV	ADV	_	4	mod	_	_
+6	hinterhergesprungen	hinterherspringen	NOUN	VVPP	_	4	comp:aux	_	_
+7	!	!	PUNCT	$.	_	4	punct	_	_
+
+1	Das	d	PRON	PDS	_	2	subj	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	noch	noch	ADV	PTKMWL	_	4	mod	_	_
+4	nicht	nicht	PART	PTKNEG	_	2	mod	_	_
+5	alles	all	PRON	PIS	_	2	comp:pred	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Wie	wie	PART	PWAV	_	4	mod	_	_
+2	erwartet	erwarten	VERB	VVPP	_	1	comp:obj	_	_
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	kamen	kommen	VERB	VVFIN	_	0	root	_	_
+5	in	in	ADP	APPR	_	4	udep	_	_
+6	genau	genau	ADJ	PTKIFG	_	8	mod	_	_
+7	dem	d	DET	ART	_	8	det	_	_
+8	Moment	Moment	NOUN	NN	_	5	comp:obj	_	_
+9	zwei	zwei	NUM	CARD	_	10	mod	_	_
+10	Autos	Auto	NOUN	NN	_	4	subj	_	_
+11	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	Das	d	DET	ART	_	2	det	_	_
+2	erste	erst	NOUN	ORD	_	3	subj	_	_
+3	bremst	bremsen	VERB	VVFIN	_	0	root	_	_
+4	,	,	PUNCT	$,	_	3	punct	_	_
+
+1	der	d	DET	ART	_	2	det	_	_
+2	Andere	Ander	NOUN	NN	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	gepennt	pennen	VERB	VVPP	_	3	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	dem	d	DET	PDS	_	5	comp:obj	_	_
+4	voll	voll	ADJ	PTKIFG	_	2	mod	_	_
+5	raufgefahren	rauffahren	NOUN	VVPP	_	2	comp:aux	_	_
+6	!	!	PUNCT	$.	_	2	punct	_	_
+
+1	Na	na	PART	NGIRR	_	5	discourse	_	_
+2	ja	ja	ADV	NGIRR	_	1	flat	_	_
+3	im	in	PROPN	APPRART	_	7	mod	_	_
+4	Endeffekt	Endeffekt	PROPN	NN	_	3	comp:obj	_	_
+5	ist	sein	AUX	VAFIN	_	0	root	_	_
+6	nichts	nichts	PRON	PIS	_	5	subj	_	_
+7	passiert	passieren	VERB	VVPP	_	5	comp:aux	_	_
+8	,	,	PUNCT	$,	_	5	punct	_	_
+
+1	aber	aber	ADV	KON	_	7	cc	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Muddi	Muddi	PROPN	NN	_	7	subj	_	_
+4	mit	mit	ADP	APPR	_	3	mod	_	_
+5	dem	d	DET	ART	_	6	det	_	_
+6	Hund	Hund	NOUN	NN	_	4	comp:obj	_	_
+7	hat	haben	AUX	VAFIN	_	0	root	_	_
+8	wahrscheinlich	wahrscheinlich	ADJ	ADV	_	7	mod	_	_
+9	ordentlich	ordentlich	ADJ	ADJD	_	7	mod	_	_
+10	Angst	Angst	NOUN	NN	_	11	comp:obj	_	_
+11	bekommen	bekommen	VERB	VVPP	_	7	comp:aux	_	_
+12	um	um	ADP	APPR	_	11	mod	_	_
+13	ihren	ihr	DET	PPOSAT	_	14	det	_	_
+14	Fifi	Fifi	NOUN	NE	_	12	comp:obj	_	_
+15	;	;	PUNCT	EMO	_	11	discourse	_	_
+16	)	)	PUNCT	EMO	_	15	flat	_	_
+
+1	Oh	Oh	PROPN	NGIRR	_	8	discourse	_	_
+2	und	und	CCONJ	KON	_	8	cc	_	_
+3	die	d	DET	ART	_	4	det	_	_
+4	Frau	Frau	NOUN	NN	_	8	comp:obj	_	_
+5	mit	mit	ADP	APPR	_	4	mod	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	Kinderwagen	Kinderwagen	NOUN	NN	_	5	comp:obj	_	_
+8	hat	haben	AUX	VAFIN	_	0	root	_	_
+9	das	d	DET	PDS	_	8	subj	_	_
+10	anscheinend	anscheinend	ADV	ADV	_	8	mod	_	_
+11	gar	gar	ADV	PTKIFG	_	12	mod	_	_
+12	nicht	nicht	PART	PTKNEG	_	8	mod	_	_
+13	gejuckt	gejuckt	VERB	VVPP	_	8	comp:aux	_	_
+14	?	?	PUNCT	$.	_	8	punct	_	_
+

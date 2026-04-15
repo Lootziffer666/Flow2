@@ -1,0 +1,65 @@
+1	Fallnummer	Fallnummer	NOUN	NN	_	0	root	_	_
+2	:	:	PUNCT	$(	_	1	punct	_	_
+3	F16	F16	NOUN	NE	_	1	appos	_	_
+
+1	Ein	Ein	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	9	subj	_	_
+3	der	d	DET	PRELS	_	7	subj	_	_
+4	am	an	ADJ	APPRART	_	6	comp:obl	_	_
+5	Parkplatz	Parkplatz	NOUN	NN	_	4	comp:obj	_	_
+6	vorbeigelaufen	vorbeilaufen	VERB	VVPP	_	7	comp:aux	_	_
+7	ist	sein	AUX	VAFIN	_	2	mod@relcl	_	_
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9	hat	haben	AUX	VAFIN	_	0	root	_	_
+10	sein	sein	DET	PPOSAT	_	11	det	_	_
+11	Ball	Ball	NOUN	NN	_	12	comp:obj	_	_
+12	fallen	fallen	VERB	VVINF	_	13	comp:obj	_	_
+13	gelassen	lassen	VERB	VVPP	_	9	comp:aux	_	_
+14	.	.	PUNCT	$.	_	9	punct	_	_
+
+1	Der	d	DET	ART	_	2	det	_	_
+2	Ball	Ball	NOUN	NN	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	auf	auf	ADP	APPR	_	8	comp:obl	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Parkplatz	Parkplatz	NOUN	NN	_	5	comp:obj	_	_
+8	gerollt	rollen	AUX	VVPP	_	3	comp:aux	_	_
+9	,	,	PUNCT	$,	_	3	punct	_	_
+10	weshalb	weshalb	ADV	PWAV	_	8	mod	_	_
+11	der	d	DET	ART	_	12	det	_	_
+12	Hund	Hund	NOUN	NN	_	18	subj	_	_
+13	vor	vor	ADP	APPR	_	17	comp:obl	_	_
+14	das	d	DET	ART	_	16	det	_	_
+15	anfahrende	anfahrende	ADJ	ADJA	_	16	mod	_	_
+16	Auto	Auto	NOUN	NN	_	13	comp:obj	_	_
+17	gerannt	rennen	ADJ	VVPP	_	18	comp:aux	_	_
+18	ist	sein	VERB	VAFIN	_	10	comp:obj	_	_
+19	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	Deshalb	deshalb	ADV	ADV	_	2	mod	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	das	d	DET	ART	_	5	det	_	_
+4	vordere	vordere	ADJ	ADJA	_	5	mod	_	_
+5	Auto	Auto	NOUN	NN	_	2	subj	_	_
+6	stark	stark	ADJ	ADJD	_	2	mod	_	_
+7	abgebremst	abbremsen	VERB	VVPP	_	2	comp:aux	_	_
+8	,	,	PUNCT	$,	_	2	punct	_	_
+9	um	um	ADP	APPR	_	7	mod	_	_
+10	den	d	DET	ART	_	11	det	_	_
+11	Hund	Hund	NOUN	NN	_	14	comp:obj	_	_
+12	nicht	nicht	PART	PTKNEG	_	14	mod	_	_
+13	zu	zu	PART	PTKZU	_	9	comp:obj	_	_
+14	überfahren	überfahren	VERB	VVINF	_	13	comp:obj	_	_
+15	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Darum	darum	ADV	ADV	_	2	mod	_	_
+2	ist	sein	AUX	VAFIN	_	0	root	_	_
+3	das	d	DET	ART	_	5	det	_	_
+4	hintere	hintere	ADJ	ADJA	_	5	mod	_	_
+5	Fahrzeug	Fahrzeug	NOUN	NN	_	2	subj	_	_
+6	hinten	hinten	ADV	ADV	_	2	mod	_	_
+7	ihn	er	PRON	PPER	_	8	comp:obj	_	_
+8	reingefahren	reinfahren	VERB	VVPP	_	2	comp:aux	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+

@@ -1,0 +1,76 @@
+# text = guten Tag
+1	guten	gut	ADJ	ADJA	Degree=Pos	2	mod	_	_
+2	Tag	Tag	NOUN	NN	_	0	root	_	_
+
+# text = mein Name ist DEbi59FR
+1	mein	mein	PRON	PPOSAT	Person=1|Poss=Yes|PronType=Prs	2	det	_	_
+2	Name	Name	NOUN	NN	Case=Nom|Number=Sing	3	subj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	DEbi59FR	DEbi59FR	PROPN	ADJD	_	3	comp:pred	_	_
+
+# text = und ich berichte als Zeuge zum Fall 16
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	berichte	berichten	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	als	als	ADP	KOKOM	_	3	mod	_	_
+5	Zeuge	Zeuge	PROPN	NN	_	4	comp:obj	_	_
+6	zum	zu	PROPN	APPRART	_	3	comp:obl	_	_
+7	Fall	Fall	PROPN	NN	_	6	comp:obj	_	_
+8	16	@card@	NUM	CARD	NumType=Card	7	appos	_	_
+
+# text = und ich habe miterlebt wie ein Auto ein weißes Auto und ein rotes zusammengestoßen ist wegen eines Hundes äh da dieser Hund zu einem Ball gelaufen ist den ein Mann äh in der Hand hielt fallen ließ
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	miterlebt	miterleben	VERB	VVPP	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+5	wie	wie	ADP	KOUS	_	4	comp:obj	_	_
+6	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Auto	Auto	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	15	subj	_	_
+8	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+9	weißes	weiß	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc,Neut|Number=Sing	10	mod	_	_
+10	Auto	Auto	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	7	appos	_	_
+11	und	und	CCONJ	KON	_	13	cc	_	_
+12	ein	ein	DET	ART	Definite=Ind|PronType=Art	13	det	_	_
+13	rotes	rot	ADJ	ADJA	Degree=Pos	7	conj	_	_
+14	zusammengestoßen	zusammenstoßen	ADJ	VVPP	Degree=Pos|Tense=Past	15	comp:aux	_	_
+15	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
+16	wegen	wegen	ADP	APPR	_	14	mod	_	_
+17	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	18	det	_	_
+18	Hundes	Hund	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	16	comp:obj	_	_
+19	äh	äh	ADJ	NGHES	Degree=Pos	3	discourse	_	_
+20	da	da	SCONJ	KOUS	_	14	mod	_	_
+21	dieser	diese	PRON	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
+22	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	27	subj	_	_
+23	zu	zu	ADP	APPR	_	26	comp:obl	_	_
+24	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	25	det	_	_
+25	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	23	comp:obj	_	_
+26	gelaufen	laufen	VERB	VVPP	Tense=Past|VerbForm=Part	27	comp:aux	_	_
+27	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	comp:obj	_	_
+28	den	d	AUX	PRELS	_	36	comp:obj	_	_
+29	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	30	det	_	_
+30	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	37	subj	_	_
+31	äh	äh	ADJ	NGHES	Degree=Pos	3	discourse	_	_
+32	in	in	ADP	APPR	_	35	mod	_	_
+33	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	Hand	Hand	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	32	comp:obj	_	_
+35	hielt	halten	VERB	VVFIN	Person=3|Tense=Past|VerbForm=Fin	37	reparandum	_	_
+36	fallen	fallen	VERB	VVINF	VerbForm=Inf	37	comp:obj	_	_
+37	ließ	lassen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	mod@relcl	_	_
+
+# text = und deshalb ist das blaue Auto gestoppt
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	deshalb	deshalb	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	das	d	DET	ART	Definite=Def|PronType=Art	6	det	_	_
+5	blaue	blau	ADJ	ADJA	Degree=Pos	6	mod	_	_
+6	Auto	Auto	NOUN	NN	_	3	subj	_	_
+7	gestoppt	stoppen	ADJ	VVPP	Degree=Pos|Tense=Past	3	comp:aux	_	_
+
+# text = und ja
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ja	ja	ADV	NGIRR	_	0	root	_	_
+
+# text = auf Wiedersehen
+1	auf	auf	ADP	APPR	_	0	root	_	_
+2	Wiedersehen	Wiedersehen	NOUN	NN	_	1	comp:obj	_	_
+

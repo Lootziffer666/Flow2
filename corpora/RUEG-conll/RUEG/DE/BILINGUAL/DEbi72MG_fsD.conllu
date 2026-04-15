@@ -1,0 +1,135 @@
+# text = äh ja guten Tag
+1	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+2	ja	ja	ADV	NGIRR	_	4	discourse	_	_
+3	guten	gute	ADJ	ADJA	_	4	mod	_	_
+4	Tag	Tag	NOUN	NN	_	0	root	_	_
+
+# text = hier ist Fallnummer F16
+1	hier	hier	ADV	ADV	_	2	comp:pred	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	Fallnummer	Fallnummer	NOUN	NN	_	2	subj	_	_
+4	F16	F16	PROPN	NE	_	3	appos	_	_
+
+# text = und ich möchte äh einen Unfall melden
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	möchte	möchten	AUX	VMFIN	_	0	root	_	_
+4	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+5	einen	ein	DET	ART	_	6	det	_	_
+6	Unfall	Unfall	NOUN	NN	_	7	comp:obj	_	_
+7	melden	melden	VERB	VVINF	_	3	comp:aux	_	_
+
+# text = der ist äh heute Mittag passiert
+1	der	dies	PRON	PDS	_	2	subj	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	äh	äh	ADV	NGHES	_	2	discourse	_	_
+4	heute	heute	ADV	ADV	_	2	mod	_	_
+5	Mittag	Mittag	NOUN	NN	_	4	mod	_	_
+6	passiert	passieren	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = äh und zwei Fahrer äh zwei Auto sind äh aneinandergekracht
+1	äh	äh	ADJ	NGHES	_	8	discourse	_	_
+2	und	und	CCONJ	KON	_	8	cc	_	_
+3	zwei	zwei	NUM	CARD	_	4	mod	_	_
+4	Fahrer	Fahrer	NOUN	NN	_	7	reparandum	_	_
+5	äh	äh	ADV	NGHES	_	8	discourse	_	_
+6	zwei	zwei	NUM	CARD	_	7	mod	_	_
+7	Auto	Auto	NOUN	NN	_	8	subj	_	_
+8	sind	sein	VERB	VAFIN	_	0	root	_	_
+9	äh	äh	ADJ	NGHES	_	8	discourse	_	_
+10	aneinandergekracht	aneinanderkrachen	ADV	VVPP	_	8	comp:aux	_	_
+
+# text = oder besser gesagt das eine hat das andere von hinten gerammt äh da ein Mann halt über die Straße gegangen ist ohne zu gucken und äh seinen Ball dabei fallen gelassen hat
+1	oder	oder	CCONJ	KON	_	6	cc	_	_
+2	besser	gut	ADV	ADJD	_	3	mod	_	_
+3	gesagt	sagen	VERB	VVPP	_	6	mod	_	_
+4	das	d	DET	ART	_	5	det	_	_
+5	eine	ein	NUM	PIDS	_	6	subj	_	_
+6	hat	haben	AUX	VAFIN	_	0	root	_	_
+7	das	d	DET	ART	_	8	det	_	_
+8	andere	ander	NOUN	PIDS	_	11	comp:obj	_	_
+9	von	von	ADP	APPR	_	11	mod	_	_
+10	hinten	hinten	ADV	ADV	_	9	comp:obj	_	_
+11	gerammt	rammen	ADJ	VVPP	_	6	comp:aux	_	_
+12	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+13	da	da	SCONJ	KOUS	_	11	mod	_	_
+14	ein	ein	DET	ART	_	15	det	_	_
+15	Mann	Mann	NOUN	NN	_	21	subj	_	_
+16	halt	halt	VERB	PTKMA	_	6	discourse	_	_
+17	über	über	ADP	APPR	_	20	comp:obl	_	_
+18	die	d	DET	ART	_	19	det	_	_
+19	Straße	Straße	NOUN	NN	_	17	comp:obj	_	_
+20	gegangen	gehen	VERB	VVPP	_	21	comp:aux	_	_
+21	ist	sein	AUX	VAFIN	_	13	comp:obj	_	_
+22	ohne	ohne	ADP	APPR	_	20	mod	_	_
+23	zu	zu	PART	PTKZU	_	22	comp:obj	_	_
+24	gucken	gucken	VERB	VVINF	_	23	comp:obj	_	_
+25	und	und	CCONJ	KON	_	32	cc	_	_
+26	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+27	seinen	sein	DET	PPOSAT	_	28	det	_	_
+28	Ball	Ball	NOUN	NN	_	30	comp:obj	_	_
+29	dabei	dabei	ADV	ADV	_	32	mod	_	_
+30	fallen	fallen	ADJ	VVINF	_	31	comp:obj	_	_
+31	gelassen	lassen	VERB	VVPP	_	32	comp:aux	_	_
+32	hat	haben	AUX	VAFIN	_	21	conj	_	_
+
+# text = und auf der anderen Straßenseite war halt noch eine Frau mit einem Hund
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	auf	auf	ADP	APPR	_	6	comp:pred	_	_
+3	der	d	DET	ART	_	5	det	_	_
+4	anderen	ander	ADJ	PIDAT	_	5	mod	_	_
+5	Straßenseite	Straßenseite	NOUN	NN	_	2	comp:obj	_	_
+6	war	sein	VERB	VAFIN	_	0	root	_	_
+7	halt	halt	ADV	PTKMA	_	6	discourse	_	_
+8	noch	noch	ADV	PTKMWL	_	6	mod	_	_
+9	eine	ein	DET	ART	_	10	det	_	_
+10	Frau	Frau	NOUN	NN	_	6	subj	_	_
+11	mit	mit	ADP	APPR	_	10	mod	_	_
+12	einem	ein	DET	ART	_	13	det	_	_
+13	Hund	Hund	NOUN	NN	_	11	comp:obj	_	_
+
+# text = der Hund ist äh halt nach dem Ball ist zu dem Ball gerannt
+1	der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	9	subj	_	_
+3	ist	sein	VERB	VAFIN	_	9	reparandum	_	_
+4	äh	äh	ADJ	NGHES	_	9	discourse	_	_
+5	halt	halt	ADV	PTKMA	_	9	discourse	_	_
+6	nach	nach	ADP	APPR	_	3	mod	_	_
+7	dem	d	DET	ART	_	8	det	_	_
+8	Ball	Ball	NOUN	NN	_	6	comp:obj	_	_
+9	ist	sein	VERB	VAFIN	_	0	root	_	_
+10	zu	zu	ADP	APPR	_	13	comp:obl	_	_
+11	dem	d	DET	ART	_	12	det	_	_
+12	Ball	Ball	NOUN	NN	_	10	comp:obj	_	_
+13	gerannt	rennen	ADJ	VVPP	_	9	comp:aux	_	_
+
+# text = und dadurch musste der äh Fahrer bremsen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dadurch	dadurch	ADV	ADV	_	3	mod	_	_
+3	musste	müssen	AUX	VMFIN	_	0	root	_	_
+4	der	d	DET	ART	_	6	det	_	_
+5	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+6	Fahrer	Fahrer	NOUN	NN	_	3	subj	_	_
+7	bremsen	bremsen	PROPN	VVINF	_	3	comp:aux	_	_
+
+# text = und hinter ihm äh konnte nicht genau reagieren
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	hinter	hinter	ADP	APPR	_	8	mod	_	_
+3	ihm	er	PRON	PPER	_	2	comp:obj	_	_
+4	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+5	konnte	können	AUX	VMFIN	_	0	root	_	_
+6	nicht	nicht	PART	PTKNEG	_	7	mod	_	_
+7	genau	genau	ADJ	ADJD	_	5	mod	_	_
+8	reagieren	reagieren	VERB	VVFIN	_	5	comp:aux	_	_
+
+# text = und so ist er halt äh an ihn rangestoßen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	so	so	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	er	er	PRON	PPER	_	3	subj	_	_
+5	halt	halt	ADV	PTKMA	_	3	discourse	_	_
+6	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+7	an	an	ADP	APPR	_	9	comp:obl	_	_
+8	ihn	er	PRON	PPER	_	7	comp:obj	_	_
+9	rangestoßen	ranstoßen	ADJ	VVFIN	_	3	comp:aux	_	_
+

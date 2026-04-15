@@ -1,0 +1,132 @@
+1	ey	ey	PROPN	NGIRR	_	2	discourse	_	_
+2	Dicker	Dicker	PROPN	NN	_	0	root	_	_
+
+1	wenn	wenn	SCONJ	KOUS	_	0	root	_	_
+2	du	du	PRON	PPER	_	3	subj	_	_
+3	wüsstest	wissen	NOUN	VVFIN	_	1	comp:obj	_	_
+
+1	einfach	einfach	ADJ	PTKMA	_	4	discourse	_	_
+2	gerade	gerade	ADV	ADV	_	4	mod	_	_
+3	ich	ich	PRON	PPER	_	4	subj	_	_
+4	gehe	gehen	VERB	VVFIN	_	0	root	_	_
+5	so	so	ADV	ADV	_	4	mod	_	_
+
+1	gerade	gerade	ADV	ADV	_	2	mod	_	_
+2	vor	vor	ADP	APPR	_	6	orphan	_	_
+3	mir	ich	PRON	PPER	_	2	comp:obj	_	_
+4	so	so	ADV	PTKIFG	_	6	mod	_	_
+5	ne	ein	_	ART	_	6	det	_	_
+6	Frau	Frau	NOUN	NN	_	0	root	_	_
+
+1	sie	sie	PRON	PPER	_	2	subj	_	_
+2	packt	packen	VERB	VVFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	ihre	ihr	DET	PPOSAT	_	5	det	_	_
+5	Sachen	Sache	NOUN	NN	_	2	comp:obj	_	_
+6	in	in	ADP	APPR	_	2	comp:obl	_	_
+7	ihr	ihr	DET	PPOSAT	_	8	det	_	_
+8	Auto	Auto	NOUN	NN	_	6	comp:obj	_	_
+
+1	dann	dann	ADV	ADV	_	7	mod	_	_
+2	ein	ein	DET	ART	_	3	det	_	_
+3	Mann	Mann	NOUN	NN	_	7	subj	_	_
+4	und	und	CCONJ	KON	_	6	cc	_	_
+5	eine	ein	DET	ART	_	6	det	_	_
+6	Frau	Frau	NOUN	NN	_	3	conj	_	_
+7	kommen	kommen	VERB	VVFIN	_	0	root	_	_
+
+1	dieser	diese	PRON	PDAT	_	2	det	_	_
+2	eine	eine	PRON	ART	_	3	subj	_	_
+3	lässt	lassen	VERB	VVFIN	_	0	root	_	_
+4	sein	sein	DET	PPOSAT	_	6	comp:obj	_	_
+5	Ball	Ball	NOUN	NN	_	4	comp:pred	_	_
+6	fallen	fallen	VERB	VVINF	_	3	comp:obj	_	_
+
+1	warum	warum	SCONJ	PWAV	_	7	mod	_	_
+2	er	er	PRON	PPER	_	7	subj	_	_
+3	auch	auch	ADV	PTKIFG	_	7	mod	_	_
+4	immer	immer	ADV	ADV	_	7	mod	_	_
+5	mit	mit	ADP	APPR	_	7	mod	_	_
+6	Ball	Ball	PROPN	NN	_	5	comp:obj	_	_
+7	spielt	spielen	VERB	VVFIN	_	0	root	_	_
+
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	diese	diese	PRON	PDAT	_	3	det	_	_
+3	Frau	Frau	NOUN	NN	_	5	dislocated	_	_
+4	sie	sie	PRON	PPER	_	5	subj	_	_
+5	hat	haben	VERB	VAFIN	_	0	root	_	_
+6	ein	ein	DET	ART	_	7	det	_	_
+7	Hund	Hund	NOUN	NN	_	5	comp:obj	_	_
+
+1	der	d	PRON	PDS	_	2	subj	_	_
+2	rennt	rennen	VERB	VVFIN	_	0	root	_	_
+3	hinter	hinter	ADP	APPR	_	2	comp:obl	_	_
+4	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+5	her	her	ADV	ADV	_	2	compound@prt	_	_
+
+1	dann	dann	ADV	ADV	_	6	mod	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Sachen	Sache	NOUN	NN	_	6	subj	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Frau	Frau	NOUN	NN	_	3	mod@poss	_	_
+6	fallen	fallen	VERB	VVINF	_	0	root	_	_
+7	runter	runter	ADJ	PTKVZ	_	6	compound@prt	_	_
+
+1	danach	danach	ADV	ADV	_	5	mod	_	_
+2	zwei	zwei	NUM	CARD	_	3	mod	_	_
+3	Autos	Auto	NOUN	NN	_	5	dislocated	_	_
+4	die	d	PRON	PDS	_	5	subj	_	_
+5	mussten	müssen	AUX	VMFIN	_	0	root	_	_
+6	bremsen	bremsen	VERB	VVINF	_	5	comp:aux	_	_
+7	wegen	wegen	ADP	APPR	_	6	mod	_	_
+8	diese	diese	PRON	PDAT	_	7	comp:obj	_	_
+
+1	der	d	DET	ART	_	3	det	_	_
+2	vordere	vorder	ADJ	ADJA	_	3	mod	_	_
+3	Auto	Auto	NOUN	NN	_	4	subj	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	normal	normal	ADV	ADJD	_	4	mod	_	_
+6	gebremst	bremsen	ADV	VVPP	_	4	comp:aux	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	hintere	hinter	ADJ	NN	_	4	conj	_	_
+9	aber	aber	ADV	KON	_	8	mod	_	_
+10	nicht	nicht	PART	PTKNEG	_	8	orphan	_	_
+
+1	der	d	DET	ART	_	2	det	_	_
+2	hinter	hinter	ADP	NN	_	3	subj	_	_
+3	fährt	fahren	VERB	VVFIN	_	0	root	_	_
+4	eiskalt	eiskalt	ADJ	ADJD	_	3	mod	_	_
+5	in	in	ADP	APPR	_	3	comp:obl	_	_
+6	das	d	DET	ART	_	7	det	_	_
+7	vordere	vorder	ADJ	NN	_	5	comp:obj	_	_
+8	rein	rein	ADJ	PTKVZ	_	3	compound@prt	_	_
+
+1	der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	half	helfen	NUM	VVFIN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Frau	Frau	NOUN	NN	_	3	comp:obj	_	_
+6	dann	dann	ADV	ADV	_	3	mod	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	danach	danach	ADV	ADV	_	3	mod	_	_
+3	gibt	geben	VERB	VVFIN	_	0	root	_	_
+4	er	er	PRON	PPER	_	3	subj	_	_
+5	zu	zu	ADP	APPR	_	3	mod	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Männer	Mann	NOUN	NN	_	5	comp:obj	_	_
+8	die	d	PRON	PRELS	_	12	subj	_	_
+9	sich	er|es|sie	PRON	PRF	_	12	comp:obl	_	_
+10	gerade	gerade	ADV	ADV	_	12	mod	_	_
+11	Unfall	Unfall	NOUN	NN	_	12	comp:obj	_	_
+12	angucken	angucken	VERB	VVINF	_	7	mod@relcl	_	_
+
+1	dem	d	DET	PDS	_	4	comp:obj	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Ball	Ball	NOUN	NN	_	4	subj	_	_
+4	gehört	gehören	VERB	VVPP	_	5	subj	_	_
+5	ging	gehen	VERB	VVFIN	_	0	root	_	_
+6	da	da	ADV	ADV	_	5	mod	_	_
+7	auch	auch	ADV	PTKIFG	_	5	mod	_	_
+8	dahin	dahin	ADV	ADV	_	5	compound@prt	_	_
+

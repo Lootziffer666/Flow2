@@ -1,0 +1,212 @@
+1	ey	ey	PROPN	NGIRR	_	2	discourse	_	_
+2	chick	chick	ADJ	NN	_	0	root	_	_
+
+1	weißt	wissen	VERB	VVFIN	_	0	root	_	_
+2	du	du	PRON	PPER	_	1	subj	_	_
+3	was	was	PRON	PWS	_	6	subj	_	_
+4	heute	heute	ADV	ADV	_	6	mod	_	_
+5	passiert	passieren	VERB	VVPP	_	6	comp:aux	_	_
+6	ist	sein	AUX	VAFIN	_	1	comp:obj	_	_
+
+1	omg	omg	ADJ	NGIRR	_	0	root	_	_
+
+1	:face_screaming_in_fear:	😱	SYM	EMO	_	0	root	_	_
+
+1	bin	sein	VERB	VAFIN	_	0	root	_	_
+2	voll	voll	ADJ	PTKIFG	_	3	mod	_	_
+3	schockiert	schockiert	ADJ	ADJD	_	1	comp:pred	_	_
+4	ja	ja	ADV	NGIRR	_	1	discourse	_	_
+
+1	:face_screaming_in_fear:	😱	SYM	EMO	_	0	root	_	_
+
+1	:flushed_face:	😳	SYM	EMO	_	0	root	_	_
+
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	so	so	ADV	PTKIFG	_	5	mod	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Unfall	Unfall	NOUN	NN	_	6	comp:obj	_	_
+6	miterlebt	miterleben	VERB	VVPP	_	2	comp:aux	_	_
+7	...	...	PUNCT	$.	_	2	discourse	_	_
+
+1	bin	sein	AUX	VAFIN	_	0	root	_	_
+2	so	so	ADV	ADV	_	1	mod	_	_
+3	gelaufen	laufen	VERB	VVPP	_	1	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	es	es	PRON	PPER	_	2	subj	_	_
+4	so	so	ADV	PTKIFG	_	2	mod	_	_
+5	zufällig	zufällig	ADJ	ADJD	_	2	mod	_	_
+6	beobachtet	beobachten	VERB	VVPP	_	2	comp:aux	_	_
+7	...	...	PUNCT	$.	_	2	discourse	_	_
+
+1	von	von	ADP	APPR	_	3	comp:obl	_	_
+2	rechts	rechts	ADV	ADV	_	1	comp:obj	_	_
+3	kam	kommen	VERB	VVFIN	_	0	root	_	_
+4	so	so	ADV	PTKIFG	_	6	mod	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Pärchen	Pärchen	NOUN	NN	_	3	subj	_	_
+7	mit	mit	ADP	APPR	_	6	mod	_	_
+8	einem	ein	DET	ART	_	9	det	_	_
+9	Babywagen	Babywagen	NOUN	NN	_	7	comp:obj	_	_
+
+1	der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	hatte	haben	VERB	VAFIN	_	0	root	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+6	in	in	ADP	APPR	_	3	mod	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Hand	Hand	NOUN	NN	_	6	comp:obj	_	_
+9	mit	mit	ADP	APPR	_	13	comp:obl	_	_
+10	dem	d	PRON	PRELS	_	9	comp:obj	_	_
+11	er	er	PRON	PPER	_	13	subj	_	_
+12	so	so	ADV	ADV	_	13	mod	_	_
+13	spielte	spielen	VERB	VVFIN	_	5	mod@relcl	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	links	links	ADV	ADV	_	3	comp:pred	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	so	so	ADV	PTKIFG	_	6	mod	_	_
+5	eine	ein	DET	ART	_	6	det	_	_
+6	Frau	Frau	NOUN	NN	_	3	subj	_	_
+7	mit	mit	ADP	APPR	_	6	mod	_	_
+8	einem	ein	DET	ART	_	9	det	_	_
+9	Hund	Hund	NOUN	NN	_	7	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	die	d	PRON	PDS	_	3	det	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	gerade	gerade	ADV	ADV	_	3	mod	_	_
+5	so	so	ADV	PTKIFG	_	6	mod	_	_
+6	Einkaufssachen	Einkaufssache	NOUN	NN	_	7	comp:obj	_	_
+7	ausgeräumt	ausräumen	VERB	VVPP	_	3	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	auf	auf	ADP	APPR	_	9	comp:obl	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Straße	Straße	NOUN	NN	_	2	comp:obj	_	_
+5	kamen	kommen	VERB	VVFIN	_	0	root	_	_
+6	so	so	ADV	PTKIFG	_	8	mod	_	_
+7	zwei	zwei	NUM	CARD	_	8	mod	_	_
+8	Autos	Auto	NOUN	NN	_	5	subj	_	_
+9	gefahren	fahren	VERB	VVPP	_	5	comp:obl	_	_
+
+1	das	d	DET	ART	_	2	det	_	_
+2	vordere	vorder	ADJ	ADJA	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	so	so	ADV	PTKIFG	_	7	mod	_	_
+5	ein	ein	DET	ART	_	7	det	_	_
+6	blaues	blau	ADJ	ADJA	_	7	mod	_	_
+7	Auto	Auto	NOUN	NN	_	3	comp:pred	_	_
+8	und	und	CCONJ	KON	_	10	cc	_	_
+9	das	d	DET	ART	_	10	det	_	_
+10	hintere	hinter	ADJ	ADJA	_	2	conj	_	_
+11	so	so	ADV	PTKIFG	_	13	mod	_	_
+12	ein	ein	DET	ART	_	13	det	_	_
+13	silbernes	silbern	ADJ	ADJA	_	10	orphan	_	_
+
+1	dann	dann	ADV	ADV	_	2	mod	_	_
+2	warf	werfen	VERB	VVFIN	_	0	root	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Mann	Mann	NOUN	NN	_	2	subj	_	_
+5	von	von	ADP	APPR	_	7	comp:obj	_	_
+6	rechts	rechts	ADV	ADV	_	5	comp:obj	_	_
+7	glaube	glauben	VERB	VVFIN	_	2	parataxis	_	_
+8	ich	ich	PRON	PPER	_	7	subj	_	_
+9	aus	aus	ADP	APPR	_	2	mod	_	_
+10	Versehen	Versehen	NOUN	NN	_	9	comp:obj	_	_
+11	den	d	DET	ART	_	12	det	_	_
+12	Ball	Ball	NOUN	NN	_	2	comp:obj	_	_
+13	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+14	die	d	DET	ART	_	15	det	_	_
+15	Straße	Straße	NOUN	NN	_	13	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	6	subj	_	_
+4	von	von	ADP	APPR	_	3	mod	_	_
+5	links	links	ADV	ADV	_	4	comp:obj	_	_
+6	ist	sein	AUX	VAFIN	_	0	root	_	_
+7	auf	auf	ADP	APPR	_	10	comp:obl	_	_
+8	die	d	DET	ART	_	9	det	_	_
+9	Straße	Straße	NOUN	NN	_	7	comp:obj	_	_
+10	gesprungen	springen	VERB	VVPP	_	6	comp:aux	_	_
+11	dem	d	DET	ART	_	12	det	_	_
+12	Ball	Ball	NOUN	NN	_	13	comp:obj	_	_
+13	hinterher	hinterher	ADV	ADV	_	10	mod	_	_
+
+1	:face_screaming_in_fear:	😱	SYM	EMO	_	0	root	_	_
+
+1	die	d	DET	ART	_	2	det	_	_
+2	Frau	Frau	NOUN	NN	_	3	subj	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	zwar	zwar	ADV	ADV	_	3	mod	_	_
+5	an	an	ADP	APPR	_	8	comp:obl	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Leine	Leine	PROPN	NN	_	5	comp:obj	_	_
+8	gezogen	ziehen	VERB	VVPP	_	3	comp:aux	_	_
+
+1	aber	aber	ADV	KON	_	5	cc	_	_
+2	das	d	DET	ART	_	4	det	_	_
+3	blaue	blau	ADJ	ADJA	_	4	mod	_	_
+4	Auto	Auto	NOUN	NN	_	5	subj	_	_
+5	hat	haben	VERB	VAFIN	_	0	root	_	_
+6	natürlich	natürlich	ADJ	ADV	_	5	mod	_	_
+7	krass	krass	NOUN	ADJD	_	5	mod	_	_
+8	gebremst	bremsen	ADV	VVPP	_	5	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	das	d	DET	ART	_	4	det	_	_
+3	hintere	hinter	ADJ	ADJA	_	4	mod	_	_
+4	Auto	Auto	NOUN	NN	_	5	subj	_	_
+5	fuhr	fahren	VERB	VVFIN	_	0	root	_	_
+6	dann	dann	ADV	ADV	_	5	mod	_	_
+7	hinten	hinten	ADV	ADV	_	5	mod	_	_
+8	rein	rein	ADJ	PTKVZ	_	5	compound@prt	_	_
+
+1	:face_screaming_in_fear:	😱	SYM	EMO	_	0	root	_	_
+
+1	na	na	PROPN	NGIRR	_	4	discourse	_	_
+2	ja	ja	null	NGIRR	_	1	fixed	_	_
+3	dann	dann	ADV	ADV	_	4	mod	_	_
+4	hat	haben	VERB	VAFIN	_	0	root	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Mann	Mann	NOUN	NN	_	4	subj	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Frau	Frau	NOUN	NN	_	14	comp:obj	_	_
+9	mit	mit	ADP	APPR	_	14	mod	_	_
+10	dem	d	DET	ART	_	11	det	_	_
+11	Ball	Ball	NOUN	NN	_	9	comp:obj	_	_
+12	noch	noch	ADV	PTKMWL	_	4	mod	_	_
+13	so	so	ADV	ADV	_	4	mod	_	_
+14	geholfen	helfen	VERB	VVPP	_	4	comp:aux	_	_
+15	ihre	ihr	DET	PPOSAT	_	16	det	_	_
+16	Sachen	Sache	NOUN	NN	_	17	comp:obj	_	_
+17	aufzuräumen	aufräumen	VERB	VVIZU	_	14	comp:obl	_	_
+18	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	die	d	DET	ART	_	2	det	_	_
+2	Männer	Männer	NOUN	NN	_	3	subj	_	_
+3	sind	sein	AUX	VAFIN	_	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	ausgestiegen	aussteigen	VERB	VVPP	_	3	comp:aux	_	_
+6	von	von	ADP	APPR	_	5	mod	_	_
+7	den	d	DET	ART	_	8	det	_	_
+8	Autos	Auto	NOUN	NN	_	6	comp:obj	_	_
+9	um	um	ADP	KOUI	_	5	mod	_	_
+10	sich	er|es|sie	PRON	PRF	_	13	comp:obl	_	_
+11	den	d	DET	ART	_	12	det	_	_
+12	Unfall	Unfall	NOUN	NN	_	13	comp:obj	_	_
+13	anzuschauen	anschauen	VERB	VVIZU	_	9	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	haben	haben	VERB	VAFIN	_	0	root	_	_
+3	dann	dann	ADV	ADV	_	2	mod	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Polizei	Polizei	NOUN	NN	_	6	comp:obj	_	_
+6	angerufen	anrufen	VERB	VVPP	_	2	comp:aux	_	_
+
+1	:confounded_face:	😖	SYM	EMO	_	0	root	_	_
+

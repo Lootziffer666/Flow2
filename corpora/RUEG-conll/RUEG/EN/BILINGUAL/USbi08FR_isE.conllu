@@ -1,0 +1,191 @@
+1	hey	hey	INTJ	ITJ	_	2	discourse	_	_
+2	Beth	beth	PROPN	NP0	_	0	root	_	_
+
+1	I	i	PRON	PNP	_	2	nsubj	_	_
+2	want	want	VERB	VVB	_	0	root	_	_
+3	to	to	PART	TO0	_	4	mark	_	_
+4	tell	tell	VERB	VVI	_	2	xcomp	_	_
+5	you	you	PRON	PNP	_	4	iobj	_	_
+6	what	what	DET	DTQ	_	7	det	_	_
+7	happened	happen	VERB	VVD	_	4	ccomp	_	_
+
+1	I	i	PRON	PNP	_	4	nsubj	_	_
+2	was	be	AUX	VBD	_	4	aux	_	_
+3	just	just	ADV	AV0	_	4	advmod	_	_
+4	walking	walk	VERB	VVG	_	0	root	_	_
+5	down	down	ADP	PRP	_	7	case	_	_
+6	the	the	DET	AT0	_	7	det	_	_
+7	street	street	NOUN	NN1	_	4	obl	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	there	there	ADV	EX0	_	5	advmod	_	_
+3	was	be	AUX	VBD	_	5	cop	_	_
+4	a	a	DET	AT0	_	5	det	_	_
+5	man	man	NOUN	NN1	_	0	root	_	_
+6	and	and	CCONJ	CJC	_	8	cc	_	_
+7	a	a	DET	AT0	_	8	det	_	_
+8	woman	woman	NOUN	NN1	_	5	conj	_	_
+9	coming	come	VERB	VVG	_	8	acl	_	_
+10	towards	towards	ADP	PRP	_	11	case	_	_
+11	me	i	PRON	PNP	_	9	obl	_	_
+12	with	with	ADP	PRP	_	15	case	_	_
+13	a	a	DET	AT0	_	15	det	_	_
+14	baby	baby	NOUN	NN1	_	15	compound	_	_
+15	carriage	carriage	NOUN	NN1	_	9	obl	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	man	man	NOUN	NN1	_	5	nsubj	_	_
+4	was	be	AUX	VBD	_	5	cop	_	_
+5	bouncing	bounce	VERB	VVG	_	0	root	_	_
+6	a	a	DET	AT0	_	7	det	_	_
+7	ball	ball	NOUN	NN1	_	5	obj	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	he	he	PRON	PNP	_	5	nsubj	_	_
+3	was	be	AUX	VBD	_	5	cop	_	_
+4	just	just	ADV	AV0	_	5	advmod	_	_
+5	about	about	ADV	AV0	_	0	root	_	_
+6	to	to	PART	TO0	_	7	mark	_	_
+7	cross	cross	VERB	VVI	_	5	xcomp	_	_
+8	the	the	DET	AT0	_	9	det	_	_
+9	street	street	NOUN	NN1	_	7	obj	_	_
+10	when	when	SCONJ	CJS	_	12	mark	_	_
+11	he	he	PRON	PNP	_	12	nsubj	_	_
+12	dropped	drop	VERB	VVD	_	7	advcl	_	_
+13	the	the	DET	AT0	_	14	det	_	_
+14	ball	ball	NOUN	NN1	_	12	obj	_	_
+
+1	and	and	CCONJ	CJC	_	11	cc	_	_
+2	on	on	ADP	PRP	_	5	case	_	_
+3	the	the	DET	AT0	_	5	det	_	_
+4	other	other	ADJ	AJ0	_	5	amod	_	_
+5	side	side	NOUN	NN1	_	11	obl	_	_
+6	of	of	ADP	PRF	_	8	case	_	_
+7	the	the	DET	AT0	_	8	det	_	_
+8	street	street	NOUN	NN1	_	5	nmod	_	_
+9	was	be	AUX	VBD	_	11	cop	_	_
+10	a	a	DET	AT0	_	11	det	_	_
+11	woman	woman	NOUN	NN1	_	0	root	_	_
+12	unloading	unload	VERB	VVG	_	11	acl	_	_
+13	her	she	DET	DPS	_	14	det	_	_
+14	groceries	grocery	NOUN	NN2	_	12	obj	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	she	she	PRON	PNP	_	4	nsubj	_	_
+3	was	be	AUX	VBD	_	4	cop	_	_
+4	holding	hold	VERB	VVG	_	0	root	_	_
+5	her	she	DET	DPS	_	6	det	_	_
+6	dog	dog	NOUN	NN1	_	4	obj	_	_
+7	by	by	ADP	PRP	_	9	case	_	_
+8	the	the	DET	AT0	_	9	det	_	_
+9	leash	leash	NOUN	NN1	_	4	obl	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	of	of	ADP	PRF	_	5	case	_	_
+3	course	course	NOUN	NN1	_	2	fixed	_	_
+4	the	the	DET	AT0	_	5	det	_	_
+5	dog	dog	NOUN	NN1	_	0	root	_	_
+6	ran	run	VERB	VVD	_	5	acl	_	_
+7	into	into	ADP	PRP	_	9	case	_	_
+8	the	the	DET	AT0	_	9	det	_	_
+9	street	street	NOUN	NN1	_	6	obl	_	_
+10	towards	towards	ADP	PRP	_	12	case	_	_
+11	the	the	DET	AT0	_	12	det	_	_
+12	ball	ball	NOUN	NN1	_	6	obl	_	_
+
+1	and	and	CCONJ	CJC	_	2	cc	_	_
+2	tugged	tug	VERB	VVD	_	4	conj	_	_
+3	the	the	DET	AT0	_	4	det	_	_
+4	woman	woman	NOUN	NN1	_	0	root	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	she	she	PRON	PNP	_	3	nsubj	_	_
+3	ended	end	VERB	VVD	_	0	root	_	_
+4	up	up	ADP	AVP	_	3	compound:prt	_	_
+5	dropping	drop	VERB	VVG	_	3	conj	_	_
+6	her	she	DET	DPS	_	7	det	_	_
+7	groceries	grocery	NOUN	NN2	_	5	obj	_	_
+
+1	and	and	CCONJ	CJC	_	9	cc	_	_
+2	at	at	ADP	PRP	_	5	case	_	_
+3	the	the	DET	AT0	_	5	det	_	_
+4	same	same	ADJ	AJ0	_	5	amod	_	_
+5	time	time	NOUN	NN1	_	9	obl	_	_
+6	there	there	ADV	EX0	_	9	advmod	_	_
+7	were	be	AUX	VBD	_	9	aux	_	_
+8	cars	car	NOUN	NN2	_	9	nsubj	_	_
+9	coming	come	VERB	VVG	_	0	root	_	_
+10	down	down	ADP	PRP	_	9	compound:prt	_	_
+11	the	the	DET	AT0	_	12	det	_	_
+12	street	street	NOUN	NN1	_	9	obl	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	there	there	ADV	EX0	_	5	advmod	_	_
+3	were	be	AUX	VBD	_	5	cop	_	_
+4	two	two	NUM	CRD	_	5	nummod	_	_
+5	one	one	PRON	PNI	_	0	root	_	_
+6	behind	behind	ADP	PRP	_	8	case	_	_
+7	the	the	DET	AT0	_	8	det	_	_
+8	other	other	NOUN	NN1	_	5	nmod	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	first	first	ADJ	ORD	_	5	advmod	_	_
+4	one	one	PRON	PNI	_	5	nsubj	_	_
+5	braked	brake	VERB	VVD	_	0	root	_	_
+6	suddenly	suddenly	ADV	AV0	_	5	advmod	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	second	second	ADJ	ORD	_	0	root	_	_
+4	one	one	PRON	PNI	_	5	nsubj	_	_
+5	rear-ended	rear-end	VERB	VVD	_	3	advcl	_	_
+6	the	the	DET	AT0	_	8	det	_	_
+7	first	first	ADJ	ORD	_	8	amod	_	_
+8	car	car	NOUN	NN1	_	5	obj	_	_
+
+1	no	no	DET	AT0	_	2	det	_	_
+2	one	one	PRON	PNI	_	3	nsubj	_	_
+3	got	get	VERB	VVD	_	0	root	_	_
+4	hurt	hurt	VERB	VVN	_	3	xcomp	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	the	the	DET	AT0	_	4	det	_	_
+3	first	first	ADJ	ORD	_	4	amod	_	_
+4	driver	driver	NOUN	NN1	_	5	nsubj	_	_
+5	called	call	VERB	VVD	_	0	root	_	_
+6	the	the	DET	AT0	_	7	det	_	_
+7	police	police	NOUN	NN0	_	5	obj	_	_
+
+1	then	then	ADV	AV0	_	4	advmod	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	man	man	NOUN	NN1	_	4	nsubj	_	_
+4	helped	help	VERB	VVD	_	0	root	_	_
+5	the	the	DET	AT0	_	6	det	_	_
+6	woman	woman	NOUN	NN1	_	7	nsubj	_	_
+7	pick	pick	VERB	VVI	_	4	ccomp	_	_
+8	up	up	ADP	AVP	_	7	compound:prt	_	_
+9	her	she	DET	DPS	_	10	det	_	_
+10	groceries	grocery	NOUN	NN2	_	7	obj	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	then	then	ADV	AV0	_	4	advmod	_	_
+3	he	he	PRON	PNP	_	4	nsubj	_	_
+4	went	go	VERB	VVD	_	0	root	_	_
+5	over	over	ADP	AVP	_	4	compound:prt	_	_
+6	to	to	ADP	PRP	_	8	case	_	_
+7	the	the	DET	AT0	_	8	det	_	_
+8	drivers	driver	NOUN	NN2	_	4	obl	_	_
+
+1	but	but	CCONJ	CJC	_	6	cc	_	_
+2	it	it	PRON	PNP	_	6	nsubj	_	_
+3	was	be	AUX	VBD	_	6	cop	_	_
+4	a	a	DET	AT0	_	6	det	_	_
+5	big	big	ADJ	AJ0	_	6	amod	_	_
+6	mess	mess	NOUN	NN1	_	0	root	_	_
+7	that	that	SCONJ	CJT	_	10	mark	_	_
+8	all	all	DET	DT0	_	10	nsubj	_	_
+9	that	that	SCONJ	CJT	_	10	mark	_	_
+10	happened	happen	VERB	VVD	_	6	acl	_	_
+

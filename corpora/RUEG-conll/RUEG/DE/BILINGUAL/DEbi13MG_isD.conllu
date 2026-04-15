@@ -1,0 +1,138 @@
+# text = äh ey Dicker
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	ey	ey	PROPN	NGIRR	_	3	discourse	_	_
+3	Dicker	Dicker	PROPN	NE	_	0	root	_	_
+
+# text = ich bin heute auf dem Weg zur Arbeit
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	bin	sein	VERB	VAFIN	_	0	root	_	_
+3	heute	heute	ADV	ADV	_	2	mod	_	_
+4	auf	auf	ADP	APPR	_	2	comp:pred	_	_
+5	dem	d	DET	ART	_	6	det	_	_
+6	Weg	Weg	NOUN	NN	_	4	comp:obj	_	_
+7	zur	zu	PROPN	APPRART	_	6	mod	_	_
+8	Arbeit	Arbeit	PROPN	NN	_	7	comp:obj	_	_
+
+# text = äh und habe äh einen Autounfall gesehen
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	und	und	CCONJ	KON	_	3	cc	_	_
+3	habe	haben	AUX	VAFIN	_	0	root	_	_
+4	äh	äh	ADV	NGHES	_	3	discourse	_	_
+5	einen	ein	DET	ART	_	6	det	_	_
+6	Autounfall	Autounfall	NOUN	NN	_	7	comp:obj	_	_
+7	gesehen	sehen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = äh mir kam so ein Typ mit seiner Frau entgegen mit dem Kinderwagen
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	mir	ich	PRON	PPER	_	3	comp:obj	_	_
+3	kam	kommen	VERB	VVFIN	_	0	root	_	_
+4	so	so	ADV	PTKIFG	_	6	mod	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Typ	Typ	NOUN	NN	_	3	subj	_	_
+7	mit	mit	ADP	APPR	_	6	mod	_	_
+8	seiner	sein	DET	PPOSAT	_	9	det	_	_
+9	Frau	Frau	NOUN	NN	_	7	comp:obj	_	_
+10	entgegen	entgegen	ADP	PTKVZ	_	3	compound@prt	_	_
+11	mit	mit	ADP	APPR	_	3	mod	_	_
+12	dem	d	DET	ART	_	13	det	_	_
+13	Kinderwagen	Kinderwagen	NOUN	NN	_	11	comp:obj	_	_
+
+# text = und die wollten halt über die Straße gehen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	die	d	PRON	PDS	_	3	subj	_	_
+3	wollten	wollen	AUX	VMFIN	_	0	root	_	_
+4	halt	halt	ADV	PTKMA	_	3	discourse	_	_
+5	über	über	ADP	APPR	_	8	comp:obl	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Straße	Straße	NOUN	NN	_	5	comp:obj	_	_
+8	gehen	gehen	VERB	VVINF	_	3	comp:aux	_	_
+
+# text = und die waren total unachtsam
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	die	d	PRON	PDS	_	3	subj	_	_
+3	waren	sein	VERB	VAFIN	_	0	root	_	_
+4	total	total	ADV	PTKIFG	_	5	mod	_	_
+5	unachtsam	unachtsam	ADJ	ADJD	_	3	comp:pred	_	_
+
+# text = und haben gar nicht auf die Straße geschaut
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	haben	haben	VERB	VAFIN	_	0	root	_	_
+3	gar	gar	ADV	PTKIFG	_	4	mod	_	_
+4	nicht	nicht	PART	PTKNEG	_	2	mod	_	_
+5	auf	auf	ADP	APPR	_	8	comp:obl	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Straße	Straße	NOUN	NN	_	5	comp:obj	_	_
+8	geschaut	schauen	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = und in dem Moment kamen äh zwei Autos angefahren
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	in	in	ADP	APPR	_	9	mod	_	_
+3	dem	d	DET	ART	_	4	det	_	_
+4	Moment	Moment	NOUN	NN	_	2	comp:obj	_	_
+5	kamen	kommen	VERB	VVFIN	_	0	root	_	_
+6	äh	äh	ADV	NGHES	_	5	discourse	_	_
+7	zwei	zwei	NUM	CARD	_	8	mod	_	_
+8	Autos	Auto	NOUN	NN	_	5	subj	_	_
+9	angefahren	anfahren	VERB	VVPP	_	5	comp:obl	_	_
+
+# text = der Typ hat sich voll erschrocken
+1	der	d	DET	ART	_	2	det	_	_
+2	Typ	Typ	NOUN	NN	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	sich	er|es|sie	PRON	PRF	_	6	comp:obj	_	_
+5	voll	voll	ADJ	PTKIFG	_	3	mod	_	_
+6	erschrocken	erschrecken	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = ihm ist äh so ein Fußball den er inner Hand hielt aus der Hand geflogen und auf die andere Straßenseite
+1	ihm	er	PRON	PPER	_	15	comp:obj	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+4	so	so	ADV	PTKIFG	_	6	mod	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Fußball	Fußball	NOUN	NN	_	2	subj	_	_
+7	den	d	DET	PRELS	_	11	comp:obj	_	_
+8	er	er	PRON	PPER	_	11	subj	_	_
+9	inner	inner	_	APPRART	_	11	comp:obl	_	_
+10	Hand	Hand	NOUN	NN	_	9	comp:obj	_	_
+11	hielt	halten	VERB	VVFIN	_	6	mod@relcl	_	_
+12	aus	aus	ADP	APPR	_	15	comp:obl	_	_
+13	der	d	DET	ART	_	14	det	_	_
+14	Hand	Hand	NOUN	NN	_	12	comp:obj	_	_
+15	geflogen	fliegen	VERB	VVPP	_	2	comp:aux	_	_
+16	und	und	CCONJ	KON	_	17	cc	_	_
+17	auf	auf	ADP	APPR	_	2	conj	_	_
+18	die	d	DET	ART	_	20	det	_	_
+19	andere	ander	ADJ	PIDAT	_	20	mod	_	_
+20	Straßenseite	Straßenseite	NOUN	NN	_	17	comp:obj	_	_
+
+# text = die Autos mussten eine Vollbremsung machen
+1	die	d	DET	ART	_	2	det	_	_
+2	Autos	Auto	NOUN	NN	_	3	subj	_	_
+3	mussten	müssen	AUX	VMFIN	_	0	root	_	_
+4	eine	ein	DET	ART	_	5	det	_	_
+5	Vollbremsung	Vollbremsung	NOUN	NN	_	6	comp:obj	_	_
+6	machen	machen	VERB	VVINF	_	3	comp:aux	_	_
+
+# text = und zack äh war der Unfall schon geschehen
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	zack	zack	NOUN	NGONO	_	4	discourse	_	_
+3	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+4	war	sein	VERB	VAFIN	_	0	root	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Unfall	Unfall	NOUN	NN	_	4	subj	_	_
+7	schon	schon	ADV	ADV	_	4	mod	_	_
+8	geschehen	geschehen	VERB	VVPP	_	4	comp:aux	_	_
+
+# text = also total unachtsam
+1	also	also	ADV	SEDM	_	3	discourse	_	_
+2	total	total	ADV	PTKIFG	_	3	mod	_	_
+3	unachtsam	unachtsam	ADJ	ADJD	_	0	root	_	_
+
+# text = und na ja wir hören uns
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	na	na	PROPN	NGIRR	_	5	discourse	_	_
+3	ja	ja	ADV	NGIRR	_	2	fixed	_	_
+4	wir	wir	PRON	PPER	_	5	subj	_	_
+5	hören	hören	VERB	VVFIN	_	0	root	_	_
+6	uns	wir	PRON	PRF	_	5	comp:obj	_	_
+

@@ -1,0 +1,145 @@
+# text = Puh ...
+1	Puh	puh	ADJ	NGIRR	_	0	root	_	_
+2	...	...	PUNCT	$.	_	1	discourse	_	_
+
+# text = Menschen und Autofahren .
+1	Menschen	Mensch	NOUN	NN	_	0	root	_	_
+2	und	und	CCONJ	KON	_	3	cc	_	_
+3	Autofahren	Autofahren	VERB	NN	_	1	conj	_	_
+4	.	.	PUNCT	$.	_	1	punct	_	_
+
+# text = Ich war hier gerade im Eck beim Jobcenter ,
+1	Ich	ich	PRON	PPER	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	hier	hier	ADV	ADV	_	2	mod	_	_
+4	gerade	gerade	ADV	ADV	_	2	mod	_	_
+5	im	in	PROPN	APPRART	_	2	comp:pred	_	_
+6	Eck	Eck	PROPN	NN	_	5	comp:obj	_	_
+7	beim	bei	PROPN	APPRART	_	6	mod	_	_
+8	Jobcenter	Jobcenter	PROPN	NN	_	7	comp:obj	_	_
+9	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = da hat es ein bisschen geknallt auf einem Parkplatz .
+1	da	da	ADV	ADV	_	2	mod	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	es	es	PRON	PPER	_	2	subj@expl	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	bisschen	bisschen	NOUN	PIDS	_	2	mod	_	_
+6	geknallt	knallen	ADJ	VVPP	_	2	comp:aux	_	_
+7	auf	auf	ADP	APPR	_	6	mod	_	_
+8	einem	ein	DET	ART	_	9	det	_	_
+9	Parkplatz	Parkplatz	NOUN	NN	_	7	comp:obj	_	_
+10	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Da war ein Pärchen mit Kinderwagen unterwegs ,
+1	Da	da	ADV	ADV	_	2	mod	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Pärchen	Pärchen	NOUN	NN	_	2	subj	_	_
+5	mit	mit	ADP	APPR	_	4	mod	_	_
+6	Kinderwagen	Kinderwagen	NOUN	NN	_	5	comp:obj	_	_
+7	unterwegs	unterwegs	ADV	ADV	_	2	comp:pred	_	_
+8	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = der Typ spielte mit einem Fußball herum .
+1	der	d	DET	ART	_	2	det	_	_
+2	Typ	Typ	NOUN	NN	_	3	subj	_	_
+3	spielte	spielen	VERB	VVFIN	_	0	root	_	_
+4	mit	mit	ADP	APPR	_	3	comp:obl	_	_
+5	einem	ein	DET	ART	_	6	det	_	_
+6	Fußball	Fußball	NOUN	NN	_	4	comp:obj	_	_
+7	herum	herum	PROPN	PTKVZ	_	3	compound@prt	_	_
+8	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Auf dem Parkplatz stand eine Frau mit ihrem Hund
+1	Auf	auf	ADP	APPR	_	4	comp:obl	_	_
+2	dem	d	DET	ART	_	3	det	_	_
+3	Parkplatz	Parkplatz	NOUN	NN	_	1	comp:obj	_	_
+4	stand	stehen	VERB	VVFIN	_	0	root	_	_
+5	eine	ein	DET	ART	_	6	det	_	_
+6	Frau	Frau	NOUN	NN	_	4	subj	_	_
+7	mit	mit	ADP	APPR	_	6	mod	_	_
+8	ihrem	ihr	DET	PPOSAT	_	9	det	_	_
+9	Hund	Hund	NOUN	NN	_	7	comp:obj	_	_
+
+# text = und packte Einkäufe aus .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	packte	packen	ADJ	VVFIN	_	0	root	_	_
+3	Einkäufe	Einkauf	NOUN	NN	_	2	comp:obj	_	_
+4	aus	aus	ADP	PTKVZ	_	2	compound@prt	_	_
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Wie das immer so ist : Ball rollt auf Straße ,
+1	Wie	wie	ADP	KOUS	_	8	mod	_	_
+2	das	d	DET	PDS	_	5	subj	_	_
+3	immer	immer	ADV	ADV	_	5	mod	_	_
+4	so	so	ADV	ADV	_	5	mod	_	_
+5	ist	sein	VERB	VAFIN	_	1	comp:obj	_	_
+6	:	:	PUNCT	$.	_	1	punct	_	_
+7	Ball	Ball	PROPN	NN	_	8	subj	_	_
+8	rollt	rollen	VERB	VVFIN	_	0	root	_	_
+9	auf	auf	ADP	APPR	_	8	comp:obl	_	_
+10	Straße	Straße	NOUN	NN	_	9	comp:obj	_	_
+11	,	,	PUNCT	$.	_	8	punct	_	_
+
+# text = Hund attackiert Ball und natürlich muss just in dem Moment ein Auto da entlangrollen .
+1	Hund	Hund	NOUN	NN	_	2	subj	_	_
+2	attackiert	attackieren	VERB	VVFIN	_	0	root	_	_
+3	Ball	Ball	PROPN	NN	_	2	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	natürlich	natürlich	ADJ	ADV	_	3	mod	_	_
+3	muss	müssen	AUX	VMFIN	_	0	root	_	_
+4	just	just	NOUN	ADV	_	5	mod	_	_
+5	in	in	ADP	APPR	_	11	mod	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	Moment	Moment	NOUN	NN	_	5	comp:obj	_	_
+8	ein	ein	DET	ART	_	9	det	_	_
+9	Auto	Auto	NOUN	NN	_	3	subj	_	_
+10	da	da	ADV	ADV	_	3	mod	_	_
+11	entlangrollen	entlangrollen	VERB	VVINF	_	3	comp:aux	_	_
+12	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Den Hund hat es zum Glück nicht erwischt .
+1	Den	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	8	comp:obj	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	es	es	PRON	PPER	_	3	subj@expl	_	_
+5	zum	zu	NOUN	APPRART	_	8	mod	_	_
+6	Glück	Glück	NOUN	NN	_	5	comp:obj	_	_
+7	nicht	nicht	PART	PTKNEG	_	3	mod	_	_
+8	erwischt	erwischen	ADJ	VVPP	_	3	comp:aux	_	_
+9	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Der Ball ist auch heile . Dem Auto allerdings ein Nachfolger hinten hereingeknallt .
+1	Der	d	DET	ART	_	2	det	_	_
+2	Ball	Ball	NOUN	NN	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	auch	auch	ADV	PTKIFG	_	3	mod	_	_
+5	heile	heile	ADJ	ADJD	_	3	comp:pred	_	_
+6	.	.	PUNCT	$.	_	3	punct	_	_
+7	Dem	d	DET	ART	_	8	det	_	_
+8	Auto	Auto	NOUN	NN	_	13	comp:obj	_	_
+9	allerdings	allerdings	ADV	ADV	_	13	mod	_	_
+10	ein	ein	DET	ART	_	11	det	_	_
+11	Nachfolger	Nachfolger	NOUN	NN	_	13	subj	_	_
+12	hinten	hinten	ADV	ADV	_	13	mod	_	_
+13	hereingeknallt	hereinknallen	VERB	VVPP	_	3	conj	_	_
+14	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Wie man das bei Schritttempo auf einem Parkplatz schafft , ist mir schleierhaft ...
+1	Wie	wie	ADP	PWAV	_	9	mod	_	_
+2	man	man	PRON	PIS	_	9	subj	_	_
+3	das	d	DET	PDS	_	9	comp:obj	_	_
+4	bei	bei	ADP	APPR	_	9	mod	_	_
+5	Schritttempo	Schritttempo	PROPN	NN	_	4	comp:obj	_	_
+6	auf	auf	ADP	APPR	_	9	mod	_	_
+7	einem	ein	DET	ART	_	8	det	_	_
+8	Parkplatz	Parkplatz	NOUN	NN	_	6	comp:obj	_	_
+9	schafft	schaffen	VERB	VVFIN	_	11	subj	_	_
+10	,	,	PUNCT	$,	_	11	punct	_	_
+11	ist	sein	VERB	VAFIN	_	0	root	_	_
+12	mir	ich	PRON	PPER	_	11	comp:obj	_	_
+13	schleierhaft	schleierhaft	ADJ	ADJD	_	11	comp:pred	_	_
+14	...	...	PUNCT	$.	_	11	discourse	_	_
+

@@ -1,0 +1,68 @@
+# text = hallo Bryson ,
+1	hallo	hallo	X	NGIRR	_	2	discourse	_	_
+2	Bryson	Bryson	NOUN	NE	_	0	root	_	_
+3	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = ich hab gerade ein Autounfall gesehen .
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	hab	haben	AUX	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Autounfall	Autounfall	NOUN	NN	_	6	comp:obj	_	_
+6	gesehen	sehen	PROPN	VVPP	_	2	comp:aux	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Ein Mann ist fast in ein Hund reingefährden .
+1	Ein	ein	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	fast	fast	ADV	ADV	_	3	mod	_	_
+5	in	in	ADP	APPR	_	8	comp:obl	_	_
+6	ein	ein	DET	ART	_	7	det	_	_
+7	Hund	Hund	NOUN	NN	_	5	comp:obj	_	_
+8	reingefährden	reinfahren	ADJ	VVPP	_	3	comp:aux	_	_
+9	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = niemand ist verletzt .
+1	niemand	niemand	PRON	PIS	_	2	subj	_	_
+2	ist	sein	AUX	VAFIN	_	0	root	_	_
+3	verletzt	verletzen	VERB	ADJD	_	2	comp:pred	_	_
+4	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = da gabst auch ein Mann auf die anderen Seite von die Straße mit ein Ball .
+1	da	da	ADV	ADV	_	2	mod	_	_
+2	gabst	geben	ADV	VVFIN	_	0	root	_	_
+3	auch	auch	ADV	ADV	_	2	mod	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Mann	Mann	NOUN	NN	_	2	comp:obj	_	_
+6	auf	auf	ADP	APPR	_	2	mod	_	_
+7	die	d	DET	ART	_	9	det	_	_
+8	anderen	ander	ADJ	PIDAT	_	9	mod	_	_
+9	Seite	Seite	NOUN	NN	_	6	comp:obj	_	_
+10	von	von	ADP	APPR	_	9	mod@poss	_	_
+11	die	d	DET	ART	_	12	det	_	_
+12	Straße	Straße	NOUN	NN	_	10	comp:obj	_	_
+13	mit	mit	ADP	APPR	_	5	mod	_	_
+14	ein	ein	DET	ART	_	15	det	_	_
+15	Ball	Ball	NOUN	NN	_	13	comp:obj	_	_
+16	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = der Ball ist auf die Straße gerollert
+1	der	d	DET	ART	_	2	det	_	_
+2	Ball	Ball	NOUN	NN	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	auf	auf	ADP	APPR	_	7	comp:obl	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Straße	Straße	NOUN	NN	_	4	comp:obj	_	_
+7	gerollert	rollen	ADJ	VVPP	_	3	comp:aux	_	_
+
+# text = und der Hund ist nach dem Ball gerannt
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	nach	nach	ADP	APPR	_	8	comp:obl	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	Ball	Ball	NOUN	NN	_	5	comp:obj	_	_
+8	gerannt	rennen	ADJ	VVPP	_	4	comp:aux	_	_
+

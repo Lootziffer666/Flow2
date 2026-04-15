@@ -1,0 +1,146 @@
+# text = F16 : Ich war auf dem Weg nach Hause
+1	F16	F16	NOUN	NE	_	0	root	_	_
+2	:	:	PUNCT	$.	_	1	punct	_	_
+
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	auf	auf	ADP	APPR	_	2	comp:pred	_	_
+4	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Weg	Weg	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	3	comp:obj	_	_
+6	nach	nach	ADP	APPR	_	5	mod	_	_
+7	Hause	Hause	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	comp:obj	_	_
+
+# text = und plötzlich ein Vater mit seiner Familie waren wahrscheinlich in dem Spielplatz .
+1	und	und	CCONJ	KON	_	8	cc	_	_
+2	plötzlich	plötzlich	ADV	ADV	_	8	mod	_	_
+3	ein	ein	DET	ART	Definite=Ind|PronType=Art	4	det	_	_
+4	Vater	Vater	NOUN	NN	_	8	subj	_	_
+5	mit	mit	ADP	APPR	_	4	mod	_	_
+6	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	Familie	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	comp:obj	_	_
+8	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	wahrscheinlich	wahrscheinlich	ADJ	ADV	Degree=Pos	8	mod	_	_
+10	in	in	ADP	APPR	_	8	comp:pred	_	_
+11	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Spielplatz	Spielplatz	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	10	comp:obj	_	_
+13	.	.	PUNCT	$.	_	8	punct	_	_
+
+# text = Der Vater hat mit den Ball gespielt und aus Versehen danach geschossen .
+1	Der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Vater	Vater	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	mit	mit	ADP	APPR	_	7	mod	_	_
+5	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	comp:obj	_	_
+7	gespielt	spielen	VERB	VVPP	VerbForm=Part	3	comp:aux	_	_
+8	und	und	CCONJ	KON	_	12	cc	_	_
+9	aus	aus	ADP	APPR	_	12	mod	_	_
+10	Versehen	Versehen	NOUN	NN	Case=Acc|Number=Sing	9	comp:obj	_	_
+11	danach	danach	ADV	ADV	_	12	mod	_	_
+12	geschossen	schießen	VERB	VVPP	VerbForm=Part	3	conj	_	_
+13	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Gleichzeitig als der Ball auf der andere Straße ging kamen auch zwei Autos
+1	Gleichzeitig	gleichzeitig	ADJ	ADJD	Degree=Pos	10	mod	_	_
+2	als	als	ADP	KOUS	_	10	mod	_	_
+3	der	d	DET	ART	Definite=Def|PronType=Art	4	det	_	_
+4	Ball	Ball	NOUN	NN	_	9	subj	_	_
+5	auf	auf	ADP	APPR	_	9	comp:obl	_	_
+6	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	andere	ander	ADJ	PIDAT	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	mod	_	_
+8	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	comp:obj	_	_
+9	ging	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	2	comp:obj	_	_
+10	kamen	kommen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+11	auch	auch	ADV	PTKIFG	_	10	mod	_	_
+12	zwei	zwei	NUM	CARD	NumType=Card	13	mod	_	_
+13	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	10	subj	_	_
+
+# text = und es konnte auch an dieser Zeitpunkt auch einen Unfall passieren .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+3	konnte	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	auch	auch	ADV	PTKIFG	_	5	mod	_	_
+5	an	an	ADP	APPR	_	11	mod	_	_
+6	dieser	diese	PRON	PDAT	PronType=Dem	7	det	_	_
+7	Zeitpunkt	Zeitpunkt	NOUN	NN	_	5	comp:obj	_	_
+8	auch	auch	ADV	PTKIFG	_	3	mod	_	_
+9	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Unfall	Unfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	comp:obj	_	_
+11	passieren	passieren	VERB	VVINF	VerbForm=Inf	3	comp:aux	_	_
+12	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Der Ball ging zu einer Frau
+1	Der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Ball	Ball	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	ging	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	zu	zu	ADP	APPR	_	3	comp:obl	_	_
+5	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Frau	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	comp:obj	_	_
+
+# text = und die Frau hat ihre Einkaufssachen runtergeschmissen wegen der Ball .
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	subj	_	_
+4	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	Einkaufssachen	Einkaufssachen	ADJ	NN	Case=Acc|Degree=Pos|Number=Plur	7	comp:obj	_	_
+7	runtergeschmissen	runterschmeißen	NOUN	VVPP	Case=Acc|Number=Plur	4	comp:aux	_	_
+8	wegen	wegen	ADP	APPR	_	7	mod	_	_
+9	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Ball	Ball	PROPN	NN	_	8	comp:obj	_	_
+11	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Der Vater mit den Ball hat das Ganze gesehen und wollte auch irgendwie helfen .
+1	Der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Vater	Vater	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	subj	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	comp:obj	_	_
+6	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	das	d	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Ganze	Ganze	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	comp:obj	_	_
+9	gesehen	sehen	VERB	VVPP	VerbForm=Part	6	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	wollte	wollen	AUX	VMFIN	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	auch	auch	ADV	PTKIFG	_	2	mod	_	_
+4	irgendwie	irgendwie	ADV	ADV	_	2	mod	_	_
+5	helfen	helfen	VERB	VVINF	VerbForm=Inf	2	comp:aux	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Er hat die Frau mit den Einkaufssachen geholfen und die Personen die , die Autos hatten gefragt ob er noch helfen konnte .
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+2	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Frau	Frau	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	comp:obj	_	_
+5	mit	mit	ADP	APPR	_	8	mod	_	_
+6	den	d	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+7	Einkaufssachen	Einkaufssachen	ADJ	NN	Case=Acc|Degree=Pos|Number=Plur	5	comp:obj	_	_
+8	geholfen	helfen	NOUN	VVPP	Case=Acc|Number=Plur	2	comp:aux	_	_
+9	und	und	CCONJ	KON	_	17	cc	_	_
+10	die	d	DET	ART	Definite=Def|PronType=Art	11	det	_	_
+11	Personen	Person	NOUN	NN	_	17	comp:obj	_	_
+12	die	d	PRON	PRELS	Case=Nom|PronType=Dem	16	subj	_	_
+13	,	,	PUNCT	$,	_	16	punct	_	_
+14	die	d	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+15	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	16	comp:obj	_	_
+16	hatten	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	mod@relcl	_	_
+17	gefragt	fragen	ADJ	VVPP	_	2	conj	_	_
+18	ob	ob	SCONJ	KOUS	_	17	comp:obl	_	_
+19	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	subj	_	_
+20	noch	noch	ADV	PTKMWL	_	22	mod	_	_
+21	helfen	helfen	VERB	VVINF	VerbForm=Inf	22	comp:aux	_	_
+22	konnte	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	comp:obj	_	_
+23	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Der hat also mitgekriegt was er gemacht hat .
+1	Der	die	PRON	PDS	Case=Nom|PronType=Dem	2	subj	_	_
+2	hat	haben	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	also	also	ADV	ADV	_	2	mod	_	_
+4	mitgekriegt	mitkriegen	VERB	VVPP	VerbForm=Part	2	comp:aux	_	_
+5	was	was	PRON	PRELS	Case=Nom|Number=Sing|PronType=Int	7	comp:obj	_	_
+6	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
+7	gemacht	machen	VERB	VVPP	VerbForm=Part	8	comp:aux	_	_
+8	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+

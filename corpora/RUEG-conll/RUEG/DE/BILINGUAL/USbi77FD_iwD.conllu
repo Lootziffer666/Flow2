@@ -1,0 +1,99 @@
+1	mein	mein	PRON	PPOSAT	_	2	det	_	_
+2	Gott	Gott	NOUN	NN	_	0	root	_	_
+3	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	mein	mein	PRON	PPOSAT	_	2	det	_	_
+2	Gott	Gott	NOUN	NN	_	0	root	_	_
+3	!	!	PUNCT	$.	_	2	punct	_	_
+4	!	!	PUNCT	$.	_	2	punct	_	_
+5	!	!	PUNCT	$.	_	2	punct	_	_
+
+1	hat	haben	VERB	VAFIN	_	0	root	_	_
+2	kein	kein	PRON	PIAT	_	3	det	_	_
+3	Angst	Angst	NOUN	NN	_	1	comp:obj	_	_
+
+1	aber	aber	ADV	KON	_	2	cc	_	_
+2	hörst	hören	ADV	VVFIN	_	0	root	_	_
+3	mich	ich	PRON	PPER	_	2	comp:obj	_	_
+4	an	an	ADP	PTKVZ	_	2	compound@prt	_	_
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	mein	mein	PRON	PPOSAT	_	2	det	_	_
+2	Gott	Gott	NOUN	NN	_	0	root	_	_
+3	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	have	have	AUX	FM	_	0	root	_	_
+3	abf	abf	DET	PDAT	_	4	det	_	_
+4	Autounfall	Autounfall	NOUN	NN	_	5	comp:obj	_	_
+5	gesehen	sehen	VERB	VVPP	_	2	comp:aux	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	diese	diese	PRON	PDAT	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	er	er	PRON	PPOSAT	_	5	det	_	_
+5	Ball	Ball	PROPN	NN	_	6	comp:obj	_	_
+6	verloren	verlieren	VERB	VVPP	_	3	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	diese	diese	PRON	PDAT	_	4	det	_	_
+3	kleine	klein	ADJ	ADJA	_	4	mod	_	_
+4	Hund	Hund	NOUN	NN	_	5	subj	_	_
+5	hat	haben	AUX	VAFIN	_	0	root	_	_
+6	es	es	PRON	PPER	_	7	comp:obj	_	_
+7	gesehen	sehen	VERB	VVPP	_	5	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	habe	haben	AUX	VAFIN	_	0	root	_	_
+4	gedacht	denken	VERB	VVPP	_	3	comp:aux	_	_
+5	dass	dass	SCONJ	KOUS	_	4	comp:obj	_	_
+6	jemand	jemand	PRON	PIS	_	7	subj	_	_
+7	werdet	werden	VERB	VAFIN	_	5	comp:obj	_	_
+8	sterben	sterben	VERB	VVINF	_	7	comp:aux	_	_
+9	oder	oder	CCONJ	KON	_	10	cc	_	_
+10	etwas	etwas	ADV	PIS	_	3	parataxis	_	_
+
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	alles	all	PRON	PIS	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	okay	okay	ADJ	ADJD	_	3	comp:pred	_	_
+5	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	mein	mein	PRON	PPOSAT	_	2	det	_	_
+2	Gott	Gott	NOUN	NN	_	0	root	_	_
+3	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	hatte	haben	VERB	VAFIN	_	0	root	_	_
+3	so	so	ADV	PTKIFG	_	4	mod	_	_
+4	viel	viel	ADJ	PTKIFG	_	5	mod	_	_
+5	Angst	Angst	NOUN	NN	_	2	comp:obj	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	alle	all	PRON	PIS	_	2	subj	_	_
+2	was	was	VERB	FM	_	0	root	_	_
+3	okay	okay	ADJ	ADJD	_	2	comp:pred	_	_
+
+1	aber	aber	CCONJ	KON	_	3	cc	_	_
+2	das	d	PRON	PDS	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	viel	viel	ADV	PIS	_	3	comp:pred	_	_
+5	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	ring	ring	VERB	FM	_	0	root	_	_
+2	mich	ich	PRON	PRF	_	1	comp:obj	_	_
+3	auf	auf	ADP	APPR	_	1	compound@prt	_	_
+4	.	.	PUNCT	$.	_	1	punct	_	_
+
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	liebe	lieben	NOUN	VVFIN	_	0	root	_	_
+3	dich	du	PRON	PRF	_	2	comp:obj	_	_
+
+1	:face_blowing_a_kiss:	😘	SYM	EMO	_	0	root	_	_
+
+1	:face_blowing_a_kiss:	😘	SYM	EMO	_	0	root	_	_
+
+1	:face_blowing_a_kiss:	😘	SYM	EMO	_	0	root	_	_
+

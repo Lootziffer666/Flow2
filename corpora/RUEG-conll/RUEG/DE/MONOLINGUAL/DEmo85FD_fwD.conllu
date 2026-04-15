@@ -1,0 +1,150 @@
+# text = Zeugenaussage zum Fall F16
+1	Zeugenaussage	Zeugenaussage	PROPN	_	_	0	root	_	_
+2	zum	zum	PROPN	_	_	1	mod	_	_
+3	Fall	Fall	PROPN	_	_	2	comp:obj	_	_
+4	F16	F16	PROPN	_	_	3	appos	_	_
+
+# text = Am Straßenrand laufen eine Frau mit einem Kinderwagen und ein Mann , der mit einem Fußball spielt , entlang .
+1	Am	Am	PROPN	_	_	3	comp:obl	_	_
+2	Straßenrand	Straßenrand	PROPN	_	Case=Nom|Number=Sing	1	comp:obj	_	_
+3	laufen	laufen	VERB	_	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	eine	ein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Frau	Frau	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	subj	_	_
+6	mit	mit	ADP	_	_	5	mod	_	_
+7	einem	ein	DET	_	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Kinderwagen	Kinderwagen	NOUN	_	Case=Dat|Number=Plur	6	comp:obj	_	_
+9	und	und	CCONJ	_	_	11	cc	_	_
+10	ein	ein	DET	_	Definite=Ind|PronType=Art	11	det	_	_
+11	Mann	Mann	NOUN	_	_	5	conj	_	_
+12	,	,	PUNCT	_	_	3	punct	_	_
+13	der	d	PRON	_	Case=Nom|PronType=Rel	17	subj	_	_
+14	mit	mit	ADP	_	_	17	mod	_	_
+15	einem	ein	DET	_	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	16	det	_	_
+16	Fußball	Fußball	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	14	comp:obj	_	_
+17	spielt	spielen	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	_
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	entlang	entlang	ADP	_	_	3	compound@prt	_	_
+20	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Sie überqueren die Straße
+1	Sie	Sie	PRON	_	Case=Nom|Person=2|PronType=Prs	2	subj	_	_
+2	überqueren	überqueren	VERB	_	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	2	comp:obj	_	_
+
+# text = Am Straßenrand laufen eine Frau mit einem Kinderwagen und ein Mann , der mit einem Fußball spielt , entlang .
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	dem	d	DET	_	Definite=Def|PronType=Art	3	det	_	_
+3	Mann	Mann	NOUN	_	_	4	comp:obj	_	_
+4	fällt	fällt	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Ball	Ball	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+7	aus	aus	ADP	_	_	4	comp:obl	_	_
+8	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Hand	Hand	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	7	comp:obj	_	_
+
+# text = Am Straßenrand laufen eine Frau mit einem Kinderwagen und ein Mann , der mit einem Fußball spielt , entlang .
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	rollt	rollen	ADJ	_	Degree=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	über	über	ADP	_	_	2	comp:obl	_	_
+4	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	comp:obj	_	_
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	woraufhin	woraufhin	ADV	_	_	2	mod	_	_
+8	ein	ein	DET	_	Definite=Ind|PronType=Art	9	det	_	_
+9	Hund	Hund	NOUN	_	_	14	subj	_	_
+10	bellend	bellend	ADJ	_	Degree=Pos	14	mod	_	_
+11	auf	auf	ADP	_	_	14	comp:obl	_	_
+12	den	d	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Ball	Ball	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	11	comp:obj	_	_
+14	zurennt	zurennen	VERB	_	Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
+15	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Der Hund ist aber an der Leine einer Frau , die gerade ihren Einkauf auspackt .
+1	Der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Hund	Hund	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	aber	aber	ADV	_	_	3	mod	_	_
+5	an	an	ADP	_	_	3	comp:pred	_	_
+6	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Leine	Leine	NOUN	_	_	5	comp:obj	_	_
+8	einer	ein	DET	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Frau	Frau	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	7	mod@poss	_	_
+10	,	,	PUNCT	_	_	3	punct	_	_
+11	die	d	PRON	_	Case=Nom|PronType=Rel	15	subj	_	_
+12	gerade	gerade	ADV	_	_	15	mod	_	_
+13	ihren	ihr	DET	_	Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+14	Einkauf	Einkauf	NOUN	_	_	15	comp:obj	_	_
+15	auspackt	auspackt	ADJ	_	Tense=Pres	9	mod@relcl	_	_
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Der Hund ist aber an der Leine einer Frau , die gerade ihren Einkauf auspackt .
+1	Ein	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Auto	Auto	NOUN	_	Case=Acc|Gender=Masc,Neut|Number=Sing	3	subj	_	_
+3	kommt	kommen	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	um	um	ADP	_	_	3	comp:obl	_	_
+5	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Ecke	Ecke	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	4	comp:obj	_	_
+
+# text = Der Hund ist aber an der Leine einer Frau , die gerade ihren Einkauf auspackt .
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	stoppt	stoppen	VERB	_	Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	wegen	wegen	ADP	_	_	2	mod	_	_
+5	des	d	DET	_	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+6	rollenden	rollend	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc,Neut|Number=Sing	7	mod	_	_
+7	Balls	Ball	NOUN	_	Case=Gen|Gender=Masc,Neut|Number=Sing	4	comp:obj	_	_
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Dahinter kommt ein nächstes Auto , welches allerdings nicht abbremst , da der Fahrer wahrscheinlich nicht aufmerksam war .
+1	Dahinter	dahinter	ADV	_	_	2	mod	_	_
+2	kommt	kommen	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	_	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+4	nächstes	nächstes	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	5	mod	_	_
+5	Auto	Auto	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	2	subj	_	_
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	welches	welche	PRON	_	Case=Nom|PronType=Rel	10	subj	_	_
+8	allerdings	allerdings	ADV	_	_	10	mod	_	_
+9	nicht	nicht	PART	_	_	10	mod	_	_
+10	abbremst	abbremst	ADV	_	Tense=Pres|VerbForm=Fin	5	mod@relcl	_	_
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	da	da	SCONJ	_	_	10	mod	_	_
+13	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Fahrer	Fahrer	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	18	subj	_	_
+15	wahrscheinlich	wahrscheinlich	ADJ	_	Degree=Pos	18	mod	_	_
+16	nicht	nicht	PART	_	_	18	mod	_	_
+17	aufmerksam	aufmerksam	ADJ	_	Degree=Pos	18	comp:pred	_	_
+18	war	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	comp:obj	_	_
+19	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Das hintere Auto ist dann auf das vordere Auto raufgefahren .
+1	Das	d	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+2	hintere	hinter	ADJ	_	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	3	mod	_	_
+3	Auto	Auto	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	4	subj	_	_
+4	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	dann	dann	ADV	_	_	4	mod	_	_
+6	auf	auf	ADP	_	_	10	comp:obl	_	_
+7	das	d	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+8	vordere	vorder	ADJ	_	Case=Acc|Degree=Pos|Number=Plur	9	mod	_	_
+9	Auto	Auto	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	6	comp:obj	_	_
+10	raufgefahren	raufgefahren	NOUN	_	Case=Acc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = Der Mann , der den Ball fallengelassen hat , geht jetzt zu dem Unfall .
+1	Der	d	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	Mann	Mann	NOUN	_	_	10	subj	_	_
+3	,	,	PUNCT	_	_	10	punct	_	_
+4	der	die	PRON	_	Case=Nom|PronType=Rel	8	subj	_	_
+5	den	d	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Ball	Ball	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	7	comp:obj	_	_
+7	fallengelassen	fallenlassen	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	comp:aux	_	_
+8	hat	haben	AUX	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	_
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	geht	gehen	VERB	_	Tense=Pres|VerbForm=Fin	0	root	_	_
+11	jetzt	jetzt	ADV	_	_	10	mod	_	_
+12	zu	zu	ADP	_	_	10	comp:obl	_	_
+13	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	14	det	_	_
+14	Unfall	Unfall	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	12	comp:obj	_	_
+15	.	.	PUNCT	_	_	10	punct	_	_
+
+

@@ -1,0 +1,118 @@
+1	USmo31FE_P	USmo31FE_P	PROPN	NP0	_	0	root	_	_
+2	!	!	PUNCT	SENT	_	1	punct	_	_
+
+1	girl	girl	PROPN	NP0	_	0	root	_	_
+2	!	!	PUNCT	SENT	_	1	punct	_	_
+
+1	I	i	PRON	PNP	_	3	nsubj	_	_
+2	just	just	ADV	AV0	_	3	advmod	_	_
+3	saw	see	VERB	VVD	_	0	root	_	_
+4	a	a	DET	AT0	_	6	det	_	_
+5	car	car	NOUN	NN1	_	6	compound	_	_
+6	accident	accident	NOUN	NN1	_	3	obj	_	_
+7	.	.	PUNCT	SENT	_	3	punct	_	_
+
+1	there	there	ADV	EX0	_	5	advmod	_	_
+2	was	be	AUX	VBD	_	5	cop	_	_
+3	this	this	DET	DT0	_	4	det	_	_
+4	man	man	NOUN	NN1	_	5	nsubj	_	_
+5	walking	walk	VERB	VVG	_	0	root	_	_
+6	across	across	ADP	PRP	_	8	case	_	_
+7	the	the	DET	AT0	_	8	det	_	_
+8	street	street	NOUN	NN1	_	5	obl	_	_
+9	with	with	ADP	PRP	_	11	case	_	_
+10	his	he	DET	DPS	_	11	det	_	_
+11	girl	girl	NOUN	NN1	_	5	obl	_	_
+12	while	while	SCONJ	CJS	_	13	mark	_	_
+13	bouncing	bounce	VERB	VVG	_	5	advcl	_	_
+14	a	a	DET	AT0	_	15	det	_	_
+15	ball	ball	NOUN	NN1	_	13	obj	_	_
+16	.	.	PUNCT	SENT	_	5	punct	_	_
+
+1	the	the	DET	AT0	_	2	det	_	_
+2	ball	ball	NOUN	NN1	_	0	root	_	_
+3	rolled	roll	VERB	VVD	_	2	acl	_	_
+4	into	into	ADP	PRP	_	6	case	_	_
+5	the	the	DET	AT0	_	6	det	_	_
+6	street	street	NOUN	NN1	_	3	obl	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	dog	dog	NOUN	NN1	_	5	nsubj	_	_
+4	almost	almost	ADV	AV0	_	5	advmod	_	_
+5	got	get	VERB	VVD	_	0	root	_	_
+6	smacked	smack	VERB	VVN	_	5	xcomp	_	_
+7	!	!	PUNCT	SENT	_	5	punct	_	_
+8	!	!	PUNCT	SENT	_	5	punct	_	_
+9	!	!	PUNCT	SENT	_	5	punct	_	_
+
+1	he	he	PRON	PNP	_	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	_	3	aux:pass	_	_
+3	running	run	VERB	VVG	_	0	root	_	_
+4	after	after	ADP	PRP	_	6	case	_	_
+5	the	the	DET	AT0	_	6	det	_	_
+6	ball	ball	NOUN	NN1	_	3	obl	_	_
+
+1	but	but	CCONJ	CJC	_	7	cc	_	_
+2	luckily	luckily	ADV	AV0	_	7	advmod	_	_
+3	he	he	PRON	PNP	_	7	nsubj	_	_
+4	was	be	AUX	VBD	_	7	cop	_	_
+5	on	on	ADP	PRP	_	7	case	_	_
+6	a	a	DET	AT0	_	7	det	_	_
+7	leash	leash	NOUN	NN1	_	0	root	_	_
+8	.	.	PUNCT	SENT	_	7	punct	_	_
+
+1	his	he	DET	DPS	_	2	det	_	_
+2	owner	owner	NOUN	NN1	_	3	nsubj	_	_
+3	pulled	pull	VERB	VVD	_	0	root	_	_
+4	him	he	PRON	PNP	_	3	obj	_	_
+5	back	back	ADV	AV0	_	3	advmod	_	_
+6	in	in	ADP	PRP	_	7	case	_	_
+7	time	time	NOUN	NN1	_	3	obl	_	_
+
+1	but	but	CCONJ	CJC	_	3	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	car	car	NOUN	NN1	_	0	root	_	_
+4	that	that	SCONJ	CJT	_	6	mark	_	_
+5	almost	almost	ADV	AV0	_	6	advmod	_	_
+6	hit	hit	VERB	VVD	_	8	advcl	_	_
+7	him	he	PRON	PNP	_	8	nsubj	_	_
+8	stopped	stop	VERB	VVD	_	3	parataxis	_	_
+9	just	just	ADV	AV0	_	8	advmod	_	_
+10	in	in	ADP	PRP	_	11	case	_	_
+11	time	time	NOUN	NN1	_	8	obl	_	_
+
+1	but	but	CCONJ	CJC	_	4	cc	_	_
+2	ended	end	VERB	VVD	_	4	conj	_	_
+3	up	up	ADP	AVP	_	2	compound:prt	_	_
+4	getting	get	VERB	VVG	_	0	root	_	_
+5	rear-ended	rear-end	VERB	VVN	_	4	xcomp	_	_
+6	.	.	PUNCT	SENT	_	4	punct	_	_
+
+1	this	this	DET	DT0	_	3	nsubj	_	_
+2	is	be	AUX	VBZ	_	3	cop	_	_
+3	crazy	crazy	ADJ	AJ0	_	0	root	_	_
+4	!	!	PUNCT	SENT	_	3	punct	_	_
+
+1	who	who	PRON	PNQ	_	4	nsubj	_	_
+2	's	be	AUX	VBZ	_	4	cop	_	_
+3	at	at	ADP	PRP	_	4	case	_	_
+4	fault	fault	NOUN	NN1	_	0	root	_	_
+5	?	?	PUNCT	SENT	_	4	punct	_	_
+
+1	IDK	IDK	INTJ	ITJ	_	0	root	_	_
+2	.	.	PUNCT	SENT	_	1	punct	_	_
+
+1	hope	hope	VERB	VVB	_	0	root	_	_
+2	your	you	DET	DPS	_	3	det	_	_
+3	day	day	NOUN	NN1	_	5	nsubj	_	_
+4	is	be	AUX	VBZ	_	5	cop	_	_
+5	going	go	VERB	VVG	_	1	ccomp	_	_
+6	well	well	ADV	AV0	_	5	advmod	_	_
+7	.	.	PUNCT	SENT	_	1	punct	_	_
+
+1	talk	talk	VERB	VVB	_	0	root	_	_
+2	to	to	ADP	PRP	_	3	case	_	_
+3	you	you	PRON	PNP	_	1	obl	_	_
+4	later	later	ADV	AV0	_	1	advmod	_	_
+

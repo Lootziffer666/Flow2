@@ -1,0 +1,75 @@
+1	hey	hey	INTJ	ITJ	_	0	root	_	_
+
+1	OMG	omg	INTJ	ITJ	_	0	root	_	_
+
+1	I	i	PRON	PNP	_	4	nsubj	_	_
+2	just	just	ADV	AV0	_	4	advmod	_	_
+3	.	.	PUNCT	SENT	_	4	punct	_	_
+4	witnessed	witness	VERB	VVD	_	0	root	_	_
+5	two	two	NUM	CRD	_	7	advmod	_	_
+6	cars	car	NOUN	NN2	_	7	nsubj	_	_
+7	crash	crash	VERB	VVI	_	4	parataxis	_	_
+8	„	„	PUNCT	SENT	_	4	punct	_	_
+
+1	a	a	DET	AT0	_	2	det	_	_
+2	couple	couple	NOUN	NN1	_	4	nsubj:pass	_	_
+3	was	be	AUX	VBD	_	4	aux:pass	_	_
+4	walking	walk	VERB	VVG	_	0	root	_	_
+5	their	they	DET	DPS	_	6	det	_	_
+6	baby	baby	NOUN	NN1	_	4	advmod	_	_
+7	..	..	PUNCT	SENT	_	4	punct	_	_
+
+1	the	the	DET	AT0	_	2	det	_	_
+2	lady	lady	NOUN	NN1	_	0	root	_	_
+3	who	who	PRON	PNQ	_	4	nsubj	_	_
+4	put	put	VERB	VVD	_	2	acl:relcl	_	_
+5	her	she	DET	DPS	_	6	det	_	_
+6	groceries	grocery	NOUN	NN2	_	4	obj	_	_
+7	away	away	ADP	AVP	_	4	compound:prt	_	_
+8	in	in	ADP	PRP	_	9	case	_	_
+9	back	back	NOUN	NN1	_	4	obl	_	_
+10	of	of	ADP	PRF	_	13	case	_	_
+11	.	.	PUNCT	SENT	_	13	punct	_	_
+12	her	she	DET	DPS	_	13	det	_	_
+13	car	car	NOUN	NN1	_	9	nmod	_	_
+14	..	..	PUNCT	SENT	_	2	punct	_	_
+
+1	the	the	DET	AT0	_	2	det	_	_
+2	dog	dog	NOUN	NN1	_	3	nsubj	_	_
+3	went	go	VERB	VVD	_	0	root	_	_
+4	in	in	ADP	PRP	_	6	case	_	_
+5	the	the	DET	AT0	_	6	det	_	_
+6	middle	middle	NOUN	NN1	_	3	obl	_	_
+7	of	of	ADP	PRF	_	10	case	_	_
+8	.	.	PUNCT	SENT	_	7	punct	_	_
+9	the	the	DET	AT0	_	10	det	_	_
+10	street	street	NOUN	NN1	_	6	nmod	_	_
+11	…	…	PUNCT	PUN	_	3	punct	_	_
+12	when	when	SCONJ	CJS	_	16	mark	_	_
+13	the	the	DET	AT0	_	15	det	_	_
+14	two	two	NUM	CRD	_	15	nummod	_	_
+15	cars	car	NOUN	NN2	_	16	nsubj	_	_
+16	collided	collide	VERB	VVD	_	3	advcl	_	_
+17	...	...	PUNCT	SENT	_	3	punct	_	_
+
+1	the	the	DET	AT0	_	3	det	_	_
+2	.	.	PUNCT	SENT	_	3	punct	_	_
+3	guy	guy	NOUN	NN1	_	9	nsubj	_	_
+4	with	with	ADP	PRP	_	7	case	_	_
+5	.	.	PUNCT	SENT	_	7	punct	_	_
+6	the	the	DET	AT0	_	7	det	_	_
+7	baby	baby	NOUN	NN1	_	3	nmod	_	_
+8	then	then	ADV	AV0	_	9	advmod	_	_
+9	went	go	VERB	VVD	_	0	root	_	_
+10	.	.	PUNCT	SENT	_	9	punct	_	_
+11	to	to	ADP	PRP	_	9	obl	_	_
+12	.	.	PUNCT	SENT	_	9	punct	_	_
+13	help	help	VERB	VVI	_	9	parataxis	_	_
+14	the	the	DET	AT0	_	15	det	_	_
+15	guys	guy	NOUN	NN2	_	13	obj	_	_
+16	in	in	ADP	PRP	_	13	compound:prt	_	_
+17	.	.	PUNCT	SENT	_	9	punct	_	_
+18	the	the	DET	AT0	_	19	det	_	_
+19	car	car	NOUN	NN1	_	9	parataxis	_	_
+20	..	.	PUNCT	SENT	_	9	punct	_	_
+

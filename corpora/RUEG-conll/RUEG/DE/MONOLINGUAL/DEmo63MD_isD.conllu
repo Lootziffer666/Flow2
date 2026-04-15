@@ -1,0 +1,114 @@
+# text = jo Dicker
+1	jo	jo	NOUN	NGIRR	_	2	discourse	_	_
+2	Dicker	Dicker	PROPN	NN	_	0	root	_	_
+
+# text = hier war gerade voll der heftige Unfall auf so einem Parkplatz
+1	hier	hier	ADV	ADV	_	2	mod	_	_
+2	war	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	voll	voll	VERB	PTKIFG	Number=Sing|Person=3|VerbForm=Fin	7	mod	_	_
+5	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	heftige	heftig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	mod	_	_
+7	Unfall	Unfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	subj	_	_
+8	auf	auf	ADP	APPR	_	2	comp:pred	_	_
+9	so	so	ADV	PTKIFG	_	11	mod	_	_
+10	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Parkplatz	Parkplatz	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	8	comp:obj	_	_
+
+# text = äh da ist so ein Typ mit seiner Ollen und äh Kinderwagen entlanggelaufen
+1	äh	äh	ADJ	NGHES	Degree=Pos	3	discourse	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	so	so	ADV	PTKIFG	_	6	mod	_	_
+5	ein	ein	DET	ART	Definite=Ind|PronType=Art	6	det	_	_
+6	Typ	Typ	NOUN	NN	_	3	subj	_	_
+7	mit	mit	ADP	APPR	_	13	mod	_	_
+8	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	Ollen	Olle	NOUN	NN	Case=Dat|Number=Plur	7	comp:obj	_	_
+10	und	und	CCONJ	KON	_	12	cc	_	_
+11	äh	äh	ADJ	NGHES	Degree=Pos	3	discourse	_	_
+12	Kinderwagen	Kinderwagen	NOUN	NN	_	9	conj	_	_
+13	entlanggelaufen	entlanglaufen	VERB	VVFIN	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+
+# text = und dann ist ihm so ein Fußball irgendwie auf die Fahrbahn da gefallen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	comp:obj	_	_
+5	so	so	ADV	PTKIFG	_	7	mod	_	_
+6	ein	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
+7	Fußball	Fußball	NOUN	NN	_	3	subj	_	_
+8	irgendwie	irgendwie	ADV	ADV	_	3	mod	_	_
+9	auf	auf	ADP	APPR	_	13	comp:obl	_	_
+10	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Fahrbahn	Fahrbahn	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	comp:obj	_	_
+12	da	da	ADV	ADV	_	11	mod	_	_
+13	gefallen	fallen	ADJ	VVINF	Degree=Pos|Tense=Past	3	comp:aux	_	_
+
+# text = und dann ist so ein Hund von so einer Oma die da am Auto war voll ausgerastet so
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	so	so	ADV	PTKIFG	_	6	mod	_	_
+5	ein	ein	DET	ART	Definite=Ind|PronType=Art	6	det	_	_
+6	Hund	Hund	NOUN	NN	_	3	subj	_	_
+7	von	von	ADP	APPR	_	6	mod@poss	_	_
+8	so	so	ADV	PTKIFG	_	10	mod	_	_
+9	einer	ein	DET	ART	Definite=Ind|PronType=Art	10	det	_	_
+10	Oma	Oma	NOUN	NN	_	7	comp:obj	_	_
+11	die	d	PRON	PRELS	Case=Nom|PronType=Dem	15	subj	_	_
+12	da	da	ADV	ADV	_	15	mod	_	_
+13	am	an	ADJ	APPRART	Degree=Pos	15	comp:pred	_	_
+14	Auto	Auto	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	comp:obj	_	_
+15	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	mod@relcl	_	_
+16	voll	voll	ADJ	ADJD	Degree=Pos	3	mod	_	_
+17	ausgerastet	ausgerasten	ADJ	VVPP	Tense=Past	3	comp:aux	_	_
+18	so	so	ADV	ADV	_	3	mod	_	_
+
+# text = und äh da kam natürlich so von der anderen Seite zwei Autos
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	ADJ	NGHES	Degree=Pos	4	discourse	_	_
+3	da	da	ADV	ADV	_	4	mod	_	_
+4	kam	kommen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	natürlich	natürlich	ADJ	ADJD	Degree=Pos	4	mod	_	_
+6	so	so	ADV	PTKIFG	_	4	mod	_	_
+7	von	von	ADP	APPR	_	4	comp:obl	_	_
+8	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	anderen	ander	ADJ	PIDAT	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	mod	_	_
+10	Seite	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	comp:obj	_	_
+11	zwei	zwei	NUM	CARD	NumType=Card	12	mod	_	_
+12	Autos	Auto	NOUN	NN	_	4	subj	_	_
+
+# text = und das eine hat eine Vollbremsung gemacht das andere hinten raufgefahren so
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	das	d	PRON	ART	Case=Nom|PronType=Dem	3	det	_	_
+3	eine	ein	DET	PIDS	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	subj	_	_
+4	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Vollbremsung	Vollbremsung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	comp:obj	_	_
+7	gemacht	machen	VERB	VVPP	Tense=Past|VerbForm=Part	4	comp:aux	_	_
+8	das	d	SCONJ	ART	_	9	det	_	_
+9	andere	ander	PRON	PIDS	Case=Nom|PronType=Ind	11	subj	_	_
+10	hinten	hinten	ADV	ADV	_	11	mod	_	_
+11	raufgefahren	rauffahren	VERB	VVFIN	Tense=Past|VerbForm=Fin	4	conj	_	_
+12	so	so	ADV	ADV	_	11	mod	_	_
+
+# text = aber mehr ist jetzt auch nicht passiert
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	mehr	mehr	ADV	ADV	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	jetzt	jetzt	ADV	ADV	_	3	mod	_	_
+5	auch	auch	ADV	PTKIFG	_	6	mod	_	_
+6	nicht	nicht	PART	PTKNEG	_	3	mod	_	_
+7	passiert	passieren	VERB	VVPP	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+
+# text = ich hoffe mal den geht es allen gut
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	hoffe	hoffen	VERB	VVFIN	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	mal	mal	ADV	PTKMA	_	2	mod	_	_
+4	den	d	DET	PDS	Case=Dat|Definite=Def|Number=Plur|PronType=Art	8	comp:obj	_	_
+5	geht	gehen	VERB	VVFIN	Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
+6	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	_
+7	allen	alle	PRON	PIDS	Case=Dat|Gender=Neut|Number=Plur|PronType=Tot	4	appos	_	_
+8	gut	gut	ADJ	ADJD	Degree=Pos	5	comp:pred	_	_
+

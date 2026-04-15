@@ -1,0 +1,67 @@
+1	I	i	PRON	PNP	_	2	nsubj	_	_
+2	saw	see	VERB	VVD	_	0	root	_	_
+3	a	a	DET	AT0	_	4	det	_	_
+4	dog	dog	NOUN	NN1	_	2	obj	_	_
+5	running	run	VERB	VVG	_	4	acl	_	_
+6	for	for	ADP	PRP	_	8	case	_	_
+7	a	a	DET	AT0	_	8	det	_	_
+8	ball	ball	NOUN	NN1	_	5	obl	_	_
+9	because	because	SCONJ	CJS	_	13	mark	_	_
+10	this	this	DET	DT0	_	11	det	_	_
+11	guy	guy	NOUN	NN1	_	13	nsubj:pass	_	_
+12	was	be	AUX	VBD	_	13	aux:pass	_	_
+13	crossing	cross	VERB	VVG	_	2	advcl	_	_
+14	the	the	DET	AT0	_	15	det	_	_
+15	street	street	NOUN	NN1	_	19	obj	_	_
+16	and	and	CCONJ	CJC	_	19	cc	_	_
+17	the	the	DET	AT0	_	18	det	_	_
+18	ball	ball	NOUN	NN1	_	19	nsubj	_	_
+19	dropped	drop	VERB	VVD	_	13	conj	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	car	car	NOUN	NN1	_	4	nsubj	_	_
+4	stopped	stop	VERB	VVD	_	0	root	_	_
+5	right	right	ADV	AV0	_	6	advmod	_	_
+6	there	there	ADV	AV0	_	4	advmod	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	there	there	ADV	EX0	_	5	advmod	_	_
+3	was	be	AUX	VBD	_	5	cop	_	_
+4	a	a	DET	AT0	_	5	det	_	_
+5	car	car	NOUN	NN1	_	0	root	_	_
+6	behind	behind	ADP	PRP	_	7	case	_	_
+7	him	he	PRON	PNP	_	5	nmod	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	it	it	PRON	PNP	_	3	nsubj	_	_
+3	hit	hit	VERB	VVD	_	0	root	_	_
+4	him	he	PRON	PNP	_	3	obj	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	they	they	PRON	PNP	_	3	nsubj	_	_
+3	got	get	VERB	VVD	_	0	root	_	_
+4	out	out	ADP	PRP	_	3	compound:prt	_	_
+5	their	they	DET	DPS	_	6	det	_	_
+6	cars	car	NOUN	NN2	_	3	obj	_	_
+
+1	so	so	INTJ	ITJ	_	6	discourse	_	_
+2	like	like	INTJ	ITJ	_	6	discourse	_	_
+3	the	the	DET	AT0	_	4	det	_	_
+4	lady	lady	NOUN	NN1	_	6	nsubj:pass	_	_
+5	was	be	AUX	VBD	_	6	aux:pass	_	_
+6	picking	pick	VERB	VVG	_	0	root	_	_
+7	up	up	ADP	AVP	_	6	compound:prt	_	_
+8	the	the	DET	AT0	_	9	det	_	_
+9	groceries	grocery	NOUN	NN2	_	6	obj	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	that	that	DET	DT0	_	5	nsubj	_	_
+3	was	be	AUX	VBD	_	5	cop	_	_
+4	about	about	ADP	PRP	_	5	case	_	_
+5	it	it	PRON	PNP	_	0	root	_	_
+
+1	to	to	PART	TO0	_	3	mark	_	_
+2	be	be	AUX	VBI	_	3	cop	_	_
+3	honest	honest	ADJ	AJ0	_	0	root	_	_
+

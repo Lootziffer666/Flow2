@@ -1,0 +1,202 @@
+# text = ja schönen guten Tag
+1	ja	ja	ADV	NGIRR	_	4	discourse	_	_
+2	schönen	schön	ADJ	ADJA	_	4	mod	_	_
+3	guten	gut	ADJ	ADJA	_	4	mod	_	_
+4	Tag	Tag	NOUN	NN	_	0	root	_	_
+
+# text = DEbi05FG mein Name
+1	DEbi05FG	DEbi05FG	PROPN	NE	_	3	orphan	_	_
+2	mein	mein	PRON	PPOSAT	_	3	det	_	_
+3	Name	Name	NOUN	NN	_	0	root	_	_
+
+# text = und zwar ich wollte einen Unfall melden
+1	und	und	CCONJ	KON	_	4	discourse	_	_
+2	zwar	zwar	ADV	ADV	_	1	fixed	_	_
+3	ich	ich	PRON	PPER	_	4	subj	_	_
+4	wollte	wollen	VERB	VMFIN	_	0	root	_	_
+5	einen	ein	DET	ART	_	6	det	_	_
+6	Unfall	Unfall	NOUN	NN	_	7	comp:obj	_	_
+7	melden	melden	VERB	VVINF	_	4	comp:aux	_	_
+
+# text = ich bin hier auf der {streetname}straße
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	bin	sein	VERB	VAFIN	_	0	root	_	_
+3	hier	hier	ADV	ADV	_	2	mod	_	_
+4	auf	auf	ADP	APPR	_	2	comp:pred	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	{streetname}straße	{streetname}straße	PROPN	NE	_	4	comp:obj	_	_
+
+# text = äh ich habe gesehen dass äh ein Ehepaar mit einem Kinderwagen gegenüber ein Parkplatz äh laufen wollten
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	habe	haben	AUX	VAFIN	_	0	root	_	_
+4	gesehen	sehen	VERB	VVPP	_	3	comp:aux	_	_
+5	dass	dass	SCONJ	KOUS	_	4	comp:obj	_	_
+6	äh	äh	ADV	NGHES	_	3	discourse	_	_
+7	ein	ein	DET	ART	_	8	det	_	_
+8	Ehepaar	Ehepaar	NOUN	NN	_	17	subj	_	_
+9	mit	mit	ADP	APPR	_	8	mod	_	_
+10	einem	ein	DET	ART	_	11	det	_	_
+11	Kinderwagen	Kinderwagen	NOUN	NN	_	9	comp:obj	_	_
+12	gegenüber	gegenüber	ADP	ADV	_	16	comp:obl	_	_
+13	ein	ein	DET	ART	_	14	det	_	_
+14	Parkplatz	Parkplatz	NOUN	NN	_	12	comp:obj	_	_
+15	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+16	laufen	laufen	VERB	VVINF	_	17	comp:aux	_	_
+17	wollten	wollen	AUX	VMFIN	_	5	comp:obj	_	_
+
+# text = der Mann spielt aber mit dem Ball
+1	der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	spielt	spielen	VERB	VVFIN	_	0	root	_	_
+4	aber	aber	ADV	KON	_	3	cc	_	_
+5	mit	mit	ADP	APPR	_	3	mod	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	Ball	Ball	NOUN	NN	_	5	comp:obj	_	_
+
+# text = und äh der rollte halt gegenüber
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	ADV	NGHES	_	4	discourse	_	_
+3	der	d	DET	PDS	_	4	subj	_	_
+4	rollte	rollen	ADJ	VVFIN	_	0	root	_	_
+5	halt	halt	NOUN	PTKMA	_	4	discourse	_	_
+6	gegenüber	gegenüber	ADP	ADV	_	4	mod	_	_
+
+# text = und da war eine Frau mit einen Hund
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	comp:pred	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	eine	ein	DET	ART	_	5	det	_	_
+5	Frau	Frau	NOUN	NN	_	3	subj	_	_
+6	mit	mit	ADP	APPR	_	5	mod	_	_
+7	einen	ein	DET	ART	_	8	det	_	_
+8	Hund	Hund	NOUN	NN	_	6	comp:obj	_	_
+
+# text = die hat ihre Einkäufe halt reingepackt
+1	die	d	PRON	PDS	_	2	subj	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	ihre	ihr	DET	PPOSAT	_	4	det	_	_
+4	Einkäufe	Einkäufe	NOUN	NN	_	6	comp:obj	_	_
+5	halt	halt	ADV	PTKMA	_	2	discourse	_	_
+6	reingepackt	reinpacken	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = und äh natürlich der Hund äh reagiert auf den Ball
+1	und	und	CCONJ	KON	_	7	cc	_	_
+2	äh	äh	ADV	NGHES	_	7	discourse	_	_
+3	natürlich	natürlich	ADJ	ADJD	_	7	mod	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	7	subj	_	_
+6	äh	äh	NOUN	NGHES	_	7	discourse	_	_
+7	reagiert	reagieren	VERB	VVPP	_	0	root	_	_
+8	auf	auf	ADP	APPR	_	7	comp:obl	_	_
+9	den	d	DET	ART	_	10	det	_	_
+10	Ball	Ball	NOUN	NN	_	8	comp:obj	_	_
+
+# text = und von der Frau fallen die ganzen Einkäufe herunter
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	von	von	ADP	APPR	_	5	mod	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Frau	Frau	NOUN	NN	_	2	comp:obj	_	_
+5	fallen	fallen	VERB	VVINF	_	0	root	_	_
+6	die	d	DET	ART	_	8	det	_	_
+7	ganzen	ganz	ADJ	ADJA	_	8	mod	_	_
+8	Einkäufe	Einkauf	NOUN	NN	_	5	subj	_	_
+9	herunter	herunter	ADJ	PTKVZ	_	5	compound@prt	_	_
+
+# text = und hilft ihr natürlich dabei all die ganzen Sachen hochzunehmen also reinzupacken inne Tüte
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hilft	helfen	VERB	VVFIN	_	0	root	_	_
+3	ihr	ihr	PRON	PPER	_	2	comp:obj	_	_
+4	natürlich	natürlich	ADJ	ADV	_	2	mod	_	_
+5	dabei	dabei	ADV	ADV	_	2	mod	_	_
+6	all	all	ADJ	ADJD	_	9	mod	_	_
+7	die	d	DET	ART	_	9	det	_	_
+8	ganzen	ganz	ADJ	ADJA	_	9	mod	_	_
+9	Sachen	Sache	NOUN	NN	_	10	comp:obj	_	_
+10	hochzunehmen	hochnehmen	VERB	VVPP	_	2	comp:obl	_	_
+11	also	also	ADV	ADV	_	12	mod	_	_
+12	reinzupacken	reinpacken	VERB	VVFIN	_	10	conj	_	_
+13	inne	in	ADPDET	APPRART	_	12	comp:obl	_	_
+14	Tüte	Tüte	NOUN	NN	_	13	comp:obj	_	_
+
+# text = und da gleichzeitig kamen zwei Wagens also beziehungsweise einmal der blaue und einmal ein weißen
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	da	da	ADV	ADV	_	4	mod	_	_
+3	gleichzeitig	gleichzeitig	ADJ	ADJD	_	4	mod	_	_
+4	kamen	kommen	VERB	VVFIN	_	0	root	_	_
+5	zwei	zwei	NUM	CARD	_	6	mod	_	_
+6	Wagens	Wagen	NOUN	NN	_	4	subj	_	_
+7	also	also	ADV	ADV	_	11	mod	_	_
+8	beziehungsweise	beziehungsweise	CCONJ	KON	_	11	cc	_	_
+9	einmal	einmal	ADV	ADV	_	11	mod	_	_
+10	der	d	DET	ART	_	11	det	_	_
+11	blaue	blau	PROPN	ADJA	_	6	appos	_	_
+12	und	und	CCONJ	KON	_	15	cc	_	_
+13	einmal	einmal	ADV	ADV	_	15	mod	_	_
+14	ein	ein	DET	ART	_	15	det	_	_
+15	weißen	weiß	ADJ	ADJA	_	11	conj	_	_
+
+# text = der blaue war ja als erstes in diesen Parkgelände da reingefahren
+1	der	d	DET	ART	_	2	det	_	_
+2	blaue	blau	PROPN	ADJA	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	ja	ja	ADV	PTKMA	_	3	discourse	_	_
+5	als	als	ADP	KON	_	11	mod	_	_
+6	erstes	erste	ADJ	ORD	_	5	comp:obj	_	_
+7	in	in	ADP	APPR	_	11	comp:obl	_	_
+8	diesen	dies	DET	PDAT	_	9	det	_	_
+9	Parkgelände	Parkgelände	NOUN	NN	_	7	comp:obj	_	_
+10	da	da	ADV	ADV	_	3	mod	_	_
+11	reingefahren	reinfahren	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und hat Vollbremsung betätigt in den Sinne wo der Ball halt herübergelaufen ist herübergerollt ist
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	Vollbremsung	Vollbremsung	NOUN	NN	_	4	comp:obj	_	_
+4	betätigt	betätigen	VERB	VVPP	_	2	comp:aux	_	_
+5	in	in	ADP	APPR	_	4	mod	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Sinne	Sinn	NOUN	NN	_	5	comp:obj	_	_
+8	wo	wo	ADV	PWAV	_	4	mod	_	_
+9	der	d	DET	ART	_	10	det	_	_
+10	Ball	Ball	NOUN	NN	_	15	subj	_	_
+11	halt	halt	ADV	PTKMA	_	2	discourse	_	_
+12	herübergelaufen	herüberlaufen	VERB	VVPP	_	13	comp:aux	_	_
+13	ist	sein	VERB	VAFIN	_	15	reparandum	_	_
+14	herübergerollt	herüberrollen	ADJ	VVPP	_	15	comp:aux	_	_
+15	ist	sein	VERB	VAFIN	_	8	comp:obj	_	_
+
+# text = Entschuldigung
+1	Entschuldigung	Entschuldigung	NOUN	NGIRR	_	0	root	_	_
+
+# text = und äh ja der Weiße halt hat ist dann nach hinten
+1	und	und	CCONJ	KON	_	8	cc	_	_
+2	äh	äh	ADJ	NGHES	_	8	discourse	_	_
+3	ja	ja	ADV	PTKMA	_	8	discourse	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Weiße	Weiß	ADJ	NN	_	8	subj	_	_
+6	halt	halt	NOUN	PTKMA	_	8	discourse	_	_
+7	hat	haben	VERB	VAFIN	_	8	reparandum	_	_
+8	ist	sein	AUX	VAFIN	_	0	root	_	_
+9	dann	dann	ADV	ADV	_	8	mod	_	_
+10	nach	nach	ADP	APPR	_	8	comp:obl	_	_
+11	hinten	hinten	ADV	ADV	_	10	comp:obj	_	_
+
+# text = und hat ihn dann
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	ihn	er	PRON	PPER	_	2	comp:obj	_	_
+4	dann	dann	ADV	ADV	_	2	mod	_	_
+
+# text = natürlich ist ein Unfall passiert
+1	natürlich	natürlich	ADJ	ADJD	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Unfall	Unfall	NOUN	NN	_	2	subj	_	_
+5	passiert	passieren	VERB	VVFIN	_	2	comp:aux	_	_
+
+# text = schönen Tag noch
+1	schönen	schön	ADJ	ADJA	_	2	mod	_	_
+2	Tag	Tag	NOUN	NN	_	0	root	_	_
+3	noch	noch	ADV	PTKMWL	_	2	mod	_	_
+

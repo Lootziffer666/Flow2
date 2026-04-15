@@ -1,0 +1,85 @@
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	gesehen	sehen	VERB	VVPP	_	2	comp:aux	_	_
+4	dass	dass	SCONJ	KOUS	_	3	comp:obj	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Mann	Mann	NOUN	NN	_	11	subj	_	_
+7	mit	mit	ADP	APPR	_	10	mod	_	_
+8	den	d	DET	ART	_	9	det	_	_
+9	Ball	Ball	NOUN	NN	_	7	comp:obj	_	_
+10	gespielt	spielen	VERB	VVPP	_	11	comp:aux	_	_
+11	hat	haben	AUX	VAFIN	_	4	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	drüben	drüben	ADV	APPR	_	3	mod	_	_
+3	stand	stehen	VERB	VVFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Frau	Frau	NOUN	NN	_	3	subj	_	_
+6	mit	mit	ADP	APPR	_	5	mod	_	_
+7	Einkaufstüten	Einkaufstüte	NOUN	NN	_	6	comp:obj	_	_
+8	und	und	CCONJ	KON	_	9	cc	_	_
+9	mit	mit	ADP	APPR	_	6	conj	_	_
+10	Hund	Hund	NOUN	NN	_	9	comp:obj	_	_
+
+1	packte	packen	VERB	VVFIN	_	0	root	_	_
+2	das	d	DET	ART	_	3	det	_	_
+3	Einkauf	Einkauf	NOUN	NN	_	1	comp:obj	_	_
+4	zum	zu	PROPN	APPRART	_	1	comp:obl	_	_
+5	Auto	Auto	PROPN	NN	_	4	comp:obj	_	_
+
+1	Hund	Hund	PROPN	NN	_	2	subj	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	den	d	DET	ART	_	4	det	_	_
+4	Mann	Mann	NOUN	NN	_	5	comp:obj	_	_
+5	gesehen	sehen	VERB	VVPP	_	2	comp:aux	_	_
+6	dass	dass	SCONJ	KOUS	_	5	comp:obl	_	_
+7	er	er	PRON	PPER	_	12	subj	_	_
+8	mit	mit	ADP	APPR	_	12	mod	_	_
+9	den	d	DET	ART	_	10	det	_	_
+10	Ball	Ball	NOUN	NN	_	8	comp:obj	_	_
+11	rüber	herüber	ADV	ADV	_	12	compound@prt	_	_
+12	geht	gehen	VERB	VVFIN	_	6	comp:obj	_	_
+
+1	auf	auf	ADP	APPR	_	10	mod	_	_
+2	einmal	einmal	ADV	ADV	_	1	fixed	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	3	subj	_	_
+6	von	von	ADP	APPR	_	5	mod@poss	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Besitzer	Besitzer	NOUN	NN	_	6	comp:obj	_	_
+9	los	los	ADV	PTKVZ	_	10	compound@prt	_	_
+10	gerannt	rennen	ADJ	VVPP	_	3	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	_	3	subj	_	_
+3	kam	kommen	VERB	VVFIN	_	0	root	_	_
+4	auf	auf	ADP	APPR	_	3	comp:obl	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Straße	Straße	NOUN	NN	_	4	comp:obj	_	_
+
+1	zwei	zwei	NUM	CARD	_	2	mod	_	_
+2	Autos	Auto	NOUN	NN	_	3	subj	_	_
+3	haben	haben	AUX	VAFIN	_	0	root	_	_
+4	hart	hart	ADJ	ADJD	_	3	mod	_	_
+5	gebremst	bremsen	VERB	VVPP	_	3	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	weiß	weiß	ADJ	ADJA	_	3	mod	_	_
+3	Wagen	Wagen	NOUN	NN	_	4	subj	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	blauen	blau	ADJ	ADJA	_	7	comp:obj	_	_
+7	gestoßen	stoßen	VERB	VVPP	_	4	comp:aux	_	_
+
+1	es	es	PRON	PPER	_	2	subj@expl	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	keinem	kein	PRON	PIS	_	5	comp:obj	_	_
+4	etwas	etwas	PRON	PIS	_	2	subj	_	_
+5	passiert	passieren	VERB	VVPP	_	2	comp:aux	_	_
+
+1	aber	aber	ADV	KON	_	2	mod	_	_
+2	ist	sein	AUX	VAFIN	_	0	root	_	_
+3	Schaden	Schaden	NOUN	NN	_	2	subj	_	_
+4	entstanden	entstehen	VERB	VVPP	_	2	comp:aux	_	_
+5	.	.	PUNCT	$.	_	2	punct	_	_

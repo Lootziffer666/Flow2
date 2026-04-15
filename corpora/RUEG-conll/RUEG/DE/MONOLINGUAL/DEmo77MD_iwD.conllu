@@ -1,0 +1,62 @@
+# text = Jo
+1	Jo	Jo	PROPN	_	_	0	root	_	_
+
+# text = ich habe heute einen Unfall gesehen .
+1	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	habe	haben	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	heute	heute	ADV	_	_	2	mod	_	_
+4	einen	ein	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+5	Unfall	Unfall	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	6	comp:obj	_	_
+6	gesehen	sehen	VERB	_	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Ein Typ hat seinen Ball auf der Straße fallen gelassen
+1	Ein	ein	DET	_	Definite=Ind|PronType=Art	2	det	_	_
+2	Typ	Typ	NOUN	_	_	3	subj	_	_
+3	hat	haben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	seinen	sein	DET	_	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	Ball	Ball	NOUN	_	Case=Acc|Number=Sing	9	comp:obj	_	_
+6	auf	auf	ADP	_	_	9	comp:obl	_	_
+7	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Straße	Straße	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	6	comp:obj	_	_
+9	fallen	fallen	VERB	_	Number=Plur|Person=3|VerbForm=Fin	10	comp:obj	_	_
+10	gelassen	lassen	VERB	_	Tense=Past	3	comp:aux	_	_
+
+# text = und ein Hund ist auf den Ball zugerannt ,
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	ein	ein	DET	_	Definite=Ind|PronType=Art	3	det	_	_
+3	Hund	Hund	NOUN	_	_	4	subj	_	_
+4	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	auf	auf	ADP	_	_	8	comp:obl	_	_
+6	den	d	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Ball	Ball	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	comp:obj	_	_
+8	zugerannt	zurennen	VERB	_	Tense=Past|VerbForm=Part	4	comp:aux	_	_
+9	,	,	PUNCT	_	_	4	punct	_	_
+
+# text = dann musste das Auto eine Vollbremsung machen
+1	dann	dann	ADV	_	_	2	mod	_	_
+2	musste	müssen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	das	d	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Auto	Auto	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	2	subj	_	_
+5	eine	ein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Vollbremsung	Vollbremsung	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	7	comp:obj	_	_
+7	machen	machen	VERB	_	VerbForm=Inf	2	comp:aux	_	_
+
+# text = und das andere Auto ist hinten reingefahren .
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	das	d	DET	_	Definite=Def|PronType=Art	4	det	_	_
+3	andere	andere	ADJ	_	Degree=Pos	4	mod	_	_
+4	Auto	Auto	NOUN	_	_	5	subj	_	_
+5	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	hinten	hinten	ADV	_	_	5	mod	_	_
+7	reingefahren	reinfahren	VERB	_	Tense=Past|VerbForm=Part	5	comp:aux	_	_
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# text = Es ist aber Nichts passiert .
+1	Es	es	PRON	_	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+2	ist	ist	PROPN	_	Tense=Pres	0	root	_	_
+3	aber	aber	PROPN	_	Case=Dat|Number=Sing	2	mod	_	_
+4	Nichts	Nichts	PROPN	_	Case=Nom|Number=Sing	2	subj	_	_
+5	passiert	passieren	VERB	_	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+6	.	.	PUNCT	_	_	2	punct	_	_
+

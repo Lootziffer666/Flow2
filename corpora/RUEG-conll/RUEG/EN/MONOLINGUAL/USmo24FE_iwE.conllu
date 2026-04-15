@@ -1,0 +1,108 @@
+1	Hey	hey	INTJ	ITJ	_	0	root	_	_
+2	Imani	Imani	PROPN	NP0	_	1	vocative	_	_
+3	,	,	PUNCT	PUN	_	1	punct	_	_
+
+1	I	i	PRON	PNP	_	3	nsubj	_	_
+2	just	just	ADV	AV0	_	3	advmod	_	_
+3	saw	see	VERB	VVD	_	0	root	_	_
+4	a	a	DET	AT0	_	6	det	_	_
+5	car	car	NOUN	NN1	_	6	compound	_	_
+6	accident	accident	NOUN	NN1	_	3	obj	_	_
+7	today	today	ADV	AV0	_	3	advmod	_	_
+8	.	.	PUNCT	SENT	_	3	punct	_	_
+
+1	It	it	PRON	PNP	_	3	nsubj	_	_
+2	all	all	DET	DT0	_	1	det	_	_
+3	started	start	VERB	VVD	_	0	root	_	_
+4	when	when	SCONJ	CJS	_	7	mark	_	_
+5	someone	someone	PRON	PNI	_	7	nsubj	_	_
+6	just	just	ADV	AV0	_	7	advmod	_	_
+7	dropped	drop	VERB	VVD	_	3	advcl	_	_
+8	the	the	DET	AT0	_	9	det	_	_
+9	ball	ball	NOUN	NN1	_	7	obj	_	_
+10	.	.	PUNCT	SENT	_	3	punct	_	_
+
+1	all	all	DET	DT0	_	0	root	_	_
+2	of	of	ADP	PRF	_	4	case	_	_
+3	a	a	DET	AT0	_	4	det	_	_
+4	suddden	suddden	NOUN	NN1	_	1	nmod	_	_
+5	,	,	PUNCT	PUN	_	1	punct	_	_
+6	there	there	ADV	EX0	_	10	advmod	_	_
+7	was	be	AUX	VBD	_	10	cop	_	_
+8	a	a	DET	AT0	_	9	det	_	_
+9	car	car	NOUN	NN1	_	10	nsubj	_	_
+10	stopped	stop	VERB	VVN	_	1	parataxis	_	_
+11	by	by	ADP	PRP	_	16	mark	_	_
+12	where	where	ADV	AVQ	_	16	advmod	_	_
+13	the	the	DET	AT0	_	14	det	_	_
+14	ball	ball	NOUN	NN1	_	16	nsubj:pass	_	_
+15	was	be	AUX	VBD	_	16	aux:pass	_	_
+16	dropped	drop	VERB	VVN	_	10	advcl	_	_
+17	.	.	PUNCT	SENT	_	1	punct	_	_
+
+1	The	the	DET	AT0	_	3	det	_	_
+2	second	second	ADJ	ORD	_	3	amod	_	_
+3	car	car	NOUN	NN1	_	4	nsubj	_	_
+4	stopped	stop	VERB	VVD	_	0	root	_	_
+5	as	as	ADP	PRP	_	4	advmod	_	_
+6	well	well	ADV	AV0	_	5	fixed	_	_
+7	,	,	PUNCT	PUN	_	4	punct	_	_
+
+1	but	but	CCONJ	CJC	_	3	cc	_	_
+2	it	it	PRON	PNP	_	3	nsubj	_	_
+3	got	get	VERB	VVD	_	0	root	_	_
+4	hit	hit	VERB	VVN	_	3	obl	_	_
+5	from	from	ADP	PRP	_	4	case	_	_
+6	behind	behind	ADV	AV0	_	4	advmod	_	_
+7	of	of	ADP	PRF	_	9	case	_	_
+8	the	the	DET	AT0	_	9	det	_	_
+9	car	car	NOUN	NN1	_	4	obl	_	_
+10	.	.	PUNCT	SENT	_	3	punct	_	_
+
+1	Luckily	luckily	ADV	AV0	_	5	advmod	_	_
+2	,	,	PUNCT	PUN	_	5	punct	_	_
+3	no	no	DET	AT0	_	4	det	_	_
+4	one	one	PRON	PNI	_	5	nsubj	_	_
+5	got	get	VERB	VVD	_	0	root	_	_
+6	her	she	PRON	PNP	_	5	obj	_	_
+7	,	,	PUNCT	PUN	_	5	punct	_	_
+
+1	my	i	DET	DPS	_	2	det	_	_
+2	heart	heart	NOUN	NN1	_	4	nsubj	_	_
+3	was	be	AUX	VBD	_	4	aux	_	_
+4	jumped	jump	VERB	VVN	_	0	root	_	_
+5	when	when	SCONJ	CJS	_	10	mark	_	_
+6	that	that	DET	DT0	_	7	det	_	_
+7	dog	dog	NOUN	NN1	_	10	nsubj	_	_
+8	was	be	AUX	VBD	_	10	cop	_	_
+9	this	this	DET	DT0	_	10	det	_	_
+10	close	close	ADJ	AJ0	_	4	advcl	_	_
+11	to	to	PART	TO0	_	13	mark	_	_
+12	get	get	VERB	VVI	_	13	aux:pass	_	_
+13	hit	hit	VERB	VVN	_	10	advcl	_	_
+14	by	by	ADP	PRP	_	16	case	_	_
+15	the	the	DET	AT0	_	16	det	_	_
+16	car	car	NOUN	NN1	_	13	obl	_	_
+17	.	.	PUNCT	SENT	_	4	punct	_	_
+
+1	Good	good	ADJ	AJ0	_	2	amod	_	_
+2	thing	thing	NOUN	NN1	_	0	root	_	_
+3	the	the	DET	AT0	_	4	det	_	_
+4	lady	lady	NOUN	NN1	_	6	nsubj	_	_
+5	was	be	AUX	VBD	_	6	cop	_	_
+6	paying	pay	VERB	VVG	_	2	parataxis	_	_
+7	attention	attention	NOUN	NN1	_	6	obj	_	_
+8	to	to	ADP	PRP	_	10	case	_	_
+9	her	she	DET	DPS	_	10	det	_	_
+10	dog	dog	NOUN	NN1	_	6	obl	_	_
+11	,	,	PUNCT	PUN	_	6	punct	_	_
+
+1	it	it	PRON	PNP	_	7	nsubj	_	_
+2	would	would	AUX	VM0	_	7	aux	_	_
+3	have	have	AUX	VHI	_	7	aux	_	_
+4	been	be	AUX	VBN	_	7	cop	_	_
+5	a	a	DET	AT0	_	7	det	_	_
+6	different	different	ADJ	AJ0	_	7	amod	_	_
+7	situation	situation	NOUN	NN1	_	0	root	_	_
+8	.	.	PUNCT	SENT	_	7	punct	_	_
+

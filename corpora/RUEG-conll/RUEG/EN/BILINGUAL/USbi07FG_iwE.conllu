@@ -1,0 +1,92 @@
+1	hey	hey	INTJ	ITJ	_	0	root	_	_
+
+1	I	i	PRON	PNP	_	3	nsubj	_	_
+2	just	just	ADV	AV0	_	3	advmod	_	_
+3	saw	see	VERB	VVD	_	0	root	_	_
+4	an	an	DET	AT0	_	5	det	_	_
+5	accident	accident	NOUN	NN1	_	3	obj	_	_
+6	!	!	PUNCT	SENT	_	3	punct	_	_
+
+1	this	this	DET	DT0	_	2	det	_	_
+2	guy	guy	NOUN	NN1	_	3	nsubj	_	_
+3	kicked	kick	VERB	VVD	_	0	root	_	_
+4	a	a	DET	AT0	_	5	det	_	_
+5	ball	ball	NOUN	NN1	_	3	obj	_	_
+6	into	into	ADP	PRP	_	8	case	_	_
+7	the	the	DET	AT0	_	8	det	_	_
+8	street	street	NOUN	NN1	_	3	obl	_	_
+9	by	by	ADP	PRP	_	10	case	_	_
+10	accident	accident	NOUN	NN1	_	3	obl	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	a	a	DET	AT0	_	3	det	_	_
+3	woman	woman	NOUN	NN1	_	9	nsubj	_	_
+4	across	across	ADP	PRP	_	6	case	_	_
+5	the	the	DET	AT0	_	6	det	_	_
+6	street	street	NOUN	NN1	_	3	nmod	_	_
+7	had	have	AUX	VHD	_	9	cop	_	_
+8	a	a	DET	AT0	_	9	det	_	_
+9	dog	dog	NOUN	NN1	_	0	root	_	_
+10	that	that	SCONJ	CJT	_	11	mark	_	_
+11	jumped	jump	VERB	VVD	_	9	acl	_	_
+12	after	after	ADP	PRP	_	14	case	_	_
+13	the	the	DET	AT0	_	14	det	_	_
+14	ball	ball	NOUN	NN1	_	11	obl	_	_
+15	.	.	PUNCT	SENT	_	9	punct	_	_
+
+1	thankfully	thankfully	ADV	AV0	_	5	advmod	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	dog	dog	NOUN	NN1	_	5	nsubj:pass	_	_
+4	was	be	AUX	VBD	_	5	aux:pass	_	_
+5	leashed	leash	VERB	VVN	_	0	root	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	did	do	AUX	VDD	_	4	aux	_	_
+3	not	not	PART	XX0	_	4	advmod	_	_
+4	get	get	VERB	VVI	_	0	root	_	_
+5	hurt	hurt	VERB	VVN	_	4	xcomp	_	_
+
+1	but	but	CCONJ	CJC	_	4	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	woman	woman	NOUN	NN1	_	4	nsubj	_	_
+4	dropped	drop	VERB	VVD	_	0	root	_	_
+5	her	she	DET	DPS	_	6	det	_	_
+6	groceries	grocery	NOUN	NN2	_	4	obj	_	_
+7	in	in	ADP	PRP	_	9	case	_	_
+8	the	the	DET	AT0	_	9	det	_	_
+9	street	street	NOUN	NN1	_	4	obl	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	a	a	DET	AT0	_	3	det	_	_
+3	car	car	NOUN	NN1	_	4	nsubj	_	_
+4	coming	come	VERB	VVG	_	0	root	_	_
+5	up	up	ADP	PRP	_	4	compound:prt	_	_
+6	the	the	DET	AT0	_	7	det	_	_
+7	road	road	NOUN	NN1	_	8	nsubj	_	_
+8	slammed	slam	VERB	VVD	_	4	parataxis	_	_
+9	on	on	ADP	PRP	_	11	case	_	_
+10	its	it	DET	DPS	_	11	det	_	_
+11	brakes	brake	NOUN	NN2	_	8	obl	_	_
+
+1	and	and	CCONJ	CJC	_	2	cc	_	_
+2	got	get	VERB	VVD	_	3	conj	_	_
+3	rear-ended	rear-end	VERB	VVN	_	0	root	_	_
+4	by	by	ADP	PRP	_	6	case	_	_
+5	the	the	DET	AT0	_	6	det	_	_
+6	car	car	NOUN	NN1	_	3	obl	_	_
+7	behind	behind	ADP	PRP	_	8	case	_	_
+8	it	it	PRON	PNP	_	3	obl	_	_
+9	.	.	PUNCT	SENT	_	3	punct	_	_
+
+1	call	call	VERB	VVB	_	0	root	_	_
+2	me	i	PRON	PNP	_	1	obj	_	_
+3	later	later	ADV	AV0	_	1	advmod	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	I	i	PRON	PNP	_	4	nsubj	_	_
+3	can	can	AUX	VM0	_	4	aux	_	_
+4	tell	tell	VERB	VVI	_	0	root	_	_
+5	you	you	PRON	PNP	_	4	obj	_	_
+6	more	more	ADV	AV0	_	4	advmod	_	_
+7	!	!	PUNCT	SENT	_	4	punct	_	_
+

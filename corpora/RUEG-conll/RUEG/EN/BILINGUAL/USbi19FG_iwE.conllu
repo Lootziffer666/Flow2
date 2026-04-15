@@ -1,0 +1,50 @@
+1	hey	hey	INTJ	ITJ	_	0	root	_	_
+2	...	...	PUNCT	PUN	_	1	punct	_	_
+
+1	sorry	sorry	ADJ	AJ0	_	4	advmod	_	_
+2	I	i	PRON	PNP	_	4	nsubj	_	_
+3	am	be	AUX	VBB	_	4	aux	_	_
+4	running	run	VERB	VVG	_	0	root	_	_
+5	a	a	DET	AT0	_	6	det	_	_
+6	bit	bit	NOUN	NN1	_	4	obl:npmod	_	_
+7	late	late	ADV	AV0	_	4	advmod	_	_
+8	...	...	PUNCT	PUN	_	4	punct	_	_
+
+1	witnessed	witness	VERB	VVD	_	0	root	_	_
+2	a	a	DET	AT0	_	4	det	_	_
+3	rear-end	rear-end	ADJ	AJ0	_	4	amod	_	_
+4	collision	collision	NOUN	NN1	_	1	obj	_	_
+5	.	.	PUNCT	SENT	_	1	punct	_	_
+
+1	someone	someone	PRON	PNI	_	2	nsubj	_	_
+2	lost	lose	VERB	VVD	_	0	root	_	_
+3	their	they	DET	DPS	_	4	det	_	_
+4	ball	ball	NOUN	NN1	_	2	obj	_	_
+5	.	.	PUNCT	SENT	_	2	punct	_	_
+6	and	and	CCONJ	CJC	_	8	cc	_	_
+7	it	it	PRON	PNP	_	8	nsubj	_	_
+8	went	go	VERB	VVD	_	2	conj	_	_
+9	onto	onto	ADP	PRP	_	11	case	_	_
+10	oncoming	oncoming	ADJ	AJ0	_	11	amod	_	_
+11	traffic	traffic	NOUN	NN1	_	8	obl	_	_
+12	!	!	PUNCT	SENT	_	2	punct	_	_
+
+1	need	need	VERB	VVB	_	0	root	_	_
+2	to	to	PART	TO0	_	3	mark	_	_
+3	stay	stay	VERB	VVI	_	1	xcomp	_	_
+4	and	and	CCONJ	CJC	_	5	cc	_	_
+5	give	give	VERB	VVI	_	6	conj	_	_
+6	testimony	testimony	NOUN	NN1	_	1	obj	_	_
+7	to	to	ADP	PRP	_	9	case	_	_
+8	the	the	DET	AT0	_	9	det	_	_
+9	officers	officer	NOUN	NN2	_	6	nmod	_	_
+10	about	about	ADP	PRP	_	11	case	_	_
+11	what	what	DET	DTQ	_	9	nmod	_	_
+12	I	i	PRON	PNP	_	13	nsubj	_	_
+13	saw	see	VERB	VVD	_	11	acl:relcl	_	_
+14	!	!	PUNCT	SENT	_	1	punct	_	_
+
+1	see	see	VERB	VVI	_	0	root	_	_
+2	you	you	PRON	PNP	_	1	obj	_	_
+3	soon	soon	ADV	AV0	_	1	advmod	_	_
+

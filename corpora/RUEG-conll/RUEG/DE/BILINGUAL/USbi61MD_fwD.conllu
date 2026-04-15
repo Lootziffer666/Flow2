@@ -1,0 +1,63 @@
+# text = der Mensch hat sein Fußball verloren
+1	der	d	DET	ART	_	2	det	_	_
+2	Mensch	Mensch	NOUN	NN	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	sein	sein	DET	PPOSAT	_	5	det	_	_
+5	Fußball	Fußball	NOUN	NN	_	6	comp:obj	_	_
+6	verloren	verlieren	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und der Hund hat reagiert .
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	4	subj	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	reagiert	reagieren	VERB	VVPP	_	4	comp:aux	_	_
+6	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Die Frau hat aus Versehen ihre Sachen auf den Boden fallen lassen
+1	Die	d	DET	ART	_	2	det	_	_
+2	Frau	Frau	NOUN	NN	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	aus	aus	ADP	APPR	_	11	mod	_	_
+5	Versehen	Versehen	NOUN	NN	_	4	comp:obj	_	_
+6	ihre	ihr	DET	PPOSAT	_	7	det	_	_
+7	Sachen	Sache	NOUN	NN	_	11	comp:obj	_	_
+8	auf	auf	ADP	APPR	_	11	comp:obl	_	_
+9	den	d	DET	ART	_	10	det	_	_
+10	Boden	Boden	NOUN	NN	_	8	comp:obj	_	_
+11	fallen	fallen	VERB	VVINF	_	12	comp:obj	_	_
+12	lassen	lassen	VERB	VVINF	_	3	comp:aux	_	_
+
+# text = und deshalb hat das erste Auto stoppen müssen .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	deshalb	deshalb	ADV	ADV	_	3	mod	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	das	d	DET	ART	_	6	det	_	_
+5	erste	erst	ADJ	ORD	_	6	mod	_	_
+6	Auto	Auto	NOUN	NN	_	3	subj	_	_
+7	stoppen	stoppen	VERB	VVINF	_	8	comp:aux	_	_
+8	müssen	müssen	AUX	VMINF	_	3	comp:aux	_	_
+9	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Das zweite Auto war knapp hinter
+1	Das	d	DET	ART	_	3	det	_	_
+2	zweite	zweit	ADJ	ORD	_	3	mod	_	_
+3	Auto	Auto	NOUN	NN	_	4	subj	_	_
+4	war	sein	VERB	VAFIN	_	0	root	_	_
+5	knapp	knapp	ADJ	ADJD	_	6	mod	_	_
+6	hinter	hinter	ADP	ADV	_	4	comp:pred	_	_
+
+# text = und ist dann aus Versehen in das erste Auto hinten reingefahren .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	dann	dann	ADV	ADV	_	2	mod	_	_
+4	aus	aus	ADP	APPR	_	11	mod	_	_
+5	Versehen	Versehen	NOUN	NN	_	4	comp:obj	_	_
+6	in	in	ADP	APPR	_	11	comp:obl	_	_
+7	das	d	DET	ART	_	9	det	_	_
+8	erste	erst	ADJ	ORD	_	9	mod	_	_
+9	Auto	Auto	NOUN	NN	_	6	comp:obj	_	_
+10	hinten	hinten	ADV	ADV	_	2	mod	_	_
+11	reingefahren	reinfahren	VERB	VVPP	_	2	comp:aux	_	_
+12	.	.	PUNCT	$.	_	2	punct	_	_
+

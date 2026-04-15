@@ -1,0 +1,132 @@
+# text = moin Maxe !
+1	moin	moin	PROPN	NGIRR	_	2	discourse	_	_
+2	Maxe	Maxe	PROPN	NE	_	0	root	_	_
+3	!	!	PUNCT	$.	_	2	punct	_	_
+
+# text = mal wieder eine Story aus dem Leben des DEmo47MD .
+1	mal	mal	ADV	PTKMA	_	4	mod	_	_
+2	wieder	wieder	ADV	ADV	_	4	mod	_	_
+3	eine	ein	DET	ART	_	4	det	_	_
+4	Story	Story	PROPN	NN	_	0	root	_	_
+5	aus	aus	ADP	APPR	_	4	mod	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	Leben	Leben	NOUN	NN	_	5	comp:obj	_	_
+8	des	d	DET	ART	_	9	det	_	_
+9	DEmo47MD	DEmo47MD	PROPN	NE	_	7	mod@poss	_	_
+10	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = habe gerade die spannendste Parkplatzerfahrung meines Lebens gehabt .
+1	habe	haben	AUX	VAFIN	_	0	root	_	_
+2	gerade	gerade	ADV	ADV	_	1	mod	_	_
+3	die	d	DET	ART	_	5	det	_	_
+4	spannendste	spannend	ADJ	ADJA	_	5	mod	_	_
+5	Parkplatzerfahrung	Parkplatzerfahrung	NOUN	NN	_	8	comp:obj	_	_
+6	meines	mein	PRON	PPOSAT	_	7	det	_	_
+7	Lebens	Leben	NOUN	NN	_	5	mod@poss	_	_
+8	gehabt	haben	VERB	VAPP	_	1	comp:aux	_	_
+9	.	.	PUNCT	$.	_	1	punct	_	_
+
+# text = laufe gerade am Parkplatz vorbei ,
+1	laufe	laufen	VERB	VVFIN	_	0	root	_	_
+2	gerade	gerade	ADV	ADV	_	1	mod	_	_
+3	am	an	ADJ	APPRART	_	1	comp:obl	_	_
+4	Parkplatz	Parkplatz	NOUN	NN	_	3	comp:obj	_	_
+5	vorbei	vorbei	ADV	PTKVZ	_	1	compound@prt	_	_
+6	,	,	PUNCT	$,	_	1	punct	_	_
+
+# text = biegt von rechts ein Pärchen auf die Parkstraße ein ,
+1	biegt	biegen	VERB	VVFIN	_	0	root	_	_
+2	von	von	ADP	APPR	_	1	mod	_	_
+3	rechts	rechts	ADV	ADV	_	2	comp:obj	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Pärchen	Pärchen	NOUN	NN	_	1	subj	_	_
+6	auf	auf	ADP	APPR	_	1	comp:obl	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Parkstraße	Parkstraße	NOUN	NN	_	6	comp:obj	_	_
+9	ein	ein	ADV	PTKVZ	_	1	compound@prt	_	_
+10	,	,	PUNCT	$,	_	1	punct	_	_
+
+# text = sie schiebt den Kinderwagen
+1	sie	sie	PRON	PPER	_	2	subj	_	_
+2	schiebt	schieben	VERB	VVFIN	_	0	root	_	_
+3	den	d	DET	ART	_	4	det	_	_
+4	Kinderwagen	Kinderwagen	NOUN	NN	_	2	comp:obj	_	_
+
+# text = er prellt mit dem Ball .
+1	er	er	PRON	PPER	_	2	subj	_	_
+2	prellt	prellen	VERB	VVFIN	_	0	root	_	_
+3	mit	mit	ADP	APPR	_	2	comp:obl	_	_
+4	dem	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = gegenüber lädt gerade eine Frau mit angeleintem Kläffer ihren Kofferraum voll .
+1	gegenüber	gegenüber	ADP	ADJA	_	2	mod	_	_
+2	lädt	laden	VERB	VVFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	eine	ein	DET	ART	_	5	det	_	_
+5	Frau	Frau	NOUN	NN	_	2	subj	_	_
+6	mit	mit	ADP	APPR	_	5	mod	_	_
+7	angeleintem	angeleint	ADJ	ADJA	_	8	mod	_	_
+8	Kläffer	Kläffer	NOUN	NN	_	6	comp:obj	_	_
+9	ihren	ihr	DET	PPOSAT	_	10	det	_	_
+10	Kofferraum	Kofferraum	NOUN	NN	_	2	comp:obj	_	_
+11	voll	voll	ADJ	PTKVZ	_	2	compound@prt	_	_
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = dem Typ verspringt der Ball ,
+1	dem	d	DET	ART	_	2	det	_	_
+2	Typ	Typ	NOUN	NN	_	3	comp:obj	_	_
+3	verspringt	verspringen	VERB	VVFIN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	subj	_	_
+6	,	,	PUNCT	$,	_	3	punct	_	_
+
+# text = fliegt auf die Fahrbahn
+1	fliegt	fliegen	VERB	VVFIN	_	0	root	_	_
+2	auf	auf	ADP	APPR	_	1	comp:obl	_	_
+3	die	d	DET	ART	_	4	det	_	_
+4	Fahrbahn	Fahrbahn	NOUN	NN	_	2	comp:obj	_	_
+
+# text = und der Hund voll drauf los .
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	6	subj	_	_
+4	voll	voll	VERB	PTKIFG	_	6	mod	_	_
+5	drauf	drauf	ADV	ADV	_	6	comp:obl	_	_
+6	los	los	ADV	PTKVZ	_	0	root	_	_
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# text = Schlechtes Timing ,
+1	Schlechtes	schlecht	ADJ	ADJA	_	2	mod	_	_
+2	Timing	Timing	NOUN	NN	_	0	root	_	_
+3	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = ein Auto geht wegen dem Hund voll in die Eisen
+1	ein	ein	DET	ART	_	2	det	_	_
+2	Auto	Auto	NOUN	NN	_	3	subj	_	_
+3	geht	gehen	VERB	VVFIN	_	0	root	_	_
+4	wegen	wegen	ADP	APPR	_	3	mod	_	_
+5	dem	d	DET	ART	_	6	det	_	_
+6	Hund	Hund	NOUN	NN	_	4	comp:obj	_	_
+7	voll	voll	ADJ	PTKIFG	_	8	mod	_	_
+8	in	in	ADP	APPR	_	3	comp:obl	_	_
+9	die	d	DET	ART	_	10	det	_	_
+10	Eisen	Eisen	NOUN	NN	_	8	comp:obj	_	_
+
+# text = und von hinten kracht dem ein anderer rein .
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	von	von	ADP	APPR	_	4	mod	_	_
+3	hinten	hinten	ADV	ADV	_	2	comp:obj	_	_
+4	kracht	krachen	VERB	VVFIN	_	0	root	_	_
+5	dem	d	DET	ART	_	4	comp:obj	_	_
+6	ein	ein	DET	ART	_	7	det	_	_
+7	anderer	andere	ADJ	PIDAT	_	4	subj	_	_
+8	rein	rein	ADV	PTKVZ	_	4	compound@prt	_	_
+9	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Maximal dämlich .
+1	Maximal	maximal	ADV	ADJD	_	2	mod	_	_
+2	dämlich	dämlich	ADJ	ADJD	_	0	root	_	_
+3	.	.	PUNCT	$.	_	2	punct	_	_
+

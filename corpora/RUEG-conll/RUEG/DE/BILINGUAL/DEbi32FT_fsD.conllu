@@ -1,0 +1,180 @@
+1	hallo	hallo	X	NGIRR	_	0	root	_	_
+
+1	hier	hier	ADV	ADV	_	2	comp:pred	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	die	d	DET	ART	_	4	det	_	_
+4	Frau	Frau	NOUN	NN	_	2	subj	_	_
+5	DEbi32FT	DEbi32FT	PROPN	NE	_	4	appos	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	zwar	zwar	ADV	ADV	_	4	mod	_	_
+3	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+4	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+5	ich	ich	PRON	PPER	_	4	subj	_	_
+6	über	über	ADP	VVINF	_	15	mod	_	_
+7	die	d	DET	ART	_	9	det	_	_
+8	einen	ein	DET	ART	_	9	mod	_	_
+9	Unfall	Unfall	NOUN	NN	_	6	comp:obj	_	_
+10	Unfallnummer	Unfallnummer	PROPN	NN	_	9	appos	_	_
+11	16	@card@	NUM	PTKZU	_	10	appos	_	_
+12	äh	äh	ADV	NGHES	_	4	discourse	_	_
+13	also	also	ADV	ADV	_	4	discourse	_	_
+14	sie	sie	PRON	PPER	_	15	comp:obj	_	_
+15	informieren	informieren	VERB	VVINF	_	4	comp:aux	_	_
+
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	bei	bei	ADP	APPR	_	3	mod	_	_
+5	diesem	diese	PRON	PDAT	_	6	det	_	_
+6	Unfall	Unfall	NOUN	NN	_	4	comp:obj	_	_
+7	dabei	dabei	ADV	ADV	_	3	comp:pred	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	gesehen	sehen	VERB	VVPP	_	2	comp:aux	_	_
+4	wie	wie	ADP	PWAV	_	7	mod	_	_
+5	alles	alle	PRON	PIS	_	7	subj	_	_
+6	passiert	passieren	VERB	VVPP	_	7	comp:aux	_	_
+7	ist	sein	AUX	VAFIN	_	3	comp:obj	_	_
+
+1	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+2	also	also	ADV	SEDM	_	4	discourse	_	_
+3	eigentlich	eigentlich	ADJ	ADV	_	4	mod	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	hier	hier	ADV	ADV	_	4	mod	_	_
+6	keiner	keine	PRON	PIS	_	4	subj	_	_
+7	schuldig	schuldig	ADJ	ADJD	_	4	comp:pred	_	_
+8	sozusagen	sozusagen	ADV	ADV	_	4	mod	_	_
+
+1	das	die	PRON	PDS	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	alles	alle	PRON	PIS	_	1	appos	_	_
+4	zufallmäßig	zufallmäßig	ADJ	ADJD	_	2	mod	_	_
+5	passiert	passieren	VERB	VVPP	_	2	comp:aux	_	_
+
+1	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+2	ein	ein	DET	ART	_	3	det	_	_
+3	Mann	Mann	NOUN	NN	_	4	subj	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	äh	äh	PROPN	NGHES	_	4	discourse	_	_
+6	mitn	mitn	PROPN	APPRART	_	8	mod	_	_
+7	Ball	Ball	PROPN	NN	_	6	comp:obj	_	_
+8	gespielt	spielen	VERB	VVPP	_	4	comp:aux	_	_
+
+1	darauf	darauf	ADV	ADV	_	2	mod	_	_
+2	fiel	fallen	VERB	VVFIN	_	0	root	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Ball	Ball	NOUN	NN	_	2	subj	_	_
+5	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Straße	Straße	NOUN	NN	_	5	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	8	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	8	subj	_	_
+4	äh	äh	ADJ	NGHES	_	8	discourse	_	_
+5	von	von	ADP	APPR	_	3	mod@poss	_	_
+6	einer	ein	DET	ART	_	7	det	_	_
+7	Frau	Frau	NOUN	NN	_	5	comp:obj	_	_
+8	hat	haben	AUX	VAFIN	_	0	root	_	_
+9	darauf	darauf	ADV	ADV	_	8	mod	_	_
+10	reagiert	reagieren	VERB	VVPP	_	8	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	auf	auf	ADP	APPR	_	6	comp:obl	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Straße	Straße	NOUN	NN	_	3	comp:obj	_	_
+6	gesprungen	springen	VERB	VVPP	_	2	comp:aux	_	_
+
+1	dementsprechend	dementsprechend	ADJ	ADV	_	2	mod	_	_
+2	musste	m�ssen	AUX	VMFIN	_	0	root	_	_
+3	das	d	DET	ART	_	4	det	_	_
+4	Auto	Auto	NOUN	NN	_	2	dislocated	_	_
+5	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+6	also	also	ADV	ADV	_	2	discourse	_	_
+7	sie	sie	PRON	PPER	_	8	reparandum	_	_
+8	es	es	PRON	PPER	_	2	subj	_	_
+9	abrupt	abrupt	ADV	ADJD	_	2	mod	_	_
+10	bremsen	bremsen	VERB	VVINF	_	2	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	7	cc	_	_
+2	äh	äh	ADV	NGHES	_	7	discourse	_	_
+3	der	d	DET	ART	_	6	det	_	_
+4	hintere	hinter	ADJ	ADJA	_	6	mod	_	_
+5	äh	äh	ADJ	NGHES	_	7	discourse	_	_
+6	Autofahrer	Autofahrer	NOUN	NN	_	7	subj	_	_
+7	musste	m�ssen	AUX	VMFIN	_	0	root	_	_
+8	auch	auch	ADV	PTKIFG	_	7	mod	_	_
+9	so	so	ADV	PTKIFG	_	10	mod	_	_
+10	schnell	schnell	ADJ	ADJD	_	7	mod	_	_
+11	wie	wie	CCONJ	KOKOM	_	9	mod	_	_
+12	möglich	möglich	ADJ	ADJD	_	11	comp:obj	_	_
+13	reagieren	reagieren	VERB	VVFIN	_	7	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	aber	aber	ADV	KON	_	4	mod	_	_
+3	das	d	PRON	PDS	_	4	subj	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	leider	leider	ADV	ADV	_	4	mod	_	_
+6	nicht	nicht	PART	PTKNEG	_	4	mod	_	_
+7	geklappt	klappen	VERB	VVPP	_	4	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	8	cc	_	_
+2	äh	äh	ADJ	NGHES	_	8	discourse	_	_
+3	die	d	DET	ART	_	4	det	_	_
+4	Autos	Auto	NOUN	NN	_	5	subj	_	_
+5	sind	sein	VERB	VAFIN	_	8	reparandum	_	_
+6	äh	äh	ADJ	NGHES	_	8	discourse	_	_
+7	leider	leider	ADV	ADV	_	8	mod	_	_
+8	sind	sein	AUX	VAFIN	_	0	root	_	_
+9	die	d	DET	ART	_	10	det	_	_
+10	Autos	Auto	NOUN	NN	_	8	subj	_	_
+11	zusammengeprallt	zusammenprallen	VERB	VVPP	_	8	comp:aux	_	_
+
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	wurde	werden	AUX	VAFIN	_	0	root	_	_
+4	keiner	keine	PRON	PIS	_	3	subj@pass	_	_
+5	verletzt	verletzen	VERB	ADJD	_	3	comp:aux@pass	_	_
+
+1	aber	aber	ADV	KON	_	12	cc	_	_
+2	äh	äh	ADJ	NGHES	_	12	discourse	_	_
+3	wie	wie	CCONJ	KOUS	_	4	mod	_	_
+4	gesagt	sagen	VERB	VVPP	_	12	mod	_	_
+5	keiner	keine	PRON	PIS	_	6	subj	_	_
+6	hat	haben	AUX	VAFIN	_	12	reparandum	_	_
+7	darauf	darauf	ADV	ADV	_	6	mod	_	_
+8	äh	äh	ADJ	NGHES	_	12	discourse	_	_
+9	ein	ein	DET	ART	_	6	comp:obj	_	_
+10	also	also	ADV	SEDM	_	12	discourse	_	_
+11	keiner	keine	PRON	PIS	_	12	subj	_	_
+12	ist	sein	VERB	VAFIN	_	0	root	_	_
+13	dabei	dabei	ADV	ADV	_	12	mod	_	_
+14	schuldig	schuldig	ADJ	ADJD	_	12	comp:pred	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	leider	leider	ADV	ADV	_	2	mod	_	_
+4	so	so	ADV	PTKIFG	_	2	mod	_	_
+5	passiert	passieren	ADJ	VVPP	_	2	comp:aux	_	_
+6	wie	wie	CCONJ	PWAV	_	9	mod	_	_
+7	es	es	PRON	PPER	_	9	subj	_	_
+8	passieren	passieren	VERB	VVINF	_	9	comp:aux	_	_
+9	musste	m�ssen	AUX	VMFIN	_	4	mod	_	_
+
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	bedanke	bedanken	VERB	VVFIN	_	0	root	_	_
+3	mich	ich	PRON	PRF	_	2	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	wünsche	wünsche	VERB	VVFIN	_	0	root	_	_
+3	Ihnen	sie	PRON	PPER	_	2	comp:obl	_	_
+4	einen	ein	DET	ART	_	6	det	_	_
+5	schönen	schön	ADJ	ADJA	_	6	mod	_	_
+6	Tag	Tag	NOUN	NN	_	2	comp:obj	_	_
+7	noch	noch	ADV	ADV	_	6	mod	_	_
+
+1	tschüss	tschüss	PROPN	NGIRR	_	0	root	_	_
+

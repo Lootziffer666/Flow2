@@ -1,0 +1,93 @@
+# text = heda Alex -
+1	heda	heda	NOUN	NGIRR	_	2	discourse	_	_
+2	Alex	Alex	PROPN	NE	_	0	root	_	_
+3	-	-	PUNCT	$(	_	2	punct	_	_
+
+# text = entschuldige die Störung ,
+1	entschuldige	entschuldigen	ADJ	VVFIN	_	0	root	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Störung	Störung	NOUN	NN	_	1	comp:obj	_	_
+4	,	,	PUNCT	$,	_	1	punct	_	_
+
+# text = aber ein kleines Autounfall hat vor deinem Gebäude passiert .
+1	aber	aber	ADV	KON	_	5	cc	_	_
+2	ein	ein	DET	ART	_	4	det	_	_
+3	kleines	klein	ADJ	ADJA	_	4	mod	_	_
+4	Autounfall	Autounfall	NOUN	NN	_	5	subj	_	_
+5	hat	haben	AUX	VAFIN	_	0	root	_	_
+6	vor	vor	ADP	APPR	_	9	mod	_	_
+7	deinem	dein	PRON	PPOSAT	_	8	det	_	_
+8	Gebäude	Gebäude	NOUN	NN	_	6	comp:obj	_	_
+9	passiert	passieren	VERB	VVPP	_	5	comp:aux	_	_
+10	.	.	PUNCT	$.	_	5	punct	_	_
+
+# text = ein paar Autos führen an während eine Frau mit einen Hund etwas in ihr Auto ladete .
+1	ein	ein	DET	ART	_	3	det	_	_
+2	paar	paar	PRON	PIDAT	_	3	mod	_	_
+3	Autos	Auto	NOUN	NN	_	4	subj	_	_
+4	fuhren	fahren	VERB	VVFIN	_	0	root	_	_
+5	an	an	ADP	APPR	_	4	compound@prt	_	_
+6	während	während	ADP	KOUS	_	4	mod	_	_
+7	eine	ein	DET	ART	_	8	det	_	_
+8	Frau	Frau	NOUN	NN	_	16	subj	_	_
+9	mit	mit	ADP	APPR	_	8	mod	_	_
+10	einen	ein	DET	ART	_	11	det	_	_
+11	Hund	Hund	NOUN	NN	_	9	comp:obj	_	_
+12	etwas	etwas	ADV	PIS	_	16	comp:obj	_	_
+13	in	in	ADP	APPR	_	16	comp:obl	_	_
+14	ihr	ihr	DET	PPOSAT	_	15	det	_	_
+15	Auto	Auto	NOUN	NN	_	13	comp:obj	_	_
+16	ladete	laden	VERB	VVFIN	_	6	comp:obj	_	_
+17	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = als die Autos sich näherten , hat der Hund plötzlich durchgedreht und vor das erste Auto gesprungen ,
+1	als	als	SCONJ	KON	_	11	mod	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Autos	Auto	NOUN	NN	_	5	subj	_	_
+4	sich	er|es|sie	PRON	PRF	_	5	comp:obj	_	_
+5	näherten	nähern	VERB	VVFIN	_	1	comp:obj	_	_
+6	,	,	PUNCT	$,	_	1	punct	_	_
+7	hat	haben	AUX	VAFIN	_	0	root	_	_
+8	der	d	DET	ART	_	9	det	_	_
+9	Hund	Hund	NOUN	NN	_	7	subj	_	_
+10	plötzlich	plötzlich	ADJ	ADV	_	7	mod	_	_
+11	durchgedreht	durchdrehen	VERB	VVPP	_	7	comp:aux	_	_
+12	und	und	CCONJ	KON	_	17	cc	_	_
+13	vor	vor	ADP	APPR	_	17	comp:obl	_	_
+14	das	d	DET	ART	_	16	det	_	_
+15	erste	erst	ADJ	ORD	_	16	mod	_	_
+16	Auto	Auto	NOUN	NN	_	13	comp:obj	_	_
+17	gesprungen	springen	VERB	VVPP	_	7	conj	_	_
+18	,	,	PUNCT	$,	_	7	punct	_	_
+
+# text = und in versuchen den Hund nicht zu treffen haben die Autos sich verrammt .
+1	und	und	CCONJ	KON	_	9	cc	_	_
+2	in	in	ADP	APPR	_	8	mod	_	_
+3	Versuchen	Versuche	NOUN	NN	_	2	comp:obj	_	_
+4	den	d	DET	ART	_	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	8	comp:obj	_	_
+6	nicht	nicht	PART	PTKNEG	_	8	mod	_	_
+7	zu	zu	PART	PTKZU	_	13	comp:obl	_	_
+8	treffen	treffen	VERB	VVINF	_	7	comp:obj	_	_
+9	haben	haben	AUX	VAFIN	_	0	root	_	_
+10	die	d	DET	ART	_	11	det	_	_
+11	Autos	Auto	NOUN	NN	_	9	subj	_	_
+12	sich	er|es|sie	PRON	PRF	_	13	comp:obj	_	_
+13	verrammt	verrammen	VERB	VVPP	_	9	comp:aux	_	_
+14	.	.	PUNCT	$.	_	9	punct	_	_
+
+# text = niemand war verletzt ,
+1	niemand	niemand	PRON	PIS	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	verletzt	verletzt	ADJ	ADJD	_	2	comp:pred	_	_
+4	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = aber ich dachte du solltest wissen .
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	dachte	denken	VERB	VVFIN	_	0	root	_	_
+4	du	du	PROPN	PPER	_	5	subj	_	_
+5	solltest	sollen	ADJ	VMFIN	_	3	comp:obj	_	_
+6	wissen	wissen	VERB	VVINF	_	5	comp:aux	_	_
+7	.	.	PUNCT	$.	_	3	punct	_	_
+

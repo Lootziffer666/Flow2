@@ -1,0 +1,236 @@
+# text = Sehr geehrte Damen und Herren ,
+1	Sehr	sehr	ADV	PTKIFG	_	2	mod	_	_
+2	geehrte	geehrt	ADJ	ADJA	_	3	mod	_	_
+3	Damen	Dame	NOUN	NN	_	0	root	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Herren	Herr	NOUN	NN	_	3	conj	_	_
+6	,	,	PUNCT	$,	_	3	punct	_	_
+
+# text = am xx.xx.20xx am frühen Nachmittag wurde ich Zeuge des Unfalls ohne Personenschaden .
+1	am	an	ADJ	PTKA	_	6	mod	_	_
+2	xx.xx.20xx	xx.xx.20xx	PROPN	CARD	_	1	comp:obj	_	_
+3	am	an	ADJ	APPRART	_	2	mod	_	_
+4	frühen	früh	ADJ	ADJA	_	5	mod	_	_
+5	Nachmittag	Nachmittag	NOUN	NN	_	3	comp:obj	_	_
+6	wurde	werden	VERB	VAFIN	_	0	root	_	_
+7	ich	ich	PRON	PPER	_	6	subj	_	_
+8	Zeuge	Zeuge	NOUN	NN	_	6	comp:pred	_	_
+9	des	d	DET	ART	_	10	det	_	_
+10	Unfalls	Unfall	NOUN	NN	_	8	mod@poss	_	_
+11	ohne	ohne	ADP	APPR	_	10	mod	_	_
+12	Personenschaden	Personenschaden	PROPN	NN	_	11	comp:obj	_	_
+13	.	.	PUNCT	$.	_	6	punct	_	_
+
+# text = Ich stand am Parkplatz des Gebäudes
+1	Ich	ich	PRON	PPER	_	2	subj	_	_
+2	stand	stehen	VERB	VVFIN	_	0	root	_	_
+3	am	an	ADJ	APPRART	_	2	mod	_	_
+4	Parkplatz	Parkplatz	NOUN	NN	_	3	comp:obj	_	_
+5	des	d	DET	ART	_	6	det	_	_
+6	Gebäudes	Gebäude	NOUN	NN	_	4	mod@poss	_	_
+
+# text = und hatte gute Sicht auf die Geschehnisse .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hatte	haben	VERB	VAFIN	_	0	root	_	_
+3	gute	gut	ADJ	ADJA	_	4	mod	_	_
+4	Sicht	Sicht	NOUN	NN	_	2	comp:obj	_	_
+5	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Geschehnisse	Geschehnis	NOUN	NN	_	5	comp:obj	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Ein Paar war mit einem Kinderwagen auf dem Fußweg unterwegs ,
+1	Ein	ein	DET	ART	_	2	det	_	_
+2	Paar	Paar	NOUN	NN	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	mit	mit	ADP	APPR	_	10	mod	_	_
+5	einem	ein	DET	ART	_	6	det	_	_
+6	Kinderwagen	Kinderwagen	NOUN	NN	_	4	comp:obj	_	_
+7	auf	auf	ADP	APPR	_	10	mod	_	_
+8	dem	d	DET	ART	_	9	det	_	_
+9	Fußweg	Fußweg	NOUN	NN	_	7	comp:obj	_	_
+10	unterwegs	unterwegs	ADV	ADV	_	3	comp:pred	_	_
+11	,	,	PUNCT	$,	_	3	punct	_	_
+
+# text = der Mann dribbelte einen Fußball .
+1	der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	dribbelte	dribbeln	VERB	VVFIN	_	0	root	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Fußball	Fußball	NOUN	NN	_	3	comp:obj	_	_
+6	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Dieser rollte ihm aus der Hand , direkt auf die Straße .
+1	Dieser	dies	PRON	PDS	_	2	subj	_	_
+2	rollte	rollen	AUX	VVFIN	_	0	root	_	_
+3	ihm	er	PRON	PPER	_	2	comp:obj	_	_
+4	aus	aus	ADP	APPR	_	2	mod	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Hand	Hand	NOUN	NN	_	4	comp:obj	_	_
+7	,	,	PUNCT	$,	_	2	punct	_	_
+8	direkt	direkt	ADJ	ADJD	_	9	mod	_	_
+9	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+10	die	d	DET	ART	_	11	det	_	_
+11	Straße	Straße	NOUN	NN	_	9	comp:obj	_	_
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Dort war auf dem Parkplatz eine Frau dabei , Einkäufe aus dem Kofferraum ihres Minivans zu laden .
+1	Dort	dort	ADV	ADV	_	2	mod	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	auf	auf	ADP	APPR	_	2	mod	_	_
+4	dem	d	DET	ART	_	5	det	_	_
+5	Parkplatz	Parkplatz	NOUN	NN	_	3	comp:obj	_	_
+6	eine	ein	DET	ART	_	7	det	_	_
+7	Frau	Frau	NOUN	NN	_	2	subj	_	_
+8	dabei	dabei	ADV	PTKVZ	_	2	comp:pred	_	_
+9	,	,	PUNCT	$,	_	2	punct	_	_
+10	Einkäufe	Einkauf	NOUN	NN	_	17	comp:obj	_	_
+11	aus	aus	ADP	APPR	_	17	comp:obl	_	_
+12	dem	d	DET	ART	_	13	det	_	_
+13	Kofferraum	Kofferraum	NOUN	NN	_	11	comp:obj	_	_
+14	ihres	ihr	DET	PPOSAT	_	15	det	_	_
+15	Minivans	Minivan	NOUN	NN	_	13	mod@poss	_	_
+16	zu	zu	ADP	PTKZU	_	8	comp:obj	_	_
+17	laden	laden	PROPN	VVINF	_	16	comp:obj	_	_
+18	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Ihr angeleinter Hund saß neben ihr ,
+1	Ihr	ihr	DET	PPOSAT	_	3	det	_	_
+2	angeleinter	angeleint	ADJ	ADJA	_	3	mod	_	_
+3	Hund	Hund	NOUN	NN	_	4	subj	_	_
+4	saß	sitzen	VERB	VVFIN	_	0	root	_	_
+5	neben	neben	ADP	APPR	_	4	comp:obl	_	_
+6	ihr	sie	PRON	PPOSAT	_	5	comp:obj	_	_
+7	,	,	PUNCT	$,	_	4	punct	_	_
+
+# text = reagierte auf den Ball
+1	reagierte	reagieren	VERB	VVFIN	_	0	root	_	_
+2	auf	auf	ADP	APPR	_	1	comp:obl	_	_
+3	den	d	DET	ART	_	4	det	_	_
+4	Ball	Ball	NOUN	NN	_	2	comp:obj	_	_
+
+# text = und stürmte auf die Straße , wobei er seiner Halterin die Einkäufe aus der Hand riss , die ebenfalls auf die Straße des Parkplatzes rollten .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	stürmte	stürmen	VERB	VVFIN	_	0	root	_	_
+3	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Straße	Straße	NOUN	NN	_	3	comp:obj	_	_
+6	,	,	PUNCT	$,	_	2	punct	_	_
+7	wobei	wobei	SCONJ	PWAV	_	16	mod	_	_
+8	er	er	PRON	PPER	_	16	subj	_	_
+9	seiner	sein	DET	PPOSAT	_	10	det	_	_
+10	Halterin	Halterin	NOUN	NN	_	16	comp:obl	_	_
+11	die	d	DET	ART	_	12	det	_	_
+12	Einkäufe	Einkauf	NOUN	NN	_	16	comp:obj	_	_
+13	aus	aus	ADP	APPR	_	16	udep	_	_
+14	der	d	DET	ART	_	15	det	_	_
+15	Hand	Hand	NOUN	NN	_	13	comp:obj	_	_
+16	riss	reißen	NOUN	VVFIN	_	2	mod	_	_
+17	,	,	PUNCT	$,	_	16	punct	_	_
+18	die	d	PRON	PRELS	_	25	subj	_	_
+19	ebenfalls	ebenfalls	ADV	ADV	_	25	mod	_	_
+20	auf	auf	ADP	APPR	_	25	comp:obl	_	_
+21	die	d	DET	ART	_	22	det	_	_
+22	Straße	Straße	NOUN	NN	_	20	comp:obj	_	_
+23	des	d	DET	ART	_	24	det	_	_
+24	Parkplatzes	Parkplatz	NOUN	NN	_	22	mod@poss	_	_
+25	rollten	rollen	VERB	VVFIN	_	12	mod@relcl	_	_
+26	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = In dem Moment bog eine blaue Limousine , deren Kennzeichen und Marke ich nicht erkennen konnte , in die Straße ein
+1	In	in	ADP	APPR	_	4	mod	_	_
+2	dem	d	DET	ART	_	3	det	_	_
+3	Moment	Moment	NOUN	NN	_	1	comp:obj	_	_
+4	bog	biegen	VERB	VVFIN	_	0	root	_	_
+5	eine	ein	DET	ART	_	7	det	_	_
+6	blaue	blau	ADJ	ADJA	_	7	mod	_	_
+7	Limousine	Limousine	NOUN	NN	_	4	subj	_	_
+8	,	,	PUNCT	$,	_	4	punct	_	_
+9	deren	d	DET	PRELAT	_	10	det	_	_
+10	Kennzeichen	Kennzeichen	NOUN	NN	_	15	comp:obj	_	_
+11	und	und	CCONJ	KON	_	12	cc	_	_
+12	Marke	Marke	NOUN	NN	_	10	conj	_	_
+13	ich	ich	PRON	PPER	_	16	subj	_	_
+14	nicht	nicht	PART	PTKNEG	_	16	mod	_	_
+15	erkennen	erkennen	VERB	VVINF	_	16	comp:aux	_	_
+16	konnte	können	AUX	VMFIN	_	7	mod@relcl	_	_
+17	,	,	PUNCT	$,	_	16	punct	_	_
+18	in	in	ADP	APPR	_	4	comp:obl	_	_
+19	die	d	DET	ART	_	20	det	_	_
+20	Straße	Straße	NOUN	NN	_	18	comp:obj	_	_
+21	ein	ein	DET	PTKVZ	_	4	compound@prt	_	_
+
+# text = und führte eine Vollbremsung durch .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	führte	führen	VERB	VVFIN	_	0	root	_	_
+3	eine	ein	DET	ART	_	4	det	_	_
+4	Vollbremsung	Vollbremsung	NOUN	NN	_	2	comp:obj	_	_
+5	durch	durch	ADP	PTKVZ	_	2	compound@prt	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Das ihm folgende weiße Fahrzeug konnte nicht schnell genug reagieren
+1	Das	d	SCONJ	PRELS	_	5	det	_	_
+2	ihm	er	PRON	PPER	_	3	comp:obj	_	_
+3	folgende	folgend	ADJ	ADJA	_	5	mod	_	_
+4	weiße	weiß	ADJ	ADJA	_	5	mod	_	_
+5	Fahrzeug	Fahrzeug	NOUN	NN	_	6	subj	_	_
+6	konnte	können	AUX	VMFIN	_	0	root	_	_
+7	nicht	nicht	PART	PTKNEG	_	8	mod	_	_
+8	schnell	schnell	ADJ	ADJD	_	6	mod	_	_
+9	genug	genug	ADV	ADV	_	8	mod	_	_
+10	reagieren	reagieren	VERB	VVFIN	_	6	comp:aux	_	_
+
+# text = und fuhr dem blauen Fahrzeug leicht hinten auf .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	fuhr	fahren	VERB	VVFIN	_	0	root	_	_
+3	dem	d	DET	ART	_	5	det	_	_
+4	blauen	blau	ADJ	ADJA	_	5	mod	_	_
+5	Fahrzeug	Fahrzeug	NOUN	NN	_	2	comp:obj	_	_
+6	leicht	leicht	ADJ	ADJD	_	2	mod	_	_
+7	hinten	hinten	ADV	ADV	_	2	mod	_	_
+8	auf	auf	ADP	PTKVZ	_	2	compound@prt	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Da beide Insassen nicht verletzt zu sein schienen , stiegen beide aus und betrachteten den Schaden .
+1	Da	da	SCONJ	KOUS	_	10	mod	_	_
+2	beide	beide	PRON	PIAT	_	3	det	_	_
+3	Insassen	Insasse	NOUN	NN	_	8	subj	_	_
+4	nicht	nicht	PART	PTKNEG	_	5	mod	_	_
+5	verletzt	verletzen	VERB	ADJD	_	7	comp:pred	_	_
+6	zu	zu	PART	PTKZU	_	8	comp:obj	_	_
+7	sein	sein	AUX	VAINF	_	6	comp:obj	_	_
+8	schienen	scheinen	ADJ	VVFIN	_	1	comp:obj	_	_
+9	,	,	PUNCT	$,	_	1	punct	_	_
+10	stiegen	steigen	VERB	VVFIN	_	0	root	_	_
+11	beide	beide	PRON	PIS	_	10	subj	_	_
+12	aus	aus	ADP	PTKVZ	_	10	compound@prt	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	betrachteten	betrachten	ADJ	VVFIN	_	0	root	_	_
+3	den	d	DET	ART	_	4	det	_	_
+4	Schaden	Schaden	NOUN	NN	_	2	comp:obj	_	_
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Der Inhaber des Balls kümmerte sich zunächst um die verstreuten Einkäufe
+1	Der	d	DET	ART	_	2	det	_	_
+2	Inhaber	Inhaber	NOUN	NN	_	5	subj	_	_
+3	des	d	DET	ART	_	4	det	_	_
+4	Balls	Ball	NOUN	NN	_	2	mod@poss	_	_
+5	kümmerte	kümmern	VERB	VVFIN	_	0	root	_	_
+6	sich	er|es|sie	PRON	PRF	_	5	comp:obj	_	_
+7	zunächst	zunächst	ADV	ADV	_	5	mod	_	_
+8	um	um	ADP	APPR	_	5	comp:obl	_	_
+9	die	d	DET	ART	_	11	det	_	_
+10	verstreuten	verstreut	ADJ	ADJA	_	11	mod	_	_
+11	Einkäufe	Einkauf	NOUN	NN	_	8	comp:obj	_	_
+
+# text = und eilte dann den Unfallbeteiligten zur Hilfe .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	eilte	eilen	VERB	VVFIN	_	0	root	_	_
+3	dann	dann	ADV	ADV	_	2	mod	_	_
+4	den	d	DET	ART	_	5	det	_	_
+5	Unfallbeteiligten	Unfallbeteiligte	NOUN	NN	_	2	comp:obj	_	_
+6	zur	zu	PROPN	APPRART	_	2	comp:obl	_	_
+7	Hilfe	Hilfe	PROPN	NN	_	6	comp:obj	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+

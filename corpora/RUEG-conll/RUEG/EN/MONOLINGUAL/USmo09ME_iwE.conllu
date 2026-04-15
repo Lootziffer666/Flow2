@@ -1,0 +1,59 @@
+1	Hey	hey	INTJ	ITJ	_	0	root	_	_
+
+1	crazy	crazy	ADJ	AJ0	_	0	root	_	_
+2	thing	thing	NOUN	NN1	_	4	nsubj	_	_
+3	just	just	ADV	AV0	_	4	advmod	_	_
+4	happened	happen	VERB	VVD	_	1	ccomp	_	_
+5	,	,	PUNCT	PUN	_	1	punct	_	_
+
+1	saw	see	VERB	VVD	_	0	root	_	_
+2	a	a	DET	AT0	_	5	det	_	_
+3	dumb	dumb	ADJ	AJ0	_	5	amod	_	_
+4	car	car	NOUN	NN1	_	5	compound	_	_
+5	accident	accident	NOUN	NN1	_	1	obj	_	_
+6	in	in	ADP	PRP	_	9	case	_	_
+7	the	the	DET	AT0	_	9	det	_	_
+8	grocery	grocery	NOUN	NN1	_	9	compound	_	_
+9	store	store	NOUN	NN1	_	1	obl	_	_
+10	parking	parking	NOUN	NN1	_	11	compound	_	_
+11	lot	lot	NOUN	NN1	_	9	advmod	_	_
+12	.	.	PUNCT	SENT	_	1	punct	_	_
+
+1	This	this	DET	DT0	_	2	det	_	_
+2	guy	guy	NOUN	NN1	_	4	nsubj	_	_
+3	is	be	AUX	VBZ	_	4	cop	_	_
+4	bouncing	bounce	VERB	VVG	_	0	root	_	_
+5	a	a	DET	AT0	_	6	det	_	_
+6	ball	ball	NOUN	NN1	_	4	obj	_	_
+
+1	and	and	CCONJ	CJC	_	2	cc	_	_
+2	loses	lose	VERB	VVZ	_	0	root	_	_
+3	it	it	PRON	PNP	_	2	obj	_	_
+4	into	into	ADP	PRP	_	6	case	_	_
+5	the	the	DET	AT0	_	6	det	_	_
+6	road	road	NOUN	NN1	_	2	obl	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	a	a	DET	AT0	_	3	det	_	_
+3	car	car	NOUN	NN1	_	4	nsubj	_	_
+4	stops	stop	VERB	VVZ	_	0	root	_	_
+5	short	short	ADV	AV0	_	4	advmod	_	_
+6	.	.	PUNCT	SENT	_	4	punct	_	_
+
+1	second	second	ADJ	ORD	_	2	amod	_	_
+2	car	car	NOUN	NN1	_	3	nsubj	_	_
+3	slams	slam	VERB	VVZ	_	0	root	_	_
+4	into	into	ADP	PRP	_	6	case	_	_
+5	the	the	DET	AT0	_	6	det	_	_
+6	first	first	NOUN	NN1	_	3	obl	_	_
+7	.	.	PUNCT	SENT	_	3	punct	_	_
+
+1	seemed	seem	VERB	VVD	_	0	root	_	_
+2	very	very	ADV	AV0	_	3	advmod	_	_
+3	avoidable	avoidable	ADJ	AJ0	_	1	xcomp	_	_
+4	.	.	PUNCT	SENT	_	1	punct	_	_
+
+1	people	people	NOUN	NN2	_	3	nsubj	_	_
+2	are	be	AUX	VBB	_	3	cop	_	_
+3	stupid	stupid	ADJ	AJ0	_	0	root	_	_
+

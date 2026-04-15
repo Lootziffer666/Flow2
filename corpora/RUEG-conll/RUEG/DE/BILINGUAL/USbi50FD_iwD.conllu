@@ -1,0 +1,85 @@
+# text = habe gerade ein Autounfall gesehen ...
+1	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	gerade	gerade	ADV	ADV	_	1	mod	_	_
+3	ein	ein	DET	ART	NumType=Card	4	det	_	_
+4	Autounfall	Autounfall	NOUN	NN	Case=Acc|Number=Sing	5	comp:obj	_	_
+5	gesehen	sehen	VERB	VVPP	VerbForm=Part	1	comp:aux	_	_
+6	...	...	PUNCT	$.	_	1	punct	_	_
+
+# text = ein Mann hat mit einem Ball gespielt
+1	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	3	subj	_	_
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	mit	mit	ADP	APPR	_	7	mod	_	_
+5	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	comp:obj	_	_
+7	gespielt	spielen	VERB	VVPP	VerbForm=Part	3	comp:aux	_	_
+
+# text = und dann ist der Ball auf der Straße gerollt
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Ball	Ball	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+6	auf	auf	ADP	APPR	_	9	mod	_	_
+7	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Straße	Straße	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	comp:obj	_	_
+9	gerollt	rollen	ADJ	VVPP	Degree=Pos	3	comp:aux	_	_
+
+# text = und ein Hund hat versucht ihn zu fangen .
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	ein	ein	DET	ART	Definite=Ind|PronType=Art	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	4	subj	_	_
+4	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	versucht	versuchen	VERB	VVPP	VerbForm=Part	4	comp:aux	_	_
+6	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	_
+7	zu	zu	PART	PTKZU	_	5	comp:obj	_	_
+8	fangen	fangen	VERB	VVINF	VerbForm=Inf	7	comp:obj	_	_
+9	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Da kam gerade ein Auto
+1	Da	da	ADV	ADV	_	2	mod	_	_
+2	kam	kommen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Auto	Auto	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	2	subj	_	_
+
+# text = und musste schnell bremsen
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	musste	müssen	AUX	VMFIN	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	schnell	schnell	ADJ	ADJD	Degree=Pos	2	mod	_	_
+4	bremsen	bremsen	VERB	VVINF	_	2	comp:aux	_	_
+
+# text = aber hinter diesem Auto war noch ein Auto
+1	aber	aber	CCONJ	KON	_	5	cc	_	_
+2	hinter	hinter	ADP	APPR	_	5	comp:pred	_	_
+3	diesem	diese	PRON	PDAT	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Dem	4	det	_	_
+4	Auto	Auto	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	comp:obj	_	_
+5	war	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	noch	noch	ADV	ADV	_	8	mod	_	_
+7	ein	ein	DET	ART	Definite=Ind|PronType=Art	8	det	_	_
+8	Auto	Auto	NOUN	NN	_	5	subj	_	_
+
+# text = also ist es in dem ersten Auto reingefahren ! !
+1	also	also	ADV	SEDM	_	2	discourse	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+4	in	in	ADP	APPR	_	8	comp:obl	_	_
+5	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+6	ersten	erst	ADJ	ORD	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing|NumType=Ord	7	mod	_	_
+7	Auto	Auto	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	comp:obj	_	_
+8	reingefahren	reinfahren	VERB	VVPP	_	2	comp:aux	_	_
+9	!	!	PUNCT	$.	_	2	punct	_	_
+10	!	!	PUNCT	$.	_	2	punct	_	_
+
+# text = Keine Sorgen ,
+1	Keine	keine	PRON	PIAT	PronType=Neg	2	mod	_	_
+2	Sorgen	Sorge	NOUN	NN	Case=Acc|Number=Plur	0	root	_	_
+3	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = es geht allen gut
+1	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+2	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	allen	all	PRON	PIS	Case=Dat|PronType=Tot	4	comp:obj	_	_
+4	gut	gut	ADJ	ADJD	Degree=Pos	2	comp:pred	_	_
+

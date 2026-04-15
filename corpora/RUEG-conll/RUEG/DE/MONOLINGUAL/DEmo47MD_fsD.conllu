@@ -1,0 +1,287 @@
+# text = hallo
+1	hallo	hallo	X	NGIRR	_	0	root	_	_
+
+# text = DEmo47MD mein Name
+1	DEmo47MD	DEmo47MD	PROPN	NE	_	3	orphan	_	_
+2	mein	mein	PRON	PPOSAT	_	3	det	_	_
+3	Name	Name	NOUN	NN	_	0	root	_	_
+
+# text = ich möchte ein Zeugenprotokoll zum Vorfall F16 abgeben
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	möchte	mögen	AUX	VVFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Zeugenprotokoll	Zeugenprotokoll	ADJ	NN	_	8	comp:obj	_	_
+5	zum	zu	NOUN	APPRART	_	4	mod	_	_
+6	Vorfall	Vorfall	NOUN	NN	_	5	comp:obj	_	_
+7	F16	F16	PROPN	NE	_	6	appos	_	_
+8	abgeben	abgeben	VERB	VVINF	_	2	comp:aux	_	_
+
+# text = äh ich war Zeuge dieses Vorfalls heute Nachmittag äh auf einem Parkplatz in meiner Nähe
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	Zeuge	Zeuge	NOUN	NN	_	3	comp:pred	_	_
+5	dieses	diese	PRON	PDAT	_	6	det	_	_
+6	Vorfalls	Vorfall	NOUN	NN	_	4	mod@poss	_	_
+7	heute	heute	ADV	ADV	_	6	mod	_	_
+8	Nachmittag	Nachmittag	NOUN	NN	_	7	mod	_	_
+9	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+10	auf	auf	ADP	APPR	_	6	mod	_	_
+11	einem	ein	DET	ART	_	12	det	_	_
+12	Parkplatz	Parkplatz	NOUN	NN	_	10	comp:obj	_	_
+13	in	in	ADP	APPR	_	12	mod	_	_
+14	meiner	mein	DET	PPOSAT	_	15	det	_	_
+15	Nähe	Nähe	NOUN	NN	_	13	comp:obj	_	_
+
+# text = äh ich bin da dran vorbeispaziert
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	bin	sein	VERB	VAFIN	_	0	root	_	_
+4	da	da	SCONJ	ADV	_	3	mod	_	_
+5	dran	daran	ADV	ADV	_	3	mod	_	_
+6	vorbeispaziert	vorbeispazieren	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = auf der rechten Seite des Parkplatz hat sich mir näher kommend äh war ein Pärchen spazieren
+1	auf	auf	ADP	APPR	_	16	mod	_	_
+2	der	d	DET	ART	_	4	det	_	_
+3	rechten	recht	ADJ	ADJA	_	4	mod	_	_
+4	Seite	Seite	NOUN	NN	_	1	comp:obj	_	_
+5	des	d	DET	ART	_	6	det	_	_
+6	Parkplatz	Parkplatz	NOUN	NN	_	4	mod@poss	_	_
+7	hat	haben	AUX	VAFIN	_	13	reparandum	_	_
+8	sich	er|es|sie	PRON	PRF	_	7	comp:obj	_	_
+9	mir	ich	PRON	PPER	_	11	comp:obj	_	_
+10	näher	näher	ADJ	ADV	_	11	mod	_	_
+11	kommend	kommend	ADJ	ADJD	_	7	mod	_	_
+12	äh	äh	ADJ	NGHES	_	13	discourse	_	_
+13	war	sein	VERB	VAFIN	_	0	root	_	_
+14	ein	ein	DET	ART	_	15	det	_	_
+15	Pärchen	Pärchen	NOUN	NN	_	13	subj	_	_
+16	spazieren	spazieren	VERB	VVINF	_	13	comp:aux	_	_
+
+# text = die Frau hat den Kinderwagen geschoben
+1	die	d	DET	ART	_	2	det	_	_
+2	Frau	Frau	NOUN	NN	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	den	d	DET	ART	_	5	det	_	_
+5	Kinderwagen	Kinderwagen	NOUN	NN	_	6	comp:obj	_	_
+6	geschoben	schieben	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und der Mann hat mit einem Fußball oder basketballähnlichen geprellt
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Mann	Mann	NOUN	NN	_	4	subj	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	mit	mit	ADP	APPR	_	10	comp:obl	_	_
+6	einem	ein	DET	ART	_	7	det	_	_
+7	Fußball	Fußball	NOUN	NN	_	5	comp:obj	_	_
+8	oder	oder	CCONJ	KON	_	9	cc	_	_
+9	basketballähnlichen	basketballähnlichen	ADJ	ADJD	_	7	conj	_	_
+10	geprellt	prellen	VERB	VVPP	_	4	comp:aux	_	_
+
+# text = äh auf dem Parkplatz äh hat zur gleichen Zeit sich nur eine Person befunden
+1	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+2	auf	auf	ADP	APPR	_	14	comp:obl	_	_
+3	dem	d	DET	ART	_	4	det	_	_
+4	Parkplatz	Parkplatz	NOUN	NN	_	2	comp:obj	_	_
+5	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+6	hat	haben	VERB	VAFIN	_	0	root	_	_
+7	zur	zu	NOUN	APPRART	_	14	mod	_	_
+8	gleichen	gleich	ADJ	ADJA	_	9	mod	_	_
+9	Zeit	Zeit	NOUN	NN	_	7	mod	_	_
+10	sich	er|es|sie	PRON	PRF	_	14	comp:obj	_	_
+11	nur	nur	ADV	PTKIFG	_	6	mod	_	_
+12	eine	ein	DET	ART	_	13	det	_	_
+13	Person	Person	NOUN	NN	_	6	subj	_	_
+14	befunden	befinden	ADJ	VVPP	_	6	comp:aux	_	_
+
+# text = eine Frau die ihren äh ihren Kofferraum ihren geöffneten Kofferraum mit ihren Einkäufen beladen hat hatte dabei einen angeleinten Hund mit äh wo sie die Leine aber in der Hand hielt
+1	eine	ein	DET	ART	_	2	det	_	_
+2	Frau	Frau	NOUN	NN	_	16	subj	_	_
+3	die	die	PRON	PRELS	_	15	subj	_	_
+4	ihren	ihr	DET	PPOSAT	_	6	reparandum	_	_
+5	äh	äh	ADJ	NGHES	_	16	discourse	_	_
+6	ihren	ihr	PRON	PPOSAT	_	7	det	_	_
+7	Kofferraum	Kofferraum	NOUN	NN	_	10	reparandum	_	_
+8	ihren	ihr	DET	PPOSAT	_	10	det	_	_
+9	geöffneten	geöffnet	ADJ	ADJA	_	10	mod	_	_
+10	Kofferraum	Kofferraum	NOUN	NN	_	14	comp:obj	_	_
+11	mit	mit	ADP	APPR	_	14	comp:obl	_	_
+12	ihren	ihr	DET	PPOSAT	_	13	det	_	_
+13	Einkäufen	Einkäufen	NOUN	NN	_	11	comp:obj	_	_
+14	beladen	beladen	PROPN	VVPP	_	15	comp:aux	_	_
+15	hat	haben	AUX	VAFIN	_	2	mod@relcl	_	_
+16	hatte	haben	VERB	VAFIN	_	0	root	_	_
+17	dabei	dabei	ADV	ADV	_	16	mod	_	_
+18	einen	ein	DET	ART	_	20	det	_	_
+19	angeleinten	angeleinten	ADJ	ADJA	_	20	mod	_	_
+20	Hund	Hund	NOUN	NN	_	16	comp:obj	_	_
+21	mit	mit	ADP	APZR	_	16	compound@prt	_	_
+22	äh	äh	ADJ	NGHES	_	16	discourse	_	_
+23	wo	wo	ADV	PWAV	_	31	mod	_	_
+24	sie	sie	PRON	PPER	_	31	subj	_	_
+25	die	d	DET	ART	_	26	det	_	_
+26	Leine	Leine	NOUN	NN	_	31	comp:obj	_	_
+27	aber	aber	ADV	KON	_	31	mod	_	_
+28	in	in	ADP	APPR	_	31	comp:obl	_	_
+29	der	d	DET	ART	_	30	det	_	_
+30	Hand	Hand	NOUN	NN	_	28	comp:obj	_	_
+31	hielt	halten	VERB	VVFIN	_	20	mod@relcl	_	_
+
+# text = ich konnte sehen dass sich vom hinteren also von mir weiter entfernteren Teil des Parkplatzes zwei Autos auf der Fahrbahn des Parkplatzes äh genähert haben
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	konnte	können	AUX	VMFIN	_	0	root	_	_
+3	sehen	sehen	VERB	VVINF	_	2	comp:aux	_	_
+4	dass	dass	SCONJ	KOUS	_	3	comp:obj	_	_
+5	sich	er|es|sie	PRON	PRF	_	24	comp:obj	_	_
+6	vom	von	PROPN	APPRART	_	24	mod	_	_
+7	hinteren	hinter	VERB	ADJA	_	13	mod	_	_
+8	also	also	ADV	ADV	_	25	mod	_	_
+9	von	von	ADP	APPR	_	12	comp:obl	_	_
+10	mir	ich	PRON	PRF	_	9	comp:obj	_	_
+11	weiter	weiter	ADJ	ADV	_	12	mod	_	_
+12	entfernteren	entfernter	ADJ	ADJA	_	13	mod	_	_
+13	Teil	Teil	NOUN	NN	_	6	comp:obj	_	_
+14	des	d	DET	ART	_	15	det	_	_
+15	Parkplatzes	Parkplatz	NOUN	NN	_	13	mod@poss	_	_
+16	zwei	zwei	NUM	CARD	_	17	mod	_	_
+17	Autos	Auto	NOUN	NN	_	25	subj	_	_
+18	auf	auf	ADP	APPR	_	24	comp:obl	_	_
+19	der	d	DET	ART	_	20	det	_	_
+20	Fahrbahn	Fahrbahn	NOUN	NN	_	18	comp:obj	_	_
+21	des	d	DET	ART	_	22	det	_	_
+22	Parkplatzes	Parkplatz	NOUN	NN	_	20	mod@poss	_	_
+23	äh	äh	ADV	NGHES	_	2	discourse	_	_
+24	genähert	nähern	VERB	VVPP	_	25	comp:aux	_	_
+25	haben	haben	AUX	VAFIN	_	4	comp:obj	_	_
+
+# text = das Pärchen ist dann vom Gehweg auf den Parkplatz eingebogen
+1	das	d	DET	ART	_	2	det	_	_
+2	Pärchen	Pärchen	NOUN	NN	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	vom	von	PROPN	APPRART	_	10	mod	_	_
+6	Gehweg	Gehweg	PROPN	NN	_	5	comp:obj	_	_
+7	auf	auf	ADP	APPR	_	10	comp:obl	_	_
+8	den	d	DET	ART	_	9	det	_	_
+9	Parkplatz	Parkplatz	NOUN	NN	_	7	comp:obj	_	_
+10	eingebogen	einbiegen	ADJ	VVPP	_	3	comp:aux	_	_
+
+# text = äh die Autos sind weiter nähergekommen
+1	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Autos	Auto	NOUN	NN	_	4	subj	_	_
+4	sind	sein	VERB	VAFIN	_	0	root	_	_
+5	weiter	weiter	ADV	ADV	_	4	mod	_	_
+6	nähergekommen	näherkommen	ADJ	VVPP	_	4	comp:aux	_	_
+
+# text = äh und kurz bevor das Pärchen quasi die Fahrspur des Parkplatzes überqueren konnte ist dem Mann des Pärchens der Ball versprungen
+1	äh	äh	ADJ	NGHES	_	14	discourse	_	_
+2	und	und	CCONJ	KON	_	14	cc	_	_
+3	kurz	kurz	ADJ	ADJD	_	4	mod	_	_
+4	bevor	bevor	SCONJ	KOUS	_	21	mod	_	_
+5	das	d	DET	ART	_	6	det	_	_
+6	Pärchen	Pärchen	NOUN	NN	_	13	subj	_	_
+7	quasi	quasi	ADV	ADV	_	13	mod	_	_
+8	die	d	DET	ART	_	9	det	_	_
+9	Fahrspur	Fahrspur	NOUN	NN	_	12	comp:obj	_	_
+10	des	d	DET	ART	_	11	det	_	_
+11	Parkplatzes	Parkplatz	NOUN	NN	_	9	mod@poss	_	_
+12	überqueren	überqueren	VERB	VVINF	_	13	comp:aux	_	_
+13	konnte	können	AUX	VMFIN	_	4	comp:obj	_	_
+14	ist	sein	AUX	VAFIN	_	0	root	_	_
+15	dem	d	DET	ART	_	16	det	_	_
+16	Mann	Mann	NOUN	NN	_	21	comp:obj	_	_
+17	des	d	DET	ART	_	18	det	_	_
+18	Pärchens	Pärchens	NOUN	NN	_	16	mod@poss	_	_
+19	der	d	DET	ART	_	20	det	_	_
+20	Ball	Ball	NOUN	NN	_	14	subj	_	_
+21	versprungen	verspringen	VERB	VVPP	_	14	comp:aux	_	_
+
+# text = und der Hund der Frau die den Kofferraum eingepackt hat wollte sich auf diesen Ball stürzen
+1	und	und	CCONJ	KON	_	11	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	11	subj	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Frau	Frau	NOUN	NN	_	3	mod@poss	_	_
+6	die	die	PRON	PRELS	_	10	subj	_	_
+7	den	d	DET	ART	_	8	det	_	_
+8	Kofferraum	Kofferraum	NOUN	NN	_	9	comp:obj	_	_
+9	eingepackt	einpacken	VERB	VVPP	_	10	comp:aux	_	_
+10	hat	haben	AUX	VAFIN	_	5	mod@relcl	_	_
+11	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+12	sich	er|es|sie	PRON	PRF	_	16	comp:obj	_	_
+13	auf	auf	ADP	APPR	_	16	comp:obl	_	_
+14	diesen	diese	PRON	PDAT	_	15	det	_	_
+15	Ball	Ball	NOUN	NN	_	13	comp:obj	_	_
+16	stürzen	stürzen	VERB	VVFIN	_	11	comp:aux	_	_
+
+# text = ist aber wegen der Leine da nicht an diesen Ball gekommen
+1	ist	sein	VERB	VAFIN	_	0	root	_	_
+2	aber	aber	CCONJ	KON	_	1	mod	_	_
+3	wegen	wegen	ADP	APPR	_	11	mod	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Leine	Leine	NOUN	NN	_	3	comp:obj	_	_
+6	da	da	ADV	ADV	_	1	mod	_	_
+7	nicht	nicht	PART	PTKNEG	_	1	mod	_	_
+8	an	an	ADP	APPR	_	11	comp:obl	_	_
+9	diesen	diese	PRON	PDAT	_	10	det	_	_
+10	Ball	Ball	NOUN	NN	_	8	comp:obj	_	_
+11	gekommen	kommen	VERB	VVPP	_	1	comp:aux	_	_
+
+# text = äh es sah für den vorderen der Autofahrer aber so aus als erreicht der Hund die Fahrbahn
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	es	es	PRON	PPER	_	3	subj@expl	_	_
+3	sah	sehen	VERB	VVFIN	_	0	root	_	_
+4	für	für	ADP	VVFIN	_	3	mod	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	vorderen	vorder	ADJ	ADJA	_	4	comp:obj	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Autofahrer	Autofahrer	NOUN	NN	_	6	mod@poss	_	_
+9	aber	aber	ADV	KON	_	3	mod	_	_
+10	so	so	ADV	ADV	_	3	mod	_	_
+11	aus	aus	ADP	PTKVZ	_	3	compound@prt	_	_
+12	als	als	CCONJ	KOKOM	_	10	mod	_	_
+13	erreicht	erreichen	VERB	VVFIN	_	12	comp:obj	_	_
+14	der	d	DET	ART	_	15	det	_	_
+15	Hund	Hund	NOUN	NN	_	13	subj	_	_
+16	die	d	DET	ART	_	17	det	_	_
+17	Fahrbahn	Fahrbahn	NOUN	NN	_	13	comp:obj	_	_
+
+# text = er hat deswegen gebremst vermutlich aus Angst den Hund anzufahren zu überfahren
+1	er	er	PRON	PPER	_	2	subj	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	deswegen	deswegen	ADV	ADV	_	2	mod	_	_
+4	gebremst	bremsen	ADV	VVPP	_	2	comp:aux	_	_
+5	vermutlich	vermutlich	ADJ	ADV	_	6	mod	_	_
+6	aus	aus	ADP	APPR	_	3	mod	_	_
+7	Angst	Angst	NOUN	NN	_	6	comp:obj	_	_
+8	den	d	DET	ART	_	9	det	_	_
+9	Hund	Hund	NOUN	NN	_	12	comp:obj	_	_
+10	anzufahren	anfahren	VERB	VVIZU	_	11	reparandum	_	_
+11	zu	zu	PART	PTKZU	_	7	mod	_	_
+12	überfahren	überfahren	VERB	VVINF	_	11	comp:obj	_	_
+
+# text = und das hintere der beiden Autos ist dann dem ersteren hinten reingefahren
+1	und	und	CCONJ	KON	_	7	cc	_	_
+2	das	d	DET	ART	_	3	det	_	_
+3	hintere	hinter	ADJ	ADJA	_	7	subj	_	_
+4	der	d	DET	ART	_	6	det	_	_
+5	beiden	beide	PRON	PIDAT	_	6	mod	_	_
+6	Autos	Auto	NOUN	NN	_	3	mod@poss	_	_
+7	ist	sein	VERB	VAFIN	_	0	root	_	_
+8	dann	dann	ADV	ADV	_	7	mod	_	_
+9	dem	d	DET	ART	_	10	det	_	_
+10	ersteren	ersteren	ADJ	PIDS	_	12	comp:obj	_	_
+11	hinten	hinten	ADV	ADV	_	7	mod	_	_
+12	reingefahren	reingefahren	VERB	VVPP	_	7	comp:aux	_	_
+
+# text = das waren meine Beobachtungen zu diesem Vorfall
+1	das	die	PRON	PDS	_	2	subj	_	_
+2	waren	sein	VERB	VAFIN	_	0	root	_	_
+3	meine	mein	PRON	PPOSAT	_	4	det	_	_
+4	Beobachtungen	Beobachtung	NOUN	NN	_	2	comp:pred	_	_
+5	zu	zu	ADP	APPR	_	4	mod	_	_
+6	diesem	diese	PRON	PDAT	_	7	det	_	_
+7	Vorfall	Vorfall	NOUN	NN	_	5	comp:obj	_	_
+

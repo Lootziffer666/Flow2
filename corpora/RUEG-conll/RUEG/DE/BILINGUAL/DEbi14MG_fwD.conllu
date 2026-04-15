@@ -1,0 +1,254 @@
+# text = ﻿Sehr geehrte Damen und Herren ,
+1	﻿Sehr	﻿Sehr	ADV	_	_	3	mod	_	_
+2	geehrte	geehrt	ADJ	_	_	3	mod	_	_
+3	Damen	Dame	NOUN	_	_	0	root	_	_
+4	und	und	CCONJ	_	_	5	cc	_	_
+5	Herren	Herr	NOUN	_	_	3	conj	_	_
+6	,	,	PUNCT	_	_	3	punct	_	_
+
+# text = mein Name ist DEbi14MG
+1	mein	mein	PRON	_	_	2	det	_	_
+2	Name	Name	NOUN	_	_	3	subj	_	_
+3	ist	sein	VERB	_	_	0	root	_	_
+4	DEbi14MG	DEbi14MG	PROPN	_	_	3	comp:pred	_	_
+
+# text = ich bin Zeuge eines kleinen Unfalls heute am Freitag , den 08.02.2019 um 09.00 Uhr ,
+1	ich	ich	PRON	_	_	2	subj	_	_
+2	bin	sein	VERB	_	_	0	root	_	_
+3	Zeuge	Zeuge	NOUN	_	_	2	comp:pred	_	_
+4	eines	ein	DET	_	_	6	det	_	_
+5	kleinen	klein	ADJ	_	_	6	mod	_	_
+6	Unfalls	Unfall	NOUN	_	_	3	mod@poss	_	_
+7	heute	heute	ADV	_	_	8	mod	_	_
+8	am	am	ADJ	_	_	6	mod	_	_
+9	Freitag	Freitag	PROPN	_	_	8	comp:obj	_	_
+10	,	,	PUNCT	_	_	2	punct	_	_
+11	den	d	PRON	_	_	12	det	_	_
+12	08.02.2019	@card@	NUM	_	_	9	mod	_	_
+13	um	um	ADP	_	_	9	mod	_	_
+14	09.00	@card@	NUM	_	_	15	mod	_	_
+15	Uhr	Uhr	NOUN	_	_	13	comp:obj	_	_
+16	,	,	PUNCT	_	_	2	punct	_	_
+
+# text = die Fallnummer ist F16 .
+1	die	d	DET	_	_	2	det	_	_
+2	Fallnummer	Fallnummer	NOUN	_	_	3	subj	_	_
+3	ist	sein	VERB	_	_	0	root	_	_
+4	F16	F16	NOUN	_	_	3	comp:pred	_	_
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Ich war auf dem Weg zur Arbeit
+1	Ich	ich	PRON	_	_	2	subj	_	_
+2	war	sein	AUX	_	_	0	root	_	_
+3	auf	auf	ADP	_	_	2	comp:pred	_	_
+4	dem	d	DET	_	_	5	det	_	_
+5	Weg	Weg	NOUN	_	_	3	comp:obj	_	_
+6	zur	zur	PROPN	_	_	5	mod	_	_
+7	Arbeit	Arbeit	PROPN	_	_	6	comp:obj	_	_
+
+# text = und befand mich zur Zeit des Unfalls auf einem kleinen Parkgelände .
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	befand	befinden	VERB	_	_	0	root	_	_
+3	mich	ich	PRON	_	_	2	comp:obj	_	_
+4	zur	zur	NOUN	_	_	2	mod	_	_
+5	Zeit	Zeit	NOUN	_	_	4	comp:obj	_	_
+6	des	d	DET	_	_	7	det	_	_
+7	Unfalls	Unfall	NOUN	_	_	5	mod@poss	_	_
+8	auf	auf	ADP	_	_	2	comp:obl	_	_
+9	einem	ein	DET	_	_	11	det	_	_
+10	kleinen	klein	ADJ	_	_	11	mod	_	_
+11	Parkgelände	Parkgelände	NOUN	_	_	8	comp:obj	_	_
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Auf diesem Parkgelände habe ich auf meiner linken Seite ein parkendes Auto gesehen , wo zwei Personen ihren Einkauf in den Kofferraum beladen haben .
+1	Auf	auf	ADP	_	_	13	mod	_	_
+2	diesem	diese	PRON	_	_	3	det	_	_
+3	Parkgelände	Parkgelände	NOUN	_	_	1	comp:obj	_	_
+4	habe	haben	AUX	_	_	0	root	_	_
+5	ich	ich	PRON	_	_	4	subj	_	_
+6	auf	auf	ADP	_	_	13	mod	_	_
+7	meiner	mein	DET	_	_	9	det	_	_
+8	linken	link	ADJ	_	_	9	mod	_	_
+9	Seite	Seite	NOUN	_	_	6	comp:obj	_	_
+10	ein	ein	DET	_	_	12	det	_	_
+11	parkendes	parkendes	ADJ	_	_	12	mod	_	_
+12	Auto	Auto	NOUN	_	_	13	comp:obj	_	_
+13	gesehen	sehen	VERB	_	_	4	comp:aux	_	_
+14	,	,	PUNCT	_	_	4	punct	_	_
+15	wo	wo	ADV	_	_	24	mod	_	_
+16	zwei	zwei	NUM	_	_	17	mod	_	_
+17	Personen	Person	NOUN	_	_	24	subj	_	_
+18	ihren	ihr	DET	_	_	19	det	_	_
+19	Einkauf	Einkauf	NOUN	_	_	23	comp:obj	_	_
+20	in	in	ADP	_	_	23	comp:obl	_	_
+21	den	d	DET	_	_	22	det	_	_
+22	Kofferraum	Kofferraum	NOUN	_	_	20	comp:obj	_	_
+23	beladen	beladen	PROPN	_	_	24	comp:aux	_	_
+24	haben	haben	VERB	_	_	12	mod@relcl	_	_
+25	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = Auf meiner rechten Seite liefen auf dem Bürgersteig zwei Personen ,
+1	Auf	auf	ADP	_	_	5	mod	_	_
+2	meiner	mein	DET	_	_	4	det	_	_
+3	rechten	recht	ADJ	_	_	4	mod	_	_
+4	Seite	Seite	NOUN	_	_	1	comp:obj	_	_
+5	liefen	laufen	VERB	_	_	0	root	_	_
+6	auf	auf	ADP	_	_	5	comp:obl	_	_
+7	dem	d	DET	_	_	8	det	_	_
+8	Bürgersteig	Bürgersteig	PROPN	_	_	6	comp:obj	_	_
+9	zwei	zwei	NUM	_	_	10	mod	_	_
+10	Personen	Person	NOUN	_	_	5	subj	_	_
+11	,	,	PUNCT	_	_	6	punct	_	_
+
+# text = eine Person schub einen Kinderwagen ,
+1	eine	ein	DET	_	_	2	det	_	_
+2	Person	Person	NOUN	_	_	3	subj	_	_
+3	schub	schieben	PROPN	_	_	0	root	_	_
+4	einen	ein	DET	_	_	5	det	_	_
+5	Kinderwagen	Kinderwagen	NOUN	_	_	3	comp:obj	_	_
+6	,	,	PUNCT	_	_	3	punct	_	_
+
+# text = die andere dribbelte einen Fußball .
+1	die	d	PRON	_	_	2	det	_	_
+2	andere	ander	PRON	_	_	3	subj	_	_
+3	dribbelte	dribbeln	VERB	_	_	0	root	_	_
+4	einen	ein	DET	_	_	5	det	_	_
+5	Fußball	Fußball	NOUN	_	_	3	comp:obj	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Auf der Fahrbahn des Parkplatzes fuhren mit leicht erhöhter Geschwindigkeit zwei Autos , ein blauer Wagen vorne und ein weißer hinter ihm , ohne besonderen Sicherheitsabstand .
+1	Auf	auf	ADP	_	_	6	mod	_	_
+2	der	d	DET	_	_	3	det	_	_
+3	Fahrbahn	Fahrbahn	NOUN	_	_	1	comp:obj	_	_
+4	des	d	DET	_	_	5	det	_	_
+5	Parkplatzes	Parkplatz	NOUN	_	_	3	mod@poss	_	_
+6	fuhren	fahren	VERB	_	_	0	root	_	_
+7	mit	mit	ADP	_	_	6	mod	_	_
+8	leicht	leicht	ADJ	_	_	9	mod	_	_
+9	erhöhter	erhöht	ADJ	_	_	10	mod	_	_
+10	Geschwindigkeit	Geschwindigkeit	NOUN	_	_	7	comp:obj	_	_
+11	zwei	zwei	NUM	_	_	12	mod	_	_
+12	Autos	Auto	NOUN	_	_	6	subj	_	_
+13	,	,	PUNCT	_	_	6	punct	_	_
+14	ein	ein	DET	_	_	16	det	_	_
+15	blauer	blau	PROPN	_	_	16	mod	_	_
+16	Wagen	Wagen	PROPN	_	_	12	appos	_	_
+17	vorne	vorn	ADV	_	_	16	orphan	_	_
+18	und	und	CCONJ	_	_	20	cc	_	_
+19	ein	ein	DET	_	_	20	det	_	_
+20	weißer	weiß	NOUN	_	_	16	conj	_	_
+21	hinter	hinter	ADP	_	_	20	orphan	_	_
+22	ihm	er	PRON	_	_	21	comp:obj	_	_
+23	,	,	PUNCT	_	_	16	punct	_	_
+24	ohne	ohne	ADP	_	_	6	mod	_	_
+25	besonderen	besonder	ADJ	_	_	26	mod	_	_
+26	Sicherheitsabstand	Sicherheitsabstand	NOUN	_	_	24	comp:obj	_	_
+27	.	.	PUNCT	_	_	6	punct	_	_
+
+# text = Plötzlich verlor die Person mit dem Fußball ungewollt die Kontrolle über dem Ball , welcher auf die Fahrbahn kullerte .
+1	Plötzlich	Plötzlich	ADJ	_	_	2	mod	_	_
+2	verlor	verlieren	VERB	_	_	0	root	_	_
+3	die	d	DET	_	_	4	det	_	_
+4	Person	Person	NOUN	_	_	2	subj	_	_
+5	mit	mit	ADP	_	_	4	mod	_	_
+6	dem	d	DET	_	_	7	det	_	_
+7	Fußball	Fußball	NOUN	_	_	5	comp:obj	_	_
+8	ungewollt	ungewollt	ADJ	_	_	2	mod	_	_
+9	die	d	DET	_	_	10	det	_	_
+10	Kontrolle	Kontrolle	NOUN	_	_	2	comp:obj	_	_
+11	über	über	ADP	_	_	10	mod	_	_
+12	dem	d	DET	_	_	13	det	_	_
+13	Ball	Ball	NOUN	_	_	11	comp:obj	_	_
+14	,	,	PUNCT	_	_	2	punct	_	_
+15	welcher	welche	PRON	_	_	19	subj	_	_
+16	auf	auf	ADP	_	_	19	comp:obl	_	_
+17	die	d	DET	_	_	18	det	_	_
+18	Fahrbahn	Fahrbahn	NOUN	_	_	16	comp:obj	_	_
+19	kullerte	kullern	VERB	_	_	13	mod@relcl	_	_
+20	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Das vordere Auto war daraufhin gezwungen eine Vollbremsung zu unternehmen .
+1	Das	d	DET	_	_	3	det	_	_
+2	vordere	vorder	ADJ	_	_	3	mod	_	_
+3	Auto	Auto	NOUN	_	_	4	subj	_	_
+4	war	sein	AUX	_	_	0	root	_	_
+5	daraufhin	daraufhin	ADV	_	_	4	mod	_	_
+6	gezwungen	zwingen	VERB	_	_	4	comp:aux	_	_
+7	eine	ein	DET	_	_	8	det	_	_
+8	Vollbremsung	Vollbremsung	NOUN	_	_	10	comp:obj	_	_
+9	zu	zu	PART	_	_	6	comp:obj	_	_
+10	unternehmen	unternehmen	VERB	_	_	9	comp:obj	_	_
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = Das zweite Auto konnte zwar bremsen ,
+1	Das	d	DET	_	_	3	det	_	_
+2	zweite	zweit	ADJ	_	_	3	mod	_	_
+3	Auto	Auto	NOUN	_	_	4	subj	_	_
+4	konnte	können	AUX	_	_	0	root	_	_
+5	zwar	zwar	ADV	_	_	4	mod	_	_
+6	bremsen	bremsen	VERB	_	_	4	comp:aux	_	_
+7	,	,	PUNCT	_	_	4	punct	_	_
+
+# text = ist aber leicht an das vordere Auto rangefahren .
+1	ist	sein	VERB	_	_	0	root	_	_
+2	aber	aber	ADV	_	_	1	mod	_	_
+3	leicht	leicht	ADJ	_	_	1	mod	_	_
+4	an	an	ADP	_	_	8	comp:obl	_	_
+5	das	d	DET	_	_	7	det	_	_
+6	vordere	vorder	ADJ	_	_	7	mod	_	_
+7	Auto	Auto	NOUN	_	_	4	comp:obj	_	_
+8	rangefahren	ranfahren	NOUN	_	_	1	comp:aux	_	_
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = Der Fahrer des vorderen Fahrzeuges ist sofort aus dem Auto gestiegen ,
+1	Der	d	DET	_	_	2	det	_	_
+2	Fahrer	Fahrer	NOUN	_	_	6	subj	_	_
+3	des	d	DET	_	_	5	det	_	_
+4	vorderen	vorder	ADJ	_	_	5	mod	_	_
+5	Fahrzeuges	Fahrzeug	NOUN	_	_	2	mod@poss	_	_
+6	ist	sein	AUX	_	_	0	root	_	_
+7	sofort	sofort	ADV	_	_	6	mod	_	_
+8	aus	aus	ADP	_	_	11	comp:obl	_	_
+9	dem	d	DET	_	_	10	det	_	_
+10	Auto	Auto	NOUN	_	_	8	comp:obj	_	_
+11	gestiegen	steigen	VERB	_	_	6	comp:aux	_	_
+12	,	,	PUNCT	_	_	6	punct	_	_
+
+# text = hat geprüft , ob es allen gut geht
+1	hat	haben	AUX	_	_	0	root	_	_
+2	geprüft	prüfen	VERB	_	_	1	comp:aux	_	_
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	ob	ob	SCONJ	_	_	2	comp:obj	_	_
+5	es	es	PRON	_	_	8	subj@expl	_	_
+6	allen	alle	PRON	_	_	8	comp:obj	_	_
+7	gut	gut	ADJ	_	_	8	comp:pred	_	_
+8	geht	gehen	VERB	_	_	4	comp:obj	_	_
+
+# text = und hat zusammen mit dem Fahrer des zweiten Fahrzeuges die Polizei unter der 110 angerufen .
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	hat	haben	AUX	_	_	0	root	_	_
+3	zusammen	zusammen	ADV	_	_	2	mod	_	_
+4	mit	mit	ADP	_	_	3	mod	_	_
+5	dem	d	DET	_	_	6	det	_	_
+6	Fahrer	Fahrer	NOUN	_	_	4	comp:obj	_	_
+7	des	d	DET	_	_	9	det	_	_
+8	zweiten	zweit	ADJ	_	_	9	mod	_	_
+9	Fahrzeuges	Fahrzeug	NOUN	_	_	6	mod@poss	_	_
+10	die	d	DET	_	_	11	det	_	_
+11	Polizei	Polizei	NOUN	_	_	15	comp:obj	_	_
+12	unter	unter	ADP	_	_	15	mod	_	_
+13	der	d	DET	_	_	14	det	_	_
+14	110	@card@	NUM	_	_	12	comp:obj	_	_
+15	angerufen	anrufen	VERB	_	_	2	comp:aux	_	_
+16	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Es gibt keine Verletzten oder größeren Sachschaden .
+1	Es	es	PRON	_	_	2	subj@expl	_	_
+2	gibt	geben	VERB	_	_	0	root	_	_
+3	keine	kein	PRON	_	_	4	mod	_	_
+4	Verletzten	Verletzte	ADJ	_	_	2	comp:obj	_	_
+5	oder	oder	CCONJ	_	_	7	cc	_	_
+6	größeren	größeren	ADJ	_	_	7	mod	_	_
+7	Sachschaden	Sachschaden	NOUN	_	_	4	conj	_	_
+8	.	.	PUNCT	_	_	2	punct	_	_
+

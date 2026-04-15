@@ -1,0 +1,124 @@
+# text = hi Lukas
+1	hi	hi	X	_	_	2	discourse	_	_
+2	Lukas	Lukas	PROPN	_	_	0	root	_	_
+
+# text = du glaubst nicht was gerade passiert ist
+1	du	du	PRON	_	_	2	subj	_	_
+2	glaubst	glauben	ADV	_	_	0	root	_	_
+3	nicht	nicht	PART	_	_	2	mod	_	_
+4	was	was	PRON	_	_	7	subj	_	_
+5	gerade	gerade	ADV	_	_	7	mod	_	_
+6	passiert	passieren	VERB	_	_	7	comp:aux	_	_
+7	ist	sein	AUX	_	_	2	comp:obj	_	_
+
+# text = ich stehe aufm äh äh aufm Parkplatz
+1	ich	ich	PRON	_	_	2	subj	_	_
+2	stehe	stehen	VERB	_	_	0	root	_	_
+3	aufm	aufm	PROPN	_	_	6	reparandum	_	_
+4	äh	äh	PROPN	_	_	2	discourse	_	_
+5	äh	äh	PROPN	_	_	2	discourse	_	_
+6	aufm	aufm	PROPN	_	_	2	comp:obl	_	_
+7	Parkplatz	Parkplatz	PROPN	_	_	6	comp:obj	_	_
+
+# text = ich war aufm Weg zur Arbeit
+1	ich	ich	PRON	_	_	2	subj	_	_
+2	war	sein	VERB	_	_	0	root	_	_
+3	aufm	aufm	PROPN	_	_	2	comp:pred	_	_
+4	Weg	Weg	NOUN	_	_	3	comp:obj	_	_
+5	zur	zur	PROPN	_	_	4	mod	_	_
+6	Arbeit	Arbeit	PROPN	_	_	5	comp:obj	_	_
+
+# text = und äh da habe ich gesehen wie äh so ein Typ da war mit so einem Fußball
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	äh	äh	ADJ	_	_	4	discourse	_	_
+3	da	da	ADV	_	_	4	mod	_	_
+4	habe	haben	AUX	_	_	0	root	_	_
+5	ich	ich	PRON	_	_	4	subj	_	_
+6	gesehen	sehen	VERB	_	_	4	comp:aux	_	_
+7	wie	wie	ADV	_	_	6	comp:obj	_	_
+8	äh	äh	ADJ	_	_	4	discourse	_	_
+9	so	so	ADV	_	_	11	mod	_	_
+10	ein	ein	DET	_	_	11	det	_	_
+11	Typ	Typ	NOUN	_	_	13	subj	_	_
+12	da	da	ADV	_	_	13	comp:pred	_	_
+13	war	sein	VERB	_	_	7	comp:obj	_	_
+14	mit	mit	ADP	_	_	13	mod	_	_
+15	so	so	ADV	_	_	17	mod	_	_
+16	einem	ein	DET	_	_	17	det	_	_
+17	Fußball	Fußball	NOUN	_	_	14	comp:obj	_	_
+
+# text = der hat halt gedribbelt
+1	der	die	PRON	_	_	2	subj	_	_
+2	hat	haben	AUX	_	_	0	root	_	_
+3	halt	halt	ADV	_	_	2	discourse	_	_
+4	gedribbelt	dribbeln	VERB	_	_	2	comp:aux	_	_
+
+# text = dem ist der Ball ausgerutscht
+1	dem	die	DET	_	_	5	comp:obj	_	_
+2	ist	sein	AUX	_	_	0	root	_	_
+3	der	d	DET	_	_	4	det	_	_
+4	Ball	Ball	NOUN	_	_	2	subj	_	_
+5	ausgerutscht	ausrutschen	VERB	_	_	2	comp:aux	_	_
+
+# text = und äh da waren halt zwei Autos
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	äh	äh	ADJ	_	_	4	discourse	_	_
+3	da	da	ADV	_	_	4	mod	_	_
+4	waren	sein	VERB	_	_	0	root	_	_
+5	halt	halt	ADV	_	_	4	discourse	_	_
+6	zwei	zwei	NUM	_	_	7	mod	_	_
+7	Autos	Auto	NOUN	_	_	4	subj	_	_
+
+# text = die sind ein bisschen schneller gefahren
+1	die	die	PRON	_	_	2	subj	_	_
+2	sind	sein	VERB	_	_	0	root	_	_
+3	ein	ein	DET	_	_	4	det	_	_
+4	bisschen	bisschen	NOUN	_	_	5	mod	_	_
+5	schneller	schnell	ADJ	_	_	2	mod	_	_
+6	gefahren	fahren	VERB	_	_	2	comp:aux	_	_
+
+# text = und der eine musste halt diese Vollbremse machen wegen dem Fußball
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	der	d	PRON	_	_	3	det	_	_
+3	eine	ein	DET	_	_	4	subj	_	_
+4	musste	müssen	AUX	_	_	0	root	_	_
+5	halt	halt	ADV	_	_	4	mod	_	_
+6	diese	diese	PRON	_	_	7	det	_	_
+7	Vollbremse	Vollbremse	NOUN	_	_	8	comp:obj	_	_
+8	machen	machen	VERB	_	_	4	comp:aux	_	_
+9	wegen	wegen	ADP	_	_	8	mod	_	_
+10	dem	d	DET	_	_	11	det	_	_
+11	Fußball	Fußball	NOUN	_	_	9	comp:obj	_	_
+
+# text = und dann ist der hinten einfach an ihn rangefahren
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	dann	dann	ADV	_	_	3	mod	_	_
+3	ist	sein	VERB	_	_	0	root	_	_
+4	der	die	PRON	_	_	3	subj	_	_
+5	hinten	hinten	ADV	_	_	3	mod	_	_
+6	einfach	einfach	ADJ	_	_	3	mod	_	_
+7	an	an	ADP	_	_	9	comp:obl	_	_
+8	ihn	er	PRON	_	_	7	comp:obj	_	_
+9	rangefahren	ranfahren	VERB	_	_	3	comp:aux	_	_
+
+# text = die mussten die Polizei rufen
+1	die	die	DET	_	_	2	subj	_	_
+2	mussten	müssen	AUX	_	_	0	root	_	_
+3	die	d	DET	_	_	4	det	_	_
+4	Polizei	Polizei	NOUN	_	_	5	comp:obj	_	_
+5	rufen	rufen	VERB	_	_	2	comp:aux	_	_
+
+# text = alles gut
+1	alles	alle	PRON	_	_	0	root	_	_
+2	gut	gut	ADJ	_	_	1	orphan	_	_
+
+# text = aber echt schon äh äh eine krasse Sache
+1	aber	aber	ADV	_	_	8	cc	_	_
+2	echt	echt	ADV	_	_	8	mod	_	_
+3	schon	schon	ADV	_	_	8	mod	_	_
+4	äh	äh	ADJ	_	_	8	discourse	_	_
+5	äh	äh	ADV	_	_	8	discourse	_	_
+6	eine	ein	DET	_	_	8	det	_	_
+7	krasse	kra�	NOUN	_	_	8	mod	_	_
+8	Sache	Sache	NOUN	_	_	0	root	_	_
+

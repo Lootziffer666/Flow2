@@ -1,0 +1,167 @@
+1	hi	hi	X	NGIRR	_	2	discourse	_	_
+2	Alena	Alena	PROPN	NE	_	0	root	_	_
+
+1	habe	haben	AUX	VAFIN	_	0	root	_	_
+2	gerade	gerade	ADV	ADV	_	1	mod	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Unfall	Unfall	NOUN	NN	_	5	comp:obj	_	_
+5	beobachtet	beobachten	VERB	VVPP	_	1	comp:aux	_	_
+
+1	äh	äh	ADJ	NGHES	_	7	discourse	_	_
+2	ein	ein	DET	ART	_	3	det	_	_
+3	Mann	Mann	NOUN	NN	_	7	subj	_	_
+4	mit	mit	ADP	APPR	_	3	mod	_	_
+5	seiner	sein	DET	PPOSAT	_	6	det	_	_
+6	Frau	Frau	NOUN	NN	_	4	comp:obj	_	_
+7	ist	sein	VERB	VAFIN	_	0	root	_	_
+8	über	über	ADP	APPR	_	11	comp:obl	_	_
+9	die	d	DET	ART	_	10	det	_	_
+10	Straße	Straße	NOUN	NN	_	8	comp:obj	_	_
+11	gelaufen	laufen	VERB	VVPP	_	7	comp:aux	_	_
+12	mit	mit	ADP	APPR	_	11	mod	_	_
+13	seinem	sein	DET	PPOSAT	_	14	det	_	_
+14	Ball	Ball	NOUN	NN	_	12	comp:obj	_	_
+15	in	in	ADP	APPR	_	14	mod	_	_
+16	der	d	DET	ART	_	17	det	_	_
+17	Hand	Hand	NOUN	NN	_	15	comp:obj	_	_
+
+1	dieser	diese	PRON	PDAT	_	2	det	_	_
+2	Ball	Ball	NOUN	NN	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	auf	auf	ADP	APPR	_	8	comp:obl	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Straße	Straße	NOUN	NN	_	5	comp:obj	_	_
+8	gerollt	rollen	ADJ	VVPP	_	3	comp:aux	_	_
+
+1	sonra	sonra	X	FM	_	0	root	_	_
+2	birden	birden	X	FM	_	1	udep	_	_
+3	araba	araba	X	FM	_	1	udep	_	_
+4	geldi	geldi	X	FM	_	1	udep	_	_
+
+1	dann	dann	ADV	ADV	_	2	mod	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	er	er	PRON	PPER	_	2	subj	_	_
+4	kurzfristig	kurzfristig	ADJ	ADJD	_	2	mod	_	_
+5	gebremst	bremsen	ADV	VVPP	_	2	comp:aux	_	_
+6	wegen	wegen	ADP	APPR	_	5	mod	_	_
+7	dem	d	DET	ART	_	8	det	_	_
+8	Ball	Ball	NOUN	NN	_	6	comp:obj	_	_
+9	halt	halt	ADV	PTKMA	_	2	discourse	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	von	von	ADP	APPR	_	11	mod	_	_
+5	hinten	hinten	ADV	ADV	_	4	comp:obj	_	_
+6	ein	ein	DET	PTKVZ	_	8	det	_	_
+7	anders	ander	ADV	ADV	_	8	mod	_	_
+8	Auto	Auto	NOUN	NN	_	3	subj	_	_
+9	an	an	ADP	APPR	_	11	comp:obl	_	_
+10	ihn	er	PRON	PPER	_	9	comp:obj	_	_
+11	geknallt	knallen	ADJ	VVPP	_	3	comp:aux	_	_
+12	weil	weil	SCONJ	KOUS	_	11	mod	_	_
+13	er	er	PRON	PPER	_	16	subj	_	_
+14	nicht	nicht	PART	PTKNEG	_	16	mod	_	_
+15	bremsen	bremsen	VERB	VVINF	_	16	comp:aux	_	_
+16	konnte	können	AUX	VMFIN	_	12	comp:obj	_	_
+17	so	so	ADV	PTKIFG	_	18	mod	_	_
+18	kurzfristig	kurzfristig	ADJ	ADJD	_	16	mod	_	_
+
+1	drüben	drüben	ADV	ADV	_	2	mod	_	_
+2	stand	stehen	VERB	VVFIN	_	0	root	_	_
+3	eine	eine	DET	ART	_	4	det	_	_
+4	Frau	Frau	NOUN	NN	_	2	subj	_	_
+5	mit	mit	ADP	APPR	_	4	mod	_	_
+6	ihrem	ihr	DET	PPOSAT	_	7	det	_	_
+7	Auto	Auto	NOUN	NN	_	5	comp:obj	_	_
+8	die	die	PRON	PRELS	_	12	subj	_	_
+9	ihren	ihr	DET	PPOSAT	_	10	det	_	_
+10	Einkauf	Einkauf	NOUN	NN	_	11	comp:obj	_	_
+11	einsortiert	einsortieren	VERB	VVPP	_	12	comp:aux	_	_
+12	hat	haben	AUX	VAFIN	_	4	mod@relcl	_	_
+13	in	in	ADP	APPR	_	15	reparandum	_	_
+14	Auto	Auto	NOUN	NN	_	13	comp:obj	_	_
+15	in	in	ADP	APPR	_	11	comp:obl	_	_
+16	den	d	DET	ART	_	17	det	_	_
+17	Auto	Auto	NOUN	NN	_	15	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	sie	sie	PRON	PPER	_	3	subj	_	_
+3	hatte	haben	AUX	VAFIN	_	0	root	_	_
+4	neben	neben	ADP	APPR	_	3	mod	_	_
+5	sich	er|es|sie	PRON	PRF	_	4	comp:obj	_	_
+6	einen	ein	DET	ART	_	7	det	_	_
+7	Hund	Hund	NOUN	NN	_	3	comp:obj	_	_
+8	der	die	DET	PRELS	_	11	subj	_	_
+9	dann	dann	ADV	ADV	_	11	mod	_	_
+10	angefangen	anfangen	VERB	VVPP	_	11	comp:aux	_	_
+11	hat	haben	AUX	VAFIN	_	7	mod@relcl	_	_
+12	zu	zu	PART	PTKZU	_	10	comp:obj	_	_
+13	bellen	bellen	VERB	VVINF	_	12	comp:obj	_	_
+14	und	und	CCONJ	KON	_	19	cc	_	_
+15	dann	dann	ADV	ADV	_	19	mod	_	_
+16	auch	auch	ADV	PTKIFG	_	19	mod	_	_
+17	Angst	Angst	ADV	NN	_	18	comp:obj	_	_
+18	bekommen	bekommen	VERB	VVPP	_	19	comp:aux	_	_
+19	hat	haben	AUX	VAFIN	_	11	conj	_	_
+
+1	äh	äh	ADV	NGHES	_	9	discourse	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Mann	Mann	NOUN	NN	_	9	subj	_	_
+4	den	d	DET	ART	_	7	comp:obj	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	8	subj	_	_
+7	heruntergefallen	heruntergefallen	VERB	VVPP	_	8	comp:aux	_	_
+8	ist	sein	AUX	VAFIN	_	3	mod@relcl	_	_
+9	hat	haben	AUX	VAFIN	_	0	root	_	_
+10	dann	dann	ADV	ADV	_	9	mod	_	_
+11	auch	auch	ADV	PTKIFG	_	9	mod	_	_
+12	voll	voll	ADJ	ADV	_	9	mod	_	_
+13	Panik	Panik	NOUN	NN	_	14	comp:obj	_	_
+14	bekommen	bekommen	VERB	VVINF	_	9	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	wusst	wissen	VERB	VVFIN	_	0	root	_	_
+3	nicht	nicht	PART	PTKNEG	_	2	mod	_	_
+4	was	was	PRON	PWS	_	6	comp:obj	_	_
+5	er	er	PRON	PPER	_	7	subj	_	_
+6	machen	machen	VERB	VVINF	_	7	comp:aux	_	_
+7	soll	sollen	AUX	VMFIN	_	2	comp:obj	_	_
+
+1	hat	haben	AUX	VAFIN	_	0	root	_	_
+2	dann	dann	ADV	ADV	_	1	mod	_	_
+3	geholfen	helfen	VERB	VVPP	_	1	comp:aux	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Frau	Frau	NOUN	NN	_	3	comp:obj	_	_
+6	beim	beim	ADV	APPRART	_	9	reparandum	_	_
+7	Einkaufen	Einkaufen	NOUN	NN	_	6	comp:obj	_	_
+8	also	also	ADV	ADV	_	1	discourse	_	_
+9	bei	bei	ADP	APPR	_	3	mod	_	_
+10	den	d	DET	ART	_	11	det	_	_
+11	Einkaufssachen	Einkaufssachen	NOUN	NN	_	9	comp:obj	_	_
+12	aufzuheben	aufheben	VERB	VVIZU	_	3	comp:obl	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	dann	dann	ADV	ADV	_	2	mod	_	_
+4	voll	voll	ADJ	PTKIFG	_	2	mod	_	_
+5	Panik	Panik	NOUN	NN	_	6	comp:obj	_	_
+6	bekommen	bekommen	VERB	VVINF	_	2	comp:aux	_	_
+
+1	halt	halt	ADV	PTKMA	_	2	discourse	_	_
+2	ist	sein	AUX	VAFIN	_	0	root	_	_
+3	dann	dann	ADV	ADV	_	2	mod	_	_
+4	zum	zum	NOUN	APPRART	_	6	comp:obl	_	_
+5	Auto	Auto	NOUN	NN	_	4	comp:obj	_	_
+6	gegangen	gehen	VERB	VVPP	_	2	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+3	helfen	helfen	VERB	VVINF	_	2	comp:aux	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	so	so	ADV	ADV	_	2	parataxis	_	_
+
+1	ja	ja	ADV	PTKMA	_	0	root	_	_
+
+

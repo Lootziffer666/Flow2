@@ -1,0 +1,156 @@
+1	hi	hi	X	NGIRR	_	2	discourse	_	_
+2	yo	yo	PROPN	NGIRR	_	0	root	_	_
+3	!	!	PUNCT	$.	_	2	punct	_	_
+
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Unfall	Unfall	NOUN	NN	_	6	comp:obj	_	_
+6	mitbekommen	mitbekommen	VERB	VVPP	_	2	comp:aux	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	voll	voll	VERB	PTKIFG	_	2	mod	_	_
+2	krass	krass	PROPN	ADJD	_	0	root	_	_
+3	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	da	da	ADV	ADV	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	so	so	ADV	PTKIFG	_	5	mod	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Pärchen	Pärchen	NOUN	NN	_	2	subj	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Straße	Straße	NOUN	NN	_	8	comp:obj	_	_
+8	entlanggelaufen	entlanglaufen	VERB	VVPP	_	2	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Typ	Typ	NOUN	NN	_	4	subj	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	einen	ein	DET	ART	_	6	det	_	_
+6	Ball	Ball	PROPN	NN	_	7	comp:obj	_	_
+7	gedribbelt	dribbeln	VERB	VVPP	_	4	comp:aux	_	_
+8	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	der	d	DET	ART	_	2	det	_	_
+2	Ball	Ball	NOUN	NN	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	ihm	er	PRON	PPER	_	9	comp:obj	_	_
+5	dann	dann	ADV	ADV	_	3	mod	_	_
+6	vor	vor	ADP	APPR	_	9	comp:obl	_	_
+7	ein	ein	DET	ART	_	8	det	_	_
+8	Auto	Auto	NOUN	NN	_	6	comp:obj	_	_
+9	gerollt	rollen	VERB	VVPP	_	3	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	3	subj	_	_
+6	anderer	ander	ADJ	PIAT	_	7	mod	_	_
+7	Leute	Leute	NOUN	NN	_	5	mod@poss	_	_
+8	,	,	PUNCT	$,	_	3	punct	_	_
+9	die	die	PRON	PRELS	_	13	subj	_	_
+10	da	da	ADV	ADV	_	13	mod	_	_
+11	aufm	aufm	PROPN	ADJA	_	13	comp:obl	_	_
+12	Parkplatz	Parkplatz	PROPN	NN	_	11	comp:obj	_	_
+13	standen	stehen	VERB	VVFIN	_	7	mod@relcl	_	_
+14	dem	d	DET	ART	_	15	det	_	_
+15	Ball	Ball	NOUN	NN	_	16	comp:obj	_	_
+16	entgegengelaufen	entgegenlaufen	VERB	VVPP	_	3	comp:aux	_	_
+17	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	auf	auf	ADP	APPR	_	4	comp:pred	_	_
+2	dem	d	DET	ART	_	3	det	_	_
+3	Parkplatz	Parkplatz	NOUN	NN	_	1	comp:obj	_	_
+4	waren	sein	VERB	VAFIN	_	0	root	_	_
+5	noch	noch	ADV	PTKMWL	_	6	mod	_	_
+6	mehr	mehr	PRON	PIAT	_	7	mod	_	_
+7	Autos	Auto	NOUN	NN	_	4	subj	_	_
+8	,	,	PUNCT	$,	_	4	punct	_	_
+9	die	d	PRON	PRELS	_	12	subj	_	_
+10	da	da	ADV	ADV	_	12	mod	_	_
+11	entlanggefahren	entlangfahren	VERB	VVPP	_	12	comp:aux	_	_
+12	sind	sein	AUX	VAFIN	_	7	mod@relcl	_	_
+13	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	das	d	DET	ART	_	2	det	_	_
+2	eine	ein	PRON	PIDS	_	3	subj	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	gebremst	bremsen	ADV	VVPP	_	3	comp:aux	_	_
+6	,	,	PUNCT	$,	_	3	punct	_	_
+
+1	das	d	DET	ART	_	2	det	_	_
+2	andere	ander	PRON	PIDS	_	3	subj	_	_
+3	fährt	fahren	VERB	VVFIN	_	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	voll	voll	ADJ	PTKIFG	_	3	mod	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	anderen	ander	PRON	PIDS	_	3	comp:obj	_	_
+8	hinten	hinten	ADV	ADV	_	3	mod	_	_
+9	herein	herein	ADJ	PTKVZ	_	3	compound@prt	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Hundemenschen	Hundemensch	NOUN	NN	_	4	subj	_	_
+4	sammeln	sammeln	VERB	VVFIN	_	0	root	_	_
+5	erstmal	erstmal	ADV	ADV	_	4	mod	_	_
+6	ihre	ihr	DET	PPOSAT	_	7	det	_	_
+7	Einkäufe	Einkäufe	NOUN	NN	_	4	comp:obj	_	_
+8	ein	ein	ADV	PTKVZ	_	4	compound@prt	_	_
+9	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	lol	lol	NOUN	NGAKW	_	0	root	_	_
+2	!	!	PUNCT	$.	_	1	punct	_	_
+
+1	dann	dann	ADV	ADV	_	2	mod	_	_
+2	haben	haben	AUX	VAFIN	_	0	root	_	_
+3	sie	sie	PRON	PPER	_	2	subj	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Polizei	Polizei	NOUN	NN	_	6	comp:obj	_	_
+6	gerufen	rufen	VERB	VVPP	_	2	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	bin	sein	VERB	VAFIN	_	0	root	_	_
+4	erstmal	erstmal	ADV	ADV	_	3	mod	_	_
+5	schnell	schnell	ADJ	ADJD	_	3	mod	_	_
+6	weg	weg	ADV	PTKVZ	_	3	comp:aux	_	_
+7	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	keinen	keine	PRON	PIAT	_	2	det	_	_
+2	Bock	Bock	PROPN	NN	_	0	root	_	_
+3	auf	auf	ADP	APPR	_	2	mod	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Zeugenaussage	Zeugenaussage	NOUN	NN	_	3	comp:obj	_	_
+6	und	und	CCONJ	KON	_	7	cc	_	_
+7	Polizeibürokratie	Polizeibürokratie	NOUN	NN	_	5	conj	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	okay	okay	ADJ	NGIRR	_	0	root	_	_
+2	.	.	PUNCT	$.	_	1	punct	_	_
+
+1	lange	lang	ADV	ADJA	_	2	mod	_	_
+2	Geschichte	Geschichte	VERB	NN	_	0	root	_	_
+3	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	hoffe	hoffen	VERB	VVFIN	_	0	root	_	_
+2	,	,	PUNCT	$,	_	1	punct	_	_
+3	dass	dass	SCONJ	KOUS	_	1	comp:obj	_	_
+4	ich	ich	PRON	PPER	_	8	subj	_	_
+5	dich	du	PRON	PRF	_	7	comp:obj	_	_
+6	nicht	nicht	PART	PTKNEG	_	8	mod	_	_
+7	gelangweilt	langweilen	VERB	VVPP	_	8	comp:aux	_	_
+8	habe	haben	AUX	VAFIN	_	3	comp:obj	_	_
+9	.	.	PUNCT	$.	_	1	punct	_	_
+
+1	was	was	PRON	PWS	_	2	subj	_	_
+2	geht	gehen	VERB	VVFIN	_	0	root	_	_
+3	bei	bei	ADP	APPR	_	2	comp:obl	_	_
+4	dir	du	PRON	PRF	_	3	comp:obj	_	_
+5	?	?	PUNCT	$.	_	2	punct	_	_
+6	?	?	PUNCT	$.	_	2	punct	_	_
+
+1	:D	:D	ADJ	EMO	_	0	root	_	_
+

@@ -1,0 +1,173 @@
+# text = hey
+1	hey	Hey	PROPN	NGIRR	_	0	root	_	_
+
+# text = du weißt du was ich gerade gesehen habe
+1	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	vocative	_	_
+2	weißt	wissen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	du	du	PROPN	PPER	_	2	subj	_	_
+4	was	was	PRON	PWS	Case=Nom|Number=Sing|PronType=Rel	7	comp:obj	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	subj	_	_
+6	gerade	gerade	ADV	ADJD	_	8	mod	_	_
+7	gesehen	sehen	VERB	VVPP	Tense=Past|VerbForm=Part	8	comp:aux	_	_
+8	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
+
+# text = äh ich habe gerade ein Unfall gesehen
+1	äh	äh	VERB	NGHES	VerbForm=Fin	3	discourse	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	gerade	gerade	ADV	ADJD	_	3	mod	_	_
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Unfall	Unfall	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	comp:obj	_	_
+7	gesehen	sehen	VERB	VVPP	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+
+# text = da ist ein Auto in das andere reingerast
+1	da	da	SCONJ	ADV	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	ART	Definite=Ind|PronType=Art	4	det	_	_
+4	Auto	Auto	NOUN	NN	_	2	subj	_	_
+5	in	in	ADP	APPR	_	8	comp:obl	_	_
+6	das	d	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	andere	ander	PRON	PIDS	PronType=Ind	5	comp:obj	_	_
+8	reingerast	reinrasen	VERB	VVPP	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	2	comp:aux	_	_
+
+# text = also reingerast naja okay ist ein bisschen übertrieben
+1	also	also	ADV	ADV	_	5	discourse	_	_
+2	reingerast	reinrasen	VERB	VVPP	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	5	subj	_	_
+3	naja	naja	PROPN	NGIRR	_	5	discourse	_	_
+4	okay	okay	PROPN	NGIRR	Case=Nom|Number=Sing	5	discourse	_	_
+5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	ein	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
+7	bisschen	bisschen	NOUN	PIDS	_	8	mod	_	_
+8	übertrieben	übertrieben	ADV	ADJD	_	5	comp:pred	_	_
+
+# text = reingefahren
+1	reingefahren	reinfahren	VERB	VVPP	Tense=Past|VerbForm=Fin	0	root	_	_
+
+# text = und das ging so schnell
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	das	d	PRON	PDS	Case=Nom|PronType=Dem	3	subj	_	_
+3	ging	gehen	VERB	VVFIN	Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	so	so	ADV	PTKIFG	_	5	mod	_	_
+5	schnell	schnell	ADJ	ADJD	Degree=Pos	3	comp:pred	_	_
+
+# text = auf einmal ist da so ein richtiges Loch im Auto
+1	auf	auf	ADP	APPR	_	3	mod	_	_
+2	einmal	einmal	ADV	ADJD	_	1	fixed	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	da	da	ADV	ADV	_	3	mod	_	_
+5	so	so	ADV	PTKIFG	_	8	mod	_	_
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+7	richtiges	richtig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc,Neut|Number=Sing	8	mod	_	_
+8	Loch	Loch	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	3	subj	_	_
+9	im	in	PROPN	APPRART	_	3	comp:pred	_	_
+10	Auto	Auto	PROPN	NN	_	9	comp:obj	_	_
+
+# text = stelle dir das mal vor
+1	stelle	stellen	VERB	VVINF	_	0	root	_	_
+2	dir	du	PRON	PRF	_	1	comp:obl	_	_
+3	das	d	PRON	PDS	_	1	comp:obj	_	_
+4	mal	mal	ADV	PTKMA	_	1	mod	_	_
+5	vor	vor	ADP	PTKVZ	_	1	compound@prt	_	_
+
+# text = und das alleine wegen einem Ball oder was weiß ich wegen einem äh wegen einem Hund weil das da kurz vor das Auto gerannt ist
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	das	d	PRON	PDS	Case=Nom|PronType=Dem	0	root	_	_
+3	alleine	allein	ADV	ADJD	_	2	orphan	_	_
+4	wegen	wegen	ADP	APPR	_	11	reparandum	_	_
+5	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	comp:obj	_	_
+7	oder	oder	CCONJ	KON	_	9	cc	_	_
+8	was	was	PRON	PWS	Case=Acc|PronType=Ind	9	comp:obj	_	_
+9	weiß	weiß	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	subj	_	_
+11	wegen	wegen	ADP	APPR	_	14	reparandum	_	_
+12	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	11	comp:obj	_	_
+13	äh	äh	NOUN	NGHES	Case=Dat|Gender=Masc,Neut|Number=Sing	2	discourse	_	_
+14	wegen	wegen	ADP	APPR	_	2	orphan	_	_
+15	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	16	det	_	_
+16	Hund	Hund	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	14	comp:obj	_	_
+17	weil	weil	SCONJ	KOUS	_	2	orphan	_	_
+18	das	d	PRON	PDS	Case=Nom|PronType=Dem	25	subj	_	_
+19	da	da	ADV	ADV	_	25	mod	_	_
+20	kurz	kurz	ADJ	ADJD	Degree=Pos	25	mod	_	_
+21	vor	vor	ADP	APPR	_	24	comp:obl	_	_
+22	das	d	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	23	det	_	_
+23	Auto	Auto	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	21	comp:obj	_	_
+24	gerannt	rennen	VERB	VVPP	Tense=Past|VerbForm=Part	25	comp:aux	_	_
+25	ist	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	17	comp:obj	_	_
+
+# text = jetzt hat dieser Mann so ein Schaden
+1	jetzt	jetzt	ADV	ADV	_	2	mod	_	_
+2	hat	haben	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dieser	diese	PRON	PDAT	Case=Nom|PronType=Dem	4	det	_	_
+4	Mann	Mann	NOUN	NN	Case=Acc|Number=Sing	2	subj	_	_
+5	so	so	ADV	PTKIFG	_	7	mod	_	_
+6	ein	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
+7	Schaden	Schaden	NOUN	NN	_	2	comp:obj	_	_
+
+# text = stelle dir mal vor du hättest sowas
+1	stelle	stellen	VERB	VVIMP	VerbForm=Fin	0	root	_	_
+2	dir	du	PRON	PRF	Case=Dat|Number=Sing|Person=2|PronType=Prs	1	comp:obl	_	_
+3	mal	mal	ADV	PTKMA	_	1	mod	_	_
+4	vor	vor	ADP	PTKVZ	_	1	compound@prt	_	_
+5	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	subj	_	_
+6	hättest	haben	ADJ	VVFIN	Degree=Sup|Tense=Pres	1	comp:obj	_	_
+7	sowas	sowas	PRON	PIS	Case=Acc|PronType=Ind	6	comp:obj	_	_
+
+# text = so der arme Mann der tut mir irgendwie voll leid
+1	so	so	ADV	PTKIFG	_	6	discourse	_	_
+2	der	d	DET	ART	Definite=Def|PronType=Art	4	det	_	_
+3	arme	arm	ADJ	ADJA	Degree=Pos	4	mod	_	_
+4	Mann	Mann	NOUN	NN	_	6	dislocated	_	_
+5	der	d	DET	PDS	Definite=Def|PronType=Art	6	subj	_	_
+6	tut	tun	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	comp:obj	_	_
+8	irgendwie	irgendwie	ADV	ADV	_	6	mod	_	_
+9	voll	voll	ADJ	PTKIFG	Degree=Pos	6	mod	_	_
+10	leid	leid	NOUN	PTKVZ	Case=Acc|Gender=Masc,Neut|Number=Sing	6	compound@prt	_	_
+
+# text = ich denke mal der hat jetzt voll das Problem was er damit machen muss
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	denke	denken	VERB	VVFIN	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	mal	mal	ADV	PTKMA	_	2	mod	_	_
+4	der	d	PRON	PDS	Case=Nom|PronType=Dem	5	subj	_	_
+5	hat	haben	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
+6	jetzt	jetzt	ADV	ADV	_	5	mod	_	_
+7	voll	voll	ADJ	PTKIFG	Degree=Pos	9	mod	_	_
+8	das	d	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Problem	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	comp:obj	_	_
+10	was	was	PRON	PWS	_	13	comp:obj	_	_
+11	er	er	PRON	PPER	_	14	subj	_	_
+12	damit	damit	ADV	ADV	_	14	mod	_	_
+13	machen	machen	VERB	VVINF	VerbForm=Inf	14	comp:aux	_	_
+14	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
+
+# text = und jetzt alleine deswegen so viel Aufwand wegen so einem kleinen Unfall
+1	und	und	CCONJ	KON	_	7	cc	_	_
+2	jetzt	jetzt	ADV	ADV	_	7	orphan	_	_
+3	alleine	allein	ADV	ADJD	_	4	mod	_	_
+4	deswegen	deswegen	ADV	ADV	_	7	orphan	_	_
+5	so	so	ADV	PTKIFG	_	7	mod	_	_
+6	viel	viel	PRON	PIAT	Case=Dat|Number=Sing|PronType=Ind	7	det	_	_
+7	Aufwand	Aufwand	NOUN	NN	_	0	root	_	_
+8	wegen	wegen	ADP	APPR	_	7	orphan	_	_
+9	so	so	ADV	PTKIFG	_	12	mod	_	_
+10	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+11	kleinen	klein	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	12	mod	_	_
+12	Unfall	Unfall	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	8	comp:obj	_	_
+
+# text = stelle dir das vor
+1	stelle	stellen	VERB	VVINF	Tense=Pres|VerbForm=Fin	4	compound@prt	_	_
+2	dir	du	PRON	PRF	Case=Dat|Number=Sing|Person=2|PronType=Prs	1	comp:obl	_	_
+3	das	d	PRON	PDS	PronType=Dem	1	comp:obj	_	_
+4	vor	vor	ADP	PTKVZ	_	0	root	_	_
+
+# text = das ist ja echt nicht zu fassen
+1	das	d	PRON	PDS	Case=Nom|PronType=Dem	2	subj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ja	ja	ADV	PTKMA	_	2	discourse	_	_
+4	echt	echt	ADJ	PTKIFG	Degree=Pos	2	mod	_	_
+5	nicht	nicht	PART	PTKNEG	_	7	mod	_	_
+6	zu	zu	PART	PTKZU	_	2	comp:pred	_	_
+7	fassen	fassen	VERB	VVINF	VerbForm=Inf	6	comp:obj	_	_
+

@@ -1,0 +1,44 @@
+1	I	i	PRON	PNP	_	3	nsubj	_	_
+2	just	just	ADV	AV0	_	3	advmod	_	_
+3	saw	see	VERB	VVD	_	0	root	_	_
+4	an	an	DET	AT0	_	5	det	_	_
+5	accident	accident	NOUN	NN1	_	3	obj	_	_
+6	right	right	ADV	AV0	_	7	advmod	_	_
+7	in	in	ADP	PRP	_	3	advmod	_	_
+8	.	.	PUNCT	SENT	_	3	punct	_	_
+9	front	front	NOUN	NN1	_	3	obl	_	_
+10	of	of	ADP	PRF	_	11	case	_	_
+11	me	i	PRON	PNP	_	9	nmod	_	_
+12	.	.	PUNCT	SENT	_	3	punct	_	_
+
+1	A	a	DET	AT0	_	2	det	_	_
+2	dog	dog	NOUN	NN1	_	3	nsubj	_	_
+3	ran	run	VERB	VVD	_	0	root	_	_
+4	after	after	ADP	PRP	_	6	case	_	_
+5	a	a	DET	AT0	_	6	det	_	_
+6	ball	ball	NOUN	NN1	_	3	obl	_	_
+
+1	but	but	CCONJ	CJC	_	6	cc	_	_
+2	.	.	PUNCT	SENT	_	6	punct	_	_
+3	a	a	DET	AT0	_	4	det	_	_
+4	car	car	NOUN	NN1	_	6	nsubj	_	_
+5	was	be	AUX	VBD	_	6	aux	_	_
+6	coming	come	VERB	VVG	_	0	root	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	car	car	NOUN	NN1	_	4	nsubj	_	_
+4	slammed	slam	VERB	VVD	_	0	root	_	_
+5	on	on	ADP	PRP	_	4	compound:prt	_	_
+6	.	.	PUNCT	SENT	_	4	punct	_	_
+7	his	he	DET	DPS	_	8	det	_	_
+8	brakes	brake	NOUN	NN2	_	4	obj	_	_
+9	making	make	VERB	VVG	_	8	acl	_	_
+10	the	the	DET	AT0	_	11	det	_	_
+11	car	car	NOUN	NN1	_	9	obj	_	_
+12	behind	behind	ADP	PRP	_	13	case	_	_
+13	him	he	PRON	PNP	_	9	obl	_	_
+14	rear-end	rear-end	VERB	VVI	_	9	advcl	_	_
+15	him	he	PRON	PNP	_	14	obj	_	_
+16	.	.	PUNCT	SENT	_	4	punct	_	_
+

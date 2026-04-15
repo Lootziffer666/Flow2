@@ -1,0 +1,92 @@
+1	Hi	hi	PROPN	NGIRR	_	3	discourse	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	bin	sein	VERB	VAFIN	_	0	root	_	_
+4	hier	hier	ADV	ADV	_	3	mod	_	_
+5	gerade	gerade	ADV	ADV	_	3	mod	_	_
+6	Bahnhofstrasse	Bahnhofstrasse	NOUN	NN	_	3	comp:pred	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	warte	warten	ADJ	VVIMP	_	0	root	_	_
+3	auf	auf	ADP	APPR	_	2	udep	_	_
+4	den	d	DET	ART	_	5	det	_	_
+5	Bus	Bus	NOUN	NN	_	3	comp:obj	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Da	da	ADV	ADV	_	2	mod	_	_
+2	kam	kommen	VERB	VVFIN	_	0	root	_	_
+3	hat	haben	VERB	VAFIN	_	2	mod	_	_
+4	so	so	ADV	PTKIFG	_	6	mod	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Pärchen	Pärchen	NOUN	NN	_	2	subj	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Typ	Typ	NOUN	NN	_	4	subj	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	mit	mit	ADP	APPR	_	8	mod	_	_
+6	einem	ein	DET	ART	_	7	det	_	_
+7	Fußball	Fußball	NOUN	NN	_	5	comp:obj	_	_
+8	gespielt	spielen	VERB	VVPP	_	4	comp:aux	_	_
+9	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	Gegenüber	Gegenüber	ADP	ADV	_	2	comp:pred	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	eine	ein	DET	ART	_	4	det	_	_
+4	Frau	Frau	NOUN	NN	_	2	subj	_	_
+5	mit	mit	ADP	APPR	_	4	mod	_	_
+6	Hund	Hund	NOUN	NN	_	5	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	der	d	DET	ART	_	6	subj	_	_
+3	keine	kein	ADJ	NE	_	4	mod	_	_
+4	Ahnung	Ahnung	NOUN	NN	_	6	parataxis	_	_
+5	komplett	komplett	ADJ	ADJD	_	6	mod	_	_
+6	ausgerastet	ausgerastet	VERB	VVPP	_	0	root	_	_
+7	wegen	wegen	ADP	APPR	_	6	mod	_	_
+8	dem	d	DET	ART	_	9	det	_	_
+9	Ball	Ball	NOUN	NN	_	7	comp:obj	_	_
+
+1	:face_with_tears_of_joy:	😂	SYM	EMO	_	0	root	_	_
+
+1	dahinter	dahinter	ADV	ADV	_	2	mod	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Auto	Auto	NOUN	NN	_	2	subj	_	_
+5	deswegen	deswegen	ADV	ADV	_	2	mod	_	_
+6	mega	mega	ADJ	PTKIFG	_	7	mod	_	_
+7	gebremst	bremsen	VERB	VVPP	_	2	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	das	d	DET	ART	_	3	det	_	_
+3	Auto	Auto	NOUN	NN	_	5	subj	_	_
+4	dahinter	dahinter	ADV	ADV	_	3	mod	_	_
+5	ist	sein	VERB	VAFIN	_	0	root	_	_
+6	voll	voll	ADJ	PTKIFG	_	5	mod	_	_
+7	im	im	NOUN	APPRART	_	10	comp:obl	_	_
+8	das	d	DET	ART	_	9	det	_	_
+9	erste	erst	ADJ	ORD	_	7	comp:obj	_	_
+10	reingefahren	reingefahren	NOUN	VVPP	_	5	comp:aux	_	_
+
+1	:flushed_face:	😳	SYM	EMO	_	0	root	_	_
+
+1	Die	Die	DET	PDS	_	2	subj	_	_
+2	haben	haben	AUX	VAFIN	_	0	root	_	_
+3	die	d	DET	ART	_	4	det	_	_
+4	Polizei	Polizei	NOUN	NN	_	5	comp:obj	_	_
+5	gerufen	rufen	VERB	VVPP	_	2	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	steh	stehen	VERB	VVFIN	_	0	root	_	_
+4	hier	hier	ADV	ADV	_	3	mod	_	_
+5	so	so	ADV	PTKIFG	_	3	mod	_	_
+6	ganz	ganz	ADV	PTKIFG	_	3	mod	_	_
+7	alleine	alleine	ADV	ADJD	_	3	mod	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	guck	gucken	PROPN	VVFIN	_	0	root	_	_
+3	nur	nur	ADV	PTKIFG	_	2	mod	_	_
+4	zu	zu	ADP	APPR	_	2	compound@prt	_	_
+
+1	:worried_face:	😟	SYM	EMO	_	0	root	_	_
+

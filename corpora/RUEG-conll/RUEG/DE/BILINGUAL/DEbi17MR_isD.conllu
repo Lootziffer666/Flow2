@@ -1,0 +1,126 @@
+# text = Dicker
+1	Dicker	Dicker	NOUN	_	_	0	root	_	_
+
+# text = gerade hier so am am Parkplatz vorbeigelaufen
+1	gerade	gerade	ADV	_	_	7	mod	_	_
+2	hier	hier	ADV	_	_	7	mod	_	_
+3	so	so	ADV	_	_	7	mod	_	_
+4	am	an	ADJ	_	_	5	reparandum	_	_
+5	am	an	ADJ	_	_	7	comp:obl	_	_
+6	Parkplatz	Parkplatz	NOUN	_	_	5	comp:obj	_	_
+7	vorbeigelaufen	vorbeilaufen	VERB	_	_	0	root	_	_
+
+# text = erstmal fett ein Unfall gesehen
+1	erstmal	erstmal	ADJ	_	_	5	mod	_	_
+2	fett	fett	NOUN	_	_	5	mod	_	_
+3	ein	ein	DET	_	_	4	det	_	_
+4	Unfall	Unfall	NOUN	_	_	5	comp:obj	_	_
+5	gesehen	sehen	VERB	_	_	0	root	_	_
+
+# text = bin hier gerade so bei Lidl aufm Parkplatz
+1	bin	sein	VERB	_	_	0	root	_	_
+2	hier	hier	ADV	_	_	1	mod	_	_
+3	gerade	gerade	ADV	_	_	1	mod	_	_
+4	so	so	ADV	_	_	1	mod	_	_
+5	bei	bei	ADP	_	_	1	comp:pred	_	_
+6	Lidl	Lidl	PROPN	_	_	5	comp:obj	_	_
+7	aufm	auf	PROPN	_	_	1	mod	_	_
+8	Parkplatz	Parkplatz	PROPN	_	_	7	comp:obj	_	_
+
+# text = die eine Frau so mit einem Hund
+1	die	d	DET	_	_	3	det	_	_
+2	eine	ein	DET	_	_	3	mod	_	_
+3	Frau	Frau	NOUN	_	_	0	root	_	_
+4	so	so	ADV	_	_	3	mod	_	_
+5	mit	mit	ADP	_	_	3	orphan	_	_
+6	einem	ein	DET	_	_	7	det	_	_
+7	Hund	Hund	NOUN	_	_	5	comp:obj	_	_
+
+# text = gerade voll am Einladen ihren Einkauf und so
+1	gerade	gerade	ADV	_	_	3	mod	_	_
+2	voll	voll	ADJ	_	_	3	mod	_	_
+3	am	an	ADJ	_	_	0	root	_	_
+4	Einladen	Einladen	NOUN	_	_	3	comp:obj	_	_
+5	ihren	ihr	DET	_	_	6	det	_	_
+6	Einkauf	Einkauf	NOUN	_	_	4	comp:obj	_	_
+7	und	und	CCONJ	_	_	6	cc	_	_
+8	so	so	ADV	_	_	6	conj	_	_
+
+# text = von der anderen Seite kommt natürlich ein Kinderwagen an
+1	von	von	ADP	_	_	5	comp:obl	_	_
+2	der	d	DET	_	_	4	det	_	_
+3	anderen	ander	ADJ	_	_	4	mod	_	_
+4	Seite	Seite	NOUN	_	_	1	comp:obj	_	_
+5	kommt	kommen	VERB	_	_	0	root	_	_
+6	natürlich	natürlich	ADJ	_	_	5	mod	_	_
+7	ein	ein	DET	_	_	8	det	_	_
+8	Kinderwagen	Kinderwagen	NOUN	_	_	5	subj	_	_
+9	an	an	ADP	_	_	5	compound@prt	_	_
+
+# text = der Typ ist ist am Ball Spielen
+1	der	d	DET	_	_	2	det	_	_
+2	Typ	Typ	NOUN	_	_	4	subj	_	_
+3	ist	sein	VERB	_	_	4	reparandum	_	_
+4	ist	sein	AUX	_	_	0	root	_	_
+5	am	an	ADJ	_	_	4	comp:pred	_	_
+6	Ballspielen	Ballspielen	PROPN	_	_	5	comp:obj	_	_
+
+# text = ist mit seiner Freundin unterwegs
+1	ist	sein	VERB	_	_	0	root	_	_
+2	mit	mit	ADP	_	_	1	mod	_	_
+3	seiner	sein	DET	_	_	4	det	_	_
+4	Freundin	Freundin	NOUN	_	_	2	comp:obj	_	_
+5	unterwegs	unterwegs	ADV	_	_	1	comp:pred	_	_
+
+# text = Ball fällt safe auf die Straße
+1	Ball	Ball	PROPN	_	_	2	subj	_	_
+2	fällt	fallen	VERB	_	_	0	root	_	_
+3	safe	safe	VERB	_	_	2	mod	_	_
+4	auf	auf	ADP	_	_	2	comp:obl	_	_
+5	die	d	DET	_	_	6	det	_	_
+6	Straße	Straße	NOUN	_	_	4	comp:obj	_	_
+
+# text = was passiert
+1	was	was	PRON	_	_	2	subj	_	_
+2	passiert	passieren	VERB	_	_	0	root	_	_
+
+# text = Hund geht auf den Ball ab so
+1	Hund	Hund	PROPN	_	_	2	subj	_	_
+2	geht	gehen	VERB	_	_	0	root	_	_
+3	auf	auf	ADP	_	_	2	mod	_	_
+4	den	d	DET	_	_	5	det	_	_
+5	Ball	Ball	NOUN	_	_	3	comp:obj	_	_
+6	ab	ab	ADP	_	_	2	compound@prt	_	_
+
+# text = jetzt kommen zwei Autos im gleich Moment auch noch an
+1	so	so	ADV	_	_	3	discourse	_	_
+2	jetzt	jetzt	ADV	_	_	3	mod	_	_
+3	kommen	kommen	VERB	_	_	0	root	_	_
+4	zwei	zwei	NUM	_	_	5	mod	_	_
+5	Autos	Auto	NOUN	_	_	3	subj	_	_
+6	im	im	PROPN	_	_	3	mod	_	_
+7	gleich	gleich	ADV	_	_	8	mod	_	_
+8	Moment	Moment	NOUN	_	_	6	comp:obj	_	_
+9	auch	auch	ADV	_	_	10	mod	_	_
+10	noch	noch	ADV	_	_	3	mod	_	_
+11	an	an	ADP	_	_	3	compound@prt	_	_
+
+# text = Hinteres fährt dem Vorderen drauf
+1	Hinteres	Hinteres	PROPN	_	_	2	subj	_	_
+2	fährt	fährt	VERB	_	_	0	root	_	_
+3	dem	d	DET	_	_	4	det	_	_
+4	Vorderen	Vorderen	ADJ	_	_	2	comp:obj	_	_
+5	drauf	drauf	ADV	_	_	2	compound@prt	_	_
+
+# text = zack
+1	zack	zack	PROPN	_	_	0	root	_	_
+
+# text = Unfall
+1	Unfall	Unfall	NOUN	_	_	0	root	_	_
+
+# text = Hinteres fährt dem Vorderen drauf
+1	ja	ja	ADV	_	_	0	root	_	_
+
+# text = Hinteres fährt dem Vorderen drauf
+1	so	so	ADV	_	_	0	root	_	_
+

@@ -1,0 +1,141 @@
+# text = hi
+1	hi	hi	X	_	_	0	root	_	_
+
+# text = äh du weißt du was ich heute gesehen hab
+1	äh	äh	ADJ	_	_	3	discourse	_	_
+2	du	du	PROPN	_	_	3	vocative	_	_
+3	weißt	weißt	VERB	_	_	0	root	_	_
+4	du	du	PROPN	_	_	3	subj	_	_
+5	was	was	PRON	_	_	8	comp:obj	_	_
+6	ich	ich	PRON	_	_	9	subj	_	_
+7	heute	heute	ADV	_	_	9	mod	_	_
+8	gesehen	sehen	VERB	_	_	9	comp:aux	_	_
+9	hab	haben	AUX	_	_	3	comp:obj	_	_
+
+# text = und äh es ja war heftig
+1	oh	oh	ADJ	_	_	4	discourse	_	_
+2	Mann	Mann	NOUN	_	_	1	fixed	_	_
+3	es	es	PRON	_	_	4	subj	_	_
+4	war	sein	VERB	_	_	0	root	_	_
+5	ein	ein	DET	_	_	6	det	_	_
+6	Unfall	Unfall	NOUN	_	_	4	comp:pred	_	_
+
+# text = und ich war echt mitten drin
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	ich	ich	PRON	_	_	3	subj	_	_
+3	war	sein	VERB	_	_	0	root	_	_
+4	echt	echt	ADV	_	_	3	mod	_	_
+5	mitten	mitten	ADV	_	_	6	mod	_	_
+6	drin	drin	NOUN	_	_	3	comp:pred	_	_
+
+# text = äh da war so ein Mann
+1	äh	äh	ADJ	_	_	3	discourse	_	_
+2	da	da	ADV	_	_	3	comp:pred	_	_
+3	war	sein	VERB	_	_	0	root	_	_
+4	so	so	ADV	_	_	6	mod	_	_
+5	ein	ein	DET	_	_	6	det	_	_
+6	Mann	Mann	NOUN	_	_	3	subj	_	_
+
+# text = und der hat mit seinem Ball gespielt
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	der	die	DET	_	_	3	subj	_	_
+3	hat	haben	AUX	_	_	0	root	_	_
+4	mit	mit	ADP	_	_	7	mod	_	_
+5	seinem	sein	DET	_	_	6	det	_	_
+6	Ball	Ball	PROPN	_	_	4	comp:obj	_	_
+7	gespielt	spielen	VERB	_	_	3	comp:aux	_	_
+
+# text = äh dabei lief er neben einer Frau mit einem Kinderwagen
+1	äh	äh	ADJ	_	_	3	discourse	_	_
+2	dabei	dabei	ADV	_	_	3	mod	_	_
+3	lief	laufen	VERB	_	_	0	root	_	_
+4	er	er	PRON	_	_	3	subj	_	_
+5	neben	neben	ADP	_	_	3	comp:obl	_	_
+6	einer	ein	DET	_	_	7	det	_	_
+7	Frau	Frau	NOUN	_	_	5	comp:obj	_	_
+8	mit	mit	ADP	_	_	7	mod	_	_
+9	einem	ein	DET	_	_	10	det	_	_
+10	Kinderwagen	Kinderwagen	NOUN	_	_	8	comp:obj	_	_
+
+# text = und dann äh ist sein Ball aber auf die Straße gerollt
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	dann	dann	ADV	_	_	4	mod	_	_
+3	äh	äh	ADJ	_	_	4	discourse	_	_
+4	ist	sein	VERB	_	_	0	root	_	_
+5	sein	sein	DET	_	_	6	det	_	_
+6	Ball	Ball	NOUN	_	_	4	subj	_	_
+7	aber	aber	ADV	_	_	4	mod	_	_
+8	auf	auf	ADP	_	_	11	comp:obl	_	_
+9	die	d	DET	_	_	10	det	_	_
+10	Straße	Straße	NOUN	_	_	8	comp:obj	_	_
+11	gerollt	rollen	ADJ	_	_	4	comp:aux	_	_
+
+# text = also das war weißt du das war auf einem auf einer Parkfläche
+1	also	also	ADV	_	_	7	discourse	_	_
+2	das	die	PRON	_	_	3	subj	_	_
+3	war	sein	AUX	_	_	7	reparandum	_	_
+4	weißt	weißt	VERB	_	_	7	parataxis	_	_
+5	du	du	PROPN	_	_	4	subj	_	_
+6	das	die	PRON	_	_	7	subj	_	_
+7	war	sein	AUX	_	_	0	root	_	_
+8	auf	auf	ADP	_	_	10	reparandum	_	_
+9	einem	ein	DET	_	_	8	comp:obj	_	_
+10	auf	auf	ADP	_	_	7	comp:pred	_	_
+11	einer	ein	DET	_	_	12	det	_	_
+12	Parkfläche	Parkfläche	NOUN	_	_	10	comp:obj	_	_
+
+# text = äh und während der Ball äh gerollt ist ist halt ein Auto gekommen
+1	äh	äh	ADJ	_	_	9	discourse	_	_
+2	und	und	CCONJ	_	_	9	cc	_	_
+3	während	während	ADP	_	_	13	mod	_	_
+4	der	d	DET	_	_	5	det	_	_
+5	Ball	Ball	PROPN	_	_	8	subj	_	_
+6	äh	äh	PROPN	_	_	9	discourse	_	_
+7	gerollt	rollen	VERB	_	_	8	comp:aux	_	_
+8	ist	sein	AUX	_	_	3	comp:obj	_	_
+9	ist	sein	AUX	_	_	0	root	_	_
+10	halt	halt	ADV	_	_	9	discourse	_	_
+11	ein	ein	DET	_	_	12	det	_	_
+12	Auto	Auto	NOUN	_	_	9	subj	_	_
+13	gekommen	kommen	VERB	_	_	9	comp:aux	_	_
+
+# text = das Auto hat halt scharf abgebremst
+1	das	d	DET	_	_	2	det	_	_
+2	Auto	Auto	NOUN	_	_	3	subj	_	_
+3	hat	haben	VERB	_	_	0	root	_	_
+4	halt	halt	ADV	_	_	3	discourse	_	_
+5	scharf	scharf	ADJ	_	_	3	mod	_	_
+6	abgebremst	abbremsen	ADV	_	_	3	comp:aux	_	_
+
+# text = und das Auto hinter dem Auto äh ist voll in das Auto reingefahren
+1	und	und	CCONJ	_	_	8	cc	_	_
+2	das	d	DET	_	_	3	det	_	_
+3	Auto	Auto	NOUN	_	_	8	subj	_	_
+4	hinter	hinter	ADP	_	_	3	mod	_	_
+5	dem	d	DET	_	_	6	det	_	_
+6	Auto	Auto	NOUN	_	_	4	comp:obj	_	_
+7	äh	äh	ADJ	_	_	8	discourse	_	_
+8	ist	sein	VERB	_	_	0	root	_	_
+9	voll	voll	ADJ	_	_	8	mod	_	_
+10	in	in	ADP	_	_	13	comp:obl	_	_
+11	das	d	DET	_	_	12	det	_	_
+12	Auto	Auto	NOUN	_	_	10	comp:obj	_	_
+13	reingefahren	reingefahren	VERB	_	_	8	comp:aux	_	_
+
+# text = und ja es gab einen Knall
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	ja	ja	ADV	_	_	4	discourse	_	_
+3	es	es	PRON	_	_	4	subj@expl	_	_
+4	gab	geben	VERB	_	_	0	root	_	_
+5	einen	ein	DET	_	_	6	det	_	_
+6	Knall	Knall	NOUN	_	_	4	comp:obj	_	_
+
+# text = und äh es ja war heftig
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	äh	äh	ADV	_	_	5	discourse	_	_
+3	es	es	PRON	_	_	5	subj	_	_
+4	ja	ja	ADV	_	_	5	discourse	_	_
+5	war	sein	VERB	_	_	0	root	_	_
+6	heftig	heftig	ADJ	_	_	5	comp:pred	_	_
+
+

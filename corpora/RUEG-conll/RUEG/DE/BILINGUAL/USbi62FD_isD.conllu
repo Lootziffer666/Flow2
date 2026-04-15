@@ -1,0 +1,116 @@
+# text = da war ein Unfall
+1	da	da	ADV	ADV	_	2	comp:pred	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	ART	Definite=Ind|PronType=Art	4	det	_	_
+4	Unfall	Unfall	NOUN	NN	_	2	subj	_	_
+
+# text = äh der da waren zwei Autos
+1	äh	äh	ADJ	NGHES	Degree=Pos	4	discourse	_	_
+2	der	d	PRON	ART|PDS	Case=Nom|PronType=Dem	4	reparandum	_	_
+3	da	da	ADV	ADV	_	4	comp:pred	_	_
+4	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	zwei	zwei	NUM	CARD	NumType=Card	6	mod	_	_
+6	Autos	Auto	NOUN	NN	_	4	subj	_	_
+
+# text = die sind ganz schnell gekommen
+1	die	d	PRON	PDS	Case=Nom|PronType=Dem	2	subj	_	_
+2	sind	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ganz	ganz	ADJ	PTKIFG	Degree=Pos	4	mod	_	_
+4	schnell	schnell	ADJ	ADJD	Degree=Pos	2	mod	_	_
+5	gekommen	kommen	ADJ	VVPP	_	2	comp:aux	_	_
+
+# text = und da war ein Junge
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	comp:pred	_	_
+3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Junge	Junge	NOUN	NN	_	3	subj	_	_
+
+# text = und sein Ball ist auf die Straße gerollt
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	Ball	Ball	NOUN	NN	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	auf	auf	ADP	APPR	_	8	comp:obl	_	_
+6	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	comp:obj	_	_
+8	gerollt	rollen	ADJ	VVPP	Degree=Pos	4	comp:aux	_	_
+
+# text = äh die sind dann ineinander angesprungen
+1	äh	äh	ADJ	NGHES	Degree=Pos	3	discourse	_	_
+2	die	d	PRON	PDS	Case=Nom|PronType=Dem	3	subj	_	_
+3	sind	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	ineinander	ineinander	ADV	ADV	_	3	mod	_	_
+6	angesprungen	anspringen	VERB	VVPP	VerbForm=Inf	3	comp:aux	_	_
+
+# text = und das erste ist gestoppt
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	das	d	DET	ART	Definite=Def|PronType=Art	3	det	_	_
+3	erste	erst	NOUN	ORD	_	4	subj	_	_
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	gestoppt	stoppen	VERB	VVPP	VerbForm=Part	4	comp:aux	_	_
+
+# text = aber das andere ist noch weitergegangen
+1	aber	aber	ADV	KON	_	4	cc	_	_
+2	das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	andere	ander	NOUN	PIDS	_	4	subj	_	_
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	noch	noch	ADV	ADV	_	4	mod	_	_
+6	weitergegangen	weitergehen	VERB	VVPP	VerbForm=Inf	4	comp:aux	_	_
+
+# text = und dann war da eine Frau mit ein Hund
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	da	da	ADV	ADV	_	3	mod	_	_
+5	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	subj	_	_
+7	mit	mit	ADP	APPR	_	3	comp:pred	_	_
+8	ein	ein	DET	ART	Definite=Ind|PronType=Art	9	det	_	_
+9	Hund	Hund	NOUN	NN	_	7	comp:obj	_	_
+
+# text = und der Hund ist weggerannt
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	weggerannt	rennen	ADJ	VVPP	Degree=Pos	4	comp:aux	_	_
+
+# text = aber ihre äh shopping war noch da
+1	aber	aber	ADV	KON	_	5	cc	_	_
+2	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	4	det	_	_
+3	äh	äh	ADJ	NGHES	Degree=Pos	5	discourse	_	_
+4	shopping	shopping	NOUN	FM	Case=Nom|Number=Sing	5	subj	_	_
+5	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	noch	noch	ADV	ADV	_	5	mod	_	_
+7	da	da	ADV	ADV	_	5	comp:pred	_	_
+
+# text = und nun es ist alles überall hingerollt
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	nun	nun	ADV	ADV	_	4	mod	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	alles	all	PRON	PIS	Case=Acc|PronType=Tot	4	subj	_	_
+6	überall	überall	ADV	ADV	_	4	mod	_	_
+7	hingerollt	hinrollen	ADJ	VVPP	Degree=Pos	4	comp:aux	_	_
+
+# text = und dann äh müssten die die Sachen zusammensammeln
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	dann	dann	ADV	ADV	_	4	mod	_	_
+3	äh	äh	ADJ	NGHES	Degree=Pos	4	discourse	_	_
+4	müssten	müssen	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	die	d	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem	4	subj	_	_
+6	die	d	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+7	Sachen	Sache	NOUN	NN	Case=Acc|Number=Plur	8	comp:obj	_	_
+8	zusammensammeln	zusammensammeln	VERB	VVINF	Number=Sing|Person=3|VerbForm=Fin	4	comp:aux	_	_
+
+# text = aber die Autos haben in sich zusammengefahren
+1	aber	aber	ADV	KON	_	4	cc	_	_
+2	die	d	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+3	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	4	subj	_	_
+4	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	APPR	_	7	comp:obl	_	_
+6	sich	er|es|sie	PRON	PRF	Case=Acc,Dat|Person=3|PronType=Prs	5	comp:obj	_	_
+7	zusammengefahren	zusammenfahren	VERB	VVPP	VerbForm=Fin	4	comp:aux	_	_
+

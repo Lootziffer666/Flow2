@@ -1,0 +1,134 @@
+1	hi	hi	INTJ	ITJ	_	4	discourse	_	_
+2	I	i	PRON	PNP	_	4	nsubj	_	_
+3	am	be	AUX	VBB	_	4	aux	_	_
+4	calling	call	VERB	VVG	_	0	root	_	_
+5	for	for	ADP	PRP	_	6	case	_	_
+6	the	the	DET	AT0	_	4	obl	_	_
+
+1	hi	hi	INTJ	ITJ	_	4	discourse	_	_
+2	I	i	PRON	PNP	_	4	nsubj	_	_
+3	am	be	AUX	VBB	_	4	aux	_	_
+4	calling	call	VERB	VVG	_	0	root	_	_
+5	for	for	ADP	PRP	_	7	case	_	_
+6	the	the	DET	AT0	_	7	det	_	_
+7	case	case	NOUN	NN1	_	4	obl	_	_
+8	F17	F17	PROPN	NP0	_	4	vocative	_	_
+
+1	I	i	PRON	PNP	_	3	nsubj	_	_
+2	was	be	AUX	VBD	_	3	cop	_	_
+3	there	there	ADV	AV0	_	0	root	_	_
+4	in	in	ADP	PRP	_	5	case	_	_
+5	front	front	NOUN	NN1	_	3	obl	_	_
+6	of	of	ADP	PRF	_	7	case	_	_
+7	everything	everything	PRON	PNI	_	5	nmod	_	_
+8	that	that	SCONJ	CJT	_	9	mark	_	_
+9	happened	happen	VERB	VVD	_	3	ccomp	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	I	i	PRON	PNP	_	3	nsubj	_	_
+3	wanted	want	VERB	VVD	_	0	root	_	_
+4	to	to	PART	TO0	_	5	mark	_	_
+5	submit	submit	VERB	VVI	_	3	xcomp	_	_
+6	my	i	DET	DPS	_	7	det	_	_
+7	statement	statement	NOUN	NN1	_	5	obj	_	_
+
+1	there	there	ADV	EX0	_	4	expl	_	_
+2	was	be	AUX	VBD	_	4	cop	_	_
+3	this	this	DET	DT0	_	4	det	_	_
+4	family	family	NOUN	NN1	_	0	root	_	_
+5	that	that	SCONJ	CJT	_	7	mark	_	_
+6	was	be	AUX	VBD	_	7	aux:pass	_	_
+7	walking	walk	VERB	VVG	_	4	parataxis	_	_
+8	on	on	ADP	PRP	_	10	case	_	_
+9	the	the	DET	AT0	_	10	det	_	_
+10	sidewalk	sidewalk	NOUN	NN1	_	7	obl	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	guy	guy	NOUN	NN1	_	5	nsubj	_	_
+4	accidentally	accidentally	ADV	AV0	_	5	advmod	_	_
+5	dropped	drop	VERB	VVD	_	0	root	_	_
+6	his	he	DET	DPS	_	7	det	_	_
+7	ball	ball	NOUN	NN1	_	5	obj	_	_
+8	which	which	DET	DTQ	_	10	det	_	_
+9	created	create	VERB	VVD	_	10	amod	_	_
+10	chaos	chaos	NOUN	NN1	_	5	obl	_	_
+11	for	for	ADP	PRP	_	13	case	_	_
+12	a	a	DET	AT0	_	13	det	_	_
+13	dog	dog	NOUN	NN1	_	10	nmod	_	_
+14	that	that	SCONJ	CJT	_	15	mark	_	_
+15	started	start	VERB	VVD	_	5	advcl	_	_
+16	running	run	VERB	VVG	_	15	xcomp	_	_
+17	towards	towards	ADP	PRP	_	19	case	_	_
+18	the	the	DET	AT0	_	19	det	_	_
+19	ball	ball	NOUN	NN1	_	16	obl	_	_
+
+1	and	and	CCONJ	CJC	_	6	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	dog	dog	NOUN	NN1	_	5	nmod:poss	_	_
+4	's	's	PART	POS	_	3	case	_	_
+5	owner	owner	NOUN	NN1	_	6	nsubj	_	_
+6	dropped	drop	VERB	VVD	_	0	root	_	_
+7	a	a	DET	AT0	_	9	det	_	_
+8	whole	whole	ADJ	AJ0	_	9	amod	_	_
+9	bunch	bunch	NOUN	NN1	_	6	obj	_	_
+10	of	of	ADP	PRF	_	11	case	_	_
+11	stuff	stuff	NOUN	NN1	_	9	nmod	_	_
+
+1	with	with	ADP	PRP	_	3	case	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	dog	dog	NOUN	NN1	_	4	obl	_	_
+4	becoming	become	VERB	VVG	_	0	root	_	_
+5	scared	scared	ADJ	AJ0	_	4	xcomp	_	_
+6	these	these	DET	DT0	_	7	det	_	_
+7	cars	car	NOUN	NN2	_	16	obj	_	_
+8	like	like	INTJ	ITJ	_	7	discourse	_	_
+9	the	the	DET	AT0	_	10	det	_	_
+10	car	car	NOUN	NN1	_	16	nsubj	_	_
+11	in	in	ADP	PRP	_	12	case	_	_
+12	front	front	NOUN	NN1	_	10	nmod	_	_
+13	of	of	ADP	PRF	_	15	case	_	_
+14	a	a	DET	AT0	_	15	det	_	_
+15	car	car	NOUN	NN1	_	12	nmod	_	_
+16	slammed	slam	VERB	VVD	_	4	parataxis	_	_
+17	on	on	ADP	PRP	_	19	case	_	_
+18	the	the	DET	AT0	_	19	det	_	_
+19	brakes	brake	NOUN	NN2	_	16	obl	_	_
+
+1	and	and	CCONJ	CJC	_	8	cc	_	_
+2	then	then	ADV	AV0	_	8	advmod	_	_
+3	the	the	DET	AT0	_	4	det	_	_
+4	car	car	NOUN	NN1	_	8	nsubj	_	_
+5	behind	behind	ADP	PRP	_	6	case	_	_
+6	him	he	PRON	PNP	_	4	nmod	_	_
+7	also	also	ADV	AV0	_	8	advmod	_	_
+8	hit	hit	VERB	VVD	_	0	root	_	_
+9	him	he	PRON	PNP	_	8	obj	_	_
+
+1	and	and	CCONJ	CJC	_	2	cc	_	_
+2	slammed	slam	VERB	VVD	_	0	root	_	_
+3	on	on	ADP	PRP	_	5	case	_	_
+4	the	the	DET	AT0	_	5	det	_	_
+5	brakes	brake	NOUN	NN2	_	2	obl	_	_
+
+1	no	no	DET	AT0	_	2	det	_	_
+2	one	one	PRON	PNI	_	3	nsubj	_	_
+3	got	get	VERB	VVD	_	0	root	_	_
+4	hurt	hurt	VERB	VVN	_	3	xcomp	_	_
+
+1	everyone	everyone	PRON	PNI	_	3	nsubj	_	_
+2	was	be	AUX	VBD	_	3	cop	_	_
+3	safe	safe	ADJ	AJ0	_	0	root	_	_
+
+1	but	but	CCONJ	CJC	_	4	cc	_	_
+2	everything	everything	PRON	PNI	_	4	nsubj	_	_
+3	was	be	AUX	VBD	_	4	cop	_	_
+4	okay	okay	ADJ	AJ0	_	0	root	_	_
+
+1	okay	okay	INTJ	ITJ	_	0	root	_	_
+
+1	thank	thank	VERB	VVB	_	0	root	_	_
+2	you	you	PRON	PNP	_	1	obj	_	_
+
+1	bye	bye	INTJ	ITJ	_	0	root	_	_
+

@@ -1,0 +1,225 @@
+# text = hi Svet
+1	hi	hi	PROPN	NGIRR	_	2	discourse	_	_
+2	Svet	Svet	PROPN	NE	_	0	root	_	_
+
+# text = passe auf
+1	passe	passen	ADJ	VVFIN	Case=Acc|Degree=Pos|Number=Plur|Tense=Pres	0	root	_	_
+2	auf	auf	ADP	PTKVZ	_	1	compound@prt	_	_
+
+# text = ich habe dir ja eben schon geschrieben
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|PronType=Prs	2	comp:obl	_	_
+4	ja	ja	ADV	PTKMA	_	2	mod	_	_
+5	eben	eben	ADV	ADV	_	2	mod	_	_
+6	schon	schon	ADV	ADV	_	2	mod	_	_
+7	geschrieben	schreiben	VERB	VVPP	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+
+# text = mein Tag war mal wieder richtig richtig spannend
+1	mein	mein	PRON	PPOSAT	Person=1|Poss=Yes|PronType=Prs	2	det	_	_
+2	Tag	Tag	NOUN	NN	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	mal	mal	ADV	PTKMA	_	5	mod	_	_
+5	wieder	wieder	ADV	ADV	_	3	mod	_	_
+6	richtig	richtig	ADJ	ADJD	Degree=Pos	8	mod	_	_
+7	richtig	richtig	ADJ	ADJD	Degree=Pos	8	mod	_	_
+8	spannend	spannend	ADJ	ADJD	Degree=Pos	3	comp:pred	_	_
+
+# text = aber passe auf
+1	aber	aber	ADV	KON	_	2	cc	_	_
+2	passe	passen	ADJ	VVFIN	Case=Acc|Degree=Pos|Number=Plur|Tense=Pres	0	root	_	_
+3	auf	auf	ADP	PTKVZ	_	2	compound@prt	_	_
+
+# text = und zwar bin ich vorhin zur Uni gegangen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	zwar	zwar	ADV	ADV	_	3	mod	_	_
+3	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+5	vorhin	vorhin	ADV	ADV	_	3	mod	_	_
+6	zur	zu	PROPN	APPRART	_	8	comp:obl	_	_
+7	Uni	Uni	PROPN	NN	_	6	comp:obj	_	_
+8	gegangen	gehen	VERB	VVPP	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+
+# text = und da habe ich gesehen wie ein anderes ein Auto in ein anderes gekracht ist
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+5	gesehen	sehen	VERB	VVPP	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+6	wie	wie	ADV	KOUS	_	5	comp:obj	_	_
+7	ein	ein	DET	ART	Definite=Ind|PronType=Art	8	det	_	_
+8	anderes	ander	PRON	PIAT	PronType=Ind	10	reparandum	_	_
+9	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Auto	Auto	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	15	subj	_	_
+11	in	in	ADP	APPR	_	14	comp:obl	_	_
+12	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	13	det	_	_
+13	anderes	ander	PRON	PIAT	Case=Acc|PronType=Ind	11	comp:obj	_	_
+14	gekracht	krachen	VERB	VVPP	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	comp:aux	_	_
+15	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
+
+# text = super witzig ja richtig toll
+1	super	super	ADJ	ADJD	Degree=Pos	2	mod	_	_
+2	witzig	witzig	ADJ	ADJD	Degree=Pos	0	root	_	_
+3	ja	ja	ADV	NGIRR	_	2	discourse	_	_
+4	richtig	richtig	ADJ	ADJD	Degree=Pos	5	mod	_	_
+5	toll	toll	ADJ	ADJD	Degree=Pos	2	orphan	_	_
+
+# text = nein passe auf
+1	nein	nein	PART	NGIRR	_	2	discourse	_	_
+2	passe	passen	ADJ	VVFIN	Case=Acc|Degree=Pos|Number=Plur|Tense=Pres	0	root	_	_
+3	auf	auf	ADP	PTKVZ	_	2	compound@prt	_	_
+
+# text = und zwar ist nämlich niemandem etwas passiert
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	zwar	zwar	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	nämlich	nämlich	ADJ	ADV	Degree=Pos	3	mod	_	_
+5	niemandem	niemand	ADJ	PIS	Case=Acc|Degree=Pos|Number=Sing	7	comp:obj	_	_
+6	etwas	etwas	NOUN	PIS	Case=Acc|Number=Sing	3	subj	_	_
+7	passiert	passieren	VERB	VVPP	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+
+# text = das ist schon mal sehr gut
+1	das	d	PRON	PDS	Case=Nom|PronType=Dem	2	subj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	schon	schon	ADV	PTKMA	_	2	mod	_	_
+4	mal	mal	ADV	PTKMA	_	2	mod	_	_
+5	sehr	sehr	ADV	PTKIFG	_	6	mod	_	_
+6	gut	gut	ADJ	ADJD	Degree=Pos	2	comp:pred	_	_
+
+# text = aber ich darf hier jetzt als Zeugin aussagen bei der Polizei
+1	aber	aber	ADV	KON	_	3	mod	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	darf	dürfen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	hier	hier	ADV	ADV	_	3	mod	_	_
+5	jetzt	jetzt	ADV	ADV	_	3	mod	_	_
+6	als	als	ADP	KOKOM	_	8	mod	_	_
+7	Zeugin	Zeugin	NOUN	NN	_	6	comp:obj	_	_
+8	aussagen	aussagen	VERB	VVINF	Tense=Pres|VerbForm=Inf	3	comp:aux	_	_
+9	bei	bei	ADP	APPR	_	8	mod	_	_
+10	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Polizei	Polizei	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	comp:obj	_	_
+
+# text = weil nämlich da waren äh so eine Familie
+1	weil	weil	SCONJ	SEDM	_	4	discourse	_	_
+2	nämlich	nämlich	ADJ	ADV	Degree=Pos	4	mod	_	_
+3	da	da	ADV	ADV	_	4	comp:pred	_	_
+4	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	äh	äh	ADJ	NGHES	Degree=Pos	4	discourse	_	_
+6	so	so	ADV	PTKIFG	_	8	mod	_	_
+7	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Familie	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	subj	_	_
+
+# text = und die sind dann die wollen über die Straße gehen
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	die	d	PRON	PDS	Case=Nom|PronType=Dem	3	subj	_	_
+3	sind	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	6	reparandum	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	die	d	PRON	PDS	Case=Nom|PronType=Dem	6	subj	_	_
+6	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	über	über	ADP	APPR	_	10	comp:obl	_	_
+8	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	comp:obj	_	_
+10	gehen	gehen	VERB	VVINF	Tense=Pres|VerbForm=Inf	6	comp:aux	_	_
+
+# text = und dann war da so ein Lkw
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	da	da	ADV	ADV	_	3	comp:pred	_	_
+5	so	so	ADV	PTKIFG	_	7	mod	_	_
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Lkw	LKW	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	3	subj	_	_
+
+# text = und die haben das nicht gesehen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	die	d	DET	PDS	Definite=Def|PronType=Art	3	subj	_	_
+3	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	das	d	PRON	PDS	Case=Acc|PronType=Dem	6	comp:obj	_	_
+5	nicht	nicht	PART	PTKNEG	_	3	mod	_	_
+6	gesehen	sehen	VERB	VVPP	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+
+# text = dann ist dem Ball äh dem Mann so ein Ball runtergefallen
+1	dann	dann	ADV	ADV	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	reparandum	_	_
+5	äh	äh	_	NGHES	_	2	discourse	_	_
+6	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Mann	Mann	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	11	comp:obj	_	_
+8	so	so	ADV	PTKIFG	_	10	mod	_	_
+9	ein	ein	DET	ART	Definite=Ind|PronType=Art	10	det	_	_
+10	Ball	Ball	NOUN	NN	_	2	subj	_	_
+11	runtergefallen	runterfallen	ADJ	VVPP	Degree=Pos|Tense=Past	2	comp:aux	_	_
+
+# text = und zwei Autos sind in die Straße eingebogen
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	zwei	zwei	NUM	CARD	NumType=Card	3	mod	_	_
+3	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	4	subj	_	_
+4	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	APPR	_	8	comp:obl	_	_
+6	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	comp:obj	_	_
+8	eingebogen	einbiegen	ADJ	VVPP	Degree=Pos|Tense=Past	4	comp:aux	_	_
+
+# text = das Auto konnte dann die Familie nicht sehen
+1	das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Auto	Auto	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	subj	_	_
+3	konnte	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Familie	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	comp:obj	_	_
+7	nicht	nicht	PART	PTKNEG	_	3	mod	_	_
+8	sehen	sehen	VERB	VVINF	Tense=Pres|VerbForm=Inf	3	comp:aux	_	_
+
+# text = und dann ja hat der Eine stark gebremst
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	dann	dann	ADV	ADV	_	4	mod	_	_
+3	ja	ja	ADV	NGIRR	_	4	discourse	_	_
+4	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	der	d	PRON	ART	Case=Nom|PronType=Rel	6	det	_	_
+6	Eine	Eine	DET	PIDS	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	subj	_	_
+7	stark	stark	ADJ	ADJD	Degree=Pos	8	mod	_	_
+8	gebremst	bremsen	ADV	VVPP	Tense=Past	4	comp:aux	_	_
+
+# text = und der Andere ist reingekracht
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Andere	Andere	ADJ	PIDS	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	subj	_	_
+4	ist	sein	NOUN	VAFIN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+5	reingekracht	reinkrachen	VERB	VVPP	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	comp:aux	_	_
+
+# text = genau und dann hat da noch so ein Hund gebellt
+1	genau	genau	ADJ	NGIRR	Degree=Pos	4	discourse	_	_
+2	und	und	CCONJ	KON	_	4	cc	_	_
+3	dann	dann	ADV	ADV	_	4	mod	_	_
+4	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	da	da	ADV	ADV	_	4	mod	_	_
+6	noch	noch	ADV	PTKMWL	_	4	mod	_	_
+7	so	so	ADV	PTKIFG	_	9	mod	_	_
+8	ein	ein	NUM	ART	NumType=Card	9	det	_	_
+9	Hund	Hund	NOUN	NN	Case=Acc|Number=Sing	4	subj	_	_
+10	gebellt	bellen	VERB	VVPP	Tense=Past|VerbForm=Part	4	comp:aux	_	_
+
+# text = der war supersüß
+1	der	d	PRON	PDS	Case=Nom|PronType=Dem	2	subj	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	supersüß	supersüß	ADJ	ADJD	Degree=Pos	2	comp:pred	_	_
+
+# text = jedenfalls ja das war so mein Tag eigentlich zusammengefasst
+1	jedenfalls	jedenfalls	ADV	ADV	_	4	mod	_	_
+2	ja	ja	ADV	NGIRR	_	4	discourse	_	_
+3	das	d	PRON	PDS	Case=Nom|PronType=Dem	4	subj	_	_
+4	war	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	so	so	ADV	PTKIFG	_	4	mod	_	_
+6	mein	mein	PRON	PPOSAT	Person=1|Poss=Yes|PronType=Prs	7	det	_	_
+7	Tag	Tag	NOUN	NN	_	4	comp:pred	_	_
+8	eigentlich	eigentlich	ADV	ADV	_	4	mod	_	_
+9	zusammengefasst	zusammenfassen	VERB	VVPP	Person=3|Tense=Pres|VerbForm=Fin	4	mod	_	_
+
+# text = wie war deiner denn so
+1	wie	wie	ADV	PWAV	_	2	mod	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	deiner	dein	ADJ	PPOSAT	Degree=Cmp,Pos	2	subj	_	_
+4	denn	denn	CCONJ	PTKMA	_	2	mod	_	_
+5	so	so	ADV	PTKIFG	_	2	mod	_	_
+

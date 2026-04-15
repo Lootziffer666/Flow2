@@ -1,0 +1,90 @@
+1	﻿Sehr	﻿Sehr	ADV	_	_	2	mod	_	_
+2	geehrte	geehrt	VERB	_	_	3	mod	_	_
+3	Damen	Dame	PROPN	_	_	0	root	_	_
+4	und	und	CCONJ	_	_	5	cc	_	_
+5	Herren	Herr	PROPN	_	_	3	conj	_	_
+6	,	,	PUNCT	_	_	3	punct	_	_
+
+1	am	am	ADJ	_	_	5	mod	_	_
+2	10.07.19	@card@	NUM	_	_	1	comp:obj	_	_
+3	um	um	ADP	_	_	5	mod	_	_
+4	12:15 Uhr	12:15_Uhr	NOUN	_	_	3	comp:obj	_	_
+5	wurde	werden	VERB	_	_	0	root	_	_
+6	ich	ich	PRON	_	_	5	subj	_	_
+7	Zeugin	Zeugin	NOUN	_	_	5	comp:pred	_	_
+8	eines	ein	DET	_	_	9	det	_	_
+9	Aufahrunfalles	Aufahrunfalles	NOUN	_	_	7	mod@poss	_	_
+10	auf	auf	ADP	_	_	5	mod	_	_
+11	dem	d	DET	_	_	12	det	_	_
+12	Parkplatz	Parkplatz	NOUN	_	_	10	comp:obj	_	_
+13	am	am	PROPN	_	_	12	mod	_	_
+14	XY-Platz	XY-Platz	PROPN	_	_	13	comp:obj	_	_
+15	(	(	PUNCT	_	_	18	punct	_	_
+16	telefonisch	telefonisch	ADJ	_	_	17	mod	_	_
+17	festgehalten	festhalten	ADJ	_	_	18	mod	_	_
+18	F16	F16	NOUN	_	_	5	parataxis	_	_
+19	)	)	PUNCT	_	_	18	punct	_	_
+20	.	.	PUNCT	_	_	5	punct	_	_
+
+1	Nachdem	nachdem	SCONJ	_	_	17	mod	_	_
+2	einem	ein	DET	_	_	3	det	_	_
+3	Passanten	Passant	NOUN	_	_	9	comp:obj	_	_
+4	ein	ein	DET	_	_	5	det	_	_
+5	Fußball	Fußball	NOUN	_	_	10	subj	_	_
+6	aus	aus	ADP	_	_	9	comp:obl	_	_
+7	den	d	DET	_	_	8	det	_	_
+8	Händen	Händen	NOUN	_	_	6	comp:obj	_	_
+9	gefallen	fallen|gefallen	VERB	_	_	10	comp:aux	_	_
+10	war	sein	AUX	_	_	1	comp:obj	_	_
+11	und	und	CCONJ	_	_	15	cc	_	_
+12	auf	auf	ADP	_	_	15	comp:obl	_	_
+13	die	d	DET	_	_	14	det	_	_
+14	Straße	Straße	NOUN	_	_	12	comp:obj	_	_
+15	rollte	rollen	VERB	_	_	10	conj	_	_
+16	,	,	PUNCT	_	_	1	punct	_	_
+17	lief	laufen	VERB	_	_	0	root	_	_
+18	der	d	DET	_	_	19	det	_	_
+19	Hund	Hund	NOUN	_	_	17	subj	_	_
+20	einer	ein	DET	_	_	22	det	_	_
+21	anderen	ander	ADJ	_	_	22	mod	_	_
+22	Passantin	Passantin	NOUN	_	_	19	mod@poss	_	_
+23	auf	auf	ADP	_	_	17	comp:obl	_	_
+24	den	d	DET	_	_	25	det	_	_
+25	Weg	Weg	NOUN	_	_	23	comp:obj	_	_
+26	des	d	DET	_	_	27	det	_	_
+27	Parkplatzes	Parkplatz	NOUN	_	_	25	mod@poss	_	_
+28	.	.	PUNCT	_	_	17	punct	_	_
+
+1	Das	d	DET	_	_	3	det	_	_
+2	einfahrende	einfahrende	ADJ	_	_	3	mod	_	_
+3	Auto	Auto	NOUN	_	_	4	subj	_	_
+4	bremste	bremsen	VERB	_	_	0	root	_	_
+5	rechtzeitig	rechtzeitig	ADJ	_	_	4	mod	_	_
+6	,	,	PUNCT	_	_	4	punct	_	_
+
+1	wurde	werden	AUX	_	_	0	root	_	_
+2	jedoch	jedoch	ADV	_	_	1	mod	_	_
+3	daraufhin	daraufhin	ADV	_	_	1	mod	_	_
+4	durch	durch	ADP	_	_	9	comp:obl	_	_
+5	den	d	DET	_	_	8	det	_	_
+6	direkt	direkt	ADJ	_	_	7	mod	_	_
+7	folgenden	folgend	ADJ	_	_	8	mod	_	_
+8	Wagen	Wagen	NOUN	_	_	4	comp:obj	_	_
+9	angefahren	anfahren	VERB	_	_	1	comp:aux@pass	_	_
+10	.	.	PUNCT	_	_	1	punct	_	_
+
+1	Personen	Person	NOUN	_	_	7	subj	_	_
+2	,	,	PUNCT	_	_	6	punct	_	_
+3	sowie	sowie	CCONJ	_	_	6	cc	_	_
+4	der	d	DET	_	_	6	det	_	_
+5	beteiligte	beteiligt	ADJ	_	_	6	mod	_	_
+6	Hund	Hund	NOUN	_	_	1	conj	_	_
+7	kamen	kommen	VERB	_	_	0	root	_	_
+8	nicht	nicht	PART	_	_	7	mod	_	_
+9	zu	zu	ADP	_	_	7	comp:obl	_	_
+10	Schaden	Schaden	NOUN	_	_	9	comp:obj	_	_
+11	.	.	PUNCT	_	_	7	punct	_	_
+
+1	MfG	MfG	PROPN	_	_	2	mod	_	_
+2	DEbi25FG	DEbi25FG	PROPN	_	_	0	root	_	_
+

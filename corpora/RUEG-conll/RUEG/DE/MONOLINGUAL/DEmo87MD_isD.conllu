@@ -1,0 +1,109 @@
+# text = ja das war es auch eigentlich schon
+1	äh	äh	ADJ	_	Degree=Pos	3	discourse	_	_
+2	jo	jo	NOUN	_	_	3	discourse	_	_
+3	moin	moin	PROPN	_	_	0	root	_	_
+
+# text = ja das war es auch eigentlich schon
+1	was	was	PRON	_	Case=Acc|PronType=Ind	2	subj	_	_
+2	geht	gehen	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+
+# text = äh ich wollte ja gerade zum Training fahren
+1	äh	äh	ADJ	_	Degree=Pos	3	discourse	_	_
+2	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	wollte	wollen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	ja	ja	ADV	_	_	3	discourse	_	_
+5	gerade	gerade	ADV	_	_	3	mod	_	_
+6	zum	zum	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	8	comp:obl	_	_
+7	Training	Training	PROPN	_	Case=Acc|Gender=Neut|Number=Sing	6	comp:obj	_	_
+8	fahren	fahren	VERB	_	Number=Plur|Person=3|VerbForm=Fin	3	comp:aux	_	_
+
+# text = und das Schöne ist mal wieder dass es natürlich mal wieder nur mir passiert dass jetzt gerade direkt vor mir ein Unfall entstanden ist
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	das	d	DET	_	Definite=Def|PronType=Art	3	det	_	_
+3	Schöne	Schöne	PROPN	_	_	4	subj	_	_
+4	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	mal	mal	ADV	_	_	6	mod	_	_
+6	wieder	wieder	ADV	_	_	4	mod	_	_
+7	dass	dass	SCONJ	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	comp:pred	_	_
+8	es	es	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	subj@expl	_	_
+9	natürlich	natürlich	ADJ	_	Degree=Pos	14	mod	_	_
+10	mal	mal	ADV	_	_	11	mod	_	_
+11	wieder	wieder	ADV	_	_	14	mod	_	_
+12	nur	nur	ADV	_	_	13	mod	_	_
+13	mir	ich	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	14	comp:obj	_	_
+14	passiert	passieren	ADJ	_	Degree=Pos|Tense=Pres	7	comp:obj	_	_
+15	dass	dass	SCONJ	_	_	14	comp:obj	_	_
+16	jetzt	jetzt	ADV	_	_	24	mod	_	_
+17	gerade	gerade	ADV	_	_	24	mod	_	_
+18	direkt	direkt	ADJ	_	Degree=Pos	19	mod	_	_
+19	vor	vor	ADP	_	_	23	mod	_	_
+20	mir	ich	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	19	comp:obj	_	_
+21	ein	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	22	det	_	_
+22	Unfall	Unfall	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	24	subj	_	_
+23	entstanden	entstehen	ADJ	_	Case=Gen|Gender=Masc,Neut|Number=Sing|Tense=Past	24	comp:aux	_	_
+24	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	comp:obj	_	_
+25	weswegen	weswegen	VERB	_	VerbForm=Fin	23	mod	_	_
+26	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	subj	_	_
+27	jetzt	jetzt	ADV	_	_	31	mod	_	_
+28	hier	hier	ADV	_	_	31	mod	_	_
+29	schön	schön	ADJ	_	Degree=Pos	31	mod	_	_
+30	warten	warten	VERB	_	VerbForm=Inf	31	comp:aux	_	_
+31	darf	dürfen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	comp:obj	_	_
+32	und	und	CCONJ	_	_	40	cc	_	_
+33	deswegen	deswegen	ADV	_	_	40	mod	_	_
+34	auch	auch	ADV	_	_	40	mod	_	_
+35	mal	mal	ADV	_	_	36	mod	_	_
+36	wieder	wieder	ADV	_	_	40	mod	_	_
+37	nicht	nicht	PART	_	_	40	mod	_	_
+38	zum	zum	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	40	comp:obl	_	_
+39	Training	Training	PROPN	_	Case=Acc|Gender=Neut|Number=Sing	38	comp:obj	_	_
+40	komme	kommen	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	conj	_	_
+
+# text = und es ist halt einfach auch mal wieder was richtig Dummes passiert
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	es	es	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+3	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	halt	halt	ADV	_	_	3	discourse	_	_
+5	einfach	einfach	ADJ	_	Degree=Pos	3	mod	_	_
+6	auch	auch	ADV	_	_	3	mod	_	_
+7	mal	mal	ADV	_	_	8	mod	_	_
+8	wieder	wieder	ADV	_	_	3	mod	_	_
+9	was	was	PRON	_	Number=Sing|PronType=Rel	11	det	_	_
+10	richtig	richtig	ADJ	_	Degree=Pos	11	mod	_	_
+11	Dummes	Dummes	PROPN	_	_	3	subj	_	_
+12	passiert	passieren	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+
+# text = es ist einfach einem Mann nur der Ball aus der Hand gefallen und deswegen ist halt ein Auto einem anderen Auto aufgefahren
+1	es	es	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+2	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	einfach	einfach	ADJ	_	Degree=Pos	2	mod	_	_
+4	einem	ein	DET	_	Definite=Ind|PronType=Art	5	det	_	_
+5	Mann	Mann	NOUN	_	_	12	comp:obj	_	_
+6	nur	nur	ADV	_	_	2	mod	_	_
+7	der	d	DET	_	Definite=Def|PronType=Art	8	det	_	_
+8	Ball	Ball	NOUN	_	_	2	subj	_	_
+9	aus	aus	ADP	_	_	12	comp:obl	_	_
+10	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Hand	Hand	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	9	comp:obj	_	_
+12	gefallen	gefallen	VERB	_	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	deswegen	deswegen	ADV	_	_	3	mod	_	_
+3	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	halt	halt	ADV	_	_	3	discourse	_	_
+5	ein	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Auto	Auto	NOUN	_	Case=Acc|Gender=Masc,Neut|Number=Sing	3	subj	_	_
+7	einem	ein	DET	_	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+8	anderen	ander	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	9	mod	_	_
+9	Auto	Auto	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	10	comp:obj	_	_
+10	aufgefahren	auffahren	VERB	_	Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+
+# text = ja das war es auch eigentlich schon
+1	ja	ja	ADV	_	_	3	discourse	_	_
+2	das	die	PRON	_	Case=Nom|PronType=Dem	3	subj	_	_
+3	war	sein	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	es	es	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	comp:pred	_	_
+5	auch	auch	ADV	_	_	3	mod	_	_
+6	eigentlich	eigentlich	ADJ	_	Degree=Pos	3	mod	_	_
+7	schon	schon	ADV	_	_	3	mod	_	_
+

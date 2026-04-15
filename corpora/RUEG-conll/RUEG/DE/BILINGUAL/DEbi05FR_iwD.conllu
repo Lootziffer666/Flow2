@@ -1,0 +1,169 @@
+# text = Hi Mara
+1	Hi	hi	PROPN	NGIRR	_	2	discourse	_	_
+2	Mara	Mara	PROPN	NE	_	0	root	_	_
+
+# text = :)
+1	:)	:)	PUNCT	EMO	_	0	root	_	_
+
+# text = Sorry , dass ich zu spät bin ...
+1	Sorry	sorry	PROPN	NGIRR	Case=Nom|Number=Sing	0	root	_	_
+2	,	,	PUNCT	$	_	1	punct	_	_
+3	dass	dass	SCONJ	KOUS	_	1	comp:obj	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	subj	_	_
+5	zu	zu	ADV	PTKZU	_	6	mod	_	_
+6	spät	spät	ADJ	ADJD	Degree=Pos	7	comp:pred	_	_
+7	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
+8	...	...	PUNCT	$	_	1	discourse	_	_
+
+# text = Ich habe gerade an der Uni einen Unfall beobachtet .
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	an	an	ADP	APPR	_	9	mod	_	_
+5	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Uni	Uni	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	comp:obj	_	_
+7	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Unfall	Unfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	comp:obj	_	_
+9	beobachtet	beobachten	VERB	VVPP	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+10	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Ein Mann ist am Uni-Parkplatz hergelaufen , wahrscheinlich mit seiner Freundin mit einem Kinderwagen .
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	3	subj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	am	an	ADJ	APPRART	Degree=Pos	6	mod	_	_
+5	Uni-Parkplatz	Uni-Parkplatz	NOUN	NN	_	4	comp:obj	_	_
+6	hergelaufen	herlaufen	VERB	VVPP	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+7	,	,	PUNCT	$	_	3	punct	_	_
+8	wahrscheinlich	wahrscheinlich	ADJ	ADV	Degree=Pos	9	mod	_	_
+9	mit	mit	ADP	APPR	_	6	mod	_	_
+10	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	Freundin	Freundin	NOUN	NN	Case=Dat|Number=Plur	9	comp:obj	_	_
+12	mit	mit	ADP	APPR	_	11	mod	_	_
+13	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	14	det	_	_
+14	Kinderwagen	Kinderwagen	VERB	NN	VerbForm=Inf	12	comp:obj	_	_
+15	.	.	PUNCT	$.	_	12	punct	_	_
+
+# text = Er hatte einen Ball dabei , der ihm dann auf einmal runtergefallen und auf den Parkplatz gerollt ist .
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+2	hatte	dabeihaben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	comp:obj	_	_
+5	dabei	_	ADV	PTKVZ	_	2	compound@prt	_	_
+6	,	,	PUNCT	$	_	2	punct	_	_
+7	der	d	PRON	PRELS	Case=Nom|PronType=Rel	12	subj	_	_
+8	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	comp:obl	_	_
+9	dann	dann	ADV	ADV	_	12	mod	_	_
+10	auf	auf	ADP	APPR	_	12	mod	_	_
+11	einmal	einmal	ADV	ADV	_	10	fixed	_	_
+12	runtergefallen	runterfallen	ADJ	VVPP	Case=Dat|Degree=Pos|Number=Plur|Tense=Past	2	mod@relcl	_	_
+13	und	und	CCONJ	KON	_	18	cc	_	_
+14	auf	auf	ADP	APPR	_	17	comp:obl	_	_
+15	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Parkplatz	Parkplatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	comp:obj	_	_
+17	gerollt	rollen	ADJ	VVPP	Degree=Pos|Tense=Past	18	comp:aux	_	_
+18	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+19	.	.	PUNCT	$	_	2	punct	_	_
+
+# text = Eine Frau mit Hund hatte gerade dort Einkäufe in den Kofferraum gepackt .
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	subj	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	Hund	Hund	NOUN	NN	Case=Dat|Number=Sing	3	comp:obj	_	_
+5	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	gerade	gerade	ADV	ADV	_	5	mod	_	_
+7	dort	dort	ADV	ADV	_	5	mod	_	_
+8	Einkäufe	Einkäufe	NOUN	NN	_	12	comp:obj	_	_
+9	in	in	ADP	APPR	_	12	comp:obl	_	_
+10	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Kofferraum	Kofferraum	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	comp:obj	_	_
+12	gepackt	packen	VERB	VVPP	Tense=Past|VerbForm=Part	5	comp:aux	_	_
+13	.	.	PUNCT	$.	_	5	punct	_	_
+
+# text = Der Hund hatte sich glaube ich wegen des Balls erschreckt und plötzlich laut gebellt .
+1	Der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs	10	comp:obj	_	_
+5	glaube	glauben	VERB	VVFIN	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	subj	_	_
+7	wegen	wegen	ADP	APPR	_	10	mod	_	_
+8	des	d	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Balls	Ball	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	7	comp:obj	_	_
+10	erschreckt	erschrecken	VERB	VVPP	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+11	und	und	CCONJ	KON	_	14	cc	_	_
+12	plötzlich	plötzlich	ADJ	ADJD	Degree=Pos	14	mod	_	_
+13	laut	laut	ADJ	ADJD	Degree=Pos	14	mod	_	_
+14	gebellt	bellen	VERB	VVPP	Tense=Past|VerbForm=Part	3	conj	_	_
+15	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Genau zu dem Zeitpunkt ist ein Auto an dieser Stelle auf dem Parkplatz gefahren
+1	Genau	genau	ADV	ADV	Case=Nom	2	mod	_	_
+2	zu	zu	ADP	APPR	_	14	mod	_	_
+3	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Zeitpunkt	Zeitpunkt	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	comp:obj	_	_
+5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	ein	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
+7	Auto	Auto	NOUN	NN	_	5	subj	_	_
+8	an	an	ADP	APPR	_	14	mod	_	_
+9	dieser	diese	PRON	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	Stelle	Stelle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	comp:obj	_	_
+11	auf	auf	ADP	APPR	_	14	comp:obl	_	_
+12	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Parkplatz	Parkplatz	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	11	comp:obj	_	_
+14	gefahren	fahren	VERB	VVPP	Tense=Past|VerbForm=Part	5	comp:aux	_	_
+
+# text = und hat wahrscheinlich wegen des Balles ganz krass bremsen müssen .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	wahrscheinlich	wahrscheinlich	ADJ	ADV	Degree=Pos	4	mod	_	_
+4	wegen	wegen	ADP	APPR	_	9	mod	_	_
+5	des	d	DET	ART	Definite=Def|PronType=Art	6	det	_	_
+6	Balles	Ball	NOUN	NN	_	4	comp:obj	_	_
+7	ganz	ganz	ADJ	PTKIFG	Degree=Pos	8	mod	_	_
+8	krass	krass	NOUN	ADJD	Case=Nom|Number=Plur	9	mod	_	_
+9	bremsen	bremsen	VERB	VVINF	Tense=Pres|VerbForm=Inf	10	comp:aux	_	_
+10	müssen	müssen	AUX	VVFIN	VerbForm=Inf	2	comp:aux	_	_
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Doof gelaufen , weil das Auto dahinter ihm dann reingefahren ist .
+1	Doof	doof	PROPN	ADJD	_	2	mod	_	_
+2	gelaufen	laufen	VERB	VVPP	Tense=Past|VerbForm=Part	0	root	_	_
+3	,	,	PUNCT	$	_	2	punct	_	_
+4	weil	weil	SCONJ	KOUS	_	2	mod	_	_
+5	das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Auto	Auto	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	subj	_	_
+7	dahinter	dahinter	ADP	ADV	_	6	mod	_	_
+8	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	comp:obj	_	_
+9	dann	dann	ADV	ADV	_	11	mod	_	_
+10	reingefahren	reinfahren	VERB	VVPP	Tense=Past|VerbForm=Fin	11	comp:aux	_	_
+11	ist	sein	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Sie haben dann die Polizei gerufen .
+1	Sie	Sie	PRON	PPER	Case=Nom|Person=2|PronType=Prs	2	subj	_	_
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dann	dann	ADV	ADV	_	2	mod	_	_
+4	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	Polizei	Polizei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	comp:obj	_	_
+6	gerufen	rufen	VERB	VVPP	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Weil ich alles gesehen habe , wollte ich dann auch noch auf die Polizei warten ...
+1	Weil	weil	SCONJ	KOUS	_	15	mod	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	subj	_	_
+3	alles	alle	PRON	PIS	Case=Acc|PronType=Tot	4	comp:obj	_	_
+4	gesehen	sehen	VERB	VVPP	VerbForm=Part	5	comp:aux	_	_
+5	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
+6	,	,	PUNCT	$	_	1	punct	_	_
+7	wollte	wollen	VERB	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	subj	_	_
+9	dann	dann	ADV	ADV	_	7	mod	_	_
+10	auch	auch	ADV	PTKIFG	_	7	mod	_	_
+11	noch	noch	ADV	PTKMWL	_	10	mod	_	_
+12	auf	auf	ADP	APPR	_	15	comp:obl	_	_
+13	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Polizei	Polizei	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	comp:obj	_	_
+15	warten	warten	VERB	VVINF	Tense=Pres|VerbForm=Inf	7	comp:aux	_	_
+16	...	...	PUNCT	$	_	7	discourse	_	_
+

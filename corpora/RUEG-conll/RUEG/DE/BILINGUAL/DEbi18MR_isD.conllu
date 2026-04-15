@@ -1,0 +1,167 @@
+# text = hi Dicker
+1	hi	hi	X	NGIRR	_	2	discourse	_	_
+2	Dicker	Dicker	NOUN	NN	_	0	root	_	_
+
+# text = ich habe hier gerade einen miesen Unfall beobachtet
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	hier	hier	ADV	ADV	_	2	mod	_	_
+4	gerade	gerade	ADV	ADV	_	2	mod	_	_
+5	einen	ein	DET	ART	_	7	det	_	_
+6	miesen	mies	NOUN	ADJA	_	7	mod	_	_
+7	Unfall	Unfall	NOUN	NN	_	8	comp:obj	_	_
+8	beobachtet	beobachten	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = und zwar laufe ich hier gerade über so einen Parkplatz
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	zwar	zwar	ADV	ADV	_	3	mod	_	_
+3	laufe	laufen	VERB	VVFIN	_	0	root	_	_
+4	ich	ich	PRON	PPER	_	3	subj	_	_
+5	hier	hier	ADV	ADV	_	3	mod	_	_
+6	gerade	gerade	ADV	ADV	_	3	mod	_	_
+7	über	über	ADP	APPR	_	3	comp:obl	_	_
+8	so	so	ADV	PTKIFG	_	10	mod	_	_
+9	einen	ein	DET	ART	_	10	det	_	_
+10	Parkplatz	Parkplatz	NOUN	NN	_	7	comp:obj	_	_
+
+# text = und da kommt halt so ein Typ mitm Ball und einer Käppi
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	kommt	kommen	VERB	VVFIN	_	0	root	_	_
+4	halt	halt	ADV	PTKMA	_	3	discourse	_	_
+5	so	so	ADV	PTKIFG	_	7	mod	_	_
+6	ein	ein	DET	ART	_	7	det	_	_
+7	Typ	Typ	NOUN	NN	_	3	subj	_	_
+8	mitm	mit	PROPN	APPRART	_	7	mod	_	_
+9	Ball	Ball	PROPN	NN	_	8	comp:obj	_	_
+10	und	und	CCONJ	KON	_	12	cc	_	_
+11	einer	ein	DET	ART	_	12	det	_	_
+12	Käppi	Käppi	NOUN	NN	_	9	conj	_	_
+
+# text = und der Hintere fährt ihm voll drauf
+1	läuft	laufen	VERB	VVFIN	_	0	root	_	_
+2	da	da	ADV	ADV	_	1	mod	_	_
+3	entlang	entlang	ADP	PTKVZ	_	1	compound@prt	_	_
+4	mit	mit	ADP	APPR	_	1	mod	_	_
+5	seiner	sein	DET	PPOSAT	_	6	det	_	_
+6	Mutter	Mutter	NOUN	NN	_	4	comp:obj	_	_
+7	oder	oder	CCONJ	KON	_	8	cc	_	_
+8	so	so	ADV	ADV	_	6	conj	_	_
+9	vermutlich	vermutlich	ADJ	ADV	_	6	mod	_	_
+
+# text = und der Hintere fährt ihm voll drauf
+1	und	und	CCONJ	KON	_	9	cc	_	_
+2	auf	auf	ADP	APPR	_	9	orphan	_	_
+3	der	d	DET	ART	_	5	det	_	_
+4	anderen	ander	ADJ	PIDAT	_	5	mod	_	_
+5	Seite	Seite	NOUN	NN	_	2	comp:obj	_	_
+6	dann	dann	ADV	ADV	_	9	mod	_	_
+7	halt	halt	VERB	PTKMA	_	9	discourse	_	_
+8	eine	ein	DET	ART	_	9	det	_	_
+9	Frau	Frau	NOUN	NN	_	0	root	_	_
+10	mit	mit	ADP	APPR	_	9	mod	_	_
+11	ihren	ihr	DET	PPOSAT	_	12	det	_	_
+12	Einkäufen	Einkauf	NOUN	NN	_	10	comp:obj	_	_
+13	die	d	DET	PRELS	_	19	comp:obj	_	_
+14	sie	sie	PRON	PPER	_	19	subj	_	_
+15	gerade	gerade	ADV	ADV	_	19	mod	_	_
+16	in	in	ADP	APPR	_	19	comp:obl	_	_
+17	ihr	ihr	DET	PPOSAT	_	18	det	_	_
+18	Auto	Auto	NOUN	NN	_	16	comp:obj	_	_
+19	packt	packen	VERB	VVFIN	_	12	mod@relcl	_	_
+20	und	und	CCONJ	KON	_	22	cc	_	_
+21	einem	ein	DET	ART	_	22	det	_	_
+22	Hund	Hund	NOUN	NN	_	12	conj	_	_
+23	den	d	DET	PRELS	_	28	comp:obj	_	_
+24	sie	sie	PRON	PPER	_	28	subj	_	_
+25	an	an	ADP	APPR	_	28	comp:obl	_	_
+26	der	d	DET	ART	_	27	det	_	_
+27	Leine	Leine	PROPN	NN	_	25	comp:obj	_	_
+28	festhält	festhaltne	VERB	VVFIN	_	22	mod@relcl	_	_
+
+# text = so und als der Junge nun über den Parkplatz laufen will fällt dem so übelst dumm der Ball aus der Hand
+1	so	so	ADV	ADV	_	12	discourse	_	_
+2	und	und	CCONJ	KON	_	12	cc	_	_
+3	als	als	ADP	KON	_	12	mod	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Junge	Junge	NOUN	NGIRR	_	11	subj	_	_
+6	nun	nun	ADV	ADV	_	11	mod	_	_
+7	über	über	ADP	APPR	_	10	comp:obl	_	_
+8	den	d	DET	ART	_	9	det	_	_
+9	Parkplatz	Parkplatz	NOUN	NN	_	7	comp:obj	_	_
+10	laufen	laufen	VERB	VVINF	_	11	comp:aux	_	_
+11	will	wollen	AUX	VMFIN	_	3	comp:obj	_	_
+12	fällt	fallen	VERB	VVFIN	_	0	root	_	_
+13	dem	d	DET	PDS	_	12	comp:obj	_	_
+14	so	so	ADV	ADV	_	15	mod	_	_
+15	übelst	übel	ADV	ADJD	_	16	mod	_	_
+16	dumm	dumm	ADJ	ADJD	_	12	mod	_	_
+17	der	d	DET	ART	_	18	det	_	_
+18	Ball	Ball	PROPN	NN	_	12	subj	_	_
+19	aus	aus	ADP	APPR	_	12	comp:obl	_	_
+20	der	d	DET	ART	_	21	det	_	_
+21	Hand	Hand	NOUN	NN	_	19	comp:obj	_	_
+
+# text = und der Hund läuft natürlich komplett hinterher
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	4	subj	_	_
+4	läuft	laufen	VERB	VVFIN	_	0	root	_	_
+5	natürlich	natürlich	ADJ	ADV	_	4	mod	_	_
+6	komplett	komplett	ADJ	ADJD	_	4	mod	_	_
+7	hinterher	hinterher	ADV	PTKVZ	_	4	compound@prt	_	_
+
+# text = und der Frau fallen alle Sachen aus der Hand
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Frau	Frau	NOUN	NN	_	4	comp:obj	_	_
+4	fallen	fallen	VERB	VVINF	_	0	root	_	_
+5	alle	alle	PRON	PIAT	_	6	mod	_	_
+6	Sachen	Sache	NOUN	NN	_	4	subj	_	_
+7	aus	aus	ADP	APPR	_	4	comp:obl	_	_
+8	der	d	DET	ART	_	9	det	_	_
+9	Hand	Hand	NOUN	NN	_	7	comp:obj	_	_
+
+# text = so in dem Moment kamen halt diese zwei Autos auf den auf den Parkplatz gefahren
+1	so	so	ADV	PTKIFG	_	5	discourse	_	_
+2	in	in	ADP	APPR	_	5	mod	_	_
+3	dem	d	DET	ART	_	4	det	_	_
+4	Moment	Moment	NOUN	NN	_	2	comp:obj	_	_
+5	kamen	kommen	VERB	VVFIN	_	0	root	_	_
+6	halt	halt	ADV	PTKMA	_	5	discourse	_	_
+7	diese	diese	PRON	PDAT	_	9	det	_	_
+8	zwei	zwei	NUM	CARD	_	9	mod	_	_
+9	Autos	Auto	NOUN	NN	_	5	subj	_	_
+10	auf	auf	ADP	APPR	_	12	reparandum	_	_
+11	den	d	DET	ART	_	10	comp:obj	_	_
+12	auf	auf	ADP	APPR	_	15	comp:obl	_	_
+13	den	d	DET	ART	_	14	det	_	_
+14	Parkplatz	Parkplatz	NOUN	NN	_	12	comp:obj	_	_
+15	gefahren	fahren	VERB	VVPP	_	5	comp:obl	_	_
+
+# text = und der Vordere muss will natürlich den Jungen nicht umfahren
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Vordere	Vordere	ADJ	NN	_	5	subj	_	_
+4	muss	müssen	AUX	VMFIN	_	5	reparandum	_	_
+5	will	wollen	AUX	VMFIN	_	0	root	_	_
+6	natürlich	natürlich	ADJ	ADV	_	5	mod	_	_
+7	den	d	DET	ART	_	8	det	_	_
+8	Jungen	Junge	NOUN	NN	_	10	comp:obj	_	_
+9	nicht	nicht	PART	PTKNEG	_	5	mod	_	_
+10	umfahren	umfahren	VERB	VVINF	_	5	comp:aux	_	_
+
+# text = muss abbremsen
+1	muss	müssen	AUX	VMFIN	_	0	root	_	_
+2	abbremsen	abbremsen	VERB	VVINF	_	1	comp:aux	_	_
+
+# text = und der Hintere fährt ihm voll drauf
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Hintere	Hintere	ADJ	NN	_	4	subj	_	_
+4	fährt	fahren	VERB	VVFIN	_	0	root	_	_
+5	ihm	er	PRON	PPER	_	4	comp:obj	_	_
+6	voll	voll	ADJ	PTKIFG	_	4	mod	_	_
+7	drauf	drauf	ADV	PTKVZ	_	4	compound@prt	_	_
+
+

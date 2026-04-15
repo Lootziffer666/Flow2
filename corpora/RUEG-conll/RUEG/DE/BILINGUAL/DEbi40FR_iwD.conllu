@@ -1,0 +1,110 @@
+1	Hi	hi	PROPN	NGIRR	Case=Nom|Number=Sing	2	discourse	_	_
+2	Maria	Maria	PROPN	NE	_	0	root	_	_
+3	,	,	PUNCT	$,	_	2	punct	_	_
+
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	etwas	etwas	ADV	PIS	_	5	comp:obj	_	_
+5	beobachtet	beobachten	VERB	VVPP	VerbForm=Part	2	comp:aux	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	haarscharf	haarscharf	ADJ	ADJD	Degree=Pos	2	comp:pred	_	_
+4	.	.	PUNCT	$.	_	2	punct	_	_
+5	:hushed_face:	😯	SYM	EMO	_	2	discourse	_	_
+
+1	Ein	Ein	DET	NE	Definite=Ind|PronType=Art	2	det	_	_
+2	Typ	Typ	NOUN	NN	_	3	subj	_	_
+3	hätte	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	beinahe	beinahe	ADV	ADV	_	3	mod	_	_
+5	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	comp:obj	_	_
+7	überfahren	überfahren	VERB	VVPP	VerbForm=Part	3	comp:aux	_	_
+8	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	Boah	boah	VERB	NGIRR	VerbForm=Fin	4	discourse	_	_
+2	...	...	PUNCT	$(	_	4	discourse	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	_
+4	kann	k�nnen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	comp:obj	_	_
+6	schon	schon	ADV	ADV	_	7	mod	_	_
+7	jetzt	jetzt	ADV	ADV	_	4	mod	_	_
+8	nicht	nicht	PART	PTKNEG	_	4	mod	_	_
+9	mehr	mehr	ADV	PTKMWL	_	8	mod	_	_
+10	korrekt	korrekt	ADJ	ADJA	Degree=Pos	4	mod	_	_
+11	an	an	ADP	APPR	_	13	mod	_	_
+12	alles	alle	PRON	PIS	Case=Acc|PronType=Tot	11	comp:obj	_	_
+13	erinnern	erinnern	VERB	VVINF	VerbForm=Fin	4	comp:aux	_	_
+14	,	,	PUNCT	$,	_	4	punct	_	_
+
+1	alles	alle	PRON	PIS	Case=Acc|PronType=Tot	2	subj	_	_
+2	ging	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	so	so	ADV	PTKIFG	_	4	mod	_	_
+4	schnell	schnell	ADJ	ADJD	Degree=Pos	2	mod	_	_
+5	.	.	PUNCT	$.	_	2	punct	_	_
+6	:see-no-evil_monkey:	🙈	SYM	EMO	_	2	discourse	_	_
+
+1	Ein	Ein	DET	NE	Definite=Ind|PronType=Art	2	det	_	_
+2	Fußball	Fußball	NOUN	NN	_	3	subj	_	_
+3	rollte	rollen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	vors	vor	PROPN	APPRART	Case=Dat|Gender=Masc|Number=Plur	3	comp:obl	_	_
+5	Auto	Auto	NOUN	NN	_	4	comp:obj	_	_
+6	.	.	PUNCT	$.	_	3	punct	_	_
+7	:soccer_ball::automobile:	⚽🚗	SYM	EMO	_	3	discourse	_	_
+
+1	Eine	Ein	DET	NE	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	subj	_	_
+3	verlor	verlieren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	Einkauf	Einkauf	NOUN	NN	_	3	comp:obj	_	_
+6	,	,	PUNCT	$,	_	3	punct	_	_
+
+1	alles	alle	PRON	PIS	Case=Nom|PronType=Tot	2	subj	_	_
+2	rollte	rollen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	ebenfalls	ebenfalls	ADV	ADV	_	2	mod	_	_
+4	vors	vor	PROPN	APPRART	Case=Dat|Gender=Masc|Number=Plur	2	comp:obl	_	_
+5	Auto	Auto	PROPN	NN	_	4	comp:obj	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Typ	Typ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	konnte	k�nnen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	noch	noch	ADV	PTKMWL	_	3	mod	_	_
+5	gerade	gerade	ADV	ADV	_	3	mod	_	_
+6	so	so	ADV	PTKIFG	_	5	fixed	_	_
+7	rechtzeitig	rechtzeitig	ADJ	ADJD	Degree=Pos	3	mod	_	_
+8	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Wagen	Wagen	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	comp:obj	_	_
+10	anhalten	anhalten	VERB	VVINF	VerbForm=Part	3	comp:aux	_	_
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	Zum	zu	NOUN	APPRART	_	5	mod	_	_
+2	Glück	Glück	PROPN	NE	_	1	comp:obj	_	_
+3	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	niemand	niemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Neg	3	subj@pass	_	_
+5	verletzt	verletzen	VERB	ADJD	VerbForm=Part	3	comp:aux@pass	_	_
+6	.	.	PUNCT	$.	_	3	punct	_	_
+7	:hugging_face::four_leaf_clover:	🤗🍀	SYM	EMO	_	3	discourse	_	_
+
+1	Dabei	Dabei	ADV	ADV	_	2	mod	_	_
+2	krachte	krachen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+4	aber	aber	ADV	ADV	_	2	mod	_	_
+5	gegen	gegen	ADP	APPR	_	2	comp:obl	_	_
+6	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+7	anderes	andere	ADJ	PIDAT	Case=Acc|Degree=Cmp|Gender=Masc,Neut|Number=Sing	8	mod	_	_
+8	Auto	Auto	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	5	comp:obj	_	_
+9	,	,	PUNCT	$,	_	2	punct	_	_
+10	glaube	glauben	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	2	parataxis	_	_
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	subj	_	_
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	:automobile::taxi:	🚗🚕	_	EMO	PronType=Dem	3	discourse	_	_
+2	Das	Dies	PRON	PDS	Case=Nom|PronType=Dem	3	subj	_	_
+3	wird	werden	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	teuer	teuer	ADJ	ADJD	Degree=Pos	3	comp:pred	_	_
+5	...	...	PUNCT	$(	_	3	discourse	_	_
+6	:see-no-evil_monkey:	🙈	SYM	EMO	_	3	discourse	_	_
+

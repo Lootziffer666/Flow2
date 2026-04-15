@@ -1,0 +1,130 @@
+# text = hi
+1	hi	hi	X	NGIRR	_	0	root	_	_
+
+# text = wie geht es
+1	wie	wie	ADP	PWAV	_	2	mod	_	_
+2	geht	gehen	ADV	VVFIN	_	0	root	_	_
+3	es	es	null	PPER	_	2	subj@expl	_	_
+
+# text = also ich hab da gerade ein Unfall gesehen
+1	also	also	ADV	SEDM	_	3	discourse	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	habe	haben	AUX	VAFIN	_	0	root	_	_
+4	da	da	ADV	ADV	_	3	mod	_	_
+5	gerade	gerade	ADV	PTKIFG	_	3	mod	_	_
+6	ein	ein	NUM	ART	NumType=Card	7	mod	_	_
+7	Unfall	Unfall	NOUN	NN	Case=Acc|Number=Sing	8	comp:obj	_	_
+8	gesehen	sehen	VERB	VVPP	VerbForm=Part	3	comp:aux	_	_
+
+# text = und äh da ist so ein Auto äh in ein anderes gefahren
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	ADJ	NGHES	Degree=Pos	4	discourse	_	_
+3	da	da	ADV	ADV	_	4	mod	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	so	so	ADV	ADV	_	7	mod	_	_
+6	ein	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
+7	Auto	Auto	NOUN	NN	_	4	subj	_	_
+8	äh	äh	ADJ	NGHES	Degree=Pos	4	discourse	_	_
+9	in	in	ADP	APPR	_	12	comp:obl	_	_
+10	ein	ein	DET	ART	Definite=Ind|PronType=Art	11	det	_	_
+11	anderes	anderes	ADJ	PIDS	Degree=Pos	9	comp:obj	_	_
+12	gefahren	fahren	NOUN	VVPP	_	4	comp:aux	_	_
+
+# text = aber da war so ein Mann davor
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	so	so	ADV	ADV	_	6	mod	_	_
+5	ein	ein	DET	ART	Definite=Ind|PronType=Art	6	det	_	_
+6	Mann	Mann	NOUN	NN	_	3	subj	_	_
+7	davor	davor	ADV	ADV	_	3	comp:pred	_	_
+
+# text = und der hat ein Fussball ja dem ist ein also der hat den Fussball so mit so wie ein so basketball äh benutzt
+1	und	und	CCONJ	KON	_	12	cc	_	_
+2	der	d	PRON	PDS	Case=Nom|PronType=Dem	3	subj	_	_
+3	hat	haben	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	8	reparandum	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Fussball	Fußball	NOUN	NN	_	3	comp:obj	_	_
+6	ja	ja	ADV	NGIRR	_	12	discourse	_	_
+7	dem	d	PRON	PDS	Case=Dat|PronType=Dem	8	comp:obl	_	_
+8	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	reparandum	_	_
+9	ein	ein	DET	ART	Definite=Ind|PronType=Art	8	subj	_	_
+10	also	also	ADV	SEDM	_	12	discourse	_	_
+11	der	d	PRON	PDS	Case=Nom|PronType=Dem	12	subj	_	_
+12	hat	haben	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Fussball	Fußball	PROPN	NN	Case=Acc|Number=Sing	23	comp:obj	_	_
+15	so	so	ADV	ADV	_	17	reparandum	_	_
+16	mit	mit	ADP	APPR	_	15	mod	_	_
+17	so	so	ADV	ADV	_	23	mod	_	_
+18	wie	wie	ADP	KOKOM	_	17	mod	_	_
+19	ein	ein	DET	ART	Definite=Ind|PronType=Art	21	det	_	_
+20	so	so	ADV	ADV	_	21	mod	_	_
+21	basketball	basketball	PROPN	FM	Case=Acc|Number=Sing	18	comp:obj	_	_
+22	äh	äh	PROPN	NGHES	Case=Nom|Number=Sing	12	discourse	_	_
+23	benutzt	benutzen	VERB	VVPP	Number=Sing|Person=3|VerbForm=Fin	12	comp:aux	_	_
+
+# text = und dann ist ihm weggeflogen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	_
+5	weggeflogen	wegfliegen	ADJ	VVPP	Degree=Pos	3	comp:aux	_	_
+
+# text = und dann hat ist es vor das Auto gerollt
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	dann	dann	ADV	ADV	_	4	mod	_	_
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	reparandum	_	_
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
+6	vor	vor	ADP	APPR	_	9	comp:obl	_	_
+7	das	d	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Auto	Auto	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	comp:obj	_	_
+9	gerollt	rollen	VERB	VVPP	Number=Sing|Person=3|VerbForm=Fin	4	comp:aux	_	_
+
+# text = und dann ist das Auto hinter dem eigentlichen Auto dann dagegen geknallt
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Auto	Auto	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	subj	_	_
+6	hinter	hinter	ADP	APPR	_	5	mod	_	_
+7	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+8	eigentlichen	eigentlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	9	mod	_	_
+9	Auto	Auto	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	6	comp:obj	_	_
+10	dann	dann	ADV	ADV	_	3	mod	_	_
+11	dagegen	dagegen	ADV	ADV	_	12	mod	_	_
+12	geknallt	knallen	ADJ	VVPP	_	3	comp:aux	_	_
+
+# text = und ist ein kleiner Schaden entstanden
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+4	kleiner	klein	ADJ	ADJA	Degree=Cmp,Pos	5	mod	_	_
+5	Schaden	Schaden	NOUN	NN	_	2	subj	_	_
+6	entstanden	entstehen	VERB	VVPP	Number=Plur|Person=3|VerbForm=Fin	2	comp:aux	_	_
+
+# text = und das war voll laut
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	das	d	PRON	PDS	Case=Nom|PronType=Dem	3	subj	_	_
+3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	voll	voll	ADJ	PTKIFG	Degree=Pos	5	mod	_	_
+5	laut	laut	ADJ	ADJD	Degree=Pos	3	comp:pred	_	_
+
+# text = weil der Hund hat dann auch gebellt und so
+1	weil	weil	SCONJ	KOUS	_	4	discourse	_	_
+2	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+4	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	dann	dann	ADV	ADV	_	4	mod	_	_
+6	auch	auch	ADV	PTKIFG	_	4	mod	_	_
+7	gebellt	bellen	VERB	VVPP	VerbForm=Part	4	comp:aux	_	_
+8	und	und	CCONJ	KON	_	9	cc	_	_
+9	so	so	ADV	ADV	_	4	parataxis	_	_
+
+# text = ist voll lustig
+1	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	voll	voll	ADJ	PTKIFG	Degree=Pos	3	mod	_	_
+3	lustig	lustig	ADV	ADJD	_	1	comp:pred	_	_
+
+

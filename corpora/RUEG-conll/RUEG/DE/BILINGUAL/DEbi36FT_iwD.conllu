@@ -1,0 +1,109 @@
+1	ey	ey	PROPN	NGIRR	_	4	discourse	_	_
+2	,	,	PUNCT	$,	_	4	punct	_	_
+3	hier	hier	ADV	ADV	_	4	mod	_	_
+4	ist	sein	AUX	VAFIN	_	0	root	_	_
+5	gerade	gerade	ADV	ADV	_	4	mod	_	_
+6	ein	ein	DET	ART	_	7	det	_	_
+7	Unfall	Unfall	NOUN	NN	_	4	subj	_	_
+8	passiert	passieren	VERB	VVPP	_	4	comp:aux	_	_
+
+1	da	da	ADV	ADV	_	2	mod	_	_
+2	waren	sein	VERB	VAFIN	_	0	root	_	_
+3	zwei	zwei	NUM	CARD	_	4	mod	_	_
+4	Leute	Leute	NOUN	NN	_	2	subj	_	_
+5	unterwegs	unterwegs	ADV	ADV	_	2	comp:pred	_	_
+6	mit	mit	ADP	APPR	_	2	mod	_	_
+7	einem	ein	DET	ART	_	8	det	_	_
+8	Kinderwagen	Kinderwagen	NOUN	NN	_	6	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Typ	Typ	NOUN	NN	_	4	subj	_	_
+4	hatte	haben	VERB	VAFIN	_	0	root	_	_
+5	einen	ein	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	4	comp:obj	_	_
+7	dabei	dabei	ADV	ADV	_	4	compound@prt	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	die	d	PRON	PDS	_	3	subj	_	_
+3	sind	sein	VERB	VAFIN	_	0	root	_	_
+4	auf	auf	ADP	APPR	_	7	comp:obl	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Parkplatz	Parkplatz	NOUN	NN	_	4	comp:obj	_	_
+7	zugelaufen	zulaufen	VERB	VVPP	_	3	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	comp:pred	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	eine	eine	DET	ART	_	5	det	_	_
+5	Frau	Frau	NOUN	NN	_	3	subj	_	_
+6	mit	mit	ADP	APPR	_	5	mod	_	_
+7	Hund	Hund	NOUN	NN	_	6	comp:obj	_	_
+8	,	,	PUNCT	$,	_	3	punct	_	_
+9	die	d	PRON	PRELS	_	15	subj	_	_
+10	ihren	ihr	DET	PPOSAT	_	11	det	_	_
+11	Einkauf	Einkauf	NOUN	NN	_	14	comp:obj	_	_
+12	ins	in	PROPN	APPRART	_	14	comp:obl	_	_
+13	Auto	Auto	PROPN	NN	_	12	comp:obj	_	_
+14	gepackt	packen	VERB	VVPP	_	15	comp:aux	_	_
+15	hat	haben	AUX	VAFIN	_	5	mod@relcl	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	dem	d	DET	ART	_	5	det	_	_
+5	Typ	Typ	NOUN	NN	_	11	comp:obj	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Ball	Ball	NOUN	NN	_	3	subj	_	_
+8	aus	aus	ADP	APPR	_	11	comp:obl	_	_
+9	der	d	DET	ART	_	10	det	_	_
+10	Hand	Hand	NOUN	NN	_	8	comp:obj	_	_
+11	gefallen	gefallen	VERB	VVINF	_	3	comp:aux	_	_
+12	und	und	CCONJ	KON	_	16	cc	_	_
+13	vor	vor	ADP	APPR	_	16	comp:obl	_	_
+14	ein	ein	DET	ART	_	15	det	_	_
+15	Auto	Auto	NOUN	NN	_	13	comp:obj	_	_
+16	gerollt	rollen	VERB	VVPP	_	3	conj	_	_
+17	,	,	PUNCT	$,	_	3	punct	_	_
+18	das	d	PRON	PDS	_	24	subj	_	_
+19	gerade	gerade	ADV	ADV	_	24	mod	_	_
+20	auf	auf	ADP	APPR	_	23	comp:obl	_	_
+21	den	d	DET	ART	_	22	det	_	_
+22	Parkplatz	Parkplatz	NOUN	NN	_	20	comp:obj	_	_
+23	gefahren	fahren	VERB	VVPP	_	24	comp:aux	_	_
+24	ist	sein	AUX	VAFIN	_	15	mod@relcl	_	_
+
+1	der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	7	subj	_	_
+3	natürlich	natürlich	ADJ	ADJD	_	7	mod	_	_
+4	direkt	direkt	ADJ	ADJD	_	7	mod	_	_
+5	zum	zu	NOUN	APPRART	_	7	comp:obl	_	_
+6	Ball	Ball	PROPN	NN	_	5	comp:obj	_	_
+7	gelaufen	laufen	VERB	VVPP	_	0	root	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	am	an	ADJ	APPRART	_	0	root	_	_
+3	rumbellen	rumbellen	VERB	NN	_	2	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	das	d	DET	ART	_	3	det	_	_
+3	Auto	Auto	NOUN	NN	_	4	subj	_	_
+4	hat	haben	VERB	VAFIN	_	0	root	_	_
+5	direkt	direkt	ADJ	ADJD	_	4	mod	_	_
+6	gebremst	bremsen	ADV	VVPP	_	4	comp:aux	_	_
+
+1	war	sein	VERB	VAFIN	_	0	root	_	_
+2	aber	aber	ADV	KON	_	1	mod	_	_
+3	leider	leider	ADV	ADV	_	1	mod	_	_
+4	ein	ein	DET	ART	_	6	det	_	_
+5	anderes	ander	ADJ	PIDAT	_	6	mod	_	_
+6	Auto	Auto	NOUN	NN	_	1	subj	_	_
+7	hinter	hinter	ADP	APPR	_	1	comp:pred	_	_
+8	dem	d	DET	ART	_	7	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	das	d	PRON	PDS	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	direkt	direkt	ADJ	ADJD	_	3	mod	_	_
+6	reingefahren	reinfahren	VERB	VVPP	_	3	comp:aux	_	_

@@ -1,0 +1,110 @@
+1	okay	okay	INTJ	ITJ	_	0	root	_	_
+2	so	so	INTJ	ITJ	_	1	discourse	_	_
+
+1	there	there	ADV	EX0	_	5	advmod	_	_
+2	was	be	AUX	VBD	_	5	cop	_	_
+3	this	this	DET	DT0	_	5	det	_	_
+4	car	car	NOUN	NN1	_	5	compound	_	_
+5	accident	accident	NOUN	NN1	_	0	root	_	_
+
+1	I	I	PRON	PNP	_	3	nsubj	_	_
+2	was	be	AUX	VBD	_	3	cop	_	_
+3	standing	stand	VERB	VVG	_	0	root	_	_
+4	here	here	ADV	AV0	_	3	advmod	_	_
+
+1	there	there	ADV	EX0	_	4	expl	_	_
+2	was	be	AUX	VBD	_	4	cop	_	_
+3	a	a	DET	AT0	_	4	det	_	_
+4	man	man	NOUN	NN1	_	0	root	_	_
+5	and	and	CCONJ	CJC	_	7	cc	_	_
+6	a	a	DET	AT0	_	7	det	_	_
+7	woman	woman	NOUN	NN1	_	10	conj	_	_
+8	who	who	PRON	PNQ	_	10	nsubj	_	_
+9	was	be	AUX	VBD	_	10	aux	_	_
+10	walking	walk	VERB	VVG	_	4	parataxis	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	a	a	DET	AT0	_	3	det	_	_
+3	guy	guy	NOUN	NN1	_	0	root	_	_
+4	that	that	SCONJ	CJT	_	6	mark	_	_
+5	was	be	AUX	VBD	_	6	cop	_	_
+6	bouncing	bounce	VERB	VVG	_	3	acl	_	_
+7	a	a	DET	AT0	_	8	det	_	_
+8	ball	ball	NOUN	NN1	_	6	obj	_	_
+
+1	in	in	ADP	PRP	_	3	case	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	midst	midst	NOUN	NN1	_	0	root	_	_
+4	of	of	ADP	PRF	_	7	case	_	_
+5	that	that	DET	DT0	_	7	det	_	_
+6	a	a	DET	AT0	_	7	det	_	_
+7	lady	lady	NOUN	NN1	_	3	nmod	_	_
+8	she	she	PRON	PNP	_	10	nsubj	_	_
+9	was	be	AUX	VBD	_	10	cop	_	_
+10	packing	pack	VERB	VVG	_	7	acl:relcl	_	_
+11	her	her	DET	DPS	_	12	det	_	_
+12	groceries	grocery	NOUN	NN2	_	10	obj	_	_
+13	in	in	ADP	PRP	_	15	case	_	_
+14	her	her	DET	DPS	_	15	det	_	_
+15	car	car	NOUN	NN1	_	10	obl	_	_
+16	with	with	ADP	PRP	_	18	case	_	_
+17	her	her	DET	DPS	_	18	det	_	_
+18	dog	dog	NOUN	NN1	_	10	obl	_	_
+
+1	the	the	DET	AT0	_	2	det	_	_
+2	guy	guy	NOUN	NN1	_	3	nsubj	_	_
+3	ended	end	VERB	VVD	_	0	root	_	_
+4	up	up	ADP	AVP	_	3	compound:prt	_	_
+5	dropping	drop	VERB	VVG	_	3	parataxis	_	_
+6	his	his	DET	DPS	_	7	det	_	_
+7	ball	ball	NOUN	NN1	_	5	obj	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	dog	dog	NOUN	NN1	_	4	nsubj	_	_
+4	ran	run	VERB	VVD	_	0	root	_	_
+5	after	after	ADP	PRP	_	6	case	_	_
+6	it	it	PRON	PNP	_	4	obl	_	_
+7	in	in	ADP	PRP	_	9	case	_	_
+8	the	the	DET	AT0	_	9	det	_	_
+9	middle	middle	NOUN	NN1	_	4	obl	_	_
+10	of	of	ADP	PRF	_	12	case	_	_
+11	the	the	DET	AT0	_	12	det	_	_
+12	street	street	NOUN	NN1	_	9	nmod	_	_
+
+1	and	and	CCONJ	CJC	_	6	cc	_	_
+2	then	then	ADV	AV0	_	6	advmod	_	_
+3	the	the	DET	AT0	_	5	det	_	_
+4	car	car	NOUN	NN1	_	5	compound	_	_
+5	accident	accident	NOUN	NN1	_	6	nsubj	_	_
+6	happened	happen	VERB	VVD	_	0	root	_	_
+
+1	the	the	DET	AT0	_	3	det	_	_
+2	white	white	ADJ	AJ0	_	3	amod	_	_
+3	car	car	NOUN	NN1	_	4	nsubj	_	_
+4	hit	hit	VERB	VVD	_	0	root	_	_
+5	the	the	DET	AT0	_	7	det	_	_
+6	blue	blue	ADJ	AJ0	_	7	amod	_	_
+7	car	car	NOUN	NN1	_	4	obj	_	_
+
+1	the	the	DET	AT0	_	2	det	_	_
+2	people	people	NOUN	NN0	_	0	root	_	_
+3	nobody	nobody	PRON	PNI	_	5	nsubj	_	_
+4	was	be	AUX	VBD	_	5	cop	_	_
+5	hurt	hurt	VERB	VVN	_	2	parataxis	_	_
+
+1	the	the	DET	AT0	_	2	det	_	_
+2	people	people	NOUN	NN0	_	3	nsubj	_	_
+3	got	get	VERB	VVD	_	0	root	_	_
+4	out	out	ADP	AVP	_	7	case	_	_
+5	of	of	ADP	PRF	_	7	case	_	_
+6	the	the	DET	AT0	_	7	det	_	_
+7	car	car	NOUN	NN1	_	3	obl	_	_
+
+1	called	call	VERB	VVD	_	0	root	_	_
+2	911	911	PROPN	NP0	_	1	obl:tmod	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	we	we	PRON	PNP	_	3	nsubj	_	_
+3	left	leave	VERB	VVD	_	0	root	_	_
+

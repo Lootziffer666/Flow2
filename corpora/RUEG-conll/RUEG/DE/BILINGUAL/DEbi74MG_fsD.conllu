@@ -1,0 +1,104 @@
+# text = ja ich habe äh die Familie gesehen wo eine dort ein Kind war
+1	ja	ja	ADV	NGIRR	_	3	discourse	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	äh	äh	ADV	NGHES	_	3	discourse	_	_
+5	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Familie	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	comp:obj	_	_
+7	gesehen	sehen	VERB	VVPP	VerbForm=Part	3	comp:aux	_	_
+8	wo	wo	ADV	PWAV	_	13	mod	_	_
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	subj	_	_
+10	dort	dort	ADV	ADV	_	9	mod	_	_
+11	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Kind	Kind	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	13	comp:pred	_	_
+13	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	mod@relcl	_	_
+
+# text = und äh der der Große also der Vater wahrscheinlich hat den Ball geschossen
+1	und	und	CCONJ	KON	_	10	cc	_	_
+2	äh	äh	ADJ	NGHES	Degree=Pos	10	discourse	_	_
+3	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	reparandum	_	_
+4	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Große	Große	PROPN	NN	_	10	subj	_	_
+6	also	also	ADV	SEDM	_	10	discourse	_	_
+7	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Vater	Vater	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+9	wahrscheinlich	wahrscheinlich	ADJ	ADV	Degree=Pos	8	mod	_	_
+10	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Ball	Ball	PROPN	NN	_	13	comp:obj	_	_
+13	geschossen	schießen	VERB	VVPP	VerbForm=Part	10	comp:aux	_	_
+
+# text = und äh gleichzeitig kamen zwei Autos
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	ADJ	NGHES	Degree=Pos	4	discourse	_	_
+3	gleichzeitig	gleichzeitig	ADJ	ADJD	Degree=Pos	4	mod	_	_
+4	kamen	kommen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+5	zwei	zwei	NUM	CARD	NumType=Card	6	mod	_	_
+6	Autos	Auto	NOUN	NNKON	Case=Acc|Number=Sing	4	subj	_	_
+
+# text = und es wurde fast ein Unfall passieren
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+3	wurde	werden	VERB	VVFIN	_	0	root	_	_
+4	fast	fast	ADV	PTKIFG	_	3	mod	_	_
+5	ein	ein	DET	ART	Definite=Ind|PronType=Art	6	det	_	_
+6	Unfall	Unfall	NOUN	NN	_	3	subj	_	_
+7	passieren	passieren	VERB	VVPP	Degree=Pos|Number=Plur|Person=3|VerbForm=Fin	3	comp:aux	_	_
+
+# text = äh an diesem Ort war auch äh eine Frau mit ihre äh Einkaufssachen
+1	äh	äh	ADJ	NGHES	Degree=Pos	5	discourse	_	_
+2	an	an	ADP	APPR	_	5	comp:pred	_	_
+3	diesem	diese	PRON	PDAT	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Dem	4	det	_	_
+4	Ort	Ort	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	comp:obj	_	_
+5	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	auch	auch	ADV	PTKIFG	_	5	mod	_	_
+7	äh	äh	ADJ	NGHES	Degree=Pos	5	discourse	_	_
+8	eine	ein	DET	ART	Definite=Ind|PronType=Art	9	det	_	_
+9	Frau	Frau	NOUN	NN	_	5	subj	_	_
+10	mit	mit	ADP	APPR	_	9	mod	_	_
+11	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+12	äh	äh	ADJ	NGHES	Degree=Pos	5	discourse	_	_
+13	Einkaufssachen	Einkaufssachen	NOUN	NN	_	10	comp:obj	_	_
+
+# text = und der Vater wollte von der Familie sie helfen und also die Sachen hochzuheben
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Vater	Vater	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+4	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	von	von	ADP	APPR	_	3	mod@poss	_	_
+6	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Familie	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	comp:obj	_	_
+8	sie	sie	PRON	PPER	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	comp:obj	_	_
+9	helfen	helfen	VERB	VVINF	VerbForm=Inf	4	comp:aux	_	_
+10	und	und	CCONJ	KON	_	14	reparandum	_	_
+11	also	also	ADV	SEDM	_	4	discourse	_	_
+12	die	d	DET	ART	Definite=Def|PronType=Art	13	det	_	_
+13	Sachen	Sache	NOUN	NN	_	14	comp:obj	_	_
+14	hochzuheben	hochzuheben	VERB	VVINF	Number=Plur|Person=3|VerbForm=Fin	9	comp:obl	_	_
+
+# text = und dieselbe Person also der Vater wollte auch wissen wie er auch wie er auch die andere zwei äh Personen mit Autos helfen konnte
+1	und	und	CCONJ	KON	_	7	cc	_	_
+2	dieselbe	dieselbe	PRON	PIAT	PronType=Dem	3	conj	_	_
+3	Person	Person	NOUN	NN	_	7	subj	_	_
+4	also	also	ADV	SEDM	_	7	discourse	_	_
+5	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Vater	Vater	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
+7	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	auch	auch	ADV	PTKIFG	_	7	mod	_	_
+9	wissen	wissen	VERB	VVINF	VerbForm=Inf	7	comp:aux	_	_
+10	wie	wie	PRON	PWS	_	11	mod	_	_
+11	er	er	PRON	PPER	Case=Nom|Number=Sing|PronType=Int	24	reparandum	_	_
+12	auch	auch	ADV	ADV	_	11	mod	_	_
+13	wie	wie	ADV	PWAV	_	24	mod	_	_
+14	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	subj	_	_
+15	auch	auch	ADV	ADV	_	24	mod	_	_
+16	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+17	andere	ander	ADJ	PIDS	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	mod	_	_
+18	zwei	zwei	NUM	CARD	NumType=Card	20	mod	_	_
+19	äh	äh	ADJ	NGHES	Degree=Pos	7	discourse	_	_
+20	Personen	Person	NOUN	NN	Case=Acc|Number=Plur	23	comp:obj	_	_
+21	mit	mit	ADP	APPR	_	20	mod	_	_
+22	Autos	Auto	NOUN	NN	Case=Dat|Number=Plur	21	comp:obj	_	_
+23	helfen	helfen	VERB	VVINF	VerbForm=Inf	24	comp:aux	_	_
+24	konnte	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	comp:obj	_	_
+

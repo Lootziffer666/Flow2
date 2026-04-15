@@ -1,0 +1,150 @@
+1	Gustav	Gustav	X	_	_	0	root	_	_
+2	..	..	PUNCT	SEDM	_	1	discourse	_	_
+
+1	Heute	heute	ADV	_	_	2	mod	_	_
+2	habe	haben	AUX	_	_	0	root	_	_
+3	ich	ich	PRON	_	_	2	subj	_	_
+4	etwas	etwas	ADV	_	_	6	det	_	_
+5	ziemlich	ziemlich	ADV	_	_	6	mod	_	_
+6	spannendes	spannende	ADJ	_	_	7	comp:obj	_	_
+7	erlebt	erleben	VERB	_	_	2	comp:aux	_	_
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+1	Ich	ich	PRON	_	_	3	subj	_	_
+2	habe	haben	AUX	_	_	3	reparandum	_	_
+3	habe	haben	AUX	_	_	0	root	_	_
+4	einen	ein	DET	_	_	7	det	_	_
+5	ziemlich	ziemlich	ADV	_	_	6	mod	_	_
+6	lange	lange	ADJ	_	_	7	mod	_	_
+7	Kettenreaktion	Kettenreaktion	NOUN	_	_	8	comp:obj	_	_
+8	erlebt	erleben	VERB	_	_	3	comp:aux	_	_
+9	,	,	PUNCT	_	_	3	punct	_	_
+10	die	d	PRON	_	_	16	subj	_	_
+11	schließlich	schließlich	ADV	_	_	16	mod	_	_
+12	zu	zu	ADP	_	_	15	comp:obl	_	_
+13	einem	ein	DET	_	_	14	det	_	_
+14	Unfall	Unfall	NOUN	_	_	12	comp:obj	_	_
+15	geführt	führen	VERB	_	_	16	comp:aux	_	_
+16	hat	haben	AUX	_	_	7	mod@relcl	_	_
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+1	Eine	ein	DET	_	_	2	det	_	_
+2	Frau	Frau	NOUN	_	_	3	subj	_	_
+3	hat	haben	VERB	_	_	0	root	_	_
+4	ihre	ihr	DET	_	_	5	det	_	_
+5	Einkäufe	Einkauf	NOUN	_	_	9	comp:obj	_	_
+6	in	in	ADP	_	_	9	comp:obl	_	_
+7	ihr	ihr	DET	_	_	8	det	_	_
+8	Auto	Auto	NOUN	_	_	6	comp:obj	_	_
+9	gepackt	packen	ADJ	_	_	3	comp:aux	_	_
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+1	Sie	Sie	PRON	_	_	2	subj	_	_
+2	hatte	haben	VERB	_	_	0	root	_	_
+3	einen	ein	DET	_	_	6	det	_	_
+4	kleinen	kleine	ADJ	_	_	6	mod	_	_
+5	weißen	weiße	ADJ	_	_	6	mod	_	_
+6	Hund	Hund	NOUN	_	_	2	comp:obj	_	_
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+1	Zwei	Zwei	NUM	_	_	2	mod	_	_
+2	Autos	Auto	NOUN	_	_	3	subj	_	_
+3	fuhren	fahren	VERB	_	_	0	root	_	_
+4	auf	auf	ADP	_	_	3	comp:obl	_	_
+5	den	d	DET	_	_	6	det	_	_
+6	Parkplatz	Parkplatz	NOUN	_	_	4	comp:obj	_	_
+7	auf	auf	ADP	_	_	3	compound@prt	_	_
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+1	Rechts	rechts	ADV	_	_	2	comp:pred	_	_
+2	war	sein	VERB	_	_	0	root	_	_
+3	ein	ein	DET	_	_	4	det	_	_
+4	Mann	Mann	NOUN	_	_	2	subj	_	_
+5	der	d	DET	_	_	10	subj	_	_
+6	einen	ein	ADJ	_	_	7	mod	_	_
+7	Ball	Ball	NOUN	_	_	10	comp:obj	_	_
+8	immer	immer	ADV	_	_	9	mod	_	_
+9	wieder	wieder	ADV	_	_	10	mod	_	_
+10	hochwarf	hochwerfen	PROPN	_	_	4	mod@relcl	_	_
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+1	Der	d	DET	_	_	2	det	_	_
+2	Ball	Ball	NOUN	_	_	3	subj	_	_
+3	fiel	fallen	VERB	_	_	0	root	_	_
+4	auf	auf	ADP	_	_	3	comp:obl	_	_
+5	seinen	sein	DET	_	_	6	det	_	_
+6	Fuß	Fuß	NOUN	_	_	4	comp:obj	_	_
+
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	prallte	prallen	VERB	_	_	0	root	_	_
+3	auf	auf	ADP	_	_	2	comp:obl	_	_
+4	die	d	DET	_	_	5	det	_	_
+5	Straße	Straße	NOUN	_	_	3	comp:obj	_	_
+6	ab	ab	ADP	_	_	2	compound@prt	_	_
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+1	Der	d	DET	_	_	2	det	_	_
+2	Hund	Hund	NOUN	_	_	3	subj	_	_
+3	riss	reißen	NOUN	_	_	0	root	_	_
+4	sich	er|es|sie	PRON	_	_	3	comp:obj	_	_
+5	von	von	ADP	_	_	3	comp:obl	_	_
+6	der	d	DET	_	_	7	det	_	_
+7	Frau	Frau	NOUN	_	_	5	comp:obj	_	_
+8	weg	weg	ADV	_	_	3	compound@prt	_	_
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+1	Warf	werfen	PROPN	_	_	0	root	_	_
+2	einige	einige	PRON	_	_	3	det	_	_
+3	Tüten	Tüten	NOUN	_	_	1	comp:obj	_	_
+4	der	d	DET	_	_	5	det	_	_
+5	Frau	Frau	NOUN	_	_	3	mod@poss	_	_
+6	um	um	ADP	_	_	1	compound@prt	_	_
+
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	rannte	rennen	VERB	_	_	0	root	_	_
+3	dem	d	DET	_	_	4	det	_	_
+4	Ball	Ball	NOUN	_	_	2	comp:obj	_	_
+5	hinterher	hinterher	ADV	_	_	2	compound@prt	_	_
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+1	Das	d	PRON	_	_	2	subj	_	_
+2	war	sein	VERB	_	_	0	root	_	_
+3	direkt	direkt	ADJ	_	_	4	mod	_	_
+4	vor	vor	ADP	_	_	2	comp:pred	_	_
+5	dem	d	DET	_	_	6	det	_	_
+6	Auto	Auto	NOUN	_	_	4	comp:obj	_	_
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+1	Dieses	dies	PRON	_	_	2	subj	_	_
+2	bremste	bremsen	VERB	_	_	0	root	_	_
+
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	das	d	DET	_	_	3	det	_	_
+3	Auto	Auto	NOUN	_	_	5	subj	_	_
+4	dahinter	dahinter	ADV	_	_	3	mod	_	_
+5	crashte	crashte	VERB	_	_	0	root	_	_
+6	in	in	ADP	_	_	5	comp:obl	_	_
+7	das	d	DET	_	_	8	det	_	_
+8	Heck	Heck	NOUN	_	_	6	comp:obj	_	_
+9	des	d	DET	_	_	11	det	_	_
+10	vorderen	vordere	ADJ	_	_	11	mod	_	_
+11	Autos	Auto	NOUN	_	_	8	mod@poss	_	_
+
+1	That	that	AUX	_	_	2	subj	_	_
+2	is	is	VERB	_	_	0	root	_	_
+3	it	it	X	_	_	2	comp:pred	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+1	(	(	PUNCT	_	_	5	punct	_	_
+2	Bei	bei	ADP	_	_	10	mod	_	_
+3	diesem	diese	PRON	_	_	4	det	_	_
+4	Unfall	Unfall	NOUN	_	_	2	comp:obj	_	_
+5	sind	sein	AUX	_	_	0	root	_	_
+6	keine	kein	PRON	_	_	7	det	_	_
+7	Hunde	Hund	NOUN	_	_	5	subj	_	_
+8	zu	zu	ADP	_	_	10	comp:obl	_	_
+9	Schaden	Schaden	NOUN	_	_	8	comp:obj	_	_
+10	gekommen	kommen	VERB	_	_	5	comp:aux	_	_
+11	)	)	PUNCT	_	_	5	punct	_	_
+
+

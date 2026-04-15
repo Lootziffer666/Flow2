@@ -1,0 +1,249 @@
+# text = hi Schatz
+1	hi	hi	X	NGIRR	_	2	discourse	_	_
+2	Schatz	Schatz	NOUN	NN	_	0	root	_	_
+
+# text = du weißt gar nicht was ich gerade gesehen habe
+1	du	du	PRON	PPER	_	2	subj	_	_
+2	weißt	wissen	VERB	VVFIN	_	0	root	_	_
+3	gar	gar	ADV	PTKIFG	_	4	mod	_	_
+4	nicht	nicht	PART	PTKNEG	_	2	mod	_	_
+5	was	was	VERB	PWS	_	8	comp:obj	_	_
+6	ich	ich	PRON	PPER	_	9	subj	_	_
+7	gerade	gerad	ADV	ADV	_	9	mod	_	_
+8	gesehen	sehen	VERB	VVPP	_	9	comp:aux	_	_
+9	habe	haben	AUX	VAFIN	_	2	comp:obj	_	_
+
+# text = äh ich bin hier nämlich auf den Parkgelände äh gegenüber von so ein Bibliothekhaus
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	bin	sein	VERB	VAFIN	_	0	root	_	_
+4	hier	hier	ADV	ADV	_	3	mod	_	_
+5	nämlich	nämlich	ADJ	ADJD	_	3	mod	_	_
+6	auf	auf	ADP	APPR	_	3	comp:pred	_	_
+7	den	d	DET	ART	_	8	det	_	_
+8	Parkgelände	Parkgelände	NOUN	NN	_	6	comp:obj	_	_
+9	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+10	gegenüber	gegenüber	ADP	ADV	_	8	mod	_	_
+11	von	von	ADP	APPR	_	10	comp:obj	_	_
+12	so	so	ADV	PTKIFG	_	14	mod	_	_
+13	ein	ein	DET	ART	_	14	det	_	_
+14	Bibliothekhaus	Bibliothekhaus	NOUN	NN	_	11	comp:obj	_	_
+
+# text = ey da war so ein so ein Ehepaar mit einem Babywagen
+1	ey	ey	PROPN	NGIRR	_	3	discourse	_	_
+2	da	da	ADV	ADV	_	3	comp:pred	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	so	so	ADV	PTKIFG	_	5	mod	_	_
+5	ein	ein	DET	ART	_	8	reparandum	_	_
+6	so	so	ADV	PTKIFG	_	8	mod	_	_
+7	ein	ein	DET	ART	_	8	det	_	_
+8	Ehepaar	Ehepaar	NOUN	NN	_	3	subj	_	_
+9	mit	mit	ADP	APPR	_	8	mod	_	_
+10	einem	ein	DET	ART	_	11	det	_	_
+11	Babywagen	Babywagen	NOUN	NN	_	9	comp:obj	_	_
+
+# text = der Mann spielt ja jetzt mit dem Ball ne
+1	der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	spielt	spielen	VERB	VVFIN	_	0	root	_	_
+4	ja	ja	ADV	PTKMA	_	3	discourse	_	_
+5	jetzt	jetzt	ADV	ADV	_	3	mod	_	_
+6	mit	mit	ADP	APPR	_	3	mod	_	_
+7	dem	d	DET	ART	_	8	det	_	_
+8	Ball	Ball	NOUN	NN	_	6	comp:obj	_	_
+9	ne	ne	DET	SEQU	_	3	discourse	_	_
+
+# text = und da wollten die halt gegenüber
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	wollten	wollen	VERB	VMFIN	_	0	root	_	_
+4	die	die	PRON	PDS	_	3	subj	_	_
+5	halt	halt	ADV	PTKMA	_	3	discourse	_	_
+6	gegenüber	gegenüber	ADP	ADV	_	3	comp:aux	_	_
+
+# text = da war so eine Frau mit dem Einkaufswagen also beziehungsweise mit den äh Supermarkttaschen
+1	da	da	ADV	ADV	_	2	comp:pred	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	so	so	ADV	PTKIFG	_	5	mod	_	_
+4	eine	ein	DET	ART	_	5	det	_	_
+5	Frau	Frau	NOUN	NN	_	2	subj	_	_
+6	mit	mit	ADP	APPR	_	5	mod	_	_
+7	dem	d	DET	ART	_	8	det	_	_
+8	Einkaufswagen	Einkaufswagen	NOUN	NN	_	6	comp:obj	_	_
+9	also	also	ADV	ADV	_	11	mod	_	_
+10	beziehungsweise	beziehungsweise	CCONJ	KON	_	11	cc	_	_
+11	mit	mit	ADP	APPR	_	6	conj	_	_
+12	den	d	DET	ART	_	14	det	_	_
+13	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+14	Supermarkttaschen	Supermarkttasche	NOUN	NN	_	11	comp:obj	_	_
+
+# text = und da hatten sogar noch einen Hund dabei
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	hatten	haben	AUX	VAFIN	_	0	root	_	_
+4	sogar	sogar	ADV	PTKIFG	_	3	mod	_	_
+5	noch	noch	ADV	PTKMWL	_	3	mod	_	_
+6	einen	ein	DET	ART	_	7	det	_	_
+7	Hund	Hund	NOUN	NN	_	3	comp:obj	_	_
+8	dabei	dabei	ADP	PTKVZ	_	3	compound@prt	_	_
+
+# text = ja der war so groß wie Lacki und so wie unser Hund
+1	ja	ja	ADV	NGIRR	_	3	discourse	_	_
+2	der	die	PRON	PDS	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	so	so	ADV	PTKIFG	_	5	mod	_	_
+5	groß	groß	ADJ	ADJD	_	3	comp:pred	_	_
+6	wie	wie	CCONJ	KOKOM	_	5	mod	_	_
+7	Lacki	Lacki	PROPN	NN	_	6	comp:obj	_	_
+8	und	und	CCONJ	KON	_	10	cc	_	_
+9	so	so	ADV	ADV	_	10	mod	_	_
+10	wie	wie	ADP	KOKOM	_	6	conj	_	_
+11	unser	unser	PRON	PPOSAT	_	12	det	_	_
+12	Hund	Hund	NOUN	NN	_	10	comp:obj	_	_
+
+# text = und äh in dem Moment äh wo der Mann mit dem Ball spielt ne da fällt der Ball herunter
+1	und	und	CCONJ	KON	_	16	cc	_	_
+2	äh	äh	ADJ	NGHES	_	16	discourse	_	_
+3	in	in	ADP	APPR	_	16	mod	_	_
+4	dem	d	DET	ART	_	5	det	_	_
+5	Moment	Moment	NOUN	NN	_	3	comp:obj	_	_
+6	äh	äh	ADJ	NGHES	_	16	discourse	_	_
+7	wo	wo	ADV	PWAV	_	13	comp:obl	_	_
+8	der	d	DET	ART	_	9	det	_	_
+9	Mann	Mann	NOUN	NN	_	13	subj	_	_
+10	mit	mit	ADP	APPR	_	13	mod	_	_
+11	dem	d	DET	ART	_	12	det	_	_
+12	Ball	Ball	NOUN	NN	_	10	comp:obj	_	_
+13	spielt	spielen	VERB	VVFIN	_	5	mod@relcl	_	_
+14	ne	ne	DET	SEQU	_	16	discourse	_	_
+15	da	da	ADV	ADV	_	16	mod	_	_
+16	fällt	fällen	VERB	VVFIN	_	0	root	_	_
+17	der	d	DET	ART	_	18	det	_	_
+18	Ball	Ball	PROPN	NN	_	16	subj	_	_
+19	herunter	herunter	PROPN	PTKVZ	_	16	compound@prt	_	_
+
+# text = und dann kommt der Hund in der Gegenrichtung
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	kommt	kommen	VERB	VVFIN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	3	subj	_	_
+6	in	in	ADP	APPR	_	3	comp:obl	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Gegenrichtung	Gegenrichtung	NOUN	NN	_	6	comp:obj	_	_
+
+# text = fallen die ganzen äh Einkäufe
+1	fallen	fallen	VERB	VVINF	_	0	root	_	_
+2	die	d	DET	ART	_	5	det	_	_
+3	ganzen	ganz	NOUN	ADJA	_	5	mod	_	_
+4	äh	äh	ADJ	NGHES	_	1	discourse	_	_
+5	Einkäufe	Einkauf	NOUN	NN	_	1	subj	_	_
+
+# text = und dann kommen noch zwei Autos von da hinten reingefahren
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	kommen	kommen	VERB	VVFIN	_	0	root	_	_
+4	noch	noch	ADV	PTKMWL	_	3	mod	_	_
+5	zwei	zwei	NUM	CARD	_	6	mod	_	_
+6	Autos	Auto	NOUN	NN	_	3	subj	_	_
+7	von	von	ADP	APPR	_	10	mod	_	_
+8	da	da	ADV	ADV	_	9	mod	_	_
+9	hinten	hinten	ADV	ADV	_	7	comp:obj	_	_
+10	reingefahren	reinfahren	VERB	VVPP	_	3	comp:obl	_	_
+
+# text = natürlich Vollbremsung
+1	natürlich	natürlich	ADJ	ADV	_	2	mod	_	_
+2	Vollbremsung	Vollbremsung	NOUN	NN	_	0	root	_	_
+
+# text = zum Glück war das der Kinderwagen nicht
+1	zum	zu	NOUN	APPRART	_	3	mod	_	_
+2	Glück	Glück	NOUN	NN	_	1	comp:obj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	das	die	PRON	PDS	_	3	comp:pred	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Kinderwagen	Kinderwagen	NOUN	NN	_	3	subj	_	_
+7	nicht	nicht	PART	PTKNEG	_	3	mod	_	_
+
+# text = wenn das Baby noch drin wäre ne also das wäre ja das aller Horror gewesen
+1	wenn	wenn	SCONJ	KOUS	_	15	mod	_	_
+2	das	d	DET	ART	_	3	det	_	_
+3	Baby	Baby	NOUN	NN	_	6	subj	_	_
+4	noch	noch	ADV	PTKMWL	_	5	mod	_	_
+5	drin	drin	PROPN	ADV	_	6	comp:pred	_	_
+6	wäre	sein	VERB	VAFIN	_	1	comp:obj	_	_
+7	ne	ne	DET	SEQU	_	10	discourse	_	_
+8	also	also	ADV	SEDM	_	10	discourse	_	_
+9	das	d	PRON	PDS	_	15	comp:pred	_	_
+10	wäre	sein	AUX	VAFIN	_	0	root	_	_
+11	ja	ja	ADV	PTKMA	_	10	discourse	_	_
+12	das	d	DET	PDS	_	14	det	_	_
+13	aller	alle	PRON	PIAT	_	14	mod	_	_
+14	Horror	Horror	NOUN	NN	_	10	subj	_	_
+15	gewesen	sein	VERB	VAPP	_	10	comp:aux	_	_
+
+# text = äh ja und dann natürlich Unfall ne
+1	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+2	ja	ja	ADV	NGIRR	_	6	discourse	_	_
+3	und	und	CCONJ	KON	_	6	cc	_	_
+4	dann	dann	ADV	ADV	_	6	mod	_	_
+5	natürlich	natürlich	ADJ	ADV	_	6	mod	_	_
+6	Unfall	Unfall	NOUN	NN	_	0	root	_	_
+7	ne	ne	DET	SEQU	_	6	discourse	_	_
+
+# text = der blaue Auto hat ja Vollbremsung gemacht
+1	der	d	DET	ART	_	3	det	_	_
+2	blaue	blau	ADJ	ADJA	_	3	mod	_	_
+3	Auto	Auto	NOUN	NN	_	4	subj	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	ja	ja	ADV	PTKMA	_	4	discourse	_	_
+6	Vollbremsung	Vollbremsung	NOUN	NN	_	7	comp:obj	_	_
+7	gemacht	machen	VERB	VVPP	_	4	comp:aux	_	_
+
+# text = und das Auto der weiße da hinten klack na hinten
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	das	d	DET	ART	_	3	det	_	_
+3	Auto	Auto	NOUN	NN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	weiße	weiß	ADJ	NN	_	3	appos	_	_
+6	da	da	SCONJ	ADV	_	7	mod	_	_
+7	hinten	hinten	ADV	ADV	_	5	mod	_	_
+8	klack	klack	PROPN	NGONO	_	3	discourse	_	_
+9	nach	nach	ADP	APPR	_	3	orphan	_	_
+10	hinten	hinten	ADV	ADV	_	9	comp:obj	_	_
+
+# text = klar da haben die natürlich die Polizei gerufen und so
+1	klar	klar	ADJ	PTKIFG	_	3	discourse	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	haben	haben	VERB	VAFIN	_	0	root	_	_
+4	die	d	DET	PDS	_	3	subj	_	_
+5	natürlich	natürlich	ADJ	ADV	_	3	mod	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Polizei	Polizei	NOUN	NN	_	8	comp:obj	_	_
+8	gerufen	rufen	VERB	VVPP	_	3	comp:aux	_	_
+9	und	und	CCONJ	KON	_	10	cc	_	_
+10	so	so	ADV	ADV	_	3	parataxis	_	_
+
+# text = aber na ja nur damit du mal Bescheid weißt ä⬌h sowas einmal passieren kann
+1	aber	aber	ADV	KON	_	9	cc	_	_
+2	na	na	PROPN	NGIRR	_	9	discourse	_	_
+3	ja	ja	ADV	NGIRR	_	2	fixed	_	_
+4	nur	nur	ADV	SEDM	_	9	mod	_	_
+5	damit	damit	ADV	KOUS	_	9	mod	_	_
+6	du	du	PROPN	PPER	_	9	subj	_	_
+7	mal	mal	ADV	PTKMA	_	9	mod	_	_
+8	Bescheid	Bescheid	PROPN	NN	_	9	comp:obj	_	_
+9	weißt	wissen	VERB	VVFIN	_	_	_	_	_
+10	was	was	PRON	PRELS	_	13	reparandum	_	_
+11	äh	äh	ADJ	NGHES	_	9	discourse	_	_
+12	so	so	ADV	NGIRR	_	9	discourse	_	_
+13	was	was	PRON	PRELS	_	16	subj	_	_
+14	einmal	einmal	ADV	ADV	_	16	mod	_	_
+15	passieren	passieren	VERB	VVINF	_	16	comp:aux	_	_
+16	kann	können	AUX	VMFIN	_	9	mod	_	_
+
+# text = na dann bis später
+1	na	na	PROPN	NGIRR	_	3	discourse	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	bis	bis	ADP	APPR	_	0	root	_	_
+4	später	später	ADJ	ADJA	_	3	comp:obj	_	_
+

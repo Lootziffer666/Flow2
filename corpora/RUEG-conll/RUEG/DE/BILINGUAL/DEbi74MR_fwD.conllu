@@ -1,0 +1,85 @@
+# text = ﻿Der Grund warum es zu dem Unfall gekommen ist :
+1	﻿Der	﻿Der	ADV	ART	_	2	mod	_	_
+2	Grund	Grund	NOUN	NN	Case=Acc|Number=Sing	0	root	_	_
+3	warum	warum	ADV	PWAV	PronType=Int	9	mod	_	_
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	subj	_	_
+5	zu	zu	ADP	APPR	_	8	comp:obl	_	_
+6	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Unfall	Unfall	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	comp:obj	_	_
+8	gekommen	kommen	VERB	VVPP	Tense=Past|VerbForm=Part	9	comp:aux	_	_
+9	ist	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	2	mod	_	_
+10	:	:	PUNCT	$.	_	2	punct	_	_
+
+# text = ein junger Mann schmeißt einen Ball auf die Straße ,
+1	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+2	junger	jung	ADJ	ADJA	Degree=Cmp,Pos	3	mod	_	_
+3	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	4	subj	_	_
+4	schmeißt	schmeißen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	comp:obj	_	_
+7	auf	auf	ADP	APPR	_	4	mod	_	_
+8	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Straße	Straße	NOUN	NE	Case=Acc|Gender=Fem|Number=Sing	7	comp:obj	_	_
+10	,	,	PUNCT	$,	_	4	punct	_	_
+
+# text = plötzlich bellt ein Hund , weil er ein Ball gesehen hat ,
+1	plötzlich	plötzlich	ADJ	ADJD	Degree=Pos	2	mod	_	_
+2	bellt	bellen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art|Tense=Pres	4	det	_	_
+4	Hund	Hund	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	2	subj	_	_
+5	,	,	PUNCT	$,	_	2	punct	_	_
+6	weil	weil	SCONJ	KOUS	_	2	mod	_	_
+7	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj	_	_
+8	ein	ein	DET	ART	Definite=Ind|PronType=Art	9	det	_	_
+9	Ball	Ball	NOUN	NN	_	10	comp:obj	_	_
+10	gesehen	sehen	VERB	VVPP	Tense=Past|VerbForm=Part	11	comp:aux	_	_
+11	hat	haben	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
+12	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = und rechtzeitig bremst ein blauer Renault aber der hinterer Fahrzeug ( weiß ) nicht mehr rechtzeitig ,
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	rechtzeitig	rechtzeitig	ADJ	ADJD	Degree=Pos	3	mod	_	_
+3	bremst	bremsen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	blauer	blau	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	6	mod	_	_
+6	Renault	Renault	PROPN	NN	_	3	subj	_	_
+7	aber	aber	ADV	KON	_	10	cc	_	_
+8	der	d	DET	ART	Definite=Def|PronType=Art	10	det	_	_
+9	hinterer	hinter	ADJ	ADJA	Degree=Cmp	10	mod	_	_
+10	Fahrzeug	Fahrzeug	NOUN	NN	_	6	conj	_	_
+11	(	(	PUNCT	$(	_	12	punct	_	_
+12	weiß	weiß	NOUN	ADJD	_	10	mod	_	_
+13	)	)	PUNCT	$(	_	12	punct	_	_
+14	nicht	nicht	PART	PTKNEG	_	16	mod	_	_
+15	mehr	mehr	ADV	PTKMWL	_	14	mod	_	_
+16	rechtzeitig	rechtzeitig	ADJ	ADJD	Degree=Pos	10	orphan	_	_
+17	,	,	PUNCT	$,	_	10	punct	_	_
+
+# text = und fährt in das blaue Auto ( Renault ) rein .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	fährt	fahren	VERB	VVFIN	Tense=Pres|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	APPR	_	2	comp:obl	_	_
+4	das	d	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+5	blaue	blau	PROPN	ADJA	_	6	mod	_	_
+6	Auto	Auto	PROPN	NN	_	3	comp:obj	_	_
+7	(	(	PUNCT	$(	_	8	punct	_	_
+8	Renault	Renault	PROPN	NE	_	6	appos	_	_
+9	)	)	PUNCT	$(	_	8	punct	_	_
+10	rein	rein	ADV	PTKVZ	_	2	compound@prt	_	_
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Danach alarmierte ein Autofahrer die Polizei , um den Sachschaden zu zeigen .
+1	Danach	danach	ADV	ADV	_	2	mod	_	_
+2	alarmierte	alarmieren	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Autofahrer	Autofahrer	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	subj	_	_
+5	die	d	DET	ART	Definite=Def|PronType=Art	6	det	_	_
+6	Polizei	Polizei	NOUN	NN	_	2	comp:obj	_	_
+7	,	,	PUNCT	$,	_	2	punct	_	_
+8	um	um	ADP	APPR	_	2	mod	_	_
+9	den	d	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+10	Sachschaden	Sachschaden	NOUN	NN	Case=Acc|Number=Plur	12	comp:obj	_	_
+11	zu	zu	PART	PTKZU	_	8	comp:obj	_	_
+12	zeigen	zeigen	VERB	VVINF	Tense=Pres|VerbForm=Inf	11	comp:obj	_	_
+13	.	.	PUNCT	$.	_	2	punct	_	_
+

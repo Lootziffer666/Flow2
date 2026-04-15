@@ -1,0 +1,56 @@
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	mir	ich	PRON	PPER	_	6	comp:obl	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Videoabschnitt	Videoabschnitt	NOUN	NN	_	6	comp:obj	_	_
+6	angeschaut	anschauen	VERB	VVPP	_	2	comp:aux	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	wegen	wegen	ADP	APPR	_	4	mod	_	_
+2	dem	d	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	1	comp:obj	_	_
+4	passiert	passieren	VERB	VVFIN	_	0	root	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Autounfall	Autounfall	NOUN	NN	_	4	subj	_	_
+7	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	Der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	3	subj	_	_
+3	springt	springen	VERB	VVFIN	_	0	root	_	_
+4	auf	auf	ADP	APPR	_	3	comp:obl	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Straße	Straße	NOUN	NN	_	4	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	die	d	ADJ	ART	_	3	det	_	_
+3	Frau	Frau	NOUN	NN	_	4	subj	_	_
+4	kümmert	kümmern	VERB	VVFIN	_	0	root	_	_
+5	sich	er|es|sie	PRON	PRF	_	4	comp:obj	_	_
+6	einfach	einfach	ADJ	PTKMA	_	4	mod	_	_
+7	um	um	ADP	APPR	_	4	comp:obl	_	_
+8	ihre	ihr	DET	PPOSAT	_	9	det	_	_
+9	Sachen	Sache	NOUN	NN	_	7	comp:obj	_	_
+10	und	und	CCONJ	KON	_	12	cc	_	_
+11	dem	d	DET	ART	_	12	det	_	_
+12	Hund	Hund	NOUN	NN	_	9	conj	_	_
+13	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	anstatt	anstatt	ADP	APPR	_	13	mod	_	_
+2	sich	er|es|sie	PRON	PRF	_	4	comp:obj	_	_
+3	zu	zu	PART	PTKZU	_	1	comp:obj	_	_
+4	entschuldigen	entschuldigen	VERB	VVINF	_	3	comp:obj	_	_
+5	,	,	PUNCT	$,	_	1	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	4	comp:obl	_	_
+7	es	es	PRON	PPER	_	11	subj	_	_
+8	wegen	wegen	ADP	APPR	_	10	mod	_	_
+9	ihr	ihr	PRON	PPER	_	8	comp:obj	_	_
+10	passiert	passieren	VERB	VVPP	_	11	comp:aux	_	_
+11	ist	sein	AUX	VAFIN	_	6	comp:obj	_	_
+12	,	,	PUNCT	$,	_	6	punct	_	_
+13	bleibt	bleiben	VERB	VVFIN	_	0	root	_	_
+14	sie	sie	PRON	PPER	_	13	subj	_	_
+15	ruhig	ruhig	ADJ	ADJD	_	13	comp:pred	_	_
+16	und	und	CCONJ	KON	_	17	cc	_	_
+17	egoistisch	egoistisch	ADJ	ADJD	_	15	conj	_	_
+18	.	.	PUNCT	$.	_	13	punct	_	_
+

@@ -1,0 +1,161 @@
+# text = ey
+1	ey	ey	PROPN	_	_	0	root	_	_
+
+# text = ich habe gestern glaube ich war es äh so eine Mutter mit ihrem Sohn gesehen
+1	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	habe	haben	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	gestern	gestern	ADV	_	_	6	comp:pred	_	_
+4	glaube	glauben	VERB	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+5	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	_
+6	war	sein	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	comp:obj	_	_
+7	es	es	PRON	_	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	subj@expl	_	_
+8	äh	äh	ADJ	_	Degree=Pos	2	discourse	_	_
+9	so	so	ADV	_	_	11	mod	_	_
+10	eine	ein	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Mutter	Mutter	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	15	comp:obj	_	_
+12	mit	mit	ADP	_	_	11	mod	_	_
+13	ihrem	ihr	DET	_	Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+14	Sohn	Sohn	NOUN	_	Case=Dat|Number=Sing	12	comp:obj	_	_
+15	gesehen	sehen	VERB	_	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+
+# text = und der hatte einen Ball in der Hand mit dem er die ganze Zeit gespielt hat
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	der	d	PRON	_	Case=Nom|PronType=Dem	3	subj	_	_
+3	hatte	haben	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+4	einen	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Ball	Ball	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	3	comp:obj	_	_
+6	in	in	ADP	_	_	3	mod	_	_
+7	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Hand	Hand	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	6	comp:obj	_	_
+9	mit	mit	ADP	_	_	15	comp:obl	_	_
+10	dem	d	PRON	_	Case=Dat|PronType=Dem	9	comp:obj	_	_
+11	er	er	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	subj	_	_
+12	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	ganze	ganz	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	mod	_	_
+14	Zeit	Zeit	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	16	mod	_	_
+15	gespielt	spielen	VERB	_	Tense=Past|VerbForm=Part	16	comp:aux	_	_
+16	hat	haben	AUX	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	_
+
+# text = und als sie über die Straße laufen wollten hat er sein Ball aus der Hand fallen lassen
+1	und	und	CCONJ	_	_	9	cc	_	_
+2	als	als	ADP	_	_	16	mod	_	_
+3	sie	sie	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
+4	über	über	ADP	_	_	7	comp:obl	_	_
+5	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	4	comp:obj	_	_
+7	laufen	laufen	VERB	_	Tense=Pres|VerbForm=Inf	8	comp:aux	_	_
+8	wollten	wollen	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	comp:obj	_	_
+9	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	er	er	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj	_	_
+11	sein	sein	DET	_	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	Ball	Ball	NOUN	_	Case=Acc|Number=Sing	16	comp:obj	_	_
+13	aus	aus	ADP	_	_	16	comp:obl	_	_
+14	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Hand	Hand	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	13	comp:obl	_	_
+16	fallen	fallen	VERB	_	Tense=Pres|VerbForm=Inf	17	comp:obj	_	_
+17	lassen	lassen	VERB	_	Tense=Pres|VerbForm=Inf	9	comp:aux	_	_
+
+# text = währenddessen hat der Hund von so einer Frau die auf der anderen Straßenseite ihre Sachen so ausgepackt hat den Ball verfolgt
+1	währenddessen	währenddessen	ADV	_	_	2	mod	_	_
+2	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Hund	Hund	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	subj	_	_
+5	von	von	ADP	_	_	4	mod@poss	_	_
+6	so	so	ADV	_	_	8	mod	_	_
+7	einer	ein	DET	_	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Frau	Frau	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	5	comp:obj	_	_
+9	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	subj	_	_
+10	auf	auf	ADP	_	_	17	mod	_	_
+11	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	anderen	ander	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	13	mod	_	_
+13	Straßenseite	Straßenseite	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	10	comp:obj	_	_
+14	ihre	ihr	DET	_	Person=3|Poss=Yes|PronType=Prs	15	det	_	_
+15	Sachen	Sache	NOUN	_	_	17	comp:obj	_	_
+16	so	so	ADV	_	_	18	mod	_	_
+17	ausgepackt	auspacken	VERB	_	Tense=Past|VerbForm=Part	18	comp:aux	_	_
+18	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	_
+19	den	d	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Ball	Ball	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	21	comp:obj	_	_
+21	verfolgt	verfolgen	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:aux	_	_
+
+# text = dadurch musste so ein Auto anhalten
+1	dadurch	dadurch	ADV	_	_	2	mod	_	_
+2	musste	müssen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	so	so	ADV	_	_	5	mod	_	_
+4	ein	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Auto	Auto	NOUN	_	Case=Acc|Gender=Masc,Neut|Number=Sing	2	subj	_	_
+6	anhalten	anhalten	VERB	_	Tense=Pres|VerbForm=Part	2	comp:aux	_	_
+
+# text = und das Andere ist einfach reingefahren in das Vordere
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	das	d	DET	_	Definite=Def|PronType=Art	3	det	_	_
+3	Andere	Andere	NOUN	_	_	4	subj	_	_
+4	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	einfach	einfach	ADJ	_	Degree=Pos	4	mod	_	_
+6	reingefahren	reinfahren	VERB	_	Tense=Past|VerbForm=Fin	4	comp:aux	_	_
+7	in	in	ADP	_	_	6	comp:obl	_	_
+8	das	d	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Vordere	Vordere	ADJ	_	Case=Nom|Degree=Cmp|Number=Sing	7	comp:obj	_	_
+
+# text = und einer der Männer wollte dann die Polizei rufen
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	einer	ein	PRON	_	PronType=Ind	5	subj	_	_
+3	der	d	DET	_	Definite=Def|PronType=Art	4	det	_	_
+4	Männer	Mann	NOUN	_	_	2	mod@poss	_	_
+5	wollte	wollen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	dann	dann	ADV	_	_	5	mod	_	_
+7	die	d	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Polizei	Polizei	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	9	comp:obj	_	_
+9	rufen	rufen	VERB	_	Tense=Pres|VerbForm=Part	5	comp:aux	_	_
+
+# text = und der Junge der den Ball verloren hat hatte währenddessen dieser Frau geholfen
+1	und	und	CCONJ	_	_	9	cc	_	_
+2	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Junge	Junge	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	9	subj	_	_
+4	der	d	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	8	subj	_	_
+5	den	d	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Ball	Ball	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	7	comp:obj	_	_
+7	verloren	verlieren	VERB	_	Tense=Pres|VerbForm=Part	8	comp:aux	_	_
+8	hat	haben	AUX	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	_
+9	hatte	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	währenddessen	währenddessen	ADV	_	_	9	mod	_	_
+11	dieser	dies	PRON	_	PronType=Dem	12	det	_	_
+12	Frau	Frau	NOUN	_	_	13	comp:obj	_	_
+13	geholfen	helfen	VERB	_	Tense=Past|VerbForm=Part	9	comp:aux	_	_
+
+# text = aber dann ist er zu den Männern gegangen
+1	aber	aber	ADV	_	_	3	cc	_	_
+2	dann	dann	ADV	_	_	3	mod	_	_
+3	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	er	er	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
+5	zu	zu	ADP	_	_	8	comp:obl	_	_
+6	den	d	DET	_	Case=Dat|Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+7	Männern	Mann	NOUN	_	Case=Dat|Number=Plur	5	comp:obj	_	_
+8	gegangen	gehen	VERB	_	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+
+# text = und hat halt mit denen wahrscheinlich darüber geredet äh dass ein also aus Versehen war oder so dass die nicht die Polizei rufen sollen
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	hat	haben	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	halt	halt	ADV	_	_	2	discourse	_	_
+4	mit	mit	ADP	_	_	8	comp:obl	_	_
+5	denen	d	PRON	_	Case=Dat|PronType=Dem	4	comp:obj	_	_
+6	wahrscheinlich	wahrscheinlich	ADJ	_	Degree=Pos	2	mod	_	_
+7	darüber	darüber	ADV	_	_	2	mod	_	_
+8	geredet	reden	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	comp:aux	_	_
+9	äh	äh	ADJ	_	Degree=Pos	2	discourse	_	_
+10	dass	dass	SCONJ	_	Case=Nom|Gender=Masc,Neut|Number=Sing	7	comp:obj	_	_
+11	ein	ein	DET	_	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	13	reparandum	_	_
+12	also	also	ADV	_	_	2	discourse	_	_
+13	aus	aus	ADP	_	_	15	comp:pred	_	_
+14	Versehen	Versehen	NOUN	_	_	13	comp:obl	_	_
+15	war	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	comp:obj	_	_
+16	oder	oder	CCONJ	_	_	17	cc	_	_
+17	so	so	ADV	_	_	2	parataxis	_	_
+18	dass	dass	SCONJ	_	_	10	conj	_	_
+19	die	d	DET	_	Case=Nom|Definite=Def|Number=Plur|PronType=Art	24	subj	_	_
+20	nicht	nicht	PART	_	_	24	mod	_	_
+21	die	d	DET	_	Definite=Def|PronType=Art	22	det	_	_
+22	Polizei	Polizei	NOUN	_	_	23	comp:obj	_	_
+23	rufen	rufen	VERB	_	Tense=Pres|VerbForm=Inf	24	comp:aux	_	_
+24	sollen	sollen	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	comp:obj	_	_
+

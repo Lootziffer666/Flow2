@@ -1,0 +1,327 @@
+# sent_id = 1628238174.847768-809578_00001
+# text = jo Julius
+1	jo	jo	NOUN	NGIRR	_	2	discourse	_	_
+2	Julius	Julius	PROPN	NE	_	0	root	_	_
+
+# sent_id = 1628238174.847768-809578_00002
+# text = ich war hier gerade so äh auf dem Parkplatz also auf dem Weg nach Hause
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	hier	hier	ADV	ADV	_	2	mod	_	_
+4	gerade	gerade	ADV	ADV	_	2	mod	_	_
+5	so	so	ADV	PTKIFG	_	2	mod	_	_
+6	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+7	auf	auf	ADP	APPR	_	11	reparandum	_	_
+8	dem	d	DET	ART	_	9	det	_	_
+9	Parkplatz	Parkplatz	NOUN	NN	_	7	comp:obj	_	_
+10	also	also	ADV	ADV	_	2	discourse	_	_
+11	auf	auf	ADP	APPR	_	2	comp:pred	_	_
+12	dem	d	DET	ART	_	13	det	_	_
+13	Weg	Weg	NOUN	NN	_	11	comp:obj	_	_
+14	nach	nach	ADP	APPR	_	13	mod	_	_
+15	Hause	Haus	NOUN	NN	_	14	comp:obj	_	_
+
+# sent_id = 1628238174.847768-809578_00003
+# text = und da war halt so eine Frau an ihrem Kofferraum
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	halt	halt	ADV	PTKMA	_	3	discourse	_	_
+5	so	so	ADV	PTKIFG	_	7	mod	_	_
+6	eine	ein	DET	ART	_	7	det	_	_
+7	Frau	Frau	NOUN	NN	_	3	subj	_	_
+8	an	an	ADP	APPR	_	3	comp:pred	_	_
+9	ihrem	ihr	DET	PPOSAT	_	10	det	_	_
+10	Kofferraum	Kofferraum	NOUN	NN	_	8	comp:obj	_	_
+
+# sent_id = 1628238174.847768-809578_00004
+# text = die hat so ihre Lebensmittel ein oder ausgeräumt
+1	die	die	PRON	PDS	_	2	subj	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	so	so	ADV	PTKIFG	_	2	mod	_	_
+4	ihre	ihr	DET	PPOSAT	_	5	det	_	_
+5	Lebensmittel	Lebensmittel	NOUN	NN	_	6	comp:obj	_	_
+6	ein	ein	NUM	PTKVZ	_	2	comp:aux	_	_
+7	oder	oder	CCONJ	KON	_	8	cc	_	_
+8	ausgeräumt	ausräumen	ADJ	VVPP	_	2	conj	_	_
+
+# sent_id = 1628238174.847768-809578_00005
+# text = weiß ich nicht mehr
+1	weiß	wissen	VERB	VVFIN	_	0	root	_	_
+2	ich	ich	PRON	PPER	_	1	subj	_	_
+3	nicht	nicht	PART	PTKNEG	_	1	mod	_	_
+4	mehr	mehr	ADV	PTKMWL	_	3	mod	_	_
+
+# sent_id = 1628238174.847768-809578_00006
+# text = und die hatte halt noch so ein Hund so ein kleiner schwarzer also kein Windhund sehr
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	die	d	PRON	PDS	_	3	subj	_	_
+3	hatte	haben	VERB	VAFIN	_	0	root	_	_
+4	halt	halt	ADV	PTKMA	_	3	discourse	_	_
+5	noch	noch	ADV	PTKMWL	_	6	mod	_	_
+6	so	so	ADV	PTKIFG	_	8	mod	_	_
+7	ein	ein	DET	ART	_	8	det	_	_
+8	Hund	Hund	NOUN	NN	_	3	comp:obj	_	_
+9	so	so	ADV	PTKIFG	_	12	mod	_	_
+10	ein	ein	DET	ART	_	12	det	_	_
+11	kleiner	klein	ADJ	ADJA	_	12	mod	_	_
+12	schwarzer	schwarz	ADJ	ADJA	_	8	appos	_	_
+13	also	also	ADV	ADV	_	15	mod	_	_
+14	kein	kein	PRON	PIAT	_	15	det	_	_
+15	Windhund	Windhund	NOUN	NN	_	8	appos	_	_
+16	sehr	sehr	ADV	PTKIFG	_	8	mod	_	_
+
+# sent_id = 1628238174.847768-809578_00025
+# text = also ja war ein korrekter Typ glaube ich
+1	und	und	CCONJ	KON	_	7	cc	_	_
+2	äh	äh	ADV	NGHES	_	7	discourse	_	_
+3	auf	auf	ADP	APPR	_	7	comp:obl	_	_
+4	der	d	DET	ART	_	6	det	_	_
+5	anderen	ander	ADJ	PIDAT	_	6	mod	_	_
+6	Seite	Seite	NOUN	NN	_	3	comp:obj	_	_
+7	kam	kommen	VERB	VVFIN	_	0	root	_	_
+8	halt	halt	ADV	PTKMA	_	7	discourse	_	_
+9	so	so	ADV	PTKIFG	_	11	mod	_	_
+10	ein	ein	DET	ART	_	11	det	_	_
+11	dude	dude	NOUN	FM	_	7	subj	_	_
+12	und	und	CCONJ	KON	_	14	cc	_	_
+13	seine	sein	DET	PPOSAT	_	14	det	_	_
+14	Frau	Frau	NOUN	NN	_	11	conj	_	_
+15	mitm	mit	PROPN	APPRART	_	7	mod	_	_
+16	Kinderwagen	Kinderwagen	NOUN	NN	_	15	comp:obj	_	_
+
+# sent_id = 1628238174.847768-809578_00009
+# text = und er halt so einen Fußball in der Hand
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	er	er	PRON	PPER	_	3	subj	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	halt	halt	VERB	PTKMA	_	3	discourse	_	_
+5	so	so	ADV	PTKIFG	_	7	mod	_	_
+6	einen	ein	DET	ART	_	7	det	_	_
+7	Fußball	Fußball	NOUN	NN	_	3	comp:obj	_	_
+8	in	in	ADP	APPR	_	3	mod	_	_
+9	der	d	DET	ART	_	10	det	_	_
+10	Hand	Hand	NOUN	NN	_	8	comp:obj	_	_
+
+# sent_id = 1628238174.847768-809578_00010
+# text = und hat irgendwie die ganze Zeit so mit dem gedribbelt
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	irgendwie	irgendwie	ADV	ADV	_	2	mod	_	_
+4	die	d	DET	ART	_	6	det	_	_
+5	ganze	ganz	ADJ	ADJA	_	6	mod	_	_
+6	Zeit	Zeit	NOUN	NN	_	10	mod	_	_
+7	so	so	ADV	PTKIFG	_	8	mod	_	_
+8	mit	mit	ADP	APPR	_	2	udep	_	_
+9	dem	d	DET	PDS	_	10	det	_	_
+10	gedribbelt	dribbeln	PROPN	VVPP	_	8	comp:obj	_	_
+
+# sent_id = 1628238174.847768-809578_00011
+# text = und dann rollt er ihm so auf einmal weg quer über diesen ganzen Parkplatz
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	rollt	rollen	VERB	VVFIN	_	0	root	_	_
+4	er	er	PRON	PPER	_	3	subj	_	_
+5	ihm	er	PRON	PPER	_	3	comp:obj	_	_
+6	so	so	ADV	PTKIFG	_	3	mod	_	_
+7	auf	auf	ADP	APPR	_	3	mod	_	_
+8	einmal	einmal	ADV	ADV	_	7	fixed	_	_
+9	weg	weg	ADV	PTKVZ	_	3	compound@prt	_	_
+10	quer	quer	ADV	ADV	_	11	mod	_	_
+11	über	über	ADP	APPR	_	3	comp:obl	_	_
+12	diesen	diese	PRON	PDAT	_	14	det	_	_
+13	ganzen	ganz	ADJ	ADJA	_	14	mod	_	_
+14	Parkplatz	Parkplatz	NOUN	NN	_	11	comp:obj	_	_
+
+# sent_id = 1628238174.847768-809578_00012
+# text = dieser Hund bellt los
+1	dieser	diese	PRON	PDAT	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	3	subj	_	_
+3	bellt	bellen	VERB	VVFIN	_	0	root	_	_
+4	los	los	ADV	PTKVZ	_	3	compound@prt	_	_
+
+# sent_id = 1628238174.847768-809578_00013
+# text = fängt an auf den Ball zuzurennen
+1	fängt	fangen	VERB	VVFIN	_	0	root	_	_
+2	an	an	PART	PTKVZ	_	1	compound@prt	_	_
+3	auf	auf	ADP	APPR	_	6	comp:obl	_	_
+4	den	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+6	zuzurennen	zurennen	VERB	VVIZU	_	1	comp:obj	_	_
+
+# sent_id = 1628238174.847768-809578_00014
+# text = und genau im selben Moment kamen zwei Autos die halt auf den Parkplatz so fahren wollten ganz normal
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	genau	genau	ADJ	PTKIFG	_	3	mod	_	_
+3	im	in	PROPN	APPRART	_	6	mod	_	_
+4	selben	selb	ADJ	ADJA	_	5	mod	_	_
+5	Moment	Moment	NOUN	NN	_	3	comp:obj	_	_
+6	kamen	kommen	VERB	VVFIN	_	0	root	_	_
+7	zwei	zwei	NUM	CARD	_	8	mod	_	_
+8	Autos	Auto	NOUN	NN	_	6	subj	_	_
+9	die	d	PRON	PRELS	_	16	subj	_	_
+10	halt	halt	ADV	PTKMA	_	6	discourse	_	_
+11	auf	auf	ADP	APPR	_	15	comp:obl	_	_
+12	den	d	DET	ART	_	13	det	_	_
+13	Parkplatz	Parkplatz	NOUN	NN	_	11	comp:obj	_	_
+14	so	so	ADV	ADV	_	16	mod	_	_
+15	fahren	fahren	VERB	VVINF	_	16	comp:aux	_	_
+16	wollten	wollen	AUX	VMFIN	_	8	mod@relcl	_	_
+17	ganz	ganz	ADJ	PTKIFG	_	18	mod	_	_
+18	normal	normal	ADJ	ADJD	_	16	mod	_	_
+
+# sent_id = 1628238174.847768-809578_00015
+# text = und ist ja logisch dass der Vordere dann halt bremsen musste weil der Hund quasi dem Ball hinterher und vors Auto gerannt ist
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	ja	ja	ADV	PTKMA	_	2	discourse	_	_
+4	logisch	logisch	ADJ	ADJD	_	2	comp:pred	_	_
+5	dass	dass	SCONJ	KOUS	_	4	comp:obj	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Vordere	Vordere	ADJ	NN	_	11	subj	_	_
+8	dann	dann	ADV	ADV	_	11	mod	_	_
+9	halt	halt	ADV	PTKMA	_	2	discourse	_	_
+10	bremsen	bremsen	VERB	VVINF	_	11	comp:aux	_	_
+11	musste	müssen	AUX	VMFIN	_	5	comp:obj	_	_
+12	weil	weil	SCONJ	KOUS	_	10	mod	_	_
+13	der	d	DET	ART	_	14	det	_	_
+14	Hund	Hund	NOUN	NN	_	18	subj	_	_
+15	quasi	quasi	ADV	ADV	_	18	mod	_	_
+16	dem	d	DET	ART	_	17	det	_	_
+17	Ball	Ball	NOUN	NN	_	18	comp:obj	_	_
+18	hinterher	hinterher	ADV	ADV	_	12	comp:obj	_	_
+19	und	und	CCONJ	KON	_	23	cc	_	_
+20	vors	vor	null	APPRART	_	22	comp:obl	_	_
+21	Auto	Auto	NOUN	NN	_	20	comp:obj	_	_
+22	gerannt	rennen	VERB	VVPP	_	23	comp:aux	_	_
+23	ist	sein	AUX	VAFIN	_	18	conj	_	_
+
+# sent_id = 1628238174.847768-809578_00016
+# text = und der Hintere fährt dann halt einfach auf den drauf weil der so plötzlich gebremst hat
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Hintere	Hintere	ADJ	NN	_	4	subj	_	_
+4	fährt	fahren	VERB	VVFIN	_	0	root	_	_
+5	dann	dann	ADV	ADV	_	4	mod	_	_
+6	halt	halt	ADV	PTKMA	_	4	discourse	_	_
+7	einfach	einfach	ADJ	PTKMA	_	4	mod	_	_
+8	auf	auf	ADP	APPR	_	4	comp:obl	_	_
+9	den	d	DET	ART	_	8	comp:obj	_	_
+10	drauf	drauf	ADV	PTKVZ	_	4	compound@prt	_	_
+11	weil	weil	SCONJ	KOUS	_	4	mod	_	_
+12	der	d	PRON	PDS	_	16	subj	_	_
+13	so	so	ADV	PTKIFG	_	14	mod	_	_
+14	plötzlich	plötzlich	ADJ	ADJD	_	16	mod	_	_
+15	gebremst	bremsen	ADV	VVPP	_	16	comp:aux	_	_
+16	hat	haben	VERB	VAFIN	_	11	comp:obj	_	_
+
+# sent_id = 1628238174.847768-809578_00025
+# text = also ja war ein korrekter Typ glaube ich
+1	aber	aber	ADV	KON	_	5	cc	_	_
+2	na	na	PROPN	NGIRR	_	5	discourse	_	_
+3	ja	ja	ADV	NGIRR	_	2	fixed	_	_
+4	ich	ich	PRON	PPER	_	5	subj	_	_
+5	bin	sein	VERB	VAFIN	_	0	root	_	_
+6	froh	froh	ADJ	ADJD	_	5	comp:pred	_	_
+
+# sent_id = 1628238174.847768-809578_00025
+# text = also ja war ein korrekter Typ glaube ich
+1	also	also	ADV	SEDM	_	3	mod	_	_
+2	keine	keine	PRON	PIAT	_	3	det	_	_
+3	Verletzten	Verletzte	NOUN	NN	_	0	root	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	so	so	ADV	ADV	_	3	conj	_	_
+
+# sent_id = 1628238174.847768-809578_00018
+# text = ich muss jetzt nichts machen aber
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	muss	müssen	AUX	VMFIN	_	0	root	_	_
+3	jetzt	jetzt	ADV	ADV	_	2	mod	_	_
+4	nichts	nichts	PRON	PIS	_	5	comp:obj	_	_
+5	machen	machen	VERB	VVINF	_	2	comp:aux	_	_
+
+# sent_id = 1628238174.847768-809578_00019
+# text = aber jo
+1	aber	aber	ADV	KON	_	2	cc	_	_
+2	jo	jo	NOUN	NGIRR	_	0	root	_	_
+
+# sent_id = 1628238174.847768-809578_00020
+# text = ah weißt du was ich krass fand
+1	ah	ah	ADJ	NGIRR	_	2	discourse	_	_
+2	weißt	wissen	VERB	VVFIN	_	0	root	_	_
+3	du	du	PRON	PPER	_	2	subj	_	_
+4	was	was	PRON	PWS	_	6	comp:obj	_	_
+5	ich	ich	PRON	PPER	_	7	subj	_	_
+6	krass	krass	NOUN	ADJD	_	7	comp:pred	_	_
+7	fand	finden	VERB	VVFIN	_	2	comp:obj	_	_
+
+# sent_id = 1628238174.847768-809578_00021
+# text = der Mann mit dem Ball der ist halt nicht einfach weggegangen oder so
+1	der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	7	dislocated	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	dem	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+6	der	d	PRON	PDS	_	7	subj	_	_
+7	ist	sein	VERB	VAFIN	_	0	root	_	_
+8	halt	halt	ADV	PTKMA	_	7	discourse	_	_
+9	nicht	nicht	PART	PTKNEG	_	10	mod	_	_
+10	einfach	einfach	ADJ	ADJD	_	7	mod	_	_
+11	weggegangen	weggehen	NOUN	VVPP	_	7	comp:aux	_	_
+12	oder	oder	CCONJ	KON	_	13	cc	_	_
+13	so	so	ADV	ADV	_	7	parataxis	_	_
+
+# sent_id = 1628238174.847768-809578_00022
+# text = sondern der hat der Frau erstmal geholfen ihre Einkäufe einzusammeln während sie halt ihren Hund irgendwie beruhigen musste
+1	sondern	sondern	CCONJ	KON	_	3	cc	_	_
+2	der	d	PRON	PDS	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Frau	Frau	NOUN	NN	_	7	comp:obj	_	_
+6	erstmal	erstmal	ADV	ADV	_	3	mod	_	_
+7	geholfen	helfen	VERB	VVPP	_	3	comp:aux	_	_
+8	ihre	ihr	DET	PPOSAT	_	9	det	_	_
+9	Einkäufe	Einkauf	NOUN	NN	_	10	comp:obj	_	_
+10	einzusammeln	einsammeln	VERB	VVIZU	_	7	comp:obl	_	_
+11	während	während	SCONJ	KOUS	_	10	mod	_	_
+12	sie	sie	PRON	PPER	_	18	subj	_	_
+13	halt	halt	ADV	PTKMA	_	3	discourse	_	_
+14	ihren	ihr	DET	PPOSAT	_	15	det	_	_
+15	Hund	Hund	NOUN	NN	_	17	comp:obj	_	_
+16	irgendwie	irgendwie	ADV	ADV	_	18	mod	_	_
+17	beruhigen	beruhigen	VERB	VVINF	_	18	comp:aux	_	_
+18	musste	müssen	AUX	VMFIN	_	11	comp:obj	_	_
+
+# sent_id = 1628238174.847768-809578_00023
+# text = und dann im Anschluss ist er auch sofort zu den Autofahrern hingegangen
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	dann	dann	ADV	ADV	_	5	mod	_	_
+3	im	in	PROPN	APPRART	_	12	mod	_	_
+4	Anschluss	Anschluss	NOUN	NN	_	3	comp:obj	_	_
+5	ist	sein	VERB	VAFIN	_	0	root	_	_
+6	er	er	PRON	PPER	_	5	subj	_	_
+7	auch	auch	ADV	PTKIFG	_	5	mod	_	_
+8	sofort	sofort	ADV	ADV	_	5	mod	_	_
+9	zu	zu	ADP	APPR	_	12	comp:obl	_	_
+10	den	d	DET	ART	_	11	det	_	_
+11	Autofahrern	Autofahrer	NOUN	NN	_	9	comp:obj	_	_
+12	hingegangen	hingehen	VERB	VVPP	_	5	comp:aux	_	_
+
+# sent_id = 1628238174.847768-809578_00024
+# text = und hat mit den geredet
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	mit	mit	ADP	APPR	_	5	comp:obl	_	_
+4	den	d	DET	PDS	_	3	comp:obj	_	_
+5	geredet	reden	VERB	VVPP	_	2	comp:aux	_	_
+
+# sent_id = 1628238174.847768-809578_00025
+# text = also ja war ein korrekter Typ glaube ich
+1	also	also	ADV	SEDM	_	3	discourse	_	_
+2	ja	ja	PART	NGIRR	_	3	discourse	_	_
+3	war	sein	VERB	VVFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	6	det	_	_
+5	korrekter	korrekt	ADJ	ADJA	_	6	mod	_	_
+6	Typ	Typ	NOUN	NN	_	3	comp:pred	_	_
+7	glaube	glauben	NOUN	VVFIN	_	3	parataxis	_	_
+8	ich	ich	PRON	PPER	_	7	subj	_	_

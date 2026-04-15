@@ -1,0 +1,164 @@
+1	na	na	PROPN	NGIRR	_	2	discourse	_	_
+2	du	du	PROPN	PPER	_	0	root	_	_
+3	,	,	PUNCT	$,	_	2	punct	_	_
+
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	habe	haben	VERB	VAFIN	_	0	root	_	_
+3	gerade	gerade	NOUN	ADV	_	2	mod	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Unfall	Unfall	NOUN	NN	_	6	comp:obj	_	_
+6	gesehen.	sehen	X	VVPP	_	2	comp:aux	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	stand	stehen	VERB	VVFIN	_	0	root	_	_
+2	auf	auf	ADP	APPR	_	1	comp:obl	_	_
+3	einem	ein	DET	ART	_	4	det	_	_
+4	Parkplatz	Parkplatz	NOUN	NN	_	2	comp:obj	_	_
+5	,	,	PUNCT	$,	_	1	punct	_	_
+
+1	rechts	rechts	ADV	ADV	_	4	comp:pred	_	_
+2	von	von	ADP	APPR	_	1	mod	_	_
+3	mir	ich	PRON	PPER	_	2	comp:obj	_	_
+4	war	sein	VERB	VAFIN	_	0	root	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Gehweg	Gehweg	NOUN	NN	_	4	subj	_	_
+7	mit	mit	ADP	APPR	_	6	mod	_	_
+8	zwei	zwei	NUM	CARD	_	9	mod	_	_
+9	Personen	Person	NOUN	NN	_	7	comp:obj	_	_
+10	,	,	PUNCT	$,	_	4	punct	_	_
+11	eine	ein	DET	ART	_	12	det	_	_
+12	frau	Frau	ADJ	NN	_	9	appos	_	_
+13	und	und	CCONJ	KON	_	15	cc	_	_
+14	ein	ein	DET	ART	_	15	det	_	_
+15	mann	Mann	NOUN	NN	_	12	conj	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Frau	Frau	NOUN	NN	_	4	subj	_	_
+4	schob	schieben	VERB	VVFIN	_	0	root	_	_
+5	einen	ein	DET	ART	_	6	det	_	_
+6	Kinderwagen	Kinderwagen	NOUN	NN	_	4	comp:obj	_	_
+7	,	,	PUNCT	$,	_	4	punct	_	_
+
+1	der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	hatte	haben	VERB	VAFIN	_	0	root	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+6	in	in	ADP	APPR	_	3	mod	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Hand	Hand	NOUN	NE	_	6	comp:obj	_	_
+9	..	..	PUNCT	$.	_	3	discourse	_	_
+
+1	dann	dann	ADV	ADV	_	2	mod	_	_
+2	wollten	wollen	AUX	VMFIN	_	0	root	_	_
+3	sie	sie	PRON	PPER	_	2	subj	_	_
+4	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Parkplatz	Parkplatz	NOUN	NN	_	4	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	plötzlich	plötzlich	ADJ	ADV	_	3	mod	_	_
+3	kamen	kommen	VERB	VVFIN	_	0	root	_	_
+4	zwei	zwei	NUM	CARD	_	5	mod	_	_
+5	Autos	Auto	NOUN	NN	_	3	subj	_	_
+6	,	,	PUNCT	$,	_	8	punct	_	_
+7	ein	ein	DET	ART	_	8	det	_	_
+8	blaues	blau	NOUN	ADJA	_	5	appos	_	_
+9	und	und	CCONJ	KON	_	11	cc	_	_
+10	ein	ein	DET	ART	_	11	det	_	_
+11	weißes	weiß	NOUN	ADJA	_	8	conj	_	_
+12	..	..	PUNCT	$.	_	3	discourse	_	_
+
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	weiß	weiß	NOUN	VVFIN	_	0	root	_	_
+3	nicht	nicht	PART	PTKNEG	_	5	mod	_	_
+4	mehr	mehr	ADV	PTKMWL	_	3	mod	_	_
+5	genau	genau	ADJ	ADJD	_	2	mod	_	_
+6	wie	wie	CCONJ	KOKOM	_	2	mod	_	_
+7	,	,	PUNCT	$,	_	2	punct	_	_
+
+1	aber	aber	ADV	KON	_	4	cc	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Autos	Auto	NOUN	NN	_	4	subj	_	_
+4	hatten	haben	VERB	VAFIN	_	0	root	_	_
+5	dann	dann	ADV	ADV	_	4	mod	_	_
+6	einen	ein	DET	ART	_	8	det	_	_
+7	kleinen	klein	ADJ	ADJA	_	8	mod	_	_
+8	Unfall	Unfall	NOUN	NN	_	4	comp:obj	_	_
+9	,	,	PUNCT	$,	_	4	punct	_	_
+
+1	das	d	DET	ART	_	2	det	_	_
+2	hintere	Hintere	ADJ	NN	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	dem	d	DET	ART	_	5	det	_	_
+5	vorderen	Vordere	ADJ	NN	_	6	comp:obj	_	_
+6	hereingefahren	hereinfahren	NOUN	VVFIN	_	3	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Ball	Ball	NOUN	NN	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	dem	d	DET	ART	_	6	det	_	_
+6	Jungen	Junge	NOUN	NN	_	7	comp:obj	_	_
+7	runtergefallen	runterfallen	ADJ	VVPP	_	4	comp:aux	_	_
+8	..	..	PUNCT	$.	_	4	discourse	_	_
+
+1	dann	dann	ADV	ADV	_	2	mod	_	_
+2	stand	stehen	VERB	VVFIN	_	0	root	_	_
+3	da	da	ADV	ADV	_	2	mod	_	_
+4	noch	noch	ADV	PTKMWL	_	2	mod	_	_
+5	eine	eine	DET	ART	_	7	det	_	_
+6	andere	ander	ADJ	PIDAT	_	7	mod	_	_
+7	Frau	Frau	NOUN	NN	_	2	subj	_	_
+8	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+9	dem	d	DET	ART	_	10	det	_	_
+10	Parkplatz	Parkplatz	NOUN	NN	_	8	comp:obj	_	_
+11	,	,	PUNCT	$,	_	2	punct	_	_
+12	die	die	PRON	PRELS	_	20	subj	_	_
+13	gerade	gerade	ADV	ADV	_	20	mod	_	_
+14	ihre	ihr	DET	PPOSAT	_	15	det	_	_
+15	Einkäufe	Einkauf	NOUN	NN	_	19	comp:obj	_	_
+16	in	in	ADP	APPR	_	19	comp:obl	_	_
+17	ihr	ihr	DET	PPOSAT	_	18	det	_	_
+18	Auto	Auto	NOUN	NN	_	16	comp:obj	_	_
+19	geladen	laden	VERB	VVPP	_	20	comp:aux	_	_
+20	hat	haben	AUX	VAFIN	_	7	mod@relcl	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	ihr	ihr	PRON	PPER	_	6	comp:obj	_	_
+3	sind	sein	VERB	VAFIN	_	0	root	_	_
+4	ihre	ihr	DET	PPOSAT	_	5	det	_	_
+5	Äpfel	Apfel	NOUN	NN	_	3	subj	_	_
+6	runtergefallen	runterfallen	ADV	VVPP	_	3	comp:aux@pass	_	_
+7	..	..	PUNCT	$.	_	3	discourse	_	_
+
+1	der	d	DET	ART	_	2	det	_	_
+2	Junge	Junge	NOUN	NN	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	zu	zu	ADP	APPR	_	3	comp:obl	_	_
+5	ihr	ihr	PRON	PPER	_	6	comp:obj	_	_
+6	hin	hin	ADV	PTKVZ	_	4	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	ihr	ihr	PRON	PPER	_	4	comp:obj	_	_
+4	geholfen	helfen	VERB	VVPP	_	2	comp:aux	_	_
+5	sie	sie	PRON	PPER	_	6	comp:obj	_	_
+6	aufzuheben	aufheben	VERB	VVIZU	_	4	comp:obl	_	_
+
+1	und	und	CCONJ	KON	_	11	cc	_	_
+2	die	d	DET	ART	_	4	det	_	_
+3	beiden	beide	PRON	PIDS	_	4	mod	_	_
+4	Männer	Mann	NOUN	NN	_	11	subj	_	_
+5	die	die	PRON	PRELS	_	9	subj	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Unfall	Unfall	NOUN	NN	_	8	comp:obj	_	_
+8	verursacht	verursachen	VERB	VVPP	_	9	comp:aux	_	_
+9	haben	haben	AUX	VAINF	_	4	mod@relcl	_	_
+10	,	,	PUNCT	$,	_	9	punct	_	_
+11	haben	haben	AUX	VAFIN	_	0	root	_	_
+12	die	d	DET	ART	_	13	det	_	_
+13	Polizei	Polizei	NOUN	NN	_	14	comp:obj	_	_
+14	gerufen	rufen	VERB	VVPP	_	11	comp:aux	_	_
+

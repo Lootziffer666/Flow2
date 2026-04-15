@@ -1,0 +1,153 @@
+1	hi	hi	X	NGIRR	_	0	root	_	_
+
+1	weißt	wissen	VERB	VVFIN	_	0	root	_	_
+2	du	du	PRON	PPER	_	1	subj	_	_
+3	was	was	PRON	PWS	_	7	subj	_	_
+4	mir	ich	PRON	PPER	_	6	comp:obj	_	_
+5	gerade	gerade	ADV	ADV	_	7	mod	_	_
+6	passiert	passieren	VERB	VVPP	_	7	comp:aux	_	_
+7	ist	sein	AUX	VAFIN	_	1	comp:obj	_	_
+
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	sitze	sitzen	NOUN	VVFIN	_	0	root	_	_
+3	hier	hier	ADV	ADV	_	2	mod	_	_
+4	jetzt	jetzt	ADV	ADV	_	2	mod	_	_
+5	schön	schön	ADJ	ADJD	_	2	mod	_	_
+6	unter	unter	ADP	APPR	_	2	comp:obl	_	_
+7	den	d	DET	ART	_	8	det	_	_
+8	Baum	Baum	NOUN	NN	_	6	comp:obj	_	_
+9	im	im	PROPN	APPRART	_	2	mod	_	_
+10	schatten	Schatten	VERB	NN	_	9	comp:obj	_	_
+11	bei	bei	ADP	APPR	_	2	mod	_	_
+12	dieser	diese	PRON	PDAT	_	13	det	_	_
+13	Hitze	Hitze	NOUN	NN	_	11	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	kommt	kommen	VERB	VVFIN	_	0	root	_	_
+4	jetzt	jetzt	ADV	ADV	_	3	mod	_	_
+5	so	so	ADV	PTKIFG	_	7	mod	_	_
+6	ein	ein	DET	ART	_	7	det	_	_
+7	Idiot	Idiot	NOUN	NN	_	3	subj	_	_
+8	mit	mit	ADP	APPR	_	7	mod	_	_
+9	einem	ein	DET	ART	_	10	det	_	_
+10	Kinderwagen	Kinderwagen	NOUN	NN	_	8	comp:obj	_	_
+11	und	und	CCONJ	KON	_	13	cc	_	_
+12	seiner	sein	DET	PPOSAT	_	13	det	_	_
+13	Frau	Frau	NOUN	NN	_	10	conj	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	spielt	spielen	VERB	VVFIN	_	0	root	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	dem	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	fällt	fallen	VERB	VVFIN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	PROPN	NN	_	3	subj	_	_
+6	runter	runter	PROPN	PTKVZ	_	3	compound@prt	_	_
+
+1	und	und	CCONJ	KON	_	9	cc	_	_
+2	in	in	ADP	APPR	_	6	reparandum	_	_
+3	diesen	diese	PRON	PDAT	_	5	det	_	_
+4	Zeitpunkt	Zeitpunkt	NOUN	NN	_	5	reparandum	_	_
+5	Punkt	Punkt	NOUN	NN	_	2	comp:obj	_	_
+6	zu	zu	ADP	APPR	_	13	mod	_	_
+7	diesem	diese	PRON	PDAT	_	8	det	_	_
+8	Zeitpunkt	Zeitpunkt	NOUN	NN	_	6	comp:obj	_	_
+9	kommt	kommen	VERB	VVFIN	_	0	root	_	_
+10	da	da	ADV	ADV	_	9	mod	_	_
+11	ein	ein	DET	ART	_	12	det	_	_
+12	Auto	Auto	NOUN	NN	_	9	subj	_	_
+13	gefahren	fahren	VERB	VVPP	_	9	comp:obl	_	_
+
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	also	also	ADV	SEDM	_	3	discourse	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	halt	halt	ADV	PTKMA	_	3	discourse	_	_
+5	so	so	ADV	PTKIFG	_	7	mod	_	_
+6	ein	ein	DET	ART	_	7	det	_	_
+7	Parkplatz	Parkplatz	NOUN	NN	_	3	comp:pred	_	_
+
+1	äh	äh	ADJ	NGHES	_	7	discourse	_	_
+2	und	und	CCONJ	KON	_	7	cc	_	_
+3	äh	äh	ADJ	NGHES	_	7	discourse	_	_
+4	in	in	ADP	APPR	_	7	comp:pred	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Situation	Situation	NOUN	NN	_	4	comp:obj	_	_
+7	war	sein	VERB	VAFIN	_	0	root	_	_
+8	jetzt	jetzt	ADV	ADV	_	7	mod	_	_
+9	auch	auch	ADV	PTKIFG	_	7	mod	_	_
+10	noch	noch	ADV	PTKMWL	_	7	mod	_	_
+11	ein	ein	DET	ART	_	12	det	_	_
+12	Hund	Hund	NOUN	NN	_	7	subj	_	_
+13	mit	mit	ADP	APPR	_	12	mod	_	_
+14	einer	ein	DET	ART	_	15	det	_	_
+15	Dame	Dame	NOUN	NN	_	13	comp:obj	_	_
+16	die	d	PRON	PRELS	_	19	subj	_	_
+17	das	d	DET	ART	_	18	det	_	_
+18	Auto	Auto	NOUN	NN	_	19	comp:obj	_	_
+19	ausräumte	ausräumen	VERB	VVFIN	_	15	mod@relcl	_	_
+
+1	der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	4	subj	_	_
+3	äh	äh	NOUN	NGHES	_	4	discourse	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	total	total	ADJ	PTKIFG	_	4	mod	_	_
+6	ausgerastet	ausrasten	ADJ	VVPP	_	4	comp:aux	_	_
+7	wegen	wegen	ADP	APPR	_	8	reparandum	_	_
+8	wegen	wegen	ADP	APPR	_	6	mod	_	_
+9	dieser	diese	PRON	PDAT	_	10	det	_	_
+10	Situation	Situation	NOUN	NN	_	8	comp:obj	_	_
+11	mit	mit	ADP	APPR	_	10	mod	_	_
+12	dem	d	DET	ART	_	13	det	_	_
+13	Ball	Ball	NOUN	NN	_	11	comp:obj	_	_
+
+1	der	d	DET	ART	_	2	det	_	_
+2	Ball	Ball	NOUN	NN	_	3	subj	_	_
+3	lief	laufen	VERB	VVFIN	_	0	root	_	_
+4	da	da	ADV	ADV	_	3	mod	_	_
+5	total	total	ADJ	PTKIFG	_	3	mod	_	_
+6	gegen	gegen	ADP	APPR	_	3	comp:obl	_	_
+7	das	d	DET	ART	_	8	det	_	_
+8	Auto	Auto	NOUN	NN	_	6	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Autofahrer	Autofahrer	NOUN	NN	_	4	subj	_	_
+4	hat	haben	VERB	VAFIN	_	0	root	_	_
+5	gebremst	bremsen	ADV	VVPP	_	4	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	der	d	DET	PDS	_	5	subj	_	_
+3	hinter	hinter	ADP	APPR	_	2	mod	_	_
+4	ihm	er	PRON	PPER	_	3	comp:obj	_	_
+5	ist	sein	VERB	VAFIN	_	0	root	_	_
+6	voll	voll	ADJ	PTKIFG	_	5	mod	_	_
+7	auf	auf	ADP	APPR	_	9	comp:obl	_	_
+8	ihn	er	PRON	PPER	_	7	comp:obj	_	_
+9	draufgefahren	drauffahren	VERB	VVPP	_	5	comp:aux	_	_
+
+1	jetzt	jetzt	ADV	ADV	_	2	mod	_	_
+2	weiß	weiß	VERB	VVFIN	_	0	root	_	_
+3	ich	ich	PRON	PPER	_	2	subj	_	_
+4	nicht	nicht	PART	PTKNEG	_	2	mod	_	_
+5	was	was	PRON	PWS	_	7	comp:obj	_	_
+6	die	d	DET	PDS	_	7	subj	_	_
+7	vorhaben	vorhaben	NOUN	VVFIN	_	2	comp:obj	_	_
+
+1	wahrscheinlich	wahrscheinlich	ADJ	ADV	_	2	mod	_	_
+2	werden	werden	AUX	VAFIN	_	0	root	_	_
+3	die	d	DET	ART	_	2	subj	_	_
+4	Polizei	Polizei	NOUN	NN	_	5	comp:obj	_	_
+5	gerufen	rufen	VERB	VVPP	_	6	comp:aux	_	_
+6	haben	haben	AUX	VAFIN	_	2	comp:aux	_	_
+
+1	mal	mal	ADV	PTKMA	_	2	mod	_	_
+2	sehen	sehen	VERB	VVINF	_	0	root	_	_
+3	wer	wer	PRON	PWS	_	5	subj	_	_
+4	Schuld	Schuld	ADJ	NN	_	5	comp:pred	_	_
+5	war	sein	VERB	VAFIN	_	2	comp:obj	_	_
+

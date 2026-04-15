@@ -1,0 +1,86 @@
+1	Hey	hey	PROPN	NGIRR	_	0	root	_	_
+
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	subj	_	_
+2	glaubst	glauben	ADV	VVFIN	Tense=Pres	0	root	_	_
+3	nicht	nicht	PART	PTKNEG	_	2	mod	_	_
+4	was	was	PRON	PWS	Case=Nom|PronType=Ind	7	subj	_	_
+5	gerade	gerade	ADV	ADJD	_	7	mod	_	_
+6	passiert	passieren	VERB	VVPP	Tense=Past|VerbForm=Part	7	comp:aux	_	_
+7	ist	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
+
+1	Haha	haha	PROPN	NGAKW	_	2	discourse	_	_
+2	omg	omg	ADJ	NGIRR	Degree=Pos	0	root	_	_
+
+1	Es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+2	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	gerade	gerade	ADV	ADJD	_	2	mod	_	_
+4	2	@card@	NUM	CARD	NumType=Card	5	mod	_	_
+5	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	2	subj	_	_
+6	ineinander	ineinander	ADV	PRF	_	7	comp:obj	_	_
+7	gefahren	fahren	VERB	VVPP	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	:face_screaming_in_fear:	😱	SYM	EMO	_	0	root	_	_
+
+1	:face_screaming_in_fear:	😱	SYM	EMO	_	0	root	_	_
+
+1	Das	das	PRON	PDS	Case=Nom|PronType=Dem	2	subj	_	_
+2	ging	gehen	VERB	VVFIN	Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	voll	voll	ADJ	PTKIFG	Degree=Pos	4	mod	_	_
+4	schnell	schnell	ADV	ADJD	_	2	comp:pred	_	_
+5	...	...	PUNCT	$.	_	2	discourse	_	_
+
+1	da	da	ADV	ADV	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	einfach	einfach	ADJ	PTKMA	Degree=Pos	2	mod	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	2	subj	_	_
+6	vor	vor	ADP	APPR	_	9	comp:obl	_	_
+7	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	comp:obj	_	_
+9	gelaufen	laufen	VERB	VVPP	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	einem	ein	DET	ART	Definite=Ind|PronType=Art	4	det	_	_
+3	anderen	ander	ADJ	PIDAT	Degree=Pos	4	mod	_	_
+4	Mann	Mann	NOUN	NN	_	11	comp:obj	_	_
+5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	der	d	DET	ART	Definite=Def|PronType=Art	7	det	_	_
+7	Ball	Ball	NOUN	NN	_	5	subj	_	_
+8	aus	aus	ADP	APPR	_	11	comp:obl	_	_
+9	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Hand	Hand	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	comp:obj	_	_
+11	gefallen	fallen	ADJ	VVPP	Degree=Pos|Tense=Past|VerbForm=Part	5	comp:aux	_	_
+
+1	Wie	wie	ADV	PWAV	_	2	mod	_	_
+2	schnell	schnell	ADJ	ADJD	Degree=Pos	4	mod	_	_
+3	sowas	sowas	PRON	PIS	Case=Acc|PronType=Ind	4	subj	_	_
+4	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+
+1	einfach	einfach	ADJ	ADJD	Degree=Pos	2	mod	_	_
+2	:collision:	💥	SYM	EMO	_	0	root	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	hat	haben	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	man	man	PRON	PIS	Case=Nom|PronType=Ind	3	subj	_	_
+5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Unfall	Unfall	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	3	comp:obj	_	_
+
+1	deswegen	deswegen	ADV	ADV	_	6	mod	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Auto	Auto	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	subj	_	_
+5	stehen	stehen	VERB	VVINF	Number=Plur|Person=3|VerbForm=Inf	6	comp:obj	_	_
+6	geblieben	bleiben	VERB	VVPP	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+1	Das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	hintere	hintere	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	3	subj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	in	in	ADP	APPR	_	8	comp:obl	_	_
+6	das	d	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	vordere	vordere	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Plur	5	comp:obj	_	_
+8	hineingefahren	hineinfahren	NOUN	VVPP	Case=Acc|Gender=Neut|Number=Sing|Tense=Past	3	comp:aux	_	_
+

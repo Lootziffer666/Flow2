@@ -1,0 +1,132 @@
+# text = ﻿Der Unfall ereignete sich gegen Mittag .
+1	﻿Der	﻿Der	ADV	ADJA	_	2	det	_	_
+2	Unfall	Unfall	PROPN	NN	Case=Nom|Number=Sing	3	subj	_	_
+3	ereignete	ereignen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs	3	comp:obj	_	_
+5	gegen	gegen	ADP	APPR	_	3	mod	_	_
+6	Mittag	Mittag	PROPN	NN	_	5	comp:obj	_	_
+7	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Es fing damit an , dass der Junge mit seiner Mutter und dem Kinderwagen die Straße entlanggingen , bis dem Jungen sein Fußball aus der Hand auf die Straße fiel .
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+2	fing	fangen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	damit	damit	ADV	ADV	_	2	mod	_	_
+4	an	an	ADP	PTKVZ	_	2	compound@prt	_	_
+5	,	,	PUNCT	$,	_	2	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	2	comp:obj	_	_
+7	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Junge	Junge	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	subj	_	_
+9	mit	mit	ADP	APPR	_	8	mod	_	_
+10	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	Mutter	Mutter	NOUN	NN	Case=Dat|Number=Sing	9	comp:obj	_	_
+12	und	und	CCONJ	KON	_	14	cc	_	_
+13	dem	d	DET	ART	Definite=Def|PronType=Art	14	det	_	_
+14	Kinderwagen	Kinderwagen	NOUN	NN	_	11	conj	_	_
+15	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	comp:obj	_	_
+17	entlanggingen	entlanggehen	VERB	VVFIN	Tense=Past|VerbForm=Inf	6	comp:obj	_	_
+18	,	,	PUNCT	$,	_	17	punct	_	_
+19	bis	bis	SCONJ	KOUS	_	17	mod	_	_
+20	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	21	det	_	_
+21	Jungen	Junge	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	30	comp:obj	_	_
+22	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	23	det	_	_
+23	Fußball	Fußball	NOUN	NN	Case=Nom|Number=Sing	30	subj	_	_
+24	aus	aus	ADP	APPR	_	30	mod	_	_
+25	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Hand	Hand	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	24	comp:obj	_	_
+27	auf	auf	ADP	APPR	_	30	comp:obl	_	_
+28	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	27	comp:obj	_	_
+30	fiel	fallen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	comp:obj	_	_
+31	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Daraufhin stoppte ein Wagen abrupt , da er auf die Straße gelaufen ist , um einer Frau zu helfen , welche ihren Einkauf vor Schreck fallen gelassen hat .
+1	Daraufhin	daraufhin	ADV	ADV	_	2	mod	_	_
+2	stoppte	stoppen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Wagen	Wagen	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	subj	_	_
+5	abrupt	abrupt	ADV	ADJD	_	2	mod	_	_
+6	,	,	PUNCT	$,	_	2	punct	_	_
+7	da	da	SCONJ	KOUS	_	2	mod	_	_
+8	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj	_	_
+9	auf	auf	ADP	APPR	_	12	comp:obl	_	_
+10	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	comp:obj	_	_
+12	gelaufen	laufen	VERB	VVPP	Tense=Past|VerbForm=Part	13	comp:aux	_	_
+13	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
+14	,	,	PUNCT	$,	_	7	punct	_	_
+15	um	um	ADP	KOUI	_	13	mod	_	_
+16	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Frau	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	comp:obj	_	_
+18	zu	zu	PART	PTKZU	_	15	comp:obj	_	_
+19	helfen	helfen	VERB	VVINF	Tense=Pres|VerbForm=Inf	18	comp:obj	_	_
+20	,	,	PUNCT	$,	_	15	punct	_	_
+21	welche	welche	PRON	PRELS	Case=Nom|PronType=Ind	28	subj	_	_
+22	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	23	det	_	_
+23	Einkauf	Einkauf	NOUN	NN	_	26	comp:obj	_	_
+24	vor	vor	ADP	APPR	_	26	mod	_	_
+25	Schreck	Schreck	NOUN	NN	_	24	comp:obj	_	_
+26	fallen	fallen	ADJ	VVINF	Case=Dat|Degree=Pos|Number=Plur|Tense=Pres	27	comp:obj	_	_
+27	gelassen	lassen	VERB	VVPP	Tense=Past|VerbForm=Part	28	comp:aux	_	_
+28	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	mod@relcl	_	_
+29	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Anschließend ist ihm ein weiteres Auto hinten reingefahren .
+1	Anschließend	anschließend	ADJ	ADV	Degree=Pos	2	mod	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	_
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+5	weiteres	weit	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Masc,Neut|Number=Sing	6	mod	_	_
+6	Auto	Auto	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	2	subj	_	_
+7	hinten	hinten	ADV	ADV	_	2	mod	_	_
+8	reingefahren	reinfahren	NOUN	VVPP	Case=Acc|Gender=Neut|Number=Sing|Tense=Past	2	comp:aux	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Als der Junge fertig mit dem Helfen war , ist er zu den beiden Männern gegangen , welche miteinander im Konflikt waren
+1	Als	als	SCONJ	KOUS	_	10	mod	_	_
+2	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Junge	Junge	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	subj	_	_
+4	fertig	fertig	ADJ	ADJD	Degree=Pos	8	comp:pred	_	_
+5	mit	mit	ADP	APPR	_	4	mod	_	_
+6	dem	d	PRON	ART	Case=Dat|PronType=Dem	7	det	_	_
+7	Helfen	Helfen	VERB	NN	VerbForm=Inf	5	comp:obj	_	_
+8	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	comp:obj	_	_
+9	,	,	PUNCT	$,	_	1	punct	_	_
+10	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj	_	_
+12	zu	zu	ADP	APPR	_	16	comp:obl	_	_
+13	den	d	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+14	beiden	beide	PRON	PIDAT	Case=Dat|Number=Plur|NumType=Card|PronType=Tot	15	mod	_	_
+15	Männern	Mann	NOUN	NN	Case=Dat|Number=Plur	12	comp:obj	_	_
+16	gegangen	gehen	VERB	VVPP	Tense=Past|VerbForm=Part	10	comp:aux	_	_
+17	,	,	PUNCT	$,	_	10	punct	_	_
+18	welche	welche	PRON	PRELS	Case=Nom|PronType=Rel	22	subj	_	_
+19	miteinander	miteinander	ADV	ADV	_	22	mod	_	_
+20	im	in	PROPN	APPRART	_	22	comp:pred	_	_
+21	Konflikt	Konflikt	PROPN	NN	_	20	comp:obj	_	_
+22	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	mod@relcl	_	_
+
+# text = und sprach mit ihnen .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	sprach	sprechen	VERB	VVFIN	Tense=Past|VerbForm=Fin	0	root	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	ihnen	sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	3	comp:obj	_	_
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Zum Schluss konnte ich erkennen , wie der eine Mann die Polizei gerufen hat .
+1	Zum	zu	NOUN	APPRART	_	5	mod	_	_
+2	Schluss	Schluss	NOUN	NN	Case=Nom|Number=Plur	1	comp:obj	_	_
+3	konnte	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+5	erkennen	erkennen	VERB	VVINF	Tense=Pres|VerbForm=Inf	3	comp:aux	_	_
+6	,	,	PUNCT	$,	_	3	punct	_	_
+7	wie	wie	ADP	KOUS	_	5	comp:obj	_	_
+8	der	d	DET	ART	Definite=Def|PronType=Art	10	det	_	_
+9	eine	eine	NUM	PIDAT	NumType=Card	10	mod	_	_
+10	Mann	Mann	NOUN	NN	_	14	subj	_	_
+11	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Polizei	Polizei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	comp:obj	_	_
+13	gerufen	rufen	VERB	VVPP	Tense=Past|VerbForm=Part	14	comp:aux	_	_
+14	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
+15	.	.	PUNCT	$.	_	3	punct	_	_
+

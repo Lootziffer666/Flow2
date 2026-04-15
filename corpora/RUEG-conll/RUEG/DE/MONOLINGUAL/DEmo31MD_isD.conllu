@@ -1,0 +1,121 @@
+# text = ja hallo
+1	ja	ja	ADV	NGIRR	_	2	discourse	_	_
+2	hallo	hallo	X	NGIRR	_	0	root	_	_
+
+# text = äh du ich habe hier gerade einen Unfall gesehen
+1	äh	äh	ADJ	NGHES	Degree=Pos	4	discourse	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing	4	vocative	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	_
+4	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	hier	hier	ADV	ADV	_	4	mod	_	_
+6	gerade	gerade	ADV	ADV	_	4	mod	_	_
+7	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Unfall	Unfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	comp:obj	_	_
+9	gesehen	sehen	VERB	VVPP	VerbForm=Part	4	comp:aux	_	_
+
+# text = und äh bisschen skurril
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	ADJ	NGHES	Degree=Pos	4	discourse	_	_
+3	bisschen	bisschen	NOUN	PIDAT	_	4	mod	_	_
+4	skurril	skurril	ADV	ADJD	_	0	root	_	_
+
+# text = äh ein Mann hat so einen Ball fallenlassen
+1	äh	äh	ADJ	NGHES	Degree=Pos	4	discourse	_	_
+2	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	4	subj	_	_
+4	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	so	so	ADV	PTKMA	_	7	mod	_	_
+6	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	comp:obj	_	_
+8	fallenlassen	fallenlassen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	4	comp:aux	_	_
+
+# text = er ist äh in der Ball ist weggekullert
+1	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	reparandum	_	_
+3	äh	äh	ADJ	NGHES	Degree=Pos	7	discourse	_	_
+4	in	in	ADP	APPR	_	2	comp:obl	_	_
+5	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Ball	Ball	PROPN	NN	_	7	subj	_	_
+7	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	weggekullert	wegkullern	ADJ	VVPP	Degree=Pos	7	comp:aux	_	_
+
+# text = dabei ist ein Hund aufgeschreckt
+1	dabei	dabei	ADV	ADV	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	ART	Definite=Ind|PronType=Art	4	det	_	_
+4	Hund	Hund	NOUN	NN	_	2	subj	_	_
+5	aufgeschreckt	aufschrecken	VERB	VVPP	Person=3|VerbForm=Fin	2	comp:aux	_	_
+
+# text = ironischerweise kamen da gerade zwei Autos
+1	ironischerweise	ironischerweise	ADV	ADJD	_	2	mod	_	_
+2	kamen	kommen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+3	da	da	ADV	ADV	_	2	mod	_	_
+4	gerade	gerade	ADV	ADV	_	2	mod	_	_
+5	zwei	zwei	NUM	CARD	NumType=Card	6	mod	_	_
+6	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	2	subj	_	_
+
+# text = und ja das eine Auto ist dem anderen hinten raufgefahren
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	ja	ja	ADV	PTKMA	_	6	discourse	_	_
+3	das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+4	eine	ein	ADJ	ART	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	mod	_	_
+5	Auto	Auto	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	subj	_	_
+6	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	dem	d	DET	ART	Definite=Def|PronType=Art	8	det	_	_
+8	anderen	ander	ADJ	PIDS	Degree=Pos	10	comp:obj	_	_
+9	hinten	hinten	ADJ	ADV	Degree=Pos	10	mod	_	_
+10	raufgefahren	rauffahren	NOUN	VVPP	_	6	comp:aux	_	_
+
+# text = aber immerhin der Herr der prinzipiell dafür gesorgt hat dass das so geschehen ist hat auch dafür gesorgt dass dann halt also hat sich darum gekümmert um die beiden Leute die in den Autos waren
+1	aber	aber	ADV	KON	_	23	cc	_	_
+2	immerhin	immerhin	ADV	ADV	_	23	mod	_	_
+3	der	der	NOUN	ART	Case=Nom|Number=Sing	4	det	_	_
+4	Herr	Herr	NOUN	NN	_	23	subj	_	_
+5	der	die	DET	PRELS	Definite=Def|PronType=Art	9	subj	_	_
+6	prinzipiell	prinzipiell	ADJ	ADJD	Degree=Pos	9	mod	_	_
+7	dafür	dafür	ADV	ADJD	_	8	comp:obj	_	_
+8	gesorgt	sorgen	VERB	VVPP	VerbForm=Part	9	comp:aux	_	_
+9	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
+10	dass	dass	SCONJ	KOUS	_	7	comp:obj	_	_
+11	das	die	PRON	PDS	Case=Nom|PronType=Dem	14	subj	_	_
+12	so	so	ADV	PTKMA	_	14	mod	_	_
+13	geschehen	geschehen	VERB	VVPP	VerbForm=Part	14	comp:aux	_	_
+14	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
+15	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	reparandum	_	_
+16	auch	auch	ADV	PTKIFG	_	15	mod	_	_
+17	dafür	dafür	PRON	ADJD	PronType=Dem,Rel	18	comp:obj	_	_
+18	gesorgt	sorgen	VERB	VVPP	VerbForm=Part	15	comp:aux	_	_
+19	dass	dass	SCONJ	KOUS	_	17	comp:obj	_	_
+20	dann	dann	ADV	ADV	_	19	mod	_	_
+21	halt	halt	VERB	PTKMA	_	23	discourse	_	_
+22	also	also	ADV	SEDM	_	23	mod	_	_
+23	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+24	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs	26	comp:obj	_	_
+25	darum	darum	ADV	ADV	_	23	mod	_	_
+26	gekümmert	kümmern	ADJ	VVPP	_	23	comp:aux	_	_
+27	um	um	ADP	APPR	_	26	comp:obl	_	_
+28	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	beiden	beide	PRON	PIDAT	Case=Acc|Gender=Fem|Number=Sing|NumType=Card|PronType=Tot	30	mod	_	_
+30	Leute	Leute	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	27	comp:obj	_	_
+31	die	die	DET	PRELS	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	subj	_	_
+32	in	in	ADP	APPR	_	35	comp:pred	_	_
+33	den	d	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	34	det	_	_
+34	Autos	Auto	NOUN	NN	Case=Dat|Number=Plur	32	comp:obj	_	_
+35	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	30	mod@relcl	_	_
+
+# text = und ja im Prinzip ist nur ein Blechschaden
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	ja	ja	ADV	PTKMA	_	5	discourse	_	_
+3	im	im	PROPN	APPRART	_	5	mod	_	_
+4	Prinzip	Prinzip	PROPN	NN	_	3	comp:obj	_	_
+5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	nur	nur	ADV	PTKIFG	_	5	mod	_	_
+7	ein	ein	DET	ART	Definite=Ind|PronType=Art	8	det	_	_
+8	Blechschaden	Blechschaden	NOUN	NN	_	5	comp:pred	_	_
+
+# text = also alles in Ordnung
+1	also	also	ADV	SEDM	_	2	discourse	_	_
+2	alles	alle	PRON	PIS	PronType=Tot	0	root	_	_
+3	in	in	ADP	APPR	_	2	orphan	_	_
+4	Ordnung	Ordnung	NOUN	NN	_	3	comp:obj	_	_
+

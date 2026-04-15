@@ -1,0 +1,141 @@
+1	Hi	hi	PROPN	NGIRR	_	2	discourse	_	_
+2	Veronika	Veronika	PROPN	NE	_	0	root	_	_
+3	,	,	PUNCT	$,	_	2	punct	_	_
+
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	auf	auf	ADP	APPR	_	2	comp:pred	_	_
+5	einem	ein	DET	ART	_	6	det	_	_
+6	Parkplatz	Parkplatz	NOUN	NN	_	4	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	gesehen	sehen	VERB	VVPP	_	2	comp:aux	_	_
+4	,	,	PUNCT	$,	_	2	punct	_	_
+5	wie	wie	ADP	PWAV	_	3	comp:obj	_	_
+6	ein	ein	DET	ART	_	7	det	_	_
+7	Autounfall	Autounfall	NOUN	NN	_	9	subj	_	_
+8	passiert	passieren	VERB	VVPP	_	9	comp:aux	_	_
+9	ist	sein	AUX	VAFIN	_	5	comp:obj	_	_
+
+1	:flushed_face:	😳	SYM	EMO	_	0	root	_	_
+2	.	.	PUNCT	$.	_	1	punct	_	_
+
+1	Eine	ein	DET	ART	_	2	det	_	_
+2	Frau	Frau	NOUN	NN	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	mit	mit	ADP	APPR	_	7	mod	_	_
+5	einem	ein	DET	ART	_	6	det	_	_
+6	Kinderwagen	Kinderwagen	NOUN	NN	_	4	comp:obj	_	_
+7	unterwegs	unterwegs	ADV	ADV	_	3	comp:pred	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	neben	neben	ADP	APPR	_	10	mod	_	_
+3	ihr	ihr	PRON	PPER	_	2	comp:obj	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Junge	Junge	NOUN	NN	_	4	subj	_	_
+7	mit	mit	ADP	APPR	_	10	mod	_	_
+8	einem	ein	DET	ART	_	9	det	_	_
+9	Ball	Ball	NOUN	NN	_	7	comp:obj	_	_
+10	gespielt	spielen	VERB	VVPP	_	4	comp:aux	_	_
+11	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	In	in	ADP	APPR	_	11	mod	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Zeit	Zeit	NOUN	NN	_	1	comp:obj	_	_
+4	war	sein	VERB	VAFIN	_	0	root	_	_
+5	eine	ein	DET	ART	_	7	det	_	_
+6	andere	ander	ADJ	PIDAT	_	7	mod	_	_
+7	Frau	Frau	NOUN	NN	_	4	subj	_	_
+8	mit	mit	ADP	APPR	_	7	mod	_	_
+9	einem	ein	DET	ART	_	10	det	_	_
+10	Hund	Hund	NOUN	NN	_	8	comp:obj	_	_
+11	auf	auf	ADP	APPR	_	4	comp:pred	_	_
+12	dem	d	DET	ART	_	13	det	_	_
+13	Parkplatz	Parkplatz	NOUN	NN	_	11	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	ihre	ihr	DET	PPOSAT	_	4	det	_	_
+4	Einkaufssachen	Einkaufssache	NOUN	NN	_	8	comp:obj	_	_
+5	aus	aus	ADP	APPR	_	8	comp:obl	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	Auto	Auto	NOUN	NN	_	5	comp:obj	_	_
+8	geholt	holen	ADJ	VVPP	_	2	comp:aux	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Als	als	SCONJ	KON	_	16	mod	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Junge	Junge	NOUN	NN	_	7	subj	_	_
+4	den	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	6	comp:obj	_	_
+6	getreten	treten	VERB	VVPP	_	7	comp:aux	_	_
+7	hat	haben	AUX	VAFIN	_	1	comp:obj	_	_
+8	,	,	PUNCT	$,	_	1	punct	_	_
+9	ist	sein	VERB	VAFIN	_	0	root	_	_
+10	der	d	DET	ART	_	11	det	_	_
+11	Hund	Hund	NOUN	NN	_	9	subj	_	_
+12	plötzlich	plötzlich	ADJ	ADJD	_	9	mod	_	_
+13	auf	auf	ADP	APPR	_	16	comp:obl	_	_
+14	die	d	DET	ART	_	15	det	_	_
+15	Straße	Straße	NOUN	NN	_	13	comp:obj	_	_
+16	gerannt	rennen	ADJ	VVPP	_	9	comp:aux	_	_
+17	,	,	PUNCT	$,	_	9	punct	_	_
+18	um	um	ADP	KOUI	_	16	mod	_	_
+19	dem	d	DET	ART	_	20	det	_	_
+20	Ball	Ball	NOUN	NN	_	23	comp:obj	_	_
+21	hinterher	hinterher	ADV	ADV	_	23	compound@prt	_	_
+22	zu	zu	PART	PTKZU	_	18	comp:obj	_	_
+23	jagen	jagen	VERB	VVINF	_	22	comp:obj	_	_
+24	.	.	PUNCT	$.	_	9	punct	_	_
+
+1	Das	d	DET	ART	_	3	det	_	_
+2	vordere	vorder	ADJ	ADJA	_	3	mod	_	_
+3	Auto	Auto	NOUN	NN	_	12	subj	_	_
+4	,	,	PUNCT	$,	_	12	punct	_	_
+5	das	d	PRON	PRELS	_	10	subj	_	_
+6	auf	auf	ADP	APPR	_	9	comp:obl	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Straße	Straße	NOUN	NN	_	6	comp:obj	_	_
+9	gefahren	fahren	VERB	VVPP	_	10	comp:aux	_	_
+10	ist	sein	AUX	VAFIN	_	3	mod@relcl	_	_
+11	,	,	PUNCT	$,	_	10	punct	_	_
+12	hat	haben	AUX	VAFIN	_	0	root	_	_
+13	gebremst	bremsen	ADV	VVPP	_	12	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	das	d	DET	ART	_	3	det	_	_
+3	Hintere	Hintere	ADJ	NN	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	in	in	ADP	APPR	_	8	comp:obl	_	_
+6	dieses	diese	PRON	PDAT	_	7	det	_	_
+7	Vordere	Vordere	ADJ	NN	_	5	comp:obj	_	_
+8	reingefahren	reinfahren	NOUN	VVPP	_	4	comp:aux	_	_
+9	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	Der	d	DET	ART	_	2	det	_	_
+2	Junge	Junge	NOUN	NN	_	3	subj	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Frau	Frau	NOUN	NN	_	9	comp:obj	_	_
+6	mit	mit	ADP	APPR	_	5	mod	_	_
+7	dem	d	DET	ART	_	8	det	_	_
+8	Hund	Hund	NOUN	NN	_	6	comp:obj	_	_
+9	geholfen	helfen	VERB	VVPP	_	3	comp:aux	_	_
+10	die	d	DET	ART	_	12	det	_	_
+11	gefallenen	gefallen	ADJ	ADJA	_	12	mod	_	_
+12	Sachen	Sache	NOUN	NN	_	14	comp:obj	_	_
+13	zu	zu	PART	PTKZU	_	9	comp:obl	_	_
+14	packen	packen	VERB	VVINF	_	13	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Autofahrer	Autofahrer	NOUN	NN	_	4	subj	_	_
+4	hat	haben	VERB	VAFIN	_	0	root	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Polizei	Polizei	NOUN	NN	_	7	comp:obj	_	_
+7	angerufen	anrufen	VERB	VVPP	_	4	comp:aux	_	_
+8	.	.	PUNCT	$.	_	4	punct	_	_
+

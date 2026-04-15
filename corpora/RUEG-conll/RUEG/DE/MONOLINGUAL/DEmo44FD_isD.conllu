@@ -1,0 +1,193 @@
+# text = hi
+1	hi	hi	X	NGIRR	_	0	root	_	_
+
+# text = ich muss dir kurz mal was erzählen
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	muss	müssen	AUX	VMFIN	_	0	root	_	_
+4	dir	du	PRON	PRF	_	8	comp:obl	_	_
+5	kurz	kurz	ADV	ADJD	_	3	mod	_	_
+6	mal	mal	ADV	ADV	_	3	mod	_	_
+7	was	was	PRON	PWS	_	8	comp:obj	_	_
+8	erzählen	erzählen	VERB	VVFIN	_	3	comp:aux	_	_
+
+# text = ich bin gerade auf dem Weg zur Uni
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	bin	sein	VERB	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	auf	auf	ADP	APPR	_	2	comp:pred	_	_
+5	dem	d	DET	ART	_	6	det	_	_
+6	Weg	Weg	NOUN	NN	_	4	comp:obj	_	_
+7	zur	zu	PROPN	APPRART	_	6	mod	_	_
+8	Uni	Uni	PROPN	NN	_	7	comp:obj	_	_
+
+# text = und vor unserem Haus äh gab es mega den Unfall
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	vor	vor	ADP	APPR	_	6	mod	_	_
+3	unserem	unser	PRON	PPOSAT	_	4	det	_	_
+4	Haus	Haus	NOUN	NN	_	2	comp:obj	_	_
+5	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+6	gab	geben	VERB	VVFIN	_	0	root	_	_
+7	es	es	PRON	PPER	_	6	subj@expl	_	_
+8	mega	mega	ADJ	PTKIFG	_	10	mod	_	_
+9	den	d	DET	ART	_	10	det	_	_
+10	Unfall	Unfall	NOUN	NN	_	6	comp:obj	_	_
+
+# text = äh da war so ein äh Vollidiot
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	da	da	ADV	ADV	_	3	comp:pred	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	so	so	ADV	PTKMA	_	7	mod	_	_
+5	ein	ein	DET	ART	_	7	det	_	_
+6	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+7	Vollidiot	Vollidiot	NOUN	NN	_	3	subj	_	_
+
+# text = der hatte irgendwie einen Fußball dabei
+1	der	d	PRON	PDS	_	2	subj	_	_
+2	hatte	haben	VERB	VAFIN	_	0	root	_	_
+3	irgendwie	irgendwie	ADV	ADV	_	2	mod	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Fußball	Fußball	NOUN	NN	_	2	comp:obj	_	_
+6	dabei	dabei	PTKVZ	ADV	_	2	compound@prt	_	_
+
+# text = und äh der ist dem über die Straße gerollt
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	ADV	NGHES	_	4	discourse	_	_
+3	der	d	PRON	PDS	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	dem	d	DET	ART	_	9	comp:obj	_	_
+6	über	über	ADP	APPR	_	9	comp:obl	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Straße	Straße	NOUN	NN	_	6	comp:obj	_	_
+9	gerollt	rollen	VERB	VVPP	_	4	comp:aux	_	_
+
+# text = und dann ist der ein der Hund von einer Nachbarin äh beinahe vors Auto gelaufen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	ein	ein	NOUN	ART	_	7	reparandum	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Hund	Hund	NOUN	NN	_	3	subj	_	_
+8	von	von	ADP	APPR	_	7	mod@poss	_	_
+9	einer	ein	DET	ART	_	10	det	_	_
+10	Nachbarin	Nachbarin	NOUN	NN	_	8	comp:obj	_	_
+11	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+12	beinahe	beinahe	ADV	ADV	_	3	mod	_	_
+13	vors	vor	PROPN	APPRART	_	15	comp:obl	_	_
+14	Auto	Auto	PROPN	NN	_	13	comp:obj	_	_
+15	gelaufen	laufen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = äh aber das hat zum Glück gebremst
+1	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+2	aber	aber	ADV	KON	_	4	cc	_	_
+3	das	die	DET	PDS	_	4	subj	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	zum	zum	NOUN	APPRART	_	7	mod	_	_
+6	Glück	Glück	NOUN	NN	_	5	comp:obj	_	_
+7	gebremst	bremsen	VERB	VVPP	_	4	comp:aux	_	_
+
+# text = jedoch kam direkt dahinter ein anderes Auto
+1	jedoch	jedoch	ADV	ADV	_	2	mod	_	_
+2	kam	kommen	VERB	VVFIN	_	0	root	_	_
+3	direkt	direkt	ADJ	ADJD	_	4	mod	_	_
+4	dahinter	dahinter	ADP	ADV	_	2	mod	_	_
+5	ein	ein	DET	ART	_	7	det	_	_
+6	anderes	ander	ADJ	PIDAT	_	7	mod	_	_
+7	Auto	Auto	NOUN	NN	_	2	subj	_	_
+
+# text = und das ist dem voll hinten raufgefahren ne
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	das	d	PRON	PDS	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	dem	die	DET	PDS	_	7	comp:obj	_	_
+5	voll	voll	ADJ	PTKIFG	_	3	mod	_	_
+6	hinten	hinten	NOUN	ADV	_	3	mod	_	_
+7	raufgefahren	rauffahren	VERB	VVPP	_	3	comp:aux	_	_
+8	ne	ne	DET	SEQU	_	3	discourse	_	_
+
+# text = äh die haben glaube ich auch gleich die Polizei gerufen
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	die	d	PRON	PDS	_	3	subj	_	_
+3	haben	haben	AUX	VAFIN	_	0	root	_	_
+4	glaube	glauben	VERB	VVFIN	_	3	parataxis	_	_
+5	ich	ich	PRON	PPER	_	4	subj	_	_
+6	auch	auch	ADV	PTKIFG	_	3	mod	_	_
+7	gleich	gleich	ADV	ADV	_	3	mod	_	_
+8	die	d	DET	ART	_	9	det	_	_
+9	Polizei	Polizei	NOUN	NN	_	10	comp:obj	_	_
+10	gerufen	rufen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = äh na ja der Typ war immerhin so freundlich
+1	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+2	na	na	PROPN	NGIRR	_	6	discourse	_	_
+3	ja	ja	null	NGIRR	_	2	goeswith	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Typ	Typ	NOUN	NN	_	6	subj	_	_
+6	war	sein	VERB	VAFIN	_	0	root	_	_
+7	immerhin	immerhin	ADV	ADV	_	6	mod	_	_
+8	so	so	ADV	PTKIFG	_	9	mod	_	_
+9	freundlich	freundlich	ADJ	ADJD	_	6	comp:pred	_	_
+
+# text = und hat der Dame da noch geholfen ihren Einkauf wieder einzusammeln
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Dame	Dame	NOUN	NN	_	7	comp:obj	_	_
+5	da	da	ADV	ADV	_	2	mod	_	_
+6	noch	noch	ADV	PTKMWL	_	2	mod	_	_
+7	geholfen	helfen	VERB	VVPP	_	2	comp:aux	_	_
+8	ihren	ihr	DET	PPOSAT	_	9	det	_	_
+9	Einkauf	Einkauf	NOUN	NN	_	11	comp:obj	_	_
+10	wieder	wieder	ADV	ADV	_	11	mod	_	_
+11	einzusammeln	einsammeln	VERB	VVIZU	_	7	comp:obl	_	_
+
+# text = äh ja aber mir tat der Hund voll leid
+1	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+2	ja	ja	ADV	NGIRR	_	5	discourse	_	_
+3	aber	aber	ADV	KON	_	5	cc	_	_
+4	mir	ich	PRON	PPER	_	5	comp:obj	_	_
+5	tat	tun	VERB	VVFIN	_	0	root	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Hund	Hund	NOUN	NN	_	5	subj	_	_
+8	voll	voll	ADJ	PTKIFG	_	5	mod	_	_
+9	leid	leid	NOUN	PTKVZ	_	5	compound@prt	_	_
+
+# text = äh ja das hat mir meine Mama schon immer gesagt dass man nicht mit den Bällen anner Straße spielen soll
+1	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+2	ja	ja	ADV	NGIRR	_	4	discourse	_	_
+3	das	d	PRON	PDS	_	10	comp:obj	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	mir	ich	PRON	PPER	_	10	comp:obl	_	_
+6	meine	mein	PRON	PPOSAT	_	7	det	_	_
+7	Mama	Mama	PROPN	NN	_	4	subj	_	_
+8	schon	schon	ADV	PTKMWL	_	9	mod	_	_
+9	immer	immer	ADV	ADV	_	4	mod	_	_
+10	gesagt	sagen	VERB	VVPP	_	4	comp:aux	_	_
+11	dass	dass	SCONJ	KOUS	_	3	comp:obj	_	_
+12	man	man	PRON	PIS	_	20	subj	_	_
+13	nicht	nicht	PART	PTKNEG	_	20	mod	_	_
+14	mit	mit	ADP	APPR	_	19	mod	_	_
+15	den	d	DET	ART	_	16	det	_	_
+16	Bällen	Ball	NOUN	NN	_	14	comp:obj	_	_
+17	anner	an	null	APPRART	_	19	mod	_	_
+18	Straße	Straße	NOUN	NN	_	17	comp:obj	_	_
+19	spielen	spielen	VERB	VVINF	_	20	comp:aux	_	_
+20	soll	sollen	AUX	VMFIN	_	11	comp:obj	_	_
+
+# text = na ja ich hoffe wir sehen uns später
+1	na	na	PROPN	NGIRR	_	4	discourse	_	_
+2	ja	ja	null	NGIRR	_	1	goeswith	_	_
+3	ich	ich	PRON	PPER	_	4	subj	_	_
+4	hoffe	hoffen	VERB	VVFIN	_	0	root	_	_
+5	wir	wir	PRON	PPER	_	6	subj	_	_
+6	sehen	sehen	VERB	VVFIN	_	4	comp:obj	_	_
+7	uns	wir	PRON	PRF	_	6	comp:obj	_	_
+8	später	später	ADJ	ADJD	_	6	mod	_	_
+
+# text = bis dann tschau
+1	bis	bis	ADP	APPR	_	0	root	_	_
+2	dann	dann	ADV	ADV	_	1	comp:obj	_	_
+3	tschau	tschau	PROPN	NGIRR	_	1	discourse	_	_
+
+

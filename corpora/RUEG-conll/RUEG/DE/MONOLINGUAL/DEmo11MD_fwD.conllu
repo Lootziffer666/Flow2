@@ -1,0 +1,82 @@
+# text = ﻿Tathergang
+1	﻿Tathergang	﻿Tathergang	NOUN	NN	_	0	root	_	_
+
+# text = Der Unfall fand auf einem Parkplatz statt .
+1	Der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Unfall	Unfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	fand	finden	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	auf	auf	ADP	APPR	_	3	comp:obl	_	_
+5	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Parkplatz	Parkplatz	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	comp:obj	_	_
+7	statt	statt	ADP	PTKVZ	_	3	compound@prt	_	_
+8	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Ein Mann und eine Frau mit Kinderwagen wollten diesen gerade überqueren , als dem Mann der Fußball auf die Straße rollte .
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	8	subj	_	_
+3	und	und	CCONJ	KON	_	5	cc	_	_
+4	eine	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Frau	Frau	NOUN	NN	_	2	conj	_	_
+6	mit	mit	ADP	APPR	_	2	mod	_	_
+7	Kinderwagen	Kinderwagen	NOUN	NN	Case=Dat|Number=Plur	6	comp:obj	_	_
+8	wollten	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	diesen	diese	PRON	PDS	Case=Dat|Number=Plur|PronType=Dem	11	comp:obj	_	_
+10	gerade	gerade	ADV	ADV	_	8	mod	_	_
+11	überqueren	überqueren	VERB	VVINF	Tense=Pres|VerbForm=Inf	8	comp:aux	_	_
+12	,	,	PUNCT	$,	_	8	punct	_	_
+13	als	als	SCONJ	KOUS	_	11	mod	_	_
+14	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Mann	Mann	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	21	comp:obj	_	_
+16	der	d	DET	ART	Definite=Def|PronType=Art	17	det	_	_
+17	Fußball	Fußball	NOUN	NN	_	21	subj	_	_
+18	auf	auf	ADP	APPR	_	21	comp:obl	_	_
+19	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	comp:obj	_	_
+21	rollte	rollen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	comp:obj	_	_
+22	.	.	PUNCT	$.	_	8	punct	_	_
+
+# text = Daraufhin rannte der Hund , der Dame die ihren Einkauf ausräumte , bellend auf die Straße .
+1	Daraufhin	daraufhin	ADV	ADV	_	2	mod	_	_
+2	rannte	rennen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	subj	_	_
+5	,	,	PUNCT	$,	_	2	punct	_	_
+6	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Dame	Dame	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	mod@poss	_	_
+8	die	die	PRON	PRELS	Case=Nom|PronType=Dem	11	subj	_	_
+9	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	Einkauf	Einkauf	ADV	NN	_	11	comp:obj	_	_
+11	ausräumte	ausräumen	ADJ	VVFIN	Case=Acc|Degree=Pos|Number=Plur|Tense=Past	7	mod@relcl	_	_
+12	,	,	PUNCT	$,	_	11	punct	_	_
+13	bellend	bellend	ADJ	ADJD	Degree=Pos	2	mod	_	_
+14	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+15	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	comp:obj	_	_
+17	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Dies führte dazu , dass die beiden Autos , die gerade vorbeifuhren abrupt anhalten mussten , sodass der hintere Wagen dem vorderen auffuhr .
+1	Dies	dies	PRON	PDS	Case=Nom|PronType=Dem	2	subj	_	_
+2	führte	führen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	dazu	dazu	PRON	ADV	PronType=Dem,Rel	2	mod	_	_
+4	,	,	PUNCT	$,	_	2	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	2	comp:obj	_	_
+6	die	d	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+7	beiden	beide	PRON	PIDAT	Case=Nom|Number=Plur|NumType=Card|PronType=Tot	8	mod	_	_
+8	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	15	subj	_	_
+9	,	,	PUNCT	$,	_	12	punct	_	_
+10	die	d	PRON	PRELS	Case=Nom|PronType=Rel	12	subj	_	_
+11	gerade	gerade	ADV	ADV	_	12	mod	_	_
+12	vorbeifuhren	vorbeifahren	VERB	VVFIN	Tense=Past|VerbForm=Fin	8	mod@relcl	_	_
+13	abrupt	abrupt	ADV	ADJD	_	15	mod	_	_
+14	anhalten	anhalten	VERB	VVINF	Tense=Pres|VerbForm=Inf	15	comp:aux	_	_
+15	mussten	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	comp:obj	_	_
+16	,	,	PUNCT	$,	_	15	punct	_	_
+17	sodass	sodass	SCONJ	KOUS	_	15	mod	_	_
+18	der	d	DET	ART	Definite=Def|PronType=Art	20	det	_	_
+19	hintere	hinter	ADJ	ADJA	Degree=Cmp	20	mod	_	_
+20	Wagen	Wagen	NOUN	NN	_	23	subj	_	_
+21	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	22	det	_	_
+22	vorderen	vorder	ADJ	ADJA	Case=Dat|Degree=Cmp|Gender=Masc,Neut|Number=Sing	23	comp:obj	_	_
+23	auffuhr	auffahren	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	comp:obj	_	_
+24	.	.	PUNCT	$.	_	2	punct	_	_
+

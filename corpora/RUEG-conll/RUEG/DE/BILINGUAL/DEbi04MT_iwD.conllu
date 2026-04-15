@@ -1,0 +1,128 @@
+# text = Jo Dicker ,
+1	Jo	Jo	PROPN	NGIRR	_	2	discourse	_	_
+2	Dicker	Dicker	PROPN	NN	_	0	root	_	_
+3	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = du weißt nicht , was ich gerade erlebt habe .
+1	du	du	PROPN	PPER	Case=Nom|Number=Sing	2	subj	_	_
+2	weißt	wissen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nicht	nicht	PART	PTKNEG	_	2	mod	_	_
+4	,	,	PUNCT	$,	_	2	punct	_	_
+5	was	was	PRON	PRELS	Case=Nom|Number=Sing|PronType=Rel	8	comp:obj	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	subj	_	_
+7	gerade	gerade	ADV	ADV	_	9	mod	_	_
+8	erlebt	erleben	VERB	VVPP	Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	comp:aux	_	_
+9	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
+10	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Hier auf dem Parkplatz von der HU ist ein Unfall passiert .
+1	Hier	hier	ADV	ADV	_	8	mod	_	_
+2	auf	auf	ADP	APPR	_	8	mod	_	_
+3	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Parkplatz	Parkplatz	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	comp:obj	_	_
+5	von	von	ADP	APPR	_	4	mod@poss	_	_
+6	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	HU	HU	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	5	comp:obj	_	_
+8	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	ein	ein	DET	ART	Definite=Ind|PronType=Art	10	det	_	_
+10	Unfall	Unfall	NOUN	NN	_	8	subj	_	_
+11	passiert	passieren	ADJ	VVPP	Tense=Past	8	comp:aux	_	_
+12	.	.	PUNCT	$.	_	8	punct	_	_
+
+# text = Ein Pärchen , das den Parkplatz überqueren wollte , ließ einen Ball auf die Fahrbahn fallen .
+1	Ein	ein	DET	ART	Definite=Ind|PronType=Art	2	det	_	_
+2	Pärchen	Pärchen	NOUN	NN	_	10	subj	_	_
+3	,	,	PUNCT	$,	_	10	punct	_	_
+4	das	d	PRON	PRELS	Case=Nom|PronType=Rel	8	subj	_	_
+5	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Parkplatz	Parkplatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	comp:obj	_	_
+7	überqueren	überqueren	VERB	VVINF	VerbForm=Inf	8	comp:aux	_	_
+8	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	mod@relcl	_	_
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	ließ	lassen	VERB	VVFIN	Tense=Past	0	root	_	_
+11	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	comp:obj	_	_
+13	auf	auf	ADP	APPR	_	16	comp:obl	_	_
+14	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Fahrbahn	Fahrbahn	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	comp:obj	_	_
+16	fallen	fallen	VERB	VVINF	VerbForm=Inf	10	comp:obj	_	_
+17	.	.	PUNCT	$.	_	10	punct	_	_
+
+# text = Auf der anderen Seite war eine Frau dabei , ihren Einkauf einzuladen ,
+1	Auf	auf	ADP	APPR	_	5	mod	_	_
+2	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	anderen	ander	ADJ	PIDAT	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	4	mod	_	_
+4	Seite	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	comp:obj	_	_
+5	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	eine	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
+7	Frau	Frau	NOUN	NN	_	5	subj	_	_
+8	dabei	dabei	ADV	ADV	_	5	comp:pred	_	_
+9	,	,	PUNCT	$,	_	5	punct	_	_
+10	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	Einkauf	Einkauf	NOUN	NN	_	12	comp:obj	_	_
+12	einzuladen	einladen	VERB	VVIZU	VerbForm=Inf	8	comp:obj	_	_
+13	,	,	PUNCT	$,	_	5	punct	_	_
+
+# text = ließ aber alles fallen , weil ihr Hund zum Ball rennen wollte .
+1	ließ	ließ	VERB	VVFIN	Tense=Past|VerbForm=Fin	0	root	_	_
+2	aber	aber	ADV	KON	_	1	mod	_	_
+3	alles	alle	PRON	PIS	Case=Acc|PronType=Tot	4	comp:obj	_	_
+4	fallen	fallen	VERB	VVINF	VerbForm=Inf	1	comp:obj	_	_
+5	,	,	PUNCT	$,	_	1	punct	_	_
+6	weil	weil	SCONJ	KOUS	_	4	mod	_	_
+7	ihr	ihr	DET	PPER	Person=3|Poss=Yes|PronType=Prs	8	det	_	_
+8	Hund	Hund	NOUN	NN	Case=Acc|Number=Sing	12	subj	_	_
+9	zum	zum	PROPN	APPRART	_	11	comp:obl	_	_
+10	Ball	Ball	PROPN	NN	_	9	comp:obj	_	_
+11	rennen	rennen	VERB	VVINF	VerbForm=Inf	12	comp:aux	_	_
+12	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	comp:obj	_	_
+13	.	.	PUNCT	$.	_	1	punct	_	_
+
+# text = Der Wagen , der angefahren kam , konnte gerade noch so abbremsen ( weil dazwischen ein Transporter war ) .
+1	Der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Wagen	Wagen	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	subj	_	_
+3	,	,	PUNCT	$,	_	8	punct	_	_
+4	der	d	PRON	PRELS	Case=Nom|PronType=Rel	6	subj	_	_
+5	angefahren	anfahren	VERB	VVPP	Tense=Past|VerbForm=Part	6	comp:obl	_	_
+6	kam	kommen	VERB	VVFIN	Person=3|Tense=Past|VerbForm=Fin	2	mod@relcl	_	_
+7	,	,	PUNCT	$,	_	6	punct	_	_
+8	konnte	k�nnen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	gerade	gerade	ADV	ADV	_	8	mod	_	_
+10	noch	noch	ADV	PTKMWL	_	8	mod	_	_
+11	so	so	ADV	ADV	_	8	mod	_	_
+12	abbremsen	abbremsen	VERB	VVINF	VerbForm=Inf	8	comp:aux	_	_
+13	(	(	PUNCT	$(	_	14	punct	_	_
+14	weil	weil	SCONJ	KOUS	_	12	mod	_	_
+15	dazwischen	dazwischen	ADV	ADV	_	18	comp:pred	_	_
+16	ein	ein	DET	ART	Definite=Ind|PronType=Art	17	det	_	_
+17	Transporter	Transporter	NOUN	NN	_	18	subj	_	_
+18	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	comp:obj	_	_
+19	)	)	PUNCT	$(	_	14	punct	_	_
+20	.	.	PUNCT	$.	_	8	punct	_	_
+
+# text = Aber der Wagen hinter ihm , fuhr ihm auf .
+1	Aber	aber	ADV	KON	_	7	cc	_	_
+2	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Wagen	Wagen	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	subj	_	_
+4	hinter	hinter	ADP	APPR	_	3	mod	_	_
+5	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	_
+6	,	,	PUNCT	$,	_	7	cc	_	_
+7	fuhr	fahren	VERB	VVFIN	Tense=Past|VerbForm=Fin	0	root	_	_
+8	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	_
+9	auf	auf	ADP	PTKVZ	_	7	compound@prt	_	_
+10	.	.	PUNCT	$.	_	7	punct	_	_
+
+# text = Die riefen danach die Polizei .
+1	Die	d	PRON	PDS	Case=Nom|PronType=Dem	2	subj	_	_
+2	riefen	rufen	VERB	VVFIN	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	danach	danach	ADV	ADV	_	2	mod	_	_
+4	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Polizei	Polizei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	comp:obj	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Hadi bis später Dicker
+1	Hadi	Hadi	NOUN	FM	_	2	discourse	_	_
+2	bis	bis	ADP	APPR	_	0	root	_	_
+3	später	spät	ADJ	ADJD	Degree=Cmp,Pos	2	comp:obj	_	_
+4	Dicker	Dicker	NOUN	NN	_	2	vocative	_	_
+

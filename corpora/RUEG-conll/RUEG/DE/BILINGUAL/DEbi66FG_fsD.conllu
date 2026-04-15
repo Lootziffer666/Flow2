@@ -1,0 +1,93 @@
+# text = F16
+1	F16	F16	NOUN	NE	_	0	root	_	_
+
+# text = als das Paar die Straße überqueren will fällt der kullert der Ball mitten in der Straße
+1	als	als	SCONJ	KOUs	_	10	mod	_	_
+2	das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Paar	Paar	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	subj	_	_
+4	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	comp:obj	_	_
+6	überqueren	überqueren	VERB	VVINF	VerbForm=Inf	7	comp:aux	_	_
+7	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
+8	fällt	fällt	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	reparandum	_	_
+9	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	subj	_	_
+10	kullert	kullert	ADJ	VVFIN	Degree=Pos|Tense=Pres	0	root	_	_
+11	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Ball	Ball	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	subj	_	_
+13	mitten	mitten	ADV	ADV	_	14	mod	_	_
+14	in	in	ADP	APPR	_	10	comp:obl	_	_
+15	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Straße	Straße	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	comp:obj	_	_
+
+# text = und der Hund will in dem Moment hinter dem Ball hinter dem Ball laufen
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+4	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	APPR	_	14	mod	_	_
+6	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Moment	Moment	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	comp:obj	_	_
+8	hinter	hinter	ADP	APPR	_	11	reparandum	_	_
+9	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	8	comp:obj	_	_
+11	hinter	hinter	ADP	APPR	_	14	comp:obl	_	_
+12	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	11	comp:obj	_	_
+14	laufen	laufen	VERB	VVINF	Number=Plur|Person=3|VerbForm=Fin	4	comp:aux	_	_
+
+# text = und die beiden Autos stoppen plötzlich
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	die	d	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+3	beiden	beide	PRON	PIDAT	Case=Nom|Number=Plur|NumType=Card|PronType=Tot	4	mod	_	_
+4	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	5	subj	_	_
+5	stoppen	stoppen	VERB	VVFIN	Tense=Pres|VerbForm=Inf	0	root	_	_
+6	plötzlich	plötzlich	ADJ	ADJD	Degree=Pos	5	mod	_	_
+
+# text = und und der Frau fallen die Sachen herunter
+1	und	und	CCONJ	KON	_	2	reparandum	_	_
+2	und	und	CCONJ	KON	_	5	cc	_	_
+3	der	d	DET	ART	Definite=Def|PronType=Art	4	det	_	_
+4	Frau	Frau	NOUN	NN	_	5	comp:obj	_	_
+5	fallen	fallen	VERB	VVINF	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	die	d	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+7	Sachen	Sache	NOUN	NN	Case=Acc|Number=Plur	5	subj	_	_
+8	herunter	herunter	ADJ	PTKVZ	Degree=Cmp,Pos	5	compound@prt	_	_
+
+# text = und der Mann geht zu der Frau
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+4	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	zu	zu	ADP	APPR	_	4	comp:obl	_	_
+6	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Frau	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	comp:obj	_	_
+
+# text = und hilft ihr ihre Einkaufssachen einzupacken
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hilft	helfen	VERB	VVFIN	Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ihr	ihr	PRON	PPER	Case=Dat|Number=Plur|Person=2|PronType=Prs	2	comp:obj	_	_
+4	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	Einkaufssachen	Einkaufssachen	NOUN	NN	_	6	comp:obj	_	_
+6	einzupacken	einpacken	VERB	VVIZU	Number=Plur|Person=3|VerbForm=Fin	2	comp:obl	_	_
+
+# text = und später ruft der eine von den zwei Fahrern die eins eins null
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	später	später	ADJ	ADV	Degree=Cmp,Pos	3	mod	_	_
+3	ruft	rufen	VERB	VVINF	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	eine	ein	PRON	PIDAT	PronType=Ind	3	subj	_	_
+6	von	von	ADP	APPR	_	5	mod@poss	_	_
+7	den	d	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+8	zwei	zwei	NUM	CARD	NumType=Card	9	mod	_	_
+9	Fahrern	Fahrer	NOUN	NN	Case=Dat|Number=Plur	6	comp:obj	_	_
+10	die	d	DET	ART	Definite=Def|PronType=Art	11	det	_	_
+11	eins	eins	NOUN	CARD	Case=Gen|Gender=Masc,Neut|Number=Sing	3	comp:obj	_	_
+12	eins	eins	DET	CARD	Case=Gen|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	11	flat	_	_
+13	null	null	NUM	CARD	NumType=Card	11	flat	_	_
+
+# text = ja das war es
+1	ja	ja	ADV	NGIRR	_	3	mod	_	_
+2	das	dies	PRON	PDS	Case=Nom|PronType=Dem	3	comp:pred	_	_
+3	war	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+

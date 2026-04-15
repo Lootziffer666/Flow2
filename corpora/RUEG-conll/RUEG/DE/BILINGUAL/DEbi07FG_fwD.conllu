@@ -1,0 +1,146 @@
+# text = ﻿Als ich den Parkplatz überquerte sehe ich auf dem rechten Bürgersteig eine Frau mit Kinderwagen und einen mit einem Fußball spielenden Jungen laufen , als dem Jungen der Ball weg und auf die Straße rollt .
+1	﻿Als	﻿Als	ADV	KOUS	_	6	mod	_	_
+2	ich	ich	PRON	PPER	_	5	subj	_	_
+3	den	d	DET	ART	_	4	det	_	_
+4	Parkplatz	Parkplatz	NOUN	NN	_	5	comp:obj	_	_
+5	überquerte	überqueren	VERB	VVFIN	_	1	comp:obj	_	_
+6	sehe	sehen	VERB	VVFIN	_	0	root	_	_
+7	ich	ich	PRON	PPER	_	6	subj	_	_
+8	auf	auf	ADP	APPR	_	23	mod	_	_
+9	dem	d	DET	ART	_	11	det	_	_
+10	rechten	recht	ADJ	ADJA	_	11	mod	_	_
+11	Bürgersteig	Bürgersteig	PROPN	NN	_	8	comp:obj	_	_
+12	eine	ein	DET	ART	_	13	det	_	_
+13	Frau	Frau	NOUN	NN	_	23	subj	_	_
+14	mit	mit	ADP	APPR	_	13	mod	_	_
+15	Kinderwagen	Kinderwagen	NOUN	NN	_	14	comp:obj	_	_
+16	und	und	CCONJ	KON	_	22	cc	_	_
+17	einen	ein	DET	ART	_	22	det	_	_
+18	mit	mit	ADP	APPR	_	21	comp:obl	_	_
+19	einem	ein	DET	ART	_	20	det	_	_
+20	Fußball	Fußball	NOUN	NN	_	18	comp:obj	_	_
+21	spielenden	spielend	ADJ	ADJA	_	22	mod	_	_
+22	Jungen	Junge	NOUN	NN	_	13	conj	_	_
+23	laufen	laufen	VERB	VVINF	_	6	comp:obj	_	_
+24	,	,	PUNCT	$,	_	6	punct	_	_
+25	als	als	ADP	KOUS	_	6	mod	_	_
+26	dem	d	DET	ART	_	27	det	_	_
+27	Jungen	Junge	NOUN	NN	_	35	comp:obj	_	_
+28	der	d	DET	ART	_	29	det	_	_
+29	Ball	Ball	PROPN	NN	_	35	subj	_	_
+30	weg	weg	PART	PTKVZ	_	35	compound@prt	_	_
+31	und	und	CCONJ	KON	_	35	cc	_	_
+32	auf	auf	ADP	APPR	_	35	comp:obl	_	_
+33	die	d	DET	ART	_	34	det	_	_
+34	Straße	Straße	NOUN	NN	_	32	comp:obj	_	_
+35	rollt	rollen	VERB	VVFIN	_	25	comp:obj	_	_
+36	.	.	PUNCT	$.	_	6	punct	_	_
+
+# text = Von der anderen Straßenseite kommt ein kleiner Hund auf die Straße zu dem Ball gelaufen ,
+1	Von	von	ADP	APPR	_	15	mod	_	_
+2	der	d	DET	ART	_	4	det	_	_
+3	anderen	ander	ADJ	PIDAT	_	4	mod	_	_
+4	Straßenseite	Straßenseite	NOUN	NN	_	1	comp:obj	_	_
+5	kommt	kommen	VERB	VVFIN	_	0	root	_	_
+6	ein	ein	DET	ART	_	8	det	_	_
+7	kleiner	klein	ADJ	ADJA	_	8	mod	_	_
+8	Hund	Hund	NOUN	NN	_	5	subj	_	_
+9	auf	auf	ADP	APPR	_	15	mod	_	_
+10	die	d	DET	ART	_	11	det	_	_
+11	Straße	Straße	NOUN	NN	_	9	comp:obj	_	_
+12	zu	zu	ADP	APPR	_	15	comp:obl	_	_
+13	dem	d	DET	ART	_	14	det	_	_
+14	Ball	Ball	NOUN	NN	_	12	comp:obj	_	_
+15	gelaufen	laufen	VERB	VVPP	_	5	comp:obl	_	_
+16	,	,	PUNCT	$,	_	5	punct	_	_
+
+# text = in dem Moment kommt ein blaues Auto um die Kurve gefahren
+1	in	in	ADP	APPR	_	11	mod	_	_
+2	dem	d	DET	ART	_	3	det	_	_
+3	Moment	Moment	NOUN	NN	_	1	comp:obj	_	_
+4	kommt	kommen	VERB	VVFIN	_	0	root	_	_
+5	ein	ein	DET	ART	_	7	det	_	_
+6	blaues	blau	ADJ	ADJA	_	7	mod	_	_
+7	Auto	Auto	NOUN	NN	_	4	subj	_	_
+8	um	um	ADP	APPR	_	11	comp:obl	_	_
+9	die	d	DET	ART	_	10	det	_	_
+10	Kurve	Kurve	PROPN	NN	_	8	comp:obj	_	_
+11	gefahren	fahren	VERB	VVPP	_	4	comp:obl	_	_
+
+# text = und muss stark bremsen , weshalb das weiße Auto , was hinter ihm fährt , ihm hinten auffährt .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	muss	müssen	AUX	VMFIN	_	0	root	_	_
+3	stark	stark	ADJ	ADJD	_	2	mod	_	_
+4	bremsen	bremsen	VERB	VVINF	_	2	comp:aux	_	_
+5	,	,	PUNCT	$,	_	2	punct	_	_
+6	weshalb	weshalb	ADP	PWAV	_	4	mod	_	_
+7	das	d	DET	ART	_	9	det	_	_
+8	weiße	weiß	ADJ	ADJA	_	9	mod	_	_
+9	Auto	Auto	NOUN	NN	_	18	subj	_	_
+10	,	,	PUNCT	$,	_	18	punct	_	_
+11	was	was	PRON	PWS	_	14	subj	_	_
+12	hinter	hinter	ADP	APPR	_	14	comp:obl	_	_
+13	ihm	er	PRON	PPER	_	12	comp:obj	_	_
+14	fährt	fahren	VERB	VVFIN	_	9	mod@relcl	_	_
+15	,	,	PUNCT	$,	_	14	punct	_	_
+16	ihm	er	PRON	PPER	_	18	comp:obj	_	_
+17	hinten	hinten	ADV	ADV	_	18	mod	_	_
+18	auffährt	auffahren	VERB	VVFIN	_	6	comp:obj	_	_
+19	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Die Besitzerin des Hundes läuft zu dem Hund wobei ihr die Einkäufe herunterfallen ,
+1	Die	d	DET	ART	_	2	det	_	_
+2	Besitzerin	Besitzerin	NOUN	NN	_	5	subj	_	_
+3	des	d	DET	ART	_	4	det	_	_
+4	Hundes	Hund	NOUN	NN	_	2	mod@poss	_	_
+5	läuft	laufen	VERB	VVFIN	_	0	root	_	_
+6	zu	zu	ADP	APPR	_	5	comp:obl	_	_
+7	dem	d	DET	ART	_	8	det	_	_
+8	Hund	Hund	NOUN	NN	_	6	comp:obj	_	_
+9	wobei	wobei	SCONJ	PWAV	_	13	mod	_	_
+10	ihr	ihr	PRON	PPER	_	13	comp:obj	_	_
+11	die	d	DET	ART	_	12	det	_	_
+12	Einkäufe	Einkauf	NOUN	NN	_	13	subj	_	_
+13	herunterfallen	herunterfallen	VERB	VVFIN	_	5	mod	_	_
+14	,	,	PUNCT	$,	_	5	punct	_	_
+
+# text = der Junge dem der Ball weggerollt ist läuft auch zu Hund und Ball
+1	der	d	DET	PDS	_	2	det	_	_
+2	Junge	Junge	NOUN	NGIRR	_	8	subj	_	_
+3	dem	d	DET	PRELS	_	6	comp:obj	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	7	subj	_	_
+6	weggerollt	wegrollen	VERB	VVPP	_	7	comp:aux	_	_
+7	ist	sein	AUX	VAFIN	_	2	mod@relcl	_	_
+8	läuft	laufen	VERB	VVFIN	_	0	root	_	_
+9	auch	auch	ADV	PTKIFG	_	8	mod	_	_
+10	zu	zu	ADP	APPR	_	8	comp:obl	_	_
+11	Hund	Hund	NOUN	NN	_	10	comp:obj	_	_
+12	und	und	CCONJ	KON	_	13	cc	_	_
+13	Ball	Ball	NOUN	NN	_	11	conj	_	_
+
+# text = und hilft der Frau die Einkäufe aufzuheben .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hilft	helfen	VERB	VVFIN	_	0	root	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Frau	Frau	NOUN	NN	_	7	comp:obl	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Einkäufe	Einkauf	NOUN	NN	_	7	comp:obj	_	_
+7	aufzuheben	aufheben	VERB	VVIZU	_	2	comp:aux	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Der Mann , der das blaue Auto fuhr , ruft die Polizei .
+1	Der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	10	subj	_	_
+3	,	,	PUNCT	$,	_	10	punct	_	_
+4	der	d	PRON	PRELS	_	8	subj	_	_
+5	das	d	DET	ART	_	7	det	_	_
+6	blaue	blau	ADJ	ADJA	_	7	mod	_	_
+7	Auto	Auto	NOUN	NN	_	8	comp:obj	_	_
+8	fuhr	fahren	VERB	VVFIN	_	2	mod@relcl	_	_
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	ruft	rufen	VERB	VVIMP	_	0	root	_	_
+11	die	d	DET	ART	_	12	det	_	_
+12	Polizei	Polizei	NOUN	NN	_	10	comp:obj	_	_
+13	.	.	PUNCT	$.	_	10	punct	_	_
+

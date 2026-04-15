@@ -1,0 +1,211 @@
+# text = ja äh ja stell dir mal vor ich war jetzt gerade äh unterwegs aufm Parkplatz
+1	ja	ja	ADV	NGIRR	_	4	discourse	_	_
+2	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+3	ja	ja	ADV	NGIRR	_	4	discourse	_	_
+4	stell	stellen	ADJ	VVIMP	_	0	root	_	_
+5	dir	du	PRON	PPER	_	4	comp:obl	_	_
+6	mal	mal	ADV	PTKMA	_	4	mod	_	_
+7	vor	vor	ADP	PTKVZ	_	4	compound@prt	_	_
+8	ich	ich	PRON	PPER	_	9	subj	_	_
+9	war	sein	VERB	VAFIN	_	4	comp:obj	_	_
+10	jetzt	jetzt	ADV	ADV	_	9	mod	_	_
+11	gerade	gerade	ADV	ADV	_	9	mod	_	_
+12	äh	äh	ADV	NGHES	_	9	discourse	_	_
+13	unterwegs	unterwegs	ADV	ADV	_	9	comp:pred	_	_
+14	aufm	auf	PROPN	ADJA	_	13	mod	_	_
+15	Parkplatz	Parkplatz	PROPN	NN	_	14	comp:obj	_	_
+
+# text = und da kam ein junges Pärchen äh mit einem Kinderwagen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	kam	kommen	VERB	VVFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	6	det	_	_
+5	junges	jung	ADJ	ADJA	_	6	mod	_	_
+6	Pärchen	Pärchen	NOUN	NN	_	3	subj	_	_
+7	äh	äh	ADV	NGHES	_	3	discourse	_	_
+8	mit	mit	ADP	APPR	_	6	mod	_	_
+9	einem	ein	DET	ART	_	10	det	_	_
+10	Kinderwagen	Kinderwagen	NOUN	NN	_	8	comp:obj	_	_
+
+# text = und der Mann hatte so einen Fußball in der Hand
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	die	DET	ART	_	3	det	_	_
+3	Mann	Mann	NOUN	VVFIN	_	4	subj	_	_
+4	hatte	haben	VERB	VAFIN	_	0	root	_	_
+5	so	so	ADV	PTKIFG	_	7	mod	_	_
+6	einen	ein	DET	ART	_	7	det	_	_
+7	Fußball	Fußball	NOUN	NN	_	4	comp:obj	_	_
+8	in	in	ADP	APPR	_	4	mod	_	_
+9	der	d	DET	ART	_	10	det	_	_
+10	Hand	Hand	NOUN	NN	_	8	comp:obj	_	_
+
+# text = und hat damit herumgespielt
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	damit	damit	ADV	ADV	_	4	comp:obl	_	_
+4	herumgespielt	herumspielen	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = und auf der anderen Seite war eine junge Frau
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	auf	auf	ADP	APPR	_	6	comp:pred	_	_
+3	der	d	DET	ART	_	5	det	_	_
+4	anderen	ander	ADJ	PIDAT	_	5	mod	_	_
+5	Seite	Seite	NOUN	NN	_	2	comp:obj	_	_
+6	war	sein	VERB	VAFIN	_	0	root	_	_
+7	eine	ein	DET	ART	_	9	det	_	_
+8	junge	jung	ADJ	ADJA	_	9	mod	_	_
+9	Frau	Frau	NOUN	NN	_	6	subj	_	_
+
+# text = die kam scheinbar gerade vom Einkaufen
+1	die	d	PRON	PDS	_	2	subj	_	_
+2	kam	kommen	VERB	VVFIN	_	0	root	_	_
+3	scheinbar	scheinbar	ADJ	ADV	_	2	mod	_	_
+4	gerade	gerade	ADJ	ADV	_	2	mod	_	_
+5	vom	von	NOUN	APPRART	_	2	comp:obl	_	_
+6	Einkaufen	Einkaufen	NOUN	NN	_	5	comp:obj	_	_
+
+# text = hatte einen Hund dabei
+1	hatte	haben	VERB	VAFIN	_	0	root	_	_
+2	einen	ein	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	1	comp:obj	_	_
+4	dabei	dabei	ADV	PTKVZ	_	1	compound@prt	_	_
+
+# text = und war äh dabei ihre Sachen auszuladen
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+4	dabei	dabei	ADV	ADV	_	2	comp:pred	_	_
+5	ihre	ihr	DET	PPOSAT	_	6	det	_	_
+6	Sachen	Sache	NOUN	NN	_	7	comp:obj	_	_
+7	auszuladen	ausladen	PROPN	VVINF	_	4	comp:obj	_	_
+
+# text = und der junge Mann spielte wie gesagt immer mit diesen Ball
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	der	d	DET	ART	_	4	det	_	_
+3	junge	jung	ADJ	ADJA	_	4	mod	_	_
+4	Mann	Mann	NOUN	NN	_	5	subj	_	_
+5	spielte	spielen	VERB	VVFIN	_	0	root	_	_
+6	wie	wie	CCONJ	PWAV	_	5	mod	_	_
+7	gesagt	sagen	VERB	VVPP	_	6	comp:obj	_	_
+8	immer	immer	ADV	ADV	_	5	mod	_	_
+9	mit	mit	ADP	APPR	_	5	mod	_	_
+10	diesen	dies	PRON	PDAT	_	11	det	_	_
+11	Ball	Ball	NOUN	NN	_	9	comp:obj	_	_
+
+# text = der ist ihm dann weggekullert
+1	der	d	PRON	PDS	_	2	subj	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	ihm	er	PRON	PPER	_	5	comp:obj	_	_
+4	dann	dann	ADV	ADV	_	2	mod	_	_
+5	weggekullert	wegkullern	ADJ	VVPP	_	2	comp:aux	_	_
+
+# text = äh der Hund hat sich erschrocken
+1	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	4	subj	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	sich	er|es|sie	PRON	PRF	_	6	comp:obj	_	_
+6	erschrocken	erschrecken	VERB	VVPP	_	4	comp:aux	_	_
+
+# text = ist äh Richtung Ball gesprungen
+1	ist	sein	VERB	VAFIN	_	0	root	_	_
+2	äh	äh	ADJ	NGHES	_	1	discourse	_	_
+3	Richtung	Richtung	NOUN	NN	_	5	comp:obl	_	_
+4	Ball	Ball	PROPN	NN	_	3	mod@poss	_	_
+5	gesprungen	springen	VERB	VVPP	_	1	comp:aux	_	_
+
+# text = und äh aus der Entfernung kamen zwei Autos
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+3	aus	aus	ADP	APPR	_	6	comp:obl	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Entfernung	Entfernung	NOUN	NN	_	3	comp:obj	_	_
+6	kamen	kommen	VERB	VVFIN	_	0	root	_	_
+7	zwei	zwei	NUM	CARD	_	8	mod	_	_
+8	Autos	Auto	NOUN	NN	_	6	subj	_	_
+
+# text = und der
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	der	d	DET	PDS	_	0	root	_	_
+
+# text = ich fand die waren ziemlich schnell dafür dass es eigentlich aufn Parkplatz war in einer Wohngegend
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	fand	finden	VERB	VVFIN	_	0	root	_	_
+3	die	d	PRON	PDS	_	4	subj	_	_
+4	waren	sein	VERB	VAFIN	_	2	comp:pred	_	_
+5	ziemlich	ziemlich	ADV	PTKIFG	_	6	mod	_	_
+6	schnell	schnell	ADJ	ADJD	_	4	comp:pred	_	_
+7	dafür	dafür	ADV	VVPP	_	4	mod	_	_
+8	dass	dass	SCONJ	KOUS	_	7	comp:obj	_	_
+9	es	es	PRON	PPER	_	13	subj@expl	_	_
+10	eigentlich	eigentlich	ADV	ADV	_	13	mod	_	_
+11	aufn	auf	VERB	APPR	_	13	comp:pred	_	_
+12	Parkplatz	Parkplatz	NOUN	NN	_	11	comp:obj	_	_
+13	war	sein	AUX	VAFIN	_	8	comp:obj	_	_
+14	in	in	ADP	APPR	_	13	mod	_	_
+15	einer	ein	DET	ART	_	16	det	_	_
+16	Wohngegend	Wohngegend	NOUN	NN	_	14	comp:obj	_	_
+
+# text = ja und dadurch dass der Hund sich so erschrocken hat und auch auf die Straße oder auf den Weg lief wo die beiden Autos kamen äh musste das erste Auto bremsen
+1	ja	ja	ADV	NGIRR	_	27	discourse	_	_
+2	und	und	CCONJ	KON	_	27	cc	_	_
+3	dadurch	dadurch	ADV	ADV	_	27	mod	_	_
+4	dass	dass	SCONJ	KOUS	_	3	comp:obj	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Hund	Hund	NOUN	NN	_	10	subj	_	_
+7	sich	er|es|sie	PRON	PRF	_	9	comp:obj	_	_
+8	so	so	ADV	ADV	_	10	mod	_	_
+9	erschrocken	erschrecken	VERB	VVPP	_	10	comp:aux	_	_
+10	hat	haben	AUX	VAFIN	_	4	comp:obj	_	_
+11	und	und	CCONJ	KON	_	20	cc	_	_
+12	auch	auch	ADV	PTKIFG	_	20	mod	_	_
+13	auf	auf	ADP	APPR	_	20	comp:obl	_	_
+14	die	d	DET	ART	_	15	det	_	_
+15	Straße	Straße	NOUN	NN	_	13	comp:obj	_	_
+16	oder	oder	CCONJ	KON	_	17	cc	_	_
+17	auf	auf	ADP	APPR	_	13	conj	_	_
+18	den	d	DET	ART	_	19	det	_	_
+19	Weg	Weg	NOUN	NN	_	17	comp:obj	_	_
+20	lief	laufen	VERB	VVFIN	_	10	conj	_	_
+21	wo	wo	ADV	PWAV	_	25	mod	_	_
+22	die	d	DET	ART	_	24	det	_	_
+23	beiden	beide	PRON	PIDAT	_	24	mod	_	_
+24	Autos	Auto	NOUN	NN	_	25	subj	_	_
+25	kamen	kommen	VERB	VVFIN	_	19	mod@relcl	_	_
+26	äh	äh	ADV	NGHES	_	27	discourse	_	_
+27	musste	müssen	AUX	VMFIN	_	0	root	_	_
+28	das	d	DET	ART	_	30	det	_	_
+29	erste	erst	ADJ	ORD	_	30	mod	_	_
+30	Auto	Auto	NOUN	NN	_	27	subj	_	_
+31	bremsen	bremsen	PROPN	VVINF	_	27	comp:aux	_	_
+
+# text = und der Zweite ist ihm natürlich weil er auch meines Erachtens zu schnell war hinten draufgefahren
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Zweite	Zweite	NOUN	NN	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	ihm	er	PRON	PPER	_	16	comp:obj	_	_
+6	natürlich	natürlich	ADJ	ADJD	_	4	mod	_	_
+7	weil	weil	SCONJ	KOUS	_	16	mod	_	_
+8	er	er	PRON	PPER	_	14	subj	_	_
+9	auch	auch	ADV	PTKIFG	_	14	mod	_	_
+10	meines	mein	PRON	PPOSAT	_	11	det	_	_
+11	Erachtens	Erachten	NOUN	NN	_	14	mod	_	_
+12	zu	zu	ADV	PTKA	_	13	mod	_	_
+13	schnell	schnell	ADJ	ADJD	_	14	comp:pred	_	_
+14	war	sein	VERB	VAFIN	_	7	comp:obj	_	_
+15	hinten	hinten	ADV	ADV	_	4	mod	_	_
+16	draufgefahren	drauffahren	VERB	VVPP	_	4	comp:aux	_	_
+
+# text = ja und dann habe ich jetzt mal einen Unfall beobachtet
+1	ja	ja	ADV	NGIRR	_	4	discourse	_	_
+2	und	und	CCONJ	KON	_	4	cc	_	_
+3	dann	dann	ADV	ADV	_	4	mod	_	_
+4	habe	haben	AUX	VAFIN	_	0	root	_	_
+5	ich	ich	PRON	PPER	_	4	subj	_	_
+6	jetzt	jetzt	ADV	ADV	_	4	mod	_	_
+7	mal	mal	ADV	PTKMA	_	4	mod	_	_
+8	einen	ein	DET	ART	_	9	det	_	_
+9	Unfall	Unfall	NOUN	NN	_	10	comp:obj	_	_
+10	beobachtet	beobachten	VERB	VVPP	_	4	comp:aux	_	_
+

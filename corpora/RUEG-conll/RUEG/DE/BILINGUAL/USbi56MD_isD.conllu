@@ -1,0 +1,96 @@
+# text = äh hallo Bryson
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	hallo	hallo	X	NGIRR	_	3	discourse	_	_
+3	Bryson	Bryson	PROPN	NE	_	0	root	_	_
+
+# text = ich äh hab gerade ein Autounfall gesehen
+1	ich	ich	PRON	PPER	_	3	subj	_	_
+2	äh	äh	ADV	NGHES	_	3	discourse	_	_
+3	habe	haben	AUX	VAFIN	_	0	root	_	_
+4	gerade	gerade	ADV	ADV	_	3	mod	_	_
+5	ein	ein	NUM	ART	_	6	mod	_	_
+6	Autounfall	Autounfall	NOUN	NN	_	7	comp:obj	_	_
+7	gesehen	sehen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = es gabt ein Mann der äh ein Ball mit ein mit einem Ball gespielt hat
+1	es	es	PRON	PPER	_	2	subj@expl	_	_
+2	gabt	geben	VERB	VVFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Mann	Mann	NOUN	NN	_	2	comp:obj	_	_
+5	der	d	DET	PRELS	_	13	subj	_	_
+6	äh	äh	NOUN	NGHES	_	2	discourse	_	_
+7	ein	ein	DET	ART	_	8	det	_	_
+8	Ball	Ball	NOUN	NN	_	9	reparandum	_	_
+9	mitn	mitn	ADP	APPR	_	10	reparandum	_	_
+10	mitm	mitm	ADP	APPR	_	12	mod	_	_
+11	Ball	Ball	NOUN	NN	_	10	comp:obj	_	_
+12	gespielt	spielen	VERB	VVPP	_	13	comp:aux	_	_
+13	hat	haben	AUX	VAFIN	_	4	mod@relcl	_	_
+
+# text = und dann ist der Ball über die Straße gerollt
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	subj	_	_
+6	über	über	ADP	APPR	_	9	comp:obl	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Straße	Straße	NOUN	NN	_	6	comp:obj	_	_
+9	gerollt	rollen	ADJ	VVPP	_	3	comp:aux	_	_
+
+# text = und dann gab es auch ein Hund auf die andere Seite der auf die Straße gerannt ist
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	gab	geben	VERB	VVFIN	_	0	root	_	_
+4	es	es	PRON	PPER	_	3	subj@expl	_	_
+5	auch	auch	ADV	ADV	_	3	mod	_	_
+6	ein	ein	DET	ART	_	7	det	_	_
+7	Hund	Hund	NOUN	NN	_	3	comp:obj	_	_
+8	auf	auf	ADP	APPR	_	3	mod	_	_
+9	die	d	DET	ART	_	11	det	_	_
+10	andere	ander	ADJ	PIDAT	_	11	mod	_	_
+11	Seite	Seite	NOUN	NN	_	8	comp:obj	_	_
+12	der	d	DET	PRELS	_	17	subj	_	_
+13	auf	auf	ADP	APPR	_	16	comp:obl	_	_
+14	die	d	DET	ART	_	15	det	_	_
+15	Straße	Straße	NOUN	NN	_	13	comp:obj	_	_
+16	gerannt	rennen	VERB	VVPP	_	17	comp:aux	_	_
+17	ist	sein	AUX	VAFIN	_	7	mod@relcl	_	_
+
+# text = und dann hat ein Auto schnell äh gestoppt
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Auto	Auto	NOUN	NN	_	3	subj	_	_
+6	schnell	schnell	ADJ	ADJD	_	3	mod	_	_
+7	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+8	gestoppt	stoppen	ADJ	VVPP	_	3	comp:aux	_	_
+
+# text = und dann ist das andere Auto in ihn reingetroffen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	das	d	DET	ART	_	6	det	_	_
+5	andere	ander	ADJ	PIAT	_	6	mod	_	_
+6	Auto	Auto	NOUN	NN	_	3	subj	_	_
+7	in	in	ADP	APPR	_	9	comp:obl	_	_
+8	ihn	er	PRON	PPER	_	7	comp:obj	_	_
+9	reingetroffen	reintreffen	ADJ	VVPP	_	3	comp:aux	_	_
+
+# text = und ja niemand ist verletzt
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	ja	ja	ADV	NGIRR	_	4	discourse	_	_
+3	niemand	niemand	PRON	PIS	_	4	subj	_	_
+4	ist	sein	AUX	VAFIN	_	0	root	_	_
+5	verletzt	verletzen	VERB	ADJD	_	4	comp:pred	_	_
+
+# text = aber es war schon bisschen gefährlich
+1	aber	aber	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	_	3	subj@expl	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	schon	schon	ADV	PTKMA	_	3	discourse	_	_
+5	bisschen	bisschen	NOUN	PIDS	_	6	mod	_	_
+6	gefährlich	gefährlich	ADJ	ADJD	_	3	comp:pred	_	_
+
+

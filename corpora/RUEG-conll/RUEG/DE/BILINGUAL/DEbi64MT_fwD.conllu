@@ -1,0 +1,63 @@
+# text = ﻿Ich stand am Straßenrand
+1	﻿Ich	﻿Ich	ADV	_	_	2	subj	_	_
+2	stand	stehen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	am	an	ADJ	_	Degree=Pos	2	comp:obl	_	_
+4	Straßenrand	Straßenrand	NOUN	_	_	3	comp:obj	_	_
+
+# text = und schaute mich um .
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	schaute	schauen	VERB	_	Tense=Past|VerbForm=Fin	0	root	_	_
+3	mich	ich	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	comp:obj	_	_
+4	um	um	ADP	_	_	2	compound@prt	_	_
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Plötzlich fiel von einem Mann der Ball aus den Händen
+1	Plötzlich	Plötzlich	ADJ	_	Degree=Pos	2	mod	_	_
+2	fiel	fallen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	von	von	ADP	_	_	7	mod@poss	_	_
+4	einem	ein	DET	_	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Mann	Mann	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	3	comp:obj	_	_
+6	der	d	DET	_	Definite=Def|PronType=Art	7	det	_	_
+7	Ball	Ball	PROPN	_	_	2	subj	_	_
+8	aus	aus	ADP	_	_	2	comp:obl	_	_
+9	den	d	DET	_	Case=Dat|Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+10	Händen	Hand	NOUN	_	Case=Dat|Number=Plur	8	comp:obj	_	_
+
+# text = und rollte auf die Straße .
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	rollte	rollen	VERB	_	Tense=Past|VerbForm=Fin	0	root	_	_
+3	auf	auf	ADP	_	_	2	comp:obl	_	_
+4	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	comp:obj	_	_
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Ein Hund reagierte sehr panisch auf das Geschehen .
+1	Ein	ein	DET	_	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Hund	Hund	NOUN	_	Case=Gen|Gender=Masc,Neut|Number=Sing	3	subj	_	_
+3	reagierte	reagieren	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	sehr	sehr	ADV	_	_	5	mod	_	_
+5	panisch	panisch	PRON	_	Case=Acc|Person=3|PronType=Prs	3	mod	_	_
+6	auf	auf	ADP	_	_	3	comp:obl	_	_
+7	das	d	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Geschehen	Geschehen	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	6	comp:obj	_	_
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Daraufhin führte ein PKW eine Gefahrenbremsung durch .
+1	Daraufhin	daraufhin	ADV	_	_	2	mod	_	_
+2	führte	fahren	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	_	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	PKW	PKW	NOUN	_	Case=Nom|Gender=Masc,Neut|Number=Sing	2	subj	_	_
+5	eine	ein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Gefahrenbremsung	Gefahrenbremsung	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	2	comp:obj	_	_
+7	durch	durch	ADP	_	_	2	compound@prt	_	_
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Durch diese Bremsung folgte ein Auffahrunfall .
+1	Durch	durch	ADP	_	_	4	mod	_	_
+2	diese	dies	PRON	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	Bremsung	Bremsung	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	1	comp:obj	_	_
+4	folgte	folgen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	ein	ein	DET	_	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Auffahrunfall	Auffahrunfall	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	4	subj	_	_
+7	.	.	PUNCT	_	_	4	punct	_	_
+

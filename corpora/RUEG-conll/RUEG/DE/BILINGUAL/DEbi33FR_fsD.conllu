@@ -1,0 +1,139 @@
+# text = ja hallo
+1	ja	ja	ADV	_	_	2	discourse	_	_
+2	hallo	hallo	X	_	_	0	root	_	_
+
+# text = äh ich bin die Zeugin vom äh Unfall äh Fallnummer F16
+1	äh	äh	ADV	_	_	3	discourse	_	_
+2	ich	ich	PRON	_	_	3	subj	_	_
+3	bin	sein	VERB	_	_	0	root	_	_
+4	die	d	DET	_	_	5	det	_	_
+5	Zeugin	Zeugin	NOUN	_	_	3	comp:pred	_	_
+6	vom	vom	PROPN	_	_	5	mod@poss	_	_
+7	äh	äh	PROPN	_	_	3	discourse	_	_
+8	Unfall	Unfall	PROPN	_	_	6	comp:obj	_	_
+9	äh	äh	PROPN	_	_	3	discourse	_	_
+10	Fallnummer	Fallnummer	PROPN	_	_	8	appos	_	_
+11	F16	F16	PROPN	_	_	10	appos	_	_
+
+# text = äh und hier ist mein Zeugenbericht
+1	äh	äh	ADJ	_	_	4	discourse	_	_
+2	und	und	CCONJ	_	_	4	cc	_	_
+3	hier	hier	ADV	_	_	4	comp:pred	_	_
+4	ist	sein	VERB	_	_	0	root	_	_
+5	mein	mein	PRON	_	_	6	det	_	_
+6	Zeugenbericht	Zeugenbericht	NOUN	_	_	4	subj	_	_
+
+# text = äh ich habe beobachtet wie ein Mann äh mit einem Ball spielend äh die Straße überquert hat
+1	äh	äh	ADJ	_	_	3	discourse	_	_
+2	ich	ich	PRON	_	_	3	subj	_	_
+3	habe	haben	AUX	_	_	0	root	_	_
+4	beobachtet	beobachten	VERB	_	_	3	comp:aux	_	_
+5	wie	wie	ADV	_	_	17	mod	_	_
+6	ein	ein	DET	_	_	7	det	_	_
+7	Mann	Mann	NOUN	_	_	17	subj	_	_
+8	äh	äh	ADV	_	_	3	discourse	_	_
+9	mit	mit	ADP	_	_	12	mod	_	_
+10	einem	ein	DET	_	_	11	det	_	_
+11	Ball	Ball	NOUN	_	_	9	comp:obj	_	_
+12	spielend	spielend	ADJ	_	_	17	mod	_	_
+13	äh	äh	ADV	_	_	3	discourse	_	_
+14	die	d	DET	_	_	15	det	_	_
+15	Straße	Straße	NOUN	_	_	16	comp:obj	_	_
+16	überquert	überquert	VERB	_	_	17	comp:aux	_	_
+17	hat	haben	AUX	_	_	4	comp:obj	_	_
+
+# text = und äh das alles geschah eben auf diesem Parkplatz
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	äh	äh	ADJ	_	_	5	discourse	_	_
+3	das	die	SCONJ	_	_	4	det	_	_
+4	alles	alle	PRON	_	_	5	subj	_	_
+5	geschah	geschehen	VERB	_	_	0	root	_	_
+6	eben	eben	ADV	_	_	5	mod	_	_
+7	auf	auf	ADP	_	_	5	mod	_	_
+8	diesem	diese	PRON	_	_	9	det	_	_
+9	Parkplatz	Parkplatz	NOUN	_	_	7	comp:obj	_	_
+
+# text = er kam von äh mir aus gesehen rechts
+1	er	er	PRON	_	_	2	subj	_	_
+2	kam	kommen	VERB	_	_	0	root	_	_
+3	von	von	ADP	_	_	7	mod	_	_
+4	äh	äh	ADV	_	_	2	discourse	_	_
+5	mir	ich	PRON	_	_	3	comp:obj	_	_
+6	aus	aus	ADP	_	_	5	mod	_	_
+7	gesehen	sehen	VERB	_	_	8	mod	_	_
+8	rechts	rechts	ADV	_	_	2	comp:obl	_	_
+
+# text = und äh bog eben vom Gehweg in die Straße ein
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	äh	äh	ADV	_	_	3	discourse	_	_
+3	bog	biegen	VERB	_	_	0	root	_	_
+4	eben	eben	ADV	_	_	3	mod	_	_
+5	vom	vom	PROPN	_	_	3	mod	_	_
+6	Gehweg	Gehweg	PROPN	_	_	5	comp:obj	_	_
+7	in	in	ADP	_	_	3	comp:obl	_	_
+8	die	d	DET	_	_	9	det	_	_
+9	Straße	Straße	NOUN	_	_	7	comp:obj	_	_
+10	ein	ein	DET	_	_	3	compound@prt	_	_
+
+# text = und ein Auto kam heran gefahren
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	ein	ein	DET	_	_	3	det	_	_
+3	Auto	Auto	NOUN	_	_	4	subj	_	_
+4	kam	kommen	VERB	_	_	0	root	_	_
+5	herangefahren	heranfahren	VERB	_	_	4	comp:obj	_	_
+
+# text = und äh der Ball rollte auf die Straße
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	äh	äh	ADJ	_	_	5	discourse	_	_
+3	der	d	DET	_	_	4	det	_	_
+4	Ball	Ball	NOUN	_	_	5	subj	_	_
+5	rollte	rollen	VERB	_	_	0	root	_	_
+6	auf	auf	ADP	_	_	5	comp:obl	_	_
+7	die	d	DET	_	_	8	det	_	_
+8	Straße	Straße	NOUN	_	_	6	comp:obj	_	_
+
+# text = und das Auto bremste äh scharf ab
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	das	d	DET	_	_	3	det	_	_
+3	Auto	Auto	NOUN	_	_	4	subj	_	_
+4	bremste	bremsen	VERB	_	_	0	root	_	_
+5	äh	äh	ADV	_	_	4	discourse	_	_
+6	scharf	scharf	ADJ	_	_	4	mod	_	_
+7	ab	ab	ADP	_	_	4	compound@prt	_	_
+
+# text = und das dahinter fahrende Auto äh prallte auf das äh eben Auto was vorne fuhr
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	das	die	DET	_	_	5	det	_	_
+3	dahinter	dahinter	ADV	_	_	4	mod	_	_
+4	fahrende	fahrend	ADJ	_	_	5	mod	_	_
+5	Auto	Auto	NOUN	_	_	7	subj	_	_
+6	äh	äh	ADV	_	_	7	discourse	_	_
+7	prallte	prallen	VERB	_	_	0	root	_	_
+8	auf	auf	ADP	_	_	7	comp:obl	_	_
+9	das	die	DET	_	_	12	det	_	_
+10	äh	äh	ADV	_	_	7	discourse	_	_
+11	eben	eben	ADV	_	_	7	discourse	_	_
+12	Auto	Auto	NOUN	_	_	8	comp:obj	_	_
+13	was	was	PRON	_	_	15	subj	_	_
+14	vorne	vorne	ADV	_	_	15	mod	_	_
+15	fuhr	fahren	VERB	_	_	12	mod@relcl	_	_
+
+# text = und äh ja es gab einen Knall
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	äh	äh	ADJ	_	_	5	discourse	_	_
+3	ja	ja	ADV	_	_	5	discourse	_	_
+4	es	es	PRON	_	_	5	subj@expl	_	_
+5	gab	geben	VERB	_	_	0	root	_	_
+6	einen	ein	DET	_	_	7	det	_	_
+7	Knall	Knall	NOUN	_	_	5	comp:obj	_	_
+
+# text = äh und ja das war der Unfall
+1	äh	äh	ADJ	_	_	5	discourse	_	_
+2	und	und	CCONJ	_	_	5	cc	_	_
+3	ja	ja	ADV	_	_	5	discourse	_	_
+4	das	die	PRON	_	_	5	subj	_	_
+5	war	sein	VERB	_	_	0	root	_	_
+6	der	d	DET	_	_	7	det	_	_
+7	Unfall	Unfall	NOUN	_	_	5	comp:pred	_	_
+
+

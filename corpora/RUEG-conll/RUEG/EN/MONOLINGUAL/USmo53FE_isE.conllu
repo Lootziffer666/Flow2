@@ -1,0 +1,75 @@
+1	a	a	DET	AT0	_	2	det	_	_
+2	couple	couple	NOUN	NN1	_	5	obl:tmod	_	_
+3	who	who	PRON	PNQ	_	5	nsubj:pass	_	_
+4	was	be	AUX	VBD	_	5	aux:pass	_	_
+5	walking	walk	VERB	VVG	_	0	root	_	_
+6	with	with	ADP	PRP	_	8	case	_	_
+7	their	they	DET	DPS	_	8	det	_	_
+8	baby	baby	NOUN	NN1	_	5	obl	_	_
+
+1	and	and	CCONJ	CJC	_	8	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	man	man	NOUN	NN1	_	8	nsubj	_	_
+4	had	have	AUX	VHD	_	8	aux	_	_
+5	a	a	DET	AT0	_	8	det	_	_
+6	had	have	AUX	VHD	_	8	aux	_	_
+7	a	a	DET	AT0	_	8	det	_	_
+8	volleyball	volleyball	NOUN	NN1	_	0	root	_	_
+9	that	that	SCONJ	CJT	_	14	mark	_	_
+10	he	he	PRON	PNP	_	14	nsubj	_	_
+11	was	be	AUX	VBD	_	14	cop	_	_
+12	just	just	ADV	AV0	_	14	advmod	_	_
+13	like	like	INTJ	ITJ	_	14	discourse	_	_
+14	bouncing	bounce	VERB	VVG	_	8	acl:relcl	_	_
+15	around	around	ADP	AVP	_	14	compound:prt	_	_
+
+1	and	and	CCONJ	CJC	_	6	cc	_	_
+2	there	there	ADV	EX0	_	6	advmod	_	_
+3	was	be	AUX	VBD	_	6	cop	_	_
+4	another	another	DET	DT0	_	5	det	_	_
+5	lady	lady	NOUN	NN1	_	6	nsubj	_	_
+6	unloading	unload	VERB	VVG	_	0	root	_	_
+7	groceries	grocery	NOUN	NN2	_	6	obj	_	_
+8	into	into	ADP	PRP	_	10	case	_	_
+9	her	she	DET	DPS	_	10	det	_	_
+10	car	car	NOUN	NN1	_	6	obl	_	_
+11	with	with	ADP	PRP	_	13	case	_	_
+12	the	the	DET	AT0	_	13	det	_	_
+13	dog	dog	NOUN	NN1	_	6	obl	_	_
+
+1	but	but	CCONJ	CJC	_	4	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	man	man	NOUN	NN1	_	4	nsubj	_	_
+4	dropped	drop	VERB	VVD	_	0	root	_	_
+5	his	he	DET	DPS	_	6	det	_	_
+6	volleyball	volleyball	NOUN	NN1	_	4	obj	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	dog	dog	NOUN	NN1	_	5	conj	_	_
+4	went	go	VERB	VVD	_	5	advcl	_	_
+5	chasing	chase	VERB	VVG	_	0	root	_	_
+6	after	after	ADP	PRP	_	8	case	_	_
+7	the	the	DET	AT0	_	8	det	_	_
+8	volleyball	volleyball	NOUN	NN1	_	5	obl	_	_
+9	and	and	CCONJ	CJC	_	12	cc	_	_
+10	right	right	ADV	AV0	_	12	advmod	_	_
+11	in	in	ADP	PRP	_	12	case	_	_
+12	front	front	NOUN	NN1	_	5	conj	_	_
+13	of	of	ADP	PRF	_	16	case	_	_
+14	a	a	DET	AT0	_	16	det	_	_
+15	moving	moving	ADJ	AJ0	_	16	amod	_	_
+16	car	car	NOUN	NN1	_	12	nmod	_	_
+
+1	and	and	CCONJ	CJC	_	9	cc	_	_
+2	when	when	SCONJ	CJS	_	5	mark	_	_
+3	the	the	DET	AT0	_	4	det	_	_
+4	car	car	NOUN	NN1	_	5	nsubj	_	_
+5	stopped	stop	VERB	VVD	_	9	advcl	_	_
+6	another	another	DET	DT0	_	7	det	_	_
+7	car	car	NOUN	NN1	_	5	obj	_	_
+8	just	just	ADV	AV0	_	9	advmod	_	_
+9	rear-ended	rear-end	VERB	VVD	_	0	root	_	_
+10	into	into	ADP	PRP	_	11	case	_	_
+11	it	it	PRON	PNP	_	9	obl	_	_
+

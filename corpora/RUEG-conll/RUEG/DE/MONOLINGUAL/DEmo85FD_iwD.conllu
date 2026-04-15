@@ -1,0 +1,147 @@
+1	Hey	Hey	PROPN	_	_	2	discourse	_	_
+2	Maya	Maya	PROPN	_	_	0	root	_	_
+
+1	:red_heart:	❤️	NOUN	_	_	0	root	_	_
+
+1	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	bin	sein	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	gerade	gerade	ADV	_	_	2	mod	_	_
+4	einkaufen	einkaufen	VERB	_	VerbForm=Inf	5	comp:obj	_	_
+5	gegangen	gehen	VERB	_	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	da	da	ADV	_	_	3	comp:pred	_	_
+3	war	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	so	so	ADV	_	_	6	mod	_	_
+5	eine	eine	DET	_	Definite=Ind|PronType=Art	6	det	_	_
+6	Frau	Frau	NOUN	_	_	3	subj	_	_
+7	und	und	CCONJ	_	_	9	cc	_	_
+8	ein	ein	DET	_	Definite=Ind|PronType=Art	9	det	_	_
+9	Mann	Mann	NOUN	_	_	3	conj	_	_
+10	mit	mit	ADP	_	_	9	orphan	_	_
+11	einem	ein	DET	_	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Ball	Ball	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	10	comp:obj	_	_
+
+1	und	und	CCONJ	_	_	10	cc	_	_
+2	als	als	ADP	_	_	19	mod	_	_
+3	die	d	DET	_	Definite=Def|PronType=Art	8	subj	_	_
+4	über	über	ADP	_	_	7	comp:obl	_	_
+5	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	4	comp:obj	_	_
+7	gehen	gehen	VERB	_	VerbForm=Inf	8	comp:aux	_	_
+8	wollten	wollen	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	comp:obj	_	_
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Mann	Mann	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	10	subj	_	_
+13	den	d	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Ball	Ball	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	19	comp:obj	_	_
+15	so	so	ADV	_	_	10	mod	_	_
+16	auf	auf	ADP	_	_	19	mod	_	_
+17	seinen	sein	DET	_	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	18	det	_	_
+18	Fuß	Fuß	NOUN	_	_	16	comp:obj	_	_
+19	gedribbelt	gedribbelt	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	comp:aux	_	_
+
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	dann	dann	ADV	_	_	3	mod	_	_
+3	ist	sein	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	der	die	PRON	_	Case=Nom|PronType=Dem	3	subj	_	_
+5	halt	halt	ADV	_	_	3	discourse	_	_
+6	weggerollt	weggerollt	ADJ	_	Degree=Pos|Tense=Past|VerbForm=Part	3	comp:aux	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+1	Dann	dann	ADV	_	_	2	mod	_	_
+2	war	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	da	da	ADV	_	_	2	comp:pred	_	_
+4	noch	noch	ADV	_	_	2	mod	_	_
+5	eine	eine	DET	_	Definite=Ind|PronType=Art	6	det	_	_
+6	Frau	Frau	NOUN	_	_	2	subj	_	_
+7	,	,	PUNCT	_	_	2	punct	_	_
+8	die	die	PRON	_	Case=Nom|PronType=Rel	12	subj	_	_
+9	ihren	ihr	DET	_	Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	Einkauf	Einkauf	NOUN	_	_	11	comp:obj	_	_
+11	ausgepackt	auspacken	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	comp:aux	_	_
+12	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	_
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	mit	mit	ADP	_	_	6	mod	_	_
+15	einem	ein	DET	_	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	16	det	_	_
+16	Hund	Hund	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	14	comp:obj	_	_
+17	,	,	PUNCT	_	_	14	punct	_	_
+18	der	d	PRON	_	Case=Nom|PronType=Rel	22	subj	_	_
+19	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	20	det	_	_
+20	Ball	Ball	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	21	comp:obj	_	_
+21	hinterhergerannt	hinterherrennen	VERB	_	Tense=Past|VerbForm=Part	22	comp:aux	_	_
+22	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	mod@relcl	_	_
+23	.	.	PUNCT	_	_	2	punct	_	_
+
+1	Auf	auf	ADP	_	_	4	mod	_	_
+2	jeden	jede	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	3	det	_	_
+3	Fall	Fall	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	1	comp:obj	_	_
+4	kam	kommen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	da	da	ADV	_	_	4	mod	_	_
+6	ein	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Auto	Auto	NOUN	_	Case=Acc|Gender=Masc,Neut|Number=Sing	4	subj	_	_
+8	,	,	PUNCT	_	_	4	punct	_	_
+9	was	was	PRON	_	Case=Nom|Number=Sing|PronType=Rel	11	subj	_	_
+10	gebremst	bremsen	ADV	_	Tense=Past|VerbForm=Part	11	comp:aux	_	_
+11	hat	haben	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	_
+12	,	,	PUNCT	_	_	4	punct	_	_
+
+1	aber	aber	ADV	_	_	3	cc	_	_
+2	dahinter	dahinter	ADV	_	_	3	mod	_	_
+3	kam	kommen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	noch	noch	ADV	_	_	6	mod	_	_
+5	ein	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Auto	Auto	NOUN	_	Case=Acc|Gender=Masc,Neut|Number=Sing	3	subj	_	_
+
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	das	die	PRON	_	Case=Nom|PronType=Dem	3	subj	_	_
+3	hat	haben	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	irgendwie	irgendwie	ADV	_	_	3	mod	_	_
+5	nichts	nichts	PRON	_	Case=Acc|Number=Sing|PronType=Neg	6	comp:obj	_	_
+6	mitbekommen	mitbekommen	VERB	_	Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	ist	sein	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	vorderen	vorder	ADJ	_	Case=Dat|Degree=Cmp|Gender=Masc,Neut|Number=Sing	6	comp:obj	_	_
+5	hinten	hinten	ADV	_	_	2	mod	_	_
+6	reingefahren	reinfahren	VERB	_	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+1	Die	d	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Fahrer	Fahrer	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	3	subj	_	_
+3	sind	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	beide	beide	PRON	_	NumType=Card|PronType=Tot	2	appos	_	_
+5	raus	raus	ADV	_	_	3	comp:aux	_	_
+
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	haben	haben	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Polizei	Polizei	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	comp:obj	_	_
+5	gerufen	rufen	VERB	_	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+6	...	...	PUNCT	_	_	2	discourse	_	_
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+1	Wahrscheinlich	wahrscheinlich	ADJ	_	Degree=Pos	2	mod	_	_
+2	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	hintere	hinter	ADJ	_	Degree=Cmp	5	mod	_	_
+5	Fahrer	Fahrer	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	subj	_	_
+6	irgendetwas	irgendetwas	PRON	_	Case=Nom|PronType=Ind	8	comp:obl	_	_
+7	anderes	anderes	PRON	_	PronType=Ind	6	mod	_	_
+8	gemacht	machen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	comp:aux	_	_
+9	oder	oder	CCONJ	_	_	10	cc	_	_
+10	so	so	ADV	_	_	2	parataxis	_	_
+
+1	Ist	Ist	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	deinem	dein	PRON	_	PronType=Neg	3	det	_	_
+3	Vater	Vater	NOUN	_	Case=Nom|Number=Sing	8	comp:obj	_	_
+4	nicht	nicht	PART	_	_	1	mod	_	_
+5	auch	auch	ADV	_	_	1	mod	_	_
+6	mal	mal	ADV	_	_	1	mod	_	_
+7	sowas	sowas	PRON	_	PronType=Ind	1	subj	_	_
+8	passiert	passieren	VERB	_	Degree=Pos|Tense=Past|VerbForm=Part	1	comp:aux	_	_
+9	?	?	PUNCT	_	_	1	punct	_	_
+10	?	?	PUNCT	_	_	1	punct	_	_
+

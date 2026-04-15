@@ -1,0 +1,165 @@
+# text = ja recht schönen Tag
+1	ja	ja	ADV	NGIRR	_	4	discourse	_	_
+2	recht	recht	ADV	PTKIFG	_	3	mod	_	_
+3	schönen	schön	ADJ	ADJA	Degree=Pos	4	mod	_	_
+4	Tag	Tag	NOUN	NN	_	0	root	_	_
+
+# text = der Herr DEmo31MD hier
+1	der	d	DET	ART	Definite=Def|PronType=Art	2	det	_	_
+2	Herr	Herr	NOUN	NN	_	0	root	_	_
+3	DEmo31MD	DEmo31MD	PROPN	NE	_	2	flat	_	_
+4	hier	hier	ADV	ADV	_	2	orphan	_	_
+
+# text = äh ich habe hier gerade ein Unfall gesehen
+1	äh	äh	ADJ	NGHES	Degree=Pos	3	discourse	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	hier	hier	ADV	ADV	_	3	mod	_	_
+5	gerade	gerade	ADV	ADV	_	3	mod	_	_
+6	ein	ein	NUM	ART	NumType=Card	7	mod	_	_
+7	Unfall	Umfall	NOUN	NN	Case=Acc|Number=Sing	8	comp:obj	_	_
+8	gesehen	sehen	VERB	VVPP	VerbForm=Part	3	comp:aux	_	_
+
+# text = und äh es geht um Folgendes
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	ADV	NGHES	_	4	discourse	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	_
+4	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	um	um	ADP	APPR	_	4	comp:obl	_	_
+6	Folgendes	Folgende	NOUN	NN	_	5	comp:obj	_	_
+
+# text = äh äh zwei PKWS sind zusammgestoßen
+1	äh	äh	ADJ	NGHES	Degree=Pos	5	discourse	_	_
+2	äh	äh	ADV	NGHES	_	5	discourse	_	_
+3	zwei	zwei	NUM	CARD	NumType=Card	4	mod	_	_
+4	PKWS	Pkw	NOUN	NN	Case=Nom|Number=Plur	5	subj	_	_
+5	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	zusammgestoßen	zusammstoßen	ADJ	ADJD	Degree=Pos	5	comp:aux	_	_
+
+# text = äh es wurde niemand verletzt
+1	äh	äh	ADJ	NGHES	Degree=Pos	3	mod	_	_
+2	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+3	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	niemand	niemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Neg	3	subj@pass	_	_
+5	verletzt	verletzen	VERB	ADJD	VerbForm=Part	3	comp:aux@pass	_	_
+
+# text = äh es beruht sich auf ein äh Blechschaden
+1	äh	äh	ADJ	NGHES	Degree=Pos	3	discourse	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+3	beruht	beruhen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs	3	comp:obj	_	_
+5	auf	auf	ADP	APPR	_	3	comp:obl	_	_
+6	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+7	äh	äh	ADJ	NGHES	Degree=Pos	3	discourse	_	_
+8	Blechschaden	Blechschaden	PROPN	NN	_	5	comp:obj	_	_
+
+# text = das paar UNK auch UNK unaufmerksam war dadurch den Ball verlor ein Fußball
+1	äh	äh	ADJ	NGHES	Degree=Pos	3	discourse	_	_
+2	Folgendes	Folgende	NOUN	NN	_	3	mod	_	_
+3	kam	kommen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+5	dazu	dazu	ADV	ADV	_	3	mod	_	_
+6	dass	dass	SCONJ	KOUS	_	3	comp:obj	_	_
+7	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Paar	Paar	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	13	subj	_	_
+9	die	die	PRON	PRELS	Case=Nom|PronType=Dem	10	reparandum	_	_
+10	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Parkplatz	Parkplatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	comp:obj	_	_
+12	überqueren	überqueren	VERB	VVINF	VerbForm=Inf	13	comp:aux	_	_
+13	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	comp:obj	_	_
+14	das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Paar	Paar	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	18	subj	_	_
+16	jedoch	jedoch	ADV	ADV	_	18	mod	_	_
+17	unaufmerksam	unaufmerksam	ADJ	ADJD	Degree=Pos	18	comp:pred	_	_
+18	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	conj	_	_
+19	dadurch	dadurch	ADV	ADV	_	22	mod	_	_
+20	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	comp:obj	_	_
+22	verlor	verlieren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	13	conj	_	_
+23	ein	ein	DET	ART	Definite=Ind|PronType=Art	24	det	_	_
+24	Fußball	Fußball	NOUN	NN	_	21	appos	_	_
+
+# text = und der ball ging halt in Richtung einer anderen Frau die an ihrem parkenden Auto mit ihrem Einkauf stand
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	Definite=Def|PronType=Art	3	det	_	_
+3	ball	Ball	NOUN	NN	_	4	subj	_	_
+4	ging	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	halt	halt	ADV	PTKMA	_	4	discourse	_	_
+6	in	in	ADP	APPR	_	4	comp:obl	_	_
+7	Richtung	Richtung	NOUN	NN	_	6	comp:obj	_	_
+8	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	anderen	ander	ADJ	PIDAT	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	mod	_	_
+10	Frau	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	mod@poss	_	_
+11	die	die	DET	PRELS	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	subj	_	_
+12	an	an	ADP	APPR	_	19	comp:obl	_	_
+13	ihrem	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	15	det	_	_
+14	parkenden	parkend	ADJ	ADJA	Degree=Pos	15	mod	_	_
+15	Auto	Auto	NOUN	NN	_	12	comp:obj	_	_
+16	mit	mit	ADP	APPR	_	19	mod	_	_
+17	ihrem	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	18	det	_	_
+18	Einkauf	Einkauf	NOUN	NN	Case=Dat|Number=Sing	16	comp:obj	_	_
+19	stand	stehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	10	mod@relcl	_	_
+
+# text = diese Frau hatte ein Hund der dann durch den Ball erschrak
+1	diese	diese	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	subj	_	_
+3	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Hund	Hund	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	3	comp:obj	_	_
+6	der	die	DET	PRELS	Definite=Def|PronType=Art	11	subj	_	_
+7	dann	dann	ADV	ADV	_	11	mod	_	_
+8	durch	durch	ADP	APPR	_	11	mod	_	_
+9	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	comp:obj	_	_
+11	erschrak	erschrecken	PROPN	VVFIN	_	5	mod@relcl	_	_
+
+# text = die beiden Autos die sehr dicht äh aufeinander fuhren äh kamen auf den Parkplatz
+1	die	d	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+2	beiden	beide	PRON	PIDAT	Case=Nom|Number=Plur|NumType=Card|PronType=Tot	3	mod	_	_
+3	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	11	subj	_	_
+4	die	die	PRON	PRELS	Case=Nom|PronType=Dem	9	subj	_	_
+5	sehr	sehr	ADV	PTKIFG	_	6	mod	_	_
+6	dicht	dicht	ADJ	ADJD	Degree=Pos	8	mod	_	_
+7	äh	äh	ADJ	NGHES	Degree=Pos	11	discourse	_	_
+8	aufeinander	aufeinander	ADV	ADV	_	9	mod	_	_
+9	fuhren	fahren	VERB	VVFIN	VerbForm=Inf	3	mod@relcl	_	_
+10	äh	äh	ADJ	NGHES	Degree=Pos	11	discourse	_	_
+11	kamen	kommen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+12	auf	auf	ADP	APPR	_	11	comp:obl	_	_
+13	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Parkplatz	Parkplatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	comp:obj	_	_
+
+# text = und dem Moment halt kam es zur Vollbremsung durch den Hund beziehungsweise durch den Ball
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	dem	d	DET	ART	Definite=Def|PronType=Art	3	det	_	_
+3	Moment	Moment	NOUN	NN	_	5	mod	_	_
+4	halt	halt	ADV	PTKMA	_	5	discourse	_	_
+5	kam	kommen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	_
+7	zur	zu	NOUN	APPRART	Case=Nom|Gender=Fem|Number=Sing	5	comp:obl	_	_
+8	Vollbremsung	Vollbremsung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	mod	_	_
+9	durch	durch	ADP	APPR	_	5	mod	_	_
+10	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Hund	Hund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	comp:obj	_	_
+12	beziehungsweise	beziehungsweise	ADV	KON	_	13	cc	_	_
+13	durch	durch	ADP	APPR	_	9	conj	_	_
+14	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	comp:obj	_	_
+
+# text = die beiden Autos äh kollidierten
+1	die	d	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+2	beiden	beide	PRON	PIDAT	Case=Nom|Number=Plur|NumType=Card|PronType=Tot	3	mod	_	_
+3	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	5	subj	_	_
+4	äh	äh	ADJ	NGHES	Degree=Pos	5	discourse	_	_
+5	kollidierten	kollidieren	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+
+# text = und ja Dankeschön
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	ja	ja	ADV	PTKMA	_	3	discourse	_	_
+3	Dankeschön	dankeschön	NOUN	NGIRR	_	0	root	_	_
+
+# text = auf Wiederhören tschüss
+1	auf	auf	ADP	APPR	_	0	root	_	_
+2	Wiederhören	Wiederhören	NOUN	NN	_	1	comp:obj	_	_
+3	tschüss	tschüss	PROPN	VVFIN	_	1	conj	_	_
+

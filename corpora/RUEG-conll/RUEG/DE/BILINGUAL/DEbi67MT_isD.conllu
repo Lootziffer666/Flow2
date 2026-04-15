@@ -1,0 +1,155 @@
+# text = ey äh gerade auf dem Weg zu dir musste mal sehen
+1	ey	ey	PROPN	_	_	9	discourse	_	_
+2	äh	äh	PROPN	_	_	9	discourse	_	_
+3	gerade	gerade	ADV	_	_	9	mod	_	_
+4	auf	auf	ADP	_	_	11	mod	_	_
+5	dem	d	DET	_	_	6	det	_	_
+6	Weg	Weg	NOUN	_	_	4	comp:obj	_	_
+7	zu	zu	ADP	_	_	6	mod	_	_
+8	dir	du	PRON	_	_	7	comp:obj	_	_
+9	musste	m�ssen	AUX	_	_	0	root	_	_
+10	mal	mal	ADV	_	_	9	mod	_	_
+11	sehen	sehen	VERB	_	_	9	comp:aux	_	_
+
+# text = ich sehe äh hier diesen ein Paar ein Mann eine Frau Frau mit Kinderwagen Mann mit äh äh Fußball einfach
+1	ich	ich	PRON	_	_	2	subj	_	_
+2	sehe	sehen	VERB	_	_	0	root	_	_
+3	äh	äh	ADV	_	_	2	discourse	_	_
+4	hier	hier	ADV	_	_	2	mod	_	_
+5	diesen	diese	PRON	_	_	7	reparandum	_	_
+6	ein	ein	DET	_	_	7	det	_	_
+7	Paar	Paar	NOUN	_	_	2	comp:obj	_	_
+8	ein	ein	DET	_	_	9	det	_	_
+9	Mann	Mann	NOUN	_	_	7	appos	_	_
+10	eine	eine	DET	_	_	11	det	_	_
+11	Frau	Frau	NOUN	_	_	9	conj	_	_
+12	Frau	Frau	NOUN	_	_	11	appos	_	_
+13	mit	mit	ADP	_	_	12	mod	_	_
+14	Kinderwagen	Kinderwagen	NOUN	_	_	13	comp:obj	_	_
+15	Mann	Mann	NOUN	_	_	9	appos	_	_
+16	mit	mit	ADP	_	_	15	mod	_	_
+17	äh	äh	ADV	_	_	2	discourse	_	_
+18	äh	äh	ADJ	_	_	2	discourse	_	_
+19	Fußball	Fußball	NOUN	_	_	16	comp:obj	_	_
+20	einfach	einfach	ADV	_	_	2	mod	_	_
+
+# text = spielt der als als wenn Basketball ist
+1	spielt	spielen	VERB	_	_	0	root	_	_
+2	der	d	DET	_	_	1	subj	_	_
+3	als	als	ADP	_	_	4	reparandum	_	_
+4	als	als	ADP	_	_	1	mod	_	_
+5	wenn	wenn	SCONJ	_	_	4	fixed	_	_
+6	Basketball	Basketball	NOUN	_	_	7	subj	_	_
+7	ist	sein	VERB	_	_	4	comp:obj	_	_
+
+# text = lässt der einfach ein paar mal aufn Boden klatschen
+1	lässt	lässt	VERB	_	_	0	root	_	_
+2	der	die	DET	_	_	1	subj	_	_
+3	einfach	einfach	ADV	_	_	1	mod	_	_
+4	ein	ein	DET	_	_	6	det	_	_
+5	paar	paar	PRON	_	_	6	det	_	_
+6	mal	mal	NOUN	_	_	1	mod	_	_
+7	aufn	aufn	PROPN	_	_	9	comp:obl	_	_
+8	Boden	Boden	PROPN	_	_	7	comp:obj	_	_
+9	klatschen	klatschen	ADJ	_	_	1	comp:aux	_	_
+
+# text = und andere äh andere Seite von Straße Frau leerte gerade Einkauf aus
+1	und	und	CCONJ	_	_	9	cc	_	_
+2	andere	andere	ADJ	_	_	4	reparandum	_	_
+3	äh	äh	ADJ	_	_	9	discourse	_	_
+4	andere	ander	ADJ	_	_	5	mod	_	_
+5	Seite	Seite	NOUN	_	_	9	mod	_	_
+6	von	von	ADP	_	_	5	mod@poss	_	_
+7	Straße	Straße	NOUN	_	_	6	comp:obj	_	_
+8	Frau	Frau	NOUN	_	_	9	subj	_	_
+9	leerte	leerte	VERB	_	_	0	root	_	_
+10	gerade	gerade	ADV	_	_	9	mod	_	_
+11	Einkauf	Einkauf	ADV	_	_	9	comp:obj	_	_
+12	aus	aus	ADP	_	_	9	compound@prt	_	_
+
+# text = rechte Seite Einkauf
+1	rechte	recht	ADJ	_	_	2	mod	_	_
+2	Seite	Seite	NOUN	_	_	3	orphan	_	_
+3	Einkauf	Einkauf	ADV	_	_	0	root	_	_
+
+# text = links äh Hund
+1	links	links	ADV	_	_	3	orphan	_	_
+2	äh	äh	ADJ	_	_	3	discourse	_	_
+3	Hund	Hund	NOUN	_	_	0	root	_	_
+
+# text = Kofferraum offen
+1	Kofferraum	Kofferraum	NOUN	_	_	0	root	_	_
+2	offen	offen	ADJ	_	_	1	orphan	_	_
+
+# text = fährt die Straße äh zwei Autos rein ein blaues ein weißes hinterher
+1	fährt	fährt	VERB	_	_	0	root	_	_
+2	die	d	DET	_	_	3	det	_	_
+3	Straße	Straße	NOUN	_	_	1	comp:obj	_	_
+4	äh	äh	ADV	_	_	1	discourse	_	_
+5	zwei	zwei	NUM	_	_	6	mod	_	_
+6	Autos	Auto	NOUN	_	_	1	subj	_	_
+7	rein	rein	ADJ	_	_	1	compound@prt	_	_
+8	ein	ein	DET	_	_	9	det	_	_
+9	blaues	blau	PROPN	_	_	6	appos	_	_
+10	ein	ein	DET	_	_	11	det	_	_
+11	weißes	weißes	ADJ	_	_	9	conj	_	_
+12	hinterher	hinterher	ADV	_	_	11	orphan	_	_
+
+# text = und äh der Mann der mit dem Basketball so gespielt hat lässt äh den Ball einfach auf sein rechten Fuß so fallen
+1	und	und	CCONJ	_	_	12	cc	_	_
+2	äh	äh	ADV	_	_	12	discourse	_	_
+3	der	d	DET	_	_	4	det	_	_
+4	Mann	Mann	NOUN	_	_	12	subj	_	_
+5	der	die	DET	_	_	11	subj	_	_
+6	mit	mit	ADP	_	_	10	mod	_	_
+7	dem	d	DET	_	_	8	det	_	_
+8	Basketball	Basketball	NOUN	_	_	6	comp:obj	_	_
+9	so	so	ADV	_	_	11	mod	_	_
+10	gespielt	spielen	VERB	_	_	11	comp:aux	_	_
+11	hat	haben	AUX	_	_	4	mod@relcl	_	_
+12	lässt	lässt	VERB	_	_	0	root	_	_
+13	äh	äh	ADJ	_	_	12	discourse	_	_
+14	den	d	DET	_	_	15	det	_	_
+15	Ball	Ball	NOUN	_	_	22	comp:obj	_	_
+16	einfach	einfach	ADJ	_	_	12	mod	_	_
+17	auf	auf	ADP	_	_	22	comp:obl	_	_
+18	sein	sein	DET	_	_	20	det	_	_
+19	rechten	recht	ADJ	_	_	20	mod	_	_
+20	Fuß	Fuß	NOUN	_	_	17	comp:obj	_	_
+21	so	so	ADV	_	_	22	mod	_	_
+22	fallen	fallen	VERB	_	_	12	comp:obj	_	_
+
+# text = der Ball äh rollt über die Straße
+1	der	d	DET	_	_	2	det	_	_
+2	Ball	Ball	NOUN	_	_	4	subj	_	_
+3	äh	äh	NOUN	_	_	4	discourse	_	_
+4	rollt	rollen	VERB	_	_	0	root	_	_
+5	über	über	ADP	_	_	4	comp:obl	_	_
+6	die	d	DET	_	_	7	det	_	_
+7	Straße	Straße	NOUN	_	_	5	comp:obj	_	_
+
+# text = der Hund äh versucht äh äh zu beschützen
+1	der	d	DET	_	_	2	det	_	_
+2	Hund	Hund	NOUN	_	_	4	subj	_	_
+3	äh	äh	NOUN	_	_	4	discourse	_	_
+4	versucht	versuchen	VERB	_	_	0	root	_	_
+5	äh	äh	ADV	_	_	4	discourse	_	_
+6	äh	äh	ADJ	_	_	4	discourse	_	_
+7	zu	zu	PART	_	_	4	comp:obj	_	_
+8	beschützen	beschützen	VERB	_	_	7	comp:obj	_	_
+
+# text = und äh das Auto bleibt stehen wo wo dann beide Autos Unfall machen
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	äh	äh	ADJ	_	_	5	discourse	_	_
+3	das	d	DET	_	_	4	det	_	_
+4	Auto	Auto	NOUN	_	_	5	subj	_	_
+5	bleibt	bleiben	VERB	_	_	0	root	_	_
+6	stehen	stehen	VERB	_	_	5	comp:obj	_	_
+7	wo	wo	ADV	_	_	8	reparandum	_	_
+8	wo	wo	ADV	_	_	13	mod	_	_
+9	dann	dann	ADV	_	_	13	mod	_	_
+10	beide	beide	PRON	_	_	11	det	_	_
+11	Autos	Auto	NOUN	_	_	13	subj	_	_
+12	Unfall	Unfall	NOUN	_	_	13	comp:obj	_	_
+13	machen	machen	VERB	_	_	6	mod	_	_
+

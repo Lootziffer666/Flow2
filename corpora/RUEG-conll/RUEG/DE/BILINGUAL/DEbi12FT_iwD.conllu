@@ -1,0 +1,93 @@
+1	Hi	hi	PROPN	NGIRR	_	2	discourse	_	_
+2	Lisa	Lisa	PROPN	NE	_	0	root	_	_
+3	!	!	PUNCT	$.	_	2	punct	_	_
+
+1	wie	wie	ADV	PWAV	_	2	mod	_	_
+2	geht	gehen	VERB	VVFIN	_	0	root	_	_
+3	es	es	PRON	PPER	_	2	subj@expl	_	_
+4	?	?	PUNCT	$.	_	2	punct	_	_
+
+1	Ich	ich	PRON	PPER	_	2	subj	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Verkehrsunfall	Verkehrsunfall	NOUN	NN	_	6	comp:obj	_	_
+6	beobachtet	beobachten	VERB	VVPP	_	2	comp:aux	_	_
+7	bei	bei	ADP	APPR	_	6	mod	_	_
+8	uns	wir	PRON	PPER	_	7	comp:obj	_	_
+9	auf	auf	ADP	APPR	_	6	mod	_	_
+10	dem	d	DET	ART	_	11	det	_	_
+11	Parkplatz	Parkplatz	NOUN	NN	_	9	comp:obj	_	_
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Ein	ein	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	kam	kommen	VERB	VVFIN	_	0	root	_	_
+4	mit	mit	ADP	APPR	_	3	mod	_	_
+5	seiner	sein	DET	PPOSAT	_	6	det	_	_
+6	Frau	Frau	NOUN	NN	_	4	comp:obj	_	_
+7	zum	zu	PROPN	APPRART	_	3	comp:obl	_	_
+8	Parkplatz	Parkplatz	PROPN	NN	_	7	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	mit	mit	ADP	APPR	_	5	mod	_	_
+4	Bällen	Ball	NOUN	NN	_	3	comp:obj	_	_
+5	gespielt	spielen	VERB	VVPP	_	2	comp:aux	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	er	er	PRON	PPER	_	2	subj	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	sie	sie	PRON	PPER	_	6	comp:obj	_	_
+4	aus	aus	ADP	APPR	_	6	mod	_	_
+5	Versehen	Versehen	NOUN	NN	_	4	comp:obj	_	_
+6	fallen	fallen	VERB	VVINF	_	7	comp:obj	_	_
+7	lassen	lassen	VERB	VVINF	_	2	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	kam	kommen	VERB	VVFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Auto	Auto	NOUN	NN	_	3	subj	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	musste	müssen	AUX	VMFIN	_	0	root	_	_
+3	plötzlich	plötzlich	ADJ	ADJD	_	2	mod	_	_
+4	abbremsen	abbremsen	VERB	VVINF	_	2	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	gleich	gleich	ADV	ADV	_	3	mod	_	_
+3	danach	danach	ADV	ADV	_	5	orphan	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	anderes	ander	PRON	PIDS	_	0	root	_	_
+
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	das	d	DET	ART	_	3	det	_	_
+3	Auto	Auto	NOUN	NN	_	5	subj	_	_
+4	dahinter	dahinter	ADV	ADV	_	3	mod	_	_
+5	konnte	können	AUX	VMFIN	_	0	root	_	_
+6	leider	leider	ADV	ADV	_	5	mod	_	_
+7	nicht	nicht	PART	PTKNEG	_	5	mod	_	_
+8	mehr	mehr	ADV	PTKMWL	_	7	mod	_	_
+9	rechtzeitig	rechtzeitig	ADJ	ADJD	_	5	mod	_	_
+10	abbremsen	abbremsen	VERB	VVINF	_	5	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	an	an	ADP	APPR	_	7	comp:obl	_	_
+4	das	d	DET	ART	_	6	det	_	_
+5	vordere	vorder	ADJ	ADJA	_	6	mod	_	_
+6	Auto	Auto	NOUN	NN	_	3	comp:obj	_	_
+7	gestoßen	gestoßen	VERB	VVPP	_	2	comp:aux	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Aber	aber	CCONJ	KON	_	4	cc	_	_
+2	zum	zu	PROPN	APPRART	_	7	mod	_	_
+3	Glück	Glück	PROPN	NN	_	2	comp:obj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	niemandem	niemand	VERB	PIS	_	7	comp:obj	_	_
+6	etwas	etwas	PRON	PIS	_	4	subj	_	_
+7	passiert	passieren	VERB	VVPP	_	4	comp:aux	_	_
+
+1	:grinning_face_with_sweat:	😅	SYM	EMO	_	0	root	_	_
+

@@ -1,0 +1,95 @@
+1	This	this	DET	DT0	_	5	det	_	_
+2	one	one	NUM	CRD	_	3	nummod	_	_
+3	guy	guy	NOUN	NN1	_	5	nsubj	_	_
+4	was	be	AUX	VBD	_	5	cop	_	_
+5	bouncing	bounce	VERB	VVG	_	0	root	_	_
+6	a	a	DET	AT0	_	7	det	_	_
+7	ball	ball	NOUN	NN1	_	5	obj	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	there	there	ADV	EX0	_	5	advmod	_	_
+3	was	be	AUX	VBD	_	5	cop	_	_
+4	a	a	DET	AT0	_	5	det	_	_
+5	dog	dog	NOUN	NN1	_	0	root	_	_
+6	with	with	ADP	PRP	_	8	case	_	_
+7	its	it	DET	DPS	_	8	det	_	_
+8	owner	owner	NOUN	NN1	_	5	nmod	_	_
+9	across	across	ADP	PRP	_	11	case	_	_
+10	the	the	DET	AT0	_	11	det	_	_
+11	street	street	NOUN	NN1	_	8	nmod	_	_
+
+1	and	and	CCONJ	CJC	_	6	cc	_	_
+2	there	there	ADV	EX0	_	6	advmod	_	_
+3	were	be	AUX	VBD	_	6	cop	_	_
+4	two	two	NUM	CRD	_	6	advmod	_	_
+5	cars	car	NOUN	NN2	_	6	nsubj	_	_
+6	coming	come	VERB	VVG	_	0	root	_	_
+7	in	in	ADP	AVP	_	6	obl	_	_
+8	.	.	PUNCT	SENT	_	6	punct	_	_
+
+1	The	the	DET	AT0	_	2	det	_	_
+2	guy	guy	NOUN	NN1	_	8	nsubj	_	_
+3	,	,	PUNCT	PUN	_	2	punct	_	_
+4	in	in	ADP	PRP	_	5	case	_	_
+5	shock	shock	NOUN	NN1	_	8	obl	_	_
+6	of	of	ADP	PRF	_	8	case	_	_
+7	almost	almost	ADV	AV0	_	8	advmod	_	_
+8	getting	get	VERB	VVG	_	16	csubj	_	_
+9	hit	hit	VERB	VVN	_	13	advcl	_	_
+10	by	by	ADP	PRP	_	12	case	_	_
+11	the	the	DET	AT0	_	12	det	_	_
+12	car	car	NOUN	NN1	_	9	obl	_	_
+13	let	let	VERB	VVD	_	8	ccomp	_	_
+14	the	the	DET	AT0	_	15	det	_	_
+15	ball	ball	NOUN	NN1	_	13	obj	_	_
+16	go	go	VERB	VVI	_	0	root	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	ball	ball	NOUN	NN1	_	4	nsubj	_	_
+4	rolled	roll	VERB	VVD	_	0	root	_	_
+5	towards	towards	ADP	PRP	_	7	case	_	_
+6	the	the	DET	AT0	_	7	det	_	_
+7	dog	dog	NOUN	NN1	_	4	obl	_	_
+8	,	,	PUNCT	PUN	_	4	punct	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	dog	dog	NOUN	NN1	_	4	nsubj	_	_
+4	went	go	VERB	VVD	_	0	root	_	_
+5	for	for	ADP	PRP	_	7	case	_	_
+6	the	the	DET	AT0	_	7	det	_	_
+7	ball	ball	NOUN	NN1	_	4	obl	_	_
+8	.	.	PUNCT	SENT	_	4	punct	_	_
+
+1	What	what	DET	DTQ	_	5	nsubj	_	_
+2	's	be	AUX	VBZ	_	5	cop	_	_
+3	the	the	DET	AT0	_	5	det	_	_
+4	scary	scary	ADJ	AJ0	_	5	amod	_	_
+5	part	part	NOUN	NN1	_	0	root	_	_
+6	about	about	ADP	PRP	_	7	case	_	_
+7	it	it	PRON	PNP	_	5	nmod	_	_
+8	?	?	PUNCT	SENT	_	5	punct	_	_
+
+1	The	the	DET	AT0	_	2	det	_	_
+2	car	car	NOUN	NN1	_	4	nsubj	_	_
+3	almost	almost	ADV	AV0	_	4	advmod	_	_
+4	ran	run	VERB	VVD	_	0	root	_	_
+5	over	over	ADP	AVP	_	7	case	_	_
+6	the	the	DET	AT0	_	7	det	_	_
+7	dog	dog	NOUN	NN1	_	4	obl	_	_
+8	.	.	PUNCT	SENT	_	4	punct	_	_
+
+1	The	the	DET	AT0	_	3	det	_	_
+2	two	two	NUM	CRD	_	3	nummod	_	_
+3	cars	car	NOUN	NN2	_	4	nsubj	_	_
+4	hit	hit	VERB	VVD	_	0	root	_	_
+5	each	each	DET	DT0	_	6	det	_	_
+6	other	other	NOUN	NN1	_	4	obj	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	it	it	PRON	PNP	_	4	nsubj	_	_
+3	was	be	AUX	VBD	_	4	cop	_	_
+4	intense	intense	ADJ	AJ0	_	0	root	_	_
+5	.	.	PUNCT	SENT	_	4	punct	_	_
+

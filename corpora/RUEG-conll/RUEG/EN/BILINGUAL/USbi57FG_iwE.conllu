@@ -1,0 +1,105 @@
+1	OMG	omg	INTJ	ITJ	_	0	root	_	_
+
+1	you	you	PRON	PNP	_	4	nsubj	_	_
+2	would	would	AUX	VM0	_	4	aux	_	_
+3	not	not	PART	XX0	_	4	advmod	_	_
+4	believe	believe	VERB	VVI	_	0	root	_	_
+5	what	what	DET	DTQ	_	7	nsubj	_	_
+6	just	just	ADV	AV0	_	7	advmod	_	_
+7	happened	happen	VERB	VVD	_	4	ccomp	_	_
+8	!	!	PUNCT	SENT	_	4	punct	_	_
+9	!	!	PUNCT	SENT	_	4	punct	_	_
+10	!	!	PUNCT	SENT	_	4	punct	_	_
+11	!	!	PUNCT	SENT	_	4	punct	_	_
+12	!	!	PUNCT	SENT	_	4	punct	_	_
+13	!	!	PUNCT	SENT	_	4	punct	_	_
+14	!	!	PUNCT	SENT	_	4	punct	_	_
+
+1	I	i	PRON	PNP	_	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	_	3	aux:pass	_	_
+3	walking	walk	VERB	VVG	_	0	root	_	_
+4	by	by	ADP	PRP	_	6	case	_	_
+5	a	a	DET	AT0	_	6	det	_	_
+6	store	store	NOUN	NN1	_	3	obl	_	_
+
+1	and	and	CCONJ	CJC	_	6	cc	_	_
+2	this	this	DET	DT0	_	4	det	_	_
+3	one	one	NUM	CRD	_	4	nummod	_	_
+4	guy	guy	NOUN	NN1	_	6	nsubj:pass	_	_
+5	was	be	AUX	VBD	_	6	aux:pass	_	_
+6	playing	play	VERB	VVG	_	0	root	_	_
+7	with	with	ADP	PRP	_	9	case	_	_
+8	a	a	DET	AT0	_	9	det	_	_
+9	ball	ball	NOUN	NN1	_	6	obl	_	_
+10	...	...	PUNCT	PUN	_	6	punct	_	_
+
+1	It	it	PRON	PNP	_	2	nsubj	_	_
+2	slipped	slip	VERB	VVD	_	0	root	_	_
+3	from	from	ADP	PRP	_	5	case	_	_
+4	his	he	DET	DPS	_	5	det	_	_
+5	hand	hand	NOUN	NN1	_	2	obl	_	_
+
+1	and	and	CCONJ	CJC	_	2	cc	_	_
+2	rolled	roll	VERB	VVD	_	0	root	_	_
+3	into	into	ADP	PRP	_	5	case	_	_
+4	the	the	DET	AT0	_	5	det	_	_
+5	middle	middle	NOUN	NN1	_	2	obl	_	_
+6	of	of	ADP	PRF	_	8	case	_	_
+7	the	the	DET	AT0	_	8	det	_	_
+8	road	road	NOUN	NN1	_	5	nmod	_	_
+9	.	.	PUNCT	SENT	_	2	punct	_	_
+
+1	Then	then	ADV	AV0	_	4	advmod	_	_
+2	a	a	DET	AT0	_	3	det	_	_
+3	puppy	puppy	NOUN	NN1	_	4	nsubj	_	_
+4	chased	chase	VERB	VVD	_	0	root	_	_
+5	after	after	ADP	PRP	_	6	case	_	_
+6	it	it	PRON	PNP	_	4	obl	_	_
+
+1	and	and	CCONJ	CJC	_	6	cc	_	_
+2	was	be	AUX	VBD	_	6	aux	_	_
+3	about	about	ADV	AV0	_	6	advmod	_	_
+4	to	to	PART	TO0	_	6	mark	_	_
+5	get	get	VERB	VVI	_	6	aux:pass	_	_
+6	hit	hit	VERB	VVN	_	0	root	_	_
+7	by	by	ADP	PRP	_	9	case	_	_
+8	a	a	DET	AT0	_	9	det	_	_
+9	car	car	NOUN	NN1	_	6	obl	_	_
+10	when	when	ADV	AVQ	_	13	mark	_	_
+11	the	the	DET	AT0	_	12	det	_	_
+12	guy	guy	NOUN	NN1	_	13	nsubj	_	_
+13	driving	drive	VERB	VVG	_	6	advcl	_	_
+14	hit	hit	VERB	VVD	_	13	advcl	_	_
+15	the	the	DET	AT0	_	16	det	_	_
+16	brakes	brake	NOUN	NN2	_	14	obj	_	_
+
+1	and	and	CCONJ	CJC	_	2	cc	_	_
+2	got	get	VERB	VVD	_	0	root	_	_
+3	into	into	ADP	PRP	_	5	case	_	_
+4	an	an	DET	AT0	_	5	det	_	_
+5	accident	accident	NOUN	NN1	_	2	obl	_	_
+6	with	with	ADP	PRP	_	8	case	_	_
+7	the	the	DET	AT0	_	8	det	_	_
+8	guy	guy	NOUN	NN1	_	2	obl	_	_
+9	behind	behind	ADP	PRP	_	10	case	_	_
+10	him	he	PRON	PNP	_	8	nmod	_	_
+
+1	DX	DX	INTJ	ITJ	_	0	root	_	_
+
+1	it	it	PRON	PNP	_	3	nsubj	_	_
+2	's	be	AUX	VBZ	_	3	cop	_	_
+3	crazy	crazy	ADJ	AJ0	_	0	root	_	_
+4	how	how	ADV	AVQ	_	6	advmod	_	_
+5	he	he	PRON	PNP	_	6	nsubj	_	_
+6	got	get	VERB	VVD	_	3	acl:relcl	_	_
+7	crashed	crash	VERB	VVN	_	6	advcl	_	_
+8	into	into	ADP	AVP	_	7	obl	_	_
+9	because	because	SCONJ	CJS	_	13	mark	_	_
+10	one	one	NUM	CRD	_	13	nsubj	_	_
+11	guy	guy	NOUN	NN1	_	13	nsubj	_	_
+12	was	be	AUX	VBD	_	13	cop	_	_
+13	playing	play	VERB	VVG	_	3	advcl	_	_
+14	around	around	ADP	AVP	_	13	compound:prt	_	_
+
+1	-_-	-_-	INTJ	ITJ	_	0	root	_	_
+

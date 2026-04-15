@@ -1,0 +1,74 @@
+1	Seydi	Seydi	PROPN	NE	_	2	vocative	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Unfall	Unfall	NOUN	NN	_	6	comp:obj	_	_
+6	gesehen	sehen	VERB	VVPP	_	2	comp:aux	_	_
+
+1	da	da	ADV	ADV	_	2	comp:pred	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Mann	Mann	NOUN	NN	_	2	subj	_	_
+5	der	d	DET	PRELS	_	10	subj	_	_
+6	mit	mit	ADP	APPR	_	9	mod	_	_
+7	einem	ein	DET	ART	_	8	det	_	_
+8	Ball	Ball	NOUN	NN	_	6	comp:obj	_	_
+9	gespielt	spielen	VERB	VVPP	_	10	comp:aux	_	_
+10	hat	haben	AUX	VAFIN	_	4	mod@relcl	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	der	d	PRON	PDS	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	ihm	er	PRON	PPER	_	6	comp:obj	_	_
+5	dann	dann	ADV	ADV	_	3	mod	_	_
+6	runtergefallen	runterfallen	ADJVERB	VVPP	_	3	comp:aux	_	_
+
+1	gegenüber	gegenüber	ADP	ADJD	_	2	comp:pred	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	eine	ein	DET	ART	_	4	det	_	_
+4	Frau	Frau	NOUN	NN	_	2	subj	_	_
+5	mit	mit	ADP	APPR	_	4	mod	_	_
+6	einem	ein	DET	ART	_	7	det	_	_
+7	Hund	Hund	NOUN	NN	_	5	comp:obj	_	_
+
+1	der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	wegen	wegen	ADP	APPR	_	11	mod	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	Ball	Ball	NOUN	NN	_	5	comp:obj	_	_
+8	auf	auf	ADP	APPR	_	11	comp:obl	_	_
+9	die	d	DET	ART	_	10	det	_	_
+10	Straße	Straße	NOUN	NN	_	8	comp:obj	_	_
+11	gerannt	rennen	ADJ	VVPP	_	3	comp:aux	_	_
+
+1	im	in	PROPN	APPRART	_	10	mod	_	_
+2	selben	selb	ADJ	ADJA	_	3	mod	_	_
+3	Moment	Moment	NOUN	NN	_	1	comp:obj	_	_
+4	sind	sein	VERB	VAFIN	_	0	root	_	_
+5	zwei	zwei	NUM	CARD	_	6	mod	_	_
+6	Autos	Auto	NOUN	NN	_	4	subj	_	_
+7	auf	auf	ADP	APPR	_	10	comp:obl	_	_
+8	den	d	DET	ART	_	9	det	_	_
+9	Parkplatz	Parkplatz	NOUN	NN	_	7	comp:obj	_	_
+10	gefahren	fahren	VERB	VVPP	_	4	comp:aux	_	_
+
+1	das	d	DET	ART	_	3	det	_	_
+2	vordere	vorder	ADJ	ADJA	_	3	mod	_	_
+3	Auto	Auto	NOUN	NN	_	4	subj	_	_
+4	musste	müssen	AUX	VMFIN	_	0	root	_	_
+5	wegen	wegen	ADP	APPR	_	8	mod	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	Hund	Hund	NOUN	NN	_	5	comp:obj	_	_
+8	notbremsen	notbremsen	VERB	VVINF	_	4	comp:aux	_	_
+
+1	dann	dann	ADV	ADV	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	das	d	DET	ART	_	5	det	_	_
+4	zweite	zweit	ADJ	ORD	_	5	mod	_	_
+5	Auto	Auto	NOUN	NN	_	2	subj	_	_
+6	auf	auf	ADP	APPR	_	8	comp:obl	_	_
+7	ihn	er	PRON	PPER	_	6	comp:obj	_	_
+8	aufgefahren	auffahren	VERB	VVPP	_	2	comp:aux	_	_
+

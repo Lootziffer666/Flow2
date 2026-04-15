@@ -1,0 +1,159 @@
+1	du	du	PRON	_	_	2	subj	_	_
+2	glaubst	glauben	ADV	_	_	0	root	_	_
+3	nicht	nicht	PART	_	_	2	mod	_	_
+4	was	was	PRON	_	_	7	subj	_	_
+5	gerade	gerade	ADV	_	_	7	mod	_	_
+6	passiert	passieren	VERB	_	_	7	comp:aux	_	_
+7	ist	sein	AUX	_	_	2	comp:obj	_	_
+
+1	...	...	PUNCT	_	_	0	root	_	_
+
+1	also	also	ADV	_	_	2	discourse	_	_
+2	schau	schauen	NOUN	_	_	0	root	_	_
+3	:	:	PUNCT	_	_	2	punct	_	_
+
+1	ich	ich	PRON	_	_	2	subj	_	_
+2	gehe	gehen	VERB	_	_	0	root	_	_
+3	gerade	gerade	ADV	_	_	2	mod	_	_
+4	so	so	ADV	_	_	2	mod	_	_
+5	nach	nach	ADP	_	_	2	comp:obl	_	_
+6	Hause	Haus	NOUN	_	_	5	comp:obj	_	_
+7	,	,	PUNCT	_	_	2	punct	_	_
+
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	vor	vor	ADP	_	_	5	comp:pred	_	_
+3	meinen	mein	PRON	_	_	4	det	_	_
+4	Augen	Auge	NOUN	_	_	2	comp:obj	_	_
+5	ist	sein	VERB	_	_	0	root	_	_
+6	einfach	einfach	ADV	_	_	5	mod	_	_
+7	ein	ein	DET	_	_	8	det	_	_
+8	Autounfall	Autounfall	NOUN	_	_	5	subj	_	_
+9	.	.	PUNCT	_	_	5	punct	_	_
+
+1	Und	und	CCONJ	_	_	3	cc	_	_
+2	zwar	zwar	ADV	_	_	3	mod	_	_
+3	hat	haben	VERB	_	_	0	root	_	_
+4	der	die	PRON	_	_	6	det	_	_
+5	eine	eine	DET	_	_	6	mod	_	_
+6	Typ	Typ	NOUN	_	_	3	subj	_	_
+7	der	die	PRON	_	_	10	subj	_	_
+8	von	von	ADP	_	_	10	comp:obl	_	_
+9	rechts	rechts	ADV	_	_	8	comp:obj	_	_
+10	kam	kommen	VERB	_	_	6	mod@relcl	_	_
+11	seinen	sein	DET	_	_	12	det	_	_
+12	Ball	Ball	NOUN	_	_	16	comp:obj	_	_
+13	auf	auf	ADP	_	_	16	comp:obl	_	_
+14	die	d	DET	_	_	15	det	_	_
+15	Straße	Straße	NOUN	_	_	13	comp:obj	_	_
+16	rollen	rollen	VERB	_	_	17	comp:obj	_	_
+17	lassen	lassen	VERB	_	_	3	comp:aux	_	_
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+1	Daraufhin	daraufhin	ADV	_	_	2	mod	_	_
+2	ist	sein	VERB	_	_	0	root	_	_
+3	der	d	DET	_	_	4	det	_	_
+4	Hund	Hund	NOUN	_	_	2	subj	_	_
+5	einer	ein	DET	_	_	6	det	_	_
+6	Frau	Frau	NOUN	_	_	4	mod@poss	_	_
+7	,	,	PUNCT	_	_	2	punct	_	_
+8	die	die	PRON	_	_	16	subj	_	_
+9	gerade	gerade	ADV	_	_	16	mod	_	_
+10	ihre	ihr	DET	_	_	11	det	_	_
+11	Einkäufe	Einkäufe	NOUN	_	_	15	comp:obj	_	_
+12	aus	aus	ADP	_	_	15	comp:obl	_	_
+13	den	d	DET	_	_	14	det	_	_
+14	Auto	Auto	NOUN	_	_	12	comp:obj	_	_
+15	geholt	holen	VERB	_	_	16	comp:aux	_	_
+16	hat	haben	AUX	_	_	6	mod@relcl	_	_
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	aufgesprungen	aufspringen	VERB	_	_	2	comp:aux	_	_
+19	.	.	PUNCT	_	_	2	punct	_	_
+
+1	Beide	beide	PRON	_	_	2	subj	_	_
+2	sind	sein	VERB	_	_	0	root	_	_
+3	mitten	mitten	ADV	_	_	4	mod	_	_
+4	auf	auf	ADP	_	_	7	comp:obl	_	_
+5	die	d	DET	_	_	6	det	_	_
+6	Straße	Straße	NOUN	_	_	4	comp:obj	_	_
+7	gerannt	rennen	ADJ	_	_	2	comp:aux	_	_
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+1	Auf	auf	ADP	_	_	3	comp:obl	_	_
+2	dieser	diese	PRON	_	_	1	comp:obj	_	_
+3	fuhren	fahren	VERB	_	_	0	root	_	_
+4	zum	zum	NOUN	_	_	3	mod	_	_
+5	selben	selb	ADJ	_	_	6	mod	_	_
+6	Zeitpunkt	Zeitpunkt	NOUN	_	_	4	comp:obj	_	_
+7	zwei	zwei	NUM	_	_	8	mod	_	_
+8	Autos	Auto	NOUN	_	_	3	subj	_	_
+9	in	in	ADP	_	_	3	mod	_	_
+10	einer	ein	DET	_	_	11	det	_	_
+11	Kurve	Kurve	NOUN	_	_	9	comp:obj	_	_
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+1	Dann	dann	ADV	_	_	2	mod	_	_
+2	krachte	krachen	VERB	_	_	0	root	_	_
+3	das	die	DET	_	_	4	det	_	_
+4	eine	eine	NOUN	_	_	2	subj	_	_
+5	dem	d	DET	_	_	6	det	_	_
+6	anderen	ander	ADJ	_	_	2	comp:obj	_	_
+7	rein	rein	NOUN	_	_	2	compound@prt	_	_
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+1	Natürlich	Natürlich	ADV	_	_	2	mod	_	_
+2	rufte	rufte	VERB	_	_	0	root	_	_
+3	dann	dann	ADV	_	_	2	mod	_	_
+4	der	d	PRON	_	_	7	det	_	_
+5	eine	eine	DET	_	_	7	mod	_	_
+6	beteiligte	beteiligt	ADJ	_	_	7	mod	_	_
+7	Typ	Typi	NOUN	_	_	2	subj	_	_
+8	110	@card@	NUM	_	_	2	comp:obj	_	_
+9	,	,	PUNCT	_	_	2	punct	_	_
+10	was	was	PRON	_	_	13	subj	_	_
+11	mich	ich	PRON	_	_	12	comp:obj	_	_
+12	gewundert	wundern	VERB	_	_	13	comp:aux	_	_
+13	hat	haben	AUX	_	_	2	mod@relcl	_	_
+
+1	keiner	keine	PRON	_	_	2	subj	_	_
+2	hat	haben	AUX	_	_	0	root	_	_
+3	Stress	Stress	PROPN	_	_	6	comp:obj	_	_
+4	oder	oder	PROPN	_	_	5	cc	_	_
+5	Drama	Drama	PROPN	_	_	3	conj	_	_
+6	geschoben	schieben	VERB	_	_	2	comp:aux	_	_
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+1	In	in	ADP	_	_	11	mod	_	_
+2	der	d	DET	_	_	3	det	_	_
+3	Zeit	Zeit	NOUN	_	_	1	comp:obj	_	_
+4	wo	wo	ADV	_	_	9	mod	_	_
+5	die	d	DET	_	_	9	subj	_	_
+6	die	d	DET	_	_	7	det	_	_
+7	Bullen	Bulle	NOUN	_	_	8	comp:obj	_	_
+8	gerufen	rufen	VERB	_	_	9	comp:aux	_	_
+9	haben	haben	AUX	_	_	3	mod	_	_
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	half	helfen	VERB	_	_	0	root	_	_
+12	der	d	DET	_	_	13	det	_	_
+13	Mann	Mann	NOUN	_	_	11	subj	_	_
+14	mit	mit	ADP	_	_	13	mod	_	_
+15	dem	d	DET	_	_	16	det	_	_
+16	Ball	Ball	NOUN	_	_	14	comp:obj	_	_
+17	der	d	DET	_	_	18	det	_	_
+18	Frau	Frau	NOUN	_	_	11	comp:obl	_	_
+19	ihre	ihr	DET	_	_	20	det	_	_
+20	Einkäufe	Einkäufe	NOUN	_	_	22	comp:obj	_	_
+21	wieder	wieder	ADV	_	_	22	mod	_	_
+22	hochzuheben	hochzuheben	VERB	_	_	11	comp:obl	_	_
+23	die	d	DET	_	_	29	subj	_	_
+24	als	als	ADP	_	_	28	mod	_	_
+25	ihr	ihr	DET	_	_	26	det	_	_
+26	Hund	Hund	NOUN	_	_	27	subj	_	_
+27	losrann	losrennen	VERB	_	_	24	comp:obj	_	_
+28	heruntergefallen	heruntergefallen	NOUN	_	_	29	comp:aux	_	_
+29	sind	sein	VERB	_	_	20	mod@relcl	_	_
+30	.	.	PUNCT	_	_	11	punct	_	_
+
+1	Bruh	Bruh	ADJ	_	_	0	root	_	_
+
+1	...	...	PUNCT	_	_	0	root	_	_
+

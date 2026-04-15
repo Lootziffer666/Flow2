@@ -1,0 +1,113 @@
+# text = hey Lo
+1	hey	Hey	PROPN	NGIRR	_	2	discourse	_	_
+2	Lo	Lo	PROPN	NE	_	0	root	_	_
+
+# text = weißt du was gerade passiert ist
+1	weißt	wissen	VERB	VVFIN	_	0	root	_	_
+2	du	du	PRON	PPER	_	1	subj	_	_
+3	was	was	PRON	PWS	_	6	subj	_	_
+4	gerade	gerade	ADV	ADV	_	6	mod	_	_
+5	passiert	passieren	VERB	VVPP	_	6	comp:aux	_	_
+6	ist	sein	AUX	VAFIN	_	1	comp:obj	_	_
+
+# text = da hatte irgendwie so ein Typ mit so einem der kam mit seiner Frau und Freundin oder sowas
+1	da	da	ADV	ADV	_	2	mod	_	_
+2	hatte	haben	AUX	VAFIN	_	11	reparandum	_	_
+3	irgendwie	irgendwie	ADV	ADV	_	2	mod	_	_
+4	so	so	ADV	PTKIFG	_	6	mod	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Typ	Typ	NOUN	NN	_	2	subj	_	_
+7	mit	mit	ADP	APPR	_	6	mod	_	_
+8	so	so	ADV	PTKMA	_	9	mod	_	_
+9	einem	ein	PRON	ART	_	7	comp:obj	_	_
+10	der	d	PRON	PDS	_	11	subj	_	_
+11	kam	kommen	VERB	VVFIN	_	0	root	_	_
+12	mit	mit	ADP	APPR	_	11	mod	_	_
+13	seiner	sein	DET	PPOSAT	_	14	det	_	_
+14	Frau	Frau	NOUN	NN	_	12	comp:obj	_	_
+15	und	und	CCONJ	KON	_	16	cc	_	_
+16	Freundin	Freundin	NOUN	NN	_	14	conj	_	_
+17	oder	oder	CCONJ	KON	_	18	cc	_	_
+18	sowas	sowas	PRON	PIS	_	16	conj	_	_
+
+# text = der hat seinen Ball fallen gelassen
+1	der	d	PRON	PDS	_	2	subj	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	seinen	sein	DET	PPOSAT	_	4	det	_	_
+4	Ball	Ball	NOUN	NN	_	5	comp:obj	_	_
+5	fallen	fallen	VERB	VVINF	_	6	comp:obj	_	_
+6	gelassen	lassen	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = der hat seinen Ball fallen gelassen
+1	der	d	PRON	PDS	_	2	subj	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	seinen	sein	DET	PPOSAT	_	4	det	_	_
+4	Ball	Ball	NOUN	NN	_	5	comp:obj	_	_
+5	fallen	fallen	VERB	VVINF	_	6	comp:obj	_	_
+6	gelassen	lassen	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = und dann hat die ganze Zeit so ein Hund rumgebellt
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	die	d	DET	ART	_	6	det	_	_
+5	ganze	ganz	ADJ	ADJA	_	6	mod	_	_
+6	Zeit	Zeit	NOUN	NN	_	3	mod	_	_
+7	so	so	ADV	PTKMA	_	9	mod	_	_
+8	ein	ein	NUM	ART	_	9	det	_	_
+9	Hund	Hund	NOUN	NN	_	3	subj	_	_
+10	rumgebellt	rumbellen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und dann äh ja ist der Ball auf die Straße gefallen rollt
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	dann	dann	ADV	ADV	_	5	mod	_	_
+3	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+4	ja	ja	ADV	NGIRR	_	5	discourse	_	_
+5	ist	sein	VERB	VAFIN	_	0	root	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Ball	Ball	NOUN	NN	_	5	subj	_	_
+8	auf	auf	ADP	APPR	_	12	comp:obl	_	_
+9	die	d	DET	ART	_	10	det	_	_
+10	Straße	Straße	NOUN	NN	_	8	comp:obj	_	_
+11	gefallen	fallen	VERB	VVPP	_	12	reparandum	_	_
+12	rollt	rollen	AUX	VVFIN	_	5	comp:aux	_	_
+
+# text = und dann äh sind so ist ein Auto in das andere geknallt
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	dann	dann	ADV	ADV	_	4	mod	_	_
+3	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+4	sind	sein	VERB	VAFIN	_	6	reparandum	_	_
+5	so	so	ADV	PTKMA	_	4	mod	_	_
+6	ist	sein	VERB	VAFIN	_	0	root	_	_
+7	ein	ein	DET	ART	_	8	det	_	_
+8	Auto	Auto	NOUN	NN	_	6	subj	_	_
+9	in	in	ADP	APPR	_	12	comp:obl	_	_
+10	das	d	DET	ART	_	11	det	_	_
+11	andere	ander	PRON	PIDS	_	9	comp:obj	_	_
+12	geknallt	knallen	VERB	VVPP	_	6	comp:aux	_	_
+
+# text = und alle waren verwirrt
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	alle	alle	PRON	PIS	_	3	subj	_	_
+3	waren	sein	VERB	VAFIN	_	0	root	_	_
+4	verwirrt	verwirrt	ADJ	ADJD	_	3	comp:pred	_	_
+
+# text = und dann hat der eine Typ die Cops gerufen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	der	d	DET	ART	_	6	det	_	_
+5	eine	ein	NUM	ART	_	6	mod	_	_
+6	Typ	Typ	NOUN	NN	_	3	subj	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Cops	Cop	PROPN	FM	_	9	comp:obj	_	_
+9	gerufen	rufen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = ja das ist mir gerade passiert
+1	ja	ja	ADV	NGIRR	_	3	discourse	_	_
+2	das	d	PRON	PDS	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	mir	ich	PRON	PPER	_	6	comp:obj	_	_
+5	gerade	gerade	ADV	ADJD	_	3	mod	_	_
+6	passiert	passieren	VERB	VVPP	_	3	comp:aux	_	_
+

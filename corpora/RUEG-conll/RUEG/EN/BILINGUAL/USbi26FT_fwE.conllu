@@ -1,0 +1,130 @@
+1	Hello	hello	INTJ	ITJ	_	0	root	_	_
+2	!	!	PUNCT	SENT	_	1	punct	_	_
+
+1	I	i	PRON	PNP	_	2	nsubj	_	_
+2	saw	see	VERB	VVD	_	0	root	_	_
+3	a	a	DET	AT0	_	5	det	_	_
+4	minor	minor	ADJ	AJ0	_	5	amod	_	_
+5	accident	accident	NOUN	NN1	_	2	obj	_	_
+
+1	and	and	CCONJ	CJC	_	2	cc	_	_
+2	wanted	want	VERB	VVD	_	0	root	_	_
+3	to	to	PART	TO0	_	4	mark	_	_
+4	provide	provide	VERB	VVI	_	2	xcomp	_	_
+5	details	detail	NOUN	NN2	_	4	obj	_	_
+6	.	.	PUNCT	SENT	_	2	punct	_	_
+
+1	from	from	ADP	PRP	_	2	case	_	_
+2	what	what	DET	DTQ	_	9	obl	_	_
+3	I	i	PRON	PNP	_	4	nsubj	_	_
+4	saw	see	VERB	VVD	_	2	acl:relcl	_	_
+5	,	,	PUNCT	PUN	_	9	punct	_	_
+6	there	there	ADV	EX0	_	9	advmod	_	_
+7	was	be	AUX	VBD	_	9	cop	_	_
+8	a	a	DET	AT0	_	9	det	_	_
+9	couple	couple	NOUN	NN1	_	0	root	_	_
+10	who	who	PRON	PNQ	_	12	nsubj:pass	_	_
+11	were	be	AUX	VBD	_	12	aux:pass	_	_
+12	crossing	cross	VERB	VVG	_	9	parataxis	_	_
+13	the	the	DET	AT0	_	14	det	_	_
+14	street	street	NOUN	NN1	_	12	obl	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	they	they	PRON	PNP	_	4	nsubj	_	_
+3	were	be	AUX	VBD	_	4	aux	_	_
+4	walking	walk	VERB	VVG	_	0	root	_	_
+5	their	they	DET	DPS	_	6	det	_	_
+6	dog	dog	NOUN	NN1	_	4	obj	_	_
+7	.	.	PUNCT	SENT	_	4	punct	_	_
+
+1	this	this	DET	DT0	_	2	det	_	_
+2	ball	ball	NOUN	NN1	_	4	nsubj	_	_
+3	suddenly	suddenly	ADV	AV0	_	4	advmod	_	_
+4	went	go	VERB	VVD	_	0	root	_	_
+5	across	across	ADP	PRP	_	7	case	_	_
+6	the	the	DET	AT0	_	7	det	_	_
+7	street	street	NOUN	NN1	_	4	obl	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	dog	dog	NOUN	NN1	_	4	nsubj	_	_
+4	got	get	VERB	VVD	_	5	conj	_	_
+5	excited	excite	VERB	VVN	_	0	root	_	_
+
+1	and	and	CCONJ	CJC	_	2	cc	_	_
+2	sort	sort	NOUN	NN1	_	4	conj	_	_
+3	of	of	ADP	PRF	_	4	mark	_	_
+4	lunged	lunge	VERB	VVD	_	0	root	_	_
+5	at	at	ADP	PRP	_	6	case	_	_
+6	it	it	PRON	PNP	_	4	obl	_	_
+7	.	.	PUNCT	SENT	_	4	punct	_	_
+
+1	in	in	ADP	PRP	_	5	mark	_	_
+2	order	order	NOUN	NN1	_	1	fixed	_	_
+3	to	to	PART	TO0	_	1	fixed	_	_
+4	not	not	PART	XX0	_	5	advmod	_	_
+5	hit	hit	VERB	VVI	_	8	advcl	_	_
+6	the	the	DET	AT0	_	7	det	_	_
+7	dog	dog	NOUN	NN1	_	5	obj	_	_
+8	,	,	PUNCT	PUN	_	11	punct	_	_
+9	a	a	DET	AT0	_	10	det	_	_
+10	car	car	NOUN	NN1	_	11	nsubj	_	_
+11	coming	come	VERB	VVG	_	0	root	_	_
+12	down	down	ADP	PRP	_	11	compound:prt	_	_
+13	the	the	DET	AT0	_	14	det	_	_
+14	path	path	NOUN	NN1	_	15	nsubj	_	_
+15	stopped	stop	VERB	VVD	_	11	parataxis	_	_
+16	all	all	DET	DT0	_	15	obj	_	_
+17	of	of	ADP	PRF	_	19	case	_	_
+18	a	a	DET	AT0	_	19	det	_	_
+19	sudden	sudden	NOUN	NN1	_	16	nmod	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	I	i	PRON	PNP	_	3	nsubj	_	_
+3	guess	guess	VERB	VVB	_	0	root	_	_
+4	the	the	DET	AT0	_	5	det	_	_
+5	car	car	NOUN	NN1	_	10	nsubj	_	_
+6	behind	behind	ADP	PRP	_	7	case	_	_
+7	it	it	PRON	PNP	_	5	nmod	_	_
+8	did	do	AUX	VDD	_	10	aux	_	_
+9	not	not	PART	XX0	_	10	advmod	_	_
+10	stop	stop	VERB	VVI	_	3	ccomp	_	_
+11	fast	fast	ADV	AV0	_	10	advmod	_	_
+12	enough	enough	ADV	AV0	_	10	advmod	_	_
+13	.	.	PUNCT	SENT	_	3	punct	_	_
+
+1	they	they	PRON	PNP	_	2	nsubj	_	_
+2	seem	seem	VERB	VVB	_	0	root	_	_
+3	to	to	PART	TO0	_	6	mark	_	_
+4	have	have	AUX	VHI	_	6	aux	_	_
+5	maybe	maybe	ADV	AV0	_	6	advmod	_	_
+6	tapped	tap	VERB	VVN	_	2	xcomp	_	_
+7	each	each	DET	DT0	_	8	det	_	_
+8	other	other	NOUN	NN1	_	6	obj	_	_
+9	.	.	PUNCT	SENT	_	2	punct	_	_
+
+1	everyone	everyone	PRON	PNI	_	0	root	_	_
+2	who	who	PRON	PNQ	_	3	nsubj	_	_
+3	got	get	VERB	VVD	_	1	parataxis	_	_
+4	out	out	ADP	PRP	_	3	compound:prt	_	_
+5	of	of	ADP	PRF	_	7	case	_	_
+6	the	the	DET	AT0	_	7	det	_	_
+7	car	car	NOUN	NN1	_	3	obl	_	_
+8	looked	look	VERB	VVD	_	3	parataxis	_	_
+9	okay	okay	ADJ	AJ0	_	8	xcomp	_	_
+10	and	and	CCONJ	CJC	_	12	cc	_	_
+11	not	not	PART	XX0	_	12	advmod	_	_
+12	injured	injure	ADJ	AJ0	_	9	conj	_	_
+
+1	but	but	CCONJ	CJC	_	3	cc	_	_
+2	I	i	PRON	PNP	_	3	nsubj	_	_
+3	guess	guess	VERB	VVB	_	0	root	_	_
+4	I	i	PRON	PNP	_	7	nsubj	_	_
+5	am	be	AUX	VBB	_	7	cop	_	_
+6	not	not	PART	XX0	_	7	advmod	_	_
+7	sure	sure	ADJ	AJ0	_	3	ccomp	_	_
+8	.	.	PUNCT	SENT	_	3	punct	_	_
+
+1	thanks	thank	NOUN	NN2	_	0	root	_	_
+2	!	!	PUNCT	SENT	_	1	punct	_	_
+

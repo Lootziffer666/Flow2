@@ -1,0 +1,190 @@
+# user_id = nzuern
+# timestamp = 1628158818472
+# sent_id = 1627851682.061120-809472_00001
+1	﻿Augenzeugenbericht	Augenzeugenbericht	NOUN	NN	_	0	root	_	_
+2	von	von	ADP	APPR	_	1	mod@poss	_	_
+3	DEmo27MD	DEmo27MD	PROPN	NE	_	2	comp:obj	_	_
+4	bezüglich	bezüglich	ADP	APPR	_	1	mod	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Geschehnisse	Geschehnis	NOUN	NN	_	4	comp:obj	_	_
+7	28.09.18	@card@	X	CARD	_	6	appos	_	_
+
+# user_id = nzuern
+# timestamp = 1628158829779
+# sent_id = 1627851682.061120-809472_00002
+1	Ort	Ort	NOUN	NN	_	0	root	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Kausalität	Kausalität	NOUN	NN	_	1	mod@poss	_	_
+4	:	:	PUNCT	$.	_	1	punct	_	_
+
+# user_id = nzuern
+# timestamp = 1628158844180
+# sent_id = 1627851682.061120-809472_00003
+1	Parkplatz	Parkplatz	NOUN	NN	_	0	root	_	_
+2	von	von	ADP	APPR	_	1	mod	_	_
+3	Firma	Firma	PROPN	NN	_	2	comp:obj	_	_
+4	X	X	PROPN	XY	_	3	appos	_	_
+
+# user_id = nzuern
+# timestamp = 1628159126546
+# sent_id = 1627851682.061120-809472_00004
+1	Der	Der	DET	ART	_	4	det	_	_
+2	polizeilich	polizeilich	ADJ	ADJD	_	3	mod	_	_
+3	aufgenommene	aufgenommen	ADJ	ADJA	_	4	mod	_	_
+4	Unfall	Unfall	NOUN	NN	_	5	subj	_	_
+5	ereignete	ereignen	VERB	VVFIN	_	0	root	_	_
+6	sich	er|es|sie	PRON	PRF	_	5	comp:obj	_	_
+7	auf	auf	ADP	APPR	_	5	comp:obl	_	_
+8	dem	d	DET	ART	_	9	det	_	_
+9	Parkplatz	Parkplatz	NOUN	NN	_	7	comp:obj	_	_
+10	der	d	DET	ART	_	11	det	_	_
+11	Firma	Firma	NOUN	NN	_	9	mod@poss	_	_
+12	X	X	PROPN	XY	_	11	appos	_	_
+13	,	,	PUNCT	$,	_	5	punct	_	_
+14	auf	auf	ADP	APPR	_	23	comp:obl	_	_
+15	welchem	welch	PRON	PRELS	_	14	comp:obj	_	_
+16	zeitgleich	zeitgleich	ADJ	ADV	_	23	mod	_	_
+17	eine	ein	DET	ART	_	18	det	_	_
+18	Frau	Frau	NOUN	NN	_	23	subj	_	_
+19	mit	mit	ADP	APPR	_	18	mod	_	_
+20	Hund	Hund	NOUN	NN	_	19	comp:obj	_	_
+21	ihr	ihr	DET	PPOSAT	_	22	det	_	_
+22	Auto	Auto	NOUN	NN	_	23	comp:obj	_	_
+23	belud	beladen	VERB	VVFIN	_	9	mod@relcl	_	_
+24	,	,	PUNCT	$,	_	28	punct	_	_
+25	zwei	zwei	NUM	CARD	_	26	mod	_	_
+26	Teenager	Teenager	NOUN	NN	_	28	subj	_	_
+27	ballspielend	ballspielend	ADJ	ADJD	_	28	mod	_	_
+28	hinübergingen	hinübergehen	VERB	VVFIN	_	23	conj	_	_
+29	und	und	CCONJ	KON	_	34	cc	_	_
+30	zwei	zwei	NUM	CARD	_	31	mod	_	_
+31	Kleinwagen	Kleinwagen	NOUN	NN	_	34	subj	_	_
+32	den	d	DET	ART	_	33	det	_	_
+33	Parkplatz	Parkplatz	NOUN	NN	_	34	comp:obj	_	_
+34	befuhren	befahren	VERB	VVFIN	_	23	conj	_	_
+35	.	.	PUNCT	$.	_	5	punct	_	_
+
+# user_id = nzuern
+# timestamp = 1628159352619
+# sent_id = 1627851682.061120-809472_00005
+1	Dem	d	DET	ART	_	2	det	_	_
+2	Teenager	Teenager	NOUN	NN	_	9	comp:obj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	subj	_	_
+6	auf	auf	ADP	APPR	_	9	comp:obl	_	_
+7	den	d	DET	ART	_	8	det	_	_
+8	Fahrbereich	Fahrbereich	NOUN	NN	_	6	comp:obj	_	_
+9	gerollt	rollen	AUX	VVPP	_	3	comp:aux	_	_
+10	,	,	PUNCT	$,	_	3	punct	_	_
+11	der	d	PRON	PRELS	_	21	subj@pass	_	_
+12	von	von	ADP	APPR	_	20	comp:obl	_	_
+13	dem	d	DET	ART	_	14	det	_	_
+14	Hund	Hund	NOUN	NN	_	12	comp:obj	_	_
+15	der	d	PRON	ART	_	19	det	_	_
+16	das	d	DET	ART	_	17	det	_	_
+17	Auto	Auto	NOUN	NN	_	18	comp:obj	_	_
+18	beladenden	beladend	ADJ	ADJA	_	19	mod	_	_
+19	Frau	Frau	NOUN	NN	_	14	mod@poss	_	_
+20	anvisiert	anvisieren	VERB	VVPP	_	21	comp:aux@pass	_	_
+21	wurde	werden	AUX	VAFIN	_	8	mod@relcl	_	_
+22	.	.	PUNCT	$.	_	3	punct	_	_
+
+# user_id = nzuern
+# timestamp = 1628159393015
+# sent_id = 1627851682.061120-809472_00006
+1	Der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	3	subj	_	_
+3	versuchte	versuchen	VERB	VVFIN	_	0	root	_	_
+4	sich	er|es|sie	PRON	PRF	_	5	comp:obj	_	_
+5	loszureißen	losreißen	VERB	VVIZU	_	3	comp:obj	_	_
+6	,	,	PUNCT	$,	_	3	punct	_	_
+
+# user_id = nzuern
+# timestamp = 1628159418600
+# sent_id = 1627851682.061120-809472_00007
+1	der	d	DET	ART	_	2	det	_	_
+2	Einkauf	Einkauf	NOUN	NN	_	5	subj	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Dame	Dame	NOUN	NN	_	2	mod@poss	_	_
+5	fiel	fallen	VERB	VVFIN	_	0	root	_	_
+6	auf	auf	ADP	APPR	_	5	comp:obl	_	_
+7	den	d	DET	ART	_	8	det	_	_
+8	Boden	Boden	NOUN	NN	_	6	comp:obj	_	_
+
+# user_id = nzuern
+# timestamp = 1628159548290
+# sent_id = 1627851682.061120-809472_00008
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	der	d	DET	ART	_	4	det	_	_
+3	ballspielende	ballspielend	ADJ	ADJA	_	4	mod	_	_
+4	Teenager	Teenager	NOUN	NN	_	5	subj	_	_
+5	half	helfen	VERB	VVFIN	_	0	root	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Frau	Frau	NOUN	NN	_	5	comp:obj	_	_
+8	ihren	ihr	DET	PPOSAT	_	9	det	_	_
+9	Einkauf	Einkauf	NOUN	NN	_	10	comp:obj	_	_
+10	einzusammeln	einsammeln	VERB	VVIZU	_	5	comp:obl	_	_
+11	.	.	PUNCT	$.	_	5	punct	_	_
+
+# user_id = nzuern
+# timestamp = 1628159628183
+# sent_id = 1627851682.061120-809472_00009
+1	Alle	all	PRON	PIS	_	2	subj	_	_
+2	bemerkten	bemerken	VERB	VVFIN	_	0	root	_	_
+3	,	,	PUNCT	$,	_	6	punct	_	_
+4	meiner	mein	PRON	PPOSAT	_	5	det	_	_
+5	Meinung	Meinung	NOUN	NN	_	6	comp:obj	_	_
+6	nach	nach	ADP	APPO	_	2	mod	_	_
+7	,	,	PUNCT	$,	_	6	punct	_	_
+8	die	d	DET	ART	_	10	det	_	_
+9	herannahenden	herannahend	ADJ	ADJA	_	10	mod	_	_
+10	Autos	Auto	NOUN	NN	_	2	comp:obj	_	_
+11	nicht	nicht	PART	PTKNEG	_	2	mod	_	_
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# user_id = nzuern
+# timestamp = 1628163831727
+# sent_id = 1627851682.061120-809472_00010
+1	Die	d	DET	ART	_	5	det	_	_
+2	plötzlich	plötzlich	ADJ	ADJD	_	3	mod	_	_
+3	eintretenden	eintretend	ADJ	ADJA	_	5	mod	_	_
+4	geschilderten	geschildert	ADJ	ADJA	_	5	mod	_	_
+5	Ereignisse	Ereignis	NOUN	NN	_	6	subj	_	_
+6	zwangen	zwingen	VERB	VVFIN	_	0	root	_	_
+7	den	d	DET	ART	_	9	det	_	_
+8	ersten	erst	ADJ	ORD	_	9	mod	_	_
+9	Autofahrer	Autofahrer	NOUN	NN	_	6	comp:obj	_	_
+10	abrupt	abrupt	ADV	ADJD	_	11	mod	_	_
+11	zu	zu	PART	PTKZU	_	6	comp:obl	_	_
+12	bremsen	bremsen	VERB	VVINF	_	11	comp:obj	_	_
+13	,	,	PUNCT	$,	_	6	punct	_	_
+14	wobei	wobei	SCONJ	PWAV	_	20	mod	_	_
+15	der	d	DET	ART	_	17	det	_	_
+16	zweite	zweit	ADJ	ORD	_	17	mod	_	_
+17	Kleinwagenfahrer	Kleinwagenfahrer	NOUN	NN	_	20	subj	_	_
+18	wohl	wohl	ADV	ADV	_	20	mod	_	_
+19	nicht	nicht	PART	PTKNEG	_	20	mod	_	_
+20	bemerkte	bemerken	VERB	VVFIN	_	12	mod	_	_
+21	,	,	PUNCT	$,	_	20	punct	_	_
+22	was	was	PRON	PWAV	_	28	subj	_	_
+23	auf	auf	ADP	APPR	_	28	mod	_	_
+24	dem	d	DET	ART	_	25	det	_	_
+25	Parkplatz	Parkplatz	NOUN	NN	_	23	comp:obj	_	_
+26	vor	vor	ADP	APPR	_	28	comp:obl	_	_
+27	sich	er|es|sie	PRON	PRF	_	26	comp:obj	_	_
+28	ging	gehen	VERB	VVFIN	_	20	comp:obj	_	_
+29	und	und	CCONJ	KON	_	36	cc	_	_
+30	nicht	nicht	PART	PTKNEG	_	36	mod	_	_
+31	mit	mit	ADP	APPR	_	36	comp:obl	_	_
+32	dem	d	DET	ART	_	33	det	_	_
+33	Bremsen	Bremsen	NOUN	NN	_	31	comp:obj	_	_
+34	des	d	DET	ART	_	35	det	_	_
+35	Vordermanns	Vordermann	NOUN	NN	_	33	mod@poss	_	_
+36	rechnete	rechnen	VERB	VVFIN	_	20	conj	_	_
+37	und	und	CCONJ	KON	_	39	cc	_	_
+38	diesem	dies	PRON	PDS	_	39	comp:obj	_	_
+39	auffuhr	auffahren	VERB	VVFIN	_	20	conj	_	_
+40	.	.	PUNCT	$.	_	6	punct	_	_
+
+

@@ -1,0 +1,61 @@
+1	Habe	haben	AUX	_	_	0	root	_	_
+2	gerade	gerade	ADV	_	_	1	mod	_	_
+3	einen	ein	DET	_	_	5	det	_	_
+4	kleinen	klein	ADJ	_	_	5	mod	_	_
+5	Unfall	Unfall	NOUN	_	_	9	comp:obj	_	_
+6	hier	hier	ADV	_	_	9	mod	_	_
+7	am	am	ADJ	_	_	6	mod	_	_
+8	Parkplatz	Parkplatz	NOUN	_	_	7	comp:obj	_	_
+9	gesehen.	gesehen.	X	_	_	1	comp:aux	_	_
+10	.	.	PUNCT	_	_	1	punct	_	_
+
+1	so	so	ADV	_	_	3	mod	_	_
+2	ein	ein	DET	_	_	3	det	_	_
+3	Typ	Typ	NOUN	_	_	4	subj	_	_
+4	hat	haben	VERB	_	_	0	root	_	_
+5	seinen	sein	DET	_	_	6	det	_	_
+6	Ball	Ball	NOUN	_	_	10	comp:obj	_	_
+7	auf	auf	ADP	_	_	10	comp:obl	_	_
+8	die	d	DET	_	_	9	det	_	_
+9	Straße	Straße	NOUN	_	_	7	comp:obj	_	_
+10	fallen	fallen	VERB	_	_	11	comp:obj	_	_
+11	lassen	lassen	VERB	_	_	4	comp:aux	_	_
+12	,	,	PUNCT	_	_	4	punct	_	_
+
+1	der	d	DET	_	_	2	det	_	_
+2	Hund	Hund	NOUN	_	_	6	subj	_	_
+3	einer	ein	DET	_	_	5	det	_	_
+4	anderen	ander	ADJ	_	_	5	mod	_	_
+5	Frau	Frau	NOUN	_	_	2	mod@poss	_	_
+6	ist	sein	VERB	_	_	0	root	_	_
+7	sofort	sofort	ADV	_	_	6	mod	_	_
+8	los	los	ADJ	_	_	6	comp:pred	_	_
+9	.	.	PUNCT	_	_	6	punct	_	_
+
+1	Zum	zum	PROPN	_	_	8	mod	_	_
+2	Glück	Glück	PROPN	_	_	1	comp:obj	_	_
+3	konnte	k�nnen	AUX	_	_	0	root	_	_
+4	das	d	DET	_	_	6	det	_	_
+5	einfahrende	einfahrende	ADJ	_	_	6	mod	_	_
+6	Auto	Auto	NOUN	_	_	3	subj	_	_
+7	noch	noch	ADV	_	_	3	mod	_	_
+8	stoppen	stoppen	VERB	_	_	3	comp:aux	_	_
+9	!	!	PUNCT	_	_	3	punct	_	_
+10	!	!	PUNCT	_	_	3	punct	_	_
+
+1	na	na_	PROPN	_	_	5	discourse	_	_
+2	ja	ja	PART	_	_	1	fixed	_	_
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	dafür	dafür	ADV	_	_	5	mod	_	_
+5	ist	sein	VERB	_	_	0	root	_	_
+6	das	die	PRON	_	_	10	det	_	_
+7	direkt	direkt	ADJ	_	_	8	mod	_	_
+8	dahinter	dahinter	ADP	_	_	9	mod	_	_
+9	fahrende	fahrend	ADJ	_	_	10	mod	_	_
+10	Auto	Auto	NOUN	_	_	5	subj	_	_
+11	augefahren.	augefahren.	X	_	_	5	comp:aux	_	_
+12	.	.	PUNCT	_	_	5	punct	_	_
+
+1	shit	shit	NOUN	_	_	2	subj	_	_
+2	happens	happens	ADV	_	_	0	root	_	_
+

@@ -1,0 +1,86 @@
+1	Hey	Hey	PROPN	NGIRR	_	2	discourse	_	_
+2	Almo	Almo	PROPN	NE	_	0	root	_	_
+3	,	,	PUNCT	$,	_	2	punct	_	_
+
+1	weißt	wissen	VERB	VVFIN	_	0	root	_	_
+2	du	du	PRON	PPER	_	1	subj	_	_
+3	was	was	PRON	PWS	_	5	subj	_	_
+4	passiert	passieren	VERB	VVFIN	_	5	comp:aux	_	_
+5	ist	sein	AUX	VAFIN	_	1	comp:obj	_	_
+6	?	?	PUNCT	$.	_	1	punct	_	_
+
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	gehe	gehen	VERB	VVFIN	_	0	root	_	_
+3	vorhin	vorhin	ADV	ADV	_	2	mod	_	_
+4	so	so	ADV	ADV	_	2	mod	_	_
+
+1	da	da	ADV	ADV	_	2	mod	_	_
+2	rollt	rollen	VERB	VVFIN	_	0	root	_	_
+3	so	so	ADV	PTKIFG	_	5	mod	_	_
+4	einem	ein	DET	ART	_	5	det	_	_
+5	Typen	Typ	NOUN	NN	_	2	comp:obj	_	_
+6	vom	von	PROPN	APPRART	_	2	mod	_	_
+7	Gehweg	Gehweg	PROPN	NN	_	6	comp:obj	_	_
+8	der	d	DET	ART	_	9	det	_	_
+9	Ball	Ball	PROPN	NN	_	2	subj	_	_
+10	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+11	die	d	DET	ART	_	12	det	_	_
+12	Straße	Straße	NOUN	NN	_	10	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	im	in	NOUN	APPRART	_	5	mod	_	_
+3	gleichen	gleich	ADJ	ADJA	_	4	mod	_	_
+4	Moment	Moment	NOUN	NN	_	2	comp:obj	_	_
+5	rennt	rennen	VERB	VVFIN	_	0	root	_	_
+6	von	von	ADP	APPR	_	5	mod	_	_
+7	der	d	DET	ART	_	9	det	_	_
+8	anderen	ander	ADJ	PIDAT	_	9	mod	_	_
+9	Seite	Seite	NOUN	NN	_	6	comp:obj	_	_
+10	ein	ein	DET	ART	_	11	det	_	_
+11	Hund	Hund	NOUN	NN	_	5	subj	_	_
+12	zu	zu	ADP	APPR	_	5	comp:obl	_	_
+13	dem	d	DET	ART	_	14	det	_	_
+14	Ball	Ball	NOUN	NN	_	12	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	9	cc	_	_
+2	ein	ein	DET	ART	_	3	det	_	_
+3	Auto	Auto	NOUN	NN	_	9	subj	_	_
+4	das	die	PRON	PDS	_	8	subj	_	_
+5	um	um	ADP	APPR	_	8	comp:obl	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Kurve	Kurve	PROPN	NN	_	5	comp:obj	_	_
+8	kommt	kommen	VERB	VVFIN	_	3	mod@relcl	_	_
+9	muss	müssen	AUX	VMFIN	_	0	root	_	_
+10	voll	voll	ADJ	PTKIFG	_	11	mod	_	_
+11	bremsen	bremsen	PROPN	VVINF	_	9	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	von	von	ADP	APPR	_	4	mod	_	_
+3	hinten	hinten	ADV	ADV	_	2	comp:obj	_	_
+4	fährt	fahren	VERB	VVFIN	_	0	root	_	_
+5	dem	d	PRON	ART	_	4	comp:obj	_	_
+6	einer	ein	DET	PIS	_	4	subj	_	_
+7	drauf.	drauf.	X	PTKVZ	_	4	compound@prt	_	_
+8	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	glaube	glauben	VERB	VVFIN	_	0	root	_	_
+3	die	d	DET	PDS	_	4	subj	_	_
+4	haben	haben	AUX	VAFIN	_	2	comp:obj	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Polizei	Polizei	NOUN	NN	_	8	comp:obj	_	_
+7	dann	dann	ADV	ADV	_	4	mod	_	_
+8	gerufen	rufen	VERB	VVPP	_	4	comp:aux	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	mega	mega	ADJ	PTKIFG	_	2	mod	_	_
+2	aufregend	aufregend	VERB	ADJD	_	0	root	_	_
+3	,	,	PUNCT	$,	_	2	punct	_	_
+
+1	bis	bis	ADP	APPR	_	0	root	_	_
+2	bald	bald	ADV	ADV	_	1	comp:obj	_	_
+
+1	tschüss	tschüss	PROPN	NGIRR	_	0	root	_	_
+
+1	:people_with_bunny_ears::female_sign:	👯‍♀	NOUN	EMO	_	0	root	_	_
+

@@ -1,0 +1,122 @@
+# text = äh hey USbi58FD_P
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	hey	hey	PROPN	NGIRR	_	3	discourse	_	_
+3	USbi58FD_P	USbi58FD_P	PROPN	NE	_	0	root	_	_
+
+# text = ich hab gerade einen Unfall gesehen ein Autounfall
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	hab	haben	AUX	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Unfall	Unfall	NOUN	NN	_	6	comp:obj	_	_
+6	gesehen	sehen	VERB	VVPP	_	2	comp:aux	_	_
+7	ein	ein	DET	ART	_	8	det	_	_
+8	Autounfall	Autounfall	NOUN	NN	_	5	appos	_	_
+
+# text = also da war äh dieser Mann und diese Frau
+1	also	also	ADV	SEDM	_	3	discourse	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	äh	äh	ADV	NGHES	_	3	discourse	_	_
+5	dieser	diese	PRON	PDAT	_	6	det	_	_
+6	Mann	Mann	NOUN	NN	_	3	subj	_	_
+7	und	und	CCONJ	KON	_	9	cc	_	_
+8	diese	diese	PRON	PDAT	_	9	det	_	_
+9	Frau	Frau	NOUN	NN	_	6	conj	_	_
+
+# text = und äh der Mann hatte ein Fußball
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Mann	Mann	NOUN	NN	_	5	subj	_	_
+5	hatte	haben	VERB	VAFIN	_	0	root	_	_
+6	ein	ein	DET	ART	_	7	det	_	_
+7	Fußball	Fußball	NOUN	NN	_	5	comp:obj	_	_
+
+# text = und die sind vorbeigelaufen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	die	d	PRON	PDS	_	3	subj	_	_
+3	sind	sein	AUX	VAFIN	_	0	root	_	_
+4	vorbeigelaufen	vorbeilaufen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und diese zwei Autos kamen dann daher
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	diese	diese	PRON	PDAT	_	4	det	_	_
+3	zwei	zwei	NUM	CARD	_	4	mod	_	_
+4	Autos	Auto	NOUN	NN	_	5	subj	_	_
+5	kamen	kommen	VERB	VVFIN	_	0	root	_	_
+6	dann	dann	ADV	ADV	_	5	mod	_	_
+7	daher	daher	ADV	PTKVZ	_	5	compound@prt	_	_
+
+# text = und da war diese Frau die äh aus ihrem Auto Essen geholt hat
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	diese	diese	PRON	PDAT	_	5	det	_	_
+5	Frau	Frau	NOUN	NN	_	3	subj	_	_
+6	die	d	DET	PRELS	_	13	subj	_	_
+7	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+8	aus	aus	ADP	APPR	_	12	comp:obl	_	_
+9	ihrem	ihr	DET	PPOSAT	_	10	det	_	_
+10	Auto	Auto	NOUN	NN	_	8	comp:obj	_	_
+11	Essen	Essen	VERB	NN	_	12	comp:obj	_	_
+12	geholt	holen	VERB	VVPP	_	13	comp:aux	_	_
+13	hat	haben	AUX	VAFIN	_	5	mod@relcl	_	_
+
+# text = und sie hat ein Hund dabei
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	sie	sie	PRON	PPER	_	3	subj	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	3	comp:obj	_	_
+6	dabei	dabei	ADV	ADV	_	3	compound@prt	_	_
+
+# text = und der Ball ist von dem Manns Fingern gefallen
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Ball	Ball	NOUN	NN	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	von	von	ADP	APPR	_	9	comp:obl	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	Manns	Mann	NOUN	NN	_	8	mod@poss	_	_
+8	Fingern	Finger	PROPN	NN	_	5	comp:obj	_	_
+9	gefallen	fallen	VERB	VVPP	_	4	comp:aux	_	_
+
+# text = und äh der Hund äh kam
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Hund	Hund	NOUN	NN	_	6	subj	_	_
+5	äh	äh	NOUN	NGHES	_	6	discourse	_	_
+6	kam	kommen	VERB	VVFIN	_	0	root	_	_
+
+# text = und ist dazugerannt
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	dazugerannt	dazurennen	ADJ	VVPP	_	2	comp:aux	_	_
+
+# text = und das Auto das da kam ist schnell hat schnell gestoppt
+1	und	und	CCONJ	KON	_	9	cc	_	_
+2	das	d	DET	ART	_	3	det	_	_
+3	Auto	Auto	NOUN	NN	_	9	subj	_	_
+4	das	d	DET	PRELS	_	6	subj	_	_
+5	da	da	ADV	ADV	_	6	mod	_	_
+6	kam	kommen	VERB	VVFIN	_	3	mod@relcl	_	_
+7	ist	sein	AUX	VAFIN	_	9	reparandum	_	_
+8	schnell	schnell	ADJ	ADJD	_	7	mod	_	_
+9	hat	haben	AUX	VAFIN	_	0	root	_	_
+10	schnell	schnell	ADJ	ADJD	_	11	mod	_	_
+11	gestoppt	stoppen	ADJ	VVPP	_	9	comp:aux	_	_
+
+# text = und das Auto hinterher ist reingefahren in das andere Auto
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	das	d	DET	ART	_	3	det	_	_
+3	Auto	Auto	NOUN	NN	_	5	subj	_	_
+4	hinterher	hinterher	ADV	ADV	_	3	mod	_	_
+5	ist	sein	AUX	VAFIN	_	0	root	_	_
+6	reingefahren	reinfahren	VERB	VVPP	_	5	comp:aux	_	_
+7	in	in	ADP	APPR	_	6	comp:obl	_	_
+8	das	d	DET	ART	_	10	det	_	_
+9	andere	ander	ADJ	PIDAT	_	10	mod	_	_
+10	Auto	Auto	NOUN	NN	_	7	comp:obj	_	_
+

@@ -1,0 +1,143 @@
+# text = Am XX um XX Uhr befand ich mich auf dem Parkplatz in der XX-Straße .
+1	Am	am	PROPN	APPRART	_	6	mod	_	_
+2	XX	XX	PROPN	CARD	Case=Nom|Number=Sing	1	comp:obj	_	_
+3	um	um	ADP	APPR	_	6	mod	_	_
+4	XX	XX	PROPN	CARD	_	5	mod	_	_
+5	Uhr	Uhr	NOUN	NN	Case=Acc|Number=Sing	3	comp:obj	_	_
+6	befand	befinden	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	subj	_	_
+8	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	comp:obj	_	_
+9	auf	auf	ADP	APPR	_	6	comp:obl	_	_
+10	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Parkplatz	Parkplatz	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	9	comp:obj	_	_
+12	in	in	ADP	APPR	_	11	mod	_	_
+13	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	XX-Straße	XX-Straße	NOUN	NE	Case=Dat|Gender=Fem|Number=Sing	12	comp:obj	_	_
+15	.	.	PUNCT	$.	_	6	punct	_	_
+
+# text = Zu meiner Linken befand sich eine Frau mit Hund , die gerade ihre Einkäufe verlud ,
+1	Zu	zu	ADP	APPR	_	4	comp:obl	_	_
+2	meiner	mein	DET	PPOSAT	Person=1|Poss=Yes|PronType=Prs	3	det	_	_
+3	Linken	Linke	NOUN	NN	_	1	comp:obj	_	_
+4	befand	befinden	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs	4	comp:obj	_	_
+6	eine	eine	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	subj	_	_
+8	mit	mit	ADP	APPR	_	7	mod	_	_
+9	Hund	Hund	NOUN	NN	Case=Dat|Number=Sing	8	comp:obj	_	_
+10	,	,	PUNCT	$,	_	4	punct	_	_
+11	die	die	PRON	PRELS	Case=Nom|PronType=Rel	15	subj	_	_
+12	gerade	gerade	ADV	ADV	_	15	mod	_	_
+13	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	14	det	_	_
+14	Einkäufe	Einkäufe	NOUN	NN	Case=Acc|Number=Plur	15	comp:obj	_	_
+15	verlud	verladen	VERB	VVFIN	VerbForm=Fin	7	mod@relcl	_	_
+16	,	,	PUNCT	$,	_	4	punct	_	_
+
+# text = von rechts näherte sich auf dem Bürgersteig ein Pärchen mit Kinderwagen .
+1	von	von	ADP	APPR	_	3	comp:obl	_	_
+2	rechts	rechts	ADV	ADV	_	1	comp:obj	_	_
+3	näherte	nähern	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs	3	comp:obj	_	_
+5	auf	auf	ADP	APPR	_	3	mod	_	_
+6	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Bürgersteig	Bürgersteig	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	comp:obj	_	_
+8	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Pärchen	Pärchen	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	3	subj	_	_
+10	mit	mit	ADP	APPR	_	9	mod	_	_
+11	Kinderwagen	Kinderwagen	NOUN	NN	Case=Dat|Number=Plur	10	comp:obj	_	_
+12	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Der Vater spielte mit einem Ball , den er dribbelte wie einen Basektball .
+1	Der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Vater	Vater	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	spielte	spielen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	mit	mit	ADP	APPR	_	3	mod	_	_
+5	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	comp:obj	_	_
+7	,	,	PUNCT	$,	_	3	punct	_	_
+8	den	die	PRON	PRELS	Case=Acc|PronType=Rel	10	comp:obj	_	_
+9	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj	_	_
+10	dribbelte	dribbeln	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	6	mod@relcl	_	_
+11	wie	wie	ADP	PWAV	_	10	mod	_	_
+12	einen	ein	DET	ART	Definite=Ind|PronType=Art	13	det	_	_
+13	Basektball	Basektball	NOUN	NN	_	11	comp:obj	_	_
+14	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Von mir aus gesehen vorne näherten sich zwei PKWs ( ein blauer , gefolgt von einem weißen ) , die recht zügig , mit ca 40 km/h auf den Parkplatz fuhren .
+1	Von	von	ADP	APPR	_	4	comp:obl	_	_
+2	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	comp:obj	_	_
+3	aus	aus	PART	APZR	_	2	comp:obj	_	_
+4	gesehen	sehen	VERB	VVPP	VerbForm=Part	5	mod	_	_
+5	vorne	vorne	ADV	ADV	_	6	mod	_	_
+6	näherten	näheren	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+7	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs	6	comp:obj	_	_
+8	zwei	zwei	NUM	CARD	NumType=Card	9	mod	_	_
+9	PKWs	PKW	NOUN	NN	Case=Nom|Number=Plur	6	subj	_	_
+10	(	(	PUNCT	$(	_	12	punct	_	_
+11	ein	ein	DET	ART	Definite=Ind|PronType=Art	12	det	_	_
+12	blauer	Blauer	NOUN	NN	_	9	appos	_	_
+13	,	,	PUNCT	$,	_	12	punct	_	_
+14	gefolgt	folgen	VERB	ADJA	VerbForm=Part	12	mod	_	_
+15	von	von	ADP	APPR	_	14	comp:obl	_	_
+16	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	17	det	_	_
+17	weißen	Weißer	ADJ	NN	Case=Dat|Degree=Pos|Number=Plur	15	comp:obj	_	_
+18	)	)	PUNCT	$(	_	12	punct	_	_
+19	,	,	PUNCT	$,	_	6	punct	_	_
+20	die	die	PRON	PRELS	Case=Nom|PronType=Rel	31	subj	_	_
+21	recht	recht	ADV	PTKIFG	_	22	mod	_	_
+22	zügig	zügig	ADJ	ADJD	Degree=Pos	31	mod	_	_
+23	,	,	PUNCT	$,	_	24	punct	_	_
+24	mit	mit	ADP	APPR	_	31	mod	_	_
+25	ca	circa	ADV	ADV	_	26	mod	_	_
+26	40	40	NUM	CARD	NumType=Card	27	mod	_	_
+27	km/h	km/h	ADV	NN	_	24	comp:obj	_	_
+28	auf	auf	ADP	APPR	_	31	comp:obl	_	_
+29	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Parkplatz	Parkplatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	28	comp:obj	_	_
+31	fuhren	fahren	VERB	VVFIN	VerbForm=Inf	9	mod@relcl	_	_
+32	.	.	PUNCT	$.	_	6	punct	_	_
+
+# text = Der Mann auf dem Bürgersteig verlor den Ball aus den Händen , sodass dieser vor den ersten PKW rollte .
+1	Der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	subj	_	_
+3	auf	auf	ADP	APPR	_	2	mod	_	_
+4	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Bürgersteig	Bürgersteig	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	3	comp:obj	_	_
+6	verlor	verlieren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+7	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	comp:obj	_	_
+9	aus	aus	ADP	APPR	_	6	mod	_	_
+10	den	d	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+11	Händen	Händen	NOUN	NE	Case=Dat|Number=Plur	9	comp:obj	_	_
+12	,	,	PUNCT	$,	_	6	punct	_	_
+13	sodass	sodass	SCONJ	KOUS	_	6	mod	_	_
+14	dieser	diese	PRON	PDAT	Case=Nom|PronType=Dem	19	subj	_	_
+15	vor	vor	ADP	APPR	_	19	comp:obl	_	_
+16	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	ersten	erst	ADJ	ORD	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	18	mod	_	_
+18	PKW	PKW	PROPN	NN	_	15	comp:obj	_	_
+19	rollte	rollen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	13	comp:obj	_	_
+20	.	.	PUNCT	$.	_	6	punct	_	_
+
+# text = Der blaue PKW machte eine Vollbremsung , wodurch der nachfolgende , weiße PKW aufgrund des geringen Abstandes auffuhr .
+1	Der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	blaue	blau	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	mod	_	_
+3	PKW	PKW	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+4	machte	machen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	eine	eine	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Vollbremsung	Vollbremsung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	comp:obj	_	_
+7	,	,	PUNCT	$,	_	4	punct	_	_
+8	wodurch	wodurch	ADV	PWAV	_	4	mod	_	_
+9	der	d	DET	ART	Definite=Def|PronType=Art	13	det	_	_
+10	nachfolgende	Nachfolgender	ADJ	NN	Degree=Pos	13	mod	_	_
+11	,	,	PUNCT	$,	_	12	punct	_	_
+12	weiße	weiße	ADJ	ADJA	Degree=Pos	13	mod	_	_
+13	PKW	PKW	PROPN	NN	_	18	subj	_	_
+14	aufgrund	aufgrund	ADP	APPR	_	18	mod	_	_
+15	des	d	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	17	det	_	_
+16	geringen	gering	ADJ	ADJA	Case=Gen|Degree=Pos|Number=Plur	17	mod	_	_
+17	Abstandes	Abstand	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	14	comp:obj	_	_
+18	auffuhr	auffahren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	8	comp:obj	_	_
+19	.	.	PUNCT	$.	_	4	punct	_	_
+
+

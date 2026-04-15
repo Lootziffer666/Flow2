@@ -1,0 +1,125 @@
+# text = hallo USbi74MD_P
+1	hallo	hallo	X	NGIRR	_	2	discourse	_	_
+2	USbi74MD_P	USbi74MD_P	PROPN	NE	_	0	root	_	_
+
+# text = ich hab gerade ein Autounfall im Parkplatz beobachtet
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Autounfall	Autounfall	NOUN	NN	_	8	comp:obj	_	_
+6	im	in	PROPN	APPRART	_	8	mod	_	_
+7	Parkplatz	Parkplatz	PROPN	NN	_	6	comp:obj	_	_
+8	beobachtet	beobachten	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = äh da ist ein Hund in den Parkplatz gerannt weil er ein Ball verfolgt hat
+1	äh	äh	ADJ	VVFIN	_	3	discourse	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	3	subj	_	_
+6	in	in	ADP	APPR	_	9	comp:obl	_	_
+7	den	d	DET	ART	_	8	det	_	_
+8	Parkplatz	Parkplatz	NOUN	NN	_	6	comp:obj	_	_
+9	gerannt	rennen	ADJ	VVPP	_	3	comp:aux	_	_
+10	weil	weil	SCONJ	KOUS	_	9	mod	_	_
+11	er	er	PRON	PPER	_	15	subj	_	_
+12	ein	ein	DET	ART	_	13	det	_	_
+13	Ball	Ball	NOUN	NN	_	14	comp:obj	_	_
+14	verfolgt	verfolgen	VERB	VVPP	_	15	comp:aux	_	_
+15	hat	haben	AUX	VAFIN	_	10	comp:obj	_	_
+
+# text = und die Autos die gerade gekommen sind mussten schnell bremsen
+1	und	und	CCONJ	KON	_	8	cc	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Autos	Auto	NOUN	NN	_	8	subj	_	_
+4	die	d	PRON	PRELS	_	7	subj	_	_
+5	gerade	gerade	ADV	ADJD	_	7	mod	_	_
+6	gekommen	kommen	VERB	VVPP	_	7	comp:aux	_	_
+7	sind	sein	AUX	VAFIN	_	3	mod@relcl	_	_
+8	mussten	müssen	AUX	VMFIN	_	0	root	_	_
+9	schnell	schnell	ADJ	ADJD	_	8	mod	_	_
+10	bremsen	bremsen	VERB	VVINF	_	8	comp:aux	_	_
+
+# text = aber das äh zweite Auto was hintendran war konnte nicht schnell genug bremsen
+1	aber	aber	ADV	KON	_	9	cc	_	_
+2	das	d	DET	ART	_	5	det	_	_
+3	äh	äh	ADJ	NGHES	_	9	discourse	_	_
+4	zweite	zweit	ADJ	ORD	_	5	mod	_	_
+5	Auto	Auto	NOUN	NN	_	9	subj	_	_
+6	was	was	PRON	PRELS	_	8	subj	_	_
+7	hintendran	hintendran	ADV	ADV	_	8	comp:pred	_	_
+8	war	sein	VERB	VAFIN	_	5	mod@relcl	_	_
+9	konnte	können	AUX	VMFIN	_	0	root	_	_
+10	nicht	nicht	PART	PTKNEG	_	9	mod	_	_
+11	schnell	schnell	ADJ	ADJD	_	9	mod	_	_
+12	genug	genug	ADV	PTKMWL	_	11	mod	_	_
+13	bremsen	bremsen	PROPN	VVINF	_	9	comp:aux	_	_
+
+# text = und dadurch gab es ein kleinen Auffahrumfall Unfall
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dadurch	dadurch	ADV	ADV	_	3	mod	_	_
+3	gab	geben	VERB	VVFIN	_	0	root	_	_
+4	es	es	PRON	PPER	_	3	subj@expl	_	_
+5	ein	ein	DET	ART	_	8	det	_	_
+6	kleinen	klein	ADJ	ADJA	_	8	mod	_	_
+7	Auffahrumfall	Auffahrumfall	NOUN	NN	_	8	reparandum	_	_
+8	Unfall	Unfall	NOUN	NN	_	3	comp:obj	_	_
+
+# text = und ja es war halt echt schade
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	ja	ja	ADV	NGIRR	_	4	discourse	_	_
+3	es	es	PRON	PPER	_	4	subj@expl	_	_
+4	war	sein	VERB	VAFIN	_	0	root	_	_
+5	halt	halt	ADV	PTKMA	_	4	discourse	_	_
+6	echt	echt	ADJ	PTKIFG	_	7	mod	_	_
+7	schade	schade	ADJ	ADJD	_	4	comp:pred	_	_
+
+# text = und ich weiß ja dass du gerade erst ein auto gekauft hast
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	weiß	wissen	VERB	VVFIN	_	0	root	_	_
+4	ja	ja	ADV	PTKMA	_	3	discourse	_	_
+5	dass	dass	SCONJ	KOUS	_	3	comp:obj	_	_
+6	du	du	PRON	PPER	_	12	subj	_	_
+7	gerade	gerade	ADV	ADV	_	12	mod	_	_
+8	erst	erst	ADV	PTKMWL	_	7	mod	_	_
+9	ein	ein	DET	ART	_	10	det	_	_
+10	Auto	Auto	NOUN	NN	_	11	comp:obj	_	_
+11	gekauft	kaufen	VERB	VVPP	_	12	comp:aux	_	_
+12	hast	haben	AUX	VAFIN	_	5	comp:obj	_	_
+
+# text = und wollte dich einfach daran erinnern dass du sogar im Parkplatz mit dem Autofahren vorsichtig sein solltest
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+3	dich	du	PRON	PPER	_	2	comp:obj	_	_
+4	einfach	einfach	ADV	PTKMA	_	2	discourse	_	_
+5	daran	daran	ADV	ADV	_	2	mod	_	_
+6	erinnern	erinnern	VERB	VVINF	_	2	comp:aux	_	_
+7	dass	dass	SCONJ	KOUS	_	6	comp:obj	_	_
+8	du	du	PRON	PPER	_	16	subj	_	_
+9	sogar	sogar	ADV	PTKIFG	_	10	mod	_	_
+10	im	in	PROPN	APPRART	_	15	mod	_	_
+11	Parkplatz	Parkplatz	PROPN	NN	_	10	comp:obj	_	_
+12	mitm	mitm	ADP	APPR	_	14	mod	_	_
+13	Autofahren	Autofahren	NOUN	NN	_	12	comp:obj	_	_
+14	vorsichtig	vorsichtig	ADJ	ADJD	_	15	comp:pred	_	_
+15	sein	sein	VERB	VAINF	_	16	comp:aux	_	_
+16	solltest	sollen	ADJ	VMFIN	_	7	comp:obj	_	_
+
+# text = äh ja also bis zum Sommer wenn wir uns wiedersehen
+1	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+2	ja	ja	ADV	NGIRR	_	4	discourse	_	_
+3	also	also	ADV	SEDM	_	4	discourse	_	_
+4	bis	bis	ADP	APPR	_	0	root	_	_
+5	zum	zu	PROPN	APPRART	_	4	comp:obj	_	_
+6	Sommer	Sommer	NOUN	NN	_	5	comp:obj	_	_
+7	wenn	wenn	SCONJ	KOUS	_	4	mod	_	_
+8	wir	wir	PRON	PPER	_	10	subj	_	_
+9	uns	wir	PRON	PRF	_	10	comp:obj	_	_
+10	wiedersehen	wiedersehen	VERB	VVINF	_	7	comp:obj	_	_
+
+# text = ciao
+1	ciao	ciao	PROPN	NGIRR	_	0	root	_	_
+
+

@@ -1,0 +1,95 @@
+# text = hey :)
+1	hey	Hey	PROPN	NGIRR	_	0	root	_	_
+2	:)	:)	PUNCT	EMO	_	1	discourse	_	_
+
+# text = sorry , aber ich werde leider zu spät kommen , weil hier gerade ein Unfall passiert ist .
+1	sorry	sorry	NOUN	NGIRR	_	5	discourse	_	_
+2	,	,	PUNCT	$,	_	5	punct	_	_
+3	aber	aber	CCONJ	KON	_	5	cc	_	_
+4	ich	ich	PRON	PPER	_	5	subj	_	_
+5	werde	sein	AUX	VAFIN	_	0	root	_	_
+6	leider	leider	ADV	ADV	_	5	mod	_	_
+7	zu	zu	ADV	PTKZU	_	8	mod	_	_
+8	spät	spät	ADJ	ADJA	_	9	comp:pred	_	_
+9	kommen	kommen	VERB	VVINF	_	5	comp:aux	_	_
+10	,	,	PUNCT	$,	_	5	punct	_	_
+11	weil	weil	SCONJ	KOUS	_	9	mod	_	_
+12	hier	hier	ADV	ADV	_	17	mod	_	_
+13	gerade	gerade	ADV	ADV	_	17	mod	_	_
+14	ein	ein	NUM	ART	_	15	mod	_	_
+15	Unfall	Unfall	NOUN	NN	_	17	subj	_	_
+16	passiert	passieren	VERB	VVPP	_	17	comp:aux	_	_
+17	ist	sein	AUX	VAFIN	_	11	comp:obj	_	_
+18	.	.	PUNCT	$.	_	5	punct	_	_
+
+# text = da ist nämlich ein Hund auf die Straße gerannt
+1	da	da	ADV	ADV	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	nämlich	nämlich	ADV	ADV	_	2	mod	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	2	subj	_	_
+6	auf	auf	ADP	APPR	_	9	comp:obl	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Straße	Straße	NOUN	NN	_	6	comp:obj	_	_
+9	gerannt	rennen	ADJ	VVPP	_	2	comp:aux	_	_
+
+# text = und weil gerade ein Auto kam , musste es mega bremsen
+1	und	und	CCONJ	KON	_	8	cc	_	_
+2	weil	weil	ADV	KOUS	_	11	mod	_	_
+3	gerade	gerade	ADV	ADV	_	6	mod	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Auto	Auto	NOUN	NN	_	6	subj	_	_
+6	kam	kommen	VERB	VVFIN	_	2	comp:obj	_	_
+7	,	,	PUNCT	$,	_	2	punct	_	_
+8	musste	müssen	AUX	VMFIN	_	0	root	_	_
+9	es	es	PRON	PPER	_	8	subj	_	_
+10	mega	mega	ADJ	PTKIFG	_	8	mod	_	_
+11	bremsen	bremsen	PROPN	VVINF	_	8	comp:aux	_	_
+
+# text = und dadurch ist ihm sein Hintermann aufgefahren .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dadurch	dadurch	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	ihm	er	PRON	PPER	_	7	comp:obj	_	_
+5	sein	sein	DET	PPOSAT	_	6	det	_	_
+6	Hintermann	Hintermann	NOUN	NN	_	3	subj	_	_
+7	aufgefahren	auffahren	VERB	VVPP	_	3	comp:aux	_	_
+8	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = jetzt hat der irgendeinen Blechschaden
+1	jetzt	jetzt	ADV	ADV	_	2	mod	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	der	d	DET	PDS	_	2	subj	_	_
+4	irgendeinen	irgendein	ADJ	PIAT	_	5	mod	_	_
+5	Blechschaden	Blechschaden	NOUN	NN	_	2	comp:obj	_	_
+
+# text = und gleich kommt die Polizei .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	gleich	gleich	ADV	ADV	_	3	mod	_	_
+3	kommt	kommen	VERB	VVFIN	_	0	root	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Polizei	Polizei	NOUN	NN	_	3	subj	_	_
+6	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = ich muss hier noch mit einem Pärchen mit Kinderwagen und mit der Frau mit dem Hund als Zeuge warten .
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	muss	m�ssen	AUX	VMFIN	_	0	root	_	_
+3	hier	hier	ADV	ADV	_	2	mod	_	_
+4	noch	noch	ADV	PTKMWL	_	2	mod	_	_
+5	mit	mit	ADP	APPR	_	19	mod	_	_
+6	einem	ein	DET	ART	_	7	det	_	_
+7	Pärchen	Pärchen	NOUN	NN	_	5	comp:obj	_	_
+8	mit	mit	ADP	APPR	_	7	mod	_	_
+9	Kinderwagen	Kinderwagen	NOUN	NN	_	8	comp:obj	_	_
+10	und	und	CCONJ	KON	_	11	cc	_	_
+11	mit	mit	ADP	APPR	_	5	conj	_	_
+12	der	d	DET	ART	_	13	det	_	_
+13	Frau	Frau	NOUN	NN	_	11	comp:obj	_	_
+14	mit	mit	ADP	APPR	_	13	mod	_	_
+15	dem	d	DET	ART	_	16	det	_	_
+16	Hund	Hund	NOUN	NN	_	14	comp:obj	_	_
+17	als	als	ADP	KOUS	_	19	mod	_	_
+18	Zeuge	Zeuge	NOUN	NN	_	17	comp:obj	_	_
+19	warten	warten	VERB	VVINF	_	2	comp:aux	_	_
+20	.	.	PUNCT	$.	_	2	punct	_	_
+

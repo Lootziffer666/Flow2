@@ -1,0 +1,246 @@
+# text = ﻿Eine Frau mit Kinderwagen ist mit ihrem Mann oder ihrem Sohn , von einem Seitenweg auf den Parkplatz abgebogen .
+1	﻿Eine	﻿Eine	ADJ	ADJA	_	2	mod	_	_
+2	Frau	Frau	NOUN	NN	_	5	subj	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	Kinderwagen	Kinderwagen	NOUN	NN	_	3	comp:obj	_	_
+5	ist	sein	VERB	VAFIN	_	0	root	_	_
+6	mit	mit	ADP	APPR	_	19	mod	_	_
+7	ihrem	ihr	DET	PPOSAT	_	8	det	_	_
+8	Mann	Mann	NOUN	NN	_	6	comp:obj	_	_
+9	oder	oder	CCONJ	KON	_	11	cc	_	_
+10	ihrem	ihr	DET	PPOSAT	_	11	det	_	_
+11	Sohn	Sohn	NOUN	NN	_	8	conj	_	_
+12	,	,	PUNCT	NE	_	5	punct	_	_
+13	von	von	ADP	APPR	_	19	udep	_	_
+14	einem	ein	DET	ART	_	15	det	_	_
+15	Seitenweg	Seitenweg	NOUN	NN	_	13	comp:obj	_	_
+16	auf	auf	ADP	APPR	_	19	udep	_	_
+17	den	d	DET	ART	_	18	det	_	_
+18	Parkplatz	Parkplatz	NOUN	NN	_	16	comp:obj	_	_
+19	abgebogen	abbiegen	VERB	VVPP	_	5	comp:aux	_	_
+20	.	.	PUNCT	$.	_	5	punct	_	_
+
+# text = Der Mann hatte einen Ball bei sich
+1	Der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	hatte	haben	VERB	VAFIN	_	0	root	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+6	bei	bei	ADP	APPR	_	3	comp:obl	_	_
+7	sich	er|es|sie	PRON	PRF	_	6	comp:obj	_	_
+
+# text = und hat diesen aus Versehen herunterfallen lassen .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	diesen	diese	PRON	PDAT	_	6	comp:obj	_	_
+4	aus	aus	VERB	ADJA	_	6	mod	_	_
+5	Versehen	Versehen	VERB	ADJA	_	4	comp:obj	_	_
+6	herunterfallen	herunterfallen	VERB	ADJA	_	7	comp:obj	_	_
+7	lassen	lassen	VERB	VVINF	_	2	comp:aux	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Der Ball ist daraufhin auf die Straße vor die zwei einbiegenden Autos gerollt .
+1	Der	d	DET	ART	_	2	det	_	_
+2	Ball	Ball	NOUN	NN	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	daraufhin	daraufhin	ADV	ADV	_	3	mod	_	_
+5	auf	auf	ADP	APPR	_	13	udep	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Straße	Straße	NOUN	NN	_	5	comp:obj	_	_
+8	vor	vor	ADP	APPR	_	13	udep	_	_
+9	die	d	DET	ART	_	12	det	_	_
+10	zwei	zwei	NUM	CARD	_	12	mod	_	_
+11	einbiegenden	einbiegenden	ADJ	ADJA	_	12	mod	_	_
+12	Autos	Auto	NOUN	NN	_	8	comp:obj	_	_
+13	gerollt	rollen	VERB	VVPP	_	3	comp:aux	_	_
+14	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Gegenüber von dem Mann , der den Ball verloren hatte , stand ein parkender PKW mit einer älteren Frau , die gerade dabei war ihr Einkäufe in ihr Auto zu räumen .
+1	Gegenüber	Gegenüber	ADP	NN	_	12	mod	_	_
+2	von	von	ADP	APPR	_	1	mod	_	_
+3	dem	d	DET	ART	_	4	det	_	_
+4	Mann	Mann	NOUN	NN	_	2	comp:obj	_	_
+5	,	,	PUNCT	NE	_	12	punct	_	_
+6	der	die	PRON	PRELS	_	10	subj	_	_
+7	den	d	DET	ART	_	8	det	_	_
+8	Ball	Ball	NOUN	NN	_	9	comp:obj	_	_
+9	verloren	verlieren	VERB	VVPP	_	10	comp:aux	_	_
+10	hatte	haben	AUX	VAFIN	_	4	mod@relcl	_	_
+11	,	,	PUNCT	NE	_	10	punct	_	_
+12	stand	stehen	VERB	VVFIN	_	0	root	_	_
+13	ein	ein	DET	ART	_	15	det	_	_
+14	parkender	parkender	ADJ	ADJA	_	15	mod	_	_
+15	PKW	PKW	NOUN	NN	_	12	subj	_	_
+16	mit	mit	ADP	APPR	_	15	mod	_	_
+17	einer	ein	DET	ART	_	19	det	_	_
+18	älteren	älteren	ADJ	ADJA	_	19	mod	_	_
+19	Frau	Frau	NOUN	NN	_	16	comp:obj	_	_
+20	,	,	PUNCT	NE	_	12	punct	_	_
+21	die	die	PRON	PRELS	_	24	subj	_	_
+22	gerade	gerade	ADV	ADV	_	24	mod	_	_
+23	dabei	dabei	ADV	ADV	_	24	comp:pred	_	_
+24	war	sein	VERB	VAFIN	_	19	mod@poss	_	_
+25	ihr	ihr	DET	PPER	_	26	det	_	_
+26	Einkäufe	Einkäufe	NOUN	NN	_	31	comp:obj	_	_
+27	in	in	ADP	APPR	_	31	comp:obl	_	_
+28	ihr	ihr	DET	PPOSAT	_	29	det	_	_
+29	Auto	Auto	NOUN	NN	_	27	comp:obj	_	_
+30	zu	zu	ADP	PTKZU	_	23	comp:obj	_	_
+31	räumen	räumen	NOUN	VVINF	_	30	comp:obj	_	_
+32	.	.	PUNCT	$.	_	12	punct	_	_
+
+# text = Die ältere Frau hatte einen Hund bei sich , der den Ball anbellte und versuchte zu dem Ball zu rennen .
+1	Die	d	DET	ART	_	3	det	_	_
+2	ältere	ältere	ADJ	ADJA	_	3	mod	_	_
+3	Frau	Frau	NOUN	NN	_	4	subj	_	_
+4	hatte	haben	VERB	VAFIN	_	0	root	_	_
+5	einen	ein	DET	ART	_	6	det	_	_
+6	Hund	Hund	NOUN	NN	_	4	comp:obj	_	_
+7	bei	bei	ADP	APPR	_	4	comp:obl	_	_
+8	sich	er|es|sie	PRON	PRF	_	7	comp:obj	_	_
+9	,	,	PUNCT	NE	_	4	punct	_	_
+10	der	die	PRON	PRELS	_	13	subj	_	_
+11	den	d	DET	ART	_	12	det	_	_
+12	Ball	Ball	NOUN	NN	_	13	comp:obj	_	_
+13	anbellte	anbellte	AUX	VVFIN	_	6	mod@relcl	_	_
+14	und	und	CCONJ	KON	_	15	cc	_	_
+15	versuchte	versuchen	VERB	VVFIN	_	13	conj	_	_
+16	zu	zu	ADP	APPR	_	20	comp:obl	_	_
+17	dem	d	DET	ART	_	18	det	_	_
+18	Ball	Ball	NOUN	NN	_	16	comp:obj	_	_
+19	zu	zu	PART	PTKZU	_	15	comp:obj	_	_
+20	rennen	rennen	VERB	VVINF	_	19	comp:obj	_	_
+21	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Der Hund war jedoch angeleint
+1	Der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	3	subj	_	_
+3	war	sein	AUX	VAFIN	_	0	root	_	_
+4	jedoch	jedoch	ADV	ADV	_	3	mod	_	_
+5	angeleint	angeleint	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und konnte nicht auf die Straße gelangen .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	konnte	k�nnen	AUX	VMFIN	_	0	root	_	_
+3	nicht	nicht	PART	PTKNEG	_	2	mod	_	_
+4	auf	auf	ADP	APPR	_	7	comp:obl	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Straße	Straße	NOUN	NN	_	4	comp:obj	_	_
+7	gelangen	gelangen	VERB	VVINF	_	2	comp:aux	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Die Frau wurde teilweise von dem Hund mitgezogen ,
+1	Die	d	DET	ART	_	2	det	_	_
+2	Frau	Frau	NOUN	NN	_	3	subj@pass	_	_
+3	wurde	werden	AUX	VAFIN	_	0	root	_	_
+4	teilweise	teilweise	ADV	ADV	_	3	mod	_	_
+5	von	von	ADP	APPR	_	8	comp:obl	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	Hund	Hund	NOUN	NN	_	5	comp:obj	_	_
+8	mitgezogen	mitgezogen	VERB	VVPP	_	3	comp:aux@pass	_	_
+9	,	,	PUNCT	NE	_	3	punct	_	_
+
+# text = dabei verlor sie Teile ihres Einkaufes ,
+1	dabei	dabei	ADV	ADV	_	2	mod	_	_
+2	verlor	verlieren	VERB	VVFIN	_	0	root	_	_
+3	sie	sie	PRON	PPER	_	2	subj	_	_
+4	Teile	Teil	NOUN	NN	_	2	comp:obj	_	_
+5	ihres	ihr	DET	PPOSAT	_	6	det	_	_
+6	Einkaufes	Einkaufes	NOUN	NN	_	4	mod@poss	_	_
+7	,	,	PUNCT	NE	_	2	punct	_	_
+
+# text = stand jedoch nicht im Weg der zwei einbiegenden Autos .
+1	stand	stehen	VERB	VVFIN	_	0	root	_	_
+2	jedoch	jedoch	ADV	ADV	_	1	mod	_	_
+3	nicht	nicht	PART	PTKNEG	_	1	mod	_	_
+4	im	im	PROPN	APPRART	_	5	mod	_	_
+5	Weg	Weg	NOUN	NN	_	1	comp:obl	_	_
+6	der	d	DET	ART	_	9	det	_	_
+7	zwei	zwei	NUM	CARD	_	9	mod	_	_
+8	einbiegenden	einbiegenden	ADJ	ADJA	_	9	mod	_	_
+9	Autos	Auto	NOUN	NN	_	5	mod@poss	_	_
+10	.	.	PUNCT	$.	_	1	punct	_	_
+
+# text = Der blaue Wagen bremste , sobald der Ball über den Parkplatz rollte , worauf der weiße PKW hinter dem blauen nicht schnell genug bremsen konnte und auf den blauen Wagen auffuhr .
+1	Der	d	DET	ART	_	3	det	_	_
+2	blaue	blau	ADJ	ADJA	_	3	mod	_	_
+3	Wagen	Wagen	NOUN	NN	_	4	subj	_	_
+4	bremste	bremsen	VERB	VVFIN	_	0	root	_	_
+5	,	,	PUNCT	NE	_	4	punct	_	_
+6	sobald	sobald	SCONJ	KOUS	_	4	mod	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Ball	Ball	NOUN	NN	_	12	subj	_	_
+9	über	über	ADP	NN	_	12	comp:obl	_	_
+10	den	d	DET	ART	_	11	det	_	_
+11	Parkplatz	Parkplatz	NOUN	NN	_	9	comp:obj	_	_
+12	rollte	rollen	AUX	VVFIN	_	6	comp:obj	_	_
+13	,	,	PUNCT	NE	_	6	punct	_	_
+14	worauf	worauf	ADV	PWAV	_	12	mod	_	_
+15	der	d	DET	ART	_	17	det	_	_
+16	weiße	weiße	ADJ	ADJA	_	17	mod	_	_
+17	PKW	PKW	NOUN	NN	_	25	subj	_	_
+18	hinter	hinter	ADP	APPR	_	17	mod	_	_
+19	dem	d	DET	ART	_	20	det	_	_
+20	blauen	blau	ADJ	ADJA	_	18	comp:obj	_	_
+21	nicht	nicht	PART	PTKNEG	_	25	mod	_	_
+22	schnell	schnell	ADJ	ADJD	_	25	mod	_	_
+23	genug	genug	ADV	PTKMWL	_	22	mod	_	_
+24	bremsen	bremsen	VERB	VVINF	_	25	comp:aux	_	_
+25	konnte	k�nnen	AUX	VMFIN	_	14	comp:obj	_	_
+26	und	und	CCONJ	KON	_	31	cc	_	_
+27	auf	auf	ADP	APPR	_	31	comp:obl	_	_
+28	den	d	DET	ART	_	30	det	_	_
+29	blauen	blau	ADJ	ADJA	_	30	mod	_	_
+30	Wagen	Wagen	NOUN	NN	_	27	comp:obj	_	_
+31	auffuhr	auffuhr	VERB	VVFIN	_	25	conj	_	_
+32	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Beide Fahrer sind sofort ausgestiegen
+1	Beide	beide	PRON	PIAT	_	2	det	_	_
+2	Fahrer	Fahrer	NOUN	NN	_	3	subj	_	_
+3	sind	sein	AUX	VAFIN	_	0	root	_	_
+4	sofort	sofort	ADV	ADV	_	3	mod	_	_
+5	ausgestiegen	aussteigen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und haben den Notruf gewählt .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	haben	haben	AUX	VAFIN	_	0	root	_	_
+3	den	d	DET	ART	_	4	det	_	_
+4	Notruf	Notruf	NOUN	NN	_	5	comp:obj	_	_
+5	gewählt	gewählt	VERB	VVPP	_	2	comp:aux	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Der Mann , der den Ball fallen gelassen hatte , hat zuerst der Frau mit den Einkäufen geholfen diese aufzusammeln ,
+1	Der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	11	subj	_	_
+3	,	,	PUNCT	NE	_	11	punct	_	_
+4	der	die	PRON	PRELS	_	9	subj	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	7	comp:obj	_	_
+7	fallen	fallen_gelassen	VERB	VVPP	_	8	comp:obj	_	_
+8	gelassen	fallen_gelassen	VERB	VVPP	_	9	comp:aux	_	_
+9	hatte	haben	AUX	VAFIN	_	2	mod@relcl	_	_
+10	,	,	PUNCT	NE	_	9	punct	_	_
+11	hat	haben	AUX	VAFIN	_	0	root	_	_
+12	zuerst	zuerst	ADV	ADV	_	11	mod	_	_
+13	der	d	DET	ART	_	14	det	_	_
+14	Frau	Frau	NOUN	NN	_	18	comp:obj	_	_
+15	mit	mit	ADP	APPR	_	14	mod	_	_
+16	den	d	DET	ART	_	17	det	_	_
+17	Einkäufen	Einkäufen	NOUN	NN	_	15	comp:obj	_	_
+18	geholfen	helfen	VERB	VVPP	_	11	comp:aux	_	_
+19	diese	diese	PRON	PDS	_	20	comp:obj	_	_
+20	aufzusammeln	aufzusammeln	VERB	VVIZU	_	18	comp:obl	_	_
+21	,	,	PUNCT	NE	_	11	punct	_	_
+
+# text = ist aber danach zu den zwei Autofahrern gegangen .
+1	ist	sein	VERB	VAFIN	_	0	root	_	_
+2	aber	aber	ADV	PTKMA	_	1	cc	_	_
+3	danach	danach	ADV	ADV	_	1	mod	_	_
+4	zu	zu	ADP	APPR	_	8	comp:obl	_	_
+5	den	d	DET	ART	_	7	det	_	_
+6	zwei	zwei	NUM	CARD	_	7	mod	_	_
+7	Autofahrern	Autofahrer	NOUN	NN	_	4	comp:obj	_	_
+8	gegangen	gehen	VERB	VVPP	_	1	comp:aux	_	_
+9	.	.	PUNCT	$.	_	1	punct	_	_
+

@@ -1,0 +1,177 @@
+1	Hey	Hey	PROPN	_	_	2	discourse	_	_
+2	girl	girl	PROPN	_	_	0	root	_	_
+
+1	du	du	PRON	_	_	2	subj	_	_
+2	weißt	weißt	VERB	_	_	0	root	_	_
+3	nicht	nicht	PART	_	_	2	mod	_	_
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	was	was	PRON	_	_	9	subj	_	_
+6	mir	ich	PRON	_	_	8	comp:obj	_	_
+7	gerade	gerade	ADV	_	_	9	mod	_	_
+8	passiert	passieren	ADJ	_	_	9	comp:aux	_	_
+9	ist	sein	VERB	_	_	2	comp:obj	_	_
+10	!	!	PUNCT	_	_	2	punct	_	_
+11	!	!	PUNCT	_	_	2	punct	_	_
+
+1	ich	ich	PRON	_	_	2	subj	_	_
+2	habe	haben	VERB	_	_	0	root	_	_
+3	gerade	gerade	ADV	_	_	2	mod	_	_
+4	mein	mein	PRON	_	_	5	det	_	_
+5	Auto	Auto	NOUN	_	_	10	comp:obj	_	_
+6	beim	beim	ADV	_	_	10	mod	_	_
+7	Parkplatz	Parkplatz	PROPN	_	_	6	comp:obj	_	_
+8	von	von	PROPN	_	_	7	mod@poss	_	_
+9	Rewe	Rewe	PROPN	_	_	8	comp:obj	_	_
+10	eingeparkt	eingeparkt	PROPN	_	_	2	comp:aux	_	_
+11	,	,	PUNCT	_	_	2	punct	_	_
+
+1	drehe	drehen	VERB	_	_	0	root	_	_
+2	mich	ich	PRON	_	_	1	comp:obj	_	_
+3	um	um	ADP	_	_	1	compound@prt	_	_
+
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	plötzlich	plötzlich	ADV	_	_	3	mod	_	_
+3	sehe	sehen	VERB	_	_	0	root	_	_
+4	ich	ich	PRON	_	_	3	subj	_	_
+5	wie	wie	ADP	_	_	3	comp:obj	_	_
+6	ein	ein	DET	_	_	7	det	_	_
+7	Pärchen	Pärchen	NOUN	_	_	11	subj	_	_
+8	mit	mit	ADP	_	_	7	mod	_	_
+9	Kinderwagen	Kinderwagen	NOUN	_	_	8	comp:obj	_	_
+10	dort	dort	ADV	_	_	11	mod	_	_
+11	entlanggeht	entlanggehen	VERB	_	_	5	comp:obj	_	_
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+1	Der	d	DET	_	_	2	det	_	_
+2	Mann	Mann	NOUN	_	_	3	subj	_	_
+3	spielt	spielen	VERB	_	_	0	root	_	_
+4	mit	mit	ADP	_	_	3	mod	_	_
+5	einem	ein	DET	_	_	6	det	_	_
+6	Ball	Ball	NOUN	_	_	4	comp:obj	_	_
+
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	der	die	PRON	_	_	3	subj	_	_
+3	ist	sein	VERB	_	_	0	root	_	_
+4	zufällig	zufällig	ADJ	_	_	3	mod	_	_
+5	gegen	gegen	ADP	_	_	8	comp:obl	_	_
+6	eine	eine	DET	_	_	7	det	_	_
+7	Frau	Frau	NOUN	_	_	5	comp:obj	_	_
+8	gekommen	kommen	VERB	_	_	3	comp:aux	_	_
+9	,	,	PUNCT	_	_	3	punct	_	_
+10	die	die	PRON	_	_	17	subj	_	_
+11	gerade	gerade	ADV	_	_	18	mod	_	_
+12	ihre	ihr	DET	_	_	13	det	_	_
+13	Einkaufstüten	Einkaufstüten	NOUN	_	_	17	comp:obj	_	_
+14	in	in	ADP	_	_	17	comp:obl	_	_
+15	den	d	DET	_	_	16	det	_	_
+16	Kofferraum	Kofferraum	NOUN	_	_	14	comp:obj	_	_
+17	eingeräumt	eingeräumt	VERB	_	_	18	comp:aux	_	_
+18	hat	haben	AUX	_	_	7	mod@relcl	_	_
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+1	Da	da	ADV	_	_	2	mod	_	_
+2	läuft	läuft	VERB	_	_	0	root	_	_
+3	ihr	ihr	DET	_	_	4	det	_	_
+4	Hund	Hund	NOUN	_	_	2	subj	_	_
+5	plötzlich	plötzlich	ADJ	_	_	2	mod	_	_
+6	von	von	ADP	_	_	2	mod	_	_
+7	der	d	DET	_	_	8	det	_	_
+8	Leine	Lein|Leine	PROPN	_	_	6	comp:obj	_	_
+
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	ihre	ihr	DET	_	_	3	det	_	_
+3	Tüte	Tüte	NOUN	_	_	4	subj	_	_
+4	fällt	fällt	VERB	_	_	0	root	_	_
+5	ihr	ihr	PRON	_	_	4	comp:obj	_	_
+6	aus	aus	ADP	_	_	4	comp:obl	_	_
+7	der	d	DET	_	_	8	det	_	_
+8	Hand	Hand	NOUN	_	_	6	comp:obj	_	_
+9	!	!	PUNCT	_	_	4	punct	_	_
+10	!	!	PUNCT	_	_	4	punct	_	_
+
+1	Schrecklich	schrecklich	ADJ	_	_	0	root	_	_
+
+1	:face_with_open_mouth:	😮	SYM	_	_	0	root	_	_
+
+1	der	d	DET	_	_	2	det	_	_
+2	Typ	Typ	NOUN	_	_	3	subj	_	_
+3	versucht	versuchen	VERB	_	_	0	root	_	_
+4	sich	er|es|sie	PRON	_	_	10	comp:obj	_	_
+5	noch	noch	ADV	_	_	10	mod	_	_
+6	aus	aus	ADP	_	_	10	comp:obl	_	_
+7	der	d	DET	_	_	8	det	_	_
+8	Situation	Situation	NOUN	_	_	6	comp:obj	_	_
+9	zu	zu	PART	_	_	3	comp:obj	_	_
+10	retten	retten	VERB	_	_	9	comp:obj	_	_
+
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	hebt	heben	VERB	_	_	0	root	_	_
+3	die	d	DET	_	_	4	det	_	_
+4	Sachen	Sache	NOUN	_	_	2	comp:obj	_	_
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	die	die	DET	_	_	8	subj	_	_
+7	rausgefallen	rausgefallen	NOUN	_	_	8	comp:aux	_	_
+8	sind	sein	VERB	_	_	4	mod@relcl	_	_
+9	auf	auf	ADP	_	_	2	compound@prt	_	_
+
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	währenddessen	währenddessen	ADV	_	_	3	mod	_	_
+3	fahren	fahren	VERB	_	_	0	root	_	_
+4	zwei	zwei	NUM	_	_	5	mod	_	_
+5	Autos	Auto	NOUN	_	_	3	subj	_	_
+6	rein	rein	ADV	_	_	3	compound@prt	_	_
+7	!	!	PUNCT	_	_	3	punct	_	_
+8	!	!	PUNCT	_	_	3	punct	_	_
+9	!	!	PUNCT	_	_	3	punct	_	_
+
+1	Und	und	CCONJ	_	_	3	cc	_	_
+2	boom	boom	PROPN	_	_	3	discourse	_	_
+3	kannst	k�nnen	AUX	_	_	0	root	_	_
+4	es	es	PRON	_	_	7	comp:obj@expl	_	_
+5	dir	du	PRON	_	_	7	comp:obl	_	_
+6	schon	schon	ADV	_	_	3	mod	_	_
+7	denken	denken	VERB	_	_	3	comp:aux	_	_
+8	...	...	PUNCT	_	_	3	discourse	_	_
+
+1	das	d	DET	_	_	3	det	_	_
+2	este	este	NOUN	_	_	3	compound	_	_
+3	Auto	Auto	NOUN	_	_	4	subj	_	_
+4	bremst	bremsen	VERB	_	_	0	root	_	_
+5	ab	ab	ADP	_	_	4	compound@prt	_	_
+
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	das	d	DET	_	_	3	det	_	_
+3	zweite	zweit	NOUN	_	_	4	subj	_	_
+4	fährt	fährt	VERB	_	_	0	root	_	_
+5	daraufhin	daraufhin	ADV	_	_	4	mod	_	_
+6	volle	voll	ADJ	_	_	7	mod	_	_
+7	Kanne	Kanne	NOUN	_	_	4	mod	_	_
+8	hinten	hinten	ADV	_	_	4	mod	_	_
+9	rein	rein	ADV	_	_	4	compound@prt	_	_
+10	!	!	PUNCT	_	_	4	punct	_	_
+11	!	!	PUNCT	_	_	4	punct	_	_
+
+1	Jetzt	jetzt	ADV	_	_	2	mod	_	_
+2	muss	m�ssen	AUX	_	_	0	root	_	_
+3	man	man	PRON	_	_	2	subj	_	_
+4	die	d	DET	_	_	5	det	_	_
+5	Bullen	Bulle	NOUN	_	_	6	comp:obj	_	_
+6	rufen	rufen	VERB	_	_	2	comp:aux	_	_
+7	...	...	PUNCT	_	_	2	discourse	_	_
+
+1	toll	toll	ADJ	_	_	0	root	_	_
+
+1	alles	alle	PRON	_	_	0	root	_	_
+2	nur	nur	ADV	_	_	3	mod	_	_
+3	wegen	wegen	ADP	_	_	1	orphan	_	_
+4	einem	ein	DET	_	_	5	det	_	_
+5	Ball	Ball	NOUN	_	_	3	comp:obj	_	_
+
+1	:face_with_tears_of_joy:	😂	SYM	_	_	0	root	_	_
+
+1	:face_with_tears_of_joy:	😂	SYM	_	_	0	root	_	_
+
+1	:face_with_tears_of_joy:	😂	SYM	_	_	0	root	_	_
+
+1	:face_with_tears_of_joy:	😂	SYM	_	_	0	root	_	_
+

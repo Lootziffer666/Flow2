@@ -1,0 +1,100 @@
+# text = ﻿ F16
+1	﻿	﻿	SYM	EMO	_	0	root	_	_
+
+1	F16	F16	NOUN	NE	_	0	root	_	_
+
+# text = ein Ball ist in die Straße gerollt
+1	ein	ein	DET	ART	_	2	det	_	_
+2	Ball	Ball	NOUN	NN	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	in	in	ADP	APPR	_	7	comp:obl	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Straße	Straße	NOUN	NN	_	4	comp:obj	_	_
+7	gerollt	rollen	ADJ	VVPP	_	3	comp:aux	_	_
+
+# text = und dann musste ein Auto schnell stoppen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	musste	müssen	AUX	VMFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Auto	Auto	NOUN	NN	_	3	subj	_	_
+6	schnell	schnell	ADJ	ADJD	_	3	mod	_	_
+7	stoppen	stoppen	VERB	VVINF	_	3	comp:aux	_	_
+
+# text = das Auto hinter das erste Auto war nicht schnell genug
+1	das	d	DET	ART	_	2	det	_	_
+2	Auto	Auto	NOUN	NN	_	7	subj	_	_
+3	hinter	hinter	ADP	APPR	_	2	mod	_	_
+4	das	d	DET	ART	_	6	det	_	_
+5	erste	erst	ADJ	ORD	_	6	mod	_	_
+6	Auto	Auto	NOUN	NN	_	3	comp:obj	_	_
+7	war	sein	VERB	VAFIN	_	0	root	_	_
+8	nicht	nicht	PART	PTKNEG	_	7	mod	_	_
+9	schnell	schnell	ADJ	ADJD	_	7	comp:pred	_	_
+10	genug	genug	ADV	PTKMWL	_	9	mod	_	_
+
+# text = und ist in das erste Auto reingefahren .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	in	in	ADP	APPR	_	7	comp:obl	_	_
+4	das	d	DET	ART	_	6	det	_	_
+5	erste	erst	ADJ	ORD	_	6	mod	_	_
+6	Auto	Auto	NOUN	NN	_	3	comp:obj	_	_
+7	reingefahren	reinfahren	VERB	VVPP	_	2	comp:aux	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = das war ein kleiner Unfall
+1	das	d	PRON	PDS	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	5	det	_	_
+4	kleiner	klein	ADJ	ADJA	_	5	mod	_	_
+5	Unfall	Unfall	NOUN	NN	_	2	comp:pred	_	_
+
+# text = und als die Autos gestoppt waren ein Hund ist weggerannt .
+1	und	und	CCONJ	KON	_	9	cc	_	_
+2	als	als	ADP	KOUS	_	10	mod	_	_
+3	die	d	DET	ART	_	4	det	_	_
+4	Autos	Auto	NOUN	NN	_	6	subj	_	_
+5	gestoppt	stoppen	VERB	VVPP	_	6	comp:aux	_	_
+6	waren	sein	VERB	VAFIN	_	2	comp:obj	_	_
+7	ein	ein	DET	ART	_	8	det	_	_
+8	Hund	Hund	NOUN	NN	_	9	subj	_	_
+9	ist	sein	VERB	VAFIN	_	0	root	_	_
+10	weggerannt	rennen	ADJ	VVPP	_	9	comp:aux	_	_
+11	.	.	PUNCT	$.	_	9	punct	_	_
+
+# text = eine Tüte von eine Frau ist umgeschüttet
+1	eine	ein	DET	ART	_	2	det	_	_
+2	Tüte	Tüte	NOUN	NN	_	6	subj	_	_
+3	von	von	ADP	APPR	_	2	mod@poss	_	_
+4	eine	ein	DET	ART	_	5	det	_	_
+5	Frau	Frau	NOUN	NN	_	3	comp:obj	_	_
+6	ist	sein	AUX	VAFIN	_	0	root	_	_
+7	umgeschüttet	umschütten	VERB	VVPP	_	6	comp:aux	_	_
+
+# text = und die Sachen sind auf der Strasse gefallen
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Sachen	Sache	NOUN	NN	_	4	subj	_	_
+4	sind	sein	AUX	VAFIN	_	0	root	_	_
+5	auf	auf	ADP	APPR	_	8	comp:obl	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Strasse	Straße	NOUN	NN	_	5	comp:obj	_	_
+8	gefallen	fallen	VERB	VVPP	_	4	comp:aux	_	_
+
+# text = die Autofahrer haben die Polizei angerufen
+1	die	d	DET	ART	_	2	det	_	_
+2	Autofahrer	Autofahrer	NOUN	NN	_	3	subj	_	_
+3	haben	haben	AUX	VAFIN	_	0	root	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Polizei	Polizei	NOUN	NN	_	6	comp:obj	_	_
+6	angerufen	anrufen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und alles war in Ordnung .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	alles	all	PRON	PIS	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	in	in	ADP	APPR	_	3	comp:pred	_	_
+5	Ordnung	Ordnung	NOUN	NN	_	4	comp:obj	_	_
+6	.	.	PUNCT	$.	_	3	punct	_	_
+

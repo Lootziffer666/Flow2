@@ -1,0 +1,73 @@
+1	hey	hey	INTJ	ITJ	_	0	root	_	_
+2	,	,	PUNCT	PUN	_	1	punct	_	_
+
+1	just	just	ADV	AV0	_	2	advmod	_	_
+2	saw	see	VERB	VVD	_	0	root	_	_
+3	a	a	DET	AT0	_	5	det	_	_
+4	car	car	NOUN	NN1	_	5	compound	_	_
+5	accident	accident	NOUN	NN1	_	2	obj	_	_
+6	in	in	ADP	PRP	_	8	case	_	_
+7	a	a	DET	AT0	_	8	det	_	_
+8	parking	parking	NOUN	NN1	_	2	obl	_	_
+9	.	.	PUNCT	SENT	_	2	punct	_	_
+10	lot	lot	NOUN	NN1	_	11	advmod	_	_
+11	nearby	nearby	ADV	AV0	_	2	advmod	_	_
+12	,	,	PUNCT	PUN	_	2	punct	_	_
+
+1	looks	look	VERB	VVZ	_	0	root	_	_
+2	like	like	SCONJ	CJS	_	5	mark	_	_
+3	everyone	everyone	PRON	PNI	_	5	nsubj	_	_
+4	is	be	AUX	VBZ	_	5	cop	_	_
+5	okay	okay	ADJ	AJ0	_	1	advcl	_	_
+6	though	though	SCONJ	CJS	_	1	discourse	_	_
+
+1	it	it	PRON	PNP	_	3	nsubj	_	_
+2	was	be	AUX	VBD	_	3	cop	_	_
+3	weird	weird	ADJ	AJ0	_	0	root	_	_
+4	,	,	PUNCT	PUN	_	3	punct	_	_
+
+1	everything	everything	PRON	PNI	_	2	nsubj	_	_
+2	happened	happen	VERB	VVD	_	0	root	_	_
+3	at	at	ADP	PRP	_	2	obl	_	_
+4	once	once	ADV	AV0	_	2	advmod	_	_
+5	,	,	PUNCT	PUN	_	2	punct	_	_
+
+1	a	a	DET	AT0	_	2	det	_	_
+2	guy	guy	NOUN	NN1	_	3	nsubj	_	_
+3	dropped	drop	VERB	VVD	_	0	root	_	_
+4	a	a	DET	AT0	_	6	det	_	_
+5	soccer	soccer	NOUN	NN1	_	6	compound	_	_
+6	ball	ball	NOUN	NN1	_	8	obj	_	_
+7	which	which	DET	DTQ	_	8	nsubj	_	_
+8	set	set	VERB	VVD	_	3	ccomp	_	_
+9	off	off	ADP	AVP	_	8	compound:prt	_	_
+10	a	a	DET	AT0	_	11	det	_	_
+11	dog	dog	NOUN	NN1	_	8	obj	_	_
+12	nearby	nearby	ADV	AV0	_	8	advmod	_	_
+13	who	who	PRON	PNQ	_	14	nsubj	_	_
+14	ran	run	VERB	VVD	_	8	ccomp	_	_
+15	in	in	ADP	PRP	_	17	case	_	_
+16	the	the	DET	AT0	_	17	det	_	_
+17	path	path	NOUN	NN1	_	14	obl	_	_
+18	of	of	ADP	PRF	_	20	case	_	_
+19	a	a	DET	AT0	_	20	det	_	_
+20	car	car	NOUN	NN1	_	17	nmod	_	_
+21	,	,	PUNCT	PUN	_	3	punct	_	_
+
+1	then	then	ADV	AV0	_	4	advmod	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	car	car	NOUN	NN1	_	4	nsubj	_	_
+4	came	come	VERB	VVD	_	0	root	_	_
+5	to	to	ADP	PRP	_	8	case	_	_
+6	an	an	DET	AT0	_	8	det	_	_
+7	abrupt	abrupt	ADJ	AJ0	_	8	amod	_	_
+8	stop	stop	NOUN	NN1	_	4	obl	_	_
+
+1	so	so	CCONJ	CJ0	_	6	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	car	car	NOUN	NN1	_	6	nsubj	_	_
+4	behind	behind	ADP	PRP	_	5	case	_	_
+5	it	it	PRON	PNP	_	3	nmod	_	_
+6	rear-ended	rear-end	VERB	VVD	_	0	root	_	_
+7	them	they	PRON	PNP	_	6	obj	_	_
+

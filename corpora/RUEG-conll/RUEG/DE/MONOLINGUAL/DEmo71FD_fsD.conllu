@@ -1,0 +1,407 @@
+# text = ich habe ein junges Paar gesehen das auf dem Bürgersteig entlangelaufen ist
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	5	det	_	_
+4	junges	jung	ADJ	ADJA	_	5	mod	_	_
+5	Paar	Paar	NOUN	NN	_	6	comp:obj	_	_
+6	gesehen	sehen	VERB	VVPP	_	2	comp:aux	_	_
+7	das	d	DET	PRELS	_	12	subj	_	_
+8	auf	auf	ADP	APPR	_	11	comp:obl	_	_
+9	dem	d	DET	ART	_	10	det	_	_
+10	Bürgersteig	Bürgersteig	PROPN	NN	_	8	comp:obj	_	_
+11	entlangelaufen	entlanglaufen	VERB	VVPP	_	12	comp:aux	_	_
+12	ist	sein	AUX	VAFIN	_	5	mod@relcl	_	_
+
+# text = und es schien ein junges Paar zu sein
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	_	3	comp:pred	_	_
+3	schien	scheinen	VERB	VVFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	6	det	_	_
+5	junges	jung	ADJ	ADJA	_	6	mod	_	_
+6	Paar	Paar	NOUN	NN	_	3	subj	_	_
+7	zu	zu	PART	PTKZU	_	3	comp:obj	_	_
+8	sein	sein	VERB	VAINF	_	7	comp:obj	_	_
+
+# text = die Frau hatte ein Kinderwagen bei sich und der Mann einen Ball
+1	die	d	DET	ART	_	2	det	_	_
+2	Frau	Frau	NOUN	NN	_	3	subj	_	_
+3	hatte	haben	VERB	VAFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Kinderwagen	Kinderwagen	NOUN	NN	_	3	comp:obj	_	_
+6	bei	bei	ADP	APPR	_	3	mod	_	_
+7	sich	er|es|sie	PRON	PRF	_	6	comp:obj	_	_
+8	und	und	CCONJ	KON	_	10	cc	_	_
+9	der	d	DET	ART	_	10	det	_	_
+10	Mann	Mann	NOUN	NN	_	3	conj	_	_
+11	einen	ein	DET	ART	_	12	det	_	_
+12	Ball	Ball	NOUN	NN	_	10	orphan	_	_
+
+# text = der Mann hatte ein Basecap auf
+1	der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	hatte	haben	VERB	VAFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Basecap	Basecap	NOUN	NN	_	3	comp:obj	_	_
+6	auf	auf	ADP	PTKVZ	_	3	compound@prt	_	_
+
+# text = und hat diesen Ball gedribbelt vor sich hin
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	diesen	diese	PRON	PDAT	_	4	det	_	_
+4	Ball	Ball	PROPN	NN	_	5	comp:obj	_	_
+5	gedribbelt	dribbeln	VERB	VVPP	_	2	comp:aux	_	_
+6	vor	vor	ADP	APPR	_	5	mod	_	_
+7	sich	er|es|sie	PRON	PRF	_	8	comp:obj	_	_
+8	hin	hin	PART	PTKVZ	_	6	comp:obj	_	_
+
+# text = und sie sind über ein Parkplatz gelaufen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	sie	sie	PRON	PPER	_	3	subj	_	_
+3	sind	sein	AUX	VAFIN	_	0	root	_	_
+4	über	über	ADP	APPR	_	7	comp:obl	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Parkplatz	Parkplatz	NOUN	NN	_	4	comp:obj	_	_
+7	gelaufen	laufen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und als sie die Straße überqueren wollten äh verlor der Mann die Kontrolle über den Ball
+1	und	und	CCONJ	KON	_	9	cc	_	_
+2	als	als	SCONJ	KOUS	_	9	mod	_	_
+3	sie	sie	PRON	PPER	_	7	subj	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Straße	Straße	NOUN	NN	_	6	comp:obj	_	_
+6	überqueren	überqueren	VERB	VVINF	_	7	comp:aux	_	_
+7	wollten	wollen	AUX	VMFIN	_	2	comp:obj	_	_
+8	äh	äh	ADJ	NGHES	_	9	discourse	_	_
+9	verlor	verlieren	VERB	VVFIN	_	0	root	_	_
+10	der	d	DET	ART	_	11	det	_	_
+11	Mann	Mann	NOUN	NN	_	9	subj	_	_
+12	die	d	DET	ART	_	13	det	_	_
+13	Kontrolle	Kontrolle	NOUN	NN	_	9	comp:obj	_	_
+14	über	über	ADP	APPR	_	13	mod	_	_
+15	den	d	DET	ART	_	16	det	_	_
+16	Ball	Ball	NOUN	NN	_	14	comp:obj	_	_
+
+# text = und der Ball ist auf ein parkendes Auto zugerollt vor dem eine Frau stand die gerade ihren Einkauf in den Kofferraum packte
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Ball	Ball	NOUN	NN	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	auf	auf	ADP	APPR	_	9	comp:obl	_	_
+6	ein	ein	DET	ART	_	8	det	_	_
+7	parkendes	parkend	ADJ	ADJA	_	8	mod	_	_
+8	Auto	Auto	NOUN	NN	_	5	comp:obj	_	_
+9	zugerollt	zurollen	AUX	VVPP	_	4	comp:aux	_	_
+10	vor	vor	ADP	APPR	_	14	comp:obl	_	_
+11	dem	d	DET	PDS	_	10	comp:obj	_	_
+12	eine	ein	DET	ART	_	13	det	_	_
+13	Frau	Frau	NOUN	NN	_	14	subj	_	_
+14	stand	stehen	VERB	VVFIN	_	8	mod@relcl	_	_
+15	die	d	DET	PRELS	_	22	subj	_	_
+16	gerade	gerade	ADV	ADV	_	22	mod	_	_
+17	ihren	ihr	DET	PPOSAT	_	18	det	_	_
+18	Einkauf	Einkauf	NOUN	NN	_	22	comp:obj	_	_
+19	in	in	ADP	APPR	_	22	comp:obl	_	_
+20	den	d	DET	ART	_	21	det	_	_
+21	Kofferraum	Kofferraum	NOUN	NN	_	19	comp:obj	_	_
+22	packte	packen	VERB	VVFIN	_	13	mod@relcl	_	_
+
+# text = und neben ihr ihr kleiner schwarzer Hund
+1	und	und	CCONJ	KON	_	7	cc	_	_
+2	neben	neben	ADP	APPR	_	7	orphan	_	_
+3	ihr	sie	PRON	PPER	_	2	comp:obj	_	_
+4	ihr	ihr	PRON	PPOSAT	_	7	det	_	_
+5	kleiner	klein	ADJ	ADJA	_	7	mod	_	_
+6	schwarzer	schwarz	ADJ	ADJA	_	7	mod	_	_
+7	Hund	Hund	NOUN	NN	_	0	root	_	_
+
+# text = und der Hund reagierte auf diesen zurollenden Ball
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	4	subj	_	_
+4	reagierte	reagieren	VERB	VVFIN	_	0	root	_	_
+5	auf	auf	ADP	APPR	_	4	comp:obl	_	_
+6	diesen	diese	PRON	PDAT	_	8	det	_	_
+7	zurollenden	zurollend	ADJ	ADJA	_	8	mod	_	_
+8	Ball	Ball	NOUN	NN	_	5	comp:obj	_	_
+
+# text = und sprang ihm entgegen
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	sprang	springen	VERB	VVFIN	_	0	root	_	_
+3	ihm	er	PRON	PPER	_	2	comp:obj	_	_
+4	entgegen	entgegen	ADP	PTKVZ	_	2	compound@prt	_	_
+
+# text = und rannte über die Straße
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	rannte	rennen	VERB	VVFIN	_	0	root	_	_
+3	über	über	ADP	APPR	_	2	comp:obl	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Straße	Straße	NOUN	NN	_	3	comp:obj	_	_
+
+# text = und in dem Moment wo der Hund auf den Ball zugerannt ist kamen zwei Autos die diese Straße entlangfahren wollten
+1	und	und	CCONJ	KON	_	13	cc	_	_
+2	in	in	ADP	APPR	_	13	mod	_	_
+3	dem	d	DET	ART	_	4	det	_	_
+4	Moment	Moment	NOUN	NN	_	2	comp:obj	_	_
+5	wo	wo	ADV	PWAV	_	11	mod	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Hund	Hund	NOUN	NN	_	12	subj	_	_
+8	auf	auf	ADP	APPR	_	11	comp:obl	_	_
+9	den	d	DET	ART	_	10	det	_	_
+10	Ball	Ball	NOUN	NN	_	8	comp:obj	_	_
+11	zugerannt	zurennen	VERB	VVPP	_	12	comp:aux	_	_
+12	ist	sein	AUX	VAFIN	_	4	mod@relcl	_	_
+13	kamen	kommen	VERB	VVFIN	_	0	root	_	_
+14	zwei	zwei	NUM	CARD	_	15	mod	_	_
+15	Autos	Auto	NOUN	NN	_	13	subj	_	_
+16	die	d	DET	PRELS	_	20	subj	_	_
+17	diese	diese	PRON	PDAT	_	18	det	_	_
+18	Straße	Straße	NOUN	NN	_	19	comp:obj	_	_
+19	entlangfahren	entlangfahren	VERB	VVINF	_	20	comp:aux	_	_
+20	wollten	wollen	AUX	VMFIN	_	15	mod@relcl	_	_
+
+# text = und äh als Reaktion auf diesen Hund der über die Straße rannte bremste das vordere Auto um den Hund nicht zu überfahren
+1	und	und	CCONJ	KON	_	13	cc	_	_
+2	äh	äh	ADJ	NGHES	_	13	discourse	_	_
+3	als	als	ADP	KOKOM	_	13	mod	_	_
+4	Reaktion	Reaktion	NOUN	NN	_	3	comp:obj	_	_
+5	auf	auf	ADP	APPR	_	4	mod	_	_
+6	diesen	diese	PRON	PDAT	_	7	det	_	_
+7	Hund	Hund	NOUN	NN	_	5	comp:obj	_	_
+8	der	d	DET	PRELS	_	12	subj	_	_
+9	über	über	ADP	APPR	_	12	comp:obl	_	_
+10	die	d	DET	ART	_	11	det	_	_
+11	Straße	Straße	NOUN	NN	_	9	comp:obj	_	_
+12	rannte	rennen	VERB	VVFIN	_	7	mod@relcl	_	_
+13	bremste	bremsen	VERB	VVFIN	_	0	root	_	_
+14	das	d	DET	ART	_	16	det	_	_
+15	vordere	vorder	ADJ	ADJA	_	16	mod	_	_
+16	Auto	Auto	NOUN	NN	_	13	subj	_	_
+17	um	um	ADP	KOUI	_	13	mod	_	_
+18	den	d	DET	ART	_	19	det	_	_
+19	Hund	Hund	NOUN	NN	_	22	comp:obj	_	_
+20	nicht	nicht	PART	PTKNEG	_	22	mod	_	_
+21	zu	zu	PART	PTKZU	_	17	comp:obj	_	_
+22	überfahren	überfahren	VERB	VVINF	_	21	comp:obj	_	_
+
+# text = und das hintere Auto konnte nicht so schnell reagieren
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	das	d	DET	ART	_	4	det	_	_
+3	hintere	hinter	ADJ	ADJA	_	4	mod	_	_
+4	Auto	Auto	NOUN	NN	_	5	subj	_	_
+5	konnte	können	AUX	VMFIN	_	0	root	_	_
+6	nicht	nicht	PART	PTKNEG	_	5	mod	_	_
+7	so	so	ADV	PTKIFG	_	8	mod	_	_
+8	schnell	schnell	ADJ	ADJD	_	5	mod	_	_
+9	reagieren	reagieren	VERB	VVFIN	_	5	comp:aux	_	_
+
+# text = und versuchte zu bremsen
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	versuchte	versuchen	VERB	VVFIN	_	0	root	_	_
+3	zu	zu	PART	PTKZU	_	2	comp:obj	_	_
+4	bremsen	bremsen	VERB	VVINF	_	3	comp:obj	_	_
+
+# text = aber es war zu spät
+1	aber	aber	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	_	3	subj@expl	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	zu	zu	ADV	PTKZU	_	5	mod	_	_
+5	spät	spät	ADJ	ADJD	_	3	comp:pred	_	_
+
+# text = und ist dann in das Vordere hineingefahren
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	dann	dann	ADV	ADV	_	2	mod	_	_
+4	in	in	ADP	APPR	_	7	comp:obl	_	_
+5	das	d	DET	ART	_	6	det	_	_
+6	Vordere	Vordere	ADJ	NN	_	4	comp:obj	_	_
+7	hineingefahren	hineinfahren	NOUN	VVPP	_	2	comp:aux	_	_
+
+# text = und es war keiner verletzt
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	_	3	subj@expl	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	keiner	kein	PRON	PIS	_	3	subj	_	_
+5	verletzt	verletzt	VERB	ADJD	_	3	comp:pred	_	_
+
+# text = und die beiden Autofahrer sind auch sofort ausgestiegen
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	die	d	DET	ART	_	4	det	_	_
+3	beiden	beide	PRON	PIDAT	_	4	mod	_	_
+4	Autofahrer	Autofahrer	NOUN	NN	_	5	subj	_	_
+5	sind	sein	VERB	VAFIN	_	0	root	_	_
+6	auch	auch	ADV	PTKIFG	_	5	mod	_	_
+7	sofort	sofort	ADV	ADV	_	5	mod	_	_
+8	ausgestiegen	aussteigen	VERB	VVPP	_	5	comp:aux	_	_
+
+# text = und es schien so als ob der vordere Autofahrer zuerst auf den Mann mit dem Basecap zurennen wollte und ihn schuldig machen wollte
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	_	3	subj@expl	_	_
+3	schien	scheinen	VERB	VVFIN	_	0	root	_	_
+4	so	so	ADV	ADV	_	3	comp:obj	_	_
+5	als	als	ADP	KOKOM	_	4	comp:obj	_	_
+6	ob	ob	SCONJ	KOUS	_	5	fixed	_	_
+7	der	d	DET	ART	_	9	det	_	_
+8	vordere	vorder	ADJ	ADJA	_	9	mod	_	_
+9	Autofahrer	Autofahrer	NOUN	NN	_	18	subj	_	_
+10	zuerst	zuerst	ADV	ADV	_	18	mod	_	_
+11	auf	auf	ADP	APPR	_	17	comp:obl	_	_
+12	den	d	DET	ART	_	13	det	_	_
+13	Mann	Mann	NOUN	NN	_	11	comp:obj	_	_
+14	mit	mit	ADP	APPR	_	13	mod	_	_
+15	dem	d	DET	ART	_	16	det	_	_
+16	Basecap	Basecap	NOUN	NN	_	14	comp:obj	_	_
+17	zurennen	zurennen	VERB	VVINF	_	18	comp:aux	_	_
+18	wollte	wollen	AUX	VMFIN	_	5	comp:obj	_	_
+19	und	und	CCONJ	KON	_	23	cc	_	_
+20	ihn	er	PRON	PPER	_	22	comp:obj	_	_
+21	schuldig	schuldig	ADJ	ADJD	_	22	comp:pred	_	_
+22	machen	machen	VERB	VVINF	_	23	comp:aux	_	_
+23	wollte	wollen	AUX	VMFIN	_	18	conj	_	_
+
+# text = aber als er gesehen hat dass er der Frau mit dem Einkauf half ihn wieder einzuräumen und sich um die Frau kümmerte äh ist er zu dem hinteren Autofahrer gelaufen um mit ihm über die Lage zu reden
+1	aber	aber	ADV	KON	_	24	cc	_	_
+2	als	als	SCONJ	KOUS	_	24	mod	_	_
+3	er	er	PRON	PPER	_	5	subj	_	_
+4	gesehen	sehen	VERB	VVPP	_	5	comp:aux	_	_
+5	hat	haben	AUX	VAFIN	_	2	comp:obj	_	_
+6	dass	dass	SCONJ	KOUS	_	4	comp:obj	_	_
+7	er	er	PRON	PPER	_	13	subj	_	_
+8	der	d	DET	ART	_	9	det	_	_
+9	Frau	Frau	NOUN	NN	_	13	comp:obj	_	_
+10	mit	mit	ADP	APPR	_	9	mod	_	_
+11	dem	d	DET	ART	_	12	det	_	_
+12	Einkauf	Einkauf	NOUN	NN	_	10	comp:obj	_	_
+13	half	helfen	VERB	VVFIN	_	6	comp:obj	_	_
+14	ihn	er	PRON	PPER	_	16	comp:obj	_	_
+15	wieder	wieder	ADV	ADV	_	16	mod	_	_
+16	einzuräumen	einräumen	VERB	VVIZU	_	13	comp:obl	_	_
+17	und	und	CCONJ	KON	_	22	cc	_	_
+18	sich	er|es|sie	PRON	PRF	_	22	comp:obj	_	_
+19	um	um	ADP	APPR	_	22	comp:obl	_	_
+20	die	d	DET	ART	_	21	det	_	_
+21	Frau	Frau	NOUN	NN	_	19	comp:obj	_	_
+22	kümmerte	kümmern	VERB	VVFIN	_	13	conj	_	_
+23	äh	äh	ADJ	NGHES	_	24	discourse	_	_
+24	ist	sein	AUX	VAFIN	_	0	root	_	_
+25	er	er	PRON	PPER	_	24	subj	_	_
+26	zu	zu	ADP	APPR	_	30	comp:obl	_	_
+27	dem	d	DET	ART	_	29	det	_	_
+28	hinteren	hinter	ADJ	ADJA	_	29	mod	_	_
+29	Autofahrer	Autofahrer	NOUN	NN	_	26	comp:obj	_	_
+30	gelaufen	laufen	VERB	VVPP	_	24	comp:aux	_	_
+31	um	um	ADP	KOUI	_	30	mod	_	_
+32	mit	mit	ADP	APPR	_	38	comp:obl	_	_
+33	ihm	er	PRON	PPER	_	32	comp:obj	_	_
+34	über	über	ADP	NN	_	38	mod	_	_
+35	die	d	DET	ART	_	36	det	_	_
+36	Lage	Lage	NOUN	NN	_	34	comp:obj	_	_
+37	zu	zu	PART	PTKZU	_	31	comp:obj	_	_
+38	reden	reden	VERB	VVINF	_	37	comp:obj	_	_
+
+# text = und die haben dann auch sofort die Polizei angerufen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	die	d	PRON	PDS	_	3	subj	_	_
+3	haben	haben	VERB	VAFIN	_	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	auch	auch	ADV	PTKIFG	_	3	mod	_	_
+6	sofort	sofort	ADV	ADV	_	3	mod	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Polizei	Polizei	NOUN	NN	_	9	comp:obj	_	_
+9	angerufen	anrufen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und als der Mann mit dem Basecap der Frau zu Ende geholfen hatte den Einkauf in die Tüte zu packen ist er dann auch zu den beiden Autofahrern gegangen
+1	und	und	CCONJ	KON	_	21	cc	_	_
+2	als	als	ADP	KOUS	_	29	mod	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Mann	Mann	NOUN	NN	_	13	subj	_	_
+5	mit	mit	ADP	APPR	_	4	mod	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	Basecap	Basecap	NOUN	NN	_	5	comp:obj	_	_
+8	der	d	DET	ART	_	9	det	_	_
+9	Frau	Frau	NOUN	NN	_	12	comp:obj	_	_
+10	zu	zu	ADP	APPR	_	12	mod	_	_
+11	Ende	Ende	NOUN	NN	_	10	comp:obj	_	_
+12	geholfen	helfen	VERB	VVPP	_	13	comp:aux	_	_
+13	hatte	haben	AUX	VAFIN	_	2	comp:obj	_	_
+14	den	d	DET	ART	_	15	det	_	_
+15	Einkauf	Einkauf	NOUN	NN	_	20	comp:obj	_	_
+16	in	in	ADP	APPR	_	20	comp:obl	_	_
+17	die	d	DET	ART	_	18	det	_	_
+18	Tüte	Tüte	NOUN	NN	_	16	comp:obj	_	_
+19	zu	zu	PART	PTKZU	_	12	comp:obl	_	_
+20	packen	packen	VERB	VVINF	_	19	comp:obj	_	_
+21	ist	sein	AUX	VAFIN	_	0	root	_	_
+22	er	er	PRON	PPER	_	21	subj	_	_
+23	dann	dann	ADV	ADV	_	21	mod	_	_
+24	auch	auch	ADV	PTKIFG	_	21	mod	_	_
+25	zu	zu	ADP	APPR	_	29	comp:obl	_	_
+26	den	d	DET	ART	_	28	det	_	_
+27	beiden	beide	PRON	PIDAT	_	28	mod	_	_
+28	Autofahrern	Autofahrer	NOUN	NN	_	25	comp:obj	_	_
+29	gegangen	gehen	VERB	VVPP	_	21	comp:aux	_	_
+
+# text = und wollte sich informieren äh wie wie die Lage war
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+3	sich	er|es|sie	PRON	PRF	_	4	comp:obl	_	_
+4	informieren	informieren	VERB	VVINF	_	2	comp:aux	_	_
+5	äh	äh	ADV	NGHES	_	2	discourse	_	_
+6	wie	wie	ADV	KOUS	_	7	reparandum	_	_
+7	wie	wie	ADP	KOUS	_	10	comp:pred	_	_
+8	die	d	DET	ART	_	9	det	_	_
+9	Lage	Lage	NOUN	NN	_	10	subj	_	_
+10	war	sein	VERB	VAFIN	_	4	comp:obj	_	_
+
+# text = also es schien so als ob er sich der Schuld bewusst sei und als er irgendwie helfen wollte
+1	also	also	ADV	SEDM	_	3	discourse	_	_
+2	es	es	PRON	PPER	_	3	subj@expl	_	_
+3	schien	scheinen	VERB	VVFIN	_	0	root	_	_
+4	so	so	ADV	ADV	_	3	comp:pred	_	_
+5	als	als	ADP	KOKOM	_	4	comp:obj	_	_
+6	ob	ob	SCONJ	KOUS	_	5	fixed	_	_
+7	er	er	PRON	PPER	_	12	subj	_	_
+8	sich	er|es|sie	PRON	PRF	_	11	comp:obj	_	_
+9	der	d	DET	ART	_	10	det	_	_
+10	Schuld	Schuld	ADJ	NN	_	11	comp:obl	_	_
+11	bewusst	bewusst	ADJ	ADJD	_	12	comp:pred	_	_
+12	sei	sein	VERB	VAFIN	_	5	comp:obj	_	_
+13	und	und	CCONJ	KON	_	14	cc	_	_
+14	als	als	SCONJ	KOUS	_	5	conj	_	_
+15	er	er	PRON	PPER	_	18	subj	_	_
+16	irgendwie	irgendwie	ADV	ADV	_	18	mod	_	_
+17	helfen	helfen	VERB	VVINF	_	18	comp:aux	_	_
+18	wollte	wollen	AUX	VMFIN	_	14	comp:obj	_	_
+
+# text = und während der ganzen Situation stand die Frau einfach abseits mit ihrem Kinderwagen von der Situation
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	während	während	ADP	APPR	_	6	mod	_	_
+3	der	d	DET	ART	_	5	det	_	_
+4	ganzen	ganz	ADJ	ADJA	_	5	mod	_	_
+5	Situation	Situation	NOUN	NN	_	2	comp:obj	_	_
+6	stand	stehen	VERB	VVFIN	_	0	root	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Frau	Frau	NOUN	NN	_	6	subj	_	_
+9	einfach	einfach	ADJ	PTKMA	_	6	mod	_	_
+10	abseits	abseits	ADP	ADV	_	6	mod	_	_
+11	mit	mit	ADP	APPR	_	6	mod	_	_
+12	ihrem	ihr	DET	PPOSAT	_	13	det	_	_
+13	Kinderwagen	Kinderwagen	NOUN	NN	_	11	comp:obj	_	_
+14	von	von	ADP	APPR	_	10	mod	_	_
+15	der	d	DET	ART	_	16	det	_	_
+16	Situation	Situation	NOUN	NN	_	14	comp:obj	_	_
+
+# text = und nur der Mann mit dem Basecap hatte sich um die Leute gekümmert
+1	und	und	CCONJ	KON	_	8	cc	_	_
+2	nur	nur	ADV	PTKIFG	_	4	mod	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Mann	Mann	NOUN	NN	_	8	subj	_	_
+5	mit	mit	ADP	APPR	_	4	mod	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	Basecap	Basecap	NOUN	NN	_	5	comp:obj	_	_
+8	hatte	haben	AUX	VAFIN	_	0	root	_	_
+9	sich	er|es|sie	PRON	PRF	_	13	comp:obj	_	_
+10	um	um	ADP	APPR	_	13	comp:obl	_	_
+11	die	d	DET	ART	_	12	det	_	_
+12	Leute	Leute	NOUN	NN	_	10	comp:obj	_	_
+13	gekümmert	kümmern	VERB	VVPP	_	8	comp:aux	_	_
+

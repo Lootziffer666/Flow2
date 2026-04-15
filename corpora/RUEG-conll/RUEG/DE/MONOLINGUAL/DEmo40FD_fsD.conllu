@@ -1,0 +1,226 @@
+# text = mein Name ist DEmo40MD
+1	mein	mein	PRON	PPOSAT	_	2	det	_	_
+2	Name	Name	NOUN	NN	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	DEmo40MD	DEmo40MD	PROPN	NE	_	3	comp:pred	_	_
+
+# text = und ich war gerade auf dem Weg zur Arbeit
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	gerade	gerade	ADV	ADV	_	3	mod	_	_
+5	auf	auf	ADP	APPR	_	3	comp:pred	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	Weg	Weg	NOUN	NN	_	5	comp:obj	_	_
+8	zur	zu	PROPN	APPRART	_	7	mod	_	_
+9	Arbeit	Arbeit	PROPN	NN	_	8	comp:obj	_	_
+
+# text = und äh habe etwas beobachtet und zwar den Unfall
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	äh	äh	ADV	NGHES	_	3	discourse	_	_
+3	habe	haben	AUX	VAFIN	_	0	root	_	_
+4	etwas	etwas	ADV	PIS	_	5	comp:obj	_	_
+5	beobachtet	beobachten	VERB	VVPP	_	3	comp:aux	_	_
+6	und	und	CCONJ	KON	_	9	cc	_	_
+7	zwar	zwar	ADV	ADV	_	9	mod	_	_
+8	den	d	DET	ART	_	9	det	_	_
+9	Unfall	Unfall	NOUN	NN	_	4	appos	_	_
+
+# text = die Vorgangsnummer ist F16
+1	die	d	DET	ART	_	2	det	_	_
+2	Vorgangsnummer	Vorgangsnummer	NOUN	NN	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	F16	F16	PROPN	NE	_	3	comp:pred	_	_
+
+# text = und äh ja ich wollte einmal kurz beschreiben wie das passiert ist dass Sie das einmal äh nachher Revue passieren können
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+3	ja	ja	ADV	NGIRR	_	5	discourse	_	_
+4	ich	ich	PRON	PPER	_	5	subj	_	_
+5	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+6	einmal	einmal	ADV	ADV	_	5	mod	_	_
+7	kurz	kurz	ADJ	ADJD	_	5	mod	_	_
+8	beschreiben	beschreiben	VERB	VVINF	_	5	comp:aux	_	_
+9	wie	wie	ADP	PWAV	_	12	mod	_	_
+10	das	d	PRON	PDS	_	12	subj	_	_
+11	passiert	passieren	VERB	VVPP	_	12	comp:aux	_	_
+12	ist	sein	AUX	VAFIN	_	8	comp:obj	_	_
+13	dass	dass	SCONJ	KOUS	_	8	mod	_	_
+14	Sie	sie	PRON	PPER	_	21	subj	_	_
+15	das	d	PRON	PDS	_	20	comp:obj	_	_
+16	einmal	einmal	ADV	ADV	_	21	mod	_	_
+17	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+18	nachher	nachher	ADJ	ADV	_	21	mod	_	_
+19	Revue	Revue	ADV	NN	_	20	comp:obl	_	_
+20	passieren	passieren	VERB	VVINF	_	21	comp:aux	_	_
+21	können	können	AUX	VVFIN	_	13	comp:obj	_	_
+
+# text = und zwar habe ich ein Pärchen beobachtet wo die Frau n Kinderwagen hatte und er äh mit einem Ball gespielt hat
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	zwar	zwar	ADV	ADV	_	3	mod	_	_
+3	habe	haben	VERB	VAFIN	_	0	root	_	_
+4	ich	ich	PRON	PPER	_	3	subj	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Pärchen	Pärchen	NOUN	NN	_	7	comp:obj	_	_
+7	beobachtet	beobachten	VERB	VVPP	_	3	comp:aux	_	_
+8	wo	wo	ADV	PWAV	_	13	mod	_	_
+9	die	d	DET	ART	_	10	det	_	_
+10	Frau	Frau	NOUN	NN	_	13	subj	_	_
+11	n	ein	PROPN	ART	_	12	det	_	_
+12	Kinderwagen	Kinderwagen	NOUN	NN	_	13	comp:obj	_	_
+13	hatte	haben	VERB	VAFIN	_	6	mod@relcl	_	_
+14	und	und	CCONJ	KON	_	21	cc	_	_
+15	er	er	PRON	PPER	_	21	subj	_	_
+16	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+17	mit	mit	ADP	APPR	_	20	mod	_	_
+18	einem	ein	DET	ART	_	19	det	_	_
+19	Ball	Ball	NOUN	NN	_	17	comp:obj	_	_
+20	gespielt	spielen	VERB	VVPP	_	21	comp:aux	_	_
+21	hat	haben	AUX	VAFIN	_	13	conj	_	_
+
+# text = der Ball ist ihm dann aus der Hand gefallen
+1	der	d	DET	ART	_	2	det	_	_
+2	Ball	Ball	NOUN	NN	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	ihm	er	PRON	PPER	_	9	comp:obj	_	_
+5	dann	dann	ADV	ADV	_	3	mod	_	_
+6	aus	aus	ADP	APPR	_	9	comp:obl	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Hand	Hand	NOUN	NN	_	6	comp:obj	_	_
+9	gefallen	fallen	ADJ	VVPP	_	3	comp:aux	_	_
+
+# text = und äh hat ein Hund erschrocken
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	6	comp:obj	_	_
+6	erschrocken	erschrecken	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und äh der Hund ist äh auf die Straße gelaufen
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Hund	Hund	NOUN	NN	_	5	subj	_	_
+5	ist	sein	VERB	VAFIN	_	0	root	_	_
+6	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+7	auf	auf	ADP	APPR	_	10	comp:obl	_	_
+8	die	d	DET	ART	_	9	det	_	_
+9	Straße	Straße	NOUN	NN	_	7	comp:obj	_	_
+10	gelaufen	laufen	VERB	VVPP	_	5	comp:aux	_	_
+
+# text = ach das Ganze ist aufm Parkplatz passiert nicht auf der Straße
+1	ach	ach	ADJ	NGIRR	_	4	discourse	_	_
+2	das	d	DET	ART	_	3	det	_	_
+3	Ganze	Ganze	NOUN	NN	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	aufm	aufm	PROPN	APPART	_	7	mod	_	_
+6	Parkplatz	Parkplatz	PROPN	NN	_	5	comp:obj	_	_
+7	passiert	passieren	VERB	VVFIN	_	4	comp:aux	_	_
+8	nicht	nicht	PART	PTKNEG	_	9	mod	_	_
+9	auf	auf	ADP	APPR	_	5	conj	_	_
+10	der	d	DET	ART	_	11	det	_	_
+11	Straße	Straße	NOUN	NN	_	9	comp:obj	_	_
+
+# text = und äh dann ist halt der Frau die die die den Hund gehalten hat äh eine Einkaufstüte runtergefallen mit ja lediglichen Getränke Obst
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+3	dann	dann	ADV	ADV	_	4	mod	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	halt	halt	ADV	PTKMA	_	4	discourse	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Frau	Frau	NOUN	NN	_	18	comp:obj	_	_
+8	die	d	PRON	PRELS	_	9	reparandum	_	_
+9	die	d	PRON	PRELS	_	10	reparandum	_	_
+10	die	die	PRON	PRELS	_	14	subj	_	_
+11	den	d	DET	ART	_	12	det	_	_
+12	Hund	Hund	NOUN	NN	_	13	comp:obj	_	_
+13	gehalten	halten	VERB	VVPP	_	14	comp:aux	_	_
+14	hat	haben	AUX	VAFIN	_	7	mod@relcl	_	_
+15	äh	äh	ADV	NGHES	_	4	discourse	_	_
+16	eine	ein	DET	ART	_	17	det	_	_
+17	Einkaufstüte	Einkaufstüte	NOUN	NN	_	4	subj	_	_
+18	runtergefallen	runterfallen	VERB	VVPP	_	4	comp:aux	_	_
+19	mit	mit	ADP	APPR	_	17	mod	_	_
+20	ja	ja	ADV	NGIRR	_	4	discourse	_	_
+21	lediglichen	lediglich	ADJ	ADV	_	22	mod	_	_
+22	Getränke	Getränke	NOUN	NN	_	19	comp:obj	_	_
+23	Obst	Obst	NOUN	NN	_	22	conj	_	_
+
+# text = und äh daraufhin musste sind auf dem Parkplatz zwei Autos gewesen
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+3	daraufhin	daraufhin	ADV	ADV	_	5	mod	_	_
+4	musste	müssen	AUX	VMFIN	_	5	reparandum	_	_
+5	sind	sein	AUX	VAFIN	_	0	root	_	_
+6	auf	auf	ADP	APPR	_	11	comp:pred	_	_
+7	dem	d	DET	ART	_	8	det	_	_
+8	Parkplatz	Parkplatz	PROPN	NN	_	6	comp:obj	_	_
+9	zwei	zwei	NUM	CARD	_	10	mod	_	_
+10	Autos	Auto	NOUN	NN	_	5	subj	_	_
+11	gewesen	sein	VERB	VAPP	_	5	comp:aux	_	_
+
+# text = daraufhin musste der Eine stark bremsen
+1	daraufhin	daraufhin	ADV	ADV	_	2	mod	_	_
+2	musste	müssen	AUX	VMFIN	_	0	root	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Eine	Eine	PROPN	NN	_	2	subj	_	_
+5	stark	stark	ADJ	ADJD	_	2	mod	_	_
+6	bremsen	bremsen	VERB	VVINF	_	2	comp:aux	_	_
+
+# text = und äh das hintere Auto ist ihm dann reingefahren
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+3	das	d	DET	ART	_	5	det	_	_
+4	hintere	hinter	ADJ	ADJA	_	5	mod	_	_
+5	Auto	Auto	NOUN	NN	_	6	subj	_	_
+6	ist	sein	VERB	VAFIN	_	0	root	_	_
+7	ihm	er	PRON	PPER	_	9	comp:obj	_	_
+8	dann	dann	ADV	ADV	_	6	mod	_	_
+9	reingefahren	reinfahren	VERB	VVPP	_	6	comp:aux	_	_
+
+# text = die haben auch sofort die Polizei gerufen
+1	die	d	PRON	PDS	_	2	subj	_	_
+2	haben	haben	VERB	VAFIN	_	0	root	_	_
+3	auch	auch	ADV	PTKIFG	_	2	mod	_	_
+4	sofort	sofort	ADV	ADV	_	2	mod	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Polizei	Polizei	NOUN	NN	_	7	comp:obj	_	_
+7	gerufen	rufen	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = ich habe das Ganze gesehen
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	das	d	DET	ART	_	4	det	_	_
+4	Ganze	Ganze	NOUN	NN	_	5	comp:obj	_	_
+5	gesehen	sehen	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = und äh wollte Bescheid geben
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	äh	äh	ADV	NGHES	_	3	discourse	_	_
+3	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+4	Bescheid	Bescheid	NOUN	NN	_	5	comp:obj	_	_
+5	geben	geben	VERB	VVINF	_	3	comp:aux	_	_
+
+# text = Kleinigkeiten könnte ich noch benennen
+1	Kleinigkeiten	Kleinigkeit	NOUN	NN	_	5	comp:obj	_	_
+2	könnte	können	AUX	VMFIN	_	0	root	_	_
+3	ich	ich	PRON	PPER	_	2	subj	_	_
+4	noch	noch	ADV	PTKMWL	_	2	mod	_	_
+5	benennen	benennen	VERB	VVINF	_	2	comp:aux	_	_
+
+# text = das eine Auto war blau das andere weiß
+1	das	d	DET	ART	_	3	det	_	_
+2	eine	ein	ADJ	PIDAT	_	3	mod	_	_
+3	Auto	Auto	NOUN	NN	_	4	subj	_	_
+4	war	sein	VERB	VAFIN	_	0	root	_	_
+5	blau	blau	ADJ	ADJD	_	4	comp:pred	_	_
+6	das	d	DET	ART	_	7	det	_	_
+7	andere	ander	ADJ	PIDS	_	4	conj	_	_
+8	weiß	weiß	NOUN	ADJD	_	7	orphan	_	_
+
+# text = sone Sachen ja
+1	sone	sone	PROPN	PIAT	_	2	mod	_	_
+2	Sachen	Sache	NOUN	NN	_	0	root	_	_
+3	ja	ja	ADV	NGIRR	_	2	discourse	_	_
+

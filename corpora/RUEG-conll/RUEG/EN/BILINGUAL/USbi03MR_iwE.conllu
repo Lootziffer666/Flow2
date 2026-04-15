@@ -1,0 +1,44 @@
+1	the	the	DET	AT0	_	2	det	_	_
+2	man	man	NOUN	NN1	_	0	root	_	_
+3	lost	lose	VERB	VVD	_	2	acl	_	_
+4	the	the	DET	AT0	_	5	det	_	_
+5	ball	ball	NOUN	NN1	_	3	obj	_	_
+6	to	to	ADP	PRP	_	9	case	_	_
+7	which	which	DET	DTQ	_	9	det	_	_
+8	the	the	DET	AT0	_	9	det	_	_
+9	dog	dog	NOUN	NN1	_	3	obl	_	_
+10	reacted	react	VERB	VVD	_	3	advcl	_	_
+11	.	.	PUNCT	SENT	_	2	punct	_	_
+
+1	this	this	DET	DT0	_	2	nsubj	_	_
+2	caused	cause	VERB	VVD	_	0	root	_	_
+3	the	the	DET	AT0	_	4	det	_	_
+4	dog	dog	NOUN	NN1	_	2	obj	_	_
+5	to	to	PART	TO0	_	6	mark	_	_
+6	run	run	VERB	VVI	_	2	xcomp	_	_
+7	into	into	ADP	PRP	_	9	case	_	_
+8	the	the	DET	AT0	_	9	det	_	_
+9	middle	middle	NOUN	NN1	_	6	obl	_	_
+10	of	of	ADP	PRF	_	12	case	_	_
+11	the	the	DET	AT0	_	12	det	_	_
+12	road	road	NOUN	NN1	_	9	nmod	_	_
+13	.	.	PUNCT	SENT	_	2	punct	_	_
+
+1	the	the	DET	AT0	_	3	det	_	_
+2	first	first	ADJ	ORD	_	3	amod	_	_
+3	driver	driver	NOUN	NN1	_	5	nsubj	_	_
+4	then	then	ADV	AV0	_	5	advmod	_	_
+5	braked	brake	VERB	VVD	_	0	root	_	_
+6	and	and	CCONJ	CJC	_	8	cc	_	_
+7	this	this	DET	DT0	_	8	nsubj	_	_
+8	caused	cause	VERB	VVD	_	5	conj	_	_
+9	the	the	DET	AT0	_	11	det	_	_
+10	second	second	ADJ	ORD	_	11	amod	_	_
+11	driver	driver	NOUN	NN1	_	8	obj	_	_
+12	to	to	ADP	PRP	_	13	mark	_	_
+13	rear-end	rear-end	VERB	VVI	_	8	advcl	_	_
+14	the	the	DET	AT0	_	16	det	_	_
+15	first	first	ADJ	ORD	_	16	amod	_	_
+16	car	car	NOUN	NN1	_	13	obj	_	_
+17	.	.	PUNCT	SENT	_	5	punct	_	_
+

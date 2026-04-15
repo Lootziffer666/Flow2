@@ -1,0 +1,123 @@
+# text = Sehr geehrte Damen und Herren ,
+1	Sehr	sehr	ADV	PTKIFG	_	2	mod	_	_
+2	geehrte	geehrte	ADJ	ADJA	_	3	mod	_	_
+3	Damen	Dame	NOUN	NN	_	0	root	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Herren	Herr	NOUN	NN	_	3	conj	_	_
+6	,	,	PUNCT	$,	_	3	punct	_	_
+
+# text = ich wurde am Freitag , dem 04.12.2018 , gegen 15 Uhr Zeuge eines kleinen Autounfalls auf dem Parkplatz des Aldi-Supermarktes an der {streetname}straße 19.
+1	ich	ich	PRON	PPER	_	2	subj@pass	_	_
+2	wurde	werden	AUX	VAFIN	_	0	root	_	_
+3	am	an	ADJ	APPRART	_	2	mod	_	_
+4	Freitag	Freitag	PROPN	NN	_	3	comp:obj	_	_
+5	,	,	PUNCT	$,	_	7	punct	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	04.12.2018	@card@	X	CARD	_	4	appos	_	_
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9	gegen	gegen	ADP	APPR	_	4	mod	_	_
+10	15	@card@	NUM	CARD	_	11	mod	_	_
+11	Uhr	Uhr	NOUN	NN	_	9	comp:obj	_	_
+12	Zeuge	Zeuge	NOUN	NN	_	2	comp:pred	_	_
+13	eines	ein	DET	ART	_	15	det	_	_
+14	kleinen	kleine	ADJ	ADJA	_	15	mod	_	_
+15	Autounfalls	Autounfall	NOUN	NN	_	12	mod@poss	_	_
+16	auf	auf	ADP	APPR	_	15	mod	_	_
+17	dem	d	DET	ART	_	18	det	_	_
+18	Parkplatz	Parkplatz	NOUN	NN	_	16	comp:obj	_	_
+19	des	d	DET	ART	_	20	det	_	_
+20	Aldi-Supermarktes	Aldi-Supermarkt	NOUN	NN	_	18	mod@poss	_	_
+21	an	an	ADP	APPR	_	20	mod	_	_
+22	der	d	DET	ART	_	23	det	_	_
+23	{streetname}straße	{streetname}straße	PROPN	NE	_	21	comp:obj	_	_
+24	19.	@ord@	NUM	CARD	_	23	flat	_	_
+
+# text = Zuerst ließ ein Junge einen Fußball fallen , der dann auf die Straße rollte .
+1	Zuerst	Zuerst	ADV	ADV	_	2	mod	_	_
+2	ließ	lassen	VERB	VVFIN	_	0	root	_	_
+3	ein	ein	DET	PTKVZ	_	4	det	_	_
+4	Junge	Junge	NOUN	NGIRR	_	2	subj	_	_
+5	einen	ein	DET	ART	_	6	det	_	_
+6	Fußball	Fußball	NOUN	NN	_	7	comp:obj	_	_
+7	fallen	fallen	VERB	VVINF	_	2	comp:obj	_	_
+8	,	,	PUNCT	$,	_	2	punct	_	_
+9	der	d	PRON	PRELS	_	14	subj	_	_
+10	dann	dann	ADV	ADV	_	14	mod	_	_
+11	auf	auf	ADP	APPR	_	14	comp:obl	_	_
+12	die	d	DET	ART	_	13	det	_	_
+13	Straße	Straße	NOUN	NN	_	11	comp:obj	_	_
+14	rollte	rollen	VERB	VVFIN	_	6	mod@relcl	_	_
+15	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Der Hund einer Kundin , die ihren Einkauf einpackte , rannte dem Ball hinterher .
+1	Der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	11	subj	_	_
+3	einer	ein	DET	ART	_	4	det	_	_
+4	Kundin	Kundin	NOUN	NN	_	2	mod@poss	_	_
+5	,	,	PUNCT	$,	_	11	punct	_	_
+6	die	d	PRON	PRELS	_	9	subj	_	_
+7	ihren	ihr	DET	PPOSAT	_	8	det	_	_
+8	Einkauf	Einkauf	NOUN	NN	_	9	comp:obj	_	_
+9	einpackte	einpacken	VERB	VVFIN	_	4	mod@relcl	_	_
+10	,	,	PUNCT	$,	_	9	punct	_	_
+11	rannte	rennen	VERB	VVFIN	_	0	root	_	_
+12	dem	d	DET	ART	_	13	det	_	_
+13	Ball	Ball	NOUN	NN	_	11	comp:obj	_	_
+14	hinterher	hinterher	ADV	ADV	_	11	compound@prt	_	_
+15	.	.	PUNCT	$.	_	11	punct	_	_
+
+# text = Daraufhin bremste ein fahrendes blaues Auto abrupt .
+1	Daraufhin	daraufhin	ADV	ADV	_	2	mod	_	_
+2	bremste	bremsen	VERB	VVFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	6	det	_	_
+4	fahrendes	fahrende	ADJ	ADJA	_	6	mod	_	_
+5	blaues	blaue	ADJ	ADJA	_	6	mod	_	_
+6	Auto	Auto	NOUN	NN	_	2	subj	_	_
+7	abrupt	abrupt	ADV	ADJD	_	2	mod	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Das dahinter fahrende silberne Auto reagierte nicht mehr schnell genug
+1	Das	d	DET	PDS	_	5	det	_	_
+2	dahinter	dahinter	ADP	ADV	_	3	mod	_	_
+3	fahrende	fahrende	ADJ	ADJA	_	5	mod	_	_
+4	silberne	silberne	ADJ	ADJA	_	5	mod	_	_
+5	Auto	Auto	NOUN	NN	_	6	subj	_	_
+6	reagierte	reagieren	VERB	VVFIN	_	0	root	_	_
+7	nicht	nicht	PART	PTKNEG	_	6	mod	_	_
+8	mehr	mehr	ADV	PTKMWL	_	7	mod	_	_
+9	schnell	schnell	ADV	ADJD	_	6	mod	_	_
+10	genug	genug	ADV	PTKMWL	_	9	mod	_	_
+
+# text = und fuhr in das blaue Auto .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	fuhr	fahren	VERB	VVFIN	_	0	root	_	_
+3	in	in	ADP	APPR	_	2	comp:obl	_	_
+4	das	d	DET	ART	_	6	det	_	_
+5	blaue	blaue	ADJ	ADJA	_	6	mod	_	_
+6	Auto	Auto	NOUN	NN	_	3	comp:obj	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Dabei ist keine Person zu Schaden gekommen , lediglich das blaue Auto .
+1	Dabei	dabei	ADV	ADV	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	keine	kein	PRON	PIAT	_	4	det	_	_
+4	Person	Person	NOUN	NN	_	2	subj	_	_
+5	zu	zu	ADP	APPR	_	7	comp:obl	_	_
+6	Schaden	Schaden	NOUN	NN	_	5	comp:obj	_	_
+7	gekommen	kommen	ADJ	VVPP	_	2	comp:aux	_	_
+8	,	,	PUNCT	$,	_	2	punct	_	_
+9	lediglich	lediglich	ADV	ADV	_	12	mod	_	_
+10	das	d	DET	ART	_	12	det	_	_
+11	blaue	blaue	ADJ	ADJA	_	12	mod	_	_
+12	Auto	Auto	NOUN	NN	_	4	conj	_	_
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Mit freundlichen Grüßen ,
+1	Mit	mit	ADP	APPR	_	0	root	_	_
+2	freundlichen	freundliche	ADJ	ADJA	_	3	mod	_	_
+3	Grüßen	Gruß	NOUN	NN	_	1	comp:obj	_	_
+4	,	,	PUNCT	$,	_	1	punct	_	_
+
+# text = DEbi64MR
+1	DEbi64MR	DEbi64MR	NOUN	NE	_	0	root	_	_
+

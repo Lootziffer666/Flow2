@@ -1,0 +1,173 @@
+# text = hallo Sophie
+1	hallo	hallo	X	NGIRR	_	2	discourse	_	_
+2	Sophie	Sophie	NOUN	NE	_	0	root	_	_
+
+# text = äh ich habe gerade ein Autounfall miterlebt
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	habe	haben	AUX	VAFIN	_	0	root	_	_
+4	gerade	gerade	ADV	ADV	_	3	mod	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Autounfall	Autounfall	NOUN	NN	_	7	comp:obj	_	_
+7	miterlebt	miterleben	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und zwar äh war ich aufm Parkplatz
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	zwar	zwar	ADV	ADV	_	4	mod	_	_
+3	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+4	war	sein	VERB	VAFIN	_	0	root	_	_
+5	ich	ich	PRON	PPER	_	4	subj	_	_
+6	aufm	auf	PROPN	APPART	_	4	comp:pred	_	_
+7	Parkplatz	Parkplatz	PROPN	NN	_	6	comp:obj	_	_
+
+# text = und äh zwei äh ein Ehepaar ist äh neben mir gelaufen
+1	und	und	CCONJ	KON	_	7	cc	_	_
+2	äh	äh	ADV	NGHES	_	7	discourse	_	_
+3	zwei	zwei	NUM	CARD	_	5	reparandum	_	_
+4	äh	äh	ADV	NGHES	_	7	discourse	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Ehepaar	Ehepaar	NOUN	NN	_	7	subj	_	_
+7	ist	sein	VERB	VAFIN	_	0	root	_	_
+8	äh	äh	ADV	NGHES	_	7	discourse	_	_
+9	neben	neben	ADP	APPR	_	11	comp:obl	_	_
+10	mir	ich	PRON	PPER	_	9	comp:obj	_	_
+11	gelaufen	laufen	VERB	VVPP	_	7	comp:aux	_	_
+
+# text = und links eine Frau die äh ihre Einkaufstüten ausgepackt hat
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	links	links	ADV	ADV	_	4	orphan	_	_
+3	eine	ein	DET	ART	_	4	det	_	_
+4	Frau	Frau	NOUN	NN	_	0	root	_	_
+5	die	d	PRON	PRELS	_	10	subj	_	_
+6	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+7	ihre	ihr	DET	PPOSAT	_	8	det	_	_
+8	Einkaufstüten	Einkaufstüten	NOUN	NN	_	9	comp:obj	_	_
+9	ausgepackt	auspacken	VERB	VVPP	_	10	comp:aux	_	_
+10	hat	haben	AUX	VAFIN	_	4	mod@relcl	_	_
+
+# text = äh und hatte sie hatte ein Hund an einer Leine
+1	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+2	und	und	CCONJ	KON	_	5	cc	_	_
+3	hatte	haben	VERB	VAFIN	_	5	reparandum	_	_
+4	sie	sie	PRON	PPER	_	5	subj	_	_
+5	hatte	haben	VERB	VAFIN	_	0	root	_	_
+6	ein	ein	DET	ART	_	7	det	_	_
+7	Hund	Hund	NOUN	NN	_	5	comp:obj	_	_
+8	an	an	ADP	APPR	_	5	comp:obl	_	_
+9	einer	ein	DET	ART	_	10	det	_	_
+10	Leine	Leine	PROPN	NN	_	8	comp:obj	_	_
+
+# text = und zwei Autos sind reingefahren in den Parkplatz beziehungsweise abgebogen
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	zwei	zwei	NUM	CARD	_	3	mod	_	_
+3	Autos	Auto	NOUN	NN	_	4	subj	_	_
+4	sind	sein	AUX	VAFIN	_	0	root	_	_
+5	reingefahren	reinfahren	VERB	VVPP	_	4	comp:aux	_	_
+6	in	in	ADP	APPR	_	5	comp:obl	_	_
+7	den	d	DET	ART	_	8	det	_	_
+8	Parkplatz	Parkplatz	NOUN	NN	_	6	comp:obj	_	_
+9	beziehungsweise	beziehungsweise	ADV	KON	_	10	cc	_	_
+10	abgebogen	abbiegen	VERB	VVPP	_	4	conj	_	_
+
+# text = und dem Mann fällt sein Ball äh aus der Hand
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	dem	d	DET	ART	_	3	det	_	_
+3	Mann	Mann	NOUN	NN	_	4	comp:obj	_	_
+4	fällt	fallen	VERB	VVFIN	_	0	root	_	_
+5	sein	sein	DET	VAINF	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	4	subj	_	_
+7	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+8	aus	aus	ADP	APPR	_	4	comp:obl	_	_
+9	der	d	DET	ART	_	10	det	_	_
+10	Hand	Hand	NOUN	NN	_	8	comp:obj	_	_
+
+# text = und äh der rollt vors Auto
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	ADV	NGHES	_	4	discourse	_	_
+3	der	die	DET	PDS	_	4	subj	_	_
+4	rollt	rollen	ADJ	VVFIN	_	0	root	_	_
+5	vors	vor	PROPN	APPRART	_	4	comp:obl	_	_
+6	Auto	Auto	NOUN	NN	_	5	comp:obj	_	_
+
+# text = in dem Moment äh kommt der Hund an
+1	in	in	ADP	APPR	_	5	mod	_	_
+2	dem	d	DET	ART	_	3	det	_	_
+3	Moment	Moment	NOUN	NN	_	1	comp:obj	_	_
+4	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+5	kommt	kommen	VERB	VVFIN	_	0	root	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Hund	Hund	NOUN	NN	_	5	subj	_	_
+8	an	an	ADP	PTKVZ	_	5	compound@prt	_	_
+
+# text = und bellt irgendwie den Mann an
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	bellt	bellen	VERB	VVFIN	_	0	root	_	_
+3	irgendwie	irgendwie	ADV	ADV	_	2	mod	_	_
+4	den	d	DET	ART	_	5	det	_	_
+5	Mann	Mann	NOUN	NN	_	2	comp:obj	_	_
+6	an	an	ADP	APPR	_	2	compound@prt	_	_
+
+# text = auf jeden Fall musste das blaue Auto stark bremsen
+1	auf	auf	ADP	APPR	_	9	mod	_	_
+2	jeden	jede	PRON	PIDAT	_	3	det	_	_
+3	Fall	Fall	NOUN	NN	_	1	comp:obj	_	_
+4	musste	müssen	AUX	VMFIN	_	0	root	_	_
+5	das	d	DET	ART	_	7	det	_	_
+6	blaue	blau	ADJ	ADJA	_	7	mod	_	_
+7	Auto	Auto	NOUN	NN	_	4	subj	_	_
+8	stark	stark	ADJ	ADJD	_	4	mod	_	_
+9	bremsen	bremsen	VERB	VVINF	_	4	comp:aux	_	_
+
+# text = und äh dann ist eben ein Auffahrunfall passiert
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+3	dann	dann	ADV	ADV	_	4	mod	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	eben	eben	ADV	PTKMA	_	4	mod	_	_
+6	ein	ein	DET	ART	_	7	det	_	_
+7	Auffahrunfall	Auffahrunfall	NOUN	NN	_	4	subj	_	_
+8	passiert	passieren	VERB	VVPP	_	4	comp:aux	_	_
+
+# text = weil hinter dem Blauen äh war noch ein weißer Wagen
+1	weil	weil	SCONJ	SEDM	_	6	discourse	_	_
+2	hinter	hinter	ADP	APPR	_	6	comp:pred	_	_
+3	dem	d	DET	ART	_	4	det	_	_
+4	Blauen	Blaue	NOUN	NN	_	2	comp:obj	_	_
+5	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+6	war	sein	VERB	VAFIN	_	0	root	_	_
+7	noch	noch	ADV	PTKMWL	_	10	mod	_	_
+8	ein	ein	DET	ART	_	10	det	_	_
+9	weißer	weiß	ADJ	ADJA	_	10	mod	_	_
+10	Wagen	Wagen	NOUN	NN	_	6	subj	_	_
+
+# text = und äh der ist dann aufgefahren auf den blauen Wagen
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	ADV	VVFIN	_	4	discourse	_	_
+3	der	die	PRON	PDS	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	dann	dann	ADV	ADV	_	4	mod	_	_
+6	aufgefahren	auffahren	VERB	VVPP	_	4	comp:aux	_	_
+7	auf	auf	ADP	APPR	_	6	comp:obl	_	_
+8	den	d	DET	ART	_	10	det	_	_
+9	blauen	blau	ADJ	ADJA	_	10	mod	_	_
+10	Wagen	Wagen	NOUN	NN	_	7	comp:obj	_	_
+
+# text = und ja das war die Situation heute gerade eben
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	ja	ja	ADV	NGIRR	_	4	discourse	_	_
+3	das	die	PRON	PDS	_	4	subj	_	_
+4	war	sein	VERB	VAFIN	_	0	root	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Situation	Situation	NOUN	NN	_	4	comp:pred	_	_
+7	heute	heute	ADV	ADV	_	4	mod	_	_
+8	gerade	gerade	ADV	PTKIFG	_	4	mod	_	_
+9	eben	eben	ADV	ADV	_	4	mod	_	_
+
+# text = wollte ich dir nur kurz berichten
+1	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+2	ich	ich	PRON	PPER	_	1	subj	_	_
+3	dir	du	PRON	PRF	_	6	comp:obj	_	_
+4	nur	nur	ADV	PTKIFG	_	1	mod	_	_
+5	kurz	kurz	ADJ	ADJD	_	1	mod	_	_
+6	berichten	berichten	VERB	VVINF	_	1	comp:aux	_	_
+

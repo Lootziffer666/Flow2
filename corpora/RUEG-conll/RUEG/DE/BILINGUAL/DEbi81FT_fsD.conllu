@@ -1,0 +1,135 @@
+1	hallo	hallo	X	NGIRR	_	0	root	_	_
+
+1	hier	hier	ADV	ADV	_	2	orphan	_	_
+2	F16	F16	NOUN	NE	_	0	root	_	_
+
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	sollte	sollen	AUX	VMFIN	_	0	root	_	_
+3	euch	ihr	PRON	PPER	_	4	comp:obl	_	_
+4	schildern	schildern	VERB	VVINF	_	2	comp:aux	_	_
+5	was	was	PRON	PRELS	_	7	comp:obj	_	_
+6	ich	ich	PRON	PPER	_	8	subj	_	_
+7	gesehen	sehen	VERB	VVPP	_	8	comp:aux	_	_
+8	hab	haben	AUX	VAFIN	_	4	comp:obj	_	_
+9	wegen	wegen	ADP	APPR	_	4	mod	_	_
+10	dem	d	DET	ART	_	11	det	_	_
+11	Fall	Fall	NOUN	NN	_	9	comp:obj	_	_
+
+1	so	so	ADV	ADV	_	4	discourse	_	_
+2	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+3	es	es	PRON	PPER	_	4	subj@expl	_	_
+4	kamen	kommen	VERB	VVFIN	_	0	root	_	_
+5	eine	eine	DET	ART	_	6	det	_	_
+6	Frau	Frau	NOUN	NN	_	4	subj	_	_
+7	mit	mit	ADP	APPR	_	6	mod	_	_
+8	einem	ein	DET	ART	_	9	det	_	_
+9	Kinderwagen	Kinderwagen	NOUN	NN	_	7	comp:obj	_	_
+10	und	und	CCONJ	KON	_	14	cc	_	_
+11	neben	neben	ADP	APPR	_	14	mod	_	_
+12	ihr	ihr	PRON	PPER	_	11	comp:obj	_	_
+13	ein	ein	DET	ART	_	14	det	_	_
+14	Mann	Mann	NOUN	NN	_	6	conj	_	_
+15	welcher	welche	PRON	PWS	_	19	subj	_	_
+16	mit	mit	ADP	APPR	_	19	mod	_	_
+17	einem	ein	DET	ART	_	18	det	_	_
+18	Ball	Ball	NOUN	NN	_	16	comp:obj	_	_
+19	spielte	spielen	VERB	VVFIN	_	14	mod@relcl	_	_
+
+1	daraufhin	daraufhin	ADV	ADV	_	2	mod	_	_
+2	räumte	räumen	VERB	VVFIN	_	0	root	_	_
+3	eine	eine	DET	ART	_	5	det	_	_
+4	weitere	weiter	ADJ	ADJA	_	5	mod	_	_
+5	Frau	Frau	NOUN	NN	_	2	subj	_	_
+6	ihr	ihr	PRON	PPOSAT	_	7	reparandum	_	_
+7	ihre	ihr	DET	PPOSAT	_	8	det	_	_
+8	Einkäufe	Einkäufe	NOUN	NN	_	2	comp:obj	_	_
+9	in	in	ADP	APPR	_	2	comp:obl	_	_
+10	ihr	ihr	DET	PPOSAT	_	11	det	_	_
+11	Auto	Auto	NOUN	NN	_	9	comp:obj	_	_
+12	herein	herein	ADJ	ADV	_	13	reparandum	_	_
+13	ein	ein	ADV	PTKVZ	_	2	compound@prt	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	neben	neben	ADP	APPR	_	4	comp:obl	_	_
+3	ihr	ihr	PRON	PPER	_	2	comp:obj	_	_
+4	stand	stehen	VERB	VVFIN	_	0	root	_	_
+5	ihr	ihr	DET	PPOSAT	_	6	det	_	_
+6	Hund	Hund	NOUN	NN	_	4	subj	_	_
+
+1	der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	5	subj	_	_
+3	ließ	lassen	VERB	VVFIN	_	5	reparandum	_	_
+4	das	die	PRON	PDS	_	3	comp:obj	_	_
+5	ließ	lassen	VERB	VVFIN	_	0	root	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Ball	Ball	NOUN	NN	_	13	comp:obj	_	_
+8	aus	aus	ADP	APPR	_	10	reparandum	_	_
+9	seinen	sein	DET	PPOSAT	_	8	comp:obj	_	_
+10	aus	aus	ADP	APPR	_	13	comp:obl	_	_
+11	seiner	sein	DET	PPOSAT	_	12	det	_	_
+12	Hand	Hand	NOUN	NN	_	10	comp:obj	_	_
+13	fallen	fallen	VERB	VVINF	_	5	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	4	subj	_	_
+4	rannte	rennen	VERB	VVFIN	_	0	root	_	_
+5	nach	nach	ADP	APPR	_	4	compound@prt	_	_
+
+1	daraufhin	daraufhin	ADV	ADV	_	2	mod	_	_
+2	kam	kommen	VERB	VVFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	5	det	_	_
+4	blauer	blau	PROPN	ADJA	_	5	mod	_	_
+5	Wagen	Wagen	NOUN	NN	_	2	subj	_	_
+6	und	und	CCONJ	KON	_	9	cc	_	_
+7	ein	ein	DET	ART	_	9	det	_	_
+8	weißer	weiß	ADJ	ADJA	_	9	mod	_	_
+9	Wagen	Wagen	NOUN	NN	_	5	conj	_	_
+10	hintereinander	hintereinander	ADV	ADV	_	2	mod	_	_
+11	angefahren	anfahren	VERB	VVPP	_	2	comp:obl	_	_
+12	auf	auf	ADP	APPR	_	11	comp:obl	_	_
+13	dem	d	DET	ART	_	14	det	_	_
+14	Parkplatz	Parkplatz	NOUN	NN	_	12	comp:obj	_	_
+
+1	der	d	DET	ART	_	3	det	_	_
+2	blaue	blau	ADJ	ADJA	_	3	mod	_	_
+3	Wagen	Wagen	NOUN	NN	_	4	subj	_	_
+4	machte	machen	VERB	VVFIN	_	0	root	_	_
+5	wegen	wegen	ADP	APPR	_	4	mod	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	Hund	Hund	NOUN	NN	_	5	comp:obj	_	_
+8	eine	eine	DET	ART	_	9	det	_	_
+9	Vollbremse	Vollbremsung	NOUN	NN	_	4	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	weiße	weiß	ADJ	ADJA	_	4	subj	_	_
+4	fuhr	fahren	NOUN	VVFIN	_	0	root	_	_
+5	in	in	ADP	APPR	_	4	comp:obl	_	_
+6	ihn	er	PRON	PPER	_	5	comp:obj	_	_
+7	hinein	hinein	PART	ADV	_	4	compound@prt	_	_
+
+1	der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	8	subj	_	_
+3	welcher	welche	PRON	PRELS	_	7	subj	_	_
+4	mit	mit	ADP	APPR	_	7	mod	_	_
+5	dem	d	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	4	comp:obj	_	_
+7	spielte	spielen	VERB	VVFIN	_	2	mod@relcl	_	_
+8	half	helfen	VERB	VVFIN	_	0	root	_	_
+9	der	d	DET	ART	_	10	det	_	_
+10	Frau	Frau	NOUN	NN	_	8	comp:obj	_	_
+11	mit	mit	ADP	APPR	_	8	mod	_	_
+12	ihren	ihr	DET	PPOSAT	_	13	det	_	_
+13	Einkäufen	Einkäufen	NOUN	NN	_	11	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	7	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Fahrer	Fahrer	NOUN	NN	_	7	subj	_	_
+4	des	d	DET	ART	_	6	det	_	_
+5	blauen	blau	ADJ	ADJA	_	6	mod	_	_
+6	Wagens	Wagen	NOUN	NN	_	3	mod@poss	_	_
+7	alamierte	alamieren	VERB	VVFIN	_	0	root	_	_
+8	Sie	Sie	PRON	PPER	_	7	comp:obj	_	_
+9	dann	dann	ADV	ADV	_	7	mod	_	_
+

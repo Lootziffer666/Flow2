@@ -1,0 +1,158 @@
+# text = äh grabu ist fast so ein Hund überfahren weil
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	grabu	grabu	PROPN	UI	_	3	unk	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	fast	fast	ADV	ADV	_	3	mod	_	_
+5	so	so	ADV	PTKIFG	_	7	mod	_	_
+6	ein	ein	DET	ART	_	7	det	_	_
+7	Hund	Hund	NOUN	NN	_	3	subj	_	_
+8	überfahren	überfahren	VERB	VVPP	_	3	comp:aux	_	_
+9	weil	weil	CCONJ	KOUS	_	8	mod	_	_
+
+# text = äh ich war also ich habe es gerade gesehen
+1	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	6	reparandum	_	_
+4	also	also	ADV	ADV	_	6	mod	_	_
+5	ich	ich	PRON	PPER	_	6	subj	_	_
+6	habe	haben	AUX	VAFIN	_	0	root	_	_
+7	es	es	PRON	PPER	_	9	comp:obj	_	_
+8	gerade	gerade	ADV	ADV	_	6	mod	_	_
+9	gesehen	sehen	VERB	VVPP	_	6	comp:aux	_	_
+
+# text = äh da sind zwei Autos so gefahren
+1	äh	äh	ADJ	NGHES	_	3	mod	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	sind	sein	VERB	VAFIN	_	0	root	_	_
+4	zwei	zwei	NUM	CARD	_	5	mod	_	_
+5	Autos	Auto	NOUN	NN	_	3	subj	_	_
+6	so	so	ADV	PTKIFG	_	3	mod	_	_
+7	gefahren	fahren	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und äh ein Mann und äh seine Mutter wahrscheinlich wollten über die Straße gehen
+1	und	und	CCONJ	KON	_	10	cc	_	_
+2	äh	äh	ADJ	NGHES	_	10	discourse	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Mann	Mann	NOUN	NN	_	10	subj	_	_
+5	und	und	CCONJ	KON	_	8	cc	_	_
+6	äh	äh	ADJ	NGHES	_	10	discourse	_	_
+7	seine	sein	DET	PPOSAT	_	8	det	_	_
+8	Mutter	Mutter	NOUN	NN	_	4	conj	_	_
+9	wahrscheinlich	wahrscheinlich	ADJ	ADV	_	8	mod	_	_
+10	wollten	wollen	VERB	VMFIN	_	0	root	_	_
+11	über	über	ADP	APPR	_	14	comp:obl	_	_
+12	die	d	DET	ART	_	13	det	_	_
+13	Straße	Straße	NOUN	NN	_	11	comp:obj	_	_
+14	gehen	gehen	VERB	VVINF	_	10	comp:aux	_	_
+
+# text = und der hat halt einen Ball dabei
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	der	dies	PRON	PDS	_	3	subj	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	halt	halt	ADV	PTKMA	_	3	discourse	_	_
+5	einen	ein	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+7	dabei	dabei	ADV	ADV	_	3	compound@prt	_	_
+
+# text = und der ist ihm halt äh äh der ist ihm äh der ist ihm runtergerollt und vor das Auto
+1	und	und	CCONJ	KON	_	13	cc	_	_
+2	der	dies	PRON	PDS	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	9	reparandum	_	_
+4	ihm	er	PRON	PPER	_	3	comp:obj	_	_
+5	halt	halt	ADV	PTKMA	_	13	discourse	_	_
+6	äh	äh	ADJ	NGHES	_	13	discourse	_	_
+7	äh	äh	ADJ	NGHES	_	13	discourse	_	_
+8	der	dies	PRON	PDS	_	9	subj	_	_
+9	ist	sein	VERB	VAFIN	_	13	reparandum	_	_
+10	ihm	er	PRON	PPER	_	9	comp:obj	_	_
+11	äh	äh	ADJ	NGHES	_	13	discourse	_	_
+12	der	dies	PRON	PDS	_	13	subj	_	_
+13	ist	sein	VERB	VAFIN	_	0	root	_	_
+14	ihm	er	PRON	PPER	_	15	comp:obj	_	_
+15	runtergerollt	runterrollen	ADJ	VVPP	_	13	comp:aux	_	_
+16	und	und	CCONJ	KON	_	17	cc	_	_
+17	vor	vor	ADP	APPR	_	13	conj	_	_
+18	das	d	DET	ART	_	19	det	_	_
+19	Auto	Auto	NOUN	NN	_	17	comp:obj	_	_
+
+# text = durch diesen Ball ist halt der Hund dann auch von der Frau die stand auf der anderen Seite äh ist der wollte der den fangen
+1	durch	durch	ADP	APPR	_	25	mod	_	_
+2	diesen	diese	PRON	PDAT	_	3	det	_	_
+3	Ball	Ball	NOUN	NN	_	1	comp:obj	_	_
+4	ist	sein	VERB	VAFIN	_	20	reparandum	_	_
+5	halt	halt	ADV	PTKMA	_	22	discourse	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Hund	Hund	NOUN	NN	_	4	comp:pred	_	_
+8	dann	dann	ADV	ADV	_	4	mod	_	_
+9	auch	auch	ADV	PTKIFG	_	4	mod	_	_
+10	von	von	ADP	APPR	_	4	mod	_	_
+11	der	d	DET	ART	_	12	det	_	_
+12	Frau	Frau	NOUN	NN	_	10	comp:obj	_	_
+13	die	dies	PRON	PDS	_	14	subj	_	_
+14	stand	stehen	VERB	VVFIN	_	22	parataxis	_	_
+15	auf	auf	ADP	APPR	_	14	comp:obl	_	_
+16	der	d	DET	ART	_	18	det	_	_
+17	anderen	ander	ADJ	PIDAT	_	18	mod	_	_
+18	Seite	Seite	NOUN	NN	_	15	comp:obj	_	_
+19	äh	äh	ADJ	NGHES	_	22	discourse	_	_
+20	ist	sein	VERB	VAFIN	_	22	reparandum	_	_
+21	der	die	DET	PDS	_	20	subj	_	_
+22	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+23	der	dies	PRON	PDS	_	22	subj	_	_
+24	den	dies	DET	PDS	_	25	comp:obj	_	_
+25	fangen	fangen	NOUN	VVFIN	_	22	comp:aux	_	_
+
+# text = und so haben die Autos oder hat das eine Auto fast das äh den Hund überfahren
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	so	so	ADV	ADV	_	3	mod	_	_
+3	haben	haben	VERB	VAFIN	_	7	reparandum	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Autos	Auto	NOUN	NN	_	3	subj	_	_
+6	oder	oder	CCONJ	KON	_	7	cc	_	_
+7	hat	haben	AUX	VAFIN	_	0	root	_	_
+8	das	d	DET	ART	_	10	det	_	_
+9	eine	ein	ADJ	PIDAT	_	10	mod	_	_
+10	Auto	Auto	NOUN	NN	_	7	subj	_	_
+11	fast	fast	ADV	ADV	_	7	mod	_	_
+12	das	dies	DET	PDS	_	14	reparandum	_	_
+13	äh	äh	ADJ	NGHES	_	7	discourse	_	_
+14	den	d	DET	ART	_	15	det	_	_
+15	Hund	Hund	NOUN	NN	_	16	comp:obj	_	_
+16	überfahren	überfahren	VERB	VVPP	_	7	comp:aux	_	_
+
+# text = und jetzt äh äh da war hinter dem einen Auto war noch ein anderes
+1	und	und	CCONJ	KON	_	11	cc	_	_
+2	jetzt	jetzt	ADV	ADV	_	11	mod	_	_
+3	äh	äh	ADJ	NGHES	_	11	discourse	_	_
+4	äh	äh	ADJ	NGHES	_	11	discourse	_	_
+5	da	da	ADV	ADV	_	6	mod	_	_
+6	war	sein	VERB	VAFIN	_	11	reparandum	_	_
+7	hinter	hinter	ADP	APPR	_	11	comp:pred	_	_
+8	dem	d	DET	ART	_	10	det	_	_
+9	einen	ein	PRON	PIDAT	_	10	mod	_	_
+10	Auto	Auto	NOUN	NN	_	7	comp:obj	_	_
+11	war	sein	VERB	VAFIN	_	0	root	_	_
+12	noch	noch	ADV	PTKMWL	_	11	mod	_	_
+13	ein	ein	DET	ART	_	14	det	_	_
+14	anderes	anderes	PRON	PIDS	_	11	subj	_	_
+
+# text = und das hat es jetzt äh hinten angestoßen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	das	die	PRON	PDS	_	3	subj	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	es	es	PRON	PPER	_	8	comp:obj	_	_
+5	jetzt	jetzt	ADV	ADV	_	3	mod	_	_
+6	äh	äh	ADJ	NGHES	_	3	mod	_	_
+7	hinten	hinten	ADV	ADV	_	3	mod	_	_
+8	angestoßen	anstoßen	ADJ	VVPP	_	3	comp:aux	_	_
+
+# text = und ja jetzt muss die Polizei gerufen werden
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	ja	ja	ADV	NGIRR	_	4	discourse	_	_
+3	jetzt	jetzt	ADV	ADV	_	4	mod	_	_
+4	muss	m�ssen	AUX	VMFIN	_	0	root	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Polizei	Polizei	NOUN	NN	_	4	subj@pass	_	_
+7	gerufen	rufen	VERB	VVPP	_	8	comp:aux@pass	_	_
+8	werden	werden	AUX	VAINF	_	4	comp:aux	_	_
+

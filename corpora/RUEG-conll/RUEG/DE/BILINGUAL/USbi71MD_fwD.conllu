@@ -1,0 +1,155 @@
+# text = Um etwa 13 : 30 Uhr heute Nachmittag hab ich während ein Spaziergang vorbei an dem Wehrner-Maxwell Gebäude vorbeigegangen .
+1	Um	um	ADP	APPR	_	19	mod	_	_
+2	etwa	etwa	ADV	ADV	_	6	mod	_	_
+3	13	13	NUM	CARD	_	6	mod	_	_
+4	:	:	PUNCT	$.	_	5	punct	_	_
+5	30	30	NUM	CARD	_	3	mod	_	_
+6	Uhr	Uhr	NOUN	NN	_	1	comp:obj	_	_
+7	heute	heute	ADV	ADV	_	8	mod	_	_
+8	Nachmittag	Nachmittag	PROPN	NN	_	6	mod	_	_
+9	hab	haben	VERB	VAFIN	_	0	root	_	_
+10	ich	ich	PRON	PPER	_	9	subj	_	_
+11	während	während	ADJ	APPR	_	19	mod	_	_
+12	ein	ein	DET	ART	_	13	det	_	_
+13	Spaziergang	Spaziergang	NOUN	NN	_	11	comp:obj	_	_
+14	vorbei	vorbei	ADV	ADV	_	15	mod	_	_
+15	an	an	ADP	APPR	_	19	comp:obl	_	_
+16	dem	d	DET	ART	_	18	det	_	_
+17	Wehrner-Maxwell	Wehrner-Maxwell	NOUN	NE	_	18	compound	_	_
+18	Gebäude	Gebäude	NOUN	NN	_	15	comp:obj	_	_
+19	vorbeigegangen	vorbeigehen	VERB	VVPP	_	9	comp:aux	_	_
+20	.	.	PUNCT	$.	_	9	punct	_	_
+
+# text = Als ich da war , habe ich zwei Autos beobachtet als sie an dem Parkhof angefahrten .
+1	Als	als	SCONJ	KOUS	_	10	mod	_	_
+2	ich	ich	PRON	PPER	_	4	subj	_	_
+3	da	da	ADV	ADV	_	4	comp:pred	_	_
+4	war	sein	VERB	VAFIN	_	1	comp:obj	_	_
+5	,	,	PUNCT	$,	_	1	punct	_	_
+6	habe	haben	AUX	VAFIN	_	0	root	_	_
+7	ich	ich	PRON	PPER	_	6	subj	_	_
+8	zwei	zwei	NUM	CARD	_	9	mod	_	_
+9	Autos	Auto	NOUN	NN	_	10	comp:obj	_	_
+10	beobachtet	beobachten	VERB	VVPP	_	6	comp:aux	_	_
+11	als	als	ADP	KOUS	_	10	mod	_	_
+12	sie	sie	PRON	PPER	_	16	subj	_	_
+13	an	an	ADP	APPR	_	16	comp:obl	_	_
+14	dem	d	DET	ART	_	15	det	_	_
+15	Parkhof	Parkhof	NOUN	NN	_	13	comp:obj	_	_
+16	angefahrten	anfahren	ADJ	VVPP	_	11	comp:obj	_	_
+17	.	.	PUNCT	$.	_	6	punct	_	_
+
+# text = In der Nähe , eine Frau mit einen kleinen hund of eine Linie ladete Obst und Wasserflaschen in ihr Auto .
+1	In	in	ADP	APPR	_	14	mod	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Nähe	Nähe	NOUN	NN	_	1	comp:obj	_	_
+4	,	,	PUNCT	$,	_	14	punct	_	_
+5	eine	ein	DET	ART	_	6	det	_	_
+6	Frau	Frau	NOUN	NN	_	14	subj	_	_
+7	mit	mit	ADP	APPR	_	6	mod	_	_
+8	einen	ein	DET	ART	_	10	det	_	_
+9	kleinen	klein	ADJ	ADJA	_	10	mod	_	_
+10	Hund	Hund	NOUN	NN	_	7	comp:obj	_	_
+11	auf	auf	ADP	APPR	_	10	mod	_	_
+12	eine	ein	DET	ART	_	13	det	_	_
+13	Linie	Linie	NOUN	NN	_	11	comp:obj	_	_
+14	ladete	laden	ADJ	VVFIN	_	0	root	_	_
+15	Obst	Obst	NOUN	NN	_	14	comp:obj	_	_
+16	und	und	CCONJ	KON	_	17	cc	_	_
+17	Wasserflaschen	Wasserflasche	NOUN	NN	_	15	conj	_	_
+18	in	in	ADP	APPR	_	14	comp:obl	_	_
+19	ihr	ihr	DET	PPOSAT	_	20	det	_	_
+20	Auto	Auto	NOUN	NN	_	18	comp:obj	_	_
+21	.	.	PUNCT	$.	_	14	punct	_	_
+
+# text = Als die zwei Autos sich ihr näherten , der Hund hat plötzlich vor dem ersten Auto gesprungen .
+1	Als	als	SCONJ	KON	_	17	mod	_	_
+2	die	d	DET	ART	_	4	det	_	_
+3	zwei	zwei	NUM	CARD	_	4	mod	_	_
+4	Autos	Auto	NOUN	NN	_	7	subj	_	_
+5	sich	er|es|sie	PRON	PRF	_	7	comp:obj	_	_
+6	ihr	sie	PRON	PPER	_	7	comp:obl	_	_
+7	näherten	nähern	VERB	VVFIN	_	1	comp:obj	_	_
+8	,	,	PUNCT	$,	_	1	punct	_	_
+9	der	d	DET	ART	_	10	det	_	_
+10	Hund	Hund	NOUN	NN	_	11	subj	_	_
+11	hat	haben	VERB	VAFIN	_	0	root	_	_
+12	plötzlich	plötzlich	ADJ	ADV	_	11	mod	_	_
+13	vor	vor	ADP	APPR	_	17	comp:obl	_	_
+14	dem	d	DET	ART	_	16	det	_	_
+15	ersten	erst	ADJ	ORD	_	16	mod	_	_
+16	Auto	Auto	NOUN	NN	_	13	comp:obj	_	_
+17	gesprungen	springen	VERB	VVPP	_	11	comp:aux	_	_
+18	.	.	PUNCT	$.	_	11	punct	_	_
+
+# text = Das Auto hat sofort angehalten um den Hund nicht zu treffen .
+1	Das	d	DET	ART	_	2	det	_	_
+2	Auto	Auto	NOUN	NN	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	sofort	sofort	ADV	ADV	_	3	mod	_	_
+5	angehalten	anhalten	VERB	VVPP	_	3	comp:aux	_	_
+6	um	um	ADP	APPR	_	5	mod	_	_
+7	den	d	DET	ART	_	8	det	_	_
+8	Hund	Hund	NOUN	NN	_	11	comp:obj	_	_
+9	nicht	nicht	PART	PTKNEG	_	11	mod	_	_
+10	zu	zu	PART	PTKZU	_	6	comp:obj	_	_
+11	treffen	treffen	VERB	VVINF	_	10	comp:obj	_	_
+12	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Das andere Auto hat einen Moment später dasselbe versucht , aber nicht schnell genug ,
+1	Das	d	DET	ART	_	3	det	_	_
+2	andere	ander	ADJ	PIDAT	_	3	mod	_	_
+3	Auto	Auto	NOUN	NN	_	4	subj	_	_
+4	hat	hat	VERB	FM|VAFIN	_	0	root	_	_
+5	einen	ein	DET	ART	_	6	det	_	_
+6	Moment	Moment	NOUN	NN	_	7	mod	_	_
+7	später	später	ADJ	ADV	_	4	mod	_	_
+8	dasselbe	dasselbe	PRON	PIS	_	9	comp:obj	_	_
+9	versucht	versuchen	VERB	VVPP	_	4	comp:aux	_	_
+10	,	,	PUNCT	$,	_	4	punct	_	_
+11	aber	aber	CCONJ	KON	_	14	cc	_	_
+12	nicht	nicht	PART	PTKNEG	_	14	mod	_	_
+13	schnell	schnell	ADJ	ADJD	_	14	mod	_	_
+14	genug	genug	ADV	PTKMWL	_	4	conj	_	_
+15	,	,	PUNCT	$,	_	14	punct	_	_
+
+# text = und rammte das erste Auto .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	rammte	rammen	VERB	VVFIN	_	0	root	_	_
+3	das	d	DET	ART	_	5	det	_	_
+4	erste	erst	ADJ	ORD	_	5	mod	_	_
+5	Auto	Auto	NOUN	NN	_	2	comp:obj	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Beide Fahrer haben ausgestiegen und den Unfall untersucht .
+1	Beide	beide	PRON	PIAT	_	2	det	_	_
+2	Fahrer	Fahrer	NOUN	NN	_	3	subj	_	_
+3	haben	haben	AUX	VAFIN	_	0	root	_	_
+4	ausgestiegen	aussteigen	VERB	VVPP	_	3	comp:aux	_	_
+5	und	und	CCONJ	KON	_	8	cc	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Unfall	Unfall	NOUN	NN	_	8	comp:obj	_	_
+8	untersucht	untersuchen	VERB	VVPP	_	3	conj	_	_
+9	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Niemand war verletzt ,
+1	Niemand	niemand	PRON	PIS	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	verletzt	verletzt	ADJ	ADJD	_	2	comp:pred	_	_
+4	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = aber der Fahrer von dem ersten Auto hat trotzdem die Polizei angerufen .
+1	aber	aber	ADV	KON	_	8	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Fahrer	Fahrer	NOUN	NN	_	8	subj	_	_
+4	von	von	ADP	APPR	_	3	mod@poss	_	_
+5	dem	d	DET	ART	_	7	det	_	_
+6	ersten	erst	ADJ	ORD	_	7	mod	_	_
+7	Auto	Auto	NOUN	NN	_	4	comp:obj	_	_
+8	hat	hat	AUX	FM|VAFIN	_	0	root	_	_
+9	trotzdem	trotzdem	ADV	ADV	_	8	mod	_	_
+10	die	d	DET	ART	_	11	det	_	_
+11	Polizei	Polizei	NOUN	NN	_	12	comp:obj	_	_
+12	angerufen	anrufen	VERB	VVPP	_	8	comp:aux	_	_
+13	.	.	PUNCT	$.	_	8	punct	_	_
+

@@ -1,0 +1,60 @@
+1	whoa	whoa	INTJ	ITJ	_	4	discourse	_	_
+2	—	—	PUNCT	PUN	_	4	punct	_	_
+3	just	just	ADV	AV0	_	4	advmod	_	_
+4	saw	see	VERB	VVD	_	0	root	_	_
+5	a	a	DET	AT0	_	8	det	_	_
+6	real	real	ADV	AV0	_	7	advmod	_	_
+7	near	near	ADJ	AJ0	_	8	amod	_	_
+8	miss	miss	NOUN	NN1	_	4	obj	_	_
+9	.	.	PUNCT	SENT	_	4	punct	_	_
+
+1	A	a	DET	AT0	_	2	det	_	_
+2	guy	guy	NOUN	NN1	_	4	nsubj:pass	_	_
+3	was	be	AUX	VBD	_	4	aux:pass	_	_
+4	crossing	cross	VERB	VVG	_	0	root	_	_
+5	the	the	DET	AT0	_	6	det	_	_
+6	street	street	NOUN	NN1	_	4	obl	_	_
+7	and	and	CCONJ	CJC	_	8	cc	_	_
+8	bouncing	bounce	VERB	VVG	_	4	conj	_	_
+9	a	a	DET	AT0	_	10	det	_	_
+10	ball	ball	NOUN	NN1	_	8	obj	_	_
+11	when	when	SCONJ	CJS	_	13	mark	_	_
+12	he	he	PRON	PNP	_	13	nsubj	_	_
+13	lost	lose	VERB	VVD	_	8	advcl	_	_
+14	control	control	NOUN	NN1	_	13	obj	_	_
+15	and	and	CCONJ	CJC	_	16	cc	_	_
+16	freaked	freak	VERB	VVD	_	13	conj	_	_
+17	out	out	ADP	AVP	_	16	compound:prt	_	_
+18	this	this	DET	DT0	_	19	det	_	_
+19	dog	dog	NOUN	NN1	_	16	obj	_	_
+20	in	in	ADP	PRP	_	22	case	_	_
+21	the	the	DET	AT0	_	22	det	_	_
+22	middle	middle	NOUN	NN1	_	16	obl	_	_
+23	of	of	ADP	PRF	_	25	case	_	_
+24	the	the	DET	AT0	_	25	det	_	_
+25	road	road	NOUN	NN1	_	22	nmod	_	_
+26	.	.	PUNCT	SENT	_	4	punct	_	_
+
+1	Two	two	NUM	CRD	_	2	nummod	_	_
+2	cars	car	NOUN	NN2	_	4	nsubj	_	_
+3	were	be	AUX	VBD	_	4	cop	_	_
+4	oncoming	oncoming	ADJ	AJ0	_	0	root	_	_
+5	;	;	PUNCT	PUN	_	4	punct	_	_
+
+1	they	they	PRON	PNP	_	2	nsubj	_	_
+2	braked	brake	VERB	VVD	_	0	root	_	_
+3	in	in	ADP	PRP	_	4	case	_	_
+4	time	time	NOUN	NN1	_	2	obl	_	_
+5	,	,	PUNCT	PUN	_	2	punct	_	_
+
+1	bumped	bump	VERB	VVD	_	0	root	_	_
+2	into	into	ADP	PRP	_	4	case	_	_
+3	each	each	DET	DT0	_	4	det	_	_
+4	other	other	NOUN	NN1	_	1	obl	_	_
+
+1	but	but	CCONJ	CJC	_	4	cc	_	_
+2	fortunately	fortunately	ADV	AV0	_	4	advmod	_	_
+3	nobody	nobody	PRON	PNI	_	4	nsubj	_	_
+4	got	get	VERB	VVD	_	0	root	_	_
+5	hurt	hurt	VERB	VVN	_	4	xcomp	_	_
+

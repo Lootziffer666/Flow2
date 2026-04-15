@@ -1,0 +1,144 @@
+# text = ﻿Die Familie mit dem Kinderwagen ist die Straße entlanggelaufen
+1	﻿Die	﻿Die	PRON	_	Case=Nom|PronType=Rel	2	det	_	_
+2	Familie	Familie	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	6	subj	_	_
+3	mit	mit	ADP	_	_	2	mod	_	_
+4	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Kinderwagen	Kinderwagen	NOUN	_	Case=Dat|Number=Plur	3	comp:obj	_	_
+6	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	die	d	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Straße	Straße	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	9	comp:obj	_	_
+9	entlanggelaufen	entlanglaufen	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	comp:aux	_	_
+
+# text = und wollten dann die Straße überqueren .
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	wollten	wollen	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	dann	dann	ADV	_	_	2	mod	_	_
+4	die	d	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Straße	Straße	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	6	comp:obj	_	_
+6	überqueren	überqueren	VERB	_	VerbForm=Inf	2	comp:aux	_	_
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = In dem Moment gleichen Moment ist das blaue Auto gefolgt von dem weißen Auto um die Kurve gefahren .
+1	In	in	ADP	_	_	18	mod	_	_
+2	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+3	Moment	Moment	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	5	reparandum	_	_
+4	gleichen	gleich	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	5	mod	_	_
+5	Moment	Moment	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	1	comp:obj	_	_
+6	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	das	d	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+8	blaue	blau	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	mod	_	_
+9	Auto	Auto	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	6	subj	_	_
+10	gefolgt	folgen	VERB	_	Tense=Past|VerbForm=Part	6	mod	_	_
+11	von	von	ADP	_	_	10	mod	_	_
+12	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	14	det	_	_
+13	weißen	weiß	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	14	mod	_	_
+14	Auto	Auto	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	11	comp:obj	_	_
+15	um	um	ADP	_	_	18	comp:obl	_	_
+16	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Kurve	Kurve	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	15	comp:obj	_	_
+18	gefahren	fahren	VERB	_	Tense=Past|VerbForm=Part	6	comp:aux	_	_
+19	.	.	PUNCT	_	_	6	punct	_	_
+
+# text = Beim überqueren der Straße ist dem Mann der Familie der Ball aus der Hand gefallen was dazu führte dass der Hund der Frau , welche auf der anderen Straßenseite stand zum Ball wollte .
+1	Beim	beim	ADV	_	_	15	mod	_	_
+2	Überqueren	Überqueren	VERB	_	Number=Plur|Person=3|VerbForm=Fin	1	comp:obj	_	_
+3	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Straße	Straße	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	2	mod@poss	_	_
+5	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Mann	Mann	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	15	comp:obj	_	_
+8	der	d	DET	_	Definite=Def|PronType=Art	9	det	_	_
+9	Familie	Familie	NOUN	_	_	7	mod@poss	_	_
+10	der	d	DET	_	Definite=Def|PronType=Art	11	det	_	_
+11	Ball	Ball	NOUN	_	_	5	subj	_	_
+12	aus	aus	ADP	_	_	15	comp:obl	_	_
+13	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Hand	Hand	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	12	comp:obj	_	_
+15	gefallen	gefallen	VERB	_	Tense=Past|VerbForm=Part	5	comp:aux	_	_
+16	was	was	PRON	_	Case=Nom|Number=Sing|PronType=Int	18	subj	_	_
+17	dazu	dazu	ADV	_	_	18	comp:obl	_	_
+18	führte	führte	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	mod	_	_
+19	dass	dass	SCONJ	_	_	17	comp:obj	_	_
+20	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Hund	Hund	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	33	subj	_	_
+22	der	d	DET	_	Definite=Def|PronType=Art	23	det	_	_
+23	Frau	Frau	NOUN	_	_	21	mod@poss	_	_
+24	,	,	PUNCT	_	_	5	punct	_	_
+25	welche	welche	PRON	_	Case=Nom|PronType=Rel	30	subj	_	_
+26	auf	auf	ADP	_	_	30	comp:obl	_	_
+27	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	anderen	ander	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	29	mod	_	_
+29	Straßenseite	Straßenseite	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	26	comp:obj	_	_
+30	stand	stehen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	mod@relcl	_	_
+31	zum	zum	NOUN	_	Case=Nom|Gender=Masc,Neut|Number=Sing	33	comp:obl	_	_
+32	Ball	Ball	PROPN	_	_	31	comp:obj	_	_
+33	wollte	wollen	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	comp:obj	_	_
+34	.	.	PUNCT	_	_	5	punct	_	_
+
+# text = Dabei ist der Hund auf die Straße gelaufen
+1	Dabei	dabei	ADV	_	_	2	mod	_	_
+2	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Hund	Hund	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	subj	_	_
+5	auf	auf	ADP	_	_	8	comp:obl	_	_
+6	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	comp:obj	_	_
+8	gelaufen	laufen	VERB	_	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+
+# text = und der Einkauf der Frau ist ebenfalls auf die Straße vom Parklplatz gefallen .
+1	und	und	CCONJ	_	_	6	cc	_	_
+2	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Einkauf	Einkauf	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	subj	_	_
+4	der	d	DET	_	Definite=Def|PronType=Art	5	det	_	_
+5	Frau	Frau	NOUN	_	_	3	mod@poss	_	_
+6	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	ebenfalls	ebenfalls	ADV	_	_	6	mod	_	_
+8	auf	auf	ADP	_	_	13	comp:obl	_	_
+9	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	8	comp:obj	_	_
+11	vom	vom	PROPN	_	_	10	mod@poss	_	_
+12	Parklplatz	Parklplatz	PROPN	_	_	11	comp:obj	_	_
+13	gefallen	gefallen	VERB	_	Tense=Past|VerbForm=Part	6	comp:aux	_	_
+14	.	.	PUNCT	_	_	6	punct	_	_
+
+# text = Dadurch dass die Straße durch den Hund plötzlich blockiert wurde , musste der Fahrer vom blauen Auto schnell bremsen
+1	Dadurch	dadurch	ADV	_	_	19	mod	_	_
+2	dass	dass	SCONJ	_	_	1	comp:obj	_	_
+3	die	d	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Straße	Straße	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	10	subj	_	_
+5	durch	durch	ADP	_	_	9	comp:obl	_	_
+6	den	d	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Hund	Hund	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	comp:obj	_	_
+8	plötzlich	plötzlich	ADV	_	_	10	mod	_	_
+9	blockiert	blockieren	VERB	_	Tense=Past|VerbForm=Part	10	comp:aux@pass	_	_
+10	wurde	werden	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	comp:obj	_	_
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	musste	müssen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Fahrer	Fahrer	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	12	subj	_	_
+15	vom	vom	PROPN	_	_	14	mod@poss	_	_
+16	blauen	blau	VERB	_	Number=Plur|Person=3|VerbForm=Fin	17	mod	_	_
+17	Auto	Auto	PROPN	_	Case=Nom|Number=Sing	15	comp:obj	_	_
+18	schnell	schnell	ADJ	_	Degree=Pos	12	mod	_	_
+19	bremsen	bremsen	PROPN	_	_	12	comp:aux	_	_
+
+# text = und das weiße Auto hinter ihm konnte nicht schnell genug reagieren
+1	und	und	CCONJ	_	_	7	cc	_	_
+2	das	d	DET	_	Definite=Def|PronType=Art	4	det	_	_
+3	weiße	weiße	ADJ	_	Degree=Pos	4	mod	_	_
+4	Auto	Auto	NOUN	_	_	7	subj	_	_
+5	hinter	hinter	ADP	_	_	4	mod	_	_
+6	ihm	er	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	_
+7	konnte	können	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	nicht	nicht	PART	_	_	7	mod	_	_
+9	schnell	schnell	ADJ	_	Degree=Pos	7	mod	_	_
+10	genug	genug	ADV	_	_	9	mod	_	_
+11	reagieren	reagieren	VERB	_	VerbForm=Inf	7	comp:aux	_	_
+
+# text = und ist ihm aufgefahren .
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	ist	sein	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ihm	er	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	_
+4	aufgefahren	auffahren	VERB	_	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+5	.	.	PUNCT	_	_	2	punct	_	_
+

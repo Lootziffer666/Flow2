@@ -1,0 +1,174 @@
+# text = Ich war am Samstagmittag um 12.00 Uhr auf dem Parkplatz vom REWE Supermarkt
+1	Ich	ich	PRON	PPER	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	am	an	ADJ	APPRART	_	2	mod	_	_
+4	Samstagmittag	Samstagmittag	PROPN	NN	_	3	comp:obj	_	_
+5	um	um	ADP	APPR	_	4	mod	_	_
+6	12.00	12.00	PROPN	@card@	_	7	mod	_	_
+7	Uhr	Uhr	null	NN	_	5	comp:obj	_	_
+8	auf	auf	ADP	APPR	_	2	comp:pred	_	_
+9	dem	d	DET	ART	_	10	det	_	_
+10	Parkplatz	Parkplatz	NOUN	NN	_	8	comp:obj	_	_
+11	vom	vom	PROPN	APPRART	_	10	mod@poss	_	_
+12	REWE	REWE	PROPN	NE	_	13	compound	_	_
+13	Supermarkt	Supermarkt	PROPN	NN	_	11	comp:obj	_	_
+
+# text = und habe dort Folgendes beobachtet :
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	dort	dort	ADV	ADV	_	2	mod	_	_
+4	Folgendes	Folgende	NOUN	NN	_	5	comp:obj	_	_
+5	beobachtet	beobachten	VERB	VVPP	_	2	comp:aux	_	_
+6	:	:	PUNCT	$.	_	2	punct	_	_
+
+# text = Auf dem Bürgersteig liefen ein Mann mit einem Fußball in der Hand und eine Frau mit einem Kinderwagen .
+1	Auf	auf	ADP	APPR	_	4	comp:obl	_	_
+2	dem	d	DET	ART	_	3	det	_	_
+3	Bürgersteig	Bürgersteig	PROPN	NN	_	1	comp:obj	_	_
+4	liefen	laufen	VERB	VVFIN	_	0	root	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Mann	Mann	NOUN	NN	_	4	subj	_	_
+7	mit	mit	ADP	APPR	_	6	mod	_	_
+8	einem	ein	DET	ART	_	9	det	_	_
+9	Fußball	Fußball	NOUN	NN	_	7	comp:obj	_	_
+10	in	in	ADP	APPR	_	9	mod	_	_
+11	der	d	DET	ART	_	12	det	_	_
+12	Hand	Hand	NOUN	NN	_	10	comp:obj	_	_
+13	und	und	CCONJ	KON	_	15	cc	_	_
+14	eine	ein	DET	ART	_	15	det	_	_
+15	Frau	Frau	NOUN	NN	_	6	conj	_	_
+16	mit	mit	ADP	APPR	_	15	mod	_	_
+17	einem	ein	DET	ART	_	18	det	_	_
+18	Kinderwagen	Kinderwagen	NOUN	NN	_	16	comp:obj	_	_
+19	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Die beiden Personen wollten die Straße auf dem Parkplatz überqueren .
+1	Die	d	DET	ART	_	3	det	_	_
+2	beiden	beide	PRON	PIDAT	_	3	mod	_	_
+3	Personen	Person	NOUN	NN	_	4	subj	_	_
+4	wollten	wollen	VERB	VMFIN	_	0	root	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Straße	Straße	NOUN	NN	_	10	comp:obj	_	_
+7	auf	auf	ADP	APPR	_	6	mod	_	_
+8	dem	d	DET	ART	_	9	det	_	_
+9	Parkplatz	Parkplatz	NOUN	NN	_	7	comp:obj	_	_
+10	überqueren	überqueren	VERB	VVINF	_	4	comp:aux	_	_
+11	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Auf der anderen Straßenseite packte eine Frau ihren Einkauf in das Auto .
+1	Auf	auf	ADP	APPR	_	5	mod	_	_
+2	der	d	DET	ART	_	4	det	_	_
+3	anderen	ander	ADJ	PIDAT	_	4	mod	_	_
+4	Straßenseite	Straßenseite	NOUN	NN	_	1	comp:obj	_	_
+5	packte	packen	VERB	VVFIN	_	0	root	_	_
+6	eine	eine	DET	ART	_	7	det	_	_
+7	Frau	Frau	NOUN	NN	_	5	subj	_	_
+8	ihren	ihr	DET	PPOSAT	_	9	det	_	_
+9	Einkauf	Einkauf	NOUN	NN	_	5	comp:obj	_	_
+10	in	in	ADP	APPR	_	5	comp:obl	_	_
+11	das	d	DET	ART	_	12	det	_	_
+12	Auto	Auto	NOUN	NN	_	10	comp:obj	_	_
+13	.	.	PUNCT	$.	_	5	punct	_	_
+
+# text = Es war ein lautes Geräusch zu hören .
+1	In	in	ADP	APPR	_	5	comp:obl	_	_
+2	der	d	DET	ART	_	4	det	_	_
+3	einen	ein	ADJ	ART	_	4	mod	_	_
+4	Hand	Hand	NOUN	NN	_	1	comp:obj	_	_
+5	hielt	halten	VERB	VVFIN	_	0	root	_	_
+6	sie	sie	PRON	PPER	_	5	subj	_	_
+7	eine	ein	DET	ART	_	8	det	_	_
+8	Tüte	Tüte	NOUN	NE	_	5	comp:obj	_	_
+9	,	,	PUNCT	$,	_	5	punct	_	_
+10	in	in	ADP	APPR	_	15	orphan	_	_
+11	der	d	DET	ART	_	13	det	_	_
+12	anderen	ander	ADJ	PIDAT	_	13	mod	_	_
+13	Hand	Hand	NOUN	NN	_	10	comp:obj	_	_
+14	ihren	ihr	VERB	PPOSAT	_	15	mod	_	_
+15	Hund	Hund	NOUN	NN	_	5	conj	_	_
+16	.	.	PUNCT	$.	_	5	punct	_	_
+
+# text = Dem Mann auf der anderen Straßenseite fiel der Fußball auf den Fuß
+1	Dem	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	7	comp:obj	_	_
+3	auf	auf	ADP	APPR	_	2	mod	_	_
+4	der	d	DET	ART	_	6	det	_	_
+5	anderen	ander	ADJ	PIDAT	_	6	mod	_	_
+6	Straßenseite	Straßenseite	NOUN	NN	_	3	comp:obj	_	_
+7	fiel	fallen	VERB	VVFIN	_	0	root	_	_
+8	der	d	DET	ART	_	9	det	_	_
+9	Fußball	Fußball	NOUN	NN	_	7	subj	_	_
+10	auf	auf	ADP	APPR	_	7	comp:obl	_	_
+11	den	d	DET	ART	_	12	det	_	_
+12	Fuß	Fuß	NOUN	NN	_	10	comp:obj	_	_
+
+# text = und rollte über die Straße .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	rollte	rollen	VERB	VVFIN	_	0	root	_	_
+3	über	über	ADP	APPR	_	2	comp:obl	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Straße	Straße	NOUN	NN	_	3	comp:obj	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Währendessen kamen zwei Autos hintereinander .
+1	Währendessen	Währendessen	NOUN	KON	_	2	cc	_	_
+2	kamen	kommen	VERB	VVFINk	_	0	root	_	_
+3	zwei	zwei	NUM	CARD	_	4	mod	_	_
+4	Autos	Auto	NOUN	NN	_	2	subj	_	_
+5	hintereinander	hintereinander	ADV	ADJD	_	2	mod	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Der Hund sah den Ball
+1	Der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	3	subj	_	_
+3	sah	sehen	VERB	VVFIN	_	0	root	_	_
+4	den	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+
+# text = und ist ihm hinterhergerannt ,
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	ihm	er	PRON	PPER	_	4	comp:obj	_	_
+4	hinterhergerannt	hinterherrennen	ADJ	VVPP	_	2	comp:aux	_	_
+5	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = dabei fiel der Frau der Einkauf aus der Hand .
+1	dabei	dabei	ADV	ADV	_	2	mod	_	_
+2	fiel	fallen	VERB	VVFIN	_	0	root	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Frau	Frau	NOUN	NN	_	2	comp:obj	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Einkauf	Einkauf	NOUN	NN	_	2	subj	_	_
+7	aus	aus	ADP	APPR	_	2	comp:obl	_	_
+8	der	d	DET	ART	_	9	det	_	_
+9	Hand	Hand	NOUN	NN	_	7	comp:obj	_	_
+10	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Dadurch bremste der erste Wagen
+1	Dadurch	dadurch	ADV	ADV	_	2	mod	_	_
+2	bremste	bremsen	VERB	VVFIN	_	0	root	_	_
+3	der	d	DET	ART	_	5	det	_	_
+4	erste	erst	ADJ	ORD	_	5	mod	_	_
+5	Wagen	Wagen	NOUN	NN	_	2	subj	_	_
+
+# text = und der zweite Wagen fuhr dem ersteren auf .
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	der	d	DET	ART	_	4	det	_	_
+3	zweite	zweit	PROPN	ORD	_	4	mod	_	_
+4	Wagen	Wagen	PROPN	NN	_	5	subj	_	_
+5	fuhr	fahren	VERB	VVFIN	_	0	root	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	ersteren	ersteren	ADJ	PIDS	_	5	comp:obj	_	_
+8	auf	auf	ADP	PTKVZ	_	5	compound@prt	_	_
+9	.	.	PUNCT	$.	_	5	punct	_	_
+
+# text = Es war ein lautes Geräusch zu hören .
+1	Es	es	PRON	PPER	_	2	subj@expl	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	5	det	_	_
+4	lautes	laut	ADJ	ADJD	_	5	mod	_	_
+5	Geräusch	Geräusch	NOUN	NN	_	2	subj	_	_
+6	zu	zu	PART	PTKZU	_	2	comp:pred	_	_
+7	hören	hören	VERB	VVINF	_	6	comp:obj	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+

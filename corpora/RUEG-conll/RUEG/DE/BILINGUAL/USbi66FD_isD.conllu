@@ -1,0 +1,150 @@
+# text = hallo USbi77FD_P
+1	hallo	hallo	X	NGIRR	_	2	discourse	_	_
+2	USbi77FD_P	USbi77FD_P	X	NE	_	0	root	_	_
+
+# text = also ich bin gerade äh beim äh ich weiß nicht wo das ist aber bei irgendeinem Parkplatz
+1	also	also	ADV	SEDM	_	3	discourse	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	bin	sein	VERB	VAFIN	_	0	root	_	_
+4	gerade	gerade	ADV	ADV	_	3	mod	_	_
+5	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+6	beim	bei	ADV	APPRART	_	15	reparandum	_	_
+7	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+8	ich	ich	PRON	PPER	_	9	subj	_	_
+9	weiß	wissen	VERB	VVFIN	_	3	parataxis	_	_
+10	nicht	nicht	PART	PTKNEG	_	9	mod	_	_
+11	wo	wo	ADV	PWAV	_	13	comp:pred	_	_
+12	das	d	PRON	ART	_	13	subj	_	_
+13	ist	sein	VERB	VAFIN	_	9	comp:obj	_	_
+14	aber	aber	ADV	KON	_	3	discourse	_	_
+15	bei	bei	ADP	APPR	_	3	comp:pred	_	_
+16	irgendeinem	irgendeine	PRON	PIAT	_	17	det	_	_
+17	Parkplatz	Parkplatz	NOUN	NN	_	15	comp:obj	_	_
+
+# text = und ich hab gerade gesehen wie dieses
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	hab	haben	AUX	VAFIN	_	0	root	_	_
+4	gerade	gerade	ADV	ADJD	_	3	mod	_	_
+5	gesehen	sehen	VERB	VVPP	_	3	comp:aux	_	_
+6	wie	wie	CCONJ	PWAV	_	7	mod	_	_
+7	dieses	diese	PRON	PDAT	_	5	comp:obj	_	_
+
+# text = also es gab so ein Mann
+1	also	also	ADV	SEDM	_	3	discourse	_	_
+2	es	es	PRON	PPER	_	3	subj@expl	_	_
+3	gab	geben	VERB	VVFIN	_	0	root	_	_
+4	so	so	ADV	PTKIFG	_	6	mod	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Mann	Mann	NOUN	NN	_	3	comp:obj	_	_
+
+# text = und der ist mit seiner Frau und seinem Kind spazieren gegangen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	der	d	PRON	PDS	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	mit	mit	ADP	APPR	_	10	mod	_	_
+5	seiner	sein	DET	PPOSAT	_	6	det	_	_
+6	Frau	Frau	NOUN	NN	_	4	comp:obj	_	_
+7	und	und	CCONJ	KON	_	9	cc	_	_
+8	seinem	sein	DET	PPOSAT	_	9	det	_	_
+9	Kind	Kind	NOUN	NN	_	6	conj	_	_
+10	spazieren	spazieren	VERB	VVINF	_	11	comp:obj	_	_
+11	gegangen	gehen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = hat aus Versehen den Ball so äh vor das Auto gerollt
+1	hat	haben	AUX	VAFIN	_	0	root	_	_
+2	aus	aus	ADP	APPR	_	10	mod	_	_
+3	Versehen	Versehen	NOUN	NN	_	2	comp:obj	_	_
+4	den	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	10	comp:obj	_	_
+6	so	so	ADV	SEDM|ADV	_	1	mod	_	_
+7	äh	äh	ADJ	NGHES	_	1	discourse	_	_
+8	vors	vors	ADP	APPR	_	10	comp:obl	_	_
+9	Auto	Auto	NOUN	NN	_	8	comp:obj	_	_
+10	gerollt	rollen	VERB	VVPP	_	1	comp:aux	_	_
+
+# text = und dann ist so ein Hund verrückt geworden
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	so	so	ADV	PTKIFG	_	6	mod	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Hund	Hund	NOUN	NN	_	3	subj	_	_
+7	verrückt	verrückt	ADJ	VVPP	_	8	comp:pred	_	_
+8	geworden	werden	VERB	VAPP	_	3	comp:aux	_	_
+
+# text = und das das ein blaues Auto ist äh ist also
+1	und	und	CCONJ	KON	_	9	cc	_	_
+2	das	d	PRON	ART	_	3	reparandum	_	_
+3	das	d	PRON	ART	_	4	reparandum	_	_
+4	ein	ein	DET	ART	_	6	det	_	_
+5	blaues	blau	ADJ	ADJA	_	6	mod	_	_
+6	Auto	Auto	NOUN	NN	_	9	subj	_	_
+7	ist	sein	VERB	VAFIN	_	9	reparandum	_	_
+8	äh	äh	ADJ	NGHES	_	9	discourse	_	_
+9	ist	sein	VERB	VAFIN	_	0	root	_	_
+10	also	also	ADV	SEDM	_	9	discourse	_	_
+
+# text = der Mann hat den Ball gerollt
+1	der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	den	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	6	comp:obj	_	_
+6	gerollt	rollen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und der das blaue Auto war fast beim Überfahren
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	der	d	PRON	ART	_	3	reparandum	_	_
+3	das	d	DET	ART	_	5	det	_	_
+4	blaue	blau	ADJ	ADJA	_	5	mod	_	_
+5	Auto	Auto	NOUN	NN	_	6	subj	_	_
+6	war	sein	VERB	VAFIN	_	0	root	_	_
+7	fast	fast	ADV	ADV	_	6	mod	_	_
+8	beim	bei	ADV	APPRART	_	6	comp:pred	_	_
+9	Überfahren	Überfahren	NOUN	NN	_	8	comp:obj	_	_
+
+# text = und da hat er das hat das Auto gestoppt
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	da	da	ADV	ADV	_	6	mod	_	_
+3	hat	haben	VERB	VAFIN	_	6	reparandum	_	_
+4	er	er	PRON	PPER	_	3	subj	_	_
+5	es	es	PRON	PPER	_	3	comp:obj	_	_
+6	hat	haben	VERB	VAFIN	_	0	root	_	_
+7	das	d	DET	ART	_	8	det	_	_
+8	Auto	Auto	NOUN	NN	_	6	subj	_	_
+9	gestoppt	stoppen	ADJ	VVPP	_	6	comp:aux	_	_
+
+# text = und das Auto hinter dem blauen Auto äh ist dann in das blaue Auto reingefahren
+1	und	und	CCONJ	KON	_	9	cc	_	_
+2	das	d	DET	ART	_	3	det	_	_
+3	Auto	Auto	NOUN	NN	_	9	subj	_	_
+4	hinter	hinter	ADP	APPR	_	3	mod	_	_
+5	dem	d	DET	ART	_	7	det	_	_
+6	blauen	blau	ADJ	ADJA	_	7	mod	_	_
+7	Auto	Auto	NOUN	NN	_	4	comp:obj	_	_
+8	äh	äh	ADJ	NGHES	_	9	discourse	_	_
+9	ist	sein	VERB	VAFIN	_	0	root	_	_
+10	dann	dann	ADV	ADV	_	9	mod	_	_
+11	in	in	ADP	APPR	_	15	comp:obl	_	_
+12	das	d	DET	ART	_	14	det	_	_
+13	blaue	blau	ADJ	ADJA	_	14	mod	_	_
+14	Auto	Auto	NOUN	NN	_	11	comp:obj	_	_
+15	reingefahren	reinfahren	VERB	VVPP	_	9	comp:aux	_	_
+
+# text = und jetzt also niemand ist verletzt
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	jetzt	jetzt	ADV	ADV	_	5	mod	_	_
+3	also	also	ADV	SEDM	_	5	discourse	_	_
+4	niemand	niemand	PRON	PIS	_	5	subj	_	_
+5	ist	sein	AUX	VAFIN	_	0	root	_	_
+6	verletzt	verletzt	VERB	ADJD	_	5	comp:pred	_	_
+
+# text = aber es war etwas crazy
+1	aber	aber	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	_	3	subj@expl	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	etwas	etwas	ADV	PIAT	_	5	mod	_	_
+5	crazy	crazy	ADJ	FM	_	3	comp:pred	_	_
+
+

@@ -1,0 +1,50 @@
+1	Hey	hey	INTJ	ITJ	_	0	root	_	_
+2	!	!	PUNCT	SENT	_	1	punct	_	_
+
+1	I	i	PRON	PNP	_	3	nsubj	_	_
+2	just	just	ADV	AV0	_	3	advmod	_	_
+3	saw	see	VERB	VVD	_	0	root	_	_
+4	a	a	DET	AT0	_	6	det	_	_
+5	car	car	NOUN	NN1	_	6	compound	_	_
+6	accident	accident	NOUN	NN1	_	3	obj	_	_
+7	in	in	ADP	PRP	_	10	case	_	_
+8	the	the	DET	AT0	_	10	det	_	_
+9	parking	parking	NOUN	NN1	_	10	compound	_	_
+10	lot	lot	NOUN	NN1	_	6	nmod	_	_
+11	.	.	PUNCT	SENT	_	3	punct	_	_
+
+1	there	there	ADV	EX0	_	4	advmod	_	_
+2	was	be	AUX	VBD	_	4	cop	_	_
+3	a	a	DET	AT0	_	4	det	_	_
+4	dog	dog	NOUN	NN1	_	0	root	_	_
+5	that	that	SCONJ	CJT	_	8	mark	_	_
+6	was	be	AUX	VBD	_	8	aux:pass	_	_
+7	almost	almost	ADV	AV0	_	8	advmod	_	_
+8	hit	hit	VERB	VVN	_	4	parataxis	_	_
+
+1	but	but	CCONJ	CJC	_	4	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	car	car	NOUN	NN1	_	4	nsubj	_	_
+4	stopped	stop	VERB	VVD	_	0	root	_	_
+5	before	before	SCONJ	CJS	_	7	mark	_	_
+6	it	it	PRON	PNP	_	7	nsubj	_	_
+7	happened	happen	VERB	VVD	_	4	advcl	_	_
+8	.	.	PUNCT	SENT	_	4	punct	_	_
+
+1	There	there	ADV	EX0	_	6	advmod	_	_
+2	was	be	AUX	VBD	_	6	cop	_	_
+3	also	also	ADV	AV0	_	6	advmod	_	_
+4	a	a	DET	AT0	_	6	det	_	_
+5	little	little	ADJ	AJ0	_	6	advmod	_	_
+6	baby	baby	NOUN	NN1	_	0	root	_	_
+7	and	and	CCONJ	CJC	_	9	cc	_	_
+8	its	it	DET	DPS	_	9	det	_	_
+9	parents	parent	NOUN	NN2	_	6	conj	_	_
+
+1	but	but	CCONJ	CJC	_	5	cc	_	_
+2	no	no	DET	AT0	_	3	det	_	_
+3	one	one	PRON	PNI	_	5	nsubj	_	_
+4	was	be	AUX	VBD	_	5	cop	_	_
+5	hurt	hurt	VERB	VVN	_	0	root	_	_
+6	.	.	PUNCT	SENT	_	5	punct	_	_
+

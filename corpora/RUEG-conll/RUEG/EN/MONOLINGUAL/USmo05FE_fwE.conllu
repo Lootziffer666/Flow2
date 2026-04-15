@@ -1,0 +1,64 @@
+1	Case	case	NOUN	NN1	_	2	case	_	_
+2	F16	F16	PROPN	NP0	_	0	root	_	_
+
+1	I	i	PRON	PNP	_	2	nsubj	_	_
+2	witnessed	witness	VERB	VVD	_	0	root	_	_
+3	today	today	ADV	AV0	_	2	advmod	_	_
+4	two	two	NUM	CRD	_	5	nummod	_	_
+5	cars	car	NOUN	NN2	_	11	nsubj	_	_
+6	in	in	ADP	PRP	_	10	case	_	_
+7	a	a	DET	AT0	_	10	det	_	_
+8	minor	minor	ADJ	AJ0	_	10	amod	_	_
+9	fender	fender	NOUN	NN1	_	10	compound	_	_
+10	bender	bender	NOUN	NN1	_	11	obl	_	_
+11	involving	involve	VERB	VVG	_	2	ccomp	_	_
+12	two	two	NUM	CRD	_	14	advmod	_	_
+13	pedestrians	pedestrian	NOUN	NN2	_	14	punct	_	_
+14	crossing	cross	VERB	VVG	_	11	ccomp	_	_
+15	the	the	DET	AT0	_	16	mark	_	_
+16	crossing	crossing	VERB	VVG	_	14	advcl	_	_
+17	the	the	DET	AT0	_	19	det	_	_
+18	parking	parking	NOUN	NN1	_	19	compound	_	_
+19	lot	lot	NOUN	NN1	_	16	obj	_	_
+20	.	.	PUNCT	SENT	_	14	punct	_	_
+
+1	One	one	NUM	CRD	_	2	nummod	_	_
+2	person	person	NOUN	NN1	_	0	root	_	_
+3	attempted	attempt	VERB	VVD	_	2	acl	_	_
+4	to	to	PART	TO0	_	5	mark	_	_
+5	cross	cross	VERB	VVI	_	3	xcomp	_	_
+6	the	the	DET	AT0	_	7	det	_	_
+7	road	road	NOUN	NN1	_	5	obj	_	_
+8	in	in	ADP	PRP	_	13	case	_	_
+9	front	front	ADP	PRP	_	8	case	_	_
+10	of	of	ADP	PRF	_	13	case	_	_
+11	the	the	DET	AT0	_	13	det	_	_
+12	blue	blue	ADJ	AJ0	_	13	amod	_	_
+13	car	car	NOUN	NN1	_	5	obl	_	_
+14	in	in	ADP	PRP	_	15	case	_	_
+15	front	front	NOUN	NN1	_	5	obl	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	was	be	AUX	VBD	_	3	aux:pass	_	_
+3	hit	hit	VERB	VVN	_	0	root	_	_
+4	by	by	ADP	PRP	_	7	case	_	_
+5	a	a	DET	AT0	_	7	det	_	_
+6	white	white	ADJ	AJ0	_	7	amod	_	_
+7	car	car	NOUN	NN1	_	3	obl	_	_
+8	from	from	ADP	PRP	_	9	case	_	_
+9	behind	behind	ADV	AV0	_	3	obl	_	_
+10	when	when	SCONJ	CJS	_	12	mark	_	_
+11	they	they	PRON	PNP	_	12	nsubj	_	_
+12	stopped	stop	VERB	VVD	_	3	advcl	_	_
+13	abruptly	abruptly	ADV	AV0	_	12	advmod	_	_
+14	.	.	PUNCT	SENT	_	3	punct	_	_
+
+1	No	no	DET	AT0	_	2	det	_	_
+2	one	one	PRON	PNI	_	4	nsubj:pass	_	_
+3	was	be	AUX	VBD	_	4	aux:pass	_	_
+4	hurt	hurt	VERB	VVN	_	0	root	_	_
+5	in	in	ADP	PRP	_	7	case	_	_
+6	the	the	DET	AT0	_	7	det	_	_
+7	incident	incident	NOUN	NN1	_	4	obl	_	_
+8	.	.	PUNCT	SENT	_	4	punct	_	_
+

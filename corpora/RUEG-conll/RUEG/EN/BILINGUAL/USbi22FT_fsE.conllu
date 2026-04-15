@@ -1,0 +1,260 @@
+1	hi	hi	INTJ	ITJ	_	0	root	_	_
+
+1	I	i	PRON	PNP	_	3	nsubj	_	_
+2	would	would	AUX	VM0	_	3	aux	_	_
+3	like	like	VERB	VVI	_	0	root	_	_
+4	to	to	PART	TO0	_	5	mark	_	_
+5	report	report	VERB	VVI	_	3	xcomp	_	_
+6	an	an	DET	AT0	_	7	det	_	_
+7	incident	incident	NOUN	NN1	_	5	obj	_	_
+
+1	my	i	DET	DPS	_	7	det	_	_
+2	case	case	NOUN	NN1	_	7	punct	_	_
+3	the	the	DET	AT0	_	5	det	_	_
+4	case	case	NOUN	NN1	_	5	compound	_	_
+5	number	number	NOUN	NN1	_	7	nsubj	_	_
+6	is	be	AUX	VBZ	_	7	cop	_	_
+7	F16	F16	PROPN	NP0	_	0	root	_	_
+
+1	I	i	PRON	PNP	_	3	nsubj	_	_
+2	just	just	ADV	AV0	_	3	advmod	_	_
+3	wanted	want	VERB	VVD	_	0	root	_	_
+4	to	to	PART	TO0	_	5	mark	_	_
+5	give	give	VERB	VVI	_	3	xcomp	_	_
+6	a	a	DET	AT0	_	9	det	_	_
+7	a	a	DET	AT0	_	9	det	_	_
+8	spoken	spoken	ADJ	AJ0	_	9	amod	_	_
+9	testimony	testimony	NOUN	NN1	_	5	obj	_	_
+10	about	about	ADP	PRP	_	11	case	_	_
+11	what	what	DET	DTQ	_	9	nmod	_	_
+12	I	i	PRON	PNP	_	13	nsubj	_	_
+13	saw	see	VERB	VVD	_	11	acl:relcl	_	_
+
+1	they	they	PRON	PNP	_	7	nsubj	_	_
+2	we	we	PRON	PNP	_	7	nsubj	_	_
+3	were	be	AUX	VBD	_	7	cop	_	_
+4	in	in	ADP	PRP	_	7	case	_	_
+5	a	a	DET	AT0	_	7	det	_	_
+6	parking	parking	NOUN	NN1	_	7	compound	_	_
+7	lot	lot	NOUN	NN1	_	0	root	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	there	there	ADV	EX0	_	5	advmod	_	_
+3	was	be	AUX	VBD	_	5	cop	_	_
+4	three	three	NUM	CRD	_	5	nummod	_	_
+5	groups	group	NOUN	NN2	_	6	nsubj	_	_
+6	involved	involve	VERB	VVD	_	0	root	_	_
+
+1	there	there	ADV	EX0	_	5	advmod	_	_
+2	was	be	AUX	VBD	_	5	cop	_	_
+3	a	a	DET	AT0	_	4	det	_	_
+4	lady	lady	NOUN	NN1	_	5	obl:npmod	_	_
+5	putting	put	VERB	VVG	_	0	root	_	_
+6	groceries	grocery	NOUN	NN2	_	5	obj	_	_
+7	in	in	ADP	PRP	_	9	case	_	_
+8	her	she	DET	DPS	_	9	det	_	_
+9	car	car	NOUN	NN1	_	5	obl	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	she	she	PRON	PNP	_	5	nsubj	_	_
+3	had	have	AUX	VHD	_	5	aux	_	_
+4	a	a	DET	AT0	_	5	det	_	_
+5	dog	dog	NOUN	NN1	_	0	root	_	_
+6	with	with	ADP	PRP	_	7	case	_	_
+7	her	she	PRON	PNP	_	5	nmod	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	there	there	ADV	EX0	_	5	expl	_	_
+3	was	be	AUX	VBD	_	5	cop	_	_
+4	a	a	DET	AT0	_	5	det	_	_
+5	family	family	NOUN	NN1	_	0	root	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	guy	guy	NOUN	NN1	_	0	root	_	_
+4	in	in	ADP	PRP	_	6	case	_	_
+5	the	the	DET	AT0	_	6	det	_	_
+6	family	family	NOUN	NN1	_	3	nmod	_	_
+7	he	he	PRON	PNP	_	9	nsubj:pass	_	_
+8	was	be	AUX	VBD	_	9	aux:pass	_	_
+9	carrying	carry	VERB	VVG	_	3	parataxis	_	_
+10	a	a	DET	AT0	_	12	det:predet	_	_
+11	a	a	DET	AT0	_	12	det	_	_
+12	football	football	NOUN	NN1	_	9	obj	_	_
+
+1	he	he	PRON	PNP	_	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	_	3	aux:pass	_	_
+3	playing	play	VERB	VVG	_	0	root	_	_
+4	around	around	ADP	AVP	_	3	compound:prt	_	_
+5	with	with	ADP	PRP	_	7	case	_	_
+6	a	a	DET	AT0	_	7	det	_	_
+7	football	football	NOUN	NN1	_	3	obl	_	_
+
+1	and	and	CCONJ	CJC	_	7	cc	_	_
+2	then	then	ADV	AV0	_	3	advmod	_	_
+3	there	there	ADV	EX0	_	7	advmod	_	_
+4	were	be	AUX	VBD	_	7	cop	_	_
+5	two	two	NUM	CRD	_	7	advmod	_	_
+6	cars	car	NOUN	NN2	_	7	nsubj	_	_
+7	entering	enter	VERB	VVG	_	0	root	_	_
+8	into	into	ADP	PRP	_	11	case	_	_
+9	the	the	DET	AT0	_	11	det	_	_
+10	parking	parking	NOUN	NN1	_	11	compound	_	_
+11	lot	lot	NOUN	NN1	_	7	obl	_	_
+
+1	the	the	DET	AT0	_	2	det	_	_
+2	guy	guy	NOUN	NN1	_	0	root	_	_
+3	with	with	ADP	PRP	_	5	case	_	_
+4	the	the	DET	AT0	_	5	det	_	_
+5	football	football	NOUN	NN1	_	2	nmod	_	_
+6	lost	lose	VERB	VVD	_	2	acl	_	_
+7	track	track	NOUN	NN1	_	6	obj	_	_
+8	of	of	ADP	PRF	_	10	case	_	_
+9	the	the	DET	AT0	_	10	det	_	_
+10	ball	ball	NOUN	NN1	_	7	nmod	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	it	it	PRON	PNP	_	3	nsubj	_	_
+3	went	go	VERB	VVD	_	0	root	_	_
+4	in	in	ADP	PRP	_	5	case	_	_
+5	front	front	NOUN	NN1	_	3	obl	_	_
+6	of	of	ADP	PRF	_	7	case	_	_
+7	him	he	PRON	PNP	_	5	nmod	_	_
+8	by	by	ADP	PRP	_	10	case	_	_
+9	the	the	DET	AT0	_	10	det	_	_
+10	cars	car	NOUN	NN2	_	3	obl	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	dog	dog	NOUN	NN1	_	4	nsubj	_	_
+4	seeing	see	VERB	VVG	_	7	conj	_	_
+5	the	the	DET	AT0	_	6	det	_	_
+6	football	football	NOUN	NN1	_	7	nsubj	_	_
+7	reacted	react	VERB	VVD	_	0	root	_	_
+
+1	and	and	CCONJ	CJC	_	2	cc	_	_
+2	jumped	jump	VERB	VVD	_	0	root	_	_
+3	towards	towards	ADP	PRP	_	4	case	_	_
+4	it	it	PRON	PNP	_	2	obl	_	_
+
+1	the	the	DET	AT0	_	2	det	_	_
+2	lady	lady	NOUN	NN1	_	3	nsubj	_	_
+3	grabbed	grab	VERB	VVD	_	0	root	_	_
+4	the	the	DET	AT0	_	7	det:predet	_	_
+5	the	the	DET	AT0	_	7	det	_	_
+6	the	the	DET	AT0	_	7	det	_	_
+7	leash	leash	NOUN	NN1	_	3	obj	_	_
+8	of	of	ADP	PRF	_	10	case	_	_
+9	the	the	DET	AT0	_	10	det	_	_
+10	dog	dog	NOUN	NN1	_	7	nmod	_	_
+
+1	so	so	CCONJ	CJ0	_	6	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	dog	dog	NOUN	NN1	_	6	nsubj	_	_
+4	was	be	AUX	VBD	_	6	cop	_	_
+5	not	not	PART	XX0	_	6	advmod	_	_
+6	able	able	ADJ	AJ0	_	0	root	_	_
+7	to	to	PART	TO0	_	8	mark	_	_
+8	go	go	VERB	VVI	_	6	xcomp	_	_
+9	anywhere	anywhere	ADV	AV0	_	8	advmod	_	_
+
+1	but	but	CCONJ	CJC	_	5	cc	_	_
+2	the	the	DET	AT0	_	4	det	_	_
+3	first	first	ADJ	ORD	_	4	amod	_	_
+4	car	car	NOUN	NN1	_	5	nsubj	_	_
+5	stopped	stop	VERB	VVD	_	0	root	_	_
+6	suddenly	suddenly	ADV	AV0	_	5	advmod	_	_
+7	because	because	SCONJ	CJS	_	9	mark	_	_
+8	he	he	PRON	PNP	_	9	nsubj	_	_
+9	thought	think	VERB	VVD	_	5	advcl	_	_
+10	someone	someone	PRON	PNI	_	13	obj	_	_
+11	well	well	INTJ	ITJ	_	13	discourse	_	_
+12	I	i	PRON	PNP	_	13	nsubj	_	_
+13	think	think	VERB	VVB	_	9	xcomp	_	_
+14	because	because	SCONJ	CJS	_	16	mark	_	_
+15	he	he	PRON	PNP	_	16	nsubj	_	_
+16	thought	think	VERB	VVD	_	13	advcl	_	_
+17	someone	someone	PRON	PNI	_	19	nsubj	_	_
+18	might	might	AUX	VM0	_	19	aux	_	_
+19	jump	jump	VERB	VVI	_	16	ccomp	_	_
+20	in	in	ADP	PRP	_	21	case	_	_
+21	front	front	NOUN	NN1	_	19	obl	_	_
+22	like	like	INTJ	ITJ	_	24	discourse	_	_
+23	the	the	DET	AT0	_	24	det	_	_
+24	dog	dog	NOUN	NN1	_	19	obl	_	_
+25	or	or	CCONJ	CJC	_	27	cc	_	_
+26	the	the	DET	AT0	_	27	det	_	_
+27	lady	lady	NOUN	NN1	_	24	conj	_	_
+28	or	or	CCONJ	CJC	_	30	cc	_	_
+29	the	the	DET	AT0	_	30	det	_	_
+30	guy	guy	NOUN	NN1	_	24	conj	_	_
+31	with	with	ADP	PRP	_	33	case	_	_
+32	the	the	DET	AT0	_	33	det	_	_
+33	football	football	NOUN	NN1	_	30	nmod	_	_
+
+1	and	and	CCONJ	CJC	_	9	cc	_	_
+2	the	the	DET	AT0	_	4	det	_	_
+3	second	second	ADJ	ORD	_	4	amod	_	_
+4	car	car	NOUN	NN1	_	9	nsubj	_	_
+5	did	do	AUX	VDD	_	9	aux	_	_
+6	not	not	PART	XX0	_	9	advmod	_	_
+7	have	have	AUX	VHI	_	9	aux	_	_
+8	enough	enough	DET	DT0	_	9	det	_	_
+9	time	time	NOUN	NN1	_	0	root	_	_
+10	to	to	PART	TO0	_	11	mark	_	_
+11	react	react	VERB	VVI	_	9	acl	_	_
+
+1	so	so	CCONJ	CJ0	_	5	cc	_	_
+2	once	once	SCONJ	CJS	_	5	mark	_	_
+3	he	he	PRON	PNP	_	5	nsubj	_	_
+4	did	do	AUX	VDD	_	5	aux	_	_
+5	he	he	PRON	PNP	_	0	root	_	_
+6	when	when	SCONJ	CJS	_	7	mark	_	_
+7	he	he	PRON	PNP	_	5	advcl	_	_
+8	once	once	SCONJ	CJS	_	10	mark	_	_
+9	he	he	PRON	PNP	_	10	nsubj	_	_
+10	pressed	press	VERB	VVD	_	7	advcl	_	_
+11	his	he	DET	DPS	_	12	det	_	_
+12	brakes	brake	NOUN	NN2	_	10	obj	_	_
+13	he	he	PRON	PNP	_	14	nsubj	_	_
+14	hit	hit	VERB	VVD	_	12	acl:relcl	_	_
+15	the	the	DET	AT0	_	17	det	_	_
+16	first	first	ADJ	ORD	_	17	amod	_	_
+17	car	car	NOUN	NN1	_	14	obj	_	_
+
+1	and	and	CCONJ	CJC	_	8	cc	_	_
+2	then	then	ADV	AV0	_	8	advmod	_	_
+3	the	the	DET	AT0	_	4	det	_	_
+4	guy	guy	NOUN	NN1	_	8	nsubj	_	_
+5	with	with	ADP	PRP	_	7	case	_	_
+6	the	the	DET	AT0	_	7	det	_	_
+7	football	football	NOUN	NN1	_	4	nmod	_	_
+8	helped	help	VERB	VVD	_	0	root	_	_
+9	out	out	ADP	AVP	_	8	compound:prt	_	_
+10	the	the	DET	AT0	_	11	det	_	_
+11	lady	lady	NOUN	NN1	_	8	obj	_	_
+12	with	with	ADP	PRP	_	14	case	_	_
+13	the	the	DET	AT0	_	14	det	_	_
+14	groceries	grocery	NOUN	NN2	_	11	nmod	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	then	then	ADV	AV0	_	4	advmod	_	_
+3	he	he	PRON	PNP	_	4	nsubj	_	_
+4	went	go	VERB	VVD	_	0	root	_	_
+5	to	to	PART	TO0	_	6	mark	_	_
+6	check	check	VERB	VVI	_	4	xcomp	_	_
+7	on	on	ADP	PRP	_	10	case	_	_
+8	the	the	DET	AT0	_	10	det	_	_
+9	car	car	NOUN	NN1	_	10	compound	_	_
+10	accident	accident	NOUN	NN1	_	6	obl	_	_
+
+1	no	no	DET	AT0	_	2	det	_	_
+2	one	one	PRON	PNI	_	4	nsubj	_	_
+3	was	be	AUX	VBD	_	4	cop	_	_
+4	hurt	hurt	VERB	VVN	_	0	root	_	_
+
+1	but	but	CCONJ	CJC	_	4	cc	_	_
+2	police	police	NOUN	NN0	_	4	nsubj	_	_
+3	was	be	AUX	VBD	_	4	cop	_	_
+4	called	call	VERB	VVN	_	0	root	_	_
+

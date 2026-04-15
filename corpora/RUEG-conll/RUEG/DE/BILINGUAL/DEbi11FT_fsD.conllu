@@ -1,0 +1,79 @@
+1	äh	äh	PROPN	NGHES	_	2	discourse	_	_
+2	hallo	hallo	X	NGIRR	_	0	root	_	_
+
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	möchte	möchten	AUX	VMFIN	_	0	root	_	_
+3	einen	ein	DET	ART	_	4	det	_	_
+4	Unfall	Unfall	NOUN	NN	_	5	comp:obj	_	_
+5	melden	melden	VERB	VVINF	_	2	comp:aux	_	_
+
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	bin	sein	VERB	VAFIN	_	0	root	_	_
+3	die	d	DET	ART	_	4	det	_	_
+4	F16	F16	NOUN	NE	_	2	comp:pred	_	_
+
+1	hier	hier	ADV	ADV	_	2	mod	_	_
+2	an	an	ADP	APPR	_	11	mod	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Ecke	Ecke	NOUN	NN	_	2	comp:obj	_	_
+5	{streetname}	Johannsthaler	PROPN	NE	_	4	mod@poss	_	_
+6	Straße	Chaussee	PROPN	NE	_	5	flat	_	_
+7	ist	sein	AUX	VAFIN	_	0	root	_	_
+8	gerade	gerade	ADV	ADV	_	7	mod	_	_
+9	ein	ein	DET	ART	_	10	det	_	_
+10	Unfall	Unfall	NOUN	NN	_	7	subj	_	_
+11	passiert	passieren	VERB	VVPP	_	7	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	zwar	zwar	ADV	ADV	_	3	mod	_	_
+3	wurde	werden	AUX	VAFIN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Unfall	Unfall	NOUN	NN	_	3	subj@pass	_	_
+6	durch	durch	ADP	PTKVZ	_	17	comp:obl	_	_
+7	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+8	ein	ein	DET	ART	_	9	det	_	_
+9	Mann	Mann	NOUN	NN	_	6	comp:obj	_	_
+10	der	d	DET	PRELS	_	15	subj	_	_
+11	gerade	gerade	ADV	ADV	_	15	mod	_	_
+12	die	d	DET	ART	_	13	det	_	_
+13	Straße	Straße	NOUN	NN	_	14	comp:obj	_	_
+14	überqueren	überqueren	VERB	VVINF	_	15	comp:aux	_	_
+15	wollte	wollen	AUX	VMFIN	_	9	mod@relcl	_	_
+16	äh	äh	ADV	NGHES	_	3	discourse	_	_
+17	begangen	begehen	VERB	VVPP	_	3	comp:aux@pass	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	der	d	PRON	PDS	_	3	subj	_	_
+3	hatte	haben	VERB	VAFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+6	in	in	ADP	APPR	_	3	mod	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Hand	Hand	NOUN	NN	_	6	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	dadurch	dadurch	ADV	ADV	_	4	mod	_	_
+3	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+4	hat	haben	VERB	VAFIN	_	0	root	_	_
+5	äh	äh	ADV	NGHES	_	4	discourse	_	_
+6	sich	er|es|sie	PRON	PRF	_	15	comp:obj	_	_
+7	der	d	DET	ART	_	9	det	_	_
+8	hintere	hinter	ADJ	ADJA	_	9	mod	_	_
+9	Fahrer	Fahrer	NOUN	NN	_	4	subj	_	_
+10	an	an	ADP	APPR	_	15	comp:obl	_	_
+11	den	d	DET	ART	_	12	det	_	_
+12	vorderen	vorder	NOUN	ADJA	_	10	comp:obj	_	_
+13	sozusagen	sozusagen	ADV	ADV	_	4	mod	_	_
+14	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+15	geprallt	prallen	ADJ	VVPP	_	4	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	aus	aus	ADP	APPR	_	9	mod	_	_
+3	dem	d	DET	ART	_	4	det	_	_
+4	Grund	Grund	NOUN	NN	_	2	comp:obj	_	_
+5	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+6	ich	ich	PRON	PPER	_	5	subj	_	_
+7	das	d	PRON	PDS	_	9	comp:obj	_	_
+8	jetzt	jetzt	ADV	ADV	_	5	mod	_	_
+9	melden	melden	VERB	VVFIN	_	5	comp:aux	_	_
+

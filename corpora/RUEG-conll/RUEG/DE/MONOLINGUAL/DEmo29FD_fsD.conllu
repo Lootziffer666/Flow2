@@ -1,0 +1,250 @@
+# text = ja hallo
+1	ja	ja	ADV	NGIRR	_	2	discourse	_	_
+2	hallo	hallo	X	NGIRR	_	0	root	_	_
+
+# text = hier ist DEmo29FD
+1	hier	hier	ADV	ADV	_	2	comp:pred	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	DEmo29FD	DEmo29FD	PROPN	NE	_	2	subj	_	_
+
+# text = ich würde gerne anrufen bezüglich oder beziehungsweise auf diesen Anrufbeantworter sprechen bezüglich des Unfalls zu dem ich einen Augenzeugenbericht abgeben soll
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	würde	wollen	AUX	VVFIN	_	0	root	_	_
+3	gerne	gern	ADV	ADV	_	2	mod	_	_
+4	anrufen	anrufen	VERB	VVINF	_	11	reparandum	_	_
+5	bezüglich	bezüglich	ADJ	APPR	_	4	mod	_	_
+6	oder	oder	CCONJ	KON	_	11	cc	_	_
+7	beziehungsweise	beziehungsweise	ADV	KON	_	11	mod	_	_
+8	auf	auf	ADP	APPR	_	11	comp:obl	_	_
+9	diesen	diese	PRON	PDAT	_	10	det	_	_
+10	Anrufbeantworter	Anrufbeantworter	NOUN	NN	_	8	comp:obj	_	_
+11	sprechen	sprechen	VERB	VVFIN	_	2	comp:aux	_	_
+12	bezüglich	bezüglich	ADP	APPR	_	11	mod	_	_
+13	des	d	DET	ART	_	14	det	_	_
+14	Unfalls	Unfall	NOUN	NN	_	12	comp:obj	_	_
+15	zu	zu	ADP	APPR	_	20	mod	_	_
+16	dem	d	DET	ART	_	15	comp:obj	_	_
+17	ich	ich	PRON	PPER	_	21	subj	_	_
+18	einen	ein	DET	ART	_	19	det	_	_
+19	Augenzeugenbericht	Augenzeugenbericht	NOUN	NN	_	20	comp:obj	_	_
+20	abgeben	abgeben	VERB	VVINF	_	21	comp:aux	_	_
+21	soll	sollen	AUX	VMFIN	_	14	mod@relcl	_	_
+
+# text = es handelt sich dabei um den Fall F16
+1	es	es	PRON	PPER	_	2	subj@expl	_	_
+2	handelt	handeln	VERB	VVFIN	_	0	root	_	_
+3	sich	er|es|sie	PRON	PRF	_	2	comp:obj	_	_
+4	dabei	dabei	ADV	ADV	_	2	mod	_	_
+5	um	um	ADP	APPR	_	2	comp:obl	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Fall	Fall	NOUN	NN	_	5	comp:obj	_	_
+8	F16	F16	PROPN	NE	_	7	appos	_	_
+
+# text = äh genau also ich konnte den Unfall beobachten
+1	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+2	genau	genau	ADJ	NGIRR	_	5	discourse	_	_
+3	also	also	ADV	SEDM	_	5	discourse	_	_
+4	ich	ich	PRON	PPER	_	5	subj	_	_
+5	konnte	können	AUX	VMFIN	_	0	root	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Unfall	Unfall	NOUN	NN	_	8	comp:obj	_	_
+8	beobachten	beobachten	VERB	VVINF	_	5	comp:aux	_	_
+
+# text = äh auf der einen Straßenseite ging ein relativ junges Pärchen mit Kinderwagen entlang
+1	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+2	auf	auf	ADP	APPR	_	6	comp:obl	_	_
+3	der	d	DET	ART	_	5	det	_	_
+4	einen	ein	ADJ	ART	_	5	mod	_	_
+5	Straßenseite	Straßenseite	NOUN	NN	_	2	comp:obj	_	_
+6	ging	gehen	VERB	VVFIN	_	0	root	_	_
+7	ein	ein	DET	ART	_	10	det	_	_
+8	relativ	relativ	ADJ	PTKIFG	_	9	mod	_	_
+9	junges	jung	ADJ	ADJA	_	10	mod	_	_
+10	Pärchen	Pärchen	NOUN	NN	_	6	subj	_	_
+11	mit	mit	ADP	APPR	_	10	mod	_	_
+12	Kinderwagen	Kinderwagen	NOUN	NN	_	11	comp:obj	_	_
+13	entlang	entlang	ADP	PTKVZ	_	6	compound@prt	_	_
+
+# text = die haben äh einen Ball dabei gehabt
+1	die	d	PRON	PDS	_	2	subj	_	_
+2	haben	haben	VERB	VAFIN	_	0	root	_	_
+3	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	6	comp:obj	_	_
+6	dabeigehabt	dabeihaben	VERB	VAPP	_	2	comp:aux	_	_
+
+# text = der Ball der ist dem jungen Herren aus der aus der Hand gefallen
+1	der	d	DET	ART	_	2	det	_	_
+2	Ball	Ball	NOUN	NN	_	4	dislocated	_	_
+3	der	d	PRON	PDS	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	dem	d	DET	ART	_	7	det	_	_
+6	jungen	jung	ADJ	ADJA	_	7	mod	_	_
+7	Herren	Herr	NOUN	NN	_	13	comp:obj	_	_
+8	aus	aus	ADP	APPR	_	10	reparandum	_	_
+9	der	d	DET	ART	_	8	comp:obj	_	_
+10	aus	aus	ADP	APPR	_	13	comp:obl	_	_
+11	der	d	DET	ART	_	12	det	_	_
+12	Hand	Hand	NOUN	NN	_	10	comp:obj	_	_
+13	gefallen	fallen	VERB	VVPP	_	4	comp:aux	_	_
+
+# text = daraufhin ist der Ball auf die Straße gerollt
+1	daraufhin	daraufhin	ADV	ADV	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Ball	Ball	NOUN	NN	_	2	subj	_	_
+5	auf	auf	ADP	APPR	_	8	comp:obl	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Straße	Straße	NOUN	NN	_	5	comp:obj	_	_
+8	gerollt	rollen	ADJ	VVPP	_	2	comp:aux	_	_
+
+# text = dann war da auf der gegenüberliegenden Seite noch eine andere Dame mit dem ihrem Auto und dem Hund
+1	dann	dann	ADV	ADV	_	2	mod	_	_
+2	war	sein	AUX	VAFIN	_	0	root	_	_
+3	da	da	ADV	ADV	_	2	comp:pred	_	_
+4	auf	auf	ADP	APPR	_	3	mod	_	_
+5	der	d	DET	ART	_	7	det	_	_
+6	gegenüberliegenden	gegenüberliegend	ADJ	ADJA	_	7	mod	_	_
+7	Seite	Seite	NOUN	NN	_	4	comp:obj	_	_
+8	noch	noch	ADV	PTKMWL	_	2	mod	_	_
+9	eine	ein	DET	ART	_	11	det	_	_
+10	andere	ander	ADJ	PIDAT	_	11	mod	_	_
+11	Dame	Dame	NOUN	NN	_	2	subj	_	_
+12	mit	mit	ADP	APPR	_	11	mod	_	_
+13	dem	d	DET	ART	_	14	reparandum	_	_
+14	ihrem	ihr	PRON	PPOSAT	_	15	det	_	_
+15	Auto	Auto	NOUN	NN	_	12	comp:obj	_	_
+16	und	und	CCONJ	KON	_	18	cc	_	_
+17	dem	d	DET	ART	_	18	det	_	_
+18	Hund	Hund	NOUN	NN	_	15	conj	_	_
+
+# text = die hat äh ihren Einkauf gerade in das Auto geräumt
+1	die	d	PRON	PDS	_	2	subj	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+4	ihren	ihr	DET	PPOSAT	_	5	det	_	_
+5	Einkauf	Einkauf	NOUN	NN	_	10	comp:obj	_	_
+6	gerade	gerad	ADV	ADV	_	2	mod	_	_
+7	in	in	ADP	APPR	_	10	comp:obl	_	_
+8	das	d	DET	ART	_	9	det	_	_
+9	Auto	Auto	NOUN	NN	_	7	comp:obj	_	_
+10	geräumt	räumen	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = und während dann der Ball auf die Straße rollte sind zwei Autos die Straße entlanggefahren oder diesen Parkplatz entlanggefahren
+1	und	und	CCONJ	KON	_	10	cc	_	_
+2	während	während	ADJ	ADJD	_	19	mod	_	_
+3	dann	dann	ADV	ADV	_	9	mod	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	9	subj	_	_
+6	auf	auf	ADP	APPR	_	9	comp:obl	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Straße	Straße	NOUN	NN	_	6	comp:obj	_	_
+9	rollte	rollen	AUX	VVFIN	_	2	comp:obj	_	_
+10	sind	sein	VERB	VAFIN	_	0	root	_	_
+11	zwei	zwei	NUM	CARD	_	12	mod	_	_
+12	Autos	Auto	NOUN	NN	_	10	subj	_	_
+13	die	d	DET	ART	_	14	det	_	_
+14	Straße	Straße	NOUN	NN	_	15	comp:obj	_	_
+15	entlanggefahren	entlangfahren	VERB	VVPP	_	19	reparandum	_	_
+16	oder	oder	CCONJ	KON	_	19	cc	_	_
+17	diesen	diese	PRON	PDAT	_	18	det	_	_
+18	Parkplatz	Parkplatz	NOUN	NN	_	19	comp:obj	_	_
+19	entlanggefahren	entlangfahren	VERB	VVPP	_	10	comp:aux	_	_
+
+# text = und dann hat das eine Auto natürlich gestoppt wegen des auf den Balls der wegen des Balls der auf die Straße gerollt ist
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	das	d	DET	PDS	_	6	det	_	_
+5	eine	ein	ADJ	ART	_	6	mod	_	_
+6	Auto	Auto	NOUN	NN	_	3	subj	_	_
+7	natürlich	natürlich	ADJ	ADV	_	3	mod	_	_
+8	gestoppt	stoppen	ADJ	VVPP	_	3	comp:aux	_	_
+9	wegen	wegen	ADP	APPR	_	11	reparandum	_	_
+10	des	d	DET	ART	_	9	comp:obj	_	_
+11	auf	auf	ADP	APPR	_	15	reparandum	_	_
+12	den	d	DET	ART	_	13	det	_	_
+13	Balls	Ball	NOUN	NN	_	11	comp:obj	_	_
+14	der	d	DET	PRELS	_	13	mod@relcl	_	_
+15	wegen	wegen	ADP	APPR	_	8	mod	_	_
+16	des	d	DET	ART	_	17	det	_	_
+17	Balls	Ball	NOUN	NN	_	15	comp:obj	_	_
+18	der	d	DET	PRELS	_	23	subj	_	_
+19	auf	auf	ADP	APPR	_	22	comp:obl	_	_
+20	die	d	DET	ART	_	21	det	_	_
+21	Straße	Straße	NOUN	NN	_	19	comp:obj	_	_
+22	gerollt	rollen	ADJ	VVPP	_	23	comp:aux	_	_
+23	ist	sein	VERB	VAFIN	_	17	mod@relcl	_	_
+
+# text = und daraufhin ist das zweite Auto dann dem ersten Auto hinten reingefahren
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	daraufhin	daraufhin	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	das	d	DET	ART	_	6	det	_	_
+5	zweite	zweit	ADJ	ORD	_	6	mod	_	_
+6	Auto	Auto	NOUN	NN	_	3	subj	_	_
+7	dann	dann	ADV	ADV	_	3	mod	_	_
+8	dem	d	DET	ART	_	10	det	_	_
+9	ersten	erst	ADJ	ORD	_	10	mod	_	_
+10	Auto	Auto	NOUN	NN	_	12	comp:obj	_	_
+11	hinten	hinten	ADV	ADV	_	3	mod	_	_
+12	reingefahren	reinfahren	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = ja und äh was ich noch beobachten konnte war dann dass äh der Herr der dem Ball aus der Hand gefallen dann dabei recht hilfsbereit war und auch äh sich direkt irgendwie ja die Polizei gerufen hat
+1	ja	ja	ADV	NGIRR	_	9	discourse	_	_
+2	und	und	CCONJ	KON	_	9	cc	_	_
+3	äh	äh	ADV	NGHES	_	9	discourse	_	_
+4	was	was	VERB	PWS	_	7	comp:obj	_	_
+5	ich	ich	PRON	PPER	_	8	subj	_	_
+6	noch	noch	ADV	PTKMWL	_	8	mod	_	_
+7	beobachten	beobachten	VERB	VVINF	_	8	comp:aux	_	_
+8	konnte	können	AUX	VMFIN	_	9	subj	_	_
+9	war	sein	AUX	VAFIN	_	0	root	_	_
+10	dann	dann	ADV	ADV	_	9	mod	_	_
+11	dass	dass	SCONJ	KOUS	_	9	comp:obj	_	_
+12	äh	äh	ADV	NGHES	_	9	discourse	_	_
+13	der	d	DET	ART	_	14	det	_	_
+14	Herr	Herr	NOUN	NN	_	27	subj	_	_
+15	dem	d	PRON	ART	_	21	comp:obj	_	_
+16	der	d	DET	ART	_	17	det	_	_
+17	Ball	Ball	NOUN	NN	_	22	subj	_	_
+18	aus	aus	ADP	APPR	_	21	comp:obl	_	_
+19	der	d	DET	ART	_	20	det	_	_
+20	Hand	Hand	NOUN	NN	_	18	comp:obj	_	_
+21	gefallen	fallen	VERB	VVPP	_	22	comp:aux	_	_
+22	ist	sein	VERB	VAFIN	_	14	mod@relcl	_	_
+23	dann	dann	ADV	ADV	_	27	mod	_	_
+24	dabei	dabei	ADV	ADV	_	27	mod	_	_
+25	recht	recht	ADV	PTKIFG	_	26	mod	_	_
+26	hilfsbereit	hilfsbereit	ADJ	ADJD	_	27	comp:pred	_	_
+27	war	sein	VERB	VAFIN	_	11	comp:obj	_	_
+28	und	und	CCONJ	KON	_	38	cc	_	_
+29	auch	auch	ADV	ADV	_	38	mod	_	_
+30	äh	äh	ADJ	NGHES	_	9	discourse	_	_
+31	sich	er|es|sie	PRON	PRF	_	36	reparandum	_	_
+32	direkt	direkt	ADJ	ADJD	_	38	mod	_	_
+33	irgendwie	irgendwie	ADV	ADV	_	38	mod	_	_
+34	ja	ja	ADV	NGIRR	_	9	discourse	_	_
+35	die	d	DET	ART	_	36	det	_	_
+36	Polizei	Polizei	NOUN	NN	_	37	comp:obj	_	_
+37	gerufen	rufen	VERB	VVPP	_	38	comp:aux	_	_
+38	hat	haben	AUX	VAFIN	_	11	conj	_	_
+
+# text = und äh ja dann wurde ich von Ihnen gebeten diesen Bericht abzugeben
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+3	ja	ja	ADV	NGIRR	_	5	discourse	_	_
+4	dann	dann	ADV	ADV	_	5	mod	_	_
+5	wurde	sein	PROPN	VVFIN	_	0	root	_	_
+6	ich	ich	PRON	PPER	_	5	subj@pass	_	_
+7	von	von	ADP	APPR	_	9	mod	_	_
+8	Ihnen	sie	PRON	PPER	_	7	comp:obj	_	_
+9	gebeten	bitten	VERB	VVPP	_	5	comp:aux@pass	_	_
+10	diesen	diese	PRON	PDAT	_	11	det	_	_
+11	Bericht	Bericht	NOUN	NN	_	12	comp:obj	_	_
+12	abzugeben	abgeben	VERB	VVIZU	_	9	comp:obj@pass	_	_
+
+# text = tschüss
+1	tschüss	tschüss	PROPN	NGIRR	_	0	root	_	_
+
+

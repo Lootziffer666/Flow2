@@ -1,0 +1,106 @@
+# text = hey Sanna
+1	hey	hey	PROPN	NGIRR	_	2	discourse	_	_
+2	Sanna	Sanna	PROPN	NE	_	0	root	_	_
+
+# text = ich hab ein Autounfall gesehen !
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	hab	haben	AUX	VAFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Autounfall	Autounfall	NOUN	NN	_	5	comp:obj	_	_
+5	gesehen	sehen	VERB	VVPP	_	2	comp:aux	_	_
+6	!	!	PUNCT	$.	_	2	punct	_	_
+
+# text = da war ein Mann und eine Frau
+1	da	da	ADV	ADV	_	2	mod	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Mann	Mann	NOUN	NN	_	2	subj	_	_
+5	und	und	CCONJ	KON	_	7	cc	_	_
+6	eine	ein	DET	ART	_	7	det	_	_
+7	Frau	Frau	NOUN	NN	_	4	conj	_	_
+
+# text = und der Mann hatte einen Fußball .
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Mann	Mann	NOUN	NN	_	4	subj	_	_
+4	hatte	haben	VERB	VAFIN	_	0	root	_	_
+5	einen	ein	DET	ART	_	6	det	_	_
+6	Fußball	Fußball	NOUN	NN	_	4	comp:obj	_	_
+7	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = da war auch eine Frau am anderen Ende von der Straße
+1	da	da	ADV	ADV	_	2	mod	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	auch	auch	ADV	ADV	_	2	mod	_	_
+4	eine	ein	DET	ART	_	5	det	_	_
+5	Frau	Frau	NOUN	NN	_	2	subj	_	_
+6	am	an	ADJ	APPRART	_	2	mod	_	_
+7	anderen	ander	ADJ	PIDAT	_	8	mod	_	_
+8	Ende	Ende	NOUN	NN	_	6	comp:obj	_	_
+9	von	von	ADP	APPR	_	8	mod@poss	_	_
+10	der	d	DET	ART	_	11	det	_	_
+11	Straße	Straße	NOUN	NN	_	9	comp:obj	_	_
+
+# text = und hat Einkaufsessen aus ihrem Auto geholt
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	Einkaufsessen	Einkaufsessen	NOUN	NN	_	2	comp:obj	_	_
+4	aus	aus	ADP	APPR	_	7	comp:obl	_	_
+5	ihrem	ihr	DET	PPOSAT	_	6	det	_	_
+6	Auto	Auto	NOUN	NN	_	4	comp:obj	_	_
+7	geholt	holen	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = sie hatte einen Hund .
+1	sie	sie	PRON	PPER	_	2	subj	_	_
+2	hatte	haben	VERB	VAFIN	_	0	root	_	_
+3	einen	ein	DET	ART	_	4	det	_	_
+4	Hund	Hund	NOUN	NN	_	2	comp:obj	_	_
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = dann um die Ecke sind zwei Autos gefahren
+1	dann	dann	ADV	ADV	_	5	mod	_	_
+2	um	um	ADP	APPR	_	8	comp:obl	_	_
+3	die	d	DET	ART	_	4	det	_	_
+4	Ecke	Eck|Ecke	NOUN	NN	_	2	comp:obj	_	_
+5	sind	sein	AUX	VAFIN	_	0	root	_	_
+6	zwei	zwei	PROPN	CARD	_	7	mod	_	_
+7	Autos	Auto	PROPN	NN	_	5	subj	_	_
+8	gefahren	fahren	VERB	VVPP	_	5	comp:aux	_	_
+
+# text = und der Ball von den Mann ist aus seinen Händen gefallen .
+1	und	und	CCONJ	KON	_	7	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Ball	Ball	NOUN	NN	_	7	subj	_	_
+4	von	von	ADP	APPR	_	3	mod@poss	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Mann	Mann	NOUN	NN	_	4	comp:obj	_	_
+7	ist	sein	VERB	VAFIN	_	0	root	_	_
+8	aus	aus	ADP	APPR	_	11	comp:obl	_	_
+9	seinen	sein	DET	PPOSAT	_	10	det	_	_
+10	Händen	Hand	NOUN	NN	_	8	comp:obj	_	_
+11	gefallen	fallen	VERB	VVPP	_	7	comp:aux	_	_
+12	.	.	PUNCT	$.	_	7	punct	_	_
+
+# text = der Hund von der Frau ist vor den Autos gerast
+1	der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	6	subj	_	_
+3	von	von	ADP	APPR	_	2	mod@poss	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Frau	Frau	NOUN	NN	_	3	comp:obj	_	_
+6	ist	sein	AUX	VAFIN	_	0	root	_	_
+7	vor	vor	ADP	APPR	_	10	comp:obl	_	_
+8	den	d	DET	ART	_	9	det	_	_
+9	Autos	Auto	NOUN	NN	_	7	comp:obj	_	_
+10	gerast	rasen	VERB	VVPP	_	6	comp:aux	_	_
+
+# text = und das Auto ist in das andere reingefahrt .
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	das	d	DET	ART	_	3	det	_	_
+3	Auto	Auto	NOUN	NN	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	in	in	ADP	APPR	_	8	comp:obl	_	_
+6	das	d	DET	ART	_	7	det	_	_
+7	andere	ander	ADJ	PIDAT	_	5	comp:obj	_	_
+8	reingefahrt	reinfahren	NOUN	VVPP	_	4	comp:aux	_	_
+9	.	.	PUNCT	$.	_	4	punct	_	_
+

@@ -1,0 +1,51 @@
+# text = Ich habe heute auf dem Parkplatz bei uns so einen Auffahrunfall gesehen .
+1	Ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	habe	haben	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	heute	heute	ADV	_	_	2	mod	_	_
+4	auf	auf	ADP	_	_	12	mod	_	_
+5	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Parkplatz	Parkplatz	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	4	comp:obj	_	_
+7	bei	bei	ADP	_	_	6	mod	_	_
+8	uns	wir	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	7	comp:obj	_	_
+9	so	so	ADV	_	_	11	mod	_	_
+10	einen	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Auffahrunfall	Auffahrunfall	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	12	comp:obj	_	_
+12	gesehen	sehen	VERB	_	VerbForm=Part	2	comp:aux	_	_
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Weil ein Ball auf die Straße gerollt ist , ist ein Hund an der Leine losgelaufen
+1	Weil	weil	SCONJ	_	_	16	mod	_	_
+2	ein	ein	DET	_	Definite=Ind|PronType=Art	3	det	_	_
+3	Ball	Ball	NOUN	_	_	8	subj	_	_
+4	auf	auf	ADP	_	_	7	comp:obl	_	_
+5	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	4	comp:obj	_	_
+7	gerollt	rollen	VERB	_	VerbForm=Part	8	comp:aux	_	_
+8	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
+9	,	,	PUNCT	_	_	1	punct	_	_
+10	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	ein	ein	DET	_	Definite=Ind|PronType=Art	12	det	_	_
+12	Hund	Hund	NOUN	_	_	10	subj	_	_
+13	an	an	ADP	_	_	12	mod	_	_
+14	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Leine	Leine	PROPN	_	_	13	comp:obj	_	_
+16	losgelaufen	loslaufen	VERB	_	Number=Plur|Person=3|VerbForm=Fin	10	comp:aux	_	_
+
+# text = und das eine Auto musste bremsen
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	das	die	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+3	eine	eine	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	mod	_	_
+4	Auto	Auto	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	5	subj	_	_
+5	musste	müssen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	bremsen	bremsen	VERB	_	VerbForm=Inf	5	comp:aux	_	_
+
+# text = und das Auto dahinter ist voll draufgefahren .
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	das	d	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Auto	Auto	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	5	subj	_	_
+4	dahinter	dahinter	ADV	_	_	3	mod	_	_
+5	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	voll	voll	ADJ	_	Degree=Pos	5	mod	_	_
+7	draufgefahren	drauffahren	NOUN	_	_	5	comp:aux	_	_
+8	.	.	PUNCT	_	_	5	punct	_	_
+

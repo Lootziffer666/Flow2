@@ -1,0 +1,123 @@
+1	hi	hi	X	NGIRR	_	0	root	_	_
+
+1	oh	oh	ADJ	NGIRR	_	2	mod	_	_
+2	Gott	Gott	NOUN	NGIRR	_	4	discourse	_	_
+3	voll	voll	ADJ	PTKIFG	_	4	mod	_	_
+4	komisch	komisch	ADJ	ADJD	_	0	root	_	_
+
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	war	sein	AUX	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADJD	_	2	mod	_	_
+4	einkaufen	einkaufen	VERB	VVINF	_	2	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	äh	äh	ADJ	NGIRR	_	6	discourse	_	_
+3	auf	auf	ADP	APPR	_	11	mod	_	_
+4	dem	d	DET	ART	_	5	det	_	_
+5	Parkplatz	Parkplatz	NOUN	NN	_	3	comp:obj	_	_
+6	wär	wär	ADJ	VVFIN	_	0	root	_	_
+7	halt	halt	ADV	PTKMA	_	6	mod	_	_
+8	fast	fast	ADV	PTKIFG	_	6	mod	_	_
+9	ein	ein	NUM	ART	_	10	det	_	_
+10	Unfall	Unfall	NOUN	NN	_	11	comp:obj	_	_
+11	passiert	passieren	VERB	VVPP	_	6	comp:aux	_	_
+
+1	weil	weil	SCONJ	SEDM	_	4	discourse	_	_
+2	äh	äh	ADJ	NGIRR	_	4	discourse	_	_
+3	da	da	ADV	ADV	_	4	comp:pred	_	_
+4	war	sein	VERB	VAFIN	_	0	root	_	_
+5	halt	halt	ADV	PTKMA	_	4	mod	_	_
+6	so	so	ADV	PTKIFG	_	8	mod	_	_
+7	ein	ein	DET	ART	_	8	det	_	_
+8	Typ	Typ	NOUN	NN	_	4	subj	_	_
+9	mit	mit	ADP	APPR	_	8	mod	_	_
+10	einem	ein	DET	ART	_	11	det	_	_
+11	Fußball	Fußball	NOUN	NN	_	9	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	damit	damit	ADV	ADV	_	4	comp:obj	_	_
+4	rumgespielt	rumspielen	VERB	VVPP	_	2	comp:aux	_	_
+
+1	hat	haben	AUX	VAFIN	_	0	root	_	_
+2	dann	dann	ADV	ADV	_	1	mod	_	_
+3	den	d	DET	ART	_	4	det	_	_
+4	Ball	Ball	NOUN	NN	_	5	comp:obj	_	_
+5	verloren	verlieren	VERB	VVPP	_	1	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	dann	dann	ADV	ADV	_	4	mod	_	_
+3	äh	äh	ADJ	NGIRR	_	4	comp:obj	_	_
+4	war	sein	VERB	VAFIN	_	0	root	_	_
+5	da	da	ADV	ADV	_	4	mod	_	_
+6	halt	halt	ADV	PTKMA	_	4	mod	_	_
+7	ein	ein	DET	ART	_	8	det	_	_
+8	Hund	Hund	NOUN	NN	_	4	subj	_	_
+9	an	an	ADP	APPR	_	4	comp:pred	_	_
+10	der	d	DET	ART	_	11	det	_	_
+11	Leine	Leine	PROPN	NN	_	9	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	der	d	PRON	PDS	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	natürlich	natürlich	ADJ	ADV	_	3	mod	_	_
+5	dann	dann	ADV	ADV	_	3	mod	_	_
+6	losgerannt	losgerannt	ADJ	VVPP	_	3	comp:aux	_	_
+
+1	äh	äh	ADJ	NGIRR	_	5	discourse	_	_
+2	auf	auf	ADP	APPR	_	12	mod	_	_
+3	jeden	jede	PRON	PIDAT	_	4	det	_	_
+4	Fall	Fall	NOUN	NN	_	2	comp:obj	_	_
+5	ist	sein	VERB	VAFIN	_	0	root	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Hund	Hund	NOUN	NN	_	5	subj	_	_
+8	dann	dann	ADV	ADV	_	5	mod	_	_
+9	zu	zu	ADP	APPR	_	12	comp:obl	_	_
+10	dem	d	DET	ART	_	11	det	_	_
+11	Ball	Ball	NOUN	NN	_	9	comp:obj	_	_
+12	gerannt	rennen	ADJ	VVPP	_	5	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	10	cc	_	_
+2	dadurch	dadurch	ADV	ADV	_	10	mod	_	_
+3	ist	sein	VERB	VAFIN	_	10	reparandum	_	_
+4	das	d	DET	ART	_	5	det	_	_
+5	Auto	Auto	NOUN	NN	_	10	subj	_	_
+6	was	was	PRON	PRELS	_	8	subj	_	_
+7	gekommen	kommen	ADJ	VVPP	_	8	comp:aux	_	_
+8	ist	sein	VERB	VAFIN	_	5	mod@relcl	_	_
+9	äh	äh	ADV	NGIRR	_	10	discourse	_	_
+10	musste	müssen	AUX	VMFIN	_	0	root	_	_
+11	halt	halt	ADV	PTKMA	_	10	mod	_	_
+12	voll	voll	ADJ	PTKIFG	_	13	mod	_	_
+13	scharf	scharf	ADJ	ADJD	_	14	mod	_	_
+14	bremsen	bremsen	PROPN	VVINF	_	10	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	glaube	glauben	VERB	VVFIN	_	3	parataxis	_	_
+5	ich	ich	PRON	PPER	_	4	subj	_	_
+6	ein	ein	DET	ART	_	8	det	_	_
+7	anderes	ander	ADJ	PIDAT	_	8	mod	_	_
+8	Auto	Auto	NOUN	NN	_	3	subj	_	_
+9	reingefahren	reingefahren	VERB	VVPP	_	3	comp:aux	_	_
+
+1	also	also	ADV	NGIRR	_	3	discourse	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	hab	haben	AUX	VAFIN	_	0	root	_	_
+4	es	es	PRON	PPER	_	7	comp:obj	_	_
+5	nicht	nicht	PART	PTKNEG	_	3	mod	_	_
+6	ganz	ganz	ADV	PTKIFG	_	3	mod	_	_
+7	mitbekommen	mitbekommen	VERB	VVPP	_	3	comp:aux	_	_
+
+1	aber	aber	ADV	KON	_	5	cc	_	_
+2	ja	ja	ADV	NGIRR	_	5	discourse	_	_
+3	zum	zu	PROPN	APPRART	_	10	mod	_	_
+4	Glück	Glück	PROPN	NN	_	3	comp:obj	_	_
+5	ist	sein	VERB	VAFIN	_	0	root	_	_
+6	auf	auf	ADP	APPR	_	10	mod	_	_
+7	jeden	jede	PRON	PIDAT	_	8	det	_	_
+8	Fall	Fall	NOUN	NN	_	6	comp:obj	_	_
+9	nichs	nichts	PROPN	PIS	_	5	subj	_	_
+10	passiert	passieren	VERB	VVPP	_	5	comp:aux	_	_
+

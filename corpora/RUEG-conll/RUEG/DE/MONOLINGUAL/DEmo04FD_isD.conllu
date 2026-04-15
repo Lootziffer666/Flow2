@@ -1,0 +1,111 @@
+# text = ja heute hat sich ein Unfall ereignet
+1	ja	ja	ADV	NGIRR	_	3	discourse	_	_
+2	heute	heute	ADV	ADV	_	3	mod	_	_
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs	7	comp:obj	_	_
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Unfall	Unfall	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	3	subj	_	_
+7	ereignet	ereignen	VERB	VVPP	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+
+# text = und zwar ist ein Pärchen mit Kinderwagen wollte über die Straße gehen
+1	und	und	CCONJ	KON	_	8	discourse	_	_
+2	zwar	zwar	ADV	ADV	_	1	fixed	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	reparandum	_	_
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|PronType=Art	5	det	_	_
+5	Pärchen	Pärchen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	subj	_	_
+6	mit	mit	ADP	APPR	_	5	mod	_	_
+7	Kinderwagen	Kinderwagen	NOUN	NN	Case=Dat|Number=Plur	6	comp:obj	_	_
+8	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	über	über	ADP	APPR	_	12	comp:obl	_	_
+10	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	comp:obj	_	_
+12	gehen	gehen	VERB	VVINF	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	comp:aux	_	_
+
+# text = und der Mann hat da mit dem Ball gedribbelt
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+4	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	da	da	ADV	ADV	_	4	mod	_	_
+6	mit	mit	ADP	APPR	_	9	comp:obl	_	_
+7	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	6	comp:obj	_	_
+9	gedribbelt	dribbeln	VERB	VVPP	Tense=Past|VerbForm=Part	4	comp:aux	_	_
+
+# text = und der Ball ist ihn dann über auf die Straße gefallen
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Ball	Ball	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	comp:obj	_	_
+6	dann	dann	ADV	ADV	_	4	mod	_	_
+7	über	über	ADV	APPR	_	8	reparandum	_	_
+8	auf	auf	ADP	APPR	_	11	comp:obl	_	_
+9	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	comp:obj	_	_
+11	gefallen	fallen	VERB	VVPP	Tense=Past|VerbForm=Part	4	comp:aux	_	_
+
+# text = und dann hat ein Hund auf den Ball reagiert
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Hund	Hund	NOUN	NN	Case=Nom|Number=Sing	3	subj	_	_
+6	auf	auf	ADP	APPR	_	9	comp:obl	_	_
+7	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	comp:obj	_	_
+9	reagiert	reagieren	VERB	VVPP	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	comp:obj	_	_
+
+# text = ist auf die Straße gelaufen von ein anderen Auto wo die Frau gerade ihre Lebensmittel ausgepackt hat
+1	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	auf	auf	ADP	APPR	_	5	comp:obl	_	_
+3	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	comp:obj	_	_
+5	gelaufen	laufen	VERB	VVPP	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	comp:aux	_	_
+6	von	von	ADP	APPR	_	5	mod	_	_
+7	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+8	anderen	ander	ADJ	PIDAT	Degree=Pos	9	mod	_	_
+9	Auto	Auto	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	6	comp:obj	_	_
+10	wo	wo	ADV	PWAV	_	16	comp:obl	_	_
+11	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	subj	_	_
+13	gerade	gerade	ADV	ADV	_	17	mod	_	_
+14	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	15	det	_	_
+15	Lebensmittel	Lebensmittel	NOUN	NN	Case=Acc|Number=Sing	16	comp:obj	_	_
+16	ausgepackt	auspacken	VERB	VVPP	Tense=Past|VerbForm=Part	17	comp:aux	_	_
+17	hat	haben	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
+
+# text = und dann musste der Autofahrer halt äh stark bremsen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	musste	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Autofahrer	Autofahrer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+6	halt	halt	ADV	PTKMA	_	3	discourse	_	_
+7	äh	äh	ADJ	NGHES	Degree=Pos	3	discourse	_	_
+8	stark	stark	ADJ	ADJD	Degree=Pos	3	mod	_	_
+9	bremsen	bremsen	VERB	VVINF	Tense=Pres|VerbForm=Inf	3	comp:aux	_	_
+
+# text = und hinter dem Autofahrer ist dann noch ein anderes Auto gekommen
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	hinter	hinter	ADP	APPR	_	11	mod	_	_
+3	dem	d	DET	ART	Definite=Def|PronType=Art	4	det	_	_
+4	Autofahrer	Autofahrer	NOUN	NN	_	2	comp:obj	_	_
+5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	dann	dann	ADV	ADV	_	5	mod	_	_
+7	noch	noch	ADV	PTKMWL	_	10	mod	_	_
+8	ein	ein	DET	ART	Definite=Ind|PronType=Art	10	det	_	_
+9	anderes	ander	ADJ	PIDAT	Degree=Pos	10	mod	_	_
+10	Auto	Auto	NOUN	NN	_	5	subj	_	_
+11	gekommen	kommen	VERB	VVPP	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	comp:aux	_	_
+
+# text = und das ist den dann halt hineingefahren hinten
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	das	d	PRON	PDS	Case=Nom|PronType=Dem	3	subj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	den	d	DET	PDS	Definite=Def|PronType=Art	7	comp:obj	_	_
+5	dann	dann	ADV	ADV	_	3	mod	_	_
+6	halt	halt	ADV	PTKMA	_	3	discourse	_	_
+7	hineingefahren	hineinfahren	VERB	VVPP	Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+8	hinten	hinten	ADV	ADV	_	3	mod	_	_
+

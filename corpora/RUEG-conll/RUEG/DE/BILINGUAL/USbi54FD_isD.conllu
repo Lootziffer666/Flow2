@@ -1,0 +1,71 @@
+# text = äh hallo USbi54FD_P
+1	äh	äh	ADJ	NGHES	Degree=Pos	3	discourse	_	_
+2	hallo	hallo	X	NGIRR	_	3	discourse	_	_
+3	USbi54FD_P	USbi54FD_P	PUNCT	NE	_	0	root	_	_
+
+# text = ich war grade äh spazieren
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	äh	äh	ADJ	NGHES	Degree=Pos	2	discourse	_	_
+5	spazieren	spazieren	VERB	VVINF	Number=Plur|Person=3|VerbForm=Fin	2	comp:aux	_	_
+
+# text = und ich und ein Mann hat ein Ball losgelassen
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	reparandum	_	_
+3	und	und	CCONJ	KON	_	6	cc	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Mann	Mann	NOUN	NN	_	6	subj	_	_
+6	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	9	comp:obj	_	_
+9	losgelassen	loslassen	VERB	VVPP	Number=Plur|Person=3|VerbForm=Fin	6	comp:aux	_	_
+
+# text = und ein Hund hat zu dem Ball gerennt und vor ein Auto gerennt
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	ein	ein	DET	ART	Definite=Ind|PronType=Art	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	4	subj	_	_
+4	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	zu	zu	ADP	APPR	_	8	comp:obl	_	_
+6	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	comp:obj	_	_
+8	gerennt	rennen	ADJ	VVPP	_	4	comp:aux	_	_
+9	und	und	CCONJ	KON	_	13	cc	_	_
+10	vor	vor	ADP	APPR	_	13	comp:obl	_	_
+11	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Auto	Auto	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	10	comp:obj	_	_
+13	gerennt	rennen	VERB	VVPP	VerbForm=Part	4	conj	_	_
+
+# text = und dann das Auto hat doll gebremst
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	dann	dann	ADV	ADV	_	5	mod	_	_
+3	das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Auto	Auto	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	subj	_	_
+5	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	doll	doll	AUX	ADJD	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	mod	_	_
+7	gebremst	bremsen	ADV	VVPP	_	5	comp:aux	_	_
+
+# text = und danach hat ein Auto hinter also den anderen Auto äh also da drauf also auf den Auto geknallt
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	danach	danach	ADV	ADV	_	3	mod	_	_
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Auto	Auto	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	3	subj	_	_
+6	hinter	hinter	ADP	APPR	_	5	mod	_	_
+7	also	also	ADV	SEDM	_	3	discourse	_	_
+8	den	d	DET	ART	Definite=Def|PronType=Art	10	det	_	_
+9	anderen	ander	ADJ	PIDAT	Degree=Pos	10	mod	_	_
+10	Auto	Auto	NOUN	NN	_	6	comp:obj	_	_
+11	äh	äh	ADV	NGHES	_	3	discourse	_	_
+12	also	also	ADV	SEDM	_	3	discourse	_	_
+13	da	da	ADV	ADV	_	3	mod	_	_
+14	drauf	drauf	ADV	PTKVZ	_	19	compound@prt	_	_
+15	also	also	ADV	SEDM	_	3	discourse	_	_
+16	auf	auf	ADP	APPR	_	19	comp:obl	_	_
+17	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Auto	Auto	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	16	comp:obj	_	_
+19	geknallt	knallen	VERB	VVPP	Number=Sing|Person=3|VerbForm=Fin	3	comp:aux	_	_
+
+# text = ja
+1	ja	ja	ADV	NGIRR	_	0	root	_	_
+

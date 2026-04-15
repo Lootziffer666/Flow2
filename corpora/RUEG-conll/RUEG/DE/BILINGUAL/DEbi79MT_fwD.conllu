@@ -1,0 +1,91 @@
+# text = ﻿Sehr geehrte Damen und Herren ,
+1	﻿Sehr	﻿Sehr	ADV	ADV	_	2	mod	_	_
+2	geehrte	geehrt	ADJ	ADJA	_	3	mod	_	_
+3	Damen	Dame	NOUN	NN	_	0	root	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Herren	Herr	NOUN	NN	_	3	conj	_	_
+6	,	,	PUNCT	$.	_	3	punct	_	_
+
+# text = ich bin DEbi79MT
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	DEbi79MT	DEbi79MT	PROPN	NE	_	2	comp:pred	_	_
+
+# text = 17 Jahre alt
+1	17	@card@	NUM	CARD	NumType=Card	2	mod	_	_
+2	Jahre	Jahr	NOUN	NN	_	3	mod	_	_
+3	alt	alt	ADJ	ADJD	Degree=Pos	0	root	_	_
+
+# text = und berichte im Folgenden über den Autounfall .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	berichte	berichten	VERB	VVFIN	Tense=Pres|VerbForm=Fin	0	root	_	_
+3	im	in	PROPN	APPRART	_	2	mod	_	_
+4	Folgenden	Folgend	NOUN	NN	Case=Dat|Number=Plur	3	comp:obj	_	_
+5	über	über	ADP	NN	_	2	comp:obl	_	_
+6	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Autounfall	Autounfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	comp:obj	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Als ein Mann die die Straße überqueren wollte , verlor er den Ball den er in seinen Händen hielt .
+1	Als	als	ADP	KON	_	10	mod	_	_
+2	ein	ein	DET	ART	Definite=Ind|PronType=Art	3	det	_	_
+3	Mann	Mann	NOUN	NN	_	8	subj	_	_
+4	die	d	PRON	ART	Case=Nom|PronType=Dem	5	reparandum	_	_
+5	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	comp:obj	_	_
+7	überqueren	überqueren	VERB	VVINF	Tense=Pres|VerbForm=Inf	8	comp:aux	_	_
+8	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	comp:obj	_	_
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	verlor	verlieren	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj	_	_
+12	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	comp:obj	_	_
+14	den	d	DET	PRELS	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	comp:obj	_	_
+15	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	subj	_	_
+16	in	in	ADP	APPR	_	19	comp:obl	_	_
+17	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	18	det	_	_
+18	Händen	Händen	NOUN	NN	Case=Dat|Number=Plur	16	comp:obj	_	_
+19	hielt	halten	VERB	VVFIN	Person=3|Tense=Past|VerbForm=Fin	13	mod@relcl	_	_
+20	.	.	PUNCT	$.	_	10	punct	_	_
+
+# text = Dauraufhin musste das von rechts kommende Auto sofort anhalten ,
+1	Dauraufhin	Dauraufhin	ADV	ADV	_	2	mod	_	_
+2	musste	m�ssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	das	d	DET	ART	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	det	_	_
+4	von	von	ADP	APPR	_	6	comp:obl	_	_
+5	rechts	rechts	ADV	ADV	_	4	comp:obj	_	_
+6	kommende	kommend	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	mod	_	_
+7	Auto	Auto	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	comp:obj	_	_
+8	sofort	sofort	ADV	ADV	_	2	mod	_	_
+9	anhalten	anhalten	VERB	VVINF	Tense=Pres|VerbForm=Part	2	comp:aux	_	_
+10	,	,	PUNCT	$.	_	2	punct	_	_
+
+# text = jedoch konnte das hintere Auto nicht rechtzeitig anhalten
+1	jedoch	jedoch	ADV	ADV	_	2	mod	_	_
+2	konnte	k�nnen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+4	hintere	hinter	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	5	mod	_	_
+5	Auto	Auto	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	subj	_	_
+6	nicht	nicht	PART	PTKNEG	_	7	mod	_	_
+7	rechtzeitig	rechtzeitig	ADJ	ADJD	Degree=Pos	2	mod	_	_
+8	anhalten	anhalten	VERB	VVINF	Tense=Pres|VerbForm=Inf	2	comp:aux	_	_
+
+# text = und knallte deshalb in das vordere Auto .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	knallte	knallen	VERB	VVFIN	Tense=Past|VerbForm=Fin	0	root	_	_
+3	deshalb	deshalb	ADV	ADV	_	2	mod	_	_
+4	in	in	ADP	APPR	_	2	comp:obl	_	_
+5	das	d	DET	ART	Definite=Def|PronType=Art	7	det	_	_
+6	vordere	vorder	ADJ	ADJA	Degree=Pos	7	mod	_	_
+7	Auto	Auto	NOUN	NN	_	4	comp:obj	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Es gab jedoch keine Verletzten .
+1	Es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+2	gab	geben	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	jedoch	jedoch	ADV	ADV	_	2	mod	_	_
+4	keine	kein	PRON	PIAT	PronType=Neg	5	mod	_	_
+5	Verletzten	Verletzte	NOUN	NN	_	2	comp:obj	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+

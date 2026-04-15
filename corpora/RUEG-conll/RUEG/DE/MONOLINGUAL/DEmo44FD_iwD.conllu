@@ -1,0 +1,139 @@
+# text = Huhu ...
+1	Huhu	huhu	PROPN	NGIRR	_	0	root	_	_
+2	...	...	PUNCT	$.	_	1	discourse	_	_
+
+# text = Mann heute ist wieder etwas los hier vorm Haus .
+1	Mann	Mann	PRON	NGIRR	_	3	discourse	_	_
+2	heute	heute	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	wieder	wieder	ADV	ADV	_	3	mod	_	_
+5	etwas	etwas	PRON	PIS	_	3	subj	_	_
+6	los	los	ADV	PTKVZ	_	3	compound@prt	_	_
+7	hier	hier	ADV	ADV	_	8	mod	_	_
+8	vorm	vorm	_	APPRART	_	3	mod	_	_
+9	Haus	Haus	NOUN	NN	_	8	comp:obj	_	_
+10	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Als ich eben los bin zur Uni gab es voll den Unfall vor der Tür .
+1	Als	als	SCONJ	KOUS	_	8	mod	_	_
+2	ich	ich	PRON	PPER	_	5	subj	_	_
+3	eben	eben	ADV	PTKMA	_	5	mod	_	_
+4	los	los	ADV	ADJD	_	5	compound@prt	_	_
+5	bin	sein	VERB	VAFIN	_	1	comp:obj	_	_
+6	zur	zu	PROPN	APPRART	_	5	mod	_	_
+7	Uni	Uni	PROPN	NN	_	6	comp:obj	_	_
+8	gab	geben	VERB	VVFIN	_	0	root	_	_
+9	es	es	PRON	PPER	_	8	subj@expl	_	_
+10	voll	voll	ADJ	PTKIFG	_	12	mod	_	_
+11	den	d	DET	ART	_	12	det	_	_
+12	Unfall	Unfall	NOUN	NN	_	8	comp:obj	_	_
+13	vor	vor	ADP	APPR	_	12	mod	_	_
+14	der	d	DET	ART	_	15	det	_	_
+15	Tür	Tür	NOUN	NN	_	13	comp:obj	_	_
+16	.	.	PUNCT	$.	_	8	punct	_	_
+
+# text = Da war so ein Typ mit einem Fußball
+1	Da	da	ADV	ADV	_	2	comp:pred	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	so	so	ADV	PTKIFG	_	5	mod	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Typ	Typ	NOUN	NN	_	2	subj	_	_
+6	mit	mit	ADP	APPR	_	5	mod	_	_
+7	einem	ein	DET	ART	_	8	det	_	_
+8	Fußball	Fußball	NOUN	NN	_	6	comp:obj	_	_
+
+# text = und der Trottel lässt den Ball voll über die Straße rollen .
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Trottel	Trottel	NOUN	NN	_	4	subj	_	_
+4	lässt	lassen	VERB	VVFIN	_	0	root	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	11	comp:obj	_	_
+7	voll	voll	ADJ	PTKIFG	_	4	mod	_	_
+8	über	über	ADP	APPR	_	11	comp:obl	_	_
+9	die	d	DET	ART	_	10	det	_	_
+10	Straße	Straße	NOUN	NN	_	8	comp:obj	_	_
+11	rollen	rollen	VERB	VVFIN	_	4	comp:obj	_	_
+12	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Der Hund von der Nachbarin ist dann beinahe vor ein Auto gerannt ,
+1	Der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	6	subj	_	_
+3	von	von	ADP	APPR	_	2	mod@poss	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Nachbarin	Nachbarin	NOUN	NN	_	3	comp:obj	_	_
+6	ist	sein	VERB	VAFIN	_	0	root	_	_
+7	dann	dann	ADV	ADV	_	6	mod	_	_
+8	beinahe	beinahe	ADV	ADV	_	6	mod	_	_
+9	vor	vor	ADP	APPR	_	12	comp:obl	_	_
+10	ein	ein	DET	ART	_	11	det	_	_
+11	Auto	Auto	NOUN	NN	_	9	comp:obj	_	_
+12	gerannt	rennen	ADJ	VVPP	_	6	comp:aux	_	_
+13	,	,	PUNCT	$,	_	6	punct	_	_
+
+# text = aber das hat zum Glück gebremst .
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	das	d	PRON	PDS	_	3	subj	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	zum	zu	NOUN	APPRART	_	6	mod	_	_
+5	Glück	Glück	NOUN	NN	_	4	comp:obj	_	_
+6	gebremst	bremsen	ADV	VVPP	_	3	comp:aux	_	_
+7	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Allerdings ist dann ein weiteres Auto dem einen hinten raufgefahren .
+1	Allerdings	allerdings	ADV	ADV	_	2	mod	_	_
+2	ist	sein	AUX	VAFIN	_	0	root	_	_
+3	dann	dann	ADV	ADV	_	2	mod	_	_
+4	ein	ein	DET	ART	_	6	det	_	_
+5	weiteres	weit	ADJ	ADJA	_	6	mod	_	_
+6	Auto	Auto	NOUN	NN	_	2	subj	_	_
+7	dem	d	DET	ART	_	8	det	_	_
+8	einen	ein	PRON	PIDS	_	10	comp:obj	_	_
+9	hinten	hinten	ADV	ADV	_	2	mod	_	_
+10	raufgefahren	rauffahren	VERB	VVPP	_	2	comp:aux	_	_
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Die haben gleich die Polizei gerufen .
+1	Die	d	DET	PDS	_	2	subj	_	_
+2	haben	haben	AUX	VAFIN	_	0	root	_	_
+3	gleich	gleich	ADV	ADV	_	2	mod	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Polizei	Polizei	NOUN	NN	_	6	comp:obj	_	_
+6	gerufen	rufen	VERB	VVPP	_	2	comp:aux	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Eigentlich müsste da der Typ mit dem Fußball für geradestehen .
+1	Eigentlich	eigentlich	ADV	ADV	_	2	mod	_	_
+2	müsste	müssen	AUX	VVFIN	_	0	root	_	_
+3	da	da	ADV	ADV	_	2	mod	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Typ	Typ	NOUN	NN	_	2	subj	_	_
+6	mit	mit	ADP	APPR	_	5	mod	_	_
+7	dem	d	DET	ART	_	8	det	_	_
+8	Fußball	Fußball	NOUN	NN	_	6	comp:obj	_	_
+9	für	für	ADP	ADV	_	2	mod	_	_
+10	geradestehen	geradestehen	VERB	VVINF	_	2	comp:aux	_	_
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Hoffe , der hat eine Haftpflicht .
+1	Hoffe	hoffen	VERB	VVFIN	_	0	root	_	_
+2	,	,	PUNCT	$,	_	1	punct	_	_
+3	der	d	PRON	PDS	_	4	subj	_	_
+4	hat	haben	VERB	VAFIN	_	1	comp:obj	_	_
+5	eine	ein	DET	ART	_	6	det	_	_
+6	Haftpflicht	Haftpflicht	PROPN	NN	_	4	comp:obj	_	_
+7	.	.	PUNCT	$.	_	1	punct	_	_
+
+# text = Bis später !
+1	Bis	bis	ADP	APPR	_	0	root	_	_
+2	später	spät	ADJ	ADJA	_	1	comp:obj	_	_
+3	!	!	PUNCT	$.	_	1	punct	_	_
+
+# text = Viel Spaß noch bei der Arbeit
+1	Viel	viel	PRON	PIAT	_	2	det	_	_
+2	Spaß	Spaß	NOUN	NN	_	0	root	_	_
+3	noch	noch	ADV	PTKMWL	_	2	mod	_	_
+4	bei	bei	ADP	APPR	_	2	mod	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Arbeit	Arbeit	NOUN	NN	_	4	comp:obj	_	_
+

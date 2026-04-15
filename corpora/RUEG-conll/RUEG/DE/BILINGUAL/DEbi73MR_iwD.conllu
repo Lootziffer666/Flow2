@@ -1,0 +1,41 @@
+1	hi	hi	X	_	_	0	root	_	_
+2	!	!	PUNCT	_	_	1	punct	_	_
+
+1	stell	stellen	ADJ	_	_	0	root	_	_
+2	dir	du	PRON	_	_	1	comp:obj	_	_
+3	mal	mal	ADV	_	_	1	mod	_	_
+4	vor	vor	ADP	_	_	1	compound@prt	_	_
+5	,	,	PUNCT	_	_	1	punct	_	_
+
+1	ich	ich	PRON	_	_	2	subj	_	_
+2	habe	haben	AUX	_	_	0	root	_	_
+3	heute	heute	ADV	_	_	2	mod	_	_
+4	einen	ein	DET	_	_	5	det	_	_
+5	Unfall	Unfall	NOUN	_	_	6	comp:obj	_	_
+6	gesehen	sehen	VERB	_	_	2	comp:aux	_	_
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+1	ein	ein	DET	_	_	2	det	_	_
+2	Hund	Hund	NOUN	_	_	3	subj	_	_
+3	lief	laufen	VERB	_	_	0	root	_	_
+4	einem	ein	DET	_	_	5	det	_	_
+5	Ball	Ball	NOUN	_	_	3	comp:obj	_	_
+6	hinterher	hinterher	ADV	_	_	3	compound@prt	_	_
+
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	kam	kommen	VERB	_	_	0	root	_	_
+3	auf	auf	ADP	_	_	2	comp:obl	_	_
+4	die	d	DET	_	_	5	det	_	_
+5	Straße	Straße	NOUN	_	_	3	comp:obj	_	_
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+1	ein	ein	DET	_	_	2	det	_	_
+2	Glück	Glück	NOUN	_	_	3	mod	_	_
+3	hatte	haben	AUX	_	_	0	root	_	_
+4	der	d	DET	_	_	5	det	_	_
+5	Fahrer	Fahrer	NOUN	_	_	3	subj	_	_
+6	Zeit	Zeit	NOUN	_	_	3	comp:obj	_	_
+7	zu	zu	PART	_	_	6	mod	_	_
+8	bremsen	bremsen	VERB	_	_	7	comp:obj	_	_
+9	.	.	PUNCT	_	_	3	punct	_	_
+

@@ -1,0 +1,289 @@
+# text = hi Max
+1	hi	hi	X	NGIRR	_	2	discourse	_	_
+2	Max	Max	PROPN	NE	_	0	root	_	_
+
+# text = äh mir ist gerade doch endlich mal wieder etwas Spannendes in meinem Leben passiert
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	mir	ich	PRON	PPER	_	14	comp:obj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	gerade	gerade	ADV	ADV	_	3	mod	_	_
+5	doch	doch	ADV	PTKMA	_	3	mod	_	_
+6	endlich	endlich	ADV	ADV	_	3	mod	_	_
+7	mal	mal	ADV	PTKMA	_	3	mod	_	_
+8	wieder	wieder	ADV	ADV	_	3	mod	_	_
+9	etwas	etwas	PRON	PIAT	_	10	det	_	_
+10	Spannendes	Spannendes	NOUN	NN	_	3	subj	_	_
+11	in	in	ADP	APPR	_	10	mod	_	_
+12	meinem	mein	PRON	PPOSAT	_	13	det	_	_
+13	Leben	Leben	NOUN	NN	_	11	comp:obj	_	_
+14	passiert	passieren	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = war jetzt nicht gerade in positiver Hinsicht
+1	war	sein	VERB	VAFIN	_	0	root	_	_
+2	jetzt	jetzt	ADV	ADV	_	1	mod	_	_
+3	nicht	nicht	PART	PTKNEG	_	1	mod	_	_
+4	gerade	gerade	ADV	ADJD	_	1	mod	_	_
+5	in	in	ADP	APPR	_	1	comp:pred	_	_
+6	positiver	positiv	ADJ	ADJA	_	7	mod	_	_
+7	Hinsicht	Hinsicht	NOUN	NN	_	5	comp:obj	_	_
+
+# text = aber ich durfte gerade Polizeizeuge spielen
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	durfte	dürfen	AUX	VMFIN	_	0	root	_	_
+4	gerade	gerade	ADV	ADJA	_	3	mod	_	_
+5	Polizeizeuge	Polizeizeuge	NOUN	NN	_	6	comp:obj	_	_
+6	spielen	spielen	VERB	VVINF	_	3	comp:aux	_	_
+
+# text = äh ich war gerade wieder beim Parkplatz bei uns um die Ecke
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	gerade	gerade	ADV	ADV	_	3	mod	_	_
+5	wieder	wieder	ADV	ADV	_	3	mod	_	_
+6	beim	bei	ADV	APPRART	_	3	comp:pred	_	_
+7	Parkplatz	Parkplatz	NOUN	NN	_	6	comp:obj	_	_
+8	bei	bei	ADP	APPR	_	10	mod	_	_
+9	uns	wir	PRON	PPER	_	8	comp:obj	_	_
+10	um	um	ADP	APPR	_	7	mod	_	_
+11	die	d	DET	ART	_	12	det	_	_
+12	Ecke	Ecke	NOUN	NN	_	10	comp:obj	_	_
+
+# text = und gehe da so parallel am Parkplatz vorbei
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	gehe	gehen	VERB	VVFIN	_	0	root	_	_
+3	da	da	ADV	ADV	_	2	mod	_	_
+4	so	so	ADV	PTKIFG	_	2	mod	_	_
+5	parallel	parallel	ADJ	ADJD	_	2	mod	_	_
+6	am	an	ADJ	APPRART	_	2	comp:obl	_	_
+7	Parkplatz	Parkplatz	NOUN	NN	_	6	comp:obj	_	_
+8	vorbei	vorbei	ADV	PTKVZ	_	2	compound@prt	_	_
+
+# text = kommt so ein Pärchen
+1	kommt	kommen	VERB	VVFIN	_	0	root	_	_
+2	so	so	ADV	PTKIFG	_	4	mod	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Pärchen	Pärchen	NOUN	NN	_	1	subj	_	_
+
+# text = Typ hat einen Ball in der Hand
+1	Typ	Typ	NOUN	NN	_	2	subj	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	einen	ein	DET	ART	_	4	det	_	_
+4	Ball	Ball	NOUN	NN	_	2	comp:obj	_	_
+5	in	in	ADP	APPR	_	2	mod	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Hand	Hand	NOUN	NN	_	5	comp:obj	_	_
+
+# text = Frau schiebt den Kinderwagen
+1	Frau	Frau	ADJ	NN	_	2	subj	_	_
+2	schiebt	schieben	VERB	VVFIN	_	0	root	_	_
+3	den	d	DET	ART	_	4	det	_	_
+4	Kinderwagen	Kinderwagen	NOUN	NN	_	2	comp:obj	_	_
+
+# text = biegen auf den Parkplatz ein
+1	biegen	biegen	VERB	VVFIN	_	0	root	_	_
+2	auf	auf	ADP	APPR	_	1	comp:obl	_	_
+3	den	d	DET	ART	_	4	det	_	_
+4	Parkplatz	Parkplatz	NOUN	NN	_	2	comp:obj	_	_
+5	ein	ein	ADV	PTKVZ	_	1	compound@prt	_	_
+
+# text = gegenüber ist eine Frau
+1	gegenüber	gegenüber	ADP	ADJA	_	2	comp:pred	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	eine	ein	DET	ART	_	4	det	_	_
+4	Frau	Frau	NOUN	NN	_	2	subj	_	_
+
+# text = die packt gerade irgendwie hat mal wieder den Supermarkt leergekauft
+1	die	die	DET	PRELS	_	5	subj	_	_
+2	packt	packen	ADJ	VVFIN	_	5	reparandum	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	irgendwie	irgendwie	ADV	ADV	_	2	mod	_	_
+5	hat	haben	AUX	VAFIN	_	0	root	_	_
+6	mal	mal	ADV	PTKMA	_	5	mod	_	_
+7	wieder	wieder	ADV	ADV	_	5	mod	_	_
+8	den	d	DET	ART	_	9	det	_	_
+9	Supermarkt	Supermarkt	NOUN	NN	_	10	comp:obj	_	_
+10	leergekauft	leerkaufen	VERB	VVPP	_	5	comp:aux	_	_
+
+# text = packt gerade ihren Kofferraum ein
+1	packt	packen	VERB	VVFIN	_	0	root	_	_
+2	gerade	gerade	ADV	ADV	_	1	mod	_	_
+3	ihren	ihr	DET	PPOSAT	_	4	det	_	_
+4	Kofferraum	Kofferraum	NOUN	NN	_	1	comp:obj	_	_
+5	ein	ein	ADV	PTKVZ	_	1	compound@prt	_	_
+
+# text = und hatte einen Hund an der Leine
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hatte	haben	VERB	VAFIN	_	0	root	_	_
+3	einen	ein	DET	ART	_	4	det	_	_
+4	Hund	Hund	NOUN	NN	_	2	comp:obj	_	_
+5	an	an	ADP	APPR	_	2	comp:obl	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Leine	Leine	PROPN	NN	_	5	comp:obj	_	_
+
+# text = und dann biegen gerade auf den Parkplatz zwei Autos hintereinander ein
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	biegen	biegen	VERB	VVFIN	_	0	root	_	_
+4	gerade	gerade	ADV	ADV	_	3	mod	_	_
+5	auf	auf	ADP	APPR	_	3	comp:obl	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Parkplatz	Parkplatz	NOUN	NN	_	5	comp:obj	_	_
+8	zwei	zwei	NUM	CARD	_	9	mod	_	_
+9	Autos	Auto	NOUN	NN	_	3	subj	_	_
+10	hintereinander	hintereinander	ADV	ADV	_	3	mod	_	_
+11	ein	ein	ADV	PTKVZ	_	3	compound@prt	_	_
+
+# text = äh der Mann will gerade quasi über diese Parkstraßenfläche rübergehen
+1	äh	äh	ADV	NGHES	_	4	discourse	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Mann	Mann	NOUN	NN	_	4	subj	_	_
+4	will	wollen	AUX	VMFIN	_	0	root	_	_
+5	gerade	gerade	ADV	ADV	_	4	mod	_	_
+6	quasi	quasi	ADV	ADV	_	4	mod	_	_
+7	über	über	ADP	NN	_	10	comp:obl	_	_
+8	diese	diese	PRON	PDAT	_	9	det	_	_
+9	Parkstraßenfläche	Parkstraßenfläche	NOUN	NN	_	7	comp:obj	_	_
+10	rübergehen	rübergehen	VERB	VVINF	_	4	comp:aux	_	_
+
+# text = und glaubst du nicht
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	glaubst	glauben	ADV	VVFIN	_	0	root	_	_
+3	du	du	PROPN	PPER	_	2	subj	_	_
+4	nicht	nicht	PART	PTKNEG	_	2	mod	_	_
+
+# text = der ist halt nicht so gut mit dem Ball wie wir beide
+1	der	die	PRON	PDS	_	2	subj	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	halt	halt	ADV	PTKMA	_	2	discourse	_	_
+4	nicht	nicht	PART	PTKNEG	_	2	mod	_	_
+5	so	so	ADV	PTKIFG	_	6	mod	_	_
+6	gut	gut	ADJ	ADJD	_	2	comp:pred	_	_
+7	mit	mit	ADP	APPR	_	6	mod	_	_
+8	dem	d	DET	ART	_	9	det	_	_
+9	Ball	Ball	NOUN	NN	_	7	comp:obj	_	_
+10	wie	wie	ADP	PWAV	_	6	mod	_	_
+11	wir	wir	PRON	PPER	_	10	comp:obj	_	_
+12	beide	beide	PRON	PIS	_	11	mod	_	_
+
+# text = dem fällt der Ball dann runter
+1	dem	die	PRON	PDS	_	2	comp:obj	_	_
+2	fällt	fallen	VERB	VVFIN	_	0	root	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Ball	Ball	NOUN	NN	_	2	subj	_	_
+5	dann	dann	ADV	ADV	_	2	mod	_	_
+6	runter	runter	ADJ	PTKVZ	_	2	compound@prt	_	_
+
+# text = der Hund geht voll drauf los
+1	der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	3	subj	_	_
+3	geht	gehen	VERB	VVFIN	_	0	root	_	_
+4	voll	voll	ADJ	PTKIFG	_	3	mod	_	_
+5	drauf	drauf	ADV	ADV	_	3	comp:obl	_	_
+6	los	los	ADV	PTKVZ	_	3	compound@prt	_	_
+
+# text = äh ja und sieht halt so aus als läuft der Hund auf die Straße
+1	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+2	ja	ja	ADV	PTKMA	_	4	discourse	_	_
+3	und	und	CCONJ	KON	_	4	cc	_	_
+4	sieht	sehen	VERB	VVFIN	_	0	root	_	_
+5	halt	halt	ADV	PTKMA	_	4	discourse	_	_
+6	so	so	ADV	PTKIFG	_	4	mod	_	_
+7	aus	aus	ADP	PTKVZ	_	4	compound@prt	_	_
+8	als	als	CCONJ	KON	_	6	mod	_	_
+9	läuft	laufen	VERB	VVFIN	_	8	comp:obj	_	_
+10	der	d	DET	ART	_	11	det	_	_
+11	Hund	Hund	NOUN	NN	_	9	subj	_	_
+12	auf	auf	ADP	APPR	_	9	comp:obl	_	_
+13	die	d	DET	ART	_	14	det	_	_
+14	Straße	Straße	NOUN	NN	_	12	comp:obj	_	_
+
+# text = das erste Auto geht voll in die Eisen
+1	das	d	DET	ART	_	3	det	_	_
+2	erste	erst	ADJ	ORD	_	3	mod	_	_
+3	Auto	Auto	NOUN	NN	_	4	subj	_	_
+4	geht	gehen	VERB	VVFIN	_	0	root	_	_
+5	voll	voll	ADJ	PTKIFG	_	6	mod	_	_
+6	in	in	ADP	APPR	_	4	comp:obl	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Eisen	Eisen	NOUN	NN	_	6	comp:obj	_	_
+
+# text = und krach haut sich das zweite Auto rein
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	krach	krach	VERB	NGONO	_	3	discourse	_	_
+3	haut	hauen	VERB	VVFIN	_	0	root	_	_
+4	sich	er|es|sie	PRON	PRF	_	3	comp:obj	_	_
+5	das	d	DET	ART	_	7	det	_	_
+6	zweite	zweit	ADJ	ORD	_	7	mod	_	_
+7	Auto	Auto	NOUN	NN	_	3	subj	_	_
+8	rein	rein	ADJ	PTKVZ	_	3	compound@prt	_	_
+
+# text = ganz schwer zu also
+1	ganz	ganz	ADV	PTKIFG	_	2	mod	_	_
+2	schwer	schwer	ADJ	ADJD	_	3	mod	_	_
+3	zu	zu	ADP	PTKVZ	_	0	root	_	_
+4	also	also	ADV	ADV	_	3	discourse	_	_
+
+# text = also absolut dämliche Aktion auch einfach
+1	also	also	ADV	ADV	_	4	discourse	_	_
+2	absolut	absolut	ADV	PTKIFG	_	3	mod	_	_
+3	dämliche	dämlich	ADJ	ADJA	_	4	mod	_	_
+4	Aktion	Aktion	NOUN	NN	_	0	root	_	_
+5	auch	auch	ADV	PTKIFG	_	4	mod	_	_
+6	einfach	einfach	ADJ	ADJD	_	4	mod	_	_
+
+# text = der Hund war anner Leine
+1	der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	anner	an	PROPN	APPART	_	3	comp:pred	_	_
+5	Leine	Leine	PROPN	NN	_	4	comp:obj	_	_
+
+# text = konnte da auch einfach nie im Leben an diesen Ball kommen
+1	konnte	können	AUX	VMFIN	_	0	root	_	_
+2	da	da	ADV	ADV	_	1	mod	_	_
+3	auch	auch	ADV	PTKIFG	_	1	mod	_	_
+4	einfach	einfach	ADJ	ADJD	_	1	mod	_	_
+5	nie	nie	ADV	ADV	_	1	mod	_	_
+6	im	in	PROPN	APPRART	_	1	mod	_	_
+7	Leben	Leben	PROPN	NN	_	6	comp:obj	_	_
+8	an	an	ADP	APPR	_	11	comp:obl	_	_
+9	diesen	diese	PRON	PDAT	_	10	det	_	_
+10	Ball	Ball	NOUN	NN	_	8	comp:obj	_	_
+11	kommen	kommen	VERB	VVINF	_	1	comp:aux	_	_
+
+# text = und der wär auch nie vom Auto erwischt worden
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	der	die	DET	PDS	_	3	det	_	_
+3	wär	sein	NOUN	VVFIN	_	0	root	_	_
+4	auch	auch	ADV	PTKIFG	_	3	mod	_	_
+5	nie	nie	ADV	ADV	_	3	mod	_	_
+6	vom	vom	PROPN	APPRART	_	8	mod	_	_
+7	Auto	Auto	PROPN	NN	_	6	comp:obj	_	_
+8	erwischt	erwischen	VERB	VVPP	_	9	comp:aux@pass	_	_
+9	worden	werden	AUX	VAPP	_	3	comp:aux	_	_
+
+# text = aber jetzt stehen sie hier schön mit Blechschaden
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	jetzt	jetzt	ADV	ADV	_	3	mod	_	_
+3	stehen	stehen	VERB	VVFIN	_	0	root	_	_
+4	sie	sie	PRON	PPER	_	3	subj	_	_
+5	hier	hier	ADV	ADV	_	3	mod	_	_
+6	schön	schön	ADJ	VVFIN	_	3	mod	_	_
+7	mit	mit	ADP	APPR	_	3	mod	_	_
+8	Blechschaden	Blechschaden	PROPN	NN	_	7	comp:obj	_	_
+
+# text = und ich spiele Zeuge für die Polizei
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	spiele	spielen	PROPN	VVFIN	_	0	root	_	_
+4	Zeuge	Zeuge	PROPN	NN	_	3	comp:obj	_	_
+5	für	für	ADP	VVFIN	_	3	mod	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Polizei	Polizei	NOUN	NN	_	5	comp:obj	_	_
+
+# text = wir sehen uns
+1	wir	wir	PRON	PPER	_	2	subj	_	_
+2	sehen	sehen	VERB	VVFIN	_	0	root	_	_
+3	uns	wir	PRON	PRF	_	2	comp:obj	_	_
+

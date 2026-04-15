@@ -1,0 +1,118 @@
+# text = Hey Chris
+1	Hey	Hey	PROPN	NGIRR	_	2	discourse	_	_
+2	Chris	Chris	PROPN	NE	_	0	root	_	_
+
+# text = ich habe gerade gesehen wie ein Typ einem anderen hinten reingefahren ist .
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	gesehen	sehen	VERB	VVPP	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+5	wie	wie	ADP	KOUS	_	4	comp:obj	_	_
+6	ein	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
+7	Typ	Typ	NOUN	NN	_	12	subj	_	_
+8	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	anderen	ander	ADJ	PIDS	Case=Dat|Degree=Cmp|Gender=Masc,Neut|Number=Sing	11	comp:obj	_	_
+10	hinten	hinten	NOUN	ADV	_	12	mod	_	_
+11	reingefahren	reinfahren	VERB	VVPP	Tense=Past|VerbForm=Fin	12	comp:aux	_	_
+12	ist	sein	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Also am Anfang ist da so eine Familie die Straße entlanggelaufen
+1	Also	also	ADV	SEDM	_	4	discourse	_	_
+2	am	an	ADJ	APPRART	Degree=Pos	11	mod	_	_
+3	Anfang	Anfang	NOUN	NN	_	2	comp:obj	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	da	da	ADV	ADV	_	4	mod	_	_
+6	so	so	ADV	PTKIFG	_	8	mod	_	_
+7	eine	ein	DET	ART	Definite=Ind|PronType=Art	8	det	_	_
+8	Familie	Familie	NOUN	NN	_	4	subj	_	_
+9	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	comp:obj	_	_
+11	entlanggelaufen	entlanglaufen	VERB	VVPP	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	comp:aux	_	_
+
+# text = und der Vater hatte halt einen Ball in der Hand
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Vater	Vater	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+4	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	halt	halt	ADV	PTKMA	_	4	discourse	_	_
+6	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	comp:obj	_	_
+8	in	in	ADP	APPR	_	4	mod	_	_
+9	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Hand	Hand	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	comp:obj	_	_
+
+# text = dann ist der Ball plötzlich aus seiner Hand gefallen
+1	dann	dann	ADV	ADV	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Ball	Ball	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	subj	_	_
+5	plötzlich	plötzlich	ADJ	ADJD	Degree=Pos	2	mod	_	_
+6	aus	aus	ADP	APPR	_	9	comp:obl	_	_
+7	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
+8	Hand	Hand	NOUN	NN	_	6	comp:obj	_	_
+9	gefallen	fallen	VERB	VVINF	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+
+# text = und ist auf die Straße gekullert woraufhin ein Hund auf den Ball zugelaufen ist da die Besitzerin ihn nicht festhalten konnte weil sie Einkäufe getragen hat
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	auf	auf	ADP	APPR	_	6	comp:obl	_	_
+4	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	comp:obj	_	_
+6	gekullert	kullern	ADJ	VVPP	Tense=Past	2	comp:aux	_	_
+7	woraufhin	woraufhin	ADV	PWAV	_	6	mod	_	_
+8	ein	ein	DET	ART	Definite=Ind|PronType=Art	9	det	_	_
+9	Hund	Hund	NOUN	NN	_	14	subj	_	_
+10	auf	auf	ADP	APPR	_	13	comp:obl	_	_
+11	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	comp:obj	_	_
+13	zugelaufen	zulaufen	VERB	VVPP	Tense=Past|VerbForm=Part	14	comp:aux	_	_
+14	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
+15	da	da	SCONJ	KOUS	_	13	mod	_	_
+16	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Besitzerin	Besitzerin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	subj	_	_
+18	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	comp:obj	_	_
+19	nicht	nicht	PART	PTKNEG	_	21	mod	_	_
+20	festhalten	festhalten	VERB	VVINF	Tense=Pres|VerbForm=Inf	21	comp:aux	_	_
+21	konnte	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	comp:obj	_	_
+22	weil	weil	SCONJ	KOUS	_	20	mod	_	_
+23	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	26	subj	_	_
+24	Einkäufe	Einkauf	NOUN	NN	Case=Acc|Number=Plur	25	comp:obj	_	_
+25	getragen	tragen	VERB	VVPP	Tense=Past|VerbForm=Part	26	comp:aux	_	_
+26	hat	haben	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	22	comp:obj	_	_
+
+# text = und dann fuhr halt ein blaues Auto um die Ecke das bremste weil es den Hund gesehen hat
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	fuhr	fahren	VERB	VVFIN	Tense=Past|VerbForm=Fin	0	root	_	_
+4	halt	halt	ADV	PTKMA	_	3	discourse	_	_
+5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+6	blaues	blau	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc,Neut|Number=Sing	7	mod	_	_
+7	Auto	Auto	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	3	subj	_	_
+8	um	um	ADP	APPR	_	3	comp:obl	_	_
+9	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Ecke	Ecke	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	comp:obj	_	_
+11	das	d	DET	PDS	Case=Acc|Definite=Def|Number=Plur|PronType=Art	12	subj	_	_
+12	bremste	bremsen	ADJ	VVFIN	Case=Acc|Degree=Sup|Number=Sing|Tense=Past	7	mod@relcl	_	_
+13	weil	weil	SCONJ	KOUS	_	12	mod	_	_
+14	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	subj	_	_
+15	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Hund	Hund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	comp:obj	_	_
+17	gesehen	sehen	VERB	VVPP	Tense=Past|VerbForm=Part	18	comp:aux	_	_
+18	hat	haben	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	13	comp:obj	_	_
+
+# text = und weil es halt gebremst hat ist ein weißes Auto ins blaue reingefahren
+1	und	und	CCONJ	KON	_	7	cc	_	_
+2	weil	weil	SCONJ	KOUS	_	13	mod	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
+4	halt	halt	ADV	PTKMA	_	7	discourse	_	_
+5	gebremst	bremsen	ADV	VVPP	Tense=Past	6	comp:aux	_	_
+6	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
+7	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	ein	ein	DET	ART	Definite=Ind|PronType=Art	10	det	_	_
+9	weißes	weiß	ADJ	ADJA	Degree=Pos	10	mod	_	_
+10	Auto	Auto	NOUN	NN	_	7	subj	_	_
+11	ins	in	PROPN	APPRART	_	13	comp:obl	_	_
+12	blaue	blau	PROPN	ADJA	_	11	comp:obj	_	_
+13	reingefahren	reinfahren	VERB	VVPP	Tense=Past|VerbForm=Fin	7	comp:aux	_	_
+

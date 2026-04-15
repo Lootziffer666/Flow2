@@ -1,0 +1,129 @@
+# text = äh F16
+1	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+2	F16	F16	NOUN	NE	_	0	root	_	_
+
+# text = äh ich hab heute ein Autounfall im Parkplatz gesehen
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	hab	haben	AUX	VAFIN	_	0	root	_	_
+4	heute	heute	ADV	ADV	_	3	mod	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Autounfall	Autounfall	NOUN	NN	_	9	comp:obj	_	_
+7	im	in	PROPN	APPRART	_	9	mod	_	_
+8	Parkplatz	Parkplatz	PROPN	NN	_	7	comp:obj	_	_
+9	gesehen	sehen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = ein Mann hat aus Versehen ein Ball fallen gelassen
+1	ein	ein	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	aus	aus	ADP	APPR	_	8	mod	_	_
+5	Versehen	Versehen	NOUN	NN	_	4	comp:obj	_	_
+6	ein	ein	DET	ART	_	7	det	_	_
+7	Ball	Ball	NOUN	NN	_	8	comp:obj	_	_
+8	fallen	fallen	VERB	VVINF	_	9	comp:obj	_	_
+9	gelassen	lassen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und da war eine Frau auf der anderen Seite von der Straße
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	eine	ein	DET	ART	_	5	det	_	_
+5	Frau	Frau	NOUN	NN	_	3	subj	_	_
+6	auf	auf	ADP	APPR	_	3	comp:pred	_	_
+7	der	d	DET	ART	_	9	det	_	_
+8	anderen	ander	ADJ	PIDAT	_	9	mod	_	_
+9	Seite	Seite	NOUN	NN	_	6	comp:obj	_	_
+10	von	von	ADP	APPR	_	9	mod@poss	_	_
+11	der	d	DET	ART	_	12	det	_	_
+12	Straße	Straße	NOUN	NN	_	10	comp:obj	_	_
+
+# text = und ihr Hund ist nach dem Ball in der Straße rausgerannt
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	ihr	ihr	DET	PPOSAT	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	nachm	nachm	ADP	APPR	_	10	mod	_	_
+6	Ball	Ball	NOUN	NN	_	5	comp:obj	_	_
+7	in	in	ADP	APPR	_	10	comp:obl	_	_
+8	der	d	DET	ART	_	9	det	_	_
+9	Straße	Straße	NOUN	NN	_	7	comp:obj	_	_
+10	rausgerannt	rausrennen	ADJ	VVPP	_	4	comp:aux	_	_
+
+# text = und es waren zwei Autos die im Parkplatz reingefahren sind
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	_	3	subj@expl	_	_
+3	waren	sein	VERB	VAFIN	_	0	root	_	_
+4	zwei	zwei	NUM	CARD	_	5	mod	_	_
+5	Autos	Auto	NOUN	NN	_	3	comp:pred	_	_
+6	die	d	DET	PRELS	_	10	subj	_	_
+7	im	in	PROPN	APPRART	_	9	comp:obl	_	_
+8	Parkplatz	Parkplatz	PROPN	NN	_	7	comp:obj	_	_
+9	reingefahren	reinfahren	VERB	VVPP	_	10	comp:aux	_	_
+10	sind	sein	AUX	VAFIN	_	5	mod@relcl	_	_
+
+# text = und das erste Auto musste ganz stark bremsen wegen dem Ball und dem Hund
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	das	d	DET	ART	_	4	det	_	_
+3	erste	erst	ADJ	ORD	_	4	mod	_	_
+4	Auto	Auto	NOUN	NN	_	5	subj	_	_
+5	musste	müssen	AUX	VMFIN	_	0	root	_	_
+6	ganz	ganz	ADJ	PTKIFG	_	7	mod	_	_
+7	stark	stark	ADJ	ADJD	_	5	mod	_	_
+8	bremsen	bremsen	VERB	VVINF	_	5	comp:aux	_	_
+9	wegen	wegen	ADP	APPR	_	8	mod	_	_
+10	dem	d	DET	ART	_	11	det	_	_
+11	Ball	Ball	NOUN	NN	_	9	comp:obj	_	_
+12	und	und	CCONJ	KON	_	14	cc	_	_
+13	dem	d	DET	ART	_	14	det	_	_
+14	Hund	Hund	NOUN	NN	_	11	conj	_	_
+
+# text = und dann musste das zweite Auto auch bremsen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	musste	müssen	AUX	VMFIN	_	0	root	_	_
+4	das	d	DET	ART	_	6	det	_	_
+5	zweite	zweit	ADJ	ORD	_	6	mod	_	_
+6	Auto	Auto	NOUN	NN	_	3	subj	_	_
+7	auch	auch	ADV	PTKIFG	_	3	mod	_	_
+8	bremsen	bremsen	VERB	VVINF	_	3	comp:aux	_	_
+
+# text = und war ein bisschen zu nah dran
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	bisschen	bisschen	NOUN	PIDS	_	5	mod	_	_
+5	zu	zu	ADV	PTKA	_	6	mod	_	_
+6	nah	nah	ADJ	ADJD	_	7	mod	_	_
+7	dran	dran	ADV	PTKVZ	_	2	comp:pred	_	_
+
+# text = und ist in das erste Auto aus Versehen reingefahren
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	ins	ins	ADP	APPR	_	8	comp:obl	_	_
+4	erste	erst	ADJ	ORD	_	5	mod	_	_
+5	Auto	Auto	NOUN	NN	_	3	comp:obj	_	_
+6	aus	aus	ADP	APPR	_	8	mod	_	_
+7	Versehen	Versehen	NOUN	NN	_	6	comp:obj	_	_
+8	reingefahren	reinfahren	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = und niemand war verletzt
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	niemand	niemand	PRON	PIS	_	3	subj	_	_
+3	war	sein	AUX	VAFIN	_	0	root	_	_
+4	verletzt	verletzen	VERB	ADJD	_	3	comp:pred	_	_
+
+# text = aber da war ein bisschen bei den zwei Autos irgendwas kaputt
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	bisschen	bisschen	NOUN	PIDS	_	3	mod	_	_
+6	bei	bei	ADP	APPR	_	11	mod	_	_
+7	den	d	DET	ART	_	9	det	_	_
+8	zwei	zwei	NUM	CARD	_	9	mod	_	_
+9	Autos	Auto	NOUN	NN	_	6	comp:obj	_	_
+10	irgendwas	irgendwas	PRON	PIS	_	3	subj	_	_
+11	kaputt	kaputt	ADJ	ADJD	_	3	comp:pred	_	_
+
+

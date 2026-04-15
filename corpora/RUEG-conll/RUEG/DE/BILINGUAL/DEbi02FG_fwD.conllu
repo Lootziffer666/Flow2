@@ -1,0 +1,173 @@
+# text = Sehr geehrte Damen und Herren ,
+1	Sehr	Sehr	ADV	PTKIFG	_	2	mod	_	_
+2	geehrte	geehrt	ADJ	ADJA	Degree=Pos	3	mod	_	_
+3	Damen	Dame	NOUN	NN	_	0	root	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Herren	Herr	NOUN	NN	_	3	conj	_	_
+6	,	,	PUNCT	$,	_	3	punct	_	_
+
+# text = an diesem schönen sonnigen Tag stand ich dabei wie es zu diesem Unfall kam .
+1	an	an	ADP	APPR	_	6	mod	_	_
+2	diesem	diese	DET	PDAT	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Dem	5	det	_	_
+3	schönen	schön	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	5	mod	_	_
+4	sonnigen	sonnig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	5	mod	_	_
+5	Tag	Tag	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	1	comp:obj	_	_
+6	stand	stehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	subj	_	_
+8	dabei	dabei	ADV	ADV	_	6	compound@prt	_	_
+9	wie	wie	PRON	PWS	_	6	mod	_	_
+10	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	subj	_	_
+11	zu	zu	ADP	APPR	_	14	comp:obl	_	_
+12	diesem	diese	DET	PDAT	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Dem	13	det	_	_
+13	Unfall	Unfall	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	11	comp:obj	_	_
+14	kam	kommen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	9	comp:obj	_	_
+15	.	.	PUNCT	$.	_	6	punct	_	_
+
+# text = Folgendes ist passiert .
+1	Folgendes	Folgende	NOUN	NN	Degree=Pos	2	subj	_	_
+2	ist	sein	AUX	VAFIN	_	0	root	_	_
+3	passiert	passieren	VERB	VVPP	VerbForm=Part	2	comp:aux	_	_
+4	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Ein Pärchen ( Mann und Frau mit Kinderwagen ) wollte über die Straße gehen ,
+1	Ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Pärchen	Pärchen	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	10	subj	_	_
+3	(	(	PUNCT	$(	_	4	punct	_	_
+4	Mann	Mann	NOUN	NN	_	2	appos	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	Frau	Frau	NOUN	NN	_	4	conj	_	_
+7	mit	mit	ADP	APPR	_	6	mod	_	_
+8	Kinderwagen	Kinderwagen	NOUN	NN	Case=Dat|Number=Plur	7	comp:obj	_	_
+9	)	)	PUNCT	$(	_	4	punct	_	_
+10	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	über	über	ADP	APPR	_	14	comp:obl	_	_
+12	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	comp:obj	_	_
+14	gehen	gehen	VERB	VVINF	VerbForm=Inf	10	comp:aux	_	_
+15	,	,	PUNCT	$,	_	10	punct	_	_
+
+# text = dabei spielte der Mann mit einem Fußball in der Hand
+1	dabei	dabei	ADV	ADV	_	2	mod	_	_
+2	spielte	spielen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	subj	_	_
+5	mit	mit	ADP	APPR	_	2	mod	_	_
+6	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Fußball	Fußball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	comp:obj	_	_
+8	in	in	ADP	APPR	_	2	mod	_	_
+9	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Hand	Hand	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	comp:obj	_	_
+
+# text = und es kam wie es kommen musste .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+3	kam	kommen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	wie	wie	SCONJ	KOKOM	_	7	mod	_	_
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	_
+6	kommen	kommen	VERB	VVINF	VerbForm=Inf	7	comp:aux	_	_
+7	musste	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	comp:obl	_	_
+8	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Der Ball fiel auf die Straße
+1	Der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Ball	Ball	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	fiel	fallen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	auf	auf	ADP	APPR	_	3	comp:obl	_	_
+5	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	comp:obj	_	_
+
+# text = und der Hund , der gegenüber stand mit seinem Frauchen , wurde aufgeschreckt
+1	und	und	CCONJ	KON	_	12	cc	_	_
+2	der	d	DET	ART	Definite=Def|PronType=Art	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	12	subj@pass	_	_
+4	,	,	PUNCT	$,	_	12	punct	_	_
+5	der	d	DET	ART	Case=Nom|PronType=Rel	7	subj	_	_
+6	gegenüber	gegenüber	ADV	ADV	_	7	mod	_	_
+7	stand	stehen	VERB	VVFIN	VerbForm=Fin	3	mod@relcl	_	_
+8	mit	mit	ADP	APPR	_	7	mod	_	_
+9	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	Frauchen	Frauchen	NOUN	NN	_	8	comp:obj	_	_
+11	,	,	PUNCT	$,	_	7	punct	_	_
+12	wurde	werden	AUX	VAFIN	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	aufgeschreckt	aufschrecken	VERB	VVPP	Person=3|VerbForm=Fin	12	comp:aux@pass	_	_
+
+# text = und lief auch auf die Straße .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	lief	laufen	VERB	VVFIN	VerbForm=Fin	0	root	_	_
+3	auch	auch	ADV	PTKIFG	_	2	mod	_	_
+4	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+5	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	comp:obj	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Dabei kam dazu , dass ein hinzukommender PKW ( blau ) abrupt bremsen musste .
+1	Dabei	dabei	ADV	ADV	_	2	mod	_	_
+2	kam	kommen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	dazu	dazu	ADV	ADV	PronType=Dem,Rel	2	mod	_	_
+4	,	,	PUNCT	$,	_	2	punct	_	_
+5	dass	dass	CCONJ	KOUS	_	2	comp:obj	_	_
+6	ein	ein	DET	ART	Definite=Ind|PronType=Art	8	det	_	_
+7	hinzukommender	hinzukommende	ADJ	ADJA	Degree=Cmp,Pos	8	mod	_	_
+8	PKW	PKW	NOUN	NN	_	14	subj	_	_
+9	(	(	PUNCT	$(	_	10	punct	_	_
+10	blau	blau	ADJ	ADJD	Degree=Pos	8	mod	_	_
+11	)	)	PUNCT	$(	_	10	punct	_	_
+12	abrupt	abrupt	ADJ	ADJD	Degree=Pos	14	mod	_	_
+13	bremsen	bremsen	VERB	VVINF	VerbForm=Inf	14	comp:aux	_	_
+14	musste	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	comp:obj	_	_
+15	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Der PKW hinter dem blauen PKW ( weiß ) stieß anschließend auf den PKW ( blau ) .
+1	Der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	PKW	PKW	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	subj	_	_
+3	hinter	hinter	ADP	APPR	_	2	mod	_	_
+4	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+5	blauen	blau	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	6	mod	_	_
+6	PKW	PKW	NOUN	NN	_	3	comp:obj	_	_
+7	(	(	PUNCT	$(	_	8	punct	_	_
+8	weiß	weiß	ADJ	ADJD	_	2	appos	_	_
+9	)	)	PUNCT	$(	_	8	punct	_	_
+10	stieß	stoßen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+11	anschließend	anschließend	ADV	ADV	Degree=Pos	10	mod	_	_
+12	auf	auf	ADP	APPR	_	10	comp:obl	_	_
+13	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	PKW	PKW	NOUN	NN	_	12	comp:obj	_	_
+15	(	(	PUNCT	$(	_	16	punct	_	_
+16	blau	blau	ADJ	ADJD	Case=Acc|Number=Sing	14	appos	_	_
+17	)	)	PUNCT	$(	_	16	punct	_	_
+18	.	.	PUNCT	$.	_	10	punct	_	_
+
+# text = Der Mann lief letztendlich über die Straße
+1	Der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	lief	laufen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	letztendlich	letztendlich	ADV	ADV	Degree=Pos	3	mod	_	_
+5	über	über	ADP	APPR	_	3	comp:obl	_	_
+6	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	comp:obj	_	_
+
+# text = und half der Frau mit dem Hund .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	half	helfen	VERB	VVFIN	VerbForm=Fin	0	root	_	_
+3	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Frau	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	comp:obj	_	_
+5	mit	mit	ADP	APPR	_	4	mod	_	_
+6	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Hund	Hund	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	comp:obj	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Die beiden Verkehrsteilnehmer verließen ihre Autos
+1	Die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	beiden	beide	PRON	PIDAT	Case=Nom|Gender=Fem|NumType=Card|Number=Sing|PronType=Tot	3	mod	_	_
+3	Verkehrsteilnehmer	Verkehrsteilnehmer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	subj	_	_
+4	verließen	verlassen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+5	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	Autos	Auto	NOUN	NN	Case=Acc|Number=Sing	4	comp:obj	_	_
+
+# text = und riefen die Polizei .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	riefen	rufen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+3	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Polizei	Polizei	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	comp:obj	_	_
+5	.	.	PUNCT	$.	_	2	punct	_	_
+

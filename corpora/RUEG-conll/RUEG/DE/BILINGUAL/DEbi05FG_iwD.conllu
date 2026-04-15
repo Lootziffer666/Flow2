@@ -1,0 +1,104 @@
+1	Hi	hi	PROPN	NGIRR	_	2	discourse	_	_
+2	Schatz	Schatz	PROPN	NN	_	0	root	_	_
+
+1	du	du	PRON	PPER	_	2	vocative	_	_
+2	weißt	wissen	VERB	VVFIN	_	0	root	_	_
+3	du	du	PROPN	PPER	_	2	subj	_	_
+4	was	was	PROPN	PWS	_	6	subj	_	_
+5	passiert	passieren	VERB	VVPP	_	6	comp:aux	_	_
+6	ist	sein	AUX	VAFIN	_	2	comp:obj	_	_
+
+1	bin	sein	VERB	VAFIN	_	0	root	_	_
+2	hier	hier	ADV	ADV	_	1	mod	_	_
+3	auf	auf	ADP	APPR	_	1	comp:pred	_	_
+4	dem	d	DET	ART	_	6	det	_	_
+5	.	.	PUNCT	$.	_	1	punct	_	_
+6	Parkgelände	Parkgelände	NOUN	NN	_	3	comp:obj	_	_
+
+1	kam	kommen	VERB	VVFIN	_	0	root	_	_
+2	ein	ein	DET	ART	_	4	det	_	_
+3	.	.	PUNCT	$.	_	1	punct	_	_
+4	Paar	Paar	NOUN	NN	_	1	subj	_	_
+5	mit	mit	ADP	APPR	_	4	mod	_	_
+6	Babywagen	Babywagen	NOUN	NN	_	5	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	der	d	PRON	PDS	_	3	subj	_	_
+3	spielte	spielen	VERB	VVFIN	_	0	root	_	_
+4	mit	mit	ADP	APPR	_	3	mod	_	_
+5	dem	d	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	4	comp:obj	_	_
+7	herum	herum	ADV	PTKVZ	_	3	compound@prt	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	verliert	verlieren	VERB	VVFIN	_	0	root	_	_
+3	die	d	DET	ART	_	4	det	_	_
+4	Kontrolle	Kontrolle	NOUN	NN	_	2	comp:obj	_	_
+
+1	rollt	rollen	VERB	VVFIN	_	0	root	_	_
+2	gegenüber	gegenüber	ADP	ADV	_	1	mod	_	_
+
+1	da	da	ADV	ADV	_	2	comp:pred	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	auch	auch	ADV	PTKIFG	_	2	mod	_	_
+4	ein	ein	DET	ART	_	6	det	_	_
+5	.	.	PUNCT	$.	_	2	punct	_	_
+6	Hund	Hund	NOUN	NN	_	2	subj	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	klar	klar	ADJ	ADJD	_	4	mod	_	_
+3	er	er	PRON	PPER	_	4	subj	_	_
+4	reagiert	reagieren	VERB	VVFIN	_	0	root	_	_
+5	auf	auf	ADP	APPR	_	4	comp:obl	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Ball	Ball	NOUN	NN	_	5	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	fallen	fallen	VERB	VVFIN	_	0	root	_	_
+3	von	von	ADP	APPR	_	2	mod	_	_
+4	Frauchen	Frauchen	NOUN	NN	_	3	comp:obj	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Einkäufe	Einkauf	NOUN	NN	_	2	subj	_	_
+7	herunter	herunter	ADJ	PTKVZ	_	2	compound@prt	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	gleichzeitig	gleichzeitig	ADJ	ADJD	_	3	mod	_	_
+3	kommen	kommen	VERB	VVFIN	_	0	root	_	_
+4	zwei	zwei	NUM	CARD	_	5	mod	_	_
+5	Autos	Auto	NOUN	NN	_	3	subj	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Blaue	Blau	PROPN	NN	_	0	root	_	_
+4	Vollbremsung	Vollbremsung	PROPN	NN	_	3	orphan	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	Weiße	Weiße	NOUN	NN	_	3	subj	_	_
+3	knallt	knallen	VERB	VVFIN	_	0	root	_	_
+4	dahinter	dahinter	ADV	ADV	_	3	compound@prt	_	_
+
+1	ein	ein	DET	PTKVZ	_	2	det	_	_
+2	Glück	Glück	NOUN	NE	_	4	mod	_	_
+3	.	.	PUNCT	$.	_	4	punct	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	dem	d	DET	ART	_	7	det	_	_
+6	.	.	PUNCT	$.	_	4	punct	_	_
+7	Baby	Baby	PROPN	NN	_	9	comp:obj	_	_
+8	nichts	nichts	PRON	PIS	_	4	subj	_	_
+9	passiert	passieren	VERB	VVPP	_	4	comp:aux	_	_
+
+1	der	d	DET	ART	_	3	det	_	_
+2	blaue	blau	PROPN	ADJA	_	3	mod	_	_
+3	Auto	Auto	PROPN	NN	_	4	subj	_	_
+4	wäre	sein	AUX	VAFIN	_	0	root	_	_
+5	beinah	beinah	ADJ	ADV	_	4	mod	_	_
+6	raufgefahren	rauffahren	VERB	VVFIN	_	4	comp:aux	_	_
+
+1	schon	schon	ADV	PTKMA	_	2	mod	_	_
+2	krass	krass	PROPN	ADJD	_	0	root	_	_
+3	nee	nee	PROPN	NGIRR	_	2	discourse	_	_
+
+1	:loudly_crying_face:	😭	SYM	EMO	_	0	root	_	_
+
+1	:face_screaming_in_fear:	😱	SYM	EMO	_	0	root	_	_
+

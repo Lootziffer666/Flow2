@@ -1,0 +1,55 @@
+# text = Zwei Fußgänger_innen wollten einen Parkplatz überqueren , über den zwei Autos hintereinander fuhren .
+1	Zwei	Zwei	NUM	CARD	NumType=Card	2	mod	_	_
+2	Fußgänger_innen	Fußgänger_innen	NOUN	NN	Case=Nom|Number=Plur	3	subj	_	_
+3	wollten	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Parkplatz	Parkplatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	comp:obj	_	_
+6	überqueren	überqueren	VERB	VVINF	Tense=Pres|VerbForm=Inf	3	comp:aux	_	_
+7	,	,	PUNCT	$	_	3	punct	_	_
+8	über	über	ADP	APPR	_	13	comp:obj	_	_
+9	den	d	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	8	comp:obl	_	_
+10	zwei	zwei	NUM	CARD	NumType=Card	11	mod	_	_
+11	Autos	Auto	NOUN	NN	Case=Dat|Number=Plur	13	subj	_	_
+12	hintereinander	hintereinander	ADV	ADV	_	13	mod	_	_
+13	fuhren	fahren	VERB	VVFIN	Tense=Past|VerbForm=Inf	5	mod@relcl	_	_
+14	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Einem Fußgänger ist ein Ball heruntergefallen und auf den Weg gerollt , worauf das vordere Auto abrupt bremste und das hintere ihm hinten auffuhr .
+1	Einem	ein	DET	ART	Definite=Ind|PronType=Art	2	det	_	_
+2	Fußgänger	Fußgänger	NOUN	NN	_	6	comp:obj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	subj	_	_
+6	heruntergefallen	herunterfallen	VERB	VVPP	Tense=Past|VerbForm=Inf	3	comp:aux	_	_
+7	und	und	CCONJ	KON	_	11	cc	_	_
+8	auf	auf	ADP	APPR	_	11	comp:obl	_	_
+9	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Weg	Weg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	comp:obj	_	_
+11	gerollt	rollen	VERB	VVPP	Tense=Past|VerbForm=Part	3	conj	_	_
+12	,	,	PUNCT	$	_	6	punct	_	_
+13	worauf	worauf	SCONJ	PWAV	_	6	mod	_	_
+14	das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+15	vordere	vorder	ADJ	ADJA	Case=Nom|Degree=Cmp|Number=Sing	16	mod	_	_
+16	Auto	Auto	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	18	subj	_	_
+17	abrupt	abrupt	ADV	ADJD	_	18	mod	_	_
+18	bremste	bremsen	ADJ	VVFIN	Case=Acc|Degree=Sup|Number=Sing|Tense=Past	13	comp:obj	_	_
+19	und	und	CCONJ	KON	_	24	cc	_	_
+20	das	d	DET	ART	Definite=Def|PronType=Art	21	det	_	_
+21	hintere	hinter	ADJ	ADJA	Degree=Cmp	24	subj	_	_
+22	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	comp:obj	_	_
+23	hinten	hinten	ADV	ADV	_	24	mod	_	_
+24	auffuhr	auffahren	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	conj	_	_
+25	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Eine weitere Frau mit Hund sah diesen Unfall ebenfalls .
+1	Eine	eine	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	weitere	weit	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	3	mod	_	_
+3	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	subj	_	_
+4	mit	mit	ADP	APPR	_	3	mod	_	_
+5	Hund	Hund	NOUN	NN	Case=Dat|Number=Sing	4	comp:obj	_	_
+6	sah	sehen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	diesen	diese	PRON	PDAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	Unfall	Unfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	comp:obj	_	_
+9	ebenfalls	ebenfalls	ADV	ADV	_	6	mod	_	_
+10	.	.	PUNCT	$.	_	6	punct	_	_
+

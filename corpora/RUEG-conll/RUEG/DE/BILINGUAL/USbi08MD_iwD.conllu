@@ -1,0 +1,32 @@
+# text = hallo Brant .
+1	hallo	hallo	X	NGIRR	_	2	discourse	_	_
+2	Brant	Brant	NOUN	NE	_	0	root	_	_
+3	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = ich habe heute ein Autounfall gesehen .
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	heute	heute	ADV	ADV	_	2	mod	_	_
+4	ein	ein	NUM	ART	NumType=Card	5	mod	_	_
+5	Autounfall	Autounfall	NOUN	NN	Case=Acc|Number=Sing	6	comp:obj	_	_
+6	gesehen	sehen	VERB	VVPP	VerbForm=Part	2	comp:aux	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = ein Hund hat in der Straße gesprinkt
+1	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Hund	Hund	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	3	subj	_	_
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	APPR	_	7	comp:obl	_	_
+5	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Straße	Straße	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	comp:obj	_	_
+7	gesprinkt	springen	VERB	VVPP	Number=Sing|Person=3|VerbForm=Fin	3	comp:aux	_	_
+
+# text = und die Autos hat einander geschlagt .
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	die	d	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+3	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	4	subj	_	_
+4	hat	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	einander	er|sie|es	ADV	PRF	_	6	comp:obj	_	_
+6	geschlagt	schlagen	VERB	VVPP	VerbForm=Part	4	comp:aux	_	_
+7	.	.	PUNCT	$.	_	4	punct	_	_
+

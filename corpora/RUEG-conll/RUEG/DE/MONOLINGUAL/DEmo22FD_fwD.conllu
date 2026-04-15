@@ -1,0 +1,303 @@
+# user_id = nzuern
+# timestamp = 1627843635193
+# sent_id = 1627822428.473601-809356_00001
+1	﻿Zeugenaussage	Zeugenaussage	NOUN	NN	_	0	root	_	_
+2	zu	zu	ADP	APPR	_	1	mod	_	_
+3	Fallnummer	Fallnummer	PROPN	NN	_	2	comp:obj	_	_
+4	16	@card@	NUM	CARD	_	3	appos	_	_
+5	,	,	PUNCT	$,	_	1	punct	_	_
+
+# user_id = nzuern
+# sent_id = 1627822428.473601-809356_00002
+# timestamp = 1627822428429
+1	26.09.2018	@card@	X	CARD	_	0	root	_	_
+2	,	,	PUNCT	$,	_	1	punct	_	_
+
+# user_id = nzuern
+# sent_id = 1627822428.473601-809356_00003
+# timestamp = 1627822428429
+1	10:40	@card@	NUM	CARD	_	0	root	_	_
+2	,	,	PUNCT	$,	_	1	punct	_	_
+
+# user_id = nzuern
+# timestamp = 1627843693722
+# sent_id = 1627822428.473601-809356_00004
+1	{streetname}Straße	{streetname}Straße	PROPN	NE	_	0	root	_	_
+2	24	@card@	PROPN	CARD	_	1	appos	_	_
+3	in	in	ADP	APPR	_	1	mod	_	_
+4	Berlin	Berlin	PROPN	NE	_	3	comp:obj	_	_
+
+# user_id = nzuern
+# timestamp = 1627843949226
+# sent_id = 1627822428.473601-809356_00005
+1	Als	als	ADP	KOKOM	_	9	mod	_	_
+2	Spaziergängerin	Spaziergängerin	NOUN	NN	_	1	comp:obj	_	_
+3	bin	sein	VERB	VAFIN	_	0	root	_	_
+4	ich	ich	PRON	PPER	_	3	subj	_	_
+5	zufällig	zufällig	ADJ	ADJD	_	3	mod	_	_
+6	Augenzeugin	Augenzeugin	NOUN	NN	_	9	comp:obj	_	_
+7	eines	ein	DET	ART	_	8	det	_	_
+8	Auffahrunfalls	Auffahrunfall	NOUN	NN	_	6	mod@poss	_	_
+9	geworden	werden	VERB	VAPP	_	3	comp:aux	_	_
+10	.	.	PUNCT	$.	_	3	punct	_	_
+
+# user_id = nzuern
+# timestamp = 1627844053205
+# sent_id = 1627822428.473601-809356_00006
+1	Ein	ein	DET	ART	_	2	det	_	_
+2	Pärchen	Pärchen	NOUN	NN	_	5	subj	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	Kinderwagen	Kinderwagen	NOUN	NN	_	3	comp:obj	_	_
+5	ging	gehen	VERB	VVFIN	_	0	root	_	_
+6	spazieren	spazieren	VERB	VVINF	_	5	comp:aux	_	_
+7	,	,	PUNCT	$,	_	5	punct	_	_
+
+# user_id = nzuern
+# timestamp = 1627844223394
+# sent_id = 1627822428.473601-809356_00007
+1	der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	0	root	_	_
+3	nebenbei	nebenbei	ADV	ADV	_	2	mod	_	_
+4	mit	mit	ADP	APPR	_	7	mod	_	_
+5	einem	ein	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	4	comp:obj	_	_
+7	spielend	spielend	VERB	ADJD	_	2	orphan	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# user_id = nzuern
+# timestamp = 1627844502285
+# sent_id = 1627822428.473601-809356_00008
+1	Das	d	DET	ART	_	2	det	_	_
+2	Pärchen	Pärchen	NOUN	NN	_	3	subj	_	_
+3	bog	biegen	VERB	VVFIN	_	0	root	_	_
+4	vom	von	PROPN	APPRART	_	3	mod	_	_
+5	Gehweg	Gehweg	PROPN	NN	_	4	comp:obj	_	_
+6	um	um	ADP	APPR	_	3	comp:obl	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Ecke	Ecke	NOUN	NN	_	6	comp:obj	_	_
+9	Richtung	Richtung	NOUN	NN	_	3	mod	_	_
+10	Straße	Straße	PROPN	NN	_	9	mod@poss	_	_
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+# user_id = nzuern
+# timestamp = 1627844578378
+# sent_id = 1627822428.473601-809356_00009
+1	Parallel	parallel	ADJ	ADJD	_	2	mod	_	_
+2	dazu	dazu	ADV	ADV	_	3	mod	_	_
+3	stand	stehen	VERB	VVFIN	_	0	root	_	_
+4	auf	auf	ADP	APPR	_	3	mod	_	_
+5	der	d	DET	ART	_	7	det	_	_
+6	gegenüberliegenden	gegenüberliegend	ADJ	ADJA	_	7	mod	_	_
+7	Straßenseite	Straßenseite	NOUN	NN	_	4	comp:obj	_	_
+8	eine	ein	DET	ART	_	9	det	_	_
+9	Dame	Dame	NOUN	NN	_	3	subj	_	_
+10	an	an	ADP	APPR	_	3	comp:obl	_	_
+11	ihrem	ihr	DET	PPOSAT	_	12	det	_	_
+12	Auto	Auto	NOUN	NN	_	10	comp:obj	_	_
+13	,	,	PUNCT	$,	_	3	punct	_	_
+14	um	um	ADP	KOUI	_	3	mod	_	_
+15	ihren	ihr	DET	PPOSAT	_	16	det	_	_
+16	Einkauf	Einkauf	NOUN	NN	_	18	comp:obj	_	_
+17	zu	zu	PART	PTKZU	_	14	comp:obj	_	_
+18	verstauen	verstauen	VERB	VVINF	_	17	comp:obj	_	_
+19	.	.	PUNCT	$.	_	3	punct	_	_
+
+# user_id = nzuern
+# timestamp = 1627844619142
+# sent_id = 1627822428.473601-809356_00010
+1	An	an	ADP	APPR	_	5	mod	_	_
+2	der	d	DET	ART	_	4	det	_	_
+3	einen	ein	ADJ	ART	_	4	mod	_	_
+4	Hand	Hand	NOUN	NN	_	1	comp:obj	_	_
+5	hielt	halten	VERB	VVFIN	_	0	root	_	_
+6	sie	sie	PRON	PPER	_	5	subj	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Leine	Leine	NOUN	NN	_	5	comp:obj	_	_
+9	mit	mit	ADP	APPR	_	8	mod	_	_
+10	ihrem	ihr	DET	PPOSAT	_	11	det	_	_
+11	Hund	Hund	NOUN	NN	_	9	comp:obj	_	_
+12	.	.	PUNCT	$.	_	5	punct	_	_
+
+# user_id = nzuern
+# timestamp = 1627845013071
+# sent_id = 1627822428.473601-809356_00011
+1	Von	von	ADP	APPR	_	7	mod	_	_
+2	Weitem	Weit	NOUN	NN	_	1	comp:obj	_	_
+3	sah	sehen	VERB	VVFIN	_	0	root	_	_
+4	ich	ich	PRON	PPER	_	3	subj	_	_
+5	zwei	zwei	NUM	CARD	_	6	mod	_	_
+6	Auto	Auto	NOUN	NN	_	7	comp:obj	_	_
+7	anfahren	anfahren	VERB	VVINF	_	3	comp:aux	_	_
+8	,	,	PUNCT	$,	_	3	punct	_	_
+9	relativ	relativ	ADJ	PTKIFG	_	10	mod	_	_
+10	dicht	dicht	ADJ	ADJD	_	11	mod	_	_
+11	hintereinander	hintereinander	ADV	ADV	_	12	mod	_	_
+12	fahrend	fahrend	ADJ	ADJD	_	3	mod	_	_
+13	.	.	PUNCT	$.	_	3	punct	_	_
+
+# user_id = nzuern
+# timestamp = 1627845107873
+# sent_id = 1627822428.473601-809356_00012
+1	Der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	8	subj	_	_
+3	des	d	DET	ART	_	4	det	_	_
+4	Pärchens	Pärchen	NOUN	NN	_	2	mod@poss	_	_
+5	mit	mit	ADP	APPR	_	4	mod	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	Kinderwagen	Kinderwagen	NOUN	NN	_	5	comp:obj	_	_
+8	ließ	lassen	VERB	VVFIN	_	0	root	_	_
+9	nun	nun	ADV	ADV	_	8	mod	_	_
+10	an	an	ADP	APPR	_	16	mod	_	_
+11	der	d	DET	ART	_	12	det	_	_
+12	Straße	Straße	PROPN	NN	_	10	comp:obj	_	_
+13	den	d	DET	ART	_	14	det	_	_
+14	Ball	Ball	NOUN	NN	_	16	comp:obj	_	_
+15	versehentlich	versehentlich	ADJ	ADJD	_	8	mod	_	_
+16	fallen	fallen	VERB	VVINF	_	8	comp:obj	_	_
+17	.	.	PUNCT	$.	_	8	punct	_	_
+
+# user_id = nzuern
+# timestamp = 1627845156007
+# sent_id = 1627822428.473601-809356_00013
+1	Der	d	DET	ART	_	2	det	_	_
+2	Ball	Ball	NOUN	NN	_	3	subj	_	_
+3	rollte	rollen	VERB	VVFIN	_	0	root	_	_
+4	über	über	ADP	APPR	_	3	comp:obl	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Straße	Straße	NOUN	NN	_	4	comp:obj	_	_
+
+# user_id = nzuern
+# timestamp = 1627845341978
+# sent_id = 1627822428.473601-809356_00014
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	erschreckte	erschrecken	VERB	VVFIN	_	0	root	_	_
+3	den	d	DET	ART	_	4	det	_	_
+4	Hund	Hund	NOUN	NN	_	2	comp:obj	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Frau	Frau	NOUN	NN	_	4	mod@poss	_	_
+7	die	d	PRON	PRELS	_	10	subj	_	_
+8	den	d	DET	ART	_	9	det	_	_
+9	Einkauf	Einkauf	NOUN	NN	_	10	comp:obj	_	_
+10	verstaute	verstauen	VERB	VVFIN	_	6	mod@relcl	_	_
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+# user_id = nzuern
+# timestamp = 1627845371113
+# sent_id = 1627822428.473601-809356_00015
+1	Der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	3	subj	_	_
+3	rannte	rennen	VERB	VVFIN	_	0	root	_	_
+4	auf	auf	ADP	APPR	_	3	comp:obl	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Fahrbahn	Fahrbahn	NOUN	NN	_	4	comp:obj	_	_
+7	,	,	PUNCT	$,	_	3	punct	_	_
+
+# user_id = nzuern
+# timestamp = 1627845396516
+# sent_id = 1627822428.473601-809356_00016
+1	die	d	DET	ART	_	2	det	_	_
+2	Frau	Frau	NOUN	NN	_	3	subj	_	_
+3	versuchte	versuchen	VERB	VVFIN	_	0	root	_	_
+4	ihn	er	PRON	PPER	_	6	comp:obj	_	_
+5	zu	zu	PART	PTKZU	_	3	comp:obj	_	_
+6	halten	halten	VERB	VVINF	_	5	comp:obj	_	_
+7	.	.	PUNCT	$.	_	3	punct	_	_
+
+# user_id = nzuern
+# timestamp = 1627845478723
+# sent_id = 1627822428.473601-809356_00017
+1	In	in	ADP	APPR	_	4	mod	_	_
+2	dem	d	DET	ART	_	3	det	_	_
+3	Moment	Moment	NOUN	NN	_	1	comp:obj	_	_
+4	bremsten	bremsen	ADJ	VVFIN	_	0	root	_	_
+5	die	d	DET	ART	_	7	det	_	_
+6	beiden	beide	PRON	PIDAT	_	7	mod	_	_
+7	Autos	Auto	NOUN	NN	_	4	subj	_	_
+8	ab	ab	VERB	PTKVZ	_	4	compound@prt	_	_
+9	,	,	PUNCT	$,	_	4	punct	_	_
+
+# user_id = nzuern
+# timestamp = 1627845634199
+# sent_id = 1627822428.473601-809356_00018
+1	es	es	PRON	PPER	_	2	subj@expl	_	_
+2	kam	kommen	VERB	VVFIN	_	0	root	_	_
+3	zum	zu	NOUN	APPRART	_	2	comp:obl	_	_
+4	Auffahrunfall	Auffahrunfall	NOUN	NN	_	3	comp:obj	_	_
+5	des	d	DET	ART	_	7	det	_	_
+6	weißen	weiß	PROPN	ADJA	_	7	mod	_	_
+7	Autos	Auto	NOUN	NN	_	4	mod@poss	_	_
+8	auf	auf	ADP	APPR	_	7	mod	_	_
+9	das	d	DET	ART	_	11	det	_	_
+10	blaue	blau	ADJ	ADJA	_	11	mod	_	_
+11	Auto	Auto	NOUN	NN	_	8	comp:obj	_	_
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# user_id = nzuern
+# timestamp = 1627845777176
+# sent_id = 1627822428.473601-809356_00019
+1	Zu	zu	ADP	APPR	_	3	comp:obl	_	_
+2	Schaden	Schaden	NOUN	NN	_	1	comp:obj	_	_
+3	kam	kommen	VERB	VVFIN	_	0	root	_	_
+4	nach	nach	ADP	APPR	_	3	mod	_	_
+5	meiner	mein	PRON	PPOSAT	_	6	det	_	_
+6	Einschätzung	Einschätzung	NOUN	NN	_	4	comp:obj	_	_
+7	niemand	niemand	PRON	PIS	_	3	subj	_	_
+8	.	.	PUNCT	$.	_	3	punct	_	_
+
+# user_id = nzuern
+# timestamp = 1627845880541
+# sent_id = 1627822428.473601-809356_00020
+1	Der	d	DET	ART	_	2	det	_	_
+2	Herr	Herr	NOUN	NN	_	6	subj	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	dem	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+6	half	helfen	VERB	VVFIN	_	0	root	_	_
+7	erst	erst	ADV	ADV	_	6	mod	_	_
+8	der	d	DET	ART	_	9	det	_	_
+9	Dame	Dame	NOUN	NN	_	6	comp:obj	_	_
+10	mit	mit	ADP	APPR	_	6	mod	_	_
+11	dem	d	DET	ART	_	12	det	_	_
+12	Einkauf	Einkauf	NOUN	NN	_	10	comp:obj	_	_
+
+# user_id = nzuern
+# timestamp = 1627845914522
+# sent_id = 1627822428.473601-809356_00021
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	schaute	schauen	VERB	VVFIN	_	0	root	_	_
+3	dann	dann	ADV	ADV	_	2	mod	_	_
+4	bei	bei	ADP	APPR	_	2	comp:obl	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Autos	Auto	NOUN	NN	_	4	comp:obj	_	_
+7	nach	nach	ADP	PTKVZ	_	2	compound@prt	_	_
+8	,	,	PUNCT	$,	_	2	punct	_	_
+9	ob	ob	SCONJ	KOUS	_	2	comp:obj	_	_
+10	er	er	PRON	PPER	_	12	subj	_	_
+11	helfen	helfen	VERB	VVINF	_	12	comp:aux	_	_
+12	könne	können	AUX	VMFIN	_	9	comp:obj	_	_
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+# user_id = nzuern
+# timestamp = 1627845938145
+# sent_id = 1627822428.473601-809356_00022
+1	Bei	bei	ADP	APPR	_	8	mod	_	_
+2	weiteren	weit	ADJ	ADJA	_	3	mod	_	_
+3	Fragen	Frage	NOUN	NN	_	1	comp:obj	_	_
+4	können	können	AUX	VMFIN	_	0	root	_	_
+5	Sie	Sie	PRON	PPER	_	4	subj	_	_
+6	mich	ich	PRON	PPER	_	8	comp:obj	_	_
+7	gerne	gerne	ADV	ADV	_	4	mod	_	_
+8	kontaktieren	kontaktieren	VERB	VVINF	_	4	comp:aux	_	_
+9	.	.	PUNCT	$.	_	4	punct	_	_
+
+# user_id = nzuern
+# timestamp = 1627845961447
+# sent_id = 1627822428.473601-809356_00023
+1	Freundliche	freundlich	ADJ	ADJA	_	2	mod	_	_
+2	Grüße	Grüße	NOUN	NN	_	0	root	_	_
+3	,	,	PUNCT	$,	_	2	punct	_	_
+
+# user_id = nzuern
+# timestamp = 1627845962998
+# sent_id = 1627822428.473601-809356_00024
+1	DEmo22FD	DEmo22FD	ADJ	NE	_	0	root	_	_

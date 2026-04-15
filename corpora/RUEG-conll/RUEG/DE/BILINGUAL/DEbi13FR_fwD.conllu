@@ -1,0 +1,255 @@
+# text = Hallo , mein Name ist DEbi13FR .
+1	Hallo	hallo	X	NGIRR	_	0	root	_	_
+2	,	,	PUNCT	$,	_	1	punct	_	_
+
+1	mein	mein	PRON	PPOSAT	_	2	det	_	_
+2	Name	Name	NOUN	NN	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	DEbi13FR	DEbi13FR	PROPN	NE	_	3	comp:pred	_	_
+5	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = DEbi13FR
+1	Ich	ich	PRON	PPER	_	2	subj	_	_
+2	möchte	möchten	AUX	VVFIN	_	0	root	_	_
+3	einen	ein	DET	ART	_	4	det	_	_
+4	Augenzeugenbericht	Augenzeugenbericht	NOUN	NN	_	10	comp:obj	_	_
+5	zu	zu	ADP	APPR	_	4	mod	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	Fall	Fall	NOUN	NN	_	5	comp:obj	_	_
+8	16	@card@	NUM	CARD	_	7	appos	_	_
+9	bekannt	bekannt	ADJ	ADJD	_	10	compound@prt	_	_
+10	geben	geben	VERB	VVINF	_	2	comp:aux	_	_
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Ich war derzeitig auf dem Universiätscampus in Golm
+1	Ich	ich	PRON	PPER	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	derzeitig	derzeitig	ADJ	ADV	_	2	mod	_	_
+4	auf	auf	ADP	APPR	_	2	comp:pred	_	_
+5	dem	d	DET	ART	_	6	det	_	_
+6	Universiätscampus	Universiätscampus	NOUN	NN	_	4	comp:obj	_	_
+7	in	in	ADP	APPR	_	6	mod	_	_
+8	Golm	Golm	PROPN	NE	_	7	comp:obj	_	_
+
+# text = und wartete auf eine Freundin auf dem Parkplatz , als ich beobachtete , wie ein Mann zusammen mit einer Frau auf dem Gehweg des Parkplatzes spazieren ging .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	wartete	warten	VERB	VVFIN	_	0	root	_	_
+3	auf	auf	ADP	APPR	_	2	mod	_	_
+4	eine	ein	DET	ART	_	5	det	_	_
+5	Freundin	Freundin	NOUN	NN	_	3	comp:obj	_	_
+6	auf	auf	ADP	APPR	_	2	mod	_	_
+7	dem	d	DET	ART	_	8	det	_	_
+8	Parkplatz	Parkplatz	NOUN	NN	_	6	comp:obj	_	_
+9	,	,	PUNCT	$,	_	2	punct	_	_
+10	als	als	SCONJ	KOUS	_	2	mod	_	_
+11	ich	ich	PRON	PPER	_	12	subj	_	_
+12	beobachtete	beobachten	VERB	VVFIN	_	10	comp:obj	_	_
+13	,	,	PUNCT	$,	_	10	punct	_	_
+14	wie	wie	SCONJ	PWAV	_	12	comp:obj	_	_
+15	ein	ein	DET	ART	_	16	det	_	_
+16	Mann	Mann	NOUN	NN	_	27	subj	_	_
+17	zusammen	zusammen	ADV	ADV	_	18	mod	_	_
+18	mit	mit	ADP	APPR	_	26	mod	_	_
+19	einer	ein	DET	ART	_	20	det	_	_
+20	Frau	Frau	NOUN	NN	_	18	comp:obj	_	_
+21	auf	auf	ADP	APPR	_	26	comp:obl	_	_
+22	dem	d	DET	ART	_	23	det	_	_
+23	Gehweg	Gehweg	NOUN	NN	_	21	comp:obj	_	_
+24	des	d	DET	ART	_	25	det	_	_
+25	Parkplatzes	Parkplatz	NOUN	NN	_	23	mod@poss	_	_
+26	spazieren	spazieren	VERB	VVINF	_	27	comp:obj	_	_
+27	ging	gehen	VERB	VVFIN	_	14	comp:obj	_	_
+28	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Dieser Mann hatte einen Fußball dabei , welchen er vor sich her dribbelte .
+1	Dieser	dies	PRON	PDAT	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	hatte	haben	VERB	VAFIN	_	0	root	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Fußball	Fußball	NOUN	NN	_	3	comp:obj	_	_
+6	dabei	dabei	ADV	PTKVZ	_	3	compound@prt	_	_
+7	,	,	PUNCT	$,	_	3	punct	_	_
+8	welchen	welche	PRON	PRELS	_	13	comp:obj	_	_
+9	er	er	PRON	PPER	_	13	subj	_	_
+10	vor	vor	ADP	APPR	_	13	mod	_	_
+11	sich	er|es|sie	PRON	PRF	_	10	comp:obj	_	_
+12	her	her	PART	ADV	_	13	compound@prt	_	_
+13	dribbelte	dribbelte	VERB	VVFIN	_	5	mod@relcl	_	_
+14	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Die Frau schob einen Kinderwagen .
+1	Die	d	DET	ART	_	2	det	_	_
+2	Frau	Frau	NOUN	NN	_	3	subj	_	_
+3	schob	schieben	VERB	VVFIN	_	0	root	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Kinderwagen	Kinderwagen	NOUN	NN	_	3	comp:obj	_	_
+6	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Diese beiden wollten die Straße passieren .
+1	Diese	diese	PRON	PDAT	_	2	det	_	_
+2	beiden	beide	PRON	PIDAT	_	3	subj	_	_
+3	wollten	wollen	AUX	VMFIN	_	0	root	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Straße	Straße	NOUN	NN	_	6	comp:obj	_	_
+6	passieren	passieren	VERB	VVINF	_	3	comp:aux	_	_
+7	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Auf der gegenüberliegenden Straßenseite befand sich eine Frau , welche sich gerade um ihre Einkäufe kümmerte und diese in ihre Auto räumte .
+1	Auf	auf	ADP	APPR	_	5	comp:obl	_	_
+2	der	d	DET	ART	_	4	det	_	_
+3	gegenüberliegenden	gegenüberliegenden	ADJ	ADJA	_	4	mod	_	_
+4	Straßenseite	Straßenseite	NOUN	NN	_	1	comp:obj	_	_
+5	befand	befinden	VERB	VVFIN	_	0	root	_	_
+6	sich	er|es|sie	PRON	PRF	_	5	comp:obj	_	_
+7	eine	ein	DET	ART	_	8	det	_	_
+8	Frau	Frau	NOUN	NN	_	5	subj	_	_
+9	,	,	PUNCT	$,	_	5	punct	_	_
+10	welche	welch	PRON	PIS	_	16	subj	_	_
+11	sich	er|es|sie	PRON	PRF	_	16	comp:obj	_	_
+12	gerade	gerade	ADV	ADV	_	16	mod	_	_
+13	um	um	ADP	APPR	_	16	comp:obl	_	_
+14	ihre	ihr	DET	PPOSAT	_	15	det	_	_
+15	Einkäufe	Einkauf	NOUN	NN	_	13	comp:obj	_	_
+16	kümmerte	kümmern	VERB	VVFIN	_	8	mod@relcl	_	_
+17	und	und	CCONJ	KON	_	22	cc	_	_
+18	diese	diese	PRON	PDAT	_	22	comp:obj	_	_
+19	in	in	ADP	APPR	_	22	comp:obl	_	_
+20	ihre	ihr	DET	PPOSAT	_	21	det	_	_
+21	Auto	Auto	NOUN	NN	_	19	comp:obj	_	_
+22	räumte	räumen	VERB	VVFIN	_	16	conj	_	_
+23	.	.	PUNCT	$.	_	5	punct	_	_
+
+# text = Sie hatte einen Hund dabei .
+1	Sie	Sie	PRON	PPER	_	2	subj	_	_
+2	hatte	haben	VERB	VAFIN	_	0	root	_	_
+3	einen	ein	DET	ART	_	4	det	_	_
+4	Hund	Hund	NOUN	NN	_	2	comp:obj	_	_
+5	dabei	dabei	ADV	PTKVZ	_	2	compound@prt	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = In dem Augenblick , als der Mann über die Straße gehen wollte , fiel der Fußball genau auf seinen Fuß anstatt auf die Straße , sodass der Ball auf die Straße rollte .
+1	In	in	ADP	APPR	_	14	mod	_	_
+2	dem	d	DET	ART	_	3	det	_	_
+3	Augenblick	Augenblick	NOUN	NN	_	1	comp:obj	_	_
+4	,	,	PUNCT	$,	_	14	punct	_	_
+5	als	als	ADP	KON	_	14	mod	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Mann	Mann	NOUN	NN	_	12	subj	_	_
+8	über	über	ADP	NN	_	11	comp:obl	_	_
+9	die	d	DET	ART	_	10	det	_	_
+10	Straße	Straße	NOUN	NN	_	8	comp:obj	_	_
+11	gehen	gehen	VERB	VVINF	_	12	comp:aux	_	_
+12	wollte	wollen	AUX	VMFIN	_	5	comp:obj	_	_
+13	,	,	PUNCT	$,	_	5	punct	_	_
+14	fiel	fallen	VERB	VVFIN	_	0	root	_	_
+15	der	d	DET	ART	_	16	det	_	_
+16	Fußball	Fußball	NOUN	NN	_	14	subj	_	_
+17	genau	genau	ADV	ADV	_	18	mod	_	_
+18	auf	auf	ADP	APPR	_	14	comp:obl	_	_
+19	seinen	sein	DET	PPOSAT	_	20	det	_	_
+20	Fuß	Fuß	NOUN	NN	_	18	comp:obj	_	_
+21	anstatt	anstatt	PART	APPR	_	22	cc	_	_
+22	auf	auf	ADP	APPR	_	18	conj	_	_
+23	die	d	DET	ART	_	24	det	_	_
+24	Straße	Straße	NOUN	NN	_	22	comp:obj	_	_
+25	,	,	PUNCT	$,	_	14	punct	_	_
+26	sodass	sodass	SCONJ	KOUS	_	14	mod	_	_
+27	der	d	DET	ART	_	28	det	_	_
+28	Ball	Ball	NOUN	NN	_	32	subj	_	_
+29	auf	auf	ADP	APPR	_	32	comp:obl	_	_
+30	die	d	DET	ART	_	31	det	_	_
+31	Straße	Straße	NOUN	NN	_	29	comp:obj	_	_
+32	rollte	rollen	VERB	VVFIN	_	26	comp:obj	_	_
+33	.	.	PUNCT	$.	_	14	punct	_	_
+
+# text = Der Ball stieß die Einkaufstasche um , sodass der Hund anfing zu bellen und die Einkäufe auf den Boden fielen .
+1	Der	d	DET	ART	_	2	det	_	_
+2	Ball	Ball	NOUN	NN	_	3	subj	_	_
+3	stieß	stieß	VERB	VVFIN	_	0	root	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Einkaufstasche	Einkaufstasche	NOUN	NN	_	3	comp:obj	_	_
+6	um	um	ADP	PTKVZ	_	3	compound@prt	_	_
+7	,	,	PUNCT	$,	_	3	punct	_	_
+8	sodass	sodass	SCONJ	KOUS	_	3	mod	_	_
+9	der	d	DET	ART	_	10	det	_	_
+10	Hund	Hund	NOUN	NN	_	11	subj	_	_
+11	anfing	anfangen	VERB	VVFIN	_	8	comp:obj	_	_
+12	zu	zu	PART	PTKZU	_	11	comp:obj	_	_
+13	bellen	bellen	VERB	VVINF	_	12	comp:obj	_	_
+14	und	und	CCONJ	KON	_	20	cc	_	_
+15	die	d	DET	ART	_	16	det	_	_
+16	Einkäufe	Einkauf	NOUN	NN	_	20	subj	_	_
+17	auf	auf	ADP	APPR	_	20	comp:obl	_	_
+18	den	d	DET	ART	_	19	det	_	_
+19	Boden	Boden	NOUN	NN	_	17	comp:obj	_	_
+20	fielen	fallen	VERB	VVFIN	_	11	conj	_	_
+21	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Dadurch musste ein Auto , das gerade auf den Parkplatz fuhr , bremsen .
+1	Dadurch	dadurch	ADV	ADV	_	2	mod	_	_
+2	musste	müssen	AUX	VMFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Auto	Auto	NOUN	NN	_	2	subj	_	_
+5	,	,	PUNCT	$,	_	2	punct	_	_
+6	das	d	PRON	PRELS	_	11	subj	_	_
+7	gerade	gerade	ADV	ADV	_	11	mod	_	_
+8	auf	auf	ADP	APPR	_	11	comp:obl	_	_
+9	den	d	DET	ART	_	10	det	_	_
+10	Parkplatz	Parkplatz	NOUN	NN	_	8	comp:obj	_	_
+11	fuhr	fahren	VERB	VVFIN	_	4	mod@relcl	_	_
+12	,	,	PUNCT	$,	_	11	punct	_	_
+13	bremsen	bremsen	VERB	VVINF	_	2	comp:aux	_	_
+14	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Hinter diesem Auto fuhr ein Weiteres , welches dann noch abrupter bremsen musste .
+1	Hinter	hinter	ADP	APPR	_	4	comp:obl	_	_
+2	diesem	diese	PRON	PDAT	_	3	det	_	_
+3	Auto	Auto	NOUN	NN	_	1	comp:obj	_	_
+4	fuhr	fahren	VERB	VVFIN	_	0	root	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Weiteres	Weiteres	NOUN	NN	_	4	subj	_	_
+7	,	,	PUNCT	$,	_	4	punct	_	_
+8	welches	welche	PRON	PWS	_	13	subj	_	_
+9	dann	dann	ADV	ADV	_	13	mod	_	_
+10	noch	noch	ADV	PTKMWL	_	11	mod	_	_
+11	abrupter	abrupter	ADJ	ADJD	_	13	mod	_	_
+12	bremsen	bremsen	VERB	VVINF	_	13	comp:aux	_	_
+13	musste	müssen	AUX	VMFIN	_	6	mod@relcl	_	_
+14	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Die Reaktionszeit war zu lange
+1	Die	d	DET	ART	_	2	det	_	_
+2	Reaktionszeit	Reaktionszeit	NOUN	NN	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	zu	zu	ADV	PTKA	_	5	mod	_	_
+5	lange	lange	ADJ	ADJD	_	3	comp:pred	_	_
+
+# text = und das hintere Auto fuhr in das vordere Auto .
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	das	d	DET	ART	_	4	det	_	_
+3	hintere	hinter	ADJ	ADJA	_	4	mod	_	_
+4	Auto	Auto	NOUN	NN	_	5	subj	_	_
+5	fuhr	fahren	VERB	VVFIN	_	0	root	_	_
+6	in	in	ADP	APPR	_	5	comp:obl	_	_
+7	das	d	DET	ART	_	9	det	_	_
+8	vordere	vorder	ADJ	ADJA	_	9	mod	_	_
+9	Auto	Auto	NOUN	NN	_	6	comp:obj	_	_
+10	.	.	PUNCT	$.	_	5	punct	_	_
+
+# text = So kam es zu dem Unfall .
+1	So	so	ADV	ADV	_	2	mod	_	_
+2	kam	kommen	VERB	VVFIN	_	0	root	_	_
+3	es	es	PRON	PPER	_	2	subj@expl	_	_
+4	zu	zu	ADP	APPR	_	2	comp:obl	_	_
+5	dem	d	DET	ART	_	6	det	_	_
+6	Unfall	Unfall	NOUN	NN	_	4	comp:obj	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Mit freundlichen Grüßen ,
+1	Mit	mit	ADP	APPR	_	0	root	_	_
+2	freundlichen	freundlich	ADJ	ADJA	_	3	mod	_	_
+3	Grüßen	Grüßen	NOUN	NN	_	1	comp:obj	_	_
+4	,	,	PUNCT	$,	_	1	punct	_	_
+
+# text = DEbi13FR
+1	DEbi13FR	DEbi13FR	PROPN	NE	_	0	root	_	_

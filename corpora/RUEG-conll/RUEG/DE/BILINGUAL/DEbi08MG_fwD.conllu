@@ -1,0 +1,204 @@
+# text = Fall F16
+1	Fall	Fall	NOUN	NN	_	0	root	_	_
+2	F16	F16	PROPN	NE	_	1	appos	_	_
+
+# text = Tatort des Geschehens : Parkplatz
+1	Tatort	Tatort	NOUN	NN	_	0	root	_	_
+2	des	d	DET	ART	_	3	det	_	_
+3	Geschehens	Geschehen	NOUN	NN	_	1	mod@poss	_	_
+4	:	:	PUNCT	$.	_	1	punct	_	_
+5	Parkplatz	Parkplatz	NOUN	NN	_	1	orphan	_	_
+
+# text = Ich habe am fraglichen Tag gesehen , wie sich ein Verkehrsunfall ereignet hat .
+1	Ich	Ich	PRON	PPER	_	2	subj	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	am	an	ADJ	APPRART	_	6	mod	_	_
+4	fraglichen	fraglich	ADJ	ADJA	_	5	mod	_	_
+5	Tag	Tag	NOUN	NN	_	3	comp:obj	_	_
+6	gesehen	sehen	VERB	VVPP	_	2	comp:aux	_	_
+7	,	,	PUNCT	$,	_	2	punct	_	_
+8	wie	wie	SCONJ	KOUS	_	6	comp:obj	_	_
+9	sich	er|es|sie	PRON	PRF	_	12	comp:obj	_	_
+10	ein	ein	DET	ART	_	11	det	_	_
+11	Verkehrsunfall	Verkehrsunfall	NOUN	NN	_	13	subj	_	_
+12	ereignet	ereignen	VERB	VVPP	_	13	comp:aux	_	_
+13	hat	haben	AUX	VAFIN	_	8	comp:obj	_	_
+14	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Im Detail :
+1	Im	in	PROPN	APPRART	_	0	root	_	_
+2	Detail	Detail	PROPN	NN	_	1	comp:obj	_	_
+3	:	:	PUNCT	$.	_	1	punct	_	_
+
+# text = Eine junge Frau , welche einen kleinen Hund an der Leine hielt , hat ihren Einkauf aus ihrem Fahrzeug ausgeladen .
+1	Eine	ein	DET	ART	_	3	det	_	_
+2	junge	jung	ADJ	ADJA	_	3	mod	_	_
+3	Frau	Frau	NOUN	NN	_	14	subj	_	_
+4	,	,	PUNCT	$,	_	14	punct	_	_
+5	welche	welche	PRON	PRELS	_	12	subj	_	_
+6	einen	ein	DET	ART	_	8	det	_	_
+7	kleinen	klein	ADJ	ADJA	_	8	mod	_	_
+8	Hund	Hund	NOUN	NN	_	12	comp:obj	_	_
+9	an	an	ADP	APPR	_	12	comp:obl	_	_
+10	der	d	DET	ART	_	11	det	_	_
+11	Leine	Leine	PROPN	NN	_	9	comp:obj	_	_
+12	hielt	halten	VERB	VVFIN	_	3	mod@relcl	_	_
+13	,	,	PUNCT	$,	_	12	punct	_	_
+14	hat	haben	AUX	VAFIN	_	0	root	_	_
+15	ihren	ihr	DET	PPOSAT	_	16	det	_	_
+16	Einkauf	Einkauf	NOUN	NN	_	20	comp:obj	_	_
+17	aus	aus	ADP	APPR	_	20	comp:obl	_	_
+18	ihrem	ihr	DET	PPOSAT	_	19	det	_	_
+19	Fahrzeug	Fahrzeug	NOUN	NN	_	17	comp:obj	_	_
+20	ausgeladen	ausladen	PROPN	VVPP	_	14	comp:aux	_	_
+21	.	.	PUNCT	$.	_	14	punct	_	_
+
+# text = Im selben Moment , kam von der gegenüberliegenden Seite ein Pärchen , mit einem Kinderwagen .
+1	Im	in	PROPN	APPRART	_	5	mod	_	_
+2	selben	selbe	ADJ	ADJA	_	3	mod	_	_
+3	Moment	Moment	NOUN	NN	_	1	comp:obj	_	_
+4	,	,	PUNCT	$,	_	5	punct	_	_
+5	kam	kommen	VERB	VVFIN	_	0	root	_	_
+6	von	von	ADP	APPR	_	5	mod	_	_
+7	der	d	DET	ART	_	9	det	_	_
+8	gegenüberliegenden	gegenüberliegende	ADJ	ADJA	_	9	mod	_	_
+9	Seite	Seite	NOUN	NN	_	6	comp:obj	_	_
+10	ein	ein	DET	ART	_	11	det	_	_
+11	Pärchen	Pärchen	NOUN	NN	_	5	subj	_	_
+12	,	,	PUNCT	$,	_	5	punct	_	_
+13	mit	mit	ADP	APPR	_	11	mod	_	_
+14	einem	ein	DET	ART	_	15	det	_	_
+15	Kinderwagen	Kinderwagen	NOUN	NN	_	13	comp:obj	_	_
+16	.	.	PUNCT	$.	_	5	punct	_	_
+
+# text = Der Mann , ein großgewachsener Herr um die 30 , weißes T-shirt , blaue Schirmmütze , spielte mit einem Ball , welcher ihm auf den Fuß prallte und direkt auf die " Fahrbahn " bzw. den mittleren Fahrstreifen des Parkplatzes .
+1	Der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	17	subj	_	_
+3	,	,	PUNCT	$,	_	17	punct	_	_
+4	ein	ein	DET	ART	_	6	det	_	_
+5	großgewachsener	großgewachsen	ADJ	ADJA	_	6	mod	_	_
+6	Herr	Herr	NOUN	NN	_	2	appos	_	_
+7	um	um	ADP	APPR	_	6	mod	_	_
+8	die	d	DET	ART	_	9	det	_	_
+9	30	@card@	NUM	CARD	_	7	comp:obj	_	_
+10	,	,	PUNCT	$,	_	12	punct	_	_
+11	weißes	weiß	ADJ	ADJA	_	12	mod	_	_
+12	T-shirt	T-shirt	VERB	NN	_	6	mod	_	_
+13	,	,	PUNCT	$,	_	15	punct	_	_
+14	blaue	blau	ADJ	ADJA	_	15	mod	_	_
+15	Schirmmütze	Schirmmütze	NOUN	NN	_	6	mod	_	_
+16	,	,	PUNCT	$,	_	15	punct	_	_
+17	spielte	spielen	VERB	VVFIN	_	0	root	_	_
+18	mit	mit	ADP	APPR	_	17	mod	_	_
+19	einem	ein	DET	ART	_	20	det	_	_
+20	Ball	Ball	NOUN	NN	_	18	comp:obj	_	_
+21	,	,	PUNCT	$,	_	17	punct	_	_
+22	welcher	welche	PRON	PRELS	_	27	subj	_	_
+23	ihm	er	PRON	PPER	_	27	comp:obj	_	_
+24	auf	auf	ADP	APPR	_	27	comp:obl	_	_
+25	den	d	DET	ART	_	26	det	_	_
+26	Fuß	Fuß	NOUN	NN	_	24	comp:obj	_	_
+27	prallte	prallen	AUX	VVFIN	_	20	mod@relcl	_	_
+28	und	und	CCONJ	KON	_	30	cc	_	_
+29	direkt	direkt	ADJ	ADJD	_	30	mod	_	_
+30	auf	auf	ADP	APPR	_	27	conj	_	_
+31	die	d	DET	ART	_	33	det	_	_
+32	"	"	PUNCT	$(	_	33	punct	_	_
+33	Fahrbahn	Fahrbahn	NOUN	NN	_	30	comp:obj	_	_
+34	"	"	PUNCT	$(	_	33	punct	_	_
+35	bzw.	bzw.	ADV	ADV	_	38	cc	_	_
+36	den	d	DET	ART	_	38	det	_	_
+37	mittleren	mittlere	ADJ	ADJA	_	38	mod	_	_
+38	Fahrstreifen	Fahrstreifen	NOUN	NN	_	33	conj	_	_
+39	des	d	DET	ART	_	40	det	_	_
+40	Parkplatzes	Parkplatz	NOUN	NN	_	38	mod@poss	_	_
+41	.	.	PUNCT	$.	_	17	punct	_	_
+
+# text = Sofort fing der Hund an zu bellen und sich auf den Ball zu stürzen .
+1	Sofort	sofort	ADV	ADV	_	2	mod	_	_
+2	fing	fangen	VERB	VVFIN	_	0	root	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Hund	Hund	NOUN	NN	_	2	subj	_	_
+5	an	an	ADP	PTKVZ	_	2	compound@prt	_	_
+6	zu	zu	PART	PTKZU	_	2	comp:obj	_	_
+7	bellen	bellen	VERB	VVINF	_	6	comp:obj	_	_
+8	und	und	CCONJ	KON	_	13	cc	_	_
+9	sich	er|es|sie	PRON	PRF	_	14	comp:obj	_	_
+10	auf	auf	ADP	APPR	_	14	comp:obl	_	_
+11	den	d	DET	ART	_	12	det	_	_
+12	Ball	Ball	NOUN	NN	_	10	comp:obj	_	_
+13	zu	zu	PART	PTKZU	_	7	conj	_	_
+14	stürzen	stürzen	VERB	VVINF	_	13	comp:obj	_	_
+15	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Der Mann lief dem Ball hinterher
+1	Der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	lief	laufen	VERB	VVFIN	_	0	root	_	_
+4	dem	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+6	hinterher	hinterher	ADV	PTKVZ	_	3	compound@prt	_	_
+
+# text = und verursachte somit einen Verkehrsunfall zwischen zwei anfahrenden weißen Kraftfahrzeugen .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	verursachte	verursachen	VERB	VVFIN	_	0	root	_	_
+3	somit	somit	ADV	ADV	_	2	mod	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Verkehrsunfall	Verkehrsunfall	NOUN	NN	_	2	comp:obj	_	_
+6	zwischen	zwischen	ADP	APPR	_	5	mod	_	_
+7	zwei	zwei	NUM	CARD	_	10	mod	_	_
+8	anfahrenden	anfahrend	ADJ	ADJA	_	10	mod	_	_
+9	weißen	weiß	ADJ	ADJA	_	10	mod	_	_
+10	Kraftfahrzeugen	Kraftfahrzeug	NOUN	NN	_	6	comp:obj	_	_
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Der Fahrer des ersten Autos bremste abrupt ab als der Mann dem Ball hinterherrannte .
+1	Der	d	DET	ART	_	2	det	_	_
+2	Fahrer	Fahrer	NOUN	NN	_	6	subj	_	_
+3	des	d	DET	ART	_	5	det	_	_
+4	ersten	erst	ADJ	ORD	_	5	mod	_	_
+5	Autos	Auto	NOUN	NN	_	2	mod@poss	_	_
+6	bremste	bremsen	VERB	VVFIN	_	0	root	_	_
+7	abrupt	abrupt	ADV	ADJD	_	6	mod	_	_
+8	ab	ab	ADV	PTKVZ	_	6	compound@prt	_	_
+9	als	als	ADP	KOUS	_	6	mod	_	_
+10	der	d	DET	ART	_	11	det	_	_
+11	Mann	Mann	NOUN	NN	_	14	subj	_	_
+12	dem	d	DET	ART	_	13	det	_	_
+13	Ball	Ball	NOUN	NN	_	14	comp:obj	_	_
+14	hinterherrannte	hinterherrennen	ADV	VVFIN	_	9	comp:obj	_	_
+15	.	.	PUNCT	$.	_	6	punct	_	_
+
+# text = Der zweite Fahrer ist ihm dann hinten reingefahren .
+1	Der	d	DET	ART	_	3	det	_	_
+2	zweite	zweit	ADJ	ORD	_	3	mod	_	_
+3	Fahrer	Fahrer	NOUN	NN	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	ihm	er	PRON	PPER	_	8	comp:obj	_	_
+6	dann	dann	ADV	ADV	_	4	mod	_	_
+7	hinten	hinten	ADV	ADV	_	4	mod	_	_
+8	reingefahren	reinfahren	NOUN	VVPP	_	4	comp:aux	_	_
+9	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Keiner der Anwesenden ist zu Schaden gekommen
+1	Keiner	keine	PRON	PIS	_	4	subj	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Anwesenden	Anwesende	NOUN	NN	_	1	mod@poss	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	zu	zu	ADP	APPR	_	7	comp:obl	_	_
+6	Schaden	Schaden	NOUN	NN	_	5	comp:obj	_	_
+7	gekommen	kommen	ADJ	VVPP	_	4	comp:aux	_	_
+
+# text = und die Polizei wurde vom Fahrzeughalter des ersten Wagens benachrichtigt .
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Polizei	Polizei	NOUN	NN	_	4	subj@pass	_	_
+4	wurde	werden	AUX	VAFIN	_	0	root	_	_
+5	vom	von	PROPN	APPRART	_	10	mod	_	_
+6	Fahrzeughalter	Fahrzeughalter	NOUN	NN	_	5	comp:obj	_	_
+7	des	d	DET	ART	_	9	det	_	_
+8	ersten	erst	ADJ	ORD	_	9	mod	_	_
+9	Wagens	Wagen	NOUN	NN	_	6	mod@poss	_	_
+10	benachrichtigt	benachrichtigen	VERB	VVPP	_	4	comp:aux@pass	_	_
+11	.	.	PUNCT	$.	_	4	punct	_	_
+

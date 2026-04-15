@@ -1,0 +1,170 @@
+# text = ja guten Tag
+1	ja	ja	ADV	NGIRR	_	3	discourse	_	_
+2	guten	gut	ADJ	ADJA	Degree=Pos	3	mod	_	_
+3	Tag	Tag	NOUN	NN	_	0	root	_	_
+
+# text = DEmo63MD mein Name
+1	DEmo63MD	DEmo63MD	PROPN	NE	Case=Nom|Number=Sing	0	root	_	_
+2	mein	mein	PRON	PPOSAT	Person=1|Poss=Yes|PronType=Prs	3	det	_	_
+3	Name	Name	NOUN	NN	_	1	orphan	_	_
+
+# text = äh meine Fallname äh meine Fallnummer ist äh F16
+1	äh	äh	ADJ	NGHES	Degree=Pos	7	discourse	_	_
+2	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	det	_	_
+3	Fallname	Fallname	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	reparandum	_	_
+4	äh	äh	ADJ	NGHES	Degree=Pos	7	discourse	_	_
+5	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	det	_	_
+6	Fallnummer	Fallnummer	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	subj	_	_
+7	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	äh	äh	ADJ	NGHES	Degree=Pos	7	discourse	_	_
+9	F16	F16	NOUN	NE	_	7	comp:pred	_	_
+
+# text = und zwar äh würde ich gerne eine Aussage tätigen äh zu dem Vorfall der auf dem Parkplatz passiert ist
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	zwar	zwar	ADV	ADV	_	4	mod	_	_
+3	äh	äh	ADJ	NGHES	Degree=Pos	4	discourse	_	_
+4	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	_
+6	gerne	gerne	ADV	ADV	_	4	mod	_	_
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Aussage	Aussage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	comp:obj	_	_
+9	tätigen	tätigen	VERB	VVINF	Tense=Pres|VerbForm=Inf	4	comp:aux	_	_
+10	äh	äh	ADV	NGHES	_	4	discourse	_	_
+11	zu	zu	ADP	APPR	_	9	mod	_	_
+12	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Vorfall	Vorfall	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	11	comp:obj	_	_
+14	der	d	DET	PRELS	Definite=Def|PronType=Art	19	subj	_	_
+15	auf	auf	ADP	APPR	_	18	comp:obl	_	_
+16	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	17	det	_	_
+17	Parkplatz	Parkplatz	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	15	comp:obj	_	_
+18	passiert	passieren	VERB	VVPP	Tense=Past|VerbForm=Part	19	comp:aux	_	_
+19	ist	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	13	mod@relcl	_	_
+
+# text = äh und zwar äh begab es sich so dass ein äh Mann Mitte zwanzig mit seiner Freundin und äh deren Kind oder dem Kind seiner Freundin äh im Kinderwagen da über den Parkplatz gelaufen sind
+1	äh	äh	ADJ	NGHES	Degree=Pos	5	discourse	_	_
+2	und	und	CCONJ	KON	_	5	cc	_	_
+3	zwar	zwar	ADV	ADV	_	5	mod	_	_
+4	äh	äh	ADJ	NGHES	Degree=Pos	5	discourse	_	_
+5	begab	begeben	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	_
+7	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs	5	comp:obl	_	_
+8	so	so	ADV	ADV	_	5	comp:obj	_	_
+9	dass	dass	SCONJ	KOUS	_	8	comp:obj	_	_
+10	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+11	äh	äh	ADJ	NGHES	Degree=Pos	5	discourse	_	_
+12	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	35	subj	_	_
+13	Mitte	Mitte	PROPN	NN	_	14	mod	_	_
+14	zwanzig	zwanzig	NUM	CARD	NumType=Card	12	mod	_	_
+15	mit	mit	ADP	APPR	_	12	mod	_	_
+16	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	17	det	_	_
+17	Freundin	Freundin	NOUN	NN	Case=Dat|Number=Plur	15	comp:obj	_	_
+18	und	und	CCONJ	KON	_	21	cc	_	_
+19	äh	äh	NOUN	NGHES	_	5	discourse	_	_
+20	deren	d	DET	PRELAT	PronType=Dem	21	det	_	_
+21	Kind	Kind	PROPN	NN	_	17	conj	_	_
+22	oder	oder	CCONJ	KON	_	24	cc	_	_
+23	dem	d	DET	ART	Definite=Def|PronType=Art	24	det	_	_
+24	Kind	Kind	NOUN	NN	_	21	conj	_	_
+25	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	26	det	_	_
+26	Freundin	Freundin	NOUN	NN	_	24	mod@poss	_	_
+27	äh	äh	PROPN	NGHES	_	5	discourse	_	_
+28	im	in	PROPN	APPRART	_	21	mod	_	_
+29	Kinderwagen	Kinderwagen	NOUN	NN	_	28	comp:obj	_	_
+30	da	da	ADV	ADV	_	35	mod	_	_
+31	über	über	ADP	APPR	_	34	comp:obl	_	_
+32	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	Parkplatz	Parkplatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	31	comp:obl	_	_
+34	gelaufen	laufen	VERB	VVPP	Tense=Past|VerbForm=Part	35	comp:aux	_	_
+35	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	comp:obj	_	_
+
+# text = und äh dem Mann ist äh ein Fußball vor äh vor die vor die Autos äh quasi oder runtergefallen und auf die Straße da ein bisschen gerollt
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	äh	äh	ADJ	NGHES	Degree=Pos	5	discourse	_	_
+3	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Mann	Mann	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	comp:obj	_	_
+5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	äh	äh	ADV	NGHES	_	5	discourse	_	_
+7	ein	ein	DET	ART	Definite=Ind|PronType=Art	8	det	_	_
+8	Fußball	Fußball	NOUN	NN	_	5	subj	_	_
+9	vor	vor	ADP	APPR	_	11	reparandum	_	_
+10	äh	äh	ADJ	NGHES	Degree=Pos	5	discourse	_	_
+11	vor	vor	ADP	APPR	_	13	reparandum	_	_
+12	die	d	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	11	comp:obj	_	_
+13	vor	vor	ADP	APPR	_	5	comp:pred	_	_
+14	die	d	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+15	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	13	comp:obj	_	_
+16	äh	äh	ADJ	NGHES	Degree=Pos	5	discourse	_	_
+17	quasi	quasi	ADV	ADV	_	15	mod	_	_
+18	oder	oder	CCONJ	KON	_	19	cc	_	_
+19	runtergefallen	runterfallen	ADJ	VVPP	Degree=Pos|Tense=Past	5	conj	_	_
+20	und	und	CCONJ	KON	_	27	cc	_	_
+21	auf	auf	ADP	APPR	_	27	comp:obl	_	_
+22	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	comp:obl	_	_
+24	da	da	ADV	ADV	_	27	mod	_	_
+25	ein	ein	NUM	ART	NumType=Card	26	det	_	_
+26	bisschen	bisschen	NOUN	PIDS	_	27	mod	_	_
+27	gerollt	rollen	ADJ	VVPP	Degree=Pos|Tense=Past	5	conj	_	_
+
+# text = und äh dementsprechend ist dann auch dieser äh Auffahrunfall entstanden
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	äh	äh	ADJ	NGHES	Degree=Pos	5	discourse	_	_
+3	dann	dann	ADV	ADV	_	5	mod	_	_
+4	äh	äh	ADJ	NGHES	Degree=Pos	5	discourse	_	_
+5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	ein	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
+7	Hund	Hund	NOUN	NN	_	5	subj	_	_
+8	äh	äh	ADJ	NGHES	Degree=Pos	5	discourse	_	_
+9	darauf	darauf	ADV	ADV	_	5	mod	_	_
+10	angesprungen	anspringen	NOUN	VVPP	Case=Acc|Gender=Fem|Number=Plur|Tense=Past	5	comp:aux	_	_
+
+# text = und äh dementsprechend ist dann auch dieser äh Auffahrunfall entstanden
+1	äh	äh	ADJ	NGHES	Degree=Pos	3	discourse	_	_
+2	und	und	CCONJ	KON	_	3	cc	_	_
+3	hat	haben	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	gebellt	bellen	VERB	VVPP	Person=3|Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+
+# text = und äh dementsprechend ist dann auch dieser äh Auffahrunfall entstanden
+1	äh	äh	ADJ	NGHES	Degree=Pos	5	discourse	_	_
+2	und	und	CCONJ	KON	_	3	reparandum	_	_
+3	und	und	CCONJ	KON	_	5	cc	_	_
+4	äh	äh	ADJ	NGHES	Degree=Pos	5	discourse	_	_
+5	war	sein	VERB	VAFIN	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	auf	auf	ADP	APPR	_	5	comp:obl	_	_
+7	Krawall	Krawall	NOUN	NN	_	6	comp:obj	_	_
+8	aus	aus	ADP	APPR	_	5	compound@prt	_	_
+9	sozusagen	sozusagen	ADV	ADV	_	5	mod	_	_
+
+# text = und äh dadurch waren äh hat der eine Autofahrer der von hinten äh angefahren kam äh eine Vollbremsung eingelegt
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	äh	äh	ADJ	NGHES	Degree=Pos	6	discourse	_	_
+3	dadurch	dadurch	ADV	ADV	_	6	mod	_	_
+4	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	reparandum	_	_
+5	äh	äh	ADJ	NGHES	Degree=Pos	6	discourse	_	_
+6	hat	haben	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	der	d	PRON	ART	Case=Nom|PronType=Dem	9	det	_	_
+8	eine	ein	DET	PIDAT	Definite=Ind|PronType=Art	9	mod	_	_
+9	Autofahrer	Autofahrer	NOUN	NN	_	6	subj	_	_
+10	der	d	DET	PRELS	Definite=Def|PronType=Art	15	subj	_	_
+11	von	von	ADP	APPR	_	14	comp:obl	_	_
+12	hinten	hinten	ADV	ADV	_	11	comp:obj	_	_
+13	äh	äh	ADJ	NGHES	Degree=Pos	6	discourse	_	_
+14	angefahren	anfahren	VERB	VVPP	Tense=Past|VerbForm=Inf	15	comp:aux	_	_
+15	kam	kommen	VERB	VVFIN	Tense=Past|VerbForm=Fin	9	mod@relcl	_	_
+16	äh	äh	ADV	NGHES	_	6	discourse	_	_
+17	eine	eine	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Vollbremsung	Vollbremsung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	comp:obj	_	_
+19	eingelegt	einlegen	VERB	VVPP	Tense=Past|VerbForm=Part	6	comp:aux	_	_
+
+# text = und äh dementsprechend ist dann auch dieser äh Auffahrunfall entstanden
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	ADJ	NGHES	Degree=Pos	4	discourse	_	_
+3	dementsprechend	dementsprechend	ADJ	ADJD	Degree=Pos	4	mod	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	dann	dann	ADV	ADV	_	4	mod	_	_
+6	auch	auch	ADV	PTKIFG	_	4	mod	_	_
+7	dieser	diese	PRON	PDAT	Case=Nom|PronType=Dem	9	det	_	_
+8	äh	äh	ADJ	NGHES	Degree=Pos	4	discourse	_	_
+9	Auffahrunfall	Auffahrunfall	NOUN	NN	Case=Dat|Number=Sing	4	subj	_	_
+10	entstanden	entstehen	VERB	VVPP	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	comp:aux	_	_
+

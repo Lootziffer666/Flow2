@@ -1,0 +1,58 @@
+1	Ich	ich	PRON	PPER	_	2	subj	_	_
+2	war	sein	AUX	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	einkaufen	einkaufen	VERB	VVINF	_	2	comp:pred	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	wurde	werden	AUX	VAFIN	_	0	root	_	_
+3	fast	fast	ADV	ADV	_	2	mod	_	_
+4	Zeugin	Zeugin	NOUN	NN	_	2	comp:pred	_	_
+5	eines	ein	DET	ART	_	6	det	_	_
+6	Unfalls	Unfall	NOUN	NN	_	4	mod@poss	_	_
+7	:grinning_face_with_sweat:	😅	SYM	EMO	_	2	discourse	_	_
+
+1	ein	ein	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	fast	fast	ADV	ADV	_	3	mod	_	_
+5	vor	vor	DET	APPRART	_	7	comp:obl	_	_
+6	Auto	Auto	NOUN	NN	_	5	comp:obj	_	_
+7	gelaufen	laufen	VERB	VVPP	_	3	comp:aux	_	_
+
+1	aber	aber	ADV	KON	_	2	cc	_	_
+2	ist	sein	AUX	VAFIN	_	0	root	_	_
+3	zum	zum	NOUN	APPRART	_	6	mod	_	_
+4	Glück	Glück	NOUN	NN	_	3	comp:obj	_	_
+5	nichts	nichts	PRON	PIS	_	2	subj	_	_
+6	passiert	passieren	VERB	VVPP	_	2	comp:aux	_	_
+7	!	!	PUNCT	$.	_	2	punct	_	_
+
+1	nur	nur	ADV	ADV	_	4	mod	_	_
+2	ein	ein	DET	ART	_	4	det	_	_
+3	paar	paar	PRON	PIDAT	_	4	mod	_	_
+4	Schrammen	Schramme	NOUN	NN	_	0	root	_	_
+5	am	am	ADJ	APPRART	_	4	mod	_	_
+6	Auto	Auto	NOUN	NN	_	5	comp:obj	_	_
+7	wahrscheinlich.	wahrscheinlich.	X	ADJD	_	4	mod	_	_
+8	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	sah	sehen	VERB	VVFIN	_	0	root	_	_
+2	so	so	ADV	ADV	_	1	mod	_	_
+3	aus	aus	ADP	PTKVZ	_	1	compound@prt	_	_
+4	als	als	ADP	KON	_	1	comp:obj	_	_
+5	wär	wär	X	VVFIN	_	4	comp:obj	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Hund	Hund	NOUN	NN	_	5	subj	_	_
+8	losgerannt	losrennen	ADV	VVPP	_	5	comp:aux	_	_
+9	weil	weil	SCONJ	KOUS	_	8	mod	_	_
+10	so	so	ADV	PTKIFG	_	12	mod	_	_
+11	ein	ein	DET	ART	_	12	det	_	_
+12	Typ	Typ	NOUN	NN	_	18	subj	_	_
+13	seinen	sein	DET	PPOSAT	_	14	det	_	_
+14	Ball	Ball	NOUN	NN	_	18	comp:obj	_	_
+15	nicht	nicht	PART	PTKNEG	_	18	mod	_	_
+16	unter	unter	ADP	APPR	_	18	comp:obl	_	_
+17	Kontrolle	Kontrolle	NOUN	NN	_	16	comp:obj	_	_
+18	hatte	haben	VERB	VAFIN	_	9	comp:obj	_	_
+19	:unamused_face:	😒	SYM	EMO	_	1	discourse	_	_
+

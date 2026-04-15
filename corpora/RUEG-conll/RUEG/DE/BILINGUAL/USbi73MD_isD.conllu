@@ -1,0 +1,125 @@
+# text = hallo USbi73MD_P
+1	hallo	hallo	X	NGIRR	_	2	discourse	_	_
+2	USbi73MD_P	USbi73MD_P	PROPN	NE	_	0	root	_	_
+
+# text = USbi73MD
+1	USbi73MD	USbi73MD	ADJ	NE	_	0	root	_	_
+
+# text = ich hab grad ein Autounfall gesehen
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	hab	haben	AUX	VAFIN	_	0	root	_	_
+3	gerade	gerade	NOUN	ADV	_	2	mod	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Autounfall	Autounfall	NOUN	NN	_	6	comp:obj	_	_
+6	gesehen	sehen	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = und ein Mann hat seinen Fußball gegen seinen Fuß gedotzt
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	ein	ein	DET	ART	_	3	det	_	_
+3	Mann	Mann	NOUN	NN	_	4	subj	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	seinen	sein	DET	PPOSAT	_	6	det	_	_
+6	Fußball	Fußball	NOUN	NN	_	10	comp:obj	_	_
+7	gegen	gegen	ADP	APPR	_	10	comp:obl	_	_
+8	seinen	sein	PRON	PPOSAT	_	9	det	_	_
+9	Fuß	Fuß	NOUN	NN	_	7	comp:obj	_	_
+10	gedotzt	dotzen	VERB	VVPP	_	4	comp:aux	_	_
+
+# text = und das ist einfach auf der Straße gerollt
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	das	d	PRON	PDS	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	einfach	einfach	ADJ	PTKMA	_	3	discourse	_	_
+5	auf	auf	ADP	APPR	_	8	comp:obl	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Straße	Straße	NOUN	NN	_	5	comp:obj	_	_
+8	gerollt	rollen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und dann musste das erste Auto ganz schnell stoppen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	musste	müssen	AUX	VMFIN	_	0	root	_	_
+4	das	d	DET	ART	_	6	det	_	_
+5	erste	erst	ADJ	ORD	_	6	mod	_	_
+6	Auto	Auto	NOUN	NN	_	3	subj	_	_
+7	ganz	ganz	ADJ	PTKIFG	_	8	mod	_	_
+8	schnell	schnell	ADJ	ADJD	_	3	mod	_	_
+9	stoppen	stoppen	VERB	VVINF	_	3	comp:aux	_	_
+
+# text = und dann das Auto hinter das erste Auto ist in das andere reingefahren
+1	und	und	CCONJ	KON	_	9	cc	_	_
+2	dann	dann	ADV	ADV	_	9	mod	_	_
+3	das	d	DET	ART	_	4	det	_	_
+4	Auto	Auto	NOUN	NN	_	9	subj	_	_
+5	hinter	hinter	ADP	APPR	_	4	mod	_	_
+6	das	d	DET	ART	_	8	det	_	_
+7	erste	erst	ADJ	ORD	_	8	mod	_	_
+8	Auto	Auto	NOUN	NN	_	5	comp:obj	_	_
+9	ist	sein	VERB	VAFIN	_	0	root	_	_
+10	in	in	ADP	APPR	_	13	comp:obl	_	_
+11	das	d	DET	ART	_	12	det	_	_
+12	andere	ander	ADJ	PIDS	_	10	comp:obj	_	_
+13	reingefahren	reinfahren	NOUN	VVPP	_	9	comp:aux	_	_
+
+# text = und das war nur ein kleiner Unfall
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	das	d	PRON	PDS	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	nur	nur	ADV	PTKIFG	_	7	mod	_	_
+5	ein	ein	DET	ART	_	7	det	_	_
+6	kleiner	klein	ADJ	ADJA	_	7	mod	_	_
+7	Unfall	Unfall	NOUN	NN	_	3	comp:pred	_	_
+
+# text = weil die haben einfach Polizei geruft
+1	weil	weil	SCONJ	SEDM	_	3	discourse	_	_
+2	die	d	PRON	PDS	_	3	subj	_	_
+3	haben	haben	AUX	VAFIN	_	0	root	_	_
+4	einfach	einfach	ADJ	PTKMA	_	3	discourse	_	_
+5	Polizei	Polizei	NOUN	NN	_	6	comp:obj	_	_
+6	geruft	rufen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = alles war in Ordnung
+1	alles	all	PRON	PIS	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	in	in	ADP	APPR	_	2	comp:pred	_	_
+4	Ordnung	Ordnung	NOUN	NN	_	3	comp:obj	_	_
+
+# text = äh ein Hund ist weg von weggesprungen
+1	äh	äh	ADV	NGHES	_	4	discourse	_	_
+2	ein	ein	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	weg	weg	PART	ADV	_	7	reparandum	_	_
+6	von	von	ADP	APPR	_	5	comp:obl	_	_
+7	weggesprungen	wegspringen	NOUN	VVPP	_	4	comp:aux	_	_
+
+# text = und dann musste eine Frau ein Frau von den Hund äh ihre Tüte ist so umgefallen
+1	und	und	CCONJ	KON	_	14	cc	_	_
+2	dann	dann	ADV	ADV	_	14	mod	_	_
+3	musste	müssen	AUX	VMFIN	_	14	reparandum	_	_
+4	eine	ein	DET	ART	_	5	det	_	_
+5	Frau	Frau	NOUN	NN	_	7	reparandum	_	_
+6	ein	ein	PROPN	ART	_	7	det	_	_
+7	Frau	Frau	PROPN	NN	_	3	subj	_	_
+8	von	von	ADP	APPR	_	7	mod@poss	_	_
+9	den	d	DET	ART	_	10	det	_	_
+10	Hund	Hund	NOUN	NN	_	8	comp:obj	_	_
+11	äh	äh	ADV	NGHES	_	14	discourse	_	_
+12	ihre	ihr	DET	PPOSAT	_	13	det	_	_
+13	Tüte	Tüte	NOUN	NN	_	14	subj	_	_
+14	ist	sein	VERB	VAFIN	_	0	root	_	_
+15	so	so	ADV	PTKIFG	_	14	mod	_	_
+16	umgefallen	umfallen	ADJ	VVPP	_	14	comp:aux	_	_
+
+# text = und das war alles in Ordnung
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	das	d	PRON	PDS	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	alles	all	PRON	PIS	_	3	subj	_	_
+5	in	in	ADP	APPR	_	3	comp:pred	_	_
+6	Ordnung	Ordnung	NOUN	NN	_	5	comp:obj	_	_
+
+# text = und ja
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ja	ja	ADV	NGIRR	_	0	root	_	_
+

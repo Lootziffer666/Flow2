@@ -1,0 +1,124 @@
+1	ey	ey	PROPN	NGIRR	_	8	discourse	_	_
+2	gerade	gerade	ADV	ADV	_	8	mod	_	_
+3	einfach	einfach	ADJ	PTKMA	Degree=Pos	8	mod	_	_
+4	auf	auf	ADP	APPR	_	8	comp:pred	_	_
+5	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Straße	Straße	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	comp:obj	_	_
+7	äh	äh	ADJ	NGHES	Degree=Pos	8	discourse	_	_
+8	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	so	so	ADV	PTKIFG	_	11	mod	_	_
+10	ein	ein	DET	ART	Definite=Ind|PronType=Art	11	det	_	_
+11	Unfall	Unfall	NOUN	NN	_	8	subj	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	alles	alle	PRON	PIS	Case=Acc|PronType=Tot	5	comp:obj	_	_
+5	mitbekommen	mitbekommen	VERB	VVPP	Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+
+# text = da war so ein Auto da waren zwei Autos die aneinandergeknallt sind
+1	da	da	ADV	ADV	_	2	comp:pred	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	reparandum	_	_
+3	so	so	ADV	PTKIFG	_	5	mod	_	_
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Auto	Auto	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	2	subj	_	_
+6	da	da	ADV	ADV	_	7	comp:pred	_	_
+7	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	zwei	zwei	NUM	CARD	NumType=Card	9	det	_	_
+9	Autos	Auto	NOUN	NN	_	7	subj	_	_
+10	die	d	PRON	PRELS	Case=Nom|PronType=Dem	12	subj	_	_
+11	aneinandergeknallt	aneinanderknallen	ADJ	VVPP	Tense=Past	12	comp:aux	_	_
+12	sind	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
+
+# text = und das eine Auto ist halt äh zum Stehen gekommen weil da so ein Ball auf die Straße von einem Jungen äh geworfen wurde sozusagen
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	das	d	DET	PDS	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+3	eine	ein	ADJ	ART	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	mod	_	_
+4	Auto	Auto	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	subj	_	_
+5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	halt	halt	ADV	PTKMA	_	5	discourse	_	_
+7	äh	äh	ADJ	NGHES	Degree=Pos	5	discourse	_	_
+8	zum	zu	NOUN	APPRART	Case=Acc|Gender=Masc,Neut|Number=Sing	10	comp:obl	_	_
+9	Stehen	Stehen	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	8	comp:obj	_	_
+10	gekommen	kommen	ADJ	VVPP	Tense=Past	5	comp:aux	_	_
+11	weil	weil	SCONJ	KOUS	_	10	mod	_	_
+12	da	da	ADV	ADV	_	24	mod	_	_
+13	so	so	ADV	PTKIFG	_	15	mod	_	_
+14	ein	ein	DET	ART	Definite=Ind|PronType=Art	15	det	_	_
+15	Ball	Ball	NOUN	NN	_	24	subj@pass	_	_
+16	auf	auf	ADP	APPR	_	24	comp:obl	_	_
+17	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	comp:obj	_	_
+19	von	von	ADP	APPR	_	23	mod	_	_
+20	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	21	det	_	_
+21	Jungen	Junge	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	19	comp:obj	_	_
+22	äh	äh	ADJ	NGHES	Degree=Pos	5	discourse	_	_
+23	geworfen	werfen	VERB	VVPP	Tense=Past|VerbForm=Part	24	comp:aux@pass	_	_
+24	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	comp:obj	_	_
+25	sozusagen	sozusagen	ADV	ADV	_	24	mod	_	_
+
+# text = und dann äh hat der Junge halt äh einer anderen Frau geholfen die ein Hund dabeihatte was dann angefangen hat zu bellen und wollte auch auf die Straße
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	dann	dann	ADV	ADV	_	4	mod	_	_
+3	äh	äh	ADJ	NGHES	Degree=Pos	4	discourse	_	_
+4	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Junge	Junge	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+7	halt	halt	ADV	PTKMA	_	4	discourse	_	_
+8	äh	äh	ADV	NGHES	_	4	discourse	_	_
+9	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	anderen	ander	ADJ	PIDAT	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	11	mod	_	_
+11	Frau	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	comp:obj	_	_
+12	geholfen	helfen	VERB	VVPP	Tense=Past|VerbForm=Inf	4	comp:aux	_	_
+13	die	d	PRON	PRELS	Case=Acc|PronType=Dem	16	subj	_	_
+14	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Hund	Hund	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	16	comp:obj	_	_
+16	dabeihatte	dabeihaben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	mod@relcl	_	_
+17	was	was	PRON	PRELS	Case=Acc|PronType=Ind	20	subj	_	_
+18	dann	dann	ADV	ADV	_	20	mod	_	_
+19	angefangen	anfangen	VERB	VVPP	Tense=Past|VerbForm=Inf	20	comp:aux	_	_
+20	hat	haben	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	15	mod@relcl	_	_
+21	zu	zu	PART	PTKZU	_	19	comp:obj	_	_
+22	bellen	bellen	VERB	VVINF	Tense=Pres|VerbForm=Inf	21	comp:obj	_	_
+23	und	und	CCONJ	KON	_	24	cc	_	_
+24	wollte	wollen	AUX	VMFIN	Mood=Ind|Tense=Past|VerbForm=Fin	20	conj	_	_
+25	auch	auch	ADV	ADV	_	24	mod	_	_
+26	auf	auf	ADP	APPR	_	24	comp:obl	_	_
+27	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	26	comp:obj	_	_
+
+# text = und ja ich habe es einfach alles gesehen
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	ja	ja	ADV	NGIRR	_	4	discourse	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	_
+4	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	comp:obj@expl	_	_
+6	einfach	einfach	ADV	PTKMA	_	4	mod	_	_
+7	alles	alle	PRON	PIS	Case=Acc|PronType=Tot	5	appos	_	_
+8	gesehen	sehen	VERB	VVPP	Tense=Past|VerbForm=Part	4	comp:aux	_	_
+
+# text = also muss ich wahrscheinlich auch eine äh eine Zeugenaussage machen
+1	also	also	ADV	SEDM	_	2	mod	_	_
+2	muss	m�ssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+4	wahrscheinlich	wahrscheinlich	ADJ	ADV	Degree=Pos	2	mod	_	_
+5	auch	auch	ADV	PTKIFG	_	2	mod	_	_
+6	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	reparandum	_	_
+7	äh	äh	ADJ	NGHES	Degree=Pos	2	discourse	_	_
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Zeugenaussage	Zeugenaussage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	comp:obj	_	_
+10	machen	machen	VERB	VVINF	Tense=Pres|VerbForm=Inf	2	comp:aux	_	_
+
+# text = und ich bin irgendwie voll unter Druck ich weiß nicht
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	irgendwie	irgendwie	ADV	ADV	_	3	mod	_	_
+5	voll	voll	ADJ	PTKIFG	Degree=Pos	6	mod	_	_
+6	unter	unter	ADP	APPR	_	3	comp:pred	_	_
+7	Druck	Druck	NOUN	NN	_	6	comp:obj	_	_
+
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	weiß	weiß	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nicht	nicht	PART	PTKNEG	_	2	mod	_	_
+

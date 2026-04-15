@@ -1,0 +1,117 @@
+# text = Im Parkplatz heute gab es einen kleinen Autounfall .
+1	Im	in	PROPN	APPRART	_	4	mod	_	_
+2	Parkplatz	Parkplatz	PROPN	NN	_	1	comp:obj	_	_
+3	heute	heute	ADV	ADV	_	4	mod	_	_
+4	gab	geben	VERB	VVFIN	_	0	root	_	_
+5	es	es	PRON	PPER	_	4	subj@expl	_	_
+6	einen	ein	DET	ART	_	8	det	_	_
+7	kleinen	klein	ADJ	ADJA	_	8	mod	_	_
+8	Autounfall	Autounfall	NOUN	NN	_	4	comp:obj	_	_
+9	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Ein Mann hat ein Ball aus Versehen fallen lassen
+1	Ein	ein	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	8	comp:obj	_	_
+6	aus	aus	ADP	APPR	_	8	mod	_	_
+7	Versehen	Versehen	NOUN	NN	_	6	comp:obj	_	_
+8	fallen	fallen	VERB	VVINF	_	9	comp:obj	_	_
+9	lassen	lassen	VERB	VVINF	_	3	comp:aux	_	_
+
+# text = und es ist vom ihm weggerollt .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	vom	von	PROPN	APPRART	_	6	comp:obl	_	_
+5	ihm	er	PRON	PPER	_	4	comp:obj	_	_
+6	weggerollt	wegrollen	ADJ	VVPP	_	3	comp:aux	_	_
+7	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Ein Hund auf der anderen Seite ist nach dem Ball gerannt
+1	Ein	ein	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	7	subj	_	_
+3	auf	auf	ADP	APPR	_	2	mod	_	_
+4	der	d	DET	ART	_	6	det	_	_
+5	anderen	ander	ADJ	PIDAT	_	6	mod	_	_
+6	Seite	Seite	NOUN	NN	_	3	comp:obj	_	_
+7	ist	sein	VERB	VAFIN	_	0	root	_	_
+8	nach	nach	ADP	APPR	_	11	comp:obl	_	_
+9	dem	d	DET	ART	_	10	det	_	_
+10	Ball	Ball	NOUN	NN	_	8	comp:obj	_	_
+11	gerannt	rennen	ADJ	VVPP	_	7	comp:aux	_	_
+
+# text = und die Frau musste schnell nach dem Hund rennen .
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Frau	Frau	NOUN	NN	_	4	subj	_	_
+4	musste	müssen	AUX	VMFIN	_	0	root	_	_
+5	schnell	schnell	ADJ	ADJD	_	4	mod	_	_
+6	nach	nach	ADP	APPR	_	9	comp:obl	_	_
+7	dem	d	DET	ART	_	8	det	_	_
+8	Hund	Hund	NOUN	NN	_	6	comp:obj	_	_
+9	rennen	rennen	VERB	VVINF	_	4	comp:aux	_	_
+10	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Als der Autofahrer vom blauen Auto den Ball und Hund in der Straße gesehen hat , musste der plötzlich bremsen .
+1	Als	als	SCONJ	KOUS	_	20	mod	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Autofahrer	Autofahrer	NOUN	NN	_	15	subj	_	_
+4	vom	von	PROPN	APPRART	_	3	mod@poss	_	_
+5	blauen	blau	VERB	ADJA	_	6	mod	_	_
+6	Auto	Auto	NOUN	NN	_	4	comp:aux	_	_
+7	den	d	DET	ART	_	8	det	_	_
+8	Ball	Ball	NOUN	NN	_	14	comp:obj	_	_
+9	und	und	CCONJ	KON	_	10	cc	_	_
+10	Hund	Hund	NOUN	NN	_	8	conj	_	_
+11	in	in	ADP	APPR	_	14	mod	_	_
+12	der	d	DET	ART	_	13	det	_	_
+13	Straße	Straße	NOUN	NN	_	11	comp:obj	_	_
+14	gesehen	sehen	VERB	VVPP	_	15	comp:aux	_	_
+15	hat	haben	AUX	VAFIN	_	1	comp:obj	_	_
+16	,	,	PUNCT	$,	_	1	punct	_	_
+17	musste	müssen	AUX	VMFIN	_	0	root	_	_
+18	der	d	DET	PDS	_	17	subj	_	_
+19	plötzlich	plötzlich	ADJ	ADJD	_	17	mod	_	_
+20	bremsen	bremsen	VERB	VVINF	_	17	comp:aux	_	_
+21	.	.	PUNCT	$.	_	17	punct	_	_
+
+# text = Das Auto hinter ihm musste auch ganz schnell bremsen ,
+1	Das	d	DET	ART	_	2	det	_	_
+2	Auto	Auto	NOUN	NN	_	5	subj	_	_
+3	hinter	hinter	ADP	APPR	_	2	mod	_	_
+4	ihm	er	PRON	PPER	_	3	comp:obj	_	_
+5	musste	müssen	AUX	VMFIN	_	0	root	_	_
+6	auch	auch	ADV	PTKIFG	_	5	mod	_	_
+7	ganz	ganz	ADV	PTKIFG	_	8	mod	_	_
+8	schnell	schnell	ADJ	ADJD	_	5	mod	_	_
+9	bremsen	bremsen	VERB	VVINF	_	5	comp:aux	_	_
+10	,	,	PUNCT	$,	_	5	punct	_	_
+
+# text = und ist in das erste Auto aus Versehen reingefahren .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	in	in	ADP	APPR	_	9	comp:obl	_	_
+4	das	d	DET	ART	_	6	det	_	_
+5	erste	erst	ADJ	ORD	_	6	mod	_	_
+6	Auto	Auto	NOUN	NN	_	3	comp:obj	_	_
+7	aus	aus	ADP	APPR	_	9	mod	_	_
+8	Versehen	Versehen	NOUN	NN	_	7	comp:obj	_	_
+9	reingefahren	reinfahren	NOUN	VVPP	_	2	comp:aux	_	_
+10	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Keiner war verletzt ,
+1	Keiner	kein	PRON	PIS	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	verletzt	verletzt	ADJ	ADJD	_	2	comp:pred	_	_
+4	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = aber die Polizei war angerufen .
+1	aber	aber	ADV	KON	_	4	cc	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Polizei	Polizei	NOUN	NN	_	4	subj@pass	_	_
+4	war	sein	AUX	VAFIN	_	0	root	_	_
+5	angerufen	anrufen	VERB	VVPP	_	4	comp:aux@pass	_	_
+6	.	.	PUNCT	$.	_	4	punct	_	_
+

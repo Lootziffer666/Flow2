@@ -1,0 +1,261 @@
+# text = von meinem Blickwinkel war zu der Zeit des Unfalls eine Frau mit Hund die ihre Lebensmittel in ihr Auto eingeladet hat auf der linken Seite vom Parkplatz .
+1	von	von	ADP	APPR	_	4	mod	_	_
+2	meinem	mein	PRON	PPOSAT	_	3	det	_	_
+3	Blickwinkel	Blickwinkel	NOUN	NN	_	1	comp:obj	_	_
+4	war	sein	VERB	VAFIN	_	0	root	_	_
+5	zu	zu	ADP	APPR	_	4	mod	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Zeit	Zeit	NOUN	NN	_	5	comp:obj	_	_
+8	des	d	DET	ART	_	9	det	_	_
+9	Unfalls	Unfall	NOUN	NN	_	7	mod@poss	_	_
+10	eine	ein	DET	ART	_	11	det	_	_
+11	Frau	Frau	NOUN	NN	_	4	subj	_	_
+12	mit	mit	ADP	APPR	_	11	mod	_	_
+13	Hund	Hund	NOUN	NN	_	12	comp:obj	_	_
+14	die	d	PRON	PRELS	_	21	subj	_	_
+15	ihre	ihr	DET	PPOSAT	_	16	det	_	_
+16	Lebensmittel	Lebensmittel	NOUN	NN	_	20	comp:obj	_	_
+17	in	in	ADP	APPR	_	20	comp:obl	_	_
+18	ihr	ihr	DET	PPOSAT	_	19	det	_	_
+19	Auto	Auto	NOUN	NN	_	17	comp:obj	_	_
+20	eingeladet	einladen	VERB	VVPP	_	21	comp:aux	_	_
+21	hat	haben	AUX	VAFIN	_	11	mod@relcl	_	_
+22	auf	auf	ADP	APPR	_	4	comp:pred	_	_
+23	der	d	DET	ART	_	25	det	_	_
+24	linken	link	ADJ	ADJA	_	25	mod	_	_
+25	Seite	Seite	NOUN	NN	_	22	comp:obj	_	_
+26	vom	von	PROPN	APPRART	_	25	mod@poss	_	_
+27	Parkplatz	Parkplatz	PROPN	NN	_	26	comp:obj	_	_
+28	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = es gab auch eine junge Familie mit Vater , Mutter , und Kleinkind auf der rechten Seite vom Parkplatz auf einem Gehsteig .
+1	es	es	PRON	PPER	_	2	subj@expl	_	_
+2	gab	geben	VERB	VVFIN	_	0	root	_	_
+3	auch	auch	ADV	PTKIFG	_	2	mod	_	_
+4	eine	ein	DET	ART	_	6	det	_	_
+5	junge	jung	ADJ	ADJA	_	6	mod	_	_
+6	Familie	Familie	NOUN	NN	_	2	comp:obj	_	_
+7	mit	mit	ADP	APPR	_	6	mod	_	_
+8	Vater	Vater	NOUN	NN	_	7	comp:obj	_	_
+9	,	,	PUNCT	$,	_	10	punct	_	_
+10	Mutter	Mutter	NOUN	NN	_	8	conj	_	_
+11	,	,	PUNCT	$,	_	13	punct	_	_
+12	und	und	CCONJ	KON	_	13	cc	_	_
+13	Kleinkind	Kleinkind	NOUN	NN	_	10	conj	_	_
+14	auf	auf	ADP	APPR	_	2	mod	_	_
+15	der	d	DET	ART	_	17	det	_	_
+16	rechten	recht	ADJ	ADJA	_	17	mod	_	_
+17	Seite	Seite	NOUN	NN	_	14	comp:obj	_	_
+18	vom	von	PROPN	APPRART	_	17	mod@poss	_	_
+19	Parkplatz	Parkplatz	PROPN	NN	_	18	comp:obj	_	_
+20	auf	auf	ADP	APPR	_	2	mod	_	_
+21	einem	ein	DET	ART	_	22	det	_	_
+22	Gehsteig	Gehsteig	PROPN	NN	_	20	comp:obj	_	_
+23	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = in der Mitte war die Hauptfahrbahn von Parkplatz wo die Autos entlanggefahren sind , und wo der Unfall stattgefunden hat .
+1	in	in	ADP	APPR	_	4	comp:pred	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Mitte	Mitte	NOUN	NN	_	1	comp:obj	_	_
+4	war	sein	VERB	VAFIN	_	0	root	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Hauptfahrbahn	Hauptfahrbahn	NOUN	NN	_	4	subj	_	_
+7	von	von	ADP	APPR	_	6	mod@poss	_	_
+8	Parkplatz	Parkplatz	NOUN	NN	_	7	comp:obj	_	_
+9	wo	wo	ADV	PWAV	_	12	comp:obl	_	_
+10	die	d	DET	ART	_	11	det	_	_
+11	Autos	Auto	NOUN	NN	_	13	subj	_	_
+12	entlanggefahren	entlangfahren	VERB	VVPP	_	13	comp:aux	_	_
+13	sind	sein	AUX	VAFIN	_	8	mod@relcl	_	_
+14	,	,	PUNCT	$,	_	13	punct	_	_
+15	und	und	CCONJ	KON	_	20	cc	_	_
+16	wo	wo	ADV	PWAV	_	19	comp:obl	_	_
+17	der	d	DET	ART	_	18	det	_	_
+18	Unfall	Unfall	NOUN	NN	_	20	subj	_	_
+19	stattgefunden	stattfinden	VERB	VVPP	_	20	comp:aux	_	_
+20	hat	haben	AUX	VAFIN	_	13	conj	_	_
+21	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = der Vater vom der Familie hat mit einem Fußball gespielt und die Kontrolle von Ball verloren sodass der Ball in den Parkplatz gerollt ist .
+1	der	d	DET	ART	_	2	det	_	_
+2	Vater	Vater	NOUN	NN	_	6	subj	_	_
+3	vom	von	NOUN	APPRART	_	2	mod@poss	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Familie	Familie	NOUN	NN	_	3	mod	_	_
+6	hat	haben	AUX	VAFIN	_	0	root	_	_
+7	mit	mit	ADP	APPR	_	10	mod	_	_
+8	einem	ein	DET	ART	_	9	det	_	_
+9	Fußball	Fußball	NOUN	NN	_	7	comp:obj	_	_
+10	gespielt	spielen	VERB	VVPP	_	6	comp:aux	_	_
+11	und	und	CCONJ	KON	_	16	cc	_	_
+12	die	d	DET	ART	_	13	det	_	_
+13	Kontrolle	Kontrolle	NOUN	NN	_	16	comp:obj	_	_
+14	von	von	ADP	APPR	_	13	mod	_	_
+15	Ball	Ball	PROPN	NN	_	14	comp:obj	_	_
+16	verloren	verlieren	VERB	VVPP	_	6	conj	_	_
+17	sodass	sodass	SCONJ	KOUS	_	16	mod	_	_
+18	der	d	DET	ART	_	19	det	_	_
+19	Ball	Ball	NOUN	NN	_	24	subj	_	_
+20	in	in	ADP	APPR	_	23	comp:obl	_	_
+21	den	d	DET	ART	_	22	det	_	_
+22	Parkplatz	Parkplatz	NOUN	NN	_	20	comp:obj	_	_
+23	gerollt	rollen	VERB	VVPP	_	24	comp:aux	_	_
+24	ist	sein	AUX	VAFIN	_	17	comp:obj	_	_
+25	.	.	PUNCT	$.	_	6	punct	_	_
+
+# text = das Ball-rollen hat verursacht dass der Hund von der Frau in den Parkplatz gerannt ist und laut gebellt hat .
+1	das	d	DET	ART	_	2	det	_	_
+2	Ball-rollen	Ball-rollen	NOUN	NN	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	verursacht	verursachen	VERB	VVPP	_	3	comp:aux	_	_
+5	dass	dass	SCONJ	KOUS	_	4	comp:obj	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Hund	Hund	NOUN	NN	_	15	subj	_	_
+8	von	von	ADP	APPR	_	7	mod@poss	_	_
+9	der	d	DET	ART	_	10	det	_	_
+10	Frau	Frau	NOUN	NN	_	8	comp:obj	_	_
+11	in	in	ADP	APPR	_	14	comp:obl	_	_
+12	den	d	DET	ART	_	13	det	_	_
+13	Parkplatz	Parkplatz	NOUN	NN	_	11	comp:obj	_	_
+14	gerannt	rennen	VERB	VVPP	_	15	comp:aux	_	_
+15	ist	sein	AUX	VAFIN	_	5	comp:obj	_	_
+16	und	und	CCONJ	KON	_	19	cc	_	_
+17	laut	laut	ADJ	ADJD	_	19	mod	_	_
+18	gebellt	bellen	VERB	VVPP	_	19	comp:aux	_	_
+19	hat	haben	AUX	VAFIN	_	15	conj	_	_
+20	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = als das alles abging sind zwei Autos durch den Parkplatz gefahren .
+1	als	als	ADP	KOUS	_	11	mod	_	_
+2	das	d	PRON	PDS	_	4	subj	_	_
+3	alles	all	PRON	PIS	_	2	appos	_	_
+4	abging	abgehen	VERB	VVFIN	_	1	comp:obj	_	_
+5	sind	sein	AUX	VAFIN	_	0	root	_	_
+6	zwei	zwei	NUM	CARD	_	7	mod	_	_
+7	Autos	Auto	NOUN	NN	_	5	subj	_	_
+8	durch	durch	ADP	APPR	_	11	comp:obl	_	_
+9	den	d	DET	ART	_	10	det	_	_
+10	Parkplatz	Parkplatz	NOUN	NN	_	8	comp:obj	_	_
+11	gefahren	fahren	VERB	VVPP	_	5	comp:aux	_	_
+12	.	.	PUNCT	$.	_	5	punct	_	_
+
+# text = aus meiner Sicht hat das zweite Auto keinen sicheren Abstand gehalten .
+1	aus	aus	ADP	APPR	_	11	mod	_	_
+2	meiner	mein	DET	PPOSAT	_	3	det	_	_
+3	Sicht	Sicht	NOUN	NN	_	1	comp:obj	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	das	d	DET	ART	_	7	det	_	_
+6	zweite	zweit	ADJ	ORD	_	7	mod	_	_
+7	Auto	Auto	NOUN	NN	_	4	subj	_	_
+8	keinen	kein	PRON	PIAT	_	10	det	_	_
+9	sicheren	sicher	ADJ	ADJA	_	10	mod	_	_
+10	Abstand	Abstand	NOUN	NN	_	11	comp:obj	_	_
+11	gehalten	halten	VERB	VVPP	_	4	comp:aux	_	_
+12	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = der Fahrer vom ersten Auto ist erschrocken als der Hund gebellt hat und in dem Parkplatz gerannt ist
+1	der	d	DET	ART	_	2	det	_	_
+2	Fahrer	Fahrer	NOUN	NN	_	6	subj	_	_
+3	vom	von	NOUN	APPRART	_	2	mod@poss	_	_
+4	ersten	erst	ADJ	ORD	_	5	mod	_	_
+5	Auto	Auto	NOUN	NN	_	3	comp:obj	_	_
+6	ist	sein	AUX	VAFIN	_	0	root	_	_
+7	erschrocken	erschrecken	VERB	VVPP	_	6	comp:aux	_	_
+8	als	als	ADP	KOUS	_	7	mod	_	_
+9	der	d	DET	ART	_	10	det	_	_
+10	Hund	Hund	NOUN	NN	_	12	subj	_	_
+11	gebellt	bellen	VERB	VVPP	_	12	comp:aux	_	_
+12	hat	haben	AUX	VAFIN	_	8	comp:obj	_	_
+13	und	und	CCONJ	KON	_	18	cc	_	_
+14	in	in	ADP	APPR	_	17	comp:obl	_	_
+15	dem	d	DET	ART	_	16	det	_	_
+16	Parkplatz	Parkplatz	NOUN	NN	_	14	comp:obj	_	_
+17	gerannt	rennen	VERB	VVPP	_	18	comp:aux	_	_
+18	ist	sein	AUX	VAFIN	_	12	conj	_	_
+
+# text = und musste deshalb eine Vollbremsung einlegen .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	musste	müssen	AUX	VMFIN	_	0	root	_	_
+3	deshalb	deshalb	ADV	ADV	_	2	mod	_	_
+4	eine	ein	DET	ART	_	5	det	_	_
+5	Vollbremsung	Vollbremsung	NOUN	NN	_	6	comp:obj	_	_
+6	einlegen	einlegen	VERB	VVINF	_	2	comp:aux	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = das Auto hinter ihm konnte nicht schnell genug reagieren .
+1	das	d	DET	ART	_	2	det	_	_
+2	Auto	Auto	NOUN	NN	_	5	subj	_	_
+3	hinter	hinter	ADP	APPR	_	2	mod	_	_
+4	ihm	er	PRON	PPER	_	3	comp:obj	_	_
+5	konnte	können	AUX	VMFIN	_	0	root	_	_
+6	nicht	nicht	PART	PTKNEG	_	5	mod	_	_
+7	schnell	schnell	ADJ	ADJD	_	5	mod	_	_
+8	genug	genug	ADV	ADV	_	7	mod	_	_
+9	reagieren	reagieren	VERB	VVINF	_	5	comp:aux	_	_
+10	.	.	PUNCT	$.	_	5	punct	_	_
+
+# text = das Ergebnis war ein kleiner Auffahrunfall .
+1	das	d	DET	ART	_	2	det	_	_
+2	Ergebnis	Ergebnis	NOUN	NN	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	6	det	_	_
+5	kleiner	klein	ADJ	ADJA	_	6	mod	_	_
+6	Auffahrunfall	Auffahrunfall	NOUN	NN	_	3	comp:pred	_	_
+7	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = nach dem Unfall hat der Vater der Familie erstmal der Frau mit Hund geholfen ihre Lebensmittel wieder einzupacken .
+1	nach	nach	ADP	APPR	_	15	mod	_	_
+2	dem	d	DET	ART	_	3	det	_	_
+3	Unfall	Unfall	NOUN	NN	_	1	comp:obj	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Vater	Vater	NOUN	NN	_	4	subj	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Familie	Familie	NOUN	NN	_	6	mod@poss	_	_
+9	erst	erst	ADV	ADV	_	4	mod	_	_
+10	mal	mal	ADV	_	_	4	mod	_	_
+11	der	d	DET	ART	_	12	det	_	_
+12	Frau	Frau	NOUN	NN	_	15	comp:obj	_	_
+13	mit	mit	ADP	APPR	_	12	mod	_	_
+14	Hund	Hund	NOUN	NN	_	13	comp:obj	_	_
+15	geholfen	helfen	VERB	VVPP	_	4	comp:aux	_	_
+16	ihre	ihr	DET	PPOSAT	_	17	det	_	_
+17	Lebensmittel	Lebensmittel	NOUN	NN	_	19	comp:obj	_	_
+18	wieder	wieder	ADV	ADV	_	19	mod	_	_
+19	einzupacken	einpacken	VERB	VVIZU	_	15	comp:obl	_	_
+20	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = die Autofahrer sind beide ausgestiegen
+1	die	d	DET	ART	_	2	det	_	_
+2	Autofahrer	Autofahrer	NOUN	NN	_	3	subj	_	_
+3	sind	sein	AUX	VAFIN	_	0	root	_	_
+4	beide	beide	PRON	PIS	_	2	appos	_	_
+5	ausgestiegen	aussteigen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und haben den Schaden sich angeschaut
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	haben	haben	VERB	VAFIN	_	0	root	_	_
+3	den	d	DET	ART	_	4	det	_	_
+4	Schaden	Schaden	NOUN	NN	_	6	comp:obj	_	_
+5	sich	er|es|sie	PRON	PRF	_	6	comp:obl	_	_
+6	angeschaut	anschauen	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = und haben darüber diskutiert .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	haben	haben	AUX	VAFIN	_	0	root	_	_
+3	darüber	darüber	ADV	ADV	_	2	mod	_	_
+4	diskutiert	diskutieren	VERB	VVPP	_	2	comp:aux	_	_
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = der Vater ist später zu der Diskussion dazugestoßen .
+1	der	d	DET	ART	_	2	det	_	_
+2	Vater	Vater	NOUN	NN	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	später	später	ADJ	ADV	_	3	mod	_	_
+5	zu	zu	ADP	APPR	_	8	comp:obl	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Diskussion	Diskussion	PROPN	NN	_	5	comp:obj	_	_
+8	dazugestoßen	dazustoßen	PROPN	VVPP	_	3	comp:aux	_	_
+9	.	.	PUNCT	$.	_	3	punct	_	_
+
+

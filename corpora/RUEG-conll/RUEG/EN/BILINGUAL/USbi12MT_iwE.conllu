@@ -1,0 +1,51 @@
+1	hey	hey	INTJ	ITJ	_	2	discourse	_	_
+2	Jack	jack	PROPN	NP0	_	0	root	_	_
+
+1	I	i	PRON	PNP	_	2	nsubj	_	_
+2	saw	see	VERB	VVD	_	0	root	_	_
+3	a	a	DET	DT0	_	5	det	_	_
+4	crazy	crazy	ADJ	AJ0	_	5	amod	_	_
+5	accident	accident	NOUN	NN1	_	6	nsubj	_	_
+6	happen	happen	VERB	VVI	_	2	ccomp	_	_
+
+1	this	this	DET	DT0	_	2	det	_	_
+2	guy	guy	NOUN	NN1	_	4	nsubj	_	_
+3	was	be	AUX	VBD	_	4	cop	_	_
+4	walking	walk	VERB	VVG	_	0	root	_	_
+5	with	with	ADP	PRP	_	7	case	_	_
+6	his	he	DET	DPS	_	7	det	_	_
+7	family	family	NOUN	NN1	_	4	obl	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	he	he	PRON	PNP	_	3	nsubj	_	_
+3	dropped	drop	VERB	VVD	_	0	root	_	_
+4	dropped	drop	VERB	VVD	_	3	xcomp	_	_
+5	his	he	DET	DPS	_	6	det	_	_
+6	ball	ball	NOUN	NN1	_	4	obj	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	this	this	DET	DT0	_	3	det	_	_
+3	lady	lady	NOUN	NN1	_	5	nmod:poss	_	_
+4	's	's	PART	POS	_	3	case	_	_
+5	dog	dog	NOUN	NN1	_	6	conj	_	_
+6	ran	run	VERB	VVD	_	0	root	_	_
+7	across	across	ADP	AVP	_	6	compound:prt	_	_
+8	to	to	PART	TO0	_	9	mark	_	_
+9	attack	attack	VERB	VVI	_	6	advcl	_	_
+10	him	he	PRON	PNP	_	9	obj	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	two	two	NUM	CRD	_	4	nummod	_	_
+3	cars	car	NOUN	NN2	_	4	nsubj	_	_
+4	got	get	VERB	VVD	_	0	root	_	_
+5	into	into	ADP	PRP	_	7	case	_	_
+6	an	an	DET	AT0	_	7	det	_	_
+7	accident	accident	NOUN	NN1	_	4	obl	_	_
+8	because	because	SCONJ	CJS	_	10	case	_	_
+9	of	of	ADP	PRF	_	8	fixed	_	_
+10	them	they	PRON	PNP	_	4	obl	_	_
+
+1	it	it	PRON	PNP	_	3	nsubj	_	_
+2	was	be	AUX	VBD	_	3	cop	_	_
+3	crazy	crazy	ADJ	AJ0	_	0	root	_	_
+

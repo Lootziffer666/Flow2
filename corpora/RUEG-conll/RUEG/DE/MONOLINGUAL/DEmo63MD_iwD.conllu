@@ -1,0 +1,69 @@
+# text = Jo Dikker
+1	Jo	jo	PROPN	NGIRR	_	2	discourse	_	_
+2	Dikker	Dicker	PROPN	NN	Case=Nom|Number=Sing	0	root	_	_
+
+# text = hier war gerade voll die Panne auf so einem Parklatz
+1	hier	hier	ADV	ADV	_	2	mod	_	_
+2	war	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	voll	voll	VERB	PTKIFG	Number=Sing|Person=3|VerbForm=Fin	6	mod	_	_
+5	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Panne	Panne	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	subj	_	_
+7	auf	auf	ADP	APPR	_	2	comp:pred	_	_
+8	so	so	ADV	PTKIFG	_	10	mod	_	_
+9	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Parklatz	Parklatz	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	comp:obj	_	_
+
+# text = Da war so ein Typ mit seiner Freundin die einen Kinderwagen dabeihatte
+1	Da	da	ADV	ADV	_	2	comp:pred	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	so	so	ADV	PTKIFG	_	5	mod	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Typ	Typ	NOUN	NN	_	2	subj	_	_
+6	mit	mit	ADP	APPR	_	5	mod	_	_
+7	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
+8	Freundin	Freundin	NOUN	NN	Case=Dat|Number=Plur	6	comp:obj	_	_
+9	die	d	DET	PRELS	Case=Acc|Definite=Def|Number=Plur|PronType=Art	12	subj	_	_
+10	einen	ein	DET	ART	Case=Acc|Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+11	Kinderwagen	Kinderwagen	NOUN	NN	Case=Acc|Number=Plur	12	comp:obj	_	_
+12	dabeihatte	dabeihaben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	mod@relcl	_	_
+
+# text = Der hat einen Fußball auf die Straße rollen lassen
+1	Der	d	PRON	PDS	Case=Nom|PronType=Dem	2	subj	_	_
+2	hat	haben	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Fußball	Fußball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	comp:obj	_	_
+5	auf	auf	ADP	APPR	_	8	comp:obl	_	_
+6	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	comp:obl	_	_
+8	rollen	rollen	VERB	VVINF	Tense=Pres|VerbForm=Inf	9	comp:obj	_	_
+9	lassen	lassen	VERB	VVINF	Tense=Pres|VerbForm=Inf	2	comp:aux	_	_
+
+# text = und dann ist der Hund von so einer Frau voll ausgerastet und vor zwei Autos gelaufen von denen dann das eine dem anderen hinten raufgefahren ist
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+6	von	von	ADP	APPR	_	5	mod@poss	_	_
+7	so	so	ADV	PTKIFG	_	9	mod	_	_
+8	einer	ein	NUM	ART	NumType=Card	9	det	_	_
+9	Frau	Frau	NOUN	NN	_	6	comp:obj	_	_
+10	voll	voll	ADJ	ADJD	Degree=Pos	3	mod	_	_
+11	ausgerastet	ausrasten	ADJ	VVPP	Tense=Past	3	comp:aux	_	_
+12	und	und	CCONJ	KON	_	16	cc	_	_
+13	vor	vor	ADP	APPR	_	16	comp:obl	_	_
+14	zwei	zwei	NUM	CARD	NumType=Card	15	mod	_	_
+15	Autos	Auto	NOUN	NN	_	13	comp:obj	_	_
+16	gelaufen	laufen	VERB	VVPP	Tense=Past|VerbForm=Part	3	conj	_	_
+17	von	von	ADP	APPR	_	21	mod@poss	_	_
+18	denen	d	PRON	PRELS	Case=Dat|PronType=Rel	17	comp:obj	_	_
+19	dann	dann	ADV	ADV	_	25	mod	_	_
+20	das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	21	det	_	_
+21	eine	ein	PRON	PIDS	PronType=Ind	26	subj	_	_
+22	dem	d	DET	ART	Definite=Def|PronType=Art	23	det	_	_
+23	anderen	ander	ADJ	PIDS	Degree=Pos	25	comp:obj	_	_
+24	hinten	hinten	NOUN	ADV	_	26	mod	_	_
+25	raufgefahren	rauffahren	VERB	VVPP	Tense=Past|VerbForm=Fin	26	comp:aux	_	_
+26	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	mod@relcl	_	_
+

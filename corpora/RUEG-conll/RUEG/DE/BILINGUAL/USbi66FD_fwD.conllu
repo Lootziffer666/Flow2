@@ -1,0 +1,170 @@
+# text = Hallo liebe Polizei
+1	Hallo	hallo	X	NGIRR	_	3	discourse	_	_
+2	liebe	lieb	ADJ	ADJA	_	3	mod	_	_
+3	Polizei	Polizei	NOUN	NN	_	0	root	_	_
+
+# text = Ihr habt mich gebitten von dem Ausfall zu berichten
+1	Ihr	ihr	PRON	PPER	_	2	subj	_	_
+2	habt	haben	VERB	VAFIN	_	0	root	_	_
+3	mich	ich	PRON	PPER	_	4	comp:obl	_	_
+4	gebitten	bitten	VERB	VVPP	_	2	comp:aux	_	_
+5	von	von	ADP	APPR	_	9	comp:obl	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	Ausfall	Ausfall	NOUN	NN	_	5	comp:obj	_	_
+8	zu	zu	PART	PTKZU	_	4	comp:obj	_	_
+9	berichten	berichten	VERB	VVINF	_	8	comp:obj	_	_
+
+# text = also hier ist alles an dem ich mich erinnern kann .
+1	also	also	ADV	SEDM	_	3	discourse	_	_
+2	hier	hier	ADV	ADV	_	3	comp:pred	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	alles	all	PRON	PIS	_	3	subj	_	_
+5	an	an	ADP	PTKVZ	_	9	comp:obl	_	_
+6	dem	d	PRON	PRELS	_	5	comp:obj	_	_
+7	ich	ich	PRON	PPER	_	10	subj	_	_
+8	mich	ich	PRON	PRF	_	9	comp:obj	_	_
+9	erinnern	erinnern	VERB	VVINF	_	10	comp:aux	_	_
+10	kann	können	AUX	VMFIN	_	4	mod@relcl	_	_
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Ein Mann mit seiner Frau wollten die Straße kreuzen
+1	Ein	ein	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	6	subj	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	seiner	sein	DET	PPOSAT	_	5	det	_	_
+5	Frau	Frau	NOUN	NN	_	3	comp:obj	_	_
+6	wollten	wollen	AUX	VMFIN	_	0	root	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Straße	Straße	NOUN	NN	_	9	comp:obj	_	_
+9	kreuzen	kreuzen	VERB	VVINF	_	6	comp:aux	_	_
+
+# text = aber der Mann hat aus Versehen sein Ball plumpsen lasses .
+1	aber	aber	ADV	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Mann	Mann	NOUN	NN	_	4	subj	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	aus	aus	ADP	APPR	_	9	mod	_	_
+6	Versehen	Versehen	NOUN	NN	_	5	comp:obj	_	_
+7	sein	sein	DET	PPOSAT	_	8	det	_	_
+8	Ball	Ball	NOUN	NN	_	9	comp:obj	_	_
+9	plumpsen	plumpsen	VERB	VVINF	_	10	comp:obj	_	_
+10	lasses	lassen	NOUN	VVPP	_	4	comp:aux	_	_
+11	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Der Hund auf der anderen Seite des Parkplatz hat dazu eine eher verrückte response gehabt .
+1	Der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	9	subj	_	_
+3	auf	auf	ADP	APPR	_	2	mod	_	_
+4	der	d	DET	ART	_	6	det	_	_
+5	anderen	ander	ADJ	PIDAT	_	6	mod	_	_
+6	Seite	Seite	NOUN	NN	_	3	comp:obj	_	_
+7	des	d	DET	ART	_	8	det	_	_
+8	Parkplatz	Parkplatz	NOUN	NN	_	6	mod@poss	_	_
+9	hat	haben	VERB	VAFIN	_	0	root	_	_
+10	dazu	dazu	ADV	ADV	_	9	mod	_	_
+11	eine	ein	DET	ART	_	14	det	_	_
+12	eher	eher	ADV	PTKIFG	_	13	mod	_	_
+13	verrückte	verrückte	ADJ	ADJA	_	14	mod	_	_
+14	response	response	NOUN	FM	_	15	comp:obj	_	_
+15	gehabt	haben	VERB	VAPP	_	9	comp:aux	_	_
+16	.	.	PUNCT	$.	_	9	punct	_	_
+
+# text = Die Besitzerin des Hundes hat ihre Einkaufstüte aus Versehen zum Boden krachen lasses
+1	Die	d	DET	ART	_	2	det	_	_
+2	Besitzerin	Besitzerin	NOUN	NN	_	5	subj	_	_
+3	des	d	DET	ART	_	4	det	_	_
+4	Hundes	Hund	NOUN	NN	_	2	mod@poss	_	_
+5	hat	haben	VERB	VAFIN	_	0	root	_	_
+6	ihre	ihr	DET	PPOSAT	_	7	det	_	_
+7	Einkaufstüte	Einkaufstüte	NOUN	NN	_	12	comp:obj	_	_
+8	aus	aus	ADP	APPR	_	12	mod	_	_
+9	Versehen	Versehen	ADJ	NN	_	8	comp:obj	_	_
+10	zum	zu	NOUN	APPRART	_	12	comp:obl	_	_
+11	Boden	Boden	NOUN	NN	_	10	comp:obj	_	_
+12	krachen	krachen	ADJ	VVINF	_	13	comp:obj	_	_
+13	lasses	lassen	NOUN	VVPP	_	5	comp:aux	_	_
+
+# text = und ihre Einkäufe sind zum Boden gefallen .
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	ihre	ihr	DET	PPOSAT	_	3	det	_	_
+3	Einkäufe	Einkauf	NOUN	NN	_	4	subj	_	_
+4	sind	sein	AUX	VAFIN	_	0	root	_	_
+5	zum	zu	NOUN	APPRART	_	7	comp:obl	_	_
+6	Boden	Boden	NOUN	NN	_	5	comp:obj	_	_
+7	gefallen	fallen	VERB	VVPP	_	4	comp:aux	_	_
+8	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = In der Mittlerweile ist ein blaues Auto stehen geblieben weil er nicht den Mann der den Ball verloren hat überfahren wollte ,
+1	In	in	ADP	APPR	_	8	mod	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Mittlerweile	mittlerweile	ADV	NN	_	1	comp:obj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	ein	ein	DET	ART	_	7	det	_	_
+6	blaues	blau	ADJ	ADJA	_	7	mod	_	_
+7	Auto	Auto	NOUN	NN	_	4	subj	_	_
+8	stehen	stehen	VERB	VVINF	_	9	comp:obj	_	_
+9	geblieben	bleiben	VERB	VVPP	_	4	comp:aux	_	_
+10	weil	weil	SCONJ	KOUS	_	8	mod	_	_
+11	er	er	PRON	PPER	_	21	subj	_	_
+12	nicht	nicht	PART	PTKNEG	_	21	mod	_	_
+13	den	d	DET	ART	_	14	det	_	_
+14	Mann	Mann	NOUN	NN	_	20	comp:obj	_	_
+15	der	d	PRON	PRELS	_	19	subj	_	_
+16	den	d	DET	ART	_	17	det	_	_
+17	Ball	Ball	NOUN	NN	_	18	comp:obj	_	_
+18	verloren	verlieren	VERB	VVPP	_	19	comp:aux	_	_
+19	hat	haben	AUX	VAFIN	_	14	mod@relcl	_	_
+20	überfahren	überfahren	VERB	VVINF	_	21	comp:aux	_	_
+21	wollte	wollen	AUX	VMFIN	_	10	comp:obj	_	_
+22	,	,	PUNCT	$,	_	4	punct	_	_
+
+# text = aber ein weißes Auto hinter ihm ist in das weiße Auto reingefahren .
+1	aber	aber	ADV	KON	_	7	cc	_	_
+2	ein	ein	DET	ART	_	4	det	_	_
+3	weißes	weiß	ADJ	ADJA	_	4	mod	_	_
+4	Auto	Auto	NOUN	NN	_	7	subj	_	_
+5	hinter	hinter	ADP	APPR	_	4	mod	_	_
+6	ihm	er	PRON	PPER	_	5	comp:obj	_	_
+7	ist	ist	VERB	VAFIN	_	0	root	_	_
+8	in	in	ADP	APPR	_	12	comp:obl	_	_
+9	das	d	DET	ART	_	11	det	_	_
+10	weiße	weiß	ADJ	ADJA	_	11	mod	_	_
+11	Auto	Auto	NOUN	NN	_	8	comp:obj	_	_
+12	reingefahren	reinfahren	VERB	VVPP	_	7	comp:aux	_	_
+13	.	.	PUNCT	$.	_	7	punct	_	_
+
+# text = Das weiße Auto ist schon schnell gefahren , weil es nicht genug Zeit hatte um zu bremsen .
+1	Das	d	DET	ART	_	3	det	_	_
+2	weiße	weiß	ADJ	ADJA	_	3	mod	_	_
+3	Auto	Auto	NOUN	NN	_	4	subj	_	_
+4	ist	ist	VERB	VAFIN	_	0	root	_	_
+5	schon	schon	ADV	PTKMA	_	6	mod	_	_
+6	schnell	schnell	ADJ	ADJD	_	4	mod	_	_
+7	gefahren	fahren	VERB	VVPP	_	4	comp:aux	_	_
+8	,	,	PUNCT	$,	_	4	punct	_	_
+9	weil	weil	SCONJ	KOUS	_	7	mod	_	_
+10	es	es	PRON	PPER	_	14	subj@expl	_	_
+11	nicht	nicht	PART	PTKNEG	_	12	mod	_	_
+12	genug	genug	ADV	PTKMWL	_	13	mod	_	_
+13	Zeit	Zeit	NOUN	NN	_	14	comp:obj	_	_
+14	hatte	haben	VERB	VAFIN	_	9	comp:obj	_	_
+15	um	um	ADP	KOUI	_	14	mod	_	_
+16	zu	zu	PART	PTKZU	_	15	comp:obj	_	_
+17	bremsen	bremsen	VERB	VVINF	_	16	comp:obj	_	_
+18	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Danach wurde die Polizei angerufen
+1	Danach	danach	ADV	ADV	_	2	mod	_	_
+2	wurde	werden	AUX	VAFIN	_	0	root	_	_
+3	die	d	DET	ART	_	4	det	_	_
+4	Polizei	Polizei	NOUN	NN	_	2	subj@pass	_	_
+5	angerufen	anrufen	VERB	VVPP	_	2	comp:aux@pass	_	_
+
+# text = und nichts Weiteres ist passiert .
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	nichts	nichts	PRON	PIAT	_	3	det	_	_
+3	Weiteres	Weiter	PROPN	NN	_	4	subj	_	_
+4	ist	sein	PROPN	VAFIN	_	0	root	_	_
+5	passiert	passieren	VERB	VVPP	_	4	comp:aux	_	_
+6	.	.	PUNCT	$.	_	4	punct	_	_
+

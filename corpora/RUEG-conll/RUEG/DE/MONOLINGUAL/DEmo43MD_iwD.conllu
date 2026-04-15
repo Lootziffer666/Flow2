@@ -1,0 +1,65 @@
+1	Jo	Jo	PROPN	_	_	0	root	_	_
+
+1	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	habe	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	hier	hier	ADV	_	_	2	mod	_	_
+4	gerade	gerade	ADV	_	_	2	mod	_	_
+5	einen	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Unfall	Unfall	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	8	comp:obj	_	_
+7	live	live	ADV	_	_	2	mod	_	_
+8	miterlebt	miterleben	VERB	_	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+1	So	so	ADV	_	_	3	mod	_	_
+2	ein	ein	DET	_	Definite=Ind|PronType=Art	3	det	_	_
+3	Typ	Typ	NOUN	_	_	4	subj	_	_
+4	hat	haben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	einen	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Ball	Ball	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	7	comp:obj	_	_
+7	fallen	fallen	VERB	_	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	_
+8	gelassen	lassen	VERB	_	Tense=Past	4	comp:aux	_	_
+
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	dann	dann	ADV	_	_	3	mod	_	_
+3	wurde	werden	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	deswegen	deswegen	ADV	_	_	3	mod	_	_
+5	eine	eine	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Frau	Frau	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	3	subj@pass	_	_
+7	von	von	ADP	_	_	14	mod	_	_
+8	ihrem	ihr	DET	_	Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	Hund	Hund	NOUN	_	Case=Dat|Number=Sing	7	comp:obj	_	_
+10	fast	fast	ADV	_	_	3	mod	_	_
+11	auf	auf	ADP	_	_	14	comp:obl	_	_
+12	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	comp:obj	_	_
+14	gezogen	ziehen	VERB	_	Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
+15	.	.	PUNCT	_	_	3	punct	_	_
+
+1	:face_with_rolling_eyes:	🙄	SYM	_	_	0	root	_	_
+
+1	Das	Das	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Auto	Auto	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	6	subj	_	_
+3	was	was	PRON	_	Case=Nom|Number=Sing|PronType=Int	5	subj	_	_
+4	gerade	gerade	ADV	_	_	5	mod	_	_
+5	kam	kommen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	mod@relcl	_	_
+6	musste	müssen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	mega	mega	ADJ	_	Degree=Pos	8	mod	_	_
+8	hart	hart	PROPN	_	Case=Nom|Number=Sing	6	mod	_	_
+9	bremsen	bremsen	PROPN	_	Tense=Pres	6	comp:aux	_	_
+
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	dann	dann	ADV	_	_	3	mod	_	_
+3	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ihm	er	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	_
+5	ein	ein	DET	_	Definite=Ind|PronType=Art	6	det	_	_
+6	anderes	anderes	ADJ	_	Degree=Pos	3	subj	_	_
+7	raufgefahren	raufgefahren	NOUN	_	Tense=Past	3	comp:aux	_	_
+
+1	:face_with_tears_of_joy:	😂	SYM	_	_	0	root	_	_
+
+1	Viel	Viel	PRON	_	Case=Dat|Number=Sing|PronType=Ind	2	mod	_	_
+2	erlebt	erleben	VERB	_	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	heute	heute	ADV	_	_	2	mod	_	_
+
+1	:grinning_face_with_sweat:	😅	SYM	_	_	0	root	_	_
+

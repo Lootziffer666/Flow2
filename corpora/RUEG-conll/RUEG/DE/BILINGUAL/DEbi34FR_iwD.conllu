@@ -1,0 +1,134 @@
+1	Hey	Hey	PROPN	NGIRR	_	2	discourse	_	_
+2	Melli	Melli	PROPN	NE	_	0	root	_	_
+3	,	,	PUNCT	$,	_	2	punct	_	_
+
+1	alles	alle	PRON	PIS	_	0	root	_	_
+2	klar	klar	ADJ	ADJD	_	1	orphan	_	_
+3	?	?	PUNCT	$.	_	1	punct	_	_
+
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	bin	sein	VERB	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	unterwegs	unterwegs	ADV	ADV	_	2	comp:pred	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	musste	müssen	AUX	VMFIN	_	0	root	_	_
+3	zur	zu	PROPN	APPRART	_	2	comp:aux	_	_
+4	Polizei	Polizei	PROPN	NN	_	3	comp:obj	_	_
+5	Zeugenaussage	Zeugenaussage	PROPN	NN	_	6	comp:obj	_	_
+6	machen	machen	VERB	VVINF	_	2	conj	_	_
+7	wegen	wegen	ADP	APPR	_	6	mod	_	_
+8	eines	ein	DET	ART	_	9	det	_	_
+9	Unfalls	Unfall	NOUN	NN	_	7	comp:obj	_	_
+10	auf	auf	ADP	APPR	_	9	mod	_	_
+11	einem	ein	DET	ART	_	12	det	_	_
+12	Parkplatz	Parkplatz	NOUN	NN	_	10	comp:obj	_	_
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	da	da	ADV	ADV	_	2	comp:pred	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Typ	Typ	NOUN	NN	_	2	subj	_	_
+5	mit	mit	ADP	APPR	_	4	mod	_	_
+6	Fußball	Fußball	NOUN	NN	_	5	comp:obj	_	_
+7	und	und	CCONJ	KON	_	8	cc	_	_
+8	Familie	Familie	NOUN	NN	_	6	conj	_	_
+9	,	,	PUNCT	$,	_	2	punct	_	_
+
+1	die	d	PRON	PDS	_	2	subj	_	_
+2	sind	sein	VERB	VAFIN	_	0	root	_	_
+3	übern	über	VERB	APPRART	_	5	comp:obl	_	_
+4	Parkplatz	Parkplatz	NOUN	NN	_	3	comp:obj	_	_
+5	gelaufen	laufen	VERB	VVPP	_	2	comp:aux	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	er	er	PRON	PPER	_	2	subj	_	_
+2	verliert	verlieren	VERB	VVFIN	_	0	root	_	_
+3	den	d	DET	ART	_	4	det	_	_
+4	Ball	Ball	NOUN	NN	_	2	comp:obj	_	_
+5	,	,	PUNCT	$,	_	2	punct	_	_
+
+1	Ball	Ball	PROPN	NN	_	2	subj	_	_
+2	rollt	rollen	VERB	VVFIN	_	0	root	_	_
+3	über	über	ADP	APPR	_	2	mod	_	_
+4	Fahrbahn	Fahrbahn	NOUN	NN	_	3	comp:obj	_	_
+5	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+6	eine	ein	DET	ART	_	7	det	_	_
+7	Frau	Frau	NOUN	NN	_	5	comp:obj	_	_
+8	mit	mit	ADP	APPR	_	7	mod	_	_
+9	Hund	Hund	NOUN	NN	_	8	comp:obj	_	_
+10	zu	zu	ADP	PTKVZ	_	2	compound@prt	_	_
+11	,	,	PUNCT	$,	_	2	punct	_	_
+
+1	Hund	Hund	NOUN	NN	_	2	subj	_	_
+2	springt	springen	VERB	VVFIN	_	0	root	_	_
+3	los	los	ADV	PTKVZ	_	2	compound@prt	_	_
+4	,	,	PUNCT	$,	_	2	punct	_	_
+
+1	bellt	bellen	VERB	VVFIN	_	0	root	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	rennt	rennen	VERB	VVFIN	_	0	root	_	_
+3	zu	zu	ADP	APPR	_	2	comp:obl	_	_
+4	Ball	Ball	PROPN	NN	_	3	comp:obj	_	_
+5	hin	hin	ADV	PTKVZ	_	2	compound@prt	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	dahinter	dahinter	ADV	ADV	_	2	mod	_	_
+2	fuhr	fahren	VERB	VVFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Auto	Auto	NOUN	NN	_	2	subj	_	_
+6	,	,	PUNCT	$,	_	2	punct	_	_
+
+1	musste	müssen	AUX	VMFIN	_	0	root	_	_
+2	Vollbremsung	Vollbremsung	NOUN	NN	_	3	comp:obj	_	_
+3	einlegen	einlegen	VERB	VVINF	_	1	comp:aux	_	_
+4	,	,	PUNCT	$,	_	1	punct	_	_
+
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Typ	Typ	NOUN	NN	_	6	subj	_	_
+4	hinter	hinter	ADP	APPR	_	3	mod	_	_
+5	dem	d	DET	PDS	_	4	comp:obj	_	_
+6	fährt	fahren	VERB	VVFIN	_	0	root	_	_
+7	ihm	er	PRON	PPER	_	6	comp:obj	_	_
+8	voll	voll	ADJ	ADJD	_	6	mod	_	_
+9	rein	rein	ADV	PTKVZ	_	6	compound@prt	_	_
+10	.	.	PUNCT	$.	_	6	punct	_	_
+
+1	:person_shrugging::female_sign:	🤷‍♀	NOUN	EMO	_	0	root	_	_
+
+1	etwas	etwas	ADV	PIS	_	2	mod	_	_
+2	dumm	dumm	ADJ	ADJD	_	0	root	_	_
+3	,	,	PUNCT	$,	_	2	punct	_	_
+
+1	komme	kommen	VERB	VVFIN	_	0	root	_	_
+2	also	also	ADV	ADV	_	1	mod	_	_
+3	paar	paar	PRON	PIDS	_	4	mod	_	_
+4	Min	Min	NOUN	NN	_	5	mod	_	_
+5	später	später	ADJ	ADV	_	1	mod	_	_
+6	.	.	PUNCT	$.	_	1	punct	_	_
+
+1	der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	mega	mega	ADJ	PTKIFG	_	5	mod	_	_
+5	süß	süß	ADJ	ADJD	_	3	comp:pred	_	_
+6	,	,	PUNCT	$,	_	3	punct	_	_
+7	klein	klein	ADJ	ADJD	_	5	conj	_	_
+8	braun	braun	ADJ	ADJD	_	7	conj	_	_
+
+1	kein	kein	PRON	PIAT	_	2	mod	_	_
+2	Plan	Plan	NOUN	NN	_	0	root	_	_
+3	welche	welche	PRON	PWAT	_	4	mod	_	_
+4	Rasse	Rasse	NOUN	NN	_	2	orphan	_	_
+
+1	aber	aber	ADV	KON	_	2	cc	_	_
+2	würde	werden	AUX	VAFIN	_	0	root	_	_
+3	voll	voll	ADJ	PTKIFG	_	2	mod	_	_
+4	zu	zu	ADP	APPR	_	6	mod	_	_
+5	dir	du	PRON	PPER	_	4	comp:obj	_	_
+6	passen	passen	VERB	VVFIN	_	2	comp:aux	_	_
+7	!	!	PUNCT	$.	_	2	punct	_	_
+

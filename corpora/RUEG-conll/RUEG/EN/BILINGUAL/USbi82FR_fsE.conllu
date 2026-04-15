@@ -1,0 +1,144 @@
+1	hello	hello	INTJ	ITJ	_	0	root	_	_
+
+1	so	so	INTJ	ITJ	_	5	discourse	_	_
+2	I	i	PRON	PNP	_	5	nsubj	_	_
+3	was	be	AUX	VBD	_	5	aux	_	_
+4	just	just	ADV	AV0	_	5	advmod	_	_
+5	sitting	sit	VERB	VVG	_	0	root	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	I	i	PRON	PNP	_	3	nsubj	_	_
+3	saw	see	VERB	VVD	_	0	root	_	_
+4	a	a	DET	AT0	_	5	det	_	_
+5	I	i	PRON	PNP	_	7	nsubj	_	_
+6	am	be	AUX	VBB	_	7	aux	_	_
+7	guessing	guess	VERB	VVG	_	3	parataxis	_	_
+8	a	a	DET	AT0	_	10	det	_	_
+9	married	married	ADJ	AJ0	_	10	amod	_	_
+10	couple	couple	NOUN	NN1	_	15	obl	_	_
+11	with	with	ADP	PRP	_	10	case	_	_
+12	a	a	DET	AT0	_	13	det	_	_
+13	kid	kid	NOUN	NN1	_	15	nsubj	_	_
+14	just	just	ADV	AV0	_	15	advmod	_	_
+15	walking	walk	VERB	VVG	_	7	ccomp	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	I	i	PRON	PNP	_	0	root	_	_
+4	I	i	PRON	PNP	_	5	nsubj	_	_
+5	believe	believe	VERB	VVB	_	3	acl:relcl	_	_
+6	it	it	PRON	PNP	_	9	nmod:poss	_	_
+7	's	be	AUX	VBZ	_	6	case	_	_
+8	a	a	DET	AT0	_	9	det	_	_
+9	husband	husband	NOUN	NN1	_	11	obl	_	_
+10	he	he	PRON	PNP	_	11	nsubj	_	_
+11	dropped	drop	VERB	VVD	_	5	ccomp	_	_
+12	the	the	DET	AT0	_	13	det	_	_
+13	ball	ball	NOUN	NN1	_	11	obj	_	_
+14	into	into	ADP	PRP	_	16	case	_	_
+15	the	the	DET	AT0	_	16	det	_	_
+16	road	road	NOUN	NN1	_	11	obl	_	_
+
+1	and	and	CCONJ	CJC	_	11	cc	_	_
+2	on	on	ADP	PRP	_	5	case	_	_
+3	the	the	DET	AT0	_	5	det	_	_
+4	other	other	ADJ	AJ0	_	5	amod	_	_
+5	side	side	NOUN	NN1	_	11	obl	_	_
+6	these	these	DET	DT0	_	7	det	_	_
+7	people	people	NOUN	NN2	_	11	nsubj	_	_
+8	were	be	AUX	VBD	_	11	cop	_	_
+9	with	with	ADP	PRP	_	11	case	_	_
+10	a	a	DET	AT0	_	11	det	_	_
+11	dog	dog	NOUN	NN1	_	0	root	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	dog	dog	NOUN	NN1	_	4	nsubj	_	_
+4	jumped	jump	VERB	VVD	_	0	root	_	_
+5	out	out	ADP	AVP	_	4	compound:prt	_	_
+6	on	on	ADP	PRP	_	8	case	_	_
+7	the	the	DET	AT0	_	8	det	_	_
+8	road	road	NOUN	NN1	_	4	obl	_	_
+9	and	and	CCONJ	CJC	_	13	cc	_	_
+10	like	like	INTJ	ITJ	_	13	discourse	_	_
+11	at	at	ADP	PRP	_	13	case	_	_
+12	the	the	DET	AT0	_	13	det	_	_
+13	ball	ball	NOUN	NN1	_	4	conj	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	car	car	NOUN	NN1	_	11	conj	_	_
+4	the	the	DET	AT0	_	6	det	_	_
+5	two	two	NUM	CRD	_	6	nummod	_	_
+6	cars	car	NOUN	NN2	_	11	nsubj:pass	_	_
+7	they	they	PRON	PNP	_	9	nsubj:pass	_	_
+8	were	be	AUX	VBD	_	9	aux:pass	_	_
+9	coming	come	VERB	VVG	_	6	acl:relcl	_	_
+10	were	be	AUX	VBD	_	11	aux:pass	_	_
+11	going	go	VERB	VVG	_	0	root	_	_
+12	at	at	ADP	PRP	_	16	case	_	_
+13	a	a	DET	AT0	_	16	det	_	_
+14	pretty	pretty	ADV	AV0	_	15	advmod	_	_
+15	quick	quick	ADJ	AJ0	_	16	amod	_	_
+16	speed	speed	NOUN	NN1	_	11	obl	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	they	they	PRON	PNP	_	3	nsubj	_	_
+3	stopped	stop	VERB	VVD	_	0	root	_	_
+4	suddenly	suddenly	ADV	AV0	_	3	advmod	_	_
+
+1	so	so	CCONJ	CJ0	_	5	cc	_	_
+2	the	the	DET	AT0	_	4	det	_	_
+3	other	other	ADJ	AJ0	_	4	amod	_	_
+4	car	car	NOUN	NN1	_	5	nsubj	_	_
+5	bumped	bump	VERB	VVD	_	0	root	_	_
+6	into	into	ADP	PRP	_	7	case	_	_
+7	it	it	PRON	PNP	_	5	obl	_	_
+
+1	yeah	yeah	INTJ	ITJ	_	0	root	_	_
+2	and	and	CCONJ	CJC	_	7	cc	_	_
+3	then	then	ADV	AV0	_	7	advmod	_	_
+4	the	the	DET	AT0	_	7	det	_	_
+5	the	the	DET	AT0	_	7	det	_	_
+6	two	two	NUM	CRD	_	7	nummod	_	_
+7	people	people	NOUN	NN2	_	1	conj	_	_
+8	they	they	PRON	PNP	_	9	nsubj	_	_
+9	dropped	drop	VERB	VVD	_	7	acl:relcl	_	_
+10	the	the	DET	AT0	_	11	det	_	_
+11	apples	apple	NOUN	NN2	_	9	obj	_	_
+12	when	when	SCONJ	CJS	_	15	mark	_	_
+13	the	the	DET	AT0	_	14	det	_	_
+14	dog	dog	NOUN	NN1	_	15	nsubj	_	_
+15	came	come	VERB	VVD	_	9	advcl	_	_
+16	out	out	ADP	AVP	_	15	compound:prt	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	they	they	PRON	PNP	_	3	nsubj	_	_
+3	started	start	VERB	VVD	_	0	root	_	_
+4	picking	pick	VERB	VVG	_	3	xcomp	_	_
+5	up	up	ADP	AVP	_	4	compound:prt	_	_
+6	the	the	DET	AT0	_	7	det	_	_
+7	apples	apple	NOUN	NN2	_	4	obj	_	_
+
+1	but	but	CCONJ	CJC	_	6	cc	_	_
+2	they	they	PRON	PNP	_	6	nsubj	_	_
+3	did	do	AUX	VDD	_	6	aux	_	_
+4	not	not	PART	XX0	_	6	advmod	_	_
+5	really	really	ADV	AV0	_	6	advmod	_	_
+6	get	get	VERB	VVI	_	0	root	_	_
+7	off	off	ADP	PRP	_	9	case	_	_
+8	the	the	DET	AT0	_	9	det	_	_
+9	road	road	NOUN	NN1	_	6	obl	_	_
+
+1	but	but	CCONJ	CJC	_	5	cc	_	_
+2	then	then	ADV	AV0	_	5	advmod	_	_
+3	the	the	DET	AT0	_	4	det	_	_
+4	guy	guy	NOUN	NN1	_	5	nsubj	_	_
+5	went	go	VERB	VVD	_	0	root	_	_
+6	over	over	ADP	AVP	_	5	compound:prt	_	_
+7	to	to	PART	TO0	_	8	mark	_	_
+8	ask	ask	VERB	VVI	_	5	advcl	_	_
+9	if	if	SCONJ	CJS	_	8	mark	_	_
+10	for	for	ADP	PRP	_	11	case	_	_
+11	help	help	NOUN	NN1	_	5	obl	_	_
+

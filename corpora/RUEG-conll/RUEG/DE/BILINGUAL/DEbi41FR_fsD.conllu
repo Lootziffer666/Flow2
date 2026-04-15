@@ -1,0 +1,186 @@
+# text = schönen guten Tag
+1	schönen	schöne	ADJ	_	Degree=Pos	3	mod	_	_
+2	guten	gute	ADJ	_	Degree=Pos	3	mod	_	_
+3	Tag	Tag	NOUN	_	_	0	root	_	_
+
+# text = hier ist DEbi41FR mit der Fallnummer F16
+1	hier	hier	ADV	_	_	2	comp:pred	_	_
+2	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	DEbi41FR	DEbi41FR	NOUN	_	_	2	subj	_	_
+4	mit	mit	ADP	_	_	2	mod	_	_
+5	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Fallnummer	Fallnummer	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	4	comp:obj	_	_
+7	F16	F16	PROPN	_	_	6	appos	_	_
+
+# text = ich möchte als Zeugin den Autounfall äh berichten der stattgefunden hat heute am sechsundzwanzigsten September zweitausendneunzehn um zwölf Uhr fünfzig im äh äh im im im oh Gott auf dem Gelände äh Park auf der Parkeinfahrt der {streetname}Straße einundvierzig
+1	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	möchte	möchten	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	als	als	ADP	_	_	8	mod	_	_
+4	Zeugin	Zeugin	NOUN	_	_	3	comp:obj	_	_
+5	den	d	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Autounfall	Autounfall	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	8	comp:obj	_	_
+7	äh	äh	ADJ	_	Degree=Pos	2	discourse	_	_
+8	berichten	berichten	VERB	_	Number=Plur|Person=3|VerbForm=Fin	2	comp:aux	_	_
+9	der	dies	PRON	_	Case=Dat|PronType=Dem	11	subj	_	_
+10	stattgefunden	stattfinden	VERB	_	VerbForm=Part	11	comp:aux	_	_
+11	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	_
+12	heute	heute	ADV	_	_	11	mod	_	_
+13	am	an	ADJ	_	Degree=Pos	10	mod	_	_
+14	sechsundzwanzigsten	sechsundzwanzigste	ADJ	_	Degree=Sup	15	mod	_	_
+15	September	September	PROPN	_	_	13	comp:obj	_	_
+16	zweitausendneunzehn	zweitausendneunzehn	PROPN	_	_	15	mod	_	_
+17	um	um	ADP	_	_	10	mod	_	_
+18	zwölf	zwölf	NUM	_	NumType=Card	19	mod	_	_
+19	Uhr	uhr	VERB	_	Number=Sing|Person=3|VerbForm=Fin	17	comp:obj	_	_
+20	fünfzig	fünfzig	NUM	_	NumType=Card	19	mod	_	_
+21	im	in	PROPN	_	_	24	reparandum	_	_
+22	äh	äh	ADJ	_	Degree=Pos	11	discourse	_	_
+23	äh	äh	ADV	_	_	11	discourse	_	_
+24	im	in	PROPN	_	_	25	reparandum	_	_
+25	im	in	PROPN	_	_	26	reparandum	_	_
+26	im	in	PROPN	_	_	29	reparandum	_	_
+27	oh	oh	PROPN	_	Case=Nom|Number=Sing	11	discourse	_	_
+28	Gott	Gott	PROPN	_	Case=Acc|Number=Sing	27	fixed	_	_
+29	auf	auf	ADP	_	_	34	reparandum	_	_
+30	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	33	det	_	_
+31	Gelände	Gelände	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	33	reparandum	_	_
+32	äh	äh	ADJ	_	Degree=Pos	11	discourse	_	_
+33	Park	Park	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	29	comp:obj	_	_
+34	auf	auf	ADP	_	_	10	mod	_	_
+35	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	Parkeinfahrt	Parkeinfahrt	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	34	comp:obj	_	_
+37	der	d	DET	_	Definite=Def|PronType=Art	38	det	_	_
+38	{streetname}Straße	{streetname}Straße	PROPN	_	_	36	mod@poss	_	_
+39	einundvierzig	einundvierzig	ADJ	_	Degree=Pos	38	appos	_	_
+
+# text = äh zwei Autos sind aufgefahren äh äh in die Einfahrt
+1	äh	äh	ADJ	_	Degree=Pos	4	discourse	_	_
+2	zwei	zwei	NUM	_	NumType=Card	3	mod	_	_
+3	Autos	Auto	NOUN	_	Case=Nom|Number=Plur	4	subj	_	_
+4	sind	sein	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	aufgefahren	auffahren	VERB	_	VerbForm=Fin	4	comp:aux	_	_
+6	äh	äh	ADJ	_	Degree=Pos	4	discourse	_	_
+7	äh	äh	ADJ	_	Degree=Pos	4	discourse	_	_
+8	in	in	ADP	_	_	5	comp:obl	_	_
+9	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Einfahrt	Einfahrt	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	8	comp:obj	_	_
+
+# text = und da ein Ball der gedribbelt wurde von von einer von einem Mann der auf auf den Fuß gefallen ist vor das Auto gerollt ist ist das hintere Auto das vordere aufgefahren
+1	und	und	CCONJ	_	_	26	cc	_	_
+2	da	da	ADV	_	_	32	mod	_	_
+3	ein	ein	DET	_	Definite=Ind|PronType=Art	4	det	_	_
+4	Ball	Ball	NOUN	_	_	25	subj	_	_
+5	der	d	PRON	_	Case=Nom|PronType=Dem	7	subj@pass	_	_
+6	gedribbelt	dribbeln	VERB	_	VerbForm=Part	7	comp:aux@pass	_	_
+7	wurde	werden	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	mod@relcl	_	_
+8	von	von	ADP	_	_	9	reparandum	_	_
+9	von	von	ADP	_	_	11	reparandum	_	_
+10	einer	ein	PRON	_	Case=Nom|PronType=Ind	9	comp:obj	_	_
+11	von	von	ADP	_	_	6	comp:obl	_	_
+12	einem	ein	DET	_	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Mann	Mann	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	11	comp:obj	_	_
+14	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	subj	_	_
+15	auf	auf	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	16	reparandum	_	_
+16	auf	auf	ADP	_	_	19	comp:obl	_	_
+17	den	d	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Fuß	Fuß	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	16	comp:obj	_	_
+19	gefallen	fallen	VERB	_	VerbForm=Part	20	comp:aux	_	_
+20	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
+21	vor	vor	ADP	_	_	24	comp:obl	_	_
+22	das	d	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	23	det	_	_
+23	Auto	Auto	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	21	comp:obj	_	_
+24	gerollt	rollen	VERB	_	VerbForm=Part	25	comp:aux	_	_
+25	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
+26	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+27	das	d	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	29	det	_	_
+28	hintere	hintere	ADJ	_	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	29	mod	_	_
+29	Auto	Auto	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	26	subj	_	_
+30	das	d	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	31	det	_	_
+31	vordere	vordere	ADJ	_	Case=Acc|Degree=Pos|Number=Plur	32	comp:obj	_	_
+32	aufgefahren	auffahren	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	26	comp:aux	_	_
+
+# text = das hintere Auto war blau
+1	das	d	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+2	hintere	hinter	ADJ	_	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	3	mod	_	_
+3	Auto	Auto	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	4	subj	_	_
+4	war	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	blau	blau	ADJ	_	Degree=Pos	4	comp:pred	_	_
+
+# text = und der Fahrer des vorderen Autos hat die Polizei angerufen und verständigt
+1	und	und	CCONJ	_	_	7	cc	_	_
+2	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Fahrer	Fahrer	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	7	subj	_	_
+4	des	d	DET	_	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+5	vorderen	vordere	ADJ	_	Degree=Cmp	6	mod	_	_
+6	Autos	Auto	NOUN	_	Case=Gen|Gender=Masc,Neut|Number=Sing	3	mod@poss	_	_
+7	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	die	d	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Polizei	Polizei	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	10	comp:obj	_	_
+10	angerufen	anrufen	VERB	_	VerbForm=Part	7	comp:aux	_	_
+11	und	und	CCONJ	_	_	12	cc	_	_
+12	verständigt	verständigt	VERB	_	VerbForm=Part	7	conj	_	_
+
+# text = äh das Auto hat gebremst weil nicht nur der Ball auf auf die Straße gerollt ist sondern auch weil ein Hund losgegangen ist der an der Leine war von einer Frau äh Frau die ihre Lebensmittel aus dem Kofferraum ausgepackt hat
+1	äh	äh	ADJ	_	Degree=Pos	4	discourse	_	_
+2	das	d	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Auto	Auto	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	4	subj	_	_
+4	hat	haben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	gebremst	bremsen	ADV	_	_	4	comp:aux	_	_
+6	weil	weil	ADV	_	_	5	mod	_	_
+7	nicht	nicht	PART	_	_	6	cc	_	_
+8	nur	nur	ADV	_	_	7	fixed	_	_
+9	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Ball	Ball	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	16	subj	_	_
+11	auf	auf	ADP	_	_	12	reparandum	_	_
+12	auf	auf	ADP	_	_	15	comp:obl	_	_
+13	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	12	comp:obj	_	_
+15	gerollt	rollen	ADJ	_	Degree=Pos	16	comp:aux	_	_
+16	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
+17	sondern	sondern	CCONJ	_	_	19	cc	_	_
+18	auch	auch	ADV	_	_	17	fixed	_	_
+19	weil	weil	ADV	_	_	6	conj	_	_
+20	ein	ein	DET	_	Definite=Ind|PronType=Art	21	det	_	_
+21	Hund	Hund	NOUN	_	_	23	subj	_	_
+22	losgegangen	losgehen	PROPN	_	_	23	comp:aux	_	_
+23	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	comp:obj	_	_
+24	der	d	DET	_	Definite=Def|PronType=Art	28	subj	_	_
+25	an	an	ADP	_	_	28	comp:pred	_	_
+26	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Leine	Leine	PROPN	_	_	25	comp:obj	_	_
+28	war	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	mod@relcl	_	_
+29	von	von	ADP	_	_	27	mod@poss	_	_
+30	einer	ein	DET	_	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+31	Frau	Frau	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	33	reparandum	_	_
+32	äh	äh	ADJ	_	Degree=Pos	4	discourse	_	_
+33	Frau	Frau	NOUN	_	_	29	comp:obj	_	_
+34	die	d	PRON	_	Case=Nom|PronType=Dem	41	subj	_	_
+35	ihre	ihr	DET	_	Person=3|Poss=Yes|PronType=Prs	36	det	_	_
+36	Lebensmittel	Lebensmittel	NOUN	_	Case=Acc|Number=Sing	40	comp:obj	_	_
+37	aus	aus	ADP	_	_	40	mod	_	_
+38	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	39	det	_	_
+39	Kofferraum	Kofferraum	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	37	comp:obj	_	_
+40	ausgepackt	auspacken	VERB	_	VerbForm=Fin	41	comp:aux	_	_
+41	hat	haben	AUX	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	33	mod@relcl	_	_
+
+# text = äh niemand ist verletzt
+1	äh	äh	ADJ	_	Degree=Pos	3	discourse	_	_
+2	niemand	niemand	PRON	_	Case=Nom|Number=Sing|PronType=Neg	3	subj	_	_
+3	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	verletzt	verletzen	VERB	_	Person=3|VerbForm=Fin	3	comp:pred	_	_
+
+# text = und ich stehe gerne für Rückfragen zur Verfügung
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	stehe	stehen	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	gerne	gerne	ADV	_	_	3	mod	_	_
+5	für	für	ADP	_	_	3	mod	_	_
+6	Rückfragen	Rückfragen	NOUN	_	Case=Acc|Number=Plur	5	comp:obj	_	_
+7	zur	zu	PROPN	_	_	3	comp:obl	_	_
+8	Verfügung	Verfügung	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	7	comp:obj	_	_
+
+# text = auf Wiederhören
+1	auf	auf	ADP	_	_	0	root	_	_
+2	Wiederhören	Wiederhören	ADJ	_	Degree=Pos	1	comp:obj	_	_
+
+

@@ -1,0 +1,212 @@
+1	Sehr	sehr	ADV	PTKIFG	_	2	mod	_	_
+2	geehrte	geehrt	ADJ	ADJA	_	3	mod	_	_
+3	Damen	Dame	NOUN	NN	_	0	root	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Herren	Herr	NOUN	NN	_	3	conj	_	_
+6	,	,	PUNCT	$,	_	3	punct	_	_
+
+1	im	im	PROPN	APPRART	_	8	mod	_	_
+2	Folgenden	Folgende	NOUN	NN	_	1	comp:obj	_	_
+3	werde	werden	AUX	VAFIN	_	0	root	_	_
+4	ich	ich	PRON	PPER	_	3	subj	_	_
+5	Ihnen	Sie	PRON	PPER	_	8	comp:obl	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Unfall	Unfall	NOUN	NN	_	8	comp:obj	_	_
+8	beschreiben	beschreiben	VERB	VVINF	_	3	comp:aux	_	_
+9	,	,	PUNCT	$,	_	3	punct	_	_
+10	bei	bei	ADP	APPR	_	15	comp:obl	_	_
+11	dem	d	PRON	PRELS	_	10	comp:obj	_	_
+12	ich	ich	PRON	PPER	_	15	subj	_	_
+13	heute	heute	ADV	ADV	_	15	mod	_	_
+14	Zeugin	Zeugin	NOUN	NN	_	15	comp:pred	_	_
+15	wurde	werden	VERB	VAFIN	_	7	mod@relcl	_	_
+16	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	Zu	zu	ADP	APPR	_	3	mod	_	_
+2	Beginn	Beginn	NOUN	NN	_	1	comp:obj	_	_
+3	kam	kommen	VERB	VVFIN	_	0	root	_	_
+4	von	von	ADP	APPR	_	3	comp:obl	_	_
+5	der	d	DET	ART	_	7	det	_	_
+6	rechten	recht	ADJ	ADJA	_	7	mod	_	_
+7	Seite	Seite	NOUN	NN	_	4	comp:obj	_	_
+8	ein	ein	DET	ART	_	9	det	_	_
+9	Paar	Paar	NOUN	NN	_	3	subj	_	_
+10	mit	mit	ADP	APPR	_	9	mod	_	_
+11	einem	ein	DET	ART	_	12	det	_	_
+12	Babywagen	Babywagen	NOUN	NN	_	10	comp:obj	_	_
+13	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	Der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	hatte	haben	VERB	VAFIN	_	0	root	_	_
+4	zusätzlich	zusätzlich	ADJ	ADV	_	3	mod	_	_
+5	einen	ein	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+7	in	in	ADP	APPR	_	3	mod	_	_
+8	der	d	DET	ART	_	9	det	_	_
+9	Hand	Hand	NOUN	NN	_	7	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	spielte	spielen	VERB	VVFIN	_	0	root	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	diesem	diese	PRON	PDS	_	3	comp:obj	_	_
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Auf	auf	ADP	APPR	_	5	comp:pred	_	_
+2	der	d	DET	ART	_	4	det	_	_
+3	linken	link	ADJ	ADJA	_	4	mod	_	_
+4	Seite	Seite	NOUN	NN	_	1	comp:obj	_	_
+5	war	sein	VERB	VAFIN	_	0	root	_	_
+6	eine	ein	DET	ART	_	7	det	_	_
+7	Frau	Frau	NOUN	NN	_	5	subj	_	_
+8	mit	mit	ADP	APPR	_	7	mod	_	_
+9	einem	ein	DET	ART	_	10	det	_	_
+10	Hund	Hund	NOUN	NN	_	8	comp:obj	_	_
+11	,	,	PUNCT	$,	_	5	punct	_	_
+12	die	die	PRON	PRELS	_	16	subj	_	_
+13	wahrscheinlich	wahrscheinlich	ADJ	ADV	_	16	mod	_	_
+14	vom	von	PROPN	APPRART	_	16	comp:obl	_	_
+15	Einkaufen	Einkaufen	NOUN	NN	_	14	comp:obj	_	_
+16	kam	kommen	VERB	VVFIN	_	7	mod@relcl	_	_
+
+1	(	(	PUNCT	$(	_	3	punct	_	_
+2	sie	sie	PRON	PPER	_	3	subj	_	_
+3	räumte	räumen	VERB	VVFIN	_	0	root	_	_
+4	Sachen	Sache	NOUN	NN	_	3	comp:obj	_	_
+5	aus	aus	ADP	PTKVZ	_	3	compound@prt	_	_
+6	)	)	PUNCT	$(	_	3	punct	_	_
+7	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	Währenddessen	Währenddessen	ADV	ADV	_	2	mod	_	_
+2	fuhr	fahren	VERB	VVFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	5	det	_	_
+4	blaues	blau	ADJ	ADJA	_	5	mod	_	_
+5	Auto	Auto	NOUN	NN	_	2	subj	_	_
+6	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Straße	Straße	NOUN	NN	_	6	comp:obj	_	_
+9	und	und	CCONJ	KON	_	15	cc	_	_
+10	hinter	hinter	ADP	APPR	_	15	orphan	_	_
+11	dem	d	DET	ART	_	10	comp:obj	_	_
+12	ein	ein	DET	ART	_	15	det	_	_
+13	weiteres	weitere	ADJ	ADJA	_	15	mod	_	_
+14	silbernes	silbern	ADJ	ADJA	_	15	mod	_	_
+15	Auto	Auto	NOUN	NN	_	5	conj	_	_
+16	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	5	subj	_	_
+3	von	von	ADP	APPR	_	2	mod	_	_
+4	rechts	rechts	ADV	ADV	_	3	comp:obj	_	_
+5	warf	werfen	VERB	VVFIN	_	0	root	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Ball	Ball	NOUN	NN	_	5	comp:obj	_	_
+8	aus	aus	ADP	APPR	_	5	mod	_	_
+9	Versehen	Versehen	NOUN	NN	_	8	comp:obj	_	_
+10	auf	auf	ADP	APPR	_	5	comp:obl	_	_
+11	die	d	DET	ART	_	12	det	_	_
+12	Straße	Straße	NOUN	NN	_	10	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	6	subj	_	_
+4	von	von	ADP	APPR	_	3	mod	_	_
+5	links	links	NOUN	ADV	_	4	comp:obj	_	_
+6	sprang	springen	VERB	VVFIN	_	0	root	_	_
+7	daraufhin	daraufhin	ADV	ADV	_	6	mod	_	_
+8	dem	d	DET	ART	_	9	det	_	_
+9	Ball	Ball	NOUN	NN	_	6	comp:obj	_	_
+10	hinterher	hinterher	ADV	PTKVZ	_	6	compound@prt	_	_
+11	.	.	PUNCT	$.	_	6	punct	_	_
+
+1	Die	d	DET	ART	_	2	det	_	_
+2	Hundebesitzerin	Hundebesitzerin	NOUN	NN	_	3	subj	_	_
+3	zog	ziehen	VERB	VVFIN	_	0	root	_	_
+4	zwar	zwar	ADV	ADV	_	3	mod	_	_
+5	an	an	ADP	APPR	_	3	comp:obl	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Leine	Leine	NOUN	NN	_	5	comp:obj	_	_
+8	des	d	DET	ART	_	9	det	_	_
+9	Hundes	Hund	NOUN	NN	_	7	mod@poss	_	_
+
+1	jedoch	jedoch	ADV	ADV	_	2	mod	_	_
+2	führte	führen	VERB	VVFIN	_	0	root	_	_
+3	das	die	PRON	PDS	_	2	subj	_	_
+4	dazu	dazu	PRON	ADV	_	2	mod	_	_
+5	,	,	PUNCT	$,	_	2	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	4	comp:obj	_	_
+7	das	d	DET	ART	_	9	det	_	_
+8	blaue	blau	ADJ	ADJA	_	9	mod	_	_
+9	Auto	Auto	NOUN	NN	_	11	subj	_	_
+10	stark	stark	ADJ	ADJD	_	11	mod	_	_
+11	bremste	bremsen	VERB	VVFIN	_	6	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	das	d	DET	ART	_	5	det	_	_
+3	hintere	hinter	ADJ	ADJD	_	5	mod	_	_
+4	silberne	silbern	ADJ	ADJA	_	5	mod	_	_
+5	Auto	Auto	NOUN	NN	_	6	subj	_	_
+6	stieß	stoßen	VERB	VVFIN	_	0	root	_	_
+7	somit	somit	ADV	ADV	_	6	mod	_	_
+8	das	d	DET	ART	_	10	det	_	_
+9	blaue	blau	ADJ	ADJA	_	10	mod	_	_
+10	Auto	Auto	NOUN	NN	_	6	subj	_	_
+11	von	von	ADP	APPR	_	6	mod	_	_
+12	hinten	hinten	ADV	ADV	_	11	comp:obj	_	_
+13	an	an	ADP	PTKVZ	_	6	compound@prt	_	_
+14	.	.	PUNCT	$.	_	6	punct	_	_
+
+1	Somit	somit	ADV	ADV	_	2	mod	_	_
+2	kam	kommen	VERB	VVFIN	_	0	root	_	_
+3	es	es	PRON	PPER	_	2	subj	_	_
+4	zu	zu	ADP	APPR	_	2	comp:obl	_	_
+5	einem	ein	DET	ART	_	7	det	_	_
+6	kleinen	klein	ADJ	ADJA	_	7	mod	_	_
+7	Unfall	Unfall	NOUN	NN	_	4	comp:obj	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	6	subj	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	dem	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+6	half	helfen	VERB	VVFIN	_	0	root	_	_
+7	dann	dann	ADV	ADV	_	6	mod	_	_
+8	der	d	DET	ART	_	9	det	_	_
+9	Frau	Frau	NOUN	NN	_	6	comp:obj	_	_
+10	beim	bei	ADV	APPRART	_	6	comp:obl	_	_
+11	Aufräumen	Aufräumen	NOUN	NN	_	10	comp:obj	_	_
+12	der	d	DET	ART	_	13	det	_	_
+13	Lebensmittel	Lebensmittel	NOUN	NN	_	11	mod@poss	_	_
+14	.	.	PUNCT	$.	_	6	punct	_	_
+
+1	Die	d	DET	ART	_	2	det	_	_
+2	Autobesitzer	Autobesitzer	PROPN	NN	_	3	subj	_	_
+3	stiegen	steigen	VERB	VVFIN	_	0	root	_	_
+4	aus	aus	ADP	APPR	_	3	comp:obl	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Autos	Auto	NOUN	NN	_	4	comp:obj	_	_
+7	aus	aus	ADP	PTKVZ	_	3	compound@prt	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	riefen	rufen	VERB	VVFIN	_	0	root	_	_
+3	dann	dann	ADV	ADV	_	2	mod	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Polizei	Polizei	NOUN	NN	_	2	comp:obj	_	_
+6	an	an	ADP	PTKVZ	_	2	compound@prt	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Dies	dies	PRON	PDS	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	meinerseits	meinerseits	DET	ADV	_	2	mod	_	_
+4	meine	mein	DET	PPOSAT	_	5	det	_	_
+5	Beobachtungen	Beobachtung	NOUN	NN	_	2	comp:pred	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Mit	mit	ADP	APPR	_	5	mod	_	_
+2	freundlichen	freundlich	ADJ	ADJA	_	3	mod	_	_
+3	Grüßen	Gruß	NOUN	NN	_	1	comp:obj	_	_
+4	,	,	PUNCT	$,	_	5	punct	_	_
+5	XX	XX	NOUN	XY	_	0	root	_	_
+
+

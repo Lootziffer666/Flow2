@@ -1,0 +1,158 @@
+# text = hallo
+1	hallo	hallo	X	_	_	0	root	_	_
+
+# text = und daraufhin äh ist dann der hintere weiße Wagen in ihn reingefahren
+1	äh	äh	ADJ	_	Degree=Pos	6	discourse	_	_
+2	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	würde	werden	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	reparandum	_	_
+4	mich	ich	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	comp:obj	_	_
+5	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	subj	_	_
+6	würde	werden	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	gerne	gerne	ADV	_	_	6	mod	_	_
+8	mich	ich	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	comp:obj	_	_
+9	zu	zu	ADP	_	_	14	comp:obl	_	_
+10	dem	d	DET	_	Definite=Def|PronType=Art	11	det	_	_
+11	Fall	Fall	NOUN	_	_	9	comp:obj	_	_
+12	elf	elf	NUM	_	NumType=Card	11	appos	_	_
+13	16	@card@	NUM	_	NumType=Card	12	appos	_	_
+14	äußern	äußern	VERB	_	Tense=Pres|VerbForm=Inf	6	comp:aux	_	_
+
+# text = und zwar habe ich da alles sozusagen miterlebt und gesehen
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	zwar	zwar	ADV	_	_	3	mod	_	_
+3	habe	haben	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+5	da	da	ADV	_	_	3	mod	_	_
+6	alles	alle	PRON	_	Case=Acc|PronType=Tot	8	comp:obj	_	_
+7	sozusagen	sozusagen	ADV	_	_	3	mod	_	_
+8	miterlebt	miterleben	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+9	und	und	CCONJ	_	_	10	cc	_	_
+10	gesehen	sehen	VERB	_	Tense=Past|VerbForm=Part	3	conj	_	_
+
+# text = und zwar ist Folgendes passiert
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	zwar	zwar	ADV	_	_	3	mod	_	_
+3	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Folgendes	Folgende	NOUN	_	_	3	subj	_	_
+5	passiert	passieren	VERB	_	Tense=Pres|VerbForm=Part	3	comp:aux	_	_
+
+# text = es war eine Frau mit ihrem Kinderwagen und einem Mann unterwegs
+1	es	es	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+2	war	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	eine	ein	DET	_	Definite=Ind|PronType=Art	4	det	_	_
+4	Frau	Frau	NOUN	_	_	2	subj	_	_
+5	mit	mit	ADP	_	_	2	mod	_	_
+6	ihrem	ihr	DET	_	Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	Kinderwagen	Kinderwagen	NOUN	_	Case=Dat|Number=Plur	5	comp:obj	_	_
+8	und	und	CCONJ	_	_	10	cc	_	_
+9	einem	ein	DET	_	Definite=Ind|PronType=Art	10	det	_	_
+10	Mann	Mann	NOUN	_	_	7	conj	_	_
+11	unterwegs	unterwegs	ADV	_	_	2	comp:pred	_	_
+
+# text = beide waren natürlich zusammen miteinander
+1	beide	beide	PRON	_	Case=Nom|NumType=Card|PronType=Tot	2	subj	_	_
+2	waren	sein	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	natürlich	natürlich	ADJ	_	Degree=Pos	2	mod	_	_
+4	zusammen	zusammen	ADV	_	_	2	comp:pred	_	_
+5	miteinander	miteinander	ADV	_	_	4	mod	_	_
+
+# text = und der Mann hatte die ganze Zeit ein Ball
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Mann	Mann	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+4	hatte	haben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	die	d	DET	_	Definite=Def|PronType=Art	7	det	_	_
+6	ganze	ganz	ADJ	_	Degree=Pos	7	mod	_	_
+7	Zeit	Zeit	NOUN	_	_	4	mod	_	_
+8	ein	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Ball	Ball	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	comp:obj	_	_
+
+# text = mit dem hat er herumgespielt
+1	mit	mit	ADP	_	_	5	mod	_	_
+2	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	1	comp:obj	_	_
+3	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	er	er	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
+5	herumgespielt	herumspielen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+
+# text = und währenddessen sind dann zwei Autos aus einer anderen Richtung gefahren
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	währenddessen	währenddessen	ADV	_	_	3	mod	_	_
+3	sind	sein	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	dann	dann	ADV	_	_	3	mod	_	_
+5	zwei	zwei	NUM	_	NumType=Card	6	mod	_	_
+6	Autos	Auto	NOUN	_	Case=Nom|Number=Plur	3	subj	_	_
+7	aus	aus	ADP	_	_	11	comp:obl	_	_
+8	einer	ein	DET	_	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	anderen	ander	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	mod	_	_
+10	Richtung	Richtung	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	7	comp:obl	_	_
+11	gefahren	fahren	VERB	_	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+
+# text = und äh als sie dann sozusagen in die Richtung der beiden Personen gefahren sind äh hat der Mann sein Ball fallen gelassen sodass dann entgegen den Autos kommen ist
+1	und	und	CCONJ	_	_	16	cc	_	_
+2	äh	äh	ADJ	_	Degree=Pos	16	discourse	_	_
+3	als	als	SCONJ	_	_	21	mod	_	_
+4	sie	sie	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	subj	_	_
+5	dann	dann	ADV	_	_	14	mod	_	_
+6	sozusagen	sozusagen	ADV	_	_	14	mod	_	_
+7	in	in	ADP	_	_	13	comp:obl	_	_
+8	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Richtung	Richtung	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	7	comp:obj	_	_
+10	der	d	DET	_	Definite=Def|PronType=Art	12	det	_	_
+11	beiden	beide	PRON	_	NumType=Card|PronType=Tot	12	mod	_	_
+12	Personen	Person	NOUN	_	_	9	mod@poss	_	_
+13	gefahren	fahren	VERB	_	Tense=Past|VerbForm=Part	14	comp:aux	_	_
+14	sind	sein	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
+15	äh	äh	ADJ	_	Degree=Pos	16	discourse	_	_
+16	hat	haben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Mann	Mann	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	16	subj	_	_
+19	sein	sein	DET	_	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	20	det	_	_
+20	Ball	Ball	NOUN	_	Case=Acc|Number=Sing	21	comp:obj	_	_
+21	fallen	fallen	VERB	_	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	comp:obj	_	_
+22	gelassen	lassen	VERB	_	Tense=Past	16	comp:aux	_	_
+23	sodass	sodass	SCONJ	_	_	21	mod	_	_
+24	der	d	DET	PRELS	_	30	subj	_	_
+25	dann	dann	ADV	_	_	30	mod	_	_
+26	entgegen	entgegen	ADP	_	_	29	comp:obl	_	_
+27	den	d	DET	_	Case=Dat|Definite=Def|Number=Plur|PronType=Art	28	det	_	_
+28	Autos	Auto	NOUN	_	Case=Dat|Number=Plur	26	comp:obj	_	_
+29	kommen	kommen	VERB	_	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	comp:aux	_	_
+30	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	comp:obj	_	_
+
+# text = und daraufhin ist ein blaues Auto was vor was vor einem weißen Auto dahinter stand äh hat eine Vollbremse gemacht
+1	und	und	CCONJ	_	_	17	cc	_	_
+2	daraufhin	daraufhin	ADV	_	_	17	mod	_	_
+3	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	reparandum	_	_
+4	ein	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+5	blaues	blau	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc,Neut|Number=Sing	6	mod	_	_
+6	Auto	Auto	NOUN	_	Case=Acc|Gender=Masc,Neut|Number=Sing	17	subj	_	_
+7	was	was	PRON	_	Case=Acc|PronType=Ind	9	reparandum	_	_
+8	vor	vor	ADP	_	_	7	mod	_	_
+9	was	was	PRON	_	Case=Acc|PronType=Ind	15	subj	_	_
+10	vor	vor	ADP	_	_	15	comp:obl	_	_
+11	einem	ein	DET	_	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	13	det	_	_
+12	weißen	weiß	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	13	mod	_	_
+13	Auto	Auto	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	10	comp:obj	_	_
+14	dahinter	dahinter	ADV	_	_	13	mod	_	_
+15	stand	stehen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	mod@relcl	_	_
+16	äh	äh	ADV	_	_	17	discourse	_	_
+17	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	eine	ein	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Vollbremse	Vollbremse	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	20	comp:obj	_	_
+20	gemacht	machen	VERB	_	Tense=Past|VerbForm=Part	17	comp:aux	_	_
+
+# text = und daraufhin äh ist dann der hintere weiße Wagen in ihn reingefahren
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	daraufhin	daraufhin	ADV	_	_	4	mod	_	_
+3	äh	äh	ADJ	_	Degree=Pos	4	discourse	_	_
+4	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	dann	dann	ADV	_	_	4	mod	_	_
+6	der	d	DET	_	Definite=Def|PronType=Art	9	det	_	_
+7	hintere	hinter	ADJ	_	Degree=Cmp	9	mod	_	_
+8	weiße	weiß	ADJ	_	Degree=Pos	9	mod	_	_
+9	Wagen	Wagen	NOUN	_	_	4	subj	_	_
+10	in	in	ADP	_	_	12	comp:obl	_	_
+11	ihn	er	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	comp:obj	_	_
+12	reingefahren	reinfahren	VERB	_	Tense=Past|VerbForm=Fin	4	comp:aux	_	_
+
+

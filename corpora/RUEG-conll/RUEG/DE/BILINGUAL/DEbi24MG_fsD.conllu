@@ -1,0 +1,87 @@
+# text = äh Fallnummer F16
+1	äh	äh	ADJ	_	Degree=Pos	2	discourse	_	_
+2	Fallnummer	Fallnummer	NOUN	_	_	0	root	_	_
+3	F16	F16	PROPN	_	_	2	appos	_	_
+
+# text = äh hier ist gerade äh ein Verkehrsunfall geschehen
+1	äh	äh	ADJ	_	Degree=Pos	3	discourse	_	_
+2	hier	hier	ADV	_	_	3	mod	_	_
+3	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	gerade	gerade	ADV	_	_	3	mod	_	_
+5	äh	äh	ADV	_	_	3	discourse	_	_
+6	ein	ein	NUM	_	NumType=Card	7	det	_	_
+7	Verkehrsunfall	Verkehrsunfall	NOUN	_	Case=Acc|Number=Sing	3	subj	_	_
+8	geschehen	geschehen	VERB	_	Tense=pAST|VerbForm=Part	3	comp:aux	_	_
+
+# text = es gibt es gibt keine Verletzte
+1	es	es	PRON	_	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+2	gibt	geben	VERB	_	Number=Plur|Person=3|Tense=pRES|VerbForm=Fin	4	reparandum	_	_
+3	es	es	PRON	_	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	_
+4	gibt	geben	VERB	_	Number=Sing|Person=3|Tense=pRES|VerbForm=Fin	0	root	_	_
+5	keine	kein	PRON	_	PronType=Neg	6	mod	_	_
+6	Verletzte	Verletzte	NOUN	_	_	4	comp:obj	_	_
+
+# text = äh das ist halt eben wie folgt passiert
+1	äh	äh	ADJ	_	Degree=Pos	3	discourse	_	_
+2	das	d	PRON	_	Case=Nom|PronType=Dem	3	subj	_	_
+3	ist	sein	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	halt	halt	ADV	_	_	3	discourse	_	_
+5	eben	eben	ADV	_	_	3	mod	_	_
+6	wie	wie	CCONJ	_	_	7	mod	_	_
+7	folgt	folgen	VERB	_	VerbForm=Fin	8	mod	_	_
+8	passiert	passieren	VERB	_	Number=Sing|Person=3|Tense=pAST|VerbForm=Fin	3	comp:aux	_	_
+
+# text = es ist ist ist äh auf dem Parkplatz passiert
+1	es	es	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	_
+2	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	reparandum	_	_
+3	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	reparandum	_	_
+4	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	äh	äh	ADJ	_	Degree=Pos	4	discourse	_	_
+6	auf	auf	ADP	_	_	9	mod	_	_
+7	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Parkplatz	Parkplatz	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	6	comp:obj	_	_
+9	passiert	passieren	VERB	_	Number=Sing|Person=3|Tense=pAST|VerbForm=Fin	4	comp:aux	_	_
+
+# text = ein Ball ist äh rübergerollt
+1	ein	ein	DET	_	Definite=Ind|PronType=Art	2	det	_	_
+2	Ball	Ball	NOUN	_	_	3	subj	_	_
+3	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	äh	äh	ADJ	_	Degree=Pos	3	discourse	_	_
+5	rübergerollt	rüberrollen	ADJ	_	Degree=Pos|Tense=pAST	3	comp:aux	_	_
+
+# text = daraufhin hat ein Hund reagiert
+1	daraufhin	daraufhin	ADV	_	_	2	mod	_	_
+2	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	_	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Hund	Hund	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	2	subj	_	_
+5	reagiert	reagieren	VERB	_	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+
+# text = und ist dann äh quasi aufn Parkplatz gesprungen
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	ist	sein	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dann	dann	ADV	_	_	2	mod	_	_
+4	äh	äh	ADJ	_	Degree=Pos	2	discourse	_	_
+5	quasi	quasi	ADV	_	_	2	mod	_	_
+6	aufn	auf	PROPN	_	_	8	comp:obl	_	_
+7	Parkplatz	Parkplatz	PROPN	_	_	6	comp:obj	_	_
+8	gesprungen	springen	VERB	_	Tense=Past|VerbForm=Inf	2	comp:aux	_	_
+
+# text = und dann kam halt der Zusammenprall der zwei Autos weil das erste daraufhin eine Notbremse gezogen hat
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	dann	dann	ADV	_	_	3	mod	_	_
+3	kam	kommen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	halt	halt	ADV	_	_	3	discourse	_	_
+5	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Zusammenprall	Zusammenprall	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+7	der	d	DET	_	Definite=Def|PronType=Art	9	det	_	_
+8	zwei	zwei	NUM	_	NumType=Card	9	mod	_	_
+9	Autos	Auto	NOUN	_	_	6	mod@poss	_	_
+10	weil	weil	SCONJ	_	_	3	mod	_	_
+11	das	d	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+12	erste	erste	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	17	subj	_	_
+13	daraufhin	daraufhin	ADV	_	_	17	mod	_	_
+14	eine	ein	DET	_	_	15	det	_	_
+15	Notbremse	Notbremse	NOUN	_	_	16	comp:obj	_	_
+16	gezogen	ziehen	VERB	_	Tense=Past|VerbForm=Part	17	comp:aux	_	_
+17	hat	haben	AUX	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
+

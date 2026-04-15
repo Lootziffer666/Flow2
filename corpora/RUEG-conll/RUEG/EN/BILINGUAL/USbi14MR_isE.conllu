@@ -1,0 +1,143 @@
+1	hey	hey	INTJ	ITJ	_	2	discourse	_	_
+2	Dave	dave	PROPN	NP0	_	0	root	_	_
+
+1	how	how	ADV	AVQ	_	4	advmod	_	_
+2	you	you	PRON	PNP	_	4	nsubj	_	_
+3	doing	do	AUX	VDG	_	4	cop	_	_
+4	man	man	NOUN	NN1	_	0	root	_	_
+
+1	check	check	VERB	VVB	_	0	root	_	_
+2	it	it	PRON	PNP	_	1	obj	_	_
+3	out	out	ADP	AVP	_	1	compound:prt	_	_
+
+1	there	there	ADV	EX0	_	4	advmod	_	_
+2	was	be	AUX	VBD	_	4	cop	_	_
+3	this	this	DET	DT0	_	4	det	_	_
+4	accident	accident	NOUN	NN1	_	0	root	_	_
+5	in	in	ADP	PRP	_	6	case	_	_
+6	front	front	NOUN	NN1	_	4	nmod	_	_
+7	of	of	ADP	PRF	_	8	case	_	_
+8	the	the	DET	AT0	_	6	nmod	_	_
+9	in	in	ADP	PRP	_	10	case	_	_
+10	front	front	NOUN	NN1	_	8	nmod	_	_
+11	of	of	ADP	PRF	_	13	case	_	_
+12	the	the	DET	AT0	_	13	det	_	_
+13	building	building	NOUN	NN1	_	10	nmod	_	_
+
+1	there	there	ADV	EX0	_	5	advmod	_	_
+2	was	be	AUX	VBD	_	4	cop	_	_
+3	white	white	ADJ	AJ0	_	4	amod	_	_
+4	car	car	NOUN	NN1	_	5	nsubj	_	_
+5	slammed	slam	VERB	VVD	_	0	root	_	_
+6	into	into	ADP	PRP	_	9	case	_	_
+7	a	a	DET	AT0	_	9	det	_	_
+8	blue	blue	ADJ	AJ0	_	9	amod	_	_
+9	car	car	NOUN	NN1	_	5	obl	_	_
+
+1	it	it	PRON	PNP	_	4	nsubj	_	_
+2	was	be	AUX	VBD	_	4	cop	_	_
+3	an	an	DET	AT0	_	4	det	_	_
+4	Opel	opel	NOUN	NN1	_	0	root	_	_
+
+1	I	i	PRON	PNP	_	4	nsubj	_	_
+2	can	can	AUX	VM0	_	4	aux	_	_
+3	not	not	PART	XX0	_	4	advmod	_	_
+4	believe	believe	VERB	VVI	_	0	root	_	_
+5	they	they	PRON	PNP	_	7	nsubj	_	_
+6	have	have	AUX	VHI	_	7	aux	_	_
+7	Opels	opel	NOUN	NN2	_	4	acl:relcl	_	_
+8	around	around	ADP	PRP	_	9	case	_	_
+9	here	here	ADV	AV0	_	7	obl	_	_
+
+1	but	but	CCONJ	CJC	_	8	cc	_	_
+2	yeah	yeah	INTJ	ITJ	_	8	discourse	_	_
+3	man	man	NOUN	NN1	_	8	punct	_	_
+4	it	it	PRON	PNP	_	8	nsubj	_	_
+5	was	be	AUX	VBD	_	8	cop	_	_
+6	it	it	PRON	PNP	_	8	nsubj	_	_
+7	was	be	AUX	VBD	_	8	cop	_	_
+8	crazy	crazy	ADJ	AJ0	_	0	root	_	_
+
+1	yeah	yeah	INTJ	ITJ	_	3	discourse	_	_
+2	I	i	PRON	PNP	_	3	nsubj	_	_
+3	mean	mean	VERB	VVB	_	5	parataxis	_	_
+4	things	thing	NOUN	NN2	_	5	nsubj	_	_
+5	went	go	VERB	VVD	_	0	root	_	_
+6	flying	fly	VERB	VVG	_	5	xcomp	_	_
+7	all	all	ADV	AV0	_	11	advmod	_	_
+8	over	over	ADP	PRP	_	11	case	_	_
+9	the	the	DET	AT0	_	11	det	_	_
+10	place	place	NOUN	NN1	_	11	compound	_	_
+11	man	man	NOUN	NN1	_	6	obl	_	_
+
+1	yeah	yeah	INTJ	ITJ	_	4	discourse	_	_
+2	some	some	DET	DT0	_	3	det	_	_
+3	dude	dude	NOUN	NN1	_	4	obl:npmod	_	_
+4	drops	drop	VERB	VVZ	_	0	root	_	_
+5	groceries	grocery	NOUN	NN2	_	4	obj	_	_
+
+1	actually	actually	ADV	AV0	_	5	advmod	_	_
+2	it	it	PRON	PNP	_	5	nsubj	_	_
+3	was	be	AUX	VBD	_	5	cop	_	_
+4	some	some	DET	DT0	_	5	det	_	_
+5	lady	lady	NOUN	NN1	_	0	root	_	_
+
+1	I	i	PRON	PNP	_	4	nsubj	_	_
+2	do	do	AUX	VDB	_	4	aux	_	_
+3	not	not	PART	XX0	_	4	advmod	_	_
+4	know	know	VERB	VVI	_	0	root	_	_
+
+1	dude	dude	NOUN	NN1	_	3	nmod:poss	_	_
+2	's	's	PART	POS	_	1	case	_	_
+3	dog	dog	NOUN	NN1	_	4	nsubj	_	_
+4	ran	run	VERB	VVD	_	0	root	_	_
+5	into	into	ADP	PRP	_	7	case	_	_
+6	the	the	DET	AT0	_	7	det	_	_
+7	street	street	NOUN	NN1	_	4	obl	_	_
+
+1	yeah	yeah	INTJ	ITJ	_	4	discourse	_	_
+2	it	it	PRON	PNP	_	4	nsubj	_	_
+3	was	be	AUX	VBD	_	4	cop	_	_
+4	wild	wild	ADJ	AJ0	_	0	root	_	_
+
+1	I	i	PRON	PNP	_	2	nsubj	_	_
+2	mean	mean	VERB	VVB	_	0	root	_	_
+3	it	it	PRON	PNP	_	8	nsubj	_	_
+4	's	be	AUX	VBZ	_	5	cop	_	_
+5	it	it	PRON	PNP	_	8	nsubj	_	_
+6	was	be	AUX	VBD	_	8	cop	_	_
+7	a	a	DET	AT0	_	8	det	_	_
+8	lot	lot	NOUN	NN1	_	2	ccomp	_	_
+9	of	of	ADP	PRF	_	10	case	_	_
+10	stuff	stuff	NOUN	NN1	_	8	nmod	_	_
+11	that	that	SCONJ	CJT	_	12	mark	_	_
+12	happened	happen	VERB	VVD	_	8	acl	_	_
+
+1	yeah	yeah	INTJ	ITJ	_	3	discourse	_	_
+2	guy	guy	NOUN	NN1	_	3	nsubj	_	_
+3	lost	lose	VERB	VVD	_	0	root	_	_
+4	a	a	DET	AT0	_	6	det	_	_
+5	soccer	soccer	NOUN	NN1	_	6	compound	_	_
+6	ball	ball	NOUN	NN1	_	3	obj	_	_
+
+1	it	it	PRON	PNP	_	3	nsubj	_	_
+2	was	be	AUX	VBD	_	3	cop	_	_
+3	wild	wild	ADJ	AJ0	_	0	root	_	_
+
+1	but	but	CCONJ	CJC	_	3	cc	_	_
+2	you	you	PRON	PNP	_	3	nsubj	_	_
+3	know	know	VERB	VVB	_	0	root	_	_
+4	everyone	everyone	PRON	PNI	_	6	nsubj	_	_
+5	's	be	AUX	VBZ	_	6	cop	_	_
+6	alright	alright	ADJ	AJ0	_	3	ccomp	_	_
+
+1	so	so	INTJ	ITJ	_	3	discourse	_	_
+2	I	i	PRON	PNP	_	3	nsubj	_	_
+3	will	will	AUX	VM0	_	0	root	_	_
+4	soon	soon	ADV	AV0	_	3	advmod	_	_
+
+1	alright	alright	INTJ	ITJ	_	2	discourse	_	_
+2	man	man	NOUN	NN1	_	0	root	_	_
+
+1	later	later	INTJ	ITJ	_	0	root	_	_
+

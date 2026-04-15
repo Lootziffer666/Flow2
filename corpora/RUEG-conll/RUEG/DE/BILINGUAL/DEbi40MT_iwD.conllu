@@ -1,0 +1,69 @@
+1	Soner	Soner	ADJ	NE	_	3	vocative	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	habe	haben	AUX	VAFIN	_	0	root	_	_
+4	gerade	gerade	ADV	ADV	_	3	mod	_	_
+5	einen	ein	DET	ART	_	6	det	_	_
+6	Unfall	Unfall	NOUN	NN	_	7	comp:obj	_	_
+7	gesehen	sehen	VERB	VVPP	_	3	comp:aux	_	_
+
+1	ein	ein	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	hatte	haben	VERB	VAFIN	_	0	root	_	_
+4	Ball	Ball	PROPN	NN	_	3	comp:obj	_	_
+5	in	in	ADP	APPR	_	3	mod	_	_
+6	Hand	Hand	PROPN	NN	_	5	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	wollte	wollen	VERB	VMFIN	_	0	root	_	_
+3	herüber	herüber	ADP	ADV	_	2	compound@prt	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	auf	auf	ADP	APPR	_	9	mod	_	_
+3	einmal	einmal	ADV	ADV	_	2	fixed	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Hund	Hund	NOUN	NN	_	4	subj	_	_
+7	zum	zu	PROPN	APPRART	_	9	comp:obl	_	_
+8	Ball	Ball	PROPN	NN	_	7	comp:obj	_	_
+9	gerannt	rennen	VERB	VVPP	_	4	comp:aux	_	_
+
+1	Besitzer	Besitzer	NOUN	NN	_	2	subj	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	den	d	DET	ART	_	4	det	_	_
+4	Hund	Hund	NOUN	NN	_	9	comp:obj	_	_
+5	an	an	ADP	APPR	_	9	mod	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Leine	Leine	PROPN	NN	_	5	comp:obj	_	_
+8	zurück	zurück	ADV	PTKVZ	_	9	compound@prt	_	_
+9	gezogen	ziehen	ADJ	VVPP	_	2	comp:aux	_	_
+
+1	es	es	PRON	PPER	_	2	subj@expl	_	_
+2	kam	kommen	VERB	VVFIN	_	0	root	_	_
+3	zwei	zwei	NUM	CARD	_	4	mod	_	_
+4	Auto	Auto	NOUN	NN	_	2	subj	_	_
+
+1	der	d	DET	ART	_	2	det	_	_
+2	andere	ander	NOUN	PIDS	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	von	von	ADP	APPR	_	8	mod	_	_
+5	hinten	hinten	ADV	ADV	_	4	comp:obj	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	anderen	ander	PRON	PIDS	_	8	comp:obj	_	_
+8	gestoßen	stoßen	VERB	VVPP	_	3	comp:aux	_	_
+
+1	danach	danach	ADV	ADV	_	2	mod	_	_
+2	haben	haben	AUX	VAFIN	_	0	root	_	_
+3	die	d	DET	ART	_	2	subj	_	_
+4	Polizei	Polizei	NOUN	NN	_	5	comp:obj	_	_
+5	gerufen	rufen	VERB	VVPP	_	2	comp:aux	_	_
+
+1	es	es	PRON	PPER	_	2	subj@expl	_	_
+2	geht	gehen	VERB	VVFIN	_	0	root	_	_
+3	allen	all	PRON	PIAT	_	2	comp:obj	_	_
+4	gut	gut	ADJ	ADJD	_	2	comp:pred	_	_
+
+1	ist	sein	AUX	VAFIN	_	0	root	_	_
+2	nur	nur	ADV	PTKIFG	_	1	mod	_	_
+3	kleine	klein	ADJ	ADJA	_	4	mod	_	_
+4	Schaden	Schaden	NOUN	NN	_	1	subj	_	_
+5	entstanden	entstehen	VERB	VVPP	_	1	comp:aux	_	_

@@ -1,0 +1,140 @@
+# text = Hey Steffi ,
+1	Hey	Hey	PROPN	NGIRR	_	2	discourse	_	_
+2	Steffi	Steffi	PROPN	NE	_	0	root	_	_
+3	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = du glaubst nicht was ich gerade gesehen habe .
+1	du	du	PRON	PPER	_	2	subj	_	_
+2	glaubst	glauben	ADV	VVFIN	_	0	root	_	_
+3	nicht	nicht	PART	PTKNEG	_	2	mod	_	_
+4	was	was	VERB	PWS	_	7	comp:obj	_	_
+5	ich	ich	PRON	PPER	_	8	subj	_	_
+6	gerade	gerade	ADV	ADV	_	8	mod	_	_
+7	gesehen	sehen	VERB	VVPP	_	8	comp:aux	_	_
+8	habe	haben	AUX	VAFIN	_	2	comp:obj	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Durfte gerade beobachten wie ein Auffahrunfall direkt vor meiner Nase passierte .
+1	Durfte	dürfen	AUX	VMFIN	_	0	root	_	_
+2	gerade	gerade	ADV	ADV	_	1	mod	_	_
+3	beobachten	beobachten	VERB	VVINF	_	1	comp:aux	_	_
+4	wie	wie	ADP	KOUS	_	3	comp:obj	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Auffahrunfall	Auffahrunfall	NOUN	NN	_	11	subj	_	_
+7	direkt	direkt	ADJ	ADJD	_	8	mod	_	_
+8	vor	vor	ADP	APPR	_	11	mod	_	_
+9	meiner	mein	PRON	PPOSAT	_	10	det	_	_
+10	Nase	Nase	NOUN	NN	_	8	comp:obj	_	_
+11	passierte	passieren	VERB	VVFIN	_	4	comp:obj	_	_
+12	.	.	PUNCT	$.	_	1	punct	_	_
+
+# text = Ein Pärchen ging gerade mit Kinderwagen über den Parkplatz .
+1	Ein	ein	DET	ART	_	2	det	_	_
+2	Pärchen	Pärchen	NOUN	NN	_	3	subj	_	_
+3	ging	gehen	VERB	VVFIN	_	0	root	_	_
+4	gerade	gerad	ADV	ADV	_	3	mod	_	_
+5	mit	mit	ADP	APPR	_	3	mod	_	_
+6	Kinderwagen	Kinderwagen	NOUN	NN	_	5	comp:obj	_	_
+7	über	über	ADP	APPR	_	3	comp:obl	_	_
+8	den	d	DET	ART	_	9	det	_	_
+9	Parkplatz	Parkplatz	NOUN	NN	_	7	comp:obj	_	_
+10	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Er spielte mit einem Fußball
+1	Er	er	PRON	PPER	_	2	subj	_	_
+2	spielte	spielen	VERB	VVFIN	_	0	root	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	einem	ein	DET	ART	_	5	det	_	_
+5	Fußball	Fußball	NOUN	NN	_	3	comp:obj	_	_
+
+# text = und konnte ihn nicht halten ,
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	konnte	können	AUX	VMFIN	_	0	root	_	_
+3	ihn	er	PRON	PPER	_	5	comp:obj	_	_
+4	nicht	nicht	PART	PTKNEG	_	2	mod	_	_
+5	halten	halten	VERB	VVINF	_	2	comp:aux	_	_
+6	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = dabei rollte er quer über die Straße .
+1	dabei	dabei	ADV	ADV	_	2	mod	_	_
+2	rollte	rollen	VERB	VVFIN	_	0	root	_	_
+3	er	er	PRON	PPER	_	2	subj	_	_
+4	quer	quer	ADV	ADV	_	5	mod	_	_
+5	über	über	ADP	APPR	_	2	comp:obl	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Straße	Straße	NOUN	NN	_	5	comp:obj	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Dabei erschrak sich ein Hund
+1	Dabei	dabei	ADV	ADV	_	2	mod	_	_
+2	erschrak	erschrecken	PROPN	VVFIN	_	0	root	_	_
+3	sich	er|es|sie	PRON	PRF	_	2	comp:obj	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	2	subj	_	_
+
+# text = und riss seinem Frauchen noch den Einkauf aus den Arm ,
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	riss	reißen	NOUN	VVFIN	_	0	root	_	_
+3	seinem	sein	DET	PPOSAT	_	4	det	_	_
+4	Frauchen	Frauchen	NOUN	NN	_	2	comp:obl	_	_
+5	noch	noch	ADV	PTKMWL	_	2	mod	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Einkauf	Einkauf	NOUN	NN	_	2	comp:obj	_	_
+8	aus	aus	ADP	APPR	_	2	udep	_	_
+9	den	d	DET	ART	_	10	det	_	_
+10	Arm	Arm	NOUN	NN	_	8	comp:obj	_	_
+11	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = alles fiel runter
+1	alles	alle	PRON	PIS	_	2	subj	_	_
+2	fiel	fallen	VERB	VVFIN	_	0	root	_	_
+3	runter	runter	ADJ	PTKVZ	_	2	compound@prt	_	_
+
+# text = und die Autos mussten bremsen .
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Autos	Auto	NOUN	NN	_	4	subj	_	_
+4	mussten	müssen	AUX	VMFIN	_	0	root	_	_
+5	bremsen	bremsen	VERB	VVINF	_	4	comp:aux	_	_
+6	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Schön draufgefahren ...
+1	Schön	Schön	ADJ	ADJD	_	2	mod	_	_
+2	draufgefahren	drauffahren	VERB	VVPP	_	0	root	_	_
+3	...	...	PUNCT	$.	_	2	discourse	_	_
+
+# text = Der Typ mit dem Ball half dann zwar noch den Einkauf wieder einzusammeln
+1	Der	der	DET	ART	_	2	det	_	_
+2	Typ	Typ	NOUN	NN	_	6	subj	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	dem	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+6	half	helfen	VERB	VVFIN	_	0	root	_	_
+7	dann	dann	ADV	ADV	_	6	mod	_	_
+8	zwar	zwar	ADV	ADV	_	6	mod	_	_
+9	noch	noch	ADV	PTKMWL	_	6	mod	_	_
+10	den	d	DET	ART	_	11	det	_	_
+11	Einkauf	Einkauf	NOUN	NN	_	13	comp:obj	_	_
+12	wieder	wieder	ADV	ADV	_	13	mod	_	_
+13	einzusammeln	einsammeln	VERB	VVIZU	_	6	comp:obj	_	_
+
+# text = aber Polizei musste trotzdem gerufen werden .
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	Polizei	Polizei	NOUN	NN	_	3	subj@pass	_	_
+3	musste	m�ssen	AUX	VMFIN	_	0	root	_	_
+4	trotzdem	trotzdem	ADV	ADV	_	3	mod	_	_
+5	gerufen	rufen	VERB	VVPP	_	6	comp:aux@pass	_	_
+6	werden	werden	AUX	VAINF	_	3	comp:aux	_	_
+7	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Der blaue Renault ist auf jeden Fall kaputt .
+1	Der	d	DET	ART	_	3	det	_	_
+2	blaue	blau	PROPN	ADJA	_	3	mod	_	_
+3	Renault	Renault	PROPN	NN	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	auf	auf	ADP	APPR	_	4	mod	_	_
+6	jeden	jede	PRON	PIDAT	_	7	det	_	_
+7	Fall	Fall	NOUN	NN	_	5	comp:obj	_	_
+8	kaputt	kaputt	ADJ	ADJD	_	4	comp:pred	_	_
+9	.	.	PUNCT	$.	_	4	punct	_	_
+

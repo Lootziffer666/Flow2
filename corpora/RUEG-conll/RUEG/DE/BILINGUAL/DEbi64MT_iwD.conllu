@@ -1,0 +1,82 @@
+# text = Egzon Dicker
+1	Egzon	Egzon	PROPN	_	_	0	root	_	_
+2	Dicker	Dicker	PROPN	_	_	1	appos	_	_
+
+# text = vallah ich sehe gerade ein Mann
+1	vallah	vallah	ADJ	_	Degree=Pos	3	discourse	_	_
+2	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	sehe	sehen	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	gerade	gerade	ADV	_	_	3	mod	_	_
+5	ein	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Mann	Mann	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	3	comp:obj	_	_
+
+# text = er lässt ein Ball fallen amina koyim .
+1	er	er	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+2	lässt	lässt	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Ball	Ball	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	comp:obj	_	_
+5	fallen	fallen	VERB	_	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
+6	amina	amina	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	2	udep	_	_
+7	koyim	koyim	PROPN	_	_	6	udep	_	_
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Da war dann eine Frau mit Hund .
+1	Da	da	ADV	_	_	2	comp:pred	_	_
+2	war	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	dann	dann	ADV	_	_	2	mod	_	_
+4	eine	ein	DET	_	Definite=Ind|PronType=Art	5	det	_	_
+5	Frau	Frau	NOUN	_	_	2	subj	_	_
+6	mit	mit	ADP	_	_	5	mod	_	_
+7	Hund	Hund	NOUN	_	Case=Dat|Number=Sing	6	comp:obj	_	_
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = ich sehe nur noch dieser Hund
+1	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	sehe	sehen	VERB	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nur	nur	ADV	_	_	4	mod	_	_
+4	noch	noch	ADV	_	_	2	mod	_	_
+5	dieser	dies	PRON	_	PronType=Dem	6	det	_	_
+6	Hund	Hund	NOUN	_	_	2	comp:obj	_	_
+
+# text = er springt auf die Straße .
+1	er	er	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+2	springt	springen	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	auf	auf	ADP	_	_	2	comp:obl	_	_
+4	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	comp:obj	_	_
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = vallah ich höre nur noch so ein " bam "
+1	vallah	vallah	ADJ	_	Degree=Pos	3	discourse	_	_
+2	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	höre	hören	VERB	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	nur	nur	ADV	_	_	5	mod	_	_
+5	noch	noch	ADV	_	_	3	mod	_	_
+6	so	so	ADV	_	_	9	mod	_	_
+7	ein	ein	ADV	_	_	9	det	_	_
+8	"	"	PUNCT	_	_	9	punct	_	_
+9	bam	bam	ADJ	_	Degree=Pos	3	comp:obj	_	_
+10	"	"	PUNCT	_	_	9	punct	_	_
+
+# text = ein Auto ist hinten reingefahren .
+1	ein	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Auto	Auto	NOUN	_	Case=Acc|Gender=Masc,Neut|Number=Sing	3	subj	_	_
+3	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	hinten	hinten	ADV	_	_	3	mod	_	_
+5	reingefahren	reinfahren	VERB	_	Tense=Past|VerbForm=Inf	3	comp:aux	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = vallah war geschockt .
+1	vallah	vallah	ADJ	_	Degree=Pos	2	discourse	_	_
+2	war	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	geschockt	geschockt	VERB	_	Tense=Past|VerbForm=Part	2	comp:pred	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Die haben mies Angst bekommen .
+1	Die	d	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	subj	_	_
+2	haben	haben	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	mies	mies	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	2	mod	_	_
+4	Angst	Angst	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	comp:obj	_	_
+5	bekommen	bekommen	VERB	_	Tense=Past|VerbForm=Inf	2	comp:aux	_	_
+6	.	.	PUNCT	_	_	2	punct	_	_
+

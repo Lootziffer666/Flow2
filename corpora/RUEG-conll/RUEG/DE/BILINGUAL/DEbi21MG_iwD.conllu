@@ -1,0 +1,116 @@
+# text = Mein Bruder , habe gerade ein Unfall beobachtet , mega krass bahaha !
+1	Mein	mein	PRON	_	Case=Nom|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
+2	Bruder	Bruder	NOUN	_	Case=Nom|Number=Sing	4	vocative	_	_
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	habe	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	gerade	gerade	ADV	_	_	4	mod	_	_
+6	ein	ein	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
+7	Unfall	Unfall	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	8	comp:obj	_	_
+8	beobachtet	beobachten	VERB	_	Tense=Past|VerbForm=Part	4	comp:aux	_	_
+9	,	,	PUNCT	_	_	4	punct	_	_
+10	mega	mega	ADJ	_	Degree=Pos	11	mod	_	_
+11	krass	krass	PROPN	_	_	4	mod	_	_
+12	bahaha	bahaha	PROPN	_	Case=Acc|Number=Sing	4	discourse	_	_
+13	!	!	PUNCT	_	_	4	punct	_	_
+
+# text = Typ lässt Ball auf die Straße rollen ,
+1	Typ	Typ	NOUN	_	_	2	subj	_	_
+2	lässt	lassen	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Ball	Ball	PROPN	_	Case=Nom|Number=Sing	7	comp:obj	_	_
+4	auf	auf	ADP	_	_	7	comp:obl	_	_
+5	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	4	comp:obj	_	_
+7	rollen	rollen	VERB	_	VerbForm=Inf	2	comp:aux	_	_
+8	,	,	PUNCT	_	_	2	punct	_	_
+
+# text = Wollknäuelhund rennt drauf zu
+1	Wollknäuelhund	Wollknollhund	PROPN	_	_	2	subj	_	_
+2	rennt	rennen	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	drauf	drauf	ADV	_	_	2	mod	_	_
+4	zu	zu	ADP	_	_	2	compound@prt	_	_
+
+# text = und glaubt jetzt wird gespielt .
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	glaubt	glauben	VERB	_	Tense=Pres|VerbForm=Fin	0	root	_	_
+3	jetzt	jetzt	ADV	_	_	4	mod	_	_
+4	wird	werden	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
+5	gespielt	spielen	VERB	_	Tense=Past|VerbForm=Part	4	comp:aux@pass	_	_
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Reißt dabei die Einkäufe seines Frauchens zu Boden .
+1	Reißt	reißen	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	dabei	dabei	ADV	_	_	1	mod	_	_
+3	die	d	DET	_	Case=Acc|Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+4	Einkäufe	Einkäufe	NOUN	_	Case=Acc|Number=Plur	1	comp:obj	_	_
+5	seines	sein	DET	_	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	Frauchens	Frauchen	NOUN	_	_	4	mod@poss	_	_
+7	zu	zu	ADP	_	_	1	comp:obl	_	_
+8	Boden	Boden	NOUN	_	Case=Dat|Number=Sing	7	comp:obj	_	_
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = Auto muss wegen Messi und Lassie natürlich bremsen
+1	Auto	Auto	NOUN	_	_	2	subj	_	_
+2	muss	müssen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	wegen	wegen	ADP	_	_	8	mod	_	_
+4	Messi	Messi	PROPN	_	_	3	comp:obj	_	_
+5	und	und	CCONJ	_	_	6	cc	_	_
+6	Lassie	Lassie	PROPN	_	_	4	conj	_	_
+7	natürlich	natürlich	ADJ	_	Degree=Pos	2	mod	_	_
+8	bremsen	bremsen	VERB	_	VerbForm=Inf	2	comp:aux	_	_
+
+# text = und da fährt ihm der Hintere bums drauf .
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	da	da	ADV	_	_	3	mod	_	_
+3	fährt	fahren	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ihm	er	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:obl	_	_
+5	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Hintere	Hintere	ADJ	_	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	3	subj	_	_
+7	bums	bums	NOUN	_	Case=Gen|Gender=Neut|Number=Plur	3	discourse	_	_
+8	drauf	drauf	ADV	_	_	3	compound@prt	_	_
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Aber der Fußballer war so nett der Frau die Einkäufe einzusammeln .
+1	Aber	aber	ADV	_	_	4	cc	_	_
+2	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Fußballer	Fußballer	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+4	war	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	so	so	ADV	_	_	6	mod	_	_
+6	nett	nett	ADJ	_	Degree=Pos	4	comp:pred	_	_
+7	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Frau	Frau	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	11	comp:obl	_	_
+9	die	d	DET	_	Case=Acc|Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+10	Einkäufe	Einkäufe	NOUN	_	Case=Acc|Number=Plur	11	comp:obj	_	_
+11	einzusammeln	einsammeln	NOUN	_	Case=Acc|Number=Plur	6	comp:obj	_	_
+12	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = Und die beiden Autofahrer haben das auch ganz uncholerisch geregelt und die Polizei gerufen .
+1	Und	und	CCONJ	_	_	5	cc	_	_
+2	die	d	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	beiden	beide	PRON	_	Case=Nom|Gender=Fem|Number=Sing|NumType=Card|PronType=Tot	4	mod	_	_
+4	Autofahrer	Autofahrer	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	5	subj	_	_
+5	haben	haben	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	das	d	PRON	_	Case=Acc|PronType=Dem	10	comp:obj	_	_
+7	auch	auch	ADV	_	_	5	mod	_	_
+8	ganz	ganz	ADV	_	_	9	mod	_	_
+9	uncholerisch	uncholerisch	ADJ	_	Degree=Pos	5	mod	_	_
+10	geregelt	regeln	VERB	_	Tense=Past|VerbForm=Part	5	comp:aux	_	_
+11	und	und	CCONJ	_	_	14	cc	_	_
+12	die	d	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Polizei	Polizei	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	14	comp:obj	_	_
+14	gerufen	rufen	VERB	_	Tense=Past|VerbForm=Part	5	conj	_	_
+15	.	.	PUNCT	_	_	5	punct	_	_
+
+# text = Naja das war es .
+1	Naja	naja	ADV	_	_	3	discourse	_	_
+2	das	dies	PRON	_	Case=Nom|PronType=Dem	3	subj	_	_
+3	war	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	es	es	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	comp:pred	_	_
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Dabei sein war alles .
+1	Dabei	dabei	ADV	_	_	2	mod	_	_
+2	sein	sein	PRON	_	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	3	subj	_	_
+3	war	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	alles	all	PRON	_	Case=Acc|PronType=Tot	3	comp:pred	_	_
+5	.	.	PUNCT	_	_	3	punct	_	_
+

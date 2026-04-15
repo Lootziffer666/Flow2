@@ -1,0 +1,64 @@
+1	OMG	omg	INTJ	ITJ	_	0	root	_	_
+2	OMG	omg	INTJ	ITJ	_	1	discourse	_	_
+3	OMG	omg	INTJ	ITJ	_	1	discourse	_	_
+
+1	guess	guess	VERB	VVB	_	0	root	_	_
+2	what	what	DET	DTQ	_	1	obj	_	_
+
+1	do	do	AUX	VDB	_	4	aux	_	_
+2	not	not	PART	XX0	_	4	advmod	_	_
+3	be	be	AUX	VBI	_	4	cop	_	_
+4	scared	scared	ADJ	AJ0	_	0	root	_	_
+
+1	but	but	CCONJ	CJC	_	4	cc	_	_
+2	I	i	PRON	PNP	_	4	nsubj	_	_
+3	just	just	ADV	AV0	_	4	advmod	_	_
+4	saw	see	VERB	VVD	_	0	root	_	_
+5	a	a	DET	AT0	_	7	det	_	_
+6	car	car	NOUN	NN1	_	7	compound	_	_
+7	accident	accident	NOUN	NN1	_	4	obj	_	_
+
+1	everyone	everyone	PRON	PNI	_	3	nsubj	_	_
+2	's	be	AUX	VBZ	_	3	cop	_	_
+3	safe	safe	ADJ	AJ0	_	0	root	_	_
+
+1	but	but	CCONJ	CJC	_	5	cc	_	_
+2	wow	wow	INTJ	ITJ	_	5	discourse	_	_
+3	that	that	DET	DT0	_	5	nsubj	_	_
+4	was	be	AUX	VBD	_	5	cop	_	_
+5	scary	scary	ADJ	AJ0	_	0	root	_	_
+6	.	.	PUNCT	SENT	_	5	punct	_	_
+
+1	I	i	PRON	PNP	_	2	nsubj	_	_
+2	thought	think	VERB	VVD	_	0	root	_	_
+3	this	this	DET	DT0	_	4	det	_	_
+4	baby	baby	NOUN	NN1	_	6	nsubj	_	_
+5	was	be	AUX	VBD	_	6	aux	_	_
+6	going	go	VERB	VVG	_	16	ccomp	_	_
+7	to	to	PART	TO0	_	9	mark	_	_
+8	be	be	AUX	VBI	_	9	aux:pass	_	_
+9	hit	hit	VERB	VVN	_	16	xcomp	_	_
+10	by	by	ADP	PRP	_	12	case	_	_
+11	a	a	DET	AT0	_	12	det	_	_
+12	car	car	NOUN	NN1	_	9	obl	_	_
+13	because	because	SCONJ	CJS	_	16	mark	_	_
+14	this	this	DET	DT0	_	15	det	_	_
+15	dog	dog	NOUN	NN1	_	16	nsubj	_	_
+16	ran	run	VERB	VVD	_	2	ccomp	_	_
+17	out	out	ADP	AVP	_	16	compound:prt	_	_
+
+1	but	but	CCONJ	CJC	_	6	cc	_	_
+2	luckily	luckily	ADV	AV0	_	6	advmod	_	_
+3	only	only	ADV	AV0	_	6	advmod	_	_
+4	the	the	DET	AT0	_	5	det	_	_
+5	dude	dude	NOUN	NN1	_	6	nsubj	_	_
+6	got	get	VERB	VVD	_	0	root	_	_
+7	rear-ended	rear-end	VERB	VVN	_	6	xcomp	_	_
+8	.	.	PUNCT	SENT	_	6	punct	_	_
+
+1	everyone	everyone	PRON	PNI	_	3	nsubj	_	_
+2	's	be	AUX	VBZ	_	3	cop	_	_
+3	safe	safe	ADJ	AJ0	_	0	root	_	_
+4	.	.	PUNCT	SENT	_	3	punct	_	_
+5	OMG	omg	INTJ	ITJ	_	3	discourse	_	_
+

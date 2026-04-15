@@ -1,0 +1,113 @@
+# text = Hi ,
+1	Hi	hi	PROPN	_	Case=Nom|Number=Sing	0	root	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+
+# text = ich muss wahrscheinlich bei der Polizei als Zeugin aussagen .
+1	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	muss	müssen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	wahrscheinlich	wahrscheinlich	ADJ	_	Degree=Pos	2	mod	_	_
+4	bei	bei	ADP	_	_	9	mod	_	_
+5	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Polizei	Polizei	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	4	comp:obj	_	_
+7	als	als	ADP	_	_	9	mod	_	_
+8	Zeugin	Zeugin	NOUN	_	_	7	comp:obj	_	_
+9	aussagen	aussagen	VERB	_	VerbForm=Inf	2	comp:aux	_	_
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = War leider Zeugin eines Auffahrunfalls .
+1	War	sein	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	leider	leider	ADV	_	_	1	mod	_	_
+3	Zeugin	Zeugin	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	1	comp:pred	_	_
+4	eines	ein	PRON	_	Case=Acc|PronType=Ind	3	mod@poss	_	_
+5	Auffahrunfalls	Auffahrunfalls	ADV	_	_	4	comp:obj	_	_
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# text = Zum Glück ist niemandem etwas passiert .
+1	Zum	zu	PROPN	_	_	6	mod	_	_
+2	Glück	Glück	NOUN	_	Case=Nom|Number=Sing	1	comp:obj	_	_
+3	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	niemandem	niemand	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	6	comp:obj	_	_
+5	etwas	etwas	PRON	_	Case=Acc|PronType=Ind	3	subj	_	_
+6	passiert	passieren	VERB	_	VerbForm=Part	3	comp:aux	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Auf dem Fußgängerweg lief ein junges Paar mit Kinderwagen ,
+1	Auf	auf	ADP	_	_	4	comp:obl	_	_
+2	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Fußgängerweg	Fußgängerweg	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	1	comp:obj	_	_
+4	lief	laufen	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	ein	ein	DET	_	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+6	junges	junge	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc,Neut|Number=Sing	7	mod	_	_
+7	Paar	Paar	NOUN	_	Case=Nom|Gender=Masc,Neut|Number=Sing	4	subj	_	_
+8	mit	mit	ADP	_	_	7	mod	_	_
+9	Kinderwagen	Kinderwagen	NOUN	_	Case=Dat|Number=Plur	8	comp:obj	_	_
+10	,	,	PUNCT	_	_	4	punct	_	_
+
+# text = er schlug die ganze Zeit einen Ball gegen den Boden , der irgendwann wegflog .
+1	er	er	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+2	schlug	schlagen	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	die	d	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	ganze	ganze	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	mod	_	_
+5	Zeit	Zeit	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	2	mod	_	_
+6	einen	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Ball	Ball	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	2	comp:obj	_	_
+8	gegen	gegen	ADP	_	_	2	comp:obl	_	_
+9	den	d	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Boden	Boden	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	8	comp:obj	_	_
+11	,	,	PUNCT	_	_	2	punct	_	_
+12	der	d	PRON	_	Case=Nom|PronType=Rel	14	subj	_	_
+13	irgendwann	irgendwann	ADV	_	_	14	mod	_	_
+14	wegflog	wegfliegen	PROPN	_	Case=Acc|Number=Sing	7	mod@relcl	_	_
+15	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Daneben parkte eine Frau , die gerade ihre Einkäufe ausräumte ,
+1	Daneben	daneben	ADV	_	_	2	mod	_	_
+2	parkte	parken	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	eine	ein	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Frau	Frau	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	2	subj	_	_
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	die	d	PRON	_	Case=Nom|PronType=Rel	10	subj	_	_
+7	gerade	gerade	ADV	_	_	10	mod	_	_
+8	ihre	ihr	DET	_	Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	Einkäufe	Einkauf	NOUN	_	Case=Acc|Number=Plur	10	comp:obj	_	_
+10	ausräumte	ausräumen	VERB	_	Number=Sing|Person=3|VerbForm=Fin	4	mod@relcl	_	_
+11	,	,	PUNCT	_	_	2	punct	_	_
+
+# text = ihr Hund lief natürlich dem Ball hinterher .
+1	ihr	ihr	DET	_	Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	Hund	Hund	NOUN	_	Case=Acc|Number=Sing	3	subj	_	_
+3	lief	laufen	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	natürlich	natürlich	ADJ	_	Degree=Pos	3	mod	_	_
+5	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Ball	Ball	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	3	comp:obj	_	_
+7	hinterher	hinterher	ADV	_	_	3	compound@prt	_	_
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Das Auto davor schaffte es noch , eine Notbremsung einzulegen ,
+1	Das	d	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Auto	Auto	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	4	subj	_	_
+3	davor	davor	ADV	_	_	2	mod	_	_
+4	schaffte	schaffen	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	es	es	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	comp:obj@expl	_	_
+6	noch	noch	ADV	_	_	4	mod	_	_
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	eine	ein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Notbremsung	Notbremsung	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	10	comp:obj	_	_
+10	einzulegen	einlegen	VERB	_	VerbForm=Inf	4	comp:obl	_	_
+11	,	,	PUNCT	_	_	4	punct	_	_
+
+# text = doch leider passierte dadurch ein Auffahrunfall mit dem hinteren Auto
+1	doch	doch	ADV	_	_	3	mod	_	_
+2	leider	leider	ADV	_	_	3	mod	_	_
+3	passierte	passieren	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	dadurch	dadurch	ADV	_	_	3	mod	_	_
+5	ein	ein	DET	_	Definite=Ind|PronType=Art	6	det	_	_
+6	Auffahrunfall	Auffahrunfall	NOUN	_	_	3	subj	_	_
+7	mit	mit	ADP	_	_	6	mod	_	_
+8	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+9	hinteren	hintere	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	10	mod	_	_
+10	Auto	Auto	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	7	comp:obj	_	_
+
+# text = ...
+1	...	...	PUNCT	_	_	0	root	_	_
+

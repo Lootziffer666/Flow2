@@ -1,0 +1,130 @@
+1	hey	hey	INTJ	ITJ	_	2	discourse	_	_
+2	USbi72FD_P	USbi72FD_P	PROPN	NP0	_	0	root	_	_
+
+1	today	today	ADV	AV0	_	3	advmod	_	_
+2	I	i	PRON	PNP	_	3	nsubj	_	_
+3	saw	see	VERB	VVD	_	0	root	_	_
+4	a	a	DET	AT0	_	6	det	_	_
+5	car	car	NOUN	NN1	_	6	compound	_	_
+6	crash	crash	NOUN	NN1	_	3	obj	_	_
+7	on	on	ADP	PRP	_	9	case	_	_
+8	my	i	DET	DPS	_	9	det	_	_
+9	way	way	NOUN	NN1	_	3	obl	_	_
+10	into	into	ADP	PRP	_	11	case	_	_
+11	work	work	NOUN	NN1	_	3	obl	_	_
+
+1	and	and	CCONJ	CJC	_	9	cc	_	_
+2	so	so	INTJ	ITJ	_	9	discourse	_	_
+3	basically	basically	ADV	AV0	_	9	advmod	_	_
+4	what	what	DET	DTQ	_	9	nsubj	_	_
+5	happened	happen	VERB	VVD	_	4	acl:relcl	_	_
+6	this	this	DET	DT0	_	7	det	_	_
+7	guy	guy	NOUN	NN1	_	5	nsubj	_	_
+8	was	be	AUX	VBD	_	9	aux	_	_
+9	dribbling	dribble	VERB	VVG	_	0	root	_	_
+10	a	a	DET	AT0	_	12	det	_	_
+11	soccer	soccer	NOUN	NN1	_	12	compound	_	_
+12	ball	ball	NOUN	NN1	_	9	obj	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	he	he	PRON	PNP	_	4	nsubj	_	_
+3	accidentally	accidentally	ADV	AV0	_	4	advmod	_	_
+4	kicked	kick	VERB	VVD	_	0	root	_	_
+5	it	it	PRON	PNP	_	4	obj	_	_
+6	in	in	ADP	PRP	_	7	case	_	_
+7	front	front	NOUN	NN1	_	10	obl	_	_
+8	of	of	ADP	PRF	_	10	case	_	_
+9	the	the	DET	AT0	_	10	det	_	_
+10	way	way	NOUN	NN1	_	4	obl	_	_
+11	of	of	ADP	PRF	_	14	case	_	_
+12	the	the	DET	AT0	_	14	det	_	_
+13	oncoming	oncoming	ADJ	AJ0	_	14	amod	_	_
+14	car	car	NOUN	NN1	_	10	nmod	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	there	there	ADV	EX0	_	5	advmod	_	_
+3	was	be	AUX	VBD	_	5	cop	_	_
+4	a	a	DET	AT0	_	5	det	_	_
+5	lady	lady	NOUN	NN1	_	0	root	_	_
+6	on	on	ADP	PRP	_	9	case	_	_
+7	the	the	DET	AT0	_	9	det	_	_
+8	other	other	ADJ	AJ0	_	9	amod	_	_
+9	side	side	NOUN	NN1	_	5	nmod	_	_
+10	with	with	ADP	PRP	_	12	case	_	_
+11	her	she	DET	DPS	_	12	det	_	_
+12	dog	dog	NOUN	NN1	_	5	nmod	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	dog	dog	NOUN	NN1	_	4	nsubj	_	_
+4	lunged	lunge	VERB	VVD	_	0	root	_	_
+5	out	out	ADP	PRP	_	4	compound:prt	_	_
+6	at	at	ADP	PRP	_	8	case	_	_
+7	the	the	DET	AT0	_	8	det	_	_
+8	ball	ball	NOUN	NN1	_	4	obl	_	_
+9	which	which	DET	DTQ	_	10	nsubj	_	_
+10	caused	cause	VERB	VVD	_	4	parataxis	_	_
+11	the	the	DET	AT0	_	12	det	_	_
+12	lady	lady	NOUN	NN1	_	10	obj	_	_
+13	to	to	PART	TO0	_	14	mark	_	_
+14	drop	drop	VERB	VVI	_	12	acl	_	_
+15	her	she	DET	DPS	_	16	det	_	_
+16	fruits	fruit	NOUN	NN2	_	14	obj	_	_
+
+1	and	and	CCONJ	CJC	_	6	cc	_	_
+2	kind	kind	ADV	AV0	_	4	advmod	_	_
+3	of	of	ADP	PRF	_	2	fixed	_	_
+4	everything	everything	PRON	PNI	_	6	nsubj	_	_
+5	just	just	ADV	AV0	_	6	advmod	_	_
+6	rolled	roll	VERB	VVD	_	0	root	_	_
+7	into	into	ADP	PRP	_	9	case	_	_
+8	the	the	DET	AT0	_	9	det	_	_
+9	road	road	NOUN	NN1	_	6	obl	_	_
+10	at	at	ADP	PRP	_	13	case	_	_
+11	the	the	DET	AT0	_	13	det	_	_
+12	same	same	ADJ	AJ0	_	13	amod	_	_
+13	time	time	NOUN	NN1	_	6	obl	_	_
+
+1	so	so	CCONJ	CJ0	_	7	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	car	car	NOUN	NN1	_	7	nsubj	_	_
+4	had	have	AUX	VHD	_	7	aux	_	_
+5	to	to	PART	TO0	_	7	mark	_	_
+6	abruptly	abruptly	ADV	AV0	_	7	advmod	_	_
+7	stop	stop	VERB	VVI	_	0	root	_	_
+
+1	and	and	CCONJ	CJC	_	9	cc	_	_
+2	there	there	ADV	EX0	_	9	advmod	_	_
+3	was	be	AUX	VBD	_	9	cop	_	_
+4	another	another	DET	DT0	_	5	det	_	_
+5	car	car	NOUN	NN1	_	3	nsubj	_	_
+6	behind	behind	ADP	PRP	_	9	case	_	_
+7	the	the	DET	AT0	_	9	det	_	_
+8	blue	blue	ADJ	AJ0	_	9	amod	_	_
+9	car	car	NOUN	NN1	_	0	root	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	the	the	DET	AT0	_	4	det	_	_
+3	blue	blue	ADJ	AJ0	_	4	amod	_	_
+4	car	car	NOUN	NN1	_	5	nsubj	_	_
+5	got	get	VERB	VVD	_	6	conj	_	_
+6	rear-ended	rear-end	VERB	VVN	_	0	root	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	then	then	ADV	AV0	_	5	advmod	_	_
+3	both	both	DET	DT0	_	4	det	_	_
+4	drivers	driver	NOUN	NN2	_	5	nsubj	_	_
+5	got	get	VERB	VVD	_	0	root	_	_
+6	out	out	ADP	AVP	_	5	compound:prt	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	had	have	AUX	VHD	_	4	aux	_	_
+3	to	to	PART	TO0	_	4	mark	_	_
+4	call	call	VERB	VVI	_	0	root	_	_
+5	911	911	PROPN	NP0	_	4	obl:tmod	_	_
+6	to	to	PART	TO0	_	7	mark	_	_
+7	figure	figure	VERB	VVI	_	4	xcomp	_	_
+8	out	out	ADP	AVP	_	7	compound:prt	_	_
+9	the	the	DET	AT0	_	10	det	_	_
+10	situation	situation	NOUN	NN1	_	7	obj	_	_
+

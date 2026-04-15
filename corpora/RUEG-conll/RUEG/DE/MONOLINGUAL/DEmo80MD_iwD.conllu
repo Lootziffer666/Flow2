@@ -1,0 +1,100 @@
+1	hi	hi	X	NGIRR	_	0	root	_	_
+2	,	,	PUNCT	$,	_	1	punct	_	_
+
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	habe	haben	VERB	VAFIN	_	0	root	_	_
+3	heute	heute	ADV	ADV	_	2	mod	_	_
+4	einen	ein	DET	ART	_	7	det	_	_
+5	ziemlich	ziemlich	ADV	PTKIFG	_	6	mod	_	_
+6	heftigen	heftig	ADJ	ADJA	_	7	mod	_	_
+7	Unfall	Unfall	NOUN	NN	_	8	comp:obj	_	_
+8	erlebt	erleben	VERB	VVPP	_	2	comp:aux	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+10	:face_with_tears_of_joy:	😂	SYM	EMO	_	2	discourse	_	_
+
+1	Ein	ein	DET	ART	_	2	det	_	_
+2	Typ	Typ	NOUN	NN	_	3	subj	_	_
+3	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+4	über	über	ADP	APPR	_	7	comp:obl	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Straße	Straße	NOUN	NN	_	4	comp:obj	_	_
+7	gehen	gehen	VERB	VVINF	_	3	comp:aux	_	_
+8	und	und	CCONJ	KON	_	9	cc	_	_
+9	konnte	können	AUX	VMFIN	_	3	conj	_	_
+10	es	es	PRON	PPER	_	9	subj@expl	_	_
+11	nicht	nicht	PART	PTKNEG	_	9	mod	_	_
+12	lassen	lassen	VERB	VVINF	_	9	comp:aux	_	_
+13	mit	mit	ADP	APPR	_	18	mod	_	_
+14	seinem	sein	DET	PPOSAT	_	15	det	_	_
+15	Ball	Ball	NOUN	NN	_	13	comp:obj	_	_
+16	:smirking_face:	😏	SYM	EMO	_	3	discourse	_	_
+17	zu	zu	PART	PTKZU	_	12	comp:obj	_	_
+18	spielen	spielen	VERB	VVINF	_	17	comp:obj	_	_
+19	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	Ihm	er	PRON	PPER	_	2	comp:obj	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Ball	Ball	NOUN	NN	_	2	subj	_	_
+5	dann	dann	ADV	ADV	_	2	mod	_	_
+6	aus	aus	ADP	APPR	_	2	comp:pred	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Hand	Hand	NOUN	NN	_	6	comp:obj	_	_
+9	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+10	die	d	DET	ART	_	11	det	_	_
+11	Straße	Straße	NOUN	NN	_	9	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	anschließend	anschließend	ADJ	ADV	_	3	mod	_	_
+3	kamen	kommen	VERB	VVFIN	_	0	root	_	_
+4	zwei	zwei	NUM	CARD	_	5	mod	_	_
+5	Autos	Auto	NOUN	NN	_	3	subj	_	_
+6	,	,	PUNCT	$,	_	3	punct	_	_
+7	wobei	wobei	SCONJ	PWAV	_	17	mod	_	_
+8	das	d	DET	ART	_	9	det	_	_
+9	zweite	zweit	NOUN	ORD	_	17	subj	_	_
+10	dem	d	DET	ART	_	11	conj	_	_
+11	ersten	erst	ADJ	ORD	_	16	comp:obj	_	_
+12	anscheinend	anscheinend	ADV	ADV	_	17	mod	_	_
+13	in	in	ADP	APPR	_	16	comp:obl	_	_
+14	die	d	DET	ART	_	15	det	_	_
+15	Heckschürze	Heckschürze	PROPN	NN	_	13	comp:obj	_	_
+16	gefahren	fahren	VERB	VVPP	_	17	comp:aux	_	_
+17	ist	sein	AUX	VAFIN	_	3	mod	_	_
+18	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	Wahrscheinlich	wahrscheinlich	ADV	ADV	_	4	mod	_	_
+2	eine	ein	DET	ART	_	4	det	_	_
+3	ordentliche	ordentlich	ADJ	ADJA	_	4	mod	_	_
+4	Delle	Delle	NOUN	NN	_	0	root	_	_
+
+1	aber	aber	ADV	KON	_	8	cc	_	_
+2	obwohl	obwohl	SCONJ	KOUS	_	12	mod	_	_
+3	es	es	PRON	PPER	_	7	subj	_	_
+4	nur	nur	ADV	PTKIFG	_	6	mod	_	_
+5	sowas	sowas	PRON	PIAT	_	6	mod	_	_
+6	Kleines	klein	PROPN	NN	_	7	comp:pred	_	_
+7	war	sein	VERB	VAFIN	_	2	comp:obj	_	_
+8	wurde	werden	AUX	VAFIN	_	0	root	_	_
+9	trotzdem	trotzdem	ADV	ADV	_	8	mod	_	_
+10	die	d	DET	ART	_	11	det	_	_
+11	Polizei	Polizei	NOUN	NN	_	8	subj@pass	_	_
+12	verständigt	verständigen	ADJ	VVPP	_	8	comp:aux@pass	_	_
+13	.	.	PUNCT	$.	_	8	punct	_	_
+
+1	Willst	wollen	ADV	VMFIN	_	0	root	_	_
+2	heute	heute	ADV	ADV	_	3	mod	_	_
+3	Abend	Abend	NOUN	NN	_	1	mod	_	_
+4	eigentlich	eigentlich	ADV	ADV	_	1	mod	_	_
+5	noch	noch	ADV	PTKMWL	_	1	mod	_	_
+6	zum	zum	NOUN	APPRART	_	8	mod	_	_
+7	Grillen	Grillen	NOUN	NN	_	6	comp:obj	_	_
+8	vorbeikommen	vorbeikommen	VERB	VVINF	_	1	comp:aux	_	_
+
+1	wir	wir	PRON	PPER	_	2	subj	_	_
+2	haben	haben	VERB	VAFIN	_	0	root	_	_
+3	auch	auch	ADV	PTKIFG	_	2	mod	_	_
+4	Vegetarisches	Vegetarisches	PROPN	NN	_	2	comp:obj	_	_
+5	:relieved_face:	😌	SYM	EMO	_	2	discourse	_	_
+6	:squinting_face_with_tongue:	😝	SYM	EMO	_	2	discourse	_	_
+

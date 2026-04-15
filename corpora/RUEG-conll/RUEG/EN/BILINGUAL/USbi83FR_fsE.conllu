@@ -1,0 +1,168 @@
+1	okay	okay	INTJ	ITJ	_	5	discourse	_	_
+2	my	i	DET	DPS	_	3	det	_	_
+3	name	name	NOUN	NN1	_	5	nsubj	_	_
+4	is	be	AUX	VBZ	_	5	cop	_	_
+5	F16	F16	PROPN	NP0	_	0	root	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	I	i	PRON	PNP	_	4	nsubj	_	_
+3	am	be	AUX	VBB	_	4	aux	_	_
+4	calling	call	VERB	VVG	_	0	root	_	_
+5	to	to	PART	TO0	_	6	mark	_	_
+6	report	report	VERB	VVI	_	4	xcomp	_	_
+7	about	about	ADP	PRP	_	9	case	_	_
+8	an	an	DET	AT0	_	9	det	_	_
+9	accident	accident	NOUN	NN1	_	6	obl	_	_
+10	that	that	SCONJ	CJT	_	12	mark	_	_
+11	I	i	PRON	PNP	_	12	nsubj	_	_
+12	saw	see	VERB	VVD	_	6	ccomp	_	_
+13	today	today	ADV	AV0	_	12	advmod	_	_
+
+1	I	i	PRON	PNP	_	3	nsubj	_	_
+2	was	be	AUX	VBD	_	3	aux	_	_
+3	walking	walk	VERB	VVG	_	0	root	_	_
+4	down	down	ADP	PRP	_	3	compound:prt	_	_
+5	the	the	DET	AT0	_	6	det	_	_
+6	street	street	NOUN	NN1	_	3	obl	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	I	i	PRON	PNP	_	3	nsubj	_	_
+3	saw	see	VERB	VVD	_	0	root	_	_
+4	a	a	DET	AT0	_	5	det	_	_
+5	man	man	NOUN	NN1	_	3	obj	_	_
+
+1	he	he	PRON	PNP	_	3	nsubj	_	_
+2	was	be	AUX	VBD	_	3	cop	_	_
+3	walking	walk	VERB	VVG	_	0	root	_	_
+4	with	with	ADP	PRP	_	6	case	_	_
+5	his	he	DET	DPS	_	6	det	_	_
+6	wife	wife	NOUN	NN1	_	3	obl	_	_
+
+1	he	he	PRON	PNP	_	2	nsubj	_	_
+2	dropped	drop	VERB	VVD	_	0	root	_	_
+3	his	he	DET	DPS	_	5	det	_	_
+4	soccer	soccer	NOUN	NN1	_	5	compound	_	_
+5	ball	ball	NOUN	NN1	_	2	obj	_	_
+
+1	and	and	CCONJ	CJC	_	9	cc	_	_
+2	when	when	SCONJ	CJS	_	4	mark	_	_
+3	he	he	PRON	PNP	_	4	nsubj	_	_
+4	dropped	drop	VERB	VVD	_	9	advcl	_	_
+5	his	he	DET	DPS	_	6	det	_	_
+6	ball	ball	NOUN	NN1	_	4	obj	_	_
+7	a	a	DET	AT0	_	8	det	_	_
+8	dog	dog	NOUN	NN1	_	9	obj	_	_
+9	tried	try	VERB	VVD	_	0	root	_	_
+10	to	to	PART	TO0	_	11	mark	_	_
+11	chase	chase	VERB	VVI	_	9	xcomp	_	_
+12	the	the	DET	AT0	_	13	det	_	_
+13	ball	ball	NOUN	NN1	_	11	obj	_	_
+
+1	and	and	CCONJ	CJC	_	6	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	dog	dog	NOUN	NN1	_	6	nsubj	_	_
+4	did	do	AUX	VDD	_	6	aux	_	_
+5	not	not	PART	XX0	_	6	advmod	_	_
+6	get	get	VERB	VVI	_	0	root	_	_
+7	away	away	ADP	AVP	_	6	compound:prt	_	_
+
+1	the	the	DET	AT0	_	2	det	_	_
+2	woman	woman	NOUN	NN1	_	0	root	_	_
+3	that	that	SCONJ	CJT	_	8	mark	_	_
+4	was	be	AUX	VBD	_	7	cop	_	_
+5	with	with	ADP	PRP	_	7	case	_	_
+6	the	the	DET	AT0	_	7	det	_	_
+7	dog	dog	NOUN	NN1	_	8	obl	_	_
+8	held	hold	VERB	VVD	_	2	acl	_	_
+9	the	the	DET	AT0	_	10	det	_	_
+10	dog	dog	NOUN	NN1	_	8	obj	_	_
+11	away	away	ADP	AVP	_	8	compound:prt	_	_
+
+1	but	but	CCONJ	CJC	_	6	cc	_	_
+2	unfortunately	unfortunately	ADV	AV0	_	6	advmod	_	_
+3	two	two	NUM	CRD	_	6	nummod	_	_
+4	cars	car	NOUN	NN2	_	6	nsubj	_	_
+5	were	be	AUX	VBD	_	6	aux	_	_
+6	coming	come	VERB	VVG	_	0	root	_	_
+7	when	when	SCONJ	CJS	_	11	mark	_	_
+8	all	all	DET	DT0	_	11	nsubj	_	_
+9	of	of	ADP	PRF	_	10	case	_	_
+10	this	this	DET	DT0	_	8	nmod	_	_
+11	happened	happen	VERB	VVD	_	6	advcl	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	the	the	DET	AT0	_	4	det	_	_
+3	two	two	NUM	CRD	_	4	nummod	_	_
+4	cars	car	NOUN	NN2	_	0	root	_	_
+5	hit	hit	VERB	VVD	_	4	nmod	_	_
+6	each	each	DET	DT0	_	7	det	_	_
+7	other	other	NOUN	NN1	_	5	obj	_	_
+
+1	they	they	PRON	PNP	_	4	nsubj	_	_
+2	were	be	AUX	VBD	_	4	aux	_	_
+3	not	not	PART	XX0	_	4	advmod	_	_
+4	hit	hit	VERB	VVN	_	0	root	_	_
+5	they	they	PRON	PNP	_	10	obj	_	_
+6	the	the	DET	AT0	_	7	det	_	_
+7	accident	accident	NOUN	NN1	_	10	nsubj	_	_
+8	was	be	AUX	VBD	_	10	cop	_	_
+9	not	not	PART	XX0	_	10	advmod	_	_
+10	bad	bad	ADJ	AJ0	_	4	acl:relcl	_	_
+
+1	they	they	PRON	PNP	_	2	nsubj	_	_
+2	bumped	bump	VERB	VVD	_	0	root	_	_
+3	into	into	ADP	PRP	_	5	case	_	_
+4	each	each	DET	DT0	_	5	det	_	_
+5	other	other	NOUN	NN1	_	2	obl	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	then	then	ADV	AV0	_	4	advmod	_	_
+3	the	the	DET	AT0	_	4	det	_	_
+4	man	man	NOUN	NN1	_	0	root	_	_
+5	in	in	ADP	PRP	_	8	case	_	_
+6	the	the	DET	AT0	_	8	det	_	_
+7	first	first	ADJ	ORD	_	8	amod	_	_
+8	car	car	NOUN	NN1	_	4	nmod	_	_
+9	who	who	PRON	PNQ	_	12	nsubj	_	_
+10	was	be	AUX	VBD	_	12	cop	_	_
+11	the	the	DET	AT0	_	12	det	_	_
+12	one	one	PRON	PNI	_	4	nmod	_	_
+13	who	who	PRON	PNQ	_	15	nsubj	_	_
+14	got	get	VERB	VVD	_	15	aux	_	_
+15	hit	hit	VERB	VVN	_	12	acl:relcl	_	_
+16	he	he	PRON	PNP	_	17	nsubj	_	_
+17	called	call	VERB	VVD	_	15	acl:relcl	_	_
+18	the	the	DET	AT0	_	19	det	_	_
+19	police	police	NOUN	NN0	_	17	obj	_	_
+20	immediately	immediately	ADV	AV0	_	17	advmod	_	_
+21	after	after	SCONJ	CJS	_	23	mark	_	_
+22	this	this	DET	DT0	_	23	nsubj	_	_
+23	happened	happen	VERB	VVD	_	17	advcl	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	men	man	NOUN	NN2	_	0	root	_	_
+4	the	the	DET	AT0	_	5	det	_	_
+5	man	man	NOUN	NN1	_	3	appos	_	_
+6	in	in	ADP	PRP	_	8	case	_	_
+7	the	the	DET	AT0	_	8	det	_	_
+8	front	front	NOUN	NN1	_	5	nmod	_	_
+9	who	who	PRON	PNQ	_	10	nsubj	_	_
+10	dropped	drop	VERB	VVD	_	5	parataxis	_	_
+11	the	the	DET	AT0	_	12	det	_	_
+12	ball	ball	NOUN	NN1	_	10	obj	_	_
+13	helped	help	VERB	VVD	_	10	xcomp	_	_
+14	the	the	DET	AT0	_	15	det	_	_
+15	woman	woman	NOUN	NN1	_	13	obj	_	_
+16	with	with	ADP	PRP	_	18	case	_	_
+17	the	the	DET	AT0	_	18	det	_	_
+18	dog	dog	NOUN	NN1	_	15	nmod	_	_
+19	collect	collect	VERB	VVI	_	15	acl	_	_
+20	all	all	DET	DT0	_	22	det:predet	_	_
+21	her	she	DET	DPS	_	22	det	_	_
+22	belongings	belonging	NOUN	NN2	_	19	obj	_	_
+
+1	and	and	CCONJ	CJC	_	2	cc	_	_
+2	helped	help	VERB	VVD	_	0	root	_	_
+3	everyone	everyone	PRON	PNI	_	2	obj	_	_
+

@@ -1,0 +1,109 @@
+1	jo	jo	NOUN	NGIRR	_	0	root	_	_
+2	ey	ey	PUNCT	NGIRR	_	1	discourse	_	_
+
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	letztens	letztens	ADV	ADV	_	2	mod	_	_
+4	unterwegs	unterwegs	ADV	ADV	_	2	comp:pred	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	habe	haben	AUX	VAFIN	_	0	root	_	_
+4	ich	ich	PRON	PPER	_	3	subj	_	_
+5	ein	ein	PROPN	ART	_	6	det	_	_
+6	Unfall	Unfall	PROPN	NN	_	7	comp:obj	_	_
+7	gesehen	sehen	VERB	VVPP	_	3	comp:aux	_	_
+
+1	richtig	richtig	ADJ	PTKIFG	_	2	mod	_	_
+2	krass	krass	PROPN	ADJD	_	0	root	_	_
+
+1	ihm	er	PRON	PPER	_	4	reparandum	_	_
+2	also	also	ADV	ADV	_	6	discourse	_	_
+3	einem	ein	PRON	ADJA	_	4	det	_	_
+4	Typen	Typ	NOUN	NN	_	6	comp:obj	_	_
+5	da	da	ADV	ADV	_	6	mod	_	_
+6	ist	sein	VERB	VVFIN	_	0	root	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Ball	Ball	PROPN	NN	_	6	subj	_	_
+9	auf	auf	ADP	APPR	_	12	comp:obl	_	_
+10	den	d	DET	ART	_	11	det	_	_
+11	Fuß	Fuß	NOUN	NN	_	9	comp:obj	_	_
+12	gefallen	fallen	VERB	VVPP	_	6	comp:aux	_	_
+13	über	über	ADP	APPR	_	16	comp:obl	_	_
+14	die	d	DET	ART	_	15	det	_	_
+15	Straße	Straße	PROPN	NN	_	13	comp:obj	_	_
+16	gerollt	rollen	VERB	VVPP	_	12	conj	_	_
+
+1	da	da	ADV	ADV	_	2	mod	_	_
+2	kamen	kommen	VERB	VVFIN	_	0	root	_	_
+3	zwei	zwei	NUM	CARD	_	4	mod	_	_
+4	Autos	Auto	NOUN	NN	_	2	subj	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	ein	ein	PROPN	ART	_	3	det	_	_
+3	Hund	Hund	PROPN	NN	_	4	subj	_	_
+4	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+5	zu	zu	ADP	APPR	_	8	comp:obl	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	Ball	Ball	NOUN	NN	_	5	comp:obj	_	_
+8	rennen	rennen	VERB	VVINF	_	4	comp:aux	_	_
+
+1	die	d	PRON	PDS	_	2	subj	_	_
+2	mussten	müssen	AUX	VMFIN	_	0	root	_	_
+3	deswegen	deswegen	ADV	ADV	_	2	mod	_	_
+4	ziemlich	ziemlich	ADV	PTKIFG	_	5	mod	_	_
+5	hart	hart	ADJ	ADJD	_	6	mod	_	_
+6	bremsen	bremsen	VERB	VVINF	_	2	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	der	d	DET	ART	_	4	det	_	_
+3	hintere	hinter	ADJ	ADJA	_	4	mod	_	_
+4	Autofahrer	Autofahrer	NOUN	NN	_	5	subj	_	_
+5	ist	sein	VERB	VAFIN	_	0	root	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	vorderen	vorder	ADJ	ADJA	_	10	comp:obj	_	_
+8	voll	voll	ADJ	ADV	_	5	mod	_	_
+9	hinten	hinten	ADV	ADV	_	10	mod	_	_
+10	reingepfeffert	reinpfeffern	VERB	VVPP	_	5	comp:aux	_	_
+
+1	wahrscheinlich	wahrscheinlich	ADJ	ADV	_	4	mod	_	_
+2	ein	ein	VERB	ADJA	_	4	det	_	_
+3	ordentliche	ordentlich	ADJ	ADJA	_	4	mod	_	_
+4	Beule	Beule	NOUN	NN	_	0	root	_	_
+5	in	in	ADP	APPR	_	7	reparandum	_	_
+6	der	d	DET	ART	_	5	comp:obj	_	_
+7	im	im	PROPN	APPRART	_	4	mod	_	_
+8	Heck	Heck	PROPN	NN	_	7	comp:obj	_	_
+
+1	ja	ja	ADV	NGIRR	_	0	root	_	_
+
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	glaube	glauben	PROPN	VVFIN	_	0	root	_	_
+4	die	d	DET	ART	_	5	subj	_	_
+5	haben	haben	ADJ	VVFIN	_	3	comp:obj	_	_
+6	das	_	_	_	_	9	comp:obj	_	_
+7	ganz	ganz	ADV	PTKIFG	_	8	mod	_	_
+8	schnell	schnell	ADJ	ADJD	_	10	mod	_	_
+9	geregelt	regeln	VERB	VVPP	_	10	comp:obj	_	_
+10	bekommen	bekommen	VERB	VVPP	_	5	comp:aux	_	_
+11	unter	unter	ADP	APPR	_	9	mod	_	_
+12	sich	er|es|sie	PRON	PRF	_	11	comp:obj	_	_
+
+1	zumindest	zumindest	ADV	ADV	_	2	mod	_	_
+2	wurde	werden	AUX	VAFIN	_	0	root	_	_
+3	die	d	DET	ART	_	4	det	_	_
+4	Polizei	Polizei	NOUN	NN	_	2	subj@pass	_	_
+5	sofort	sofort	ADV	ADV	_	2	mod	_	_
+6	verständigt	verständigen	VERB	VVFIN	_	2	comp:aux@pass	_	_
+
+1	jo	jo	NOUN	NGIRR	_	0	root	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	was	was	PRON	PWS	_	7	comp:obj	_	_
+3	hast	haben	AUX	VAFIN	_	0	root	_	_
+4	du	du	PRON	PPER	_	3	subj	_	_
+5	heute	heute	ADV	ADV	_	3	mod	_	_
+6	so	so	ADV	PTKIFG	_	3	mod	_	_
+7	erlebt	erleben	VERB	VVPP	_	3	comp:aux	_	_
+

@@ -1,0 +1,47 @@
+# text = bonita ,
+1	bonita	bonita	X	FM	_	0	root	_	_
+2	,	,	PUNCT	$,	_	1	punct	_	_
+
+# text = tam Auffahrunfall ,
+1	tam	tam	X	FM	Degree=Pos	2	mod	_	_
+2	Auffahrunfall	Auffahrunfall	NOUN	NN	_	0	root	_	_
+3	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = aber so unnötig ...
+1	aber	aber	CCONJ	KON	_	3	cc	_	_
+2	so	so	ADV	PTKIFG	_	3	mod	_	_
+3	unnötig	unnötig	ADJ	ADJD	Degree=Pos	0	root	_	_
+4	...	...	PUNCT	$.	_	3	discourse	_	_
+
+# text = siehst du man kann nicht kontrollieren habibi .
+1	siehst	sehen	VERB	VVFIN	_	4	comp:obj	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	1	subj	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	4	subj	_	_
+4	kann	k�nnen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	nicht	nicht	INTJ	PTKNEG	_	4	mod	_	_
+6	kontrollieren	kontrollieren	VERB	VVINF	VerbForm=Inf	4	comp:aux	_	_
+7	habibi	habibi	X	FM	Case=Acc|Number=Sing	4	vocative	_	_
+8	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Fußball fällt ,
+1	Fußball	Fußball	NOUN	NN	Case=Nom|Number=Sing	2	subj	_	_
+2	fällt	fallen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = Hund rennt ,
+1	Hund	Hund	NOUN	NN	Case=Acc|Number=Sing	2	subj	_	_
+2	rennt	rennen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = Auto stoppt
+1	Auto	Auto	NOUN	NN	_	2	subj	_	_
+2	stoppt	stoppen	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	_
+
+# text = boom
+1	boom	boom	INTJ	NGONO	_	0	root	_	_
+
+# text = Auto fährt auf
+1	Auto	Auto	NOUN	NN	Case=Nom|Number=Sing	2	subj	_	_
+2	fährt	fahren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	auf	auf	ADV	PTKVZ	_	2	compound@prt	_	_
+

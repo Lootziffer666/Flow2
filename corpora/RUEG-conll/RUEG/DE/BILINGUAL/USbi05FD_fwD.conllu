@@ -1,0 +1,85 @@
+# text = Da waren zwei Autos die hintereinander gefahren sind durch ein Parkplatz .
+1	Da	da	ADV	ADV	_	2	comp:pred	_	_
+2	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	zwei	zwei	NUM	CARD	NumType=Card	4	mod	_	_
+4	Autos	Auto	NOUN	NN	_	2	subj	_	_
+5	die	d	PRON	PRELS	Case=Nom|PronType=Dem	8	subj	_	_
+6	hintereinander	hintereinander	ADV	ADV	_	8	mod	_	_
+7	gefahren	fahren	VERB	VVPP	VerbForm=Part	8	comp:aux	_	_
+8	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
+9	durch	durch	ADP	APPR	_	7	comp:obl	_	_
+10	ein	ein	NUM	ART	NumType=Card	11	mod	_	_
+11	Parkplatz	Parkplatz	NOUN	NN	_	9	comp:obj	_	_
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Ein Paar ist im Parkplatz gegangen
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Paar	Paar	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	3	subj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	im	in	PROPN	APPRART	Case=Nom|Number=Sing	6	comp:obl	_	_
+5	Parkplatz	Parkplatz	PROPN	NN	_	4	comp:obj	_	_
+6	gegangen	gehen	VERB	VVPP	VerbForm=Part	3	comp:aux	_	_
+
+# text = und der Mann hatte ein Ball womit er gespielt hat .
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+4	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	ein	ein	DET	ART	Definite=Ind|PronType=Art	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	4	comp:obj	_	_
+7	womit	womit	PRON	PWAV	PronType=Int,Rel	9	comp:obj	_	_
+8	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj	_	_
+9	gespielt	spielen	VERB	VVPP	VerbForm=Part	10	comp:aux	_	_
+10	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	_
+11	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Der Ball ist in die Straße gerollt
+1	Der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Ball	Ball	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	APPR	_	7	comp:obl	_	_
+5	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	comp:obj	_	_
+7	gerollt	rollen	ADJ	VVPP	Degree=Pos	3	comp:aux	_	_
+
+# text = und ein Hund von die andere Seite ist hinterhergerannt
+1	und	und	CCONJ	KON	_	8	cc	_	_
+2	ein	ein	DET	ART	Definite=Ind|PronType=Art	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	8	subj	_	_
+4	von	von	ADP	APPR	_	3	mod	_	_
+5	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	andere	ander	ADJ	PIDAT	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	mod	_	_
+7	Seite	Seite	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	comp:obj	_	_
+8	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	hinterhergerannt	hinterherrennen	VERB	VVPP	Degree=Pos	8	comp:aux	_	_
+
+# text = also musste das erste Auto schnell anhalten .
+1	also	also	ADV	SEDM	_	2	discourse	_	_
+2	musste	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+4	erste	erst	ADJ	ORD	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	5	mod	_	_
+5	Auto	Auto	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	subj	_	_
+6	schnell	schnell	ADJ	ADJD	Degree=Pos	2	mod	_	_
+7	anhalten	anhalten	VERB	VVINF	VerbForm=Inf	2	comp:aux	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Das zweite konnte nicht schnell genug anhalten
+1	Das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	zweite	zweit	NOUN	ORD	Case=Nom|Gender=Neut|Number=Plur	3	subj	_	_
+3	konnte	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	nicht	nicht	PART	PTKNEG	_	5	mod	_	_
+5	schnell	schnell	ADJ	ADJD	Degree=Pos	6	mod	_	_
+6	genug	genug	ADV	PTKMWL	_	3	mod	_	_
+7	anhalten	anhalten	VERB	VVINF	VerbForm=Inf	3	comp:aux	_	_
+
+# text = also ist es in das erste hinten reingefahren .
+1	also	also	ADV	KOUS	_	2	discourse	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+4	in	in	ADP	APPR	_	8	comp:obl	_	_
+5	das	d	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+6	erste	erst	ADJ	ORD	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	7	mod	_	_
+7	hinten	hinten	NOUN	ADV	_	4	comp:obj	_	_
+8	reingefahren	reinfahren	VERB	VVPP	VerbForm=Inf	2	comp:aux	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+

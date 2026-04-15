@@ -1,0 +1,93 @@
+1	Dicker	dick	NOUN	NN	_	4	vocative	_	_
+2	Vor	vor	ADP	APPR	_	4	comp:pred	_	_
+3	mir	ich	PRON	PRF	_	2	comp:obj	_	_
+4	war	sein	VERB	VAFIN	_	0	root	_	_
+5	gerade	gerade	ADV	ADV	_	4	mod	_	_
+6	ein	ein	DET	ART	_	7	det	_	_
+7	Unfall	Unfall	NOUN	NN	_	4	subj	_	_
+
+1	Die	D	DET	ART	_	2	subj	_	_
+2	rufen	rufen	NOUN	VVFIN	_	0	root	_	_
+3	Polizei	Polizei	PROPN	NN	_	2	comp:obj	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	so	so	ADV	ADV	_	3	conj	_	_
+
+1	Aber	Aber	ADV	KON	_	2	cc	_	_
+2	ist	sein	AUX	VAFIN	_	0	root	_	_
+3	glaube	glauben	VERB	VVFIN	_	2	parataxis	_	_
+4	ich	ich	PRON	PPER	_	3	subj	_	_
+5	nichts	nichts	PRON	PIS	_	6	det	_	_
+6	Großes	groß	PROPN	NN	_	2	comp:pred	_	_
+
+1	So	so	ADV	ADV	_	3	mod	_	_
+2	ein	ein	DET	ART	_	3	det	_	_
+3	Mann	Mann	NOUN	NN	_	4	subj	_	_
+4	hat	haben	VERB	VAFIN	_	0	root	_	_
+5	sein	sein	DET	PPOSAT	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	7	comp:obj	_	_
+7	fallen	fallen	VERB	VVINF	_	8	comp:obj	_	_
+8	gelassen	lassen	VERB	VVPP	_	4	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Ball	Ball	NOUN	NN	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	auf	auf	ADP	APPR	_	8	comp:obl	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Straße	Straße	NOUN	NN	_	5	comp:obj	_	_
+8	gerollt	rollen	ADJ	VVPP	_	4	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	ein	ein	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	dann	dann	ADV	ADV	_	4	mod	_	_
+6	hinterhergegangen	hinterhergehen	VERB	VVPP	_	4	comp:aux	_	_
+
+1	Plötzlich	Plötzlich	ADJ	ADV	_	2	mod	_	_
+2	kam	kommen	VERB	VVFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	5	det	_	_
+4	blaues	blau	ADJ	ADJA	_	5	mod	_	_
+5	Auto	Auto	NOUN	NN	_	2	subj	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	musste	müssen	AUX	VMFIN	_	0	root	_	_
+3	voll	voll	ADJ	PTKIFG	_	2	mod	_	_
+4	bremsen	bremsen	PROPN	VVINF	_	2	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	das	d	DET	ART	_	4	det	_	_
+3	weiße	weiß	ADJ	ADJA	_	4	mod	_	_
+4	Auto	Auto	NOUN	NN	_	5	subj	_	_
+5	hat	haben	AUX	VAFIN	_	0	root	_	_
+6	zu	zu	ADP	PTKA	_	7	mod	_	_
+7	spät	spät	ADJ	ADJD	_	5	mod	_	_
+8	reagiert	reagieren	VERB	VVPP	_	5	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	das	d	DET	ART	_	4	det	_	_
+4	Auto	Auto	NOUN	NN	_	5	comp:obj	_	_
+5	angestoßen	angestoßen	ADJ	VVPP	_	2	comp:aux	_	_
+6	von	von	ADP	APPR	_	5	mod	_	_
+7	hinten	hinten	ADV	ADV	_	6	comp:obj	_	_
+
+1	Die	D	DET	ART	_	2	subj	_	_
+2	haben	haben	AUX	VAFIN	_	0	root	_	_
+3	die	d	DET	ART	_	4	det	_	_
+4	Polizei	Polizei	NOUN	NN	_	5	comp:obj	_	_
+5	gerufen	rufen	VERB	VVPP	_	2	comp:aux	_	_
+
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	denke	denken	VERB	VVFIN	_	0	root	_	_
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	3	comp:obj	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Fahrer	Fahrer	NOUN	NN	_	12	subj	_	_
+8	im	im	PROPN	APPRART	_	7	mod	_	_
+9	blauen	blau	VERB	ADJA	_	10	mod	_	_
+10	Auto	Auto	NOUN	NN	_	8	comp:obj	_	_
+11	nichts	nichts	PRON	PIS	_	12	comp:obj	_	_
+12	dafürkann	dafürkönnen	AUX	VVINFVMFIN	_	5	comp:obj	_	_
+

@@ -1,0 +1,143 @@
+1	okay	okay	INTJ	ITJ	_	3	discourse	_	_
+2	so	so	INTJ	ITJ	_	3	discourse	_	_
+3	F16	F16	PROPN	NP0	_	0	root	_	_
+
+1	I	i	PRON	PNP	_	3	nsubj	_	_
+2	was	be	AUX	VBD	_	3	cop	_	_
+3	standing	stand	VERB	VVG	_	0	root	_	_
+4	there	there	ADV	AV0	_	3	advmod	_	_
+5	just	just	ADV	AV0	_	6	advmod	_	_
+6	minding	mind	VERB	VVG	_	3	parataxis	_	_
+7	my	i	DET	DPS	_	8	det	_	_
+8	business	business	NOUN	NN1	_	6	obj	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	I	i	PRON	PNP	_	3	nsubj	_	_
+3	saw	see	VERB	VVD	_	0	root	_	_
+4	a	a	DET	AT0	_	5	det	_	_
+5	guy	guy	NOUN	NN1	_	3	obj	_	_
+6	walking	walk	VERB	VVG	_	5	acl	_	_
+7	with	with	ADP	PRP	_	9	case	_	_
+8	his	he	DET	DPS	_	9	det	_	_
+9	wife	wife	NOUN	NN1	_	6	obl	_	_
+10	and	and	CCONJ	CJC	_	12	cc	_	_
+11	his	he	DET	DPS	_	12	det	_	_
+12	child	child	NOUN	NN1	_	6	conj	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	they	they	PRON	PNP	_	5	nsubj	_	_
+3	were	be	AUX	VBD	_	5	cop	_	_
+4	they	they	PRON	PNP	_	5	nsubj	_	_
+5	looked	look	VERB	VVD	_	0	root	_	_
+6	like	like	SCONJ	CJS	_	9	mark	_	_
+7	they	they	PRON	PNP	_	9	nsubj	_	_
+8	were	be	AUX	VBD	_	9	aux	_	_
+9	going	go	VERB	VVG	_	5	advcl	_	_
+10	into	into	ADP	PRP	_	13	case	_	_
+11	like	like	INTJ	ITJ	_	13	discourse	_	_
+12	the	the	DET	AT0	_	13	det	_	_
+13	park	park	NOUN	NN1	_	9	obl	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	lady	lady	NOUN	NN1	_	5	nsubj:pass	_	_
+4	was	be	AUX	VBD	_	5	aux:pass	_	_
+5	taking	take	VERB	VVG	_	0	root	_	_
+6	out	out	ADP	AVP	_	5	compound:prt	_	_
+7	her	she	DET	DPS	_	8	det	_	_
+8	groceries	grocery	NOUN	NN2	_	5	obl	_	_
+9	out	out	ADP	PRP	_	8	case	_	_
+10	of	of	ADP	PRF	_	12	case	_	_
+11	the	the	DET	AT0	_	12	det	_	_
+12	car	car	NOUN	NN1	_	8	nmod	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	had	have	AUX	VHD	_	4	conj	_	_
+3	her	she	DET	DPS	_	4	det	_	_
+4	dog	dog	NOUN	NN1	_	0	root	_	_
+5	on	on	ADP	PRP	_	7	case	_	_
+6	a	a	DET	AT0	_	7	det	_	_
+7	leash	leash	NOUN	NN1	_	4	nmod	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	ball	ball	NOUN	NN1	_	0	root	_	_
+4	the	the	DET	AT0	_	5	det	_	_
+5	guy	guy	NOUN	NN1	_	7	nmod:poss	_	_
+6	's	's	PART	POS	_	5	case	_	_
+7	ball	ball	NOUN	NN1	_	3	nmod	_	_
+8	goes	go	VERB	VVZ	_	7	acl	_	_
+9	into	into	ADP	PRP	_	11	case	_	_
+10	the	the	DET	AT0	_	11	det	_	_
+11	street	street	NOUN	NN1	_	8	obl	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	two	two	NUM	CRD	_	5	nummod	_	_
+3	cars	car	NOUN	NN2	_	5	nsubj:pass	_	_
+4	were	be	AUX	VBD	_	5	aux:pass	_	_
+5	turning	turn	VERB	VVG	_	11	conj	_	_
+6	into	into	ADP	PRP	_	8	case	_	_
+7	the	the	DET	AT0	_	8	det	_	_
+8	driveway	driveway	NOUN	NN1	_	5	obl	_	_
+9	the	the	DET	AT0	_	11	det	_	_
+10	parking	parking	NOUN	NN1	_	11	compound	_	_
+11	lot	lot	NOUN	NN1	_	0	root	_	_
+
+1	my	i	DET	DPS	_	2	det	_	_
+2	bad	bad	NOUN	NN1	_	0	root	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	they	they	PRON	PNP	_	3	nsubj	_	_
+3	crashed	crash	VERB	VVD	_	17	conj	_	_
+4	because	because	SCONJ	CJS	_	16	mark	_	_
+5	the	the	DET	AT0	_	6	det	_	_
+6	like	like	INTJ	ITJ	_	16	discourse	_	_
+7	once	once	SCONJ	CJS	_	10	mark	_	_
+8	the	the	DET	AT0	_	9	det	_	_
+9	ball	ball	NOUN	NN1	_	10	nsubj	_	_
+10	went	go	VERB	VVD	_	16	advcl	_	_
+11	into	into	ADP	PRP	_	13	case	_	_
+12	the	the	DET	AT0	_	13	det	_	_
+13	street	street	NOUN	NN1	_	10	obl	_	_
+14	the	the	DET	AT0	_	15	det	_	_
+15	dog	dog	NOUN	NN1	_	16	nsubj	_	_
+16	went	go	VERB	VVD	_	3	advcl	_	_
+17	crazy	crazy	ADJ	AJ0	_	0	root	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	almost	almost	ADV	AV0	_	3	advmod	_	_
+3	jumped	jump	VERB	VVD	_	0	root	_	_
+4	into	into	ADP	PRP	_	6	case	_	_
+5	the	the	DET	AT0	_	6	det	_	_
+6	street	street	NOUN	NN1	_	3	obl	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	guy	guy	NOUN	NN1	_	4	nsubj	_	_
+4	ran	run	VERB	VVD	_	0	root	_	_
+5	into	into	ADP	PRP	_	7	case	_	_
+6	the	the	DET	AT0	_	7	det	_	_
+7	street	street	NOUN	NN1	_	4	obl	_	_
+8	to	to	PART	TO0	_	9	mark	_	_
+9	help	help	VERB	VVI	_	4	advcl	_	_
+10	the	the	DET	AT0	_	11	det	_	_
+11	lady	lady	NOUN	NN1	_	9	obj	_	_
+12	with	with	ADP	PRP	_	14	case	_	_
+13	her	she	DET	DPS	_	14	det	_	_
+14	groceries	grocery	NOUN	NN2	_	11	nmod	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	guys	guy	NOUN	NN2	_	4	nsubj	_	_
+4	came	come	VERB	VVD	_	0	root	_	_
+5	out	out	ADP	AVP	_	4	compound:prt	_	_
+
+1	and	and	CCONJ	CJC	_	2	cc	_	_
+2	called	call	VERB	VVD	_	0	root	_	_
+3	the	the	DET	AT0	_	4	det	_	_
+4	police	police	NOUN	NN0	_	2	obj	_	_
+
+1	that	that	DET	DT0	_	3	nsubj	_	_
+2	's	be	AUX	VBZ	_	3	cop	_	_
+3	it	it	PRON	PNP	_	0	root	_	_
+

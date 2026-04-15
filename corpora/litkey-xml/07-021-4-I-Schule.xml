@@ -1,0 +1,5192 @@
+<?xml version="1.0" ?>
+<tokens id="07-021-4-I-Schule">
+	<token id="tok1" orig="Eins" pos_stts="ART" realword="true" target="Eines">
+		<characters_orig>
+			<char_o id="o1">E</char_o>
+			<char_o id="o2">i</char_o>
+			<char_o id="o3">n</char_o>
+			<char_o id="o4">s</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">E</char_t>
+			<char_t id="t2">i</char_t>
+			<char_t id="t3">n</char_t>
+			<char_t id="t4">e</char_t>
+			<char_t id="t5">s</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" t_range="t4"/>
+			<char_a id="a5" o_range="o4" t_range="t5"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1">?</phon_t>
+			<phon_t id="p2" t_range="t1..t2">aI</phon_t>
+			<phon_t id="p3" t_range="t3">n</phon_t>
+			<phon_t id="p4" t_range="t4">@</phon_t>
+			<phon_t id="p5" t_range="t5">s</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" syl_leg="true" type="stress"/>
+			<syll id="s2" range="t3..t5" syl_leg="miss" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t5" type="ART"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="graph_comb" id="k1" range="t1..t2"/>
+			<kof cat="devoice_final" id="k2" range="t5"/>
+		</key_orthographic_features>
+		<errors>
+			<err cat_fine="ins_V" cat_kof="other" cat_short="ins_V" id="e1" level="PGIII" morph_const="na" pronc_ok="false" range="a4"/>
+		</errors>
+	</token>
+	<token id="tok2" orig="Tages" pos_stts="NN" target="Tages">
+		<characters_orig>
+			<char_o id="o1">T</char_o>
+			<char_o id="o2">a</char_o>
+			<char_o id="o3">g</char_o>
+			<char_o id="o4">e</char_o>
+			<char_o id="o5">s</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">T</char_t>
+			<char_t id="t2">a</char_t>
+			<char_t id="t3">g</char_t>
+			<char_t id="t4">e</char_t>
+			<char_t id="t5">s</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">t</phon_t>
+			<phon_t id="p2" t_range="t2">a:</phon_t>
+			<phon_t id="p3" t_range="t3">g</phon_t>
+			<phon_t id="p4" t_range="t4">@</phon_t>
+			<phon_t id="p5" t_range="t5">s</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" type="stress"/>
+			<syll id="s2" range="t3..t5" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="NN"/>
+			<mor id="m2" range="t4..t5" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="devoice_final" id="k1" range="t5"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok3" orig="ging" pos_stts="VVFIN" target="ging">
+		<characters_orig>
+			<char_o id="o1">g</char_o>
+			<char_o id="o2">i</char_o>
+			<char_o id="o3">n</char_o>
+			<char_o id="o4">g</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">g</char_t>
+			<char_t id="t2">i</char_t>
+			<char_t id="t3">n</char_t>
+			<char_t id="t4">g</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">g</phon_t>
+			<phon_t id="p2" t_range="t2">I</phon_t>
+			<phon_t id="p3" t_range="t3..t4">N</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t4" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="V"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok4" irreg_struct="true" orig="Lea" pos_stts="NE" target="Lea">
+		<characters_orig>
+			<char_o id="o1">L</char_o>
+			<char_o id="o2">e</char_o>
+			<char_o id="o3">a</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">L</char_t>
+			<char_t id="t2">e</char_t>
+			<char_t id="t3">a</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">l</phon_t>
+			<phon_t id="p2" t_range="t2">e:</phon_t>
+			<phon_t id="p3" t_range="t3">a</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" type="stress"/>
+			<syll id="s2" range="t3..t3" type="unstress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="NE"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok5" orig="mit" pos_stts="APPR" target="mit">
+		<characters_orig>
+			<char_o id="o1">m</char_o>
+			<char_o id="o2">i</char_o>
+			<char_o id="o3">t</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">m</char_t>
+			<char_t id="t2">i</char_t>
+			<char_t id="t3">t</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">m</phon_t>
+			<phon_t id="p2" t_range="t2">I</phon_t>
+			<phon_t id="p3" t_range="t3">t</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="ADP"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok6" irreg_struct="true" orig="Dodo" pos_stts="NN" target="Dodo">
+		<characters_orig>
+			<char_o id="o1">D</char_o>
+			<char_o id="o2">o</char_o>
+			<char_o id="o3">d</char_o>
+			<char_o id="o4">o</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">D</char_t>
+			<char_t id="t2">o</char_t>
+			<char_t id="t3">d</char_t>
+			<char_t id="t4">o</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">d</phon_t>
+			<phon_t id="p2" t_range="t2">o:</phon_t>
+			<phon_t id="p3" t_range="t3">d</phon_t>
+			<phon_t id="p4" t_range="t4">o</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" type="stress"/>
+			<syll id="s2" range="t3..t4" type="unstress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="NN"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok7" orig="zur" pos_stts="APPRART" target="zur">
+		<characters_orig>
+			<char_o id="o1">z</char_o>
+			<char_o id="o2">u</char_o>
+			<char_o id="o3">r</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">z</char_t>
+			<char_t id="t2">u</char_t>
+			<char_t id="t3">r</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">ts</phon_t>
+			<phon_t id="p2" t_range="t2">u:</phon_t>
+			<phon_t id="p3" t_range="t3">6</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t2" type="ADP"/>
+			<mor id="m2" range="t3..t3" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="r_voc" id="k1" range="t2..t3"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok8" orig="Schulle" pos_stts="NN" target="Schule">
+		<characters_orig>
+			<char_o id="o1">S</char_o>
+			<char_o id="o2">c</char_o>
+			<char_o id="o3">h</char_o>
+			<char_o id="o4">u</char_o>
+			<char_o id="o5">l</char_o>
+			<char_o id="o6">l</char_o>
+			<char_o id="o7">e</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">S</char_t>
+			<char_t id="t2">c</char_t>
+			<char_t id="t3">h</char_t>
+			<char_t id="t4">u</char_t>
+			<char_t id="t5">l</char_t>
+			<char_t id="t6">e</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5..o6" t_range="t5"/>
+			<char_a id="a6" o_range="o7" t_range="t6"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1..t3">S</phon_t>
+			<phon_t id="p2" t_range="t4">u:</phon_t>
+			<phon_t id="p3" t_range="t5">l</phon_t>
+			<phon_t id="p4" t_range="t6">@</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1..t3" type="Sch"/>
+			<gra id="g2" range="t4"/>
+			<gra id="g3" range="t5"/>
+			<gra id="g4" range="t6"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t4" syl_leg="true" type="stress"/>
+			<syll id="s2" range="t5..t6" syl_leg="true" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t5" type="V"/>
+			<mor id="m2" range="t6..t6" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors>
+			<err cat_fine="ovr_Cdouble_afterVlong" cat_kof="other" cat_short="ovr_CC_aftVlg" id="e1" level="SL" morph_const="na" pronc_ok="false" range="a5"/>
+		</errors>
+	</token>
+	<token id="tok9" orig="." pos_stts="$." target=".">
+		<characters_orig>
+			<char_o id="o1" layout="EOL">.</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">.</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+		</characters_aligned>
+		<phonemes_target/>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+		</graphemes_target>
+		<syllables_target/>
+		<morphemes_target>
+			<mor id="m1" range="t1..t1" type="$."/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok10" orig="Im" pos_stts="APPRART" target="Im">
+		<characters_orig>
+			<char_o id="o1">I</char_o>
+			<char_o id="o2">m</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">I</char_t>
+			<char_t id="t2">m</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1">?</phon_t>
+			<phon_t id="p2" t_range="t1">I</phon_t>
+			<phon_t id="p3" t_range="t2">m</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t2" type="ADP"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok11" orig="Weg" pos_stts="NN" target="Weg">
+		<characters_orig>
+			<char_o id="o1">W</char_o>
+			<char_o id="o2">e</char_o>
+			<char_o id="o3">g</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">W</char_t>
+			<char_t id="t2">e</char_t>
+			<char_t id="t3">g</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">v</phon_t>
+			<phon_t id="p2" t_range="t2">e:</phon_t>
+			<phon_t id="p3" t_range="t3">k</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="NN"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="devoice_final" id="k1" range="t3"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok12" orig="traf" pos_stts="VVFIN" target="traf">
+		<characters_orig>
+			<char_o id="o1">t</char_o>
+			<char_o id="o2">r</char_o>
+			<char_o id="o3">a</char_o>
+			<char_o id="o4">f</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">t</char_t>
+			<char_t id="t2">r</char_t>
+			<char_t id="t3">a</char_t>
+			<char_t id="t4">f</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">t</phon_t>
+			<phon_t id="p2" t_range="t2">r</phon_t>
+			<phon_t id="p3" t_range="t3">a:</phon_t>
+			<phon_t id="p4" t_range="t4">f</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t4" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="V"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok13" orig="sie" pos_stts="PPER" target="sie">
+		<characters_orig>
+			<char_o id="o1">s</char_o>
+			<char_o id="o2">i</char_o>
+			<char_o id="o3">e</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">s</char_t>
+			<char_t id="t2">i</char_t>
+			<char_t id="t3">e</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">z</phon_t>
+			<phon_t id="p2" t_range="t2..t3">i:</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2..t3" type="ie"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="PPER"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="ie" id="k1" range="t2..t3"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok14" orig="Lars" pos_stts="NE" target="Lars">
+		<characters_orig>
+			<char_o id="o1">L</char_o>
+			<char_o id="o2">a</char_o>
+			<char_o id="o3">r</char_o>
+			<char_o id="o4">s</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">L</char_t>
+			<char_t id="t2">a</char_t>
+			<char_t id="t3">r</char_t>
+			<char_t id="t4">s</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">l</phon_t>
+			<phon_t id="p2" t_range="t2">a</phon_t>
+			<phon_t id="p3" t_range="t3">r</phon_t>
+			<phon_t id="p4" t_range="t4">s</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t4" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="NE"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="r_voc" id="k1" range="t2..t3"/>
+			<kof cat="devoice_final" id="k2" range="t4"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok15" orig="." pos_stts="$." target=".">
+		<characters_orig>
+			<char_o id="o1">.</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">.</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+		</characters_aligned>
+		<phonemes_target/>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+		</graphemes_target>
+		<syllables_target/>
+		<morphemes_target>
+			<mor id="m1" range="t1..t1" type="$."/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok16" orig="Sie" pos_stts="PPER" target="Sie">
+		<characters_orig>
+			<char_o id="o1">S</char_o>
+			<char_o id="o2">i</char_o>
+			<char_o id="o3">e</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">S</char_t>
+			<char_t id="t2">i</char_t>
+			<char_t id="t3">e</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">z</phon_t>
+			<phon_t id="p2" t_range="t2..t3">i:</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2..t3" type="ie"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="PPER"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="ie" id="k1" range="t2..t3"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok17" orig="haben" pos_stts="VAFIN" target="haben">
+		<characters_orig>
+			<char_o id="o1">h</char_o>
+			<char_o id="o2">a</char_o>
+			<char_o id="o3">b</char_o>
+			<char_o id="o4">e</char_o>
+			<char_o id="o5">n</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">h</char_t>
+			<char_t id="t2">a</char_t>
+			<char_t id="t3">b</char_t>
+			<char_t id="t4">e</char_t>
+			<char_t id="t5">n</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">h</phon_t>
+			<phon_t id="p2" t_range="t2">a:</phon_t>
+			<phon_t id="p3" t_range="t3">b</phon_t>
+			<phon_t id="p4" t_range="t4">@</phon_t>
+			<phon_t id="p5" t_range="t5">n</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" type="stress"/>
+			<syll id="s2" range="t3..t5" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="V"/>
+			<mor id="m2" range="t4..t5" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="schwa_silent" id="k1" range="t4"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok18" orig="sich" pos_stts="PRF" target="sich">
+		<characters_orig>
+			<char_o id="o1">s</char_o>
+			<char_o id="o2">i</char_o>
+			<char_o id="o3">c</char_o>
+			<char_o id="o4">h</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">s</char_t>
+			<char_t id="t2">i</char_t>
+			<char_t id="t3">c</char_t>
+			<char_t id="t4">h</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">z</phon_t>
+			<phon_t id="p2" t_range="t2">I</phon_t>
+			<phon_t id="p3" t_range="t3..t4">C</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3..t4" type="ch"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t4" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="PRF"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok19" orig="um-armt" pos_stts="VVFIN" target="umarmt">
+		<characters_orig>
+			<char_o id="o1">u</char_o>
+			<char_o id="o2">m</char_o>
+			<char_o id="o3" layout="EOL">-</char_o>
+			<char_o id="o4">a</char_o>
+			<char_o id="o5">r</char_o>
+			<char_o id="o6">m</char_o>
+			<char_o id="o7">t</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">u</char_t>
+			<char_t id="t2">m</char_t>
+			<char_t id="t3">a</char_t>
+			<char_t id="t4">r</char_t>
+			<char_t id="t5">m</char_t>
+			<char_t id="t6">t</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3"/>
+			<char_a id="a4" o_range="o4" t_range="t3"/>
+			<char_a id="a5" o_range="o5" t_range="t4"/>
+			<char_a id="a6" o_range="o6" t_range="t5"/>
+			<char_a id="a7" o_range="o7" t_range="t6"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1">?</phon_t>
+			<phon_t id="p2" t_range="t1">U</phon_t>
+			<phon_t id="p3" t_range="t2">m</phon_t>
+			<phon_t id="p4">?</phon_t>
+			<phon_t id="p5" t_range="t3">a</phon_t>
+			<phon_t id="p6" t_range="t4">r</phon_t>
+			<phon_t id="p7" t_range="t5">m</phon_t>
+			<phon_t id="p8" t_range="t6">t</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+			<gra id="g6" range="t6"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" syl_leg="true" type="unstress"/>
+			<syll id="s2" range="t3..t6" syl_leg="true" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t2" type="PTKVZ"/>
+			<mor id="m2" range="t3..t5" type="NN"/>
+			<mor id="m3" range="t6..t6" type="SFX"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="r_voc" id="k1" range="t3..t4"/>
+		</key_orthographic_features>
+		<errors>
+			<err cat_fine="keep_hyphen_lb" cat_kof="other" cat_short="keep_hyph_lb" id="e1" level="PC" morph_const="na" pronc_ok="true" range="a3"/>
+		</errors>
+	</token>
+	<token id="tok20" orig="und" pos_stts="KON" target="und">
+		<characters_orig>
+			<char_o id="o1">u</char_o>
+			<char_o id="o2">n</char_o>
+			<char_o id="o3">d</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">u</char_t>
+			<char_t id="t2">n</char_t>
+			<char_t id="t3">d</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1">?</phon_t>
+			<phon_t id="p2" t_range="t1">U</phon_t>
+			<phon_t id="p3" t_range="t2">n</phon_t>
+			<phon_t id="p4" t_range="t3">t</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="KON"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="devoice_final" id="k1" range="t3"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok21" irreg_struct="true" orig="halo" pos_stts="ITJ" target="hallo">
+		<characters_orig>
+			<char_o id="o1">h</char_o>
+			<char_o id="o2">a</char_o>
+			<char_o id="o3">l</char_o>
+			<char_o id="o4">o</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">h</char_t>
+			<char_t id="t2">a</char_t>
+			<char_t id="t3">l</char_t>
+			<char_t id="t4">l</char_t>
+			<char_t id="t5">o</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3..t4"/>
+			<char_a id="a4" o_range="o4" t_range="t5"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">h</phon_t>
+			<phon_t id="p2" t_range="t2">a</phon_t>
+			<phon_t id="p3" t_range="t3..t4">l</phon_t>
+			<phon_t id="p4" t_range="t5">o</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" syl_leg="true" type="stress"/>
+			<syll id="s2" range="t4..t5" syl_leg="true" type="unstress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t5" type="ITJ"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="doubleC_syl" id="k1" range="t3..t4"/>
+		</key_orthographic_features>
+		<errors>
+			<err cat_fine="Cdouble_interV" cat_kof="doubleC_syl" cat_short="CC_interV" id="e1" level="SL" morph_const="ref" pronc_ok="false" range="a3"/>
+		</errors>
+	</token>
+	<token id="tok22" orig="gesagt" pos_stts="VVPP" target="gesagt">
+		<characters_orig>
+			<char_o id="o1">g</char_o>
+			<char_o id="o2">e</char_o>
+			<char_o id="o3">s</char_o>
+			<char_o id="o4">a</char_o>
+			<char_o id="o5">g</char_o>
+			<char_o id="o6">t</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">g</char_t>
+			<char_t id="t2">e</char_t>
+			<char_t id="t3">s</char_t>
+			<char_t id="t4">a</char_t>
+			<char_t id="t5">g</char_t>
+			<char_t id="t6">t</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+			<char_a id="a6" o_range="o6" t_range="t6"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">g</phon_t>
+			<phon_t id="p2" t_range="t2">@</phon_t>
+			<phon_t id="p3" t_range="t3">z</phon_t>
+			<phon_t id="p4" t_range="t4">a:</phon_t>
+			<phon_t id="p5" t_range="t5">k</phon_t>
+			<phon_t id="p6" t_range="t6">t</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+			<gra id="g6" range="t6"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" type="red"/>
+			<syll id="s2" range="t3..t6" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t2" type="PRFX"/>
+			<mor id="m2" range="t3..t5" type="V"/>
+			<mor id="m3" range="t6..t6" type="SFX"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="devoice_final" id="k1" range="t5"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok23" orig="." pos_stts="$." target=".">
+		<characters_orig>
+			<char_o id="o1">.</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">.</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+		</characters_aligned>
+		<phonemes_target/>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+		</graphemes_target>
+		<syllables_target/>
+		<morphemes_target>
+			<mor id="m1" range="t1..t1" type="$."/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok24" irreg_struct="true" orig="Lea" pos_stts="NE" target="Lea">
+		<characters_orig>
+			<char_o id="o1">L</char_o>
+			<char_o id="o2">e</char_o>
+			<char_o id="o3">a</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">L</char_t>
+			<char_t id="t2">e</char_t>
+			<char_t id="t3">a</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">l</phon_t>
+			<phon_t id="p2" t_range="t2">e:</phon_t>
+			<phon_t id="p3" t_range="t3">a</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" type="stress"/>
+			<syll id="s2" range="t3..t3" type="unstress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="NE"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok25" orig="hate" pos_stts="VAFIN" target="hatte">
+		<characters_orig>
+			<char_o id="o1">h</char_o>
+			<char_o id="o2">a</char_o>
+			<char_o id="o3">t</char_o>
+			<char_o id="o4">e</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">h</char_t>
+			<char_t id="t2">a</char_t>
+			<char_t id="t3">t</char_t>
+			<char_t id="t4">t</char_t>
+			<char_t id="t5">e</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3..t4"/>
+			<char_a id="a4" o_range="o4" t_range="t5"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">h</phon_t>
+			<phon_t id="p2" t_range="t2">a</phon_t>
+			<phon_t id="p3" t_range="t3..t4">t</phon_t>
+			<phon_t id="p4" t_range="t5">@</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" syl_leg="true" type="stress"/>
+			<syll id="s2" range="t4..t5" syl_leg="true" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="V"/>
+			<mor id="m2" range="t4..t5" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="doubleC_syl" id="k1" range="t3..t4"/>
+		</key_orthographic_features>
+		<errors>
+			<err cat_fine="Cdouble_interV" cat_kof="doubleC_syl" cat_short="CC_interV" id="e1" level="SL" morph_const="ref" pronc_ok="false" range="a3"/>
+		</errors>
+	</token>
+	<token id="tok26" irreg_struct="true" orig="Dodo" pos_stts="NN" target="Dodo">
+		<characters_orig>
+			<char_o id="o1">D</char_o>
+			<char_o id="o2">o</char_o>
+			<char_o id="o3">d</char_o>
+			<char_o id="o4">o</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">D</char_t>
+			<char_t id="t2">o</char_t>
+			<char_t id="t3">d</char_t>
+			<char_t id="t4">o</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">d</phon_t>
+			<phon_t id="p2" t_range="t2">o:</phon_t>
+			<phon_t id="p3" t_range="t3">d</phon_t>
+			<phon_t id="p4" t_range="t4">o</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" type="stress"/>
+			<syll id="s2" range="t3..t4" type="unstress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="NN"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok27" orig="unter" pos_stts="APPR" target="unter">
+		<characters_orig>
+			<char_o id="o1">u</char_o>
+			<char_o id="o2">n</char_o>
+			<char_o id="o3">t</char_o>
+			<char_o id="o4">e</char_o>
+			<char_o id="o5" layout="EOL">r</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">u</char_t>
+			<char_t id="t2">n</char_t>
+			<char_t id="t3">t</char_t>
+			<char_t id="t4">e</char_t>
+			<char_t id="t5">r</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1">?</phon_t>
+			<phon_t id="p2" t_range="t1">U</phon_t>
+			<phon_t id="p3" t_range="t2">n</phon_t>
+			<phon_t id="p4" t_range="t3">t</phon_t>
+			<phon_t id="p5" t_range="t4..t5">6</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" type="stress"/>
+			<syll id="s2" range="t3..t5" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t5" type="ADP"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="r_voc" id="k1" range="t4..t5"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok28" orig="der" pos_stts="ART" target="der">
+		<characters_orig>
+			<char_o id="o1">d</char_o>
+			<char_o id="o2">e</char_o>
+			<char_o id="o3">r</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">d</char_t>
+			<char_t id="t2">e</char_t>
+			<char_t id="t3">r</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">d</phon_t>
+			<phon_t id="p2" t_range="t2">e:</phon_t>
+			<phon_t id="p3" t_range="t3">6</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t1" type="ART"/>
+			<mor id="m2" range="t2..t3" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="r_voc" id="k1" range="t2..t3"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok29" orig="Jacke" pos_stts="NN" target="Jacke">
+		<characters_orig>
+			<char_o id="o1">J</char_o>
+			<char_o id="o2">a</char_o>
+			<char_o id="o3">c</char_o>
+			<char_o id="o4">k</char_o>
+			<char_o id="o5">e</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">J</char_t>
+			<char_t id="t2">a</char_t>
+			<char_t id="t3">c</char_t>
+			<char_t id="t4">k</char_t>
+			<char_t id="t5">e</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">j</phon_t>
+			<phon_t id="p2" t_range="t2">a</phon_t>
+			<phon_t id="p3" t_range="t3..t4">k</phon_t>
+			<phon_t id="p4" t_range="t5">@</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+			<syll id="s2" range="t4..t5" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t5" type="NN"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="doubleC_syl" id="k1" range="t3..t4"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok30" orig="." pos_stts="$." target=".">
+		<characters_orig>
+			<char_o id="o1">.</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">.</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+		</characters_aligned>
+		<phonemes_target/>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+		</graphemes_target>
+		<syllables_target/>
+		<morphemes_target>
+			<mor id="m1" range="t1..t1" type="$."/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok31" orig="Und" pos_stts="KON" target="Und">
+		<characters_orig>
+			<char_o id="o1">U</char_o>
+			<char_o id="o2">n</char_o>
+			<char_o id="o3">d</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">U</char_t>
+			<char_t id="t2">n</char_t>
+			<char_t id="t3">d</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1">?</phon_t>
+			<phon_t id="p2" t_range="t1">U</phon_t>
+			<phon_t id="p3" t_range="t2">n</phon_t>
+			<phon_t id="p4" t_range="t3">t</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="KON"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="devoice_final" id="k1" range="t3"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok32" irreg_struct="true" orig="Dodo" pos_stts="NE" target="Dodo">
+		<characters_orig>
+			<char_o id="o1">D</char_o>
+			<char_o id="o2">o</char_o>
+			<char_o id="o3">d</char_o>
+			<char_o id="o4">o</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">D</char_t>
+			<char_t id="t2">o</char_t>
+			<char_t id="t3">d</char_t>
+			<char_t id="t4">o</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">d</phon_t>
+			<phon_t id="p2" t_range="t2">o:</phon_t>
+			<phon_t id="p3" t_range="t3">d</phon_t>
+			<phon_t id="p4" t_range="t4">o</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" type="stress"/>
+			<syll id="s2" range="t3..t4" type="unstress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="NE"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok33" orig="wolte" pos_stts="VMFIN" target="wollte">
+		<characters_orig>
+			<char_o id="o1">w</char_o>
+			<char_o id="o2">o</char_o>
+			<char_o id="o3">l</char_o>
+			<char_o id="o4">t</char_o>
+			<char_o id="o5">e</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">w</char_t>
+			<char_t id="t2">o</char_t>
+			<char_t id="t3">l</char_t>
+			<char_t id="t4">l</char_t>
+			<char_t id="t5">t</char_t>
+			<char_t id="t6">e</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3..t4"/>
+			<char_a id="a4" o_range="o4" t_range="t5"/>
+			<char_a id="a5" o_range="o5" t_range="t6"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">v</phon_t>
+			<phon_t id="p2" t_range="t2">O</phon_t>
+			<phon_t id="p3" t_range="t3..t4">l</phon_t>
+			<phon_t id="p4" t_range="t5">t</phon_t>
+			<phon_t id="p5" t_range="t6">@</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+			<gra id="g6" range="t6"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t4" syl_leg="true" type="stress"/>
+			<syll id="s2" range="t5..t6" syl_leg="true" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="V"/>
+			<mor id="m2" range="t5..t6" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="doubleC_syl" id="k1" range="t3..t4"/>
+		</key_orthographic_features>
+		<errors>
+			<err cat_fine="Cdouble_beforeC" cat_kof="doubleC_syl" cat_short="CC_befC" id="e1" level="SL" morph_const="neces" pronc_ok="true" range="a3"/>
+		</errors>
+	</token>
+	<token id="tok34" orig="ihm" pos_stts="PPER" target="ihm">
+		<characters_orig>
+			<char_o id="o1">i</char_o>
+			<char_o id="o2">h</char_o>
+			<char_o id="o3">m</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">i</char_t>
+			<char_t id="t2">h</char_t>
+			<char_t id="t3">m</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1">?</phon_t>
+			<phon_t id="p2" t_range="t1..t2">i:</phon_t>
+			<phon_t id="p3" t_range="t3">m</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="PPER"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="h_length" id="k1" range="t1..t2"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok35" orig="lecken" pos_stts="VVINF" target="lecken">
+		<characters_orig>
+			<char_o id="o1">l</char_o>
+			<char_o id="o2">e</char_o>
+			<char_o id="o3">c</char_o>
+			<char_o id="o4">k</char_o>
+			<char_o id="o5">e</char_o>
+			<char_o id="o6">n</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">l</char_t>
+			<char_t id="t2">e</char_t>
+			<char_t id="t3">c</char_t>
+			<char_t id="t4">k</char_t>
+			<char_t id="t5">e</char_t>
+			<char_t id="t6">n</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+			<char_a id="a6" o_range="o6" t_range="t6"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">l</phon_t>
+			<phon_t id="p2" t_range="t2">E</phon_t>
+			<phon_t id="p3" t_range="t3..t4">k</phon_t>
+			<phon_t id="p4" t_range="t5">@</phon_t>
+			<phon_t id="p5" t_range="t6">n</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+			<gra id="g6" range="t6"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+			<syll id="s2" range="t4..t6" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="V"/>
+			<mor id="m2" range="t5..t6" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="doubleC_syl" id="k1" range="t3..t4"/>
+			<kof cat="schwa_silent" id="k2" range="t5"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok36" orig="." pos_stts="$." target=".">
+		<characters_orig>
+			<char_o id="o1" layout="EOL">.</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">.</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+		</characters_aligned>
+		<phonemes_target/>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+		</graphemes_target>
+		<syllables_target/>
+		<morphemes_target>
+			<mor id="m1" range="t1..t1" type="$."/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok37" orig="Sie" pos_stts="PPER" target="Sie">
+		<characters_orig>
+			<char_o id="o1">S</char_o>
+			<char_o id="o2">i</char_o>
+			<char_o id="o3">e</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">S</char_t>
+			<char_t id="t2">i</char_t>
+			<char_t id="t3">e</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">z</phon_t>
+			<phon_t id="p2" t_range="t2..t3">i:</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2..t3" type="ie"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="PPER"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="ie" id="k1" range="t2..t3"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok38" orig="gingen" pos_stts="VVFIN" target="gingen">
+		<characters_orig>
+			<char_o id="o1">g</char_o>
+			<char_o id="o2">i</char_o>
+			<char_o id="o3">n</char_o>
+			<char_o id="o4">g</char_o>
+			<char_o id="o5">e</char_o>
+			<char_o id="o6">n</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">g</char_t>
+			<char_t id="t2">i</char_t>
+			<char_t id="t3">n</char_t>
+			<char_t id="t4">g</char_t>
+			<char_t id="t5">e</char_t>
+			<char_t id="t6">n</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+			<char_a id="a6" o_range="o6" t_range="t6"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">g</phon_t>
+			<phon_t id="p2" t_range="t2">I</phon_t>
+			<phon_t id="p3" t_range="t3..t4">N</phon_t>
+			<phon_t id="p4" t_range="t5">@</phon_t>
+			<phon_t id="p5" t_range="t6">n</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+			<gra id="g6" range="t6"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+			<syll id="s2" range="t4..t6" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="V"/>
+			<mor id="m2" range="t5..t6" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok39" orig="rest" pos_stts="NN" target="Rest">
+		<characters_orig>
+			<char_o id="o1">r</char_o>
+			<char_o id="o2">e</char_o>
+			<char_o id="o3">s</char_o>
+			<char_o id="o4">t</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">R</char_t>
+			<char_t id="t2">e</char_t>
+			<char_t id="t3">s</char_t>
+			<char_t id="t4">t</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">r</phon_t>
+			<phon_t id="p2" t_range="t2">E</phon_t>
+			<phon_t id="p3" t_range="t3">s</phon_t>
+			<phon_t id="p4" t_range="t4">t</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t4" syl_leg="true" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="NN"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="devoice_final" id="k1" range="t3"/>
+		</key_orthographic_features>
+		<errors>
+			<err cat_fine="low_up" cat_kof="other" cat_short="low_up" id="e1" level="SN" morph_const="na" pronc_ok="true" range="a1"/>
+		</errors>
+	</token>
+	<token id="tok40" orig="des" pos_stts="ART" target="des">
+		<characters_orig>
+			<char_o id="o1">d</char_o>
+			<char_o id="o2">e</char_o>
+			<char_o id="o3">s</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">d</char_t>
+			<char_t id="t2">e</char_t>
+			<char_t id="t3">s</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">d</phon_t>
+			<phon_t id="p2" t_range="t2">E</phon_t>
+			<phon_t id="p3" t_range="t3">s</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t1" type="ART"/>
+			<mor id="m2" range="t2..t3" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="devoice_final" id="k1" range="t3"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok41" orig="Weges" pos_stts="NN" target="Weges">
+		<characters_orig>
+			<char_o id="o1">W</char_o>
+			<char_o id="o2">e</char_o>
+			<char_o id="o3">g</char_o>
+			<char_o id="o4">e</char_o>
+			<char_o id="o5">s</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">W</char_t>
+			<char_t id="t2">e</char_t>
+			<char_t id="t3">g</char_t>
+			<char_t id="t4">e</char_t>
+			<char_t id="t5">s</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">v</phon_t>
+			<phon_t id="p2" t_range="t2">e:</phon_t>
+			<phon_t id="p3" t_range="t3">g</phon_t>
+			<phon_t id="p4" t_range="t4">@</phon_t>
+			<phon_t id="p5" t_range="t5">s</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" type="stress"/>
+			<syll id="s2" range="t3..t5" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="NN"/>
+			<mor id="m2" range="t4..t5" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="devoice_final" id="k1" range="t5"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok42" irreg_struct="true" orig="zusammen" pos_stts="ADV" target="zusammen">
+		<characters_orig>
+			<char_o id="o1">z</char_o>
+			<char_o id="o2">u</char_o>
+			<char_o id="o3">s</char_o>
+			<char_o id="o4">a</char_o>
+			<char_o id="o5">m</char_o>
+			<char_o id="o6">m</char_o>
+			<char_o id="o7">e</char_o>
+			<char_o id="o8">n</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">z</char_t>
+			<char_t id="t2">u</char_t>
+			<char_t id="t3">s</char_t>
+			<char_t id="t4">a</char_t>
+			<char_t id="t5">m</char_t>
+			<char_t id="t6">m</char_t>
+			<char_t id="t7">e</char_t>
+			<char_t id="t8">n</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+			<char_a id="a6" o_range="o6" t_range="t6"/>
+			<char_a id="a7" o_range="o7" t_range="t7"/>
+			<char_a id="a8" o_range="o8" t_range="t8"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">ts</phon_t>
+			<phon_t id="p2" t_range="t2">u</phon_t>
+			<phon_t id="p3" t_range="t3">z</phon_t>
+			<phon_t id="p4" t_range="t4">a</phon_t>
+			<phon_t id="p5" t_range="t5..t6">m</phon_t>
+			<phon_t id="p6" t_range="t7">@</phon_t>
+			<phon_t id="p7" t_range="t8">n</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+			<gra id="g6" range="t6"/>
+			<gra id="g7" range="t7"/>
+			<gra id="g8" range="t8"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" type="unstress"/>
+			<syll id="s2" range="t3..t5" type="stress"/>
+			<syll id="s3" range="t6..t8" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t8" type="ADV"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="doubleC_syl" id="k1" range="t5..t6"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok43" orig="." pos_stts="$." target=".">
+		<characters_orig>
+			<char_o id="o1" layout="EOL">.</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">.</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+		</characters_aligned>
+		<phonemes_target/>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+		</graphemes_target>
+		<syllables_target/>
+		<morphemes_target>
+			<mor id="m1" range="t1..t1" type="$."/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok44" orig="Nach" pos_stts="APPR" target="Nach">
+		<characters_orig>
+			<char_o id="o1">N</char_o>
+			<char_o id="o2">a</char_o>
+			<char_o id="o3">c</char_o>
+			<char_o id="o4">h</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">N</char_t>
+			<char_t id="t2">a</char_t>
+			<char_t id="t3">c</char_t>
+			<char_t id="t4">h</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">n</phon_t>
+			<phon_t id="p2" t_range="t2">a:</phon_t>
+			<phon_t id="p3" t_range="t3..t4">x</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3..t4" type="ch"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t4" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="ADP"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok45" orig="eine" pos_stts="ART" target="eine">
+		<characters_orig>
+			<char_o id="o1">e</char_o>
+			<char_o id="o2">i</char_o>
+			<char_o id="o3">n</char_o>
+			<char_o id="o4">e</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">e</char_t>
+			<char_t id="t2">i</char_t>
+			<char_t id="t3">n</char_t>
+			<char_t id="t4">e</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1">?</phon_t>
+			<phon_t id="p2" t_range="t1..t2">aI</phon_t>
+			<phon_t id="p3" t_range="t3">n</phon_t>
+			<phon_t id="p4" t_range="t4">@</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" type="stress"/>
+			<syll id="s2" range="t3..t4" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="ART"/>
+			<mor id="m2" range="t4..t4" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="graph_comb" id="k1" range="t1..t2"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok46" orig="Weile" pos_stts="NN" target="Weile">
+		<characters_orig>
+			<char_o id="o1">W</char_o>
+			<char_o id="o2">e</char_o>
+			<char_o id="o3">i</char_o>
+			<char_o id="o4">l</char_o>
+			<char_o id="o5">e</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">W</char_t>
+			<char_t id="t2">e</char_t>
+			<char_t id="t3">i</char_t>
+			<char_t id="t4">l</char_t>
+			<char_t id="t5">e</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">v</phon_t>
+			<phon_t id="p2" t_range="t2..t3">aI</phon_t>
+			<phon_t id="p3" t_range="t4">l</phon_t>
+			<phon_t id="p4" t_range="t5">@</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+			<syll id="s2" range="t4..t5" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="V"/>
+			<mor id="m2" range="t5..t5" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="graph_comb" id="k1" range="t2..t3"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok47" orig="sind" pos_stts="VAFIN" target="sind">
+		<characters_orig>
+			<char_o id="o1">s</char_o>
+			<char_o id="o2">i</char_o>
+			<char_o id="o3">n</char_o>
+			<char_o id="o4">d</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">s</char_t>
+			<char_t id="t2">i</char_t>
+			<char_t id="t3">n</char_t>
+			<char_t id="t4">d</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">z</phon_t>
+			<phon_t id="p2" t_range="t2">I</phon_t>
+			<phon_t id="p3" t_range="t3">n</phon_t>
+			<phon_t id="p4" t_range="t4">t</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t4" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="V"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="devoice_final" id="k1" range="t4"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok48" orig="sie" pos_stts="PPER" target="sie">
+		<characters_orig>
+			<char_o id="o1">s</char_o>
+			<char_o id="o2">i</char_o>
+			<char_o id="o3">e</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">s</char_t>
+			<char_t id="t2">i</char_t>
+			<char_t id="t3">e</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">z</phon_t>
+			<phon_t id="p2" t_range="t2..t3">i:</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2..t3" type="ie"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="PPER"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="ie" id="k1" range="t2..t3"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok49" orig="angekommen" pos_stts="VVPP" target="angekommen">
+		<characters_orig>
+			<char_o id="o1">a</char_o>
+			<char_o id="o2">n</char_o>
+			<char_o id="o3">g</char_o>
+			<char_o id="o4">e</char_o>
+			<char_o id="o5">k</char_o>
+			<char_o id="o6">o</char_o>
+			<char_o id="o7">m</char_o>
+			<char_o id="o8">m</char_o>
+			<char_o id="o9">e</char_o>
+			<char_o id="o10">n</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">a</char_t>
+			<char_t id="t2">n</char_t>
+			<char_t id="t3">g</char_t>
+			<char_t id="t4">e</char_t>
+			<char_t id="t5">k</char_t>
+			<char_t id="t6">o</char_t>
+			<char_t id="t7">m</char_t>
+			<char_t id="t8">m</char_t>
+			<char_t id="t9">e</char_t>
+			<char_t id="t10">n</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+			<char_a id="a6" o_range="o6" t_range="t6"/>
+			<char_a id="a7" o_range="o7" t_range="t7"/>
+			<char_a id="a8" o_range="o8" t_range="t8"/>
+			<char_a id="a9" o_range="o9" t_range="t9"/>
+			<char_a id="a10" o_range="o10" t_range="t10"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1">?</phon_t>
+			<phon_t id="p2" t_range="t1">a</phon_t>
+			<phon_t id="p3" t_range="t2">n</phon_t>
+			<phon_t id="p4" t_range="t3">g</phon_t>
+			<phon_t id="p5" t_range="t4">@</phon_t>
+			<phon_t id="p6" t_range="t5">k</phon_t>
+			<phon_t id="p7" t_range="t6">O</phon_t>
+			<phon_t id="p8" t_range="t7..t8">m</phon_t>
+			<phon_t id="p9" t_range="t9">@</phon_t>
+			<phon_t id="p10" t_range="t10">n</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+			<gra id="g6" range="t6"/>
+			<gra id="g7" range="t7"/>
+			<gra id="g8" range="t8"/>
+			<gra id="g9" range="t9"/>
+			<gra id="g10" range="t10"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" type="stress"/>
+			<syll id="s2" range="t3..t4" type="red"/>
+			<syll id="s3" range="t5..t7" type="unstress"/>
+			<syll id="s4" range="t8..t10" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t2" type="PTKVZ"/>
+			<mor id="m2" range="t3..t4" type="PRFX"/>
+			<mor id="m3" range="t5..t8" type="V"/>
+			<mor id="m4" range="t9..t10" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="doubleC_syl" id="k1" range="t7..t8"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok50" orig="." pos_stts="$." target=".">
+		<characters_orig>
+			<char_o id="o1" layout="EOL">.</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">.</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+		</characters_aligned>
+		<phonemes_target/>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+		</graphemes_target>
+		<syllables_target/>
+		<morphemes_target>
+			<mor id="m1" range="t1..t1" type="$."/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok51" orig="Die" pos_stts="ART" target="Die">
+		<characters_orig>
+			<char_o id="o1">D</char_o>
+			<char_o id="o2">i</char_o>
+			<char_o id="o3">e</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">D</char_t>
+			<char_t id="t2">i</char_t>
+			<char_t id="t3">e</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">d</phon_t>
+			<phon_t id="p2" t_range="t2..t3">i:</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2..t3" type="ie"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t1" type="ART"/>
+			<mor id="m2" range="t2..t3" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="ie" id="k1" range="t2..t3"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok52" orig="drei" pos_stts="CARD" target="drei">
+		<characters_orig>
+			<char_o id="o1">d</char_o>
+			<char_o id="o2">r</char_o>
+			<char_o id="o3">e</char_o>
+			<char_o id="o4">i</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">d</char_t>
+			<char_t id="t2">r</char_t>
+			<char_t id="t3">e</char_t>
+			<char_t id="t4">i</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">d</phon_t>
+			<phon_t id="p2" t_range="t2">r</phon_t>
+			<phon_t id="p3" t_range="t3..t4">aI</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t4" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="CARD"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="graph_comb" id="k1" range="t3..t4"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok53" orig="gingen" pos_stts="VVFIN" target="gingen">
+		<characters_orig>
+			<char_o id="o1">g</char_o>
+			<char_o id="o2">i</char_o>
+			<char_o id="o3">n</char_o>
+			<char_o id="o4">g</char_o>
+			<char_o id="o5">e</char_o>
+			<char_o id="o6">n</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">g</char_t>
+			<char_t id="t2">i</char_t>
+			<char_t id="t3">n</char_t>
+			<char_t id="t4">g</char_t>
+			<char_t id="t5">e</char_t>
+			<char_t id="t6">n</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+			<char_a id="a6" o_range="o6" t_range="t6"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">g</phon_t>
+			<phon_t id="p2" t_range="t2">I</phon_t>
+			<phon_t id="p3" t_range="t3..t4">N</phon_t>
+			<phon_t id="p4" t_range="t5">@</phon_t>
+			<phon_t id="p5" t_range="t6">n</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+			<gra id="g6" range="t6"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+			<syll id="s2" range="t4..t6" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="V"/>
+			<mor id="m2" range="t5..t6" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok54" orig="in" pos_stts="APPR" target="in">
+		<characters_orig>
+			<char_o id="o1">i</char_o>
+			<char_o id="o2">n</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">i</char_t>
+			<char_t id="t2">n</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1">?</phon_t>
+			<phon_t id="p2" t_range="t1">I</phon_t>
+			<phon_t id="p3" t_range="t2">n</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t2" type="ADP"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok55" orig="ihre" pos_stts="PPOSAT" target="ihre">
+		<characters_orig>
+			<char_o id="o1">i</char_o>
+			<char_o id="o2">h</char_o>
+			<char_o id="o3">r</char_o>
+			<char_o id="o4">e</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">i</char_t>
+			<char_t id="t2">h</char_t>
+			<char_t id="t3">r</char_t>
+			<char_t id="t4">e</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1">?</phon_t>
+			<phon_t id="p2" t_range="t1..t2">i:</phon_t>
+			<phon_t id="p3" t_range="t3">r</phon_t>
+			<phon_t id="p4" t_range="t4">@</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" type="stress"/>
+			<syll id="s2" range="t3..t4" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="PPOS"/>
+			<mor id="m2" range="t4..t4" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="h_length" id="k1" range="t1..t2"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok56" orig="klasse" pos_stts="NN" target="Klasse">
+		<characters_orig>
+			<char_o id="o1">k</char_o>
+			<char_o id="o2">l</char_o>
+			<char_o id="o3">a</char_o>
+			<char_o id="o4">s</char_o>
+			<char_o id="o5">s</char_o>
+			<char_o id="o6">e</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">K</char_t>
+			<char_t id="t2">l</char_t>
+			<char_t id="t3">a</char_t>
+			<char_t id="t4">s</char_t>
+			<char_t id="t5">s</char_t>
+			<char_t id="t6">e</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+			<char_a id="a6" o_range="o6" t_range="t6"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">k</phon_t>
+			<phon_t id="p2" t_range="t2">l</phon_t>
+			<phon_t id="p3" t_range="t3">a</phon_t>
+			<phon_t id="p4" t_range="t4..t5">s</phon_t>
+			<phon_t id="p5" t_range="t6">@</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+			<gra id="g6" range="t6"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t4" syl_leg="true" type="stress"/>
+			<syll id="s2" range="t5..t6" syl_leg="true" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t6" type="NN"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="doubleC_syl" id="k1" range="t4..t5"/>
+		</key_orthographic_features>
+		<errors>
+			<err cat_fine="low_up" cat_kof="other" cat_short="low_up" id="e1" level="SN" morph_const="na" pronc_ok="true" range="a1"/>
+		</errors>
+	</token>
+	<token id="tok57" orig="und" pos_stts="KON" target="und">
+		<characters_orig>
+			<char_o id="o1">u</char_o>
+			<char_o id="o2">n</char_o>
+			<char_o id="o3" layout="EOL">d</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">u</char_t>
+			<char_t id="t2">n</char_t>
+			<char_t id="t3">d</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1">?</phon_t>
+			<phon_t id="p2" t_range="t1">U</phon_t>
+			<phon_t id="p3" t_range="t2">n</phon_t>
+			<phon_t id="p4" t_range="t3">t</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="KON"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="devoice_final" id="k1" range="t3"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok58" orig="saßen" pos_stts="VVFIN" target="saßen">
+		<characters_orig>
+			<char_o id="o1">s</char_o>
+			<char_o id="o2">a</char_o>
+			<char_o id="o3">ß</char_o>
+			<char_o id="o4">e</char_o>
+			<char_o id="o5">n</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">s</char_t>
+			<char_t id="t2">a</char_t>
+			<char_t id="t3">ß</char_t>
+			<char_t id="t4">e</char_t>
+			<char_t id="t5">n</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">z</phon_t>
+			<phon_t id="p2" t_range="t2">a:</phon_t>
+			<phon_t id="p3" t_range="t3">s</phon_t>
+			<phon_t id="p4" t_range="t4">@</phon_t>
+			<phon_t id="p5" t_range="t5">n</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" type="stress"/>
+			<syll id="s2" range="t3..t5" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="V"/>
+			<mor id="m2" range="t4..t5" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="schwa_silent" id="k1" range="t4"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok59" orig="sich" pos_stts="PRF" target="sich">
+		<characters_orig>
+			<char_o id="o1">s</char_o>
+			<char_o id="o2">i</char_o>
+			<char_o id="o3">c</char_o>
+			<char_o id="o4">h</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">s</char_t>
+			<char_t id="t2">i</char_t>
+			<char_t id="t3">c</char_t>
+			<char_t id="t4">h</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">z</phon_t>
+			<phon_t id="p2" t_range="t2">I</phon_t>
+			<phon_t id="p3" t_range="t3..t4">C</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3..t4" type="ch"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t4" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="PRF"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok60" orig="hin" pos_stts="PTKVZ" target="hin">
+		<characters_orig>
+			<char_o id="o1">h</char_o>
+			<char_o id="o2">i</char_o>
+			<char_o id="o3">n</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">h</char_t>
+			<char_t id="t2">i</char_t>
+			<char_t id="t3">n</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">h</phon_t>
+			<phon_t id="p2" t_range="t2">I</phon_t>
+			<phon_t id="p3" t_range="t3">n</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="PTKVZ"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok61" orig="." pos_stts="$." target=".">
+		<characters_orig>
+			<char_o id="o1">.</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">.</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+		</characters_aligned>
+		<phonemes_target/>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+		</graphemes_target>
+		<syllables_target/>
+		<morphemes_target>
+			<mor id="m1" range="t1..t1" type="$."/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok62" orig="Die" pos_stts="ART" target="Die">
+		<characters_orig>
+			<char_o id="o1">D</char_o>
+			<char_o id="o2">i</char_o>
+			<char_o id="o3">e</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">D</char_t>
+			<char_t id="t2">i</char_t>
+			<char_t id="t3">e</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">d</phon_t>
+			<phon_t id="p2" t_range="t2..t3">i:</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2..t3" type="ie"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t1" type="ART"/>
+			<mor id="m2" range="t2..t3" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="ie" id="k1" range="t2..t3"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok63" orig="Lehrerin" pos_stts="NN" target="Lehrerin">
+		<characters_orig>
+			<char_o id="o1">L</char_o>
+			<char_o id="o2">e</char_o>
+			<char_o id="o3">h</char_o>
+			<char_o id="o4">r</char_o>
+			<char_o id="o5">e</char_o>
+			<char_o id="o6">r</char_o>
+			<char_o id="o7">i</char_o>
+			<char_o id="o8">n</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">L</char_t>
+			<char_t id="t2">e</char_t>
+			<char_t id="t3">h</char_t>
+			<char_t id="t4">r</char_t>
+			<char_t id="t5">e</char_t>
+			<char_t id="t6">r</char_t>
+			<char_t id="t7">i</char_t>
+			<char_t id="t8">n</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+			<char_a id="a6" o_range="o6" t_range="t6"/>
+			<char_a id="a7" o_range="o7" t_range="t7"/>
+			<char_a id="a8" o_range="o8" t_range="t8"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">l</phon_t>
+			<phon_t id="p2" t_range="t2..t3">e:</phon_t>
+			<phon_t id="p3" t_range="t4">r</phon_t>
+			<phon_t id="p4" t_range="t5">@</phon_t>
+			<phon_t id="p5" t_range="t6">r</phon_t>
+			<phon_t id="p6" t_range="t7">I</phon_t>
+			<phon_t id="p7" t_range="t8">n</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+			<gra id="g6" range="t6"/>
+			<gra id="g7" range="t7"/>
+			<gra id="g8" range="t8"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+			<syll id="s2" range="t4..t5" type="red"/>
+			<syll id="s3" range="t6..t8" type="unstress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="V"/>
+			<mor id="m2" range="t5..t6" type="SFX"/>
+			<mor id="m3" range="t7..t8" type="SFX"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="h_length" id="k1" range="t2..t3"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok64" orig="war" pos_stts="VAFIN" target="war">
+		<characters_orig>
+			<char_o id="o1">w</char_o>
+			<char_o id="o2">a</char_o>
+			<char_o id="o3">r</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">w</char_t>
+			<char_t id="t2">a</char_t>
+			<char_t id="t3">r</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">v</phon_t>
+			<phon_t id="p2" t_range="t2">a:</phon_t>
+			<phon_t id="p3" t_range="t3">r</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="V"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="r_voc" id="k1" range="t2..t3"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok65" orig="noch" pos_stts="ADV" target="noch">
+		<characters_orig>
+			<char_o id="o1">n</char_o>
+			<char_o id="o2">o</char_o>
+			<char_o id="o3">c</char_o>
+			<char_o id="o4" layout="EOL">h</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">n</char_t>
+			<char_t id="t2">o</char_t>
+			<char_t id="t3">c</char_t>
+			<char_t id="t4">h</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">n</phon_t>
+			<phon_t id="p2" t_range="t2">O</phon_t>
+			<phon_t id="p3" t_range="t3..t4">x</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3..t4" type="ch"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t4" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="ADV"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok66" orig="nicht" pos_stts="PTKNEG" target="nicht">
+		<characters_orig>
+			<char_o id="o1">n</char_o>
+			<char_o id="o2">i</char_o>
+			<char_o id="o3">c</char_o>
+			<char_o id="o4">h</char_o>
+			<char_o id="o5">t</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">n</char_t>
+			<char_t id="t2">i</char_t>
+			<char_t id="t3">c</char_t>
+			<char_t id="t4">h</char_t>
+			<char_t id="t5">t</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">n</phon_t>
+			<phon_t id="p2" t_range="t2">I</phon_t>
+			<phon_t id="p3" t_range="t3..t4">C</phon_t>
+			<phon_t id="p4" t_range="t5">t</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3..t4" type="ch"/>
+			<gra id="g4" range="t5"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t5" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t5" type="PTKNEG"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok67" orig="da" pos_stts="ADV" target="da">
+		<characters_orig>
+			<char_o id="o1">d</char_o>
+			<char_o id="o2">a</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">d</char_t>
+			<char_t id="t2">a</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">d</phon_t>
+			<phon_t id="p2" t_range="t2">a:</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t2" type="ADV"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok68" orig="." pos_stts="$." target=".">
+		<characters_orig>
+			<char_o id="o1">.</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">.</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+		</characters_aligned>
+		<phonemes_target/>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+		</graphemes_target>
+		<syllables_target/>
+		<morphemes_target>
+			<mor id="m1" range="t1..t1" type="$."/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok69" orig="Sie" pos_stts="PPER" target="Sie">
+		<characters_orig>
+			<char_o id="o1">S</char_o>
+			<char_o id="o2">i</char_o>
+			<char_o id="o3">e</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">S</char_t>
+			<char_t id="t2">i</char_t>
+			<char_t id="t3">e</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">z</phon_t>
+			<phon_t id="p2" t_range="t2..t3">i:</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2..t3" type="ie"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="PPER"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="ie" id="k1" range="t2..t3"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok70" orig="könntn" pos_stts="VMFIN" target="könnten">
+		<characters_orig>
+			<char_o id="o1">k</char_o>
+			<char_o id="o2">ö</char_o>
+			<char_o id="o3">n</char_o>
+			<char_o id="o4">n</char_o>
+			<char_o id="o5">t</char_o>
+			<char_o id="o6">n</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">k</char_t>
+			<char_t id="t2">ö</char_t>
+			<char_t id="t3">n</char_t>
+			<char_t id="t4">n</char_t>
+			<char_t id="t5">t</char_t>
+			<char_t id="t6">e</char_t>
+			<char_t id="t7">n</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+			<char_a id="a6" t_range="t6"/>
+			<char_a id="a7" o_range="o6" t_range="t7"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">k</phon_t>
+			<phon_t id="p2" t_range="t2">9</phon_t>
+			<phon_t id="p3" t_range="t3..t4">n</phon_t>
+			<phon_t id="p4" t_range="t5">t</phon_t>
+			<phon_t id="p5" t_range="t6">@</phon_t>
+			<phon_t id="p6" t_range="t7">n</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+			<gra id="g6" range="t6"/>
+			<gra id="g7" range="t7"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t4" syl_leg="true" type="stress"/>
+			<syll id="s2" range="t5..t7" syl_leg="miss" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="V"/>
+			<mor id="m2" range="t5..t7" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="doubleC_syl" id="k1" range="t3..t4"/>
+			<kof cat="schwa_silent" id="k2" range="t6"/>
+		</key_orthographic_features>
+		<errors>
+			<err cat_fine="schwa" cat_kof="schwa_silent" cat_short="schwa" id="e1" level="SL" morph_const="neces" pronc_ok="true" range="a6"/>
+		</errors>
+	</token>
+	<token id="tok71" orig="ein" pos_stts="ART" target="ein">
+		<characters_orig>
+			<char_o id="o1">e</char_o>
+			<char_o id="o2">i</char_o>
+			<char_o id="o3" layout="EOL">n</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">e</char_t>
+			<char_t id="t2">i</char_t>
+			<char_t id="t3">n</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1">?</phon_t>
+			<phon_t id="p2" t_range="t1..t2">aI</phon_t>
+			<phon_t id="p3" t_range="t3">n</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="ART"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="graph_comb" id="k1" range="t1..t2"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok72" orig="bisschen" pos_stts="PIS" target="bisschen">
+		<characters_orig>
+			<char_o id="o1">b</char_o>
+			<char_o id="o2">i</char_o>
+			<char_o id="o3">s</char_o>
+			<char_o id="o4">s</char_o>
+			<char_o id="o5">c</char_o>
+			<char_o id="o6">h</char_o>
+			<char_o id="o7">e</char_o>
+			<char_o id="o8">n</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">b</char_t>
+			<char_t id="t2">i</char_t>
+			<char_t id="t3">s</char_t>
+			<char_t id="t4">s</char_t>
+			<char_t id="t5">c</char_t>
+			<char_t id="t6">h</char_t>
+			<char_t id="t7">e</char_t>
+			<char_t id="t8">n</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+			<char_a id="a6" o_range="o6" t_range="t6"/>
+			<char_a id="a7" o_range="o7" t_range="t7"/>
+			<char_a id="a8" o_range="o8" t_range="t8"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">b</phon_t>
+			<phon_t id="p2" t_range="t2">I</phon_t>
+			<phon_t id="p3" t_range="t3..t4">s</phon_t>
+			<phon_t id="p4" t_range="t5..t6">C</phon_t>
+			<phon_t id="p5" t_range="t7">@</phon_t>
+			<phon_t id="p6" t_range="t8">n</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5..t6" type="ch"/>
+			<gra id="g6" range="t7"/>
+			<gra id="g7" range="t8"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t4" type="stress"/>
+			<syll id="s2" range="t5..t8" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t8" type="PI"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="doubleC_other" id="k1" range="t3..t4"/>
+			<kof cat="schwa_silent" id="k2" range="t7"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok73" orig="reden" pos_stts="VVFIN" target="reden">
+		<characters_orig>
+			<char_o id="o1">r</char_o>
+			<char_o id="o2">e</char_o>
+			<char_o id="o3">d</char_o>
+			<char_o id="o4">e</char_o>
+			<char_o id="o5">n</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">r</char_t>
+			<char_t id="t2">e</char_t>
+			<char_t id="t3">d</char_t>
+			<char_t id="t4">e</char_t>
+			<char_t id="t5">n</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">r</phon_t>
+			<phon_t id="p2" t_range="t2">e:</phon_t>
+			<phon_t id="p3" t_range="t3">d</phon_t>
+			<phon_t id="p4" t_range="t4">@</phon_t>
+			<phon_t id="p5" t_range="t5">n</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" type="stress"/>
+			<syll id="s2" range="t3..t5" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="V"/>
+			<mor id="m2" range="t4..t5" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="schwa_silent" id="k1" range="t4"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok74" orig="." pos_stts="$." target=".">
+		<characters_orig>
+			<char_o id="o1">.</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">.</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+		</characters_aligned>
+		<phonemes_target/>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+		</graphemes_target>
+		<syllables_target/>
+		<morphemes_target>
+			<mor id="m1" range="t1..t1" type="$."/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok75" orig="Nach" pos_stts="APPR" target="Nach">
+		<characters_orig>
+			<char_o id="o1">N</char_o>
+			<char_o id="o2">a</char_o>
+			<char_o id="o3">c</char_o>
+			<char_o id="o4">h</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">N</char_t>
+			<char_t id="t2">a</char_t>
+			<char_t id="t3">c</char_t>
+			<char_t id="t4">h</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">n</phon_t>
+			<phon_t id="p2" t_range="t2">a:</phon_t>
+			<phon_t id="p3" t_range="t3..t4">x</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3..t4" type="ch"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t4" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="ADP"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok76" orig="paar" pos_stts="PIAT" target="paar">
+		<characters_orig>
+			<char_o id="o1">p</char_o>
+			<char_o id="o2">a</char_o>
+			<char_o id="o3">a</char_o>
+			<char_o id="o4">r</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">p</char_t>
+			<char_t id="t2">a</char_t>
+			<char_t id="t3">a</char_t>
+			<char_t id="t4">r</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">p</phon_t>
+			<phon_t id="p2" t_range="t2..t3">a:</phon_t>
+			<phon_t id="p3" t_range="t4">r</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t4" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="PI"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="doubleV" id="k1" range="t2..t3"/>
+			<kof cat="r_voc" id="k2" range="t2..t4"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok77" irreg_struct="true" orig="Minuten" pos_stts="NN" target="Minuten">
+		<characters_orig>
+			<char_o id="o1">M</char_o>
+			<char_o id="o2">i</char_o>
+			<char_o id="o3">n</char_o>
+			<char_o id="o4">u</char_o>
+			<char_o id="o5">t</char_o>
+			<char_o id="o6">e</char_o>
+			<char_o id="o7" layout="EOL">n</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">M</char_t>
+			<char_t id="t2">i</char_t>
+			<char_t id="t3">n</char_t>
+			<char_t id="t4">u</char_t>
+			<char_t id="t5">t</char_t>
+			<char_t id="t6">e</char_t>
+			<char_t id="t7">n</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+			<char_a id="a6" o_range="o6" t_range="t6"/>
+			<char_a id="a7" o_range="o7" t_range="t7"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">m</phon_t>
+			<phon_t id="p2" t_range="t2">i</phon_t>
+			<phon_t id="p3" t_range="t3">n</phon_t>
+			<phon_t id="p4" t_range="t4">u:</phon_t>
+			<phon_t id="p5" t_range="t5">t</phon_t>
+			<phon_t id="p6" t_range="t6">@</phon_t>
+			<phon_t id="p7" t_range="t7">n</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+			<gra id="g6" range="t6"/>
+			<gra id="g7" range="t7"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" type="unstress"/>
+			<syll id="s2" range="t3..t4" type="stress"/>
+			<syll id="s3" range="t5..t7" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t6" type="NN"/>
+			<mor id="m2" range="t7..t7" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="schwa_silent" id="k1" range="t6"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok78" orig="kam" pos_stts="VVFIN" target="kam">
+		<characters_orig>
+			<char_o id="o1">k</char_o>
+			<char_o id="o2">a</char_o>
+			<char_o id="o3">m</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">k</char_t>
+			<char_t id="t2">a</char_t>
+			<char_t id="t3">m</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">k</phon_t>
+			<phon_t id="p2" t_range="t2">a:</phon_t>
+			<phon_t id="p3" t_range="t3">m</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="V"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok79" orig="die" pos_stts="ART" target="die">
+		<characters_orig>
+			<char_o id="o1">d</char_o>
+			<char_o id="o2">i</char_o>
+			<char_o id="o3">e</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">d</char_t>
+			<char_t id="t2">i</char_t>
+			<char_t id="t3">e</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">d</phon_t>
+			<phon_t id="p2" t_range="t2..t3">i:</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2..t3" type="ie"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t1" type="ART"/>
+			<mor id="m2" range="t2..t3" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="ie" id="k1" range="t2..t3"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok80" orig="Lehrerin" pos_stts="NN" target="Lehrerin">
+		<characters_orig>
+			<char_o id="o1">L</char_o>
+			<char_o id="o2">e</char_o>
+			<char_o id="o3">h</char_o>
+			<char_o id="o4">r</char_o>
+			<char_o id="o5">e</char_o>
+			<char_o id="o6">r</char_o>
+			<char_o id="o7">i</char_o>
+			<char_o id="o8">n</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">L</char_t>
+			<char_t id="t2">e</char_t>
+			<char_t id="t3">h</char_t>
+			<char_t id="t4">r</char_t>
+			<char_t id="t5">e</char_t>
+			<char_t id="t6">r</char_t>
+			<char_t id="t7">i</char_t>
+			<char_t id="t8">n</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+			<char_a id="a6" o_range="o6" t_range="t6"/>
+			<char_a id="a7" o_range="o7" t_range="t7"/>
+			<char_a id="a8" o_range="o8" t_range="t8"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">l</phon_t>
+			<phon_t id="p2" t_range="t2..t3">e:</phon_t>
+			<phon_t id="p3" t_range="t4">r</phon_t>
+			<phon_t id="p4" t_range="t5">@</phon_t>
+			<phon_t id="p5" t_range="t6">r</phon_t>
+			<phon_t id="p6" t_range="t7">I</phon_t>
+			<phon_t id="p7" t_range="t8">n</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+			<gra id="g6" range="t6"/>
+			<gra id="g7" range="t7"/>
+			<gra id="g8" range="t8"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+			<syll id="s2" range="t4..t5" type="red"/>
+			<syll id="s3" range="t6..t8" type="unstress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="V"/>
+			<mor id="m2" range="t5..t6" type="SFX"/>
+			<mor id="m3" range="t7..t8" type="SFX"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="h_length" id="k1" range="t2..t3"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok81" orig="." pos_stts="$." target=".">
+		<characters_orig>
+			<char_o id="o1">.</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">.</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+		</characters_aligned>
+		<phonemes_target/>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+		</graphemes_target>
+		<syllables_target/>
+		<morphemes_target>
+			<mor id="m1" range="t1..t1" type="$."/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok82" irreg_struct="true" orig="Zu_erst" pos_stts="ADV" realword="true" target="Zuerst">
+		<characters_orig>
+			<char_o id="o1">Z</char_o>
+			<char_o id="o2">u</char_o>
+			<char_o id="o3">_</char_o>
+			<char_o id="o4">e</char_o>
+			<char_o id="o5">r</char_o>
+			<char_o id="o6">s</char_o>
+			<char_o id="o7">t</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">Z</char_t>
+			<char_t id="t2">u</char_t>
+			<char_t id="t3">e</char_t>
+			<char_t id="t4">r</char_t>
+			<char_t id="t5">s</char_t>
+			<char_t id="t6">t</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3"/>
+			<char_a id="a4" o_range="o4" t_range="t3"/>
+			<char_a id="a5" o_range="o5" t_range="t4"/>
+			<char_a id="a6" o_range="o6" t_range="t5"/>
+			<char_a id="a7" o_range="o7" t_range="t6"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">ts</phon_t>
+			<phon_t id="p2" t_range="t2">u:</phon_t>
+			<phon_t id="p3">?</phon_t>
+			<phon_t id="p4" t_range="t3">e:</phon_t>
+			<phon_t id="p5" t_range="t4">6</phon_t>
+			<phon_t id="p6" t_range="t5">s</phon_t>
+			<phon_t id="p7" t_range="t6">t</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+			<gra id="g6" range="t6"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" syl_leg="true" type="unstress"/>
+			<syll id="s2" range="t3..t6" syl_leg="true" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t2" type="ADP"/>
+			<mor id="m2" range="t3..t6" type="ADJ"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="r_voc" id="k1" range="t3..t4"/>
+			<kof cat="devoice_final" id="k2" range="t5"/>
+		</key_orthographic_features>
+		<errors>
+			<err cat_fine="merge" cat_kof="other" cat_short="merge" id="e1" level="SN" morph_const="na" pronc_ok="true" range="a3"/>
+		</errors>
+	</token>
+	<token id="tok83" orig="haben" pos_stts="VAFIN" target="haben">
+		<characters_orig>
+			<char_o id="o1">h</char_o>
+			<char_o id="o2">a</char_o>
+			<char_o id="o3">b</char_o>
+			<char_o id="o4">e</char_o>
+			<char_o id="o5">n</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">h</char_t>
+			<char_t id="t2">a</char_t>
+			<char_t id="t3">b</char_t>
+			<char_t id="t4">e</char_t>
+			<char_t id="t5">n</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">h</phon_t>
+			<phon_t id="p2" t_range="t2">a:</phon_t>
+			<phon_t id="p3" t_range="t3">b</phon_t>
+			<phon_t id="p4" t_range="t4">@</phon_t>
+			<phon_t id="p5" t_range="t5">n</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" type="stress"/>
+			<syll id="s2" range="t3..t5" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="V"/>
+			<mor id="m2" range="t4..t5" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="schwa_silent" id="k1" range="t4"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok84" orig="sie" pos_stts="PPER" target="sie">
+		<characters_orig>
+			<char_o id="o1">s</char_o>
+			<char_o id="o2">i</char_o>
+			<char_o id="o3" layout="EOL">e</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">s</char_t>
+			<char_t id="t2">i</char_t>
+			<char_t id="t3">e</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">z</phon_t>
+			<phon_t id="p2" t_range="t2..t3">i:</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2..t3" type="ie"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="PPER"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="ie" id="k1" range="t2..t3"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok85" orig="Mathe" pos_stts="NN" target="Mathe">
+		<characters_orig>
+			<char_o id="o1">M</char_o>
+			<char_o id="o2">a</char_o>
+			<char_o id="o3">t</char_o>
+			<char_o id="o4">h</char_o>
+			<char_o id="o5">e</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">M</char_t>
+			<char_t id="t2">a</char_t>
+			<char_t id="t3">t</char_t>
+			<char_t id="t4">h</char_t>
+			<char_t id="t5">e</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">m</phon_t>
+			<phon_t id="p2" t_range="t2">a</phon_t>
+			<phon_t id="p3" t_range="t3..t4">t</phon_t>
+			<phon_t id="p4" t_range="t5">@</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" type="stress"/>
+			<syll id="s2" range="t3..t5" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t5" type="NN"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="graph_marked" id="k1" range="t3..t4"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok86" orig="gemacht" pos_stts="VVPP" target="gemacht">
+		<characters_orig>
+			<char_o id="o1">g</char_o>
+			<char_o id="o2">e</char_o>
+			<char_o id="o3">m</char_o>
+			<char_o id="o4">a</char_o>
+			<char_o id="o5">c</char_o>
+			<char_o id="o6">h</char_o>
+			<char_o id="o7">t</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">g</char_t>
+			<char_t id="t2">e</char_t>
+			<char_t id="t3">m</char_t>
+			<char_t id="t4">a</char_t>
+			<char_t id="t5">c</char_t>
+			<char_t id="t6">h</char_t>
+			<char_t id="t7">t</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+			<char_a id="a6" o_range="o6" t_range="t6"/>
+			<char_a id="a7" o_range="o7" t_range="t7"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">g</phon_t>
+			<phon_t id="p2" t_range="t2">@</phon_t>
+			<phon_t id="p3" t_range="t3">m</phon_t>
+			<phon_t id="p4" t_range="t4">a</phon_t>
+			<phon_t id="p5" t_range="t5..t6">x</phon_t>
+			<phon_t id="p6" t_range="t7">t</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5..t6" type="ch"/>
+			<gra id="g6" range="t7"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" type="red"/>
+			<syll id="s2" range="t3..t7" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t2" type="PRFX"/>
+			<mor id="m2" range="t3..t6" type="V"/>
+			<mor id="m3" range="t7..t7" type="SFX"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok87" orig="." pos_stts="$." target=".">
+		<characters_orig>
+			<char_o id="o1">.</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">.</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+		</characters_aligned>
+		<phonemes_target/>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+		</graphemes_target>
+		<syllables_target/>
+		<morphemes_target>
+			<mor id="m1" range="t1..t1" type="$."/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok88" orig="Die" pos_stts="ART" target="Die">
+		<characters_orig>
+			<char_o id="o1">D</char_o>
+			<char_o id="o2">i</char_o>
+			<char_o id="o3">e</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">D</char_t>
+			<char_t id="t2">i</char_t>
+			<char_t id="t3">e</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">d</phon_t>
+			<phon_t id="p2" t_range="t2..t3">i:</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2..t3" type="ie"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t1" type="ART"/>
+			<mor id="m2" range="t2..t3" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="ie" id="k1" range="t2..t3"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok89" orig="Lehrerin" pos_stts="NN" target="Lehrerin">
+		<characters_orig>
+			<char_o id="o1">L</char_o>
+			<char_o id="o2">e</char_o>
+			<char_o id="o3">h</char_o>
+			<char_o id="o4">r</char_o>
+			<char_o id="o5">e</char_o>
+			<char_o id="o6">r</char_o>
+			<char_o id="o7">i</char_o>
+			<char_o id="o8">n</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">L</char_t>
+			<char_t id="t2">e</char_t>
+			<char_t id="t3">h</char_t>
+			<char_t id="t4">r</char_t>
+			<char_t id="t5">e</char_t>
+			<char_t id="t6">r</char_t>
+			<char_t id="t7">i</char_t>
+			<char_t id="t8">n</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+			<char_a id="a6" o_range="o6" t_range="t6"/>
+			<char_a id="a7" o_range="o7" t_range="t7"/>
+			<char_a id="a8" o_range="o8" t_range="t8"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">l</phon_t>
+			<phon_t id="p2" t_range="t2..t3">e:</phon_t>
+			<phon_t id="p3" t_range="t4">r</phon_t>
+			<phon_t id="p4" t_range="t5">@</phon_t>
+			<phon_t id="p5" t_range="t6">r</phon_t>
+			<phon_t id="p6" t_range="t7">I</phon_t>
+			<phon_t id="p7" t_range="t8">n</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+			<gra id="g6" range="t6"/>
+			<gra id="g7" range="t7"/>
+			<gra id="g8" range="t8"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+			<syll id="s2" range="t4..t5" type="red"/>
+			<syll id="s3" range="t6..t8" type="unstress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="V"/>
+			<mor id="m2" range="t5..t6" type="SFX"/>
+			<mor id="m3" range="t7..t8" type="SFX"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="h_length" id="k1" range="t2..t3"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok90" orig="die" pos_stts="ART" target="die">
+		<characters_orig>
+			<char_o id="o1">d</char_o>
+			<char_o id="o2">i</char_o>
+			<char_o id="o3" layout="EOL">e</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">d</char_t>
+			<char_t id="t2">i</char_t>
+			<char_t id="t3">e</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">d</phon_t>
+			<phon_t id="p2" t_range="t2..t3">i:</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2..t3" type="ie"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t1" type="ART"/>
+			<mor id="m2" range="t2..t3" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="ie" id="k1" range="t2..t3"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok91" orig="Bläter" pos_stts="NN" target="Blätter">
+		<characters_orig>
+			<char_o id="o1">B</char_o>
+			<char_o id="o2">l</char_o>
+			<char_o id="o3">ä</char_o>
+			<char_o id="o4">t</char_o>
+			<char_o id="o5">e</char_o>
+			<char_o id="o6">r</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">B</char_t>
+			<char_t id="t2">l</char_t>
+			<char_t id="t3">ä</char_t>
+			<char_t id="t4">t</char_t>
+			<char_t id="t5">t</char_t>
+			<char_t id="t6">e</char_t>
+			<char_t id="t7">r</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4..t5"/>
+			<char_a id="a5" o_range="o5" t_range="t6"/>
+			<char_a id="a6" o_range="o6" t_range="t7"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">b</phon_t>
+			<phon_t id="p2" t_range="t2">l</phon_t>
+			<phon_t id="p3" t_range="t3">E</phon_t>
+			<phon_t id="p4" t_range="t4..t5">t</phon_t>
+			<phon_t id="p5" t_range="t6..t7">6</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+			<gra id="g6" range="t6"/>
+			<gra id="g7" range="t7"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t4" syl_leg="true" type="stress"/>
+			<syll id="s2" range="t5..t7" syl_leg="true" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t5" type="NN"/>
+			<mor id="m2" range="t6..t7" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="graph_marked" id="k1" range="t3"/>
+			<kof cat="doubleC_syl" id="k2" range="t4..t5"/>
+			<kof cat="r_voc" id="k3" range="t6..t7"/>
+		</key_orthographic_features>
+		<errors>
+			<err cat_fine="Cdouble_interV" cat_kof="doubleC_syl" cat_short="CC_interV" id="e1" level="SL" morph_const="ref" pronc_ok="false" range="a4"/>
+		</errors>
+	</token>
+	<token id="tok92" orig="ausgetelt" pos_stts="VVPP" target="ausgeteilt">
+		<characters_orig>
+			<char_o id="o1">a</char_o>
+			<char_o id="o2">u</char_o>
+			<char_o id="o3">s</char_o>
+			<char_o id="o4">g</char_o>
+			<char_o id="o5">e</char_o>
+			<char_o id="o6">t</char_o>
+			<char_o id="o7">e</char_o>
+			<char_o id="o8">l</char_o>
+			<char_o id="o9">t</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">a</char_t>
+			<char_t id="t2">u</char_t>
+			<char_t id="t3">s</char_t>
+			<char_t id="t4">g</char_t>
+			<char_t id="t5">e</char_t>
+			<char_t id="t6">t</char_t>
+			<char_t id="t7">e</char_t>
+			<char_t id="t8">i</char_t>
+			<char_t id="t9">l</char_t>
+			<char_t id="t10">t</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+			<char_a id="a6" o_range="o6" t_range="t6"/>
+			<char_a id="a7" o_range="o7" t_range="t7..t8"/>
+			<char_a id="a8" o_range="o8" t_range="t9"/>
+			<char_a id="a9" o_range="o9" t_range="t10"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1">?</phon_t>
+			<phon_t id="p2" t_range="t1..t2">aU</phon_t>
+			<phon_t id="p3" t_range="t3">s</phon_t>
+			<phon_t id="p4" t_range="t4">g</phon_t>
+			<phon_t id="p5" t_range="t5">@</phon_t>
+			<phon_t id="p6" t_range="t6">t</phon_t>
+			<phon_t id="p7" t_range="t7..t8">aI</phon_t>
+			<phon_t id="p8" t_range="t9">l</phon_t>
+			<phon_t id="p9" t_range="t10">t</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+			<gra id="g6" range="t6"/>
+			<gra id="g7" range="t7"/>
+			<gra id="g8" range="t8"/>
+			<gra id="g9" range="t9"/>
+			<gra id="g10" range="t10"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" syl_leg="true" type="stress"/>
+			<syll id="s2" range="t4..t5" syl_leg="true" type="red"/>
+			<syll id="s3" range="t6..t10" syl_leg="true" type="unstress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="PTKVZ"/>
+			<mor id="m2" range="t4..t5" type="PRFX"/>
+			<mor id="m3" range="t6..t9" type="NN"/>
+			<mor id="m4" range="t10..t10" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="graph_comb" id="k1" range="t1..t2"/>
+			<kof cat="devoice_final" id="k2" range="t3"/>
+			<kof cat="graph_comb" id="k3" range="t7..t8"/>
+		</key_orthographic_features>
+		<errors>
+			<err cat_fine="ins_V" cat_kof="other" cat_short="ins_V" id="e1" level="PGIII" morph_const="na" pronc_ok="false" range="a7"/>
+		</errors>
+	</token>
+	<token id="tok93" orig="." pos_stts="$." target=".">
+		<characters_orig>
+			<char_o id="o1">.</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">.</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+		</characters_aligned>
+		<phonemes_target/>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+		</graphemes_target>
+		<syllables_target/>
+		<morphemes_target>
+			<mor id="m1" range="t1..t1" type="$."/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok94" irreg_struct="true" orig="Lea" pos_stts="NE" target="Lea">
+		<characters_orig>
+			<char_o id="o1">L</char_o>
+			<char_o id="o2">e</char_o>
+			<char_o id="o3">a</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">L</char_t>
+			<char_t id="t2">e</char_t>
+			<char_t id="t3">a</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">l</phon_t>
+			<phon_t id="p2" t_range="t2">e:</phon_t>
+			<phon_t id="p3" t_range="t3">a</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" type="stress"/>
+			<syll id="s2" range="t3..t3" type="unstress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="NE"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok95" orig="hat" pos_stts="VAFIN" target="hat">
+		<characters_orig>
+			<char_o id="o1">h</char_o>
+			<char_o id="o2">a</char_o>
+			<char_o id="o3">t</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">h</char_t>
+			<char_t id="t2">a</char_t>
+			<char_t id="t3">t</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">h</phon_t>
+			<phon_t id="p2" t_range="t2">a</phon_t>
+			<phon_t id="p3" t_range="t3">t</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="V"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok96" irreg_struct="true" orig="drekt" pos_stts="ADJD" target="direkt">
+		<characters_orig>
+			<char_o id="o1">d</char_o>
+			<char_o id="o2">r</char_o>
+			<char_o id="o3">e</char_o>
+			<char_o id="o4">k</char_o>
+			<char_o id="o5" layout="EOL">t</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">d</char_t>
+			<char_t id="t2">i</char_t>
+			<char_t id="t3">r</char_t>
+			<char_t id="t4">e</char_t>
+			<char_t id="t5">k</char_t>
+			<char_t id="t6">t</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" t_range="t2"/>
+			<char_a id="a3" o_range="o2" t_range="t3"/>
+			<char_a id="a4" o_range="o3" t_range="t4"/>
+			<char_a id="a5" o_range="o4" t_range="t5"/>
+			<char_a id="a6" o_range="o5" t_range="t6"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">d</phon_t>
+			<phon_t id="p2" t_range="t2">i</phon_t>
+			<phon_t id="p3" t_range="t3">r</phon_t>
+			<phon_t id="p4" t_range="t4">E</phon_t>
+			<phon_t id="p5" t_range="t5">k</phon_t>
+			<phon_t id="p6" t_range="t6">t</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+			<gra id="g6" range="t6"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" syl_leg="miss" type="unstress"/>
+			<syll id="s2" range="t3..t6" syl_leg="true" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t6" type="ADJ"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors>
+			<err cat_fine="ins_V" cat_kof="other" cat_short="ins_V" id="e1" level="PGIII" morph_const="na" pronc_ok="false" range="a2"/>
+		</errors>
+	</token>
+	<token id="tok97" orig="an_gefangen" pos_stts="VVPP" realword="true" target="angefangen">
+		<characters_orig>
+			<char_o id="o1">a</char_o>
+			<char_o id="o2">n</char_o>
+			<char_o id="o3">_</char_o>
+			<char_o id="o4">g</char_o>
+			<char_o id="o5">e</char_o>
+			<char_o id="o6">f</char_o>
+			<char_o id="o7">a</char_o>
+			<char_o id="o8">n</char_o>
+			<char_o id="o9">g</char_o>
+			<char_o id="o10">e</char_o>
+			<char_o id="o11">n</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">a</char_t>
+			<char_t id="t2">n</char_t>
+			<char_t id="t3">g</char_t>
+			<char_t id="t4">e</char_t>
+			<char_t id="t5">f</char_t>
+			<char_t id="t6">a</char_t>
+			<char_t id="t7">n</char_t>
+			<char_t id="t8">g</char_t>
+			<char_t id="t9">e</char_t>
+			<char_t id="t10">n</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3"/>
+			<char_a id="a4" o_range="o4" t_range="t3"/>
+			<char_a id="a5" o_range="o5" t_range="t4"/>
+			<char_a id="a6" o_range="o6" t_range="t5"/>
+			<char_a id="a7" o_range="o7" t_range="t6"/>
+			<char_a id="a8" o_range="o8" t_range="t7"/>
+			<char_a id="a9" o_range="o9" t_range="t8"/>
+			<char_a id="a10" o_range="o10" t_range="t9"/>
+			<char_a id="a11" o_range="o11" t_range="t10"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1">?</phon_t>
+			<phon_t id="p2" t_range="t1">a</phon_t>
+			<phon_t id="p3" t_range="t2">n</phon_t>
+			<phon_t id="p4" t_range="t3">g</phon_t>
+			<phon_t id="p5" t_range="t4">@</phon_t>
+			<phon_t id="p6" t_range="t5">f</phon_t>
+			<phon_t id="p7" t_range="t6">a</phon_t>
+			<phon_t id="p8" t_range="t7..t8">N</phon_t>
+			<phon_t id="p9" t_range="t9">@</phon_t>
+			<phon_t id="p10" t_range="t10">n</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+			<gra id="g6" range="t6"/>
+			<gra id="g7" range="t7"/>
+			<gra id="g8" range="t8"/>
+			<gra id="g9" range="t9"/>
+			<gra id="g10" range="t10"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" syl_leg="true" type="stress"/>
+			<syll id="s2" range="t3..t4" syl_leg="true" type="red"/>
+			<syll id="s3" range="t5..t7" syl_leg="true" type="unstress"/>
+			<syll id="s4" range="t8..t10" syl_leg="true" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t2" type="PTKVZ"/>
+			<mor id="m2" range="t3..t4" type="PRFX"/>
+			<mor id="m3" range="t5..t8" type="V"/>
+			<mor id="m4" range="t9..t10" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors>
+			<err cat_fine="merge" cat_kof="other" cat_short="merge" id="e1" level="SN" morph_const="na" pronc_ok="true" range="a3"/>
+		</errors>
+	</token>
+	<token id="tok98" orig="." pos_stts="$." target=".">
+		<characters_orig>
+			<char_o id="o1">.</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">.</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+		</characters_aligned>
+		<phonemes_target/>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+		</graphemes_target>
+		<syllables_target/>
+		<morphemes_target>
+			<mor id="m1" range="t1..t1" type="$."/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok99" irreg_struct="true" orig="Plötzlich" pos_stts="ADV" target="Plötzlich">
+		<characters_orig>
+			<char_o id="o1">P</char_o>
+			<char_o id="o2">l</char_o>
+			<char_o id="o3">ö</char_o>
+			<char_o id="o4">t</char_o>
+			<char_o id="o5">z</char_o>
+			<char_o id="o6">l</char_o>
+			<char_o id="o7">i</char_o>
+			<char_o id="o8">c</char_o>
+			<char_o id="o9">h</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">P</char_t>
+			<char_t id="t2">l</char_t>
+			<char_t id="t3">ö</char_t>
+			<char_t id="t4">t</char_t>
+			<char_t id="t5">z</char_t>
+			<char_t id="t6">l</char_t>
+			<char_t id="t7">i</char_t>
+			<char_t id="t8">c</char_t>
+			<char_t id="t9">h</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+			<char_a id="a6" o_range="o6" t_range="t6"/>
+			<char_a id="a7" o_range="o7" t_range="t7"/>
+			<char_a id="a8" o_range="o8" t_range="t8"/>
+			<char_a id="a9" o_range="o9" t_range="t9"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">p</phon_t>
+			<phon_t id="p2" t_range="t2">l</phon_t>
+			<phon_t id="p3" t_range="t3">9</phon_t>
+			<phon_t id="p4" t_range="t4">t</phon_t>
+			<phon_t id="p5" t_range="t5">s</phon_t>
+			<phon_t id="p6" t_range="t6">l</phon_t>
+			<phon_t id="p7" t_range="t7">I</phon_t>
+			<phon_t id="p8" t_range="t8..t9">C</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+			<gra id="g6" range="t6"/>
+			<gra id="g7" range="t7"/>
+			<gra id="g8" range="t8..t9" type="ch"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t5" type="stress"/>
+			<syll id="s2" range="t6..t9" type="unstress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t9" type="ADV"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="doubleC_other" id="k1" range="t4..t5"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok100" orig="flog" pos_stts="VVFIN" target="flog">
+		<characters_orig>
+			<char_o id="o1">f</char_o>
+			<char_o id="o2">l</char_o>
+			<char_o id="o3">o</char_o>
+			<char_o id="o4" layout="EOL">g</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">f</char_t>
+			<char_t id="t2">l</char_t>
+			<char_t id="t3">o</char_t>
+			<char_t id="t4">g</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">f</phon_t>
+			<phon_t id="p2" t_range="t2">l</phon_t>
+			<phon_t id="p3" t_range="t3">o:</phon_t>
+			<phon_t id="p4" t_range="t4">k</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t4" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="V"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="devoice_final" id="k1" range="t4"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok101" orig="ein" pos_stts="ART" target="ein">
+		<characters_orig>
+			<char_o id="o1">e</char_o>
+			<char_o id="o2">i</char_o>
+			<char_o id="o3">n</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">e</char_t>
+			<char_t id="t2">i</char_t>
+			<char_t id="t3">n</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1">?</phon_t>
+			<phon_t id="p2" t_range="t1..t2">aI</phon_t>
+			<phon_t id="p3" t_range="t3">n</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="ART"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="graph_comb" id="k1" range="t1..t2"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok102" orig="Vogel" pos_stts="NN" target="Vogel">
+		<characters_orig>
+			<char_o id="o1">V</char_o>
+			<char_o id="o2">o</char_o>
+			<char_o id="o3">g</char_o>
+			<char_o id="o4">e</char_o>
+			<char_o id="o5">l</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">V</char_t>
+			<char_t id="t2">o</char_t>
+			<char_t id="t3">g</char_t>
+			<char_t id="t4">e</char_t>
+			<char_t id="t5">l</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">f</phon_t>
+			<phon_t id="p2" t_range="t2">o:</phon_t>
+			<phon_t id="p3" t_range="t3">g</phon_t>
+			<phon_t id="p4" t_range="t4">@</phon_t>
+			<phon_t id="p5" t_range="t5">l</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" type="stress"/>
+			<syll id="s2" range="t3..t5" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t5" type="NN"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="graph_marked" id="k1" range="t1"/>
+			<kof cat="schwa_silent" id="k2" range="t4"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok103" orig="for" pos_stts="APPR" target="vor">
+		<characters_orig>
+			<char_o id="o1">f</char_o>
+			<char_o id="o2">o</char_o>
+			<char_o id="o3">r</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">v</char_t>
+			<char_t id="t2">o</char_t>
+			<char_t id="t3">r</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">f</phon_t>
+			<phon_t id="p2" t_range="t2">o:</phon_t>
+			<phon_t id="p3" t_range="t3">6</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" syl_leg="true" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="ADP"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="graph_marked" id="k1" range="t1"/>
+			<kof cat="r_voc" id="k2" range="t2..t3"/>
+		</key_orthographic_features>
+		<errors>
+			<err cat_fine="repl_unmarked_marked" cat_kof="graph_marked" cat_short="rpl_unm_mrk" id="e1" level="PGI" morph_const="na" pronc_ok="true" range="a1"/>
+		</errors>
+	</token>
+	<token id="tok104" orig="der" pos_stts="ART" target="der">
+		<characters_orig>
+			<char_o id="o1">d</char_o>
+			<char_o id="o2">e</char_o>
+			<char_o id="o3">r</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">d</char_t>
+			<char_t id="t2">e</char_t>
+			<char_t id="t3">r</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">d</phon_t>
+			<phon_t id="p2" t_range="t2">e:</phon_t>
+			<phon_t id="p3" t_range="t3">6</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t1" type="ART"/>
+			<mor id="m2" range="t2..t3" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="r_voc" id="k1" range="t2..t3"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok105" orig="Fenster_scheibe" pos_stts="NN" realword="true" target="Fensterscheibe">
+		<characters_orig>
+			<char_o id="o1">F</char_o>
+			<char_o id="o2">e</char_o>
+			<char_o id="o3">n</char_o>
+			<char_o id="o4">s</char_o>
+			<char_o id="o5">t</char_o>
+			<char_o id="o6">e</char_o>
+			<char_o id="o7">r</char_o>
+			<char_o id="o8">_</char_o>
+			<char_o id="o9">s</char_o>
+			<char_o id="o10">c</char_o>
+			<char_o id="o11">h</char_o>
+			<char_o id="o12">e</char_o>
+			<char_o id="o13">i</char_o>
+			<char_o id="o14">b</char_o>
+			<char_o id="o15">e</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">F</char_t>
+			<char_t id="t2">e</char_t>
+			<char_t id="t3">n</char_t>
+			<char_t id="t4">s</char_t>
+			<char_t id="t5">t</char_t>
+			<char_t id="t6">e</char_t>
+			<char_t id="t7">r</char_t>
+			<char_t id="t8">s</char_t>
+			<char_t id="t9">c</char_t>
+			<char_t id="t10">h</char_t>
+			<char_t id="t11">e</char_t>
+			<char_t id="t12">i</char_t>
+			<char_t id="t13">b</char_t>
+			<char_t id="t14">e</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+			<char_a id="a6" o_range="o6" t_range="t6"/>
+			<char_a id="a7" o_range="o7" t_range="t7"/>
+			<char_a id="a8" o_range="o8"/>
+			<char_a id="a9" o_range="o9" t_range="t8"/>
+			<char_a id="a10" o_range="o10" t_range="t9"/>
+			<char_a id="a11" o_range="o11" t_range="t10"/>
+			<char_a id="a12" o_range="o12" t_range="t11"/>
+			<char_a id="a13" o_range="o13" t_range="t12"/>
+			<char_a id="a14" o_range="o14" t_range="t13"/>
+			<char_a id="a15" o_range="o15" t_range="t14"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">f</phon_t>
+			<phon_t id="p2" t_range="t2">E</phon_t>
+			<phon_t id="p3" t_range="t3">n</phon_t>
+			<phon_t id="p4" t_range="t4">s</phon_t>
+			<phon_t id="p5" t_range="t5">t</phon_t>
+			<phon_t id="p6" t_range="t6..t7">6</phon_t>
+			<phon_t id="p7" t_range="t8..t10">S</phon_t>
+			<phon_t id="p8" t_range="t11..t12">aI</phon_t>
+			<phon_t id="p9" t_range="t13">b</phon_t>
+			<phon_t id="p10" t_range="t14">@</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+			<gra id="g6" range="t6"/>
+			<gra id="g7" range="t7"/>
+			<gra id="g8" range="t8..t10" type="sch"/>
+			<gra id="g9" range="t11"/>
+			<gra id="g10" range="t12"/>
+			<gra id="g11" range="t13"/>
+			<gra id="g12" range="t14"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t4" syl_leg="true" type="stress"/>
+			<syll id="s2" range="t5..t7" syl_leg="true" type="red"/>
+			<syll id="s3" range="t8..t12" syl_leg="true" type="unstress"/>
+			<syll id="s4" range="t13..t14" syl_leg="true" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t7" type="NN"/>
+			<mor id="m2" range="t8..t14" type="NN"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="devoice_final" id="k1" range="t4"/>
+			<kof cat="r_voc" id="k2" range="t6..t7"/>
+			<kof cat="graph_comb" id="k3" range="t11..t12"/>
+		</key_orthographic_features>
+		<errors>
+			<err cat_fine="merge" cat_kof="other" cat_short="merge" id="e1" level="SN" morph_const="na" pronc_ok="true" range="a8"/>
+		</errors>
+	</token>
+	<token id="tok106" orig="." pos_stts="$." target=".">
+		<characters_orig>
+			<char_o id="o1" layout="EOL">.</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">.</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+		</characters_aligned>
+		<phonemes_target/>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+		</graphemes_target>
+		<syllables_target/>
+		<morphemes_target>
+			<mor id="m1" range="t1..t1" type="$."/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok107" irreg_struct="true" orig="Dodo" pos_stts="NE" target="Dodo">
+		<characters_orig>
+			<char_o id="o1">D</char_o>
+			<char_o id="o2">o</char_o>
+			<char_o id="o3">d</char_o>
+			<char_o id="o4">o</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">D</char_t>
+			<char_t id="t2">o</char_t>
+			<char_t id="t3">d</char_t>
+			<char_t id="t4">o</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">d</phon_t>
+			<phon_t id="p2" t_range="t2">o:</phon_t>
+			<phon_t id="p3" t_range="t3">d</phon_t>
+			<phon_t id="p4" t_range="t4">o</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" type="stress"/>
+			<syll id="s2" range="t3..t4" type="unstress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="NE"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok108" orig="belte" pos_stts="VVFIN" target="bellte">
+		<characters_orig>
+			<char_o id="o1">b</char_o>
+			<char_o id="o2">e</char_o>
+			<char_o id="o3">l</char_o>
+			<char_o id="o4">t</char_o>
+			<char_o id="o5">e</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">b</char_t>
+			<char_t id="t2">e</char_t>
+			<char_t id="t3">l</char_t>
+			<char_t id="t4">l</char_t>
+			<char_t id="t5">t</char_t>
+			<char_t id="t6">e</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3..t4"/>
+			<char_a id="a4" o_range="o4" t_range="t5"/>
+			<char_a id="a5" o_range="o5" t_range="t6"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">b</phon_t>
+			<phon_t id="p2" t_range="t2">E</phon_t>
+			<phon_t id="p3" t_range="t3..t4">l</phon_t>
+			<phon_t id="p4" t_range="t5">t</phon_t>
+			<phon_t id="p5" t_range="t6">@</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+			<gra id="g6" range="t6"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t4" syl_leg="true" type="stress"/>
+			<syll id="s2" range="t5..t6" syl_leg="true" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="V"/>
+			<mor id="m2" range="t5..t6" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="doubleC_syl" id="k1" range="t3..t4"/>
+		</key_orthographic_features>
+		<errors>
+			<err cat_fine="Cdouble_beforeC" cat_kof="doubleC_syl" cat_short="CC_befC" id="e1" level="SL" morph_const="neces" pronc_ok="true" range="a3"/>
+		</errors>
+	</token>
+	<token id="tok109" orig="den" pos_stts="ART" target="den">
+		<characters_orig>
+			<char_o id="o1">d</char_o>
+			<char_o id="o2">e</char_o>
+			<char_o id="o3">n</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">d</char_t>
+			<char_t id="t2">e</char_t>
+			<char_t id="t3">n</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">d</phon_t>
+			<phon_t id="p2" t_range="t2">e:</phon_t>
+			<phon_t id="p3" t_range="t3">n</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t1" type="ART"/>
+			<mor id="m2" range="t2..t3" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok110" orig="Vogel" pos_stts="NN" target="Vogel">
+		<characters_orig>
+			<char_o id="o1">V</char_o>
+			<char_o id="o2">o</char_o>
+			<char_o id="o3">g</char_o>
+			<char_o id="o4">e</char_o>
+			<char_o id="o5">l</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">V</char_t>
+			<char_t id="t2">o</char_t>
+			<char_t id="t3">g</char_t>
+			<char_t id="t4">e</char_t>
+			<char_t id="t5">l</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">f</phon_t>
+			<phon_t id="p2" t_range="t2">o:</phon_t>
+			<phon_t id="p3" t_range="t3">g</phon_t>
+			<phon_t id="p4" t_range="t4">@</phon_t>
+			<phon_t id="p5" t_range="t5">l</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" type="stress"/>
+			<syll id="s2" range="t3..t5" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t5" type="NN"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="graph_marked" id="k1" range="t1"/>
+			<kof cat="schwa_silent" id="k2" range="t4"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok111" orig="ganz" pos_stts="ADV" target="ganz">
+		<characters_orig>
+			<char_o id="o1">g</char_o>
+			<char_o id="o2">a</char_o>
+			<char_o id="o3">n</char_o>
+			<char_o id="o4">z</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">g</char_t>
+			<char_t id="t2">a</char_t>
+			<char_t id="t3">n</char_t>
+			<char_t id="t4">z</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">g</phon_t>
+			<phon_t id="p2" t_range="t2">a</phon_t>
+			<phon_t id="p3" t_range="t3">n</phon_t>
+			<phon_t id="p4" t_range="t4">ts</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t4" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="ADV"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok112" orig="laut" pos_stts="ADJD" target="laut">
+		<characters_orig>
+			<char_o id="o1">l</char_o>
+			<char_o id="o2">a</char_o>
+			<char_o id="o3">u</char_o>
+			<char_o id="o4" layout="EOL">t</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">l</char_t>
+			<char_t id="t2">a</char_t>
+			<char_t id="t3">u</char_t>
+			<char_t id="t4">t</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">l</phon_t>
+			<phon_t id="p2" t_range="t2..t3">aU</phon_t>
+			<phon_t id="p3" t_range="t4">t</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t4" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="ADJ"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="graph_comb" id="k1" range="t2..t3"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok113" orig="an" pos_stts="PTKVZ" target="an">
+		<characters_orig>
+			<char_o id="o1">a</char_o>
+			<char_o id="o2">n</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">a</char_t>
+			<char_t id="t2">n</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1">?</phon_t>
+			<phon_t id="p2" t_range="t1">a</phon_t>
+			<phon_t id="p3" t_range="t2">n</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t2" type="PTKVZ"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok114" orig="." pos_stts="$." target=".">
+		<characters_orig>
+			<char_o id="o1">.</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">.</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+		</characters_aligned>
+		<phonemes_target/>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+		</graphemes_target>
+		<syllables_target/>
+		<morphemes_target>
+			<mor id="m1" range="t1..t1" type="$."/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok115" orig="Die" pos_stts="ART" target="Die">
+		<characters_orig>
+			<char_o id="o1">D</char_o>
+			<char_o id="o2">i</char_o>
+			<char_o id="o3">e</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">D</char_t>
+			<char_t id="t2">i</char_t>
+			<char_t id="t3">e</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">d</phon_t>
+			<phon_t id="p2" t_range="t2..t3">i:</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2..t3" type="ie"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t1" type="ART"/>
+			<mor id="m2" range="t2..t3" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="ie" id="k1" range="t2..t3"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok116" orig="Lehrerin" pos_stts="NN" target="Lehrerin">
+		<characters_orig>
+			<char_o id="o1">L</char_o>
+			<char_o id="o2">e</char_o>
+			<char_o id="o3">h</char_o>
+			<char_o id="o4">r</char_o>
+			<char_o id="o5">e</char_o>
+			<char_o id="o6">r</char_o>
+			<char_o id="o7">i</char_o>
+			<char_o id="o8">n</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">L</char_t>
+			<char_t id="t2">e</char_t>
+			<char_t id="t3">h</char_t>
+			<char_t id="t4">r</char_t>
+			<char_t id="t5">e</char_t>
+			<char_t id="t6">r</char_t>
+			<char_t id="t7">i</char_t>
+			<char_t id="t8">n</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+			<char_a id="a6" o_range="o6" t_range="t6"/>
+			<char_a id="a7" o_range="o7" t_range="t7"/>
+			<char_a id="a8" o_range="o8" t_range="t8"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">l</phon_t>
+			<phon_t id="p2" t_range="t2..t3">e:</phon_t>
+			<phon_t id="p3" t_range="t4">r</phon_t>
+			<phon_t id="p4" t_range="t5">@</phon_t>
+			<phon_t id="p5" t_range="t6">r</phon_t>
+			<phon_t id="p6" t_range="t7">I</phon_t>
+			<phon_t id="p7" t_range="t8">n</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+			<gra id="g6" range="t6"/>
+			<gra id="g7" range="t7"/>
+			<gra id="g8" range="t8"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+			<syll id="s2" range="t4..t5" type="red"/>
+			<syll id="s3" range="t6..t8" type="unstress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="V"/>
+			<mor id="m2" range="t5..t6" type="SFX"/>
+			<mor id="m3" range="t7..t8" type="SFX"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="h_length" id="k1" range="t2..t3"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok117" orig="war" pos_stts="VAFIN" target="war">
+		<characters_orig>
+			<char_o id="o1">w</char_o>
+			<char_o id="o2">a</char_o>
+			<char_o id="o3">r</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">w</char_t>
+			<char_t id="t2">a</char_t>
+			<char_t id="t3">r</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">v</phon_t>
+			<phon_t id="p2" t_range="t2">a:</phon_t>
+			<phon_t id="p3" t_range="t3">r</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t3" type="V"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="r_voc" id="k1" range="t2..t3"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok118" orig="überracht" pos_stts="ADJD" target="überrascht">
+		<characters_orig>
+			<char_o id="o1">ü</char_o>
+			<char_o id="o2">b</char_o>
+			<char_o id="o3">e</char_o>
+			<char_o id="o4">r</char_o>
+			<char_o id="o5">r</char_o>
+			<char_o id="o6">a</char_o>
+			<char_o id="o7">c</char_o>
+			<char_o id="o8">h</char_o>
+			<char_o id="o9">t</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">ü</char_t>
+			<char_t id="t2">b</char_t>
+			<char_t id="t3">e</char_t>
+			<char_t id="t4">r</char_t>
+			<char_t id="t5">r</char_t>
+			<char_t id="t6">a</char_t>
+			<char_t id="t7">s</char_t>
+			<char_t id="t8">c</char_t>
+			<char_t id="t9">h</char_t>
+			<char_t id="t10">t</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+			<char_a id="a6" o_range="o6" t_range="t6"/>
+			<char_a id="a7" t_range="t7"/>
+			<char_a id="a8" o_range="o7" t_range="t8"/>
+			<char_a id="a9" o_range="o8" t_range="t9"/>
+			<char_a id="a10" o_range="o9" t_range="t10"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1">?</phon_t>
+			<phon_t id="p2" t_range="t1">y:</phon_t>
+			<phon_t id="p3" t_range="t2">b</phon_t>
+			<phon_t id="p4" t_range="t3..t4">6</phon_t>
+			<phon_t id="p5" t_range="t5">r</phon_t>
+			<phon_t id="p6" t_range="t6">a</phon_t>
+			<phon_t id="p7" t_range="t7..t9">S</phon_t>
+			<phon_t id="p8" t_range="t10">t</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+			<gra id="g6" range="t6"/>
+			<gra id="g7" range="t7..t9" type="sch"/>
+			<gra id="g8" range="t10"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t1" syl_leg="true" type="unstress"/>
+			<syll id="s2" range="t2..t4" syl_leg="true" type="red"/>
+			<syll id="s3" range="t5..t10" syl_leg="true" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="ADP"/>
+			<mor id="m2" range="t5..t9" type="ADJ"/>
+			<mor id="m3" range="t10..t10" type="SFX"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="r_voc" id="k1" range="t3..t4"/>
+			<kof cat="morph_bound" id="k2" range="t3..t4"/>
+		</key_orthographic_features>
+		<errors>
+			<err cat_fine="ins_C" cat_kof="other" cat_short="ins_C" id="e1" level="PGIII" morph_const="na" pronc_ok="false" range="a7"/>
+		</errors>
+	</token>
+	<token id="tok119" orig="." pos_stts="$." target=".">
+		<characters_orig>
+			<char_o id="o1">.</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">.</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+		</characters_aligned>
+		<phonemes_target/>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+		</graphemes_target>
+		<syllables_target/>
+		<morphemes_target>
+			<mor id="m1" range="t1..t1" type="$."/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+	<token id="tok120" orig="das" pos_stts="KOUS" realword="true" target="dass">
+		<characters_orig>
+			<char_o id="o1">d</char_o>
+			<char_o id="o2">a</char_o>
+			<char_o id="o3" layout="EOL">s</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">d</char_t>
+			<char_t id="t2">a</char_t>
+			<char_t id="t3">s</char_t>
+			<char_t id="t4">s</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3..t4"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">d</phon_t>
+			<phon_t id="p2" t_range="t2">a</phon_t>
+			<phon_t id="p3" t_range="t3..t4">s</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t4" syl_leg="true" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t4" type="KOUS"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="doubleC_other" id="k1" range="t3..t4"/>
+		</key_orthographic_features>
+		<errors>
+			<err cat_fine="repl_das_dass" cat_kof="other" cat_short="rpl_das_dass" id="e1" level="SN" morph_const="na" pronc_ok="true" range="a1..a3"/>
+		</errors>
+	</token>
+	<token id="tok121" orig="der" pos_stts="ART" target="der">
+		<characters_orig>
+			<char_o id="o1">d</char_o>
+			<char_o id="o2">e</char_o>
+			<char_o id="o3">r</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">d</char_t>
+			<char_t id="t2">e</char_t>
+			<char_t id="t3">r</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">d</phon_t>
+			<phon_t id="p2" t_range="t2">e:</phon_t>
+			<phon_t id="p3" t_range="t3">6</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t3" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t1" type="ART"/>
+			<mor id="m2" range="t2..t3" type="INFL"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="r_voc" id="k1" range="t2..t3"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok122" orig="Vogel" pos_stts="NN" target="Vogel">
+		<characters_orig>
+			<char_o id="o1">V</char_o>
+			<char_o id="o2">o</char_o>
+			<char_o id="o3">g</char_o>
+			<char_o id="o4">e</char_o>
+			<char_o id="o5">l</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">V</char_t>
+			<char_t id="t2">o</char_t>
+			<char_t id="t3">g</char_t>
+			<char_t id="t4">e</char_t>
+			<char_t id="t5">l</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+			<char_a id="a3" o_range="o3" t_range="t3"/>
+			<char_a id="a4" o_range="o4" t_range="t4"/>
+			<char_a id="a5" o_range="o5" t_range="t5"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">f</phon_t>
+			<phon_t id="p2" t_range="t2">o:</phon_t>
+			<phon_t id="p3" t_range="t3">g</phon_t>
+			<phon_t id="p4" t_range="t4">@</phon_t>
+			<phon_t id="p5" t_range="t5">l</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+			<gra id="g3" range="t3"/>
+			<gra id="g4" range="t4"/>
+			<gra id="g5" range="t5"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" type="stress"/>
+			<syll id="s2" range="t3..t5" type="red"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t5" type="NN"/>
+		</morphemes_target>
+		<key_orthographic_features>
+			<kof cat="graph_marked" id="k1" range="t1"/>
+			<kof cat="schwa_silent" id="k2" range="t4"/>
+		</key_orthographic_features>
+		<errors/>
+	</token>
+	<token id="tok123" orig="so" pos_stts="ADV" target="so">
+		<characters_orig>
+			<char_o id="o1">s</char_o>
+			<char_o id="o2">o</char_o>
+		</characters_orig>
+		<characters_target>
+			<char_t id="t1">s</char_t>
+			<char_t id="t2">o</char_t>
+		</characters_target>
+		<characters_aligned>
+			<char_a id="a1" o_range="o1" t_range="t1"/>
+			<char_a id="a2" o_range="o2" t_range="t2"/>
+		</characters_aligned>
+		<phonemes_target>
+			<phon_t id="p1" t_range="t1">z</phon_t>
+			<phon_t id="p2" t_range="t2">o:</phon_t>
+		</phonemes_target>
+		<graphemes_target>
+			<gra id="g1" range="t1"/>
+			<gra id="g2" range="t2"/>
+		</graphemes_target>
+		<syllables_target>
+			<syll id="s1" range="t1..t2" type="stress"/>
+		</syllables_target>
+		<morphemes_target>
+			<mor id="m1" range="t1..t2" type="ADV"/>
+		</morphemes_target>
+		<key_orthographic_features/>
+		<errors/>
+	</token>
+</tokens>
+

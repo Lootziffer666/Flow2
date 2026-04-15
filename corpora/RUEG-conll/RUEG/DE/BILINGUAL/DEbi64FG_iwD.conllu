@@ -1,0 +1,109 @@
+# text = Ich war gerade auf dem Weg zur Arbeit
+1	Ich	ich	PRON	PPER	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	auf	auf	ADP	APPR	_	2	comp:pred	_	_
+5	dem	d	DET	ART	_	6	det	_	_
+6	Weg	Weg	NOUN	NN	_	4	comp:obj	_	_
+7	zur	zu	PROPN	APPRART	_	6	mod	_	_
+8	Arbeit	Arbeit	PROPN	NN	_	7	comp:obj	_	_
+
+# text = und beobachtete wie der Ball eines Mannes auf die Staße rollte und den Hund von einer Frau den dem Takt drachte .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	beobachtete	beobachten	VERB	VVFIN	_	0	root	_	_
+3	wie	wie	ADP	PWAV	_	2	comp:obj	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	11	subj	_	_
+6	eines	ein	DET	ART	_	7	det	_	_
+7	Mannes	Mann	NOUN	NN	_	5	mod@poss	_	_
+8	auf	auf	ADP	APPR	_	11	comp:obl	_	_
+9	die	d	DET	ART	_	10	det	_	_
+10	Staße	Staße	NOUN	NN	_	8	comp:obj	_	_
+11	rollte	rollen	AUX	VVFIN	_	3	comp:obj	_	_
+12	und	und	CCONJ	KON	_	21	cc	_	_
+13	den	d	DET	ART	_	14	det	_	_
+14	Hund	Hund	NOUN	NN	_	21	dislocated	_	_
+15	von	von	ADP	APPR	_	14	mod	_	_
+16	einer	ein	DET	ART	_	17	det	_	_
+17	Frau	Frau	NOUN	NN	_	15	comp:obj	_	_
+18	den	d	DET	ART	_	21	comp:obj	_	_
+19	dem	d	DET	ART	_	20	det	_	_
+20	Takt	Takt	NOUN	NN	_	21	comp:obl	_	_
+21	drachte	drachte	VERB	UI	_	11	conj	_	_
+22	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = In dem Moment zog der Hund
+1	In	in	ADP	APPR	_	4	mod	_	_
+2	dem	d	DET	ART	_	3	det	_	_
+3	Moment	Moment	NOUN	NN	_	1	comp:obj	_	_
+4	zog	ziehen	VERB	VVFIN	_	0	root	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Hund	Hund	NOUN	NN	_	4	subj	_	_
+
+# text = und die Sachen der Frau fielen auf dem Boden .
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Sachen	Sache	NOUN	NN	_	6	subj	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Frau	Frau	NOUN	NN	_	3	mod@poss	_	_
+6	fielen	fallen	VERB	VVFIN	_	0	root	_	_
+7	auf	auf	ADP	APPR	_	6	comp:obl	_	_
+8	dem	d	DET	ART	_	9	det	_	_
+9	Boden	Boden	NOUN	NN	_	7	comp:obj	_	_
+10	.	.	PUNCT	$.	_	6	punct	_	_
+
+# text = Im gleichen Moment wollten zwei Autos vorbeifahren
+1	Im	in	NOUN	APPRART	_	4	mod	_	_
+2	gleichen	gleiche	ADJ	ADJA	_	3	mod	_	_
+3	Moment	Moment	NOUN	NN	_	1	comp:obj	_	_
+4	wollten	wollen	VERB	VMFIN	_	0	root	_	_
+5	zwei	zwei	NUM	CARD	_	6	mod	_	_
+6	Autos	Auto	NOUN	NN	_	4	subj	_	_
+7	vorbeifahren	vorbeifahren	ADV	VVINF	_	4	comp:aux	_	_
+
+# text = und knallten aufeinander .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	knallten	knallen	VERB	VVFIN	_	0	root	_	_
+3	aufeinander	aufeinander	ADV	PTKVZ	_	2	compound@prt	_	_
+4	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Der Mann mit dem Ball hief der Frau die Sachen aufzuheben
+1	Der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	6	subj	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	dem	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+6	hief	hief	VERB	UI	_	0	root	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Frau	Frau	NOUN	NN	_	6	comp:obl	_	_
+9	die	d	DET	ART	_	10	det	_	_
+10	Sachen	Sache	NOUN	NN	_	11	comp:obj	_	_
+11	aufzuheben	aufheben	VERB	VVIZU	_	6	comp:obj	_	_
+
+# text = und gind gleich darauf zu den Männern die den Autounfall betrifft .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	gind	gind	PROPN	UI	_	0	root	_	_
+3	gleich	gleich	ADJ	ADV	_	4	mod	_	_
+4	darauf	darauf	ADV	ADV	_	2	mod	_	_
+5	zu	zu	ADP	APPR	_	2	comp:obl	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Männern	Mann	NOUN	NN	_	5	comp:obj	_	_
+8	die	die	PRON	PRELS	_	11	comp:obj	_	_
+9	den	d	DET	ART	_	10	det	_	_
+10	Autounfall	Autounfall	NOUN	NN	_	11	subj	_	_
+11	betrifft	betreffen	VERB	VVFIN	_	7	mod@relcl	_	_
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Ich melde mich später nochmal ,
+1	Ich	ich	PRON	PPER	_	2	subj	_	_
+2	melde	melden	PROPN	VVFIN	_	0	root	_	_
+3	mich	ich	PRON	PRF	_	2	comp:obj	_	_
+4	später	später	ADJ	ADV	_	2	mod	_	_
+5	nochmal	nochmal	ADV	ADV	_	2	mod	_	_
+6	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = muss arbeiten .
+1	muss	müssen	AUX	VMFIN	_	0	root	_	_
+2	arbeiten	arbeiten	VERB	VVINF	_	1	comp:aux	_	_
+3	.	.	PUNCT	$.	_	1	punct	_	_
+

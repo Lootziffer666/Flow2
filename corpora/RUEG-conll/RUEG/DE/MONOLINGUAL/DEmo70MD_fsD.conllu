@@ -1,0 +1,240 @@
+# text = guten Tag sehr geehrtes äh Polizeipräsidium
+1	guten	gut	ADJ	ADJA	_	2	mod	_	_
+2	Tag	Tag	NOUN	NN	_	6	discourse	_	_
+3	sehr	sehr	ADV	PTKIFG	_	4	mod	_	_
+4	geehrtes	geehrte	ADJ	ADJA	_	6	mod	_	_
+5	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+6	Polizeipräsidium	Polizeipräsidium	NOUN	NN	_	0	root	_	_
+
+# text = äh ich treffe nun meine Aussage zu besagten Fall 16 dem Autounfall
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	treffe	treffen	NOUN	VVFIN	_	0	root	_	_
+4	nun	nun	ADV	ADV	_	3	mod	_	_
+5	meine	mein	PRON	PPOSAT	_	6	det	_	_
+6	Aussage	Aussage	NOUN	NN	_	3	comp:obj	_	_
+7	zu	zu	PART	PTKZU	_	6	mod	_	_
+8	besagten	besagt	VERB	ADJA	_	9	mod	_	_
+9	Fall	Fall	NOUN	NN	_	7	comp:obj	_	_
+10	16	16	NUM	CARD	_	9	appos	_	_
+11	dem	d	DET	ART	_	12	det	_	_
+12	Autounfall	Autounfall	NOUN	NN	_	9	appos	_	_
+
+# text = als ich die Dorfstraße entlangging äh als ich auf dem Weg nach Hause war liefen vor mir auf dem Gehweg zwei Personen ein Mann und eine Frau
+1	als	als	ADP	KOUS	_	15	mod	_	_
+2	ich	ich	PRON	PPER	_	5	subj	_	_
+3	die	d	DET	ART	_	4	det	_	_
+4	Dorfstraße	Dorfstraße	PROPN	NN	_	5	comp:obj	_	_
+5	entlangging	entlanggehen	VERB	VVFIN	_	1	comp:obj	_	_
+6	äh	äh	ADV	NGHES	_	15	discourse	_	_
+7	als	als	ADP	KOUS	_	15	mod	_	_
+8	ich	ich	PRON	PPER	_	14	subj	_	_
+9	auf	auf	ADP	APPR	_	14	comp:pred	_	_
+10	dem	d	DET	ART	_	11	det	_	_
+11	Weg	Weg	NOUN	NN	_	9	comp:obj	_	_
+12	nach	nach	ADP	APPR	_	11	mod	_	_
+13	Hause	Haus	NOUN	NN	_	12	comp:obj	_	_
+14	war	sein	VERB	VAFIN	_	7	comp:obj	_	_
+15	liefen	laufen	VERB	VVFIN	_	0	root	_	_
+16	vor	vor	ADP	APPR	_	15	mod	_	_
+17	mir	ich	PRON	PPER	_	16	comp:obj	_	_
+18	auf	auf	ADP	APPR	_	15	comp:obl	_	_
+19	dem	d	DET	ART	_	20	det	_	_
+20	Gehweg	Gehweg	NOUN	NN	_	18	comp:obj	_	_
+21	zwei	zwei	NUM	CARD	_	22	mod	_	_
+22	Personen	Person	NOUN	NN	_	15	subj	_	_
+23	ein	ein	DET	ART	_	24	det	_	_
+24	Mann	Mann	NOUN	NN	_	22	appos	_	_
+25	und	und	CCONJ	KON	_	27	cc	_	_
+26	eine	ein	DET	ART	_	27	det	_	_
+27	Frau	Frau	NOUN	NN	_	24	conj	_	_
+
+# text = die Frau schub einen Kinderwagen
+1	die	d	DET	ART	_	2	det	_	_
+2	Frau	Frau	NOUN	NN	_	3	subj	_	_
+3	schub	schieben	PROPN	VVFIN	_	0	root	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Kinderwagen	Kinderwagen	NOUN	NN	_	3	comp:obj	_	_
+
+# text = der Mann trug einen Ball welchen er vor sich her dribbelte
+1	der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	trug	tragen	VERB	VVFIN	_	0	root	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+6	welchen	welche	PRON	PRELS	_	11	comp:obj	_	_
+7	er	er	PRON	PPER	_	11	subj	_	_
+8	vor	vor	ADP	APPR	_	10	comp:obj	_	_
+9	sich	er|es|sie	PRON	PRF	_	8	comp:obj	_	_
+10	her	her	PART	ADV	_	11	mod	_	_
+11	dribbelte	dribbeln	VERB	VVFIN	_	5	mod@relcl	_	_
+
+# text = der Ball wurde von dem Mann plötzlich fallen gelassen
+1	der	d	DET	ART	_	2	det	_	_
+2	Ball	Ball	NOUN	NN	_	3	subj@pass	_	_
+3	wurde	werden	AUX	VAFIN	_	0	root	_	_
+4	von	von	ADP	APPR	_	8	comp:obl	_	_
+5	dem	d	DET	ART	_	6	det	_	_
+6	Mann	Mann	NOUN	NN	_	4	comp:obj	_	_
+7	plötzlich	plötzlich	ADJ	ADJD	_	3	mod	_	_
+8	fallen	fallen	VERB	VVINF	_	9	comp:obj	_	_
+9	gelassen	lassen	null	VVPP	_	3	comp:aux	_	_
+
+# text = und fiel ihm auf den Fuß
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	fiel	fallen	VERB	VVFIN	_	0	root	_	_
+3	ihm	er	PRON	PPER	_	2	comp:obj	_	_
+4	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Fuß	Fuß	NOUN	NN	_	4	comp:obj	_	_
+
+# text = aufgrund dessen rollte er auf die Straße
+1	aufgrund	aufgrund	ADP	APPR	_	3	mod	_	_
+2	dessen	d	PRON	PDS	_	1	comp:obj	_	_
+3	rollte	rollen	VERB	VVFIN	_	0	root	_	_
+4	er	er	PRON	PPER	_	3	subj	_	_
+5	auf	auf	ADP	APPR	_	3	comp:obl	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Straße	Straße	NOUN	NN	_	5	comp:obj	_	_
+
+# text = auf der anderen Straßenseite befand sich eine Frau die gerade ihre Einkäufe entlud und welche auch einen Hund bei sich führte an einer Leine
+1	auf	auf	ADP	APPR	_	5	mod	_	_
+2	der	d	DET	ART	_	4	det	_	_
+3	anderen	ander	ADJ	PIDAT	_	4	mod	_	_
+4	Straßenseite	Straßenseite	NOUN	NN	_	1	comp:obj	_	_
+5	befand	befinden	VERB	VVFIN	_	0	root	_	_
+6	sich	er|es|sie	PRON	PRF	_	5	comp:obj	_	_
+7	eine	ein	DET	ART	_	8	det	_	_
+8	Frau	Frau	NOUN	NN	_	5	subj	_	_
+9	die	d	DET	PRELS	_	13	subj	_	_
+10	gerade	gerade	ADV	ADV	_	13	mod	_	_
+11	ihre	ihr	DET	PPOSAT	_	12	det	_	_
+12	Einkäufe	Einkauf	NOUN	NN	_	13	comp:obj	_	_
+13	entlud	entladen	VERB	VVFIN	_	8	mod@relcl	_	_
+14	und	und	CCONJ	KON	_	21	cc	_	_
+15	welche	welche	PRON	PWS	_	21	subj	_	_
+16	auch	auch	ADV	PTKIFG	_	21	mod	_	_
+17	einen	ein	DET	ART	_	18	det	_	_
+18	Hund	Hund	NOUN	NN	_	21	comp:obj	_	_
+19	bei	bei	ADP	APPR	_	21	comp:obl	_	_
+20	sich	er|es|sie	PRON	PRF	_	19	comp:obj	_	_
+21	führte	führen	VERB	VVFIN	_	13	conj	_	_
+22	an	an	ADP	APPR	_	21	mod	_	_
+23	einer	ein	DET	ART	_	24	det	_	_
+24	Leine	Leine	NOUN	NN	_	22	comp:obj	_	_
+
+# text = der Hund reagierte aufgrund des rollenden Balls auf diesen Ball
+1	der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	3	subj	_	_
+3	reagierte	reagieren	VERB	VVFIN	_	0	root	_	_
+4	aufgrund	aufgrund	ADP	APPR	_	3	mod	_	_
+5	des	d	DET	ART	_	7	det	_	_
+6	rollenden	rollend	ADJ	ADJA	_	7	mod	_	_
+7	Balls	Ball	NOUN	NN	_	4	comp:obj	_	_
+8	auf	auf	ADP	APPR	_	3	comp:obl	_	_
+9	diesen	diese	PRON	PDAT	_	10	det	_	_
+10	Ball	Ball	NOUN	NN	_	8	comp:obj	_	_
+
+# text = und probierte ihm nachzurennen
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	probierte	probieren	VERB	VVFIN	_	0	root	_	_
+3	ihm	er	PRON	PPER	_	4	comp:obj	_	_
+4	nachzurennen	nachrennen	VERB	VVIZU	_	2	comp:aux	_	_
+
+# text = die Frau mit der Leine wurde mitgezogen
+1	die	d	DET	ART	_	2	det	_	_
+2	Frau	Frau	NOUN	NN	_	6	subj@pass	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Leine	Leine	PROPN	NN	_	3	comp:obj	_	_
+6	wurde	werden	AUX	VAFIN	_	0	root	_	_
+7	mitgezogen	mitziehen	VERB	VVPP	_	6	comp:aux@pass	_	_
+
+# text = und ließ ihre Einkäufe fallen
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ließ	lassen	VERB	VVFIN	_	0	root	_	_
+3	ihre	ihr	DET	PPOSAT	_	4	det	_	_
+4	Einkäufe	Einkauf	NOUN	NN	_	5	comp:obj	_	_
+5	fallen	fallen	VERB	VVINF	_	2	comp:obj	_	_
+
+# text = der Mann mit dem Ball probierte der Frau aufgrund dessen zu helfen
+1	der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	6	subj	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	dem	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+6	probierte	probieren	VERB	VVFIN	_	0	root	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Frau	Frau	NOUN	NN	_	12	comp:obj	_	_
+9	aufgrund	aufgrund	ADP	APPR	_	12	mod	_	_
+10	dessen	d	PRON	PDS	_	9	comp:obj	_	_
+11	zu	zu	PART	PTKZU	_	6	comp:obj	_	_
+12	helfen	helfen	VERB	VVINF	_	11	comp:obj	_	_
+
+# text = und äh half ihr die Einkäufe wieder aufzuheben
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	äh	äh	ADV	NGHES	_	3	discourse	_	_
+3	half	helfen	VERB	VVFIN	_	0	root	_	_
+4	ihr	ihr	PRON	PPER	_	3	comp:obj	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Einkäufe	Einkauf	NOUN	NN	_	8	comp:obj	_	_
+7	wieder	wieder	ADV	ADV	_	8	mod	_	_
+8	aufzuheben	aufheben	VERB	VVIZU	_	3	comp:obl	_	_
+
+# text = zwei Autos die in diese Straße einfuhren äh kollidierten als das vordere Auto schockartig bremsen musste als besagte Einkäufe auf den Boden fielen
+1	zwei	zwei	NUM	CARD	_	2	mod	_	_
+2	Autos	Auto	NOUN	NN	_	9	subj	_	_
+3	die	d	DET	PRELS	_	7	subj	_	_
+4	in	in	ADP	APPR	_	7	comp:obl	_	_
+5	diese	diese	PRON	PDAT	_	6	det	_	_
+6	Straße	Straße	NOUN	NN	_	4	comp:obj	_	_
+7	einfuhren	einfahren	VERB	VVFIN	_	2	mod@relcl	_	_
+8	äh	äh	ADV	NGHES	_	9	discourse	_	_
+9	kollidierten	kollidieren	ADJ	VVFIN	_	0	root	_	_
+10	als	als	ADP	KOUS	_	9	mod	_	_
+11	das	d	DET	ART	_	13	det	_	_
+12	vordere	vorder	ADJ	ADJA	_	13	mod	_	_
+13	Auto	Auto	NOUN	NN	_	16	subj	_	_
+14	schockartig	schockartig	ADJ	ADJD	_	16	mod	_	_
+15	bremsen	bremsen	VERB	VVINF	_	16	comp:aux	_	_
+16	musste	m�ssen	AUX	VMFIN	_	10	comp:obj	_	_
+17	als	als	ADP	KOUS	_	15	mod	_	_
+18	besagte	besagt	ADJ	ADJA	_	19	mod	_	_
+19	Einkäufe	Einkauf	NOUN	NN	_	23	subj	_	_
+20	auf	auf	ADP	APPR	_	23	comp:obl	_	_
+21	den	d	DET	ART	_	22	det	_	_
+22	Boden	Boden	NOUN	NN	_	20	comp:obj	_	_
+23	fielen	fallen	VERB	VVFIN	_	17	comp:obj	_	_
+
+# text = und das hintere Auto fuhr in das vordere ein
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	das	d	DET	ART	_	4	det	_	_
+3	hintere	hinter	ADJ	ADJA	_	4	mod	_	_
+4	Auto	Auto	NOUN	NN	_	5	subj	_	_
+5	fuhr	fahren	VERB	VVFIN	_	0	root	_	_
+6	in	in	ADP	APPR	_	5	comp:obl	_	_
+7	das	d	DET	ART	_	8	det	_	_
+8	vordere	vorder	ADJ	ADJA	_	6	comp:obj	_	_
+9	ein	ein	ADV	PTKVZ	_	5	compound@prt	_	_
+
+# text = und der Mann welcher im vorderen Auto war rief dann aufgrund der Situation die Polizei
+1	und	und	CCONJ	KON	_	9	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Mann	Mann	NOUN	NN	_	9	subj	_	_
+4	welcher	welche	PRON	PRELS	_	8	subj	_	_
+5	im	in	PROPN	APPRART	_	8	comp:pred	_	_
+6	vorderen	vorder	ADJ	ADJA	_	7	mod	_	_
+7	Auto	Auto	NOUN	NN	_	5	comp:obj	_	_
+8	war	sein	VERB	VAFIN	_	3	mod@relcl	_	_
+9	rief	rufen	VERB	VVFIN	_	0	root	_	_
+10	dann	dann	ADV	ADV	_	9	mod	_	_
+11	aufgrund	aufgrund	ADP	APPR	_	9	mod	_	_
+12	der	d	DET	ART	_	13	det	_	_
+13	Situation	Situation	NOUN	NN	_	11	comp:obj	_	_
+14	die	d	DET	ART	_	15	det	_	_
+15	Polizei	Polizei	NOUN	NN	_	9	comp:obj	_	_
+
+# text = auf Wiederhören
+1	auf	auf	ADP	APPR	_	0	root	_	_
+2	Wiederhören	Wiederhören	NOUN	NN	_	1	comp:obj	_	_
+

@@ -1,0 +1,101 @@
+# text = ﻿zu dem Unfall möchte ich gerne das was ich gesehen habe schildern .
+1	﻿zu	﻿zu	ADV	ADV	_	12	mod	_	_
+2	dem	d	DET	ART	_	3	det	_	_
+3	Unfall	Unfall	NOUN	NN	_	1	comp:obj	_	_
+4	möchte	mögen	AUX	VVFIN	_	0	root	_	_
+5	ich	ich	PRON	PPER	_	4	subj	_	_
+6	gerne	gern	ADV	ADV	_	4	mod	_	_
+7	das	die	PRON	PDS	_	12	comp:obj	_	_
+8	was	was	PRON	PRELS	_	10	comp:obj	_	_
+9	ich	ich	PRON	PPER	_	11	subj	_	_
+10	gesehen	sehen	VERB	VVPP	_	11	comp:aux	_	_
+11	habe	haben	AUX	VAFIN	_	7	mod@relcl	_	_
+12	schildern	schildern	VERB	VVFIN	_	4	comp:aux	_	_
+13	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Es war eine kleine Familie auf ein Bürgersteig unterwegs auf einem Parkplatz .
+1	Es	es	PRON	PPER	_	2	subj@expl	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	eine	ein	DET	ART	_	5	det	_	_
+4	kleine	klein	ADJ	ADJA	_	5	mod	_	_
+5	Familie	Familie	NOUN	NN	_	2	subj	_	_
+6	auf	auf	ADP	APPR	_	9	mod	_	_
+7	ein	ein	DET	ART	_	8	det	_	_
+8	Bürgersteig	Bürgersteig	NOUN	NN	_	6	comp:obj	_	_
+9	unterwegs	unterwegs	ADV	PTKVZ	_	2	comp:pred	_	_
+10	auf	auf	ADP	APPR	_	8	mod	_	_
+11	einem	ein	DET	ART	_	12	det	_	_
+12	Parkplatz	Parkplatz	NOUN	NN	_	10	comp:obj	_	_
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Der Mann hat mit einem kleinen Ball gespielt
+1	Der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	mit	mit	ADP	APPR	_	8	mod	_	_
+5	einem	ein	DET	ART	_	7	det	_	_
+6	kleinen	klein	ADJ	ADJA	_	7	mod	_	_
+7	Ball	Ball	NOUN	NN	_	4	comp:obj	_	_
+8	gespielt	spielen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und als er eine Straßenüberquerung machen wollte hat er versehentlich den Ball auf seinem Fuß getippelt
+1	und	und	CCONJ	KON	_	8	cc	_	_
+2	als	als	CCONJ	KOUS	_	16	mod	_	_
+3	er	er	PRON	PPER	_	7	subj	_	_
+4	eine	ein	DET	ART	_	5	det	_	_
+5	Straßenüberquerung	Straßenüberquerung	NOUN	NN	_	6	comp:obj	_	_
+6	machen	machen	VERB	VVINF	_	7	comp:aux	_	_
+7	wollte	wollen	AUX	VMFIN	_	2	comp:obj	_	_
+8	hat	haben	AUX	VAFIN	_	0	root	_	_
+9	er	er	PRON	PPER	_	8	subj	_	_
+10	versehentlich	versehentlich	ADJ	ADJD	_	8	mod	_	_
+11	den	d	DET	ART	_	12	det	_	_
+12	Ball	Ball	NOUN	NN	_	16	comp:obj	_	_
+13	auf	auf	ADP	APPR	_	16	mod	_	_
+14	seinem	sein	DET	PPOSAT	_	15	det	_	_
+15	Fuß	Fuß	NOUN	NN	_	13	comp:obj	_	_
+16	getippelt	tippeln	VERB	VVPP	_	8	comp:aux	_	_
+
+# text = und der Ball ist auf der Straße gerollt ,
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Ball	Ball	NOUN	NN	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	auf	auf	ADP	APPR	_	8	comp:obl	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Straße	Straße	NOUN	NN	_	5	comp:obj	_	_
+8	gerollt	rollen	ADJ	VVPP	_	4	comp:aux	_	_
+9	,	,	PUNCT	$,	_	4	punct	_	_
+
+# text = dabei sind zwei Fahrzeuge zusammengekracht da das erste Fahrzeug abrupt abbremsen musste und das dahinterfahrende Auto auf das erste raufgefahren ist und dabei ein Schaden entstanden sein kann .
+1	dabei	dabei	ADV	ADV	_	2	mod	_	_
+2	sind	sein	VERB	VAFIN	_	0	root	_	_
+3	zwei	zwei	NUM	CARD	_	4	mod	_	_
+4	Fahrzeuge	Fahrzeug	NOUN	NN	_	2	subj	_	_
+5	zusammengekracht	zusammenkrachen	VERB	VVPP	_	2	comp:aux	_	_
+6	da	da	ADV	ADV	_	5	mod	_	_
+7	das	d	DET	ART	_	9	det	_	_
+8	erste	erst	ADJ	ORD	_	9	mod	_	_
+9	Fahrzeug	Fahrzeug	NOUN	NN	_	12	subj	_	_
+10	abrupt	abrupt	ADV	ADJD	_	12	mod	_	_
+11	abbremsen	abbremsen	VERB	VVINF	_	12	comp:aux	_	_
+12	musste	müssen	AUX	VMFIN	_	6	comp:obj	_	_
+13	und	und	CCONJ	KON	_	21	cc	_	_
+14	das	d	DET	ART	_	16	det	_	_
+15	dahinterfahrende	dahinterfahrende	ADJ	ADJA	_	16	mod	_	_
+16	Auto	Auto	NOUN	NN	_	21	subj	_	_
+17	auf	auf	ADP	APPR	_	20	comp:obl	_	_
+18	das	d	DET	ART	_	19	det	_	_
+19	erste	erst	ADJ	ORD	_	17	comp:obj	_	_
+20	raufgefahren	rauffahren	NOUN	NN	_	21	comp:aux	_	_
+21	ist	sein	VERB	VAFIN	_	12	conj	_	_
+22	und	und	CCONJ	KON	_	28	cc	_	_
+23	dabei	dabei	ADV	ADV	_	28	mod	_	_
+24	ein	ein	DET	ART	_	25	det	_	_
+25	Schaden	Schaden	NOUN	NN	_	28	subj	_	_
+26	entstanden	entstehen	VERB	VVPP	_	27	comp:aux	_	_
+27	sein	sein	AUX	VAINF	_	28	comp:aux	_	_
+28	kann	können	AUX	VMFIN	_	12	conj	_	_
+29	.	.	PUNCT	$.	_	2	punct	_	_
+
+

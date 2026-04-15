@@ -1,0 +1,144 @@
+# text = hi
+1	hi	hi	X	_	_	0	root	_	_
+
+# text = äh ich war gerade auf dem Weg zur Uni
+1	äh	äh	ADJ	_	_	3	discourse	_	_
+2	ich	ich	PRON	_	_	3	subj	_	_
+3	war	sein	VERB	_	_	0	root	_	_
+4	gerade	gerade	ADV	_	_	3	mod	_	_
+5	auf	auf	ADP	_	_	3	comp:pred	_	_
+6	dem	d	DET	_	_	7	det	_	_
+7	Weg	Weg	NOUN	_	_	5	comp:obj	_	_
+8	zur	zu	PROPN	_	_	7	mod	_	_
+9	Uni	Uni	PROPN	_	_	8	comp:obj	_	_
+
+# text = und äh ich war auf dem einen Parkplatz
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	äh	äh	ADV	_	_	4	discourse	_	_
+3	ich	ich	PRON	_	_	4	subj	_	_
+4	war	sein	VERB	_	_	0	root	_	_
+5	auf	auf	ADP	_	_	4	comp:pred	_	_
+6	dem	d	DET	_	_	8	det	_	_
+7	einen	ein	PRON	_	_	8	mod	_	_
+8	Parkplatz	Parkplatz	NOUN	_	_	5	comp:obj	_	_
+
+# text = und dann äh da war eine Frau die ihre Sachen ausm Auto irgendwie ausgepackt hat und äh so eine Frau mit mit einem dude der äh mit einem Ball gespielt hat
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	dann	dann	ADV	_	_	5	mod	_	_
+3	äh	äh	ADJ	_	_	5	discourse	_	_
+4	da	da	ADV	_	_	5	comp:pred	_	_
+5	war	sein	VERB	_	_	0	root	_	_
+6	eine	ein	DET	_	_	7	det	_	_
+7	Frau	Frau	NOUN	_	_	5	subj	_	_
+8	die	d	PRON	_	_	14	subj	_	_
+9	ihre	ihr	DET	_	_	10	det	_	_
+10	Sachen	Sache	NOUN	_	_	14	comp:obj	_	_
+11	ausm	aus	PROPN	_	_	14	mod	_	_
+12	Auto	Auto	PROPN	_	_	11	comp:obj	_	_
+13	irgendwie	irgendwie	CCONJ	_	_	15	mod	_	_
+14	ausgepackt	auspacken	VERB	_	_	15	comp:aux	_	_
+15	hat	haben	AUX	_	_	7	mod@relcl	_	_
+16	und	und	CCONJ	_	_	20	cc	_	_
+17	äh	äh	ADJ	_	_	5	discourse	_	_
+18	so	so	ADV	_	_	20	mod	_	_
+19	eine	ein	DET	_	_	20	det	_	_
+20	Frau	Frau	NOUN	_	_	5	conj	_	_
+21	mit	mit	ADP	_	_	22	reparandum	_	_
+22	mit	mit	ADP	_	_	20	orphan	_	_
+23	einem	ein	DET	_	_	24	det	_	_
+24	dude	dude	NOUN	_	_	22	comp:obj	_	_
+25	der	d	DET	_	_	31	subj	_	_
+26	äh	äh	NOUN	_	_	5	discourse	_	_
+27	mit	mit	ADP	_	_	30	mod	_	_
+28	einem	ein	DET	_	_	29	det	_	_
+29	Ball	Ball	NOUN	_	_	27	comp:obj	_	_
+30	gespielt	spielen	VERB	_	_	31	comp:aux	_	_
+31	hat	haben	AUX	_	_	24	mod@relcl	_	_
+
+# text = und dann kamen zwei Autos auf den Parkplatz
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	dann	dann	ADV	_	_	3	mod	_	_
+3	kamen	kommen	VERB	_	_	0	root	_	_
+4	zwei	zwei	NUM	_	_	5	mod	_	_
+5	Autos	Auto	NOUN	_	_	3	subj	_	_
+6	auf	auf	ADP	_	_	3	comp:obl	_	_
+7	den	d	DET	_	_	8	det	_	_
+8	Parkplatz	Parkplatz	NOUN	_	_	6	comp:obj	_	_
+
+# text = und genau als die auf der Höhe von der Frau waren hat der dude also der mit dem Ball den Ball fallen lassen
+1	und	und	CCONJ	_	_	12	cc	_	_
+2	genau	genau	ADJ	_	_	3	mod	_	_
+3	als	als	ADP	_	_	22	mod	_	_
+4	die	d	DET	_	_	11	subj	_	_
+5	auf	auf	ADP	_	_	11	comp:pred	_	_
+6	der	d	DET	_	_	7	det	_	_
+7	Höhe	Höhe	NOUN	_	_	5	comp:obj	_	_
+8	von	von	ADP	_	_	7	mod@poss	_	_
+9	der	d	DET	_	_	10	det	_	_
+10	Frau	Frau	NOUN	_	_	8	comp:obj	_	_
+11	waren	sein	VERB	_	_	3	comp:obj	_	_
+12	hat	haben	AUX	_	_	0	root	_	_
+13	der	d	DET	_	_	14	det	_	_
+14	dude	dude	NOUN	_	_	12	subj	_	_
+15	also	also	ADV	_	_	12	discourse	_	_
+16	der	d	DET	_	_	14	appos	_	_
+17	mit	mit	ADP	_	_	16	mod	_	_
+18	dem	d	DET	_	_	19	det	_	_
+19	Ball	Ball	NOUN	_	_	17	comp:obj	_	_
+20	den	d	DET	_	_	21	det	_	_
+21	Ball	Ball	NOUN	_	_	22	comp:obj	_	_
+22	fallen	fallen	VERB	_	_	23	comp:obj	_	_
+23	lassen	lassen	VERB	_	_	12	comp:aux	_	_
+
+# text = und die Frau die hatte einen Hund dabei
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	die	d	DET	_	_	3	det	_	_
+3	Frau	Frau	NOUN	_	_	5	dislocated	_	_
+4	die	d	PRON	_	_	5	subj	_	_
+5	hatte	haben	VERB	_	_	0	root	_	_
+6	einen	ein	DET	_	_	7	det	_	_
+7	Hund	Hund	NOUN	_	_	5	comp:obj	_	_
+8	dabei	dabei	ADV	_	_	5	compound@prt	_	_
+
+# text = der Hund ist in Richtung von dem Ball gesprungen
+1	der	d	DET	_	_	2	det	_	_
+2	Hund	Hund	NOUN	_	_	3	subj	_	_
+3	ist	sein	VERB	_	_	0	root	_	_
+4	in	in	ADP	_	_	9	comp:obl	_	_
+5	Richtung	Richtung	NOUN	_	_	4	comp:obj	_	_
+6	von	von	ADP	_	_	5	mod@poss	_	_
+7	dem	d	DET	_	_	8	det	_	_
+8	Ball	Ball	NOUN	_	_	6	comp:obj	_	_
+9	gesprungen	springen	VERB	_	_	3	comp:aux	_	_
+
+# text = und dann ist das vordere Auto angehalten
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	dann	dann	ADV	_	_	3	mod	_	_
+3	ist	sein	VERB	_	_	0	root	_	_
+4	das	d	DET	_	_	6	det	_	_
+5	vordere	vordere	ADJ	_	_	6	mod	_	_
+6	Auto	Auto	NOUN	_	_	3	subj	_	_
+7	angehalten	anhalten	VERB	_	_	3	comp:aux	_	_
+
+# text = und das andere ist einfach direkt in das Auto davor reingefahren
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	das	d	DET	_	_	3	det	_	_
+3	andere	andere	NOUN	_	_	4	subj	_	_
+4	ist	sein	VERB	_	_	0	root	_	_
+5	einfach	einfach	ADJ	_	_	4	mod	_	_
+6	direkt	direkt	ADJ	_	_	4	mod	_	_
+7	in	in	ADP	_	_	11	comp:obl	_	_
+8	das	d	DET	_	_	9	det	_	_
+9	Auto	Auto	NOUN	_	_	7	comp:obj	_	_
+10	davor	davor	ADV	_	_	9	mod	_	_
+11	reingefahren	reinfahren	VERB	_	_	4	comp:aux	_	_
+
+# text = ja und das war ganz schön aufregend
+1	ja	ja	ADV	_	_	4	discourse	_	_
+2	und	und	CCONJ	_	_	4	cc	_	_
+3	das	d	PRON	_	_	4	subj	_	_
+4	war	sein	VERB	_	_	0	root	_	_
+5	ganz	ganz	ADV	_	_	6	mod	_	_
+6	schön	schön	ADJ	_	_	7	mod	_	_
+7	aufregend	aufregend	ADJ	_	_	4	comp:pred	_	_
+

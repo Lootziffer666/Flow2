@@ -1,0 +1,130 @@
+1	ey	ey	PROPN	NGIRR	_	2	discourse	_	_
+2	weißt	wissen	VERB	VVFIN	_	0	root	_	_
+3	du	du	PROPN	PPER	_	2	subj	_	_
+4	was	was	PROPN	PWS	_	6	subj	_	_
+5	passiert	passieren	VERB	VVPP	_	6	comp:aux	_	_
+6	ist	sein	AUX	VAFIN	_	2	comp:obj	_	_
+
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	auf	auf	ADP	APPR	_	3	comp:pred	_	_
+5	so	so	ADV	PTKMA	_	7	mod	_	_
+6	einem	ein	DET	ART	_	7	det	_	_
+7	Parkplatz	Parkplatz	NOUN	NN	_	4	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+3	da	da	ADV	ADV	_	4	mod	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	so	so	ADV	PTKMA	_	7	mod	_	_
+6	ein	ein	DET	ART	_	7	det	_	_
+7	Hund	Hund	NOUN	NN	_	4	subj	_	_
+8	drübergelaufen	drüberlaufen	VERB	VVPP	_	4	comp:obj	_	_
+9	auf	auf	ADP	APPR	_	8	comp:obl	_	_
+10	dem	d	DET	ART	_	11	det	_	_
+11	Parkplatz	Parkplatz	NOUN	NN	_	9	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	comp:pred	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	so	so	ADV	PTKMA	_	7	mod	_	_
+5	ein	ein	DET	ART	_	7	det	_	_
+6	anderer	ander	ADJ	PIDAT	_	7	mod	_	_
+7	Typ	Typ	NOUN	NN	_	3	subj	_	_
+8	mitm	mitm	PROPN	APPART	_	7	mod	_	_
+9	Ball	Ball	PROPN	NN	_	8	comp:obj	_	_
+
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	der	die	PRON	PDS	_	3	subj	_	_
+3	hatte	haben	AUX	VAFIN	_	0	root	_	_
+4	den	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	6	comp:obj	_	_
+6	verloren	verlieren	VERB	VVPP	_	3	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	dem	die	DET	PDS	_	7	comp:obj	_	_
+6	halt	halt	ADV	PTKMA	_	4	discourse	_	_
+7	hinterhergelaufen	hinterherlaufen	VERB	VVPP	_	4	comp:aux	_	_
+
+1	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+2	genau	genau	ADJ	PTKIFG	_	3	mod	_	_
+3	zu	zu	ADP	APPR	_	10	mod	_	_
+4	dem	d	DET	ART	_	5	det	_	_
+5	Zeitpunkt	Zeitpunkt	NOUN	NN	_	3	comp:obj	_	_
+6	kamen	kommen	VERB	VVFIN	_	0	root	_	_
+7	halt	halt	ADV	PTKMA	_	6	discourse	_	_
+8	zwei	zwei	NUM	CARD	_	9	mod	_	_
+9	Autos	Auto	NOUN	NN	_	6	subj	_	_
+10	raufgefahren	rauffahren	VERB	VVPP	_	6	comp:obl	_	_
+11	und	und	CCONJ	KON	_	14	cc	_	_
+12	zwar	zwar	ADV	ADV	_	14	mod	_	_
+13	kleine	klein	ADJ	ADJA	_	14	mod	_	_
+14	Autos	Auto	NOUN	NN	_	9	appos	_	_
+
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	denn	denn	ADV	PTKMA	_	5	cc	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	eine	ein	PRON	PIDS	_	5	subj	_	_
+5	war	sein	VERB	VAFIN	_	0	root	_	_
+6	ziemlich	ziemlich	ADV	PTKIFG	_	7	mod	_	_
+7	schnell	schnell	ADJ	ADJD	_	5	comp:pred	_	_
+
+1	der	d	DET	ART	_	2	det	_	_
+2	andere	ander	NOUN	PIDAT	_	0	root	_	_
+3	direkt	direkt	ADJ	ADJD	_	5	mod	_	_
+4	da	da	ADV	ADV	_	5	mod	_	_
+5	hinterher	hinterher	ADV	ADV	_	2	orphan	_	_
+6	als	als	ADP	KON	_	2	mod	_	_
+7	wär	sein	ADJ	VVFIN	_	6	comp:obj	_	_
+8	es	es	PRON	PPER	_	7	subj@expl	_	_
+9	so	so	ADV	PTKIFG	_	11	mod	_	_
+10	ein	ein	DET	ART	_	11	det	_	_
+11	Autorennen	Autorennen	NOUN	NN	_	7	comp:obj	_	_
+12	oder	oder	CCONJ	KON	_	13	cc	_	_
+13	so	so	ADV	ADV	_	11	conj	_	_
+
+1	und	und	CCONJ	KON	_	10	cc	_	_
+2	damit	damit	ADV	ADV	_	15	mod	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Vordere	Vordere	ADJ	NN	_	9	subj	_	_
+5	halt	halt	NOUN	PTKMA	_	10	discourse	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Hund	Hund	NOUN	NN	_	9	comp:obj	_	_
+8	nicht	nicht	PART	PTKNEG	_	9	mod	_	_
+9	plattfährt	plattfahren	VERB	VVFIN	_	2	comp:obj	_	_
+10	hat	haben	AUX	VAFIN	_	0	root	_	_
+11	der	die	DET	PDS	_	10	subj	_	_
+12	halt	halt	NOUN	PTKMA	_	10	discourse	_	_
+13	ziemlich	ziemlich	ADV	PTKIFG	_	14	mod	_	_
+14	stark	stark	ADJ	ADJD	_	10	mod	_	_
+15	gebremst	bremsen	ADV	VVPP	_	10	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Hintere	Hintere	ADJ	NN	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	ihm	er	PRON	PPER	_	6	comp:obj	_	_
+6	raufgefahren	raufgefahren	NOUN	VVPP	_	4	comp:aux	_	_
+
+1	ja	ja	ADV	NGIRR	_	8	discourse	_	_
+2	und	und	CCONJ	KON	_	8	cc	_	_
+3	ich	ich	PRON	PPER	_	4	subj	_	_
+4	war	sein	VERB	VAFIN	_	8	reparandum	_	_
+5	fast	fast	ADV	ADV	_	4	mod	_	_
+6	also	also	ADV	SEDM	_	8	discourse	_	_
+7	ich	ich	PRON	PPER	_	8	subj	_	_
+8	war	sein	VERB	VAFIN	_	0	root	_	_
+9	eigentlich	eigentlich	ADJ	ADV	_	8	mod	_	_
+10	dabei	dabei	ADV	ADV	_	8	compound@prt	_	_
+
+1	also	also	ADV	SEDM	_	3	discourse	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	stand	stehen	VERB	VVFIN	_	0	root	_	_
+4	direkt	direkt	ADV	ADJD	_	3	mod	_	_
+5	davor	davor	ADV	ADV	_	3	compound@prt	_	_
+
+

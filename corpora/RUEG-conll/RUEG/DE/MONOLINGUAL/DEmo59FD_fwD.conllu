@@ -1,0 +1,192 @@
+# text = Ich , DEmo59FD war konnte den Unfall von vorne beobachten
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	subj	_	_
+2	,	,	PUNCT	$,	_	5	punct	_	_
+3	DEmo59FD	DEmo59FD	PROPN	NE	_	1	appos	_	_
+4	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	reparandum	_	_
+5	konnte	können	AUX	VMFIN	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Unfall	Unfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	comp:obj	_	_
+8	von	von	ADP	APPR	_	10	mod	_	_
+9	vorne	vorne	ADV	ADV	_	8	comp:obj	_	_
+10	beobachten	beobachten	ADJ	VVINF	Case=Dat|Degree=Pos|Number=Plur|Tense=Pres	5	comp:aux	_	_
+
+# text = und es spielte sich wie folgt ab :
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+3	spielte	spielen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs	3	comp:obj	_	_
+5	wie	wie	CCONJ	KOKOM	_	6	mod	_	_
+6	folgt	folgen	VERB	VVFIN	Tense=Pres|VerbForm=Fin	3	mod	_	_
+7	ab	ab	ADP	PTKVZ	_	3	compound@prt	_	_
+8	:	:	PUNCT	$.	_	3	punct	_	_
+
+# text = Ein Mann und eine Frau sind mit einem Kinderwagen an einem Parkplatz gelaufen
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	6	subj	_	_
+3	und	und	CCONJ	KON	_	5	cc	_	_
+4	eine	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Frau	Frau	NOUN	NN	_	2	conj	_	_
+6	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	mit	mit	ADP	APPR	_	13	mod	_	_
+8	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Kinderwagen	Kinderwagen	NOUN	NN	Case=Dat|Number=Plur	7	comp:obj	_	_
+10	an	an	ADP	APPR	_	13	comp:obl	_	_
+11	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Parkplatz	Parkplatz	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	10	comp:obj	_	_
+13	gelaufen	laufen	VERB	VVPP	Tense=Past|VerbForm=Inf	6	comp:aux	_	_
+
+# text = und sie wollten dann die Straße überqueren .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	subj	_	_
+3	wollten	wollen	VERB	VMFIN	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	comp:obj	_	_
+7	überqueren	überqueren	VERB	VVPP	Tense=Pres|VerbForm=Inf	3	comp:aux	_	_
+8	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Der Mann hatte einen Fußball in der Hand
+1	Der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Fußball	Fußball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	comp:obj	_	_
+6	in	in	ADP	APPR	_	3	mod	_	_
+7	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Hand	Hand	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	comp:obj	_	_
+
+# text = und warf diesen ab und zu hoch ,
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	warf	werfen	VERB	VVFIN	Tense=Past|VerbForm=Fin	0	root	_	_
+3	diesen	diese	PRON	PDS	Case=Acc|PronType=Dem	2	comp:obj	_	_
+4	ab	ab	ADP	ADV	_	2	mod	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	zu	zu	ADV	ADV	_	4	conj	_	_
+7	hoch	hoch	ADJ	ADV	Degree=Pos	2	compound@prt	_	_
+8	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = als sie dann aber die Straße überqueren wollten , fiel ihm der Ball auf den Fuß
+1	als	als	SCONJ	KOUS	_	10	mod	_	_
+2	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
+3	dann	dann	ADV	ADV	_	8	mod	_	_
+4	aber	aber	ADV	KON	_	8	mod	_	_
+5	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Straße	Straße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	comp:obj	_	_
+7	überqueren	überqueren	VERB	VVINF	Tense=Pres|VerbForm=Inf	8	comp:aux	_	_
+8	wollten	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	comp:obj	_	_
+9	,	,	PUNCT	$,	_	1	punct	_	_
+10	fiel	fallen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	comp:obj	_	_
+12	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Ball	Ball	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	subj	_	_
+14	auf	auf	ADP	APPR	_	10	comp:obl	_	_
+15	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Fuß	Fuß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	comp:obj	_	_
+
+# text = prallte ab
+1	prallte	prallen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	ab	ab	ADP	PTKVZ	_	1	compound@prt	_	_
+
+# text = und landete auf der Straße .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	landete	landen	VERB	VVFIN	Tense=Past|VerbForm=Fin	0	root	_	_
+3	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+4	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Straße	Straße	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	comp:obj	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Gegenüber der dem Mann und der Frau , packte eine weitere Frau mit einem Hund ihren Einkauf in den Wagen .
+1	Gegenüber	gegenüber	ADP	APPR	_	9	mod	_	_
+2	der	d	DET	ART	Definite=Def|PronType=Art	3	reparandum	_	_
+3	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Mann	Mann	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	1	comp:obj	_	_
+5	und	und	CCONJ	KON	_	7	cc	_	_
+6	der	d	DET	ART	Definite=Def|PronType=Art	7	det	_	_
+7	Frau	Frau	NOUN	NN	_	4	conj	_	_
+8	,	,	PUNCT	$,	_	9	punct	_	_
+9	packte	packen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	weitere	weit	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	12	mod	_	_
+12	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	subj	_	_
+13	mit	mit	ADP	APPR	_	12	mod	_	_
+14	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Hund	Hund	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	13	comp:obj	_	_
+16	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	17	det	_	_
+17	Einkauf	Einkauf	NOUN	NN	_	9	comp:obj	_	_
+18	in	in	ADP	APPR	_	9	comp:obl	_	_
+19	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Wagen	Wagen	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	comp:obj	_	_
+21	.	.	PUNCT	$.	_	9	punct	_	_
+
+# text = Der Hund sah den herunterfallenden Ball
+1	Der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	sah	sehen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	herunterfallenden	herunterfallend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	mod	_	_
+6	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	comp:obj	_	_
+
+# text = und rannte auf die Straße , genauso wie der Besitzer des Balls und die Besitzerin des Hundes .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	rannte	rennen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+4	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Straße	Straße	NOUN	NE	Case=Acc|Gender=Fem|Number=Sing	3	comp:obj	_	_
+6	,	,	PUNCT	$,	_	2	punct	_	_
+7	genauso	genauso	ADV	ADV	_	8	mod	_	_
+8	wie	wie	ADP	KOKOM	_	10	cc	_	_
+9	der	d	DET	ART	Definite=Def|PronType=Art	10	det	_	_
+10	Besitzer	Besitzer	NOUN	NN	_	2	conj	_	_
+11	des	d	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Balls	Ball	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	10	mod@poss	_	_
+13	und	und	CCONJ	KON	_	15	cc	_	_
+14	die	d	DET	ART	Definite=Def|PronType=Art	15	det	_	_
+15	Besitzerin	Besitzerin	NOUN	NN	_	10	conj	_	_
+16	des	d	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	17	det	_	_
+17	Hundes	Hund	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	15	mod@poss	_	_
+18	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Währenddessen kamen zwei Autos auf dieser Straße
+1	Währenddessen	währenddessen	ADV	ADV	_	2	mod	_	_
+2	kamen	kommen	VERB	VVFIN	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	zwei	zwei	NUM	CARD	NumType=Card	4	mod	_	_
+4	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	2	subj	_	_
+5	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+6	dieser	diese	PRON	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	Straße	Straße	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	comp:obj	_	_
+
+# text = und der erste Wagen bremste heftig , um keinen zu verletzen ,
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	erste	erst	ADJ	ORD	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	4	mod	_	_
+4	Wagen	Wagen	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	subj	_	_
+5	bremste	bremsen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	heftig	heftig	ADJ	ADJD	Degree=Pos	5	mod	_	_
+7	,	,	PUNCT	$,	_	5	punct	_	_
+8	um	um	ADP	APPR	_	5	mod	_	_
+9	keinen	keine	PRON	PIS	PronType=Neg	11	comp:obj	_	_
+10	zu	zu	PART	PTKZU	_	8	comp:obj	_	_
+11	verletzen	verletzen	VERB	VVINF	Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
+12	,	,	PUNCT	$,	_	5	punct	_	_
+
+# text = daraufhin fuhr das zweite Auto , welches kurz hinter dem ersten war , in das erste Auto hinein .
+1	daraufhin	daraufhin	ADV	ADV	_	2	mod	_	_
+2	fuhr	fahren	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+4	zweite	zweit	ADJ	ORD	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	5	mod	_	_
+5	Auto	Auto	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	subj	_	_
+6	,	,	PUNCT	$,	_	2	punct	_	_
+7	welches	welche	PRON	PRELS	Case=Nom|PronType=Rel	12	subj	_	_
+8	kurz	kurz	ADJ	ADJD	Degree=Pos	9	mod	_	_
+9	hinter	hinter	ADP	APPR	_	12	comp:pred	_	_
+10	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+11	ersten	erst	ADJ	ORD	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing|NumType=Ord	9	comp:obj	_	_
+12	war	sein	VERB	VAFIN	Mood=Ind|Tense=Past|VerbForm=Fin	5	mod@relcl	_	_
+13	,	,	PUNCT	$,	_	12	punct	_	_
+14	in	in	ADP	APPR	_	2	comp:obl	_	_
+15	das	d	DET	ART	Definite=Def|PronType=Art	17	det	_	_
+16	erste	erst	ADJ	ORD	Degree=Pos|NumType=Ord	17	mod	_	_
+17	Auto	Auto	NOUN	NN	_	14	comp:obl	_	_
+18	hinein	hinein	ADV	ADV	_	2	compound@prt	_	_
+19	.	.	PUNCT	$.	_	2	punct	_	_
+

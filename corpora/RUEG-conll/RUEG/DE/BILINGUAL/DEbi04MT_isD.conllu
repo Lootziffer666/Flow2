@@ -1,0 +1,302 @@
+# text = jo Dicker
+1	jo	jo	NOUN	NGIRR	_	2	discourse	_	_
+2	Dicker	Dicker	PROPN	NN	_	0	root	_	_
+
+# text = äh du weißt nicht was ich gerade erlebt habe
+1	äh	äh	ADJ	NGIRR	Degree=Pos	3	discourse	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing|Tense=Pres	3	subj	_	_
+3	weißt	weißt	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	nicht	nicht	PART	PTKNEG	_	3	mod	_	_
+5	was	was	VERB	PWS	_	8	comp:obj	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	subj	_	_
+7	gerade	gerade	ADV	ADV	_	9	mod	_	_
+8	erlebt	erleben	VERB	VVPP	Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	comp:aux	_	_
+9	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
+
+# text = ich war aufn Parkplatz hier von der HU gewesen in der {streetname}Straße
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	aufn	auf	VERB	APPRART	VerbForm=Inf	9	comp:pred	_	_
+4	Parkplatz	Parkplatz	NOUN	NN	_	3	comp:obj	_	_
+5	hier	hier	ADV	ADV	_	4	mod	_	_
+6	von	von	ADP	APPR	_	4	mod	_	_
+7	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	HU	HU	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	6	comp:obj	_	_
+9	gewesen	sein	VERB	VAPP	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+10	in	in	ADP	APPR	_	4	mod	_	_
+11	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	{streetname}Straße	{streetname}Straße	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	10	comp:obj	_	_
+
+# text = und da hab ich einen Unfall gesehen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	hab	haben	AUX	VAFIN	Tense=Pres	0	root	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+5	einen	ein	DET	ART	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	6	det	_	_
+6	Unfall	Unfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	comp:obj	_	_
+7	gesehen	sehen	VERB	VVPP	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+
+# text = da war nämlich ein Pärchen
+1	da	da	ADV	ADV	_	2	comp:pred	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	nämlich	nämlich	ADV	ADV	_	2	mod	_	_
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Pärchen	Pärchen	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	2	subj	_	_
+
+# text = die wollte die wollten auf den Parkplatz also auf die Fahrbahn des Parkplatzes
+1	die	d	DET	PDS	Definite=Def|PronType=Art	2	subj	_	_
+2	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	reparandum	_	_
+3	die	d	PRON	PDS	Case=Nom|PronType=Dem	4	subj	_	_
+4	wollten	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	auf	auf	ADP	APPR	_	4	comp:obl	_	_
+6	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Parkplatz	Parkplatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	comp:obj	_	_
+8	also	also	ADV	ADV	_	4	discourse	_	_
+9	auf	auf	ADP	APPR	_	5	appos	_	_
+10	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Fahrbahn	Fahrbahn	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	comp:obj	_	_
+12	des	d	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Parkplatzes	Parkplatz	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	11	mod@poss	_	_
+
+# text = und haben dann äh sind dann stehengeblieben weil ein Auto gekommen ist
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	haben	haben	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	5	reparandum	_	_
+3	dann	dann	ADV	ADV	_	2	mod	_	_
+4	äh	äh	ADJ	NGIRR	Degree=Pos	5	discourse	_	_
+5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	dann	dann	ADV	ADV	_	5	mod	_	_
+7	stehengeblieben	stehenbleiben	VERB	VVPP	Tense=Past|VerbForm=Inf	5	comp:aux	_	_
+8	weil	weil	SCONJ	KOUS	_	7	mod	_	_
+9	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Auto	Auto	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	12	subj	_	_
+11	gekommen	kommen	VERB	VVPP	Tense=Past|VerbForm=Part	12	comp:aux	_	_
+12	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	_
+
+# text = haben dann aber einen Ball fallen lassen auf die Fahrbahn
+1	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	dann	dann	ADV	ADV	_	1	mod	_	_
+3	aber	aber	ADV	KON	_	1	mod	_	_
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	comp:obj	_	_
+6	fallen	fallen	VERB	VVINF	VerbForm=Inf	7	comp:obj	_	_
+7	lassen	lassen	VERB	VVINF	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	comp:aux	_	_
+8	auf	auf	ADP	APPR	_	6	comp:obl	_	_
+9	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Fahrbahn	Fahrbahn	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	comp:obj	_	_
+
+# text = und der Wagen der da angefahren kam der hatte auch Schwierigkeiten die Situation erstmal im Voraus zu sehen weil da noch ein Transporter dazwischen war
+1	und	und	CCONJ	KON	_	9	cc	_	_
+2	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Wagen	Wagen	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	dislocated	_	_
+4	der	d	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	7	subj	_	_
+5	da	da	ADV	ADV	_	7	mod	_	_
+6	angefahren	anfahren	VERB	VVPP	Tense=Past|VerbForm=Part	7	comp:obl	_	_
+7	kam	kommen	VERB	VVFIN	Person=3|Tense=Past|VerbForm=Fin	3	mod@relcl	_	_
+8	der	d	PRON	PDS	Case=Nom|PronType=Dem	9	subj	_	_
+9	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	auch	auch	ADV	PTKIFG	_	9	mod	_	_
+11	Schwierigkeiten	Schwierigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	comp:obj	_	_
+12	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Situation	Situation	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	comp:obj	_	_
+14	erstmal	erstmal	ADV	ADV	_	15	mod	_	_
+15	im	in	PROPN	APPRART	Case=Nom|Number=Sing	18	mod	_	_
+16	Voraus	Voraus	ADV	NN	_	15	comp:obj	_	_
+17	zu	zu	PART	PTKZU	_	11	comp:obl	_	_
+18	sehen	sehen	VERB	VVINF	VerbForm=Inf	17	comp:obj	_	_
+19	weil	weil	SCONJ	KOUS	_	9	mod	_	_
+20	da	da	ADV	ADV	_	25	mod	_	_
+21	noch	noch	ADV	PTKMWL	_	23	mod	_	_
+22	ein	ein	DET	ART	Definite=Ind|PronType=Art	23	det	_	_
+23	Transporter	Transporter	NOUN	NN	_	25	subj	_	_
+24	dazwischen	dazwischen	ADV	ADV	_	25	comp:pred	_	_
+25	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	comp:obj	_	_
+
+# text = hat dann aber als er das gesehen hat noch mal rechtzeitig abgebremst
+1	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	dann	dann	ADV	ADV	_	1	mod	_	_
+3	aber	aber	ADV	KON	_	1	mod	_	_
+4	als	als	SCONJ	KOUS	_	12	mod	_	_
+5	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
+6	das	d	PRON	PDS	Case=Acc|PronType=Dem	7	comp:obj	_	_
+7	gesehen	sehen	VERB	VVPP	Tense=Past|VerbForm=Part	8	comp:aux	_	_
+8	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
+9	noch	noch	ADV	PTKMWL	_	11	mod	_	_
+10	mal	mal	ADV	ADV	_	9	fixed	_	_
+11	rechtzeitig	rechtzeitig	ADJ	ADJD	Degree=Pos	1	mod	_	_
+12	abgebremst	abbremsen	ADV	VVPP	Tense=Past	1	comp:aux	_	_
+
+# text = also verletzt ist niemand
+1	also	also	ADV	SEDM	_	3	discourse	_	_
+2	verletzt	verletzen	VERB	ADJD	VerbForm=Fin	3	comp:pred	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	niemand	niemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Neg	3	subj	_	_
+
+# text = und äh hinter ihm war ein anderes Fahrzeug ein blaues Fahrzeug
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	äh	äh	ADV	NGIRR	_	5	discourse	_	_
+3	hinter	hinter	ADP	APPR	_	5	comp:pred	_	_
+4	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	_
+5	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	ein	ein	DET	ART	Definite=Ind|PronType=Art	8	det	_	_
+7	anderes	anderes	ADJ	PIDAT	Degree=Pos	8	mod	_	_
+8	Fahrzeug	Fahrzeug	NOUN	NN	_	5	subj	_	_
+9	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+10	blaues	blau	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc,Neut|Number=Sing	11	mod	_	_
+11	Fahrzeug	Fahrzeug	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	8	appos	_	_
+
+# text = und der konnte das nicht rechtzeitig alles abschätzen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	der	d	PRON	PDS	Case=Dat|PronType=Dem	3	subj	_	_
+3	konnte	k�nnen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	das	d	DET	PDS	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	comp:obj	_	_
+5	nicht	nicht	PART	PTKNEG	_	3	mod	_	_
+6	rechtzeitig	rechtzeitig	ADJ	ADJD	Degree=Pos	3	mod	_	_
+7	alles	alle	PRON	PIS	Case=Acc|PronType=Tot	4	appos	_	_
+8	abschätzen	abschätzen	VERB	VVPP	VerbForm=Inf	3	comp:aux	_	_
+
+# text = und ist dem hinten raufgefahren
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dem	d	DET	PDS	Definite=Def|PronType=Art	5	comp:obj	_	_
+4	hinten	hinten	ADJ	ADV	Degree=Pos	2	mod	_	_
+5	raufgefahren	rauffahren	NOUN	VVPP	Tense=Past	2	comp:aux	_	_
+
+# text = und ja da war noch gegenüber von dem Pärchen auf dem Parkplatz war noch eine Frau am einladen ihren Einkauf einladen
+1	und	und	CCONJ	KON	_	13	cc	_	_
+2	ja	ja	ADV	PTKMA	_	13	discourse	_	_
+3	da	da	ADV	ADV	_	4	mod	_	_
+4	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	reparandum	_	_
+5	noch	noch	ADV	PTKMWL	_	4	mod	_	_
+6	gegenüber	gegenüber	ADP	ADV	_	13	mod	_	_
+7	von	von	ADP	APPR	_	6	mod	_	_
+8	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Pärchen	Pärchen	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	7	comp:obj	_	_
+10	auf	auf	ADP	APPR	_	13	mod	_	_
+11	dem	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Parkplatz	Parkplatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	comp:obj	_	_
+13	war	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	noch	noch	ADV	PTKMWL	_	16	mod	_	_
+15	eine	ein	DET	ART	Definite=Ind|PronType=Art	16	det	_	_
+16	Frau	Frau	NOUN	NN	_	13	subj	_	_
+17	am	an	ADJ	APPRART	Degree=Pos	13	comp:pred	_	_
+18	einladen	einladen	VERB	VVINF	VerbForm=Inf	21	reparandum	_	_
+19	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	20	det	_	_
+20	Einkauf	Einkauf	NOUN	NN	Case=Dat|Number=Sing	21	comp:obj	_	_
+21	einladen	einladen	VERB	VVINF	VerbForm=Inf	17	comp:obj	_	_
+
+# text = die hatte noch einen Hund gehabt
+1	die	d	PRON	PDS	Case=Nom|PronType=Dem	2	subj	_	_
+2	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	noch	noch	ADV	PTKMWL	_	5	mod	_	_
+4	einen	ein	DET	ART	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+5	Hund	Hund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	comp:obj	_	_
+6	gehabt	haben	VERB	VAPP	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+
+# text = und dieser Hund wollte dann halt auch auf die Straße rennen zu dem Ball
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	dieser	diese	PRON	PDAT	PronType=Dem	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	4	subj	_	_
+4	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	dann	dann	ADV	ADV	_	4	mod	_	_
+6	halt	halt	ADV	PTKMA	_	4	discourse	_	_
+7	auch	auch	ADV	PTKIFG	_	4	mod	_	_
+8	auf	auf	ADP	APPR	_	11	comp:obl	_	_
+9	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	comp:obj	_	_
+11	rennen	rennen	VERB	VVINF	VerbForm=Inf	4	comp:aux	_	_
+12	zu	zu	ADP	APPR	_	11	mod	_	_
+13	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	14	det	_	_
+14	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	12	comp:obj	_	_
+
+# text = und dann ist der Junge der den fallen lassen hat also der Junge von dem Pärchen praktisch der ist dann rübergeeilt
+1	und	und	CCONJ	KON	_	19	cc	_	_
+2	dann	dann	ADV	ADV	_	19	mod	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	reparandum	_	_
+4	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Junge	Junge	NOUN	NGIRR	Case=Nom|Gender=Masc|Number=Sing	19	dislocated	_	_
+6	der	d	PRON	PRELS	Case=Nom|PronType=Rel	10	subj	_	_
+7	den	d	DET	PDS	Case=Dat|Definite=Def|Number=Plur|PronType=Art	8	comp:obj	_	_
+8	fallen	fallen	ADJ	VVINF	Case=Dat|Degree=Pos|Number=Plur	9	comp:obj	_	_
+9	lassen	lassen	NOUN	VVINF	Case=Dat|Number=Plur|Tense=Past	10	comp:aux	_	_
+10	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	_
+11	also	also	ADV	ADV	_	19	discourse	_	_
+12	der	d	DET	PDS	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Junge	Junge	NOUN	NGIRR	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+14	von	von	ADP	APPR	_	13	mod	_	_
+15	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	16	det	_	_
+16	Pärchen	Pärchen	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	14	comp:obj	_	_
+17	praktisch	praktisch	ADV	ADV	_	13	mod	_	_
+18	der	die	PRON	PDS	Case=Nom|PronType=Dem	19	subj	_	_
+19	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	dann	dann	ADV	ADV	_	19	mod	_	_
+21	rübergeeilt	rübereilen	ADJ	VVPP	Tense=Past	19	comp:aux	_	_
+
+# text = und hat den Einkauf noch mal aufgesammelt
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Einkauf	Einkauf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	comp:obj	_	_
+5	noch	noch	ADV	PTKMWL	_	2	mod	_	_
+6	mal	mal	ADV	ADV	_	5	fixed	_	_
+7	aufgesammelt	aufsammeln	VERB	VVPP	Person=3|Tense=Past|VerbForm=Fin	2	comp:aux	_	_
+
+# text = weil die Frau hat ihren Einkauf in dem ganzen Durcheinander wahrscheinlich wegen dem Hund oder weil sie plötzlich erschrocken war dann fallen lassen
+1	weil	weil	SCONJ	SEDM	_	4	discourse	_	_
+2	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	subj	_	_
+4	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	Einkauf	Einkauf	NOUN	NN	Case=Nom|Number=Sing	22	comp:obj	_	_
+7	in	in	ADP	APPR	_	22	mod	_	_
+8	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+9	ganzen	ganz	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	10	mod	_	_
+10	Durcheinander	Durcheinander	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	comp:obj	_	_
+11	wahrscheinlich	wahrscheinlich	ADJ	ADV	Degree=Pos	12	mod	_	_
+12	wegen	wegen	ADP	APPR	_	22	mod	_	_
+13	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	14	det	_	_
+14	Hund	Hund	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	12	comp:obj	_	_
+15	oder	oder	CCONJ	KON	_	16	cc	_	_
+16	weil	weil	SCONJ	KOUS	_	12	conj	_	_
+17	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	subj	_	_
+18	plötzlich	plötzlich	ADJ	ADJD	Degree=Pos	20	mod	_	_
+19	erschrocken	erschrecken	VERB	VVPP	Tense=Past|VerbForm=Inf	20	comp:aux	_	_
+20	war	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	16	comp:obj	_	_
+21	dann	dann	ADV	ADV	_	4	mod	_	_
+22	fallen	fallen	VERB	VVINF	VerbForm=Inf	23	comp:obj	_	_
+23	lassen	lassen	VERB	VVINF	Tense=Past|VerbForm=Inf	4	comp:aux	_	_
+
+# text = und die haben das dann aufgeräumt
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	die	d	PRON	PDS	Case=Nom|PronType=Dem	3	subj	_	_
+3	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	das	d	PRON	PDS	Case=Acc|PronType=Dem	6	comp:obj	_	_
+5	dann	dann	ADV	ADV	_	3	mod	_	_
+6	aufgeräumt	aufräumen	VERB	VVPP	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+
+# text = und dann sie rüber zu den Unfallbeteiligten die dann schon inzwischen die Polizei gerufen haben
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	sind	sein	VERB	VAFIN	_	0	root	_	_
+4	sie	sie	PRON	PPER	Case=Nom|Mood=Ind|Number=Plur|Person=3|PronType=Prs|Tense=Pres|VerbForm=Fin	3	subj	_	_
+5	rüber	rüber	ADV	ADJA	_	3	comp:aux	_	_
+6	zu	zu	ADP	APPR	_	5	mod	_	_
+7	den	d	DET	ART	Definite=Def|PronType=Art	8	det	_	_
+8	Unfallbeteiligten	Unfallbeteiligte	NOUN	NN	_	6	comp:obj	_	_
+9	die	d	PRON	PRELS	Case=Nom|PronType=Dem	16	subj	_	_
+10	dann	dann	ADV	ADV	_	16	mod	_	_
+11	schon	schon	ADV	PTKMWL	_	16	mod	_	_
+12	inzwischen	inzwischen	ADV	ADV	_	16	mod	_	_
+13	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Polizei	Polizei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	comp:obj	_	_
+15	gerufen	rufen	VERB	VVPP	Tense=Past|VerbForm=Part	16	comp:aux	_	_
+16	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	_
+
+# text = na gut wir sehen uns später
+1	na	na	PROPN	NGIRR	_	4	discourse	_	_
+2	gut	gut	ADJ	ADJD	Degree=Pos	1	fixed	_	_
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	subj	_	_
+4	sehen	sehen	VERB	VVFIN	Tense=Pres|VerbForm=Inf	0	root	_	_
+5	uns	wir	PRON	PRF	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	comp:obj	_	_
+6	später	spät	ADJ	ADJD	Degree=Cmp,Pos	4	mod	_	_
+
+

@@ -1,0 +1,240 @@
+1	hallo	hallo	X	NGIRR	_	2	discourse	_	_
+2	Süße	Süße	NOUN	NN	_	0	root	_	_
+
+1	du	du	PRON	PPER	_	3	vocative	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	warte	warten	ADJ	VVFIN	_	0	root	_	_
+4	gerade	gerade	ADV	ADV	_	3	mod	_	_
+5	auf	auf	ADP	APPR	_	3	comp:obl	_	_
+6	dich	du	PRON	PPER	_	5	comp:obj	_	_
+7	hier	hier	ADV	ADV	_	3	mod	_	_
+8	aufm	auf	PROPN	APPRART	_	7	mod	_	_
+9	Parkplatz	Parkplatz	PROPN	NN	_	8	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dreimal	dreimal	NUM	ADV	_	3	mod	_	_
+3	darfst	dürfen	ADV	VMFIN	_	0	root	_	_
+4	du	du	PRON	PPER	_	3	subj	_	_
+5	raten	raten	NOUN	VVINF	_	3	comp:aux	_	_
+6	was	was	PRON	PWS	_	8	subj	_	_
+7	passiert	passieren	VERB	VVPP	_	8	comp:aux	_	_
+8	ist	sein	AUX	VAFIN	_	5	comp:obj	_	_
+
+1	äh	äh	ADJ	NGHES	_	3	mod	_	_
+2	es	es	PRON	PPER	_	3	subj@expl	_	_
+3	fuhren	fahren	VERB	VVFIN	_	0	root	_	_
+4	zwei	zwei	NUM	CARD	_	5	mod	_	_
+5	Autos	Auto	NOUN	NN	_	3	subj	_	_
+6	hintereinander	hintereinander	ADV	PTKVZ	_	3	compound@prt	_	_
+7	ein	ein	DET	ART	_	8	det	_	_
+8	blaues	blau	ADJ	ADJA	_	5	appos	_	_
+9	und	und	CCONJ	KON	_	11	cc	_	_
+10	ein	ein	DET	ART	_	11	det	_	_
+11	weißes	weißes	ADJ	ADJA	_	8	conj	_	_
+
+1	weiß	wissen	VERB	VVFIN	_	5	parataxis	_	_
+2	gar	gar	ADV	PTKIFG	_	3	mod	_	_
+3	nicht	nicht	PART	PTKNEG	_	1	mod	_	_
+4	vielleicht	vielleicht	ADV	ADV	_	5	mod	_	_
+5	kennst	kennen	PROPN	VVFIN	_	0	root	_	_
+6	du	du	PROPN	PPER	_	5	subj	_	_
+7	die	d	PROPN	PDS	_	5	comp:obj	_	_
+8	sogar	sogar	ADV	PTKIFG	_	5	mod	_	_
+
+1	die	d	DET	ART	_	2	det	_	_
+2	Typen	Typ	NOUN	NN	_	3	subj	_	_
+3	sind	sein	AUX	VAFIN	_	0	root	_	_
+4	gerade	gerade	ADV	ADV	_	3	mod	_	_
+5	ausgestiegen	aussteigen	VERB	VVPP	_	3	comp:aux	_	_
+
+1	auf	auf	ADP	APPR	_	10	mod	_	_
+2	jeden	jede	PRON	PIAT	_	3	det	_	_
+3	Fall	Fall	NOUN	NN	_	1	comp:obj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Hintermann	Hintermann	NOUN	NN	_	4	subj	_	_
+7	dem	d	DET	ART	_	8	det	_	_
+8	Vordermann	Vordermann	PROPN	NN	_	10	comp:obj	_	_
+9	richtig	richtig	ADJ	ADJD	_	4	mod	_	_
+10	reingefahren	reingefahren	VERB	VVPP	_	4	comp:aux	_	_
+
+1	das	d	PRON	PDS	_	2	subj	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	richtig	richtig	ADJ	PTKIFG	_	4	mod	_	_
+4	laut	laut	ADJ	ADJD	_	2	mod	_	_
+5	geknallt	knallen	VERB	VVPP	_	2	comp:aux	_	_
+
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	hab	haben	AUX	VAFIN	_	0	root	_	_
+3	erstmal	erstmal	ADV	ADV	_	2	mod	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Schock	Schock	NOUN	NN	_	6	comp:obj	_	_
+6	bekommen	bekommen	VERB	VVPP	_	2	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	8	cc	_	_
+2	auf	auf	ADP	APPR	_	8	mod	_	_
+3	jeden	jede	PRON	PIAT	_	4	det	_	_
+4	Fall	Fall	NOUN	NN	_	2	comp:obj	_	_
+5	ja	ja	ADV	NGIRR	_	8	discourse	_	_
+6	und	und	CCONJ	KON	_	8	cc	_	_
+7	was	was	PRON	PWS	_	8	subj	_	_
+8	war	sein	VERB	VAFIN	_	0	root	_	_
+9	die	d	DET	ART	_	10	det	_	_
+10	Ursache	Ursache	NOUN	NN	_	8	comp:pred	_	_
+
+1	alle	alle	PRON	PIS	_	2	subj	_	_
+2	denken	denken	VERB	VVFIN	_	0	root	_	_
+3	es	es	PRON	PPER	_	4	subj@expl	_	_
+4	war	sein	VERB	VAFIN	_	2	comp:obj	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Hund	Hund	NOUN	NN	_	4	comp:pred	_	_
+7	der	d	DET	PRELS	_	11	subj	_	_
+8	auf	auf	ADP	APPR	_	11	comp:obl	_	_
+9	die	d	DET	ART	_	10	det	_	_
+10	Straße	Straße	NOUN	NN	_	8	comp:obj	_	_
+11	gerannt	rennen	ADJ	VVPP	_	12	comp:aux	_	_
+12	ist	sein	VERB	VAFIN	_	6	mod@relcl	_	_
+
+1	ist	sein	VERB	VAFIN	_	0	root	_	_
+2	es	es	PRON	PPER	_	1	subj@expl	_	_
+3	aber	aber	ADV	PTKMA	_	1	mod	_	_
+4	nicht	nicht	PART	PTKNEG	_	1	mod	_	_
+
+1	so	so	ADV	PTKIFG	_	4	mod	_	_
+2	ein	ein	NUM	ART	_	4	det	_	_
+3	dummer	dumm	NOUN	ADJA	_	4	mod	_	_
+4	Typ	Typ	NOUN	NN	_	9	dislocated	_	_
+5	mit	mit	ADP	APPR	_	4	mod	_	_
+6	seiner	sein	DET	PPOSAT	_	7	det	_	_
+7	Frau	Frau	NOUN	NN	_	5	comp:obj	_	_
+8	der	d	PRON	PDS	_	9	subj	_	_
+9	lief	laufen	VERB	VVFIN	_	0	root	_	_
+10	da	da	ADV	ADV	_	9	mod	_	_
+11	gerade	gerade	ADV	ADV	_	9	mod	_	_
+12	entlang	entlang	ADP	PTKVZ	_	9	compound@prt	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	den	d	DET	ART	_	4	det	_	_
+4	Ball	Ball	NOUN	NN	_	8	comp:obj	_	_
+5	in	in	ADP	APPR	_	4	mod	_	_
+6	seiner	sein	DET	PPOSAT	_	7	det	_	_
+7	Hand	Hand	NOUN	NN	_	5	comp:obj	_	_
+8	fallen	fallen	VERB	VVINF	_	9	comp:obj	_	_
+9	lassen	lassen	VERB	VVINF	_	2	comp:aux	_	_
+10	sodass	sodass	SCONJ	KOUS	_	8	mod	_	_
+11	der	d	DET	ART	_	12	det	_	_
+12	Hund	Hund	NOUN	NN	_	18	subj	_	_
+13	halt	halt	VERB	PTKMA	_	2	discourse	_	_
+14	auf	auf	ADP	APPR	_	17	comp:obl	_	_
+15	die	d	DET	ART	_	16	det	_	_
+16	Straße	Straße	NOUN	NN	_	14	comp:obj	_	_
+17	gerannt	rennen	ADJ	VVPP	_	18	comp:aux	_	_
+18	ist	sein	VERB	VAFIN	_	10	comp:obj	_	_
+
+1	die	d	DET	ART	_	3	det	_	_
+2	arme	arm	ADJ	ADJA	_	3	mod	_	_
+3	Frau	Frau	NOUN	NN	_	7	dislocated	_	_
+4	vom	von	PROPN	APPRART	_	3	mod	_	_
+5	Hund	Hund	PROPN	NN	_	4	comp:obj	_	_
+6	die	d	PROPN	PDS	_	7	subj	_	_
+7	hatte	haben	VERB	VAFIN	_	0	root	_	_
+8	richtig	richtig	ADJ	PTKIFG	_	9	mod	_	_
+9	Angst	Angst	NOUN	NN	_	7	comp:obj	_	_
+
+1	hat	haben	VERB	VAFIN	_	0	root	_	_
+2	erstmal	erstmal	ADV	ADV	_	1	mod	_	_
+3	ihren	ihr	DET	PPOSAT	_	4	det	_	_
+4	Hund	Hund	NOUN	NN	_	8	comp:obj	_	_
+5	in	in	ADP	APPR	_	8	comp:obl	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Arm	Arm	NOUN	NN	_	5	comp:obj	_	_
+8	genommen	nehmen	VERB	VVPP	_	1	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	ja	ja	ADV	NGIRR	_	6	discourse	_	_
+3	die	d	DET	ART	_	5	det	_	_
+4	beiden	beide	PRON	PIDAT	_	5	mod	_	_
+5	Typen	Typ	NOUN	NN	_	6	subj	_	_
+6	sind	sein	AUX	VAFIN	_	0	root	_	_
+7	sofort	sofort	ADV	ADV	_	6	mod	_	_
+8	ausgestiegen	aussteigen	VERB	VVPP	_	6	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	die	d	PRON	PDS	_	3	subj	_	_
+3	schauen	schauen	VERB	VVFIN	_	0	root	_	_
+4	sich	er|es|sie	PRON	PRF	_	3	comp:obl	_	_
+5	jetzt	jetzt	ADV	ADV	_	3	mod	_	_
+6	gerade	gerade	ADV	ADV	_	3	mod	_	_
+7	den	d	DET	ART	_	8	det	_	_
+8	Schaden	Schaden	NOUN	NN	_	3	comp:obj	_	_
+9	an	an	ADP	PTKVZ	_	3	compound@prt	_	_
+
+1	na	na	PROPN	NGIRR	_	3	discourse	_	_
+2	immerhin	immerhin	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Verursacher	Verursacher	NOUN	NN	_	3	subj	_	_
+6	also	also	ADV	ADV	_	8	mod	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Typ	Typ	NOUN	NN	_	5	appos	_	_
+9	der	d	PRON	PRELS	_	13	subj	_	_
+10	den	d	DET	ART	_	11	det	_	_
+11	Ball	Ball	NOUN	NN	_	12	comp:obj	_	_
+12	verloren	verlieren	VERB	VVPP	_	13	comp:aux	_	_
+13	hat	haben	AUX	VAFIN	_	8	mod@relcl	_	_
+14	so	so	ADV	PTKIFG	_	15	mod	_	_
+15	nett	nett	ADJ	ADJD	_	3	comp:pred	_	_
+16	dass	dass	SCONJ	KOUS	_	15	mod	_	_
+17	er	er	PRON	PPER	_	22	subj	_	_
+18	zumindest	zumindest	ADV	ADV	_	22	mod	_	_
+19	zu	zu	ADP	APPR	_	22	comp:obl	_	_
+20	den	d	DET	ART	_	21	det	_	_
+21	Männern	Mann	NOUN	NN	_	19	comp:obj	_	_
+22	hingeht	hingehen	VERB	VVFIN	_	16	comp:obj	_	_
+23	und	und	CCONJ	KON	_	25	cc	_	_
+24	auch	auch	ADV	ADV	_	25	mod	_	_
+25	guckt	gucken	ADJ	VVFIN	_	22	conj	_	_
+
+1	mal	mal	NOUN	ADV	_	2	mod	_	_
+2	gucken	gucken	VERB	VVINF	_	0	root	_	_
+3	ob	ob	SCONJ	KOUS	_	2	comp:obj	_	_
+4	er	er|es|sie	PRON	PPER	_	12	subj	_	_
+5	da	da	ADV	ADV	_	12	mod	_	_
+6	jetzt	jetzt	ADV	ADV	_	12	mod	_	_
+7	auch	auch	ADV	PTKIFG	_	12	mod	_	_
+8	die	d	DET	ART	_	9	det	_	_
+9	Schuld	Schuld	NOUN	NN	_	12	comp:obj	_	_
+10	auf	auf	ADP	APPR	_	12	comp:obl	_	_
+11	sich	er|es|sie	PRON	PRF	_	10	comp:obj	_	_
+12	nimmt	nehmen	VERB	VVFIN	_	3	comp:obj	_	_
+13	oder	oder	CCONJ	KON	_	16	cc	_	_
+14	na	na	PROPN	NGIRR	_	2	discourse	_	_
+15	ja	ja	ADV	NGIRR	_	14	fixed	_	_
+16	ob	ob	ADP	KOUS	_	3	conj	_	_
+17	der	d	DET	ART	_	19	det	_	_
+18	arme	arm	ADJ	ADJA	_	19	mod	_	_
+19	Mann	Mann	NOUN	NN	_	25	subj	_	_
+20	jetzt	jetzt	ADV	ADV	_	25	mod	_	_
+21	auch	auch	ADV	PTKIFG	_	25	mod	_	_
+22	noch	noch	ADV	PTKMWL	_	25	mod	_	_
+23	dafür	dafür	ADV	ADV	_	25	mod	_	_
+24	zahlen	zahlen	VERB	VVINF	_	25	comp:aux	_	_
+25	muss	müssen	AUX	VMFIN	_	16	comp:obj	_	_
+
+1	na	na	PROPN	NGIRR	_	3	discourse	_	_
+2	ja	ja	ADV	NGIRR	_	1	fixed	_	_
+3	wie	wie	CCONJ	PWAV	_	0	root	_	_
+4	auch	auch	ADV	PTKMA	_	3	mod	_	_
+5	immer	immer	ADV	ADV	_	3	mod	_	_
+
+1	wir	wir	PRON	PPER	_	2	subj	_	_
+2	sehen	sehen	VERB	VVFIN	_	0	root	_	_
+3	uns	wir	PRON	PRF	_	2	comp:obj	_	_
+4	dann	dann	ADV	ADV	_	2	mod	_	_
+
+1	bis	bis	ADP	KOUS	_	0	root	_	_
+2	dann	dann	ADV	ADV	_	1	comp:obj	_	_
+3	tschüss	tschüss	PROPN	NGIRR	_	1	discourse	_	_
+
+

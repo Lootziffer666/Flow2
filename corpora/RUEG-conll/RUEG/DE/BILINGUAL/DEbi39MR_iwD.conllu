@@ -1,0 +1,27 @@
+1	yo	yo	NOUN	NGIRR	_	0	root	_	_
+2	!	!	PUNCT	$.	_	1	punct	_	_
+
+1	Ich	ich	PRON	PPER	_	2	subj	_	_
+2	musste	m�ssen	AUX	VMFIN	_	0	root	_	_
+3	gerade	gerade	NOUN	ADV	_	2	mod	_	_
+4	Augenzeuge	Augenzeuge	NOUN	NN	_	5	comp:obj	_	_
+5	spielen	spielen	VERB	VVINF	_	2	comp:aux	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	kleiner	klein	ADJ	ADJA	_	2	mod	_	_
+2	Autounfall	Autounfall	NOUN	NN	_	0	root	_	_
+3	wegen	wegen	ADP	APPR	_	2	mod	_	_
+4	einem	ein	DET	PIS	_	8	det	_	_
+5	noch	noch	ADV	PTKMWL	_	6	mod	_	_
+6	kleinerem	kleine	ADJ	ADJA	_	8	mod	_	_
+7	haarigen	haarigen	VERB	ADJA	_	8	mod	_	_
+8	Hund	Hund	NOUN	NN	_	3	comp:obj	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Hunde	Hund	NOUN	NN	_	2	subj	_	_
+2	laufen	laufen	VERB	VVINF	_	0	root	_	_
+3	übrigens	übrigens	ADV	ADV	_	2	mod	_	_
+4	wirklich	wirklich	ADJ	PTKIFG	_	2	mod	_	_
+5	Bällen	Bällen	NOUN	NN	_	2	comp:obj	_	_
+6	hinterher	hinterher	ADV	PTKVZ	_	2	compound@prt	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_

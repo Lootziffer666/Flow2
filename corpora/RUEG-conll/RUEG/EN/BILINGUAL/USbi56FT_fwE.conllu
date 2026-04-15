@@ -1,0 +1,146 @@
+1	a	a	DET	AT0	_	2	det	_	_
+2	man	man	NOUN	NN1	_	4	nsubj	_	_
+3	was	be	AUX	VBD	_	4	cop	_	_
+4	walking	walk	VERB	VVG	_	0	root	_	_
+5	with	with	ADP	PRP	_	7	case	_	_
+6	his	he	DET	DPS	_	7	det	_	_
+7	family	family	NOUN	NN1	_	4	obl	_	_
+8	,	,	PUNCT	PUN	_	4	punct	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	was	be	AUX	VBD	_	3	aux:pass	_	_
+3	playing	play	VERB	VVG	_	0	root	_	_
+4	with	with	ADP	PRP	_	7	case	_	_
+5	a	a	DET	AT0	_	7	det	_	_
+6	soccer	soccer	NOUN	NN1	_	7	compound	_	_
+7	ball	ball	NOUN	NN1	_	3	obl	_	_
+8	.	.	PUNCT	SENT	_	3	punct	_	_
+
+1	but	but	CCONJ	CJC	_	11	cc	_	_
+2	,	,	PUNCT	PUN	_	11	punct	_	_
+3	as	as	SCONJ	CJS	_	5	mark	_	_
+4	he	he	PRON	PNP	_	5	nsubj	_	_
+5	got	get	VERB	VVD	_	11	advcl	_	_
+6	closer	close	ADJ	AJC	_	5	advmod	_	_
+7	to	to	ADP	PRP	_	9	case	_	_
+8	the	the	DET	AT0	_	9	det	_	_
+9	road	road	NOUN	NN1	_	6	obl	_	_
+10	he	he	PRON	PNP	_	11	nsubj	_	_
+11	dropped	drop	VERB	VVD	_	0	root	_	_
+12	it	it	PRON	PNP	_	11	obj	_	_
+13	in	in	ADP	PRP	_	15	case	_	_
+14	the	the	DET	AT0	_	15	det	_	_
+15	middle	middle	NOUN	NN1	_	11	obl	_	_
+16	of	of	ADP	PRF	_	18	case	_	_
+17	the	the	DET	AT0	_	18	det	_	_
+18	street	street	NOUN	NN1	_	15	nmod	_	_
+19	.	.	PUNCT	SENT	_	11	punct	_	_
+
+1	the	the	DET	AT0	_	2	det	_	_
+2	car	car	NOUN	NN1	_	3	nsubj	_	_
+3	came	come	VERB	VVD	_	0	root	_	_
+4	to	to	ADP	PRP	_	7	case	_	_
+5	an	an	DET	AT0	_	7	det	_	_
+6	automatic	automatic	ADJ	AJ0	_	7	amod	_	_
+7	stop	stop	NOUN	NN1	_	3	obl	_	_
+8	.	.	PUNCT	SENT	_	3	punct	_	_
+
+1	a	a	DET	AT0	_	2	det	_	_
+2	woman	woman	NOUN	NN1	_	4	nsubj	_	_
+3	was	be	AUX	VBD	_	4	cop	_	_
+4	emptying	empty	VERB	VVG	_	0	root	_	_
+5	her	she	DET	DPS	_	6	det	_	_
+6	car	car	NOUN	NN1	_	4	obj	_	_
+7	around	around	ADP	PRP	_	10	case	_	_
+8	the	the	DET	AT0	_	10	det	_	_
+9	same	same	ADJ	AJ0	_	10	amod	_	_
+10	time	time	NOUN	NN1	_	4	obl	_	_
+11	the	the	DET	AT0	_	12	det	_	_
+12	ball	ball	NOUN	NN1	_	4	obl	_	_
+13	went	go	VERB	VVD	_	12	acl	_	_
+14	in	in	ADP	PRP	_	16	case	_	_
+15	the	the	DET	AT0	_	16	det	_	_
+16	middle	middle	NOUN	NN1	_	13	obl	_	_
+17	of	of	ADP	PRF	_	19	case	_	_
+18	the	the	DET	AT0	_	19	det	_	_
+19	road	road	NOUN	NN1	_	16	nmod	_	_
+20	.	.	PUNCT	SENT	_	4	punct	_	_
+
+1	her	she	DET	DPS	_	2	det	_	_
+2	dog	dog	NOUN	NN1	_	3	nsubj	_	_
+3	started	start	VERB	VVD	_	0	root	_	_
+4	to	to	PART	TO0	_	5	mark	_	_
+5	bark	bark	VERB	VVI	_	3	xcomp	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	she	she	PRON	PNP	_	3	nsubj	_	_
+3	dropped	drop	VERB	VVD	_	0	root	_	_
+4	the	the	DET	AT0	_	5	det	_	_
+5	groceries	grocery	NOUN	NN2	_	3	obj	_	_
+6	in	in	ADP	PRP	_	8	case	_	_
+7	her	she	DET	DPS	_	8	det	_	_
+8	hands	hand	NOUN	NN2	_	3	obl	_	_
+
+1	and	and	CCONJ	CJC	_	2	cc	_	_
+2	picked	pick	VERB	VVD	_	0	root	_	_
+3	up	up	ADP	AVP	_	2	compound:prt	_	_
+4	the	the	DET	AT0	_	5	det	_	_
+5	dog	dog	NOUN	NN1	_	2	obj	_	_
+6	,	,	PUNCT	PUN	_	2	punct	_	_
+
+1	but	but	CCONJ	CJC	_	14	cc	_	_
+2	when	when	SCONJ	CJS	_	5	mark	_	_
+3	the	the	DET	AT0	_	4	det	_	_
+4	car	car	NOUN	NN1	_	5	nsubj	_	_
+5	came	come	VERB	VVD	_	14	advcl	_	_
+6	to	to	ADP	PRP	_	9	case	_	_
+7	an	an	DET	AT0	_	9	det	_	_
+8	automatic	automatic	ADJ	AJ0	_	9	amod	_	_
+9	stop	stop	NOUN	NN1	_	5	obl	_	_
+10	the	the	DET	AT0	_	11	det	_	_
+11	car	car	NOUN	NN1	_	14	nsubj	_	_
+12	behind	behind	ADP	PRP	_	13	case	_	_
+13	it	it	PRON	PNP	_	11	nmod	_	_
+14	bumped	bump	VERB	VVD	_	0	root	_	_
+15	into	into	ADP	PRP	_	16	case	_	_
+16	it	it	PRON	PNP	_	14	obl	_	_
+17	.	.	PUNCT	SENT	_	14	punct	_	_
+
+1	they	they	PRON	PNP	_	2	nsubj	_	_
+2	go	go	VERB	VVB	_	0	root	_	_
+3	out	out	ADP	PRP	_	6	case	_	_
+4	of	of	ADP	PRF	_	6	case	_	_
+5	the	the	DET	AT0	_	6	det	_	_
+6	cars	car	NOUN	NN2	_	2	obl	_	_
+
+1	and	and	CCONJ	CJC	_	2	cc	_	_
+2	called	call	VERB	VVD	_	0	root	_	_
+3	the	the	DET	AT0	_	4	det	_	_
+4	police	police	NOUN	NN0	_	2	obj	_	_
+5	,	,	PUNCT	PUN	_	2	punct	_	_
+
+1	the	the	DET	AT0	_	2	det	_	_
+2	man	man	NOUN	NN1	_	0	root	_	_
+3	that	that	SCONJ	CJT	_	4	mark	_	_
+4	dropped	drop	VERB	VVD	_	2	acl	_	_
+5	the	the	DET	AT0	_	6	det	_	_
+6	ball	ball	NOUN	NN1	_	4	obj	_	_
+7	went	go	VERB	VVD	_	6	acl	_	_
+8	to	to	ADP	PRP	_	10	case	_	_
+9	the	the	DET	AT0	_	10	det	_	_
+10	woman	woman	NOUN	NN1	_	7	obl	_	_
+11	who	who	PRON	PNQ	_	12	nsubj	_	_
+12	dropped	drop	VERB	VVD	_	10	acl:relcl	_	_
+13	the	the	DET	AT0	_	14	det	_	_
+14	groceries	grocery	NOUN	NN2	_	12	obj	_	_
+
+1	and	and	CCONJ	CJC	_	2	cc	_	_
+2	helped	help	VERB	VVD	_	0	root	_	_
+3	her	she	PRON	PNP	_	4	nsubj	_	_
+4	put	put	VERB	VVI	_	2	ccomp	_	_
+5	it	it	PRON	PNP	_	4	obj	_	_
+6	in	in	ADP	PRP	_	8	case	_	_
+7	the	the	DET	AT0	_	8	det	_	_
+8	bag	bag	NOUN	NN1	_	4	obl	_	_
+9	.	.	PUNCT	SENT	_	2	punct	_	_
+

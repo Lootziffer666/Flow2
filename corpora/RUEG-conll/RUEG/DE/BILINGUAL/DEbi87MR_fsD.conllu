@@ -1,0 +1,197 @@
+1	ja	ja	ADV	NGIRR	_	4	discourse	_	_
+2	hallo	hallo	X	NGIRR	_	4	discourse	_	_
+3	guten	gut	ADJ	ADJA	_	4	mod	_	_
+4	Tag	Tag	NOUN	NN	_	0	root	_	_
+
+1	DEbi87MR	DEbi87MR	NOUN	NE	_	0	root	_	_
+2	mein	mein	PRON	PPOSAT	_	3	det	_	_
+3	Name	Name	NOUN	NN	_	1	orphan	_	_
+
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	habe	haben	AUX	VAFIN	_	0	root	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Fall	Fall	NOUN	NN	_	7	comp:obj	_	_
+6	zu	zu	PART	PTKZU	_	3	comp:obj	_	_
+7	melden	melden	VERB	VVINF	_	6	comp:obj	_	_
+
+1	ja	ja	ADV	NGIRR	_	5	discourse	_	_
+2	richtig	richtig	ADJ	ADJD	_	5	discourse	_	_
+3	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+4	das	d	PRON	PDS	_	5	subj	_	_
+5	war	sein	VERB	VAFIN	_	0	root	_	_
+6	in	in	ADP	APPR	_	5	comp:pred	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	{streetname}straße	{streetname}straße	PROPN	NN	_	6	comp:obj	_	_
+9	äh	äh	PROPN	NGHES	_	5	discourse	_	_
+10	Ecke	Ecke	PROPN	NN	_	8	mod	_	_
+11	{streetname}straße	{streetname}straße	PROPN	NN	_	10	mod@poss	_	_
+
+1	ja	ja	ADV	NGIRR	_	5	discourse	_	_
+2	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+3	also	also	ADV	SEDM	_	5	discourse	_	_
+4	es	es	PRON	PPER	_	5	subj	_	_
+5	passierte	passieren	VERB	VVFIN	_	0	root	_	_
+6	wie	wie	CCONJ	KOKOM	_	7	mod	_	_
+7	folgt	folgen	VERB	VVFIN	_	5	comp:obj	_	_
+
+1	es	es	PRON	PPER	_	2	subj@expl	_	_
+2	kam	kommen	VERB	VVFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Mann	Mann	NOUN	NN	_	2	subj	_	_
+5	äh	äh	ADV	NGHES	_	2	discourse	_	_
+6	mit	mit	ADP	APPR	_	4	mod	_	_
+7	seiner	sein	DET	PPOSAT	_	8	det	_	_
+8	Frau	Frau	NOUN	NN	_	6	comp:obj	_	_
+9	mit	mit	ADP	APPR	_	8	mod	_	_
+10	einem	ein	DET	ART	_	11	det	_	_
+11	Kinderwagen	Kinderwagen	NOUN	NN	_	9	comp:obj	_	_
+12	an	an	ADP	APPR	_	2	comp:obl	_	_
+13	die	d	DET	ART	_	14	det	_	_
+14	Kreuzung	Kreuzung	NOUN	NN	_	12	comp:obj	_	_
+
+1	spielte	spielen	VERB	VVFIN	_	0	root	_	_
+2	mit	mit	ADP	APPR	_	4	reparandum	_	_
+3	äh	äh	ADV	NGHES	_	1	discourse	_	_
+4	mit	mit	ADP	APPR	_	1	mod	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Hand	Hand	NOUN	NN	_	4	comp:obj	_	_
+7	mit	mit	ADP	APPR	_	1	mod	_	_
+8	einem	ein	DET	ART	_	9	det	_	_
+9	Ball	Ball	NOUN	NN	_	7	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ließ	lassen	VERB	VVFIN	_	0	root	_	_
+3	diesen	dies	PRON	PDS	_	9	comp:obj	_	_
+4	dann	dann	ADV	ADV	_	2	mod	_	_
+5	plötzlich	plötzlich	ADJ	ADV	_	2	mod	_	_
+6	auf	auf	ADP	APPR	_	9	comp:obl	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Straße	Straße	NOUN	NN	_	6	comp:obj	_	_
+9	kullern	kullern	PROPN	VVINF	_	2	comp:obj	_	_
+10	wahrscheinlich	wahrscheinlich	ADJ	ADV	_	2	mod	_	_
+11	aus	aus	ADP	APPR	_	9	mod	_	_
+12	Versehen	Versehen	NOUN	NN	_	11	comp:obj	_	_
+13	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+14	worauf	worauf	SCONJ	ADV	_	24	mod	_	_
+15	dann	dann	ADV	ADV	_	24	mod	_	_
+16	ein	ein	DET	ART	_	17	det	_	_
+17	Hund	Hund	NOUN	NN	_	24	subj	_	_
+18	von	von	ADP	APPR	_	17	mod	_	_
+19	der	d	DET	ART	_	21	det	_	_
+20	anderen	ander	ADJ	PIDAT	_	21	mod	_	_
+21	Straßenseite	Straßenseite	NOUN	NN	_	18	comp:obj	_	_
+22	dem	d	DET	PDS	_	24	comp:obj	_	_
+23	sofort	sofort	ADV	ADV	_	24	mod	_	_
+24	hinterhersprang	hinterherspringen	VERB	VVFIN	_	9	mod	_	_
+
+1	glücklicherweise	glücklicherweise	ADV	ADJD	_	2	mod	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	er	er	PRON	PPER	_	2	subj	_	_
+4	an	an	ADP	APPR	_	2	comp:pred	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Leine	Leine	PROPN	NN	_	4	comp:obj	_	_
+
+1	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+2	in	in	ADP	APPR	_	5	mod	_	_
+3	diesem	diese	PRON	PDAT	_	4	det	_	_
+4	Moment	Moment	NOUN	NN	_	2	comp:obj	_	_
+5	kamen	kommen	VERB	VVFIN	_	0	root	_	_
+6	dann	dann	ADV	ADV	_	5	mod	_	_
+7	zwei	zwei	PUNCT	CARD	_	9	mod	_	_
+8	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+9	Autos	Auto	NOUN	NN	_	5	subj	_	_
+10	an	an	ADP	PTKVZ	_	5	compound@prt	_	_
+
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+3	das	d	DET	ART	_	4	det	_	_
+4	erste	erst	NOUN	ORD	_	5	subj	_	_
+5	fuhr	fahren	VERB	VVFIN	_	0	root	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	zweiten	zweit	ADJ	ORD	_	5	comp:obj	_	_
+8	auf	auf	ADP	PTKVZ	_	5	compound@prt	_	_
+
+1	nein	nein	PART	NGIRR	_	4	discourse	_	_
+2	das	d	DET	ART	_	3	det	_	_
+3	zweite	zweit	NOUN	ORD	_	4	subj	_	_
+4	fuhr	fahren	VERB	VVFIN	_	0	root	_	_
+5	dem	d	DET	ART	_	6	det	_	_
+6	ersten	erst	ADJ	ORD	_	4	comp:obj	_	_
+7	auf	auf	ADP	PTKVZ	_	4	compound@prt	_	_
+
+1	tut	tun	VERB	VVFIN	_	0	root	_	_
+2	mir	ich	PRON	PRF	_	1	comp:obj	_	_
+3	leid	leid	PROPN	PTKVZ	_	1	compound@prt	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+3	weil	weil	SCONJ	KOUS	_	0	root	_	_
+4	dieses	dies	PRON	PDS	_	8	subj	_	_
+5	natürlich	natürlich	ADJ	ADJD	_	8	mod	_	_
+6	stark	stark	ADJ	ADJD	_	7	mod	_	_
+7	gebremst	bremsen	ADV	VVPP	_	8	comp:aux	_	_
+8	hat	haben	VERB	VAFIN	_	3	comp:obj	_	_
+9	um	um	ADP	KOUI	_	8	mod	_	_
+10	niemanden	niemand	PRON	PIS	_	12	comp:obj	_	_
+11	zu	zu	PART	PTKZU	_	9	comp:obj	_	_
+12	überfahren	überfahren	VERB	VVINF	_	11	comp:obj	_	_
+13	beziehungsweise	beziehungsweise	ADV	KON	_	14	cc	_	_
+14	zu	zu	PART	PTKZU	_	12	conj	_	_
+15	verletzen	verletzen	VERB	VVINF	_	14	comp:obj	_	_
+16	äh	äh	ADV	NGHES	_	8	discourse	_	_
+17	ja	ja	ADV	NGIRR	_	8	discourse	_	_
+18	richtig	richtig	ADJ	NGIRR	_	8	discourse	_	_
+19	äh	äh	ADJ	NGHES	_	8	discourse	_	_
+
+1	also	also	ADV	SEDM	_	3	discourse	_	_
+2	es	es	PRON	PPER	_	3	subj@expl	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	zum	zu	NOUN	APPRART	_	9	mod	_	_
+5	Glück	Glück	PROPN	NN	_	4	comp:obj	_	_
+6	niemand	niemand	NOUN	PIS	_	3	subj	_	_
+7	zum	zu	PROPN	APPRART	_	9	comp:obl	_	_
+8	Schaden	Schaden	PROPN	NN	_	7	comp:obj	_	_
+9	gekommen	kommen	VERB	VVPP	_	3	comp:aux	_	_
+
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	dachte	denken	VERB	VVFIN	_	0	root	_	_
+4	dass	dass	SCONJ	KOUS	_	3	comp:obj	_	_
+5	ich	ich	PRON	PPER	_	9	subj	_	_
+6	das	d	DET	PDS	_	9	comp:obj	_	_
+7	vielleicht	vielleicht	ADV	ADV	_	9	mod	_	_
+8	trotzdem	trotzdem	ADV	ADV	_	9	mod	_	_
+9	melde	melden	PROPN	VVFIN	_	4	comp:obj	_	_
+10	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+11	da	da	SCONJ	KOUS	_	9	mod	_	_
+12	es	es	PRON	PPER	_	17	subj	_	_
+13	vielleicht	vielleicht	ADV	ADV	_	17	mod	_	_
+14	ein	ein	ADV	ART	_	16	det	_	_
+15	kleiner	klein	ADJ	ADJA	_	16	mod	_	_
+16	Verkehrsverstoß	Verkehrsverstoß	NOUN	NN	_	17	comp:pred	_	_
+17	war	sein	VERB	VAFIN	_	11	comp:obj	_	_
+
+1	gut	gut	ADJ	NGIRR	_	2	discourse	_	_
+2	verstehe	verstehen	VERB	VVFIN	_	0	root	_	_
+
+1	äh	äh	ADV	NGHES	_	3	discourse	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	melde	melden	PROPN	VVFIN	_	0	root	_	_
+4	mich	ich	PRON	PRF	_	3	comp:obj	_	_
+5	auf	auf	ADP	APPR	_	3	mod	_	_
+6	jeden	jede	PRON	PIDAT	_	7	det	_	_
+7	Fall	Fall	NOUN	NN	_	5	comp:obj	_	_
+8	bei	bei	ADP	APPR	_	3	comp:obl	_	_
+9	Ihnen	Sie	PRON	PPER	_	8	comp:obj	_	_
+10	sollte	sollen	AUX	VMFIN	_	3	mod	_	_
+11	mir	ich	PRON	PRF	_	14	comp:obj	_	_
+12	noch	noch	ADV	PTKMWL	_	10	mod	_	_
+13	etwas	etwas	ADV	PIS	_	10	subj	_	_
+14	einfallen	einfallen	VERB	VVINF	_	10	comp:aux	_	_
+
+1	danke	danke	ADJ	NGIRR	_	0	root	_	_
+2	sehr	sehr	ADV	PTKIFG	_	1	mod	_	_
+
+1	Wiedersehen	Wiedersehen	NOUN	NGIRR	_	0	root	_	_
+

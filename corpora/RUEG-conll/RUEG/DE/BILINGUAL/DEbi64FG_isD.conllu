@@ -1,0 +1,147 @@
+# text = äh hi Anna
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	hi	hi	X	NGIRR	_	3	discourse	_	_
+3	Anna	Anna	PROPN	NE	_	0	root	_	_
+
+# text = ich war gerade auf den Weg zur Arbeit
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	auf	auf	ADP	APPR	_	2	comp:pred	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Weg	Weg	NOUN	NN	_	4	comp:obj	_	_
+7	zur	zu	PROPN	APPRART	_	6	mod	_	_
+8	Arbeit	Arbeit	PROPN	NN	_	7	comp:obj	_	_
+
+# text = und habe mitbekommen wie der Ball von einem Mann auf die Straße gerollt ist und die Frau mit einem Hund den Hund aus dem Takt gebracht hat
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	mitbekommen	mitbekommen	VERB	VVPP	_	2	comp:aux	_	_
+4	wie	wie	ADV	KOUS	_	3	comp:obj	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	14	subj	_	_
+7	von	von	ADP	APPR	_	6	mod	_	_
+8	einem	ein	DET	ART	_	9	det	_	_
+9	Mann	Mann	NOUN	NN	_	7	comp:obj	_	_
+10	auf	auf	ADP	APPR	_	13	comp:obl	_	_
+11	die	d	DET	ART	_	12	det	_	_
+12	Straße	Straße	NOUN	NN	_	10	comp:obj	_	_
+13	gerollt	rollen	VERB	VVPP	_	14	comp:aux	_	_
+14	ist	sein	AUX	VAFIN	_	4	comp:obj	_	_
+15	und	und	CCONJ	KON	_	27	cc	_	_
+16	die	d	DET	ART	_	17	det	_	_
+17	Frau	Frau	NOUN	NN	_	27	subj	_	_
+18	mit	mit	ADP	APPR	_	17	mod	_	_
+19	einem	ein	DET	ART	_	20	det	_	_
+20	Hund	Hund	NOUN	NN	_	18	comp:obj	_	_
+21	den	d	DET	ART	_	22	det	_	_
+22	Hund	Hund	NOUN	NN	_	26	comp:obj	_	_
+23	aus	aus	ADP	APPR	_	26	comp:obl	_	_
+24	dem	d	DET	ART	_	25	det	_	_
+25	Takt	Takt	NOUN	NN	_	23	comp:obj	_	_
+26	gebracht	bringen	VERB	VVPP	_	27	comp:aux	_	_
+27	hat	haben	AUX	VAFIN	_	4	conj	_	_
+
+# text = ist voll auf die Straße gerannt
+1	ist	sein	VERB	VAFIN	_	0	root	_	_
+2	voll	voll	ADJ	PTKIFG	_	1	mod	_	_
+3	auf	auf	ADP	APPR	_	6	comp:obl	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Straße	Straße	NOUN	NN	_	3	comp:obj	_	_
+6	gerannt	rennen	ADJ	VVPP	_	1	comp:aux	_	_
+
+# text = ist die Sachen runtergefallen
+1	ist	sein	VERB	VAFIN	_	0	root	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Sachen	Sache	NOUN	NN	_	1	subj	_	_
+4	runtergefallen	runterfallen	ADJ	VVPP	_	1	comp:aux	_	_
+
+# text = und im gleichen Moment wollten zwei Autos vorbeifahren
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	im	in	NOUN	APPRART	_	5	mod	_	_
+3	gleichen	gleiche	ADJ	ADJA	_	4	mod	_	_
+4	Moment	Moment	NOUN	NN	_	2	comp:obj	_	_
+5	wollten	wollen	VERB	VMFIN	_	0	root	_	_
+6	zwei	zwei	NUM	CARD	_	7	mod	_	_
+7	Autos	Auto	NOUN	NN	_	5	subj	_	_
+8	vorbeifahren	vorbeifahren	VERB	VVINF	_	5	comp:aux	_	_
+
+# text = haben sind zusammengeknallt
+1	haben	haben	AUX	VAFIN	_	2	reparandum	_	_
+2	sind	sein	AUX	VAFIN	_	0	root	_	_
+3	zusammengeknallt	zusammenknallen	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = hatten Autounfall
+1	hatten	haben	VERB	VAFIN	_	0	root	_	_
+2	Autounfall	Autounfall	NOUN	NN	_	1	comp:obj	_	_
+
+# text = der Mann mit dem Ball wollte halt mit die Frau mit bei den Sachen einräumen helfen
+1	der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	6	subj	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	dem	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+6	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+7	halt	halt	ADV	PTKMA	_	6	discourse	_	_
+8	mit	mit	ADP	APPR	_	11	reparandum	_	_
+9	die	d	DET	ART	_	10	det	_	_
+10	Frau	Frau	NOUN	NN	_	16	comp:obj	_	_
+11	mit	mit	ADP	APPR	_	16	mod	_	_
+12	bei	bei	ADP	APPR	_	16	comp:obl	_	_
+13	den	d	DET	ART	_	14	det	_	_
+14	Sachen	Sache	NOUN	NN	_	15	comp:obj	_	_
+15	einräumen	einräumen	VERB	VVINF	_	12	comp:obj	_	_
+16	helfen	helfen	VERB	VVINF	_	6	comp:aux	_	_
+
+# text = hat den Ruhe hat den Hund zur Ruhe gebracht
+1	hat	haben	VERB	VAFIN	_	4	reparandum	_	_
+2	den	d	DET	ART	_	3	det	_	_
+3	Ruhe	Ruhe	NOUN	NN	_	6	reparandum	_	_
+4	hat	haben	VERB	VAFIN	_	0	root	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Hund	Hund	NOUN	NN	_	9	comp:obj	_	_
+7	zur	zu	PROPN	APPRART	_	9	comp:obl	_	_
+8	Ruhe	Ruhe	PROPN	NN	_	7	comp:obj	_	_
+9	gebracht	bringen	VERB	VVPP	_	4	comp:aux	_	_
+
+# text = und ist nochmal zu den Autos zum Unfall gegangen um zu helfen ob äh ob die Hilfe brauchen
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	nochmal	nochmal	ADV	ADJD	_	2	mod	_	_
+4	zu	zu	ADP	APPR	_	9	comp:obl	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Autos	Auto	NOUN	NN	_	4	comp:obj	_	_
+7	zum	zu	PROPN	APPRART	_	4	appos	_	_
+8	Unfall	Unfall	PROPN	NN	_	7	comp:obj	_	_
+9	gegangen	gehen	VERB	VVPP	_	2	comp:aux	_	_
+10	um	um	ADP	KOUI	_	9	mod	_	_
+11	zu	zu	PART	PTKZU	_	10	comp:obj	_	_
+12	helfen	helfen	VERB	VVINF	_	11	comp:obj	_	_
+13	ob	ob	SCONJ	KOUS	_	15	reparandum	_	_
+14	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+15	ob	ob	SCONJ	KOUS	_	12	comp:obj	_	_
+16	die	d	DET	ART	_	18	subj	_	_
+17	Hilfe	Hilfe	NOUN	NN	_	18	comp:obj	_	_
+18	brauchen	brauchen	VERB	VVFIN	_	15	comp:obj	_	_
+
+# text = ich melde mich äh später nochmal
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	melde	melden	PROPN	VVFIN	_	0	root	_	_
+3	mich	ich	PRON	PRF	_	2	comp:obj	_	_
+4	äh	äh	ADV	NGHES	_	2	discourse	_	_
+5	später	später	ADJ	ADJA	_	2	mod	_	_
+6	nochmal	nochmal	ADV	NN	_	2	mod	_	_
+
+# text = bis später
+1	bis	bis	ADP	APPR	_	0	root	_	_
+2	später	später	ADJ	ADJA	_	1	comp:obj	_	_
+
+# text = äh habe dich lieb
+1	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	dich	du	PRON	PPER	_	2	comp:obj	_	_
+4	lieb	lieb	VERB	ADJD	_	2	compound@prt	_	_
+
+# text = tschüss
+1	tschüss	tschüss	PROPN	NGIRR	_	0	root	_	_
+

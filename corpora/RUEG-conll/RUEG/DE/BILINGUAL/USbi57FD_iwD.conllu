@@ -1,0 +1,115 @@
+# text = so da war ein Mann ,
+1	so	so	ADV	SEDM	_	3	discourse	_	_
+2	da	da	ADV	ADV	_	3	comp:pred	_	_
+3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Mann	Mann	NOUN	NN	_	3	subj	_	_
+6	,	,	PUNCT	$,	_	3	punct	_	_
+
+# text = und er hat mit ein Ball gespielt .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	mit	mit	ADP	APPR	_	7	mod	_	_
+5	ein	ein	NOUN	ART	_	6	det	_	_
+6	Ball	Ball	PROPN	NN	_	4	comp:obj	_	_
+7	gespielt	spielen	VERB	VVPP	VerbForm=Part	3	comp:aux	_	_
+8	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = und er war fast über die Straße gegangen ,
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
+3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	fast	fast	ADV	PTKIFG	_	3	mod	_	_
+5	über	über	ADP	APPR	_	8	comp:obl	_	_
+6	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	comp:obj	_	_
+8	gegangen	gehen	VERB	VVPP	VerbForm=Part	3	comp:aux	_	_
+9	,	,	PUNCT	$,	_	3	punct	_	_
+
+# text = aber da war ein Auto ,
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	da	da	ADJ	ADV	Degree=Pos	3	comp:pred	_	_
+3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Auto	Auto	NOUN	NN	_	3	subj	_	_
+6	,	,	PUNCT	$,	_	3	punct	_	_
+
+# text = und er hat gestopped .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	gestopped	stoppen	VERB	VVPP	VerbForm=Part	3	comp:aux	_	_
+5	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = aber das Ball hat über die Straße gerollt ,
+1	aber	aber	ADV	KON	_	4	cc	_	_
+2	das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Ball	Ball	PROPN	NN	_	4	subj	_	_
+4	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	über	über	ADP	APPR	_	8	comp:obl	_	_
+6	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	comp:obj	_	_
+8	gerollt	rollen	AUX	VVPP	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	comp:aux	_	_
+9	,	,	PUNCT	$,	_	4	punct	_	_
+
+# text = und ein Hund auf die andere Seite die Straße hat nach es gerannt ,
+1	und	und	CCONJ	KON	_	10	cc	_	_
+2	ein	ein	DET	ART	Definite=Ind|PronType=Art	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	10	subj	_	_
+4	auf	auf	ADP	APPR	_	3	mod	_	_
+5	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	andere	ander	ADJ	PIDAT	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	mod	_	_
+7	Seite	Seite	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	comp:obj	_	_
+8	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Straße	Straße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	mod@poss	_	_
+10	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	nach	nach	ADP	APPR	_	13	comp:obl	_	_
+12	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	comp:obj	_	_
+13	gerannt	rennen	ADJ	VVPP	_	10	comp:aux	_	_
+14	,	,	PUNCT	$,	_	10	punct	_	_
+
+# text = und der Auto hat gestoppt ,
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	Definite=Def|PronType=Art	3	det	_	_
+3	Auto	Auto	NOUN	NN	_	4	subj	_	_
+4	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	gestoppt	stoppen	VERB	VVPP	VerbForm=Part	4	comp:aux	_	_
+6	,	,	PUNCT	$,	_	4	punct	_	_
+
+# text = weil er will das Hund nicht umrennen ,
+1	weil	weil	SCONJ	KOUS	_	3	discourse	_	_
+2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
+3	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	das	d	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Hund	Hund	NOUN	NN	Case=Acc|Number=Sing	7	comp:obj	_	_
+6	nicht	nicht	PART	PTKNEG	_	3	mod	_	_
+7	umrennen	umrennen	VERB	VVINF	VerbForm=Inf	3	comp:aux	_	_
+8	,	,	PUNCT	$,	_	3	punct	_	_
+
+# text = und der Typ hinter ihn had ihm gestoßen .
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Typ	Typ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	subj	_	_
+4	hinter	hinter	ADP	APPR	_	3	mod	_	_
+5	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	_
+6	had	had	PROPN	FM	Case=Dat|Number=Sing	0	root	_	_
+7	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	_
+8	gestoßen	stoßen	VERB	VVPP	VerbForm=Part	6	comp:aux	_	_
+9	.	.	PUNCT	$.	_	6	punct	_	_
+
+# text = nichts hat passiert ,
+1	nichts	nichts	PRON	PIS	Case=Nom|Number=Sing|PronType=Neg	2	subj	_	_
+2	hat	haben	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	passiert	passieren	VERB	VVPP	VerbForm=Part	2	comp:aux	_	_
+4	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = aber sie hat die Polizei angerufen .
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Polizei	Polizei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	comp:obj	_	_
+6	angerufen	anrufen	VERB	VVPP	VerbForm=Part	3	comp:aux	_	_
+7	.	.	PUNCT	$.	_	3	punct	_	_
+

@@ -1,0 +1,94 @@
+# text = F16
+1	F16	F16	NOUN	NE	_	0	root	_	_
+
+# text = ein Junge ist mit einem Ball über eine Straße gelaufen
+1	ein	ein	DET	ART	Definite=Ind|PronType=Art	2	det	_	_
+2	Junge	Junge	NOUN	NN	_	3	subj	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	mit	mit	ADP	APPR	_	10	mod	_	_
+5	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	comp:obj	_	_
+7	über	über	ADP	APPR	_	10	comp:obl	_	_
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	comp:obj	_	_
+10	gelaufen	laufen	VERB	VVPP	VerbForm=Part	3	comp:aux	_	_
+
+# text = und ihm ist der Ball aus der Hand gegangen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	comp:obj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	der	d	DET	ART	Definite=Def|PronType=Art	5	det	_	_
+5	Ball	Ball	PROPN	NN	_	3	subj	_	_
+6	aus	aus	ADP	APPR	_	9	comp:obl	_	_
+7	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Hand	Hand	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	comp:obj	_	_
+9	gegangen	gehen	VERB	VVPP	VerbForm=Part	3	comp:aux	_	_
+
+# text = dann wollte er den Ball wieder holen
+1	dann	dann	ADV	ADV	_	2	mod	_	_
+2	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+4	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	comp:obj	_	_
+6	wieder	wieder	ADV	ADV	_	2	mod	_	_
+7	holen	holen	VERB	VVINF	VerbForm=Inf	2	comp:aux	_	_
+
+# text = aber es ist ein Hund dem Ball hinterhergerannt über die Straße
+1	aber	aber	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	3	subj	_	_
+6	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	8	comp:obj	_	_
+8	hinterhergerannt	hinterherrennen	ADV	VVPP	_	3	comp:aux	_	_
+9	über	über	ADP	APPR	_	8	comp:obl	_	_
+10	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	comp:obj	_	_
+
+# text = die Autos die über die Straße fahren wollten mussten abrupt stehen bleiben
+1	die	d	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+2	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	9	subj	_	_
+3	die	d	DET	PRELS	Case=Acc|Definite=Def|Number=Plur|PronType=Art	8	subj	_	_
+4	über	über	ADP	APPR	_	7	comp:obl	_	_
+5	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	comp:obj	_	_
+7	fahren	fahren	VERB	VVINF	VerbForm=Inf	8	comp:aux	_	_
+8	wollten	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	mod@relcl	_	_
+9	mussten	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	abrupt	abrupt	ADV	ADJD	_	9	mod	_	_
+11	stehen	stehen	VERB	VVINF	Number=Plur|Person=3|VerbForm=Fin	12	comp:obj	_	_
+12	bleiben	bleiben	VERB	VVINF	VerbForm=Inf	9	comp:aux	_	_
+
+# text = und da ist das zweite Auto in das erste Auto reingefahren
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+5	zweite	zweit	ADJ	ORD	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	6	mod	_	_
+6	Auto	Auto	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	subj	_	_
+7	in	in	ADP	APPR	_	11	comp:obl	_	_
+8	das	d	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+9	erste	erst	ADJ	ORD	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	10	mod	_	_
+10	Auto	Auto	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	comp:obj	_	_
+11	reingefahren	reinfahren	VERB	VVPP	VerbForm=Fin	3	comp:aux	_	_
+
+# text = gut ist es ist gut dass nichts passiert ist
+1	gut	gut	ADJ	ADJD	Degree=Pos	2	comp:pred	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	reparandum	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	gut	gut	ADJ	ADJD	Degree=Pos	4	comp:pred	_	_
+6	dass	dass	SCONJ	KOUS	_	5	comp:obj	_	_
+7	nichts	nichts	PRON	PIS	Case=Nom|Number=Sing|PronType=Neg	9	subj	_	_
+8	passiert	passieren	ADJ	VVPP	Degree=Pos	9	comp:aux	_	_
+9	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
+
+# text = aber die Autos wurden trotzdem beschädigt
+1	aber	aber	ADV	KON	_	4	cc	_	_
+2	die	d	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+3	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	4	subj@pass	_	_
+4	wurden	werden	AUX	VAFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+5	trotzdem	trotzdem	ADV	ADV	_	4	mod	_	_
+6	beschädigt	beschädigt	VERB	ADJD	VerbForm=Part	4	comp:aux@pass	_	_
+

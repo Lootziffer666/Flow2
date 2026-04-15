@@ -1,0 +1,192 @@
+# text = Ich , DEbi87FT , bin Zeugin eines Autounfalls auf dem Parkplatz des Supermarktes Rewe geworden .
+1	Ich	ich	PRON	_	_	5	subj	_	_
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	DEbi87FT	DEbi87FT	PROPN	_	_	1	appos	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	bin	sein	VERB	_	_	0	root	_	_
+6	Zeugin	Zeugin	NOUN	_	_	15	comp:pred	_	_
+7	eines	ein	DET	_	_	8	det	_	_
+8	Autounfalls	Autounfalls	NOUN	_	_	6	mod@poss	_	_
+9	auf	auf	ADP	_	_	8	mod	_	_
+10	dem	d	DET	_	_	11	det	_	_
+11	Parkplatz	Parkplatz	NOUN	_	_	9	comp:obj	_	_
+12	des	d	DET	_	_	13	det	_	_
+13	Supermarktes	Supermarkt	NOUN	_	_	11	mod@poss	_	_
+14	Rewe	Rewe	PROPN	_	_	13	appos	_	_
+15	geworden	werden	VERB	_	_	5	comp:aux	_	_
+16	.	.	PUNCT	_	_	5	punct	_	_
+
+# text = Ein Paar ( beide um die 30 Jahre ) ging eine Fußweg entlang
+1	Ein	ein	DET	_	_	2	det	_	_
+2	Paar	Paar	NOUN	_	_	10	subj	_	_
+3	(	(	PUNCT	_	_	4	punct	_	_
+4	beide	beide	PRON	_	_	10	parataxis	_	_
+5	um	um	ADP	_	_	4	orphan	_	_
+6	die	d	DET	_	_	8	det	_	_
+7	30	@card@	NUM	_	_	8	mod	_	_
+8	Jahre	Jahr	NOUN	_	_	5	comp:obj	_	_
+9	)	)	PUNCT	_	_	4	punct	_	_
+10	ging	gehen	VERB	_	_	0	root	_	_
+11	eine	eine	DET	_	_	12	det	_	_
+12	Fußweg	Fußweg	NOUN	_	_	13	comp:obj	_	_
+13	entlang	entlang	ADP	_	_	10	compound@prt	_	_
+
+# text = und bog dann in den Weg des Parkplatzes ab .
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	bog	biegen	VERB	_	_	0	root	_	_
+3	dann	dann	ADV	_	_	2	mod	_	_
+4	in	in	ADP	_	_	2	comp:obl	_	_
+5	den	d	DET	_	_	6	det	_	_
+6	Weg	Weg	NOUN	_	_	4	comp:obj	_	_
+7	des	d	DET	_	_	8	det	_	_
+8	Parkplatzes	Parkplatz	NOUN	_	_	6	mod@poss	_	_
+9	ab	ab	ADP	_	_	2	compound@prt	_	_
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Der Mann hat währenddessen mit einem Ball gespielt .
+1	Der	d	DET	_	_	2	det	_	_
+2	Mann	Mann	NOUN	_	_	3	subj	_	_
+3	hat	haben	VERB	_	_	0	root	_	_
+4	währenddessen	währenddessen	ADV	_	_	3	mod	_	_
+5	mit	mit	ADP	_	_	8	mod	_	_
+6	einem	ein	DET	_	_	7	det	_	_
+7	Ball	Ball	NOUN	_	_	5	comp:obj	_	_
+8	gespielt	spielen	VERB	_	_	3	comp:aux	_	_
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Dieser traf eine Frau , die auf dem Parkplatz stand und ihre Einkaufstüten in ihr Auto eingeräumte .
+1	Dieser	diese	PRON	_	_	2	subj	_	_
+2	traf	treffen	VERB	_	_	0	root	_	_
+3	eine	eine	DET	_	_	4	det	_	_
+4	Frau	Frau	NOUN	_	_	2	comp:obj	_	_
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	die	die	PRON	_	_	10	subj	_	_
+7	auf	auf	ADP	_	_	10	comp:obl	_	_
+8	dem	d	DET	_	_	9	det	_	_
+9	Parkplatz	Parkplatz	NOUN	_	_	7	comp:obj	_	_
+10	stand	stehen	VERB	_	_	4	mod@relcl	_	_
+11	und	und	CCONJ	_	_	17	cc	_	_
+12	ihre	ihr	DET	_	_	13	det	_	_
+13	Einkaufstüten	Einkaufstüten	NOUN	_	_	17	comp:obj	_	_
+14	in	in	ADP	_	_	17	comp:obl	_	_
+15	ihr	ihr	DET	_	_	16	det	_	_
+16	Auto	Auto	NOUN	_	_	14	comp:obj	_	_
+17	eingeräumte	eingeräumte	VERB	_	_	10	conj	_	_
+18	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Ihre Tüten fielen ihr unglücklich aus der Hand , nachdem ihr Hund aufgrund des Aufpralls des Balles , von der Leine gerissen ist .
+1	Ihre	Ihr	DET	_	_	2	det	_	_
+2	Tüten	Tüten	NOUN	_	_	3	subj	_	_
+3	fielen	fallen	VERB	_	_	0	root	_	_
+4	ihr	ihr	DET	_	_	3	comp:obj	_	_
+5	unglücklich	unglücklich	ADJ	_	_	3	mod	_	_
+6	aus	aus	ADP	_	_	3	comp:obl	_	_
+7	der	d	DET	_	_	8	det	_	_
+8	Hand	Hand	NOUN	_	_	6	comp:obj	_	_
+9	,	,	PUNCT	_	_	3	punct	_	_
+10	nachdem	nachdem	SCONJ	_	_	3	mod	_	_
+11	ihr	ihr	DET	_	_	12	det	_	_
+12	Hund	Hund	NOUN	_	_	23	subj	_	_
+13	aufgrund	aufgrund	ADP	_	_	22	mod	_	_
+14	des	d	DET	_	_	15	det	_	_
+15	Aufpralls	Aufprall	NOUN	_	_	13	comp:obj	_	_
+16	des	d	DET	_	_	17	det	_	_
+17	Balles	Ball	NOUN	_	_	15	mod@poss	_	_
+18	,	,	PUNCT	_	_	23	punct	_	_
+19	von	von	ADP	_	_	22	comp:obl	_	_
+20	der	d	DET	_	_	21	det	_	_
+21	Leine	Lein|Leine	NOUN	_	_	19	comp:obj	_	_
+22	gerissen	reißen	VERB	_	_	23	comp:aux	_	_
+23	ist	sein	AUX	_	_	10	comp:obj	_	_
+24	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Die Situation spielte sich auf dem Weg des Parkplatzes ab , auf dem andere Autos waren .
+1	Die	d	DET	_	_	2	det	_	_
+2	Situation	Situation	NOUN	_	_	3	subj	_	_
+3	spielte	spielen	VERB	_	_	0	root	_	_
+4	sich	er|es|sie	PRON	_	_	3	comp:obj	_	_
+5	auf	auf	ADP	_	_	3	mod	_	_
+6	dem	d	DET	_	_	7	det	_	_
+7	Weg	Weg	NOUN	_	_	5	comp:obj	_	_
+8	des	d	DET	_	_	9	det	_	_
+9	Parkplatzes	Parkplatz	NOUN	_	_	7	mod@poss	_	_
+10	ab	ab	ADP	_	_	3	compound@prt	_	_
+11	,	,	PUNCT	_	_	3	punct	_	_
+12	auf	auf	ADP	_	_	16	comp:pred	_	_
+13	dem	d	PRON	_	_	12	comp:obj	_	_
+14	andere	ander	PRON	_	_	15	det	_	_
+15	Autos	Auto	NOUN	_	_	16	subj	_	_
+16	waren	sein	VERB	_	_	9	mod@relcl	_	_
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Hier fuhr ein Auto während des Geschehens auf den Parkplatz
+1	Hier	hier	ADV	_	_	2	mod	_	_
+2	fuhr	fahren	VERB	_	_	0	root	_	_
+3	ein	ein	DET	_	_	4	det	_	_
+4	Auto	Auto	NOUN	_	_	2	subj	_	_
+5	während	während	ADP	_	_	2	mod	_	_
+6	des	d	DET	_	_	7	det	_	_
+7	Geschehens	Geschehen	NOUN	_	_	5	comp:obj	_	_
+8	auf	auf	ADP	_	_	2	comp:obl	_	_
+9	den	d	DET	_	_	10	det	_	_
+10	Parkplatz	Parkplatz	NOUN	_	_	8	comp:obj	_	_
+
+# text = und blieb plötzlich stehen , als die Frau und der Mann sich darum kümmerten , die Einkäufe und den Hund wieder einzusammeln .
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	blieb	bleiben	VERB	_	_	0	root	_	_
+3	plötzlich	plötzlich	ADJ	_	_	2	mod	_	_
+4	stehen	stehen	VERB	_	_	2	comp:obj	_	_
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	als	als	SCONJ	_	_	4	mod	_	_
+7	die	d	DET	_	_	8	det	_	_
+8	Frau	Frau	NOUN	_	_	14	subj	_	_
+9	und	und	CCONJ	_	_	11	cc	_	_
+10	der	d	DET	_	_	11	det	_	_
+11	Mann	Mann	NOUN	_	_	8	conj	_	_
+12	sich	er|es|sie	PRON	_	_	14	comp:obj	_	_
+13	darum	darum	PRON	_	_	14	mod	_	_
+14	kümmerten	kümmerten	VERB	_	_	6	comp:obj	_	_
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	die	d	DET	_	_	17	det	_	_
+17	Einkäufe	Einkäufe	NOUN	_	_	22	comp:obj	_	_
+18	und	und	CCONJ	_	_	20	cc	_	_
+19	den	d	DET	_	_	20	det	_	_
+20	Hund	Hund	NOUN	_	_	17	conj	_	_
+21	wieder	wieder	ADV	_	_	22	mod	_	_
+22	einzusammeln	einsammeln	VERB	_	_	13	comp:obj	_	_
+23	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Da dies ruckartig geschehen ist , ist ein weiteres Auto , was hinter dem beschädigten Auto hereingefahren ist , hinten in das Auto hereingefahren
+1	Da	da	SCONJ	_	_	24	mod	_	_
+2	dies	dies	PRON	_	_	5	subj	_	_
+3	ruckartig	ruckartig	ADJ	_	_	5	mod	_	_
+4	geschehen	geschehen	VERB	_	_	5	comp:aux	_	_
+5	ist	sein	AUX	_	_	1	comp:obj	_	_
+6	,	,	PUNCT	_	_	1	punct	_	_
+7	ist	sein	VERB	_	_	0	root	_	_
+8	ein	ein	DET	_	_	10	det	_	_
+9	weiteres	weit	ADJ	_	_	10	mod	_	_
+10	Auto	Auto	NOUN	_	_	7	subj	_	_
+11	,	,	PUNCT	_	_	7	punct	_	_
+12	was	was	PRON	_	_	18	subj	_	_
+13	hinter	hinter	ADP	_	_	17	mod	_	_
+14	dem	d	DET	_	_	16	det	_	_
+15	beschädigten	beschädigten	ADJ	_	_	16	mod	_	_
+16	Auto	Auto	NOUN	_	_	13	comp:obj	_	_
+17	hereingefahren	hereinfahren	VERB	_	_	18	comp:aux	_	_
+18	ist	sein	AUX	_	_	10	mod@relcl	_	_
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	hinten	hinten	ADV	_	_	7	mod	_	_
+21	in	in	ADP	_	_	24	comp:obl	_	_
+22	das	d	DET	_	_	23	det	_	_
+23	Auto	Auto	NOUN	_	_	21	comp:obj	_	_
+24	hereingefahren	hereingefahren	VERB	_	_	7	comp:aux	_	_
+
+# text = und hat es somit beschädigt .
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	hat	haben	VERB	_	_	0	root	_	_
+3	es	es	PRON	_	_	5	comp:obj	_	_
+4	somit	somit	ADV	_	_	2	mod	_	_
+5	beschädigt	beschädigt	VERB	_	_	2	comp:aux	_	_
+6	.	.	PUNCT	_	_	2	punct	_	_
+

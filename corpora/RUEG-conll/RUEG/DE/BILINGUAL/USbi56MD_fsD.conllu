@@ -1,0 +1,124 @@
+# text = hallo
+1	hallo	hallo	X	NGIRR	_	0	root	_	_
+
+# text = ich hab äh Gefallnummer F16 gesehen
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	hab	haben	AUX	VAFIN	_	0	root	_	_
+3	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+4	Gefallnummer	Gefallnummer	NOUN	NN	_	6	comp:obj	_	_
+5	F16	F16	PROPN	NE	_	4	appos	_	_
+6	gesehen	sehen	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = und äh es gab ein Mann der mit einem Ball gespielt hab auf eine Seite von die Straße
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+3	es	es	PRON	PPER	_	4	subj@expl	_	_
+4	gab	geben	VERB	VVFIN	_	0	root	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Mann	Mann	NOUN	NN	_	4	comp:obj	_	_
+7	der	d	DET	PRELS	_	11	subj	_	_
+8	mitm	mitm	ADP	APPR	_	10	mod	_	_
+9	Ball	Ball	NOUN	NN	_	8	comp:obj	_	_
+10	gespielt	spielen	VERB	VVPP	_	11	comp:aux	_	_
+11	hab	haben	AUX	VAFIN	_	6	mod@relcl	_	_
+12	auf	auf	ADP	APPR	_	10	mod	_	_
+13	eine	ein	DET	ART	_	14	det	_	_
+14	Seite	Seite	NOUN	NN	_	12	comp:obj	_	_
+15	von	von	ADP	APPR	_	14	mod@poss	_	_
+16	die	d	DET	ART	_	17	det	_	_
+17	Straße	Straße	NOUN	NN	_	15	comp:obj	_	_
+
+# text = und äh der Ball ist auf die andere Seite von die Straße über die Straße gerollt
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Ball	Ball	NOUN	NN	_	5	subj	_	_
+5	ist	sein	VERB	VAFIN	_	0	root	_	_
+6	auf	auf	ADP	APPR	_	16	udep	_	_
+7	die	d	DET	ART	_	9	det	_	_
+8	andere	ander	ADJ	PIDAT	_	9	mod	_	_
+9	Seite	Seite	NOUN	NN	_	6	comp:obj	_	_
+10	von	von	ADP	APPR	_	9	mod@poss	_	_
+11	die	d	DET	ART	_	12	det	_	_
+12	Straße	Straße	NOUN	NN	_	10	comp:obj	_	_
+13	über	über	ADP	APPR	_	16	udep	_	_
+14	die	d	DET	ART	_	15	det	_	_
+15	Straße	Straße	NOUN	NN	_	13	comp:obj	_	_
+16	gerollt	rollen	ADJ	VVPP	_	5	comp:aux	_	_
+
+# text = und auf die andere Seite gab es ein Hund der den ball gesehen hat und nach den Ball äh gerannt ist
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	auf	auf	ADP	APPR	_	6	mod	_	_
+3	die	d	DET	ART	_	5	det	_	_
+4	andere	ander	ADJ	PIDAT	_	5	mod	_	_
+5	Seite	Seite	NOUN	NN	_	2	comp:obj	_	_
+6	gab	geben	VERB	VVFIN	_	0	root	_	_
+7	es	es	PRON	PPER	_	6	subj@expl	_	_
+8	ein	ein	DET	ART	_	9	det	_	_
+9	Hund	Hund	PROPN	NN	_	6	comp:obj	_	_
+10	der	d	PROPN	PRELS	_	14	subj	_	_
+11	den	d	PROPN	ART	_	12	mod	_	_
+12	ball	Ball	PROPN	NN	_	13	comp:obj	_	_
+13	gesehen	sehen	VERB	VVPP	_	14	comp:aux	_	_
+14	hat	haben	AUX	VAFIN	_	9	mod@relcl	_	_
+15	und	und	CCONJ	KON	_	21	cc	_	_
+16	nach	nach	ADP	APPR	_	20	comp:obl	_	_
+17	den	d	DET	ART	_	18	det	_	_
+18	Ball	Ball	NOUN	NN	_	16	comp:obj	_	_
+19	äh	äh	ADV	NGHES	_	6	discourse	_	_
+20	gerannt	rennen	VERB	VVPP	_	21	comp:aux	_	_
+21	ist	sein	AUX	VAFIN	_	14	conj	_	_
+
+# text = und dann ist er auf die Straße gerannt
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	er	er	PRON	PPER	_	3	subj	_	_
+5	auf	auf	ADP	APPR	_	8	comp:obl	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Straße	Straße	NOUN	NN	_	5	comp:obj	_	_
+8	gerannt	rennen	ADJ	VVPP	_	3	comp:aux	_	_
+
+# text = und es gab auch auch ein Auto der im Parkplatz äh fahren wollte
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	_	3	subj@expl	_	_
+3	gab	geben	VERB	VVFIN	_	0	root	_	_
+4	auch	auch	ADV	ADV	_	5	reparandum	_	_
+5	auch	auch	ADV	ADV	_	3	mod	_	_
+6	ein	ein	DET	ART	_	7	det	_	_
+7	Auto	Auto	NOUN	NN	_	3	comp:obj	_	_
+8	der	d	DET	PRELS	_	13	subj	_	_
+9	im	in	PROPN	APPRART	_	12	comp:obl	_	_
+10	Parkplatz	Parkplatz	PROPN	NN	_	9	comp:obj	_	_
+11	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+12	fahren	fahren	VERB	VVINF	_	13	comp:aux	_	_
+13	wollte	wollen	AUX	VMFIN	_	7	mod@relcl	_	_
+
+# text = also ist der äh musste der schnell aufhören
+1	also	also	ADV	KOUS	_	5	mod	_	_
+2	ist	sein	VERB	VAFIN	_	5	reparandum	_	_
+3	der	d	DET	ART	_	2	subj	_	_
+4	äh	äh	NOUN	NGHES	_	5	discourse	_	_
+5	musste	müssen	AUX	VMFIN	_	0	root	_	_
+6	der	d	DET	PDS	_	5	subj	_	_
+7	schnell	schnell	ADJ	ADJD	_	5	mod	_	_
+8	aufhören	aufhören	ADJ	VVFIN	_	5	comp:aux	_	_
+
+# text = und dann gab es ein anderen Auto der hinten ihm eingerannt ist
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	gab	geben	VERB	VVFIN	_	0	root	_	_
+4	es	es	PRON	PPER	_	3	subj@expl	_	_
+5	ein	ein	DET	ART	_	7	det	_	_
+6	anderen	ander	ADJ	PIDAT	_	7	mod	_	_
+7	Auto	Auto	NOUN	NN	_	3	comp:obj	_	_
+8	der	d	DET	PRELS	_	12	subj	_	_
+9	hinten	hinten	ADV	ADV	_	12	mod	_	_
+10	ihm	er	PRON	PPER	_	11	comp:obj	_	_
+11	eingerannt	einrennen	VERB	VVPP	_	12	comp:aux	_	_
+12	ist	sein	AUX	VAFIN	_	7	mod@relcl	_	_
+
+# text = ja
+1	ja	ja	ADV	NGIRR	_	0	root	_	_
+
+

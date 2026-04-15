@@ -1,0 +1,275 @@
+1	hi	hi	X	_	_	0	root	_	_
+
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	zwar	zwar	ADV	_	_	5	mod	_	_
+3	äh	äh	ADJ	_	_	5	discourse	_	_
+4	ich	ich	PRON	_	_	5	subj	_	_
+5	weiß	weiß	VERB	_	_	0	root	_	_
+6	nicht	nicht	PART	_	_	5	mod	_	_
+7	was	was	PRON	_	_	10	comp:obj	_	_
+8	du	du	PRON	_	_	10	subj	_	_
+9	gerade	gerade	ADV	_	_	10	mod	_	_
+10	machst	machen	ADV	_	_	5	comp:obj	_	_
+
+1	aber	aber	ADV	_	_	3	cc	_	_
+2	ich	ich	PRON	_	_	3	subj	_	_
+3	war	sein	VERB	_	_	0	root	_	_
+4	gerade	gerade	ADV	_	_	3	mod	_	_
+5	so	so	ADV	_	_	3	mod	_	_
+6	aufm	aufm	NOUN	_	_	3	comp:pred	_	_
+7	Nachhauseweg	Nachhauseweg	ADV	_	_	6	comp:obj	_	_
+8	ganz	ganz	ADV	_	_	9	mod	_	_
+9	gechillt	gechillt	ADJ	_	_	3	mod	_	_
+
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	dann	dann	ADV	_	_	3	mod	_	_
+3	sind	sein	VERB	_	_	0	root	_	_
+4	da	da	ADV	_	_	3	mod	_	_
+5	so	so	ADV	_	_	3	mod	_	_
+6	zwei	zwei	NUM	_	_	7	mod	_	_
+7	Autos	Auto	NOUN	_	_	3	subj	_	_
+8	gefahren	fahren	VERB	_	_	3	comp:aux	_	_
+
+1	also	also	ADV	_	_	5	discourse	_	_
+2	okay	okay	ADJ	_	_	5	discourse	_	_
+3	schau	schauen	NOUN	_	_	5	discourse	_	_
+4	es	es	PRON	_	_	5	subj@expl	_	_
+5	war	sein	VERB	_	_	0	root	_	_
+6	so	so	ADV	_	_	5	comp:pred	_	_
+
+1	ich	ich	PRON	_	_	2	subj	_	_
+2	wollte	wollen	AUX	_	_	0	root	_	_
+3	gerade	gerade	ADV	_	_	2	mod	_	_
+4	die	d	DET	_	_	5	det	_	_
+5	Straße	Straße	NOUN	_	_	6	comp:obj	_	_
+6	überqueren	überqueren	VERB	_	_	2	comp:aux	_	_
+
+1	und	und	CCONJ	_	_	6	cc	_	_
+2	auf	auf	ADP	_	_	6	comp:pred	_	_
+3	der	d	DET	_	_	5	det	_	_
+4	linken	link	ADJ	_	_	5	mod	_	_
+5	Seite	Seite	NOUN	_	_	2	comp:obj	_	_
+6	war	sein	VERB	_	_	0	root	_	_
+7	so	so	ADV	_	_	9	mod	_	_
+8	ein	ein	DET	_	_	9	det	_	_
+9	Mann	Mann	NOUN	_	_	6	subj	_	_
+10	mit	mit	ADP	_	_	9	mod	_	_
+11	einer	ein	DET	_	_	12	det	_	_
+12	Familie	Familie	NOUN	_	_	10	comp:obj	_	_
+
+1	also	also	ADV	_	_	3	discourse	_	_
+2	der	die	PRON	_	_	3	subj	_	_
+3	hatte	haben	VERB	_	_	0	root	_	_
+4	so	so	ADV	_	_	7	mod	_	_
+5	einen	ein	DET	_	_	7	det	_	_
+6	kleinen	klein	ADJ	_	_	7	mod	_	_
+7	Sohn	Sohn	NOUN	_	_	3	comp:obj	_	_
+8	und	und	CCONJ	_	_	10	cc	_	_
+9	eine	eine	DET	_	_	10	det	_	_
+10	Mutter	Mutter	NOUN	_	_	7	conj	_	_
+11	halt	halt	VERB	_	_	3	discourse	_	_
+
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	äh	äh	ADJ	_	_	4	discourse	_	_
+3	die	die	PRON	_	_	4	subj	_	_
+4	hatten	haben	VERB	_	_	0	root	_	_
+5	einen	ein	DET	_	_	6	det	_	_
+6	Ball	Ball	NOUN	_	_	4	comp:obj	_	_
+
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	der	die	PRON	_	_	3	subj	_	_
+3	ist	sein	VERB	_	_	0	root	_	_
+4	ich	ich	PRON	_	_	5	subj	_	_
+5	glaube	glauben	VERB	_	_	3	parataxis	_	_
+6	dem	d	DET	_	_	7	det	_	_
+7	Mann	Mann	NOUN	_	_	15	comp:obj	_	_
+8	also	also	ADV	_	_	3	discourse	_	_
+9	keine	keine	PRON	_	_	10	det	_	_
+10	Ahnung	Ahnung	NOUN	_	_	3	parataxis	_	_
+11	warum	warum	ADV	_	_	10	comp:obj	_	_
+12	aus	aus	ADP	_	_	15	comp:obl	_	_
+13	den	d	DET	_	_	14	det	_	_
+14	Händen	Händen	NOUN	_	_	12	comp:obj	_	_
+15	gefallen	gefallen	VERB	_	_	3	comp:aux	_	_
+16	und	und	CCONJ	_	_	20	cc	_	_
+17	auf	auf	ADP	_	_	20	comp:obl	_	_
+18	die	d	DET	_	_	19	det	_	_
+19	Straße	Straße	NOUN	_	_	17	comp:obj	_	_
+20	gerollt	rollen	VERB	_	_	15	conj	_	_
+
+1	auf	auf	ADP	_	_	5	comp:pred	_	_
+2	der	d	DET	_	_	4	det	_	_
+3	gegenüberliegenden	gegenüberliegenden	ADJ	_	_	4	mod	_	_
+4	Seite	Seite	NOUN	_	_	1	comp:obj	_	_
+5	war	sein	VERB	_	_	0	root	_	_
+6	eine	eine	DET	_	_	7	det	_	_
+7	Frau	Frau	NOUN	_	_	5	subj	_	_
+8	mit	mit	ADP	_	_	7	mod	_	_
+9	einem	ein	DET	_	_	10	det	_	_
+10	Auto	Auto	NOUN	_	_	8	comp:obj	_	_
+11	die	die	PRON	_	_	16	subj	_	_
+12	ihre	ihr	DET	_	_	13	det	_	_
+13	Einkäufe	Einkäufe	NOUN	_	_	15	comp:obj	_	_
+14	gerade	gerade	ADV	_	_	16	mod	_	_
+15	ausgepackt	auspacken	VERB	_	_	16	comp:aux	_	_
+16	hat	haben	AUX	_	_	7	mod@relcl	_	_
+
+1	also	also	ADV	_	_	3	discourse	_	_
+2	ganz	ganz	ADJ	_	_	3	mod	_	_
+3	normal	normal	ADJ	_	_	0	root	_	_
+4	eigentlich	eigentlich	ADJ	_	_	3	orphan	_	_
+
+1	auf	auf	ADP	_	_	6	mod	_	_
+2	jeden	jede	PRON	_	_	3	det	_	_
+3	Fall	Fall	NOUN	_	_	1	comp:obj	_	_
+4	der	d	DET	_	_	5	det	_	_
+5	Ball	Ball	NOUN	_	_	6	subj	_	_
+6	rollte	rollen	VERB	_	_	0	root	_	_
+7	auf	auf	ADP	_	_	6	comp:obl	_	_
+8	die	d	DET	_	_	9	det	_	_
+9	Straße	Straße	NOUN	_	_	7	comp:obj	_	_
+
+1	der	d	DET	_	_	2	det	_	_
+2	Hund	Hund	NOUN	_	_	5	subj	_	_
+3	der	d	DET	_	_	4	det	_	_
+4	Frau	Frau	NOUN	_	_	2	mod@poss	_	_
+5	rannte	rennen	VERB	_	_	0	root	_	_
+6	natürlich	natürlich	ADJ	_	_	5	mod	_	_
+7	auch	auch	ADV	_	_	5	mod	_	_
+8	wie	wie	CCONJ	_	_	10	reparandum	_	_
+9	also	also	ADV	_	_	5	discourse	_	_
+10	auf	auf	ADP	_	_	13	reparandum	_	_
+11	die	die	DET	_	_	10	comp:obj	_	_
+12	mitten	mitten	ADV	_	_	13	mod	_	_
+13	auf	auf	ADP	_	_	5	comp:obl	_	_
+14	die	d	DET	_	_	15	det	_	_
+15	Straße	Straße	NOUN	_	_	13	comp:obj	_	_
+
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	dann	dann	ADV	_	_	4	mod	_	_
+3	da	da	ADV	_	_	4	comp:pred	_	_
+4	war	sein	VERB	_	_	0	root	_	_
+5	so	so	ADV	_	_	7	mod	_	_
+6	eine	eine	DET	_	_	7	det	_	_
+7	Biege	Biege	NOUN	_	_	4	subj	_	_
+8	also	also	ADV	_	_	4	discourse	_	_
+9	so	so	ADV	_	_	11	mod	_	_
+10	eine	eine	DET	_	_	11	det	_	_
+11	Kurve	Kurve	PROPN	_	_	7	appos	_	_
+
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	da	da	ADV	_	_	3	mod	_	_
+3	fuhren	fahren	VERB	_	_	0	root	_	_
+4	halt	halt	ADV	_	_	3	mod	_	_
+5	zwei	zwei	NUM	_	_	6	mod	_	_
+6	Autos	Auto	NOUN	_	_	3	subj	_	_
+
+1	ich	ich	PRON	_	_	2	subj	_	_
+2	glaube	glauben	VERB	_	_	0	root	_	_
+3	so	so	ADV	_	_	5	mod	_	_
+4	ein	ein	DET	_	_	5	det	_	_
+5	blaues	blau	ADJ	_	_	2	orphan	_	_
+6	und	und	CCONJ	_	_	8	cc	_	_
+7	ein	ein	DET	_	_	8	det	_	_
+8	schwarzes	schwarz	ADJ	_	_	5	conj	_	_
+
+1	keine	keine	PRON	_	_	2	mod	_	_
+2	Ahnung	Ahnung	NOUN	_	_	0	root	_	_
+3	mehr	mehr	ADV	_	_	2	mod	_	_
+
+1	auf	auf	ADP	_	_	10	mod	_	_
+2	jeden	jede	PRON	_	_	3	det	_	_
+3	Fall	Fall	NOUN	_	_	1	comp:obj	_	_
+4	ist	sein	VERB	_	_	0	root	_	_
+5	das	die	PRON	_	_	6	det	_	_
+6	eine	eine	DET	_	_	4	subj	_	_
+7	in	in	ADP	_	_	10	comp:obl	_	_
+8	das	d	DET	_	_	9	det	_	_
+9	andere	ander	NOUN	_	_	7	comp:obj	_	_
+10	gekracht	krachen	VERB	_	_	4	comp:aux	_	_
+
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	ich	ich	PRON	_	_	3	subj	_	_
+3	dachte	denken	VERB	_	_	0	root	_	_
+4	jetzt	jetzt	ADV	_	_	5	mod	_	_
+5	macht	machen	VERB	_	_	3	comp:obj	_	_
+6	jeder	jede	PRON	_	_	5	subj	_	_
+7	so	so	ADV	_	_	8	mod	_	_
+8	richtig	richtig	ADJ	_	_	9	mod	_	_
+9	krass	krass	PROPN	_	_	5	mod	_	_
+10	Stress	Stress	PROPN	_	_	5	comp:obj	_	_
+
+1	weil	weil	SCONJ	_	_	5	discourse	_	_
+2	na	na	PROPN	_	_	5	discourse	_	_
+3	ja	ja	ADV	_	_	5	discourse	_	_
+4	äh	äh	ADJ	_	_	5	discourse	_	_
+5	Autounfall	Autounfall	NOUN	_	_	0	root	_	_
+6	halt	halt	VERB	_	_	5	discourse	_	_
+
+1	ist	sein	VERB	_	_	0	root	_	_
+2	halt	halt	ADV	_	_	1	discourse	_	_
+3	kacke	kacke	PROPN	_	_	1	comp:pred	_	_
+4	so	so	ADV	_	_	1	mod	_	_
+
+1	aber	aber	ADV	_	_	2	cc	_	_
+2	nein	nein	PART	_	_	0	root	_	_
+
+1	die	die	PRON	_	_	2	subj	_	_
+2	haben	haben	VERB	_	_	0	root	_	_
+3	ganz	ganz	ADV	_	_	4	mod	_	_
+4	normal	normal	ADJ	_	_	2	mod	_	_
+5	dann	dann	ADV	_	_	2	mod	_	_
+6	die	d	DET	_	_	8	det	_	_
+7	also	also	ADV	_	_	2	discourse	_	_
+8	die	d	DET	_	_	9	det	_	_
+9	Polizei	Polizei	NOUN	_	_	10	comp:obj	_	_
+10	gerufen	rufen	VERB	_	_	2	comp:aux	_	_
+11	die	d	DET	_	_	12	det	_	_
+12	Eins	Eins	PROPN	_	_	9	conj	_	_
+13	Eins	Eins	PROPN	_	_	12	flat	_	_
+14	Null	Null	NUM	_	_	13	flat	_	_
+
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	sind	sein	VERB	_	_	0	root	_	_
+3	das	die	PRON	_	_	5	comp:obj	_	_
+4	dann	dann	ADV	_	_	2	mod	_	_
+5	regeln	regeln	VERB	_	_	6	mod	_	_
+6	gegangen	gehen	VERB	_	_	2	comp:aux	_	_
+
+1	in	in	ADP	_	_	18	mod	_	_
+2	der	d	DET	_	_	3	det	_	_
+3	Zeit	Zeit	NOUN	_	_	1	comp:obj	_	_
+4	hat	haben	VERB	_	_	0	root	_	_
+5	der	d	DET	_	_	6	det	_	_
+6	Mann	Mann	NOUN	_	_	4	subj	_	_
+7	der	d	DET	_	_	8	det	_	_
+8	Frau	Frau	NOUN	_	_	18	mod	_	_
+9	wieder	wieder	ADV	_	_	4	mod	_	_
+10	also	also	ADV	_	_	4	discourse	_	_
+11	ihre	ihr	DET	_	_	12	det	_	_
+12	Einkäufe	Einkäufe	NOUN	_	_	18	comp:obj	_	_
+13	da	da	ADV	_	_	4	mod	_	_
+14	wieder	wieder	ADV	_	_	4	mod	_	_
+15	in	in	ADP	_	_	18	comp:obl	_	_
+16	die	d	DET	_	_	17	det	_	_
+17	Tüte	Tüte	NOUN	_	_	15	comp:obj	_	_
+18	gemacht	machen	VERB	_	_	4	comp:aux	_	_
+
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	ist	sein	VERB	_	_	5	reparandum	_	_
+3	es	es	PRON	_	_	2	comp:obj	_	_
+4	dann	dann	ADV	_	_	5	mod	_	_
+5	ist	sein	VERB	_	_	0	root	_	_
+6	dann	dann	ADV	_	_	5	mod	_	_
+7	wieder	wieder	ADV	_	_	5	mod	_	_
+8	zu	zu	ADP	_	_	11	comp:obl	_	_
+9	den	d	DET	_	_	10	det	_	_
+10	anderen	ander	ADJ	_	_	8	comp:obj	_	_
+11	gegangen	gehen	NOUN	_	_	5	comp:aux	_	_
+12	das	die	DET	_	_	13	det	_	_
+13	regeln	regeln	NOUN	_	_	11	mod	_	_
+
+1	ja	ja	ADV	_	_	2	discourse	_	_
+2	krass	krass	PROPN	_	_	0	root	_	_
+3	oder	oder	CCONJ	_	_	2	discourse	_	_
+

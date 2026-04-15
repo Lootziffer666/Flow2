@@ -1,0 +1,254 @@
+# sent_id = 1627851682.129314-809473_00001
+# timestamp = 1628164195840
+# user_id = nzuern
+1	hi	hi	X	NGIRR	_	2	discourse	_	_
+2	Süße	Süße	NOUN	NN	_	0	root	_	_
+
+# sent_id = 1627851682.129314-809473_00002
+# timestamp = 1628164355712
+# user_id = nzuern
+1	weißt	wissen	VERB	VVFIN	_	0	root	_	_
+2	du	du	PRON	PPER	_	1	subj	_	_
+3	noch	noch	ADV	ADV	_	1	mod	_	_
+4	als	als	ADP	KOUS	_	1	mod	_	_
+5	ich	ich	PRON	PPER	_	9	subj	_	_
+6	dir	du	PRON	PPER	_	8	comp:obl	_	_
+7	letztens	letztens	ADV	ADV	_	9	mod	_	_
+8	erzählt	erzählen	VERB	VVPP	_	9	comp:aux	_	_
+9	habe	haben	AUX	VAFIN	_	4	comp:obj	_	_
+10	dass	dass	SCONJ	KOUS	_	8	comp:obj	_	_
+11	ich	ich	PRON	PPER	_	18	subj	_	_
+12	noch	noch	ADV	PTKMWL	_	13	mod	_	_
+13	nie	nie	ADV	ADV	_	18	mod	_	_
+14	Zeuge	Zeuge	NOUN	NN	_	17	comp:pred	_	_
+15	eines	ein	DET	ART	_	16	det	_	_
+16	Autounfalls	Autounfall	NOUN	NN	_	14	mod@poss	_	_
+17	geworden	werden	VERB	VAPP	_	18	comp:aux	_	_
+18	bin	sein	VERB	VAFIN	_	10	comp:obj	_	_
+
+# sent_id = 1627851682.129314-809473_00003
+# timestamp = 1628164830341
+# user_id = nzuern
+1	also	also	ADV	SEDM	_	3	discourse	_	_
+2	heute	heute	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	es	es	PRON	PPER	_	3	subj@expl	_	_
+5	passiert	passieren	VERB	VVPP	_	3	comp:aux	_	_
+6	ne	ne	DET	SEQU	_	3	discourse	_	_
+
+# sent_id = 1627851682.129314-809473_00004
+# timestamp = 1628165780549
+# user_id = nzuern
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	bin	sein	VERB	VAFIN	_	0	root	_	_
+3	da	da	ADV	ADV	_	2	mod	_	_
+4	über	über	ADP	APPR	_	6	reparandum	_	_
+5	so	so	ADV	PTKIFG	_	6	mod	_	_
+6	über	über	ADP	APPR	_	9	comp:obl	_	_
+7	den	d	DET	ART	_	8	det	_	_
+8	Parkplatz	Parkplatz	NOUN	NN	_	6	comp:obj	_	_
+9	gelaufen	laufen	VERB	VVPP	_	2	comp:aux	_	_
+
+# sent_id = 1627851682.129314-809473_00005
+# timestamp = 1628165852729
+# user_id = nzuern
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	das	d	PRON	PDS	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	na	na	PROPN	NGIRR	_	3	discourse	_	_
+6	ja	ja	ADV	NGIRR	_	5	fixed	_	_
+7	irgendwie	irgendwie	ADV	ADV	_	3	mod	_	_
+8	so	so	ADV	PTKIFG	_	10	mod	_	_
+9	ein	ein	DET	ART	_	10	det	_	_
+10	bisschen	bisschen	NOUN	PIDS	_	3	mod	_	_
+11	eine	ein	DET	ART	_	12	det	_	_
+12	Kettenreaktion	Kettenreaktion	NOUN	NN	_	3	comp:pred	_	_
+
+# sent_id = 1627851682.129314-809473_00006
+# timestamp = 1628165917612
+# user_id = nzuern
+1	so	so	ADV	PTKIFG	_	2	mod	_	_
+2	ein	ein	DET	ART	_	4	reparandum	_	_
+3	so	so	ADV	PTKIFG	_	4	mod	_	_
+4	ein	ein	DET	ART	_	8	reparandum	_	_
+5	äh	äh	ADJ	NGHES	_	9	discourse	_	_
+6	so	so	ADV	PTKIFG	_	8	mod	_	_
+7	ein	ein	DET	ART	_	8	det	_	_
+8	Typ	Typ	NOUN	NN	_	9	subj	_	_
+9	hat	haben	VERB	VAFIN	_	0	root	_	_
+10	einen	ein	DET	ART	_	11	det	_	_
+11	Ball	Ball	NOUN	NN	_	12	comp:obj	_	_
+12	fallen	fallen	VERB	VVINF	_	13	comp:obj	_	_
+13	lassen	lassen	null	VVINF	_	9	comp:aux	_	_
+
+# sent_id = 1627851682.129314-809473_00007
+# timestamp = 1628165974947
+# user_id = nzuern
+1	oder	oder	CCONJ	KON	_	3	cc	_	_
+2	er	er	PRON	PPER	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	ihm	er	PRON	PPER	_	5	comp:obj	_	_
+5	weggerutscht	wegrutschen	ADJ	VVPP	_	3	comp:aux	_	_
+6	über	über	ADP	APPR	_	9	comp:obl	_	_
+7	den	d	DET	ART	_	8	det	_	_
+8	Parkplatz	Parkplatz	NOUN	NN	_	6	comp:obj	_	_
+9	gelaufen	laufen	VERB	VVPP	_	3	conj	_	_
+
+# sent_id = 1627851682.129314-809473_00008
+# timestamp = 1628166243140
+# user_id = nzuern
+1	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+2	aufer	auf	ADPDET	APPRART	_	5	comp:obl	_	_
+3	anderen	ander	ADJ	PIDAT	_	4	mod	_	_
+4	Seite	Seite	NOUN	NN	_	2	comp:obj	_	_
+5	stand	stehen	VERB	VVFIN	_	0	root	_	_
+6	eine	ein	DET	ART	_	7	det	_	_
+7	Frau	Frau	NOUN	NN	_	5	subj	_	_
+8	die	d	PRON	PRELS	_	14	subj	_	_
+9	ihren	ihr	DET	PPOSAT	_	10	det	_	_
+10	Einkauf	Einkauf	NOUN	NN	_	13	comp:obj	_	_
+11	ins	in	PROPN	APPRART	_	13	comp:obl	_	_
+12	Auto	Auto	PROPN	NN	_	11	comp:obj	_	_
+13	geladen	laden	VERB	VVPP	_	14	comp:aux	_	_
+14	hat	haben	AUX	VAFIN	_	7	mod@relcl	_	_
+
+# sent_id = 1627851682.129314-809473_00009
+# timestamp = 1628166315478
+# user_id = nzuern
+1	die	d	PRON	PDS	_	2	subj	_	_
+2	hatte	haben	VERB	VAFIN	_	0	root	_	_
+3	so	so	ADV	PTKIFG	_	5	mod	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	2	comp:obj	_	_
+6	dabei	dabei	ADV	ADV	_	2	compound@prt	_	_
+
+# sent_id = 1627851682.129314-809473_00010
+# timestamp = 1628166386925
+# user_id = nzuern
+1	und	und	CCONJ	KON	_	7	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	7	subj	_	_
+4	hat	haben	AUX	VAFIN	_	7	reparandum	_	_
+5	sich	er|es|sie	PRON	PRF	_	4	comp:obj	_	_
+6	dann	dann	ADV	ADV	_	4	mod	_	_
+7	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+8	sich	er|es|sie	PRON	PRF	_	9	comp:obj	_	_
+9	losreißen	losreißen	VERB	VVINF	_	7	comp:aux	_	_
+
+# sent_id = 1627851682.129314-809473_00011
+# timestamp = 1628166575917
+# user_id = nzuern
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	mir	mir	PRON	PPER	_	9	comp:obj	_	_
+3	sind	sein	VERB	VAFIN	_	0	root	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Einkäufe	Einkauf	NOUN	NN	_	3	subj	_	_
+6	auf	auf	ADP	APPR	_	9	comp:obl	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Straße	Straße	NOUN	NN	_	6	comp:obj	_	_
+9	gefallen	fallen	VERB	VVPP	_	3	comp:aux	_	_
+
+# sent_id = 1627851682.129314-809473_00012
+# timestamp = 1628166761064
+# user_id = nzuern
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	gleichzeitig	gleichzeitig	ADJ	ADJD	_	3	mod	_	_
+3	wollten	wollen	VERB	VMFIN	_	0	root	_	_
+4	aber	aber	ADV	PTKMA	_	3	mod	_	_
+5	zwei	zwei	NUM	CARD	_	6	mod	_	_
+6	Autos	Auto	NOUN	NN	_	3	subj	_	_
+7	auf	auf	ADP	APPR	_	10	comp:obl	_	_
+8	den	d	DET	ART	_	9	det	_	_
+9	Parkplatz	Parkplatz	NOUN	NN	_	7	comp:obj	_	_
+10	fahren	fahren	VERB	VVINF	_	3	comp:aux	_	_
+
+# sent_id = 1627851682.129314-809473_00013
+# timestamp = 1628167095066
+# user_id = nzuern
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	ja	ja	ADV	NGIRR	_	6	discourse	_	_
+3	gut	gut	ADJ	NGIRR	_	2	fixed	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Erste	Erste	PROPN	NN	_	6	subj	_	_
+6	hat	haben	VERB	VAFIN	_	0	root	_	_
+7	das	d	PRON	PDS	_	9	comp:obj	_	_
+8	dann	dann	ADV	ADV	_	6	mod	_	_
+9	gemerkt	merken	ADJ	VVPP	_	6	comp:aux	_	_
+
+1	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	plötzlich	plötzlich	ADV	ADJD	_	2	mod	_	_
+4	gebremst	bremsen	ADV	VVPP	_	2	comp:aux	_	_
+5	aber	aber	ADV	KON	_	6	cc	_	_
+6	der	d	DET	PDS	_	2	conj	_	_
+7	hinter	hinter	ADP	APPR	_	6	mod	_	_
+8	ihm	er	PRON	PPER	_	7	comp:obj	_	_
+9	wahrscheinlich	wahrscheinlich	ADJ	ADV	_	10	mod	_	_
+10	nicht	nicht	PART	PTKNEG	_	6	mod	_	_
+
+# sent_id = 1627851682.129314-809473_00014
+# timestamp = 1628167289805
+# user_id = nzuern
+1	na	na	PROPN	NGIRR	_	5	discourse	_	_
+2	ja	ja	ADV	NGIRR	_	1	fixed	_	_
+3	und	und	CCONJ	KON	_	5	cc	_	_
+4	dann	dann	ADV	ADV	_	5	mod	_	_
+5	hat	haben	VERB	VAFIN	_	0	root	_	_
+6	es	es	PRON	PPER	_	5	subj@expl	_	_
+7	eben	eben	ADV	PTKMA	_	5	mod	_	_
+8	gescheppert	scheppern	ADJ	VVPP	_	5	comp:aux	_	_
+
+# sent_id = 1627851682.129314-809473_00015
+# timestamp = 1628167331391
+# user_id = nzuern
+1	also	also	ADV	SEDM	_	3	discourse	_	_
+2	nichts	nichts	PRON	PIS	_	3	det	_	_
+3	Schlimmes	Schlimme	NOUN	NN	_	0	root	_	_
+4	ne	ne	DET	SEQU	_	3	discourse	_	_
+
+# sent_id = 1627851682.129314-809473_00016
+# timestamp = 1628167380912
+# user_id = nzuern
+1	kein	kein	PRON	PIS	_	2	reparandum	_	_
+2	keiner	kein	PRON	PIS	_	0	root	_	_
+3	verletzt	verletzen	VERB	ADJD	_	2	orphan	_	_
+
+# sent_id = 1627851682.129314-809473_00017
+# timestamp = 1628167479424
+# user_id = nzuern
+1	oder	oder	CCONJ	KON	_	3	cc	_	_
+2	äh	äh	ADV	NGHES	_	3	discourse	_	_
+3	alles	all	PRON	PIS	_	0	root	_	_
+4	okay	okay	ADJ	ADJD	_	3	orphan	_	_
+
+# sent_id = 1627851682.129314-809473_00018
+# timestamp = 1627851682084
+# user_id = nzuern
+1	Kleinigkeiten	Kleinigkeit	NOUN	NN	_	0	root	_	_
+
+# sent_id = 1627851682.129314-809473_00019
+# timestamp = 1628167539242
+# user_id = nzuern
+1	aber	aber	ADV	KON	_	4	discourse	_	_
+2	ja	ja	ADV	NGIRR	_	1	fixed	_	_
+3	Unfall	Unfall	PROPN	NN	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	Unfall	Unfall	NOUN	NN	_	4	comp:pred	_	_
+6	ne	ne	DET	SEQU	_	4	discourse	_	_
+
+# sent_id = 1627851682.129314-809473_00020
+# timestamp = 1628167601699
+# user_id = nzuern
+1	okay	okay	ADJ	NGIRR	_	3	discourse	_	_
+2	wir	wir	PRON	PPER	_	3	subj	_	_
+3	sehen	sehen	VERB	VVFIN	_	0	root	_	_
+4	uns	wir	PRON	PRF	_	3	comp:obj	_	_
+5	heute	heute	ADV	ADV	_	6	mod	_	_
+6	Abend	Abend	NOUN	NN	_	3	mod	_	_
+
+# sent_id = 1627851682.129314-809473_00021
+# timestamp = 1627851682084
+# user_id = nzuern
+1	tschau	tschau	PROPN	NGIRR	_	0	root	_	_
+

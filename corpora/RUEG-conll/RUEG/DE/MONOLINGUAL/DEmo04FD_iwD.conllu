@@ -1,0 +1,60 @@
+# text = Heute war ein Verkehrsunfall
+1	Heute	heute	ADV	ADV	_	2	mod	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	ART	Definite=Ind|PronType=Art	4	det	_	_
+4	Verkehrsunfall	Verkehrsunfall	NOUN	NN	_	2	comp:pred	_	_
+
+# text = ein Paar mit Kinderwagen wollte über die Straße gehen .
+1	ein	ein	DET	ART	Definite=Ind|PronType=Art	2	det	_	_
+2	Paar	Paar	NOUN	NN	_	5	subj	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	Kinderwagen	Kinderwagen	NOUN	NN	Case=Dat|Number=Plur	3	comp:obj	_	_
+5	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	über	über	ADP	APPR	_	9	comp:obl	_	_
+7	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	comp:obj	_	_
+9	gehen	gehen	VERB	VVINF	Tense=Pres|VerbForm=Inf	5	comp:aux	_	_
+10	.	.	PUNCT	$.	_	5	punct	_	_
+
+# text = Der Mann hat ein Ball auf die Straße fallen gelassen sodass ein Hund einer anderen Autofahrerin auf die Straße gelaufen ist
+1	Der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Ball	Ball	NOUN	NN	Case=Acc|Number=Sing	9	comp:obj	_	_
+6	auf	auf	ADP	APPR	_	9	mod	_	_
+7	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	comp:obj	_	_
+9	fallen	fallen	VERB	VVINF	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
+10	gelassen	lassen	VERB	VVPP	Tense=Past	3	comp:aux	_	_
+11	sodass	sodass	SCONJ	KOUS	_	9	mod	_	_
+12	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Hund	Hund	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	21	subj	_	_
+14	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	anderen	ander	ADJ	PIDAT	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	16	mod	_	_
+16	Autofahrerin	Autofahrerin	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	mod@poss	_	_
+17	auf	auf	ADP	APPR	_	20	comp:obl	_	_
+18	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	comp:obj	_	_
+20	gelaufen	laufen	VERB	VVPP	Tense=Past|VerbForm=Inf	21	comp:aux	_	_
+21	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	comp:obj	_	_
+
+# text = dadurch musste der Autofahrer bremsen
+1	dadurch	dadurch	ADV	ADV	_	2	mod	_	_
+2	musste	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Autofahrer	Autofahrer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	subj	_	_
+5	bremsen	bremsen	VERB	VVINF	Tense=Pres|VerbForm=Inf	2	comp:aux	_	_
+
+# text = und ein Auto dahinter ist in das Auto gefahren .
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	ein	ein	DET	ART	Definite=Ind|PronType=Art	3	det	_	_
+3	Auto	Auto	NOUN	NN	_	5	subj	_	_
+4	dahinter	dahinter	ADV	ADV	_	3	mod	_	_
+5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	in	in	ADP	APPR	_	9	mod	_	_
+7	das	d	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Auto	Auto	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	comp:obj	_	_
+9	gefahren	fahren	VERB	VVPP	Tense=Past|VerbForm=Part	5	comp:aux	_	_
+10	.	.	PUNCT	$.	_	5	punct	_	_
+

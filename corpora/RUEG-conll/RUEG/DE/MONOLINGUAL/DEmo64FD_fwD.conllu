@@ -1,0 +1,217 @@
+# text = Zwei Passanten , vermutlich ein Paar mit einem Kinderwagen , sind auf dem Bürgersteig gelaufen .
+1	Zwei	zwei	NUM	CARD	_	2	mod	_	_
+2	Passanten	Passant	NOUN	NN	_	11	subj	_	_
+3	,	,	PUNCT	$,	_	6	punct	_	_
+4	vermutlich	vermutlich	ADJ	ADV	_	6	mod	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Paar	Paar	NOUN	NN	_	2	appos	_	_
+7	mit	mit	ADP	APPR	_	6	mod	_	_
+8	einem	ein	DET	ART	_	9	det	_	_
+9	Kinderwagen	Kinderwagen	NOUN	NN	_	7	comp:obj	_	_
+10	,	,	PUNCT	$,	_	6	punct	_	_
+11	sind	sein	AUX	VAFIN	_	0	root	_	_
+12	auf	auf	ADP	APPR	_	15	comp:obl	_	_
+13	dem	d	DET	ART	_	14	det	_	_
+14	Bürgersteig	Bürgersteig	NOUN	NN	_	12	comp:obj	_	_
+15	gelaufen	laufen	VERB	VVPP	_	11	comp:aux	_	_
+16	.	.	PUNCT	$.	_	11	punct	_	_
+
+# text = Der Mann hatte ein Basecap auf und einen Fußball in der Hand , mit dem er dribbelte .
+1	Der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	hatte	haben	VERB	VAFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Basecap	Basecap	NOUN	NN	_	3	comp:obj	_	_
+6	auf	auf	ADP	PTKVZ	_	3	compound@prt	_	_
+7	und	und	CCONJ	KON	_	9	cc	_	_
+8	einen	ein	DET	ART	_	9	det	_	_
+9	Fußball	Fußball	NOUN	NN	_	3	conj	_	_
+10	in	in	ADP	APPR	_	9	orphan	_	_
+11	der	d	DET	ART	_	12	det	_	_
+12	Hand	Hand	NOUN	NN	_	10	comp:obj	_	_
+13	,	,	PUNCT	$,	_	3	punct	_	_
+14	mit	mit	ADP	APPR	_	17	comp:obl	_	_
+15	dem	d	PRON	ART	_	14	comp:obj	_	_
+16	er	er	PRON	PPER	_	17	subj	_	_
+17	dribbelte	dribbeln	VERB	VVFIN	_	9	mod@relcl	_	_
+18	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Dabei ist ihm der Fußball aus der Hand gefallen und auf die Straße gerollt .
+1	Dabei	dabei	ADV	ADV	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	ihm	er	PRON	PPER	_	9	comp:obj	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Fußball	Fußball	NOUN	NN	_	2	subj	_	_
+6	aus	aus	ADP	APPR	_	9	comp:obl	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Hand	Hand	NOUN	NN	_	6	comp:obj	_	_
+9	gefallen	fallen	VERB	VVFIN	_	2	comp:aux	_	_
+10	und	und	CCONJ	KON	_	14	cc	_	_
+11	auf	auf	ADP	APPR	_	14	comp:obl	_	_
+12	die	d	DET	ART	_	13	det	_	_
+13	Straße	Straße	NOUN	NN	_	11	comp:obj	_	_
+14	gerollt	rollen	VERB	VVPP	_	2	conj	_	_
+15	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Auf der anderen Straßenseite war eine junge Frau mit kurzen braunen Haaren damit beschäftigt ihre Einkäufe aus dem Kofferaum auszuräumen .
+1	Auf	auf	ADP	APPR	_	14	mod	_	_
+2	der	d	DET	ART	_	4	det	_	_
+3	anderen	ander	ADJ	PIDAT	_	4	mod	_	_
+4	Straßenseite	Straßenseite	NOUN	NN	_	1	comp:obj	_	_
+5	war	sein	VERB	VAFIN	_	0	root	_	_
+6	eine	ein	DET	ART	_	8	det	_	_
+7	junge	jung	ADJ	ADJA	_	8	mod	_	_
+8	Frau	Frau	NOUN	NN	_	5	subj	_	_
+9	mit	mit	ADP	APPR	_	8	mod	_	_
+10	kurzen	kurz	ADJ	ADJA	_	12	mod	_	_
+11	braunen	braun	ADJ	ADJA	_	12	mod	_	_
+12	Haaren	Haar	NOUN	NN	_	9	comp:obj	_	_
+13	damit	damit	ADV	ADV	_	14	comp:obj	_	_
+14	beschäftigt	beschäftigt	VERB	VVPP	_	5	comp:aux	_	_
+15	ihre	ihr	DET	PPOSAT	_	16	det	_	_
+16	Einkäufe	Einkauf	NOUN	NN	_	20	comp:obj	_	_
+17	aus	aus	ADP	APPR	_	20	comp:obl	_	_
+18	dem	d	DET	ART	_	19	det	_	_
+19	Kofferaum	Kofferaum	NOUN	NN	_	17	comp:obj	_	_
+20	auszuräumen	ausräumen	VERB	VVIZU	_	13	comp:obj	_	_
+21	.	.	PUNCT	$.	_	14	punct	_	_
+
+# text = Sie hatte einen kleinen Hund an der Leine und eine Papiertüte mit Äpfeln in der Hand .
+1	Sie	sie	PRON	PPER	_	2	subj	_	_
+2	hatte	haben	VERB	VAFIN	_	0	root	_	_
+3	einen	ein	DET	ART	_	5	det	_	_
+4	kleinen	klein	ADJ	ADJA	_	5	mod	_	_
+5	Hund	Hund	NOUN	NN	_	2	comp:obj	_	_
+6	an	an	ADP	APPR	_	2	comp:obl	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Leine	Leine	PROPN	NN	_	6	comp:obj	_	_
+9	und	und	CCONJ	KON	_	11	cc	_	_
+10	eine	ein	DET	ART	_	11	det	_	_
+11	Papiertüte	Papiertüte	NOUN	NN	_	2	conj	_	_
+12	mit	mit	ADP	APPR	_	11	mod	_	_
+13	Äpfeln	Apfel	NOUN	NN	_	12	comp:obj	_	_
+14	in	in	ADP	APPR	_	11	orphan	_	_
+15	der	d	DET	ART	_	16	det	_	_
+16	Hand	Hand	NOUN	NN	_	14	comp:obj	_	_
+17	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Als der Ball auf die Straße rollte , ist ihr der Hund entrissen und dem Ball hinterhergerannt .
+1	Als	als	SCONJ	KOUS	_	13	mod	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Ball	Ball	NOUN	NN	_	7	subj	_	_
+4	auf	auf	ADP	APPR	_	7	comp:obl	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Straße	Straße	NOUN	NN	_	4	comp:obj	_	_
+7	rollte	rollen	VERB	VVFIN	_	1	comp:obj	_	_
+8	,	,	PUNCT	$,	_	1	punct	_	_
+9	ist	sein	AUX	VAFIN	_	0	root	_	_
+10	ihr	ihr	PRON	PPER	_	13	comp:obj	_	_
+11	der	d	DET	ART	_	12	det	_	_
+12	Hund	Hund	NOUN	NN	_	9	subj	_	_
+13	entrissen	entreißen	VERB	VVFIN	_	9	comp:aux	_	_
+14	und	und	CCONJ	KON	_	17	cc	_	_
+15	dem	d	DET	ART	_	16	det	_	_
+16	Ball	Ball	NOUN	NN	_	17	comp:obj	_	_
+17	hinterhergerannt	hinterherrennen	VERB	VVPP	_	9	conj	_	_
+18	.	.	PUNCT	$.	_	9	punct	_	_
+
+# text = Die junge Frau hat beim Versuch ihn festzuhalten die Papiertüte fallen gelassen
+1	Die	d	DET	ART	_	3	det	_	_
+2	junge	jung	ADJ	ADJA	_	3	mod	_	_
+3	Frau	Frau	NOUN	NN	_	4	subj	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	beim	bei	ADV	APPRART	_	11	mod	_	_
+6	Versuch	Versuch	NOUN	NN	_	5	comp:obj	_	_
+7	ihn	er	PRON	PPER	_	8	comp:obj	_	_
+8	festzuhalten	festhalten	VERB	VVIZU	_	6	mod	_	_
+9	die	d	DET	ART	_	10	det	_	_
+10	Papiertüte	Papiertüte	NOUN	NN	_	11	comp:obj	_	_
+11	fallen	fallen	VERB	VVPP	_	12	comp:obj	_	_
+12	gelassen	lassen	null	VVPP	_	4	comp:aux	_	_
+
+# text = und die Äpfel wurden auf der Straße verteilt .
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Äpfel	Äpfel	NOUN	NN	_	4	subj@pass	_	_
+4	wurden	werden	AUX	VAFIN	_	0	root	_	_
+5	auf	auf	ADP	APPR	_	8	comp:obl	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Straße	Straße	NOUN	NN	_	5	comp:obj	_	_
+8	verteilt	verteilen	VERB	VVPP	_	4	comp:aux@pass	_	_
+9	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Der kleine Hund ist vor ein Auto gerannt , welches daraufhin bremsen musste .
+1	Der	d	DET	ART	_	3	det	_	_
+2	kleine	klein	ADJ	ADJA	_	3	mod	_	_
+3	Hund	Hund	NOUN	NN	_	4	subj	_	_
+4	ist	sein	AUX	VAFIN	_	0	root	_	_
+5	vor	vor	ADP	APPR	_	8	comp:obl	_	_
+6	ein	ein	DET	ART	_	7	det	_	_
+7	Auto	Auto	NOUN	NN	_	5	comp:obj	_	_
+8	gerannt	rennen	VERB	VVPP	_	4	comp:aux	_	_
+9	,	,	PUNCT	$,	_	4	punct	_	_
+10	welches	welche	PRON	PRELS	_	13	subj	_	_
+11	daraufhin	daraufhin	ADV	ADV	_	13	mod	_	_
+12	bremsen	bremsen	VERB	VVINF	_	13	comp:aux	_	_
+13	musste	müssen	AUX	VMFIN	_	7	mod@relcl	_	_
+14	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Dabei ist ihm das hintere Auto aufgefahren .
+1	Dabei	dabei	ADV	ADV	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	ihm	er	PRON	PPER	_	7	comp:obj	_	_
+4	das	d	DET	ART	_	6	det	_	_
+5	hintere	hinter	ADJ	ADJA	_	6	mod	_	_
+6	Auto	Auto	NOUN	NN	_	2	subj	_	_
+7	aufgefahren	auffahren	VERB	VVPP	_	2	comp:aux	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Der junge Mann , welcher den Ball fallen gelassen hat , hat erst der Frau geholfen die Äpfel einzusammeln
+1	Der	d	DET	ART	_	3	det	_	_
+2	junge	jung	ADJ	ADJA	_	3	mod	_	_
+3	Mann	Mann	NOUN	NN	_	12	subj	_	_
+4	,	,	PUNCT	$,	_	12	punct	_	_
+5	welcher	welche	PRON	PRELS	_	10	subj	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Ball	Ball	NOUN	NN	_	8	comp:obj	_	_
+8	fallen	fallen	ADJ	VVINF	_	9	comp:obj	_	_
+9	gelassen	lassen	VERB	VVPP	_	10	comp:aux	_	_
+10	hat	haben	AUX	VAFIN	_	3	mod@relcl	_	_
+11	,	,	PUNCT	$,	_	10	punct	_	_
+12	hat	haben	AUX	VAFIN	_	0	root	_	_
+13	erst	erst	ADV	PTKMWL	_	12	mod	_	_
+14	der	d	DET	ART	_	15	det	_	_
+15	Frau	Frau	NOUN	NN	_	16	comp:obj	_	_
+16	geholfen	helfen	VERB	VVPP	_	12	comp:aux	_	_
+17	die	d	DET	ART	_	18	det	_	_
+18	Äpfel	Äpfel	NOUN	NN	_	19	comp:obj	_	_
+19	einzusammeln	einsammeln	VERB	VVIZU	_	16	comp:obl	_	_
+
+# text = und ist dann zu der Unfallstelle geeilt , wo bereits die anderen beiden Fahrer aus den Autos ausgestiegen waren und bereits den Notruf gewählt hatten .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	dann	dann	ADV	ADV	_	2	mod	_	_
+4	zu	zu	ADP	APPR	_	7	comp:obl	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Unfallstelle	Unfallstelle	NOUN	NN	_	4	comp:obj	_	_
+7	geeilt	eilen	ADJ	VVPP	_	2	comp:aux	_	_
+8	,	,	PUNCT	$,	_	2	punct	_	_
+9	wo	wo	ADV	PWAV	_	19	mod	_	_
+10	bereits	bereits	ADV	ADV	_	19	mod	_	_
+11	die	d	DET	ART	_	14	det	_	_
+12	anderen	ander	ADJ	PIDAT	_	14	mod	_	_
+13	beiden	beide	PRON	PIDAT	_	14	mod	_	_
+14	Fahrer	Fahrer	NOUN	NN	_	19	subj	_	_
+15	aus	aus	ADP	APPR	_	18	comp:obl	_	_
+16	den	d	DET	ART	_	17	det	_	_
+17	Autos	Auto	NOUN	NN	_	15	comp:obj	_	_
+18	ausgestiegen	aussteigen	VERB	VVPP	_	19	comp:aux	_	_
+19	waren	sein	AUX	VAFIN	_	6	mod@relcl	_	_
+20	und	und	CCONJ	KON	_	25	cc	_	_
+21	bereits	bereits	ADV	ADV	_	25	mod	_	_
+22	den	d	DET	ART	_	23	det	_	_
+23	Notruf	Notruf	NOUN	NN	_	24	comp:obj	_	_
+24	gewählt	wählen	VERB	VVPP	_	25	comp:aux	_	_
+25	hatten	haben	AUX	VAFIN	_	19	conj	_	_
+26	.	.	PUNCT	$.	_	2	punct	_	_
+

@@ -1,0 +1,220 @@
+# text = ja guten Tag
+1	ja	ja	ADV	NGIRR	_	3	discourse	_	_
+2	guten	gut	ADJ	ADJA	_	3	mod	_	_
+3	Tag	Tag	NOUN	NN	_	0	root	_	_
+
+# text = mein Name ist DEmo44FD
+1	mein	mein	PRON	PPOSAT	_	2	det	_	_
+2	Name	Name	NOUN	NN	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	DEmo44FD	DEmo44FD	PROPN	NE	_	3	comp:pred	_	_
+
+# text = und ich bin gerade äh Augenzeugin eines Unfalls geworden
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	_	3	subj@pass	_	_
+3	bin	sein	VERB	VAFIN	_	0	root	_	_
+4	gerade	gerade	ADV	ADV	_	3	mod	_	_
+5	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+6	Augenzeugin	Augenzeugin	NOUN	NN	_	3	comp:pred	_	_
+7	eines	ein	DET	ART	_	8	det	_	_
+8	Unfalls	Unfall	NOUN	NN	_	6	mod@poss	_	_
+9	geworden	werden	VERB	VAPP	_	3	comp:aux@pass	_	_
+
+# text = äh und zwar äh war das so
+1	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+2	und	und	CCONJ	KON	_	5	cc	_	_
+3	zwar	zwar	ADV	ADV	_	5	mod	_	_
+4	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+5	war	sein	VERB	VAFIN	_	0	root	_	_
+6	das	d	PRON	PDS	_	5	subj	_	_
+7	so	so	ADV	ADV	_	5	comp:pred	_	_
+
+# text = da ist ein Mann äh mit seiner Familie spazieren gewesen
+1	da	da	ADV	ADV	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Mann	Mann	NOUN	NN	_	2	subj	_	_
+5	äh	äh	ADV	NGHES	_	2	discourse	_	_
+6	mit	mit	ADP	APPR	_	4	mod	_	_
+7	seiner	sein	DET	PPOSAT	_	8	det	_	_
+8	Familie	Familie	NOUN	NN	_	6	comp:obj	_	_
+9	spazieren	spazieren	VERB	VVINF	_	10	comp:aux	_	_
+10	gewesen	sein	AUX	VAPP	_	2	comp:aux	_	_
+
+# text = er hatte ein Fußball dabei
+1	er	er	PRON	PPER	_	2	subj	_	_
+2	hatte	haben	VERB	VAFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Fußball	Fußball	NOUN	NN	_	2	comp:obj	_	_
+5	dabei	dabei	ADV	PTKVZ	_	2	compound@prt	_	_
+
+# text = und äh auf einmal hat er irgendwie die Kontrolle über den Fußball verloren
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+3	auf	auf	ADP	APPR	_	13	mod	_	_
+4	einmal	einmal	ADV	ADV	_	3	fixed	_	_
+5	hat	haben	AUX	VAFIN	_	0	root	_	_
+6	er	er	PRON	PPER	_	5	subj	_	_
+7	irgendwie	irgendwie	ADV	ADV	_	5	mod	_	_
+8	die	d	DET	ART	_	9	det	_	_
+9	Kontrolle	Kontrolle	NOUN	NN	_	13	comp:obj	_	_
+10	über	über	ADP	APPR	_	9	mod	_	_
+11	den	d	DET	ART	_	12	det	_	_
+12	Fußball	Fußball	NOUN	NN	_	10	comp:obj	_	_
+13	verloren	verlieren	VERB	VVPP	_	5	comp:aux	_	_
+
+# text = äh dieser rollte auf die Straße
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	dieser	dies	PRON	PDS	_	3	subj	_	_
+3	rollte	rollen	VERB	VVFIN	_	0	root	_	_
+4	auf	auf	ADP	APPR	_	3	comp:obl	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Straße	Straße	NOUN	NN	_	4	comp:obj	_	_
+
+# text = und daraufhin ist äh der Hund einer weiteren Passantin auf die Straße gelaufen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	daraufhin	daraufhin	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Hund	Hund	NOUN	NN	_	3	subj	_	_
+7	einer	ein	DET	ART	_	9	det	_	_
+8	weiteren	weit	ADJ	ADJA	_	9	mod	_	_
+9	Passantin	Passantin	NOUN	NN	_	6	mod@poss	_	_
+10	auf	auf	ADP	APPR	_	13	comp:obl	_	_
+11	die	d	DET	ART	_	12	det	_	_
+12	Straße	Straße	NOUN	NN	_	10	comp:obj	_	_
+13	gelaufen	laufen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = also dieser war zwar angeleint
+1	also	also	ADV	SEDM	_	3	discourse	_	_
+2	dieser	dies	PRON	PDS	_	3	subj	_	_
+3	war	sein	AUX	VAFIN	_	0	root	_	_
+4	zwar	zwar	ADV	ADV	_	3	mod	_	_
+5	angeleint	anleinen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = aber äh er hat halt gebellt
+1	aber	aber	ADV	KON	_	4	cc	_	_
+2	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+3	er	er	PRON	PPER	_	4	subj	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	halt	halt	ADV	PTKMA	_	4	mod	_	_
+6	gebellt	bellen	VERB	VVPP	_	4	comp:aux	_	_
+
+# text = ist auf die Straße
+1	ist	sein	VERB	VAFIN	_	0	root	_	_
+2	auf	auf	ADP	APPR	_	1	comp:obl	_	_
+3	die	d	DET	ART	_	4	det	_	_
+4	Straße	Straße	NOUN	NN	_	2	comp:obj	_	_
+
+# text = äh in dem Moment kamen zwei Autos angefahren
+1	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+2	in	in	ADP	APPR	_	8	mod	_	_
+3	dem	d	DET	ART	_	4	det	_	_
+4	Moment	Moment	NOUN	NN	_	2	comp:obj	_	_
+5	kamen	kommen	VERB	VVFIN	_	0	root	_	_
+6	zwei	zwei	NUM	CARD	_	7	mod	_	_
+7	Autos	Auto	NOUN	NN	_	5	subj	_	_
+8	angefahren	anfahren	VERB	VVPP	_	5	comp:obl	_	_
+
+# text = das erste Auto äh hat eine Vollbremsung gemacht
+1	das	d	DET	ART	_	3	det	_	_
+2	erste	erst	ADJ	ORD	_	3	mod	_	_
+3	Auto	Auto	NOUN	NN	_	5	subj	_	_
+4	äh	äh	ADV	NGHES	_	5	discourse	_	_
+5	hat	haben	AUX	VAFIN	_	0	root	_	_
+6	eine	ein	DET	ART	_	7	det	_	_
+7	Vollbremsung	Vollbremsung	NOUN	NN	_	8	comp:obj	_	_
+8	gemacht	machen	VERB	VVPP	_	5	comp:aux	_	_
+
+# text = und das zweite Auto konnte nicht schnell genug reagieren
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	das	d	DET	ART	_	4	det	_	_
+3	zweite	zweit	ADJ	ORD	_	4	mod	_	_
+4	Auto	Auto	NOUN	NN	_	5	subj	_	_
+5	konnte	können	AUX	VMFIN	_	0	root	_	_
+6	nicht	nicht	PART	PTKNEG	_	5	mod	_	_
+7	schnell	schnell	ADJ	ADJD	_	5	mod	_	_
+8	genug	genug	ADV	ADV	_	7	mod	_	_
+9	reagieren	reagieren	VERB	VVFIN	_	5	comp:aux	_	_
+
+# text = und ist dem ersten aufgefahren
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	dem	d	DET	ART	_	4	det	_	_
+4	ersten	erst	ADJ	ADJA	_	5	comp:obj	_	_
+5	aufgefahren	auffahren	NOUN	VVPP	_	2	comp:aux	_	_
+
+# text = äh genau und in der Zwischenzeit äh während die Polizei gerufen wurde äh haben der Mann der eigentlich der Unfallverursacher war also der den Fußball über die Straße hat rollen lassen er hat der äh Passantin mit dem Hund geholfen Einkäufe wieder aufzuheben die sie halt fallen lassen hat weil der Hund äh der an der Leine gezogen hat eben auf die straße gerannt ist
+1	äh	äh	ADV	NGHES	_	33	discourse	_	_
+2	genau	genau	ADJ	NGIRR	_	33	discourse	_	_
+3	und	und	CCONJ	KON	_	33	cc	_	_
+4	in	in	ADP	APPR	_	40	mod	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Zwischenzeit	Zwischenzeit	NOUN	NN	_	4	comp:obj	_	_
+7	äh	äh	ADV	NGHES	_	33	discourse	_	_
+8	während	während	ADP	ADV	_	40	mod	_	_
+9	die	d	DET	ART	_	10	det	_	_
+10	Polizei	Polizei	NOUN	NN	_	12	subj@pass	_	_
+11	gerufen	rufen	VERB	VVPP	_	12	comp:aux@pass	_	_
+12	wurde	werden	AUX	VAFIN	_	8	comp:obj	_	_
+13	äh	äh	ADV	NGHES	_	33	discourse	_	_
+14	haben	haben	AUX	VAFIN	_	33	reparandum	_	_
+15	der	d	DET	ART	_	16	det	_	_
+16	Mann	Mann	NOUN	NN	_	14	subj	_	_
+17	der	d	DET	PRELS	_	21	subj	_	_
+18	eigentlich	eigentlich	ADJ	ADV	_	21	mod	_	_
+19	der	d	PROPN	ART	_	20	det	_	_
+20	Unfallverursacher	Unfallverursacher	PROPN	NN	_	21	comp:pred	_	_
+21	war	sein	VERB	VAFIN	_	16	mod@relcl	_	_
+22	also	also	ADV	SEDM	_	33	discourse	_	_
+23	der	d	PRON	PRELS	_	29	subj	_	_
+24	den	d	DET	ART	_	25	det	_	_
+25	Fußball	Fußball	NOUN	NN	_	30	comp:obj	_	_
+26	über	über	ADP	APPR	_	30	comp:obl	_	_
+27	die	d	DET	ART	_	28	det	_	_
+28	Straße	Straße	NOUN	NN	_	26	comp:obj	_	_
+29	hat	haben	VERB	VAFIN	_	21	conj	_	_
+30	rollen	rollen	VERB	VVINF	_	31	comp:obj	_	_
+31	lassen	lassen	VERB	VVINF	_	29	comp:aux	_	_
+32	er	er	PRON	PPER	_	33	subj	_	_
+33	hat	haben	VERB	VAFIN	_	0	root	_	_
+34	der	d	DET	ART	_	36	det	_	_
+35	äh	äh	NOUN	NGHES	_	33	discourse	_	_
+36	Passantin	Passantin	PROPN	NN	_	40	comp:obj	_	_
+37	mit	mit	ADP	APPR	_	36	mod	_	_
+38	dem	d	DET	ART	_	39	det	_	_
+39	Hund	Hund	NOUN	NN	_	37	comp:obj	_	_
+40	geholfen	helfen	VERB	VVPP	_	33	comp:aux	_	_
+41	Einkäufe	Einkauf	PROPN	NN	_	43	comp:obj	_	_
+42	wieder	wieder	ADV	ADV	_	43	mod	_	_
+43	aufzuheben	aufheben	VERB	VVIZU	_	40	comp:obl	_	_
+44	die	d	DET	PRELS	_	47	comp:obj	_	_
+45	sie	sie	PRON	PPER	_	49	subj	_	_
+46	halt	halt	ADV	PTKMA	_	33	discourse	_	_
+47	fallen	fallen	VERB	VVINF	_	48	comp:obj	_	_
+48	lassen	lassen	VERB	VVINF	_	49	comp:aux	_	_
+49	hat	haben	AUX	VAFIN	_	41	mod@relcl	_	_
+50	weil	weil	SCONJ	KOUS	_	47	mod	_	_
+51	der	d	DET	ART	_	52	det	_	_
+52	Hund	Hund	NOUN	NN	_	65	subj	_	_
+53	äh	äh	ADV	NGHES	_	33	discourse	_	_
+54	der	d	DET	PRELS	_	59	subj	_	_
+55	an	an	ADP	APPR	_	58	comp:obl	_	_
+56	der	d	DET	ART	_	57	det	_	_
+57	Leine	Leine	PROPN	NN	_	55	comp:obj	_	_
+58	gezogen	ziehen	VERB	VVPP	_	59	comp:aux	_	_
+59	hat	haben	AUX	VAFIN	_	52	mod@relcl	_	_
+60	eben	eben	ADV	PTKMA	_	33	discourse	_	_
+61	auf	auf	ADP	APPR	_	64	comp:obl	_	_
+62	die	d	DET	ART	_	63	det	_	_
+63	straße	straße	PROPN	NE	_	61	comp:obj	_	_
+64	gerannt	rennen	VERB	VVPP	_	65	comp:aux	_	_
+65	ist	sein	AUX	VAFIN	_	50	comp:obj	_	_
+
+# text = genau so war das
+1	genau	genau	ADJ	NGIRR	_	3	discourse	_	_
+2	so	so	ADV	ADV	_	3	comp:pred	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	das	die	DET	PDS	_	3	subj	_	_
+

@@ -1,0 +1,118 @@
+# text = F16
+1	F16	F16	NOUN	_	_	0	root	_	_
+
+# text = äh ich habe eine Familie gesehen mit einem Kinderwagen
+1	äh	äh	ADJ	_	_	3	discourse	_	_
+2	ich	ich	PRON	_	_	3	subj	_	_
+3	habe	haben	AUX	_	_	0	root	_	_
+4	eine	eine	DET	_	_	5	det	_	_
+5	Familie	Familie	NOUN	_	_	6	comp:obj	_	_
+6	gesehen	sehen	VERB	_	_	3	comp:aux	_	_
+7	mit	mit	ADP	_	_	6	mod	_	_
+8	einem	ein	DET	_	_	9	det	_	_
+9	Kinderwagen	Kinderwagen	NOUN	_	_	7	comp:obj	_	_
+
+# text = und ich vermute mal das ist der Sohn der mit dem Ball gespielt hat
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	ich	ich	PRON	_	_	3	subj	_	_
+3	vermute	vermuten	VERB	_	_	0	root	_	_
+4	mal	mal	ADV	_	_	3	mod	_	_
+5	das	die	PRON	_	_	6	subj	_	_
+6	ist	sein	VERB	_	_	3	comp:obj	_	_
+7	der	d	DET	_	_	8	det	_	_
+8	Sohn	Sohn	NOUN	_	_	6	comp:pred	_	_
+9	der	die	DET	_	_	14	subj	_	_
+10	mit	mit	ADP	_	_	13	mod	_	_
+11	dem	d	DET	_	_	12	det	_	_
+12	Ball	Ball	NOUN	_	_	10	comp:obj	_	_
+13	gespielt	spielen	VERB	_	_	14	comp:aux	_	_
+14	hat	haben	AUX	_	_	8	mod@relcl	_	_
+
+# text = und gegenüber war eine Frau mit äh ihrem Einkauf und mit einem Hund
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	gegenüber	gegenüber	ADV	_	_	3	comp:pred	_	_
+3	war	sein	VERB	_	_	0	root	_	_
+4	eine	eine	DET	_	_	5	det	_	_
+5	Frau	Frau	NOUN	_	_	3	subj	_	_
+6	mit	mit	ADP	_	_	5	mod	_	_
+7	äh	äh	ADJ	_	_	3	discourse	_	_
+8	ihrem	ihr	DET	_	_	9	det	_	_
+9	Einkauf	Einkauf	NOUN	_	_	6	comp:obj	_	_
+10	und	und	CCONJ	_	_	11	cc	_	_
+11	mit	mit	ADP	_	_	6	conj	_	_
+12	einem	ein	DET	_	_	13	det	_	_
+13	Hund	Hund	NOUN	_	_	11	comp:obj	_	_
+
+# text = und wo wo die Familie die Straße überqueren wollte äh fiel der Ball von seiner Hand
+1	und	und	CCONJ	_	_	11	cc	_	_
+2	wo	wo	ADV	_	_	3	reparandum	_	_
+3	wo	wo	ADV	_	_	11	mod	_	_
+4	die	d	DET	_	_	5	det	_	_
+5	Familie	Familie	NOUN	_	_	9	subj	_	_
+6	die	d	DET	_	_	7	det	_	_
+7	Straße	Straße	NOUN	_	_	8	comp:obj	_	_
+8	überqueren	überqueren	VERB	_	_	9	comp:aux	_	_
+9	wollte	wollen	AUX	_	_	3	comp:obj	_	_
+10	äh	äh	ADJ	_	_	11	discourse	_	_
+11	fiel	fallen	VERB	_	_	0	root	_	_
+12	der	d	DET	_	_	13	det	_	_
+13	Ball	Ball	NOUN	_	_	11	subj	_	_
+14	von	von	ADP	_	_	11	comp:obl	_	_
+15	seiner	sein	DET	_	_	16	det	_	_
+16	Hand	Hand	NOUN	_	_	14	comp:obj	_	_
+
+# text = und äh der Hund äh rannte zu diesem Ball
+1	und	und	CCONJ	_	_	6	cc	_	_
+2	äh	äh	ADJ	_	_	6	discourse	_	_
+3	der	d	DET	_	_	4	det	_	_
+4	Hund	Hund	NOUN	_	_	6	subj	_	_
+5	äh	äh	NOUN	_	_	6	discourse	_	_
+6	rannte	rennen	VERB	_	_	0	root	_	_
+7	zu	zu	ADP	_	_	6	comp:obl	_	_
+8	diesem	diese	PRON	_	_	9	det	_	_
+9	Ball	Ball	NOUN	_	_	7	comp:obj	_	_
+
+# text = und der ganze Einkauf lag aufm Boden
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	der	d	DET	_	_	4	det	_	_
+3	ganze	ganz	ADJ	_	_	4	mod	_	_
+4	Einkauf	Einkauf	NOUN	_	_	5	subj	_	_
+5	lag	liegen	VERB	_	_	0	root	_	_
+6	aufm	aufm	PROPN	_	_	5	comp:obl	_	_
+7	Boden	Boden	PROPN	_	_	6	comp:obj	_	_
+
+# text = und indem das passiert ist kamen zwei Autos
+1	und	und	CCONJ	_	_	6	cc	_	_
+2	indem	indem	ADP	_	_	6	mod	_	_
+3	das	die	DET	_	_	5	subj@expl	_	_
+4	passiert	passieren	VERB	_	_	5	comp:aux	_	_
+5	ist	sein	AUX	_	_	2	comp:obj	_	_
+6	kamen	kommen	VERB	_	_	0	root	_	_
+7	zwei	zwei	NUM	_	_	8	mod	_	_
+8	Autos	Auto	NOUN	_	_	6	subj	_	_
+
+# text = und der hintere äh der vordere Auto äh hat schnell gebremst
+1	und	und	CCONJ	_	_	9	cc	_	_
+2	der	d	DET	_	_	3	det	_	_
+3	hintere	hinter	ADJ	_	_	7	reparandum	_	_
+4	äh	äh	NOUN	_	_	9	discourse	_	_
+5	der	d	DET	_	_	7	det	_	_
+6	vordere	vorder	ADJ	_	_	7	mod	_	_
+7	Auto	Auto	NOUN	_	_	9	subj	_	_
+8	äh	äh	PROPN	_	_	9	discourse	_	_
+9	hat	haben	AUX	_	_	0	root	_	_
+10	schnell	schnell	ADJ	_	_	9	mod	_	_
+11	gebremst	bremsen	VERB	_	_	9	comp:aux	_	_
+
+# text = und der zweite Auto ist in den ersten Auto reingefahren
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	der	d	DET	_	_	4	det	_	_
+3	zweite	zweit	ADJ	_	_	4	mod	_	_
+4	Auto	Auto	NOUN	_	_	5	subj	_	_
+5	ist	sein	VERB	_	_	0	root	_	_
+6	in	in	ADP	_	_	10	comp:obl	_	_
+7	den	d	DET	_	_	9	det	_	_
+8	ersten	erst	ADJ	_	_	9	mod	_	_
+9	Auto	Auto	NOUN	_	_	6	comp:obj	_	_
+10	reingefahren	reingefahren	VERB	_	_	5	comp:aux	_	_
+

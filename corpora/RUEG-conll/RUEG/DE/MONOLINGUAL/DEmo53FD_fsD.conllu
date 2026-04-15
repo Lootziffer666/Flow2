@@ -1,0 +1,219 @@
+# sent_id = 1628238174.616787-809576_00001
+# text = also guten Tag
+1	also	also	ADV	SEDM	_	3	discourse	_	_
+2	guten	gut	ADJ	ADJA	_	3	mod	_	_
+3	Tag	Tag	NOUN	NN	_	0	root	_	_
+
+# sent_id = 1628238174.616787-809576_00002
+# text = ich bin DEmo53FD
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	bin	sein	VERB	VAFIN	_	0	root	_	_
+3	DEmo53FD	DEmo53FD	PROPN	NE	_	2	comp:pred	_	_
+
+# sent_id = 1628238174.616787-809576_00003
+# text = und ich habe hier gerade äh auf einem Parkplatz einen Unfall beobachtet
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	habe	haben	AUX	VAFIN	_	0	root	_	_
+4	hier	hier	ADV	ADV	_	3	mod	_	_
+5	gerade	gerade	ADV	ADV	_	3	mod	_	_
+6	äh	äh	ADV	NGHES	_	3	discourse	_	_
+7	auf	auf	ADP	APPR	_	12	mod	_	_
+8	einem	ein	DET	ART	_	9	det	_	_
+9	Parkplatz	Parkplatz	NOUN	NN	_	7	comp:obj	_	_
+10	einen	ein	DET	ART	_	11	det	_	_
+11	Unfall	Unfall	NOUN	NN	_	12	comp:obj	_	_
+12	beobachtet	beobachten	VERB	VVPP	_	3	comp:aux	_	_
+
+# sent_id = 1628238174.616787-809576_00004
+# text = und dort würde ich gerne meine Zeugenaussage ihnen mitteilen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dort	dort	ADV	ADV	_	3	mod	_	_
+3	würde	werden	AUX	VAFIN	_	0	root	_	_
+4	ich	ich	PRON	PPER	_	3	subj	_	_
+5	gerne	gerne	ADV	ADV	_	3	mod	_	_
+6	meine	mein	PRON	PPOSAT	_	7	det	_	_
+7	Zeugenaussage	Zeugenaussage	NOUN	NN	_	9	comp:obj	_	_
+8	ihnen	sie	PRON	PPER	_	9	comp:obl	_	_
+9	mitteilen	mitteilen	VERB	VVINF	_	3	comp:aux	_	_
+
+# sent_id = 1628238174.616787-809576_00005
+# text = und zwar war es so dass eine Frau ihre Einkäufe eingeräumt hat
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	zwar	zwar	ADV	ADV	_	3	mod	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	es	es	PRON	PPER	_	3	subj@expl	_	_
+5	so	so	ADV	PTKIFG	_	3	comp:pred	_	_
+6	dass	dass	SCONJ	KOUS	_	5	comp:obj	_	_
+7	eine	ein	DET	ART	_	8	det	_	_
+8	Frau	Frau	NOUN	NN	_	12	subj	_	_
+9	ihre	ihr	DET	PPOSAT	_	10	det	_	_
+10	Einkäufe	Einkauf	NOUN	NN	_	11	comp:obj	_	_
+11	eingeräumt	einräumen	VERB	VVPP	_	12	comp:aux	_	_
+12	hat	haben	AUX	VAFIN	_	6	comp:obj	_	_
+
+# sent_id = 1628238174.616787-809576_00006
+# text = sie hatte einen Hund dabei
+1	sie	sie	PRON	PPER	_	2	subj	_	_
+2	hatte	haben	VERB	VAFIN	_	0	root	_	_
+3	einen	ein	DET	ART	_	4	det	_	_
+4	Hund	Hund	NOUN	NN	_	2	comp:obj	_	_
+5	dabei	dabei	ADV	ADV	_	2	compound@prt	_	_
+
+# sent_id = 1628238174.616787-809576_00007
+# text = und äh gegenüber von ihr kam eine Frau mit einem Kinderwagen und ein Mann der mit einem Ball gedribbelt hat entgegen
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+3	gegenüber	gegenüber	ADP	ADV	_	4	mod	_	_
+4	von	von	ADP	APPR	_	6	comp:obl	_	_
+5	ihr	ihr	PRON	PPER	_	4	comp:obj	_	_
+6	kam	kommen	VERB	VVFIN	_	0	root	_	_
+7	eine	ein	DET	ART	_	8	det	_	_
+8	Frau	Frau	NOUN	NN	_	6	subj	_	_
+9	mit	mit	ADP	APPR	_	8	mod	_	_
+10	einem	ein	DET	ART	_	11	det	_	_
+11	Kinderwagen	Kinderwagen	NOUN	NN	_	9	comp:obj	_	_
+12	und	und	CCONJ	KON	_	14	cc	_	_
+13	ein	ein	DET	ART	_	14	det	_	_
+14	Mann	Mann	NOUN	NN	_	8	conj	_	_
+15	der	d	PRON	PRELS	_	20	subj	_	_
+16	mit	mit	ADP	APPR	_	19	comp:obl	_	_
+17	einem	ein	DET	ART	_	18	det	_	_
+18	Ball	Ball	NOUN	NN	_	16	comp:obj	_	_
+19	gedribbelt	dribbeln	VERB	VVPP	_	20	comp:aux	_	_
+20	hat	haben	AUX	VAFIN	_	14	mod@relcl	_	_
+21	entgegen	entgegen	ADV	PTKVZ	_	6	compound@prt	_	_
+
+# sent_id = 1628238174.616787-809576_00008
+# text = und der Ball ist ihm weggerollt
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Ball	Ball	NOUN	NN	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	ihm	er	PRON	PPER	_	6	comp:obj	_	_
+6	weggerollt	wegrollen	ADJ	VVPP	_	4	comp:aux	_	_
+
+# sent_id = 1628238174.616787-809576_00009
+# text = der Hund ist äh dadurch auf den Ball aufmerksam geworden und dorthin gerannt
+1	der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+5	dadurch	dadurch	ADV	ADV	_	3	mod	_	_
+6	auf	auf	ADP	APPR	_	9	comp:obl	_	_
+7	den	d	DET	ART	_	8	det	_	_
+8	Ball	Ball	NOUN	NN	_	6	comp:obj	_	_
+9	aufmerksam	aufmerksam	ADJ	ADJD	_	10	comp:pred	_	_
+10	geworden	werden	VERB	VAPP	_	3	comp:aux@pass	_	_
+11	und	und	CCONJ	KON	_	13	cc	_	_
+12	dorthin	dorthin	ADV	ADV	_	13	comp:obl	_	_
+13	gerannt	rennen	VERB	VVPP	_	3	conj	_	_
+
+# sent_id = 1628238174.616787-809576_00010
+# text = und hat gebellt
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	gebellt	bellen	VERB	VVPP	_	2	comp:aux	_	_
+
+# sent_id = 1628238174.616787-809576_00011
+# text = jedoch kamen gleichzeitig noch zwei Autos die auf den Parkplatz rauffahren wollten
+1	jedoch	jedoch	ADV	ADV	_	2	mod	_	_
+2	kamen	kommen	VERB	VVFIN	_	0	root	_	_
+3	gleichzeitig	gleichzeitig	ADJ	ADJD	_	2	mod	_	_
+4	noch	noch	ADV	PTKMWL	_	2	mod	_	_
+5	zwei	zwei	NUM	CARD	_	6	mod	_	_
+6	Autos	Auto	NOUN	NN	_	2	subj	_	_
+7	die	d	PRON	PRELS	_	12	subj	_	_
+8	auf	auf	ADP	APPR	_	11	comp:obl	_	_
+9	den	d	DET	ART	_	10	det	_	_
+10	Parkplatz	Parkplatz	NOUN	NN	_	8	comp:obj	_	_
+11	rauffahren	rauffahren	VERB	VVINF	_	12	comp:aux	_	_
+12	wollten	wollen	AUX	VMFIN	_	6	mod@relcl	_	_
+
+# sent_id = 1628238174.616787-809576_00012
+# text = und dadurch dass der äh Hund dem Ball hinterher gerannt ist ist das hintere Auto auf das vordere aufgefahren da das vordere natürlich bremsen musste um den Hund nicht zu überfahren
+1	und	und	CCONJ	KON	_	11	cc	_	_
+2	dadurch	dadurch	ADV	ADV	_	18	mod	_	_
+3	dass	dass	SCONJ	KOUS	_	2	mod	_	_
+4	der	d	DET	ART	_	6	det	_	_
+5	äh	äh	NOUN	NGHES	_	11	discourse	_	_
+6	Hund	Hund	PROPN	NN	_	10	subj	_	_
+7	dem	d	DET	ART	_	8	det	_	_
+8	Ball	Ball	NOUN	NN	_	9	comp:obj	_	_
+9	hinterhergerannt	hinterherrennen	VERB	VVPP	_	10	comp:aux	_	_
+10	ist	sein	AUX	VAFIN	_	3	comp:obj	_	_
+11	ist	sein	AUX	VAFIN	_	0	root	_	_
+12	das	d	DET	ART	_	14	det	_	_
+13	hintere	hinter	ADJ	ADJA	_	14	mod	_	_
+14	Auto	Auto	NOUN	NN	_	11	subj	_	_
+15	auf	auf	ADP	APPR	_	18	comp:obl	_	_
+16	das	d	DET	ART	_	17	det	_	_
+17	vordere	vorder	ADJ	ADJA	_	15	comp:obj	_	_
+18	aufgefahren	auffahren	NOUN	VVPP	_	11	comp:aux	_	_
+19	da	da	SCONJ	ADV	_	18	mod	_	_
+20	das	d	DET	ART	_	21	det	_	_
+21	vordere	vorder	ADJ	ADJA	_	24	subj	_	_
+22	natürlich	natürlich	ADJ	ADV	_	24	mod	_	_
+23	bremsen	bremsen	VERB	VVINF	_	24	comp:aux	_	_
+24	musste	m�ssen	AUX	VMFIN	_	19	comp:obj	_	_
+25	um	um	ADP	KOUI	_	23	mod	_	_
+26	den	d	DET	ART	_	27	det	_	_
+27	Hund	Hund	NOUN	NN	_	30	comp:obj	_	_
+28	nicht	nicht	PART	PTKNEG	_	30	mod	_	_
+29	zu	zu	PART	PTKZU	_	25	comp:obj	_	_
+30	überfahren	überfahren	VERB	VVINF	_	29	comp:obj	_	_
+
+# sent_id = 1628238174.616787-809576_00016
+# text = und hat sich dann um die Autofahrer gekümmert ja
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	das	d	DET	ART	_	4	det	_	_
+3	vordere	vorder	ADJ	ADJA	_	4	mod	_	_
+4	Auto	Auto	NOUN	NN	_	5	subj	_	_
+5	war	sein	VERB	VAFIN	_	0	root	_	_
+6	ein	ein	DET	ART	_	8	det	_	_
+7	blauer	blau	PROPN	ADJA	_	8	mod	_	_
+8	Renault	Renault	PROPN	NE	_	5	comp:pred	_	_
+9	und	und	CCONJ	KON	_	12	cc	_	_
+10	das	d	DET	ART	_	12	det	_	_
+11	hintere	hinter	ADJ	ADJA	_	12	mod	_	_
+12	Auto	Auto	NOUN	NN	_	5	conj	_	_
+13	ein	ein	DET	ART	_	17	det	_	_
+14	weißer	weiß	ADJ	ADJA	_	17	mod	_	_
+15	oder	oder	CCONJ	KON	_	16	cc	_	_
+16	silberner	silber	ADJ	ADJA	_	14	conj	_	_
+17	Wagen	Wagen	NOUN	NN	_	12	orphan	_	_
+
+# sent_id = 1628238174.616787-809576_00015
+# text = und der Mann der den Ball fallen gelassen hat der hat erst noch der Frau geholfen die Einkäufe einzuräumen
+1	und	und	CCONJ	KON	_	11	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Mann	Mann	NOUN	NN	_	11	dislocated	_	_
+4	der	d	PRON	ART	_	9	subj	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	7	comp:obj	_	_
+7	fallen	fallen	ADJ	VVINF	_	8	comp:obj	_	_
+8	gelassen	lassen	VERB	VVPP	_	9	comp:aux	_	_
+9	hat	haben	AUX	VAFIN	_	3	mod@relcl	_	_
+10	der	d	PRON	PDS	_	11	subj	_	_
+11	hat	haben	VERB	VAFIN	_	0	root	_	_
+12	erst	erst	ADV	ADV	_	11	mod	_	_
+13	noch	noch	ADV	PTKMWL	_	11	mod	_	_
+14	der	d	DET	ART	_	15	det	_	_
+15	Frau	Frau	NOUN	NN	_	16	comp:obj	_	_
+16	geholfen	helfen	VERB	VVPP	_	11	comp:aux	_	_
+17	die	d	DET	ART	_	18	det	_	_
+18	Einkäufe	Einkauf	NOUN	NN	_	19	comp:obj	_	_
+19	einzuräumen	einräumen	VERB	VVIZU	_	16	comp:obl	_	_
+
+# sent_id = 1628238174.616787-809576_00016
+# text = und hat sich dann um die Autofahrer gekümmert ja
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	sich	er|es|sie	PRON	PRF	_	8	comp:obj	_	_
+4	dann	dann	ADV	ADV	_	2	mod	_	_
+5	um	um	ADP	APPR	_	8	comp:obl	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Autofahrer	Autofahrer	NOUN	NN	_	5	comp:obj	_	_
+8	gekümmert	gekümmert	VERB	VVPP	_	2	comp:aux	_	_
+9	ja	ja	ADV	NGIRR	_	2	discourse	_	_
+

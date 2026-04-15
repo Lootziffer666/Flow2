@@ -1,0 +1,316 @@
+# text = hi
+1	hi	hi	NGIRR	X	_	0	root	_	_
+
+# text = oh mein Gott wisst ihr was mir gerade passiert ist
+1	oh	oh	NGIRR	NGIRR	_	4	discourse	_	_
+2	mein	mein	PPOSAT	PRON	_	1	fixed	_	_
+3	Gott	Gott	NN	NOUN	_	1	fixed	_	_
+4	wisst	wissen	VVFIN	VERB	_	0	root	_	_
+5	ihr	ihr	PPER	PRON	_	4	subj	_	_
+6	was	was	PWS	VERB	_	9	comp:obj	_	_
+7	mir	ich	PPER	PRON	_	9	comp:obl	_	_
+8	gerade	gerade	ADV	ADV	_	10	mod	_	_
+9	passiert	passieren	VVPP	VVPP	_	10	comp:aux	_	_
+10	ist	sein	VAFIN	VERB	_	4	comp:obj	_	_
+
+# text = also ich bin da so entlanggelaufen
+1	also	also	SEDM	ADV	_	3	discourse	_	_
+2	ich	ich	PPER	PRON	_	3	subj	_	_
+3	bin	sein	VAFIN	VERB	_	0	root	_	_
+4	da	da	ADV	ADV	_	3	mod	_	_
+5	so	so	PTKIFG	ADV	_	3	mod	_	_
+6	entlanggelaufen	entlanggelaufen	ADJD	VERB	_	3	comp:aux	_	_
+
+# text = aber es war es war nichts Schlimmes
+1	äh	äh	VVFIN	NGHES	_	3	discourse	_	_
+2	ihr	ihr	PPER	PRON	_	3	subj	_	_
+3	wisst	wissen	VVFIN	VERB	_	0	root	_	_
+4	ja	ja	PTKMA	ADV	_	3	discourse	_	_
+5	nicht	nicht	PTKNEG	PART	_	3	mod	_	_
+6	genau	genau	ADJD	ADJD	_	7	mod	_	_
+7	wo	wo	PWAV	ADV	_	3	mod	_	_
+
+# text = aber ich bin gerade halt da und da hingelaufen
+1	aber	aber	KON	ADV	_	3	cc	_	_
+2	ich	ich	PPER	PRON	_	3	subj	_	_
+3	bin	sein	VAFIN	VERB	_	0	root	_	_
+4	gerade	gerade	ADV	ADV	_	3	mod	_	_
+5	halt	halt	PTKMA	ADV	_	3	discourse	_	_
+6	da	da	ADV	ADV	_	3	mod	_	_
+7	und	und	KON	CCONJ	_	8	cc	_	_
+8	da	da	ADV	ADV	_	6	conj	_	_
+9	hingelaufen	hingelaufen	VVPP	VERB	_	3	comp:aux	_	_
+
+# text = und dann ist es einfach so richtig klischeehaft gewesen
+1	und	und	KON	CCONJ	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VAFIN	VERB	_	0	root	_	_
+4	es	es	PPER	PRON	_	3	subj@expl	_	_
+5	einfach	einfach	PTKMA	PTKMA	_	3	mod	_	_
+6	so	so	PTKIFG	ADV	_	8	mod	_	_
+7	richtig	richtig	ADJD	ADJ	_	8	mod	_	_
+8	klischeehaft	klischeehaft	ADJD	ADJD	_	3	mod	_	_
+9	gewesen	sein	VAPP	VERB	_	3	comp:aux	_	_
+
+# text = ihr kennt doch so diese Szenarie wenn so ein kleines Kind so den Ball verliert und dann vorn Auto rennt
+1	ihr	ihr	PPER	PRON	_	2	subj	_	_
+2	kennt	kennen	VVFIN	VERB	_	0	root	_	_
+3	doch	doch	PTKMA	ADV	_	2	mod	_	_
+4	so	so	PTKIFG	ADV	_	6	mod	_	_
+5	diese	diese	PDAT	PRON	_	6	det	_	_
+6	Szenarie	Szenarie	NN	NOUN	_	2	comp:obj	_	_
+7	wenn	wenn	KOUS	SCONJ	_	2	mod	_	_
+8	so	so	PTKIFG	ADV	_	11	mod	_	_
+9	ein	ein	ART	DET	_	11	det	_	_
+10	kleines	klein	ADJA	ADJD	_	11	mod	_	_
+11	Kind	Kind	NN	NOUN	_	15	subj	_	_
+12	so	so	PTKIFG	ADV	_	15	mod	_	_
+13	den	d	ART	DET	_	14	det	_	_
+14	Ball	Ball	NN	NOUN	_	15	comp:obj	_	_
+15	verliert	verlieren	VVFIN	VERB	_	7	comp:obj	_	_
+16	und	und	KON	CCONJ	_	20	cc	_	_
+17	dann	dann	ADV	ADV	_	20	mod	_	_
+18	vorn	vorn	ADV	ADV	_	20	comp:obl	_	_
+19	Auto	Auto	NN	NOUN	_	18	comp:obj	_	_
+20	rennt	rennen	VVFIN	VERB	_	15	conj	_	_
+
+# text = und genau so war es ungefähr
+1	und	und	KON	CCONJ	_	4	cc	_	_
+2	genau	genau	PTKIFG	PTKIFG	_	3	mod	_	_
+3	so	so	ADV	ADV	_	4	comp:pred	_	_
+4	war	sein	VAFIN	VERB	_	0	root	_	_
+5	es	es	PPER	PRON	_	4	subj@expl	_	_
+6	ungefähr	ungefähr	ADV	ADV	_	4	mod	_	_
+
+# text = bloß dass halt so ein erwachsener Mann halt einfach die ganze Zeit mit seinem Fußball gedribbelt hat
+1	bloß	bloß	VVFIN	VERB	_	0	root	_	_
+2	dass	dass	PDS	PRON	_	1	comp:obj	_	_
+3	halt	halt	PTKMA	ADV	_	1	discourse	_	_
+4	so	so	PTKIFG	ADV	_	7	mod	_	_
+5	ein	ein	ART	DET	_	7	det	_	_
+6	erwachsener	erwachsen	ADJA	ADJ	_	7	mod	_	_
+7	Mann	Mann	NN	NOUN	_	17	subj	_	_
+8	halt	halt	PTKMA	VERB	_	1	discourse	_	_
+9	einfach	einfach	PTKMA	PTKMA	_	1	discourse	_	_
+10	die	d	ART	DET	_	12	det	_	_
+11	ganze	ganz	ADJA	ADJD	_	12	mod	_	_
+12	Zeit	Zeit	NN	NOUN	_	17	mod	_	_
+13	mit	mit	APPR	ADP	_	16	comp:obl	_	_
+14	seinem	sein	PPOSAT	DET	_	15	det	_	_
+15	Fußball	Fußball	NN	NOUN	_	13	comp:obj	_	_
+16	gedribbelt	gedribbelt	VVPP	VERB	_	17	comp:aux	_	_
+17	hat	haben	VAFIN	AUX	_	2	comp:obj	_	_
+
+# text = richtig dumm
+1	richtig	richtig	PTKIFG	ADJ	_	2	mod	_	_
+2	dumm	dumm	ADJD	ADJD	_	0	root	_	_
+
+# text = und der hat den dann einfach halt auf die Straße fallen lassen
+1	und	und	KON	CCONJ	_	3	cc	_	_
+2	der	die	PDS	PRON	_	3	subj	_	_
+3	hat	haben	VAFIN	VERB	_	0	root	_	_
+4	den	die	PDS	DET	_	11	comp:obj	_	_
+5	dann	dann	ADV	ADV	_	3	mod	_	_
+6	einfach	einfach	PTKMA	ADJ	_	3	discourse	_	_
+7	halt	halt	PTKMA	ADV	_	3	discourse	_	_
+8	auf	auf	APPR	ADP	_	11	comp:obl	_	_
+9	die	d	ART	DET	_	10	det	_	_
+10	Straße	Straße	NN	NOUN	_	8	comp:obj	_	_
+11	fallen	fallen	VVINF	VERB	_	12	comp:obj	_	_
+12	lassen	lassen	VVINF	VERB	_	3	comp:aux	_	_
+
+# text = und auf der anderen Straßenseite war dann halt auch noch ein Hund der natürlich diesen Ball holen wollte
+1	und	und	KON	CCONJ	_	6	cc	_	_
+2	auf	auf	APPR	ADP	_	6	comp:pred	_	_
+3	der	d	ART	DET	_	5	det	_	_
+4	anderen	ander	PIDAT	PIDAT	_	5	mod	_	_
+5	Straßenseite	Straßenseite	NN	NOUN	_	2	comp:obj	_	_
+6	war	sein	VAFIN	VERB	_	0	root	_	_
+7	dann	dann	ADV	ADV	_	6	mod	_	_
+8	halt	halt	PTKMA	ADV	_	6	discourse	_	_
+9	auch	auch	PTKIFG	ADV	_	10	mod	_	_
+10	noch	noch	PTKMWL	ADV	_	6	mod	_	_
+11	ein	ein	ART	DET	_	12	det	_	_
+12	Hund	Hund	NN	NOUN	_	6	subj	_	_
+13	der	die	PRELS	DET	_	18	subj	_	_
+14	natürlich	natürlich	ADJD	ADP	_	18	mod	_	_
+15	diesen	diese	PDAT	PRON	_	16	det	_	_
+16	Ball	Ball	NN	NOUN	_	17	comp:obj	_	_
+17	holen	holen	VVINF	VERB	_	18	comp:aux	_	_
+18	wollte	wollen	VMFIN	AUX	_	12	mod@relcl	_	_
+
+# text = und dann sind halt zwei Autos da entlanggefahren
+1	und	und	KON	CCONJ	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	sind	sein	VAFIN	VERB	_	0	root	_	_
+4	halt	halt	PTKMA	ADV	_	3	discourse	_	_
+5	zwei	zwei	CARD	NUM	_	6	mod	_	_
+6	Autos	Auto	NN	NOUN	_	3	subj	_	_
+7	da	da	ADV	ADV	_	3	mod	_	_
+8	entlanggefahren	entlanggefahren	VVPP	VERB	_	3	comp:aux	_	_
+
+# text = und das erste Auto musste dann natürlich bremsen damit es diesen Hund nicht überfährt
+1	und	und	KON	CCONJ	_	5	cc	_	_
+2	das	d	ART	DET	_	4	det	_	_
+3	erste	erst	ORD	ORD	_	4	mod	_	_
+4	Auto	Auto	NN	NOUN	_	5	subj	_	_
+5	musste	müssen	VMFIN	AUX	_	0	root	_	_
+6	dann	dann	ADV	ADV	_	5	mod	_	_
+7	natürlich	natürlich	ADJD	ADV	_	5	mod	_	_
+8	bremsen	bremsen	VVINF	VERB	_	5	comp:aux	_	_
+9	damit	damit	KOUS	ADV	_	8	mod	_	_
+10	es	es	PPER	PRON	_	14	subj	_	_
+11	diesen	diese	PDAT	PRON	_	12	det	_	_
+12	Hund	Hund	NN	NOUN	_	14	comp:obj	_	_
+13	nicht	nicht	PTKNEG	PART	_	14	mod	_	_
+14	überfährt	überfährt	VVPP	VERB	_	9	comp:obj	_	_
+
+# text = und das zweite Auto ist dem dann halt voll hinten draufgefahren
+1	und	und	KON	CCONJ	_	5	cc	_	_
+2	das	d	ART	DET	_	4	det	_	_
+3	zweite	zweit	ORD	ORD	_	4	mod	_	_
+4	Auto	Auto	NN	NOUN	_	5	subj	_	_
+5	ist	sein	VAFIN	VERB	_	0	root	_	_
+6	dem	die	PDS	DET	_	11	comp:obj	_	_
+7	dann	dann	ADV	ADV	_	5	mod	_	_
+8	halt	halt	PTKMA	ADV	_	5	discourse	_	_
+9	voll	voll	PTKIFG	ADV	_	5	mod	_	_
+10	hinten	hinten	ADV	ADV	_	5	mod	_	_
+11	draufgefahren	draufgefahren	VVPP	VERB	_	5	comp:aux	_	_
+
+# text = Gott sei Dank ist natürlich keinem etwas passiert oder so
+1	Gott	Gott	NGIRR	PROPN	_	2	comp:obj	_	_
+2	sei	sein	VAFIN	AUX	_	4	discourse	_	_
+3	Dank	Dank	NN	NOUN	_	2	subj	_	_
+4	ist	sein	VAFIN	VERB	_	0	root	_	_
+5	natürlich	natürlich	ADJD	ADV	_	4	mod	_	_
+6	keinem	keine	PIAT	PRON	_	4	subj	_	_
+7	etwas	etwas	PIS	ADV	_	8	comp:obj	_	_
+8	passiert	passieren	VVPP	VVPP	_	4	comp:aux	_	_
+9	oder	oder	KON	CCONJ	_	10	cc	_	_
+10	so	so	ADV	ADV	_	4	parataxis	_	_
+
+# text = aber so das war so richtig schlimm
+1	aber	aber	KON	ADV	_	4	cc	_	_
+2	so	so	ADV	ADV	_	5	reparandum	_	_
+3	das	die	PDS	PRON	_	4	subj	_	_
+4	war	sein	VAFIN	VERB	_	0	root	_	_
+5	so	so	PTKIFG	ADV	_	7	mod	_	_
+6	richtig	richtig	ADJD	ADJ	_	7	mod	_	_
+7	schlimm	schlimm	ADJD	ADJD	_	4	comp:pred	_	_
+
+# text = weil äh ich hatte ich habe mich voll erschrocken
+1	weil	weil	SEDM	ADV	_	6	discourse	_	_
+2	äh	äh	VVPP	NGHES	_	6	discourse	_	_
+3	ich	ich	PPER	PRON	_	4	subj	_	_
+4	hatte	haben	VAFIN	VERB	_	6	reparandum	_	_
+5	ich	ich	PPER	PRON	_	6	subj	_	_
+6	habe	haben	VAFIN	VERB	_	0	root	_	_
+7	mich	ich	PPER	PRON	_	9	comp:obj	_	_
+8	voll	voll	PTKIFG	ADV	_	6	mod	_	_
+9	erschrocken	erschrecken	VVPP	VERB	_	6	comp:aux	_	_
+
+# text = weil es hat auf einmal so richtig laut gekracht und so
+1	weil	weil	SEDM	SCONJ	_	3	discourse	_	_
+2	es	es	PPER	PRON	_	3	subj@expl	_	_
+3	hat	haben	VAFIN	AUX	_	0	root	_	_
+4	auf	auf	APPR	ADP	_	3	mod	_	_
+5	einmal	einmal	ADV	ADV	_	4	fixed	_	_
+6	so	so	PTKIFG	ADV	_	8	mod	_	_
+7	richtig	richtig	ADJD	ADJ	_	8	mod	_	_
+8	laut	laut	ADJD	ADJD	_	3	mod	_	_
+9	gekracht	krachen	VVPP	VERB	_	3	comp:aux	_	_
+10	und	und	KON	CCONJ	_	11	cc	_	_
+11	so	so	ADV	ADV	_	3	parataxis	_	_
+
+# text = und ich wäre auch fast gestolpert
+1	und	und	KON	CCONJ	_	3	cc	_	_
+2	ich	ich	PPER	PRON	_	3	subj	_	_
+3	wäre	wäre	VVFIN	AUX	_	0	root	_	_
+4	auch	auch	PTKIFG	ADV	_	3	mod	_	_
+5	fast	fast	ADV	ADV	_	3	mod	_	_
+6	gestolpert	stolpern	VVPP	VERB	_	3	comp:aux	_	_
+
+# text = weil ich habe dann nicht mehr auf den Bordstein geachtet
+1	weil	weil	SEDM	SCONJ	_	3	discourse	_	_
+2	ich	ich	PPER	PRON	_	3	subj	_	_
+3	habe	haben	VAFIN	AUX	_	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	nicht	nicht	PTKNEG	PART	_	6	mod	_	_
+6	mehr	mehr	PTKMWL	ADV	_	3	mod	_	_
+7	auf	auf	APPR	ADP	_	10	comp:obl	_	_
+8	den	d	ART	DET	_	9	det	_	_
+9	Bordstein	Bordstein	NN	NOUN	_	7	comp:obj	_	_
+10	geachtet	achten	VVPP	VERB	_	3	comp:aux	_	_
+
+# text = aber ich hatte voll Angst um den Hund
+1	aber	aber	KON	ADV	_	3	cc	_	_
+2	ich	ich	PPER	PRON	_	3	subj	_	_
+3	hatte	haben	VAFIN	AUX	_	0	root	_	_
+4	voll	voll	PTKIFG	ADV	_	5	mod	_	_
+5	Angst	Angst	NN	NOUN	_	3	comp:obj	_	_
+6	um	um	APPR	ADP	_	3	mod	_	_
+7	den	d	ART	DET	_	8	det	_	_
+8	Hund	Hund	NN	NOUN	_	6	comp:obj	_	_
+
+# text = weil also der Typ ist dann da natürlich auch vorbeigerannt
+1	weil	weil	SEDM	SCONJ	_	5	discourse	_	_
+2	also	also	ADV	ADV	_	5	discourse	_	_
+3	der	d	ART	DET	_	4	det	_	_
+4	Typ	Typ	NN	NOUN	_	5	subj	_	_
+5	ist	sein	VAFIN	VERB	_	0	root	_	_
+6	dann	dann	ADV	ADV	_	5	mod	_	_
+7	da	da	ADV	ADV	_	5	mod	_	_
+8	natürlich	natürlich	ADJD	ADV	_	5	mod	_	_
+9	auch	auch	PTKIFG	ADV	_	5	mod	_	_
+10	vorbeigerannt	vorbeirennen	VVPP	VVPP	_	5	comp:aux	_	_
+
+# text = aber das war ja jetzt nicht so schlimm gewesen
+1	aber	aber	KON	ADV	_	3	cc	_	_
+2	das	die	PDS	PRON	_	3	subj	_	_
+3	war	sein	VAFIN	VERB	_	0	root	_	_
+4	ja	ja	PTKMA	ADV	_	3	discourse	_	_
+5	jetzt	jetzt	ADV	ADV	_	3	mod	_	_
+6	nicht	nicht	PTKNEG	PART	_	3	mod	_	_
+7	so	so	PTKIFG	ADV	_	8	mod	_	_
+8	schlimm	schlimm	ADJD	ADJD	_	9	comp:pred	_	_
+9	gewesen	sein	VAPP	VERB	_	3	comp:aux	_	_
+
+# text = aber der arme Hund
+1	aber	aber	KON	ADV	_	4	cc	_	_
+2	der	d	ART	DET	_	4	det	_	_
+3	arme	arm	ADJA	ADJD	_	4	mod	_	_
+4	Hund	Hund	NN	NOUN	_	0	root	_	_
+
+# text = und Gott sei Dank ist nichts passiert
+1	und	und	KON	CCONJ	_	5	cc	_	_
+2	Gott	Gott	NN	NOUN	_	3	comp:obj	_	_
+3	sei	sein	VAFIN	AUX	_	5	discourse	_	_
+4	Dank	Dank	NN	ADP	_	3	subj	_	_
+5	ist	sein	VAFIN	AUX	_	0	root	_	_
+6	nichts	nichts	PIS	PRON	_	5	subj	_	_
+7	passiert	passieren	VVPP	VERB	_	5	comp:aux	_	_
+
+# text = aber die haben dann auch noch so die Polizei gerufen und so
+1	aber	aber	KON	ADV	_	3	cc	_	_
+2	die	die	PDS	PRON	_	3	subj	_	_
+3	haben	haben	VAFIN	VERB	_	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	auch	auch	PTKIFG	ADV	_	6	mod	_	_
+6	noch	noch	PTKMWL	ADV	_	3	mod	_	_
+7	so	so	PTKIFG	ADV	_	3	mod	_	_
+8	die	d	ART	DET	_	9	det	_	_
+9	Polizei	Polizei	NN	NOUN	_	10	comp:obj	_	_
+10	gerufen	rufen	VVPP	VERB	_	3	comp:aux	_	_
+11	und	und	KON	CCONJ	_	12	cc	_	_
+12	so	so	ADV	ADV	_	3	parataxis	_	_
+
+# text = aber es war es war nichts Schlimmes
+1	aber	aber	KON	CCONJ	_	5	cc	_	_
+2	es	es	PPER	PRON	_	3	subj@expl	_	_
+3	war	sein	VAFIN	VERB	_	5	reparandum	_	_
+4	es	es	PPER	PRON	_	5	subj@expl	_	_
+5	war	sein	VAFIN	VERB	_	0	root	_	_
+6	nichts	nichts	PIAT	PRON	_	7	det	_	_
+7	Schlimmes	Schlimme	NN	NOUN	_	5	comp:pred	_	_
+

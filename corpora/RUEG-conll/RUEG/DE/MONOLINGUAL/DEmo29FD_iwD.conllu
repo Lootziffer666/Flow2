@@ -1,0 +1,56 @@
+# text = oh man weißt du was gerade passiert ist ?
+1	oh	oh	ADJ	NGIRR	_	3	discourse	_	_
+2	Mann	Mann	NOUN	NN	_	1	fixed	_	_
+3	weißt	wissen	VERB	VVFIN	_	0	root	_	_
+4	du	du	PROPN	PPER	_	3	subj	_	_
+5	was	was	PRON	PWS	_	8	subj	_	_
+6	gerade	gerade	ADV	ADV	_	8	mod	_	_
+7	passiert	passieren	VERB	VVPP	_	8	comp:aux	_	_
+8	ist	sein	AUX	VAFIN	_	3	comp:obj	_	_
+9	?	?	PUNCT	$.	_	3	punct	_	_
+
+# text = so ein Typ hat seinen Ball fallen lassen auf die Strasse
+1	so	so	ADV	PTKMA	_	3	mod	_	_
+2	ein	ein	DET	ART	_	3	det	_	_
+3	Typ	Typ	NOUN	NN	_	4	subj	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	seinen	sein	DET	PPOSAT	_	6	det	_	_
+6	Ball	Ball	PROPN	NN	_	7	comp:obj	_	_
+7	fallen	fallen	VERB	VVINF	_	8	comp:obj	_	_
+8	lassen	lassen	VERB	VVINF	_	4	comp:aux	_	_
+9	auf	auf	ADP	APPR	_	8	mod	_	_
+10	die	d	DET	ART	_	11	det	_	_
+11	Strasse	Straße	NOUN	NN	_	9	comp:obj	_	_
+
+# text = und dann sind zwei Autos zusammengekracht .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	sind	sein	VERB	VAFIN	_	0	root	_	_
+4	zwei	zwei	NUM	CARD	_	5	mod	_	_
+5	Autos	Auto	NOUN	NN	_	3	subj	_	_
+6	zusammengekracht	zusammenkrachen	NOUN	VVPP	_	3	comp:aux	_	_
+7	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = War einfach richtig unnötig .
+1	War	sein	NOUN	VAFIN	_	0	root	_	_
+2	einfach	einfach	ADJ	PTKMA	_	1	mod	_	_
+3	richtig	richtig	ADJ	PTKIFG	_	4	mod	_	_
+4	unnötig	unnötig	ADJ	ADJD	_	1	comp:pred	_	_
+5	.	.	PUNCT	$.	_	1	punct	_	_
+
+# text = Ist aber nichts passiert .
+1	Ist	sein	VERB	VAFIN	_	0	root	_	_
+2	aber	aber	ADV	PTKMA	_	1	mod	_	_
+3	nichts	nichts	PRON	PIS	_	1	subj	_	_
+4	passiert	passieren	VERB	VVPP	_	1	comp:aux	_	_
+5	.	.	PUNCT	$.	_	1	punct	_	_
+
+# text = Dann hat der eine die Bullen gerufen
+1	Dann	dann	ADV	ADV	_	2	mod	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	der	d	DET	PDS	_	4	det	_	_
+4	eine	eine	PRON	PIDAT	_	2	subj	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Bullen	Bulle	NOUN	NN	_	7	comp:obj	_	_
+7	gerufen	rufen	VERB	VVPP	_	2	comp:aux	_	_
+

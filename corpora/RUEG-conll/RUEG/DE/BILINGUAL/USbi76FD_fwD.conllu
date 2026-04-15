@@ -1,0 +1,85 @@
+# text = ein Mann läuft mit ihre Frau und Kind
+1	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	3	subj	_	_
+3	läuft	laufen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	mit	mit	ADP	APPR	_	3	mod	_	_
+5	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	Frau	Frau	NOUN	NN	Case=Dat|Number=Sing	4	comp:obj	_	_
+7	und	und	CCONJ	KON	_	8	cc	_	_
+8	Kind	Kind	NOUN	NN	_	6	conj	_	_
+
+# text = und hast ein Fußball .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hast	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	ART	Definite=Ind|PronType=Art	4	det	_	_
+4	Fußball	Fußball	NOUN	NN	_	2	comp:obj	_	_
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Das Mann läufted über das Straße
+1	Das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	läufted	laufen	PROPN	VVFIN	Case=Acc|Number=Sing	0	root	_	_
+4	über	über	ADP	APPR	_	3	comp:obl	_	_
+5	das	d	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Straße	Straße	PROPN	NN	_	4	comp:obj	_	_
+
+# text = und hast das Fußball verloren .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hast	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	das	d	DET	ART	Definite=Def|PronType=Art	4	det	_	_
+4	Fußball	Fußball	NOUN	NN	_	5	comp:obj	_	_
+5	verloren	verlieren	VERB	VVPP	VerbForm=Part	2	comp:aux	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Eine Mädchen tossed Essen in ihre Auto
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Mädchen	Mädchen	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	subj	_	_
+3	tossed	tossed	PROPN	FM	_	0	root	_	_
+4	Essen	Essen	PROPN	NN	_	3	comp:obj	_	_
+5	in	in	ADP	APPR	_	3	mod	_	_
+6	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	Auto	Auto	NOUN	NN	_	5	comp:obj	_	_
+8	wann	wann	ADV	PWAV	_	3	mod	_	_
+9	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	Hund	Hund	NOUN	NN	Case=Dat|Number=Sing	11	subj	_	_
+11	rannte	rennen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	8	comp:obj	_	_
+12	to	to	PROPN	FM	_	11	comp:obl	_	_
+13	Ball	Ball	PROPN	NN|Fm	_	12	comp:obj	_	_
+14	.	.	PUNCT	$.	_	11	punct	_	_
+
+# text = Dann diese Mädchen verliert ihre Essen .
+1	Dann	dann	SCONJ	ADV	_	4	mod	_	_
+2	diese	diese	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	Mädchen	Mädchen	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	subj	_	_
+4	verliert	verlieren	VERB	VVFIN	VerbForm=Part	0	root	_	_
+5	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	Essen	Essen	NOUN	NN	Case=Acc|Number=Sing	4	comp:obj	_	_
+7	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Das Mann helped dieser frau
+1	Das	d	DET	ART	Definite=Def|PronType=Art	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	helped	helped	PROPN	FM	_	0	root	_	_
+4	dieser	diese	PRON	PDAT	PronType=Dem	5	det	_	_
+5	frau	Frau	ADJ	NN	Degree=Pos	3	comp:obj	_	_
+
+# text = dann das blau Auto stoppt
+1	dann	dann	ADV	ADV	_	5	mod	_	_
+2	das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+3	blau	blau	ADJ	ADJA	Degree=Pos	4	mod	_	_
+4	Auto	Auto	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	subj	_	_
+5	stoppt	stoppen	PROPN	VVFIN	_	0	root	_	_
+
+# text = und eine silver Auto run in das blau Auto .
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	eine	ein	DET	ART	Definite=Ind|PronType=Art	4	det	_	_
+3	silver	silver	ADJ	FM	Degree=Cmp,Pos	4	mod	_	_
+4	Auto	Auto	NOUN	NN	_	5	subj	_	_
+5	run	run	VERB	FM	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+6	in	in	ADP	APPR	_	5	comp:obl	_	_
+7	das	d	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+8	blau	blau	ADJ	ADJA	Degree=Pos	9	mod	_	_
+9	Auto	Auto	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	comp:obj	_	_
+10	.	.	PUNCT	$.	_	5	punct	_	_
+
+

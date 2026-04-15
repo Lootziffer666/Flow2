@@ -1,0 +1,184 @@
+# text = ﻿Vorfallnummer F16 :
+1	﻿Vorfallnummer	﻿Vorfallnummer	NOUN	NN	_	0	root	_	_
+2	F16	F16	PROPN	NE	_	1	appos	_	_
+3	:	:	PUNCT	$.	_	1	punct	_	_
+
+# text = Heute morgen um 9 Uhr war ich Zeugin eines Unfalls auf dem Parkplatz ...
+1	Heute	heute	ADV	ADV	_	6	mod	_	_
+2	morgen	morgen	ADV	ADV	_	1	mod	_	_
+3	um	um	ADP	APPR	_	6	mod	_	_
+4	9	@card@	NUM	CARD	_	5	mod	_	_
+5	Uhr	Uhr	NOUN	NN	_	3	comp:obj	_	_
+6	war	sein	VERB	VAFIN	_	0	root	_	_
+7	ich	ich	PRON	PPER	_	6	subj	_	_
+8	Zeugin	Zeugin	NOUN	NN	_	6	comp:pred	_	_
+9	eines	ein	DET	ART	_	10	det	_	_
+10	Unfalls	Unfall	NOUN	NN	_	8	mod@poss	_	_
+11	auf	auf	ADP	APPR	_	10	mod	_	_
+12	dem	d	DET	ART	_	13	det	_	_
+13	Parkplatz	Parkplatz	NOUN	NN	_	11	comp:obj	_	_
+14	...	...	PUNCT	$.	_	6	discourse	_	_
+
+# text = Ein Paar mit Kinderwagen wollte gerade den Parkplatz überqueren ,
+1	Ein	ein	DET	ART	_	2	det	_	_
+2	Paar	Paar	NOUN	NN	_	5	subj	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	Kinderwagen	Kinderwagen	NOUN	NN	_	3	comp:obj	_	_
+5	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+6	gerade	gerade	ADV	ADV	_	5	mod	_	_
+7	den	d	DET	ART	_	8	det	_	_
+8	Parkplatz	Parkplatz	NOUN	NN	_	9	comp:obj	_	_
+9	überqueren	überqueren	VERB	VVINF	_	5	comp:aux	_	_
+10	,	,	PUNCT	$,	_	5	punct	_	_
+
+# text = der Mann tischte während des Gehens immer wieder den Ball auf den Boden .
+1	der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	tischte	tischen	VERB	VVFIN	_	0	root	_	_
+4	während	während	ADP	ADJD	_	3	mod	_	_
+5	des	d	DET	ART	_	6	det	_	_
+6	Gehens	Gehen	NOUN	NN	_	4	comp:obj	_	_
+7	immer	immer	ADV	ADV	_	8	mod	_	_
+8	wieder	wieder	ADV	ADV	_	3	mod	_	_
+9	den	d	DET	ART	_	10	det	_	_
+10	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+11	auf	auf	ADP	APPR	_	3	comp:obl	_	_
+12	den	d	DET	ART	_	13	det	_	_
+13	Boden	Boden	NOUN	NN	_	11	comp:obj	_	_
+14	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Auf der gegenüberliegenden Seite des Parkplatzes befand sich eine Frau mit Hund , die dabei war ihr Auto mit Einkaufswaren zu beladen .
+1	Auf	auf	ADP	APPR	_	7	comp:pred	_	_
+2	der	d	DET	ART	_	4	det	_	_
+3	gegenüberliegenden	gegenüberliegend	ADJ	ADJA	_	4	mod	_	_
+4	Seite	Seite	NOUN	NN	_	1	comp:obj	_	_
+5	des	d	DET	ART	_	6	det	_	_
+6	Parkplatzes	Parkplatz	NOUN	NN	_	4	mod@poss	_	_
+7	befand	befinden	VERB	VVFIN	_	0	root	_	_
+8	sich	er|es|sie	PRON	PRF	_	7	comp:obj	_	_
+9	eine	ein	DET	ART	_	10	det	_	_
+10	Frau	Frau	NOUN	NN	_	7	subj	_	_
+11	mit	mit	ADP	APPR	_	10	mod	_	_
+12	Hund	Hund	NOUN	NN	_	11	comp:obj	_	_
+13	,	,	PUNCT	$,	_	7	punct	_	_
+14	die	die	PRON	PRELS	_	16	subj	_	_
+15	dabei	dabei	ADV	ADV	_	16	comp:pred	_	_
+16	war	sein	VERB	VAFIN	_	10	mod@relcl	_	_
+17	ihr	ihr	DET	PPER	_	18	det	_	_
+18	Auto	Auto	NOUN	NN	_	22	comp:obj	_	_
+19	mit	mit	ADP	APPR	_	22	mod	_	_
+20	Einkaufswaren	Einkaufswaren	NOUN	NN	_	19	comp:obj	_	_
+21	zu	zu	ADP	PTKZU	_	15	comp:obj	_	_
+22	beladen	beladen	NOUN	VVINF	_	21	comp:obj	_	_
+23	.	.	PUNCT	$.	_	7	punct	_	_
+
+# text = Der Mann verlor die Kontrolle über den Ball
+1	Der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	verlor	verlieren	VERB	VVFIN	_	0	root	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Kontrolle	Kontrolle	NOUN	NN	_	3	comp:obj	_	_
+6	über	über	ADP	NN	_	5	mod	_	_
+7	den	d	DET	ART	_	8	det	_	_
+8	Ball	Ball	NOUN	NN	_	6	comp:obj	_	_
+
+# text = und er rollte auf die Frau mit dem Hund zu .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	er	er	PRON	PPER	_	3	subj	_	_
+3	rollte	rollen	VERB	VVFIN	_	0	root	_	_
+4	auf	auf	ADP	APPR	_	3	comp:obl	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Frau	Frau	NOUN	NN	_	4	comp:obj	_	_
+7	mit	mit	ADP	APPR	_	6	mod	_	_
+8	dem	d	DET	ART	_	9	det	_	_
+9	Hund	Hund	NOUN	NN	_	7	comp:obj	_	_
+10	zu	zu	ADP	PTKVZ	_	3	compound@prt	_	_
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Der Hund begann zu bellen
+1	Der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	3	subj	_	_
+3	begann	beginnen	VERB	VVFIN	_	0	root	_	_
+4	zu	zu	PART	PTKZU	_	3	comp:obj	_	_
+5	bellen	bellen	VERB	VVINF	_	4	comp:obj	_	_
+
+# text = und stürmte zum Ball .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	stürmte	stürmen	VERB	VVFIN	_	0	root	_	_
+3	zum	zum	NOUN	APPRART	_	2	comp:obl	_	_
+4	Ball	Ball	PROPN	NN	_	3	comp:obj	_	_
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Die Frau ließ ihre Einkaufswaren fallen .
+1	Die	d	DET	ART	_	2	det	_	_
+2	Frau	Frau	NOUN	NN	_	3	subj	_	_
+3	ließ	lassen	VERB	VVFIN	_	0	root	_	_
+4	ihre	ihr	DET	PPOSAT	_	5	det	_	_
+5	Einkaufswaren	Einkaufswaren	NOUN	NN	_	6	comp:obj	_	_
+6	fallen	fallen	VERB	VVINF	_	3	comp:obj	_	_
+7	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Zeitgleich fuhren zwei Autos auf den Parkplatz .
+1	Zeitgleich	zeitgleich	ADV	ADJD	_	2	mod	_	_
+2	fuhren	fahren	VERB	VVFIN	_	0	root	_	_
+3	zwei	zwei	NUM	CARD	_	4	mod	_	_
+4	Autos	Auto	NOUN	NN	_	2	subj	_	_
+5	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Parkplatz	Parkplatz	NOUN	NN	_	5	comp:obj	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Durch den Vorfall musste das erste Auto eine Vollbremsung machen .
+1	Durch	durch	ADP	APPR	_	10	mod	_	_
+2	den	d	DET	ART	_	3	det	_	_
+3	Vorfall	Vorfall	NOUN	NN	_	1	comp:obj	_	_
+4	musste	müssen	AUX	VMFIN	_	0	root	_	_
+5	das	d	DET	ART	_	7	det	_	_
+6	erste	erst	ADJ	ORD	_	7	mod	_	_
+7	Auto	Auto	NOUN	NN	_	4	subj	_	_
+8	eine	ein	DET	ART	_	9	det	_	_
+9	Vollbremsung	Vollbremsung	NOUN	NN	_	10	comp:obj	_	_
+10	machen	machen	VERB	VVINF	_	4	comp:aux	_	_
+11	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Das zweite Auto hielt zu wenig Abstand
+1	Das	d	DET	ART	_	3	det	_	_
+2	zweite	zweit	ADJ	ORD	_	3	mod	_	_
+3	Auto	Auto	NOUN	NN	_	4	subj	_	_
+4	hielt	halten	VERB	VVFIN	_	0	root	_	_
+5	zu	zu	ADP	PTKA	_	6	mod	_	_
+6	wenig	wenig	ADJ	PIAT	_	7	mod	_	_
+7	Abstand	Abstand	NOUN	NN	_	4	comp:obj	_	_
+
+# text = und fuhr dem ersten Auto auf .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	fuhr	fahren	VERB	VVFIN	_	0	root	_	_
+3	dem	d	DET	ART	_	5	det	_	_
+4	ersten	erst	ADJ	ORD	_	5	mod	_	_
+5	Auto	Auto	NOUN	NN	_	2	comp:obj	_	_
+6	auf	auf	ADP	PTKVZ	_	2	compound@prt	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Nach dem Unfall wurde die Polizei angerufen .
+1	Nach	nach	ADP	APPR	_	7	mod	_	_
+2	dem	d	DET	ART	_	3	det	_	_
+3	Unfall	Unfall	NOUN	NN	_	1	comp:obj	_	_
+4	wurde	werden	AUX	VAFIN	_	0	root	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Polizei	Polizei	NOUN	NN	_	4	subj@pass	_	_
+7	angerufen	anrufen	VERB	VVPP	_	4	comp:aux@pass	_	_
+8	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Verletzte gab es , auf den ersten Blick , keine .
+1	Verletzte	Verletzte	NOUN	NN	_	2	comp:obj	_	_
+2	gab	geben	VERB	VVFIN	_	0	root	_	_
+3	es	es	PRON	PPER	_	2	subj@expl	_	_
+4	,	,	PUNCT	$,	_	5	punct	_	_
+5	auf	auf	ADP	APPR	_	2	mod	_	_
+6	den	d	DET	ART	_	8	det	_	_
+7	ersten	erst	ADJ	ORD	_	8	mod	_	_
+8	Blick	Blick	NOUN	NN	_	5	comp:obj	_	_
+9	,	,	PUNCT	NE	_	5	punct	_	_
+10	keine	keine	PRON	PIAT	_	1	mod	_	_
+11	.	.	PUNCT	$.	_	2	punct	_	_
+

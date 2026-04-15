@@ -1,0 +1,115 @@
+
+# text = also jetzt gerade auf dem Weg zum Herthaspiel sind direkt vor mir zwei Autos etwas doller ineinander gefahren weil das erste äh weil ein Hund plötzlich auf die Straße gefahren äh gelaufen ist äh der sich etwas provoziert gefühlt hat von so einem Ball von vonnem von so einem äh ah ankommendem Jungen
+1	also	also	ADV	SEDM	_	9	discourse	_	_
+2	jetzt	jetzt	ADV	ADV	_	3	mod	_	_
+3	gerade	gerade	ADV	ADV	_	9	mod	_	_
+4	auf	auf	ADP	APPR	_	18	mod	_	_
+5	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Weg	Weg	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	comp:obj	_	_
+7	zum	zu	PROPN	APPRART	Case=Dat|Gender=Masc,Neut|Number=Sing	6	mod	_	_
+8	Herthaspiel	Herthaspiel	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	comp:obj	_	_
+9	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	direkt	direkt	ADJ	ADJD	Degree=Pos	11	mod	_	_
+11	vor	vor	ADP	APPR	_	18	mod	_	_
+12	mir	ich	PRON	PRF	Case=Dat|Number=Sing|Person=1|PronType=Prs	11	comp:obj	_	_
+13	zwei	zwei	NUM	CARD	NumType=Card	14	mod	_	_
+14	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	9	subj	_	_
+15	etwas	etwas	ADV	PIS	_	16	mod	_	_
+16	doller	doll	ADJ	ADJD	Degree=Cmp,Pos	9	mod	_	_
+17	ineinander	ineinander	ADV	ADV	_	18	compound@prt	_	_
+18	gefahren	fahren	VERB	VVPP	Tense=Past|VerbForm=Part	9	comp:aux	_	_
+19	weil	weil	SCONJ	KOUS	_	23	reparandum	_	_
+20	das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	21	det	_	_
+21	erste	erst	ADJ	ORD	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	19	comp:obj	_	_
+22	äh	äh	ADJ	NGHES	Degree=Pos	9	discourse	_	_
+23	weil	weil	SCONJ	KOUS	_	18	mod	_	_
+24	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	25	det	_	_
+25	Hund	Hund	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	33	subj	_	_
+26	plötzlich	plötzlich	ADJ	ADJD	Degree=Pos	33	mod	_	_
+27	auf	auf	ADP	APPR	_	32	comp:obl	_	_
+28	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	27	comp:obj	_	_
+30	gefahren	fahren	VERB	VVPP	Tense=Past|VerbForm=Part	32	reparandum	_	_
+31	äh	äh	ADV	NGHES	_	9	discourse	_	_
+32	gelaufen	laufen	VERB	VVPP	Tense=Past|VerbForm=Part	33	comp:aux	_	_
+33	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	comp:obj	_	_
+34	äh	äh	ADJ	NGHES	Degree=Pos	9	discourse	_	_
+35	der	d	PRON	PRELS	Case=Nom|PronType=Rel	40	subj	_	_
+36	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs	39	comp:obj	_	_
+37	etwas	etwas	PRON	PIS	Case=Acc|PronType=Ind	38	mod	_	_
+38	provoziert	provoziert	ADJ	ADJD	Degree=Pos	39	comp:pred	_	_
+39	gefühlt	fühlen	VERB	VVPP	Tense=Past|VerbForm=Part	40	comp:aux	_	_
+40	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	mod@relcl	_	_
+41	von	von	ADP	APPR	_	39	mod	_	_
+42	so	so	ADV	PTKIFG	_	44	mod	_	_
+43	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	44	det	_	_
+44	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	41	comp:obj	_	_
+45	von	von	ADP	APPR	_	46	reparandum	_	_
+46	vonnem	vonnem	_	APPRART	_	47	reparandum	_	_
+47	von	von	ADP	APPR	_	44	mod@poss	_	_
+48	so	so	ADV	PTKIFG	_	53	mod	_	_
+49	einem	ein	DET	ART	Case=Dat|Definite=Ind|PronType=Art	53	det	_	_
+50	äh	äh	ADJ	NGHES	Degree=Pos	9	discourse	_	_
+51	ah	ah	ADJ	NGIRR	Degree=Pos	9	discourse	_	_
+52	ankommendem	ankommend	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	53	mod	_	_
+53	Jungen	Junge	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	47	comp:obj	_	_
+
+# text = äh na ja und das nächste Auto ist halt dann von der scharfen Bremsung vom ersten direkt hinten reingefahren
+1	äh	äh	ADJ	NGHES	Degree=Pos	8	discourse	_	_
+2	na	na	PROPN	NGIRR	_	8	discourse	_	_
+3	ja	ja	PROPN	NGIRR	Case=Nom|Gender=Neut|Number=Sing	2	fixed	_	_
+4	und	und	CCONJ	KON	_	8	cc	_	_
+5	das	d	DET	ART	Definite=Def|PronType=Art	7	det	_	_
+6	nächste	nächste	ADJ	ADJA	_	7	mod	_	_
+7	Auto	Auto	NOUN	NN	_	8	subj	_	_
+8	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	halt	halt	ADV	PTKMA	_	8	discourse	_	_
+10	dann	dann	ADV	ADV	_	8	mod	_	_
+11	von	von	ADP	APPR	_	19	mod	_	_
+12	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	scharfen	scharf	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	14	mod	_	_
+14	Bremsung	Bremsung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	comp:obj	_	_
+15	vom	von	PROPN	APPRART	_	14	mod@poss	_	_
+16	ersten	erst	ADJ	ORD	Degree=Pos|NumType=Ord	15	comp:obj	_	_
+17	direkt	direkt	ADJ	ADJD	Degree=Pos	8	mod	_	_
+18	hinten	hinten	ADV	ADV	_	8	mod	_	_
+19	reingefahren	reinfahren	VERB	VVPP	Tense=Past|VerbForm=Fin	8	comp:aux	_	_
+
+# text = und ja äh gab es zwar keine Tote
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	ja	ja	ADV	NGIRR	_	4	discourse	_	_
+3	äh	äh	ADJ	NGHES	Degree=Pos	4	discourse	_	_
+4	gab	geben	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	_
+6	zwar	zwar	ADV	ADV	_	4	mod	_	_
+7	keine	kein	PRON	PIAT	PronType=Neg	8	det	_	_
+8	Tote	Tote	NOUN	NN	Case=Acc|Number=Sing	4	comp:obj	_	_
+
+# text = aber bisschen beschädigt war war dies auch
+1	aber	aber	ADV	KON	_	5	cc	_	_
+2	bisschen	bisschen	NOUN	PIDS	_	3	mod	_	_
+3	beschädigt	beschädigt	VERB	ADJD	Tense=Past|VerbForm=Part	5	comp:pred	_	_
+4	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	reparandum	_	_
+5	war	sein	AUX	VAFIN	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	dies	dies	_	PDS	_	5	subj	_	_
+7	auch	auch	ADV	ADV	_	5	mod	_	_
+
+# text = und ja äh letztendlich wurde Polizei gerufen
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	ja	ja	ADV	NGIRR	_	5	discourse	_	_
+3	äh	äh	ADJ	NGHES	Degree=Pos	5	discourse	_	_
+4	letztendlich	letztendlich	ADJ	ADV	Degree=Pos	5	mod	_	_
+5	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Polizei	Polizei	NOUN	NN	_	5	subj@pass	_	_
+7	gerufen	rufen	VERB	VVPP	Tense=Past|VerbForm=Part	5	comp:aux@pass	_	_
+
+# text = aber so viel ist dann auch nicht passiert
+1	aber	aber	ADV	KON	_	4	cc	_	_
+2	so	so	ADV	PTKIFG	_	3	mod	_	_
+3	viel	viel	PRON	PIS	Case=Dat|Number=Sing|PronType=Ind	4	subj	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	dann	dann	ADV	ADV	_	4	mod	_	_
+6	auch	auch	ADV	PTKIFG	_	7	mod	_	_
+7	nicht	nicht	PART	PTKNEG	_	4	mod	_	_
+8	passiert	passieren	VERB	VVPP	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	comp:aux	_	_
+

@@ -1,0 +1,126 @@
+1	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+2	hallo	hallo	X	NGIRR	_	0	root	_	_
+
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	bin	sein	VERB	VAFIN	_	0	root	_	_
+3	F16	F16	NOUN	NE	_	2	comp:pred	_	_
+
+1	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+2	und	und	CCONJ	KON	_	4	cc	_	_
+3	zwar	zwar	ADV	ADV	_	4	mod	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+6	im	in	PROPN	APPRART	_	13	mod	_	_
+7	Hermannplatz	Hermannplatz	NOUN	NN	_	6	comp:obj	_	_
+8	um	um	ADP	APPR	_	13	mod	_	_
+9	vierzehn	@card@	NUM	CARD	_	10	mod	_	_
+10	Uhr	Uhr	NOUN	NN	_	8	comp:obj	_	_
+11	ein	ein	DET	ART	_	12	det	_	_
+12	Unfall	Unfall	NOUN	NN	_	4	subj	_	_
+13	passiert	passieren	VERB	VVPP	_	4	comp:aux	_	_
+
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	habe	haben	AUX	VAFIN	_	0	root	_	_
+4	es	es	PRON	PPER	_	5	comp:obj@expl	_	_
+5	beobachtet	beobachten	VERB	VVPP	_	3	comp:aux	_	_
+6	dass	dass	SCONJ	KOUS	_	19	reparandum	_	_
+7	äh	äh	ADV	NGHES	_	3	discourse	_	_
+8	ein	ein	DET	ART	_	9	reparandum	_	_
+9	ein	ein	DET	ART	_	10	det	_	_
+10	Mann	Mann	NOUN	NN	_	6	comp:obj	_	_
+11	mit	mit	ADP	APPR	_	10	mod	_	_
+12	seiner	sein	DET	PPOSAT	_	13	det	_	_
+13	Frau	Frau	NOUN	NN	_	11	comp:obj	_	_
+14	wahrscheinlich	wahrscheinlich	ADJ	ADV	_	11	mod	_	_
+15	und	und	CCONJ	KON	_	16	cc	_	_
+16	mit	mit	ADP	APPR	_	11	conj	_	_
+17	einem	ein	DET	ART	_	18	det	_	_
+18	Kinderwagen	Kinderwagen	NOUN	NN	_	16	comp:obj	_	_
+19	dass	dass	SCONJ	KOUS	_	5	comp:obj	_	_
+20	die	d	DET	PDS	_	27	subj	_	_
+21	die	d	DET	ART	_	22	det	_	_
+22	Straße	Straße	NOUN	NN	_	25	reparandum	_	_
+23	also	also	ADV	ADV	_	3	discourse	_	_
+24	die	d	DET	ART	_	25	det	_	_
+25	Straße	Straße	NOUN	NN	_	26	comp:obj	_	_
+26	vorbeigelaufen	vorbeilaufen	ADVVERB	VVPP	_	27	comp:aux	_	_
+27	sind	sein	AUX	VAFIN	_	19	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Mann	Mann	NOUN	NN	_	4	subj	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	mit	mit	ADP	APPR	_	8	comp:obl	_	_
+6	einem	ein	DET	ART	_	7	det	_	_
+7	Ball	Ball	NOUN	NN	_	5	comp:obj	_	_
+8	gedribbelt	dribbeln	VERB	VVPP	_	4	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	deswegen	deswegen	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	subj	_	_
+6	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+7	auf	auf	ADP	APPR	_	10	comp:obl	_	_
+8	die	d	DET	ART	_	9	det	_	_
+9	Straße	Straße	NOUN	NN	_	7	comp:obj	_	_
+10	gerollt	rollen	ADJ	VVPP	_	3	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	comp:pred	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	auch	auch	ADV	PTKIFG	_	3	mod	_	_
+5	eine	ein	DET	ART	_	6	det	_	_
+6	Frau	Frau	NOUN	NN	_	3	subj	_	_
+7	mit	mit	ADP	APPR	_	6	mod	_	_
+8	einem	ein	DET	ART	_	9	det	_	_
+9	Hund	Hund	NOUN	NN	_	7	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	plötzlich	plötzlich	_	ADV	_	4	mod	_	_
+6	äh	äh	_	NGHES	_	4	discourse	_	_
+7	hinter	hinter	ADP	APPR	_	10	comp:obl	_	_
+8	dem	d	DET	ART	_	9	det	_	_
+9	Ball	Ball	NOUN	NN	_	7	comp:obj	_	_
+10	hinterhergerannt	hinterherrennen	ADVADV	VVPP	_	4	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	deswegen	deswegen	ADV	ADV	_	6	reparandum	_	_
+3	und	und	CCONJ	KON	_	6	cc	_	_
+4	äh	äh	ADV	NGHES	_	6	discourse	_	_
+5	da	da	ADV	ADV	_	6	comp:pred	_	_
+6	waren	sein	VERB	VAFIN	_	0	root	_	_
+7	auch	auch	ADV	PTKIFG	_	6	mod	_	_
+8	zwei	zwei	NUM	CARD	_	9	mod	_	_
+9	Autos	Auto	NOUN	NN	_	6	subj	_	_
+10	die	d	DET	PRELS	_	17	reparandum	_	_
+11	die	d	DET	ART	_	12	det	_	_
+12	Straße	Straße	NOUN	NN	_	10	orphan	_	_
+13	also	also	ADV	ADV	_	6	discourse	_	_
+14	die	d	DET	PDS	_	17	subj	_	_
+15	die	d	PRON	PDS	_	16	comp:obj	_	_
+16	weiterfahren	weiterfahren	ADVVERB	VVINF	_	17	comp:aux	_	_
+17	wollten	wollen	AUX	VMFIN	_	9	mod@relcl	_	_
+
+1	doch	doch	ADV	KON	_	4	cc	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Autos	Auto	NOUN	NN	_	4	subj	_	_
+4	haben	haben	VERB	VAFIN	_	0	root	_	_
+5	dann	dann	ADV	ADV	_	4	mod	_	_
+6	plötzlich	plötzlich	ADJ	ADJD	_	4	mod	_	_
+7	so	so	ADV	ADV	_	4	mod	_	_
+8	gebremst	bremsen	ADV	VVPP	_	4	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	deswegen	deswegen	ADV	ADV	_	3	mod	_	_
+3	sind	sein	VERB	VAFIN	_	0	root	_	_
+4	die	die	DET	PDS	_	3	subj	_	_
+5	zusammengeknallt	zusammenknallen	ADVADJ	VVPP	_	3	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ja	ja	ADV	NGIRR	_	0	root	_	_
+

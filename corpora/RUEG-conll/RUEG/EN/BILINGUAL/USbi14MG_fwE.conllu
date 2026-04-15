@@ -1,0 +1,146 @@
+1	F16	F16	PROPN	NP0	_	0	root	_	_
+
+1	I	i	PRON	PNP	_	2	nsubj	_	_
+2	saw	see	VERB	VVD	_	0	root	_	_
+3	an	an	DET	AT0	_	5	det	_	_
+4	almost	almost	ADJ	AJ0	_	5	amod	_	_
+5	accident	accident	NOUN	NN1	_	2	obj	_	_
+
+1	There	there	ADV	EX0	_	5	advmod	_	_
+2	was	be	AUX	VBD	_	5	cop	_	_
+3	a	a	DET	AT0	_	4	det	_	_
+4	couple	couple	NOUN	NN1	_	5	obl:npmod	_	_
+5	heading	head	VERB	VVG	_	0	root	_	_
+6	to	to	PART	TO0	_	7	mark	_	_
+7	play	play	VERB	VVI	_	5	advcl	_	_
+8	a	a	DET	AT0	_	9	det	_	_
+9	sport	sport	NOUN	NN1	_	7	obj	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	male	male	NOUN	NN1	_	5	nsubj	_	_
+4	was	be	AUX	VBD	_	5	aux	_	_
+5	dribbling	dribble	VERB	VVG	_	0	root	_	_
+6	a	a	DET	AT0	_	8	det	_	_
+7	soccer	soccer	NOUN	NN1	_	8	compound	_	_
+8	ball	ball	NOUN	NN1	_	5	obj	_	_
+9	at	at	ADP	PRP	_	10	case	_	_
+10	which	which	DET	DTQ	_	11	obl	_	_
+11	stumbled	stumble	VERB	VVD	_	8	acl	_	_
+12	on	on	ADP	PRP	_	14	case	_	_
+13	his	he	DET	DPS	_	14	det	_	_
+14	leg	leg	NOUN	NN1	_	11	obl	_	_
+
+1	and	and	CCONJ	CJC	_	2	cc	_	_
+2	went	go	VERB	VVD	_	0	root	_	_
+3	in	in	ADP	PRP	_	5	case	_	_
+4	the	the	DET	AT0	_	5	det	_	_
+5	middle	middle	NOUN	NN1	_	2	obl	_	_
+6	of	of	ADP	PRF	_	8	case	_	_
+7	the	the	DET	AT0	_	8	det	_	_
+8	street	street	NOUN	NN1	_	5	nmod	_	_
+9	.	.	PUNCT	SENT	_	2	punct	_	_
+
+1	In	in	ADP	PRP	_	3	case	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	meantime	meantime	NOUN	NN1	_	8	obl	_	_
+4	there	there	ADV	EX0	_	8	advmod	_	_
+5	was	be	AUX	VBD	_	8	cop	_	_
+6	two	two	NUM	CRD	_	8	advmod	_	_
+7	cars	car	NOUN	NN2	_	8	nsubj	_	_
+8	driving	drive	VERB	VVG	_	0	root	_	_
+9	by	by	ADP	AVP	_	8	compound:prt	_	_
+
+1	and	and	CCONJ	CJC	_	10	cc	_	_
+2	as	as	SCONJ	CJS	_	5	mark	_	_
+3	the	the	DET	AT0	_	4	det	_	_
+4	car	car	NOUN	NN1	_	5	nsubj	_	_
+5	drove	drive	VERB	VVD	_	10	advcl	_	_
+6	by	by	ADP	AVP	_	10	obl	_	_
+7	they	they	PRON	PNP	_	10	nsubj	_	_
+8	had	have	AUX	VHD	_	10	aux	_	_
+9	to	to	PART	TO0	_	10	mark	_	_
+10	stop	stop	VERB	VVI	_	0	root	_	_
+11	ASAP	asap	ADV	AV0	_	10	advmod	_	_
+12	just	just	ADV	AV0	_	17	advmod	_	_
+13	so	so	SCONJ	CJS	_	17	mark	_	_
+14	they	they	PRON	PNP	_	17	nsubj	_	_
+15	did	do	AUX	VDD	_	17	aux	_	_
+16	not	not	PART	XX0	_	17	advmod	_	_
+17	hit	hit	VERB	VVI	_	10	advcl	_	_
+18	the	the	DET	AT0	_	19	det	_	_
+19	car	car	NOUN	NN1	_	17	obj	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	as	as	SCONJ	CJS	_	4	mark	_	_
+3	they	they	PRON	PNP	_	4	nsubj	_	_
+4	stopped	stop	VERB	VVD	_	12	advcl	_	_
+5	there	there	ADV	EX0	_	4	advmod	_	_
+6	was	be	AUX	VBD	_	8	cop	_	_
+7	another	another	DET	DT0	_	8	det	_	_
+8	family	family	NOUN	NN1	_	12	obl	_	_
+9	at	at	ADP	PRP	_	8	case	_	_
+10	which	which	DET	DTQ	_	12	nsubj	_	_
+11	were	be	AUX	VBD	_	12	aux	_	_
+12	putting	put	VERB	VVG	_	0	root	_	_
+13	their	they	DET	DPS	_	14	det	_	_
+14	groceries	grocery	NOUN	NN2	_	12	obj	_	_
+15	in	in	ADP	PRP	_	17	case	_	_
+16	their	they	DET	DPS	_	17	det	_	_
+17	car	car	NOUN	NN1	_	12	obl	_	_
+18	with	with	ADP	PRP	_	20	case	_	_
+19	their	they	DET	DPS	_	20	det	_	_
+20	dog	dog	NOUN	NN1	_	12	obl	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	dog	dog	NOUN	NN1	_	4	nsubj	_	_
+4	saw	see	VERB	VVD	_	7	conj	_	_
+5	all	all	DET	DT0	_	7	det:predet	_	_
+6	this	this	DET	DT0	_	7	det	_	_
+7	happened	happen	VERB	VVD	_	0	root	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	also	also	ADV	AV0	_	3	advmod	_	_
+3	went	go	VERB	VVD	_	0	root	_	_
+4	after	after	ADP	PRP	_	7	case	_	_
+5	the	the	DET	AT0	_	7	det	_	_
+6	soccer	soccer	NOUN	NN1	_	7	compound	_	_
+7	ball	ball	NOUN	NN1	_	3	obl	_	_
+8	.	.	PUNCT	SENT	_	3	punct	_	_
+
+1	I	i	PRON	PNP	_	3	nsubj	_	_
+2	then	then	ADV	AV0	_	3	advmod	_	_
+3	saw	see	VERB	VVD	_	0	root	_	_
+4	the	the	DET	AT0	_	6	det	_	_
+5	two	two	NUM	CRD	_	6	nummod	_	_
+6	individuals	individual	NOUN	NN2	_	3	obj	_	_
+7	about	about	ADV	AV0	_	9	advmod	_	_
+8	to	to	PART	TO0	_	9	mark	_	_
+9	have	have	AUX	VHI	_	6	acl	_	_
+10	an	an	DET	AT0	_	11	det	_	_
+11	front	front	NOUN	NN1	_	9	nsubj	_	_
+12	of	of	ADP	PRF	_	13	case	_	_
+13	vehicle	vehicle	NOUN	NN1	_	11	nmod	_	_
+14	to	to	ADP	PRP	_	15	case	_	_
+15	back	back	NOUN	NN1	_	11	nmod	_	_
+16	of	of	ADP	PRF	_	18	case	_	_
+17	vehicle	vehicle	NOUN	NN1	_	18	compound	_	_
+18	crash	crash	NOUN	NN1	_	15	nmod	_	_
+
+1	take	take	VERB	VVI	_	6	csubj	_	_
+2	notes	note	NOUN	NN2	_	1	obj	_	_
+3	of	of	ADP	PRF	_	4	case	_	_
+4	what	what	DET	DTQ	_	2	nmod	_	_
+5	had	have	AUX	VHD	_	6	aux	_	_
+6	happened	happen	VERB	VVN	_	0	root	_	_
+
+1	and	and	CCONJ	CJC	_	2	cc	_	_
+2	saw	see	VERB	VVD	_	0	root	_	_
+3	the	the	DET	AT0	_	4	det	_	_
+4	Cop	cop	NOUN	NN1	_	5	nsubj	_	_
+5	come	come	VERB	VVI	_	2	ccomp	_	_
+6	soon	soon	ADV	AV0	_	5	advmod	_	_
+7	after	after	ADP	AVP	_	5	obl	_	_
+8	.	.	PUNCT	SENT	_	2	punct	_	_
+

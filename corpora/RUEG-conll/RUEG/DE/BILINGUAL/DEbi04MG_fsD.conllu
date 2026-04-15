@@ -1,0 +1,119 @@
+# text = F16
+1	F16	F16	NOUN	NE	_	0	root	_	_
+
+# text = äh zu den Vorfall des Unfalls möchte ich ganz gerne mitteilen dass
+1	äh	äh	ADJ	NGHES	_	7	discourse	_	_
+2	zu	zu	ADP	APPR	_	11	mod	_	_
+3	den	d	DET	ART	_	4	det	_	_
+4	Vorfall	Vorfall	NOUN	NN	_	2	comp:obj	_	_
+5	des	d	DET	ART	_	6	det	_	_
+6	Unfalls	Unfall	NOUN	NN	_	4	mod@poss	_	_
+7	möchte	mögen	AUX	VVFIN	_	0	root	_	_
+8	ich	ich	PRON	PPER	_	7	subj	_	_
+9	ganz	ganz	ADV	PTKIFG	_	10	mod	_	_
+10	gerne	gern	ADV	ADV	_	7	mod	_	_
+11	mitteilen	mitteilen	VERB	VVINF	_	7	comp:aux	_	_
+12	dass	dass	SCONJ	KOUS	_	11	comp:obj	_	_
+
+# text = äh es gab eine äh eine eine kleine Familie
+1	äh	äh	ADV	NGHES	_	3	discourse	_	_
+2	es	es	PRON	PPER	_	3	subj@expl	_	_
+3	gab	geben	VERB	VVFIN	_	0	root	_	_
+4	eine	ein	DET	ART	_	6	reparandum	_	_
+5	äh	äh	ADV	NGHES	_	3	discourse	_	_
+6	eine	ein	DET	ART	_	7	reparandum	_	_
+7	eine	ein	DET	ART	_	9	det	_	_
+8	kleine	klein	ADJ	ADJA	_	9	mod	_	_
+9	Familie	Familie	NOUN	NN	_	3	comp:obj	_	_
+
+# text = der Mann also der Vater des Babys quasi beziehungsweise der Mann der dabei war hat mit einem kleinen Ball gespielt
+1	der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	15	subj	_	_
+3	also	also	ADV	ADV	_	15	mod	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Vater	Vater	NOUN	NN	_	2	appos	_	_
+6	des	d	DET	ART	_	7	det	_	_
+7	Babys	Baby	PROPN	NN	_	5	mod@poss	_	_
+8	quasi	quasi	ADV	ADV	_	15	mod	_	_
+9	beziehungsweise	beziehungsweise	CCONJ	KON	_	11	cc	_	_
+10	der	d	DET	ART	_	11	det	_	_
+11	Mann	Mann	NOUN	NN	_	2	conj	_	_
+12	der	die	DET	PRELS	_	14	subj	_	_
+13	dabei	dabei	ADV	ADV	_	14	comp:pred	_	_
+14	war	sein	AUX	VAFIN	_	11	mod@relcl	_	_
+15	hat	haben	AUX	VAFIN	_	0	root	_	_
+16	mit	mit	ADP	APPR	_	20	mod	_	_
+17	einem	ein	DET	ART	_	19	det	_	_
+18	kleinen	klein	ADJ	ADJA	_	19	mod	_	_
+19	Ball	Ball	NOUN	NN	_	16	comp:obj	_	_
+20	gespielt	spielen	VERB	VVPP	_	15	comp:aux	_	_
+
+# text = und als er eine Straße über einen Parkplatz überqueren wollte hat er den Ball versehentlich gegen seinen Fuß äh gestoßen
+1	und	und	CCONJ	KON	_	11	cc	_	_
+2	als	als	CCONJ	KOUS	_	20	mod	_	_
+3	er	er	PRON	PPER	_	10	subj	_	_
+4	eine	ein	DET	ART	_	5	det	_	_
+5	Straße	Straße	NOUN	NN	_	9	comp:obj	_	_
+6	über	über	ADP	APPR	_	5	mod	_	_
+7	einen	ein	DET	ART	_	8	det	_	_
+8	Parkplatz	Parkplatz	NOUN	NN	_	6	comp:obj	_	_
+9	überqueren	überqueren	VERB	VVINF	_	10	comp:aux	_	_
+10	wollte	wollen	AUX	VMFIN	_	2	comp:obj	_	_
+11	hat	haben	AUX	VAFIN	_	0	root	_	_
+12	er	er	PRON	PPER	_	11	subj	_	_
+13	den	d	DET	ART	_	14	det	_	_
+14	Ball	Ball	NOUN	NN	_	20	comp:obj	_	_
+15	versehentlich	versehentlich	ADJ	ADJD	_	11	mod	_	_
+16	gegen	gegen	ADP	APPR	_	20	comp:obl	_	_
+17	seinen	sein	DET	PPOSAT	_	18	det	_	_
+18	Fuß	Fuß	NOUN	NN	_	16	comp:obj	_	_
+19	äh	äh	ADJ	NGHES	_	11	discourse	_	_
+20	gestoßen	stoßen	VERB	VVPP	_	11	comp:aux	_	_
+
+# text = und dabei ist der Ball auf das äh auf die Straße gerollt
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dabei	dabei	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	subj	_	_
+6	auf	auf	ADP	APPR	_	9	reparandum	_	_
+7	das	d	DET	ART	_	6	comp:obj	_	_
+8	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+9	auf	auf	ADP	APPR	_	12	comp:obl	_	_
+10	die	d	DET	ART	_	11	det	_	_
+11	Straße	Straße	NOUN	NN	_	9	comp:obj	_	_
+12	gerollt	rollen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und dann kamen zwei Fahrzeuge entgegen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	kamen	kommen	VERB	VVFIN	_	0	root	_	_
+4	zwei	zwei	NUM	CARD	_	5	mod	_	_
+5	Fahrzeuge	Fahrzeug	NOUN	NN	_	3	subj	_	_
+6	entgegen	entgegen	ADP	APPR	_	3	compound@prt	_	_
+
+# text = die der der das erste Fahrzeug musste ruckartig abbremsen
+1	die	d	DET	ART	_	2	reparandum	_	_
+2	der	d	DET	ART	_	3	reparandum	_	_
+3	der	d	PRON	ART	_	4	reparandum	_	_
+4	das	d	DET	ART	_	6	det	_	_
+5	erste	erst	ADJ	ORD	_	6	mod	_	_
+6	Fahrzeug	Fahrzeug	NOUN	NN	_	7	subj	_	_
+7	musste	müssen	AUX	VMFIN	_	0	root	_	_
+8	ruckartig	ruckartig	ADJ	ADJD	_	7	mod	_	_
+9	abbremsen	bremsen	VERB	VVINF	_	7	comp:aux	_	_
+
+# text = und daher ist das zweite Fahrzeug quasi auf das erste Fahrzeug raufgefahren
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	daher	daher	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	das	d	DET	ART	_	6	det	_	_
+5	zweite	zweit	ADJ	ORD	_	6	mod	_	_
+6	Fahrzeug	Fahrzeug	NOUN	NN	_	3	subj	_	_
+7	quasi	quasi	ADV	ADV	_	3	mod	_	_
+8	auf	auf	ADP	APPR	_	12	comp:obl	_	_
+9	das	d	DET	ART	_	11	det	_	_
+10	erste	erst	ADJ	ORD	_	11	mod	_	_
+11	Fahrzeug	Fahrzeug	NOUN	NN	_	8	comp:obj	_	_
+12	raufgefahren	rauffahren	VERB	VVPP	_	3	comp:aux	_	_
+

@@ -1,0 +1,107 @@
+# text = Peter du wirst es nicht glauben was mir gerade passiert ist
+1	Peter	Peter	PROPN	NE	_	3	vocative	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing	3	subj	_	_
+3	wirst	werden	PROPN	VAFIN	Case=Acc|Gender=Neut|Number=Sing|Tense=Fut	0	root	_	_
+4	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	comp:obj@expl	_	_
+5	nicht	nicht	PART	PTKNEG	_	3	mod	_	_
+6	glauben	glauben	VERB	VVINF	VerbForm=Inf	3	comp:aux	_	_
+7	was	was	PRON	PWS	Number=Sing|PronType=Rel	11	subj	_	_
+8	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	10	comp:obj	_	_
+9	gerade	gerade	ADV	ADV	_	11	mod	_	_
+10	passiert	passieren	VERB	VVPP	Tense=Past|VerbForm=Part	11	comp:aux	_	_
+11	ist	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	mod	_	_
+
+# text = äh laufe da gerade übern Parkplatz
+1	äh	äh	ADJ	NGHES	Degree=Pos	2	discourse	_	_
+2	laufe	laufen	VERB	VVFIN	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	da	da	ADV	ADV	_	2	mod	_	_
+4	gerade	gerade	ADV	PTKIFG	_	2	mod	_	_
+5	übern	über	PROPN	APPRART	_	2	comp:obl	_	_
+6	Parkplatz	Parkplatz	PROPN	NN	_	5	comp:obj	_	_
+
+# text = und läuft da so eine Familie entlang ein Typ mitm Fußball
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	läuft	laufen	VERB	VVFIN	Tense=Pres|VerbForm=Fin	0	root	_	_
+3	da	da	ADV	ADV	_	2	mod	_	_
+4	so	so	ADV	PTKIFG	_	6	mod	_	_
+5	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Familie	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	subj	_	_
+7	entlang	entlang	ADP	APPR	_	2	compound@prt	_	_
+8	ein	ein	DET	ART	Definite=Ind|PronType=Art	9	det	_	_
+9	Typ	Typ	NOUN	NN	_	6	conj	_	_
+10	mitm	mit	PROPN	APPRART	_	9	mod	_	_
+11	Fußball	Fußball	NOUN	NN	_	10	comp:obj	_	_
+
+# text = äh kommen zwei Autos angefahren und auf einmal äh fällt ihm so der Ball aus der Hand
+1	äh	äh	ADJ	NGHES	Degree=Pos	2	discourse	_	_
+2	kommen	kommen	VERB	VVFIN	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	zwei	zwei	NUM	CARD	NumType=Card	4	mod	_	_
+4	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	2	subj	_	_
+5	angefahren	anfahren	VERB	VVPP	Tense=Past|VerbForm=Part	2	comp:obl	_	_
+
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	auf	auf	ADP	APPR	_	5	mod	_	_
+3	einmal	einmal	ADV	ADV	_	2	fixed	_	_
+4	äh	äh	ADJ	NGHES	Degree=Pos	5	discourse	_	_
+5	fällt	fallen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	_
+7	so	so	ADV	PTKIFG	_	5	mod	_	_
+8	der	d	DET	ART	Definite=Def|PronType=Art	9	det	_	_
+9	Ball	Ball	PROPN	NN	_	5	subj	_	_
+10	aus	aus	ADP	APPR	_	5	comp:obl	_	_
+11	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Hand	Hand	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	comp:obj	_	_
+
+# text = äh die müssen bremsen und der andere kracht ihm einfach voll hinten drauf
+1	äh	äh	ADJ	NGHES	Degree=Pos	3	discourse	_	_
+2	die	d	PRON	PDS	Case=Nom|PronType=Dem	3	subj	_	_
+3	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	bremsen	bremsen	VERB	VVINF	VerbForm=Inf	3	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	andere	ander	PRON	PIDS	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	4	subj	_	_
+4	kracht	krachen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	_
+6	einfach	einfach	ADV	PTKMA	_	4	mod	_	_
+7	voll	voll	ADJ	PTKIFG	Degree=Pos	4	mod	_	_
+8	hinten	hinten	ADV	ADV	_	4	mod	_	_
+9	drauf	drauf	ADV	PTKVZ	_	4	compound@prt	_	_
+
+# text = also die beiden Autos äh waren ein ziemlicher Rums
+1	also	also	ADV	SEDM	_	6	mod	_	_
+2	die	d	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+3	beiden	beide	PRON	PIDAT	Case=Nom|Number=Plur|NumType=Card|PronType=Tot	4	mod	_	_
+4	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	6	subj	_	_
+5	äh	äh	ADJ	NGHES	Degree=Pos	6	discourse	_	_
+6	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	ein	ein	DET	ART	Definite=Ind|PronType=Art	9	det	_	_
+8	ziemlicher	ziemlich	ADJ	ADJA	Degree=Cmp,Pos	9	mod	_	_
+9	Rums	Rums	NOUN	NN	_	6	comp:pred	_	_
+
+# text = äh und also zum Glück ist halt keinem etwas passiert aber war schon echt lustig weil ja scheiße gelaufen würde ich sagen
+1	äh	äh	ADJ	NGHES	Degree=Pos	6	discourse	_	_
+2	und	und	CCONJ	KON	_	6	cc	_	_
+3	also	also	ADV	SEDM	_	6	discourse	_	_
+4	zum	zu	PROPN	APPRART	_	6	mod	_	_
+5	Glück	Glück	PROPN	NN	_	4	comp:obj	_	_
+6	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	halt	halt	ADV	PTKMA	_	6	discourse	_	_
+8	keinem	kein	PRON	PIS	PronType=Neg	10	comp:obj	_	_
+9	etwas	etwas	ADV	PIS	_	6	subj	_	_
+10	passiert	passieren	ADJ	VVPP	Degree=Pos|Tense=Past	6	comp:aux	_	_
+
+1	aber	aber	ADV	KON	_	2	cc	_	_
+2	war	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	schon	schon	ADV	PTKMA	_	2	mod	_	_
+4	echt	echt	ADV	PTKIFG	_	5	mod	_	_
+5	lustig	lustig	ADV	ADJD	_	2	comp:pred	_	_
+
+1	weil	weil	CCONJ	KOUS	_	5	discourse	_	_
+2	ja	ja	ADV	NGIRR	_	5	discourse	_	_
+3	scheiße	scheiße	ADJ	ADJD	Case=Acc|Degree=Pos|Number=Plur	4	mod	_	_
+4	gelaufen	laufen	VERB	VVPP	Tense=Past|VerbForm=Inf	7	comp:obj	_	_
+5	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	subj	_	_
+7	sagen	sagen	VERB	VVINF	VerbForm=Inf	5	comp:aux	_	_
+

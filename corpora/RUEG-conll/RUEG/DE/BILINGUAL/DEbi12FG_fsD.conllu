@@ -1,0 +1,216 @@
+# text = hallo
+1	hallo	hallo	X	_	_	0	root	_	_
+
+# text = DEbi12FG mein Name
+1	DEbi12FG	DEbi12FG	PROPN	_	_	3	orphan	_	_
+2	mein	mein	PRON	_	_	3	det	_	_
+3	Name	Name	NOUN	_	_	0	root	_	_
+
+# text = spreche ich mit der Polizei
+1	spreche	sprechen	VERB	_	_	0	root	_	_
+2	ich	ich	PRON	_	_	1	subj	_	_
+3	mit	mit	ADP	_	_	1	comp:obl	_	_
+4	der	d	DET	_	_	5	det	_	_
+5	Polizei	Polizei	NOUN	_	_	3	comp:obj	_	_
+
+# text = es geht um den Fall F16
+1	es	es	PRON	_	_	2	subj@expl	_	_
+2	geht	gehen	VERB	_	_	0	root	_	_
+3	um	um	ADP	_	_	2	comp:obl	_	_
+4	den	d	DET	_	_	5	det	_	_
+5	Fall	Fall	NOUN	_	_	3	comp:obj	_	_
+6	F16	F16	PROPN	_	_	5	appos	_	_
+
+# text = und äh ich wollte den Bericht quasi Ihnen erzählen
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	äh	äh	ADJ	_	_	4	discourse	_	_
+3	ich	ich	PRON	_	_	4	subj	_	_
+4	wollte	wollen	AUX	_	_	0	root	_	_
+5	den	d	DET	_	_	6	det	_	_
+6	Bericht	Bericht	NOUN	_	_	9	comp:obj	_	_
+7	quasi	quasi	ADV	_	_	4	mod	_	_
+8	Ihnen	Sie	PRON	_	_	9	comp:obl	_	_
+9	erzählen	erzählen	VERB	_	_	4	comp:aux	_	_
+
+# text = und zwar äh gab es einen kleinen Unfall damals
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	zwar	zwar	ADV	_	_	4	mod	_	_
+3	äh	äh	ADJ	_	_	4	discourse	_	_
+4	gab	geben	VERB	_	_	0	root	_	_
+5	es	es	PRON	_	_	4	subj@expl	_	_
+6	einen	ein	DET	_	_	8	det	_	_
+7	kleinen	klein	ADJ	_	_	8	mod	_	_
+8	Unfall	Unfall	NOUN	_	_	4	comp:obj	_	_
+9	damals	damals	ADV	_	_	4	mod	_	_
+
+# text = da war ein junges Pärchen
+1	da	da	ADV	_	_	2	comp:pred	_	_
+2	war	sein	VERB	_	_	0	root	_	_
+3	ein	ein	DET	_	_	5	det	_	_
+4	junges	jung	ADJ	_	_	5	mod	_	_
+5	Pärchen	Pärchen	NOUN	_	_	2	subj	_	_
+
+# text = und der Mann vom Pärchen sozusagen hatte mit Fußball gespielt
+1	und	und	CCONJ	_	_	7	cc	_	_
+2	der	d	DET	_	_	3	det	_	_
+3	Mann	Mann	NOUN	_	_	7	subj	_	_
+4	vom	vom	PROPN	_	_	3	mod@poss	_	_
+5	Pärchen	Pärchen	NOUN	_	_	4	comp:obj	_	_
+6	sozusagen	sozusagen	ADV	_	_	7	mod	_	_
+7	hatte	haben	AUX	_	_	0	root	_	_
+8	mit	mit	PROPN	_	_	10	mod	_	_
+9	Fußball	Fußball	PROPN	_	_	8	comp:obj	_	_
+10	gespielt	spielen	VERB	_	_	7	comp:aux	_	_
+
+# text = der Ball ist dann auf die Straße gerollt äh auf die andere Seite wo eine Frau ihren Einkauf auf ihren äh in ihren Wagen reinstellen wollte und ihr Hund dann gebellt hatte als der Hund den Ball gesehen hatte
+1	der	d	DET	_	_	2	det	_	_
+2	Ball	Ball	NOUN	_	_	3	subj	_	_
+3	ist	sein	VERB	_	_	0	root	_	_
+4	dann	dann	ADV	_	_	3	mod	_	_
+5	auf	auf	ADP	_	_	8	comp:obl	_	_
+6	die	d	DET	_	_	7	det	_	_
+7	Straße	Straße	NOUN	_	_	5	comp:obj	_	_
+8	gerollt	rollen	ADJ	_	_	3	comp:aux	_	_
+9	äh	äh	ADJ	_	_	3	discourse	_	_
+10	auf	auf	ADP	_	_	5	appos	_	_
+11	die	d	DET	_	_	13	det	_	_
+12	andere	ander	ADJ	_	_	13	mod	_	_
+13	Seite	Seite	NOUN	_	_	10	comp:obj	_	_
+14	wo	wo	ADV	_	_	26	mod	_	_
+15	eine	ein	DET	_	_	16	det	_	_
+16	Frau	Frau	NOUN	_	_	26	subj	_	_
+17	ihren	ihr	DET	_	_	18	det	_	_
+18	Einkauf	Einkauf	NOUN	_	_	25	comp:obj	_	_
+19	auf	auf	ADP	_	_	22	reparandum	_	_
+20	ihren	ihr	DET	_	_	19	comp:obj	_	_
+21	äh	äh	ADJ	_	_	3	discourse	_	_
+22	in	in	ADP	_	_	25	comp:obl	_	_
+23	ihren	ihr	DET	_	_	24	det	_	_
+24	Wagen	Wagen	NOUN	_	_	22	comp:obj	_	_
+25	reinstellen	reinstellen	VERB	_	_	26	comp:aux	_	_
+26	wollte	wollen	AUX	_	_	13	mod@relcl	_	_
+27	und	und	CCONJ	_	_	32	cc	_	_
+28	ihr	ihr	DET	_	_	29	det	_	_
+29	Hund	Hund	NOUN	_	_	32	subj	_	_
+30	dann	dann	ADV	_	_	32	mod	_	_
+31	gebellt	bellen	VERB	_	_	32	comp:aux	_	_
+32	hatte	haben	AUX	_	_	26	conj	_	_
+33	als	als	SCONJ	_	_	31	mod	_	_
+34	der	d	DET	_	_	35	det	_	_
+35	Hund	Hund	NOUN	_	_	39	subj	_	_
+36	den	d	DET	_	_	37	det	_	_
+37	Ball	Ball	NOUN	_	_	38	comp:obj	_	_
+38	gesehen	sehen	VERB	_	_	39	comp:aux	_	_
+39	hatte	haben	AUX	_	_	33	comp:obj	_	_
+
+# text = äh daraufhin hat sie sich erschrocken
+1	äh	äh	ADJ	_	_	3	discourse	_	_
+2	daraufhin	daraufhin	ADV	_	_	3	mod	_	_
+3	hat	haben	AUX	_	_	0	root	_	_
+4	sie	sie	PRON	_	_	3	subj	_	_
+5	sich	er|es|sie	PRON	_	_	6	comp:obj	_	_
+6	erschrocken	erschrecken	VERB	_	_	3	comp:aux	_	_
+
+# text = und der Einkauf ist heruntergefallen
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	der	d	DET	_	_	3	det	_	_
+3	Einkauf	Einkauf	NOUN	_	_	4	subj	_	_
+4	ist	sein	AUX	_	_	0	root	_	_
+5	heruntergefallen	herunterfallen	VERB	_	_	4	comp:aux	_	_
+
+# text = der Mann ist dann zur Frau geeilt um ihr zu helfen und den Ball aufzunehmen
+1	der	d	DET	_	_	2	det	_	_
+2	Mann	Mann	NOUN	_	_	3	subj	_	_
+3	ist	sein	VERB	_	_	0	root	_	_
+4	dann	dann	ADV	_	_	3	mod	_	_
+5	zur	zur	PROPN	_	_	7	comp:obl	_	_
+6	Frau	Frau	PROPN	_	_	5	comp:obj	_	_
+7	geeilt	eilen	ADJ	_	_	3	comp:aux	_	_
+8	um	um	ADP	_	_	7	mod	_	_
+9	ihr	ihr	DET	_	_	11	comp:obj	_	_
+10	zu	zu	PART	_	_	8	comp:obj	_	_
+11	helfen	helfen	VERB	_	_	10	comp:obj	_	_
+12	und	und	CCONJ	_	_	15	cc	_	_
+13	den	d	DET	_	_	14	det	_	_
+14	Ball	Ball	NOUN	_	_	15	comp:obj	_	_
+15	aufzunehmen	aufnehmen	VERB	_	_	10	conj	_	_
+
+# text = daraufhin aber äh kam ein Auto äh auf den hinzu der allerdings dann angehalten hat rechzeitig
+1	daraufhin	daraufhin	ADV	_	_	4	mod	_	_
+2	aber	aber	ADV	_	_	4	mod	_	_
+3	äh	äh	ADV	_	_	4	discourse	_	_
+4	kam	kommen	VERB	_	_	0	root	_	_
+5	ein	ein	DET	_	_	6	det	_	_
+6	Auto	Auto	NOUN	_	_	4	subj	_	_
+7	äh	äh	ADV	_	_	4	discourse	_	_
+8	auf	auf	ADP	_	_	4	comp:obl	_	_
+9	den	die	DET	_	_	8	comp:obj	_	_
+10	hinzu	hinzu	ADV	_	_	4	compound@prt	_	_
+11	der	die	DET	_	_	15	subj	_	_
+12	allerdings	allerdings	ADV	_	_	15	mod	_	_
+13	dann	dann	ADV	_	_	15	mod	_	_
+14	angehalten	anhalten	VERB	_	_	15	comp:aux	_	_
+15	hat	haben	AUX	_	_	9	mod@relcl	_	_
+16	rechzeitig	rechzeitig	ADJ	_	_	15	mod	_	_
+
+# text = ist niemand verletzt sozusagen
+1	ist	sein	VERB	_	_	0	root	_	_
+2	niemand	niemand	PRON	_	_	1	subj	_	_
+3	verletzt	verletzen	VERB	_	_	1	comp:pred	_	_
+4	sozusagen	sozusagen	ADV	_	_	1	mod	_	_
+
+# text = äh das Auto war blau
+1	äh	äh	ADJ	_	_	4	discourse	_	_
+2	das	d	DET	_	_	3	det	_	_
+3	Auto	Auto	NOUN	_	_	4	subj	_	_
+4	war	sein	VERB	_	_	0	root	_	_
+5	blau	blau	ADJ	_	_	4	comp:pred	_	_
+
+# text = hinter ihm allerdings war ein weißes Auto
+1	hinter	hinter	ADP	_	_	4	comp:pred	_	_
+2	ihm	er	PRON	_	_	1	comp:obj	_	_
+3	allerdings	allerdings	ADV	_	_	4	mod	_	_
+4	war	sein	VERB	_	_	0	root	_	_
+5	ein	ein	DET	_	_	7	det	_	_
+6	weißes	weiß	ADJ	_	_	7	mod	_	_
+7	Auto	Auto	NOUN	_	_	4	subj	_	_
+
+# text = äh wahrscheinlich konnte der Mann nicht schnell genug reagieren
+1	äh	äh	ADJ	_	_	3	discourse	_	_
+2	wahrscheinlich	wahrscheinlich	ADJ	_	_	3	mod	_	_
+3	konnte	können	AUX	_	_	0	root	_	_
+4	der	d	DET	_	_	5	det	_	_
+5	Mann	Mann	NOUN	_	_	3	subj	_	_
+6	nicht	nicht	PART	_	_	7	mod	_	_
+7	schnell	schnell	ADJ	_	_	3	mod	_	_
+8	genug	genug	ADV	_	_	7	mod	_	_
+9	reagieren	reagieren	VERB	_	_	3	comp:aux	_	_
+
+# text = und ist halt äh reingefahren
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	ist	sein	VERB	_	_	0	root	_	_
+3	halt	halt	ADV	_	_	2	discourse	_	_
+4	äh	äh	ADJ	_	_	2	discourse	_	_
+5	reingefahren	reingefahren	VERB	_	_	2	comp:aux	_	_
+
+# text = und die beiden sind dann ausgestiegen
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	die	d	DET	_	_	3	det	_	_
+3	beiden	beide	PRON	_	_	4	subj	_	_
+4	sind	sein	AUX	_	_	0	root	_	_
+5	dann	dann	ADV	_	_	4	mod	_	_
+6	ausgestiegen	aussteigen	VERB	_	_	4	comp:aux	_	_
+
+# text = und haben dann die Polizei angerufen um das irgendwie zu klären
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	haben	haben	VERB	_	_	0	root	_	_
+3	dann	dann	ADV	_	_	2	mod	_	_
+4	die	d	DET	_	_	5	det	_	_
+5	Polizei	Polizei	NOUN	_	_	6	comp:obj	_	_
+6	angerufen	anrufen	VERB	_	_	2	comp:aux	_	_
+7	um	um	ADP	_	_	6	mod	_	_
+8	das	die	DET	_	_	11	comp:obj	_	_
+9	irgendwie	irgendwie	ADV	_	_	11	mod	_	_
+10	zu	zu	PART	_	_	7	comp:obj	_	_
+11	klären	klären	VERB	_	_	10	comp:obj	_	_
+

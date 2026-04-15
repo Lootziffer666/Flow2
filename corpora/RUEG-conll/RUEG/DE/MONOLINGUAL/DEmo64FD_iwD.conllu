@@ -1,0 +1,49 @@
+# text = Habe einfach gerade gesehen wie zwei Autos zusammengeknallt sind weil so ein Typ beim dribbeln der Fußball heruntergefallen ist und so ein kleiner Hund vor das Auto gerannt ist .
+1	Habe	haben	AUX	VAFIN	_	0	root	_	_
+2	einfach	einfach	ADV	PTKMA	_	1	mod	_	_
+3	gerade	gerade	ADV	ADJD	_	1	mod	_	_
+4	gesehen	sehen	VERB	VVPP	_	1	comp:aux	_	_
+5	wie	wie	ADV	KOUS	_	4	comp:obj	_	_
+6	zwei	zwei	NUM	CARD	_	7	mod	_	_
+7	Autos	Auto	NOUN	NN	_	9	subj	_	_
+8	zusammengeknallt	zusammenknallen	VERB	VVPP	_	9	comp:aux	_	_
+9	sind	sein	AUX	VAFIN	_	5	comp:obj	_	_
+10	weil	weil	SCONJ	SEDM	_	8	mod	_	_
+11	so	so	ADV	PTKIFG	_	13	mod	_	_
+12	ein	ein	DET	ART	_	13	det	_	_
+13	Typ	Typ	NOUN	NN	_	18	comp:obj	_	_
+14	beim	bei	ADV	APPRART	_	18	mod	_	_
+15	Dribbeln	Dribbeln	NOUN	NN	_	14	comp:obj	_	_
+16	der	d	DET	ART	_	17	det	_	_
+17	Fußball	Fußball	NOUN	NN	_	19	subj	_	_
+18	heruntergefallen	herunterfallen	VERB	VVPP	_	19	comp:aux	_	_
+19	ist	sein	AUX	VAFIN	_	10	comp:obj	_	_
+20	und	und	CCONJ	KON	_	29	cc	_	_
+21	so	so	ADV	PTKIFG	_	24	mod	_	_
+22	ein	ein	DET	ART	_	24	det	_	_
+23	kleiner	klein	ADJ	ADJA	_	24	mod	_	_
+24	Hund	Hund	NOUN	NN	_	29	subj	_	_
+25	vor	vor	ADP	APPR	_	28	comp:obl	_	_
+26	das	d	DET	ART	_	27	det	_	_
+27	Auto	Auto	NOUN	NN	_	25	comp:obj	_	_
+28	gerannt	rennen	VERB	VVPP	_	29	comp:aux	_	_
+29	ist	sein	AUX	VAFIN	_	19	conj	_	_
+30	.	.	PUNCT	$.	_	1	punct	_	_
+
+# text = Aber dem ist zum Glück nichts passiert außer dass das Auto jetzt Schrott ist lol
+1	Aber	aber	ADV	KON	_	3	cc	_	_
+2	dem	d	DET	PDS	_	7	comp:obj	_	_
+3	ist	sein	AUX	VAFIN	_	0	root	_	_
+4	zum	zu	PROPN	APPRART	_	7	mod	_	_
+5	Glück	Glück	PROPN	NN	_	4	comp:obj	_	_
+6	nichts	nichts	PRON	PIS	_	3	subj	_	_
+7	passiert	passieren	VERB	VVPP	_	3	comp:aux	_	_
+8	außer	außer	ADP	KOUS	_	7	mod	_	_
+9	dass	dass	DET	KOUS	_	8	comp:obj	_	_
+10	das	d	DET	ART	_	11	det	_	_
+11	Auto	Auto	NOUN	NN	_	14	subj	_	_
+12	jetzt	jetzt	ADV	ADV	_	14	mod	_	_
+13	Schrott	Schrott	PROPN	NN	_	14	comp:pred	_	_
+14	ist	sein	PROPN	VAFIN	_	9	comp:obj	_	_
+15	lol	lol	PROPN	NGAKW	_	3	discourse	_	_
+

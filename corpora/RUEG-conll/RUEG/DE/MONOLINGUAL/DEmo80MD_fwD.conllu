@@ -1,0 +1,157 @@
+1	Unfall	Unfall	NOUN	NN	_	0	root	_	_
+2	mit	mit	ADP	APPR	_	1	mod	_	_
+3	Sachbeschädigung	Sachbeschädigung	NOUN	NN	_	2	comp:obj	_	_
+4	vom	vom	PROPN	APPRART	_	1	mod	_	_
+5	16.12.2019	@card@	NUM	CARD	_	4	comp:obj	_	_
+
+1	Fallnummer	Fallnummer	NOUN	NN	_	0	root	_	_
+2	:	:	PUNCT	$.	_	1	punct	_	_
+
+1	F16	F16	NUM	NE	_	2	compound	_	_
+2	Zeuge	Zeuge	NOUN	NN	_	0	root	_	_
+3	:	:	PUNCT	$.	_	2	punct	_	_
+4	DEmo80MD	DEmo80MD	PROPN	NE	_	2	orphan	_	_
+
+1	Der	Der	DET	ART	_	2	det	_	_
+2	Tathergang	Tathergang	NOUN	NN	_	13	subj	_	_
+3	vom	vom	PROPN	APPRART	_	2	mod@poss	_	_
+4	Auffahrunfall	Auffahrunfall	NOUN	NN	_	3	comp:obj	_	_
+5	mit	mit	ADP	APPR	_	4	mod	_	_
+6	Sachbeschädigung	Sachbeschädigung	NOUN	NN	_	5	comp:obj	_	_
+7	am	am	ADJ	APPRART	_	4	mod	_	_
+8	16.12.19	@card@	NUM	CARD	_	7	comp:obj	_	_
+9	mit	mit	ADP	APPR	_	4	mod	_	_
+10	der	d	DET	ART	_	11	det	_	_
+11	Fallnummer	Fallnummer	NOUN	NN	_	9	comp:obj	_	_
+12	F16	F16	PROPN	NE	_	11	appos	_	_
+13	lautet	lauten	VERB	VVFIN	_	0	root	_	_
+14	wie	wie	PART	PWAV	_	15	mod	_	_
+15	folgt	folgen	VERB	VVFIN	_	13	comp:obj	_	_
+16	:	:	PUNCT	$.	_	13	punct	_	_
+
+1	Der	d	DET	ART	_	2	det	_	_
+2	Zeuge	Zeuge	NOUN	NN	_	4	subj	_	_
+3	DEmo80MD	DEmo80MD	PROPN	NE	_	2	appos	_	_
+4	befand	befinden	VERB	VVFIN	_	0	root	_	_
+5	sich	er|es|sie	PRON	PRF	_	4	comp:obj	_	_
+6	zum	zum	NOUN	APPRART	_	4	mod	_	_
+7	Zeitpunkt	Zeitpunkt	NOUN	NN	_	6	comp:obj	_	_
+8	des	d	DET	ART	_	9	det	_	_
+9	Unfalls	Unfall	NOUN	NN	_	7	mod	_	_
+10	vor	vor	ADP	APPR	_	4	comp:obl	_	_
+11	Ort	Ort	NOUN	NN	_	10	comp:obj	_	_
+12	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	Laut	laut	ADP	ADV	_	5	mod	_	_
+2	Aussage	Aussage	NOUN	NN	_	1	comp:obj	_	_
+3	des	d	DET	ART	_	4	det	_	_
+4	Zeugens	Zeugen	NOUN	NN	_	2	mod@poss	_	_
+5	befand	befinden	VERB	VVFIN	_	0	root	_	_
+6	sich	er|es|sie	PRON	PRF	_	5	comp:obj	_	_
+7	ein	ein	DET	ART	_	8	det	_	_
+8	Mann	Mann	NOUN	NN	_	5	subj	_	_
+9	in	in	ADP	APPR	_	5	comp:obl	_	_
+10	der	d	DET	ART	_	11	det	_	_
+11	Situation	Situation	NOUN	NN	_	9	comp:obj	_	_
+12	beim	beim	ADV	APPRART	_	11	mod	_	_
+13	Überqueren	Überqueren	NOUN	NN	_	12	comp:obj	_	_
+14	der	d	DET	ART	_	15	det	_	_
+15	Unfallstraße	Unfallstraße	PROPN	NN	_	13	mod@poss	_	_
+16	.	.	PUNCT	$.	_	5	punct	_	_
+
+1	Dieser	diese	PRON	PDS	_	2	subj	_	_
+2	spielte	spielen	VERB	VVFIN	_	0	root	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	einem	ein	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+6	,	,	PUNCT	$,	_	2	punct	_	_
+7	welcher	welche	PRON	PWS	_	12	subj	_	_
+8	ihm	er	PROPN	APPRART	_	9	reparandum	_	_
+9	auf	auf	ADP	APPR	_	12	comp:obl	_	_
+10	die	d	DET	ART	_	11	det	_	_
+11	Straße	Straße	NOUN	NN	_	9	comp:obj	_	_
+12	fiel	fallen	VERB	VVFIN	_	5	mod@relcl	_	_
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Auf	auf	ADP	APPR	_	7	mod	_	_
+2	der	d	DET	ART	_	4	det	_	_
+3	anderen	ander	ADJ	PIDAT	_	4	mod	_	_
+4	Seite	Seite	NOUN	NN	_	1	comp:obj	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Straße	Straße	PROPN	NN	_	4	mod@poss	_	_
+7	befand	befinden	VERB	VVFIN	_	0	root	_	_
+8	sich	er|es|sie	PRON	PRF	_	7	comp:obj	_	_
+9	ein	ein	DET	ART	_	10	det	_	_
+10	Hund	Hund	NOUN	NN	_	7	subj	_	_
+11	der	d	PRON	ART	_	17	subj	_	_
+12	den	d	DET	ART	_	13	det	_	_
+13	Ball	Ball	NOUN	NN	_	17	comp:obj	_	_
+14	wohlmöglich	wohlmöglich	ADJ	ADJD	_	17	mod	_	_
+15	als	als	ADP	KOKOM	_	17	mod	_	_
+16	Bedrohung	Bedrohung	NOUN	NN	_	15	comp:obj	_	_
+17	ansah	ansehen	VERB	VVFIN	_	10	mod@relcl	_	_
+18	und	und	CCONJ	KON	_	22	cc	_	_
+19	auf	auf	ADP	APPR	_	22	comp:obl	_	_
+20	die	d	DET	ART	_	21	det	_	_
+21	Straße	Straße	NOUN	NN	_	19	comp:obj	_	_
+22	rannte	rennen	VERB	VVFIN	_	17	conj	_	_
+23	.	.	PUNCT	$.	_	7	punct	_	_
+
+1	Dies	dies	PRON	PDS	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Anlass	Anlass	NOUN	NN	_	2	comp:pred	_	_
+5	für	für	ADP	VVFIN	_	4	mod	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Fahrer	Fahrer	NOUN	NN	_	5	comp:obj	_	_
+8	des	d	DET	ART	_	12	det	_	_
+9	bereits	bereits	ADV	ADV	_	10	mod	_	_
+10	herangefahrenen	heranfahrend	ADJ	ADJA	_	12	mod	_	_
+11	blauen	blau	ADJ	ADJA	_	12	mod	_	_
+12	Kleinwagens	Kleinwagen	NOUN	NN	_	7	mod@poss	_	_
+13	stark	stark	ADJ	ADJD	_	14	mod	_	_
+14	abzubremsen	abbremsen	VERB	VVIZU	_	4	mod	_	_
+15	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Das	d	DET	PDS	_	4	det	_	_
+2	darauf	darauf	ADV	ADV	_	3	mod	_	_
+3	folgende	folgend	ADJ	ADJA	_	4	mod	_	_
+4	Fahrzeug	Fahrzeug	NOUN	NN	_	5	subj	_	_
+5	war	sein	VERB	VAFIN	_	0	root	_	_
+6	dadurch	dadurch	ADV	ADV	_	5	mod	_	_
+7	ebenfalls	ebenfalls	ADV	ADV	_	5	mod	_	_
+8	gezwungen	zwingen	VERB	VVPP	_	5	comp:pred	_	_
+9	zu	zu	PART	PTKZU	_	8	comp:obj	_	_
+10	bremsen	bremsen	VERB	VVINF	_	9	comp:obj	_	_
+11	.	.	PUNCT	$.	_	5	punct	_	_
+
+1	Allerdings	allerdings	ADV	ADV	_	2	mod	_	_
+2	misslang	misslingen	ADJ	VVFIN	_	0	root	_	_
+3	dieser	dies	PRON	PDAT	_	4	det	_	_
+4	Versuch	Versuch	NOUN	NN	_	2	subj	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	_	3	subj@expl	_	_
+3	kam	kommen	PROPN	VVFIN	_	0	root	_	_
+4	zum	zum	PROPN	APPRART	_	3	comp:obl	_	_
+5	Zusammenstoß	Zusammenstoß	NOUN	NN	_	4	comp:obj	_	_
+6	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	Ich	ich	PRON	PPER	_	2	subj	_	_
+2	hoffe	hoffen	VERB	VVFIN	_	0	root	_	_
+3	die	d	DET	ART	_	4	det	_	_
+4	Aussage	Aussage	NOUN	NN	_	5	subj	_	_
+5	kann	können	AUX	VMFIN	_	2	comp:obj	_	_
+6	zur	zur	NOUN	APPRART	_	10	comp:obl	_	_
+7	Aufklärung	Aufklärung	NOUN	NN	_	6	comp:obj	_	_
+8	des	d	DET	ART	_	9	det	_	_
+9	Falls	Fall	NOUN	NN	_	7	mod@poss	_	_
+10	beitragen	beitragen	VERB	VVINF	_	5	comp:aux	_	_
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Mit	mit	ADP	APPR	_	0	root	_	_
+2	freundlichen	freundlich	ADJ	ADJA	_	3	mod	_	_
+3	Grüßen	Gruß	NOUN	NN	_	1	comp:obj	_	_
+
+1	DEmo80MD	DEmo80MD	PROPN	NE	_	0	root	_	_
+

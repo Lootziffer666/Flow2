@@ -1,0 +1,151 @@
+# text = F16
+1	F16	F16	NOUN	_	_	0	root	_	_
+
+# text = hallo
+1	hallo	hallo	X	_	_	0	root	_	_
+
+# text = ich heiße DEbi68MT
+1	ich	ich	PRON	_	_	2	subj	_	_
+2	heiße	heiße	PROPN	_	_	0	root	_	_
+3	DEbi68MT	DEbi68MT	PROPN	_	_	2	comp:pred	_	_
+
+# text = ich bin der Zeuge
+1	ich	ich	PRON	_	_	2	subj	_	_
+2	bin	sein	VERB	_	_	0	root	_	_
+3	der	d	DET	_	_	4	det	_	_
+4	Zeuge	Zeuge	NOUN	_	_	2	comp:pred	_	_
+
+# text = ich war halt mit dabei
+1	ich	ich	PRON	_	_	2	subj	_	_
+2	war	sein	VERB	_	_	0	root	_	_
+3	halt	halt	ADV	_	_	2	discourse	_	_
+4	mit	mit	ADP	_	_	5	mod	_	_
+5	dabei	dabei	ADV	_	_	2	comp:pred	_	_
+
+# text = ich habe gesehen wie ein Kind mit seiner Mutter anscheinend durch den Park gelaufen ist
+1	ich	ich	PRON	_	_	2	subj	_	_
+2	habe	haben	AUX	_	_	0	root	_	_
+3	gesehen	sehen	VERB	_	_	2	comp:aux	_	_
+4	wie	wie	ADV	_	_	3	comp:obj	_	_
+5	ein	ein	DET	_	_	6	det	_	_
+6	Kind	Kind	NOUN	_	_	14	subj	_	_
+7	mit	mit	ADP	_	_	6	mod	_	_
+8	seiner	sein	DET	_	_	9	det	_	_
+9	Mutter	Mutter	NOUN	_	_	7	comp:obj	_	_
+10	anscheinend	anscheinend	ADV	_	_	15	mod	_	_
+11	durch	durch	ADP	_	_	14	comp:obl	_	_
+12	den	d	DET	_	_	13	det	_	_
+13	Park	Park	PROPN	_	_	11	comp:obj	_	_
+14	gelaufen	laufen	VERB	_	_	15	comp:aux	_	_
+15	ist	sein	AUX	_	_	4	comp:obj	_	_
+
+# text = und er hatte einen Ball in der Hand
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	er	er	PRON	_	_	3	subj	_	_
+3	hatte	haben	VERB	_	_	0	root	_	_
+4	einen	ein	DET	_	_	5	det	_	_
+5	Ball	Ball	NOUN	_	_	3	comp:obj	_	_
+6	in	in	ADP	_	_	3	mod	_	_
+7	der	d	DET	_	_	8	det	_	_
+8	Hand	Hand	NOUN	_	_	6	comp:obj	_	_
+
+# text = als sie über die Straße gelaufen sind hat er dem Ball halt aus seiner Hand fallen lassen
+1	als	als	SCONJ	_	_	16	mod	_	_
+2	sie	sie	PRON	_	_	7	subj	_	_
+3	über	über	ADP	_	_	6	comp:obl	_	_
+4	die	d	DET	_	_	5	det	_	_
+5	Straße	Straße	NOUN	_	_	3	comp:obj	_	_
+6	gelaufen	laufen	VERB	_	_	7	comp:aux	_	_
+7	sind	sein	AUX	_	_	1	comp:obj	_	_
+8	hat	haben	AUX	_	_	0	root	_	_
+9	er	er	PRON	_	_	8	subj	_	_
+10	dem	d	DET	_	_	11	det	_	_
+11	Ball	Ball	NOUN	_	_	16	comp:obj	_	_
+12	halt	halt	VERB	_	_	8	discourse	_	_
+13	aus	aus	ADP	_	_	16	mod	_	_
+14	seiner	sein	DET	_	_	15	det	_	_
+15	Hand	Hand	NOUN	_	_	13	comp:obj	_	_
+16	fallen	fallen	VERB	_	_	17	comp:obj	_	_
+17	lassen	lassen	VERB	_	_	8	comp:aux	_	_
+
+# text = ist über die Straße gerollt
+1	ist	sein	VERB	_	_	0	root	_	_
+2	über	über	ADP	_	_	5	comp:obl	_	_
+3	die	d	DET	_	_	4	det	_	_
+4	Straße	Straße	NOUN	_	_	2	comp:obj	_	_
+5	gerollt	rollen	ADJ	_	_	1	comp:aux	_	_
+
+# text = da war halt eine Frau mit seinem Hund
+1	da	da	ADV	_	_	2	comp:pred	_	_
+2	war	sein	VERB	_	_	0	root	_	_
+3	halt	halt	ADV	_	_	2	discourse	_	_
+4	eine	eine	DET	_	_	5	det	_	_
+5	Frau	Frau	NOUN	_	_	2	subj	_	_
+6	mit	mit	ADP	_	_	5	mod	_	_
+7	seinem	sein	DET	_	_	8	det	_	_
+8	Hund	Hund	NOUN	_	_	6	comp:obj	_	_
+
+# text = und sie war halt einkaufen
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	sie	sie	PRON	_	_	3	subj	_	_
+3	war	sein	AUX	_	_	0	root	_	_
+4	halt	halt	ADV	_	_	3	discourse	_	_
+5	einkaufen	einkaufen	VERB	_	_	3	comp:aux	_	_
+
+# text = dann als der Hund den Ball plötzlich gesehen hat hat der angefangen den Ball anzugreifen
+1	dann	dann	ADV	_	_	10	mod	_	_
+2	als	als	ADP	_	_	12	mod	_	_
+3	der	d	DET	_	_	4	det	_	_
+4	Hund	Hund	NOUN	_	_	9	subj	_	_
+5	den	d	DET	_	_	6	det	_	_
+6	Ball	Ball	NOUN	_	_	8	comp:obj	_	_
+7	plötzlich	plötzlich	ADJ	_	_	9	mod	_	_
+8	gesehen	sehen	VERB	_	_	9	comp:aux	_	_
+9	hat	haben	AUX	_	_	2	comp:obj	_	_
+10	hat	haben	AUX	_	_	0	root	_	_
+11	der	die	DET	_	_	12	subj	_	_
+12	angefangen	anfangen	NOUN	_	_	10	comp:aux	_	_
+13	den	d	DET	_	_	14	det	_	_
+14	Ball	Ball	NOUN	_	_	15	comp:obj	_	_
+15	anzugreifen	angreifen	VERB	_	_	12	comp:obj	_	_
+
+# text = und da kamen später zwei Autos hintereinander
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	da	da	ADV	_	_	3	mod	_	_
+3	kamen	kommen	VERB	_	_	0	root	_	_
+4	später	später	ADJ	_	_	3	mod	_	_
+5	zwei	zwei	NUM	_	_	6	mod	_	_
+6	Autos	Auto	NOUN	_	_	3	subj	_	_
+7	hintereinander	hintereinander	ADV	_	_	3	mod	_	_
+
+# text = hat dann den Vorfall gesehen
+1	hat	haben	AUX	_	_	0	root	_	_
+2	dann	dann	ADV	_	_	1	mod	_	_
+3	den	d	DET	_	_	4	det	_	_
+4	Vorfall	Vorfall	NOUN	_	_	5	comp:obj	_	_
+5	gesehen	sehen	VERB	_	_	1	comp:aux	_	_
+
+# text = und der vordere Auto ist halt stehen geblieben
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	der	d	DET	_	_	4	det	_	_
+3	vordere	vorder	ADJ	_	_	4	mod	_	_
+4	Auto	Auto	NOUN	_	_	5	subj	_	_
+5	ist	sein	AUX	_	_	0	root	_	_
+6	halt	halt	ADV	_	_	5	discourse	_	_
+7	stehen	stehen	VERB	_	_	8	comp:obj	_	_
+8	geblieben	bleiben	VERB	_	_	5	comp:aux	_	_
+
+# text = und der hintere ist dann halt dem vorderem Auto nach hinten gecrasht
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	der	d	DET	_	_	3	det	_	_
+3	hintere	hinter	ADJ	_	_	4	subj	_	_
+4	ist	sein	VERB	_	_	0	root	_	_
+5	dann	dann	ADV	_	_	4	mod	_	_
+6	halt	halt	ADV	_	_	4	discourse	_	_
+7	dem	d	DET	_	_	9	det	_	_
+8	vorderem	vorderem	PRON	_	_	9	mod	_	_
+9	Auto	Auto	NOUN	_	_	12	comp:obj	_	_
+10	nach	nach	ADP	_	_	12	mod	_	_
+11	hinten	hinten	ADV	_	_	10	comp:obj	_	_
+12	gecrasht	gecrasht	ADJ	_	_	4	comp:aux	_	_
+

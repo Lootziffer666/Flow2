@@ -1,0 +1,53 @@
+# text = ich bin heute an einem Verkehrsunfall vorbeigelaufen
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	bin	sein	VERB	VAFIN	_	0	root	_	_
+3	heute	heute	ADV	ADV	_	2	mod	_	_
+4	an	an	ADP	APPR	_	7	comp:obl	_	_
+5	einem	ein	DET	ART	_	6	det	_	_
+6	Verkehrsunfall	Verkehrsunfall	NOUN	NN	_	4	comp:obj	_	_
+7	vorbeigelaufen	vorbeilaufen	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = da war ein Mann
+1	da	da	ADV	ADV	_	2	comp:pred	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Mann	Mann	NOUN	NN	_	2	subj	_	_
+
+# text = der wollte die Straße überqueren
+1	der	d	DET	PDS	_	2	subj	_	_
+2	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+3	die	d	DET	ART	_	4	det	_	_
+4	Straße	Straße	NOUN	NN	_	5	comp:obj	_	_
+5	überqueren	überqueren	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = und da ist ein Hund in die andere Richtung gerannt
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	3	subj	_	_
+6	in	in	ADP	APPR	_	10	comp:obl	_	_
+7	die	d	DET	ART	_	9	det	_	_
+8	andere	ander	ADJ	PIDAT	_	9	mod	_	_
+9	Richtung	Richtung	NOUN	NN	_	6	comp:obj	_	_
+10	gerannt	rennen	ADJ	VVPP	_	3	comp:aux	_	_
+
+# text = und dabei musste ein Auto stark bremsen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dabei	dabei	ADV	ADV	_	3	mod	_	_
+3	musste	müssen	AUX	VMFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Auto	Auto	NOUN	NN	_	3	subj	_	_
+6	stark	stark	ADJ	ADJD	_	3	mod	_	_
+7	bremsen	bremsen	VERB	VVINF	_	3	comp:aux	_	_
+
+# text = des Auto dahinter ist mir einfach hinten draufgefahren
+1	des	d	DET	ART	_	2	det	_	_
+2	Auto	Auto	NOUN	NN	_	4	subj	_	_
+3	dahinter	dahinter	ADV	ADV	_	2	mod	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	mir	ich	PRON	PPER	_	8	comp:obj	_	_
+6	einfach	einfach	ADJ	PTKMA	_	4	mod	_	_
+7	hinten	hinten	ADV	ADV	_	4	mod	_	_
+8	draufgefahren	drauffahren	VERB	VVPP	_	4	comp:aux	_	_
+

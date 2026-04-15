@@ -1,0 +1,78 @@
+1	﻿Ein	﻿Ein	PROPN	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	ist	sein	AUX	VAFIN	_	0	root	_	_
+4	mit	mit	ADP	APPR	_	10	mod	_	_
+5	einem	ein	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	4	comp:obj	_	_
+7	in	in	ADP	APPR	_	6	mod	_	_
+8	der	d	DET	ART	_	9	det	_	_
+9	Hand	Hand	NOUN	NN	_	7	comp:obj	_	_
+10	gelaufen	laufen	VERB	VVPP	_	3	comp:aux	_	_
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	Am	an	PROPN	APPRART	_	3	mod	_	_
+2	Straßenrand	Straßenrand	PROPN	NN	_	1	comp:obj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	PROPN	NN	_	3	subj	_	_
+6	aus	aus	ADP	APPR	_	9	comp:obl	_	_
+7	seinen	sein	DET	PPOSAT	_	8	det	_	_
+8	Händen	Händen	NOUN	NN	_	6	comp:obj	_	_
+9	gefallen	fallen	VERB	VVPP	_	3	comp:aux	_	_
+10	und	und	CCONJ	KON	_	14	cc	_	_
+11	auf	auf	ADP	APPR	_	14	comp:obl	_	_
+12	die	d	DET	ART	_	13	det	_	_
+13	Straße	Straße	NOUN	NN	_	11	comp:obj	_	_
+14	gerollt	rollen	VERB	VVPP	_	3	conj	_	_
+15	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	Ein	ein	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	auf	auf	ADP	APPR	_	11	comp:obl	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Straße	Straße	NOUN	NN	_	4	comp:obj	_	_
+7	hinter	hinter	ADP	APPR	_	10	mod	_	_
+8	dem	d	DET	ART	_	9	det	_	_
+9	Ball	Ball	NOUN	NN	_	7	comp:obj	_	_
+10	her	her	ADV	ADV	_	3	mod	_	_
+11	gerannt	rennen	ADJ	VVPP	_	3	comp:aux	_	_
+12	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	Plötzlich	Plötzlich	ADJ	ADV	_	2	mod	_	_
+2	kam	kommen	VERB	VVFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	5	det	_	_
+4	blaues	blau	ADJ	ADJA	_	5	mod	_	_
+5	Auto	Auto	NOUN	NN	_	2	subj	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	musste	müssen	AUX	VMFIN	_	0	root	_	_
+3	eine	ein	DET	ART	_	4	det	_	_
+4	Vollbremse	Vollbremse	NOUN	NN	_	5	comp:obj	_	_
+5	machen	machen	VERB	VVINF	_	2	comp:aux	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Das	d	DET	ART	_	3	det	_	_
+2	weiße	weiß	ADJ	ADJA	_	3	mod	_	_
+3	Auto	Auto	NOUN	NN	_	7	subj	_	_
+4	hinter	hinter	ADP	APPR	_	3	mod	_	_
+5	dem	d	DET	ART	_	6	det	_	_
+6	blauen	blau	ADJ	ADJA	_	4	comp:obj	_	_
+7	hat	haben	AUX	VAFIN	_	0	root	_	_
+8	zu	zu	PART	PTKA	_	9	mod	_	_
+9	spät	spät	ADJ	ADJD	_	7	mod	_	_
+10	reagiert	reagieren	VERB	VVPP	_	7	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	das	d	DET	ART	_	5	det	_	_
+4	blaue	blau	ADJ	ADJA	_	5	mod	_	_
+5	Auto	Auto	NOUN	NN	_	6	comp:obj	_	_
+6	angestoßen	anstoßen	VERB	VVPP	_	2	comp:aux	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Es	es	PRON	PPER	_	2	subj@expl	_	_
+2	wurde	werden	AUX	VAFIN	_	0	root	_	_
+3	keiner	kein	PRON	PIS	_	2	subj@pass	_	_
+4	verletzt	verletzt	VERB	ADJD	_	2	comp:aux@pass	_	_
+5	.	.	PUNCT	$.	_	2	punct	_	_

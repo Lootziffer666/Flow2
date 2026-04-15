@@ -1,0 +1,272 @@
+1	hello	hello	INTJ	ITJ	_	0	root	_	_
+
+1	I	i	PRON	PNP	_	3	nsubj	_	_
+2	am	be	AUX	VBB	_	3	cop	_	_
+3	here	here	ADV	AV0	_	0	root	_	_
+4	to	to	PART	TO0	_	5	mark	_	_
+5	report	report	VERB	VVI	_	3	advcl	_	_
+6	the	the	DET	AT0	_	9	det	_	_
+7	incident	incident	NOUN	NN1	_	9	compound	_	_
+8	case	case	NOUN	NN1	_	9	compound	_	_
+9	number	number	NOUN	NN1	_	5	obj	_	_
+10	F16	F16	PROPN	NP0	_	9	compound	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	now	now	ADV	AV0	_	3	advmod	_	_
+3	let	let	VERB	VVB	_	0	root	_	_
+4	me	i	PRON	PNP	_	3	obj	_	_
+5	just	just	ADV	AV0	_	6	advmod	_	_
+6	begin	begin	VERB	VVI	_	3	xcomp	_	_
+7	as	as	SCONJ	CJS	_	8	mark	_	_
+8	follows	follow	VERB	VVZ	_	6	advcl	_	_
+
+1	I	i	PRON	PNP	_	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	_	3	aux:pass	_	_
+3	standing	stand	VERB	VVG	_	0	root	_	_
+4	in	in	ADP	PRP	_	6	case	_	_
+5	the	the	DET	AT0	_	6	det	_	_
+6	roadway	roadway	NOUN	NN1	_	3	obl	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	I	i	PRON	PNP	_	3	nsubj	_	_
+3	saw	see	VERB	VVD	_	5	conj	_	_
+4	what	what	DET	DTQ	_	5	det	_	_
+5	appeared	appear	VERB	VVD	_	0	root	_	_
+6	to	to	PART	TO0	_	10	mark	_	_
+7	be	be	AUX	VBI	_	10	cop	_	_
+8	like	like	ADP	PRP	_	10	case	_	_
+9	a	a	DET	AT0	_	10	det	_	_
+10	husband	husband	NOUN	NN1	_	5	advcl	_	_
+11	and	and	CCONJ	CJC	_	12	cc	_	_
+12	wife	wife	NOUN	NN1	_	10	conj	_	_
+
+1	they	they	PRON	PNP	_	2	nsubj	_	_
+2	were	be	AUX	VBD	_	0	root	_	_
+
+1	it	it	PRON	PNP	_	4	nsubj	_	_
+2	was	be	AUX	VBD	_	4	cop	_	_
+3	a	a	DET	AT0	_	4	det	_	_
+4	gentleman	gentleman	NOUN	NN1	_	0	root	_	_
+5	about	about	ADV	AV0	_	6	advmod	_	_
+6	six	six	NUM	CRD	_	7	nummod	_	_
+7	foot	foot	NOUN	NN1	_	4	advmod	_	_
+8	two	two	NUM	CRD	_	7	appos	_	_
+
+1	must	must	AUX	VM0	_	4	aux	_	_
+2	have	have	AUX	VHI	_	4	aux	_	_
+3	been	be	AUX	VBN	_	4	cop	_	_
+4	Slavic	slavic	ADJ	AJ0	_	0	root	_	_
+
+1	white	white	ADJ	AJ0	_	2	amod	_	_
+2	male	male	NOUN	NN1	_	0	root	_	_
+
+1	and	and	CCONJ	CJC	_	7	cc	_	_
+2	his	he	DET	DPS	_	3	det	_	_
+3	wife	wife	NOUN	NN1	_	7	nsubj	_	_
+4	was	be	AUX	VBD	_	7	cop	_	_
+5	a	a	DET	AT0	_	7	det	_	_
+6	white	white	ADJ	AJ0	_	7	amod	_	_
+7	female	female	NOUN	NN1	_	0	root	_	_
+8	about	about	ADV	AV0	_	9	advmod	_	_
+9	five	five	NUM	CRD	_	10	nummod	_	_
+10	nine	nine	NUM	CRD	_	7	advmod	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	they	they	PRON	PNP	_	4	nsubj:pass	_	_
+3	were	be	AUX	VBD	_	4	aux:pass	_	_
+4	walking	walk	VERB	VVG	_	0	root	_	_
+5	across	across	ADP	PRP	_	7	case	_	_
+6	the	the	DET	AT0	_	7	det	_	_
+7	street	street	NOUN	NN1	_	4	obl	_	_
+
+1	the	the	DET	AT0	_	2	det	_	_
+2	guy	guy	NOUN	NN1	_	4	nsubj	_	_
+3	was	be	AUX	VBD	_	4	cop	_	_
+4	playing	play	VERB	VVG	_	0	root	_	_
+5	the	the	DET	AT0	_	6	det	_	_
+6	ball	ball	NOUN	NN1	_	4	obj	_	_
+
+1	his	he	DET	DPS	_	2	det	_	_
+2	wife	wife	NOUN	NN1	_	4	nsubj	_	_
+3	was	be	AUX	VBD	_	4	cop	_	_
+4	pushing	push	VERB	VVG	_	0	root	_	_
+5	their	they	DET	DPS	_	6	det	_	_
+6	baby	baby	NOUN	NN1	_	4	obj	_	_
+7	out	out	ADP	PRP	_	4	compound:prt	_	_
+8	in	in	ADP	PRP	_	10	case	_	_
+9	the	the	DET	AT0	_	10	det	_	_
+10	middle	middle	NOUN	NN1	_	4	obl	_	_
+11	of	of	ADP	PRF	_	13	case	_	_
+12	the	the	DET	AT0	_	13	det	_	_
+13	street	street	NOUN	NN1	_	10	nmod	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	then	then	ADV	AV0	_	4	advmod	_	_
+3	the	the	DET	AT0	_	4	det	_	_
+4	ball	ball	NOUN	NN1	_	0	root	_	_
+5	he	he	PRON	PNP	_	7	nsubj	_	_
+6	accidentally	accidentally	ADV	AV0	_	7	advmod	_	_
+7	kicks	kick	VERB	VVZ	_	4	acl:relcl	_	_
+8	it	it	PRON	PNP	_	7	obj	_	_
+
+1	it	it	PRON	PNP	_	2	nsubj	_	_
+2	rolls	roll	VERB	VVZ	_	0	root	_	_
+3	into	into	ADP	PRP	_	5	case	_	_
+4	the	the	DET	AT0	_	5	det	_	_
+5	street	street	NOUN	NN1	_	2	obl	_	_
+
+1	at	at	ADP	PRP	_	4	case	_	_
+2	the	the	DET	AT0	_	4	det	_	_
+3	same	same	DET	DT0	_	4	det	_	_
+4	time	time	NOUN	NN1	_	9	obl	_	_
+5	there	there	ADV	EX0	_	9	advmod	_	_
+6	was	be	AUX	VBD	_	9	cop	_	_
+7	a	a	DET	AT0	_	8	det	_	_
+8	car	car	NOUN	NN1	_	9	nsubj	_	_
+9	approaching	approach	VERB	VVG	_	0	root	_	_
+
+1	looked	look	VERB	VVN	_	0	root	_	_
+2	like	like	ADP	PRP	_	7	case	_	_
+3	a	a	DET	AT0	_	7	det	_	_
+4	late	late	ADJ	AJ0	_	7	advmod	_	_
+5	two	two	NUM	CRD	_	6	nummod	_	_
+6	thousands	thousands	NUM	CRD	_	7	nummod	_	_
+7	Opel	opel	PROPN	NP0	_	1	obl	_	_
+8	if	if	SCONJ	CJS	_	12	mark	_	_
+9	I	i	PRON	PNP	_	12	nsubj	_	_
+10	am	be	AUX	VBB	_	12	cop	_	_
+11	not	not	PART	XX0	_	12	advmod	_	_
+12	mistaken	mistaken	ADJ	AJ0	_	1	advcl	_	_
+
+1	something	something	PRON	PNI	_	0	root	_	_
+2	I	i	PRON	PNP	_	6	nsubj	_	_
+3	have	have	AUX	VHB	_	6	aux	_	_
+4	not	not	PART	XX0	_	6	advmod	_	_
+5	really	really	ADV	AV0	_	6	advmod	_	_
+6	seen	see	VERB	VVN	_	1	acl:relcl	_	_
+7	around	around	ADP	PRP	_	8	case	_	_
+8	here	here	ADV	AV0	_	6	obl	_	_
+
+1	and	and	CCONJ	CJC	_	10	cc	_	_
+2	another	another	DET	DT0	_	4	det	_	_
+3	white	white	ADJ	AJ0	_	4	amod	_	_
+4	male	male	NOUN	NN1	_	10	nsubj	_	_
+5	bald	bald	ADJ	AJ0	_	10	advmod	_	_
+6	probably	probably	ADV	AV0	_	7	advmod	_	_
+7	five	five	NUM	CRD	_	10	advmod	_	_
+8	ten	ten	NUM	CRD	_	10	nsubj	_	_
+9	was	be	AUX	VBD	_	10	cop	_	_
+10	driving	drive	VERB	VVG	_	0	root	_	_
+11	that	that	DET	DT0	_	12	det	_	_
+12	vehicle	vehicle	NOUN	NN1	_	10	obj	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	anyways	anyways	ADV	AV0	_	4	advmod	_	_
+3	he	he	PRON	PNP	_	4	nsubj	_	_
+4	hit	hit	VERB	VVD	_	0	root	_	_
+5	the	the	DET	AT0	_	6	det	_	_
+6	brakes	brake	NOUN	NN2	_	4	obj	_	_
+7	because	because	SCONJ	CJS	_	10	mark	_	_
+8	the	the	DET	AT0	_	9	det	_	_
+9	ball	ball	NOUN	NN1	_	10	nsubj	_	_
+10	ran	run	VERB	VVD	_	4	advcl	_	_
+11	in	in	ADP	PRP	_	13	case	_	_
+12	the	the	DET	AT0	_	13	det	_	_
+13	street	street	NOUN	NN1	_	10	obl	_	_
+
+1	and	and	CCONJ	CJC	_	7	cc	_	_
+2	there	there	ADV	EX0	_	7	expl	_	_
+3	was	be	AUX	VBD	_	7	cop	_	_
+4	a	a	DET	AT0	_	5	det	_	_
+5	lady	lady	NOUN	NN1	_	7	nmod:poss	_	_
+6	's	's	PART	POS	_	5	case	_	_
+7	dog	dog	NOUN	NN1	_	0	root	_	_
+8	ran	run	VERB	VVD	_	7	parataxis	_	_
+9	out	out	ADP	AVP	_	8	compound:prt	_	_
+10	to	to	PART	TO0	_	11	mark	_	_
+11	chase	chase	VERB	VVI	_	8	advcl	_	_
+12	it	it	PRON	PNP	_	11	obj	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	she	she	PRON	PNP	_	3	nsubj	_	_
+3	dropped	drop	VERB	VVD	_	0	root	_	_
+4	her	she	DET	DPS	_	5	det	_	_
+5	crate	crate	NOUN	NN1	_	3	obj	_	_
+6	of	of	ADP	PRF	_	9	case	_	_
+7	fake	fake	ADJ	AJ0	_	9	amod	_	_
+8	orange	orange	NOUN	NN1	_	9	compound	_	_
+9	juice	juice	NOUN	NN1	_	5	nmod	_	_
+10	which	which	DET	DTQ	_	15	nsubj	_	_
+11	is	be	AUX	VBZ	_	15	cop	_	_
+12	also	also	ADV	AV0	_	15	advmod	_	_
+13	kind	kind	ADV	AV0	_	15	advmod	_	_
+14	of	of	ADP	PRF	_	13	fixed	_	_
+15	weird	weird	ADJ	AJ0	_	3	parataxis	_	_
+
+1	and	and	CCONJ	CJC	_	9	cc	_	_
+2	soon	soon	ADV	AV0	_	9	advmod	_	_
+3	as	as	SCONJ	CJS	_	9	mark	_	_
+4	the	the	DET	AT0	_	5	det	_	_
+5	gentleman	gentleman	NOUN	NN1	_	9	nsubj	_	_
+6	in	in	ADP	PRP	_	8	case	_	_
+7	the	the	DET	AT0	_	8	det	_	_
+8	Opel	opel	PROPN	NP0	_	5	nmod	_	_
+9	stopped	stop	VERB	VVD	_	0	root	_	_
+10	another	another	DET	DT0	_	11	det	_	_
+11	gentleman	gentleman	NOUN	NN1	_	9	obj	_	_
+12	who	who	PRON	PNQ	_	16	obj	_	_
+13	I	i	PRON	PNP	_	16	nsubj	_	_
+14	did	do	AUX	VDD	_	16	aux	_	_
+15	not	not	PART	XX0	_	16	advmod	_	_
+16	make	make	VERB	VVI	_	9	ccomp	_	_
+17	out	out	ADP	AVP	_	16	compound:prt	_	_
+18	so	so	ADV	AV0	_	16	advmod	_	_
+19	well	well	ADV	AV0	_	18	fixed	_	_
+20	but	but	CCONJ	CJC	_	22	cc	_	_
+21	he	he	PRON	PNP	_	22	nsubj	_	_
+22	looked	look	VERB	VVD	_	9	conj	_	_
+23	like	like	SCONJ	CJS	_	30	mark	_	_
+24	he	he	PRON	PNP	_	30	nsubj	_	_
+25	was	be	AUX	VBD	_	30	cop	_	_
+26	also	also	ADV	AV0	_	30	advmod	_	_
+27	of	of	ADP	PRF	_	30	case	_	_
+28	Eastern	eastern	ADJ	AJ0	_	30	amod	_	_
+29	European	european	ADJ	AJ0	_	30	amod	_	_
+30	descent	descent	NOUN	NN1	_	22	advcl	_	_
+31	looks	look	VERB	VVZ	_	22	advcl	_	_
+32	like	like	SCONJ	CJS	_	34	mark	_	_
+33	he	he	PRON	PNP	_	34	nsubj	_	_
+34	gave	give	VERB	VVD	_	31	advcl	_	_
+35	him	he	PRON	PNP	_	34	iobj	_	_
+36	a	a	DET	AT0	_	38	det	_	_
+37	fender	fender	NOUN	NN1	_	38	compound	_	_
+38	bender	bender	NOUN	NN1	_	34	obj	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	they	they	PRON	PNP	_	4	nsubj	_	_
+3	all	all	DET	DT0	_	2	det	_	_
+4	got	get	VERB	VVD	_	0	root	_	_
+5	out	out	ADP	AVP	_	4	compound:prt	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	they	they	PRON	PNP	_	4	nsubj	_	_
+3	were	be	AUX	VBD	_	4	cop	_	_
+4	talking	talk	VERB	VVG	_	0	root	_	_
+5	to	to	ADP	PRP	_	7	case	_	_
+6	each	each	DET	DT0	_	7	det	_	_
+7	other	other	NOUN	NN1	_	4	obl	_	_
+
+1	no	no	DET	AT0	_	2	det	_	_
+2	one	one	PRON	PNI	_	4	nsubj	_	_
+3	was	be	AUX	VBD	_	4	aux	_	_
+4	injured	injure	VERB	VVN	_	0	root	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	that	that	DET	DT0	_	5	nsubj	_	_
+3	is	be	AUX	VBZ	_	5	cop	_	_
+4	about	about	ADV	AV0	_	5	advmod	_	_
+5	it	it	PRON	PNP	_	0	root	_	_
+
+1	thank	thank	VERB	VVB	_	0	root	_	_
+2	you	you	PRON	PNP	_	1	obj	_	_
+

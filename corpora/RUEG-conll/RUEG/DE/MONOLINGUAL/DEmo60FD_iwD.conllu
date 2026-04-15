@@ -1,0 +1,45 @@
+1	Omg	Omg	ADJ	_	Degree=Pos	0	root	_	_
+
+1	Du	du	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	subj	_	_
+2	glaubst	glauben	ADV	_	Tense=Pres	0	root	_	_
+3	nicht	nicht	PART	_	_	2	mod	_	_
+
+1	Hier	hier	ADV	_	_	2	mod	_	_
+2	war	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	gerade	gerade	ADV	_	_	2	mod	_	_
+4	so	so	ADV	_	_	6	mod	_	_
+5	ein	ein	DET	_	Definite=Ind|PronType=Art	6	det	_	_
+6	Unfall	Unfall	NOUN	_	_	2	subj	_	_
+7	Schock	Schock	NOUN	_	_	2	parataxis	_	_
+8	des	d	DET	_	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Lebens	Leben	NOUN	_	Case=Gen|Gender=Masc,Neut|Number=Sing	7	mod@poss	_	_
+10	Aber	Aber	CCONJ	_	_	12	cc	_	_
+11	nichts	nichts	PRON	_	Number=Sing|PronType=Neg	12	subj	_	_
+12	passiert	passieren	VERB	_	Tense=Past|VerbForm=Part	2	parataxis	_	_
+13	Auf	Auf	ADP	_	_	2	comp:pred	_	_
+14	einem	ein	DET	_	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Parkplatz	Parkplatz	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	13	comp:obj	_	_
+
+1	Die	d	PRON	_	Case=Nom|PronType=Dem	2	subj	_	_
+2	haben	haben	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	aber	aber	ADV	_	_	2	mod	_	_
+4	schon	schon	ADV	_	_	2	mod	_	_
+5	Polizei	Polizei	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	comp:obj	_	_
+6	gerufen	rufen	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	comp:aux	_	_
+
+1	Safe	safe	ADJ	_	_	3	discourse	_	_
+2	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	baue	bauen	NOUN	_	Case=Nom|Gender=Masc,Neut|Number=Sing|Tense=Pres	0	root	_	_
+4	auch	auch	ADV	_	_	3	mod	_	_
+5	Unfälle	Unfall	NOUN	_	_	3	comp:obj	_	_
+6	wenn	wenn	SCONJ	_	_	3	mod	_	_
+7	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	subj	_	_
+8	Führerschein	Führerschein	NOUN	_	Case=Acc|Number=Sing	9	comp:obj	_	_
+9	hab	haben	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
+
+1	:face_with_tears_of_joy:	😂	SYM	_	_	0	root	_	_
+
+1	:face_with_tears_of_joy:	😂	SYM	_	_	0	root	_	_
+
+1	:face_with_tears_of_joy:	😂	SYM	_	_	0	root	_	_
+

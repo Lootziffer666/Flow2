@@ -1,0 +1,74 @@
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	heute	heute	ADV	ADV	_	2	mod	_	_
+4	an	an	ADP	APPR	_	2	comp:pred	_	_
+5	laufen	laufen	VERB	VVINF	_	4	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Autounfall	Autounfall	NOUN	NN	_	5	comp:obj	_	_
+5	beobachtet	beobachten	VERB	VVPP	_	2	comp:aux	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Da	da	ADV	ADV	_	2	mod	_	_
+2	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Mann	Mann	NOUN	NN	_	2	subj	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Straße	Straße	NOUN	NN	_	7	comp:obj	_	_
+7	überqueren	überqueren	VERB	VVINF	_	2	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	sein	sein	DET	PPOSAT	_	4	det	_	_
+4	Ball	Ball	NOUN	NN	_	5	comp:obj	_	_
+5	fallen	fallen	VERB	VVINF	_	6	comp:obj	_	_
+6	lassen	lassen	VERB	VVINF	_	2	comp:aux	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Daher	daher	ADV	ADV	_	2	mod	_	_
+2	musste	müssen	AUX	VMFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Auto	Auto	NOUN	NN	_	2	subj	_	_
+5	die	d	DET	PRELS	_	8	subj	_	_
+6	ihm	er	PRON	PPER	_	7	comp:obj	_	_
+7	entgegengekommen	entgegenkommen	VERB	VVPP	_	8	comp:aux	_	_
+8	ist	sein	AUX	VAFIN	_	4	mod@relcl	_	_
+9	vollbremsen	vollbremsen	PROPN	VVFIN	_	2	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	ihm	er	PRON	PPER	_	7	comp:obl	_	_
+5	jemand	jemand	PRON	PIS	_	3	subj	_	_
+6	hinten	hinten	ADV	ADV	_	7	mod	_	_
+7	hereingekracht	hereinkrachen	VERB	VVPP	_	3	comp:aux	_	_
+8	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	Ein	ein	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	3	subj	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	den	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	6	comp:obj	_	_
+6	nachgerennt	nachrennen	VERB	VVPP	_	3	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	daher	daher	ADV	ADV	_	3	mod	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Auto	Auto	NOUN	NN	_	3	subj	_	_
+6	wahrscheinlich	wahrscheinlich	ADJ	ADV	_	3	mod	_	_
+7	gebremst	bremsen	VERB	VVPP	_	3	comp:aux	_	_
+8	,	,	PUNCT	$,	_	3	punct	_	_
+
+1	sonst	sonst	ADV	ADV	_	2	mod	_	_
+2	hätte	hätte	AUX	VAFIN	_	0	root	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Fahrer	Fahrer	NOUN	NN	_	2	subj	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	8	comp:obj	_	_
+7	wahrscheinlich	wahrscheinlich	ADJ	ADV	_	2	mod	_	_
+8	überfahren	überfahren	VERB	VVPP	_	2	comp:aux	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+

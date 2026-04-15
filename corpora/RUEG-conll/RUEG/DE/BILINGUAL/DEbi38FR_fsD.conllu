@@ -1,0 +1,147 @@
+1	guten	gute	_	ADJA	_	2	mod	_	_
+2	Tag	Tag	_	NN	_	0	root	_	_
+
+1	DEbi38FR	DEbi38FR	_	NE	_	0	root	_	_
+
+1	ich	ich	_	PPER	_	2	subj	_	_
+2	rufe	rufen	_	VVFIN	_	0	root	_	_
+3	bezüglich	bezüglich	_	APPR	_	2	mod	_	_
+4	der	d	_	ART	_	5	det	_	_
+5	Fallnummer	Fallnummer	_	NN	_	3	comp:obj	_	_
+6	V	V	_	SPELL	_	5	appos	_	_
+7	16	@card@	_	CARD	_	6	flat	_	_
+8	an	an	_	PTKVZ	_	2	compound@prt	_	_
+9	um	um	_	KOUI	_	2	mod	_	_
+10	als	als	_	KOKOM	_	12	mod	_	_
+11	Zeuge	Zeuge	_	NN	_	10	comp:obj	_	_
+12	auszusprechen	aussprechen	_	VVIZU	_	9	comp:obj	_	_
+
+1	dabei	dabei	_	ADV	_	2	mod	_	_
+2	geht	gehen	_	VVFIN	_	0	root	_	_
+3	es	es	_	PPER	_	2	subj@expl	_	_
+4	um	um	_	APPR	_	2	comp:obl	_	_
+5	einen	ein	_	ART	_	6	det	_	_
+6	Unfall	Unfall	_	NN	_	4	comp:obj	_	_
+7	auf	auf	_	APPR	_	6	mod	_	_
+8	dem	d	_	ART	_	9	det	_	_
+9	Parkplatz	Parkplatz	_	NN	_	7	comp:obj	_	_
+10	des	d	_	ART	_	11	det	_	_
+11	Bezirks	Bezirk	_	NN	_	9	mod@poss	_	_
+12	Sonstiges	Sonstige	_	NN	_	11	appos	_	_
+
+1	dabei	dabei	_	ADV	_	2	mod	_	_
+2	ist	sein	_	VAFIN	_	0	root	_	_
+3	mir	ich	_	PPER	_	4	comp:obl	_	_
+4	aufgefallen	auffallen	_	VVPP	_	2	comp:aux	_	_
+5	dass	dass	_	KOUS	_	4	comp:obj	_	_
+6	auf	auf	_	APPR	_	19	comp:obl	_	_
+7	der	d	_	ART	_	9	det	_	_
+8	rechten	rechte	_	ADJA	_	9	mod	_	_
+9	Straßenseite	Straßenseite	_	NN	_	6	comp:obj	_	_
+10	ein	ein	_	ART	_	11	det	_	_
+11	Mann	Mann	_	NN	_	20	subj	_	_
+12	und	und	_	KON	_	14	cc	_	_
+13	eine	ein	_	ART	_	14	det	_	_
+14	Frau	Frau	_	NN	_	11	conj	_	_
+15	mit	mit	_	APPR	_	11	mod	_	_
+16	einem	ein	_	ART	_	17	det	_	_
+17	Kinderwagen	Kinderwagen	_	NN	_	15	comp:obj	_	_
+18	äh	äh	_	NGHES	_	2	discourse	_	_
+19	gelaufen	laufen	_	VVPP	_	20	comp:aux	_	_
+20	sind	sein	_	VAFIN	_	5	comp:obj	_	_
+21	und	und	_	KON	_	32	cc	_	_
+22	der	d	_	ART	_	23	det	_	_
+23	Mann	Mann	_	NN	_	32	subj	_	_
+24	leider	leider	_	ADV	_	32	mod	_	_
+25	einen	ein	_	ART	_	26	det	_	_
+26	Ball	Ball	_	NN	_	30	comp:obj	_	_
+27	auf	auf	_	APPR	_	30	comp:obl	_	_
+28	die	d	_	ART	_	29	det	_	_
+29	Straße	Straße	_	NN	_	27	comp:obj	_	_
+30	fallen	fallen	_	VVINF	_	31	comp:obj	_	_
+31	gelassen	lassen	_	VVPP	_	32	comp:aux	_	_
+32	hat	haben	_	VAFIN	_	20	conj	_	_
+
+1	äh	äh	_	NGHES	_	3	discourse	_	_
+2	dabei	dabei	_	ADV	_	3	mod	_	_
+3	musste	müssen	_	VMFIN	_	0	root	_	_
+4	das	d	_	ART	_	5	det	_	_
+5	Auto	Auto	_	NN	_	3	subj	_	_
+6	bremsen	bremsen	_	VVINF	_	3	comp:aux	_	_
+
+1	und	und	_	KON	_	9	cc	_	_
+2	äh	äh	_	NGHES	_	9	discourse	_	_
+3	die	d	_	ART	_	4	det	_	_
+4	Frau	Frau	_	NN	_	9	subj	_	_
+5	auf	auf	_	APPR	_	4	mod	_	_
+6	der	d	_	ART	_	8	det	_	_
+7	gegenüberliegenden	gegenüberliegenden	_	ADJA	_	8	mod	_	_
+8	Straßenseite	Straßenseite	_	NN	_	5	comp:obj	_	_
+9	hat	haben	_	VAFIN	_	0	root	_	_
+10	ihre	ihr	_	PPOSAT	_	11	det	_	_
+11	Einkaufstüte	Einkaufstüte	_	NN	_	12	comp:obj	_	_
+12	fallen	fallen	_	VVINF	_	13	comp:obj	_	_
+13	gelassen	lassen	_	VVPP	_	9	comp:aux	_	_
+14	woraufhin	woraufhin	_	PWAV	_	12	mod	_	_
+15	der	d	_	ART	_	16	det	_	_
+16	Mann	Mann	_	NN	_	21	subj	_	_
+17	auf	auf	_	APPR	_	20	comp:obl	_	_
+18	die	d	_	ART	_	19	det	_	_
+19	Straße	Straße	_	NN	_	17	comp:obj	_	_
+20	gerannt	rennen	_	VVPP	_	21	comp:aux	_	_
+21	ist	sein	_	VAFIN	_	14	comp:obj	_	_
+22	den	d	_	ART	_	23	det	_	_
+23	Ball	Ball	_	NN	_	25	comp:obj	_	_
+24	äh	äh	_	NGHES	_	9	discourse	_	_
+25	geholt	holen	_	VVPP	_	26	comp:aux	_	_
+26	hat	haben	_	VAFIN	_	21	conj	_	_
+27	und	und	_	KON	_	37	cc	_	_
+28	den	d	_	ART	_	29	det	_	_
+29	Einkauf	Einkauf	_	NN	_	36	comp:obj	_	_
+30	äh	äh	_	NGHES	_	9	discourse	_	_
+31	aus	aus	_	APPR	_	36	mod	_	_
+32	der	d	_	ART	_	34	det	_	_
+33	äh	äh	_	NGHES	_	9	discourse	_	_
+34	Spur	Spur	_	NN	_	31	comp:obj	_	_
+35	äh	äh	_	NGHES	_	9	discourse	_	_
+36	genommen	nehmen	_	VVPP	_	37	comp:aux	_	_
+37	hat	haben	_	VAFIN	_	26	conj	_	_
+
+1	das	d	_	ART	_	2	det	_	_
+2	Auto	Auto	_	NN	_	3	subj	_	_
+3	hat	haben	_	VAFIN	_	0	root	_	_
+4	gebremst	bremsen	_	VVPP	_	3	comp:aux	_	_
+
+1	äh	äh	_	NGHES	_	4	discourse	_	_
+2	der	d	_	ART	_	3	det	_	_
+3	Mann	Mann	_	NN	_	4	subj	_	_
+4	ist	sein	_	VAFIN	_	0	root	_	_
+5	zur	zu	_	APPRART	_	8	comp:obl	_	_
+6	Frau	Frau	_	NN	_	5	comp:obj	_	_
+7	äh	äh	_	NGHES	_	4	discourse	_	_
+8	hin	hin	_	ADV	_	4	comp:aux	_	_
+
+1	und	und	_	KON	_	2	cc	_	_
+2	hat	haben	_	VAFIN	_	0	root	_	_
+3	ihr	ihr	_	PPER	_	4	comp:obj	_	_
+4	geholfen	helfen	_	VVPP	_	2	comp:aux	_	_
+5	den	d	_	ART	_	6	det	_	_
+6	Einkauf	Einkauf	_	NN	_	10	comp:obj	_	_
+7	in	in	_	APPR	_	10	comp:obl	_	_
+8	die	d	_	ART	_	9	det	_	_
+9	Einkaufstüte	Einkaufstüte	_	NN	_	7	comp:obj	_	_
+10	zurückzupacken	zurückzupacken	_	VVIZU	_	4	comp:obl	_	_
+
+1	das	dies	_	PDS	_	2	subj	_	_
+2	war	sein	_	VAFIN	_	0	root	_	_
+3	es	es	_	PPER	_	2	comp:pred	_	_
+
+1	vielen	viele	_	ADJA	_	2	mod	_	_
+2	Dank	Dank	_	NN	_	0	root	_	_
+
+1	und	und	_	KON	_	4	cc	_	_
+2	einen	ein	_	ART	_	4	det	_	_
+3	schönen	schöne	_	ADJA	_	4	mod	_	_
+4	Tag	Tag	_	NN	_	0	root	_	_
+5	noch	noch	_	ADV	_	4	mod	_	_
+

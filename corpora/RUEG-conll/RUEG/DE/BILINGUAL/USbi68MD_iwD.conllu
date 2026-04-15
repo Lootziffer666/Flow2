@@ -1,0 +1,108 @@
+# text = Heute als ich von der Schule zurück kam sah ich ein Junge mit einem Ball und eine Frau die an der Straße entlang gingen .
+1	Heute	heute	ADV	ADV	_	8	mod	_	_
+2	als	als	ADP	KOUS	_	8	mod	_	_
+3	ich	ich	PRON	PPER	_	7	subj	_	_
+4	von	von	ADP	APPR	_	7	comp:obl	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Schule	Schule	NOUN	NN	_	4	comp:obj	_	_
+7	zurückkam	zurückkommen	VERB	VVFIN	_	2	comp:obj	_	_
+8	sah	sehen	VERB	VVFIN	_	0	root	_	_
+9	ich	ich	PRON	PPER	_	8	subj	_	_
+10	ein	ein	DET	ART	_	11	det	_	_
+11	Junge	Junge	NOUN	NN	_	8	comp:obj	_	_
+12	mit	mit	ADP	APPR	_	11	mod	_	_
+13	einem	ein	DET	ART	_	14	det	_	_
+14	Ball	Ball	NOUN	NN	_	12	comp:obj	_	_
+15	und	und	CCONJ	KON	_	17	cc	_	_
+16	eine	ein	DET	ART	_	17	det	_	_
+17	Frau	Frau	NOUN	NN	_	11	conj	_	_
+18	die	d	DET	PRELS	_	22	subj	_	_
+19	an	an	ADP	APPR	_	22	comp:obl	_	_
+20	der	d	DET	ART	_	21	det	_	_
+21	Straße	Straße	NOUN	NN	_	19	comp:obj	_	_
+22	entlanggingen	entlanggehen	VERB	VVFIN	_	11	mod@relcl	_	_
+23	.	.	PUNCT	$.	_	8	punct	_	_
+
+# text = Auf der anderen Straßenseite probierte eine andere Frau ihre Sachen ins Auto zu setzen .
+1	Auf	auf	ADP	APPR	_	5	mod	_	_
+2	der	d	DET	ART	_	4	det	_	_
+3	anderen	ander	ADJ	PIDAT	_	4	mod	_	_
+4	Straßenseite	Straßenseite	NOUN	NN	_	1	comp:obj	_	_
+5	probierte	probieren	VERB	VVFIN	_	0	root	_	_
+6	eine	ein	DET	ART	_	8	det	_	_
+7	andere	ander	ADJ	PIDAT	_	8	mod	_	_
+8	Frau	Frau	NOUN	NN	_	5	subj	_	_
+9	ihre	ihr	DET	PPOSAT	_	10	det	_	_
+10	Sachen	Sache	NOUN	NN	_	14	comp:obj	_	_
+11	ins	in	PROPN	APPRART	_	14	comp:obl	_	_
+12	Auto	Auto	PROPN	NN	_	11	comp:obj	_	_
+13	zu	zu	PART	PTKZU	_	5	comp:obj	_	_
+14	setzen	setzen	VERB	VVINF	_	13	comp:obj	_	_
+15	.	.	PUNCT	$.	_	5	punct	_	_
+
+# text = Die Junge war nicht der klügste
+1	Die	d	DET	ART	_	2	det	_	_
+2	Junge	Junge	NOUN	NN	_	3	subj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	nicht	nicht	PART	PTKNEG	_	3	mod	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	klügste	klug	ADJ	ADJA	_	3	comp:pred	_	_
+
+# text = denn er ließ den Ball auf seinem Fuß fallen
+1	denn	denn	CCONJ	KOUS	_	3	cc	_	_
+2	er	er	PRON	PPER	_	3	subj	_	_
+3	ließ	lassen	VERB	VVFIN	_	0	root	_	_
+4	den	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	9	comp:obj	_	_
+6	auf	auf	ADP	APPR	_	9	comp:obl	_	_
+7	seinem	sein	DET	PPOSAT	_	8	det	_	_
+8	Fuß	Fuß	NOUN	NN	_	6	comp:obj	_	_
+9	fallen	fallen	VERB	VVINF	_	3	comp:obj	_	_
+
+# text = und er rollt über die Straße .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	er	er	PRON	PPER	_	3	subj	_	_
+3	rollt	rollen	VERB	VVFIN	_	0	root	_	_
+4	über	über	ADP	APPR	_	3	comp:obl	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Straße	Straße	NOUN	NN	_	4	comp:obj	_	_
+7	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Zwei Autos kamen die Straße runter als der Ball über die Straße rollte
+1	Zwei	Zwei	NUM	CARD	_	2	mod	_	_
+2	Autos	Auto	NOUN	NN	_	3	subj	_	_
+3	kamen	kommen	VERB	VVFIN	_	0	root	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Straße	Straße	NOUN	NN	_	3	comp:obj	_	_
+6	runter	runter	ADJ	PTKVZ	_	3	compound@prt	_	_
+7	als	als	ADP	KOUS	_	3	mod	_	_
+8	der	d	DET	ART	_	9	det	_	_
+9	Ball	Ball	NOUN	NN	_	13	subj	_	_
+10	über	über	ADP	APPR	_	13	comp:obl	_	_
+11	die	d	DET	ART	_	12	det	_	_
+12	Straße	Straße	NOUN	NN	_	10	comp:obj	_	_
+13	rollte	rollen	VERB	VVFIN	_	7	comp:obj	_	_
+
+# text = und der erste bremste sehr schnell
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	erste	erst	NOUN	ORD	_	4	subj	_	_
+4	bremste	bremsen	VERB	VVFIN	_	0	root	_	_
+5	sehr	sehr	ADV	PTKIFG	_	6	mod	_	_
+6	schnell	schnell	ADJ	ADJD	_	4	mod	_	_
+
+# text = aber das Auto hinter ihm hat nicht schnell genug reagiert und ihn getroffen
+1	aber	aber	ADV	KON	_	6	cc	_	_
+2	das	d	DET	ART	_	3	det	_	_
+3	Auto	Auto	NOUN	NN	_	6	subj	_	_
+4	hinter	hinter	ADP	APPR	_	3	mod	_	_
+5	ihm	er	PRON	PPER	_	4	comp:obj	_	_
+6	hat	haben	AUX	VAFIN	_	0	root	_	_
+7	nicht	nicht	PART	PTKNEG	_	9	mod	_	_
+8	schnell	schnell	ADJ	ADJD	_	9	mod	_	_
+9	genug	genug	ADV	PTKMWL	_	6	mod	_	_
+10	reagiert	reagieren	VERB	VVPP	_	6	comp:aux	_	_
+11	und	und	CCONJ	KON	_	13	cc	_	_
+12	ihn	er	PRON	PPER	_	13	comp:obj	_	_
+13	getroffen	treffen	VERB	VVPP	_	6	conj	_	_
+

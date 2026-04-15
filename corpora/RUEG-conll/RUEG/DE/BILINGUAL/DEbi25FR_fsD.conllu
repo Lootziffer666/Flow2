@@ -1,0 +1,235 @@
+# text = hallo
+1	hallo	hallo	X	_	_	0	root	_	_
+
+# text = ich rufe an wegen des Autounfalls der sich auf dem Parkplatz auf dem Uni-Parkplatz oder so ereignet hatte dem Fall F16
+1	ich	ich	PRON	_	_	2	subj	_	_
+2	rufe	rufen	NOUN	_	_	0	root	_	_
+3	an	an	ADP	_	_	2	compound@prt	_	_
+4	wegen	wegen	ADP	_	_	2	mod	_	_
+5	des	d	DET	_	_	6	det	_	_
+6	Autounfalls	Autounfall	NOUN	_	_	4	comp:obj	_	_
+7	der	d	PRON	_	_	18	subj	_	_
+8	sich	er|es|sie	PRON	_	_	17	comp:obj	_	_
+9	auf	auf	ADP	_	_	17	mod	_	_
+10	dem	d	DET	_	_	11	det	_	_
+11	Parkplatz	Parkplatz	NOUN	_	_	9	comp:obj	_	_
+12	auf	auf	ADP	_	_	9	appos	_	_
+13	dem	d	DET	_	_	14	det	_	_
+14	Uni-Parkplatz	Uni-Parkplatz	NOUN	_	_	12	comp:obj	_	_
+15	oder	oder	CCONJ	_	_	16	cc	_	_
+16	so	so	ADV	_	_	14	conj	_	_
+17	ereignet	ereignen	VERB	_	_	18	comp:aux	_	_
+18	hatte	haben	VERB	_	_	6	mod@relcl	_	_
+19	dem	d	DET	_	_	20	det	_	_
+20	Fall	Fall	NOUN	_	_	6	appos	_	_
+21	F16	F16	PROPN	_	_	20	appos	_	_
+
+# text = äh ich war als Zeuge Zeuge anwesend
+1	äh	äh	ADJ	_	_	3	discourse	_	_
+2	ich	ich	PRON	_	_	3	subj	_	_
+3	war	sein	VERB	_	_	0	root	_	_
+4	als	als	ADP	_	_	3	mod	_	_
+5	Zeuge	Zeuge	NOUN	_	_	6	reparandum	_	_
+6	Zeuge	Zeuge	NOUN	_	_	4	comp:obj	_	_
+7	anwesend	anwesend	ADJ	_	_	3	comp:pred	_	_
+
+# text = und sollte hier anrufen um Bericht zu erstatten
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	sollte	sollen	AUX	_	_	0	root	_	_
+3	hier	hier	ADV	_	_	2	mod	_	_
+4	anrufen	anrufen	VERB	_	_	2	comp:aux	_	_
+5	um	um	ADP	_	_	4	mod	_	_
+6	Bericht	Bericht	NOUN	_	_	8	comp:obj	_	_
+7	zu	zu	PART	_	_	5	comp:obj	_	_
+8	erstatten	erstatten	VERB	_	_	7	comp:obj	_	_
+
+# text = äh weil der Parkplatz war sehr relativ leer und da stand ein Auto in aus dem eine eine Dame mit Hund ihre Einkäufe ausgeladen hat
+1	äh	äh	ADJ	_	_	5	discourse	_	_
+2	weil	weil	SCONJ	_	_	5	discourse	_	_
+3	der	d	DET	_	_	4	det	_	_
+4	Parkplatz	Parkplatz	NOUN	_	_	5	subj	_	_
+5	war	sein	VERB	_	_	0	root	_	_
+6	sehr	sehr	ADV	_	_	7	reparandum	_	_
+7	relativ	relativ	ADJ	_	_	8	mod	_	_
+8	leer	leer	ADJ	_	_	5	comp:pred	_	_
+
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	da	da	ADV	_	_	3	mod	_	_
+3	stand	stehen	VERB	_	_	0	root	_	_
+4	ein	ein	DET	_	_	5	det	_	_
+5	Auto	Auto	NOUN	_	_	3	subj	_	_
+6	in	in	ADP	_	_	7	reparandum	_	_
+7	aus	aus	ADP	_	_	16	comp:obl	_	_
+8	dem	d	DET	_	_	7	comp:obj	_	_
+9	eine	ein	DET	_	_	10	reparandum	_	_
+10	eine	ein	DET	_	_	11	det	_	_
+11	Dame	Dame	NOUN	_	_	17	subj	_	_
+12	mit	mit	ADP	_	_	11	mod	_	_
+13	Hund	Hund	NOUN	_	_	12	comp:obj	_	_
+14	ihre	ihr	DET	_	_	15	det	_	_
+15	Einkäufe	Einkauf	NOUN	_	_	16	comp:obj	_	_
+16	ausgeladen	ausladen	NOUN	_	_	17	comp:aux	_	_
+17	hat	haben	VERB	_	_	5	mod@relcl	_	_
+
+# text = äh gleichzeitig kam eine Mutter mit ihrem Sohn und einem Kinderwagen den Gehweg den gegenüberliegenden Gehweg entlang
+1	äh	äh	ADJ	_	_	3	discourse	_	_
+2	gleichzeitig	gleichzeitig	ADJ	_	_	3	mod	_	_
+3	kam	kommen	VERB	_	_	0	root	_	_
+4	eine	ein	DET	_	_	5	det	_	_
+5	Mutter	Mutter	NOUN	_	_	3	subj	_	_
+6	mit	mit	ADP	_	_	5	mod	_	_
+7	ihrem	ihr	DET	_	_	8	det	_	_
+8	Sohn	Sohn	NOUN	_	_	6	comp:obj	_	_
+9	und	und	CCONJ	_	_	11	cc	_	_
+10	einem	ein	DET	_	_	11	det	_	_
+11	Kinderwagen	Kinderwagen	NOUN	_	_	8	conj	_	_
+12	den	d	DET	_	_	13	det	_	_
+13	Gehweg	Gehweg	NOUN	_	_	3	comp:obj	_	_
+14	den	d	DET	_	_	16	det	_	_
+15	gegenüberliegenden	gegenüberliegende	ADJ	_	_	16	mod	_	_
+16	Gehweg	Gehweg	NOUN	_	_	13	appos	_	_
+17	entlang	entlang	ADP	_	_	3	compound@prt	_	_
+
+# text = und äh dann sind zwei nacheinander folgende Autos äh auf den Parkplatz eingefahren ein blaues und ein äh weißes
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	äh	äh	ADJ	_	_	4	discourse	_	_
+3	dann	dann	ADV	_	_	4	mod	_	_
+4	sind	sein	VERB	_	_	0	root	_	_
+5	zwei	zwei	NUM	_	_	8	mod	_	_
+6	nacheinander	nacheinander	ADV	_	_	7	mod	_	_
+7	folgende	folgende	ADJ	_	_	8	mod	_	_
+8	Autos	Auto	NOUN	_	_	4	subj	_	_
+9	äh	äh	ADJ	_	_	4	discourse	_	_
+10	auf	auf	ADP	_	_	13	comp:obl	_	_
+11	den	d	DET	_	_	12	det	_	_
+12	Parkplatz	Parkplatz	NOUN	_	_	10	comp:obj	_	_
+13	eingefahren	einfahren	VERB	_	_	4	comp:aux	_	_
+14	ein	ein	DET	_	_	15	det	_	_
+15	blaues	blaue	ADJ	_	_	8	appos	_	_
+16	und	und	CCONJ	_	_	19	cc	_	_
+17	ein	ein	DET	_	_	19	det	_	_
+18	äh	äh	ADJ	_	_	4	discourse	_	_
+19	weißes	weiße	ADJ	_	_	15	conj	_	_
+
+# text = und äh in dem Moment als die Autos ungefähr auf der Höhe waren äh auf auf der Höhe des äh der Frau mit dem Hund waren war das äh war die Mutter auch mit dem Sohn auch auf der Höhe
+1	und	und	CCONJ	_	_	30	cc	_	_
+2	äh	äh	ADJ	_	_	_	_	_	_
+3	in	in	ADP	_	_	30	mod	_	_
+4	dem	d	DET	_	_	5	det	_	_
+5	Moment	Moment	NOUN	_	_	3	comp:obj	_	_
+6	als	als	ADP	_	_	5	mod	_	_
+7	die	d	DET	_	_	8	det	_	_
+8	Autos	Auto	NOUN	_	_	26	subj	_	_
+9	ungefähr	ungefähr	ADJ	_	_	10	mod	_	_
+10	auf	auf	ADP	_	_	13	comp:pred	_	_
+11	der	d	DET	_	_	12	det	_	_
+12	Höhe	Höhe	NOUN	_	_	10	comp:obj	_	_
+13	waren	sein	VERB	_	_	26	reparandum	_	_
+14	äh	äh	ADJ	_	_	30	discourse	_	_
+15	auf	auf	ADP	_	_	16	reparandum	_	_
+16	auf	auf	ADP	_	_	26	comp:pred	_	_
+17	der	d	DET	_	_	18	det	_	_
+18	Höhe	Höhe	NOUN	_	_	16	comp:obj	_	_
+19	des	d	DET	_	_	21	reparandum	_	_
+20	äh	äh	ADJ	_	_	30	discourse	_	_
+21	der	d	DET	_	_	22	det	_	_
+22	Frau	Frau	NOUN	_	_	18	mod@poss	_	_
+23	mit	mit	ADP	_	_	22	mod	_	_
+24	dem	d	DET	_	_	25	det	_	_
+25	Hund	Hund	NOUN	_	_	23	comp:obj	_	_
+26	waren	sein	VERB	_	_	6	comp:obj	_	_
+27	äh	äh	ADJ	_	_	30	discourse	_	_
+28	war	sein	VERB	_	_	30	reparandum	_	_
+29	das	d	DET	_	_	28	subj	_	_
+30	war	sein	VERB	_	_	0	root	_	_
+31	die	d	DET	_	_	32	det	_	_
+32	Mutter	Mutter	NOUN	_	_	30	subj	_	_
+33	mit	mit	ADP	_	_	32	mod	_	_
+34	dem	d	DET	_	_	35	det	_	_
+35	Sohn	Sohn	NOUN	_	_	33	comp:obj	_	_
+36	auch	auch	ADV	_	_	30	mod	_	_
+37	auf	auf	ADP	_	_	30	comp:pred	_	_
+38	der	d	DET	_	_	39	det	_	_
+39	Höhe	Höhe	NOUN	_	_	37	comp:obj	_	_
+
+# text = und der Sohn ließ versehentlich den Ball fallen mit dem er gespielt hatte
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	der	d	DET	_	_	3	det	_	_
+3	Sohn	Sohn	NOUN	_	_	4	subj	_	_
+4	ließ	lassen	VERB	_	_	0	root	_	_
+5	versehentlich	versehentlich	ADJ	_	_	4	mod	_	_
+6	den	d	DET	_	_	7	det	_	_
+7	Ball	Ball	NOUN	_	_	8	comp:obj	_	_
+8	fallen	fallen	VERB	_	_	4	comp:obj	_	_
+9	mit	mit	ADP	_	_	12	comp:obl	_	_
+10	dem	d	PRON	_	_	9	comp:obj	_	_
+11	er	er	PRON	_	_	13	subj	_	_
+12	gespielt	spielen	VERB	_	_	13	comp:aux	_	_
+13	hatte	haben	AUX	_	_	7	mod@relcl	_	_
+
+# text = und äh daraufhin ist der Hund in Richtung des Balls gesprungen
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	äh	äh	ADJ	_	_	4	discourse	_	_
+3	daraufhin	daraufhin	ADV	_	_	4	mod	_	_
+4	ist	sein	VERB	_	_	0	root	_	_
+5	der	d	DET	_	_	6	det	_	_
+6	Hund	Hund	NOUN	_	_	4	subj	_	_
+7	in	in	ADP	_	_	11	comp:obl	_	_
+8	Richtung	Richtung	NOUN	_	_	7	comp:obj	_	_
+9	des	d	DET	_	_	10	det	_	_
+10	Balls	Ball	NOUN	_	_	8	mod@poss	_	_
+11	gesprungen	springen	VERB	_	_	4	comp:aux	_	_
+
+# text = und der äh Fahrer des ersten Autos hielt abrupt an
+1	und	und	CCONJ	_	_	8	cc	_	_
+2	der	d	DET	_	_	4	det	_	_
+3	äh	äh	NOUN	_	_	8	discourse	_	_
+4	Fahrer	Fahrer	NOUN	_	_	8	subj	_	_
+5	des	d	DET	_	_	7	det	_	_
+6	ersten	erste	ADJ	_	_	7	mod	_	_
+7	Autos	Auto	NOUN	_	_	4	mod@poss	_	_
+8	hielt	halten	VERB	_	_	0	root	_	_
+9	abrupt	abrupt	ADV	_	_	8	mod	_	_
+10	an	an	ADP	_	_	8	compound@prt	_	_
+
+# text = das konnte der Fahrer des danach folgenden Autos natürlich nicht rechtzeitig sehen
+1	das	d	PRON	_	_	12	comp:obj	_	_
+2	konnte	können	AUX	_	_	0	root	_	_
+3	der	d	DET	_	_	4	det	_	_
+4	Fahrer	Fahrer	NOUN	_	_	2	subj	_	_
+5	des	d	DET	_	_	8	det	_	_
+6	danach	danach	ADV	_	_	7	mod	_	_
+7	folgenden	folgende	ADJ	_	_	8	mod	_	_
+8	Autos	Auto	NOUN	_	_	4	mod@poss	_	_
+9	natürlich	natürlich	ADJ	_	_	2	mod	_	_
+10	nicht	nicht	PART	_	_	2	mod	_	_
+11	rechtzeitig	rechtzeitig	ADJ	_	_	2	mod	_	_
+12	sehen	sehen	VERB	_	_	2	comp:aux	_	_
+
+# text = und äh das resultierte darin dass er in das vorherige Auto reinfuhr
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	äh	äh	ADJ	_	_	4	discourse	_	_
+3	das	d	PRON	_	_	4	subj	_	_
+4	resultierte	resultieren	VERB	_	_	0	root	_	_
+5	darin	darin	ADV	_	_	4	mod	_	_
+6	dass	dass	SCONJ	_	_	5	comp:obj	_	_
+7	er	er	PRON	_	_	12	subj	_	_
+8	in	in	ADP	_	_	12	comp:obl	_	_
+9	das	d	DET	_	_	11	det	_	_
+10	vorherige	vorherige	ADJ	_	_	11	mod	_	_
+11	Auto	Auto	NOUN	_	_	8	comp:obj	_	_
+12	reinfuhr	reinfahren	VERB	_	_	6	comp:obj	_	_
+
+# text = die zwei Fahrer äh haben daraufhin sofort die Polizei kontaktiert
+1	die	d	DET	_	_	3	det	_	_
+2	zwei	zwei	NUM	_	_	3	mod	_	_
+3	Fahrer	Fahrer	NOUN	_	_	5	subj	_	_
+4	äh	äh	ADJ	_	_	5	discourse	_	_
+5	haben	haben	VERB	_	_	0	root	_	_
+6	daraufhin	daraufhin	ADV	_	_	5	mod	_	_
+7	sofort	sofort	ADV	_	_	5	mod	_	_
+8	die	d	DET	_	_	9	det	_	_
+9	Polizei	Polizei	NOUN	_	_	10	comp:obj	_	_
+10	kontaktiert	kontaktieren	VERB	_	_	5	comp:aux	_	_
+
+

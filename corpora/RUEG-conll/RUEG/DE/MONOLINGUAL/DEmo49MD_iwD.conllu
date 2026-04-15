@@ -1,0 +1,84 @@
+# text = Hi meine Liebste !
+1	Hi	hi	PROPN	NGIRR	_	3	discourse	_	_
+2	meine	mein	PRON	PPOSAT	_	3	det	_	_
+3	Liebste	Liebste	VERB	NN	_	0	root	_	_
+4	!	!	PUNCT	$.	_	3	punct	_	_
+
+# text = Habe gerade einen Unfall beobachtet ...
+1	Habe	haben	AUX	VAFIN	_	0	root	_	_
+2	gerade	gerade	ADV	ADV	_	1	mod	_	_
+3	einen	ein	DET	ART	_	4	det	_	_
+4	Unfall	Unfall	NOUN	NN	_	5	comp:obj	_	_
+5	beobachtet	beobachten	VERB	VVFIN	_	1	comp:aux	_	_
+6	...	...	PUNCT	$.	_	1	discourse	_	_
+
+# text = ist aber nichts Schlimmes passiert .
+1	ist	sein	VERB	VAFIN	_	0	root	_	_
+2	aber	aber	ADV	KON	_	1	mod	_	_
+3	nichts	nichts	PRON	PIAT	_	4	det	_	_
+4	Schlimmes	Schlimme	NOUN	NN	_	1	subj	_	_
+5	passiert	passieren	VERB	VVFIN	_	1	comp:aux	_	_
+6	.	.	PUNCT	$.	_	1	punct	_	_
+
+# text = So ein Hund ist völlig ausgerastet , nur weil ein Ball auf ihn zugerollt kam ...
+1	So	so	ADV	PTKIFG	_	3	mod	_	_
+2	ein	ein	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	völlig	völlig	ADJ	ADJD	_	4	mod	_	_
+6	ausgerastet	ausrasten	ADJ	VVPP	_	4	comp:aux	_	_
+7	,	,	PUNCT	$,	_	4	punct	_	_
+8	nur	nur	ADV	PTKIFG	_	9	mod	_	_
+9	weil	weil	ADV	KOUS	_	6	mod	_	_
+10	ein	ein	NUM	ART	_	11	mod	_	_
+11	Ball	Ball	NOUN	NN	_	15	subj	_	_
+12	auf	auf	ADP	APPR	_	14	comp:obl	_	_
+13	ihn	er	PRON	PPER	_	12	comp:obj	_	_
+14	zugerollt	zurollen	ADJ	VVPP	_	15	comp:aux	_	_
+15	kam	kommen	VERB	VVFIN	_	9	comp:obj	_	_
+16	...	...	PUNCT	$.	_	4	discourse	_	_
+
+# text = Ein Auto musste bremsen ,
+1	Ein	ein	DET	ART	_	2	det	_	_
+2	Auto	Auto	NOUN	NN	_	3	subj	_	_
+3	musste	müssen	AUX	VMFIN	_	0	root	_	_
+4	bremsen	bremsen	VERB	VVINF	_	3	comp:aux	_	_
+5	,	,	PUNCT	$,	_	3	punct	_	_
+
+# text = ein anderes ist aufgefahren ,
+1	ein	ein	DET	ART	_	2	det	_	_
+2	anderes	ander	PRON	PIDS	_	3	subj	_	_
+3	ist	sein	AUX	VAFIN	_	0	root	_	_
+4	aufgefahren	auffahren	VERB	VVPP	_	3	comp:aux	_	_
+5	,	,	PUNCT	$,	_	3	punct	_	_
+
+# text = war erstaunlich laut , obwohl die Autos echt langsam waren und nur ein wenig verbeult sind ...
+1	war	sein	VERB	VAFIN	_	0	root	_	_
+2	erstaunlich	erstaunlich	ADJ	ADV	_	3	mod	_	_
+3	laut	laut	ADJ	ADJD	_	1	comp:pred	_	_
+4	,	,	PUNCT	$,	_	1	punct	_	_
+5	obwohl	obwohl	SCONJ	KOUS	_	1	mod	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Autos	Auto	NOUN	NN	_	10	subj	_	_
+8	echt	echt	ADJ	PTKIFG	_	10	mod	_	_
+9	langsam	langsam	ADJ	ADJD	_	10	comp:pred	_	_
+10	waren	sein	VERB	VAFIN	_	5	comp:obj	_	_
+11	und	und	CCONJ	KON	_	16	cc	_	_
+12	nur	nur	ADV	PTKIFG	_	16	mod	_	_
+13	ein	ein	DET	ART	_	15	det	_	_
+14	wenig	wenig	ADJ	PIDS	_	15	mod	_	_
+15	verbeult	verbeulen	PROPN	ADJD	_	16	comp:pred	_	_
+16	sind	sein	VERB	VAFIN	_	10	conj	_	_
+17	...	...	PUNCT	$.	_	1	discourse	_	_
+
+# text = Denke an dich
+1	Denke	denken	NOUN	VVFIN	_	0	root	_	_
+2	an	an	ADP	PTKVZ	_	1	comp:obl	_	_
+3	dich	du	PRON	PPER	_	2	comp:obj	_	_
+
+# text = :*
+1	:*	:*	NUM	EMO	_	0	root	_	_
+
+# text = <3
+1	<3	<3	NUM	EMO	_	0	root	_	_
+

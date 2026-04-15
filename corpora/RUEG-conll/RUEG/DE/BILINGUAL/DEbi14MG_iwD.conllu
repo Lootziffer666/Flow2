@@ -1,0 +1,62 @@
+# text = Ey Luc .
+1	Ey	ey	PROPN	_	_	2	discourse	_	_
+2	Luc	Luc	PROPN	_	_	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Stehe gerade hier auf dem Parkplatz und habe gesehen , wie ein Unfall passiert ist .
+1	Stehe	stehen	SCONJ	_	_	0	root	_	_
+2	gerade	gerade	ADV	_	_	1	mod	_	_
+3	hier	hier	ADV	_	_	1	mod	_	_
+4	auf	auf	ADP	_	_	1	comp:obl	_	_
+5	dem	d	DET	_	_	6	det	_	_
+6	Parkplatz	Parkplatz	NOUN	_	_	4	comp:obj	_	_
+
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	habe	haben	AUX	_	_	0	root	_	_
+3	gesehen	sehen	VERB	_	_	2	comp:aux	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	wie	wie	ADP	_	_	3	comp:obj	_	_
+6	ein	ein	DET	_	_	7	det	_	_
+7	Unfall	Unfall	NOUN	_	_	9	subj	_	_
+8	passiert	passieren	VERB	_	_	9	comp:aux	_	_
+9	ist	sein	AUX	_	_	5	comp:obj	_	_
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Da lief so ein Typ mit Fußball bis der Ball auf die Fahrbahn kullerte .
+1	Da	da	ADV	_	_	2	mod	_	_
+2	lief	laufen	VERB	_	_	0	root	_	_
+3	so	so	ADV	_	_	5	mod	_	_
+4	ein	ein	DET	_	_	5	det	_	_
+5	Typ	Typ	NOUN	_	_	2	subj	_	_
+6	mit	mit	ADP	_	_	5	mod	_	_
+7	Fußball	Fußball	NOUN	_	_	6	comp:obj	_	_
+8	bis	bis	ADP	_	_	2	mod	_	_
+9	der	d	DET	_	_	10	det	_	_
+10	Ball	Ball	NOUN	_	_	14	subj	_	_
+11	auf	auf	ADP	_	_	14	comp:obl	_	_
+12	die	d	DET	_	_	13	det	_	_
+13	Fahrbahn	Fahrbahn	NOUN	_	_	11	comp:obj	_	_
+14	kullerte	kullern	VERB	_	_	8	comp:obj	_	_
+15	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Ein Auto musste dann daraufhin eine Vollbremsung machen
+1	Ein	ein	DET	_	_	2	det	_	_
+2	Auto	Auto	NOUN	_	_	3	subj	_	_
+3	musste	müssen	AUX	_	_	0	root	_	_
+4	dann	dann	ADV	_	_	3	mod	_	_
+5	daraufhin	daraufhin	ADV	_	_	3	mod	_	_
+6	eine	ein	DET	_	_	7	det	_	_
+7	Vollbremsung	Vollbremsung	NOUN	_	_	8	comp:obj	_	_
+8	machen	machen	VERB	_	_	3	comp:aux	_	_
+
+# text = und ein Anderes ist dem voll hinten reingefahren .
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	ein	ein	DET	_	_	3	det	_	_
+3	Anderes	Anderes	PROPN	_	_	4	subj	_	_
+4	ist	sein	VERB	_	_	0	root	_	_
+5	dem	die	DET	_	_	8	comp:obj	_	_
+6	voll	voll	ADJ	_	_	4	mod	_	_
+7	hinten	hinten	ADJ	_	_	4	mod	_	_
+8	reingefahren	reingefahren	NOUN	_	_	4	comp:aux	_	_
+9	.	.	PUNCT	_	_	4	punct	_	_
+

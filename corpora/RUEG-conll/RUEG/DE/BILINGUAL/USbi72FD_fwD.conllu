@@ -1,0 +1,131 @@
+# text = Heute im Parkplatz gab es ein Autounfall .
+1	Heute	heute	ADV	ADV	_	4	mod	_	_
+2	im	in	PROPN	APPRART	_	4	mod	_	_
+3	Parkplatz	Parkplatz	PROPN	NN	_	2	comp:obj	_	_
+4	gab	geben	VERB	VVFIN	_	0	root	_	_
+5	es	es	PRON	PPER	_	4	subj@expl	_	_
+6	ein	ein	DET	ART	_	7	det	_	_
+7	Autounfall	Autounfall	NOUN	NN	_	4	comp:obj	_	_
+8	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Ein Mann hat ein Fußball fallen lassen ,
+1	Ein	ein	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Fußball	Fußball	NOUN	NN	_	6	comp:obj	_	_
+6	fallen	fallen	VERB	VVINF	_	7	comp:obj	_	_
+7	lassen	lassen	VERB	VVINF	_	3	comp:aux	_	_
+8	,	,	PUNCT	$,	_	3	punct	_	_
+
+# text = und es ist in der Straße rausgerollt .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	in	in	ADP	APPR	_	7	comp:obl	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Straße	Straße	NOUN	NN	_	4	comp:obj	_	_
+7	rausgerollt	rausrollen	ADJ	VVPP	_	3	comp:aux	_	_
+8	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Ein Hund auf der anderen Seite ist nach dem Ball losgerannt .
+1	Ein	ein	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	7	subj	_	_
+3	auf	auf	ADP	APPR	_	2	mod	_	_
+4	der	d	DET	ART	_	6	det	_	_
+5	anderen	ander	ADJ	PIDAT	_	6	mod	_	_
+6	Seite	Seite	NOUN	NN	_	3	comp:obj	_	_
+7	ist	sein	VERB	VAFIN	_	0	root	_	_
+8	nach	nach	ADP	APPR	_	11	comp:obl	_	_
+9	dem	d	DET	ART	_	10	det	_	_
+10	Ball	Ball	NOUN	NN	_	8	comp:obj	_	_
+11	losgerannt	losrennen	ADJ	VVPP	_	7	comp:aux	_	_
+12	.	.	PUNCT	$.	_	7	punct	_	_
+
+# text = Weil der Ball und der Hund jetzt beide in der Straße waren , musste das Auto das gerade in dem Parkplatz reingefahren ist stark bremsen .
+1	Weil	weil	SCONJ	KOUS	_	25	mod	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Ball	Ball	NOUN	NN	_	12	subj	_	_
+4	und	und	CCONJ	KON	_	6	cc	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Hund	Hund	NOUN	NN	_	3	conj	_	_
+7	jetzt	jetzt	ADV	ADV	_	12	mod	_	_
+8	beide	beide	PRON	PIS	_	3	appos	_	_
+9	in	in	ADP	APPR	_	12	comp:pred	_	_
+10	der	d	DET	ART	_	11	det	_	_
+11	Straße	Straße	NOUN	NN	_	9	comp:obj	_	_
+12	waren	sein	VERB	VAFIN	_	1	comp:obj	_	_
+13	,	,	PUNCT	$,	_	1	punct	_	_
+14	musste	müssen	AUX	VMFIN	_	0	root	_	_
+15	das	d	DET	ART	_	16	det	_	_
+16	Auto	Auto	NOUN	NN	_	14	subj	_	_
+17	das	d	DET	PRELS	_	23	subj	_	_
+18	gerade	gerade	ADV	ADV	_	23	mod	_	_
+19	in	in	ADP	APPR	_	22	comp:obl	_	_
+20	dem	d	DET	ART	_	21	det	_	_
+21	Parkplatz	Parkplatz	NOUN	NN	_	19	comp:obj	_	_
+22	reingefahren	reinfahren	VERB	VVPP	_	23	comp:aux	_	_
+23	ist	sein	AUX	VAFIN	_	16	mod@relcl	_	_
+24	stark	stark	ADJ	ADJD	_	14	mod	_	_
+25	bremsen	bremsen	VERB	VVINF	_	14	comp:aux	_	_
+26	.	.	PUNCT	$.	_	14	punct	_	_
+
+# text = Das Auto was hinter dem ersten blauen Auto war musste auch bremsen ,
+1	Das	d	DET	ART	_	2	det	_	_
+2	Auto	Auto	NOUN	NN	_	10	subj	_	_
+3	was	was	PRON	PRELS	_	9	subj	_	_
+4	hinter	hinter	ADP	APPR	_	9	comp:pred	_	_
+5	dem	d	DET	ART	_	8	det	_	_
+6	ersten	erst	ADJ	ORD	_	8	mod	_	_
+7	blauen	blau	ADJ	ADJA	_	8	mod	_	_
+8	Auto	Auto	NOUN	NN	_	4	comp:obj	_	_
+9	war	sein	VERB	VAFIN	_	2	mod@relcl	_	_
+10	musste	müssen	AUX	VMFIN	_	0	root	_	_
+11	auch	auch	ADV	PTKIFG	_	10	mod	_	_
+12	bremsen	bremsen	PROPN	VVINF	_	10	comp:aux	_	_
+13	,	,	PUNCT	$,	_	10	punct	_	_
+
+# text = und weil es zu nahe gefahren hat , gab es einen kleinen Unfall .
+1	und	und	CCONJ	KON	_	9	cc	_	_
+2	weil	weil	SCONJ	KOUS	_	9	mod	_	_
+3	es	es	PRON	PPER	_	7	subj	_	_
+4	zu	zu	ADP	PTKA	_	5	mod	_	_
+5	nahe	nahe	ADJ	ADJD	_	7	mod	_	_
+6	gefahren	fahren	VERB	VVPP	_	7	comp:aux	_	_
+7	hat	haben	AUX	VAFIN	_	2	comp:obj	_	_
+8	,	,	PUNCT	$,	_	2	punct	_	_
+9	gab	geben	VERB	VVFIN	_	0	root	_	_
+10	es	es	PRON	PPER	_	9	subj@expl	_	_
+11	einen	ein	DET	ART	_	13	det	_	_
+12	kleinen	klein	ADJ	ADJA	_	13	mod	_	_
+13	Unfall	Unfall	NOUN	NN	_	9	comp:obj	_	_
+14	.	.	PUNCT	$.	_	9	punct	_	_
+
+# text = Niemand hat sich verletzt ,
+1	Niemand	niemand	PRON	PIS	_	2	subj	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	sich	er|sie|es	PRON	PRF	_	4	comp:obj	_	_
+4	verletzt	verletzen	VERB	VVPP	_	2	comp:aux	_	_
+5	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = aber da war vielleicht ein bisschen Schaden im hinteren Teil vom ersten Auto und vorne beim zweiten Auto .
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	vielleicht	vielleicht	NOUN	ADV	_	3	mod	_	_
+5	ein	ein	DET	ART	_	7	mod	_	_
+6	bisschen	bisschen	NOUN	PIDAT	_	7	mod	_	_
+7	Schaden	Schaden	PROPN	NN	_	3	subj	_	_
+8	im	in	PROPN	APPRART	_	3	comp:pred	_	_
+9	hinteren	hinter	ADJ	ADJA	_	10	mod	_	_
+10	Teil	Teil	NOUN	NN	_	8	comp:obj	_	_
+11	vom	von	PROPN	APPRART	_	10	mod@poss	_	_
+12	ersten	erst	ADJ	ORD	_	13	mod	_	_
+13	Auto	Auto	NOUN	NN	_	11	comp:obj	_	_
+14	und	und	CCONJ	KON	_	16	cc	_	_
+15	vorne	vorne	ADV	APPR	_	16	mod	_	_
+16	beim	bei	ADV	APPRART	_	8	conj	_	_
+17	zweiten	zweit	ADJ	ORD	_	18	mod	_	_
+18	Auto	Auto	NOUN	NN	_	16	comp:obj	_	_
+19	.	.	PUNCT	$.	_	3	punct	_	_
+

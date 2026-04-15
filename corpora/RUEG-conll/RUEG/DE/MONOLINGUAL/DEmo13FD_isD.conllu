@@ -1,0 +1,307 @@
+# text = hallo Jan
+1	hallo	hallo	X	_	_	2	discourse	_	_
+2	Jan	Jan	PROPN	_	_	0	root	_	_
+
+# text = ich habe gerade ein Verkehrsunfall beobachtet
+1	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	habe	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	gerade	gerade	ADV	_	_	2	mod	_	_
+4	ein	ein	NUM	_	NumType=Card	5	det	_	_
+5	Verkehrsunfall	Verkehrsunfall	NOUN	_	Case=Acc|Number=Sing	6	comp:obj	_	_
+6	beobachtet	beobachten	VERB	_	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+
+# text = und äh und zwar war das auf so einen ganz normalen Parkplatz
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	äh	äh	ADJ	_	Degree=Pos	5	discourse	_	_
+3	und	und	CCONJ	_	_	5	cc	_	_
+4	zwar	zwar	ADV	_	_	5	mod	_	_
+5	war	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	das	die	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	subj	_	_
+7	auf	auf	ADP	_	_	5	comp:pred	_	_
+8	so	so	ADV	_	_	12	mod	_	_
+9	einen	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+10	ganz	ganz	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	mod	_	_
+11	normalen	normal	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	mod	_	_
+12	Parkplatz	Parkplatz	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	7	comp:obj	_	_
+
+# text = und äh da ist fast ein kleiner Hund überfahren worden
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	äh	äh	ADJ	_	Degree=Pos	4	discourse	_	_
+3	da	da	ADV	_	_	4	mod	_	_
+4	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	fast	fast	ADV	_	_	4	mod	_	_
+6	ein	ein	DET	_	Definite=Ind|PronType=Art	8	det	_	_
+7	kleiner	klein	ADJ	_	Degree=Cmp,Pos	8	mod	_	_
+8	Hund	Hund	NOUN	_	_	4	subj@pass	_	_
+9	überfahren	überfahren	VERB	_	Tense=Pres|VerbForm=Part	10	comp:aux@pass	_	_
+10	worden	werden	AUX	_	Tense=Past|VerbForm=Part	4	comp:aux@pass	_	_
+
+# text = äh der wollte nämlich einem Ball hinterherlaufen den irgendjemand anderes da hingeschossen hat oder verloren hat
+1	äh	äh	ADJ	_	Degree=Pos	3	discourse	_	_
+2	der	die	PRON	_	Case=Nom|PronType=Dem	3	subj	_	_
+3	wollte	wollen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	nämlich	nämlich	ADP	_	_	3	mod	_	_
+5	einem	ein	DET	_	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Ball	Ball	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	7	comp:obj	_	_
+7	hinterherlaufen	hinterherlaufen	VERB	_	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	comp:aux	_	_
+8	den	die	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	comp:obj	_	_
+9	irgendjemand	irgendjemand	NOUN	_	Case=Nom|Number=Sing	10	det	_	_
+10	anderes	anderes	PROPN	_	_	13	subj	_	_
+11	da	da	ADV	ADV	_	13	mod	_	_
+12	hingeschossen	hingeschossen	VERB	_	Tense=Past|VerbForm=Part	13	comp:aux	_	_
+13	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	_
+14	oder	oder	CCONJ	_	_	15	cc	_	_
+15	verloren	verlieren	VERB	_	Tense=Past|VerbForm=Part	16	comp:aux	_	_
+16	hat	haben	AUX	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+
+# text = und zum Glück konnte das Auto noch bremsen
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	zum	zum	PROPN	_	_	8	mod	_	_
+3	Glück	Glück	PROPN	_	_	2	comp:obj	_	_
+4	konnte	können	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	das	d	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Auto	Auto	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	4	subj	_	_
+7	noch	noch	ADV	_	_	4	mod	_	_
+8	bremsen	bremsen	VERB	_	Tense=Pres|VerbForm=Inf	4	comp:aux	_	_
+
+# text = äh und dann ist ihm natürlich der dahinter hinten reingefahren
+1	äh	äh	ADJ	_	Degree=Pos	4	discourse	_	_
+2	und	und	CCONJ	_	_	4	cc	_	_
+3	dann	dann	ADV	_	_	4	mod	_	_
+4	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ihm	er	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	comp:obj	_	_
+6	natürlich	natürlich	ADJ	_	Degree=Pos	4	mod	_	_
+7	der	die	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	dahinter	dahinter	ADP	_	_	4	subj	_	_
+9	hinten	hinten	ADV	_	_	4	mod	_	_
+10	reingefahren	reingefahren	VERB	_	Tense=Past|VerbForm=Fin	4	comp:aux	_	_
+
+# text = und dem Hund aber nichts passiert
+1	und	und	CCONJ	_	_	6	cc	_	_
+2	dem	d	DET	_	Definite=Def|PronType=Art	3	det	_	_
+3	Hund	Hund	NOUN	_	_	6	comp:obj	_	_
+4	aber	aber	ADV	_	_	6	mod	_	_
+5	nichts	nichts	PRON	_	Case=Nom|Number=Sing|PronType=Neg	6	subj	_	_
+6	passiert	passieren	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	_
+
+# text = und ich weiß auch nicht genau warum ich dir das jetzt alles erzähle
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	weiß	weiß	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	auch	auch	ADV	_	_	3	mod	_	_
+5	nicht	nicht	PART	_	_	3	mod	_	_
+6	genau	genau	ADJ	_	Degree=Pos	5	mod	_	_
+7	warum	warum	ADV	_	PronType=Int	13	mod	_	_
+8	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	subj	_	_
+9	dir	du	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	13	comp:obl	_	_
+10	das	die	PRON	_	Case=Acc|PronType=Dem	12	det	_	_
+11	jetzt	jetzt	ADV	_	_	13	mod	_	_
+12	alles	alles	PRON	_	Case=Acc|PronType=Tot	13	comp:obj	_	_
+13	erzähle	erzählen	NOUN	_	Case=Acc|Number=Plur|Tense=Pres	3	comp:obj	_	_
+
+# text = jedenfalls war der Hund an der Leine
+1	jedenfalls	jedenfalls	ADV	_	_	2	mod	_	_
+2	war	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Hund	Hund	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	subj	_	_
+5	an	an	ADP	_	_	2	comp:pred	_	_
+6	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Leine	Leine	PROPN	_	_	5	comp:obj	_	_
+
+# text = und ist wahrscheinlich deswegen auch nicht vor das Auto mit dem Ball hinterhergelaufen
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	ist	sein	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	wahrscheinlich	wahrscheinlich	ADJ	_	Degree=Pos	4	mod	_	_
+4	deswegen	deswegen	ADV	_	_	2	mod	_	_
+5	auch	auch	ADV	_	_	2	mod	_	_
+6	nicht	nicht	PART	_	_	2	mod	_	_
+7	vor	vor	ADP	_	_	13	comp:obl	_	_
+8	das	d	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Auto	Auto	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	7	comp:obj	_	_
+10	mit	mit	ADP	_	_	9	mod	_	_
+11	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Ball	Ball	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	10	comp:obj	_	_
+13	hinterhergelaufen	hinterhergelaufen	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	comp:aux	_	_
+
+# text = und es ist vielleicht immer ganz gut äh wenn man sein Hund schon zum Einkaufen mitnimmt den dann auch irgendwie anzuleinen und drauf aufzupassen
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	es	es	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+3	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	vielleicht	vielleicht	ADV	_	_	3	mod	_	_
+5	immer	immer	ADV	_	_	3	mod	_	_
+6	ganz	ganz	ADJ	_	Degree=Pos	7	mod	_	_
+7	gut	gut	ADJ	_	Degree=Pos	3	comp:pred	_	_
+8	äh	äh	ADJ	_	Degree=Pos	3	discourse	_	_
+9	wenn	wenn	SCONJ	_	_	24	mod	_	_
+10	man	man	PRON	_	Case=Nom|PronType=Ind	16	subj	_	_
+11	sein	sein	DET	_	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	Hund	Hund	NOUN	_	Case=Acc|Number=Sing	16	comp:obj	_	_
+13	schon	schon	ADV	_	_	16	mod	_	_
+14	zum	zum	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	16	mod	_	_
+15	Einkaufen	Einkaufen	NOUN	_	_	14	comp:obj	_	_
+16	mitnimmt	mitnehmen	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	comp:obj	_	_
+17	den	die	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	comp:obj	_	_
+18	dann	dann	ADV	_	_	21	mod	_	_
+19	auch	auch	ADV	_	_	21	mod	_	_
+20	irgendwie	irgendwie	ADV	_	_	21	mod	_	_
+21	anzuleinen	anzuleinen	ADJ	_	Degree=Pos|Tense=Pres	7	comp:obj	_	_
+22	und	und	CCONJ	_	_	24	cc	_	_
+23	drauf	drauf	ADV	_	_	24	comp:obl	_	_
+24	aufzupassen	aufpassen	VERB	_	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
+
+# text = und äh ja auch zum Glück hat der Autofahrer auch aufgepasst
+1	und	und	CCONJ	_	_	7	cc	_	_
+2	äh	äh	ADJ	_	Degree=Pos	7	discourse	_	_
+3	ja	ja	ADV	_	_	7	discourse	_	_
+4	auch	auch	ADV	_	_	7	mod	_	_
+5	zum	zum	PROPN	_	_	11	mod	_	_
+6	Glück	Glück	PROPN	_	_	5	comp:obj	_	_
+7	hat	haben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Autofahrer	Autofahrer	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	7	subj	_	_
+10	auch	auch	ADV	_	_	7	mod	_	_
+11	aufgepasst	aufpassen	VERB	_	Person=3|Tense=Past|VerbForm=Fin	7	comp:aux	_	_
+
+# text = und der hat jetzt natürlich erstmal den Schaden
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	der	die	PRON	_	Case=Nom|PronType=Dem	3	subj	_	_
+3	hat	haben	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	jetzt	jetzt	ADV	_	_	3	mod	_	_
+5	natürlich	natürlich	ADJ	_	Degree=Pos	3	mod	_	_
+6	erstmal	erstmal	ADV	_	_	3	mod	_	_
+7	den	d	DET	_	Definite=Def|PronType=Art	8	det	_	_
+8	Schaden	Schaden	NOUN	_	_	3	comp:obj	_	_
+
+# text = äh mal gucken ob das seine Versicherung schön übernimmt
+1	äh	äh	ADJ	_	Degree=Pos	3	discourse	_	_
+2	mal	mal	ADV	_	_	3	mod	_	_
+3	gucken	gucken	VERB	_	Tense=Pres|VerbForm=Inf	0	root	_	_
+4	ob	ob	SCONJ	_	_	3	comp:obj	_	_
+5	das	d	PRON	_	Case=Nom|PronType=Dem	9	comp:obj	_	_
+6	seine	sein	DET	_	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	Versicherung	Versicherung	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	9	subj	_	_
+8	schön	schön	ADJ	_	Degree=Pos	9	mod	_	_
+9	übernimmt	übernimmt	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
+
+# text = wer da eigentlich Schuld ist weiß ich auch nicht
+1	wer	wer	PRON	_	Case=Nom|Number=Sing|PronType=Int	5	subj	_	_
+2	da	da	ADV	_	_	5	mod	_	_
+3	eigentlich	eigentlich	ADJ	_	Degree=Pos	5	mod	_	_
+4	Schuld	Schuld	ADJ	_	_	5	comp:pred	_	_
+5	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
+6	weiß	weiß	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	subj	_	_
+8	auch	auch	ADV	_	_	6	mod	_	_
+9	nicht	nicht	PART	_	_	6	mod	_	_
+
+# text = weil eigentlich ist der Hintere ihm ja reingefahren
+1	weil	weil	SCONJ	_	_	3	discourse	_	_
+2	eigentlich	eigentlich	ADJ	_	Degree=Pos	3	mod	_	_
+3	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	der	d	DET	_	Definite=Def|PronType=Art	5	det	_	_
+5	Hintere	Hintere	ADJ	_	Degree=Cmp	3	subj	_	_
+6	ihm	er	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	_
+7	ja	ja	ADV	_	_	3	mod	_	_
+8	reingefahren	reingefahren	VERB	_	Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+
+# text = also müsste er Schuld haben
+1	also	also	ADV	_	_	2	mod	_	_
+2	müsste	müsste	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	er	er	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+4	Schuld	Schuld	NOUN	_	Case=Acc|Number=Sing	5	comp:obj	_	_
+5	haben	haben	VERB	_	Tense=Pres|VerbForm=Inf	2	comp:aux	_	_
+
+# text = aber der Vordere hat ja unerwartet gebremst wegen dem Hund und wegen dem Ball
+1	aber	aber	ADV	_	_	4	cc	_	_
+2	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Vordere	Vordere	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	4	subj	_	_
+4	hat	haben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ja	ja	ADV	_	_	4	mod	_	_
+6	unerwartet	unerwartet	ADJ	_	Degree=Pos	4	mod	_	_
+7	gebremst	bremsen	ADV	_	Tense=Past	4	comp:aux	_	_
+8	wegen	wegen	ADP	_	_	7	mod	_	_
+9	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Hund	Hund	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	8	comp:obj	_	_
+11	und	und	CCONJ	_	_	12	cc	_	_
+12	wegen	wegen	ADP	_	_	8	conj	_	_
+13	dem	d	DET	_	Definite=Def|PronType=Art	14	det	_	_
+14	Ball	Ball	PROPN	_	_	12	comp:obj	_	_
+
+# text = und vielleicht hat auch der Schuld der den Ball verloren hat
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	vielleicht	vielleicht	ADV	_	_	3	mod	_	_
+3	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	auch	auch	ADV	_	_	3	mod	_	_
+5	der	d	DET	_	Definite=Def|PronType=Art	3	subj	_	_
+6	Schuld	Schuld	NOUN	_	_	3	comp:obj	_	_
+7	der	d	PRON	_	Case=Nom|PronType=Rel	11	subj	_	_
+8	den	d	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Ball	Ball	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	10	comp:obj	_	_
+10	verloren	verlieren	VERB	_	Tense=Pres|VerbForm=Part	11	comp:aux	_	_
+11	hat	haben	AUX	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	_
+
+# text = äh kannst du dir ja mal als Jurist überlegen ob der der Reingefahrene Schuld hätte
+1	äh	äh	ADJ	_	Degree=Pos	2	discourse	_	_
+2	kannst	können	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	du	du	PROPN	_	Case=Dat|Number=Sing	2	subj	_	_
+4	dir	du	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	9	comp:obl	_	_
+5	ja	ja	ADV	_	_	2	discourse	_	_
+6	mal	mal	ADV	_	_	2	mod	_	_
+7	als	als	ADP	_	_	9	mod	_	_
+8	Jurist	Jurist	NOUN	_	_	7	comp:obj	_	_
+9	überlegen	überlegen	VERB	_	Tense=Pres	2	comp:aux	_	_
+10	ob	ob	ADP	_	_	9	comp:obj	_	_
+11	der	d	PRON	_	PronType=Dem	12	reparandum	_	_
+12	der	d	DET	_	Definite=Def|PronType=Art	13	det	_	_
+13	Reingefahrene	Reingefahrene	PROPN	_	_	15	subj	_	_
+14	Schuld	Schuld	PROPN	_	_	15	comp:obj	_	_
+15	hätte	hätte	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
+
+# text = weil das könnte mir theoretisch auch mal als Autofahrer passieren
+1	weil	weil	SCONJ	_	_	3	discourse	_	_
+2	das	d	PRON	_	Case=Nom|PronType=Dem	3	subj	_	_
+3	könnte	können	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	mir	ich	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	10	comp:obj	_	_
+5	theoretisch	theoretisch	ADV	_	_	3	mod	_	_
+6	auch	auch	ADV	_	_	3	mod	_	_
+7	mal	mal	ADV	_	_	3	mod	_	_
+8	als	als	ADP	_	_	10	mod	_	_
+9	Autofahrer	Autofahrer	NOUN	_	_	8	comp:obj	_	_
+10	passieren	passieren	VERB	_	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	comp:aux	_	_
+
+# text = und ich möchte dann auch nicht irgendwas bezahlen müssen
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	möchte	möchte	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	dann	dann	ADV	_	_	3	mod	_	_
+5	auch	auch	ADV	_	_	3	mod	_	_
+6	nicht	nicht	PART	_	_	3	mod	_	_
+7	irgendwas	irgendwas	PRON	_	Case=Nom|PronType=Ind	8	comp:obj	_	_
+8	bezahlen	bezahlen	VERB	_	Tense=Pres|VerbForm=Inf	9	comp:obj	_	_
+9	müssen	müssen	AUX	_	Tense=Pres|VerbForm=Inf	3	comp:aux	_	_
+
+# text = und ob das die Versicherung übernimmt und mit Eigenanteil und so
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	ob	ob	SCONJ	_	_	0	root	_	_
+3	das	die	PRON	_	Case=Nom|PronType=Dem	6	comp:obj	_	_
+4	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Versicherung	Versicherung	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	subj	_	_
+6	übernimmt	übernimmt	VERB	_	Tense=Pres|VerbForm=Part	2	comp:obj	_	_
+7	und	und	CCONJ	_	_	8	cc	_	_
+8	mit	mit	ADP	_	_	6	conj	_	_
+9	Eigenanteil	Eigenanteil	NOUN	_	_	8	comp:obj	_	_
+10	und	und	CCONJ	_	_	11	cc	_	_
+11	so	so	ADV	_	_	8	conj	_	_
+
+# text = na gut dann ruf dann mal zurück
+1	na	na	PROPN	_	_	4	discourse	_	_
+2	gut	gut	ADJ	_	Degree=Pos	4	mod	_	_
+3	dann	dann	ADV	_	_	4	mod	_	_
+4	ruf	Ruf	NOUN	_	Case=Acc|Number=Sing	0	root	_	_
+5	dann	dann	ADV	_	_	4	mod	_	_
+6	mal	mal	ADV	_	_	4	mod	_	_
+7	zurück	zurück	ADV	_	_	4	compound@prt	_	_
+
+# text = tschüss
+1	tschüss	tschüss	PROPN	_	_	0	root	_	_
+

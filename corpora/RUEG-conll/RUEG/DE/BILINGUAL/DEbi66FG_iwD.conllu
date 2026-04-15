@@ -1,0 +1,135 @@
+# text = Hey Melina
+1	Hi	hi	PROPN	NGIRR	_	2	discourse	_	_
+2	Melina	Melina	PROPN	NE	Case=Nom|Number=Sing	0	root	_	_
+
+# text = ich wollte ja heute zu dir kommen
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ja	ja	ADV	PTKMA	_	2	discourse	_	_
+4	heute	heute	ADV	ADV	_	2	mod	_	_
+5	zu	zu	ADP	APPR	_	7	comp:obl	_	_
+6	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|PronType=Prs	5	comp:obj	_	_
+7	kommen	kommen	VERB	VVFIN	VerbForm=Inf	2	comp:aux	_	_
+
+# text = aber auf dem weg geschah ein Unfall .
+1	aber	aber	ADV	KON	_	5	cc	_	_
+2	auf	auf	ADP	APPR	_	5	mod	_	_
+3	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Weg	Weg	NOUN	ADV	Case=Dat|Gender=Masc,Neut|Number=Sing	2	comp:obj	_	_
+5	geschah	geschehen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Unfall	Unfall	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	subj	_	_
+8	.	.	PUNCT	$.	_	5	punct	_	_
+
+# text = Ein Paar mit ihrem Kinderwagen waren gerade dabei die Straße zu überqueren
+1	Ein	ein	DET	ART	Definite=Ind|PronType=Art	2	det	_	_
+2	Paar	Paar	NOUN	NN	_	6	subj	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	ihrem	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	Kinderwagen	Kinderwagen	NOUN	NN	Case=Dat|Number=Plur	3	comp:obj	_	_
+6	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	gerade	gerade	ADV	ADV	_	6	mod	_	_
+8	dabei	dabei	ADV	ADV	_	6	compound@prt	_	_
+9	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Straße	Straße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	comp:obj	_	_
+11	zu	zu	PART	PTKZU	_	6	comp:obj	_	_
+12	überqueren	überqueren	VERB	VVINF	VerbForm=Inf	11	comp:obj	_	_
+
+# text = aber dem Mann fiel der Ball runter
+1	aber	aber	ADV	KON	_	4	cc	_	_
+2	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Mann	Mann	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	comp:obj	_	_
+4	fiel	fallen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Ball	Ball	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+7	runter	runter	ADJ	PTKVZ	Degree=Cmp,Pos	4	compound@prt	_	_
+
+# text = und rollte mitten zur Straße .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	rollte	rollen	VERB	VVFIN	Tense=Past|VerbForm=Fin	0	root	_	_
+3	mitten	mitten	ADV	ADV	_	4	mod	_	_
+4	zur	zu	PROPN	APPRART	_	2	comp:obl	_	_
+5	Straße	Straße	PROPN	NN	_	4	comp:obj	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Die Frau , die gegenüber gerade ihre Sachen einpackte fielen die Sachen runter weil der Hund plötzlich den Ball schnappen wollte .
+1	Die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	comp:obj	_	_
+3	,	,	PUNCT	$,	_	10	punct	_	_
+4	die	d	PRON	ART	Case=Nom|PronType=Rel	9	subj	_	_
+5	gegenüber	gegenüber	ADP	ADV	_	9	mod	_	_
+6	gerade	gerade	ADV	ADV	_	9	mod	_	_
+7	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	8	det	_	_
+8	Sachen	Sache	NOUN	NN	Case=Acc|Number=Plur	9	comp:obj	_	_
+9	einpackte	einpacken	VERB	VVFIN	Tense=Past|VerbForm=Fin	2	mod@relcl	_	_
+10	fielen	fallen	VERB	VVFIN	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	die	d	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+12	Sachen	Sache	NOUN	NN	Case=Acc|Number=Plur	10	subj	_	_
+13	runter	runter	ADJ	PTKVZ	Degree=Cmp,Pos	10	compound@prt	_	_
+14	weil	weil	SCONJ	KOUS	_	10	mod	_	_
+15	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	subj	_	_
+17	plötzlich	plötzlich	ADP	ADJD	_	21	mod	_	_
+18	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	comp:obj	_	_
+20	schnappen	schnappen	NOUN	VVINF	Case=Acc|Number=Plur	21	comp:aux	_	_
+21	wollte	wollen	VERB	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	comp:obj	_	_
+22	.	.	PUNCT	$.	_	10	punct	_	_
+
+# text = Die zwei Autos die gerade angefahren kamen hielten plötzlich an das dazu führte dass das hintere Auto mit dem ersten zusammenstieß .
+1	Die	d	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+2	zwei	zwei	NUM	CARD	NumType=Card	3	mod	_	_
+3	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	8	subj	_	_
+4	die	d	PRON	PRELS	Case=Nom|PronType=Dem	7	subj	_	_
+5	gerade	gerade	ADV	ADJD	_	7	mod	_	_
+6	angefahren	anfahren	VERB	VVPP	Tense=Past|VerbForm=Part	7	comp:obl	_	_
+7	kamen	kommen	VERB	VVFIN	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	mod@relcl	_	_
+8	hielten	halten	VERB	VVFIN	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	plötzlich	plötzlich	ADJ	ADJD	Degree=Pos	8	mod	_	_
+10	an	an	ADP	PTKVZ	_	8	compound@prt	_	_
+11	das	d	DET	PRELS	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	subj	_	_
+12	dazu	dazu	ADV	ADV	_	13	comp:obj	_	_
+13	führte	führen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	mod	_	_
+14	dass	dass	SCONJ	KOUS	_	12	comp:obj	_	_
+15	das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
+16	hintere	hintere	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	17	mod	_	_
+17	Auto	Auto	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	21	subj	_	_
+18	mit	mit	ADP	APPR	_	21	comp:obl	_	_
+19	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	20	det	_	_
+20	ersten	erst	ADJ	ORD	Case=Dat|Degree=Pos|Gender=Masc,Neut|NumType=Ord|Number=Sing	18	comp:obj	_	_
+21	zusammenstieß	zusammenstoßen	VERB	VVFIN	Person=3|Tense=Past|VerbForm=Fin	14	comp:obj	_	_
+22	.	.	PUNCT	$.	_	8	punct	_	_
+
+# text = Inzwischen eilte der Mann zur Hilfe um der Frau beim Einpacken ihrer Sachen zu helfen .
+1	Inzwischen	inzwischen	ADV	ADV	_	2	mod	_	_
+2	eilte	eilen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	subj	_	_
+5	zur	zu	PROPN	APPRART	_	2	comp:obl	_	_
+6	Hilfe	Hilfe	PROPN	NN	_	5	comp:obj	_	_
+7	um	um	ADP	APPR	_	2	mod	_	_
+8	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Frau	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	comp:obj	_	_
+10	beim	bei	ADV	APPRART	_	15	mod	_	_
+11	Einpacken	Einpacken	NOUN	NN	Case=Acc|Number=Plur	10	comp:obj	_	_
+12	ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+13	Sachen	Sache	NOUN	NN	_	11	mod@poss	_	_
+14	zu	zu	PART	PTKZU	_	7	comp:obj	_	_
+15	helfen	helfen	VERB	VVINF	VerbForm=Inf	14	comp:obj	_	_
+16	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Der Fahrer stieg aus
+1	Der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Fahrer	Fahrer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	stieg	steigen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	aus	aus	ADP	PTKVZ	_	3	compound@prt	_	_
+
+# text = und rief die Nummer 110 an .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	rief	rufen	VERB	VVFIN	Tense=Past|VerbForm=Fin	0	root	_	_
+3	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Nummer	Nummer	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	comp:obj	_	_
+5	110	@card@	NUM	CARD	NumType=Card	4	appos	_	_
+6	an	an	ADP	PTKVZ	_	2	compound@prt	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+

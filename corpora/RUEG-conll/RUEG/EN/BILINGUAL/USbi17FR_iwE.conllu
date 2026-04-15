@@ -1,0 +1,21 @@
+1	Fine	fine	ADJ	AJ0	_	0	root	_	_
+2	.	.	PUNCT	SENT	_	1	punct	_	_
+
+1	Just	just	ADV	AV0	_	2	advmod	_	_
+2	saw	see	VERB	VVD	_	0	root	_	_
+3	an	an	DET	AT0	_	4	det	_	_
+4	accident	accident	NOUN	NN1	_	2	obj	_	_
+5	in	in	ADP	PRP	_	8	case	_	_
+6	a	a	DET	AT0	_	8	det	_	_
+7	parking	parking	NOUN	NN1	_	8	compound	_	_
+8	lot	lot	NOUN	NN1	_	2	obl	_	_
+9	.	.	PUNCT	SENT	_	2	punct	_	_
+
+1	Nothing	nothing	PRON	PNI	_	0	root	_	_
+2	major	major	ADJ	AJ0	_	1	amod	_	_
+3	.	.	PUNCT	SENT	_	1	punct	_	_
+
+1	Dog	dog	NOUN	NN1	_	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	_	3	aux:pass	_	_
+3	saved	save	VERB	VVN	_	0	root	_	_
+

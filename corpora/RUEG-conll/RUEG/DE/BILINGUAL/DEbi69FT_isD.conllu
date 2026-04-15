@@ -1,0 +1,170 @@
+# text = ey Lina
+1	ey	ey	PROPN	_	_	2	discourse	_	_
+2	Lina	Lina	PROPN	_	Case=Nom|Number=Sing	0	root	_	_
+
+# text = du weißt nicht was passiert ist
+1	du	du	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	subj	_	_
+2	weißt	wisseb	VERB	_	Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nicht	nicht	PART	_	_	2	mod	_	_
+4	was	was	PRON	_	Case=Nom|PronType=Ind	6	subj	_	_
+5	passiert	passieren	ADJ	_	Degree=Pos|Tense=Past	6	comp:aux	_	_
+6	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
+
+# text = ich habe gerade aufm Parkplatz auf dich gewartet
+1	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	habe	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	gerade	gerade	ADV	_	_	2	mod	_	_
+4	aufm	auf	PROPN	_	_	8	mod	_	_
+5	Parkplatz	Parkplatz	PROPN	_	_	4	comp:obj	_	_
+6	auf	auf	ADP	_	_	8	comp:obl	_	_
+7	dich	du	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	6	comp:obj	_	_
+8	gewartet	warten	VERB	_	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+
+# text = wir wollten uns ja treffen
+1	wir	wir	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	subj	_	_
+2	wollten	wollen	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	uns	wir	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	5	comp:obj	_	_
+4	ja	ja	ADV	_	_	2	discourse	_	_
+5	treffen	treffen	VERB	_	Tense=Pres|VerbForm=Inf	2	comp:aux	_	_
+
+# text = und derzeit ist eine Mutter mit seinem Sohn vorbeigelaufen
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	derzeit	derzeit	ADV	_	_	3	mod	_	_
+3	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	eine	ein	DET	_	Definite=Ind|PronType=Art	5	det	_	_
+5	Mutter	Mutter	NOUN	_	_	3	subj	_	_
+6	mit	mit	ADP	_	_	5	mod	_	_
+7	seinem	sein	DET	_	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
+8	Sohn	Sohn	NOUN	_	Case=Dat|Number=Sing	6	comp:obj	_	_
+9	vorbeigelaufen	vorbeilaufen	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+
+# text = und der Sohn hat halt mit einem Ball gespielt
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Sohn	Sohn	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+4	hat	haben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	halt	halt	ADV	_	_	4	discourse	_	_
+6	mit	mit	ADP	_	_	9	mod	_	_
+7	einem	ein	DET	_	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Ball	Ball	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	6	comp:obj	_	_
+9	gespielt	spielen	VERB	_	Person=3|Tense=Past|VerbForm=Fin	4	comp:aux	_	_
+
+# text = und hat den Ball aus Versehen fallen lassen
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	hat	haben	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	den	d	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Ball	Ball	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	7	comp:obj	_	_
+5	aus	aus	ADP	_	_	7	mod	_	_
+6	Versehen	Versehen	NOUN	_	Case=Acc|Number=Sing	5	comp:obl	_	_
+7	fallen	fallen	VERB	_	Tense=Pres|VerbForm=Inf	8	comp:obj	_	_
+8	lassen	lassen	VERB	_	Tense=Pres|VerbForm=Inf	2	comp:aux	_	_
+
+# text = und der ist dann halt über die Straße gerollt
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	der	d	PRON	_	Case=Nom|PronType=Dem	3	subj	_	_
+3	ist	sein	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	dann	dann	ADV	_	_	3	mod	_	_
+5	halt	halt	ADV	_	_	3	discourse	_	_
+6	über	über	ADP	_	_	9	comp:obl	_	_
+7	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	comp:obj	_	_
+9	gerollt	rollen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+
+# text = und dann äh hat es sozusagen ein Hund mitbekommen
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	dann	dann	ADV	_	_	4	mod	_	_
+3	äh	äh	ADJ	_	Degree=Pos	4	discourse	_	_
+4	hat	haben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	es	es	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	comp:obj@expl	_	_
+6	sozusagen	sozusagen	ADV	_	_	4	mod	_	_
+7	ein	ein	DET	_	Definite=Ind|PronType=Art	8	det	_	_
+8	Hund	Hund	NOUN	_	_	4	subj	_	_
+9	mitbekommen	mitbekommen	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	comp:aux	_	_
+
+# text = und ist zu dem Ball gerannt
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	ist	sein	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	zu	zu	ADP	_	_	6	comp:obl	_	_
+4	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Ball	Ball	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	3	comp:obj	_	_
+6	gerannt	rennen	ADJ	_	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+
+# text = und äh ein Auto hat fast den Hund angefahren
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	äh	äh	ADJ	_	Degree=Pos	5	discourse	_	_
+3	ein	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Auto	Auto	NOUN	_	Case=Acc|Gender=Masc,Neut|Number=Sing	5	subj	_	_
+5	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	fast	fast	ADV	_	_	5	mod	_	_
+7	den	d	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Hund	Hund	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	9	comp:obj	_	_
+9	angefahren	anfahren	VERB	_	Tense=Past|VerbForm=Part	5	comp:aux	_	_
+
+# text = und deshalb hat er halt Vollbremse gemacht
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	deshalb	deshalb	ADV	_	_	3	mod	_	_
+3	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	er	er	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
+5	halt	halt	NOUN	_	Case=Nom|Number=Sing	3	discourse	_	_
+6	Vollbremse	Vollbremse	NOUN	_	Case=Acc|Number=Plur	7	comp:obj	_	_
+7	gemacht	machen	VERB	_	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+
+# text = also ist halt stehen geblieben
+1	also	also	ADV	_	_	2	discourse	_	_
+2	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	halt	halt	ADV	_	_	2	discourse	_	_
+4	stehen	stehen	VERB	_	Number=Plur|Person=3|VerbForm=Fin	5	comp:obj	_	_
+5	geblieben	bleiben	VERB	_	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+
+# text = und derzeit ist dann halt ein anderes Auto von hinten in in ihn reingefahren
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	derzeit	derzeit	ADV	_	_	3	mod	_	_
+3	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	dann	dann	ADV	_	_	3	mod	_	_
+5	halt	halt	ADV	_	_	3	discourse	_	_
+6	ein	ein	DET	_	Definite=Ind|PronType=Art	8	det	_	_
+7	anderes	ander	ADJ	_	Degree=Pos	8	mod	_	_
+8	Auto	Auto	NOUN	_	_	3	subj	_	_
+9	von	von	ADP	_	_	14	mod	_	_
+10	hinten	hinten	ADV	_	_	9	comp:obj	_	_
+11	in	in	ADP	_	_	12	reparandum	_	_
+12	in	in	ADP	_	_	14	comp:obl	_	_
+13	ihn	er	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	comp:obj	_	_
+14	reingefahren	reingefahren	VERB	_	Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+
+# text = und ich hatte richtig Angst
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	hatte	haben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	richtig	richtig	ADJ	_	Degree=Pos	3	mod	_	_
+5	Angst	Angst	NOUN	_	Case=Dat|Number=Sing	3	comp:obj	_	_
+
+# text = wusste nicht was wir machen sollten
+1	wusste	wissen	ADJ	_	Tense=Past	0	root	_	_
+2	nicht	nicht	PART	_	_	1	mod	_	_
+3	was	was	PRON	_	Case=Nom|Number=Sing|PronType=Int	5	comp:obj	_	_
+4	wir	wir	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	subj	_	_
+5	machen	machen	VERB	_	Tense=Pres|VerbForm=Inf	6	comp:aux	_	_
+6	sollten	sollen	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	comp:obj	_	_
+
+# text = so weil der Junge hat auch richtig Angst so
+1	so	so	ADV	_	_	5	mod	_	_
+2	weil	weil	SCONJ	_	_	5	discourse	_	_
+3	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Junge	Junge	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	subj	_	_
+5	hat	haben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	auch	auch	ADV	_	_	5	mod	_	_
+7	richtig	richtig	ADJ	_	Degree=Pos	5	mod	_	_
+8	Angst	Angst	NOUN	_	Case=Dat|Number=Sing	5	comp:obj	_	_
+9	so	so	ADV	_	_	5	mod	_	_
+
+# text = und dann haben wir halt die Polizei gerufen
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	dann	dann	ADV	_	_	3	mod	_	_
+3	haben	haben	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	wir	wir	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	subj	_	_
+5	halt	halt	ADV	_	_	3	discourse	_	_
+6	die	d	DET	_	Definite=Def|PronType=Art	7	det	_	_
+7	Polizei	Polizei	NOUN	_	_	8	comp:obj	_	_
+8	gerufen	rufen	VERB	_	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+

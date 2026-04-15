@@ -1,0 +1,102 @@
+# text = hallo
+1	hallo	hallo	X	_	_	0	root	_	_
+
+# text = ich habe gerade einen Unfall äh beobachtet
+1	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	habe	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	gerade	gerade	ADV	_	_	2	mod	_	_
+4	einen	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Unfall	Unfall	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	7	comp:obj	_	_
+6	äh	äh	ADJ	_	Degree=Pos	2	discourse	_	_
+7	beobachtet	beobachten	VERB	_	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+
+# text = Mann lässt äh einen Ball auf die Straße rollen
+1	Mann	Mann	NOUN	_	Case=Nom|Number=Sing	2	subj	_	_
+2	lässt	lassen	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	äh	äh	ADJ	_	Degree=Pos	2	discourse	_	_
+4	einen	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Ball	Ball	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	9	comp:obj	_	_
+6	auf	auf	ADP	_	_	9	comp:obl	_	_
+7	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	comp:obj	_	_
+9	rollen	rollen	VERB	_	VerbForm=Inf	2	comp:aux	_	_
+
+# text = und dann läuft ein Hund drauf zu
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	dann	dann	ADV	_	_	3	mod	_	_
+3	läuft	laufen	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ein	ein	DET	_	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Hund	Hund	NOUN	_	Case=Gen|Gender=Masc,Neut|Number=Sing	3	subj	_	_
+6	drauf	drauf	ADV	_	_	3	mod	_	_
+7	zu	zu	ADP	_	_	3	compound@prt	_	_
+
+# text = und dann muss das Auto voll krass bremsen
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	dann	dann	ADV	_	_	3	mod	_	_
+3	muss	müssen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	das	d	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	det	_	_
+5	Auto	Auto	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	3	subj	_	_
+6	voll	voll	ADJ	_	Degree=Pos	7	mod	_	_
+7	krass	krass	NOUN	_	Case=Acc|Number=Plur	3	mod	_	_
+8	bremsen	bremsen	VERB	_	VerbForm=Inf	3	comp:aux	_	_
+
+# text = und der Dahinter fährt drauf
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	der	d	DET	_	Definite=Def|PronType=Art	3	det	_	_
+3	Dahinter	Dahinter	PROPN	_	_	4	subj	_	_
+4	fährt	fahren	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	drauf	drauf	ADV	_	_	4	compound@prt	_	_
+
+# text = äh und das war es eigentlich auch schon
+1	äh	äh	ADJ	_	Degree=Pos	4	discourse	_	_
+2	und	und	CCONJ	_	_	4	cc	_	_
+3	das	d	PRON	_	Case=Nom|PronType=Dem	4	subj	_	_
+4	war	sein	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	es	es	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	comp:pred	_	_
+6	eigentlich	eigentlich	ADV	_	_	4	mod	_	_
+7	auch	auch	ADV	_	_	4	mod	_	_
+8	schon	schon	ADV	_	_	4	mod	_	_
+
+# text = aber der Typ äh hat der Frau bei den Einkäufen geholfen die sie fallen lassen hat wegen der Hundeaktion
+1	aber	aber	ADV	_	_	5	cc	_	_
+2	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Typ	Typ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	subj	_	_
+4	äh	äh	ADJ	_	Degree=Pos	5	discourse	_	_
+5	hat	haben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Frau	Frau	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	11	comp:obj	_	_
+8	bei	bei	ADP	_	_	11	mod	_	_
+9	den	d	DET	_	Case=Dat|Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+10	Einkäufen	Einkäufe	NOUN	_	Case=Dat|Number=Plur	8	comp:obj	_	_
+11	geholfen	helfen	VERB	_	Tense=Past|VerbForm=Inf	5	comp:aux	_	_
+12	die	d	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	comp:obj	_	_
+13	sie	sie	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	subj	_	_
+14	fallen	fallen	VERB	_	VerbForm=Inf	15	comp:obj	_	_
+15	lassen	lassen	VERB	_	VerbForm=Inf	16	comp:aux	_	_
+16	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	_
+17	wegen	wegen	ADP	_	_	14	mod	_	_
+18	der	d	DET	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Hundeaktion	Hundreaktion	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	17	comp:obj	_	_
+
+# text = und äh es war alles ganz friedlich und insofern eigentlich nichts Spannendes
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	äh	äh	ADJ	_	Degree=Pos	4	discourse	_	_
+3	es	es	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	_
+4	war	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	alles	all	PRON	_	PronType=Tot	4	subj	_	_
+6	ganz	ganz	ADV	_	_	7	mod	_	_
+7	friedlich	friedlich	ADJ	_	Degree=Pos	4	comp:pred	_	_
+8	und	und	CCONJ	_	_	12	cc	_	_
+9	insofern	insofern	ADV	_	_	4	mod	_	_
+10	eigentlich	eigentlich	ADJ	_	Degree=Pos	4	mod	_	_
+11	nichts	nichts	PROPN	_	Case=Gen|Gender=Masc|Number=Plur	12	det	_	_
+12	Spannendes	Spannendes	PROPN	_	Case=Gen|Gender=Masc,Neut|Number=Sing	7	conj	_	_
+
+# text = aber ich wollte es dir mitteilen
+1	aber	aber	ADV	_	_	3	cc	_	_
+2	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	wollte	wollen	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+4	es	es	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	_
+5	dir	du	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	6	comp:obl	_	_
+6	mitteilen	mitteilen	VERB	_	VerbForm=Inf	3	comp:aux	_	_
+

@@ -1,0 +1,97 @@
+1	Hi	Hi	PROPN	NGIRR	Case=Nom|Number=Sing	2	discourse	_	_
+2	Svet	Svet	VERB	NE	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	!	!	PUNCT	$.	_	2	punct	_	_
+
+1	:red_heart:	❤️	NOUN	EMO	_	0	root	_	_
+
+1	Wie	Wie	ADV	PWAV	_	2	mod	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	dein	dein	PRON	PPOSAT	Case=Acc|Gender=Masc,Neut|Number=Sing|PronType=Ind	4	det	_	_
+4	Tag	Tag	NOUN	NN	_	2	subj	_	_
+5	?	?	PUNCT	$.	_	2	punct	_	_
+
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	heute	heute	ADV	ADV	_	2	mod	_	_
+4	an	an	ADP	APPR	_	2	comp:pred	_	_
+5	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Uni	Uni	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	gesehen	sehen	VERB	VVPP	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+4	,	,	PUNCT	$,	_	2	punct	_	_
+5	wie	wie	ADP	KOUS	_	3	comp:obj	_	_
+6	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Auto	Auto	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	12	subj	_	_
+8	in	in	ADP	APPR	_	11	comp:obl	_	_
+9	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+10	anderes	ander	ADJ	ADJD	Case=Acc|Degree=Cmp|Gender=Masc,Neut|Number=Sing	8	comp:obj	_	_
+11	geknallt	knallen	ADJ	VVPP	Tense=Past	12	comp:aux	_	_
+12	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
+13	,	,	PUNCT	$,	_	2	punct	_	_
+
+1	super	super	ADJ	ADJD	Degree=Pos	2	mod	_	_
+2	spannend	spannend	VERB	ADJD	_	0	root	_	_
+3	,	,	PUNCT	$,	_	2	punct	_	_
+4	oder	oder	CCONJ	SEQU	_	2	discourse	_	_
+5	?	?	PUNCT	$.	_	2	punct	_	_
+6	:see-no-evil_monkey:	🙈	SYM	EMO	_	2	discourse	_	_
+
+1	Niemandem	Niemand	VERB	PIS	_	4	comp:obj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	etwas	etwas	PRON	PIS	Case=Nom|PronType=Ind	2	subj	_	_
+4	passiert	passieren	ADJ	VVPP	Degree=Pos|Tense=Past	2	comp:aux	_	_
+5	,	,	PUNCT	$,	_	2	punct	_	_
+
+1	also	also	ADV	SEDM	_	2	discourse	_	_
+2	alles	all	PRON	PIS	PronType=Tot	0	root	_	_
+3	gut	gut	VERB	ADJD	VerbForm=Part	2	orphan	_	_
+4	!	!	PUNCT	$.	_	2	punct	_	_
+
+1	Einem	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	9	comp:obj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	subj	_	_
+6	auf	auf	ADP	APPR	_	9	comp:obl	_	_
+7	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	comp:obj	_	_
+9	gefallen	fallen	VERB	VVPP	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	gab	geben	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Auffahrunfall	Auffahrunfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	comp:obj	_	_
+7	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	Muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	jetzt	jetzt	ADV	ADV	_	1	mod	_	_
+3	bei	bei	ADP	APPR	_	8	mod	_	_
+4	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Polizei	Polizei	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	comp:obj	_	_
+6	als	als	ADP	KOKOM	_	8	mod	_	_
+7	Zeugin	Zeugin	NOUN	NN	_	6	comp:obj	_	_
+8	aussagen	aussagen	VERB	VVINF	Tense=Pres|VerbForm=Inf	1	comp:aux	_	_
+9	.	.	PUNCT	$.	_	1	punct	_	_
+
+1	:face_with_open_mouth:	😮	SYM	EMO	_	0	root	_	_
+
+1	Das	Das	PRON	PDS	Case=Nom|PronType=Dem	2	subj	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	so	so	ADV	PTKIFG	_	2	mod	_	_
+4	das	d	DET	ART	Definite=Def|PronType=Art	5	det	_	_
+5	Spannende	Spannende	NOUN	NN	_	2	comp:pred	_	_
+6	bei	bei	ADP	APPR	_	2	mod	_	_
+7	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	comp:obj	_	_
+8	heute	heute	ADV	ADV	_	2	mod	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	:face_with_tears_of_joy:	😂	SYM	EMO	_	0	root	_	_
+
+1	:face_with_tears_of_joy:	😂	SYM	EMO	_	0	root	_	_
+
+1	:face_with_tears_of_joy:	😂	SYM	EMO	_	0	root	_	_
+

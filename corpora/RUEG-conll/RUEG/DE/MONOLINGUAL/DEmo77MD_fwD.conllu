@@ -1,0 +1,62 @@
+# text = Die Fallnummer lautet elf 16.
+1	Die	d	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Fallnummer	Fallnummer	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	3	subj	_	_
+3	lautet	lauten	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	elf	@card@	NUM	_	NumType=Card	3	comp:obj	_	_
+5	16.	@card@	NUM	_	NumType=Card	4	flat	_	_
+
+# text = Ein Mann , welcher über die Straße lief verlor seinen Ball .
+1	Ein	ein	DET	_	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Mann	Mann	NOUN	_	Case=Nom|Gender=Masc,Neut|Number=Sing	9	subj	_	_
+3	,	,	PUNCT	_	_	9	punct	_	_
+4	welcher	welche	PRON	_	Case=Nom|PronType=Rel	8	subj	_	_
+5	über	über	ADP	_	_	8	comp:obl	_	_
+6	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	comp:obj	_	_
+8	lief	laufen	VERB	_	Number=Sing|Person=3|VerbForm=Fin	2	mod@relcl	_	_
+9	verlor	verlieren	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+10	seinen	sein	DET	_	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
+11	Ball	Ball	NOUN	_	Case=Acc|Number=Sing	9	comp:obj	_	_
+12	.	.	PUNCT	_	_	9	punct	_	_
+
+# text = Dieser rollte über die Straße ,
+1	Dieser	dies	PRON	_	Case=Nom|PronType=Dem	2	subj	_	_
+2	rollte	rollen	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	über	über	ADP	_	_	2	comp:obl	_	_
+4	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	comp:obj	_	_
+6	,	,	PUNCT	_	_	2	punct	_	_
+
+# text = ein Hund und ihr Frauchen rannten daraufhin auf den Ball zu .
+1	ein	ein	DET	_	Definite=Ind|PronType=Art	2	det	_	_
+2	Hund	Hund	NOUN	_	_	6	subj	_	_
+3	und	und	CCONJ	_	_	5	cc	_	_
+4	ihr	ihr	DET	_	Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	Frauchen	Frauchen	NOUN	_	_	2	conj	_	_
+6	rannten	rennen	ADJ	_	Degree=Pos	0	root	_	_
+7	daraufhin	daraufhin	ADV	_	_	6	mod	_	_
+8	auf	auf	ADP	_	_	6	comp:obl	_	_
+9	den	d	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Ball	Ball	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	8	comp:obj	_	_
+11	zu	zu	ADP	_	_	6	compound@prt	_	_
+12	.	.	PUNCT	_	_	6	punct	_	_
+
+# text = Deshalb machte ein Auto eine Notbremsung
+1	Deshalb	deshalb	ADV	_	_	2	mod	_	_
+2	machte	machen	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	_	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Auto	Auto	NOUN	_	Case=Acc|Gender=Masc,Neut|Number=Sing	2	subj	_	_
+5	eine	ein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Notbremsung	Notbremsung	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	2	comp:obj	_	_
+
+# text = und ein weiteres Fahrzeug fuhr diesem hinten auf .
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	ein	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+3	weiteres	weitere	ADJ	_	Case=Acc|Degree=Cmp|Gender=Masc,Neut|Number=Sing	4	mod	_	_
+4	Fahrzeug	Fahrzeug	NOUN	_	Case=Acc|Gender=Masc,Neut|Number=Sing	5	subj	_	_
+5	fuhr	fahren	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+6	diesem	dies	PRON	_	Case=Dat|PronType=Dem	5	comp:obj	_	_
+7	hinten	hinten	ADV	_	_	5	mod	_	_
+8	auf	auf	ADP	_	_	5	compound@prt	_	_
+9	.	.	PUNCT	_	_	5	punct	_	_
+

@@ -1,0 +1,184 @@
+1	I	i	PRON	PNP	_	3	nsubj	_	_
+2	was	be	AUX	VBD	_	3	cop	_	_
+3	standing	stand	VERB	VVG	_	0	root	_	_
+4	outside	outside	ADV	AV0	_	3	advmod	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	I	i	PRON	PNP	_	3	nsubj	_	_
+3	saw	see	VERB	VVD	_	0	root	_	_
+4	the	the	DET	AT0	_	5	det	_	_
+5	following	following	NOUN	NN1	_	3	obj	_	_
+6	:	:	PUNCT	PUN	_	3	punct	_	_
+
+1	A	a	DET	AT0	_	2	det	_	_
+2	man	man	NOUN	NN1	_	4	nsubj:pass	_	_
+3	was	be	AUX	VBD	_	4	aux:pass	_	_
+4	playing	play	VERB	VVG	_	0	root	_	_
+5	with	with	ADP	PRP	_	8	case	_	_
+6	a	a	DET	AT0	_	8	det	_	_
+7	soccer	soccer	NOUN	NN1	_	8	compound	_	_
+8	ball	ball	NOUN	NN1	_	4	obl	_	_
+
+1	and	and	CCONJ	CJC	_	2	cc	_	_
+2	walking	walk	VERB	VVG	_	0	root	_	_
+3	on	on	ADP	PRP	_	5	case	_	_
+4	the	the	DET	AT0	_	5	det	_	_
+5	sidewalk	sidewalk	NOUN	NN1	_	2	obl	_	_
+6	with	with	ADP	PRP	_	8	case	_	_
+7	a	a	DET	AT0	_	8	det	_	_
+8	woman	woman	NOUN	NN1	_	2	obl	_	_
+9	and	and	CCONJ	CJC	_	10	cc	_	_
+10	stroller	stroller	NOUN	NN1	_	8	conj	_	_
+11	on	on	ADP	PRP	_	13	case	_	_
+12	one	one	NUM	CRD	_	13	nummod	_	_
+13	side	side	NOUN	NN1	_	2	obl	_	_
+14	of	of	ADP	PRF	_	17	case	_	_
+15	the	the	DET	AT0	_	17	det	_	_
+16	parking	parking	NOUN	NN1	_	17	compound	_	_
+17	lot	lot	NOUN	NN1	_	13	nmod	_	_
+18	.	.	PUNCT	SENT	_	2	punct	_	_
+
+1	On	on	ADP	PRP	_	4	case	_	_
+2	the	the	DET	AT0	_	4	det	_	_
+3	other	other	ADJ	AJ0	_	4	amod	_	_
+4	side	side	NOUN	NN1	_	21	obl	_	_
+5	of	of	ADP	PRF	_	8	case	_	_
+6	the	the	DET	AT0	_	8	det	_	_
+7	parking	parking	NOUN	NN1	_	8	advmod	_	_
+8	lot	lot	NOUN	NN1	_	4	nmod	_	_
+9	a	a	DET	AT0	_	10	det	_	_
+10	woman	woman	NOUN	NN1	_	15	nsubj	_	_
+11	with	with	ADP	PRP	_	13	case	_	_
+12	a	a	DET	AT0	_	13	det	_	_
+13	dog	dog	NOUN	NN1	_	10	nmod	_	_
+14	was	be	AUX	VBD	_	15	cop	_	_
+15	unpacking	unpack	VERB	VVG	_	8	acl:relcl	_	_
+16	her	she	DET	DPS	_	17	det	_	_
+17	groceries	grocery	NOUN	NN2	_	15	obj	_	_
+18	into	into	ADP	PRP	_	20	case	_	_
+19	her	she	DET	DPS	_	20	det	_	_
+20	car	car	NOUN	NN1	_	15	obl	_	_
+21	.	.	PUNCT	SENT	_	0	root	_	_
+
+1	As	as	SCONJ	CJS	_	4	mark	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	man	man	NOUN	NN1	_	4	nsubj	_	_
+4	turned	turn	VERB	VVD	_	9	advcl	_	_
+5	the	the	DET	AT0	_	6	det	_	_
+6	corner	corner	NOUN	NN1	_	4	obj	_	_
+7	,	,	PUNCT	PUN	_	9	punct	_	_
+8	he	he	PRON	PNP	_	9	nsubj	_	_
+9	dropped	drop	VERB	VVD	_	0	root	_	_
+10	/	/	PUNCT	PUN	_	9	punct	_	_
+11	threw	throw	VERB	VVD	_	9	conj	_	_
+12	the	the	DET	AT0	_	13	det	_	_
+13	ball	ball	NOUN	NN1	_	11	obj	_	_
+14	several	several	DET	DT0	_	15	det	_	_
+15	feet	foot	NOUN	NN2	_	11	advmod	_	_
+16	in	in	ADP	PRP	_	17	case	_	_
+17	front	front	NOUN	NN1	_	11	obl	_	_
+18	of	of	ADP	PRF	_	19	case	_	_
+19	him	he	PRON	PNP	_	17	nmod	_	_
+20	.	.	PUNCT	SENT	_	9	punct	_	_
+
+1	The	the	DET	AT0	_	2	det	_	_
+2	dog	dog	NOUN	NN1	_	3	nsubj	_	_
+3	ran	run	VERB	VVD	_	0	root	_	_
+4	after	after	ADP	PRP	_	6	case	_	_
+5	the	the	DET	AT0	_	6	det	_	_
+6	ball	ball	NOUN	NN1	_	3	obl	_	_
+7	.	.	PUNCT	SENT	_	3	punct	_	_
+
+1	At	at	ADP	PRP	_	3	case	_	_
+2	this	this	DET	DT0	_	3	det	_	_
+3	time	time	NOUN	NN1	_	8	obl	_	_
+4	,	,	PUNCT	PUN	_	8	punct	_	_
+5	a	a	DET	AT0	_	7	det	_	_
+6	blue	blue	ADJ	AJ0	_	7	amod	_	_
+7	car	car	NOUN	NN1	_	8	nsubj	_	_
+8	followed	follow	VERB	VVN	_	14	conj	_	_
+9	by	by	ADP	PRP	_	12	case	_	_
+10	a	a	DET	AT0	_	12	det	_	_
+11	white	white	ADJ	AJ0	_	12	amod	_	_
+12	car	car	NOUN	NN1	_	8	obl	_	_
+13	was	be	AUX	VBD	_	14	aux:pass	_	_
+14	pulling	pull	VERB	VVG	_	0	root	_	_
+15	into	into	ADP	PRP	_	18	case	_	_
+16	the	the	DET	AT0	_	18	det	_	_
+17	parking	parking	NOUN	NN1	_	18	compound	_	_
+18	lot	lot	NOUN	NN1	_	14	obl	_	_
+19	.	.	PUNCT	SENT	_	14	punct	_	_
+
+1	The	the	DET	AT0	_	3	det	_	_
+2	blue	blue	ADJ	AJ0	_	3	amod	_	_
+3	car	car	NOUN	NN1	_	4	nsubj	_	_
+4	braked	brake	VERB	VVD	_	0	root	_	_
+5	rapidly	rapidly	ADV	AV0	_	4	advmod	_	_
+6	,	,	PUNCT	PUN	_	4	punct	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	the	the	DET	AT0	_	4	det	_	_
+3	white	white	ADJ	AJ0	_	4	amod	_	_
+4	car	car	NOUN	NN1	_	5	nsubj	_	_
+5	rear-ended	rear-end	VERB	VVD	_	0	root	_	_
+6	the	the	DET	AT0	_	8	det	_	_
+7	blue	blue	ADJ	AJ0	_	8	amod	_	_
+8	car	car	NOUN	NN1	_	5	obj	_	_
+9	.	.	PUNCT	SENT	_	5	punct	_	_
+
+1	The	the	DET	AT0	_	2	det	_	_
+2	woman	woman	NOUN	NN1	_	0	root	_	_
+3	who	who	PRON	PNQ	_	4	nsubj	_	_
+4	owned	own	VERB	VVD	_	2	acl:relcl	_	_
+5	the	the	DET	AT0	_	6	det	_	_
+6	dog	dog	NOUN	NN1	_	7	obj	_	_
+7	grabbed	grab	VERB	VVD	_	4	conj	_	_
+8	the	the	DET	AT0	_	9	det	_	_
+9	dog	dog	NOUN	NN1	_	7	obj	_	_
+
+1	and	and	CCONJ	CJC	_	2	cc	_	_
+2	dropped	drop	VERB	VVD	_	0	root	_	_
+3	her	she	DET	DPS	_	4	det	_	_
+4	groceries	grocery	NOUN	NN2	_	2	obj	_	_
+5	.	.	PUNCT	SENT	_	2	punct	_	_
+
+1	The	the	DET	AT0	_	2	det	_	_
+2	man	man	NOUN	NN1	_	3	nsubj	_	_
+3	helped	help	VERB	VVD	_	0	root	_	_
+4	the	the	DET	AT0	_	5	det	_	_
+5	woman	woman	NOUN	NN1	_	6	nsubj	_	_
+6	pick	pick	VERB	VVI	_	3	ccomp	_	_
+7	up	up	ADP	AVP	_	6	compound:prt	_	_
+8	her	she	DET	DPS	_	9	det	_	_
+9	groceries	grocery	NOUN	NN2	_	6	obj	_	_
+
+1	and	and	CCONJ	CJC	_	2	cc	_	_
+2	walked	walk	VERB	VVD	_	0	root	_	_
+3	over	over	ADP	AVP	_	2	compound:prt	_	_
+4	to	to	ADP	PRP	_	6	case	_	_
+5	the	the	DET	AT0	_	6	det	_	_
+6	drivers	driver	NOUN	NN2	_	2	obl	_	_
+7	.	.	PUNCT	SENT	_	2	punct	_	_
+
+1	Both	both	DET	DT0	_	2	det	_	_
+2	drivers	driver	NOUN	NN2	_	4	nsubj	_	_
+3	had	have	AUX	VHD	_	4	aux	_	_
+4	gotten	get	VERB	VVN	_	0	root	_	_
+5	out	out	ADP	PRP	_	8	case	_	_
+6	of	of	ADP	PRF	_	8	case	_	_
+7	their	they	DET	DPS	_	8	det	_	_
+8	cars	car	NOUN	NN2	_	4	obl	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	were	be	AUX	VBD	_	3	cop	_	_
+3	talking	talk	VERB	VVG	_	0	root	_	_
+4	.	.	PUNCT	SENT	_	3	punct	_	_
+
+1	One	one	NUM	CRD	_	0	root	_	_
+2	of	of	ADP	PRF	_	4	case	_	_
+3	the	the	DET	AT0	_	4	det	_	_
+4	drivers	driver	NOUN	NN2	_	1	nmod	_	_
+5	called	call	VERB	VVD	_	4	acl	_	_
+6	911	911	PROPN	NP0	_	5	xcomp	_	_
+7	.	.	PUNCT	SENT	_	1	punct	_	_
+

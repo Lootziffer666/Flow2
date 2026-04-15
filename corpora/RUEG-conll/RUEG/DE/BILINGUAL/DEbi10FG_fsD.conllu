@@ -1,0 +1,184 @@
+1	äh	äh	ADV	VVFIN	_	5	discourse	_	_
+2	einen	ein	DET	ART	_	5	det	_	_
+3	wunderschönen	wunderschön	ADJ	ADJA	_	5	mod	_	_
+4	guten	gut	ADJ	ADJA	_	5	mod	_	_
+5	Tag	Tag	NOUN	NN	_	0	root	_	_
+
+1	mein	mein	PRON	PPOSAT	_	2	det	_	_
+2	Name	Name	NOUN	NN	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	DEbi10FG	DEbi10FG	PROPN	NE	_	3	comp:pred	_	_
+
+1	und	und	CCONJ	KON	_	4	discourse	_	_
+2	zwar	zwar	ADV	ADV	_	1	fixed	_	_
+3	es	es	PRON	PPER	_	4	subj@expl	_	_
+4	geht	gehen	VERB	VVFIN	_	0	root	_	_
+5	um	um	ADP	APPR	_	4	comp:obl	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Fall	Fall	NOUN	NN	_	5	comp:obj	_	_
+8	F16	F16	PROPN	NE	_	7	appos	_	_
+9	über	über	ADP	APPR	_	5	conj	_	_
+10	den	d	DET	ART	_	11	reparandum	_	_
+11	den	d	DET	ART	_	12	det	_	_
+12	Unfall	Unfall	NOUN	NN	_	9	comp:obj	_	_
+13	in	in	ADP	APPR	_	15	reparandum	_	_
+14	der	d	DET	ART	_	13	comp:obj	_	_
+15	aufm	aufm	PROPN	APPRAT	_	16	reparandum	_	_
+16	aufm	aufm	PROPN	APPRAT	_	12	mod	_	_
+17	Parkplatz	Parkplatz	PROPN	NN	_	16	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	6	discourse	_	_
+2	zwar	zwar	ADV	ADV	_	1	fixed	_	_
+3	da	da	ADV	ADV	_	4	mod	_	_
+4	lief	laufen	VERB	VVFIN	_	6	reparandum	_	_
+5	da	da	ADV	ADV	_	6	mod	_	_
+6	lief	laufen	VERB	VVFIN	_	0	root	_	_
+7	ein	ein	DET	ART	_	8	det	_	_
+8	Mann	Mann	NOUN	NN	_	6	subj	_	_
+9	mit	mit	ADP	APPR	_	8	mod	_	_
+10	seiner	sein	DET	PPOSAT	_	11	det	_	_
+11	Frau	Frau	NOUN	NN	_	9	comp:obj	_	_
+12	und	und	CCONJ	KON	_	14	cc	_	_
+13	seinem	sein	DET	PPOSAT	_	14	det	_	_
+14	Kind	Kind	NOUN	NN	_	11	conj	_	_
+
+1	die	die	PRON	PDS	_	2	subj	_	_
+2	sind	sein	AUX	VAFIN	_	0	root	_	_
+3	spazieren	spazieren	ADJ	VVINF	_	4	comp:obj	_	_
+4	gegangen	gehen	VERB	VVPP	_	2	comp:aux	_	_
+
+1	hat	haben	VERB	VAFIN	_	5	reparandum	_	_
+2	einen	ein	PRON	ART	_	1	comp:obj	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Mann	Mann	NOUN	NN	_	5	subj	_	_
+5	hatte	haben	VERB	VAFIN	_	0	root	_	_
+6	einen	ein	DET	ART	_	7	det	_	_
+7	Ball	Ball	NOUN	NN	_	5	comp:obj	_	_
+8	in	in	ADP	APPR	_	5	mod	_	_
+9	der	d	DET	ART	_	10	det	_	_
+10	Hand	Hand	NOUN	NN	_	8	comp:obj	_	_
+
+1	der	d	DET	ART	_	2	det	_	_
+2	Ball	Ball	NOUN	NN	_	3	subj	_	_
+3	schien	scheinen	VERB	VVFIN	_	0	root	_	_
+4	irgendwann	irgendwann	ADV	ADV	_	3	mod	_	_
+5	mal	mal	ADV	PTKMA	_	3	mod	_	_
+6	aus	aus	ADP	APPR	_	9	comp:obl	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Hand	Hand	NOUN	NN	_	6	comp:obj	_	_
+9	gerutscht	rutschen	VERB	VVPP	_	3	comp:obj	_	_
+10	und	und	CCONJ	KON	_	17	cc	_	_
+11	auf	auf	ADP	APPR	_	17	comp:obl	_	_
+12	die	d	DET	ART	_	13	det	_	_
+13	Straße	Straße	NOUN	NN	_	11	comp:obj	_	_
+14	beziehungsweise	beziehungsweise	ADV	KON	_	15	cc	_	_
+15	aufn	aufn	PROPN	APPRAT	_	11	conj	_	_
+16	Parkplatz	Parkplatz	PROPN	NN	_	15	comp:obj	_	_
+17	gerollt	rollen	VERB	VVPP	_	9	conj	_	_
+
+1	da	da	ADV	ADV	_	2	comp:pred	_	_
+2	war	sein	VERB	VAFIN	_	10	reparandum	_	_
+3	eine	ein	DET	ART	_	4	det	_	_
+4	Frau	Frau	NOUN	NN	_	2	subj	_	_
+5	halt	halt	ADV	PTKMA	_	10	discourse	_	_
+6	mit	mit	ADP	APPR	_	4	mod	_	_
+7	ihren	ihr	DET	PPOSAT	_	6	comp:obj	_	_
+8	also	also	ADV	SEDM	_	10	discourse	_	_
+9	da	da	ADV	ADV	_	10	mod	_	_
+10	war	sein	VERB	VAFIN	_	0	root	_	_
+11	eine	eine	DET	ART	_	12	det	_	_
+12	Frau	Frau	NOUN	NN	_	10	subj	_	_
+13	halt	halt	VERB	PTKMA	_	10	discourse	_	_
+14	einkaufen	einkaufen	VERB	VVINF	_	10	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	stand	stehen	VERB	VVFIN	_	0	root	_	_
+3	halt	halt	ADV	PTKMA	_	2	discourse	_	_
+4	aufn	aufn	VERB	APPRAT	_	2	comp:obl	_	_
+5	Parkplatz	Parkplatz	NOUN	NN	_	4	comp:obj	_	_
+6	um	um	ADP	APPR	_	2	mod	_	_
+7	ihren	ihr	DET	PPOSAT	_	8	det	_	_
+8	Einkauf	Einkauf	NOUN	NN	_	9	comp:obj	_	_
+9	einzuräumen	einräumen	VERB	VVIZU	_	6	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hatte	haben	VERB	VAFIN	_	0	root	_	_
+3	noch	noch	ADV	PTKMWL	_	2	mod	_	_
+4	ihren	ihr	DET	PPOSAT	_	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	2	comp:obj	_	_
+6	dabei	dabei	ADV	PTKVZ	_	2	compound@prt	_	_
+
+1	sobald	sobald	ADV	KOUS	_	9	mod	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	8	subj	_	_
+4	halt	halt	ADV	PTKMA	_	9	discourse	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Ball	Ball	PROPN	NN	_	7	comp:obj	_	_
+7	gesehen	sehen	VERB	VVPP	_	8	comp:aux	_	_
+8	hat	haben	AUX	VAFIN	_	1	comp:obj	_	_
+9	lief	laufen	VERB	VVFIN	_	0	root	_	_
+10	er	er	PRON	PPER	_	9	subj	_	_
+11	direkt	direkt	ADJ	ADV	_	9	mod	_	_
+12	auf	auf	ADP	APPR	_	9	comp:obl	_	_
+13	die	d	DET	ART	_	14	det	_	_
+14	Straße	Straße	NOUN	NN	_	12	comp:obj	_	_
+15	los	los	ADV	PTKVZ	_	9	compound@prt	_	_
+
+1	die	d	DET	ART	_	2	det	_	_
+2	Frau	Frau	NOUN	NN	_	3	subj	_	_
+3	verliert	verlieren	VERB	VVFIN	_	0	root	_	_
+4	halt	halt	VERB	PTKMA	_	3	discourse	_	_
+5	ihr	ihr	PRON	PPOSAT	_	6	reparandum	_	_
+6	ihre	ihr	DET	PPOSAT	_	7	det	_	_
+7	Einkaufstüte	Einkaufstüte	NOUN	NN	_	3	comp:obj	_	_
+8	aus	aus	ADP	APPR	_	3	mod	_	_
+9	der	d	DET	ART	_	10	det	_	_
+10	Hand	Hand	NOUN	NN	_	8	comp:obj	_	_
+
+1	der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	3	subj	_	_
+3	lief	laufen	VERB	VVFIN	_	0	root	_	_
+4	zur	zur	PROPN	APPRART	_	3	comp:obl	_	_
+5	Straße	Straße	PROPN	NN	_	4	comp:obj	_	_
+6	raus	raus	ADV	PTKVZ	_	3	compound@prt	_	_
+
+1	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+2	und	und	CCONJ	KON	_	6	cc	_	_
+3	um	um	ADP	APPR	_	6	comp:obl	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Ecke	Ecke	NOUN	NN	_	3	comp:obj	_	_
+6	kam	kommen	VERB	VVFIN	_	0	root	_	_
+7	halt	halt	ADV	PTKMA	_	6	discourse	_	_
+8	ein	ein	DET	ART	_	9	det	_	_
+9	Auto	Auto	NOUN	NN	_	6	subj	_	_
+
+1	und	und	CCONJ	KON	_	9	cc	_	_
+2	sobald	sobald	ADV	ADV	_	15	mod	_	_
+3	er	er	PRON	PPER	_	8	subj	_	_
+4	halt	halt	ADV	PTKMA	_	9	discourse	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Hund	Hund	NOUN	NN	_	7	comp:obj	_	_
+7	gesehen	sehen	VERB	VVPP	_	8	comp:aux	_	_
+8	hat	haben	AUX	VAFIN	_	2	comp:obj	_	_
+9	hat	haben	AUX	VAFIN	_	0	root	_	_
+10	er	er	PRON	PPER	_	9	subj	_	_
+11	halt	halt	VERB	PTKMA	_	9	discourse	_	_
+12	auf	auf	ADP	APPR	_	15	comp:obl	_	_
+13	die	d	DET	ART	_	14	det	_	_
+14	Vollbremse	Vollbremse	NOUN	NN	_	12	comp:obj	_	_
+15	gedrückt	drücken	VERB	VVPP	_	9	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	hinter	hinter	ADP	APPR	_	12	mod	_	_
+3	ihm	er	PRON	PPER	_	2	comp:obj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Fahrer	Fahrer	NOUN	NN	_	4	subj	_	_
+7	halt	halt	ADV	PTKMA	_	4	discourse	_	_
+8	in	in	ADP	APPR	_	10	reparandum	_	_
+9	ihn	er	PRON	PPER	_	8	comp:obj	_	_
+10	in	in	ADP	APPR	_	12	comp:obl	_	_
+11	ihn	er	PRON	PPER	_	10	comp:obj	_	_
+12	reingerannt	reinrennen	ADJ	VVPP	_	4	comp:aux	_	_
+
+

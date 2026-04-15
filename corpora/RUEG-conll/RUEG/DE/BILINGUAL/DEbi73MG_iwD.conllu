@@ -1,0 +1,52 @@
+1	Ich	ich	PRON	PPER	_	2	subj	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	zwei	@card@	NUM	CARD	_	5	mod	_	_
+5	Personen	Person	NOUN	NN	_	6	comp:obj	_	_
+6	gesehen	sehen	VERB	VVPP	_	2	comp:aux	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Die	d	DET	ART	_	3	det	_	_
+2	eine	ein	DET	ART	_	3	mod	_	_
+3	Person	Person	NOUN	NN	_	4	subj	_	_
+4	hat	haben	AUX	VAFIN	_	0	root	_	_
+5	mit	mit	ADP	APPR	_	8	mod	_	_
+6	einem	ein	DET	ART	_	7	det	_	_
+7	Ball	Ball	NOUN	NN	_	5	comp:obj	_	_
+8	gespielt	spielen	VERB	VVPP	_	4	comp:aux	_	_
+9	,	,	PUNCT	$,	_	4	punct	_	_
+10	die	d	PRON	PRELS	_	12	subj	_	_
+11	ihm	er	PRON	PPER	_	12	comp:obj	_	_
+12	runterfiel	runterfallen	VERB	VVFIN	_	7	mod@relcl	_	_
+13	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	Die	d	DET	ART	_	3	det	_	_
+2	andere	ander	ADJ	PIDAT	_	3	mod	_	_
+3	Person	Person	NOUN	NN	_	4	subj	_	_
+4	hatte	haben	VERB	VAFIN	_	0	root	_	_
+5	einen	ein	DET	ART	_	6	det	_	_
+6	Hund	Hund	NOUN	NN	_	4	comp:obj	_	_
+7	der	d	DET	PRELS	_	12	subj	_	_
+8	dann	dann	ADV	ADV	_	12	mod	_	_
+9	auf	auf	ADP	APPR	_	12	comp:obl	_	_
+10	die	d	DET	ART	_	11	det	_	_
+11	Straße	Straße	NOUN	NN	_	9	comp:obj	_	_
+12	lief	laufen	PART	VVFIN	_	6	mod@relcl	_	_
+13	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	Zwei	@card@	NUM	CARD	_	2	mod	_	_
+2	Autos	Auto	NOUN	NN	_	3	subj	_	_
+3	crashten	crashen	VERB	VVFIN	_	0	root	_	_
+4	sich	er|es|sie	PRON	PRF	_	3	comp:obj	_	_
+5	daraufhin	daraufhin	ADV	ADV	_	3	mod	_	_
+
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	einer	ein	DET	PIS	_	6	subj	_	_
+3	von	von	ADP	APPR	_	2	mod@poss	_	_
+4	den	d	DET	ART	_	5	det	_	_
+5	Fahrern	Fahrer	NOUN	NN	_	3	comp:obj	_	_
+6	rief	rufen	VERB	VVFIN	_	0	root	_	_
+7	die	die	DET	PDS	_	8	det	_	_
+8	110	@card@	NUM	CARD	_	6	comp:obj	_	_
+9	an	an	ADP	PTKVZ	_	6	compound@prt	_	_
+

@@ -1,0 +1,53 @@
+1	Haha	haha	PROPN	NGIRR	_	2	discourse	_	_
+2	Hasan	Hasan	PROPN	NE	_	0	root	_	_
+
+1	gerade	gerade	ADV	ADV	_	4	mod	_	_
+2	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	4	subj	_	_
+4	lässt	lassen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	Ball	Ball	NOUN	NN	Case=Acc|Number=Sing	7	comp:obj	_	_
+7	fallen	fallen	VERB	VVINF	Number=Plur|Person=3|VerbForm=Fin	4	comp:obj	_	_
+8	auf	auf	ADP	APPR	_	7	comp:obl	_	_
+9	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Straße	Straße	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	comp:obj	_	_
+
+1	dann	dann	ADV	ADV	_	4	mod	_	_
+2	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Hund	Hund	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	4	subj	_	_
+4	rennt	rennen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	zum	zum	NOUN	APPRART	Case=Acc|Gender=Masc,Neut|Number=Sing	4	comp:obl	_	_
+6	Ball	Ball	PROPN	NN	_	5	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	2	@card@	NUM	CARD	NumType=Card	5	mod	_	_
+5	Autos	Auto	NOUN	NN	_	3	subj	_	_
+6	hintereinander	hintereinander	ADV	ADV	_	3	comp:pred	_	_
+
+1	der	d	DET	ART	Definite=Def|PronType=Art	3	det	_	_
+2	vordere	vorder	ADJ	ADJA	Degree=Pos	3	mod	_	_
+3	Fahrer	Fahrer	NOUN	NN	_	4	subj	_	_
+4	bremst	bremsen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+
+1	dann	dann	ADV	ADV	_	4	mod	_	_
+2	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	hintere	hinter	ADJ	ADJA	Case=Acc|Degree=Cmp|Number=Sing	4	subj	_	_
+4	fährt	fahren	VERB	VVFIN	Tense=Pres|VerbForm=Fin	0	root	_	_
+5	hinten	hinten	ADV	ADV	_	4	mod	_	_
+6	rein	rein	ADJ	PTKVZ	Degree=Pos	4	compound@prt	_	_
+
+1	:face_with_tears_of_joy:	😂	SYM	EMO	_	0	root	_	_
+
+1	:face_with_tears_of_joy:	😂	SYM	EMO	_	0	root	_	_
+
+1	:face_with_tears_of_joy:	😂	SYM	EMO	_	0	root	_	_
+
+1	nur	nur	ADV	PTKIFG	_	2	mod	_	_
+2	wegen	wegen	ADP	APPR	_	5	orphan	_	_
+3	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	comp:obj	_	_
+5	Unfall	Unfall	PROPN	ADJD	Case=Nom|Number=Sing	0	root	_	_
+6	hahaha	haha	PROPN	NGIRR	Case=Acc|Number=Sing	5	discourse	_	_
+

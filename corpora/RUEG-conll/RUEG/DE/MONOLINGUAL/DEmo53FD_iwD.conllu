@@ -1,0 +1,138 @@
+# text = Alter ,
+1	Alter	Alte	NOUN	NN	_	0	root	_	_
+2	,	,	PUNCT	$,	_	1	punct	_	_
+
+# text = ich bin gerade so nach Hause gelaufen
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	bin	sein	VERB	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	so	so	ADV	PTKIFG	_	2	mod	_	_
+5	nach	nach	ADP	APPR	_	7	comp:obl	_	_
+6	Hause	Haus	NOUN	NN	_	5	comp:obj	_	_
+7	gelaufen	laufen	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = und da ist ja dieser Parkplatz ,
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	comp:pred	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	ja	ja	ADV	PTKMA	_	3	discourse	_	_
+5	dieser	diese	PRON	PDAT	_	6	det	_	_
+6	Parkplatz	Parkplatz	NOUN	NN	_	3	subj	_	_
+7	,	,	PUNCT	$,	_	3	punct	_	_
+
+# text = you know ?
+1	you	you	PROPN	FM	_	2	subj	_	_
+2	know	know	PROPN	FM	_	0	root	_	_
+3	?	?	PROPN	$.	_	2	punct	_	_
+
+# text = Auf jeden Fall , war da so eine Frau die an ihrem Kofferraum stand mit so ein kleinem komischen Hund
+1	Auf	auf	ADP	APPR	_	5	mod	_	_
+2	jeden	jede	PRON	PIDAT	_	3	det	_	_
+3	Fall	Fall	NOUN	NN	_	1	comp:obj	_	_
+4	,	,	PUNCT	$,	_	5	punct	_	_
+5	war	sein	VERB	VAFIN	_	0	root	_	_
+6	da	da	ADV	ADV	_	5	comp:pred	_	_
+7	so	so	ADV	PTKIFG	_	9	mod	_	_
+8	eine	ein	DET	ART	_	9	det	_	_
+9	Frau	Frau	NOUN	NN	_	5	subj	_	_
+10	die	d	DET	PRELS	_	14	subj	_	_
+11	an	an	ADP	APPR	_	14	comp:obl	_	_
+12	ihrem	ihr	DET	PPOSAT	_	13	det	_	_
+13	Kofferraum	Kofferraum	NOUN	NN	_	11	comp:obj	_	_
+14	stand	stehen	VERB	VVFIN	_	9	mod@relcl	_	_
+15	mit	mit	ADP	APPR	_	14	mod	_	_
+16	so	so	ADV	PTKIFG	_	20	mod	_	_
+17	ein	ein	DET	ART	_	20	det	_	_
+18	kleinem	klein	ADJ	ADJA	_	20	mod	_	_
+19	komischen	komisch	ADJ	ADJA	_	20	mod	_	_
+20	Hund	Hund	NOUN	NN	_	15	comp:obj	_	_
+
+# text = und von der anderen Seite kamen so ein dude mit einem Fußball , den er irgendwie gedribbelt hat
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	von	von	ADP	APPR	_	6	comp:obl	_	_
+3	der	d	DET	ART	_	5	det	_	_
+4	anderen	ander	ADJ	PIDAT	_	5	mod	_	_
+5	Seite	Seite	NOUN	NN	_	2	comp:obj	_	_
+6	kamen	kommen	VERB	VVFIN	_	0	root	_	_
+7	so	so	ADV	PTKIFG	_	9	mod	_	_
+8	ein	ein	DET	ART	_	9	det	_	_
+9	dude	dude	NOUN	FM	_	6	subj	_	_
+10	mit	mit	ADP	APPR	_	9	mod	_	_
+11	einem	ein	DET	ART	_	12	det	_	_
+12	Fußball	Fußball	NOUN	NN	_	10	comp:obj	_	_
+13	,	,	PUNCT	$,	_	6	punct	_	_
+14	den	d	PRON	PRELS	_	17	comp:obj	_	_
+15	er	er	PRON	PPER	_	18	subj	_	_
+16	irgendwie	irgendwie	ADV	ADV	_	18	mod	_	_
+17	gedribbelt	dribbeln	VERB	VVPP	_	18	comp:aux	_	_
+18	hat	haben	AUX	VAFIN	_	12	mod@relcl	_	_
+
+# text = Auf einmal rollt dieser Ball weg
+1	Auf	auf	ADP	NN	_	3	mod	_	_
+2	einmal	einmal	ADV	ADV	_	1	fixed	_	_
+3	rollt	rollen	VERB	VVFIN	_	0	root	_	_
+4	dieser	diese	PRON	PDAT	_	5	det	_	_
+5	Ball	Ball	PROPN	NN	_	3	subj	_	_
+6	weg	weg	ADV	PTKVZ	_	3	compound@prt	_	_
+
+# text = und der Hund fängt laut an zu bellen
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	4	subj	_	_
+4	fängt	fangen	VERB	VVFIN	_	0	root	_	_
+5	laut	laut	ADP	ADJD	_	8	mod	_	_
+6	an	an	ADP	PTKVZ	_	4	compound@prt	_	_
+7	zu	zu	PART	PTKZU	_	4	comp:obj	_	_
+8	bellen	bellen	VERB	VVINF	_	7	comp:obj	_	_
+
+# text = Und rennt diesem Ball hinterher
+1	Und	und	CCONJ	KON	_	2	cc	_	_
+2	rennt	rennen	VERB	VVFIN	_	0	root	_	_
+3	diesem	diese	PRON	PDAT	_	4	det	_	_
+4	Ball	Ball	NOUN	NN	_	2	comp:obj	_	_
+5	hinterher	hinterher	ADV	ADV	_	2	compound@prt	_	_
+
+# text = Im selben Moment wollen so 2 Autos auf den Parkplatz fahren
+1	Im	in	PROPN	APPRART	_	11	mod	_	_
+2	selben	selb	ADJ	ADJA	_	3	mod	_	_
+3	Moment	Moment	NOUN	NN	_	1	comp:obj	_	_
+4	wollen	wollen	AUX	VMFIN	_	0	root	_	_
+5	so	so	ADV	PTKIFG	_	7	mod	_	_
+6	2	@card@	NUM	CARD	_	7	mod	_	_
+7	Autos	Auto	NOUN	NN	_	4	subj	_	_
+8	auf	auf	ADP	APPR	_	11	comp:obl	_	_
+9	den	d	DET	ART	_	10	det	_	_
+10	Parkplatz	Parkplatz	NOUN	NN	_	8	comp:obj	_	_
+11	fahren	fahren	VERB	VVINF	_	4	comp:aux	_	_
+
+# text = und logischerweise musste der vordere plötzlich bremsen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	logischerweise	logischerweise	ADV	ADV	_	3	mod	_	_
+3	musste	m�ssen	AUX	VMFIN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	vordere	vorder	ADJ	ADJA	_	3	subj	_	_
+6	plötzlich	plötzlich	ADJ	ADJD	_	3	mod	_	_
+7	bremsen	bremsen	VERB	VVINF	_	3	comp:aux	_	_
+
+# text = Der hintere hat das natürlich nicht gecheckt
+1	Der	d	DET	ART	_	2	det	_	_
+2	hintere	hinter	ADJ	ADJA	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	das	d	DET	PDS	_	7	comp:obj	_	_
+5	natürlich	natürlich	ADJ	ADV	_	3	mod	_	_
+6	nicht	nicht	PART	PTKNEG	_	3	mod	_	_
+7	gecheckt	checken	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und ist dem raufgefahren
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	dem	d	DET	ART	_	4	comp:obj	_	_
+4	raufgefahren	rauffahren	NOUN	VVPP	_	2	comp:aux	_	_
+
+# text = Alles nur wegen dem Hund
+1	Alles	all	PRON	PIS	_	0	root	_	_
+2	nur	nur	ADV	PTKIFG	_	3	mod	_	_
+3	wegen	wegen	ADP	APPR	_	1	orphan	_	_
+4	dem	d	DET	ART	_	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	3	comp:obj	_	_
+

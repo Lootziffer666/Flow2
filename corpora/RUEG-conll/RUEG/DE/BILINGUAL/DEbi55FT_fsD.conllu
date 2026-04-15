@@ -1,0 +1,108 @@
+# text = äh F16
+1	äh	äh	ADJ	_	Degree=Pos	2	discourse	_	_
+2	F16	F16	NOUN	_	_	0	root	_	_
+
+# text = erstmal hallo
+1	erstmal	erstmal	ADV	_	_	2	mod	_	_
+2	hallo	hallo	X	_	_	0	root	_	_
+
+# text = ich wollte Ihn als Zeugen äh äh Bericht ein mündlichen Bericht geben vom Unfall F16
+1	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	wollte	wollen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Ihn	ihn	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	comp:obl	_	_
+4	als	als	ADP	_	_	12	mod	_	_
+5	Zeugen	Zeuge	PROPN	_	_	4	comp:obj	_	_
+6	äh	äh	ADJ	_	Degree=Pos	2	discourse	_	_
+7	äh	äh	ADJ	_	Degree=Pos	2	discourse	_	_
+8	Bericht	Bericht	NOUN	_	Case=Nom|Gender=Masc,Neut|Number=Sing	11	reparandum	_	_
+9	ein	ein	DET	_	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+10	mündlichen	mündlich	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc,Neut|Number=Sing	11	mod	_	_
+11	Bericht	Bericht	NOUN	_	Case=Nom|Gender=Masc,Neut|Number=Sing	12	comp:obj	_	_
+12	geben	geben	VERB	_	Tense=Pres|VerbForm=Inf	2	comp:aux	_	_
+13	vom	vom	PROPN	_	Case=Acc|Number=Sing	12	mod	_	_
+14	Unfall	Unfall	NOUN	_	Case=Acc|Number=Sing	13	comp:obj	_	_
+15	F16	F16	PROPN	_	_	14	mod	_	_
+
+# text = und zwar hat ein junger Mann mit einer jungen Frau und einem Kinderwagen wollten sie den Parkplatz überqueren wegen der Ball der den der junge Mann in der Hand hielt äh aus der Hand geflogen ist und auf die Straße gerollt ist
+1	und	und	CCONJ	_	_	14	cc	_	_
+2	zwar	zwar	ADV	_	_	14	mod	_	_
+3	hat	haben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	reparandum	_	_
+4	ein	ein	DET	_	Definite=Ind|PronType=Art	6	det	_	_
+5	junger	jung	ADJ	_	Degree=Cmp,Pos	6	mod	_	_
+6	Mann	Mann	NOUN	_	_	3	subj	_	_
+7	mit	mit	ADP	_	_	6	mod	_	_
+8	einer	ein	DET	_	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	jungen	jung	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	mod	_	_
+10	Frau	Frau	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	7	comp:obj	_	_
+11	und	und	CCONJ	_	_	13	cc	_	_
+12	einem	ein	DET	_	Definite=Ind|PronType=Art	13	det	_	_
+13	Kinderwagen	Kinderwagen	NOUN	_	_	10	conj	_	_
+14	wollten	wollen	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	sie	sie	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	subj	_	_
+16	den	d	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Parkplatz	Parkplatz	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	18	comp:obj	_	_
+18	überqueren	überqueren	ADJ	_	Degree=Cmp	14	comp:aux	_	_
+19	wegen	wegen	ADP	_	_	18	mod	_	_
+20	der	d	DET	_	Definite=Def|PronType=Art	21	det	_	_
+21	Ball	Ball	NOUN	_	_	36	subj	_	_
+22	der	d	PRON	_	PronType=Dem	23	reparandum	_	_
+23	den	d	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	comp:obj	_	_
+24	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	junge	jung	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	mod	_	_
+26	Mann	Mann	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	30	subj	_	_
+27	in	in	ADP	_	_	30	mod	_	_
+28	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Hand	Hand	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	27	comp:obj	_	_
+30	hielt	halten	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	mod@relcl	_	_
+31	äh	äh	ADJ	_	Degree=Pos	14	discourse	_	_
+32	aus	aus	ADP	_	_	35	comp:obl	_	_
+33	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	Hand	Hand	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	32	comp:obj	_	_
+35	geflogen	fliegen	VERB	_	Tense=Past|VerbForm=Part	36	comp:aux	_	_
+36	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	comp:obj	_	_
+37	und	und	CCONJ	_	_	42	cc	_	_
+38	auf	auf	ADP	_	_	41	comp:obl	_	_
+39	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	38	comp:obj	_	_
+41	gerollt	rollen	VERB	_	Tense=Past|VerbForm=Part	42	comp:aux	_	_
+42	ist	sein	AUX	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	36	conj	_	_
+
+# text = daraufhin hat der Hund von der von dem parkenden PKW-Besitzerin angefangen zu bellen und auf den Mann auf den jungen Mann einzulaufen äh woraufhin äh natürlich der erste PKW-Fahrer anhielt und der zweite in ihn hineinfuhr
+1	daraufhin	daraufhin	ADV	_	_	2	mod	_	_
+2	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Hund	Hund	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	subj	_	_
+5	von	von	ADP	_	_	7	reparandum	_	_
+6	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	comp:obj	_	_
+7	von	von	ADP	_	_	4	mod@poss	_	_
+8	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+9	parkenden	parkend	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	10	mod	_	_
+10	PKW-Besitzerin	PKW-Besitzer	NOUN	_	_	7	comp:obj	_	_
+11	angefangen	anfangen	VERB	_	Tense=Past|VerbForm=Inf	2	comp:aux	_	_
+12	zu	zu	PART	_	_	11	comp:obj	_	_
+13	bellen	bellen	VERB	_	VerbForm=Inf	12	comp:obj	_	_
+14	und	und	CCONJ	_	_	22	cc	_	_
+15	auf	auf	ADP	_	_	18	reparandum	_	_
+16	den	d	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Mann	Mann	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	15	comp:obj	_	_
+18	auf	auf	ADP	_	_	22	comp:obl	_	_
+19	den	d	DET	_	Case=Dat|Definite=Def|Number=Plur|PronType=Art	21	det	_	_
+20	jungen	jung	ADJ	_	Case=Dat|Degree=Pos|Number=Sing	21	mod	_	_
+21	Mann	Mann	NOUN	_	Case=Dat|Number=Sing	18	comp:obj	_	_
+22	einzulaufen	zulaufen	VERB	_	VerbForm=Inf	13	conj	_	_
+23	äh	äh	ADJ	_	Degree=Pos	2	discourse	_	_
+24	woraufhin	woraufhin	ADV	_	_	2	mod	_	_
+25	äh	äh	ADJ	_	Degree=Pos	2	discourse	_	_
+26	natürlich	natürlich	ADJ	_	Degree=Pos	30	mod	_	_
+27	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	erste	erst	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	29	mod	_	_
+29	PKW-Fahrer	PKW-Fahrer	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	30	subj	_	_
+30	anhielt	anhalten	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	comp:obj	_	_
+31	und	und	CCONJ	_	_	36	cc	_	_
+32	der	d	DET	_	Definite=Def|PronType=Art	33	det	_	_
+33	zweite	zweit	NOUN	_	_	36	subj	_	_
+34	in	in	ADP	_	_	36	comp:obl	_	_
+35	ihn	er	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	comp:obj	_	_
+36	hineinfuhr	hineinfahren	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	conj	_	_
+
+

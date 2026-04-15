@@ -1,0 +1,182 @@
+# text = äh hallo
+1	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+2	hallo	hallo	X	NGIRR	_	0	root	_	_
+
+# text = ja also ich mein Name ist DEbi68FR
+1	ja	ja	ADV	NGIRR	_	6	discourse	_	_
+2	also	also	ADV	SEDM	_	6	discourse	_	_
+3	ich	ich	PRON	PPER	_	5	reparandum	_	_
+4	mein	mein	PRON	PPOSAT	_	5	det	_	_
+5	Name	Name	NOUN	NN	_	6	subj	_	_
+6	ist	sein	VERB	VAFIN	_	0	root	_	_
+7	DEbi68FR	DEbi68FR	PROPN	NE	_	6	comp:pred	_	_
+
+# text = und ich habe gerade ein Unfall äh beobachtet
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	habe	haben	VERB	VAFIN	_	0	root	_	_
+4	gerade	gerade	ADV	ADV	_	3	mod	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Unfall	Unfall	NOUN	NN	_	8	comp:obj	_	_
+7	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+8	beobachtet	beobachten	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und zwar äh stand ich an einem Parkplatz
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	zwar	zwar	ADV	ADV	_	4	mod	_	_
+3	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+4	stand	stehen	VERB	VVFIN	_	0	root	_	_
+5	ich	ich	PRON	PPER	_	4	subj	_	_
+6	an	an	ADP	APPR	_	4	comp:obl	_	_
+7	einem	ein	DET	ART	_	8	det	_	_
+8	Parkplatz	Parkplatz	NOUN	NN	_	6	comp:obj	_	_
+
+# text = und äh vor mir ist ein weißes Auto in ein blaues Auto reingefahren
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+3	vor	vor	ADP	APPR	_	13	mod	_	_
+4	mir	ich	PRON	PPER	_	3	comp:obj	_	_
+5	ist	sein	VERB	VAFIN	_	0	root	_	_
+6	ein	ein	DET	ART	_	8	det	_	_
+7	weißes	weiße	ADJ	ADJA	_	8	mod	_	_
+8	Auto	Auto	NOUN	NN	_	5	subj	_	_
+9	in	in	ADP	APPR	_	13	comp:obl	_	_
+10	ein	ein	DET	ART	_	12	det	_	_
+11	blaues	blaue	ADJ	ADJA	_	12	mod	_	_
+12	Auto	Auto	NOUN	NN	_	9	comp:obj	_	_
+13	reingefahren	reinfahren	VERB	VVPP	_	5	comp:aux	_	_
+
+# text = zwar ist das so passiert
+1	zwar	zwar	ADV	ADV	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	das	d	PRON	PDS	_	2	subj	_	_
+4	so	so	ADV	ADV	_	2	mod	_	_
+5	passiert	passieren	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = äh also eine Familie äh hat gerade die Straße überquert
+1	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+2	also	also	ADV	SEDM	_	6	discourse	_	_
+3	eine	ein	DET	ART	_	4	det	_	_
+4	Familie	Familie	NOUN	NN	_	6	subj	_	_
+5	äh	äh	PROPN	NGHES	_	6	discourse	_	_
+6	hat	haben	AUX	VAFIN	_	0	root	_	_
+7	gerade	gerade	ADV	ADV	_	6	mod	_	_
+8	die	d	DET	ART	_	9	det	_	_
+9	Straße	Straße	NOUN	NN	_	10	comp:obj	_	_
+10	überquert	überqueren	VERB	VVPP	_	6	comp:aux	_	_
+
+# text = und der Vater hat ein Ball fallen lassen
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Vater	Vater	NOUN	NN	_	4	subj	_	_
+4	hat	haben	VERB	VAFIN	_	0	root	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	7	comp:obj	_	_
+7	fallen	fallen	VERB	VVINF	_	8	comp:obj	_	_
+8	lassen	lassen	VERB	VVINF	_	4	comp:aux	_	_
+
+# text = und dadurch äh ja ist ein Hund äh der auf der anderen Seite der Straße äh war auf den Ball zugerannt
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	dadurch	dadurch	ADV	ADV	_	5	mod	_	_
+3	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+4	ja	ja	PART	PTKMA	_	5	discourse	_	_
+5	ist	sein	VERB	VAFIN	_	0	root	_	_
+6	ein	ein	DET	ART	_	7	det	_	_
+7	Hund	Hund	NOUN	NN	_	5	subj	_	_
+8	äh	äh	ADV	NGHES	_	5	discourse	_	_
+9	der	d	DET	PRELS	_	17	subj	_	_
+10	auf	auf	ADP	APPR	_	17	comp:pred	_	_
+11	der	d	DET	ART	_	13	det	_	_
+12	anderen	ander	ADJ	PIDAT	_	13	mod	_	_
+13	Seite	Seite	NOUN	NN	_	10	comp:obj	_	_
+14	der	d	DET	ART	_	15	det	_	_
+15	Straße	Straße	PROPN	NN	_	13	mod@poss	_	_
+16	äh	äh	PROPN	NGHES	_	5	discourse	_	_
+17	war	sein	VERB	VAFIN	_	7	mod@relcl	_	_
+18	auf	auf	ADP	APPR	_	21	comp:obl	_	_
+19	den	d	DET	ART	_	20	det	_	_
+20	Ball	Ball	NOUN	NN	_	18	comp:obj	_	_
+21	zugerannt	zurennen	ADV	VVPP	_	5	comp:aux	_	_
+
+# text = und dadurch ist eben das blaue Auto abrupt stehen geblieben
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dadurch	dadurch	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	eben	eben	ADV	PTKMA	_	3	mod	_	_
+5	das	d	DET	ART	_	7	det	_	_
+6	blaue	blaue	ADJ	ADJA	_	7	mod	_	_
+7	Auto	Auto	NOUN	NN	_	3	subj	_	_
+8	abrupt	abrupt	ADV	ADJD	_	3	mod	_	_
+9	stehen	stehen	VERB	VVINF	_	10	comp:obj	_	_
+10	geblieben	bleiben	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und dann ist das Auto dahinter in das Auto reingefahren
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	das	d	DET	ART	_	5	det	_	_
+5	Auto	Auto	NOUN	NN	_	3	subj	_	_
+6	dahinter	dahinter	ADV	ADV	_	5	mod	_	_
+7	in	in	ADP	APPR	_	10	comp:obl	_	_
+8	das	d	DET	ART	_	9	det	_	_
+9	Auto	Auto	NOUN	NN	_	7	comp:obj	_	_
+10	reingefahren	reinfahren	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und äh ja also es war kein großer Unfall
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+3	ja	ja	ADV	NGIRR	_	6	discourse	_	_
+4	also	also	ADV	SEDM	_	6	discourse	_	_
+5	es	es	PRON	PPER	_	6	subj@expl	_	_
+6	war	sein	VERB	VAFIN	_	0	root	_	_
+7	kein	kein	PRON	PIAT	_	9	det	_	_
+8	großer	große	ADJ	ADJA	_	9	mod	_	_
+9	Unfall	Unfall	NOUN	NN	_	6	comp:pred	_	_
+
+# text = aber es gibt auf jeden Fall einen Schaden
+1	aber	aber	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	_	3	subj@expl	_	_
+3	gibt	geben	VERB	VVFIN	_	0	root	_	_
+4	auf	auf	ADP	APPR	_	3	mod	_	_
+5	jeden	jede	PRON	PIDAT	_	6	det	_	_
+6	Fall	Fall	NOUN	NN	_	4	comp:obj	_	_
+7	einen	ein	DET	ART	_	8	det	_	_
+8	Schaden	Schaden	NOUN	NN	_	3	comp:obj	_	_
+
+# text = und äh genau die der Familienvater hat dann eben hat dabei seinen sein Einkauf fallen gelassen
+1	und	und	CCONJ	KON	_	10	cc	_	_
+2	äh	äh	ADJ	NGHES	_	10	discourse	_	_
+3	genau	genau	ADJ	NGIRR	_	10	discourse	_	_
+4	die	d	X	ART	_	5	reparandum	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Familienvater	Familienvater	NOUN	NN	_	10	subj	_	_
+7	hat	haben	AUX	VAFIN	_	10	reparandum	_	_
+8	dann	dann	ADV	ADV	_	7	mod	_	_
+9	eben	eben	VERB	ADV	_	7	mod	_	_
+10	hat	haben	AUX	VAFIN	_	0	root	_	_
+11	dabei	dabei	ADV	ADV	_	10	mod	_	_
+12	seinen	sein	DET	PPOSAT	_	13	reparandum	_	_
+13	sein	sein	DET	PPOSAT	_	14	det	_	_
+14	Einkauf	Einkauf	NOUN	NN	_	15	comp:obj	_	_
+15	fallen	fallen	VERB	VVINF	_	16	comp:obj	_	_
+16	gelassen	lassen	VERB	VVPP	_	10	comp:aux	_	_
+
+# text = und äh die Frau also die Hundebesitzerin hat ihm dann dabei geholfen
+1	und	und	CCONJ	KON	_	8	cc	_	_
+2	äh	äh	ADJ	NGHES	_	8	discourse	_	_
+3	die	d	DET	ART	_	4	det	_	_
+4	Frau	Frau	NOUN	NN	_	8	subj	_	_
+5	also	also	ADV	ADV	_	8	mod	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Hundebesitzerin	Hundebesitzerin	NOUN	NN	_	4	appos	_	_
+8	hat	haben	VERB	VAFIN	_	0	root	_	_
+9	ihm	er	PRON	PPER	_	12	comp:obj	_	_
+10	dann	dann	ADV	ADV	_	8	mod	_	_
+11	dabei	dabei	ADV	ADV	_	8	mod	_	_
+12	geholfen	helfen	VERB	VVPP	_	8	comp:aux	_	_
+
+# text = und genau ja
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	genau	genau	ADJ	NGIRR	_	3	discourse	_	_
+3	ja	ja	ADV	NGIRR	_	0	root	_	_
+

@@ -1,0 +1,150 @@
+1	I	i	PRON	PNP	_	2	nsubj	_	_
+2	witnessed	witness	VERB	VVD	_	0	root	_	_
+3	a	a	DET	AT0	_	5	det	_	_
+4	car	car	NOUN	NN1	_	5	compound	_	_
+5	accident	accident	NOUN	NN1	_	2	obj	_	_
+6	earlier	early	ADV	AV0	_	10	advmod	_	_
+7	in	in	ADP	PRP	_	10	case	_	_
+8	the	the	DET	AT0	_	10	det	_	_
+9	parking	parking	NOUN	NN1	_	10	compound	_	_
+10	lot	lot	NOUN	NN1	_	5	nmod	_	_
+11	.	.	PUNCT	SENT	_	2	punct	_	_
+
+1	There	there	ADV	EX0	_	5	advmod	_	_
+2	was	be	AUX	VBD	_	5	cop	_	_
+3	a	a	DET	AT0	_	4	det	_	_
+4	lady	lady	NOUN	NN1	_	5	obl:npmod	_	_
+5	putting	put	VERB	VVG	_	0	root	_	_
+6	groceries	grocery	NOUN	NN2	_	5	obj	_	_
+7	in	in	ADP	PRP	_	9	case	_	_
+8	her	she	DET	DPS	_	9	det	_	_
+9	car	car	NOUN	NN1	_	5	obl	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	she	she	PRON	PNP	_	5	nsubj	_	_
+3	had	have	AUX	VHD	_	5	aux	_	_
+4	a	a	DET	AT0	_	5	det	_	_
+5	dog	dog	NOUN	NN1	_	0	root	_	_
+6	with	with	ADP	PRP	_	7	case	_	_
+7	her	she	PRON	PNP	_	5	nmod	_	_
+8	.	.	PUNCT	SENT	_	5	punct	_	_
+
+1	There	there	ADV	EX0	_	4	advmod	_	_
+2	were	be	AUX	VBD	_	4	cop	_	_
+3	also	also	ADV	AV0	_	4	advmod	_	_
+4	parents	parent	NOUN	NN2	_	0	root	_	_
+5	and	and	CCONJ	CJC	_	7	cc	_	_
+6	a	a	DET	AT0	_	7	det	_	_
+7	baby	baby	NOUN	NN1	_	8	conj	_	_
+8	walking	walk	VERB	VVG	_	4	conj	_	_
+9	across	across	ADP	PRP	_	12	case	_	_
+10	the	the	DET	AT0	_	12	det	_	_
+11	parking	parking	NOUN	NN1	_	12	compound	_	_
+12	lot	lot	NOUN	NN1	_	8	obl	_	_
+13	.	.	PUNCT	SENT	_	4	punct	_	_
+
+1	The	the	DET	AT0	_	2	det	_	_
+2	dad	dad	NOUN	NN1	_	4	nsubj	_	_
+3	was	be	AUX	VBD	_	4	cop	_	_
+4	bouncing	bounce	VERB	VVG	_	0	root	_	_
+5	a	a	DET	AT0	_	7	det	_	_
+6	soccer	soccer	NOUN	NN1	_	7	compound	_	_
+7	ball	ball	NOUN	NN1	_	4	obj	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	ball	ball	NOUN	NN1	_	4	nsubj	_	_
+4	rolled	roll	VERB	VVD	_	0	root	_	_
+5	in	in	ADP	PRP	_	6	case	_	_
+6	front	front	NOUN	NN1	_	4	obl	_	_
+7	of	of	ADP	PRF	_	10	case	_	_
+8	the	the	DET	AT0	_	10	det	_	_
+9	first	first	ADJ	ORD	_	10	amod	_	_
+10	car	car	NOUN	NN1	_	6	nmod	_	_
+11	.	.	PUNCT	SENT	_	4	punct	_	_
+
+1	The	the	DET	AT0	_	2	det	_	_
+2	car	car	NOUN	NN1	_	3	nsubj	_	_
+3	stopped	stop	VERB	VVD	_	0	root	_	_
+
+1	and	and	CCONJ	CJC	_	2	cc	_	_
+2	made	make	VERB	VVD	_	0	root	_	_
+3	a	a	DET	AT0	_	4	det	_	_
+4	sound	sound	NOUN	NN1	_	2	obj	_	_
+5	that	that	SCONJ	CJT	_	6	mark	_	_
+6	scared	scare	VERB	VVD	_	4	acl	_	_
+7	the	the	DET	AT0	_	8	det	_	_
+8	dog	dog	NOUN	NN1	_	6	obj	_	_
+
+1	so	so	CCONJ	CJ0	_	4	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	dog	dog	NOUN	NN1	_	4	nsubj	_	_
+4	started	start	VERB	VVD	_	0	root	_	_
+5	barking	bark	VERB	VVG	_	4	xcomp	_	_
+
+1	and	and	CCONJ	CJC	_	2	cc	_	_
+2	ran	run	VERB	VVD	_	0	root	_	_
+3	towards	towards	ADP	PRP	_	5	case	_	_
+4	the	the	DET	AT0	_	5	det	_	_
+5	car	car	NOUN	NN1	_	2	obl	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	lady	lady	NOUN	NN1	_	4	nsubj	_	_
+4	dropped	drop	VERB	VVD	_	0	root	_	_
+5	her	she	DET	DPS	_	6	det	_	_
+6	bag	bag	NOUN	NN1	_	4	obj	_	_
+7	of	of	ADP	PRF	_	8	case	_	_
+8	groceries	grocery	NOUN	NN2	_	6	nmod	_	_
+9	.	.	PUNCT	SENT	_	4	punct	_	_
+
+1	Once	once	SCONJ	CJS	_	5	mark	_	_
+2	the	the	DET	AT0	_	4	det	_	_
+3	first	first	ADJ	ORD	_	4	amod	_	_
+4	car	car	NOUN	NN1	_	5	nsubj	_	_
+5	stopped	stop	VERB	VVD	_	11	advcl	_	_
+6	,	,	PUNCT	PUN	_	11	punct	_	_
+7	the	the	DET	AT0	_	8	det	_	_
+8	car	car	NOUN	NN1	_	11	nsubj	_	_
+9	behind	behind	ADP	PRP	_	10	case	_	_
+10	it	it	PRON	PNP	_	8	nmod	_	_
+11	hit	hit	VERB	VVD	_	0	root	_	_
+12	the	the	DET	AT0	_	13	det	_	_
+13	car	car	NOUN	NN1	_	11	obj	_	_
+14	.	.	PUNCT	SENT	_	11	punct	_	_
+
+1	The	the	DET	AT0	_	2	det	_	_
+2	dad	dad	NOUN	NN1	_	3	nsubj	_	_
+3	went	go	VERB	VVD	_	0	root	_	_
+4	to	to	PART	TO0	_	5	mark	_	_
+5	help	help	VERB	VVI	_	3	advcl	_	_
+6	the	the	DET	AT0	_	7	det	_	_
+7	lady	lady	NOUN	NN1	_	5	obj	_	_
+8	pick	pick	VERB	VVI	_	13	advcl	_	_
+9	up	up	ADP	AVP	_	8	compound:prt	_	_
+10	the	the	DET	AT0	_	11	det	_	_
+11	groceries	grocery	NOUN	NN2	_	8	obj	_	_
+12	that	that	SCONJ	CJT	_	13	mark	_	_
+13	fell	fall	VERB	VVD	_	7	acl	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	then	then	ADV	AV0	_	4	advmod	_	_
+3	he	he	PRON	PNP	_	4	nsubj	_	_
+4	went	go	VERB	VVD	_	0	root	_	_
+5	to	to	PART	TO0	_	6	mark	_	_
+6	talk	talk	VERB	VVI	_	4	xcomp	_	_
+7	to	to	ADP	PRP	_	10	case	_	_
+8	the	the	DET	AT0	_	10	det	_	_
+9	two	two	NUM	CRD	_	10	nummod	_	_
+10	people	people	NOUN	NN2	_	6	obl	_	_
+11	in	in	ADP	PRP	_	13	case	_	_
+12	the	the	DET	AT0	_	13	det	_	_
+13	cars	car	NOUN	NN2	_	6	obl	_	_
+14	.	.	PUNCT	SENT	_	4	punct	_	_
+
+1	Then	then	ADV	AV0	_	3	advmod	_	_
+2	they	they	PRON	PNP	_	3	nsubj	_	_
+3	called	call	VERB	VVD	_	0	root	_	_
+4	911	911	PROPN	NP0	_	3	xcomp	_	_
+5	.	.	PUNCT	SENT	_	3	punct	_	_
+

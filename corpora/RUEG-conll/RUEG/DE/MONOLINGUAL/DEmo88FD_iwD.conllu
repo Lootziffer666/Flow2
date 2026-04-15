@@ -1,0 +1,94 @@
+1	oh	oh	ADJ	NGIRR	Degree=Pos	3	discourse	_	_
+2	mein	mein	null	PPOSAT	Degree=Pos	3	det	_	_
+3	Gott	Gott	null	NN	Degree=Pos	0	root	_	_
+
+1	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	subj	_	_
+2	wirst	werden	ADV	VAFIN	Tense=Fut	0	root	_	_
+3	nicht	nicht	PART	PTKNEG	_	2	mod	_	_
+4	glauben	glauben	VERB	VVINF	VerbForm=Inf	2	comp:aux	_	_
+5	was	was	PRON	PWS	Case=Nom|PronType=Ind	7	subj	_	_
+6	passiert	passieren	VERB	VVPP	Person=3|Tense=Past|VerbForm=Fin	7	comp:aux	_	_
+7	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
+8	:fearful_face:	😨	SYM	EMO	_	2	discourse	_	_
+9	!	!	PUNCT	$.	_	2	punct	_	_
+
+1	Gerade	gerade	ADV	ADV	_	2	mod	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	so	so	ADV	PTKIFG	_	5	mod	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Typ	Typ	NOUN	NN	_	2	subj	_	_
+6	auf	auf	ADP	APPR	_	2	comp:pred	_	_
+7	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Parkplatz	Parkplatz	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	6	comp:obj	_	_
+9	mit	mit	ADP	APPR	_	2	mod	_	_
+10	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	9	comp:obj	_	_
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Ball	Ball	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	über	über	ADP	APPR	_	7	comp:obl	_	_
+5	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Parkplatz	Parkplatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	comp:obj	_	_
+7	gerollt	rollen	VERB	VVPP	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	10	cc	_	_
+2	ein	ein	DET	ART	Definite=Ind|PronType=Art	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	10	subj	_	_
+4	der	d	DET	PRELS	Definite=Def|PronType=Art	9	subj	_	_
+5	auf	auf	ADP	APPR	_	9	comp:pred	_	_
+6	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	anderen	ander	ADJ	PIDAT	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	mod	_	_
+8	Seite	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	comp:obj	_	_
+9	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	mod@relcl	_	_
+10	ist	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	hinterhergerannt	hinterherrennen	null	VVPP	Degree=Pos|Tense=Past	10	comp:aux	_	_
+
+1	...	...	PUNCT	$.	_	0	root	_	_
+
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	im	in	PROPN	APPRART	Case=Nom|Number=Sing	11	mod	_	_
+3	gleichen	gleich	ADJ	ADJA	Degree=Pos	4	mod	_	_
+4	Moment	Moment	NOUN	NN	_	2	comp:obj	_	_
+5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	ein	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
+7	Auto	Auto	NOUN	NN	_	5	subj	_	_
+8	um	um	ADP	APPR	_	11	comp:obl	_	_
+9	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Ecke	Ecke	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	comp:obj	_	_
+11	gefahren	fahren	VERB	VVPP	Tense=Past|VerbForm=Part	5	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	gebremst	bremsen	ADV	VVPP	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+4	,	,	PUNCT	$,	_	2	punct	_	_
+
+1	aber	aber	ADV	KON	_	4	cc	_	_
+2	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Auto	Auto	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	4	subj	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	dem	d	DET	PDS	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	comp:obj	_	_
+6	dann	dann	ADV	ADV	_	4	mod	_	_
+7	hinten	hinten	ADV	ADV	_	4	mod	_	_
+8	raufgefahren	rauffahren	null	VVPP	PronType=Dem,Rel|Tense=Past|VerbForm=Part	4	comp:aux	_	_
+9	!	!	PUNCT	$.	_	4	punct	_	_
+
+1	Dann	dann	ADV	ADV	_	2	mod	_	_
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	die	d	DET	PDS	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	subj	_	_
+4	auch	auch	ADV	PTKIFG	_	2	mod	_	_
+5	schon	schon	ADV	PTKMWL	_	2	mod	_	_
+6	gleich	gleich	ADJ	ADV	Degree=Pos	2	mod	_	_
+7	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Polizei	Polizei	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	comp:obj	_	_
+9	gerufen	rufen	VERB	VVPP	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	comp:aux	_	_
+10	:oncoming_police_car:	🚔	SYM	EMO	_	2	discourse	_	_
+
+1	Krass	krass	NOUN	ADJD	_	0	root	_	_
+2	,	,	PUNCT	$,	_	1	punct	_	_
+3	oder	oder	CCONJ	KON	_	1	discourse	_	_
+4	?	?	PROPN	$.	_	1	punct	_	_
+
+1	:face_with_hand_over_mouth:	🤭	NOUN	EMO	_	0	root	_	_
+

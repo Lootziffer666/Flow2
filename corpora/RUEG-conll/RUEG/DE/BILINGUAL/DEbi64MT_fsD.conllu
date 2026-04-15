@@ -1,0 +1,57 @@
+# text = äh F16
+1	äh	äh	ADJ	_	Degree=Pos	2	discourse	_	_
+2	F16	F16	NOUN	_	_	0	root	_	_
+
+# text = ich stand am Straßenrand
+1	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	stand	stehen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	am	an	ADJ	_	Degree=Pos	2	comp:obl	_	_
+4	Straßenrand	Straßenrand	NOUN	_	_	3	comp:obj	_	_
+
+# text = und beobachtete die Gegend
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	beobachtete	beobachten	VERB	_	Tense=Past|VerbForm=Fin	0	root	_	_
+3	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Gegend	Gegend	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	2	comp:obj	_	_
+
+# text = plötzlich äh fiel von einem Mann äh sein Ball auf die Straße
+1	plötzlich	plötzlich	ADJ	_	Degree=Pos	3	mod	_	_
+2	äh	äh	ADJ	_	Degree=Pos	3	discourse	_	_
+3	fiel	fallen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	von	von	ADP	_	_	9	mod@poss	_	_
+5	einem	ein	DET	_	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Mann	Mann	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	4	comp:obj	_	_
+7	äh	äh	ADJ	_	Degree=Pos	3	discourse	_	_
+8	sein	sein	DET	_	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	Ball	Ball	NOUN	_	Case=Acc|Number=Sing	3	subj	_	_
+10	auf	auf	ADP	_	_	3	comp:obl	_	_
+11	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	10	comp:obj	_	_
+
+# text = ein Hund reagierte plötzlich sehr panisch darauf
+1	ein	ein	DET	_	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Hund	Hund	NOUN	_	Case=Gen|Gender=Masc,Neut|Number=Sing	3	subj	_	_
+3	reagierte	reagieren	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	plötzlich	plötzlich	ADJ	_	Degree=Pos	3	mod	_	_
+5	sehr	sehr	ADV	_	_	6	mod	_	_
+6	panisch	panisch	ADJ	_	Degree=Pos	3	mod	_	_
+7	darauf	darauf	ADV	_	_	3	comp:obl	_	_
+
+# text = und daraufhin äh musste ein PKW eine Gefahrenbremsung durchführen
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	daraufhin	daraufhin	ADV	_	_	4	mod	_	_
+3	äh	äh	ADJ	_	Degree=Pos	4	discourse	_	_
+4	musste	müssen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	ein	ein	DET	_	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	PKW	PKW	NOUN	_	Case=Nom|Gender=Masc,Neut|Number=Sing	4	subj	_	_
+7	eine	ein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Gefahrenbremsung	Gefahrenbremsung	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	9	comp:obj	_	_
+9	durchführen	durchführen	VERB	_	Tense=Pres|VerbForm=Fin	4	comp:aux	_	_
+
+# text = dementsprechend folgte danach ein Auffahrunfall
+1	dementsprechend	dementsprechend	ADJ	_	Degree=Pos	2	mod	_	_
+2	folgte	folgen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	danach	danach	ADV	_	_	2	mod	_	_
+4	ein	ein	DET	_	Definite=Ind|PronType=Art	5	det	_	_
+5	Auffahrunfall	Auffahrunfall	NOUN	_	_	2	subj	_	_
+

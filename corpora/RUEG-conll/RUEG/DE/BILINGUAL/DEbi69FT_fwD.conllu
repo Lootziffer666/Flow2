@@ -1,0 +1,134 @@
+# text = ﻿Donnerstagnachmittag habe ich auf meine Freundin auf einem Parkplatz gewartet
+1	﻿Donnerstagnachmittag	﻿Donnerstagnachmittag	NOUN	_	Case=Dat|Number=Plur	2	mod	_	_
+2	habe	haben	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+4	auf	auf	ADP	_	_	10	comp:obl	_	_
+5	meine	mein	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	det	_	_
+6	Freundin	Freundin	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	4	comp:obj	_	_
+7	auf	auf	ADP	_	_	10	mod	_	_
+8	einem	ein	DET	_	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Parkplatz	Parkplatz	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	7	comp:obj	_	_
+10	gewartet	warten	VERB	_	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+
+# text = derzeit ist eine Mutter mit ihrem Sohn an mir vorbeigelaufen
+1	derzeit	derzeit	ADV	_	_	2	mod	_	_
+2	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	eine	ein	DET	_	Definite=Ind|PronType=Art	4	det	_	_
+4	Mutter	Mutter	NOUN	_	_	2	subj	_	_
+5	mit	mit	ADP	_	_	4	mod	_	_
+6	ihrem	ihr	DET	_	Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	Sohn	Sohn	NOUN	_	Case=Dat|Number=Sing	5	comp:obj	_	_
+8	an	an	ADP	_	_	10	comp:obl	_	_
+9	mir	ich	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	comp:obj	_	_
+10	vorbeigelaufen	vorbeilaufen	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	comp:aux	_	_
+
+# text = der Sohn hat mit einem Ball gespielt
+1	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Sohn	Sohn	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	mit	mit	ADP	_	_	7	mod	_	_
+5	einem	ein	DET	_	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Ball	Ball	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	4	comp:obj	_	_
+7	gespielt	spielen	VERB	_	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+
+# text = und hat ihn dann aus Versehen fallen lassen
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	hat	haben	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ihn	er	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	_
+4	dann	dann	ADV	_	_	2	mod	_	_
+5	aus	aus	ADP	_	_	7	mod	_	_
+6	Versehen	Versehen	NOUN	_	Case=Acc|Number=Sing	5	comp:obj	_	_
+7	fallen	fallen	VERB	_	Tense=Pres|VerbForm=Inf	8	comp:obj	_	_
+8	lassen	lassen	VERB	_	Tense=Pres|VerbForm=Inf	2	comp:aux	_	_
+
+# text = der Ball ist auf die andere Seite gerollt
+1	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Ball	Ball	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	auf	auf	ADP	_	_	8	comp:obl	_	_
+5	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	andere	ander	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	mod	_	_
+7	Seite	Seite	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	4	comp:obj	_	_
+8	gerollt	rollen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+9	dahin	dahin	ADV	_	_	3	mod	_	_
+10	wo	wo	ADV	_	_	16	mod	_	_
+11	eine	ein	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Dame	Dame	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	16	subj	_	_
+13	gerade	gerade	ADV	_	_	16	mod	_	_
+14	ihre	ihr	DET	_	Person=3|Poss=Yes|PronType=Prs	15	det	_	_
+15	Einkäufe	Einkauf	NOUN	_	Case=Acc|Number=Plur	16	comp:obj	_	_
+16	transportiert	transportieren	VERB	_	Tense=Pres|VerbForm=Part	9	mod	_	_
+17	und	und	CCONJ	_	_	24	cc	_	_
+18	in	in	ADP	_	_	24	mod	_	_
+19	der	d	DET	_	Definite=Def|PronType=Art	21	det	_	_
+20	anderen	ander	ADJ	_	Degree=Pos	21	mod	_	_
+21	Hand	Hand	NOUN	_	_	18	comp:obj	_	_
+22	ihren	ihr	DET	_	Person=3|Poss=Yes|PronType=Prs	23	det	_	_
+23	Hund	Hund	NOUN	_	Case=Acc|Number=Sing	24	comp:obj	_	_
+24	festhält	festhaltne	VERB	_	Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+
+# text = der Hund sieht den Ball
+1	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Hund	Hund	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	sieht	sehen	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	den	d	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Ball	Ball	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	3	comp:obj	_	_
+
+# text = und rennt auf ihn zu
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	rennt	rennen	VERB	_	Tense=Pres|VerbForm=Fin	0	root	_	_
+3	auf	auf	ADP	_	_	2	comp:obl	_	_
+4	ihn	er	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	_
+5	zu	zu	ADP	_	_	2	compound@prt	_	_
+
+# text = derzeit kommt ein Auto angerast
+1	derzeit	derzeit	ADV	_	_	2	mod	_	_
+2	kommt	kommen	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	_	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Auto	Auto	NOUN	_	Case=Acc|Gender=Masc,Neut|Number=Sing	2	subj	_	_
+5	angerast	angerast	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	2	comp:obl	_	_
+
+# text = in der letzten Sekunde hat er gebremst da er den Hund gesehen hat
+1	in	in	ADP	_	_	7	mod	_	_
+2	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	letzten	letzt	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	4	mod	_	_
+4	Sekunde	Sekunde	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	1	comp:obj	_	_
+5	hat	haben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	er	er	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
+7	gebremst	bremsen	ADV	_	Tense=Past|VerbForm=Part	5	comp:aux	_	_
+8	da	da	ADV	_	_	7	mod	_	_
+9	er	er	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj	_	_
+10	den	d	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Hund	Hund	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	12	comp:obj	_	_
+12	gesehen	sehen	VERB	_	Tense=Past|VerbForm=Part	13	comp:aux	_	_
+13	hat	haben	AUX	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	_
+
+# text = was er dabei nicht beachtet hat dass hinter ihm doch ein Auto ist ,
+1	was	was	PRON	_	Case=Nom|Number=Sing|PronType=Int	5	comp:obj	_	_
+2	er	er	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
+3	dabei	dabei	ADV	_	_	6	mod	_	_
+4	nicht	nicht	PART	_	_	6	mod	_	_
+5	beachtet	beachten	VERB	_	Tense=Past|VerbForm=Part	6	comp:aux	_	_
+6	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	dass	dass	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	orphan	_	_
+8	hinter	hinter	ADJ	_	Degree=Cmp,Pos	13	comp:pred	_	_
+9	ihm	er	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	_
+10	doch	doch	ADV	_	_	13	mod	_	_
+11	ein	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Auto	Auto	NOUN	_	Case=Acc|Gender=Masc,Neut|Number=Sing	13	subj	_	_
+13	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
+14	,	,	PUNCT	_	_	6	punct	_	_
+
+# text = das Auto hinter ihm ist voll in sein Auto reingefahren .
+1	das	d	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Auto	Auto	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	5	subj	_	_
+3	hinter	hinter	ADP	_	_	2	mod	_	_
+4	ihm	er	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	_
+5	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	voll	voll	ADJ	_	Degree=Pos	5	mod	_	_
+7	in	in	ADP	_	_	10	comp:obl	_	_
+8	sein	sein	DET	_	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	Auto	Auto	NOUN	_	_	7	comp:obj	_	_
+10	reingefahren	reinfahren	VERB	_	Tense=Past|VerbForm=Fin	5	comp:aux	_	_
+11	.	.	PUNCT	_	_	5	punct	_	_
+

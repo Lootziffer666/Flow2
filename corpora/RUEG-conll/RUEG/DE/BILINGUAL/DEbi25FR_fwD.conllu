@@ -1,0 +1,200 @@
+# text = Sehr geehrte Damen und Herren ,
+1	Sehr	sehr	ADV	_	_	2	mod	_	_
+2	geehrte	geehrte	ADJ	_	_	3	mod	_	_
+3	Damen	Dame	NOUN	_	_	0	root	_	_
+4	und	und	CCONJ	_	_	5	cc	_	_
+5	Herren	Herr	NOUN	_	_	3	conj	_	_
+6	,	,	PUNCT	_	_	3	punct	_	_
+
+# text = ich möchte meinen Zeugenbericht zum Fall F16 erstatten ( Autounfall auf Uniparkplatz ) .
+1	ich	ich	PRON	_	_	2	subj	_	_
+2	möchte	möchte	AUX	_	_	0	root	_	_
+3	meinen	mein	PRON	_	_	4	det	_	_
+4	Zeugenbericht	Zeugenbericht	NOUN	_	_	8	comp:obj	_	_
+5	zum	zu	NOUN	_	_	4	mod	_	_
+6	Fall	Fall	PROPN	_	_	5	comp:obj	_	_
+7	F16	F16	PROPN	_	_	6	appos	_	_
+8	erstatten	erstatten	VERB	_	_	2	comp:aux	_	_
+9	(	(	PUNCT	_	_	10	punct	_	_
+10	Autounfall	Autounfall	NOUN	_	_	6	appos	_	_
+11	auf	auf	ADP	_	_	10	mod	_	_
+12	Uniparkplatz	Uniparkplatz	NOUN	_	_	11	comp:obj	_	_
+13	)	)	PUNCT	_	_	10	punct	_	_
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Ich stand auf dem besagten Parkplatz , welcher größtenteils leer war .
+1	Ich	ich	PRON	_	_	2	subj	_	_
+2	stand	stehen	VERB	_	_	0	root	_	_
+3	auf	auf	ADP	_	_	2	comp:obl	_	_
+4	dem	d	DET	_	_	6	det	_	_
+5	besagten	besagte	ADJ	_	_	6	mod	_	_
+6	Parkplatz	Parkplatz	NOUN	_	_	3	comp:obj	_	_
+7	,	,	PUNCT	_	_	2	punct	_	_
+8	welcher	welch	PRON	_	_	11	subj	_	_
+9	größtenteils	größtenteils	ADV	_	_	11	mod	_	_
+10	leer	leer	ADJ	_	_	11	comp:pred	_	_
+11	war	sein	VERB	_	_	6	mod@relcl	_	_
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Es befand sich ein Auto auf dem Parkplatz
+1	Es	es	PRON	_	_	2	subj@expl	_	_
+2	befand	befinden	VERB	_	_	0	root	_	_
+3	sich	er|es|sie	PRON	_	_	2	comp:obj	_	_
+4	ein	ein	DET	_	_	5	det	_	_
+5	Auto	Auto	NOUN	_	_	2	subj	_	_
+6	auf	auf	ADP	_	_	2	comp:obl	_	_
+7	dem	d	DET	_	_	8	det	_	_
+8	Parkplatz	Parkplatz	NOUN	_	_	6	comp:obj	_	_
+
+# text = und eine Dame lud Einkäufe aus ihrem Auto .
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	eine	ein	DET	_	_	3	det	_	_
+3	Dame	Dame	NOUN	_	_	4	subj	_	_
+4	lud	laden	VERB	_	_	0	root	_	_
+5	Einkäufe	Einkäufe	NOUN	_	_	4	comp:obj	_	_
+6	aus	aus	ADP	_	_	4	comp:obl	_	_
+7	ihrem	ihr	DET	_	_	8	det	_	_
+8	Auto	Auto	NOUN	_	_	6	comp:obj	_	_
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = Sie hatte einen angeleinten Hund .
+1	Sie	Sie	PRON	_	_	2	subj	_	_
+2	hatte	haben	VERB	_	_	0	root	_	_
+3	einen	ein	DET	_	_	5	det	_	_
+4	angeleinten	angeleinte	ADJ	_	_	5	mod	_	_
+5	Hund	Hund	NOUN	_	_	2	comp:obj	_	_
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Auf dem gegenüberliegenden Gehweg , spazierte eine Mutter mit Sohn und mit einem Kinderwagen .
+1	Auf	auf	ADP	_	_	6	comp:obl	_	_
+2	dem	dem	NOUN	_	_	4	det	_	_
+3	gegenüberliegenden	gegenüberliegende	ADJ	_	_	4	mod	_	_
+4	Gehweg	Gehweg	NOUN	_	_	1	comp:obj	_	_
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	spazierte	spazieren	VERB	_	_	0	root	_	_
+7	eine	ein	DET	_	_	8	det	_	_
+8	Mutter	Mutter	NOUN	_	_	6	subj	_	_
+9	mit	mit	ADP	_	_	8	mod	_	_
+10	Sohn	Sohn	NOUN	_	_	9	comp:obj	_	_
+11	und	und	CCONJ	_	_	12	cc	_	_
+12	mit	mit	ADP	_	_	9	conj	_	_
+13	einem	ein	DET	_	_	14	det	_	_
+14	Kinderwagen	Kinderwagen	NOUN	_	_	12	comp:obj	_	_
+15	.	.	PUNCT	_	_	6	punct	_	_
+
+# text = Der Junge dribbelte mit einem Ball .
+1	Der	d	DET	_	_	2	det	_	_
+2	Junge	Junge	NOUN	_	_	3	subj	_	_
+3	dribbelte	dribbeln	VERB	_	_	0	root	_	_
+4	mit	mit	ADP	_	_	3	comp:obl	_	_
+5	einem	ein	DET	_	_	6	det	_	_
+6	Ball	Ball	NOUN	_	_	4	comp:obj	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Alsdann fuhren zwei Autos einander folgend auf den Parkplatz
+1	Alsdann	alsdann	ADV	_	_	2	mod	_	_
+2	fuhren	fahren	VERB	_	_	0	root	_	_
+3	zwei	zwei	NUM	_	_	4	mod	_	_
+4	Autos	Auto	NOUN	_	_	2	subj	_	_
+5	einander	einander	ADV	_	_	6	mod	_	_
+6	folgend	folgend	ADJ	_	_	2	mod	_	_
+7	auf	auf	ADP	_	_	2	comp:obl	_	_
+8	den	d	DET	_	_	9	det	_	_
+9	Parkplatz	Parkplatz	NOUN	_	_	7	comp:obj	_	_
+
+# text = und fuhren in Richtung der Frau mit Hund .
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	fuhren	fahren	VERB	_	_	0	root	_	_
+3	in	in	ADP	_	_	2	comp:obl	_	_
+4	Richtung	Richtung	NOUN	_	_	3	comp:obj	_	_
+5	der	d	DET	_	_	6	det	_	_
+6	Frau	Frau	NOUN	_	_	4	mod@poss	_	_
+7	mit	mit	ADP	_	_	6	mod	_	_
+8	Hund	Hund	NOUN	_	_	7	comp:obj	_	_
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = In dem Moment , als Mutter und Sohn als auch die zwei Autos sich ungefähr auf der Höhe der Frau befanden , ließ der Junge den Ball fallen .
+1	In	in	ADP	_	_	28	mod	_	_
+2	dem	d	DET	_	_	3	det	_	_
+3	Moment	Moment	NOUN	_	_	1	comp:obj	_	_
+4	,	,	PUNCT	_	_	23	punct	_	_
+5	als	als	ADP	_	_	28	mod	_	_
+6	Mutter	Mutter	NOUN	_	_	21	subj	_	_
+7	und	und	CCONJ	_	_	8	cc	_	_
+8	Sohn	Sohn	NOUN	_	_	6	conj	_	_
+9	als	als	CCONJ	_	_	13	cc	_	_
+10	auch	auch	ADV	_	_	9	fixed	_	_
+11	die	d	DET	_	_	13	det	_	_
+12	zwei	zwei	NUM	_	_	13	mod	_	_
+13	Autos	Auto	NOUN	_	_	8	conj	_	_
+14	sich	er|es|sie	PRON	_	_	21	comp:obj	_	_
+15	ungefähr	ungefähr	ADV	_	_	16	mod	_	_
+16	auf	auf	ADP	_	_	21	comp:obl	_	_
+17	der	d	DET	_	_	18	det	_	_
+18	Höhe	Höhe	NOUN	_	_	16	comp:obj	_	_
+19	der	d	DET	_	_	20	det	_	_
+20	Frau	Frau	NOUN	_	_	18	mod@poss	_	_
+21	befanden	befinden	VERB	_	_	5	comp:obj	_	_
+22	,	,	PUNCT	_	_	5	punct	_	_
+23	ließ	lassen	VERB	_	_	0	root	_	_
+24	der	d	DET	_	_	25	det	_	_
+25	Junge	Junge	NOUN	_	_	23	subj	_	_
+26	den	d	DET	_	_	27	det	_	_
+27	Ball	Ball	NOUN	_	_	28	comp:obj	_	_
+28	fallen	fallen	VERB	_	_	23	comp:obj	_	_
+29	.	.	PUNCT	_	_	23	punct	_	_
+
+# text = Daraufhin sprang der Hund dem Ball entgegen .
+1	Daraufhin	daraufhin	ADV	_	_	2	mod	_	_
+2	sprang	springen	VERB	_	_	0	root	_	_
+3	der	d	DET	_	_	4	det	_	_
+4	Hund	Hund	NOUN	_	_	2	subj	_	_
+5	dem	d	DET	_	_	6	det	_	_
+6	Ball	Ball	NOUN	_	_	2	comp:obj	_	_
+7	entgegen	entgegen	ADV	_	_	2	compound@prt	_	_
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Der Fahrer der ersten Autos hielt abrubt , was zur Folge hatte , dass der Nachfolgende Fahrer prompt ins vorherige fuhr da er den nach vorne springen Hund nicht gesehen hatte .
+1	Der	d	DET	_	_	2	det	_	_
+2	Fahrer	Fahrer	NOUN	_	_	6	subj	_	_
+3	der	d	DET	_	_	5	det	_	_
+4	ersten	erste	ADJ	_	_	5	mod	_	_
+5	Autos	Auto	NOUN	_	_	2	mod@poss	_	_
+6	hielt	halten	ADJ	_	_	0	root	_	_
+7	abrubt	abrubt	VERB	_	_	6	mod	_	_
+8	,	,	PUNCT	_	_	6	punct	_	_
+9	was	was	PRON	_	_	12	subj	_	_
+10	zur	zu	NOUN	_	_	12	comp:obl	_	_
+11	Folge	Folge	NOUN	_	_	10	comp:obj	_	_
+12	hatte	haben	VERB	_	_	6	mod	_	_
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	dass	dass	SCONJ	_	_	12	comp:obj	_	_
+15	der	d	DET	_	_	17	det	_	_
+16	Nachfolgende	Nachfolgende	ADJ	_	_	17	mod	_	_
+17	Fahrer	Fahrer	NOUN	_	_	21	subj	_	_
+18	prompt	prompt	PROPN	_	_	21	mod	_	_
+19	ins	in	PROPN	_	_	21	comp:obl	_	_
+20	vorherige	vorherige	ADJ	_	_	19	comp:obj	_	_
+21	fuhr	fahren	VERB	_	_	14	comp:obj	_	_
+22	da	da	SCONJ	_	_	21	mod	_	_
+23	er	er	PRON	_	_	31	subj	_	_
+24	den	d	DET	_	_	28	det	_	_
+25	nach	nach	ADV	_	_	27	udep	_	_
+26	vorne	vorne	ADV	_	_	25	comp:obj	_	_
+27	springen	springen	VERB	_	_	28	mod	_	_
+28	Hund	Hund	NOUN	_	_	30	comp:obj	_	_
+29	nicht	nicht	PART	_	_	31	mod	_	_
+30	gesehen	sehen	VERB	_	_	31	comp:aux	_	_
+31	hatte	haben	AUX	_	_	22	comp:obj	_	_
+32	.	.	PUNCT	_	_	6	punct	_	_
+
+# text = Die beteiligten Fahrer riefen unverzüglich die Polizei .
+1	Die	d	DET	_	_	3	det	_	_
+2	beteiligten	beteiligte	ADJ	_	_	3	mod	_	_
+3	Fahrer	Fahrer	NOUN	_	_	4	subj	_	_
+4	riefen	rufen	VERB	_	_	0	root	_	_
+5	unverzüglich	unverzüglich	ADJ	_	_	4	mod	_	_
+6	die	d	DET	_	_	7	det	_	_
+7	Polizei	Polizei	NOUN	_	_	4	comp:obj	_	_
+8	.	.	PUNCT	_	_	4	punct	_	_
+

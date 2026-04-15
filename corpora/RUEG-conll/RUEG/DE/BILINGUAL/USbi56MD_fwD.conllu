@@ -1,0 +1,89 @@
+# text = Ist gärbt ein Mann der auf die Seite von der Straße gelauft ist .
+1	Es	es	PRON	PPER	_	2	subj@expl	_	_
+2	gärbt	gärben	VERB	VVFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Mann	Mann	NOUN	NN	_	2	comp:obj	_	_
+5	der	d	DET	PRELS	_	13	subj	_	_
+6	auf	auf	ADP	APPR	_	12	comp:obl	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Seite	Seite	NOUN	NN	_	6	comp:obj	_	_
+9	von	von	ADP	APPR	_	8	mod@poss	_	_
+10	der	d	DET	ART	_	11	det	_	_
+11	Straße	Straße	NOUN	NN	_	9	comp:obj	_	_
+12	gelauft	laufen	VERB	VVPP	_	13	comp:aux	_	_
+13	ist	sein	AUX	VAFIN	_	4	mod@relcl	_	_
+14	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Der hat mit ein Ball gespielt ,
+1	Der	d	PRON	PDS	_	2	subj	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	mit	mit	ADP	APPR	_	6	mod	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+6	gespielt	spielen	VERB	VVPP	_	2	comp:aux	_	_
+7	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = und der Ball ist auf die Straße gerolled .
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Ball	Ball	NOUN	NN	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	auf	auf	ADP	APPR	_	8	comp:obl	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Straße	Straße	NOUN	NN	_	5	comp:obj	_	_
+8	gerolled	rollen	PROPN	VVPP	_	4	comp:aux	_	_
+9	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Auf die anderen Seite , gabst ein Hund der nach den Ball gerannt ist .
+1	Auf	auf	ADP	APPR	_	6	mod	_	_
+2	die	d	DET	ART	_	4	det	_	_
+3	anderen	ander	ADJ	PIDAT	_	4	mod	_	_
+4	Seite	Seite	NOUN	NN	_	1	comp:obj	_	_
+5	,	,	PUNCT	$,	_	6	punct	_	_
+6	gabst	geben	VERB	VVFIN	_	0	root	_	_
+7	ein	ein	DET	ART	_	8	det	_	_
+8	Hund	Hund	NOUN	NN	_	6	comp:obj	_	_
+9	der	d	DET	PRELS	_	14	subj	_	_
+10	nach	nach	ADP	APPR	_	13	comp:obl	_	_
+11	den	d	DET	ART	_	12	det	_	_
+12	Ball	Ball	NOUN	NN	_	10	comp:obj	_	_
+13	gerannt	rennen	VERB	VVPP	_	14	comp:aux	_	_
+14	ist	sein	AUX	VAFIN	_	8	mod@relcl	_	_
+15	.	.	PUNCT	$.	_	6	punct	_	_
+
+# text = Der Hund ist auf die Straße gerannt ,
+1	Der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	auf	auf	ADP	APPR	_	7	comp:obl	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Straße	Straße	NOUN	NN	_	4	comp:obj	_	_
+7	gerannt	rennen	ADJ	VVPP	_	3	comp:aux	_	_
+8	,	,	PUNCT	$,	_	3	punct	_	_
+
+# text = und das Auto der im Parkplatz wollte , musste schnell stoppen .
+1	und	und	CCONJ	KON	_	9	cc	_	_
+2	das	d	DET	ART	_	3	det	_	_
+3	Auto	Auto	NOUN	NN	_	9	subj	_	_
+4	der	d	DET	PRELS	_	7	subj	_	_
+5	im	in	PROPN	APPRART	_	7	comp:obl	_	_
+6	Parkplatz	Parkplatz	PROPN	NN	_	5	comp:obj	_	_
+7	wollte	wollen	VERB	VMFIN	_	3	mod@relcl	_	_
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9	musste	müssen	AUX	VMFIN	_	0	root	_	_
+10	schnell	schnell	ADJ	ADJD	_	9	mod	_	_
+11	stoppen	stoppen	VERB	VVINF	_	9	comp:aux	_	_
+12	.	.	PUNCT	$.	_	9	punct	_	_
+
+# text = Dann ist ein anderen Auto in dem Auto reingefart .
+1	Dann	dann	PROPN	ADV	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	5	det	_	_
+4	anderen	ander	ADJ	PIDAT	_	5	mod	_	_
+5	Auto	Auto	NOUN	NN	_	2	subj	_	_
+6	in	in	ADP	APPR	_	9	comp:obl	_	_
+7	dem	d	DET	ART	_	8	det	_	_
+8	Auto	Auto	NOUN	NN	_	6	comp:obj	_	_
+9	reingefahrt	reinfahren	ADJ	VVFIN	_	2	comp:aux	_	_
+10	.	.	PUNCT	$.	_	2	punct	_	_
+

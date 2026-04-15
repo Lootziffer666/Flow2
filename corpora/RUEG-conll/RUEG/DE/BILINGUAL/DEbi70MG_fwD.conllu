@@ -1,0 +1,89 @@
+# text = Sehr geehrte Polizei , ich trete hier als Zeuge bei einem Unfall vor .
+1	Sehr	sehr	ADV	PTKIFG	_	2	mod	_	_
+2	geehrte	geehrt	ADJ	ADJA	Degree=Pos	3	mod	_	_
+3	Polizei	Polizei	NOUN	NN	_	0	root	_	_
+4	,	,	PUNCT	$,	_	3	punct	_	_
+
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	trete	treten	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	hier	hier	ADV	ADV	_	2	mod	_	_
+4	als	als	ADP	KOKOM	_	2	mod	_	_
+5	Zeuge	Zeuge	NOUN	NN	_	4	comp:obj	_	_
+6	bei	bei	ADP	APPR	_	2	mod	_	_
+7	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Unfall	Unfall	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	6	comp:obj	_	_
+9	vor	vor	ADP	PTKVZ	_	2	compound@prt	_	_
+10	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Ein Ehepaar ging nach Hause auf dem Weg geschah ein Unfall ,
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Ehepaar	Ehepaar	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	3	subj	_	_
+3	ging	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	nach	nach	ADP	APPR	_	3	comp:obl	_	_
+5	Hause	Hause	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	comp:obj	_	_
+
+1	auf	auf	ADP	APPR	_	4	mod	_	_
+2	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Weg	Weg	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	1	comp:obj	_	_
+4	geschah	geschehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Unfall	Unfall	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	subj	_	_
+7	,	,	PUNCT	$,	_	4	punct	_	_
+
+# text = auf einer Einbahnstraße spielte ein Mann mit einem Fußball ,
+1	auf	auf	ADP	APPR	_	4	mod	_	_
+2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Einbahnstraße	Einbahnstraße	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	comp:obj	_	_
+4	spielte	spielen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	4	subj	_	_
+7	mit	mit	ADP	APPR	_	4	mod	_	_
+8	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Fußball	Fußball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	comp:obj	_	_
+10	,	,	PUNCT	$,	_	4	punct	_	_
+
+# text = der rollte dannach auf die Straße
+1	der	die	PRON	PDS	Case=Nom|PronType=Dem	2	subj	_	_
+2	rollte	rollen	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	dannach	danach	ADV	ADV	_	2	mod	_	_
+4	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+5	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	comp:obj	_	_
+
+# text = 3 Sekunden später kam ein Auto
+1	3	@card@	NUM	APPRART	NumType=Card	2	mod	_	_
+2	Sekunden	Sekunde	NOUN	NN	_	3	mod	_	_
+3	später	später	ADJ	ADJD	Degree=Cmp,Pos	4	mod	_	_
+4	kam	kommen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Auto	Auto	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	4	subj	_	_
+
+# text = der sollte anhalten ,
+1	der	die	DET	PDS	Definite=Def|PronType=Art	2	subj	_	_
+2	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	anhalten	anhalten	VERB	VVINF	VerbForm=Part	2	comp:aux	_	_
+4	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = darauf aber das Auto hinter ihm zu spät bremste geschah der Unfall
+1	darauf	darauf	ADV	ADV	_	9	mod	_	_
+2	aber	aber	ADV	KON	_	9	mod	_	_
+3	das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Auto	Auto	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	subj	_	_
+5	hinter	hinter	ADP	APPR	_	4	mod	_	_
+6	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	_
+7	zu	zu	ADV	PTKZU	_	8	mod	_	_
+8	spät	spät	ADJ	ADJD	Degree=Pos	9	mod	_	_
+9	bremste	bremsen	ADJ	VVFIN	Case=Acc|Degree=Sup|Number=Sing	10	mod	_	_
+10	geschah	geschehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+11	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Unfall	Unfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	subj	_	_
+
+# text = Die Autofahrer ruften selbstverständlich die Polizei .
+1	Die	die	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Autofahrer	Autofahrer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	subj	_	_
+3	ruften	rufen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+4	selbstverständlich	selbstverständlich	ADJ	ADJD	Degree=Pos	3	mod	_	_
+5	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Polizei	Polizei	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	comp:obj	_	_
+7	.	.	PUNCT	$.	_	3	punct	_	_
+

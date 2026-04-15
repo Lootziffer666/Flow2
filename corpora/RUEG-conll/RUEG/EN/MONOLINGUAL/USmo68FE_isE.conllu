@@ -1,0 +1,59 @@
+1	hi	hi	INTJ	ITJ	_	0	root	_	_
+
+1	I	i	PRON	PNP	_	3	nsubj	_	_
+2	just	just	ADV	AV0	_	3	advmod	_	_
+3	saw	see	VERB	VVD	_	0	root	_	_
+4	a	a	DET	AT0	_	5	det	_	_
+5	car	car	NOUN	NN1	_	6	nsubj	_	_
+6	run	run	VERB	VVI	_	3	ccomp	_	_
+7	into	into	ADP	PRP	_	9	case	_	_
+8	another	another	DET	DT0	_	9	det	_	_
+9	car	car	NOUN	NN1	_	6	obl	_	_
+10	after	after	SCONJ	CJS	_	13	mark	_	_
+11	a	a	DET	AT0	_	12	det	_	_
+12	dog	dog	NOUN	NN1	_	13	nsubj	_	_
+13	ran	run	VERB	VVD	_	6	advcl	_	_
+14	into	into	ADP	PRP	_	16	case	_	_
+15	the	the	DET	AT0	_	16	det	_	_
+16	street	street	NOUN	NN1	_	13	obl	_	_
+
+1	so	so	CCONJ	CJ0	_	6	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	car	car	NOUN	NN1	_	6	nsubj	_	_
+4	had	have	AUX	VHD	_	6	aux	_	_
+5	to	to	PART	TO0	_	6	mark	_	_
+6	stop	stop	VERB	VVI	_	0	root	_	_
+
+1	but	but	CCONJ	CJC	_	7	cc	_	_
+2	and	and	CCONJ	CJC	_	7	cc	_	_
+3	then	then	ADV	AV0	_	7	advmod	_	_
+4	the	the	DET	AT0	_	6	det	_	_
+5	other	other	ADJ	AJ0	_	6	amod	_	_
+6	car	car	NOUN	NN1	_	7	nsubj	_	_
+7	ran	run	VERB	VVD	_	0	root	_	_
+8	into	into	ADP	PRP	_	9	case	_	_
+9	it	it	PRON	PNP	_	7	obl	_	_
+
+1	but	but	CCONJ	CJC	_	4	cc	_	_
+2	like	like	INTJ	ITJ	_	4	discourse	_	_
+3	I	i	PRON	PNP	_	4	nsubj	_	_
+4	think	think	VERB	VVB	_	0	root	_	_
+5	everything	everything	PRON	PNI	_	7	nsubj	_	_
+6	's	be	AUX	VBZ	_	7	cop	_	_
+7	okay	okay	ADJ	AJ0	_	4	ccomp	_	_
+8	because	because	SCONJ	CJS	_	12	mark	_	_
+9	like	like	INTJ	ITJ	_	12	discourse	_	_
+10	they	they	PRON	PNP	_	12	nsubj	_	_
+11	all	all	DET	DT0	_	10	det	_	_
+12	checked	check	VERB	VVD	_	7	advcl	_	_
+13	with	with	ADP	PRP	_	15	case	_	_
+14	each	each	DET	DT0	_	15	det	_	_
+15	other	other	NOUN	NN1	_	12	obl	_	_
+16	and	and	CCONJ	CJC	_	18	cc	_	_
+17	I	i	PRON	PNP	_	18	nsubj	_	_
+18	think	think	VERB	VVB	_	7	conj	_	_
+19	someone	someone	PRON	PNI	_	18	obj	_	_
+20	like	like	INTJ	ITJ	_	21	discourse	_	_
+21	called	call	VERB	VVD	_	19	acl:relcl	_	_
+22	911	911	PROPN	NP0	_	21	xcomp	_	_
+

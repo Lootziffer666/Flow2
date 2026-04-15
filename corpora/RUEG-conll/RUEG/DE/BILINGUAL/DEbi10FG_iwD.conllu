@@ -1,0 +1,119 @@
+# text = hey ich stehe hier beim Parkplatz um die Ecke von mir wo der Supermarkt ist
+1	hey	Hey	PROPN	NGIRR	Case=Nom|Number=Sing	3	discourse	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	stehe	stehen	VERB	VVFIN	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	hier	hier	ADV	ADV	_	3	mod	_	_
+5	beim	beim	ADV	APPRART	_	3	comp:obl	_	_
+6	Parkplatz	Parkplatz	NOUN	NN	_	5	comp:obj	_	_
+7	um	um	ADP	APPR	_	6	mod	_	_
+8	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Ecke	Ecke	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	comp:obj	_	_
+10	von	von	ADP	APPR	_	9	mod@poss	_	_
+11	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	10	comp:obj	_	_
+12	wo	wo	ADV	PWS	_	15	comp:pred	_	_
+13	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Supermarkt	Supermarkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	subj	_	_
+15	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	_
+
+# text = ein Mann ist mit seiner Frau spazieren und seinem Kind
+1	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	3	subj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	mit	mit	ADP	APPR	_	7	mod	_	_
+5	seiner	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	Frau	Frau	NOUN	NN	Case=Dat|Number=Sing	4	comp:obj	_	_
+7	spazieren	spazieren	VERB	VVINF	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	comp:aux	_	_
+8	und	und	CCONJ	KON	_	10	cc	_	_
+9	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	Kind	Kind	PROPN	NN	_	6	conj	_	_
+
+# text = der Mann hat ein Fußball in der Hand
+1	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Fußball	Fußball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	comp:obj	_	_
+6	in	in	ADP	APPR	_	3	mod	_	_
+7	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Hand	Hand	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	comp:obj	_	_
+
+# text = und der Ball rutscht ihm aus den Händen
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Ball	Ball	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+4	rutscht	rutschen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	_
+6	aus	aus	ADP	APPR	_	4	comp:obl	_	_
+7	den	d	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+8	Händen	Hand	NOUN	NN	Case=Dat|Number=Plur	6	comp:obj	_	_
+
+# text = und rollt zur Straße
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	rollt	rollen	ADJ	VVFIN	Degree=Pos|Tense=Pres	0	root	_	_
+3	zur	zur	PROPN	APPRART	_	2	comp:obl	_	_
+4	Straße	Straße	PROPN	NN	_	3	comp:obj	_	_
+
+# text = eine Frau mit ihrem Hund stehen auf dem Parkplatz
+1	eine	eine	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	subj	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	ihrem	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	5	det	_	_
+5	Hund	Hund	NOUN	NN	Case=Dat|Number=Sing	3	comp:obj	_	_
+6	stehen	stehen	VERB	VVFIN	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	auf	auf	ADP	APPR	_	6	comp:obl	_	_
+8	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Parkplatz	Parkplatz	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	comp:obj	_	_
+
+# text = und räumen ihren Einkauf in das Auto
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	räumen	räumen	VERB	VVFIN	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	4	det	_	_
+4	Einkauf	Einkauf	NOUN	NN	Case=Nom|Number=Sing	2	comp:obj	_	_
+5	in	in	ADP	APPR	_	2	comp:obl	_	_
+6	das	d	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Auto	Auto	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	comp:obj	_	_
+
+# text = der Hund sieht den Ball
+1	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	sieht	sehen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	comp:obj	_	_
+
+# text = und will zur Straße rennen
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	will	wollen	AUX	VMFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	zur	zur	PROPN	APPRART	_	5	comp:obl	_	_
+4	Straße	Straße	PROPN	NN	_	3	comp:obj	_	_
+5	rennen	rennen	VERB	VVINF	Tense=Pres|VerbForm=Fin	2	comp:aux	_	_
+
+# text = um die Ecke kommt ein Auto
+1	um	um	ADP	APPR	_	4	comp:obl	_	_
+2	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Ecke	Ecke	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	comp:obj	_	_
+4	kommt	kommen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Auto	Auto	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	4	subj	_	_
+
+# text = sobald er den Hund sieht drückt er auf Vollbremse
+1	sobald	sobald	SCONJ	KOUS	_	6	mod	_	_
+2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
+3	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Hund	Hund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	comp:obj	_	_
+5	sieht	sehen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
+6	drückt	drücken	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
+8	auf	auf	ADP	APPR	_	6	comp:obl	_	_
+9	Vollbremse	Vollbremse	NOUN	NN	_	8	comp:obj	_	_
+
+# text = und das Auto hinter ihn fährt in ihn rein
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Auto	Auto	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	subj	_	_
+4	hinter	hinter	ADP	APPR	_	3	mod	_	_
+5	ihn	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	_
+6	fährt	fahren	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	in	in	ADP	APPR	_	6	comp:obl	_	_
+8	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	_
+9	rein	rein	ADV	PTKVZ	_	6	compound@prt	_	_
+

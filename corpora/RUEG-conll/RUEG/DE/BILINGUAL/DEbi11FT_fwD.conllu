@@ -1,0 +1,130 @@
+1	Sehr	sehr	ADV	PTKIFG	_	2	mod	_	_
+2	geehrte	geehrt	ADJ	ADJA	_	3	mod	_	_
+3	Damen	Dame	NOUN	NN	_	0	root	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Herren	Herr	NOUN	NN	_	3	conj	_	_
+6	,	,	PUNCT	$,	_	3	punct	_	_
+
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	bin	sein	VERB	VAFIN	_	0	root	_	_
+3	F16	F16	NOUN	NE	_	2	comp:pred	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	am	an	ADJ	APPRART	_	2	mod	_	_
+4	07.01.19	@card@	NUM	CARD	_	3	comp:obj	_	_
+5	auch	auch	ADV	PTKIFG	_	2	mod	_	_
+6	am	a	ADJ	APPRART	_	2	comp:pred	_	_
+7	Unfallort	Unfallort	NOUN	NN	_	6	comp:obj	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	möchte	möchten	AUX	VMFIN	_	0	root	_	_
+3	Ihnen	Sie	PRON	PPER	_	7	comp:obl	_	_
+4	den	d	DET	ART	_	5	det	_	_
+5	Unfall	Unfall	NOUN	NN	_	7	comp:obj	_	_
+6	etwas	etwas	ADV	PIAT	_	2	mod	_	_
+7	schildern	schildern	VERB	VVINF	_	2	comp:aux	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Ein	ein	DET	ART	_	3	det	_	_
+2	jüngeres	jung	ADJ	ADJA	_	3	mod	_	_
+3	Paar	Paar	NOUN	NN	_	6	subj	_	_
+4	mit	mit	ADP	APPR	_	3	mod	_	_
+5	Kinderwagen	Kinderwagen	NOUN	NN	_	4	comp:obj	_	_
+6	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Straßenseite	Straßenseite	NOUN	NN	_	9	comp:obj	_	_
+9	wechseln	wechseln	VERB	VVINF	_	6	comp:aux	_	_
+10	,	,	PUNCT	$,	_	6	punct	_	_
+
+1	der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	hatte	haben	VERB	VAFIN	_	0	root	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+6	in	in	ADP	APPR	_	3	mod	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Hand	Hand	NOUN	NN	_	6	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	der	d	DET	PDS	_	3	subj	_	_
+3	flog	fliegen	NOUN	VVFIN	_	0	root	_	_
+4	ihm	er	PRON	PPER	_	3	comp:obj	_	_
+5	aus	aus	ADP	APPR	_	3	mod	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Hand	Hand	NOUN	NN	_	5	comp:obj	_	_
+8	auf	auf	ADP	APPR	_	3	comp:obl	_	_
+9	die	d	DET	ART	_	10	det	_	_
+10	Straße	Straße	NOUN	NN	_	8	comp:obj	_	_
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	Gegenüber	Gegenüber	ADP	ADV	_	3	compound@prt	_	_
+2	ihm	er	PRON	PPER	_	3	comp:obj	_	_
+3	stand	stehen	VERB	VVFIN	_	0	root	_	_
+4	eine	ein	DET	ART	_	6	det	_	_
+5	ältere	alt	ADJ	ADJA	_	6	mod	_	_
+6	Dame	Dame	NOUN	NN	_	3	subj	_	_
+7	gerade	gerade	ADV	ADV	_	3	mod	_	_
+8	an	an	ADP	APPR	_	3	mod	_	_
+9	ihrem	ihr	DET	PPOSAT	_	10	det	_	_
+10	Auto	Auto	NOUN	NN	_	8	comp:obj	_	_
+11	mit	mit	ADP	APPR	_	3	mod	_	_
+12	ihrem	ihr	DET	PPOSAT	_	13	det	_	_
+13	Hund	Hund	NOUN	NN	_	11	comp:obj	_	_
+14	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	Der	d	DET	ART	_	2	det	_	_
+2	Ball	Ball	NOUN	NN	_	3	subj	_	_
+3	ging	gehen	VERB	VVFIN	_	0	root	_	_
+4	genau	genau	ADJ	PTKIFG	_	5	mod	_	_
+5	auf	auf	ADP	APPR	_	3	comp:obl	_	_
+6	Richtung	Richtung	NOUN	NN	_	5	comp:obj	_	_
+7	Hund	Hund	PROPN	NN	_	6	mod@poss	_	_
+8	,	,	PUNCT	$,	_	3	punct	_	_
+
+1	das	d	PRON	PDS	_	2	subj	_	_
+2	machte	machen	VERB	VVFIN	_	0	root	_	_
+3	den	d	DET	ART	_	4	det	_	_
+4	Hund	Hund	NOUN	NN	_	2	comp:obj	_	_
+5	sehr	sehr	ADV	PTKIFG	_	6	mod	_	_
+6	nervös	nervös	ADJ	ADJD	_	2	compound@prt	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	In	in	ADP	APPR	_	4	mod	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Zwischenzeit	Zwischenzeit	NOUN	NN	_	1	comp:obj	_	_
+4	kam	kommen	VERB	VVFIN	_	0	root	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Auto	Auto	NOUN	NN	_	4	subj	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+3	die	d	DET	ART	_	4	det	_	_
+4	Straße	Straße	NOUN	NN	_	5	comp:obj	_	_
+5	befahren	befahren	VERB	VVPP	_	2	comp:aux	_	_
+6	,	,	PUNCT	$,	_	2	punct	_	_
+
+1	als	als	SCONJ	KOUS	_	6	mod	_	_
+2	er	er	PRON	PPER	_	5	subj	_	_
+3	die	d	DET	ART	_	4	det	_	_
+4	Situation	Situation	NOUN	NN	_	5	comp:obj	_	_
+5	bemerkte	bemerken	VERB	VVFIN	_	1	comp:obj	_	_
+6	machte	machen	VERB	VVFIN	_	0	root	_	_
+7	er	er	PRON	PPER	_	6	subj	_	_
+8	eine	ein	DET	ART	_	9	det	_	_
+9	Notbremsung	Notbremsung	NOUN	NN	_	6	comp:obj	_	_
+10	.	.	PUNCT	$.	_	6	punct	_	_
+
+1	Durch	durch	ADP	APPR	_	4	mod	_	_
+2	diese	dies	PRON	PDAT	_	3	det	_	_
+3	Bremsung	Bremsung	NOUN	NN	_	1	comp:obj	_	_
+4	prallte	prallen	VERB	VVFIN	_	0	root	_	_
+5	ihm	er	PRON	PPER	_	4	comp:obj	_	_
+6	ein	ein	DET	ART	_	7	det	_	_
+7	Auto	Auto	NOUN	NN	_	4	subj	_	_
+8	von	von	ADP	APPR	_	4	comp:obl	_	_
+9	hinten	hinten	ADV	ADV	_	8	comp:obj	_	_
+10	rein	rein	ADV	PTKVZ	_	4	compound@prt	_	_
+11	.	.	PUNCT	$.	_	4	punct	_	_
+

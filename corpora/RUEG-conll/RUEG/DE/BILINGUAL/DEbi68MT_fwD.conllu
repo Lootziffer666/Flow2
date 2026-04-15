@@ -1,0 +1,163 @@
+# text = F16 ,
+1	F16	F16	NOUN	_	_	0	root	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+
+# text = Hallo guten Tag
+1	Hallo	Hallo	X	_	_	3	discourse	_	_
+2	guten	gut	ADJ	_	_	3	mod	_	_
+3	Tag	Tag	NOUN	_	_	0	root	_	_
+
+# text = mein Name ist : DEbi68MT .
+1	mein	mein	PRON	_	_	2	det	_	_
+2	Name	Name	NOUN	_	_	3	subj	_	_
+3	ist	sein	VERB	_	_	0	root	_	_
+4	:	:	PUNCT	_	_	3	punct	_	_
+5	DEbi68MT	DEbi68MT	NOUN	_	_	3	comp:pred	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Ich bin ein Zeuge
+1	Ich	ich	PRON	_	_	2	subj	_	_
+2	bin	sein	VERB	_	_	0	root	_	_
+3	ein	ein	DET	_	_	4	det	_	_
+4	Zeuge	Zeuge	NOUN	_	_	2	comp:pred	_	_
+
+# text = und war mit dabei als der Vorfall passierte .
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	war	sein	VERB	_	_	0	root	_	_
+3	mit	mit	ADP	_	_	4	mod	_	_
+4	dabei	dabei	ADV	_	_	2	comp:pred	_	_
+5	als	als	ADP	_	_	4	mod	_	_
+6	der	d	DET	_	_	7	det	_	_
+7	Vorfall	Vorfall	NOUN	_	_	8	subj	_	_
+8	passierte	passieren	VERB	_	_	5	comp:obj	_	_
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Ein Jugendlicher ist anscheinend mit seiner Mutter spazieren gegangen .
+1	Ein	ein	DET	_	_	2	det	_	_
+2	Jugendlicher	Jugendliche	NOUN	_	_	3	subj	_	_
+3	ist	sein	VERB	_	_	0	root	_	_
+4	anscheinend	anscheinend	ADV	_	_	3	mod	_	_
+5	mit	mit	ADP	_	_	8	mod	_	_
+6	seiner	sein	DET	_	_	7	det	_	_
+7	Mutter	Mutter	NOUN	_	_	5	comp:obj	_	_
+8	spazieren	spazieren	VERB	_	_	9	comp:obj	_	_
+9	gegangen	gehen	VERB	_	_	3	comp:aux	_	_
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Auf der anderen Straßenseite war eine ältere Dame mit ihrem Hund
+1	Auf	auf	ADP	_	_	5	comp:pred	_	_
+2	der	d	DET	_	_	4	det	_	_
+3	anderen	ander	ADJ	_	_	4	mod	_	_
+4	Straßenseite	Straßenseite	NOUN	_	_	1	comp:obj	_	_
+5	war	sein	VERB	_	_	0	root	_	_
+6	eine	eine	DET	_	_	8	det	_	_
+7	ältere	ältere	ADJ	_	_	8	mod	_	_
+8	Dame	Dame	NOUN	_	_	5	subj	_	_
+9	mit	mit	ADP	_	_	8	mod	_	_
+10	ihrem	ihr	DET	_	_	11	det	_	_
+11	Hund	Hund	NOUN	_	_	9	comp:obj	_	_
+
+# text = und hat ihre Einkaufssachen in ihrem Auto gepackt hat .
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	hat	haben	VERB	_	_	0	root	_	_
+3	ihre	ihr	DET	_	_	4	det	_	_
+4	Einkaufssachen	Einkaufssachen	NOUN	_	_	8	comp:obj	_	_
+5	in	in	ADP	_	_	8	comp:obl	_	_
+6	ihrem	ihr	DET	_	_	7	det	_	_
+7	Auto	Auto	NOUN	_	_	5	comp:obj	_	_
+8	gepackt	packen	VERB	_	_	2	comp:aux	_	_
+9	hat	haben	AUX	_	_	2	udep	_	_
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Als der Jugendliche mit seiner Mutter auf die andere Straßenseite ging , fiel der Ball von dem Jugendlichen runter
+1	Als	als	ADP	_	_	13	mod	_	_
+2	der	d	DET	_	_	3	det	_	_
+3	Jugendliche	Jugendliche	NOUN	_	_	11	subj	_	_
+4	mit	mit	ADP	_	_	11	mod	_	_
+5	seiner	sein	DET	_	_	6	det	_	_
+6	Mutter	Mutter	NOUN	_	_	4	comp:obj	_	_
+7	auf	auf	ADP	_	_	11	comp:obl	_	_
+8	die	d	DET	_	_	10	det	_	_
+9	andere	ander	ADJ	_	_	10	mod	_	_
+10	Straßenseite	Straßenseite	NOUN	_	_	7	comp:obj	_	_
+11	ging	gehen	VERB	_	_	1	comp:obj	_	_
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	fiel	fallen	VERB	_	_	0	root	_	_
+14	der	d	DET	_	_	15	det	_	_
+15	Ball	Ball	NOUN	_	_	13	subj	_	_
+16	von	von	ADP	_	_	15	mod@poss	_	_
+17	dem	d	DET	_	_	18	det	_	_
+18	Jugendlichen	Jugendliche	ADJ	_	_	16	comp:obj	_	_
+19	runter	runter	ADJ	_	_	13	compound@prt	_	_
+
+# text = und rollte in die Richtung zum Hund ,
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	rollte	rollen	VERB	_	_	0	root	_	_
+3	in	in	ADP	_	_	2	comp:obl	_	_
+4	die	d	DET	_	_	5	det	_	_
+5	Richtung	Richtung	NOUN	_	_	3	comp:obj	_	_
+6	zum	zum	PROPN	_	_	5	mod@poss	_	_
+7	Hund	Hund	PROPN	_	_	6	comp:obj	_	_
+8	,	,	PUNCT	_	_	2	punct	_	_
+
+# text = plötzlich ist der Hund ausgerastet
+1	plötzlich	plötzlich	ADJ	_	_	2	mod	_	_
+2	ist	sein	VERB	_	_	0	root	_	_
+3	der	d	DET	_	_	4	det	_	_
+4	Hund	Hund	NOUN	_	_	2	subj	_	_
+5	ausgerastet	ausgerastet	ADJ	_	_	2	comp:aux	_	_
+
+# text = und ist dem Ball hinterhergerannt .
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	ist	sein	VERB	_	_	0	root	_	_
+3	dem	d	DET	_	_	4	det	_	_
+4	Ball	Ball	NOUN	_	_	5	comp:obj	_	_
+5	hinterhergerannt	hinterherrennen	ADJ	_	_	2	comp:aux	_	_
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Plötzlich kamen zwei Autos
+1	Plötzlich	Plötzlich	ADJ	_	_	2	mod	_	_
+2	kamen	kommen	VERB	_	_	0	root	_	_
+3	zwei	zwei	NUM	_	_	4	mod	_	_
+4	Autos	Auto	NOUN	_	_	2	subj	_	_
+
+# text = und haben den Vorfall gesehen .
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	haben	haben	VERB	_	_	0	root	_	_
+3	den	d	DET	_	_	4	det	_	_
+4	Vorfall	Vorfall	NOUN	_	_	5	comp:obj	_	_
+5	gesehen	sehen	VERB	_	_	2	comp:aux	_	_
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Als der vordere Auto es gesehen hat fing er an direkt zu bremsen ,
+1	Als	als	ADP	_	_	8	mod	_	_
+2	der	d	DET	_	_	4	det	_	_
+3	vordere	vorder	ADJ	_	_	4	mod	_	_
+4	Auto	Auto	NOUN	_	_	7	subj	_	_
+5	es	es	PRON	_	_	6	comp:obj	_	_
+6	gesehen	gesehen	VERB	_	_	7	comp:aux	_	_
+7	hat	haben	AUX	_	_	1	comp:obj	_	_
+8	fing	fangen	VERB	_	_	10	compound@prt	_	_
+9	er	er	PRON	_	_	8	subj	_	_
+10	an	an	ADP	_	_	0	root	_	_
+11	direkt	direkt	ADJ	_	_	13	mod	_	_
+12	zu	zu	PART	_	_	8	comp:obj	_	_
+13	bremsen	bremsen	VERB	_	_	12	comp:obj	_	_
+14	,	,	PUNCT	_	_	8	punct	_	_
+
+# text = und der hinterer Fahrer hat den vorderen Fahrer angefahren ohne es zu wollen .
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	der	d	DET	_	_	4	det	_	_
+3	hinterer	hinterer	ADJ	_	_	4	mod	_	_
+4	Fahrer	Fahrer	NOUN	_	_	5	subj	_	_
+5	hat	haben	AUX	_	_	0	root	_	_
+6	den	d	DET	_	_	8	det	_	_
+7	vorderen	vorder	ADJ	_	_	8	mod	_	_
+8	Fahrer	Fahrer	NOUN	_	_	9	comp:obj	_	_
+9	angefahren	anfahren	VERB	_	_	5	comp:aux	_	_
+10	ohne	ohne	ADP	_	_	9	mod	_	_
+11	es	es	PRON	_	_	13	comp:obj	_	_
+12	zu	zu	PART	_	_	10	comp:obj	_	_
+13	wollen	wollen	VERB	_	_	12	comp:obj	_	_
+14	.	.	PUNCT	_	_	5	punct	_	_
+

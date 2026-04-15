@@ -1,0 +1,99 @@
+1	hi	hi	INTJ	ITJ	_	0	root	_	_
+
+1	I	i	PRON	PNP	_	3	nsubj	_	_
+2	am	be	AUX	VBB	_	3	aux	_	_
+3	calling	call	VERB	VVG	_	0	root	_	_
+4	to	to	PART	TO0	_	5	mark	_	_
+5	describe	describe	VERB	VVI	_	3	xcomp	_	_
+6	what	what	DET	DTQ	_	5	obj	_	_
+7	I	i	PRON	PNP	_	8	nsubj	_	_
+8	saw	see	VERB	VVD	_	6	acl:relcl	_	_
+9	for	for	ADP	PRP	_	13	case	_	_
+10	the	the	DET	AT0	_	13	det	_	_
+11	minor	minor	ADJ	AJ0	_	13	amod	_	_
+12	traffic	traffic	NOUN	NN1	_	13	compound	_	_
+13	accident	accident	NOUN	NN1	_	8	obl	_	_
+
+1	there	there	ADV	EX0	_	4	expl	_	_
+2	was	be	AUX	VBD	_	4	cop	_	_
+3	a	a	DET	AT0	_	4	det	_	_
+4	ball	ball	NOUN	NN1	_	0	root	_	_
+5	that	that	SCONJ	CJT	_	6	mark	_	_
+6	went	go	VERB	VVD	_	4	acl	_	_
+7	across	across	ADP	PRP	_	9	case	_	_
+8	the	the	DET	AT0	_	9	det	_	_
+9	street	street	NOUN	NN1	_	6	obl	_	_
+
+1	and	and	CCONJ	CJC	_	8	cc	_	_
+2	then	then	ADV	AV0	_	8	advmod	_	_
+3	this	this	DET	DT0	_	4	det	_	_
+4	couple	couple	NOUN	NN1	_	6	nmod:poss	_	_
+5	's	's	PART	POS	_	4	case	_	_
+6	dog	dog	NOUN	NN1	_	8	nsubj:pass	_	_
+7	was	be	AUX	VBD	_	8	aux:pass	_	_
+8	barking	bark	VERB	VVG	_	0	root	_	_
+9	at	at	ADP	PRP	_	10	case	_	_
+10	it	it	PRON	PNP	_	8	obl	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	so	so	CCONJ	CJ0	_	5	cc	_	_
+3	a	a	DET	AT0	_	5	det	_	_
+4	car	car	NOUN	NN1	_	5	compound	_	_
+5	sort	sort	NOUN	NN1	_	0	root	_	_
+6	of	of	ADP	PRF	_	7	mark	_	_
+7	backed	back	VERB	VVD	_	5	acl	_	_
+8	up	up	ADP	AVP	_	7	compound:prt	_	_
+9	so	so	SCONJ	CJS	_	13	mark	_	_
+10	as	as	SCONJ	CJS	_	9	fixed	_	_
+11	to	to	PART	TO0	_	9	fixed	_	_
+12	not	not	PART	XX0	_	13	advmod	_	_
+13	hit	hit	VERB	VVI	_	18	advcl	_	_
+14	this	this	DET	DT0	_	15	det	_	_
+15	dog	dog	NOUN	NN1	_	13	obj	_	_
+16	that	that	SCONJ	CJT	_	18	mark	_	_
+17	was	be	AUX	VBD	_	18	aux	_	_
+18	coming	come	VERB	VVG	_	7	parataxis	_	_
+19	into	into	ADP	PRP	_	21	case	_	_
+20	the	the	DET	AT0	_	21	det	_	_
+21	road	road	NOUN	NN1	_	18	obl	_	_
+
+1	and	and	CCONJ	CJC	_	7	cc	_	_
+2	then	then	ADV	AV0	_	7	advmod	_	_
+3	the	the	DET	AT0	_	4	det	_	_
+4	car	car	NOUN	NN1	_	7	nsubj	_	_
+5	behind	behind	ADP	PRP	_	6	case	_	_
+6	it	it	PRON	PNP	_	4	nmod	_	_
+7	reacted	react	VERB	VVD	_	0	root	_	_
+8	sort	sort	NOUN	NN1	_	7	obj	_	_
+9	of	of	ADP	PRF	_	10	case	_	_
+10	slowly	slowly	ADV	AV0	_	8	nmod	_	_
+
+1	so	so	INTJ	ITJ	_	5	discourse	_	_
+2	I	i	PRON	PNP	_	5	nsubj	_	_
+3	do	do	AUX	VDB	_	5	aux	_	_
+4	not	not	PART	XX0	_	5	advmod	_	_
+5	know	know	VERB	VVI	_	0	root	_	_
+6	if	if	SCONJ	CJS	_	8	mark	_	_
+7	anybody	anybody	PRON	PNI	_	8	nsubj	_	_
+8	was	be	AUX	VBD	_	5	cop	_	_
+9	if	if	SCONJ	CJS	_	14	mark	_	_
+10	like	like	INTJ	ITJ	_	14	discourse	_	_
+11	the	the	DET	AT0	_	12	det	_	_
+12	car	car	NOUN	NN1	_	14	nsubj:pass	_	_
+13	was	be	AUX	VBD	_	14	aux:pass	_	_
+14	damaged	damage	VERB	VVN	_	5	advcl	_	_
+15	or	or	CCONJ	CJC	_	16	cc	_	_
+16	whatever	whatever	DET	DTQ	_	14	conj	_	_
+
+1	but	but	CCONJ	CJC	_	5	cc	_	_
+2	this	this	DET	DT0	_	5	nsubj	_	_
+3	is	be	AUX	VBZ	_	5	cop	_	_
+4	what	what	DET	DTQ	_	5	det	_	_
+5	happened	happen	VERB	VVD	_	0	root	_	_
+
+1	the	the	DET	AT0	_	3	det	_	_
+2	case	case	NOUN	NN1	_	3	compound	_	_
+3	number	number	NOUN	NN1	_	5	nsubj	_	_
+4	is	be	AUX	VBZ	_	5	cop	_	_
+5	F16	F16	PROPN	NP0	_	0	root	_	_
+

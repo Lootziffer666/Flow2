@@ -1,0 +1,73 @@
+# text = ﻿Der junger Mann ist mit der jungen Frau und einem Kinderwagen gelaufen ,
+1	﻿Der	﻿Der	ADV	_	_	3	det	_	_
+2	junger	jung	ADJ	_	Degree=Cmp,Pos	3	mod	_	_
+3	Mann	Mann	NOUN	_	_	4	subj	_	_
+4	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	mit	mit	ADP	_	_	12	mod	_	_
+6	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	jungen	jung	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	mod	_	_
+8	Frau	Frau	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	5	comp:obj	_	_
+9	und	und	CCONJ	_	_	11	cc	_	_
+10	einem	ein	DET	_	Definite=Ind|PronType=Art	11	det	_	_
+11	Kinderwagen	Kinderwagen	NOUN	_	_	8	conj	_	_
+12	gelaufen	laufen	VERB	_	Tense=Past|VerbForm=Part	4	comp:aux	_	_
+13	,	,	PUNCT	_	_	4	punct	_	_
+
+# text = als sie die Straße ( Parkplätze ) überqueren wollten hat der junge Mann den Ball mit dem er spielte aus der Hand verloren .
+1	als	als	ADP	_	_	23	mod	_	_
+2	sie	sie	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	subj	_	_
+3	die	d	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Straße	Straße	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	8	comp:obj	_	_
+5	(	(	PUNCT	_	_	6	punct	_	_
+6	Parkplätze	Parkplätze	NOUN	_	_	4	appos	_	_
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	überqueren	überqueren	VERB	_	VerbForm=Inf	9	comp:aux	_	_
+9	wollten	wollen	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	comp:obj	_	_
+10	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	junge	jung	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	mod	_	_
+13	Mann	Mann	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	10	subj	_	_
+14	den	d	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Ball	Ball	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	23	comp:obj	_	_
+16	mit	mit	ADP	_	_	19	mod	_	_
+17	dem	d	PRON	_	Case=Dat|PronType=Rel	16	comp:obj	_	_
+18	er	er	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	subj	_	_
+19	spielte	spielen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	mod@relcl	_	_
+20	aus	aus	ADP	_	_	23	mod	_	_
+21	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Hand	Hand	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	20	comp:obj	_	_
+23	verloren	verlieren	VERB	_	Tense=Past|VerbForm=Part	10	comp:aux	_	_
+24	.	.	PUNCT	_	_	10	punct	_	_
+
+# text = Daraufhin lief der Hund bellend an auf den jungen Mann zu .
+1	Daraufhin	daraufhin	ADV	_	_	2	mod	_	_
+2	lief	laufen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Hund	Hund	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	subj	_	_
+5	bellend	bellend	ADJ	_	Degree=Pos	2	mod	_	_
+6	an	an	ADP	_	_	7	reparandum	_	_
+7	auf	auf	ADP	_	_	2	comp:obl	_	_
+8	den	d	DET	_	Case=Dat|Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+9	jungen	jung	ADJ	_	Case=Dat|Degree=Pos|Number=Sing	10	mod	_	_
+10	Mann	Mann	NOUN	_	Case=Dat|Number=Sing	7	comp:obj	_	_
+11	zu	zu	ADP	_	_	2	compound@prt	_	_
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = In dem Moment bremste der vordere PKW , worauf der hintere in den vorderen reinfuhr .
+1	In	in	ADP	_	_	4	mod	_	_
+2	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Moment	Moment	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	1	comp:obj	_	_
+4	bremste	bremsen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	vordere	vorder	ADJ	_	Case=Nom|Degree=Cmp|Number=Sing	7	mod	_	_
+7	PKW	PKW	PROPN	_	_	4	subj	_	_
+8	,	,	PUNCT	_	_	4	punct	_	_
+9	worauf	worauf	ADV	_	_	4	mod	_	_
+10	der	d	DET	_	Definite=Def|PronType=Art	11	det	_	_
+11	hintere	hinter	ADJ	_	Degree=Cmp	15	subj	_	_
+12	in	in	ADP	_	_	15	comp:obl	_	_
+13	den	d	DET	_	Case=Dat|Definite=Def|Number=Plur|PronType=Art	14	det	_	_
+14	vorderen	vorder	NOUN	_	Case=Dat|Number=Plur	12	comp:obj	_	_
+15	reinfuhr	reinfahren	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	comp:obj	_	_
+16	.	.	PUNCT	_	_	4	punct	_	_
+

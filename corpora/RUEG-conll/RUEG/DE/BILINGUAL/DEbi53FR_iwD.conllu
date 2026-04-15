@@ -1,0 +1,148 @@
+# text = Sabina
+1	Sabina	Sabina	PROPN	NE	Case=Nom|Number=Sing	0	root	_	_
+
+# text = ich war gerade mitten in einem Unfall dabei
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	mitten	mitten	ADV	ADV	_	5	mod	_	_
+5	in	in	ADP	APPR	_	2	comp:pred	_	_
+6	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Unfall	Unfall	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	comp:obj	_	_
+8	dabei	dabei	ADV	ADV	_	2	mod	_	_
+
+# text = keine Sorge ,
+1	keine	kein	DET	PIAT	PronType=Neg	2	mod	_	_
+2	Sorge	Sorge	NOUN	NN	_	0	root	_	_
+3	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = mir ist nichts passiert
+1	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	comp:obj	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nichts	nichts	PRON	PIS	Case=Nom|Number=Sing|PronType=Neg	2	subj	_	_
+4	passiert	passieren	VERB	VVPP	Number=Sing|Person=3|VerbForm=Fin	2	comp:aux	_	_
+
+# text = Habe nur zugesehen sozusagen
+1	Habe	haben	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	nur	nur	ADV	PTKIFG	_	1	mod	_	_
+3	zugesehen	zusehen	VERB	VVPP	VerbForm=Inf	1	comp:aux	_	_
+4	sozusagen	sozusagen	ADV	ADV	_	1	mod	_	_
+
+# text = Da war so ein Paar mit einem Kinderwagen
+1	Da	da	ADV	ADV	_	2	mod	_	_
+2	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	so	so	ADV	PTKIFG	_	5	mod	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Paar	Paar	NOUN	NN	_	2	subj	_	_
+6	mit	mit	ADP	APPR	_	2	comp:pred	_	_
+7	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Kinderwagen	Kinderwagen	NOUN	NN	Case=Dat|Number=Plur	6	comp:obj	_	_
+
+# text = und Typ hat so mit einem Ball gedribbelt
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	Typ	Typ	NOUN	NN	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	so	so	ADV	ADV	_	3	mod	_	_
+5	mit	mit	ADP	APPR	_	8	comp:obl	_	_
+6	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	comp:obj	_	_
+8	gedribbelt	dribbeln	VERB	VVPP	VerbForm=Part	3	comp:aux	_	_
+
+# text = Der ist ihm dann aus Versehen auf den Fuß abgeprallt und auf die Straße geflogen
+1	Der	d	PRON	PDS	Case=Nom|PronType=Dem	2	subj	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	comp:obj	_	_
+4	dann	dann	ADV	ADV	_	2	mod	_	_
+5	aus	aus	ADP	APPR	_	10	mod	_	_
+6	Versehen	Versehen	NOUN	NN	Case=Acc|Number=Sing	5	comp:obj	_	_
+7	auf	auf	ADP	APPR	_	10	comp:obl	_	_
+8	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Fuß	Fuß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	comp:obj	_	_
+10	abgeprallt	abprallen	VERB	VVPP	Person=3|VerbForm=Fin	2	comp:aux	_	_
+11	und	und	CCONJ	KON	_	15	cc	_	_
+12	auf	auf	ADP	APPR	_	15	comp:obl	_	_
+13	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	comp:obj	_	_
+15	geflogen	fliegen	VERB	VVPP	VerbForm=Part	2	conj	_	_
+
+# text = Und da war noch so ein Hund bei einer anderen Frau , der dann auf die Straße zum Ball gerannt ist
+1	Und	und	NOUN	NN	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	noch	noch	ADV	PTKMWL	_	7	mod	_	_
+5	so	so	ADV	PTKIFG	_	7	mod	_	_
+6	ein	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
+7	Hund	Hund	NOUN	NN	_	3	subj	_	_
+8	bei	bei	ADP	APPR	_	3	comp:pred	_	_
+9	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	anderen	ander	PRON	PIDAT	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	11	mod	_	_
+11	Frau	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	comp:obj	_	_
+12	,	,	PUNCT	$,	_	3	punct	_	_
+13	der	d	PRON	PDS	Case=Nom|PronType=Rel	21	subj	_	_
+14	dann	dann	ADV	ADV	_	21	mod	_	_
+15	auf	auf	ADP	APPR	_	20	udep	_	_
+16	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	comp:obj	_	_
+18	zum	zu	ADP	APPRART	_	20	udep	_	_
+19	Ball	Ball	NOUN	NN	_	18	comp:obj	_	_
+20	gerannt	rennen	VERB	VVPP	VerbForm=Part	21	comp:aux	_	_
+21	ist	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	_
+
+# text = Und jetzt kommt es du
+1	Und	und	CCONJ	KON	_	3	cc	_	_
+2	jetzt	jetzt	ADV	ADV	_	3	mod	_	_
+3	kommt	kommen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+5	du	du	PRON	PPER	_	3	vocative	_	_
+
+# text = da waren noch Autos auf der Straße angefahren
+1	da	da	ADV	ADV	_	2	mod	_	_
+2	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	noch	noch	ADV	PTKMWL	_	4	mod	_	_
+4	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	2	subj	_	_
+5	auf	auf	ADP	APPR	_	8	comp:obl	_	_
+6	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Straße	Straße	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	comp:obj	_	_
+8	angefahren	anfahren	VERB	VVPP	VerbForm=Part	2	comp:aux	_	_
+
+# text = Und das erste konnte noch so kurz vor dem Hund bremsen
+1	Und	und	CCONJ	KON	_	4	cc	_	_
+2	das	d	DET	ART	Definite=Def|PronType=Art	3	det	_	_
+3	erste	erst	ADJ	ORD	_	4	subj	_	_
+4	konnte	k�nnen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	noch	noch	ADV	PTKMWL	_	7	mod	_	_
+6	so	so	ADV	PTKIFG	_	7	mod	_	_
+7	kurz	kurz	ADJ	ADJD	Degree=Pos	8	mod	_	_
+8	vor	vor	ADP	APPR	_	11	comp:obl	_	_
+9	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Hund	Hund	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	8	comp:obj	_	_
+11	bremsen	bremsen	VERB	VVINF	VerbForm=Inf	4	comp:aux	_	_
+
+# text = Aber das dahinter ist volle Kanne in das Auto reingecrasht
+1	Aber	aber	NOUN	NN	_	4	cc	_	_
+2	das	d	PRON	PDS	Case=Nom|PronType=Dem	4	subj	_	_
+3	dahinter	dahinter	ADV	ADV	_	2	mod	_	_
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	volle	voll	ADJ	ADJA	Degree=Pos	6	mod	_	_
+6	Kanne	Kanne	NOUN	NN	_	4	mod	_	_
+7	in	in	ADP	APPR	_	10	comp:obl	_	_
+8	das	d	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Auto	Auto	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	comp:obj	_	_
+10	reingecrasht	reincrashen	VERB	VVPP	Person=3|VerbForm=Fin	4	comp:aux	_	_
+
+# text = Oh Mann
+1	Oh	oh	INTJ	NGIRR	Degree=Pos	2	mod	_	_
+2	Mann	Mann	INTJ	NGIRR	_	0	root	_	_
+
+# text = Mal schauen wie die das jetzt mit der Polizei regeln
+1	Mal	mal	ADV	PTKMA	_	2	mod	_	_
+2	schauen	schauen	VERB	VVINF	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+3	wie	wie	ADV	PWAV	_	10	mod	_	_
+4	die	d	PRON	PDS	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	10	subj	_	_
+5	das	d	PRON	PDS	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	comp:obj	_	_
+6	jetzt	jetzt	ADV	ADV	_	10	mod	_	_
+7	mit	mit	ADP	APPR	_	10	mod	_	_
+8	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Polizei	Polizei	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	comp:obj	_	_
+10	regeln	regeln	VERB	VVINF	Number=Plur|Person=3|VerbForm=Fin	2	comp:obj	_	_
+

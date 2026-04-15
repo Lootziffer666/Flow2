@@ -1,0 +1,191 @@
+# text = F16
+1	F16	F16	NOUN	NE	_	0	root	_	_
+
+# text = äh mein Name ist DEbi08MG
+1	äh	äh	ADJ	NGHES	_	4	discourse	_	_
+2	mein	mein	ADJ	PPOSAT	_	3	det	_	_
+3	Name	Name	NOUN	NN	_	4	comp:pred	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	DEbi08MG	DEbi08MG	PROPN	NE	_	4	subj	_	_
+
+# text = äh ich bin Zeuge äh eines äh Verkehrsunfalls geworden
+1	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+2	ich	ich	PRON	PPER	_	3	subj@pass	_	_
+3	bin	sein	VERB	VAFIN	_	0	root	_	_
+4	Zeuge	Zeuge	PROPN	NN	_	9	comp:pred	_	_
+5	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+6	eines	ein	DET	ART	_	8	det	_	_
+7	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+8	Verkehrsunfalls	Verkehrsunfall	NOUN	NN	_	4	mod@poss	_	_
+9	geworden	werden	VERB	VAPP	_	3	comp:aux@pass	_	_
+
+# text = äh zum Tatbericht
+1	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+2	zum	zu	NOUN	APPRART	_	0	root	_	_
+3	Tatbericht	Tatbericht	NOUN	NN	_	2	comp:obj	_	_
+
+# text = ich habe äh das so wahrgenommen dass äh dass auf einem Parkplatz äh erst einmal eine Frau mit einem Hund ihren Einkauf entladen hat
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+4	das	die	PRON	PDS	_	6	comp:obj	_	_
+5	so	so	ADV	ADV	_	6	mod	_	_
+6	wahrgenommen	wahrnehmen	VERB	VVPP	_	2	comp:aux	_	_
+7	dass	dass	SCONJ	KOUS	_	9	reparandum	_	_
+8	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+9	dass	dass	SCONJ	KOUS	_	5	comp:obj	_	_
+10	auf	auf	ADP	APPR	_	23	mod	_	_
+11	einem	ein	DET	ART	_	12	det	_	_
+12	Parkplatz	Parkplatz	NOUN	NN	_	10	comp:obj	_	_
+13	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+14	erst	erst	ADV	PTKMWL	_	24	mod	_	_
+15	einmal	einmal	ADV	ADV	_	24	mod	_	_
+16	eine	ein	DET	ART	_	17	det	_	_
+17	Frau	Frau	NOUN	NN	_	24	subj	_	_
+18	mit	mit	ADP	APPR	_	17	mod	_	_
+19	einem	ein	DET	ART	_	20	det	_	_
+20	Hund	Hund	NOUN	NN	_	18	comp:obj	_	_
+21	ihren	ihr	DET	PPOSAT	_	22	det	_	_
+22	Einkauf	Einkauf	NOUN	NN	_	23	comp:obj	_	_
+23	entladen	entladen	VERB	VVPP	_	24	comp:aux	_	_
+24	hat	haben	AUX	VAFIN	_	9	comp:obj	_	_
+
+# text = äh von der gegenüberliegenden Seite kam ein Ehepaar oder ein Paar mit einem Kinderwagen
+1	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+2	von	von	ADP	APPR	_	6	comp:obl	_	_
+3	der	d	DET	ART	_	5	det	_	_
+4	gegenüberliegenden	gegenüberliegende	ADJ	ADJA	_	5	mod	_	_
+5	Seite	Seite	NOUN	NN	_	2	comp:obj	_	_
+6	kam	kommen	VERB	VVFIN	_	0	root	_	_
+7	ein	ein	DET	ART	_	8	det	_	_
+8	Ehepaar	Ehepaar	NOUN	NN	_	6	subj	_	_
+9	oder	oder	CCONJ	KON	_	11	cc	_	_
+10	ein	ein	DET	ART	_	11	det	_	_
+11	Paar	Paar	NOUN	NN	_	8	conj	_	_
+12	mit	mit	ADP	APPR	_	11	mod	_	_
+13	einem	ein	DET	ART	_	14	det	_	_
+14	Kinderwagen	Kinderwagen	NOUN	NN	_	12	comp:obj	_	_
+
+# text = der Mann hat mit dem Ball Fußball gespielt welcher ihm dann aus Versehen äh vor die Füße gefallen ist und dann auf die Straße gerollt ist
+1	der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	mit	mit	ADP	APPR	_	8	mod	_	_
+5	dem	d	DET	ART	_	7	det	_	_
+6	Ball	Ball	NOUN	NN	_	7	reparandum	_	_
+7	Fußball	Fußball	NOUN	NN	_	4	comp:obj	_	_
+8	gespielt	spielen	VERB	VVPP	_	3	comp:aux	_	_
+9	welcher	welche	PRON	PRELS	_	19	subj	_	_
+10	ihm	er	PRON	PPER	_	18	comp:obj	_	_
+11	dann	dann	ADV	ADV	_	19	mod	_	_
+12	aus	aus	ADP	APPR	_	18	mod	_	_
+13	Versehen	Versehen	ADJ	NN	_	12	comp:obj	_	_
+14	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+15	vor	vor	ADP	APPR	_	18	comp:obl	_	_
+16	die	d	DET	ART	_	17	det	_	_
+17	Füße	Fuß	NOUN	NN	_	15	comp:obj	_	_
+18	gefallen	fallen	VERB	VVPP	_	19	comp:aux	_	_
+19	ist	sein	AUX	VAFIN	_	7	mod@relcl	_	_
+20	und	und	CCONJ	KON	_	25	cc	_	_
+21	dann	dann	ADV	ADV	_	26	mod	_	_
+22	auf	auf	ADP	APPR	_	25	comp:obl	_	_
+23	die	d	DET	ART	_	24	det	_	_
+24	Straße	Straße	NOUN	NN	_	22	comp:obj	_	_
+25	gerollt	rollen	VERB	VVPP	_	26	comp:aux	_	_
+26	ist	sein	AUX	VAFIN	_	19	conj	_	_
+
+# text = äh im gleichen Moment kamen zwei Fahrzeuge entgegen
+1	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+2	im	in	NOUN	APPRART	_	5	mod	_	_
+3	gleichen	gleich	ADJ	ADJA	_	4	mod	_	_
+4	Moment	Moment	NOUN	NN	_	2	comp:obj	_	_
+5	kamen	kommen	VERB	VVFIN	_	0	root	_	_
+6	zwei	zwei	NUM	CARD	_	7	mod	_	_
+7	Fahrzeuge	Fahrzeug	NOUN	NN	_	5	subj	_	_
+8	entgegen	entgegen	ADP	PTKVZ	_	5	compound@prt	_	_
+
+# text = äh der erste Fahrzeugführer musste abrupt bremsen da der Hund der Dame die das Auto entladen hat äh zum Ball hingesprungen äh hingelaufen hingerannt ist
+1	äh	äh	ADV	NGHES	_	5	discourse	_	_
+2	der	d	DET	ART	_	4	det	_	_
+3	erste	erst	ADJ	ORD	_	4	mod	_	_
+4	Fahrzeugführer	Fahrzeugführer	NOUN	NN	_	5	subj	_	_
+5	musste	müssen	AUX	VMFIN	_	0	root	_	_
+6	abrupt	abrupt	ADV	ADJD	_	5	mod	_	_
+7	bremsen	bremsen	VERB	VVINF	_	5	comp:aux	_	_
+8	da	da	SCONJ	ADV	_	7	mod	_	_
+9	der	d	DET	ART	_	10	det	_	_
+10	Hund	Hund	NOUN	NN	_	25	subj	_	_
+11	der	d	DET	ART	_	12	det	_	_
+12	Dame	Dame	NOUN	NN	_	10	mod@poss	_	_
+13	die	die	PRON	PRELS	_	17	subj	_	_
+14	das	d	DET	ART	_	15	det	_	_
+15	Auto	Auto	NOUN	NN	_	16	comp:obj	_	_
+16	entladen	entladen	VERB	VVPP	_	17	comp:aux	_	_
+17	hat	haben	AUX	VAFIN	_	12	mod@relcl	_	_
+18	äh	äh	PROPN	NGHES	_	5	discourse	_	_
+19	zum	zu	PROPN	APPRART	_	24	comp:obl	_	_
+20	Ball	Ball	PROPN	NN	_	19	comp:obj	_	_
+21	hingesprungen	hinspringen	NOUN	VVPP	_	23	reparandum	_	_
+22	äh	äh	ADJ	NGHES	_	5	discourse	_	_
+23	hingelaufen	hinlaufen	VERB	VVPP	_	24	reparandum	_	_
+24	hingerannt	hinrennen	ADV	VVPP	_	25	comp:aux	_	_
+25	ist	sein	VERB	VAFIN	_	8	comp:obj	_	_
+
+# text = äh der Fahrer des zweiten Kraftfahrzeuges ist dem ersten dann reingefahren
+1	äh	äh	ADJ	NGHES	_	7	discourse	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Fahrer	Fahrer	NOUN	NN	_	7	subj	_	_
+4	des	d	DET	ART	_	6	det	_	_
+5	zweiten	zweit	ADJ	ORD	_	6	mod	_	_
+6	Kraftfahrzeuges	Kraftfahrzeug	NOUN	NN	_	3	mod@poss	_	_
+7	ist	sein	VERB	VAFIN	_	0	root	_	_
+8	dem	d	DET	ART	_	9	det	_	_
+9	ersten	erst	ADJ	ORD	_	11	comp:obj	_	_
+10	dann	dann	ADV	ADV	_	7	mod	_	_
+11	reingefahren	reinfahren	VERB	VVPP	_	7	comp:aux	_	_
+
+# text = äh später ist der der erste Fahrer äh äh hat dann die Polizei angerufen
+1	äh	äh	ADJ	NGHES	_	10	discourse	_	_
+2	später	später	ADJ	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	10	reparandum	_	_
+4	der	d	PRON	ART	_	5	reparandum	_	_
+5	der	d	DET	ART	_	7	det	_	_
+6	erste	erst	ADJ	ORD	_	7	mod	_	_
+7	Fahrer	Fahrer	NOUN	NN	_	10	subj	_	_
+8	äh	äh	PROPN	NGHES	_	10	discourse	_	_
+9	äh	äh	PROPN	NGHES	_	10	discourse	_	_
+10	hat	haben	AUX	VAFIN	_	0	root	_	_
+11	dann	dann	ADV	ADV	_	10	mod	_	_
+12	die	d	DET	ART	_	13	det	_	_
+13	Polizei	Polizei	NOUN	NN	_	14	comp:obj	_	_
+14	angerufen	anrufen	VERB	VVPP	_	10	comp:aux	_	_
+
+# text = die 110 gewählt
+1	die	d	DET	ART	_	2	det	_	_
+2	110	110	NOUN	NN	_	3	comp:obj	_	_
+3	gewählt	wählen	VERB	VVPP	_	0	root	_	_
+
+# text = äh soweit ich das mitbekommen habe ist keiner zu zum Schaden zu Schaden gekommen
+1	äh	äh	ADJ	NGHES	_	7	discourse	_	_
+2	soweit	soweit	ADV	KOUS	_	14	mod	_	_
+3	ich	ich	PRON	PPER	_	6	subj	_	_
+4	das	d	PRON	PDS	_	5	comp:obj	_	_
+5	mitbekommen	mitbekommen	VERB	VVPP	_	6	comp:aux	_	_
+6	habe	haben	AUX	VAFIN	_	2	comp:obj	_	_
+7	ist	sein	AUX	VAFIN	_	0	root	_	_
+8	keiner	keine	PRON	PIS	_	7	subj	_	_
+9	zu	zu	ADP	APPR	_	10	reparandum	_	_
+10	zum	zu	PROPN	APPRART	_	12	reparandum	_	_
+11	Schaden	Schaden	NOUN	NN	_	10	comp:obj	_	_
+12	zu	zu	ADP	APPR	_	14	comp:obl	_	_
+13	Schaden	Schaden	NOUN	NN	_	12	comp:obj	_	_
+14	gekommen	kommen	VERB	VVPP	_	7	comp:aux	_	_
+
+# text = äh außer eventuell das zweite Fahrzeug
+1	äh	äh	ADJ	NGHES	_	2	discourse	_	_
+2	außer	außer	ADP	APPR	_	0	root	_	_
+3	eventuell	eventuell	ADV	ADV	_	6	mod	_	_
+4	das	d	DET	ART	_	6	det	_	_
+5	zweite	zweit	ADJ	ORD	_	6	mod	_	_
+6	Fahrzeug	Fahrzeug	NOUN	NN	_	2	comp:obj	_	_
+

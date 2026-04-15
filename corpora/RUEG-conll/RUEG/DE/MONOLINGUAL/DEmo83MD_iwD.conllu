@@ -1,0 +1,109 @@
+# text = Ey
+1	Ey	ey	PROPN	_	_	0	root	_	_
+
+# text = ich war aufn Parkplatz
+1	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	war	sein	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	aufn	auf	VERB	_	VerbForm=Inf	2	comp:pred	_	_
+4	Parkplatz	Parkplatz	NOUN	_	_	3	comp:obj	_	_
+
+# text = und da hat ein Typ sein Fußball vorn Auto rollen lassen
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	da	da	ADV	_	_	3	mod	_	_
+3	hat	haben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ein	ein	DET	_	Definite=Ind|PronType=Art	5	det	_	_
+5	Typ	Typ	NOUN	_	_	3	subj	_	_
+6	sein	sein	DET	_	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	Fußball	Fußball	NOUN	_	_	10	comp:obj	_	_
+8	vorn	vor	ADV	_	_	10	comp:obl	_	_
+9	Auto	Auto	NOUN	_	Case=Acc|Gender=Masc,Neut|Number=Sing	8	comp:obj	_	_
+10	rollen	rollen	VERB	_	VerbForm=Inf	11	comp:obj	_	_
+11	lassen	lassen	VERB	_	VerbForm=Inf	3	comp:aux	_	_
+
+# text = und der Hund von einer Frau die ihm gegenüber stand ist dem hinterhergerannt .
+1	und	und	CCONJ	_	_	11	cc	_	_
+2	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Hund	Hund	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	11	subj	_	_
+4	von	von	ADP	_	_	3	mod@poss	_	_
+5	einer	ein	DET	_	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Frau	Frau	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	4	comp:obj	_	_
+7	die	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	subj	_	_
+8	ihm	er	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	comp:obj	_	_
+9	gegenüber	gegenüber	ADV	_	_	10	comp:obl	_	_
+10	stand	stehen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	mod@relcl	_	_
+11	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	13	comp:obj	_	_
+13	hinterhergerannt	hinterherrennen	VERB	_	Tense=Past|VerbForm=Part	11	comp:aux	_	_
+14	.	.	PUNCT	_	_	11	punct	_	_
+
+# text = Das Auto hat dann eine Vollbremsung gemacht und eine zweites was dahinter stand ist dem Vorderen aufgefahren
+1	Das	d	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Auto	Auto	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	3	subj	_	_
+3	hat	haben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	dann	dann	ADV	_	_	3	mod	_	_
+5	eine	ein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Vollbremsung	Vollbremsung	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	7	comp:obj	_	_
+7	gemacht	machen	VERB	_	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+
+# text = Das Auto hat dann eine Vollbremsung gemacht und eine zweites was dahinter stand ist dem Vorderen aufgefahren
+1	und	und	CCONJ	_	_	7	cc	_	_
+2	eine	ein	DET	_	Definite=Ind|PronType=Art	3	det	_	_
+3	zweites	zweite	ADJ	_	Degree=Pos|NumType=Ord	7	subj	_	_
+4	was	was	PRON	_	Case=Nom|Number=Sing|PronType=Int	6	subj	_	_
+5	dahinter	dahinter	ADV	_	_	6	mod	_	_
+6	stand	stehen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	mod@relcl	_	_
+7	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	comp:obj	_	_
+9	Vorderen	Vordere	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	10	comp:obj	_	_
+10	aufgefahren	auffahren	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux	_	_
+
+# text = dabei hat die Frau halt ihre einkäufe fallen lassen
+1	dabei	dabei	ADV	_	_	2	mod	_	_
+2	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	die	d	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Frau	Frau	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	2	subj	_	_
+5	halt	halt	VERB	_	_	2	discourse	_	_
+6	ihre	ihr	DET	_	Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	einkäufe	einkauf	NOUN	_	Case=Acc|Number=Sing	8	comp:obj	_	_
+8	fallen	fallen	VERB	_	VerbForm=Inf	9	comp:obj	_	_
+9	lassen	lassen	VERB	_	VerbForm=Inf	2	comp:aux	_	_
+
+# text = Ohne zu schauen was mit dem Auto ist .
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	hat	haben	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	zusammen	zusammen	ADV	_	_	4	mod	_	_
+4	mit	mit	ADP	_	_	7	mod	_	_
+5	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Mann	Mann	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	4	comp:obj	_	_
+7	angefangen	anfangen	VERB	_	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+8	die	d	PRON	_	Case=Nom|PronType=Dem	9	comp:obj	_	_
+9	einzusammeln	einsammeln	VERB	_	VerbForm=Inf	7	comp:obj	_	_
+10	.	.	PUNCT	_	_	2	punct	_	_
+11	Ohne	ohne	ADP	_	_	9	mod	_	_
+12	zu	zu	PART	_	_	11	comp:obj	_	_
+13	schauen	schauen	VERB	_	VerbForm=Inf	12	comp:obj	_	_
+14	was	was	PRON	_	Number=Sing|PronType=Rel	18	subj	_	_
+15	mit	mit	ADP	_	_	18	comp:pred	_	_
+16	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	17	det	_	_
+17	Auto	Auto	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	15	comp:obj	_	_
+18	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	comp:obj	_	_
+19	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Und die Autofahrer haben angefangen zu reden ,
+1	Und	und	CCONJ	_	_	4	cc	_	_
+2	die	d	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Autofahrer	Autofahrer	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	4	subj	_	_
+4	haben	haben	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	angefangen	anfangen	VERB	_	Tense=Past|VerbForm=Part	4	comp:aux	_	_
+6	zu	zu	PART	_	_	5	comp:obj	_	_
+7	reden	reden	VERB	_	VerbForm=Inf	6	comp:obj	_	_
+8	,	,	PUNCT	_	_	4	punct	_	_
+
+# text = ich weiß aber nicht wo drüber
+1	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	weiß	weiß	NOUN	_	Tense=Pres	0	root	_	_
+3	aber	aber	ADV	_	_	2	mod	_	_
+4	nicht	nicht	PART	_	_	2	mod	_	_
+5	wo	wo	ADV	_	_	6	goeswith	_	_
+6	drüber	drüber	ADV	_	_	2	comp:obj	_	_
+

@@ -1,0 +1,106 @@
+# text = ﻿Augenzeugenbericht Fall F16
+1	﻿Augenzeugenbericht	﻿Augenzeugenbericht	VERB	VVFIN	Case=Nom|Number=Sing	0	root	_	_
+2	Fall	Fall	NOUN	NN	_	1	mod	_	_
+3	F16	F16	PROPN	NE	_	2	appos	_	_
+
+# text = Auffahrunfall
+1	Auffahrunfall	Auffahrunfall	NOUN	NN	_	0	root	_	_
+
+# text = Zeugin : DEbi52FR
+1	Zeugin	Zeugin	NOUN	NN	_	0	root	_	_
+2	:	:	PUNCT	$.	_	1	punct	_	_
+3	DEbi52FR	DEbi52FR	PROPN	NE	_	1	parataxis	_	_
+
+# text = 23.Januar 2019
+1	23.Januar	23.Januar	PROPN	NUN	_	0	root	_	_
+2	2019	@card@	NUM	NUM	NumType=Card	1	flat	_	_
+
+# text = etwa 9:35 Uhr
+1	etwa	etwa	ADV	ADV	_	2	mod	_	_
+2	9:35	@card@	NUM	NUM	NumType=Card	3	mod	_	_
+3	Uhr	Uhr	NOUN	NN	Case=Acc|Number=Sing	0	root	_	_
+
+# text = Junger Mann ( ca. 20 Jahre alt ) lief mit einer Frau ( ungefähr gleiches Alter ) an die Straße .
+1	Junger	Junge	ADJ	ADJA	Degree=Cmp,Pos	2	mod	_	_
+2	Mann	Mann	NOUN	NN	_	9	subj	_	_
+3	(	(	PUNCT	$(	_	7	punct	_	_
+4	ca.	ca.	ADV	ADV	_	5	mod	_	_
+5	20	@card@	NUM	NUM	NumType=Card	6	mod	_	_
+6	Jahre	Jahr	NOUN	NN	_	7	mod	_	_
+7	alt	alt	ADJ	ADJD	Degree=Pos	2	appos	_	_
+8	)	)	PUNCT	$(	_	7	punct	_	_
+9	lief	laufen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+10	mit	mit	ADP	APPR	_	9	mod	_	_
+11	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Frau	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	comp:obj	_	_
+13	(	(	PUNCT	$(	_	16	punct	_	_
+14	ungefähr	ungefähr	ADJ	ADJA	Degree=Pos	15	mod	_	_
+15	gleiches	gleich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc,Neut|Number=Sing	16	mod	_	_
+16	Alter	Alter	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	12	appos	_	_
+17	)	)	PUNCT	$(	_	16	punct	_	_
+18	an	an	ADP	APPR	_	9	comp:obl	_	_
+19	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	comp:obj	_	_
+21	.	.	PUNCT	$.	_	9	punct	_	_
+
+# text = Die Frau schob einen Kinderwagen
+1	Die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	subj	_	_
+3	schob	schieben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+5	Kinderwagen	Kinderwagen	NOUN	NN	Case=Acc|Number=Plur	3	comp:obj	_	_
+
+# text = und der Mann dribbelte mit einem Ball .
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+4	dribbelte	dribbeln	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	mit	mit	ADP	APPR	_	4	comp:obl	_	_
+6	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	comp:obj	_	_
+8	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Der Mann verlor jedoch die Kontrolle über den Ball , der daraufhin über die Straße rollte .
+1	Der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	verlor	verlieren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	jedoch	jedoch	ADV	ADV	_	3	mod	_	_
+5	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Kontrolle	Kontrolle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	comp:obj	_	_
+7	über	über	ADP	APPR	_	6	mod	_	_
+8	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	comp:obj	_	_
+10	,	,	PUNCT	$,	_	3	punct	_	_
+11	der	d	PRON	PDS	Case=Nom|PronType=Rel	16	subj	_	_
+12	daraufhin	daraufhin	ADV	ADV	_	16	mod	_	_
+13	über	über	ADJ	ADJA	_	16	comp:obl	_	_
+14	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	comp:obj	_	_
+16	rollte	rollen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	9	mod@relcl	_	_
+17	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Ein Hund , der der Besitzerin des parkenden Autos gegenüber gehörte bellte den Ball an
+1	Ein	ein	DET	ART	Definite=Ind|PronType=Art	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	12	subj	_	_
+3	,	,	PUNCT	$,	_	12	punct	_	_
+4	der	d	PRON	PRELS	Case=Nom|PronType=Rel	11	subj	_	_
+5	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Besitzerin	Besitzerin	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	comp:obj	_	_
+7	des	d	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+8	parkenden	parkend	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc,Neut|Number=Sing	9	mod	_	_
+9	Autos	Auto	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	6	mod@poss	_	_
+10	gegenüber	gegenüber	ADV	ADV	_	9	mod	_	_
+11	gehörte	gehören	VERB	VVPP	Number=Sing|Person=3|VerbForm=Fin	2	mod@relcl	_	_
+12	bellte	bellen	VERB	VVFIN	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	comp:obj	_	_
+15	an	an	ADV	PTKVZ	_	12	compound@prt	_	_
+
+# text = und lief ebenfalls auf die Straße .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	lief	laufen	VERB	VVFIN	VerbForm=Fin	0	root	_	_
+3	ebenfalls	ebenfalls	ADV	ADV	_	2	mod	_	_
+4	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+5	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	comp:obj	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_

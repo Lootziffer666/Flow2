@@ -1,0 +1,113 @@
+# text = hallo !
+1	hallo	hallo	X	NGIRR	_	0	root	_	_
+2	!	!	PUNCT	$.	_	1	punct	_	_
+
+# text = ich hatte gerade das Bedürfnis dir zu erzählen was passiert ist .
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	hatte	haben	VERB	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	das	d	DET	ART	_	5	det	_	_
+5	Bedürfnis	Bedürfnis	NOUN	NN	_	2	comp:obj	_	_
+6	dir	du	PRON	PPER	_	8	comp:obl	_	_
+7	zu	zu	PART	PTKZU	_	5	mod	_	_
+8	erzählen	erzählen	VERB	VVINF	_	7	comp:obj	_	_
+9	was	was	PRON	PWS	_	11	subj	_	_
+10	passiert	passieren	VERB	VVPP	_	11	comp:aux	_	_
+11	ist	sein	AUX	VAFIN	_	8	comp:obj	_	_
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Ich wollte gerade nach Hause
+1	Ich	ich	PRON	PPER	_	2	subj	_	_
+2	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+3	gerade	gerad	ADV	ADV	_	2	mod	_	_
+4	nach	nach	ADP	APPR	_	2	comp:obl	_	_
+5	Hause	Haus	NOUN	NN	_	4	comp:obj	_	_
+
+# text = und da stand ich auf dem Parkplatz ( kennst du ja ) .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	stand	stehen	VERB	VVFIN	_	0	root	_	_
+4	ich	ich	PRON	PPER	_	3	subj	_	_
+5	auf	auf	ADP	APPR	_	3	comp:obl	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	Parkplatz	Parkplatz	PROPN	NN	_	5	comp:obj	_	_
+8	(	(	PUNCT	$(	_	9	punct	_	_
+9	kennst	kennen	PROPN	VVFIN	_	3	parataxis	_	_
+10	du	du	PROPN	PPER	_	9	subj	_	_
+11	ja	ja	PROPN	PTKMA	_	9	discourse	_	_
+12	)	)	PUNCT	$(	_	9	punct	_	_
+13	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Dann ist so einem Mann ein Ball heruntergefallen
+1	Dann	dann	ADV	ADV	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	so	so	ADV	PTKIFG	_	5	mod	_	_
+4	einem	ein	DET	ART	_	5	det	_	_
+5	Mann	Mann	NOUN	NN	_	8	comp:obj	_	_
+6	ein	ein	DET	ART	_	7	det	_	_
+7	Ball	Ball	NOUN	NN	_	2	subj	_	_
+8	heruntergefallen	herunterfallen	ADJ	VVPP	_	2	comp:aux	_	_
+
+# text = und ein Hund wollte den Ball jagen
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	ein	ein	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	4	subj	_	_
+4	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	7	comp:obj	_	_
+7	jagen	jagen	VERB	VVINF	_	4	comp:aux	_	_
+
+# text = und ist direkt vor ein Auto gelaufen .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	direkt	direkt	ADJ	ADJD	_	2	mod	_	_
+4	vor	vor	ADP	APPR	_	7	comp:obl	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Auto	Auto	NOUN	NN	_	4	comp:obj	_	_
+7	gelaufen	laufen	VERB	VVPP	_	2	comp:aux	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Das musste ein richtige Vollbremsung machen sodass ein anderes hinter ihm aufgefahren ist .
+1	Das	d	PRON	PDS	_	2	subj	_	_
+2	musste	müssen	AUX	VMFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	5	det	_	_
+4	richtige	richtig	ADJ	ADJA	_	5	mod	_	_
+5	Vollbremsung	Vollbremsung	NOUN	NN	_	6	comp:obj	_	_
+6	machen	machen	VERB	VVINF	_	2	comp:aux	_	_
+7	sodass	sodass	SCONJ	KOUS	_	6	mod	_	_
+8	ein	ein	DET	ART	_	9	det	_	_
+9	anderes	ander	NOUN	PIDS	_	13	subj	_	_
+10	hinter	hinter	ADP	APPR	_	12	mod	_	_
+11	ihm	er	PRON	PPER	_	10	comp:obj	_	_
+12	aufgefahren	auffahren	VERB	VVPP	_	13	comp:aux	_	_
+13	ist	sein	AUX	VAFIN	_	7	comp:obj	_	_
+14	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = ich habe mich echt erschrocken ( ziemlich lauter Knall ) .
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	mich	ich	PRON	PPER	_	5	comp:obj	_	_
+4	echt	echt	ADV	PTKIFG	_	2	mod	_	_
+5	erschrocken	erschrecken	VERB	VVPP	_	2	comp:aux	_	_
+6	(	(	PUNCT	$(	_	9	punct	_	_
+7	ziemlich	ziemlich	ADV	PTKIFG	_	8	mod	_	_
+8	lauter	laut	ADJ	ADJA	_	9	mod	_	_
+9	Knall	Knall	NOUN	NN	_	2	parataxis	_	_
+10	)	)	PUNCT	$,	_	9	punct	_	_
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = zum Glück war es nur Blechschaden .....
+1	zum	zu	NOUN	APPRART	_	3	mod	_	_
+2	Glück	Glück	NOUN	NN	_	1	comp:obj	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	es	es	PRON	PPER	_	3	subj@expl	_	_
+5	nur	nur	ADV	PTKIFG	_	3	mod	_	_
+6	Blechschaden	Blechschaden	NOUN	NN	_	3	comp:pred	_	_
+7	.....	.....	PUNCT	$.	_	3	discourse	_	_
+
+# text = Bis nachher dann !
+1	Bis	bis	ADP	APPR	_	0	root	_	_
+2	nachher	nachher	ADJ	ADV	_	1	comp:obj	_	_
+3	dann	dann	ADV	ADV	_	1	mod	_	_
+4	!	!	PUNCT	$.	_	1	punct	_	_
+

@@ -1,0 +1,96 @@
+# text = Situationsbeschreibung :
+1	Situationsbeschreibung	Situationsbeschreibung	NOUN	NN	_	0	root	_	_
+2	:	:	PUNCT	$.	_	1	punct	_	_
+
+# text = Parkplatzsituation .
+1	Parkplatzsituation	Parkplatzsituation	NOUN	NN	_	0	root	_	_
+2	.	.	PUNCT	$.	_	1	punct	_	_
+
+# text = Ein Mann verliert seinen Ball mit dem er spielt ,
+1	Ein	ein	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	verliert	verlieren	VERB	VVFIN	_	0	root	_	_
+4	seinen	sein	DET	PPOSAT	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+6	mit	mit	ADP	APPR	_	9	comp:obl	_	_
+7	dem	d	PRON	PDS	_	6	comp:obj	_	_
+8	er	er	PRON	PPER	_	9	subj	_	_
+9	spielt	spielen	VERB	VVFIN	_	5	mod@relcl	_	_
+10	,	,	PUNCT	$,	_	3	punct	_	_
+
+# text = dieser rollt unvorhergesehen auf den Parkplatz und in den Weg von einem blauen Auto , welches gerade auf den Parkplatz fährt .
+1	dieser	diese	PRON	PDS	_	2	subj	_	_
+2	rollt	rollen	VERB	VVFIN	_	0	root	_	_
+3	unvorhergesehen	unvorhergesehen	NOUN	ADJD	_	2	mod	_	_
+4	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Parkplatz	Parkplatz	NOUN	NN	_	4	comp:obj	_	_
+7	und	und	CCONJ	KON	_	8	cc	_	_
+8	in	in	ADP	APPR	_	4	conj	_	_
+9	den	d	DET	ART	_	10	det	_	_
+10	Weg	Weg	NOUN	NN	_	8	comp:obj	_	_
+11	von	von	ADP	APPR	_	10	mod@poss	_	_
+12	einem	ein	DET	ART	_	14	det	_	_
+13	blauen	blau	VERB	ADJA	_	14	mod	_	_
+14	Auto	Auto	NOUN	NN	_	11	comp:obj	_	_
+15	,	,	PUNCT	$,	_	2	punct	_	_
+16	welches	welche	PRON	PWS	_	21	subj	_	_
+17	gerade	gerade	ADV	ADV	_	21	mod	_	_
+18	auf	auf	ADP	APPR	_	21	comp:obl	_	_
+19	den	d	DET	ART	_	20	det	_	_
+20	Parkplatz	Parkplatz	NOUN	NN	_	18	comp:obj	_	_
+21	fährt	fahren	VERB	VVFIN	_	14	mod@relcl	_	_
+22	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Es muss stark bremsen .
+1	Es	es	PRON	PPER	_	2	subj	_	_
+2	muss	müssen	AUX	VMFIN	_	0	root	_	_
+3	stark	stark	ADJ	ADJD	_	2	mod	_	_
+4	bremsen	bremsen	VERB	VVINF	_	2	comp:aux	_	_
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Gleichzeitig läuft der Hund einer Frau von der anderen Seite auf den Ball zu , sodass das blaue Auto stoppen musste .
+1	Gleichzeitig	gleichzeitig	ADJ	ADJD	_	2	mod	_	_
+2	läuft	laufen	VERB	VVFIN	_	0	root	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Hund	Hund	NOUN	NN	_	2	subj	_	_
+5	einer	ein	DET	ART	_	6	det	_	_
+6	Frau	Frau	NOUN	NN	_	4	mod@poss	_	_
+7	von	von	ADP	APPR	_	2	mod	_	_
+8	der	d	DET	ART	_	10	det	_	_
+9	anderen	ander	ADJ	PIDAT	_	10	mod	_	_
+10	Seite	Seite	NOUN	NN	_	7	comp:obj	_	_
+11	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+12	den	d	DET	ART	_	13	det	_	_
+13	Ball	Ball	NOUN	NN	_	11	comp:obj	_	_
+14	zu	zu	ADP	PTKZU	_	2	compound@prt	_	_
+15	,	,	PUNCT	$,	_	2	punct	_	_
+16	sodass	sodass	SCONJ	KOUS	_	2	mod	_	_
+17	das	d	DET	ART	_	19	det	_	_
+18	blaue	blau	ADJ	ADJA	_	19	mod	_	_
+19	Auto	Auto	NOUN	NN	_	21	subj	_	_
+20	stoppen	stoppen	VERB	VVINF	_	21	comp:aux	_	_
+21	musste	müssen	AUX	VMFIN	_	16	comp:obj	_	_
+22	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Hinter dem blauen Auto folgt ein weißes Auto , welches auf das blaue Auto aufgrund der Vollbremsung auffährt .
+1	Hinter	hinter	ADP	APPR	_	5	mod	_	_
+2	dem	d	DET	ART	_	4	det	_	_
+3	blauen	blau	ADJ	ADJA	_	4	mod	_	_
+4	Auto	Auto	NOUN	NN	_	1	comp:obj	_	_
+5	folgt	folgen	VERB	VVFIN	_	0	root	_	_
+6	ein	ein	DET	ART	_	8	det	_	_
+7	weißes	weiß	ADJ	ADJA	_	8	mod	_	_
+8	Auto	Auto	NOUN	NN	_	5	subj	_	_
+9	,	,	PUNCT	$,	_	5	punct	_	_
+10	welches	welche	PRON	PWS	_	18	subj	_	_
+11	auf	auf	ADP	APPR	_	18	comp:obl	_	_
+12	das	d	DET	ART	_	14	det	_	_
+13	blaue	blau	ADJ	ADJA	_	14	mod	_	_
+14	Auto	Auto	NOUN	NN	_	11	comp:obj	_	_
+15	aufgrund	aufgrund	ADP	APPR	_	18	mod	_	_
+16	der	d	DET	ART	_	17	det	_	_
+17	Vollbremsung	Vollbremsung	NOUN	NN	_	15	comp:obj	_	_
+18	auffährt	auffährt	VERB	VVFIN	_	8	mod@relcl	_	_
+19	.	.	PUNCT	$.	_	5	punct	_	_
+

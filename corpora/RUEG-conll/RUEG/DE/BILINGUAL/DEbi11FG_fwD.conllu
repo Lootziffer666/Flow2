@@ -1,0 +1,110 @@
+1	Sehr	sehr	ADV	PTKIFG	_	2	mod	_	_
+2	geehrtes	geehrt	ADJ	ADJA	_	3	mod	_	_
+3	Team	Team	NOUN	NN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Polizei	Polizei	NOUN	NN	_	3	mod@poss	_	_
+6	!	!	PUNCT	$.	_	3	punct	_	_
+
+1	Ich	ich	PRON	PPER	_	2	subj	_	_
+2	möchte	mögen	AUX	VMFIN	_	0	root	_	_
+3	einen	ein	DET	ART	_	4	det	_	_
+4	Unfall	Unfall	NOUN	NN	_	8	comp:obj	_	_
+5	zwischen	zwischen	ADP	APPR	_	4	mod	_	_
+6	zwei	zwei	NUM	CARD	_	7	mod	_	_
+7	Autofahrer	Autofahrer	NOUN	NN	_	5	comp:obj	_	_
+8	melden	melden	VERB	VVINF	_	2	comp:aux	_	_
+9	am	an	ADJ	APPRART	_	4	mod	_	_
+10	Parkplatz	Parkplatz	PROPN	NN	_	9	comp:obj	_	_
+11	XXX	XXX	PROPN	XY	_	10	appos	_	_
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Ich	ich	PRON	PPER	_	2	subj	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	den	d	DET	ART	_	4	det	_	_
+4	Unfall	Unfall	NOUN	NN	_	7	comp:obj	_	_
+5	als	als	ADP	KOUS	_	7	mod	_	_
+6	Zeugin	Zeugin	NOUN	NN	_	5	comp:obj	_	_
+7	beobachtet	beobachten	VERB	VVPP	_	2	comp:aux	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Es	es	PRON	PPER	_	2	subj@expl	_	_
+2	sind	sein	VERB	VAFIN	_	0	root	_	_
+3	hierbei	hierbei	ADV	ADV	_	2	mod	_	_
+4	keine	keine	PRON	PIAT	_	5	det	_	_
+5	Menschen	Mensch	NOUN	NN	_	2	subj	_	_
+6	zu	zu	ADP	APPR	_	8	comp:obl	_	_
+7	Schaden	Schaden	NOUN	NN	_	6	comp:obj	_	_
+8	gekommen	kommen	ADJ	VVPP	_	2	comp:aux	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Während	Während	SCONJ	ADV	_	11	mod	_	_
+2	beide	beide	PRON	PIAT	_	3	det	_	_
+3	Autofahrer	Autofahrer	NOUN	NN	_	9	subj	_	_
+4	entlang	entlang	ADP	APPR	_	9	comp:obl	_	_
+5	eines	ein	DET	ART	_	6	det	_	_
+6	Weges	Weg	NOUN	NN	_	4	comp:obj	_	_
+7	am	an	ADJ	APPRART	_	6	mod	_	_
+8	Parkplatz	Parkplatz	NOUN	NN	_	7	comp:obj	_	_
+9	fuhren	fahren	VERB	VVFIN	_	1	comp:obj	_	_
+10	,	,	PUNCT	$,	_	1	punct	_	_
+11	bremste	bremsen	VERB	VVFIN	_	0	root	_	_
+12	der	d	DET	ART	_	14	det	_	_
+13	erste	erst	ADJ	ORD	_	14	mod	_	_
+14	Fahrer	Fahrer	NOUN	NN	_	11	subj	_	_
+15	abrupt	abrupt	ADV	ADJD	_	11	mod	_	_
+16	,	,	PUNCT	$,	_	11	punct	_	_
+17	um	um	ADP	KOUI	_	11	mod	_	_
+18	eine	ein	DET	ART	_	19	det	_	_
+19	Kollision	Kollision	NOUN	NN	_	25	comp:obj	_	_
+20	mit	mit	ADP	APPR	_	19	mod	_	_
+21	einem	ein	DET	ART	_	23	det	_	_
+22	vorbeirennenden	vorbeirennen	ADJ	ADJA	_	23	mod	_	_
+23	Hund	Hund	NOUN	NN	_	20	comp:obj	_	_
+24	zu	zu	PART	PTKZU	_	17	comp:obj	_	_
+25	vermeiden	vermeiden	VERB	VVINF	_	24	comp:obj	_	_
+26	.	.	PUNCT	$.	_	11	punct	_	_
+
+1	Der	d	DET	ART	_	3	det	_	_
+2	zweite	zweit	ADJ	ORD	_	3	mod	_	_
+3	Fahrer	Fahrer	NOUN	NN	_	4	subj	_	_
+4	befand	befinden	VERB	VVFIN	_	0	root	_	_
+5	sich	er|es|sie	PRON	PRF	_	4	comp:obj	_	_
+6	hierbei	hierbei	ADV	ADV	_	4	mod	_	_
+7	hinter	hinter	ADP	APPR	_	4	comp:obl	_	_
+8	dem	d	DET	ART	_	10	det	_	_
+9	ersten	erst	ADJ	ORD	_	10	mod	_	_
+10	Fahrzeug	Fahrzeug	NOUN	NN	_	7	comp:obj	_	_
+11	,	,	PUNCT	$,	_	4	punct	_	_
+
+1	bremste	bremsen	VERB	VVFIN	_	0	root	_	_
+2	im	in	PROPN	APPRART	_	1	mod	_	_
+3	letzten	letzt	ADJ	ADJA	_	4	mod	_	_
+4	Moment	Moment	NOUN	NN	_	2	comp:obj	_	_
+5	ab	ab	ADP	PTKVZ	_	1	compound@prt	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	traf	treffen	VERB	VVFIN	_	0	root	_	_
+3	das	d	DET	ART	_	4	det	_	_
+4	Fahrzeug	Fahrzeug	NOUN	NN	_	2	comp:obj	_	_
+5	des	d	DET	ART	_	7	det	_	_
+6	ersten	erst	ADJ	ORD	_	7	mod	_	_
+7	Autofahrers	Autofahrer	NOUN	NN	_	4	mod@poss	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Den	d	DET	ART	_	2	det	_	_
+2	Unfall	Unfall	NOUN	NN	_	10	comp:obj	_	_
+3	haben	haben	AUX	VAFIN	_	0	root	_	_
+4	mit	mit	ADP	APPR	_	10	mod	_	_
+5	ihr	ihr	PRON	PPER	_	4	comp:obj	_	_
+6	auch	auch	ADV	ADV	_	3	mod	_	_
+7	drei	drei	NUM	CARD	_	9	mod	_	_
+8	weitere	weit	ADJ	ADJA	_	9	mod	_	_
+9	Zeugen	Zeuge	NOUN	NN	_	3	subj	_	_
+10	beobachtet	beobachten	VERB	VVPP	_	3	comp:aux	_	_
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	Mit	mit	ADP	APPR	_	4	mod	_	_
+2	freundlichen	freundlich	ADJ	ADJA	_	3	mod	_	_
+3	Grüße	Gruß	NOUN	NN	_	1	comp:obj	_	_
+4	DEbi11FG	DEbi11FG	PROPN	NE	_	0	root	_	_
+

@@ -1,0 +1,122 @@
+1	Hey	Hey	PROPN	NGIRR	_	2	discourse	_	_
+2	Friedi	Friedi	PROPN	NE	_	0	root	_	_
+3	,	,	PUNCT	NE	_	2	punct	_	_
+
+1	Ich	Ich	PRON	NE	_	2	subj	_	_
+2	durfte	d�rfen	AUX	VMFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	schön	schön	ADJ	ADJD	_	2	mod	_	_
+5	einen	ein	DET	ART	_	6	det	_	_
+6	Unfall	Unfall	NOUN	NN	_	7	comp:obj	_	_
+7	angucken	angucken	VERB	VVINF	_	2	comp:aux	_	_
+
+1	:rolling_on_the_floor_laughing:	🤣	NOUN	NE	_	0	root	_	_
+
+1	da	da	ADV	ADV	_	2	comp:pred	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	halt	halt	ADV	PTKMA	_	2	discourse	_	_
+4	irgend	irgend	ADJ	ADV	_	6	mod	_	_
+5	so	so	ADV	PTKIFG	_	6	mod	_	_
+6	jemand	jemand	PRON	PIS	_	2	subj	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dem	die	PRON	PDS	_	9	comp:obj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	der	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	subj	_	_
+6	auf	auf	ADP	APPR	_	9	comp:obl	_	_
+7	dem	d	DET	ART	_	8	det	_	_
+8	Parkplatz	Parkplatz	NOUN	NN	_	6	comp:obj	_	_
+9	runtergefallen	runtergefallen	VERB	VVPP	_	3	comp:aux	_	_
+10	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	Da	da	ADV	ADV	_	2	comp:pred	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	auch	auch	ADV	PTKIFG	_	4	mod	_	_
+4	noch	noch	ADV	PTKMWL	_	2	mod	_	_
+5	eine	eine	DET	ART	_	6	det	_	_
+6	Frau	Frau	NOUN	NN	_	2	subj	_	_
+7	mit	mit	ADP	APPR	_	6	mod	_	_
+8	Hund	Hund	NOUN	NN	_	7	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	4	subj	_	_
+4	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	7	comp:obj	_	_
+7	holen	holen	VERB	VVINF	_	4	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	die	d	DET	ART	_	4	det	_	_
+4	Frau	Frau	NOUN	NN	_	12	comp:obj	_	_
+5	dann	dann	ADV	ADV	_	2	mod	_	_
+6	auch	auch	ADV	PTKIFG	_	2	mod	_	_
+7	so	so	ADV	PTKIFG	_	8	mod	_	_
+8	halb	halb	ADV	ADJD	_	2	mod	_	_
+9	auf	auf	ADP	APPR	_	12	comp:obl	_	_
+10	die	d	DET	ART	_	11	det	_	_
+11	Straße	Straße	NOUN	NN	_	9	comp:obj	_	_
+12	gezogen	ziehen	VERB	VVPP	_	2	comp:aux	_	_
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Auf	auf	ADP	APPR	_	4	mod	_	_
+2	jeden	jede	PRON	PIDAT	_	3	det	_	_
+3	Fall	Fall	NOUN	NN	_	1	comp:obj	_	_
+4	kamen	kommen	VERB	VVFIN	_	0	root	_	_
+5	da	da	ADV	ADV	_	4	mod	_	_
+6	halt	halt	ADV	PTKMA	_	4	discourse	_	_
+7	währenddessen	währenddessen	ADV	ADJA	_	4	mod	_	_
+8	zwei	zwei	NUM	CARD	_	9	mod	_	_
+9	Autos	Auto	NOUN	NN	_	4	subj	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	vordere	vorder	ADJ	ADJA	_	4	subj	_	_
+4	hat	haben	VERB	VAFIN	_	0	root	_	_
+5	auch	auch	ADV	PTKIFG	_	4	mod	_	_
+6	gebremst	bremsen	ADV	VVPP	_	4	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	hinter	hinter	ADP	ADV	_	4	comp:pred	_	_
+3	ihm	er	PRON	PPER	_	2	comp:obj	_	_
+4	war	sein	VERB	VAFIN	_	0	root	_	_
+5	auch	auch	ADV	PTKIFG	_	4	mod	_	_
+6	ein	ein	DET	ART	_	7	det	_	_
+7	Auto	Auto	NOUN	NN	_	4	subj	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	der	d	PRON	PDS	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	das	d	DET	PDS	_	10	udep	_	_
+5	schön	schön	ADJ	ADJD	_	3	mod	_	_
+6	von	von	ADP	APPR	_	10	mod	_	_
+7	hinten	hinten	ADV	ADV	_	6	comp:obj	_	_
+8	auf	auf	ADP	APPR	_	10	comp:obl	_	_
+9	ihn	er	PRON	PPER	_	8	comp:obj	_	_
+10	draufgefahren	drauffahren	VERB	VVPP	_	3	comp:aux	_	_
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+1	Aber	aber	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	glaube	glauben	VERB	VVFIN	_	0	root	_	_
+4	viel	viel	PRON	PIS	_	5	subj	_	_
+5	ist	sein	VERB	VAFIN	_	3	comp:obj	_	_
+6	nicht	nicht	PART	PTKNEG	_	5	mod	_	_
+7	kaputtgegangen	kaputtgehen	VERB	VVPP	_	5	comp:aux	_	_
+
+1	die	d	DET	ART	_	3	det	_	_
+2	beiden	beide	PRON	PIDAT	_	3	mod	_	_
+3	Autos	Auto	NOUN	NN	_	4	subj	_	_
+4	waren	sein	VERB	VAFIN	_	0	root	_	_
+5	relativ	relativ	ADJ	PTKIFG	_	6	mod	_	_
+6	langsam	langsam	ADJ	ADJD	_	4	comp:pred	_	_
+7	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	Sonst	sonst	ADV	ADV	_	2	mod	_	_
+2	gab	geben	VERB	VVFIN	_	0	root	_	_
+3	es	es	PRON	PPER	_	2	subj@expl	_	_
+4	nichts	nichts	PRON	PIAT	_	5	det	_	_
+5	Spannendes	Spannend|Spannende	NOUN	NN	_	2	comp:obj	_	_
+

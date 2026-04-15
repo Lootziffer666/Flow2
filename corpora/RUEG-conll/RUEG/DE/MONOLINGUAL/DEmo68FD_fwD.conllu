@@ -1,0 +1,185 @@
+# text = ﻿Auf dem Parkplatz habe ich eine Familie mit einem Kinderwagen den Gehweg entlanglaufen sehen .
+1	﻿Auf	auf	ADV	APPR	_	14	mod	_	_
+2	dem	d	DET	ART	_	3	det	_	_
+3	Parkplatz	Parkplatz	NOUN	NN	_	1	comp:obj	_	_
+4	habe	haben	AUX	VAFIN	_	0	root	_	_
+5	ich	ich	PRON	PPER	_	4	subj	_	_
+6	eine	ein	DET	ART	_	7	det	_	_
+7	Familie	Familie	NOUN	NN	_	13	subj	_	_
+8	mit	mit	ADP	APPR	_	7	mod	_	_
+9	einem	ein	DET	ART	_	10	det	_	_
+10	Kinderwagen	Kinderwagen	NOUN	NN	_	8	comp:obj	_	_
+11	den	d	DET	ART	_	12	det	_	_
+12	Gehweg	Gehweg	NOUN	NN	_	13	comp:obj	_	_
+13	entlanglaufen	entlanglaufen	VERB	VVINF	_	14	comp:obj	_	_
+14	sehen	sehen	VERB	VVINF	_	4	comp:aux	_	_
+15	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Der Mann hielt einen Fußball in der Hand , welchen er von einer auf die andere übergab .
+1	Der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	hielt	halten	VERB	VVFIN	_	0	root	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Fußball	Fußball	NOUN	NN	_	3	comp:obj	_	_
+6	in	in	ADP	APPR	_	3	mod	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Hand	Hand	NOUN	NN	_	6	comp:obj	_	_
+9	,	,	PUNCT	$,	_	3	punct	_	_
+10	welchen	welche	PRON	PRELS	_	17	comp:obj	_	_
+11	er	er	PRON	PPER	_	17	subj	_	_
+12	von	von	ADP	APPR	_	17	mod	_	_
+13	einer	einer	PRON	PIS	_	12	comp:obj	_	_
+14	auf	auf	ADP	APPR	_	17	mod	_	_
+15	die	d	DET	ART	_	16	det	_	_
+16	andere	andere	NOUN	PIDS	_	14	comp:obj	_	_
+17	übergab	übergeben	VERB	VVFIN	_	5	mod@relcl	_	_
+18	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Auf der anderen Seite des Parkplatzes lud eine Frau ihren Kofferraum aus ,
+1	Auf	auf	ADP	APPR	_	7	mod	_	_
+2	der	d	DET	ART	_	4	det	_	_
+3	anderen	ander	ADJ	PIDAT	_	4	mod	_	_
+4	Seite	Seite	NOUN	NN	_	1	comp:obj	_	_
+5	des	d	DET	ART	_	6	det	_	_
+6	Parkplatzes	Parkplatz	PROPN	NN	_	4	mod@poss	_	_
+7	lud	laden	PROPN	VVFIN	_	0	root	_	_
+8	eine	ein	DET	ART	_	9	det	_	_
+9	Frau	Frau	NOUN	NN	_	7	subj	_	_
+10	ihren	ihr	DET	PPOSAT	_	11	det	_	_
+11	Kofferraum	Kofferraum	NOUN	NN	_	7	comp:obj	_	_
+12	aus	aus	ADP	PTKVZ	_	7	compound@prt	_	_
+13	,	,	PUNCT	$,	_	7	punct	_	_
+
+# text = dabei hielt sie einen Hund an der Leine .
+1	dabei	dabei	ADV	ADV	_	2	mod	_	_
+2	hielt	halten	VERB	VVFIN	_	0	root	_	_
+3	sie	sie	PRON	PPER	_	2	subj	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	2	comp:obj	_	_
+6	an	an	ADP	APPR	_	2	comp:obl	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Leine	Leine	NOUN	NN	_	6	comp:obj	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Plötzlich fiel dem Mann der Ball aus der Hand
+1	Plötzlich	plötzlich	ADJ	ADJD	_	2	mod	_	_
+2	fiel	fallen	VERB	VVFIN	_	0	root	_	_
+3	dem	d	DET	ART	_	4	det	_	_
+4	Mann	Mann	NOUN	NN	_	2	comp:obj	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	2	subj	_	_
+7	aus	aus	ADP	APPR	_	2	comp:obl	_	_
+8	der	d	DET	ART	_	9	det	_	_
+9	Hand	Hand	NOUN	NN	_	7	comp:obj	_	_
+
+# text = und dieser rollte über den Parkplatz in Richtung des Hundes .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dieser	dies	PRON	PDS	_	3	subj	_	_
+3	rollte	rollen	AUX	VVFIN	_	0	root	_	_
+4	über	über	ADP	APPR	_	3	comp:obl	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Parkplatz	Parkplatz	NOUN	NN	_	4	comp:obj	_	_
+7	in	in	ADP	APPR	_	3	mod	_	_
+8	Richtung	Richtung	NOUN	NN	_	7	comp:obj	_	_
+9	des	d	DET	ART	_	10	det	_	_
+10	Hundes	Hund	NOUN	NN	_	8	mod@poss	_	_
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Daraufhin wollte der Hund den Ball fangen
+1	Daraufhin	daraufhin	ADV	ADV	_	2	mod	_	_
+2	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Hund	Hund	NOUN	NN	_	2	subj	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	7	comp:obj	_	_
+7	fangen	fangen	VERB	VVFIN	_	2	comp:aux	_	_
+
+# text = und riss sich von der Fau los .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	riss	reißen	NOUN	VVFIN	_	0	root	_	_
+3	sich	er|es|sie	PRON	PRF	_	2	comp:obj	_	_
+4	von	von	ADP	APPR	_	2	comp:obl	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Fau	Fau	PROPN	NN	_	4	comp:obj	_	_
+7	los	los	ADV	PTKVZ	_	2	compound@prt	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Ein auf den Parkplatz fahrendes Auto musste dadurch stark bremsen , da es ansonsten den Hund überfahren hätte .
+1	Ein	ein	DET	ART	_	6	det	_	_
+2	auf	auf	ADP	APPR	_	5	comp:obl	_	_
+3	den	d	DET	ART	_	4	det	_	_
+4	Parkplatz	Parkplatz	NOUN	NN	_	2	comp:obj	_	_
+5	fahrendes	fahrend	ADJ	ADJA	_	6	mod	_	_
+6	Auto	Auto	NOUN	NN	_	7	subj	_	_
+7	musste	müssen	AUX	VMFIN	_	0	root	_	_
+8	dadurch	dadurch	ADV	ADV	_	7	mod	_	_
+9	stark	stark	ADJ	ADJD	_	7	mod	_	_
+10	bremsen	bremsen	VERB	VVINF	_	7	comp:aux	_	_
+11	,	,	PUNCT	$,	_	7	punct	_	_
+12	da	da	SCONJ	KOUS	_	10	mod	_	_
+13	es	es	PRON	PPER	_	18	subj	_	_
+14	ansonsten	ansonsten	ADV	ADV	_	18	mod	_	_
+15	den	d	DET	ART	_	16	det	_	_
+16	Hund	Hund	NOUN	NN	_	17	comp:obj	_	_
+17	überfahren	überfahren	VERB	VVPP	_	18	comp:aux	_	_
+18	hätte	haben	AUX	VAFIN	_	12	comp:obj	_	_
+19	.	.	PUNCT	$.	_	7	punct	_	_
+
+# text = Hinter diesem Auto fuhr sehr dicht ein weiteres , welches durch das abrupte Bremsen des vorderen Wagens auffuhr .
+1	Hinter	hinter	ADP	APPR	_	4	comp:obl	_	_
+2	diesem	diese	PRON	PDAT	_	3	det	_	_
+3	Auto	Auto	NOUN	NN	_	1	comp:obj	_	_
+4	fuhr	fahren	VERB	VVFIN	_	0	root	_	_
+5	sehr	sehr	ADV	PTKIFG	_	6	mod	_	_
+6	dicht	dicht	ADJ	ADJD	_	4	mod	_	_
+7	ein	ein	DET	ART	_	8	det	_	_
+8	weiteres	weiter	NOUN	PIDAT	_	4	subj	_	_
+9	,	,	PUNCT	$,	_	4	punct	_	_
+10	welches	welche	PRON	PRELS	_	18	subj	_	_
+11	durch	durch	ADP	APPR	_	18	mod	_	_
+12	das	d	DET	ART	_	14	det	_	_
+13	abrupte	abrupt	NOUN	ADJA	_	14	compound	_	_
+14	Bremsen	Bremsen	NOUN	NN	_	11	comp:obj	_	_
+15	des	d	DET	ART	_	17	det	_	_
+16	vorderen	vorder	ADJ	ADJA	_	17	mod	_	_
+17	Wagens	Wagen	NOUN	NN	_	14	mod@poss	_	_
+18	auffuhr	auffahren	VERB	VVFIN	_	8	mod@relcl	_	_
+19	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Beide Fahrer sind dann ausgestiegen
+1	Beide	beide	PRON	PIAT	_	2	det	_	_
+2	Fahrer	Fahrer	NOUN	NN	_	3	subj	_	_
+3	sind	sein	AUX	VAFIN	_	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	ausgestiegen	aussteigen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und der des vorderen Wagen wählte die Nummer der Polizei .
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	der	d	PRON	PDS	_	6	subj	_	_
+3	des	d	DET	ART	_	5	det	_	_
+4	vorderen	vorder	ADJ	ADJA	_	5	mod	_	_
+5	Wagen	Wagen	NOUN	NN	_	2	mod@poss	_	_
+6	wählte	wählen	VERB	VVFIN	_	0	root	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Nummer	Nummer	NOUN	NN	_	6	comp:obj	_	_
+9	der	d	DET	ART	_	10	det	_	_
+10	Polizei	Polizei	NOUN	NN	_	8	mod@poss	_	_
+11	.	.	PUNCT	$.	_	6	punct	_	_
+
+# text = Die Familie , sowie die Frau mit dem Hund sind nicht zu Schaden gekommen .
+1	Die	d	DET	ART	_	2	det	_	_
+2	Familie	Familie	NOUN	NN	_	10	subj	_	_
+3	,	,	PUNCT	$,	_	6	punct	_	_
+4	sowie	sowie	CCONJ	KOUS	_	6	cc	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Frau	Frau	NOUN	NN	_	2	conj	_	_
+7	mit	mit	ADP	APPR	_	6	mod	_	_
+8	dem	d	DET	ART	_	9	det	_	_
+9	Hund	Hund	NOUN	NN	_	7	comp:obj	_	_
+10	sind	sein	AUX	VAFIN	_	0	root	_	_
+11	nicht	nicht	PART	PTKNEG	_	10	mod	_	_
+12	zu	zu	PART	APPR	_	14	comp:obl	_	_
+13	Schaden	Schaden	NOUN	NN	_	12	comp:obj	_	_
+14	gekommen	kommen	VERB	VVPP	_	10	comp:aux	_	_
+15	.	.	PUNCT	$.	_	10	punct	_	_
+

@@ -1,0 +1,151 @@
+# text = Brother ich bin hier auf einem Parkplatz
+1	Brother	brother	PROPN	NN	Case=Nom|Number=Sing	3	vocative	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	hier	hier	ADV	ADV	_	3	mod	_	_
+5	auf	auf	ADP	APPR	_	3	comp:pred	_	_
+6	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Parkplatz	Parkplatz	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	comp:obj	_	_
+
+# text = und da war ein kleiner Unfall
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	comp:pred	_	_
+3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	6	det	_	_
+5	kleiner	klein	ADJ	ADJA	Degree=Cmp,Pos	6	mod	_	_
+6	Unfall	Unfall	NOUN	NN	_	3	subj	_	_
+
+# text = also nichts Schlimmes
+1	also	also	ADV	SEDM	_	3	discourse	_	_
+2	nichts	nichts	PRON	PIAT	Number=Sing|PronType=Neg	3	det	_	_
+3	Schlimmes	Schlimmes	NOUN	NN	_	0	root	_	_
+
+# text = aber habe mich voll erschrocken
+1	aber	aber	ADV	KON	_	2	cc	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	comp:obj	_	_
+4	voll	voll	ADJ	PTKIFG	Degree=Pos	2	mod	_	_
+5	erschrocken	erschrecken	VERB	VVPP	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	comp:aux	_	_
+
+# text = Da waren so zwei Autos die hintereinander gefahren sind und eine Frau mit Hund ( die hat ihre Einkäufe in ihr Auto verladen ) und ein Typ mit einem Ball
+1	Da	da	SCONJ	ADV	_	2	comp:pred	_	_
+2	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	so	so	ADV	ADV	_	5	mod	_	_
+4	zwei	zwei	NUM	CARD	NumType=Card	5	mod	_	_
+5	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	2	subj	_	_
+6	die	d	PRON	PRELS	Case=Nom|PronType=Dem	9	subj	_	_
+7	hintereinander	hintereinander	ADV	PRF	_	9	mod	_	_
+8	gefahren	fahren	VERB	VVPP	Tense=Past|VerbForm=Part	9	comp:aux	_	_
+9	sind	sein	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	_
+10	und	und	CCONJ	KON	_	12	cc	_	_
+11	eine	ein	DET	ART	Definite=Ind|PronType=Art	12	det	_	_
+12	Frau	Frau	NOUN	NN	_	5	conj	_	_
+13	mit	mit	ADP	APPR	_	12	mod	_	_
+14	Hund	Hund	NOUN	NN	Case=Dat|Number=Sing	13	comp:obj	_	_
+15	(	(	PUNCT	$(	_	17	punct	_	_
+16	die	d	PRON	PDS	Case=Nom|PronType=Dem	17	subj	_	_
+17	hat	haben	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+18	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	19	det	_	_
+19	Einkäufe	Einkauf	NOUN	NN	Case=Acc|Number=Sing	23	comp:obj	_	_
+20	in	in	ADP	APPR	_	23	mod	_	_
+21	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	22	det	_	_
+22	Auto	Auto	NOUN	NN	_	20	comp:obj	_	_
+23	verladen	verladen	PROPN	VVINF	Tense=Past|VerbForm=Part	17	comp:aux	_	_
+24	)	)	PUNCT	$(	_	17	punct	_	_
+25	und	und	CCONJ	KON	_	27	cc	_	_
+26	ein	ein	DET	ART	Definite=Ind|PronType=Art	27	det	_	_
+27	Typ	Typ	NOUN	NN	_	5	conj	_	_
+28	mit	mit	ADP	APPR	_	27	mod	_	_
+29	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	30	det	_	_
+30	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	28	comp:obj	_	_
+
+# text = Dieser Typ hat der Ball fallen lassen ,
+1	Dieser	diese	PRON	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	Typ	Typ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Ball	Ball	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	comp:obj	_	_
+6	fallen	fallen	VERB	VVINF	VerbForm=Inf	7	comp:obj	_	_
+7	lassen	lassen	VERB	VVINF	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+8	,	,	PUNCT	$,	_	3	punct	_	_
+
+# text = der ist dann auf die Straße gerollt .
+1	der	d	PRON	PDS	Case=Nom|PronType=Dem	2	subj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dann	dann	ADV	ADV	_	2	mod	_	_
+4	auf	auf	ADP	APPR	_	7	comp:obl	_	_
+5	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	comp:obj	_	_
+7	gerollt	rollen	VERB	VVPP	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Der Hund ist dann auf die Straße gerannt
+1	Der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	auf	auf	ADP	APPR	_	8	comp:obl	_	_
+6	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	comp:obj	_	_
+8	gerannt	rennen	ADJ	VVPP	Tense=Past	3	comp:aux	_	_
+
+# text = und hat die Besitzerin mitgezogen .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Besitzerin	Besitzerin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	comp:obj	_	_
+5	mitgezogen	mitziehen	VERB	VVPP	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Obviously sind die Autos stehen geblieben ,
+1	Obviously	obviously	PROPN	ADV	Case=Nom|Number=Sing	2	mod	_	_
+2	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	die	d	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+4	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	2	subj	_	_
+5	stehen	stehen	VERB	VVINF	Number=Plur|Person=3|VerbForm=Fin	6	comp:obj	_	_
+6	geblieben	bleiben	VERB	VVPP	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+7	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = aber das hintere ist auf das vordere aufgefahren .
+1	aber	aber	ADV	KON	_	4	cc	_	_
+2	das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	hintere	hintere	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	4	subj	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	auf	auf	ADP	APPR	_	8	comp:obl	_	_
+6	das	d	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	vordere	vordere	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Plur	5	comp:obj	_	_
+8	aufgefahren	auffahren	NOUN	VVPP	Case=Acc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
+9	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Ich weiß nicht ob jemand verletzt wurde
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	weiß	wissen	NOUN	VVFIN	Tense=Pres	0	root	_	_
+3	nicht	nicht	PART	PTKNEG	_	2	mod	_	_
+4	ob	ob	CCONJ	KOUS	_	2	comp:obj	_	_
+5	jemand	jemand	PRON	PIS	Case=Nom|PronType=Ind	7	subj@pass	_	_
+6	verletzt	verletzen	VERB	VVPP	Tense=Past|VerbForm=Part	7	comp:aux@pass	_	_
+7	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	comp:obj	_	_
+
+# text = ( glaube nicht )
+1	(	(	PUNCT	$(	_	2	punct	_	_
+2	glaube	glauben	VERB	VVFIN	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nicht	nicht	PART	PTKNEG	_	2	mod	_	_
+4	)	)	PUNCT	$(	_	2	punct	_	_
+
+# text = aber habe mich voll erschrocken .
+1	aber	aber	CCONJ	KON	_	2	cc	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	comp:obj	_	_
+4	voll	voll	ADJ	PTKIFG	Degree=Pos	2	mod	_	_
+5	erschrocken	erschrecken	VERB	VVPP	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Ich dachte der Hund wird gleich überfahren
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	dachte	denken	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	subj@pass	_	_
+5	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	comp:obj	_	_
+6	gleich	gleich	ADV	ADV	_	5	mod	_	_
+7	überfahren	überfahren	VERB	VVFIN	VerbForm=Inf	5	comp:aux@pass	_	_
+

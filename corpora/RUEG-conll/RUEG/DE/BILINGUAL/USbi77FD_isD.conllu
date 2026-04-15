@@ -1,0 +1,161 @@
+# text = hallo USbi77FD_P
+1	hallo	hallo	X	NGIRR	_	2	discourse	_	_
+2	USbi77FD_P	USbi77FD_P	PROPN	NE	_	0	root	_	_
+
+# text = bitte hab kein Angst
+1	bitte	bitte	NOUN	NGIRR	_	2	discourse	_	_
+2	hab	haben	AUX	VAFIN	_	0	root	_	_
+3	kein	kein	PRON	PIAT	_	4	det	_	_
+4	Angst	Angst	NOUN	NN	_	2	comp:obj	_	_
+
+# text = alles ist okay
+1	alles	all	PRON	PIS	_	2	subj	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	okay	okay	ADJ	ADJD	_	2	comp:pred	_	_
+
+# text = niemand ist tot
+1	niemand	niemand	PRON	PIS	_	2	subj	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	tot	tot	ADJ	ADJD	_	2	comp:pred	_	_
+
+# text = das ist alles okay
+1	das	d	PRON	PDS	_	2	subj	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	alles	all	PRON	PIS	_	1	appos	_	_
+4	okay	okay	ADJ	ADJD	_	2	comp:pred	_	_
+
+# text = aber hörst das
+1	aber	aber	ADV	KON	_	2	cc	_	_
+2	hörst	hören	ADV	VVFIN	_	0	root	_	_
+3	das	d	PRON	PDS	_	2	comp:obj	_	_
+
+# text = ich habe eine Autounfall gesehen
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	eine	ein	DET	ART	_	4	det	_	_
+4	Autounfall	Autounfall	NOUN	NN	_	5	comp:obj	_	_
+5	gesehen	sehen	VERB	VVPP	_	2	comp:aux	_	_
+
+# text = und es war so es war nicht schwer
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	es	es	PRON	PPER	_	3	subj@expl	_	_
+3	war	sein	VERB	VAFIN	_	6	reparandum	_	_
+4	so	so	ADV	ADV	_	3	mod	_	_
+5	es	es	PRON	PPER	_	6	subj@expl	_	_
+6	war	sein	VERB	VAFIN	_	0	root	_	_
+7	nicht	nicht	PART	PTKNEG	_	8	mod	_	_
+8	schwer	schwer	ADJ	ADJD	_	6	comp:pred	_	_
+
+# text = aber ich hatte Angst okay
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	hatte	haben	VERB	VAFIN	_	0	root	_	_
+4	Angst	Angst	ADV	NN	_	3	comp:obj	_	_
+5	okay	okay	ADJ	NGIRR	_	3	discourse	_	_
+
+# text = okay ich habe gedacht dass Kind oder das das Hund oder etwas wird sterben oder etwas
+1	okay	okay	ADJ	NGIRR	_	3	discourse	_	_
+2	ich	ich	PRON	PPER	_	3	subj	_	_
+3	habe	haben	AUX	VAFIN	_	0	root	_	_
+4	gedacht	denken	VERB	VVPP	_	3	comp:aux	_	_
+5	dass	dass	SCONJ	KOUS	_	4	comp:obj	_	_
+6	dieses	diese	DET	PDAT	_	7	det	_	_
+7	Kind	Kind	NOUN	NN	_	14	subj	_	_
+8	oder	oder	CCONJ	KON	_	11	cc	_	_
+9	das	d	PRON	ART	_	10	reparandum	_	_
+10	das	d	DET	ART	_	11	det	_	_
+11	Hund	Hund	NOUN	NN	_	7	conj	_	_
+12	oder	oder	CCONJ	KON	_	13	cc	_	_
+13	etwas	etwas	PRON	PIS	_	7	conj	_	_
+14	wird	werden	AUX	VAFIN	_	5	comp:obj	_	_
+15	sterben	sterben	VERB	VVFIN	_	14	comp:aux	_	_
+16	oder	oder	CCONJ	KON	_	17	cc	_	_
+17	etwas	etwas	ADV	PIS	_	3	parataxis	_	_
+
+# text = weil die sind alle nicht die sind nicht dumm
+1	weil	weil	SCONJ	SEDM	_	7	discourse	_	_
+2	die	d	PRON	PDS	_	3	subj	_	_
+3	sind	sein	VERB	VAFIN	_	7	reparandum	_	_
+4	alle	all	PRON	PIS	_	2	appos	_	_
+5	nicht	nicht	PART	PTKNEG	_	3	mod	_	_
+6	die	d	PRON	PDS	_	7	subj	_	_
+7	sind	sein	VERB	VAFIN	_	0	root	_	_
+8	nicht	nicht	PART	PTKNEG	_	9	mod	_	_
+9	dumm	dumm	ADJ	ADJD	_	7	comp:pred	_	_
+
+# text = aber die hat etwas dumm gemacht
+1	aber	aber	CCONJ	KON	_	3	cc	_	_
+2	die	d	PRON	PDS	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	etwas	etwas	ADV	PIS	_	6	comp:obj	_	_
+5	dumm	dumm	ADJ	ADJD	_	3	mod	_	_
+6	gemacht	machen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = und da war erst das Auto
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	erst	erst	ADV	PTKMWL	_	3	mod	_	_
+5	das	d	DET	ART	_	6	det	_	_
+6	Auto	Auto	NOUN	NN	_	3	comp:pred	_	_
+
+# text = und es hat schnell gekommen
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	schnell	schnell	ADJ	ADJD	_	3	mod	_	_
+5	gekommen	kommen	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = aber es hat gehaltet
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	gehaltet	halten	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = aber das Auto äh äh dieses andere Auto hat nicht schnell gehaltet
+1	aber	aber	ADV	KON	_	9	cc	_	_
+2	das	d	DET	ART	_	3	det	_	_
+3	Auto	Auto	NOUN	NN	_	8	reparandum	_	_
+4	äh	äh	ADJ	NGHES	_	9	discourse	_	_
+5	äh	äh	ADJ	NGHES	_	9	discourse	_	_
+6	dies	diese	PRON	PDAT	_	8	det	_	_
+7	andere	ander	ADJ	PIDAT	_	8	mod	_	_
+8	Auto	Auto	NOUN	NN	_	9	subj	_	_
+9	hat	haben	AUX	VAFIN	_	0	root	_	_
+10	nicht	nicht	PART	PTKNEG	_	9	mod	_	_
+11	schnell	schnell	ADV	ADJD	_	9	mod	_	_
+12	gehaltet	halten	VERB	VVPP	_	9	comp:aux	_	_
+
+# text = und auch aber danke dass dieses Erste hat
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	auch	auch	ADV	PTKIFG	_	4	mod	_	_
+3	aber	aber	ADV	KON	_	1	fixed	_	_
+4	danke	danke	VERB	NGIRR	_	0	root	_	_
+5	dass	dass	SCONJ	KOUS	_	4	comp:obj	_	_
+6	dies	diese	PRON	PDAT	_	7	det	_	_
+7	Erste	erst	ADJ	ORD	_	8	subj	_	_
+8	hat	haben	VERB	VAFIN	_	5	comp:obj	_	_
+
+# text = alles ist okay
+1	alles	all	PRON	PIS	_	2	subj	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	okay	okay	ADJ	ADJD	_	2	comp:pred	_	_
+
+# text = aber ring mir auf bitte
+1	aber	aber	CCONJ	KON	_	2	cc	_	_
+2	ring	ring	PROPN	FM	_	0	root	_	_
+3	mir	ich	PRON	PPER	_	2	comp:obj	_	_
+4	auf	auf	ADP	PTKVZ	_	2	compound@prt	_	_
+5	bitte	bitte	NOUN	NGIRR	_	2	discourse	_	_
+
+# text = ich muss dir erzählen auf es
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	muss	müssen	AUX	VMFIN	_	0	root	_	_
+3	dir	du	PRON	PRF	_	4	comp:obj	_	_
+4	erzählen	erzählen	VERB	VVINF	_	2	comp:aux	_	_
+5	auf	auf	ADP	APPR	_	4	comp:obl	_	_
+6	es	es	PRON	PPER	_	5	comp:obj	_	_
+
+# text = tschüss
+1	tschüss	tschüss	PROPN	NGIRR	_	0	root	_	_
+

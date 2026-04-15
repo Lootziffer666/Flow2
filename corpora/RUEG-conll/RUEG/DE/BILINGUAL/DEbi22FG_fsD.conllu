@@ -1,0 +1,175 @@
+1	ja	ja	ADV	NGIRR	_	4	discourse	_	_
+2	schönen	schön	ADJ	ADJA	_	4	mod	_	_
+3	guten	gut	ADJ	ADJA	_	4	mod	_	_
+4	Tag	Tag	NOUN	NN	_	0	root	_	_
+
+1	mein	mein	PRON	PPOSAT	_	2	det	_	_
+2	Name	Name	NOUN	NN	_	3	subj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	DEbi22FG	DEbi22FG	PROPN	NE	_	3	comp:pred	_	_
+
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	würde	werden	AUX	VVFIN	_	0	root	_	_
+3	gerne	gerne	ADV	ADV	_	2	mod	_	_
+4	eine	ein	DET	ART	_	5	det	_	_
+5	Zeugenaussage	Zeugenaussage	NOUN	NN	_	6	comp:obj	_	_
+6	machen	machen	VERB	VVINF	_	2	comp:aux	_	_
+7	für	für	ADP	APPR	_	8	reparandum	_	_
+8	mit	mit	ADP	APPR	_	5	mod	_	_
+9	der	d	DET	ART	_	10	det	_	_
+10	Fallnummer	Fallnummer	NOUN	NN	_	8	comp:obj	_	_
+11	F16	F16	PROPN	NE	_	10	appos	_	_
+
+1	und	und	CCONJ	KON	_	4	discourse	_	_
+2	zwar	zwar	ADV	ADV	_	1	fixed	_	_
+3	ich	ich	PRON	PPER	_	4	subj	_	_
+4	saß	sitzen	VERB	VVFIN	_	0	root	_	_
+5	auf	auf	ADP	APPR	_	4	comp:obl	_	_
+6	der	d	DET	ART	_	7	det	_	_
+7	Bank	Bank	NOUN	NN	_	5	comp:obj	_	_
+8	auf	auf	ADP	APPR	_	4	mod	_	_
+9	einem	ein	DET	ART	_	12	det	_	_
+10	öffentlichen	öffentlich	ADJ	ADJA	_	12	mod	_	_
+11	äh	äh	NOUN	NGHES	_	4	discourse	_	_
+12	Parkplatz	Parkplatz	PROPN	NN	_	8	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	zu	zu	ADP	APPR	_	14	mod	_	_
+3	diesem	diese	PRON	PDAT	_	4	det	_	_
+4	Zeitpunkt	Zeitpunkt	NOUN	NN	_	2	comp:obj	_	_
+5	kam	kommen	VERB	VVFIN	_	0	root	_	_
+6	ein	ein	DET	ART	_	7	det	_	_
+7	Auto	Auto	NOUN	NN	_	5	subj	_	_
+8	beziehungsweise	beziehungsweise	ADV	KON	_	10	cc	_	_
+9	zwei	zwei	NUM	CARD	_	10	mod	_	_
+10	Autos	Auto	NOUN	NN	_	7	conj	_	_
+11	auf	auf	ADP	APPR	_	14	comp:obl	_	_
+12	diesen	diese	PRON	PDAT	_	13	det	_	_
+13	Parkplatz	Parkplatz	NOUN	NN	_	11	comp:obj	_	_
+14	gefahren	fahren	VERB	VVPP	_	5	comp:obl	_	_
+
+1	äh	äh	ADJ	NGHES	_	6	discourse	_	_
+2	zum	zum	NOUN	APPRART	_	6	mod	_	_
+3	selben	selb	ADJ	ADJA	_	4	mod	_	_
+4	Zeitpunkt	Zeitpunkt	NOUN	NN	_	2	comp:obj	_	_
+5	äh	äh	ADV	NGHES	_	6	discourse	_	_
+6	kam	kommen	VERB	VVFIN	_	0	root	_	_
+7	ein	ein	DET	ART	_	9	det	_	_
+8	junges	jung	ADJ	ADJA	_	9	mod	_	_
+9	Pärchen	Pärchen	NOUN	NN	_	6	subj	_	_
+10	mit	mit	ADP	APPR	_	9	mod	_	_
+11	dem	d	DET	ART	_	13	det	_	_
+12	äh	äh	NOUN	NGHES	_	6	discourse	_	_
+13	Kinderwagen	Kinderwagen	NOUN	NN	_	10	comp:obj	_	_
+14	äh	äh	ADV	NGHES	_	6	discourse	_	_
+15	in	in	ADP	APPR	_	6	comp:obl	_	_
+16	meine	mein	DET	PPOSAT	_	17	det	_	_
+17	Richtung	Richtung	NOUN	NN	_	15	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	der	d	DET	ART	_	4	det	_	_
+3	junge	jung	ADJ	ADJA	_	4	mod	_	_
+4	Mann	Mann	NOUN	NN	_	6	dislocated	_	_
+5	der	d	DET	PDS	_	6	subj	_	_
+6	hat	haben	AUX	VAFIN	_	0	root	_	_
+7	mit	mit	ADP	APPR	_	10	mod	_	_
+8	einem	ein	DET	ART	_	9	det	_	_
+9	Ball	Ball	NOUN	NN	_	7	comp:obj	_	_
+10	gespielt	spielen	VERB	VVPP	_	6	comp:aux	_	_
+
+1	dieser	diese	PRON	PDAT	_	2	det	_	_
+2	Ball	Ball	NOUN	NN	_	3	subj	_	_
+3	fiel	fallen	VERB	VVFIN	_	0	root	_	_
+4	ihm	er	PRON	PPER	_	3	comp:obj	_	_
+5	leider	leider	ADV	ADV	_	3	mod	_	_
+6	aus	aus	ADP	APPR	_	3	comp:obl	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Hand	Hand	NOUN	NN	_	6	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	in	in	ADP	APPR	_	8	comp:obl	_	_
+5	Richtung	Richtung	NOUN	NN	_	4	comp:obj	_	_
+6	des	d	DET	ART	_	7	det	_	_
+7	Autos	Auto	NOUN	NN	_	5	mod@poss	_	_
+8	gefallen	fallen	VERB	VVPP	_	3	comp:aux	_	_
+
+1	ja	ja	ADV	NGIRR	_	5	discourse	_	_
+2	und	und	CCONJ	KON	_	5	cc	_	_
+3	äh	äh	ADV	NGHES	_	5	discourse	_	_
+4	währenddessen	währenddessen	ADV	ADV	_	5	mod	_	_
+5	war	sein	VERB	VAFIN	_	0	root	_	_
+6	noch	noch	ADV	PTKMWL	_	5	mod	_	_
+7	eine	ein	DET	ART	_	9	det	_	_
+8	junge	jung	ADJ	ADJA	_	9	mod	_	_
+9	Frau	Frau	NOUN	NN	_	5	subj	_	_
+10	mit	mit	ADP	APPR	_	9	mod	_	_
+11	einem	ein	DET	ART	_	12	det	_	_
+12	Hund	Hund	NOUN	NN	_	10	comp:obj	_	_
+13	dort	dort	ADV	ADV	_	5	comp:pred	_	_
+14	die	die	PRON	PRELS	_	17	subj	_	_
+15	ihr	ihr	DET	PPOSAT	_	16	det	_	_
+16	Auto	Auto	NOUN	NN	_	17	comp:obj	_	_
+17	ausräumte	ausräumen	ADJ	VVFIN	_	9	mod@relcl	_	_
+18	mit	mit	ADP	APPR	_	17	mod	_	_
+19	ihren	ihr	DET	PPOSAT	_	20	det	_	_
+20	Einkäufen	Einkauf	NOUN	NN	_	18	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	4	subj	_	_
+4	war	sein	VERB	VAFIN	_	0	root	_	_
+5	total	total	ADV	PTKIFG	_	6	mod	_	_
+6	unruhig	unruhig	ADJ	ADJD	_	4	comp:pred	_	_
+
+1	hat	haben	AUX	VAFIN	_	0	root	_	_
+2	gebellt	bellen	VERB	VVPP	_	1	comp:aux	_	_
+
+1	also	also	ADV	SEDM	_	4	discourse	_	_
+2	und	und	CCONJ	KON	_	4	cc	_	_
+3	währenddessen	währenddessen	ADV	ADV	_	4	mod	_	_
+4	kam	kommen	VERB	VVFIN	_	0	root	_	_
+5	es	es	PRON	PPER	_	4	subj@expl	_	_
+6	zu	zu	ADP	APPR	_	4	comp:obl	_	_
+7	einem	ein	DET	ART	_	8	det	_	_
+8	Unfall	Unfall	NOUN	NN	_	6	comp:obj	_	_
+
+1	denn	denn	ADV	KOUS	_	10	cc	_	_
+2	das	d	DET	ART	_	3	det	_	_
+3	Auto	Auto	NOUN	NN	_	10	reparandum	_	_
+4	was	was	PRON	PRELS	_	6	subj	_	_
+5	reingefahren	reinfahren	NOUN	VVPP	_	6	comp:obl	_	_
+6	kam	kommen	VERB	VVFIN	_	3	mod@relcl	_	_
+7	also	also	ADV	ADV	_	10	discourse	_	_
+8	hinter	hinter	ADP	APPR	_	13	comp:obl	_	_
+9	ihm	er	PRON	PPER	_	8	comp:obj	_	_
+10	ist	sein	VERB	VAFIN	_	0	root	_	_
+11	noch	noch	ADV	PTKMWL	_	10	mod	_	_
+12	jemand	jemand	PRON	PIS	_	10	subj	_	_
+13	reingefahren	reinfahren	VERB	VVPP	_	10	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	auf	auf	ADP	APPR	_	6	comp:obl	_	_
+4	ihn	er	PRON	PPER	_	3	comp:obj	_	_
+5	dann	dann	ADV	ADV	_	2	mod	_	_
+6	raufgefahren	rauffahren	VERB	VVPP	_	2	comp:aux	_	_
+7	nach	nach	ADP	APPR	_	6	mod	_	_
+8	der	d	DET	ART	_	9	det	_	_
+9	Vollbremse	Vollbremse	NOUN	NN	_	7	comp:obj	_	_
+
+1	ja	ja	ADV	NGIRR	_	4	discourse	_	_
+2	bei	bei	ADP	APPR	_	10	mod	_	_
+3	Rückfragen	Rückfragen	NOUN	NN	_	2	comp:obj	_	_
+4	können	können	AUX	VVFIN	_	0	root	_	_
+5	Sie	Sie	PRON	PPER	_	4	subj	_	_
+6	sich	er|es|sie	PRON	PRF	_	10	comp:obj	_	_
+7	gerne	gerne	ADV	ADV	_	4	mod	_	_
+8	bei	bei	ADP	APPR	_	10	mod	_	_
+9	mir	ich	PRON	PPER	_	8	comp:obj	_	_
+10	melden	melden	VERB	VVFIN	_	4	comp:aux	_	_
+
+1	vielen	viel	ADJ	PIAT	_	2	mod	_	_
+2	Dank	Dank	NOUN	NN	_	0	root	_	_
+

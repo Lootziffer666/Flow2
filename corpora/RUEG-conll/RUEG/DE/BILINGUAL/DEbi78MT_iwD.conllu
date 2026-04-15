@@ -1,0 +1,90 @@
+# text = Oi
+1	Oi	oi	PROPN	_	_	0	root	_	_
+
+# text = ich habe gestern eine Frau mit ihrem Sohn gesehen ,
+1	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	habe	haben	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	gestern	gestern	ADV	_	_	2	mod	_	_
+4	eine	ein	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Frau	Frau	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	9	comp:obj	_	_
+6	mit	mit	ADP	_	_	5	mod	_	_
+7	ihrem	ihr	DET	_	Person=3|Poss=Yes|PronType=Prs	8	det	_	_
+8	Sohn	Sohn	NOUN	_	Case=Dat|Number=Sing	6	comp:obj	_	_
+9	gesehen	sehen	VERB	_	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+10	,	,	PUNCT	_	_	2	punct	_	_
+
+# text = er hatte einen Ball in der Hand den er dann fallen lassen hat
+1	er	er	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+2	hatte	haben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	einen	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Ball	Ball	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	2	comp:obj	_	_
+5	in	in	ADP	_	_	2	mod	_	_
+6	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Hand	Hand	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	5	comp:obj	_	_
+8	den	d	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	comp:obj	_	_
+9	er	er	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj	_	_
+10	dann	dann	ADV	_	_	13	mod	_	_
+11	fallen	fallen	VERB	_	Tense=Pres|VerbForm=Inf	12	comp:obj	_	_
+12	lassen	lassen	VERB	_	Tense=Pres|VerbForm=Inf	13	comp:aux	_	_
+13	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
+
+# text = und daraufhin hatte der Hund von einer anderen Frau den Ball verfolgt ,
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	daraufhin	daraufhin	ADV	_	_	3	mod	_	_
+3	hatte	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Hund	Hund	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+6	von	von	ADP	_	_	5	mod@poss	_	_
+7	einer	ein	DET	_	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	anderen	ander	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	9	mod	_	_
+9	Frau	Frau	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	6	comp:obj	_	_
+10	den	d	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Ball	Ball	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	12	comp:obj	_	_
+12	verfolgt	verfolgen	VERB	_	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+13	,	,	PUNCT	_	_	3	punct	_	_
+14	wodurch	wodurch	ADV	_	_	12	mod	_	_
+15	ein	ein	DET	_	Definite=Ind|PronType=Art	16	det	_	_
+16	Autofahrer	Autofahrer	NOUN	_	_	18	subj	_	_
+17	anhalten	anhalten	VERB	_	Tense=Pres|VerbForm=Inf	18	comp:aux	_	_
+18	musste	müssen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	comp:obj	_	_
+19	und	und	CCONJ	_	_	25	cc	_	_
+20	ein	ein	DET	_	Definite=Ind|PronType=Art	21	det	_	_
+21	anderer	ander	PRON	_	PronType=Ind	25	subj	_	_
+22	in	in	ADP	_	_	24	comp:obl	_	_
+23	ihn	er	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	comp:obj	_	_
+24	reingefahren	reinfahren	NOUN	_	Tense=Past	25	comp:aux	_	_
+25	ist	sein	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+26	.	.	PUNCT	_	_	3	punct	_	_
+
+# text = Ich denke die wollten dann die Polizei rufen ,
+1	Ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	denke	denken	VERB	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	die	d	DET	_	Case=Acc|Definite=Def|Number=Plur|PronType=Art	4	subj	_	_
+4	wollten	wollen	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	comp:obj	_	_
+5	dann	dann	ADV	_	_	4	mod	_	_
+6	die	d	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Polizei	Polizei	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	8	comp:obj	_	_
+8	rufen	rufen	VERB	_	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	comp:aux	_	_
+9	,	,	PUNCT	_	_	2	punct	_	_
+
+# text = aber der Junge hatte mit denen geredet .
+1	aber	aber	ADV	_	_	4	cc	_	_
+2	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Junge	Junge	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+4	hatte	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	mit	mit	ADP	_	_	7	comp:obl	_	_
+6	denen	d	PRON	_	Case=Dat|PronType=Dem	5	comp:obj	_	_
+7	geredet	reden	VERB	_	Tense=Past|VerbForm=Part	4	comp:aux	_	_
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = I do not know was dann passiert ist .
+1	I	I	PROPN	_	Case=Nom|Number=Sing	2	subj	_	_
+2	do	do	PROPN	_	_	0	root	_	_
+3	not	not	PROPN	_	_	2	mod	_	_
+4	know	know	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	2	comp:aux	_	_
+5	was	was	PRON	_	Case=Acc|PronType=Ind	8	subj	_	_
+6	dann	dann	ADV	_	_	8	mod	_	_
+7	passiert	passieren	VERB	_	Tense=Past|VerbForm=Part	8	comp:aux	_	_
+8	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
+9	.	.	PUNCT	_	_	2	punct	_	_
+

@@ -1,0 +1,106 @@
+# text = Dicker , ich wollte zu dir fahren
+1	Dicker	Dicker	NOUN	NN	_	4	vocative	_	_
+2	,	,	PUNCT	$,	_	4	punct	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	_
+4	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	zu	zu	ADP	APPR	_	7	comp:obl	_	_
+6	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|PronType=Prs	5	comp:obj	_	_
+7	fahren	fahren	VERB	VVINF	Number=Plur|Person=1|VerbForm=Inf	4	comp:aux	_	_
+
+# text = und dann passierte auf einmal ein Unfall .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	passierte	passieren	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	auf	auf	ADP	APPR	_	3	mod	_	_
+5	einmal	einmal	ADV	ADV	_	4	fixed	_	_
+6	ein	ein	NUM	ART	NumType=Card	7	det	_	_
+7	Unfall	Unfall	NOUN	NN	Case=Acc|Number=Sing	3	subj	_	_
+8	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Eine dreiköpfige Familie mit Kinderwagen wollte die Straße überqueren
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	dreiköpfige	dreiköpfig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	mod	_	_
+3	Familie	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	subj	_	_
+4	mit	mit	ADP	APPR	_	3	mod	_	_
+5	Kinderwagen	Kinderwagen	NOUN	NN	Case=Dat|Number=Plur	4	comp:obj	_	_
+6	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Straße	Straße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	comp:obj	_	_
+9	überqueren	überqueren	VERB	VVINF	Number=Plur|Person=3|VerbForm=Fin	6	comp:aux	_	_
+
+# text = und der Mann ließ den Ball den er in der Hand hatte einfach fallen Richtung Straße .
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+4	ließ	lassen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Ball	Ball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	comp:obj	_	_
+7	den	d	DET	PRELS	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	comp:obj	_	_
+8	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	subj	_	_
+9	in	in	ADP	APPR	_	12	mod	_	_
+10	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Hand	Hand	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	comp:obj	_	_
+12	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	mod@relcl	_	_
+13	einfach	einfach	ADJ	PTKMA	Degree=Pos	4	mod	_	_
+14	fallen	fallen	ADJ	VVINF	Degree=Pos	4	comp:obj	_	_
+15	Richtung	Richtung	NOUN	NN	_	14	comp:obl	_	_
+16	Straße	Straße	PROPN	NE	_	15	mod@poss	_	_
+17	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Eine Frau die gegenüber geparkt hatte wollte ihren Einkauf ins Auto legen
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	subj	_	_
+3	die	d	DET	PRELS	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	subj	_	_
+4	gegenüber	gegenüber	ADP	ADV	_	6	mod	_	_
+5	geparkt	parken	PROPN	VVPP	Case=Nom|Gender=Masc|Number=Sing	6	comp:aux	_	_
+6	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	mod@relcl	_	_
+7	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	Einkauf	Einkauf	NOUN	NN	Case=Nom|Number=Sing	12	comp:obj	_	_
+10	ins	in	PROPN	APPRART	_	12	comp:obl	_	_
+11	Auto	Auto	PROPN	NN	_	10	comp:obj	_	_
+12	legen	legen	VERB	VVINF	Number=Plur|Person=3|VerbForm=Fin	7	comp:aux	_	_
+
+# text = sie hatte ein Hund dabei der dann auf die Straße hin zu rannte Richtung Ball hahaha .
+1	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
+2	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Hund	Hund	NOUN	NN	Case=Acc|Number=Sing	2	comp:obj	_	_
+5	dabei	dabei	ADV	ADV	_	2	mod	_	_
+6	der	d	DET	PRELS	Definite=Def|PronType=Art	11	subj	_	_
+7	dann	dann	ADV	ADV	_	11	mod	_	_
+8	auf	auf	ADP	APPR	_	11	comp:obl	_	_
+9	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	comp:obj	_	_
+11	hinzurannte	hinzurennen	VERB	VVFIN	Degree=Pos|Tense=Past|VerbForm=Fin	4	mod@relcl	_	_
+12	Richtung	Richtung	NOUN	NN	_	11	mod	_	_
+13	Ball	Ball	PROPN	NN	_	12	mod@poss	_	_
+14	hahaha	hahaha	PROPN	NGIRR	Case=Dat|Gender=Fem|Number=Sing	2	discourse	_	_
+15	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Dann kamen zwei Autos vorbei
+1	Dann	dann	ADV	ADV	_	2	mod	_	_
+2	kamen	kommen	VERB	VVFIN	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	zwei	zwei	NUM	CARD	NumType=Card	4	mod	_	_
+4	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	2	subj	_	_
+5	vorbei	vorbei	ADV	PTKVZ	_	2	compound@prt	_	_
+
+# text = und crashten zusammen weil der Vordere wegen dem Hund anhielt .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	crashten	crashen	VERB	VVFIN	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	zusammen	zusammen	ADV	PTKVZ	_	2	compound@prt	_	_
+4	weil	weil	SCONJ	KOUS	_	2	mod	_	_
+5	der	d	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+6	Vordere	Vorder	ADJ	NN	Case=Nom|Degree=Pos|Number=Plur	10	subj	_	_
+7	wegen	wegen	ADP	APPR	_	10	mod	_	_
+8	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Hund	Hund	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	comp:obj	_	_
+10	anhielt	anhalten	VERB	VVFIN	Person=3|Tense=Past|VerbForm=Fin	4	comp:obj	_	_
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = war schon lustig .
+1	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	schon	schon	ADV	PTKMA	_	1	mod	_	_
+3	lustig	lustig	ADJ	ADJD	Degree=Pos	1	comp:pred	_	_
+4	.	.	PUNCT	$.	_	1	punct	_	_
+

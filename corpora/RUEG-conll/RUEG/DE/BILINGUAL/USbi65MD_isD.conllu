@@ -1,0 +1,115 @@
+# text = äh hey USbi65MD_P
+1	äh	äh	ADJ	_	Degree=Pos	3	discourse	_	_
+2	hey	Hey	PROPN	_	_	3	discourse	_	_
+3	USbi65MD_P	USbi65MD_P	PROPN	_	_	0	root	_	_
+
+# text = also du wirst mir du wirst mir =s nicht uff glauben
+1	also	also	ADV	_	_	6	discourse	_	_
+2	du	du	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	subj	_	_
+3	wirst	werden	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	reparandum	_	_
+4	mir	ich	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	comp:obj	_	_
+5	du	du	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	subj	_	_
+6	wirst	werden	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	mir	ich	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	11	comp:obl	_	_
+8	es	es	PRON	_	_	11	comp:obj@expl	_	_
+9	nicht	nicht	PART	_	_	6	mod	_	_
+10	uff	uff	PROPN	_	Case=Nom|Number=Sing	6	discourse	_	_
+11	glauben	glauben	VERB	_	Number=Plur|Person=3|VerbForm=Fin	6	comp:aux	_	_
+
+# text = aber äh ich hab grade eben Autounfall gesehen
+1	aber	aber	ADV	_	_	4	cc	_	_
+2	äh	äh	ADJ	_	Degree=Pos	4	discourse	_	_
+3	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	_
+4	hab	haben	AUX	_	_	0	root	_	_
+5	gerade	gerade	ADV	_	_	4	mod	_	_
+6	eben	eben	ADV	_	_	4	mod	_	_
+7	Autounfall	Autounfall	NOUN	_	Case=Acc|Number=Sing	8	comp:obj	_	_
+8	gesehen	sehen	VERB	_	VerbForm=Part	4	comp:aux	_	_
+
+# text = äh also es gab diese zwei Leute die an der Straße rumgelaufen sind und eine Frau äh bei einem geparkten Auto mit einem Hund
+1	äh	äh	ADJ	_	Degree=Pos	4	discourse	_	_
+2	also	also	ADV	_	_	4	discourse	_	_
+3	es	es	PRON	_	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	_
+4	gab	geben	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	diese	diese	PRON	_	Case=Nom|PronType=Dem	7	det	_	_
+6	zwei	zwei	NUM	_	NumType=Card	7	mod	_	_
+7	Leute	Leute	NOUN	_	Case=Nom|Number=Sing	4	comp:obj	_	_
+8	die	d	DET	_	Case=Acc|Definite=Def|Number=Plur|PronType=Art	13	subj	_	_
+9	an	an	ADP	_	_	12	comp:obl	_	_
+10	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Straße	Straße	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	9	comp:obj	_	_
+12	rumgelaufen	rumlaufen	VERB	_	Number=Plur|Person=3|VerbForm=Fin	13	comp:aux	_	_
+13	sind	sein	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	_
+14	und	und	CCONJ	_	_	16	cc	_	_
+15	eine	ein	DET	_	Definite=Ind|PronType=Art	16	det	_	_
+16	Frau	Frau	NOUN	_	_	7	conj	_	_
+17	äh	äh	ADV	_	_	4	discourse	_	_
+18	bei	bei	ADP	_	_	16	mod	_	_
+19	einem	ein	DET	_	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	21	det	_	_
+20	geparkten	parken	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	21	mod	_	_
+21	Auto	Auto	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	18	comp:obj	_	_
+22	mit	mit	ADP	_	_	16	mod	_	_
+23	einem	ein	DET	_	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	24	det	_	_
+24	Hund	Hund	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	22	comp:obj	_	_
+
+# text = und äh das gab äh dieser Kerl
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	äh	äh	ADJ	_	Degree=Pos	4	discourse	_	_
+3	das	d	PRON	_	Case=Nom|PronType=Dem	4	subj@expl	_	_
+4	gab	geben	VERB	_	Person=3|VerbForm=Fin	0	root	_	_
+
+# text = der hat so ein Ball auf die Straße fallen lassen
+1	äh	äh	ADV	_	_	5	discourse	_	_
+2	dieser	diese	PRON	_	PronType=Dem	3	det	_	_
+3	Kerl	Kerl	NOUN	_	_	5	dislocated	_	_
+4	der	d	PRON	_	Case=Nom|PronType=Dem	5	subj	_	_
+5	hat	haben	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	so	so	ADV	_	_	8	mod	_	_
+7	ein	ein	DET	_	Definite=Ind|PronType=Art	8	det	_	_
+8	Ball	Ball	NOUN	_	_	12	comp:obj	_	_
+9	auf	auf	ADP	_	_	12	comp:obl	_	_
+10	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	9	comp:obj	_	_
+12	fallen	fallen	VERB	_	VerbForm=Inf	13	comp:obj	_	_
+13	lassen	lassen	VERB	_	VerbForm=Inf	5	comp:aux	_	_
+
+# text = und der Hund ist hinterhergerannt
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Hund	Hund	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	subj	_	_
+4	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	hinterhergerannt	hinterherrennen	ADV	_	_	4	comp:aux	_	_
+
+# text = und es gab dieses eine Auto das eingebogen ist und gestoppt ist
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	es	es	PRON	_	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+3	gab	geben	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	dieses	diese	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	_
+5	eine	ein	DET	_	Case=Acc|Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+6	Auto	Auto	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	3	comp:obj	_	_
+7	das	d	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	subj	_	_
+8	eingebogen	einbiegen	ADJ	_	Degree=Pos	9	comp:aux	_	_
+9	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	_
+10	und	und	CCONJ	_	_	12	cc	_	_
+11	gestoppt	stoppen	ADJ	_	Degree=Pos	12	comp:aux	_	_
+12	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+
+# text = und dieses andere Auto ist hinten reingefahren
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	dieses	diese	PRON	_	PronType=Dem	4	det	_	_
+3	andere	ander	ADJ	_	Degree=Pos	4	mod	_	_
+4	Auto	Auto	NOUN	_	_	5	subj	_	_
+5	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	hinten	hinten	ADV	_	_	5	mod	_	_
+7	reingefahren	reinfahren	VERB	_	VerbForm=Inf	5	comp:aux	_	_
+
+# text = und äh die rufen jetzt die Polizei an
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	äh	äh	ADJ	_	Degree=Pos	4	discourse	_	_
+3	die	d	PRON	_	Case=Nom|PronType=Dem	4	subj	_	_
+4	rufen	rufen	VERB	_	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+5	jetzt	jetzt	ADV	_	_	4	mod	_	_
+6	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Polizei	Polizei	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	4	comp:obj	_	_
+8	an	an	ADP	_	_	4	compound@prt	_	_
+

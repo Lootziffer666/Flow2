@@ -1,0 +1,67 @@
+# text = hey Kristoph ,
+1	hey	Hey	PROPN	NGIRR	_	2	discourse	_	_
+2	Kristoph	Kristoph	PROPN	NE	_	0	root	_	_
+3	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = wie geht es ,
+1	wie	wie	ADV	PWAV	_	2	mod	_	_
+2	geht	gehen	VERB	VVFIN	_	0	root	_	_
+3	es	es	PRON	PPER	_	2	subj	_	_
+4	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = ich habe gerade einen Autounfall gesehen .
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	habe	haben	AUX	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Autounfall	Autounfall	NOUN	NN	_	6	comp:obj	_	_
+6	gesehen	sehen	VERB	VVPP	_	2	comp:aux	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = da ist ein Hund in den Parkplatz gerannt
+1	da	da	ADV	ADV	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Hund	Hund	NOUN	NN	_	2	subj	_	_
+5	in	in	ADP	APPR	_	8	comp:obl	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Parkplatz	Parkplatz	NOUN	NN	_	5	comp:obj	_	_
+8	gerannt	rennen	ADJ	VVPP	_	2	comp:aux	_	_
+
+# text = und hat einen kleinen Unfall verursacht weil er auch laut gebellt hat .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	einen	ein	DET	ART	_	5	det	_	_
+4	kleinen	klein	ADJ	ADJA	_	5	mod	_	_
+5	Unfall	Unfall	NOUN	NN	_	6	comp:obj	_	_
+6	verursacht	verursachen	VERB	VVPP	_	2	comp:aux	_	_
+7	weil	weil	SCONJ	KOUS	_	6	mod	_	_
+8	er	er	PRON	PPER	_	12	subj	_	_
+9	auch	auch	ADV	PTKIFG	_	12	mod	_	_
+10	laut	laut	ADJ	ADJD	_	12	mod	_	_
+11	gebellt	bellen	VERB	VVPP	_	12	comp:aux	_	_
+12	hat	haben	AUX	VAFIN	_	7	comp:obj	_	_
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = es hat mich so richtig erschrocken lol .
+1	es	es	PRON	PPER	_	2	subj@expl	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	mich	ich	PRON	PPER	_	6	comp:obj	_	_
+4	so	so	ADV	PTKIFG	_	5	mod	_	_
+5	richtig	richtig	ADV	ADV	_	2	mod	_	_
+6	erschrocken	erschrecken	VERB	VVPP	_	2	comp:aux	_	_
+7	lol	lol	PROPN	NGAKW	_	2	discourse	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Pass doch bitte beim Autofahren gut auf ! ‎
+1	Pass	passen	NOUN	VVIMP	_	6	mod	_	_
+2	doch	doch	ADV	PTKMA	_	1	discourse	_	_
+3	bitte	bitte	PROPN	NGIRR	_	1	discourse	_	_
+4	beim	bei	ADV	APPRART	_	1	mod	_	_
+5	Autofahren	Autofahren	NOUN	NN	_	4	comp:obj	_	_
+6	gut	gut	VERB	ADJD	_	0	root	_	_
+7	auf	auf	ADP	PTKVZ	_	1	compound@prt	_	_
+8	!	!	PUNCT	$.	_	1	punct	_	_
+
+1	‎	_	NOUN	_	_	0	root	_	_
+

@@ -1,0 +1,387 @@
+# text = Auf dem zur Schule sah ich ein junges Paar mit einem Kinderwagen auf der rechten Straßenseite laufen .
+1	Auf	auf	ADP	APPR	_	17	mod	_	_
+2	dem	d	DET	ART	_	1	comp:obj	_	_
+3	zur	zu	PROPN	APPRART	_	2	mod	_	_
+4	Schule	Schule	PROPN	NN	_	3	comp:obj	_	_
+5	sah	sehen	VERB	VVFIN	_	0	root	_	_
+6	ich	ich	PRON	PPER	_	5	subj	_	_
+7	ein	ein	DET	ART	_	9	det	_	_
+8	junges	junge	ADJ	ADJA	_	9	mod	_	_
+9	Paar	Paar	NOUN	NN	_	17	comp:obj	_	_
+10	mit	mit	ADP	APPR	_	9	mod	_	_
+11	einem	ein	DET	ART	_	12	det	_	_
+12	Kinderwagen	Kinderwagen	NOUN	NN	_	10	comp:obj	_	_
+13	auf	auf	ADP	APPR	_	17	comp:obl	_	_
+14	der	d	DET	ART	_	16	det	_	_
+15	rechten	recht	ADJ	ADJA	_	16	mod	_	_
+16	Straßenseite	Straßenseite	NOUN	NN	_	13	comp:obj	_	_
+17	laufen	laufen	VERB	VVINF	_	5	comp:aux	_	_
+18	.	.	PUNCT	$.	_	5	punct	_	_
+
+# text = Während die Frau den Kinderwagen geschoben hat , spielte der Mann zu ihrer Linken mit einem Fußball .
+1	Während	Während	SCONJ	KOUS	_	9	mod	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Frau	Frau	NOUN	NN	_	7	subj	_	_
+4	den	d	DET	ART	_	5	det	_	_
+5	Kinderwagen	Kinderwagen	NOUN	NN	_	6	comp:obj	_	_
+6	geschoben	schieben	VERB	VVPP	_	7	comp:aux	_	_
+7	hat	haben	AUX	VAFIN	_	1	comp:obj	_	_
+8	,	,	PUNCT	$,	_	1	punct	_	_
+9	spielte	spielen	VERB	VVFIN	_	0	root	_	_
+10	der	d	DET	ART	_	11	det	_	_
+11	Mann	Mann	NOUN	NN	_	9	subj	_	_
+12	zu	zu	ADP	APPR	_	11	mod	_	_
+13	ihrer	ihr	DET	PPOSAT	_	14	det	_	_
+14	Linken	Linke	NOUN	NN	_	12	comp:obj	_	_
+15	mit	mit	ADP	APPR	_	9	mod	_	_
+16	einem	ein	DET	ART	_	17	det	_	_
+17	Fußball	Fußball	NOUN	NN	_	15	comp:obj	_	_
+18	.	.	PUNCT	$.	_	9	punct	_	_
+
+# text = Das Paar wollte die Straße überqueren , wobei der Mann mit dem Ball , ein Stückchen vor der Frau mit dem Kinderwagen lief .
+1	Das	d	DET	ART	_	2	det	_	_
+2	Paar	Paar	NOUN	NN	_	3	subj	_	_
+3	wollte	wollen	AUX	VMFIN	_	0	root	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Straße	Straße	NOUN	NN	_	6	comp:obj	_	_
+6	überqueren	überqueren	VERB	VVINF	_	3	comp:aux	_	_
+7	,	,	PUNCT	$,	_	3	punct	_	_
+8	wobei	wobei	SCONJ	PWAV	_	23	mod	_	_
+9	der	d	DET	ART	_	10	det	_	_
+10	Mann	Mann	NOUN	NN	_	23	subj	_	_
+11	mit	mit	ADP	APPR	_	10	mod	_	_
+12	dem	d	DET	ART	_	13	det	_	_
+13	Ball	Ball	NOUN	NN	_	11	comp:obj	_	_
+14	,	,	PUNCT	$,	_	23	punct	_	_
+15	ein	ein	DET	ART	_	16	det	_	_
+16	Stückchen	Stückchen	NOUN	NN	_	17	mod	_	_
+17	vor	vor	ADP	APPR	_	23	comp:obl	_	_
+18	der	d	DET	ART	_	19	det	_	_
+19	Frau	Frau	NOUN	NN	_	17	comp:obj	_	_
+20	mit	mit	ADP	APPR	_	19	mod	_	_
+21	dem	d	DET	ART	_	22	det	_	_
+22	Kinderwagen	Kinderwagen	NOUN	NN	_	20	comp:obj	_	_
+23	lief	laufen	VERB	VVFIN	_	6	mod	_	_
+24	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Nebenbei räumte eine Frau mittleren Alters ihr Auto aus
+1	Nebenbei	nebenbei	ADV	ADV	_	2	mod	_	_
+2	räumte	räumen	VERB	VVFIN	_	0	root	_	_
+3	eine	ein	DET	ART	_	4	det	_	_
+4	Frau	Frau	NOUN	NN	_	2	subj	_	_
+5	mittleren	mittel	ADJ	ADJA	_	6	mod	_	_
+6	Alters	Alter	NOUN	NN	_	4	mod@poss	_	_
+7	ihr	ihr	DET	PPOSAT	_	8	det	_	_
+8	Auto	Auto	NOUN	NN	_	2	comp:obj	_	_
+9	aus	aus	ADP	PTKVZ	_	2	compound@prt	_	_
+
+# text = und hielt dabei ihren kleinen Hund an der Leine ( nicht sehr stark ) .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hielt	halten	VERB	VVFIN	_	0	root	_	_
+3	dabei	dabei	ADV	ADV	_	2	mod	_	_
+4	ihren	ihr	DET	PPOSAT	_	6	det	_	_
+5	kleinen	kleine	ADJ	ADJA	_	6	mod	_	_
+6	Hund	Hund	NOUN	NN	_	2	comp:obj	_	_
+7	an	an	ADP	APPR	_	2	comp:obl	_	_
+8	der	d	DET	ART	_	9	det	_	_
+9	Leine	Leine	PROPN	NN	_	7	comp:obj	_	_
+10	(	(	PUNCT	$(	_	13	punct	_	_
+11	nicht	nicht	PART	PTKNEG	_	13	mod	_	_
+12	sehr	sehr	ADV	PTKIFG	_	13	mod	_	_
+13	stark	stark	ADJ	ADJD	_	2	mod	_	_
+14	)	)	PUNCT	$(	_	13	punct	_	_
+15	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Kurz bevor das Paar die Straße überqueren wollte , fuhren zwei Autos in die Seitenstraße
+1	Kurz	kurz	ADJ	ADJD	_	2	mod	_	_
+2	bevor	bevor	SCONJ	KOUS	_	10	mod	_	_
+3	das	d	DET	ART	_	4	det	_	_
+4	Paar	Paar	NOUN	NN	_	8	subj	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Straße	Straße	NOUN	NN	_	7	comp:obj	_	_
+7	überqueren	überqueren	VERB	VVINF	_	8	comp:aux	_	_
+8	wollte	wollen	AUX	VMFIN	_	2	comp:obj	_	_
+9	,	,	PUNCT	$,	_	2	punct	_	_
+10	fuhren	fahren	VERB	VVFIN	_	0	root	_	_
+11	zwei	zwei	NUM	CARD	_	12	mod	_	_
+12	Autos	Auto	NOUN	NN	_	10	subj	_	_
+13	in	in	ADP	APPR	_	10	comp:obl	_	_
+14	die	d	DET	ART	_	15	det	_	_
+15	Seitenstraße	Seitenstraße	PROPN	NN	_	13	comp:obj	_	_
+
+# text = ( sie kamen von rechts
+1	(	(	PUNCT	$(	_	3	punct	_	_
+2	sie	sie	PRON	PPER	_	3	subj	_	_
+3	kamen	kommen	VERB	VVFIN	_	0	root	_	_
+4	von	von	ADP	APPR	_	3	comp:obl	_	_
+5	rechts	rechts	ADV	ADV	_	4	comp:obj	_	_
+
+# text = und bogen nach links ab ) .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	bogen	biegen	ADJ	VVFIN	_	0	root	_	_
+3	nach	nach	ADP	APPR	_	2	comp:obl	_	_
+4	links	links	ADV	ADV	_	3	comp:obj	_	_
+5	ab	ab	ADP	PTKVZ	_	2	compound@prt	_	_
+6	)	)	PUNCT	$(	_	2	punct	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Als der Mann kurz davor war die Straße zu überqueren , fiel ihm der Ball aus der Hand
+1	Als	als	SCONJ	KON	_	12	mod	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Mann	Mann	NOUN	NN	_	6	subj	_	_
+4	kurz	kurz	ADJ	ADJD	_	5	mod	_	_
+5	davor	davor	ADV	ADV	_	6	comp:pred	_	_
+6	war	sein	VERB	VAFIN	_	1	comp:obj	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Straße	Straße	NOUN	NN	_	10	comp:obj	_	_
+9	zu	zu	ADP	PTKZU	_	5	comp:obj	_	_
+10	überqueren	überqueren	ADJ	VVINF	_	9	comp:obj	_	_
+11	,	,	PUNCT	$,	_	1	punct	_	_
+12	fiel	fallen	VERB	VVFIN	_	0	root	_	_
+13	ihm	er	PRON	PPER	_	12	comp:obj	_	_
+14	der	d	DET	ART	_	15	det	_	_
+15	Ball	Ball	NOUN	NN	_	12	subj	_	_
+16	aus	aus	ADP	APPR	_	12	comp:obl	_	_
+17	der	d	DET	ART	_	18	det	_	_
+18	Hand	Hand	NOUN	NN	_	16	comp:obj	_	_
+
+# text = und rollte über die Straße .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	rollte	rollen	VERB	VVFIN	_	0	root	_	_
+3	über	über	ADP	NN	_	2	comp:obl	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Straße	Straße	NOUN	NN	_	3	comp:obj	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Dabei bellte der Hund
+1	Dabei	dabei	ADV	ADV	_	2	mod	_	_
+2	bellte	bellte	VERB	VVFIN	_	0	root	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Hund	Hund	NOUN	NN	_	2	subj	_	_
+
+# text = und lief auf die Straße zu ( Richtung Ball , linke Straßenseite ) .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	lief	laufen	VERB	VVFIN	_	0	root	_	_
+3	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Straße	Straße	NOUN	NN	_	3	comp:obj	_	_
+6	zu	zu	ADP	APPR	_	2	compound@prt	_	_
+7	(	(	PUNCT	$(	_	8	punct	_	_
+8	Richtung	Richtung	NOUN	NN	_	5	mod	_	_
+9	Ball	Ball	PROPN	NN	_	8	mod@poss	_	_
+10	,	,	PUNCT	$,	_	8	punct	_	_
+11	linke	linke	ADJ	ADJA	_	12	mod	_	_
+12	Straßenseite	Straßenseite	NOUN	NN	_	8	conj	_	_
+13	)	)	PUNCT	$(	_	8	punct	_	_
+14	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Außerdem erschrak sich die Frau am Auto
+1	Außerdem	Außerdem	ADV	ADV	_	2	mod	_	_
+2	erschrak	erschrecken	PROPN	VVFIN	_	0	root	_	_
+3	sich	er|es|sie	PRON	PRF	_	2	comp:obj	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Frau	Frau	NOUN	NN	_	2	subj	_	_
+6	am	an	ADJ	APPRART	_	5	mod	_	_
+7	Auto	Auto	NOUN	NN	_	6	comp:obj	_	_
+
+# text = und ihr fiel dabei die Einkaufstüte aus der Hand , in welcher Gemüse , wahrscheinlich Zwiebeln , drin waren .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	ihr	ihr	PRON	PPER	_	3	comp:obj	_	_
+3	fiel	fallen	VERB	VVFIN	_	0	root	_	_
+4	dabei	dabei	ADV	ADV	_	3	mod	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Einkaufstüte	Einkaufstüte	NOUN	NN	_	3	subj	_	_
+7	aus	aus	ADP	APPR	_	3	comp:obl	_	_
+8	der	d	DET	ART	_	9	det	_	_
+9	Hand	Hand	NOUN	NN	_	7	comp:obj	_	_
+10	,	,	PUNCT	$,	_	3	punct	_	_
+11	in	in	ADP	APPR	_	18	comp:obl	_	_
+12	welcher	welche	PRON	PWAT	_	11	comp:obj	_	_
+13	Gemüse	Gemüse	NOUN	NN	_	19	subj	_	_
+14	,	,	PUNCT	$,	_	16	punct	_	_
+15	wahrscheinlich	wahrscheinlich	ADJ	ADV	_	16	mod	_	_
+16	Zwiebeln	Zwiebel	NOUN	NN	_	13	appos	_	_
+17	,	,	PUNCT	$,	_	16	punct	_	_
+18	drin	drin	NOUN	ADV	_	19	comp:pred	_	_
+19	waren	sein	VERB	VAFIN	_	6	mod@relcl	_	_
+20	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Ihr Einkauf rollte auf die Straße .
+1	Ihr	ihr	DET	PPOSAT	_	2	det	_	_
+2	Einkauf	Einkauf	NOUN	NN	_	3	subj	_	_
+3	rollte	rollen	VERB	VVFIN	_	0	root	_	_
+4	auf	auf	ADP	APPR	_	3	comp:obl	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Straße	Straße	NOUN	NN	_	4	comp:obj	_	_
+7	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = In diesem Moment stoppte das vordere der beiden Autos ( blau ) sehr abrupt
+1	In	in	ADP	APPR	_	4	mod	_	_
+2	diesem	diese	PRON	PDAT	_	3	det	_	_
+3	Moment	Moment	NOUN	NN	_	1	comp:obj	_	_
+4	stoppte	stoppen	VERB	VVFIN	_	0	root	_	_
+5	das	d	DET	ART	_	6	det	_	_
+6	vordere	vordere	ADJ	ADJA	_	4	subj	_	_
+7	der	d	DET	ART	_	9	det	_	_
+8	beiden	beide	PRON	PIDAT	_	9	mod	_	_
+9	Autos	Auto	NOUN	NN	_	6	mod@poss	_	_
+10	(	(	PUNCT	$(	_	11	punct	_	_
+11	blau	blau	ADJ	ADJD	_	9	mod	_	_
+12	)	)	PUNCT	$(	_	11	punct	_	_
+13	sehr	sehr	ADV	PTKIFG	_	14	mod	_	_
+14	abrupt	abrupt	ADV	ADJD	_	4	mod	_	_
+
+# text = und das hintere Auto ( weiß / gräulich ) fuhr in das vordere .
+1	und	und	CCONJ	KON	_	10	cc	_	_
+2	das	d	DET	ART	_	4	det	_	_
+3	hintere	hintere	ADJ	ADJA	_	4	mod	_	_
+4	Auto	Auto	NOUN	NN	_	10	subj	_	_
+5	(	(	PUNCT	$(	_	6	punct	_	_
+6	weiß	weiß	ADJ	ADJD	_	4	mod	_	_
+7	/	/	PUNCT	$(	_	6	punct	_	_
+8	gräulich	gräulich	ADJ	ADJD	_	6	conj	_	_
+9	)	)	PUNCT	$(	_	6	punct	_	_
+10	fuhr	fahren	VERB	VVFIN	_	0	root	_	_
+11	in	in	ADP	APPR	_	10	comp:obl	_	_
+12	das	d	DET	ART	_	13	det	_	_
+13	vordere	vordere	ADJ	ADJA	_	11	comp:obj	_	_
+14	.	.	PUNCT	$.	_	10	punct	_	_
+
+# text = Dabei war das hintere Auto auch schon vorher ziemlich nah hinter dem vorderen .
+1	Dabei	dabei	ADV	ADV	_	2	mod	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	das	d	DET	ART	_	5	det	_	_
+4	hintere	hintere	ADJ	ADJA	_	5	mod	_	_
+5	Auto	Auto	NOUN	NN	_	2	subj	_	_
+6	auch	auch	ADV	PTKIFG	_	2	mod	_	_
+7	schon	schon	ADV	PTKMWL	_	8	mod	_	_
+8	vorher	vorher	ADV	ADV	_	2	mod	_	_
+9	ziemlich	ziemlich	ADV	PTKIFG	_	10	mod	_	_
+10	nah	nah	ADJ	ADJD	_	11	mod	_	_
+11	hinter	hinter	ADP	APPR	_	2	comp:pred	_	_
+12	dem	d	DET	ART	_	13	det	_	_
+13	vorderen	vordere	ADJ	ADJA	_	11	comp:obj	_	_
+14	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Daraufhin ging der Mann auf die Straße
+1	Daraufhin	daraufhin	ADV	ADV	_	2	mod	_	_
+2	ging	gehen	VERB	VVFIN	_	0	root	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Mann	Mann	NOUN	NN	_	2	subj	_	_
+5	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Straße	Straße	NOUN	NN	_	5	comp:obj	_	_
+
+# text = und versuchte die Einkäufe der Frau wieder einzusammeln .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	versuchte	versuchen	VERB	VVFIN	_	0	root	_	_
+3	die	d	DET	ART	_	4	det	_	_
+4	Einkäufe	Einkauf	NOUN	NN	_	8	comp:obj	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Frau	Frau	NOUN	NN	_	4	mod@poss	_	_
+7	wieder	wieder	ADV	ADV	_	8	mod	_	_
+8	einzusammeln	einsammeln	VERB	VVIZU	_	2	comp:obj	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Die Frau hielt ihren Hund fest
+1	Die	d	DET	ART	_	2	det	_	_
+2	Frau	Frau	NOUN	NN	_	3	subj	_	_
+3	hielt	halten	VERB	VVFIN	_	0	root	_	_
+4	ihren	ihr	DET	PPOSAT	_	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	3	comp:obj	_	_
+6	fest	fest	ADV	PTKVZ	_	3	compound@prt	_	_
+
+# text = und bewegte sich auch auf die Straße um ihre Sachen aufzuheben .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	bewegte	bewegen	VERB	VVFIN	_	0	root	_	_
+3	sich	er|es|sie	PRON	PRF	_	2	comp:obj	_	_
+4	auch	auch	ADV	PTKIFG	_	2	mod	_	_
+5	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Straße	Straße	NOUN	NN	_	5	comp:obj	_	_
+8	um	um	ADP	APPR	_	2	mod	_	_
+9	ihre	ihr	DET	PPOSAT	_	10	det	_	_
+10	Sachen	Sache	NOUN	NN	_	11	comp:obj	_	_
+11	aufzuheben	aufheben	VERB	VVIZU	_	8	comp:obj	_	_
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Dann stiegen beide Autofahrer aus
+1	Dann	dann	ADV	ADV	_	2	mod	_	_
+2	stiegen	steigen	VERB	VVFIN	_	0	root	_	_
+3	beide	beide	PRON	PIAT	_	4	det	_	_
+4	Autofahrer	Autofahrer	NOUN	NN	_	2	subj	_	_
+5	aus	aus	ADP	PTKVZ	_	2	compound@prt	_	_
+
+# text = und sahen sich den Schaden an . Woraufhin einer der Beiden die Polizei anrief .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	sahen	sehen	VERB	VVFIN	_	0	root	_	_
+3	sich	er|es|sie	PRON	PRF	_	2	comp:obl	_	_
+4	den	d	DET	ART	_	5	det	_	_
+5	Schaden	Schaden	NOUN	NN	_	2	comp:obj	_	_
+6	an	an	ADP	PTKVZ	_	2	compound@prt	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+8	Woraufhin	woraufhin	SCONJ	PWAV	_	2	mod	_	_
+9	einer	ein	PRON	PIS	_	14	subj	_	_
+10	der	d	DET	ART	_	11	det	_	_
+11	Beiden	Beiden	PRON	NN	_	9	mod@poss	_	_
+12	die	d	DET	ART	_	13	det	_	_
+13	Polizei	Polizei	NOUN	NN	_	14	comp:obj	_	_
+14	anrief	anrufen	VERB	VVFIN	_	8	comp:obj	_	_
+15	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Der Mann , welcher den Ball fallen ließ , ging zuletzt zu den Autofahrern .
+1	Der	d	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	10	subj	_	_
+3	,	,	PUNCT	$,	_	10	punct	_	_
+4	welcher	welche	PRON	PWAV	_	8	subj	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	7	comp:obj	_	_
+7	fallen	fallen	VERB	VVINF	_	8	comp:obj	_	_
+8	ließ	lassen	VERB	VVINF	_	2	mod@relcl	_	_
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	ging	gehen	VERB	VVFIN	_	0	root	_	_
+11	zuletzt	zuletzt	ADV	ADV	_	10	mod	_	_
+12	zu	zu	ADP	APPR	_	10	comp:obl	_	_
+13	den	d	DET	ART	_	14	det	_	_
+14	Autofahrern	Autofahrer	NOUN	NN	_	12	comp:obj	_	_
+15	.	.	PUNCT	$.	_	10	punct	_	_
+
+# text = Alle Beteiligten , außer dem Hund und des Kindes im Kinderwagen , werden auf ein ungefähr mittleres Alter geschätzt .
+1	Alle	alle	PRON	PIAT	_	2	det	_	_
+2	Beteiligten	Beteiligte	NOUN	NN	_	13	subj@pass	_	_
+3	,	,	PUNCT	$,	_	4	punct	_	_
+4	außer	außer	ADP	APPR	_	2	mod	_	_
+5	dem	d	DET	ART	_	6	det	_	_
+6	Hund	Hund	NOUN	NN	_	4	comp:obj	_	_
+7	und	und	CCONJ	KON	_	9	cc	_	_
+8	des	d	DET	ART	_	9	det	_	_
+9	Kindes	Kind	NOUN	NN	_	6	conj	_	_
+10	im	in	PROPN	APPRART	_	9	mod	_	_
+11	Kinderwagen	Kinderwagen	NOUN	NN	_	10	comp:obj	_	_
+12	,	,	PUNCT	$,	_	4	punct	_	_
+13	werden	werden	AUX	VAFIN	_	0	root	_	_
+14	auf	auf	ADP	APPR	_	19	comp:obl	_	_
+15	ein	ein	DET	ART	_	18	det	_	_
+16	ungefähr	ungefähr	ADJ	ADV	_	17	mod	_	_
+17	mittleres	mittlere	ADJ	ADJA	_	18	mod	_	_
+18	Alter	Alter	NOUN	NN	_	14	comp:obj	_	_
+19	geschätzt	schätzen	VERB	VVPP	_	13	comp:aux@pass	_	_
+20	.	.	PUNCT	$.	_	13	punct	_	_
+
+# text = Die Frau mit dem Kinderwagen stand die ganze Zeit über auf der linken Straßenseite .
+1	Die	d	DET	ART	_	2	det	_	_
+2	Frau	Frau	NOUN	NN	_	6	subj	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	dem	d	DET	ART	_	5	det	_	_
+5	Kinderwagen	Kinderwagen	NOUN	NN	_	3	comp:obj	_	_
+6	stand	stehen	VERB	VVFIN	_	0	root	_	_
+7	die	d	DET	ART	_	9	det	_	_
+8	ganze	ganze	ADJ	ADJA	_	9	mod	_	_
+9	Zeit	Zeit	NOUN	NN	_	6	mod	_	_
+10	über	über	ADV	NN	_	9	mod	_	_
+11	auf	auf	ADP	APPR	_	6	comp:obl	_	_
+12	der	d	DET	ART	_	14	det	_	_
+13	linken	linke	ADJ	ADJA	_	14	mod	_	_
+14	Straßenseite	Straßenseite	NOUN	NN	_	11	comp:obj	_	_
+15	.	.	PUNCT	$.	_	6	punct	_	_
+

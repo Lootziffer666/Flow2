@@ -1,0 +1,44 @@
+# text = Ey Kimi
+1	Ey	ey	PROPN	NGIRR	_	2	discourse	_	_
+2	Kimi	Kimi	PROPN	NE	_	0	root	_	_
+
+# text = heute war ein Unfall wegen einem Hund
+1	heute	heute	ADV	ADV	_	2	comp:pred	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	ART	Definite=Ind|PronType=Art	4	det	_	_
+4	Unfall	Unfall	NOUN	NN	_	2	subj	_	_
+5	wegen	wegen	ADP	APPR	_	2	mod	_	_
+6	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Hund	Hund	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	comp:obj	_	_
+
+# text = er ist einfach so auf die Straße gelaufen
+1	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	einfach	einfach	ADJ	PTKMA	Degree=Pos	2	mod	_	_
+4	so	so	ADV	PTKIFG	_	2	mod	_	_
+5	auf	auf	ADP	APPR	_	8	comp:obl	_	_
+6	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	comp:obj	_	_
+8	gelaufen	laufen	VERB	VVPP	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	comp:aux	_	_
+
+# text = und auf einmal das Auto macht eine Vollbremsung
+1	und	und	CCONJ	KON	_	6	cc	_	_
+2	auf	auf	ADP	APPR	_	6	mod	_	_
+3	einmal	einmal	ADV	ADV	_	2	fixed	_	_
+4	das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Auto	Auto	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	subj	_	_
+6	macht	machen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Vollbremsung	Vollbremsung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	comp:obj	_	_
+
+# text = einer ist ihm dann reingefahren
+1	einer	einer	PRON	PIS	Case=Nom|PronType=Ind	2	subj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	_
+4	dann	dann	ADV	ADV	_	2	mod	_	_
+5	reingefahren	reingefahren	VERB	VVPP	Tense=Past|VerbForm=Fin	2	comp:aux	_	_
+
+# text = hahaha
+1	hahaha	hahaha	PROPN	NGIRR	Case=Nom|Number=Sing	0	root	_	_
+
+

@@ -1,0 +1,97 @@
+1	jo	jo	NOUN	_	_	3	discourse	_	_
+2	was	was	PRON	_	Case=Nom|Number=Sing|PronType=Int	3	subj	_	_
+3	geht	gehen	VERB	_	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+
+1	wollte	wollen	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	ja	ja	ADV	_	_	1	discourse	_	_
+3	gerade	gerade	ADV	_	_	1	mod	_	_
+4	eigentlich	eigentlich	ADV	_	_	1	mod	_	_
+5	nur	nur	ADV	_	_	1	mod	_	_
+6	zum	zum	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	8	comp:obl	_	_
+7	Training	Training	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	6	comp:obj	_	_
+8	fahren	fahren	VERB	_	Number=Plur|Person=1|VerbForm=Fin	1	comp:aux	_	_
+
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	dann	dann	ADV	_	_	3	mod	_	_
+3	passiert	passieren	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	erstmal	erstmal	ADV	_	_	3	mod	_	_
+5	ein	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Unfall	Unfall	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	3	subj	_	_
+
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	jetzt	jetzt	ADV	_	_	3	mod	_	_
+3	muss	müssen	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+5	hier	hier	ADV	_	_	3	mod	_	_
+6	noch	noch	ADV	_	_	3	mod	_	_
+7	warten	warten	VERB	_	VerbForm=Inf	3	comp:aux	_	_
+8	...	...	PUNCT	_	_	3	discourse	_	_
+
+1	es	es	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+2	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	einfach	einfach	ADJ	_	Degree=Pos	2	mod	_	_
+4	einen	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Ball	Ball	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	2	subj	_	_
+6	von	von	ADP	_	_	5	mod@poss	_	_
+7	einem	ein	DET	_	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Mann	Mann	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	6	comp:obj	_	_
+9	auf	auf	ADP	_	_	12	comp:obl	_	_
+10	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	9	comp:obj	_	_
+12	gerollt	rollen	ADJ	_	Degree=Pos|Tense=Past|VerbForm=Part	2	comp:aux	_	_
+
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	dann	dann	ADV	_	_	3	mod	_	_
+3	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	deswegen	deswegen	ADV	_	_	3	mod	_	_
+5	einen	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Auffahrunfall	Auffahrunfall	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	3	subj	_	_
+7	entstanden	entstehen	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+
+1	oh	oh	ADJ	_	Degree=Pos	2	discourse	_	_
+2	mann	mann	NOUN	_	_	0	root	_	_
+
+1	:man_facepalming_medium_skin_tone:	🤦🏽‍♂️	NOUN	_	_	0	root	_	_
+
+1	naja	naja	PROPN	_	Case=Nom|Number=Sing	2	discourse	_	_
+2	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	aber	aber	ADV	_	_	2	mod	_	_
+4	nichts	nichts	PRON	_	Case=Nom|Number=Sing|PronType=Neg	2	subj	_	_
+5	passiert	passieren	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	comp:aux	_	_
+
+1	also	also	ADV	_	_	2	mod	_	_
+2	alles	alle	PRON	_	PronType=Tot	0	root	_	_
+3	gut	gut	ADJ	_	Degree=Pos	2	orphan	_	_
+
+1	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	nur	nur	ADV	_	_	1	mod	_	_
+3	mal	mal	ADV	_	_	4	mod	_	_
+4	wieder	wieder	ADV	_	_	1	mod	_	_
+5	toll	toll	ADJ	_	Degree=Pos	1	comp:pred	_	_
+6	dass	dass	SCONJ	_	_	1	subj	_	_
+7	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	subj	_	_
+8	deswegen	deswegen	ADV	_	_	11	mod	_	_
+9	jetzt	jetzt	ADV	_	_	11	mod	_	_
+10	warten	warten	VERB	_	VerbForm=Inf	11	comp:aux	_	_
+11	muss	müssen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
+
+1	:expressionless_face:	😑	SYM	_	_	0	root	_	_
+
+1	typisch	typisch	ADJ	_	Degree=Pos	3	mod	_	_
+2	mein	mein	ADJ	_	Degree=Pos	3	det	_	_
+3	Glück	Glück	NOUN	_	Case=Acc|Number=Sing	0	root	_	_
+4	halt	halt	VERB	_	_	3	discourse	_	_
+5	...	...	PUNCT	_	_	3	punct	_	_
+
+1	naja	naja	PROPN	_	Case=Nom|Number=Sing	2	discourse	_	_
+2	will	wollen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dich	du	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	9	comp:obj	_	_
+4	jetzt	jetzt	ADV	_	_	2	mod	_	_
+5	aber	aber	ADV	_	_	2	mod	_	_
+6	auch	auch	ADV	_	_	2	mod	_	_
+7	nicht	nicht	PART	_	_	2	mod	_	_
+8	länger	länger	ADJ	_	_	2	mod	_	_
+9	nerven	nerven	VERB	_	VerbForm=Inf	2	comp:aux	_	_
+
+1	haha	haha	PROPN	_	Case=Nom|Number=Sing	0	root	_	_
+

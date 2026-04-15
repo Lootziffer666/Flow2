@@ -1,0 +1,96 @@
+# text = ﻿Fallnummer F12
+1	﻿Fallnummer	﻿Fallnummer	NOUN	NN	_	0	root	_	_
+2	F12	F12	PROPN	NE	_	1	appos	_	_
+
+# text = Ich sah dass zwei Autos gleichzeitig den Parkplatz verlassen wollten .
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	sah	sehen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	dass	dass	CCONJ	KOUS	_	2	comp:obj	_	_
+4	zwei	zwei	NUM	CARD	NumType=Card	5	mod	_	_
+5	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	10	subj	_	_
+6	gleichzeitig	gleichzeitig	ADV	ADV	Degree=Pos	10	mod	_	_
+7	den	d	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Parkplatz	Parkplatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	comp:obj	_	_
+9	verlassen	verlassen	VERB	VVINF	VerbForm=Inf	10	comp:aux	_	_
+10	wollten	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	comp:obj	_	_
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Es liefen aber zwei Passanten vorbei
+1	Es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+2	liefen	laufen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+3	aber	aber	ADV	PTKMA	_	2	cc	_	_
+4	zwei	zwei	NUM	CARD	NumType=Card	5	mod	_	_
+5	Passanten	Passant	NOUN	NN	Case=Acc|Number=Plur	2	subj	_	_
+6	vorbei	vorbei	ADV	PTKVZ	_	2	compound@prt	_	_
+
+# text = und da hat der eine sein Fußball über die Straße rollen lassen ...
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	der	d	DET	ART	Case=Nom|PronType=Rel	5	det	_	_
+5	eine	ein	NOUN	PIDS	PronType=Ind	3	subj	_	_
+6	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	Fußball	Fußball	NOUN	NN	Case=Nom|Number=Sing	11	comp:obj	_	_
+8	über	über	ADP	APPR	_	11	comp:obl	_	_
+9	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	comp:obj	_	_
+11	rollen	rollen	VERB	VVINF	Degree=Pos	12	comp:obj	_	_
+12	lassen	lassen	VERB	VVINF	_	3	comp:aux	_	_
+13	...	...	PUNCT	$.	_	3	discourse	_	_
+
+# text = eine Dame auf die andere Seite des kleine Parkplatzes wollte ihre Einkäufe und ihren kleinen Hund in das Gebäude reinbringen
+1	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Dame	Dame	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	subj	_	_
+3	auf	auf	ADP	APPR	_	2	mod	_	_
+4	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	andere	ander	PRON	PIDAT	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	mod	_	_
+6	Seite	Seite	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	comp:obj	_	_
+7	des	d	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+8	kleine	klein	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc,Neut|Number=Sing	9	mod	_	_
+9	Parkplatzes	Parkplatz	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	6	mod@poss	_	_
+10	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	Einkäufe	Einkäufe	NOUN	NN	Case=Acc|Number=Sing	20	comp:obj	_	_
+13	und	und	CCONJ	KON	_	16	cc	_	_
+14	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	16	det	_	_
+15	kleinen	klein	ADJ	ADJA	Degree=Pos	16	mod	_	_
+16	Hund	Hund	NOUN	NN	_	12	conj	_	_
+17	in	in	ADP	APPR	_	20	comp:obl	_	_
+18	das	d	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
+19	Gebäude	Gebäude	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	17	comp:obj	_	_
+20	reinbringen	reinbringen	VERB	VVINF	VerbForm=Inf	10	comp:aux	_	_
+
+# text = ist aber erschrocken worden als das erste Parkplatz verlassendes Auto schnell anhalten musste und das zweite dann leider ihn angefahren ist .
+1	ist	sein	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	aber	aber	ADV	PTKMA	_	1	cc	_	_
+3	erschrocken	erschrecken	VERB	VVPP	VerbForm=Inf	4	comp:aux@pass	_	_
+4	worden	werden	AUX	VAPP	VerbForm=Part	1	comp:aux	_	_
+5	als	als	SCONJ	KOUS	_	3	mod	_	_
+6	das	d	DET	ART	Definite=Def|PronType=Art	10	det	_	_
+7	erste	erst	ADJ	ORD	Degree=Pos|NumType=Ord	8	mod	_	_
+8	Parkplatz	Parkplatz	NOUN	NN	_	9	comp:obj	_	_
+9	verlassendes	verlassen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc,Neut|Number=Sing	10	mod	_	_
+10	Auto	Auto	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	13	subj	_	_
+11	schnell	schnell	ADJ	ADJD	Degree=Pos	13	mod	_	_
+12	anhalten	anhalten	VERB	VVINF	VerbForm=Inf	13	comp:aux	_	_
+13	musste	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	comp:obj	_	_
+14	und	und	CCONJ	KON	_	21	cc	_	_
+15	das	d	DET	ART	Definite=Def|PronType=Art	16	det	_	_
+16	zweite	zweit	ADJ	ORD	_	21	subj	_	_
+17	dann	dann	ADV	ADV	_	21	mod	_	_
+18	leider	leider	ADV	ADV	_	21	mod	_	_
+19	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	comp:obj	_	_
+20	angefahren	anfahren	VERB	VVPP	VerbForm=Part	21	comp:aux	_	_
+21	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+22	.	.	PUNCT	$.	_	1	punct	_	_
+
+# text = Es scheint aber dass alle okay sind .
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+2	scheint	scheinen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	aber	aber	ADV	PTKMA	_	2	cc	_	_
+4	dass	dass	CCONJ	KOUS	_	2	comp:obj	_	_
+5	alle	all	PRON	PIS	Case=Nom|PronType=Tot	7	subj	_	_
+6	okay	okay	ADJ	ADJD	_	7	comp:pred	_	_
+7	sind	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+

@@ -1,0 +1,164 @@
+# text = Fallnummer F16
+1	Fallnummer	Fallnummer	NOUN	NN	_	0	root	_	_
+2	F16	F16	PROPN	NE	_	1	appos	_	_
+
+# text = Als ich heute morgen an einem Parkplatz vorbeikam beobachtete ich folgende Situation .
+1	Als	Als	SCONJ	KOUS	_	9	mod	_	_
+2	ich	ich	PRON	PPER	_	8	subj	_	_
+3	heute	heute	ADV	ADV	_	4	mod	_	_
+4	Morgen	Morgen	ADV	ADV	_	8	mod	_	_
+5	an	an	ADP	APPR	_	8	comp:obl	_	_
+6	einem	ein	DET	ART	_	7	det	_	_
+7	Parkplatz	Parkplatz	NOUN	NN	_	5	comp:obj	_	_
+8	vorbeikam	vorbeikommen	VERB	VVFIN	_	1	comp:obj	_	_
+9	beobachtete	beobachten	VERB	VVFIN	_	0	root	_	_
+10	ich	ich	PRON	PPER	_	9	subj	_	_
+11	folgende	folgend	ADJ	ADJA	_	12	mod	_	_
+12	Situation	Situation	NOUN	NN	_	9	comp:obj	_	_
+13	.	.	PUNCT	$.	_	9	punct	_	_
+
+# text = Eine Frau mit Kinderwagen und einem Jugendlichen , der gerade mit einem Ball spielt laufen an dem Parkplatz vorbei .
+1	Eine	ein	DET	ART	_	2	det	_	_
+2	Frau	Frau	NOUN	NN	_	15	subj	_	_
+3	mit	mit	ADP	APPR	_	2	mod	_	_
+4	Kinderwagen	Kinderwagen	NOUN	NN	_	3	comp:obj	_	_
+5	und	und	CCONJ	KON	_	7	cc	_	_
+6	einem	ein	DET	ART	_	7	det	_	_
+7	Jugendlichen	Jugendliche	NOUN	NN	_	4	conj	_	_
+8	,	,	PUNCT	$,	_	15	punct	_	_
+9	der	d	PRON	PRELS	_	14	subj	_	_
+10	gerade	gerade	ADV	ADV	_	14	mod	_	_
+11	mit	mit	ADP	APPR	_	14	mod	_	_
+12	einem	ein	DET	ART	_	13	det	_	_
+13	Ball	Ball	NOUN	NN	_	11	comp:obj	_	_
+14	spielt	spielen	VERB	VVFIN	_	7	mod@relcl	_	_
+15	laufen	laufen	VERB	VVFIN	_	0	root	_	_
+16	an	an	ADP	APPR	_	15	comp:obl	_	_
+17	dem	d	DET	ART	_	18	det	_	_
+18	Parkplatz	Parkplatz	NOUN	NN	_	16	comp:obj	_	_
+19	vorbei	vorbei	ADV	PTKVZ	_	15	compound@prt	_	_
+20	.	.	PUNCT	$.	_	15	punct	_	_
+
+# text = Gleichzeitig packt eine Frau auf dem Parkplatz ihre Einkäufe ins Auto , während sie ihren Hund an der Leine festhält .
+1	Gleichzeitig	gleichzeitig	ADJ	ADV	_	2	mod	_	_
+2	packt	packen	VERB	VVFIN	_	0	root	_	_
+3	eine	ein	DET	ART	_	4	det	_	_
+4	Frau	Frau	NOUN	NN	_	2	subj	_	_
+5	auf	auf	ADP	APPR	_	2	mod	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	Parkplatz	Parkplatz	NOUN	NN	_	5	comp:obj	_	_
+8	ihre	ihr	DET	PPOSAT	_	9	det	_	_
+9	Einkäufe	Einkauf	NOUN	NN	_	2	comp:obj	_	_
+10	ins	in	PROPN	APPRART	_	2	comp:obl	_	_
+11	Auto	Auto	PROPN	NN	_	10	comp:obj	_	_
+12	,	,	PUNCT	$,	_	2	punct	_	_
+13	während	während	SCONJ	KOUS	_	2	mod	_	_
+14	sie	sie	PRON	PPER	_	20	subj	_	_
+15	ihren	ihr	DET	PPOSAT	_	16	det	_	_
+16	Hund	Hund	NOUN	NN	_	20	comp:obj	_	_
+17	an	an	ADP	APPR	_	20	comp:obl	_	_
+18	der	d	DET	ART	_	19	det	_	_
+19	Leine	Leine	PROPN	NN	_	17	comp:obj	_	_
+20	festhält	festhält	VERB	VVFIN	_	13	comp:obj	_	_
+21	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Als die Frau mit Kinderwagen und dem Jugendlichen den Fahrstreifen des Parkplatzes überqueren wollen , fällt dem Jugendlichen der Ball aus der Hand
+1	Als	als	SCONJ	KOUS	_	16	mod	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Frau	Frau	NOUN	NN	_	14	subj	_	_
+4	mit	mit	ADP	APPR	_	3	mod	_	_
+5	Kinderwagen	Kinderwagen	NOUN	NN	_	4	comp:obj	_	_
+6	und	und	CCONJ	KON	_	8	cc	_	_
+7	dem	d	DET	ART	_	8	det	_	_
+8	Jugendlichen	Jugendliche	NOUN	NN	_	5	conj	_	_
+9	den	d	DET	ART	_	10	det	_	_
+10	Fahrstreifen	Fahrstreifen	NOUN	NN	_	13	comp:obj	_	_
+11	des	d	DET	ART	_	12	det	_	_
+12	Parkplatzes	Parkplatz	NOUN	NN	_	10	mod@poss	_	_
+13	überqueren	überqueren	VERB	VVINF	_	14	comp:aux	_	_
+14	wollen	wollen	AUX	VMINF	_	1	comp:obj	_	_
+15	,	,	PUNCT	$,	_	1	punct	_	_
+16	fällt	fällt	VERB	VVFIN	_	0	root	_	_
+17	dem	d	DET	ART	_	18	det	_	_
+18	Jugendlichen	Jugendliche	NOUN	NN	_	16	comp:obj	_	_
+19	der	d	DET	ART	_	20	det	_	_
+20	Ball	Ball	NOUN	NN	_	16	subj	_	_
+21	aus	aus	ADP	APPR	_	16	comp:obl	_	_
+22	der	d	DET	ART	_	23	det	_	_
+23	Hand	Hand	NOUN	NN	_	21	comp:obj	_	_
+
+# text = und rollt über die Straße .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	rollt	rollen	VERB	VVFIN	_	0	root	_	_
+3	über	über	ADP	APPR	_	2	comp:obl	_	_
+4	die	d	DET	ART	_	5	det	_	_
+5	Straße	Straße	NOUN	NN	_	3	comp:obj	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Der Hund rennt dem Ball hinterher
+1	Der	d	DET	ART	_	2	det	_	_
+2	Hund	Hund	NOUN	NN	_	3	subj	_	_
+3	rennt	rennen	VERB	VVFIN	_	0	root	_	_
+4	dem	d	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+6	hinterher	hinterher	ADV	PTKVZ	_	3	compound@prt	_	_
+
+# text = und reißt der Frau einige Einkäufe aus der Hand , welche auf den Fahrbereich rollen .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	reißt	reißt	VERB	VVFIN	_	0	root	_	_
+3	der	d	DET	ART	_	4	det	_	_
+4	Frau	Frau	NOUN	NN	_	2	comp:obl	_	_
+5	einige	einige	PRON	PIAT	_	6	det	_	_
+6	Einkäufe	Einkauf	NOUN	NN	_	2	comp:obj	_	_
+7	aus	aus	ADP	APPR	_	2	udep	_	_
+8	der	d	DET	ART	_	9	det	_	_
+9	Hand	Hand	NOUN	NN	_	7	comp:obj	_	_
+10	,	,	PUNCT	$,	_	2	punct	_	_
+11	welche	welche	PRON	PWAV	_	15	subj	_	_
+12	auf	auf	ADP	APPR	_	15	comp:obl	_	_
+13	den	d	DET	ART	_	14	det	_	_
+14	Fahrbereich	Fahrbereich	NOUN	NN	_	12	comp:obj	_	_
+15	rollen	rollen	VERB	VVFIN	_	6	mod@relcl	_	_
+16	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = In dem Moment kommen zwei Autos hintereinander auf den Parkplatz gefahren
+1	In	in	ADP	APPR	_	4	mod	_	_
+2	dem	d	DET	ART	_	3	det	_	_
+3	Moment	Moment	NOUN	NN	_	1	comp:obj	_	_
+4	kommen	kommen	VERB	VVFIN	_	0	root	_	_
+5	zwei	zwei	NUM	CARD	_	6	mod	_	_
+6	Autos	Auto	NOUN	NN	_	4	subj	_	_
+7	hintereinander	hintereinander	ADV	ADV	_	4	mod	_	_
+8	auf	auf	ADP	APPR	_	4	mod	_	_
+9	den	d	DET	ART	_	10	det	_	_
+10	Parkplatz	Parkplatz	NOUN	NN	_	8	comp:obj	_	_
+11	gefahren	fahren	VERB	VVPP	_	4	comp:obl	_	_
+
+# text = und das vordere Auto muss wegen des rollenden Balls und dem Hund so stark bremsen , dass das hintere Auto auffährt und einen Unfall verursacht .
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	das	d	DET	ART	_	4	det	_	_
+3	vordere	vorder	ADJ	ADJA	_	4	mod	_	_
+4	Auto	Auto	NOUN	NN	_	5	subj	_	_
+5	muss	müssen	AUX	VMFIN	_	0	root	_	_
+6	wegen	wegen	ADP	APPR	_	15	mod	_	_
+7	des	d	DET	ART	_	9	det	_	_
+8	rollenden	rollend	ADJ	ADJA	_	9	mod	_	_
+9	Balls	Ball	NOUN	NN	_	6	comp:obj	_	_
+10	und	und	CCONJ	KON	_	12	cc	_	_
+11	dem	d	DET	ART	_	12	det	_	_
+12	Hund	Hund	NOUN	NN	_	9	conj	_	_
+13	so	so	ADV	PTKIFG	_	14	mod	_	_
+14	stark	stark	ADJ	ADJD	_	5	mod	_	_
+15	bremsen	bremsen	VERB	VVINF	_	5	comp:aux	_	_
+16	,	,	PUNCT	$,	_	5	punct	_	_
+17	dass	dass	SCONJ	KOUS	_	15	comp:obj	_	_
+18	das	d	DET	ART	_	20	det	_	_
+19	hintere	hintere	ADJ	ADJA	_	20	mod	_	_
+20	Auto	Auto	NOUN	NN	_	21	subj	_	_
+21	auffährt	auffahren	VERB	VVFIN	_	17	comp:obj	_	_
+22	und	und	CCONJ	KON	_	25	cc	_	_
+23	einen	ein	DET	ART	_	24	det	_	_
+24	Unfall	Unfall	NOUN	NN	_	25	comp:obj	_	_
+25	verursacht	verursachen	VERB	VVPP	_	21	conj	_	_
+26	.	.	PUNCT	$.	_	5	punct	_	_
+

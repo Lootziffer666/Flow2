@@ -1,0 +1,131 @@
+# text = ey gerade eben war ich in so einen Park
+1	ey	ey	PROPN	_	_	4	discourse	_	_
+2	gerade	gerade	ADV	_	_	4	mod	_	_
+3	eben	eben	ADV	_	_	4	mod	_	_
+4	war	sein	VERB	_	_	0	root	_	_
+5	ich	ich	PRON	_	_	4	subj	_	_
+6	in	in	ADP	_	_	4	comp:pred	_	_
+7	so	so	ADV	_	_	9	mod	_	_
+8	einen	ein	NUM	_	_	9	mod	_	_
+9	Park	Park	NOUN	_	_	6	comp:obj	_	_
+
+# text = dann ich sehe so ganz normal so ein Junge mit seiner Mutter
+1	dann	dann	ADV	_	_	3	mod	_	_
+2	ich	ich	PRON	_	_	3	subj	_	_
+3	sehe	sehen	VERB	_	_	0	root	_	_
+4	so	so	ADV	_	_	3	mod	_	_
+5	ganz	ganz	ADV	_	_	6	mod	_	_
+6	normal	normal	ADV	_	_	3	mod	_	_
+7	so	so	ADV	_	_	9	mod	_	_
+8	ein	ein	DET	_	_	9	det	_	_
+9	Junge	Junge	NOUN	_	_	3	comp:obj	_	_
+10	mit	mit	ADP	_	_	9	mod	_	_
+11	seiner	sein	DET	_	_	12	det	_	_
+12	Mutter	Mutter	NOUN	_	_	10	comp:obj	_	_
+
+# text = und dieser Junge hatte auch einen Ball in der Hand
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	dieser	diese	PRON	_	_	3	det	_	_
+3	Junge	Junge	NOUN	_	_	4	subj	_	_
+4	hatte	haben	VERB	_	_	0	root	_	_
+5	auch	auch	ADV	_	_	4	mod	_	_
+6	einen	ein	DET	_	_	7	det	_	_
+7	Ball	Ball	NOUN	_	_	4	comp:obj	_	_
+8	in	in	ADP	_	_	4	mod	_	_
+9	der	d	DET	_	_	10	det	_	_
+10	Hand	Hand	NOUN	_	_	8	comp:obj	_	_
+
+# text = und in der anderen Straßenseite war so eine Frau mit ihrem Hund
+1	und	und	CCONJ	_	_	6	cc	_	_
+2	in	in	ADP	_	_	6	comp:pred	_	_
+3	der	d	DET	_	_	5	det	_	_
+4	anderen	ander	ADJ	_	_	5	mod	_	_
+5	Straßenseite	Straßenseite	NOUN	_	_	2	comp:obj	_	_
+6	war	sein	VERB	_	_	0	root	_	_
+7	so	so	ADV	_	_	9	mod	_	_
+8	eine	eine	DET	_	_	9	det	_	_
+9	Frau	Frau	NOUN	_	_	6	subj	_	_
+10	mit	mit	ADP	_	_	9	mod	_	_
+11	ihrem	ihr	DET	_	_	12	det	_	_
+12	Hund	Hund	NOUN	_	_	10	comp:obj	_	_
+
+# text = und hat so Sachen in ihrem Auto gepackt
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	hat	haben	VERB	_	_	0	root	_	_
+3	so	so	ADV	_	_	4	mod	_	_
+4	Sachen	Sache	NOUN	_	_	8	comp:obj	_	_
+5	in	in	ADP	_	_	8	comp:obl	_	_
+6	ihrem	ihr	DET	_	_	7	det	_	_
+7	Auto	Auto	NOUN	_	_	5	comp:obj	_	_
+8	gepackt	packen	VERB	_	_	2	comp:aux	_	_
+
+# text = dann kam so halt zwei Autos
+1	dann	dann	ADV	_	_	2	mod	_	_
+2	kam	kommen	VERB	_	_	0	root	_	_
+3	so	so	ADV	_	_	6	mod	_	_
+4	halt	halt	ADV	_	_	2	discourse	_	_
+5	zwei	zwei	NUM	_	_	6	mod	_	_
+6	Autos	Auto	NOUN	_	_	2	subj	_	_
+
+# text = dann als dieser Junge auf die andere Seite gehen wollte ist aus seinem Hand dieser Ball runtergefallen
+1	dann	dann	ADV	_	_	11	mod	_	_
+2	als	als	ADP	_	_	17	mod	_	_
+3	dieser	diese	PRON	_	_	4	det	_	_
+4	Junge	Junge	NOUN	_	_	10	subj	_	_
+5	auf	auf	ADP	_	_	9	comp:obl	_	_
+6	die	d	DET	_	_	8	det	_	_
+7	andere	ander	ADJ	_	_	8	mod	_	_
+8	Seite	Seite	NOUN	_	_	5	comp:obj	_	_
+9	gehen	gehen	VERB	_	_	10	comp:aux	_	_
+10	wollte	wollen	AUX	_	_	2	comp:obj	_	_
+11	ist	sein	AUX	_	_	0	root	_	_
+12	aus	aus	ADP	_	_	17	mod	_	_
+13	seinem	sein	DET	_	_	14	det	_	_
+14	Hand	Hand	NOUN	_	_	12	comp:obj	_	_
+15	dieser	diese	PRON	_	_	16	det	_	_
+16	Ball	Ball	NOUN	_	_	11	subj	_	_
+17	runtergefallen	runtergefallen	VERB	_	_	11	comp:aux	_	_
+
+# text = dann dieser Hund wollte spielen
+1	dann	dann	ADV	_	_	4	mod	_	_
+2	dieser	diese	PRON	_	_	3	det	_	_
+3	Hund	Hund	NOUN	_	_	4	subj	_	_
+4	wollte	wollen	AUX	_	_	0	root	_	_
+5	spielen	spielen	VERB	_	_	4	comp:aux	_	_
+
+# text = und ist diesen Ball hinterhergerannt
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	ist	sein	VERB	_	_	0	root	_	_
+3	diesen	diese	PRON	_	_	4	det	_	_
+4	Ball	Ball	NOUN	_	_	5	comp:obj	_	_
+5	hinterhergerannt	hinterherrennen	ADJ	_	_	2	comp:aux	_	_
+
+# text = dann als diese zwei Autos kamen ist der vorderer Auto stehen geblieben
+1	dann	dann	ADV	_	_	7	mod	_	_
+2	als	als	ADP	_	_	11	mod	_	_
+3	diese	diese	PRON	_	_	5	det	_	_
+4	zwei	zwei	NUM	_	_	5	mod	_	_
+5	Autos	Auto	NOUN	_	_	6	subj	_	_
+6	kamen	kommen	VERB	_	_	2	comp:obj	_	_
+7	ist	sein	AUX	_	_	0	root	_	_
+8	der	d	DET	_	_	10	det	_	_
+9	vorderer	vorderer	ADJ	_	_	10	mod	_	_
+10	Auto	Auto	NOUN	_	_	7	subj	_	_
+11	stehen	stehen	VERB	_	_	12	comp:obj	_	_
+12	geblieben	bleiben	VERB	_	_	7	comp:aux	_	_
+
+# text = und der hinteren Auto hat den vorderen Auto von hinten angefahren .
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	der	d	DET	_	_	4	det	_	_
+3	hinteren	hinter	ADJ	_	_	4	mod	_	_
+4	Auto	Auto	NOUN	_	_	5	subj	_	_
+5	hat	haben	AUX	_	_	0	root	_	_
+6	den	d	DET	_	_	8	det	_	_
+7	vorderen	vorder	ADJ	_	_	8	mod	_	_
+8	Auto	Auto	NOUN	_	_	11	comp:obj	_	_
+9	von	von	ADP	_	_	11	mod	_	_
+10	hinten	hinten	NOUN	_	_	9	comp:obj	_	_
+11	angefahren	anfahren	VERB	_	_	5	comp:aux	_	_
+12	.	.	PUNCT	_	_	5	punct	_	_
+
+

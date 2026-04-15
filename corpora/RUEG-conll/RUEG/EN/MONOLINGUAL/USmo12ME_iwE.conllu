@@ -1,0 +1,107 @@
+1	Just	just	ADV	AV0	_	2	advmod	_	_
+2	saw	see	VERB	VVD	_	0	root	_	_
+3	a	a	DET	AT0	_	5	det	_	_
+4	car	car	NOUN	NN1	_	5	compound	_	_
+5	accident	accident	NOUN	NN1	_	2	obj	_	_
+6	with	with	ADP	PRP	_	9	case	_	_
+7	some	some	DET	DT0	_	9	det	_	_
+8	white	white	ADJ	AJ0	_	9	amod	_	_
+9	folks	folk	NOUN	NN2	_	5	nmod	_	_
+
+1	white	white	ADJ	AJ0	_	2	amod	_	_
+2	dude	dude	NOUN	NN1	_	4	nsubj	_	_
+3	was	be	AUX	VBD	_	4	cop	_	_
+4	dribbling	dribble	VERB	VVG	_	0	root	_	_
+5	a	a	DET	AT0	_	6	det	_	_
+6	ball	ball	NOUN	NN1	_	4	obj	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	it	it	PRON	PNP	_	3	nsubj	_	_
+3	hit	hit	VERB	VVD	_	0	root	_	_
+4	his	he	DET	DPS	_	5	det	_	_
+5	foot	foot	NOUN	NN1	_	3	obj	_	_
+
+1	and	and	CCONJ	CJC	_	2	cc	_	_
+2	rolled	roll	VERB	VVD	_	0	root	_	_
+3	in	in	ADP	PRP	_	2	compound:prt	_	_
+4	front	front	ADP	PRP	_	6	case	_	_
+5	of	of	ADP	PRF	_	6	case	_	_
+6	car	car	NOUN	NN1	_	2	obl	_	_
+7	with	with	ADP	PRP	_	9	case	_	_
+8	another	another	DET	DT0	_	9	det	_	_
+9	car	car	NOUN	NN1	_	2	obl	_	_
+10	behind	behind	ADP	PRP	_	11	case	_	_
+11	it	it	PRON	PNP	_	9	nmod	_	_
+
+1	and	and	CCONJ	CJC	_	6	cc	_	_
+2	there	there	ADV	EX0	_	6	advmod	_	_
+3	was	be	AUX	VBD	_	6	cop	_	_
+4	a	a	DET	AT0	_	6	det	_	_
+5	white	white	ADJ	AJ0	_	6	amod	_	_
+6	lady	lady	NOUN	NN1	_	0	root	_	_
+7	with	with	ADP	PRP	_	9	case	_	_
+8	a	a	DET	AT0	_	9	det	_	_
+9	dog	dog	NOUN	NN1	_	6	nmod	_	_
+10	(	(	PUNCT	PUL	_	12	punct	_	_
+11	of	of	ADP	PRF	_	12	case	_	_
+12	course	course	NOUN	NN1	_	6	nmod	_	_
+13	)	)	PUNCT	PUR	_	12	punct	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	dog	dog	NOUN	NN1	_	5	nsubj:pass	_	_
+4	was	be	AUX	VBD	_	5	aux:pass	_	_
+5	going	go	VERB	VVG	_	0	root	_	_
+6	after	after	ADP	PRP	_	8	case	_	_
+7	the	the	DET	AT0	_	8	det	_	_
+8	ball	ball	NOUN	NN1	_	5	obl	_	_
+
+1	but	but	CCONJ	CJC	_	5	cc	_	_
+2	the	the	DET	AT0	_	4	det	_	_
+3	white	white	ADJ	AJ0	_	4	amod	_	_
+4	lady	lady	NOUN	NN1	_	5	nsubj	_	_
+5	scooped	scoop	VERB	VVD	_	0	root	_	_
+6	up	up	ADP	AVP	_	5	compound:prt	_	_
+7	her	she	DET	DPS	_	8	det	_	_
+8	dog	dog	NOUN	NN1	_	5	obj	_	_
+9	in	in	ADP	PRP	_	14	case	_	_
+10	front	front	ADP	PRP	_	9	fixed	_	_
+11	of	of	ADP	PRF	_	14	case	_	_
+12	the	the	DET	AT0	_	14	det	_	_
+13	first	first	ADJ	ORD	_	14	amod	_	_
+14	car	car	NOUN	NN1	_	5	obl	_	_
+15	which	which	DET	DTQ	_	16	nsubj	_	_
+16	made	make	VERB	VVD	_	5	parataxis	_	_
+17	the	the	DET	AT0	_	20	det	_	_
+18	second	second	ADJ	ORD	_	20	amod	_	_
+19	car	car	NOUN	NN1	_	20	compound	_	_
+20	crash	crash	NOUN	NN1	_	16	obj	_	_
+21	into	into	ADP	PRP	_	22	case	_	_
+22	it	it	PRON	PNP	_	16	obl	_	_
+23	.	.	PUNCT	SENT	_	5	punct	_	_
+
+1	but	but	CCONJ	CJC	_	4	cc	_	_
+2	the	the	DET	AT0	_	4	det	_	_
+3	white	white	ADJ	AJ0	_	4	amod	_	_
+4	man	man	NOUN	NN1	_	0	root	_	_
+5	who	who	PRON	PNQ	_	6	nsubj	_	_
+6	lost	lose	VERB	VVD	_	4	acl:relcl	_	_
+7	the	the	DET	AT0	_	8	det	_	_
+8	ball	ball	NOUN	NN1	_	6	obj	_	_
+9	seemed	seem	VERB	VVD	_	6	xcomp	_	_
+10	nice	nice	ADJ	AJ0	_	9	xcomp	_	_
+
+1	helped	help	VERB	VVD	_	0	root	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	lady	lady	NOUN	NN1	_	6	nsubj	_	_
+4	with	with	ADP	PRP	_	5	case	_	_
+5	groceries	grocery	NOUN	NN2	_	3	nmod	_	_
+6	dropped	drop	VERB	VVN	_	1	ccomp	_	_
+
+1	and	and	CCONJ	CJC	_	2	cc	_	_
+2	checked	check	VERB	VVD	_	0	root	_	_
+3	on	on	ADP	PRP	_	5	case	_	_
+4	the	the	DET	AT0	_	5	det	_	_
+5	drivers	driver	NOUN	NN2	_	2	obl	_	_
+6	.	.	PUNCT	SENT	_	2	punct	_	_
+

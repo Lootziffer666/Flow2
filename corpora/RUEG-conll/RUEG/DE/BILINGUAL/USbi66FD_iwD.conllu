@@ -1,0 +1,69 @@
+# text = hi Lena !
+1	hi	hi	X	NGIRR	_	2	discourse	_	_
+2	Lena	Lena	PROPN	NE	_	0	root	_	_
+3	!	!	PUNCT	$.	_	2	punct	_	_
+
+# text = grade ist etwas richtiged verrückt passiert !
+1	gerade	gerade	ADV	ADJD	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	etwas	etwas	PRON	PIS	_	5	det	_	_
+4	richtiged	richtig	PROPN	ADV	_	5	mod	_	_
+5	verrückt	verrückt	ADJ	ADJD	_	2	subj	_	_
+6	passiert	passieren	ADJ	VVPP	_	2	comp:aux	_	_
+7	!	!	PUNCT	$.	_	2	punct	_	_
+
+# text = ich war auf einem Parkplatz
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	auf	auf	ADP	APPR	_	2	comp:pred	_	_
+4	einem	ein	DET	ART	_	5	det	_	_
+5	Parkplatz	Parkplatz	NOUN	NN	_	3	comp:obj	_	_
+
+# text = und es gab dort ein Autounfall !
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	_	3	subj@expl	_	_
+3	gab	geben	VERB	VVFIN	_	0	root	_	_
+4	dort	dort	ADV	ADV	_	3	mod	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Autounfall	Autounfall	NOUN	NN	_	3	comp:obj	_	_
+7	!	!	PUNCT	$.	_	3	punct	_	_
+
+# text = niemand ist verletzt
+1	niemand	niemand	PRON	PIS	_	2	subj	_	_
+2	ist	sein	AUX	VAFIN	_	0	root	_	_
+3	verletzt	verletzt	VERB	ADJD	_	2	comp:pred	_	_
+
+# text = aber dort waren ein Mann und seine Frau
+1	aber	aber	ADV	KON	_	3	cc	_	_
+2	dort	dort	ADV	ADV	_	3	comp:pred	_	_
+3	waren	sein	VERB	VAFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Mann	Mann	NOUN	NN	_	3	subj	_	_
+6	und	und	CCONJ	KON	_	8	cc	_	_
+7	seine	sein	DET	PPOSAT	_	8	det	_	_
+8	Frau	Frau	NOUN	NN	_	5	conj	_	_
+
+# text = und der Mann wäre beinah umgefahren geworden .
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Mann	Mann	NOUN	NN	_	4	subj@pass	_	_
+4	wäre	sein	ADJ	VAFIN	_	0	root	_	_
+5	beinah	beinah	ADJ	ADV	_	4	mod	_	_
+6	umgefahren	umfahren	NOUN	VVPP	_	7	comp:aux@pass	_	_
+7	geworden	werden	VERB	VAPP	_	4	comp:aux	_	_
+8	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = also mir ist nichts passiert
+1	also	also	ADV	SEDM	_	3	discourse	_	_
+2	mir	ich	PRON	PPER	_	5	comp:obj	_	_
+3	ist	sein	AUX	VAFIN	_	0	root	_	_
+4	nichts	nichts	PRON	PIS	_	3	subj	_	_
+5	passiert	passieren	VERB	VVPP	_	3	comp:aux	_	_
+
+# text = aber es war schon hectic
+1	aber	aber	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	_	3	subj@expl	_	_
+3	war	sein	VERB	VAFIN	_	0	root	_	_
+4	schon	schon	ADV	PTKMA	_	3	mod	_	_
+5	hectic	hectic	PROPN	FM	_	3	comp:pred	_	_
+

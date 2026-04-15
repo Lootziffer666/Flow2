@@ -1,0 +1,64 @@
+# text = Hi
+1	Hi	hi	X	NGIRR	_	0	root	_	_
+
+# text = war gerade Zeugin bei einem Unfall .
+1	war	sein	VERB	VAFIN	_	0	root	_	_
+2	gerade	gerade	ADV	ADJA	_	1	mod	_	_
+3	Zeugin	Zeugin	NOUN	NN	_	1	comp:pred	_	_
+4	bei	bei	ADP	APPR	_	3	mod	_	_
+5	einem	ein	DET	ART	_	6	det	_	_
+6	Unfall	Unfall	NOUN	NN	_	4	comp:obj	_	_
+7	.	.	PUNCT	$.	_	1	punct	_	_
+
+# text = ein Mann hat einen Ball fallen lassen
+1	ein	ein	DET	ART	_	2	det	_	_
+2	Mann	Mann	NOUN	NN	_	3	subj	_	_
+3	hat	haben	VERB	VAFIN	_	0	root	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	6	comp:obj	_	_
+6	fallen	fallen	VERB	VVINF	_	7	comp:obj	_	_
+7	lassen	lassen	VERB	VVINF	_	3	comp:aux	_	_
+
+# text = und ein Hund von der gegenüberliegenden Seite ist dahin gelaufen .
+1	und	und	CCONJ	KON	_	8	cc	_	_
+2	ein	ein	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	8	subj	_	_
+4	von	von	ADP	APPR	_	3	mod@poss	_	_
+5	der	d	DET	ART	_	7	det	_	_
+6	gegenüberliegenden	gegenüberliegend	ADJ	ADJA	_	7	mod	_	_
+7	Seite	Seite	NOUN	NN	_	4	comp:obj	_	_
+8	ist	sein	AUX	VAFIN	_	0	root	_	_
+9	dahin	dahin	ADV	ADV	_	10	comp:obl	_	_
+10	gelaufen	laufen	VERB	VVPP	_	8	comp:aux	_	_
+11	.	.	PUNCT	$.	_	8	punct	_	_
+
+# text = ein Auto , das auf den Parkplatz wollte musste eine Vollbremsung machen .
+1	ein	ein	DET	ART	_	2	det	_	_
+2	Auto	Auto	NOUN	NN	_	9	subj	_	_
+3	,	,	PUNCT	$,	_	9	punct	_	_
+4	das	die	PRON	PDS	_	8	subj	_	_
+5	auf	auf	ADP	APPR	_	8	comp:obl	_	_
+6	den	d	DET	ART	_	7	det	_	_
+7	Parkplatz	Parkplatz	NOUN	NN	_	5	comp:obj	_	_
+8	wollte	wollen	AUX	VMFIN	_	2	mod@relcl	_	_
+9	musste	müssen	AUX	VMFIN	_	0	root	_	_
+10	eine	ein	DET	ART	_	11	det	_	_
+11	Vollbremsung	Vollbremsung	NOUN	NN	_	12	comp:obj	_	_
+12	machen	machen	VERB	VVINF	_	9	comp:aux	_	_
+13	.	.	PUNCT	$.	_	9	punct	_	_
+
+# text = Das dahinter ist ihm reingefahren .
+1	Das	die	DET	PDS	_	3	subj	_	_
+2	dahinter	dahinter	ADV	ADV	_	1	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	ihm	er	PRON	PPER	_	5	comp:obj	_	_
+5	reingefahren	reingefahren	NOUN	VVPP	_	3	comp:aux	_	_
+6	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Es geht aber allen gut
+1	Es	es	PRON	PPER	_	2	subj@expl	_	_
+2	geht	gehen	VERB	VVFIN	_	0	root	_	_
+3	aber	aber	ADV	PTKMA	_	2	mod	_	_
+4	allen	alle	PRON	PIAT	_	2	comp:obj	_	_
+5	gut	gut	ADJ	ADJD	_	2	comp:pred	_	_
+

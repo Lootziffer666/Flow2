@@ -1,0 +1,125 @@
+# text = Am Mittwoch , 17.04.19 um 14:33 Uhr bin ich Zeugin eines Auffahrunfalls auf dem Parkplatz XY geworden .
+1	Am	an	PROPN	APPRART	_	17	mod	_	_
+2	Mittwoch	Mittwoch	PROPN	NN	_	1	comp:obj	_	_
+3	,	,	PUNCT	$,	_	4	punct	_	_
+4	17.04.19	@card@	NUM	CARD	_	2	appos	_	_
+5	um	um	ADP	APPR	_	17	mod	_	_
+6	14:33	14:33	_	CARD	_	7	mod	_	_
+7	Uhr	Uhr	NOUN	NN	_	5	comp:obj	_	_
+8	bin	sein	VERB	VAFIN	_	0	root	_	_
+9	ich	ich	PRON	PPER	_	8	subj	_	_
+10	Zeugin	Zeugin	NOUN	NN	_	17	comp:pred	_	_
+11	eines	ein	DET	ART	_	12	det	_	_
+12	Auffahrunfalls	Auffahrunfalls	NOUN	NN	_	10	mod@poss	_	_
+13	auf	auf	ADP	APPR	_	12	mod	_	_
+14	dem	d	DET	ART	_	15	det	_	_
+15	Parkplatz	Parkplatz	NOUN	NN	_	13	comp:obj	_	_
+16	XY	XY	PROPN	XY	_	15	appos	_	_
+17	geworden	werden	VERB	VAPP	_	8	comp:aux	_	_
+18	.	.	PUNCT	$.	_	8	punct	_	_
+
+# text = Zuerst konnte ich beobachten , wie ein Ehepaar mit Kinderwagen am Seitenrand entlang gegangen ist , wobei der Partner dabei mit einen Fußball gespielt hat , über den er dann die Kontrolle verliert -
+1	Zuerst	zuerst	ADV	ADV	_	2	mod	_	_
+2	konnte	können	AUX	VMFIN	_	0	root	_	_
+3	ich	ich	PRON	PPER	_	2	subj	_	_
+4	beobachten	beobachten	VERB	VVINF	_	2	comp:aux	_	_
+5	,	,	PUNCT	$,	_	2	punct	_	_
+6	wie	wie	ADP	PWAV	_	4	comp:obj	_	_
+7	ein	ein	DET	ART	_	8	det	_	_
+8	Ehepaar	Ehepaar	NOUN	NN	_	14	subj	_	_
+9	mit	mit	ADP	APPR	_	8	mod	_	_
+10	Kinderwagen	Kinderwagen	NOUN	NN	_	9	comp:obj	_	_
+11	am	an	ADJ	APPRART	_	13	comp:obl	_	_
+12	Seitenrand	Seitenrand	NOUN	NN	_	11	comp:obj	_	_
+13	entlanggegangen	entlanggehen	VERB	VVPP	_	14	comp:aux	_	_
+14	ist	sein	AUX	VAFIN	_	6	comp:obj	_	_
+15	,	,	PUNCT	$,	_	14	punct	_	_
+16	wobei	wobei	SCONJ	PWAV	_	24	mod	_	_
+17	der	d	DET	ART	_	18	det	_	_
+18	Partner	Partner	NOUN	NN	_	24	subj	_	_
+19	dabei	dabei	ADV	ADV	_	24	mod	_	_
+20	mit	mit	ADP	APPR	_	23	mod	_	_
+21	einen	ein	DET	ART	_	22	det	_	_
+22	Fußball	Fußball	NOUN	NN	_	20	comp:obj	_	_
+23	gespielt	spielen	VERB	VVPP	_	24	comp:aux	_	_
+24	hat	haben	AUX	VAFIN	_	13	mod	_	_
+25	,	,	PUNCT	$,	_	24	punct	_	_
+26	über	über	ADP	APPR	_	32	comp:obl	_	_
+27	den	d	PRON	PRELS	_	26	comp:obj	_	_
+28	er	er	PRON	PPER	_	32	subj	_	_
+29	dann	dann	ADV	ADV	_	32	mod	_	_
+30	die	d	DET	ART	_	31	det	_	_
+31	Kontrolle	Kontrolle	NOUN	NN	_	32	comp:obj	_	_
+32	verliert	verlieren	VERB	VVFIN	_	22	mod@relcl	_	_
+33	-	-	PUNCT	$(	_	2	punct	_	_
+
+# text = der Ball rollt auf die Fahrbahn , wo zum Einen ein Hund auf den Ball losstürmt und woraufhin ein anfahrendes blaues Auto scharf bremsen muss .
+1	der	d	DET	ART	_	2	det	_	_
+2	Ball	Ball	NOUN	NN	_	3	subj	_	_
+3	rollt	rollen	VERB	VVFIN	_	0	root	_	_
+4	auf	auf	ADP	APPR	_	3	comp:obl	_	_
+5	die	d	DET	ART	_	6	det	_	_
+6	Fahrbahn	Fahrbahn	NOUN	NN	_	4	comp:obj	_	_
+7	,	,	PUNCT	$,	_	3	punct	_	_
+8	wo	wo	ADV	PWAV	_	16	mod	_	_
+9	zum	zu	NOUN	APPRART	_	16	mod	_	_
+10	Einen	Ein	DET	PIDS	_	9	comp:obj	_	_
+11	ein	ein	DET	ART	_	12	det	_	_
+12	Hund	Hund	NOUN	NN	_	16	subj	_	_
+13	auf	auf	ADP	APPR	_	16	comp:obl	_	_
+14	den	d	DET	ART	_	15	det	_	_
+15	Ball	Ball	NOUN	NN	_	13	comp:obj	_	_
+16	losstürmt	losstürmen	VERB	VVPP	_	3	mod	_	_
+17	und	und	CCONJ	KON	_	18	cc	_	_
+18	woraufhin	woraufhin	ADV	PWAV	_	3	mod	_	_
+19	ein	ein	DET	ART	_	22	det	_	_
+20	anfahrendes	anfahrende	ADJ	ADJA	_	22	mod	_	_
+21	blaues	blau	ADJ	ADJA	_	22	mod	_	_
+22	Auto	Auto	NOUN	NN	_	25	subj	_	_
+23	scharf	scharf	ADJ	ADJD	_	25	mod	_	_
+24	bremsen	bremsen	VERB	VVINF	_	25	comp:aux	_	_
+25	muss	müssen	AUX	VMFIN	_	18	comp:obj	_	_
+26	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Daraufhin bleibt für den Autofahrer hinter dem blauen Auto ( weißes Auto ) nicht genug Zeit , um ebenfalls abzubremsen
+1	Daraufhin	daraufhin	ADV	ADV	_	2	mod	_	_
+2	bleibt	bleiben	VERB	VVFIN	_	0	root	_	_
+3	für	für	ADP	VVFIN	_	2	mod	_	_
+4	den	d	DET	ART	_	5	det	_	_
+5	Autofahrer	Autofahrer	NOUN	NN	_	3	comp:obj	_	_
+6	hinter	hinter	ADP	APPR	_	5	mod	_	_
+7	dem	d	DET	ART	_	9	det	_	_
+8	blauen	blau	ADJ	ADJA	_	9	mod	_	_
+9	Auto	Auto	NOUN	NN	_	6	comp:obj	_	_
+10	(	(	PUNCT	$(	_	12	punct	_	_
+11	weißes	weiße	ADJ	ADJA	_	12	mod	_	_
+12	Auto	Auto	NOUN	NN	_	5	appos	_	_
+13	)	)	PUNCT	$(	_	12	punct	_	_
+14	nicht	nicht	PART	PTKNEG	_	2	mod	_	_
+15	genug	genug	ADV	PTKMWL	_	16	mod	_	_
+16	Zeit	Zeit	NOUN	NN	_	2	comp:obj	_	_
+17	,	,	PUNCT	$,	_	2	punct	_	_
+18	um	um	ADP	KOUI	_	2	mod	_	_
+19	ebenfalls	ebenfalls	ADV	ADV	_	20	mod	_	_
+20	abzubremsen	abbremsen	PROPN	VVIZU	_	18	comp:obj	_	_
+
+# text = und es kommt zu einem Auffahrunfall .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	_	3	subj@expl	_	_
+3	kommt	kommen	VERB	VVFIN	_	0	root	_	_
+4	zu	zu	ADP	APPR	_	3	comp:obl	_	_
+5	einem	ein	DET	ART	_	6	det	_	_
+6	Auffahrunfall	Auffahrunfall	NOUN	NN	_	4	comp:obj	_	_
+7	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Die Polizei wurde von den Beteiligten selbst gerufen .
+1	Die	d	DET	ART	_	2	det	_	_
+2	Polizei	Polizei	NOUN	NN	_	3	subj@pass	_	_
+3	wurde	werden	AUX	VAFIN	_	0	root	_	_
+4	von	von	ADP	APPR	_	8	comp:obl	_	_
+5	den	d	DET	ART	_	6	det	_	_
+6	Beteiligten	Beteiligte	NOUN	NN	_	4	comp:obj	_	_
+7	selbst	selbst	ADV	ADV	_	6	mod	_	_
+8	gerufen	rufen	VERB	VVPP	_	3	comp:aux@pass	_	_
+9	.	.	PUNCT	$.	_	3	punct	_	_
+

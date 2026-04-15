@@ -1,0 +1,168 @@
+# text = also Albert
+1	also	also	ADV	SEDM	_	2	discourse	_	_
+2	Albert	Albert	PROPN	NE	_	0	root	_	_
+
+# text = du glaubst nicht was mir heute passiert ist
+1	du	du	PRON	PPER	_	2	subj	_	_
+2	glaubst	glauben	ADV	VVFIN	_	0	root	_	_
+3	nicht	nicht	PART	PTKNEG	_	2	mod	_	_
+4	was	was	VERB	PWS	_	8	subj	_	_
+5	mir	ich	PRON	PPER	_	7	comp:obj	_	_
+6	heute	heute	ADV	ADV	_	8	mod	_	_
+7	passiert	passieren	ADJ	VVPP	_	8	comp:aux	_	_
+8	ist	sein	VERB	VAFIN	_	2	comp:obj	_	_
+
+# text = ich laufe so auf dem Parkplatz
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	laufe	laufen	VERB	VVFIN	_	0	root	_	_
+3	so	so	ADV	ADV	_	2	mod	_	_
+4	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+5	dem	d	DET	ART	_	6	det	_	_
+6	Parkplatz	Parkplatz	NOUN	NN	_	4	comp:obj	_	_
+
+# text = und da ist so eine Frau irgendwie mit einem Kinderwagen und irgendein Junge mit so einem Fußball
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	comp:pred	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	so	so	ADV	PTKIFG	_	6	mod	_	_
+5	eine	ein	DET	ART	_	6	det	_	_
+6	Frau	Frau	NOUN	NN	_	3	subj	_	_
+7	irgendwie	irgendwie	ADV	ADV	_	3	mod	_	_
+8	mit	mit	ADP	APPR	_	6	mod	_	_
+9	einem	ein	DET	ART	_	10	det	_	_
+10	Kinderwagen	Kinderwagen	NOUN	NN	_	8	comp:obj	_	_
+11	und	und	CCONJ	KON	_	13	cc	_	_
+12	irgendein	irgendein	PRON	PIAT	_	13	det	_	_
+13	Junge	Junge	ADJ	NGIRR	_	6	conj	_	_
+14	mit	mit	ADP	APPR	_	13	mod	_	_
+15	so	so	ADV	PTKIFG	_	17	mod	_	_
+16	einem	ein	NUM	ART	_	17	det	_	_
+17	Fußball	Fußball	NOUN	NN	_	14	comp:obj	_	_
+
+# text = und der spielt
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	der	d	PRON	PDS	_	3	subj	_	_
+3	spielt	spielen	VERB	VVFIN	_	0	root	_	_
+
+# text = und dann irgendwie rollt der Ball so auf die Straße
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	dann	dann	ADV	ADV	_	4	mod	_	_
+3	irgendwie	irgendwie	ADV	ADV	_	4	mod	_	_
+4	rollt	rollen	VERB	VVFIN	_	0	root	_	_
+5	der	d	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	4	subj	_	_
+7	so	so	ADV	ADV	_	4	mod	_	_
+8	auf	auf	ADP	APPR	_	4	comp:obl	_	_
+9	die	d	DET	ART	_	10	det	_	_
+10	Straße	Straße	NOUN	NN	_	8	comp:obj	_	_
+
+# text = und in dem Moment kommt von der anderen Seite so eine Frau mit einem kleinen Hund
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	in	in	ADP	APPR	_	5	mod	_	_
+3	dem	d	DET	ART	_	4	det	_	_
+4	Moment	Moment	NOUN	NN	_	2	comp:obj	_	_
+5	kommt	kommen	VERB	VVFIN	_	0	root	_	_
+6	von	von	ADP	APPR	_	5	comp:obl	_	_
+7	der	d	DET	ART	_	9	det	_	_
+8	anderen	ander	ADJ	PIDAT	_	9	mod	_	_
+9	Seite	Seite	NOUN	NN	_	6	comp:obj	_	_
+10	so	so	ADV	PTKIFG	_	12	mod	_	_
+11	eine	ein	DET	ART	_	12	det	_	_
+12	Frau	Frau	NOUN	NN	_	5	subj	_	_
+13	mit	mit	ADP	APPR	_	12	mod	_	_
+14	einem	ein	DET	ART	_	16	det	_	_
+15	kleinen	klein	ADJ	ADJA	_	16	mod	_	_
+16	Hund	Hund	NOUN	NN	_	13	comp:obj	_	_
+
+# text = und der Hund rennt dann so zu dem Ball auf auf die Straße
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	4	subj	_	_
+4	rennt	rennen	VERB	VVFIN	_	0	root	_	_
+5	dann	dann	ADV	ADV	_	4	mod	_	_
+6	so	so	ADV	ADV	_	4	mod	_	_
+7	zu	zu	ADP	APPR	_	4	comp:obl	_	_
+8	dem	d	DET	ART	_	9	det	_	_
+9	Ball	Ball	NOUN	NN	_	7	comp:obj	_	_
+10	auf	auf	ADP	APPR	_	11	reparandum	_	_
+11	auf	auf	ADP	APPR	_	4	mod	_	_
+12	die	d	DET	ART	_	13	det	_	_
+13	Straße	Straße	NOUN	NN	_	11	comp:obj	_	_
+
+# text = und gleichzeitig kommt ein Auto um die Kurve
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	gleichzeitig	gleichzeitig	ADJ	ADJD	_	3	mod	_	_
+3	kommt	kommen	VERB	VVFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Auto	Auto	NOUN	NN	_	3	subj	_	_
+6	um	um	ADP	APPR	_	3	comp:obl	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Kurve	Kurve	PROPN	NN	_	6	comp:obj	_	_
+
+# text = und äh bremst voll
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	äh	äh	ADJ	NGHES	_	3	discourse	_	_
+3	bremst	bremsen	ADV	VVFIN	_	0	root	_	_
+4	voll	voll	ADJ	PTKIFG	_	3	mod	_	_
+
+# text = und dann fährt einem einer der äh einer dem Auto hinten rein so
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	fährt	fahren	VERB	VVFIN	_	0	root	_	_
+4	einem	ein	DET	PIS	_	5	reparandum	_	_
+5	einer	ein	PRON	PIS	_	6	reparandum	_	_
+6	der	d	DET	PDS	_	8	reparandum	_	_
+7	äh	äh	NOUN	NGHES	_	3	discourse	_	_
+8	einer	ein	PRON	PIS	_	3	subj	_	_
+9	dem	d	DET	ART	_	10	det	_	_
+10	Auto	Auto	NOUN	NN	_	3	comp:obj	_	_
+11	hinten	hinten	ADV	ADV	_	3	mod	_	_
+12	rein	rein	ADV	PTKVZ	_	3	compound@prt	_	_
+13	so	so	ADV	ADV	_	3	mod	_	_
+
+# text = und irgendwie dann waren die alle voll aufgeregt
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	irgendwie	irgendwie	ADV	ADV	_	4	mod	_	_
+3	dann	dann	ADV	ADV	_	4	mod	_	_
+4	waren	sein	VERB	VAFIN	_	0	root	_	_
+5	die	d	DET	PDS	_	4	subj	_	_
+6	alle	alle	PRON	PIS	_	5	appos	_	_
+7	voll	voll	ADJ	PTKIFG	_	8	mod	_	_
+8	aufgeregt	aufgeregt	ADJ	ADJD	_	4	comp:pred	_	_
+
+# text = und die Einkäufe sind heruntergefallen
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Einkäufe	Einkauf	NOUN	NN	_	4	subj	_	_
+4	sind	sein	AUX	VAFIN	_	0	root	_	_
+5	heruntergefallen	herunterfallen	VERB	VVPP	_	4	comp:aux	_	_
+
+# text = ich glaube die haben dann die Polizei gerufen
+1	ich	ich	PRON	PPER	_	2	subj	_	_
+2	glaube	glauben	VERB	VVFIN	_	0	root	_	_
+3	die	d	DET	PDS	_	4	subj	_	_
+4	haben	haben	AUX	VAFIN	_	2	comp:obj	_	_
+5	dann	dann	ADV	ADV	_	4	mod	_	_
+6	die	d	DET	ART	_	7	det	_	_
+7	Polizei	Polizei	NOUN	NN	_	8	comp:obj	_	_
+8	gerufen	rufen	VERB	VVPP	_	4	comp:aux	_	_
+
+# text = ja alles mega aufregend auf jeden Fall
+1	ja	ja	ADV	NGIRR	_	2	discourse	_	_
+2	alles	alle	PRON	PIS	_	0	root	_	_
+3	mega	mega	ADJ	PTKIFG	_	4	mod	_	_
+4	aufregend	aufregend	ADJ	ADJD	_	2	orphan	_	_
+5	auf	auf	ADP	APPR	_	2	orphan	_	_
+6	jeden	jede	PRON	PIDAT	_	7	det	_	_
+7	Fall	Fall	NOUN	NN	_	5	comp:obj	_	_
+
+# text = na gut äh
+1	na	na	PROPN	NGIRR	_	2	discourse	_	_
+2	gut	gut	ADJ	NGIRR	_	0	root	_	_
+3	äh	äh	ADV	NGHES	_	2	discourse	_	_
+
+# text = bis bald tschüss
+1	bis	bis	ADP	APPR	_	0	root	_	_
+2	bald	bald	ADV	ADV	_	1	comp:obj	_	_
+3	tschüss	tschüss	PROPN	NGIRR	_	1	discourse	_	_
+

@@ -1,0 +1,73 @@
+1	I	i	PRON	PNP	_	3	nsubj	_	_
+2	just	just	ADV	AV0	_	3	advmod	_	_
+3	saw	see	VERB	VVD	_	0	root	_	_
+4	an	an	DET	AT0	_	6	det	_	_
+5	actual	actual	ADJ	AJ0	_	6	amod	_	_
+6	accident	accident	NOUN	NN1	_	3	obj	_	_
+7	in	in	ADP	PRP	_	10	case	_	_
+8	the	the	DET	AT0	_	10	det	_	_
+9	parking	parking	NOUN	NN1	_	10	compound	_	_
+10	lot	lot	NOUN	NN1	_	6	nmod	_	_
+11	.	.	PUNCT	SENT	_	3	punct	_	_
+
+1	A	a	DET	AT0	_	2	det	_	_
+2	dog	dog	NOUN	NN1	_	3	nsubj	_	_
+3	ran	run	VERB	VVD	_	0	root	_	_
+4	into	into	ADP	PRP	_	6	case	_	_
+5	the	the	DET	AT0	_	6	det	_	_
+6	road	road	NOUN	NN1	_	3	obl	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	this	this	DET	DT0	_	3	det	_	_
+3	car	car	NOUN	NN1	_	5	nsubj	_	_
+4	got	get	VERB	VVD	_	5	aux	_	_
+5	rear-ended	rear-end	VERB	VVN	_	0	root	_	_
+6	!	!	PUNCT	SENT	_	5	punct	_	_
+
+1	A	a	DET	AT0	_	2	det	_	_
+2	guy	guy	NOUN	NN1	_	3	nsubj	_	_
+3	dropped	drop	VERB	VVD	_	0	root	_	_
+4	his	he	DET	DPS	_	5	det	_	_
+5	ball	ball	NOUN	NN1	_	3	obj	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	this	this	DET	DT0	_	3	det	_	_
+3	lady	lady	NOUN	NN1	_	5	nmod:poss	_	_
+4	's	's	PART	POS	_	3	case	_	_
+5	dog	dog	NOUN	NN1	_	0	root	_	_
+6	ran	run	VERB	VVD	_	5	acl	_	_
+7	into	into	ADP	PRP	_	9	case	_	_
+8	the	the	DET	AT0	_	9	det	_	_
+9	road	road	NOUN	NN1	_	6	obl	_	_
+10	.	.	PUNCT	SENT	_	5	punct	_	_
+
+1	The	the	DET	AT0	_	2	det	_	_
+2	car	car	NOUN	NN1	_	3	nsubj	_	_
+3	coming	come	VERB	VVG	_	0	root	_	_
+4	down	down	ADP	PRP	_	6	case	_	_
+5	the	the	DET	AT0	_	6	det	_	_
+6	road	road	NOUN	NN1	_	3	obl	_	_
+7	hit	hit	VERB	VVD	_	6	acl	_	_
+8	his	he	DET	DPS	_	9	det	_	_
+9	brakes	brake	NOUN	NN2	_	7	obj	_	_
+10	fast	fast	ADV	AV0	_	7	advmod	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	car	car	NOUN	NN1	_	5	nsubj	_	_
+4	behind	behind	ADV	AV0	_	5	advmod	_	_
+5	slammed	slam	VERB	VVD	_	0	root	_	_
+6	into	into	ADP	PRP	_	7	case	_	_
+7	him	he	PRON	PNP	_	5	obl	_	_
+8	.	.	PUNCT	SENT	_	5	punct	_	_
+
+1	Everyone	everyone	PRON	PNI	_	3	nsubj	_	_
+2	was	be	AUX	VBD	_	3	cop	_	_
+3	fine	fine	ADJ	AJ0	_	0	root	_	_
+
+1	but	but	CCONJ	CJC	_	4	cc	_	_
+2	it	it	PRON	PNP	_	4	nsubj	_	_
+3	was	be	AUX	VBD	_	4	cop	_	_
+4	crazy	crazy	ADJ	AJ0	_	0	root	_	_
+5	.	.	PUNCT	SENT	_	4	punct	_	_
+

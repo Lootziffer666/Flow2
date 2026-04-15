@@ -1,0 +1,122 @@
+1	hello	hello	INTJ	ITJ	_	0	root	_	_
+
+1	I	i	PRON	PNP	_	3	nsubj	_	_
+2	am	be	AUX	VBB	_	3	cop	_	_
+3	witness	witness	NOUN	NN1	_	4	parataxis	_	_
+4	one	one	NUM	CRD	_	0	root	_	_
+5	for	for	ADP	PRP	_	9	case	_	_
+6	the	the	DET	AT0	_	9	det	_	_
+7	F16	F16	PROPN	NP0	_	9	compound	_	_
+8	traffic	traffic	NOUN	NN1	_	9	compound	_	_
+9	accident	accident	NOUN	NN1	_	4	nmod	_	_
+10	.	.	PUNCT	SENT	_	4	punct	_	_
+
+1	if	if	SCONJ	CJS	_	4	mark	_	_
+2	it	it	PRON	PNP	_	4	nsubj	_	_
+3	is	be	AUX	VBZ	_	4	cop	_	_
+4	alright	alright	ADJ	AJ0	_	7	advcl	_	_
+5	I	i	PRON	PNP	_	7	nsubj	_	_
+6	will	will	AUX	VM0	_	7	aux	_	_
+7	explain	explain	VERB	VVI	_	0	root	_	_
+8	what	what	DET	DTQ	_	10	nsubj	_	_
+9	has	have	AUX	VHZ	_	10	aux	_	_
+10	happened	happen	VERB	VVN	_	7	acl:relcl	_	_
+11	.	.	PUNCT	SENT	_	7	punct	_	_
+
+1	as	as	SCONJ	CJS	_	4	mark	_	_
+2	I	i	PRON	PNP	_	4	nsubj	_	_
+3	was	be	AUX	VBD	_	4	cop	_	_
+4	walking	walk	VERB	VVG	_	6	advcl	_	_
+5	I	i	PRON	PNP	_	6	nsubj	_	_
+6	saw	see	VERB	VVD	_	0	root	_	_
+7	a	a	DET	AT0	_	8	det	_	_
+8	man	man	NOUN	NN1	_	10	nmod:poss	_	_
+9	's	's	PART	POS	_	8	case	_	_
+10	soccer	soccer	NOUN	NN1	_	6	obl	_	_
+11	ball	ball	NOUN	NN1	_	10	appos	_	_
+12	fall	fall	VERB	VVI	_	11	acl	_	_
+13	into	into	ADP	PRP	_	15	case	_	_
+14	the	the	DET	AT0	_	15	det	_	_
+15	street	street	NOUN	NN1	_	12	obl	_	_
+16	.	.	PUNCT	SENT	_	6	punct	_	_
+
+1	suddenly	suddenly	ADV	AV0	_	3	advmod	_	_
+2	a	a	DET	AT0	_	3	det	_	_
+3	woman	woman	NOUN	NN1	_	0	root	_	_
+4	who	who	PRON	PNQ	_	6	nsubj	_	_
+5	was	be	AUX	VBD	_	6	cop	_	_
+6	unpacking	unpack	VERB	VVG	_	3	acl:relcl	_	_
+7	her	she	DET	DPS	_	8	det	_	_
+8	groceries	grocery	NOUN	NN2	_	6	obj	_	_
+
+1	pet	pet	NOUN	NN1	_	2	nsubj	_	_
+2	began	begin	VERB	VVD	_	0	root	_	_
+3	to	to	PART	TO0	_	4	mark	_	_
+4	act	act	VERB	VVI	_	2	xcomp	_	_
+5	hyper	hyper	ADV	AV0	_	4	advmod	_	_
+6	.	.	PUNCT	SENT	_	2	punct	_	_
+
+1	Her	she	DET	DPS	_	2	det	_	_
+2	groceries	grocery	NOUN	NN2	_	3	nsubj	_	_
+3	fell	fall	VERB	VVD	_	0	root	_	_
+4	out	out	ADP	PRP	_	7	case	_	_
+5	of	of	ADP	PRF	_	7	case	_	_
+6	the	the	DET	AT0	_	7	det	_	_
+7	bag	bag	NOUN	NN1	_	3	obl	_	_
+8	.	.	PUNCT	SENT	_	3	punct	_	_
+
+1	A	a	DET	AT0	_	3	det	_	_
+2	blue	blue	ADJ	AJ0	_	3	amod	_	_
+3	van	van	NOUN	NN1	_	5	nsubj	_	_
+4	was	be	AUX	VBD	_	5	cop	_	_
+5	driving	drive	VERB	VVG	_	0	root	_	_
+
+1	but	but	CCONJ	CJC	_	3	cc	_	_
+2	thankfully	thankfully	ADV	AV0	_	3	advmod	_	_
+3	stopped	stop	VERB	VVD	_	0	root	_	_
+4	.	.	PUNCT	SENT	_	3	punct	_	_
+
+1	therefore	therefore	ADV	AV0	_	4	advmod	_	_
+2	nobody	nobody	PRON	PNI	_	4	nsubj	_	_
+3	was	be	AUX	VBD	_	4	cop	_	_
+4	hurt	hurt	VERB	VVN	_	0	root	_	_
+5	.	.	PUNCT	SENT	_	4	punct	_	_
+
+1	yet	yet	ADV	AV0	_	3	advmod	_	_
+2	I	i	PRON	PNP	_	3	nsubj	_	_
+3	believe	believe	VERB	VVB	_	0	root	_	_
+4	a	a	DET	AT0	_	5	det	_	_
+5	silver	silver	ADJ	AJ0	_	3	ccomp	_	_
+6	or	or	CCONJ	CJC	_	11	cc	_	_
+7	gray	gray	ADJ	AJ0	_	11	advmod	_	_
+8	car	car	NOUN	NN1	_	11	nsubj	_	_
+9	may	may	AUX	VM0	_	11	aux	_	_
+10	have	have	AUX	VHI	_	11	aux	_	_
+11	gotten	get	VERB	VVN	_	5	conj	_	_
+12	a	a	DET	AT0	_	13	det	_	_
+13	scratch	scratch	NOUN	NN1	_	11	obj	_	_
+14	.	.	PUNCT	SENT	_	3	punct	_	_
+
+1	the	the	DET	AT0	_	2	det	_	_
+2	owners	owner	NOUN	NN2	_	5	nsubj:pass	_	_
+3	are	be	AUX	VBB	_	5	aux:pass	_	_
+4	now	now	ADV	AV0	_	5	advmod	_	_
+5	calling	call	VERB	VVG	_	0	root	_	_
+6	911	911	PROPN	NP0	_	5	obl:tmod	_	_
+7	as	as	SCONJ	CJS	_	12	mark	_	_
+8	the	the	DET	AT0	_	10	det	_	_
+9	two	two	NUM	CRD	_	10	nummod	_	_
+10	people	people	NOUN	NN0	_	12	nsubj	_	_
+11	are	be	AUX	VBB	_	12	cop	_	_
+12	helping	help	VERB	VVG	_	5	advcl	_	_
+13	each	each	DET	DT0	_	14	det	_	_
+14	other	other	NOUN	NN1	_	12	obj	_	_
+15	.	.	PUNCT	SENT	_	5	punct	_	_
+
+1	this	this	DET	DT0	_	3	nsubj	_	_
+2	is	be	AUX	VBZ	_	3	cop	_	_
+3	all	all	DET	DT0	_	0	root	_	_
+4	I	i	PRON	PNP	_	5	nsubj	_	_
+5	witnessed	witness	VERB	VVD	_	3	acl:relcl	_	_
+6	.	.	PUNCT	SENT	_	3	punct	_	_
+

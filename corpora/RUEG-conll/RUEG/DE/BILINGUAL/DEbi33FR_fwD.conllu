@@ -1,0 +1,89 @@
+# text = ﻿Ein Mann lief auf dem Gehweg dieses Parkplatzes neben einer Frau mit Kinderwagen
+1	﻿Ein	﻿Ein	PROPN	_	_	2	det	_	_
+2	Mann	Mann	PROPN	_	_	3	subj	_	_
+3	lief	laufen	VERB	_	_	0	root	_	_
+4	auf	auf	ADP	_	_	3	comp:obl	_	_
+5	dem	d	DET	_	_	6	det	_	_
+6	Gehweg	Gehweg	NOUN	_	_	4	comp:obj	_	_
+7	dieses	diese	PRON	_	_	8	det	_	_
+8	Parkplatzes	Parkplatz	NOUN	_	_	6	mod@poss	_	_
+9	neben	neben	ADP	_	_	3	mod	_	_
+10	einer	ein	DET	_	_	11	det	_	_
+11	Frau	Frau	NOUN	_	_	9	comp:obj	_	_
+12	mit	mit	ADP	_	_	11	mod	_	_
+13	Kinderwagen	Kinderwagen	NOUN	_	_	12	comp:obj	_	_
+
+# text = und spielte mit einem Ball .
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	spielte	spielen	VERB	_	_	0	root	_	_
+3	mit	mit	ADP	_	_	2	mod	_	_
+4	einem	ein	DET	_	_	5	det	_	_
+5	Ball	Ball	NOUN	_	_	3	comp:obj	_	_
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# text = Als die beiden auf den Fahrweg abbogen rollte der Ball auf die Straße , auf die gerade ein Auto einfuhr .
+1	Als	als	SCONJ	_	_	8	mod	_	_
+2	die	d	DET	_	_	3	det	_	_
+3	beiden	beide	PRON	_	_	7	subj	_	_
+4	auf	auf	ADP	_	_	7	mod	_	_
+5	den	d	DET	_	_	6	det	_	_
+6	Fahrweg	Fahrweg	NOUN	_	_	4	comp:obj	_	_
+7	abbogen	abbogen	VERB	_	_	1	comp:obj	_	_
+8	rollte	rollen	AUX	_	_	0	root	_	_
+9	der	d	DET	_	_	10	det	_	_
+10	Ball	Ball	NOUN	_	_	8	subj	_	_
+11	auf	auf	ADP	_	_	8	comp:obl	_	_
+12	die	d	DET	_	_	13	det	_	_
+13	Straße	Straße	NOUN	_	_	11	comp:obj	_	_
+14	,	,	PUNCT	_	_	8	punct	_	_
+15	auf	auf	ADP	_	_	20	comp:obl	_	_
+16	die	d	PRON	_	_	15	comp:obj	_	_
+17	gerade	gerade	ADV	_	_	20	mod	_	_
+18	ein	ein	DET	_	_	19	det	_	_
+19	Auto	Auto	NOUN	_	_	20	subj	_	_
+20	einfuhr	einfahren	VERB	_	_	13	mod@relcl	_	_
+21	.	.	PUNCT	_	_	8	punct	_	_
+
+# text = Das Auto bremste stark ab
+1	Das	d	DET	_	_	2	det	_	_
+2	Auto	Auto	NOUN	_	_	3	subj	_	_
+3	bremste	bremsen	VERB	_	_	0	root	_	_
+4	stark	stark	ADJ	_	_	3	mod	_	_
+5	ab	ab	ADP	_	_	3	compound@prt	_	_
+
+# text = und das Auto dahinter prallte auf das voranfahrende Auto .
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	das	d	DET	_	_	3	det	_	_
+3	Auto	Auto	NOUN	_	_	5	subj	_	_
+4	dahinter	dahinter	ADV	_	_	3	mod	_	_
+5	prallte	prallen	VERB	_	_	0	root	_	_
+6	auf	auf	ADP	_	_	5	comp:obl	_	_
+7	das	d	DET	_	_	9	det	_	_
+8	voranfahrende	voranfahrende	ADJ	_	_	9	mod	_	_
+9	Auto	Auto	NOUN	_	_	6	comp:obj	_	_
+10	.	.	PUNCT	_	_	5	punct	_	_
+
+# text = Erschrocken vom Aufprall fiel einer Frau , die direkt vor dem Unfallort ihre Einkäufe einräumte , ihre Tasche auf den Boden .
+1	Erschrocken	erschrecken	NOUN	_	_	4	mod	_	_
+2	vom	vom	PROPN	_	_	1	mod	_	_
+3	Aufprall	Aufprall	PROPN	_	_	2	comp:obj	_	_
+4	fiel	fallen	VERB	_	_	0	root	_	_
+5	einer	ein	DET	_	_	6	det	_	_
+6	Frau	Frau	NOUN	_	_	4	comp:obj	_	_
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	die	die	PRON	_	_	15	subj	_	_
+9	direkt	direkt	ADJ	_	_	10	mod	_	_
+10	vor	vor	ADP	_	_	15	mod	_	_
+11	dem	d	DET	_	_	12	det	_	_
+12	Unfallort	Unfallort	NOUN	_	_	10	comp:obj	_	_
+13	ihre	ihr	DET	_	_	14	det	_	_
+14	Einkäufe	Einkäufe	NOUN	_	_	15	comp:obj	_	_
+15	einräumte	einräumte	VERB	_	_	6	mod@relcl	_	_
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	ihre	ihr	DET	_	_	18	det	_	_
+18	Tasche	Tasche	NOUN	_	_	4	subj	_	_
+19	auf	auf	ADP	_	_	4	comp:obl	_	_
+20	den	d	DET	_	_	21	det	_	_
+21	Boden	Boden	NOUN	_	_	19	comp:obj	_	_
+22	.	.	PUNCT	_	_	4	punct	_	_
+

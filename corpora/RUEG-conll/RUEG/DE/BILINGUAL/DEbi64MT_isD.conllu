@@ -1,0 +1,82 @@
+# text = ey Dicker
+1	ey	ey	PROPN	_	_	2	discourse	_	_
+2	Dicker	Dicker	PROPN	_	_	0	root	_	_
+
+# text = ich schwöre ich habe gerade einen Unfall gesehen
+1	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	schwöre	schwören	VERB	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	_
+4	habe	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
+5	gerade	gerade	ADV	_	_	4	mod	_	_
+6	einen	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Unfall	Unfall	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	8	comp:obj	_	_
+8	gesehen	sehen	VERB	_	Tense=Past|VerbForm=Part	4	comp:aux	_	_
+
+# text = yani keine Ahnung
+1	vallah	vallah	VERB	_	Number=Sing|Person=3|VerbForm=Fin	7	discourse	_	_
+2	eine	ein	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Frau	Frau	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	6	reparandum	_	_
+4	äh	äh	ADJ	_	Degree=Pos	7	discourse	_	_
+5	ihr	ihr	DET	_	Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	Hund	Hund	NOUN	_	Case=Acc|Number=Sing	7	subj	_	_
+7	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	einfach	einfach	ADJ	_	Degree=Pos	7	mod	_	_
+9	äh	äh	ADJ	_	Degree=Pos	7	discourse	_	_
+10	auf	auf	ADP	_	_	13	comp:obl	_	_
+11	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	10	comp:obj	_	_
+13	gelaufen	laufen	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	comp:aux	_	_
+
+# text = dann ist ein Auto einfach bei diese andere Auto einfach hinten rangefahren vallah
+1	dann	dann	ADV	_	_	2	mod	_	_
+2	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	_	Definite=Ind|PronType=Art	4	det	_	_
+4	Auto	Auto	NOUN	_	_	2	subj	_	_
+5	einfach	einfach	ADJ	_	Degree=Pos	2	mod	_	_
+6	bei	bei	ADP	_	_	12	comp:obl	_	_
+7	diese	dies	PRON	_	PronType=Dem	9	det	_	_
+8	andere	ander	PRON	_	PronType=Ind	9	det	_	_
+9	Auto	Auto	NOUN	_	_	6	comp:obj	_	_
+10	einfach	einfach	ADJ	_	Degree=Pos	2	mod	_	_
+11	hinten	hinten	ADV	_	_	2	mod	_	_
+12	rangefahren	reinfahren	VERB	_	Tense=Past|VerbForm=Fin	2	comp:aux	_	_
+13	vallah	vallah	ADJ	_	Degree=Pos	2	discourse	_	_
+
+# text = yani
+1	yani	yani	PROPN	_	_	0	root	_	_
+
+# text = Alter ich war geschockt
+1	Alter	Alter	NOUN	_	Case=Nom|Number=Sing	3	discourse	_	_
+2	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	war	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	geschockt	geschockt	VERB	_	Tense=Past|VerbForm=Part	3	comp:pred	_	_
+
+# text = ich sehe da eine Mann
+1	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	sehe	sehen	VERB	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	da	da	ADV	_	_	2	mod	_	_
+4	eine	ein	DET	_	Definite=Ind|PronType=Art	5	det	_	_
+5	Mann	Mann	NOUN	_	_	2	comp:obj	_	_
+
+# text = er ruft die Polizei
+1	er	er	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+2	ruft	rufen	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	die	d	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Polizei	Polizei	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	2	comp:obj	_	_
+
+# text = vallah ich wusste nicht was ich machen soll
+1	vallah	vallah	VERB	_	VerbForm=Fin	3	discourse	_	_
+2	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	wusste	wissen	ADJ	_	Tense=Past	0	root	_	_
+4	nicht	nicht	PART	_	_	3	mod	_	_
+5	was	was	VERB	_	_	7	comp:obj	_	_
+6	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	subj	_	_
+7	machen	machen	VERB	_	Tense=Pres|VerbForm=Inf	8	comp:aux	_	_
+8	soll	sollen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
+
+# text = yani keine Ahnung
+1	yani	yani	PROPN	_	Case=Nom|Number=Sing	3	discourse	_	_
+2	keine	kein	PRON	_	PronType=Neg	3	det	_	_
+3	Ahnung	Ahnung	NOUN	_	_	0	root	_	_
+
+

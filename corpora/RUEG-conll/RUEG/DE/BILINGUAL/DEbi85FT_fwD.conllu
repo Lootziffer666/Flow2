@@ -1,0 +1,96 @@
+# text = ﻿Auf der Straße fand ein Unfall statt .
+1	﻿Auf	﻿Auf	ADV	ADV	_	4	comp:obl	_	_
+2	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Straße	Straße	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	comp:obj	_	_
+4	fand	finden	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Unfall	Unfall	NOUN	NN	Case=Acc|Number=Sing	4	subj	_	_
+7	statt	statt	ADP	APPR	_	4	compound@prt	_	_
+8	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Zwei Autos sind aneinandergestoßen .
+1	Zwei	Zwei	NUM	CARD	NumType=Card	2	mod	_	_
+2	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	3	subj	_	_
+3	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	aneinandergestoßen	aneinanderstoßen	ADJ	VVPP	Degree=Pos|Tense=Past	3	comp:aux	_	_
+5	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Zuerst hat das blaue Auto die Richtung gewechselt .
+1	Zuerst	zuerst	ADV	ADV	_	2	mod	_	_
+2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+4	blaue	blau	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	mod	_	_
+5	Auto	Auto	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	subj	_	_
+6	die	d	DET	ART	Definite=Def|PronType=Art	7	det	_	_
+7	Richtung	Richtung	NOUN	NN	_	8	comp:obj	_	_
+8	gewechselt	wechseln	VERB	VVPP	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Hinter dem Auto war ein weißes Auto , was dem auch folgte .
+1	Hinter	hinter	ADP	APPR	_	4	comp:pred	_	_
+2	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Auto	Auto	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	1	comp:obj	_	_
+4	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+6	weißes	weiß	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc,Neut|Number=Sing	7	mod	_	_
+7	Auto	Auto	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	4	subj	_	_
+8	,	,	PUNCT	$,	_	4	punct	_	_
+9	was	was	PRON	PWS	Case=Nom|Number=Sing|PronType=Rel	12	subj	_	_
+10	dem	d	PRON	PDS	PronType=Rel	12	comp:obj	_	_
+11	auch	auch	ADV	PTKIFG	_	12	mod	_	_
+12	folgte	folgen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	mod@relcl	_	_
+13	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Plötzlich blieb das blaue Auto stehen
+1	Plötzlich	Plötzlich	ADJ	ADJA	Degree=Pos	2	mod	_	_
+2	blieb	bleiben	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	das	d	DET	ART	Definite=Def|PronType=Art	5	det	_	_
+4	blaue	blau	ADJ	ADJA	Degree=Pos	5	mod	_	_
+5	Auto	Auto	NOUN	NN	_	2	subj	_	_
+6	stehen	stehen	VERB	VVINF	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
+
+# text = und das weiße stoß gegen das blaue Auto .
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	das	d	DET	ART	Definite=Def|PronType=Art	3	det	_	_
+3	weiße	weiß	ADJ	ADJA	Degree=Pos	4	subj	_	_
+4	stoß	stoßen	ADJ	VVFIN	Tense=Past	0	root	_	_
+5	gegen	gegen	ADP	APPR	_	4	comp:obl	_	_
+6	das	d	DET	ART	Definite=Def|PronType=Art	8	det	_	_
+7	blaue	blau	ADJ	ADJA	Degree=Pos	8	mod	_	_
+8	Auto	Auto	NOUN	NN	_	5	comp:obj	_	_
+9	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Das blaue Auto kam zum Stand , da ein Ball auf die Straße kam .
+1	Das	d	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+2	blaue	blau	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	mod	_	_
+3	Auto	Auto	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	subj	_	_
+4	kam	kommen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	zum	zu	NOUN	APPRART	Case=Acc|Gender=Neut|Number=Sing	4	comp:obl	_	_
+6	Stand	Stand	NOUN	NN	_	5	comp:obj	_	_
+7	,	,	PUNCT	$,	_	4	punct	_	_
+8	da	da	SCONJ	ADV	_	4	mod	_	_
+9	ein	ein	DET	ART	Definite=Ind|PronType=Art	10	det	_	_
+10	Ball	Ball	NOUN	NN	_	14	subj	_	_
+11	auf	auf	ADP	APPR	_	14	comp:obl	_	_
+12	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	comp:obj	_	_
+14	kam	kommen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	comp:obj	_	_
+15	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Der Ball kam von den zwei Personen , die auf dem Gehweg liefen .
+1	Der	d	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Ball	Ball	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+3	kam	kommen	VERB	VVFIN	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	von	von	ADP	APPR	_	3	comp:obl	_	_
+5	den	d	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+6	zwei	zwei	NUM	CARD	NumType=Card	7	mod	_	_
+7	Personen	Person	NOUN	NN	Case=Dat|Number=Plur	4	comp:obj	_	_
+8	,	,	PUNCT	$,	_	3	punct	_	_
+9	die	d	PRON	PRELS	Case=Nom|PronType=Rel	13	subj	_	_
+10	auf	auf	ADP	APPR	_	13	comp:obl	_	_
+11	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Gehweg	Gehweg	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	10	comp:obj	_	_
+13	liefen	laufen	VERB	VVFIN	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	mod@relcl	_	_
+14	.	.	PUNCT	$.	_	13	punct	_	_
+
+

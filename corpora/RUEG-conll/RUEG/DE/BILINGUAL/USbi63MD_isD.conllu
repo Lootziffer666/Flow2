@@ -1,0 +1,55 @@
+# text = es ist grade ein Unfall hier passiert bei mir ganz in der Nähe
+1	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Unfall	Unfall	NOUN	NN	_	7	comp:obj	_	_
+6	hier	hier	ADV	ADV	_	2	mod	_	_
+7	passiert	passieren	VERB	VVPP	Number=Sing|Person=3|VerbForm=Fin	2	comp:aux	_	_
+8	bei	bei	ADP	APPR	_	7	mod	_	_
+9	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	comp:obj	_	_
+10	ganz	ganz	ADJ	PTKIFG	Degree=Pos	11	mod	_	_
+11	in	in	ADP	APPR	_	9	mod	_	_
+12	der	d	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Nähe	Nähe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	comp:obj	_	_
+
+# text = es ist grade ein Ball über die Straße gerollt
+1	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	2	subj	_	_
+6	über	über	ADP	APPR	_	9	comp:obl	_	_
+7	die	d	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	comp:obj	_	_
+9	gerollt	rollen	ADJ	VVPP	Degree=Pos	2	comp:aux	_	_
+
+# text = und da ist ein Hund dem Ball hinterhergerannt
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	da	da	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Hund	Hund	NOUN	NN	_	3	subj	_	_
+6	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Ball	Ball	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	8	comp:obj	_	_
+8	hinterhergerannt	hinterherrennen	ADJ	VVPP	_	3	comp:aux	_	_
+
+# text = und es sind dann zwei Autos ineinander reingefahren
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+3	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	zwei	zwei	NUM	CARD	NumType=Card	6	mod	_	_
+6	Autos	Auto	NOUN	NN	Case=Dat|Number=Plur	3	subj	_	_
+7	ineinander	ineinander	ADV	ADV	_	3	mod	_	_
+8	reingefahren	reinfahren	VERB	VVPP	VerbForm=Fin	3	comp:aux	_	_
+
+# text = ist aber gut dass nichts passiert ist
+1	ist	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	aber	aber	ADV	KON	_	1	cc	_	_
+3	gut	gut	ADJ	ADJD	Degree=Pos	1	comp:pred	_	_
+4	dass	dass	SCONJ	KOUS	_	3	comp:obj	_	_
+5	nichts	nichts	PRON	PIS	Case=Nom|Number=Sing|PronType=Neg	7	subj	_	_
+6	passiert	passieren	ADJ	VVPP	Degree=Pos	7	comp:aux	_	_
+7	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
+

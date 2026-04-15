@@ -1,0 +1,90 @@
+# text = Hallo Jan ,
+1	Hallo	hallo	PROPN	_	Case=Nom|Number=Sing	2	discourse	_	_
+2	Jan	Jan	PROPN	_	_	0	root	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+
+# text = ich war gerade Zeuge von einem Verkehrsunfall ! !
+1	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	war	sein	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	gerade	gerade	ADV	_	_	2	mod	_	_
+4	Zeuge	Zeuge	NOUN	_	_	2	comp:pred	_	_
+5	von	von	ADP	_	_	4	mod@poss	_	_
+6	einem	ein	DET	_	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Verkehrsunfall	Verkehrsunfall	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	5	comp:obj	_	_
+8	!	!	PUNCT	_	_	2	punct	_	_
+9	!	!	PUNCT	_	_	2	punct	_	_
+
+# text = Es waren nur zwei Autos beteiligt
+1	Es	es	PRON	_	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+2	waren	sein	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	nur	nur	ADV	_	_	2	mod	_	_
+4	zwei	zwei	NUM	_	NumType=Card	5	mod	_	_
+5	Autos	Auto	NOUN	_	Case=Nom|Number=Plur	2	subj@pass	_	_
+6	beteiligt	beteiligt	ADJ	_	_	2	comp:aux@pass	_	_
+
+# text = ( der eine ist dem anderen aufgefahren ) ,
+1	(	(	PUNCT	_	_	4	punct	_	_
+2	der	d	PRON	_	Case=Nom|PronType=Rel	3	det	_	_
+3	eine	ein	PRON	_	Case=Nom|PronType=Ind	4	subj	_	_
+4	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	dem	d	DET	_	Definite=Def|PronType=Art	6	det	_	_
+6	anderen	ander	ADJ	_	Degree=Pos	7	comp:obj	_	_
+7	aufgefahren	auffahren	NOUN	_	Tense=Past	4	comp:aux	_	_
+8	)	)	PUNCT	_	_	4	punct	_	_
+9	,	,	PUNCT	_	_	4	punct	_	_
+
+# text = aber außerdem waren noch ein Hund und ein Ball beteiligt ....
+1	aber	aber	ADV	_	_	3	cc	_	_
+2	außerdem	außerdem	ADV	_	_	3	mod	_	_
+3	waren	sein	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	noch	noch	ADV	_	_	3	mod	_	_
+5	ein	ein	DET	_	Definite=Ind|PronType=Art	6	det	_	_
+6	Hund	Hund	NOUN	_	_	3	subj	_	_
+7	und	und	CCONJ	_	_	9	cc	_	_
+8	ein	ein	DET	_	Definite=Ind|PronType=Art	9	det	_	_
+9	Ball	Ball	NOUN	_	_	6	conj	_	_
+10	beteiligt	beteiligt	ADJ	_	_	3	comp:aux	_	_
+11	....	....	PUNCT	_	_	3	discourse	_	_
+
+# text = Zum Glück ist dem Hund nichts passiert .... !
+1	Zum	zum	PROPN	_	_	7	mod	_	_
+2	Glück	Glück	NOUN	_	Case=Nom|Number=Sing	1	comp:obj	_	_
+3	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Hund	Hund	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	7	comp:obj	_	_
+6	nichts	nichts	PRON	_	Case=Acc|Number=Sing|PronType=Neg	3	subj	_	_
+7	passiert	passieren	ADJ	_	Degree=Pos|Tense=Past	3	comp:aux	_	_
+8	....	....	PUNCT	_	_	3	discourse	_	_
+9	!	!	PUNCT	_	_	3	punct	_	_
+
+# text = Die Besitzerin hatte ihn an der Leine , sodass er nicht direkt vors Auto rennen konnte ...
+1	Die	d	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Besitzerin	Besitzerin	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	3	subj	_	_
+3	hatte	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	ihn	er	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	_
+5	an	an	ADP	_	_	3	comp:obl	_	_
+6	der	d	DET	_	Definite=Def|PronType=Art	7	det	_	_
+7	Leine	Leine	NOUN	_	_	5	comp:obj	_	_
+8	,	,	PUNCT	_	_	3	punct	_	_
+9	sodass	sodass	SCONJ	_	_	3	mod	_	_
+10	er	er	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	subj	_	_
+11	nicht	nicht	PART	_	_	16	mod	_	_
+12	direkt	direkt	ADJ	_	Degree=Pos	13	mod	_	_
+13	vors	vor	PROPN	_	Case=Dat|Gender=Masc|Number=Plur	15	comp:obl	_	_
+14	Auto	Auto	NOUN	_	_	13	comp:obj	_	_
+15	rennen	rennen	VERB	_	Tense=Pres|VerbForm=Inf	16	comp:aux	_	_
+16	konnte	können	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	comp:obj	_	_
+17	...	...	PUNCT	_	_	3	discourse	_	_
+
+# text = Sonst wäre das bestimmt anders ausgegangen
+1	Sonst	Sonst	ADV	_	_	2	mod	_	_
+2	wäre	wäre	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	das	d	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	subj	_	_
+4	bestimmt	bestimmt	ADJ	_	_	2	mod	_	_
+5	anders	anders	ADV	_	_	2	mod	_	_
+6	ausgegangen	ausgehen	VERB	_	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+
+# text = :/
+1	:/	:/	PUNCT	_	_	0	root	_	_
+
+

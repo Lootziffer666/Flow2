@@ -1,0 +1,265 @@
+# text = Fallnummer F16
+1	Fallnummer	Fallnummer	NOUN	NN	_	0	root	_	_
+2	F16	F16	PROPN	NE	_	1	appos	_	_
+
+# text = Zeugenaussage zum Unfallhergang am 18.01.2019
+1	Zeugenaussage	Zeugenaussage	PROPN	NN	_	0	root	_	_
+2	zum	zu	PROPN	APPRART	_	1	mod	_	_
+3	Unfallhergang	Unfallhergang	PROPN	NN	_	2	comp:obj	_	_
+4	am	an	ADJ	APPRART	_	3	mod	_	_
+5	18.01.2019	18.01.2019	NUM	CARD	_	4	comp:obj	_	_
+
+# text = Aldi-Parkplatz
+1	Aldi-Parkplatz	Aldi-Parkplatz	NOUN	NN	_	0	root	_	_
+
+# text = {streetname}straße 178 .
+1	{streetname}straße	{streetname}straße	PROPN	NE	_	0	root	_	_
+2	178	178	NUM	CARD	_	1	appos	_	_
+3	.	.	null	$.	_	1	punct	_	_
+
+# text = Auffahrunfall ,
+1	Auffahrunfall	Auffahrunfall	NOUN	NN	_	0	root	_	_
+2	,	,	PUNCT	$,	_	1	punct	_	_
+
+# text = Sachschaden
+1	Sachschaden	Sachschaden	PROPN	NN	_	0	root	_	_
+
+# text = Sehr geehrte Damen und Herren ,
+1	Sehr	sehr	ADV	NN	_	2	mod	_	_
+2	geehrte	geehrt	ADJ	ADJA	_	3	mod	_	_
+3	Damen	Dame	NOUN	NN	_	0	root	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Herren	Herr	NOUN	NN	_	3	conj	_	_
+6	,	,	PUNCT	$,	_	3	punct	_	_
+
+# text = am 18.01.2018 bin ich Zeugin eines Unfalls geworden , zu dem ich an dieser Stelle schriftlich Stellung nehme .
+1	am	an	ADJ	APPRART	_	8	mod	_	_
+2	18.01.2018	18.01.2018	X	CARD	_	1	comp:obj	_	_
+3	bin	sein	VERB	VAFIN	_	0	root	_	_
+4	ich	ich	PRON	PPER	_	3	subj	_	_
+5	Zeugin	Zeugin	NOUN	NN	_	8	comp:pred	_	_
+6	eines	ein	DET	ART	_	7	det	_	_
+7	Unfalls	Unfall	NOUN	NN	_	5	mod@poss	_	_
+8	geworden	werden	VERB	VAPP	_	3	comp:aux	_	_
+9	,	,	PUNCT	$,	_	3	punct	_	_
+10	zu	zu	ADP	APPR	_	18	comp:obl	_	_
+11	dem	d	PRON	PRELS	_	10	comp:obj	_	_
+12	ich	ich	PRON	PPER	_	18	subj	_	_
+13	an	an	ADP	APPR	_	18	mod	_	_
+14	dieser	diese	PRON	PDAT	_	15	det	_	_
+15	Stelle	Stelle	NOUN	NN	_	13	comp:obj	_	_
+16	schriftlich	schriftlich	ADJ	ADJD	_	18	mod	_	_
+17	Stellung	Stellung	NOUN	NN	_	18	comp:obj	_	_
+18	nehme	nehmen	VERB	VVFIN	_	7	mod@relcl	_	_
+19	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Ich stand gerade auf dem Aldi-Parkplatz in der {streetname}straße 178 in 12589 Berlin
+1	Ich	ich	PRON	PPER	_	2	subj	_	_
+2	stand	stehen	VERB	VVFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	auf	auf	ADP	APPR	_	2	mod	_	_
+5	dem	d	DET	ART	_	6	det	_	_
+6	Aldi-Parkplatz	Aldi-Parkplatz	NOUN	NN	_	4	comp:obj	_	_
+7	in	in	ADP	APPR	_	6	mod	_	_
+8	der	d	DET	ART	_	9	det	_	_
+9	{streetname}straße	{streetname}straße	PROPN	NE	_	7	comp:obj	_	_
+10	178	178	NUM	CARD	_	9	appos	_	_
+11	in	in	ADP	FM	_	9	mod	_	_
+12	12589	12589	NUM	CARD	_	13	mod	_	_
+13	Berlin	Berlin	PROPN	NE	_	11	comp:obj	_	_
+
+# text = und wartete auf eine Freundin , als mir ein junges Paar mit Kinderwagen entgegenkam .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	wartete	warten	VERB	VVFIN	_	0	root	_	_
+3	auf	auf	ADP	APPR	_	2	comp:obl	_	_
+4	eine	ein	DET	ART	_	5	det	_	_
+5	Freundin	Freundin	NOUN	NN	_	3	comp:obj	_	_
+6	,	,	PUNCT	$,	_	2	punct	_	_
+7	als	als	SCONJ	KOUS	_	2	mod	_	_
+8	mir	ich	PRON	PPER	_	14	comp:obj	_	_
+9	ein	ein	DET	ART	_	11	det	_	_
+10	junges	jung	ADJ	ADJA	_	11	mod	_	_
+11	Paar	Paar	NOUN	NN	_	14	subj	_	_
+12	mit	mit	ADP	APPR	_	11	mod	_	_
+13	Kinderwagen	Kinderwagen	NOUN	NN	_	12	comp:obj	_	_
+14	entgegenkam	entgegenkommen	VERB	VVFIN	_	7	comp:obj	_	_
+15	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Auf der anderen Seite war eine Frau mit Hund gerade dabei ihre Einkäufe zu entladen .
+1	Auf	auf	ADP	APPR	_	5	mod	_	_
+2	der	d	DET	ART	_	4	det	_	_
+3	anderen	ander	ADJ	PIDAT	_	4	mod	_	_
+4	Seite	Seite	NOUN	NN	_	1	comp:obj	_	_
+5	war	sein	VERB	VAFIN	_	0	root	_	_
+6	eine	ein	DET	ART	_	7	det	_	_
+7	Frau	Frau	NOUN	NN	_	5	subj	_	_
+8	mit	mit	ADP	APPR	_	7	mod	_	_
+9	Hund	Hund	NOUN	NN	_	8	comp:obj	_	_
+10	gerade	gerade	ADV	ADV	_	5	mod	_	_
+11	dabei	dabei	ADV	PTKVZ	_	5	comp:pred	_	_
+12	ihre	ihr	DET	PPOSAT	_	13	det	_	_
+13	Einkäufe	Einkauf	NOUN	NN	_	15	comp:obj	_	_
+14	zu	zu	ADP	PTKZU	_	11	comp:obj	_	_
+15	entladen	entladen	NOUN	VVINF	_	14	comp:obj	_	_
+16	.	.	PUNCT	$.	_	5	punct	_	_
+
+# text = Der junge Mann hatte einen Ball dabei , den er immer auf den Boden prellte .
+1	Der	d	DET	ART	_	3	det	_	_
+2	junge	jung	ADJ	ADJA	_	3	mod	_	_
+3	Mann	Mann	NOUN	NN	_	4	subj	_	_
+4	hatte	haben	VERB	VAFIN	_	0	root	_	_
+5	einen	ein	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	4	comp:obj	_	_
+7	dabei	dabei	ADV	PTKVZ	_	4	compound@prt	_	_
+8	,	,	PUNCT	$,	_	4	punct	_	_
+9	den	d	PRON	PRELS	_	15	comp:obj	_	_
+10	er	er	PRON	PPER	_	15	subj	_	_
+11	immer	immer	ADV	ADV	_	15	mod	_	_
+12	auf	auf	ADP	APPR	_	15	comp:obl	_	_
+13	den	d	DET	ART	_	14	det	_	_
+14	Boden	Boden	NOUN	NN	_	12	comp:obj	_	_
+15	prellte	prellen	AUX	VVFIN	_	6	mod@relcl	_	_
+16	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Das Paar näherte sich dem parkenden Wagen der Frau mit Hund als dem jungen Mann der Ball plötzlich wegsprang und in Richtung des Hundes rollte .
+1	Das	d	DET	ART	_	2	det	_	_
+2	Paar	Paar	NOUN	NN	_	3	subj	_	_
+3	näherte	nähern	VERB	VVFIN	_	0	root	_	_
+4	sich	er|es|sie	PRON	PRF	_	3	comp:obj	_	_
+5	dem	d	DET	ART	_	7	det	_	_
+6	parkenden	parkend	ADJ	ADJA	_	7	mod	_	_
+7	Wagen	Wagen	NOUN	NN	_	3	comp:obl	_	_
+8	der	d	DET	ART	_	9	det	_	_
+9	Frau	Frau	NOUN	NN	_	7	mod@poss	_	_
+10	mit	mit	ADP	APPR	_	9	mod	_	_
+11	Hund	Hund	NOUN	NN	_	10	comp:obj	_	_
+12	als	als	ADP	KOUS	_	3	mod	_	_
+13	dem	d	DET	ART	_	15	det	_	_
+14	jungen	jung	ADJ	ADJA	_	15	mod	_	_
+15	Mann	Mann	NOUN	NN	_	19	comp:obj	_	_
+16	der	d	DET	ART	_	17	det	_	_
+17	Ball	Ball	NOUN	NN	_	19	subj	_	_
+18	plötzlich	plötzlich	ADJ	ADV	_	19	mod	_	_
+19	wegsprang	wegspringen	VERB	VVFIN	_	12	comp:obj	_	_
+20	und	und	CCONJ	KON	_	25	cc	_	_
+21	in	in	ADP	APPR	_	25	comp:obl	_	_
+22	Richtung	Richtung	NOUN	NN	_	21	comp:obj	_	_
+23	des	d	DET	ART	_	24	det	_	_
+24	Hundes	Hund	NOUN	NN	_	22	mod@poss	_	_
+25	rollte	rollen	VERB	VVFIN	_	19	conj	_	_
+26	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Zwei sich nähernde PKW mussten daraufhin scharf bremsen um dem Ball und vielmehr noch dem nach dem Ball schnappenden Hund auszuweichen .
+1	Zwei	Zwei	NUM	CARD	_	4	det	_	_
+2	sich	er|es|sie	PRON	PRF	_	3	comp:obj	_	_
+3	nähernde	nähernd	ADJ	ADJA	_	4	mod	_	_
+4	PKW	PKW	PROPN	NN	_	5	subj	_	_
+5	mussten	müssen	AUX	VMFIN	_	0	root	_	_
+6	daraufhin	daraufhin	ADV	ADV	_	5	mod	_	_
+7	scharf	scharf	ADJ	ADJD	_	5	mod	_	_
+8	bremsen	bremsen	VERB	VVINF	_	5	comp:aux	_	_
+9	um	um	ADP	KOUI	_	8	mod	_	_
+10	dem	d	DET	ART	_	11	det	_	_
+11	Ball	Ball	NOUN	NN	_	21	comp:obj	_	_
+12	und	und	CCONJ	KON	_	20	cc	_	_
+13	vielmehr	vielmehr	ADV	ADV	_	21	mod	_	_
+14	noch	noch	ADV	PTKMWL	_	21	mod	_	_
+15	dem	d	DET	ART	_	20	det	_	_
+16	nach	nach	ADP	APPR	_	19	comp:obl	_	_
+17	dem	d	DET	ART	_	18	det	_	_
+18	Ball	Ball	NOUN	NN	_	16	comp:obj	_	_
+19	schnappenden	schnappend	ADJ	ADJA	_	20	mod	_	_
+20	Hund	Hund	NOUN	NN	_	11	conj	_	_
+21	auszuweichen	auszuweichen	null	VVIZU	_	9	comp:obj	_	_
+22	.	.	_	$.	_	5	punct	_	_
+
+# text = Beide PKWs fuhren nicht in angemessener Geschwindigkeit auf dem Parkplatz .
+1	Beide	beide	PRON	NN	_	2	det	_	_
+2	PKWs	PKW	NOUN	NN	_	3	subj	_	_
+3	fuhren	fahren	VERB	VVFIN	_	0	root	_	_
+4	nicht	nicht	PART	PTKNEG	_	5	mod	_	_
+5	in	in	ADP	APPR	_	3	mod	_	_
+6	angemessener	angemessen	ADJ	ADJA	_	7	mod	_	_
+7	Geschwindigkeit	Geschwindigkeit	NOUN	NN	_	5	comp:obj	_	_
+8	auf	auf	ADP	APPR	_	3	comp:obl	_	_
+9	dem	d	DET	ART	_	10	det	_	_
+10	Parkplatz	Parkplatz	NOUN	NN	_	8	comp:obj	_	_
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Im Zuge der scharfen Bremsung fuhr der weiße Opel dem blauen Peugeot hinten auf .
+1	Im	in	PROPN	APPRART	_	6	mod	_	_
+2	Zuge	Zuge	NOUN	NN	_	1	comp:obj	_	_
+3	der	d	DET	ART	_	5	det	_	_
+4	scharfen	scharf	ADJ	ADJA	_	5	mod	_	_
+5	Bremsung	Bremsung	NOUN	NN	_	2	mod@poss	_	_
+6	fuhr	fahren	VERB	VVFIN	_	0	root	_	_
+7	der	d	DET	ART	_	9	det	_	_
+8	weiße	weiß	ADJ	ADJA	_	9	mod	_	_
+9	Opel	Opel	NOUN	NE	_	6	subj	_	_
+10	dem	d	DET	ART	_	12	det	_	_
+11	blauen	blau	ADJ	ADJA	_	12	mod	_	_
+12	Peugeot	Peugeot	NOUN	NE	_	6	comp:obj	_	_
+13	hinten	hinten	ADV	ADV	_	6	mod	_	_
+14	auf	auf	ADP	PTKVZ	_	6	compound@prt	_	_
+15	.	.	PUNCT	$.	_	6	punct	_	_
+
+# text = Es ist kein Personenschaden entstanden ,
+1	Es	es	PRON	PPER	_	2	subj@expl	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	kein	kein	PRON	PIAT	_	4	det	_	_
+4	Personenschaden	Personenschaden	NOUN	NN	_	2	subj	_	_
+5	entstanden	entstehen	VERB	VVPP	_	2	comp:aux	_	_
+6	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = alle Beteiligten blieben unverletzt ,
+1	alle	all	PRON	PIAT	_	2	det	_	_
+2	Beteiligten	Beteiligte	NOUN	NN	_	3	subj	_	_
+3	blieben	bleiben	VERB	VVFIN	_	0	root	_	_
+4	unverletzt	unverletzt	ADJ	ADJD	_	3	comp:pred	_	_
+5	,	,	PUNCT	$,	_	3	punct	_	_
+
+# text = jedoch ist ein Sachschaden an beiden Unfallautos entstanden / zu verzeichnen .
+1	jedoch	jedoch	ADV	ADV	_	2	mod	_	_
+2	ist	sein	VERB	VAFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Sachschaden	Sachschaden	NOUN	NN	_	2	subj	_	_
+5	an	an	ADP	APPR	_	8	comp:obl	_	_
+6	beiden	beide	PRON	PIDAT	_	7	det	_	_
+7	Unfallautos	Unfallautos	NOUN	NN	_	5	comp:obj	_	_
+8	entstanden	entstehen	VERB	VVPP	_	2	comp:aux	_	_
+9	/	/	PUNCT	$.	_	10	punct	_	_
+10	zu	zu	PART	PTKZU	_	2	conj	_	_
+11	verzeichnen	verzeichnen	VERB	VVINF	_	10	comp:obj	_	_
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Die Polizei wurde verständigt
+1	Die	d	DET	ART	_	2	det	_	_
+2	Polizei	Polizei	NOUN	NN	_	3	subj@pass	_	_
+3	wurde	werden	AUX	VAFIN	_	0	root	_	_
+4	verständigt	verständigen	VERB	VVPP	_	3	comp:aux@pass	_	_
+
+# text = und hat den Schaden aufgenommen .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	AUX	VAFIN	_	0	root	_	_
+3	den	d	DET	ART	_	4	det	_	_
+4	Schaden	Schaden	NOUN	NN	_	5	comp:obj	_	_
+5	aufgenommen	aufnehmen	VERB	VVPP	_	2	comp:aux	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Für weitere Fragen stehe ich Ihnen gerne zur Verfügung .
+1	Für	Für	ADP	APPR	_	4	mod	_	_
+2	weitere	weit	ADJ	ADJA	_	3	mod	_	_
+3	Fragen	Frage	NOUN	NN	_	1	comp:obj	_	_
+4	stehe	stehen	VERB	VVFIN	_	0	root	_	_
+5	ich	ich	PRON	PPER	_	4	subj	_	_
+6	Ihnen	Sie	PRON	PPER	_	4	comp:obj	_	_
+7	gerne	gerne	ADV	ADV	_	4	mod	_	_
+8	zur	zu	NOUN	APPRART	_	4	comp:obl	_	_
+9	Verfügung	Verfügung	NOUN	NN	_	8	comp:obj	_	_
+10	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Mit freundlichen Grüßen
+1	Mit	mit	ADP	APPR	_	0	root	_	_
+2	freundlichen	freundlich	ADJ	ADJA	_	3	mod	_	_
+3	Grüßen	Gruß	NOUN	NN	_	1	comp:obj	_	_
+

@@ -1,0 +1,85 @@
+1	oh	oh	INTJ	ITJ	_	3	discourse	_	_
+2	my	my	DET	DPS	_	3	det	_	_
+3	God	god	PROPN	NP0	_	0	root	_	_
+4	USbi50FD_P	USbi50FD_P	PROPN	NP0	_	3	flat	_	_
+
+1	I	i	PRON	PNP	_	3	nsubj	_	_
+2	just	just	ADV	AV0	_	3	advmod	_	_
+3	saw	see	VERB	VVD	_	0	root	_	_
+4	a	a	DET	AT0	_	5	det	_	_
+5	car	car	NOUN	NN1	_	7	nsubj	_	_
+6	get	get	VERB	VVI	_	7	aux	_	_
+7	rear-ended	rear-end	VERB	VVN	_	3	ccomp	_	_
+
+1	there	there	ADV	EX0	_	6	advmod	_	_
+2	was	be	AUX	VBD	_	6	cop	_	_
+3	this	this	DET	DT0	_	6	det	_	_
+4	really	really	ADV	AV0	_	5	advmod	_	_
+5	cute	cute	ADJ	AJ0	_	6	amod	_	_
+6	dog	dog	NOUN	NN1	_	0	root	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	he	he	PRON	PNP	_	3	nsubj	_	_
+3	ran	run	VERB	VVD	_	0	root	_	_
+4	out	out	ADP	PRP	_	3	compound:prt	_	_
+5	in	in	ADP	PRP	_	6	case	_	_
+6	front	front	NOUN	NN1	_	3	obl	_	_
+7	of	of	ADP	PRF	_	8	case	_	_
+8	it	it	PRON	PNP	_	6	nmod	_	_
+9	because	because	SCONJ	CJS	_	12	mark	_	_
+10	this	this	DET	DT0	_	11	det	_	_
+11	guy	guy	NOUN	NN1	_	12	nsubj	_	_
+12	dropped	drop	VERB	VVD	_	3	advcl	_	_
+13	his	his	DET	DPS	_	14	det	_	_
+14	ball	ball	NOUN	NN1	_	12	obj	_	_
+15	and	and	CCONJ	CJC	_	18	cc	_	_
+16	the	the	DET	AT0	_	17	det	_	_
+17	dog	dog	NOUN	NN1	_	18	nsubj	_	_
+18	chased	chase	VERB	VVD	_	3	conj	_	_
+19	it	it	PRON	PNP	_	18	obj	_	_
+20	onto	onto	ADP	PRP	_	22	case	_	_
+21	the	the	DET	AT0	_	22	det	_	_
+22	street	street	NOUN	NN1	_	18	obl	_	_
+
+1	and	and	CCONJ	CJC	_	6	cc	_	_
+2	then	then	ADV	AV0	_	6	advmod	_	_
+3	they	they	PRON	PNP	_	6	nsubj	_	_
+4	had	have	AUX	VHD	_	6	aux	_	_
+5	to	to	PART	TO0	_	6	mark	_	_
+6	pick	pick	VERB	VVI	_	0	root	_	_
+7	up	up	ADP	AVP	_	6	compound:prt	_	_
+8	the	the	DET	AT0	_	9	det	_	_
+9	groceries	grocery	NOUN	NN2	_	6	obj	_	_
+10	because	because	SCONJ	CJS	_	12	mark	_	_
+11	they	they	PRON	PNP	_	12	nsubj	_	_
+12	fell	fall	VERB	VVD	_	6	advcl	_	_
+13	over	over	ADP	AVP	_	12	compound:prt	_	_
+14	while	while	SCONJ	CJS	_	18	mark	_	_
+15	the	the	DET	AT0	_	16	det	_	_
+16	dog	dog	NOUN	NN1	_	18	nsubj:pass	_	_
+17	was	be	AUX	VBD	_	18	aux:pass	_	_
+18	running	run	VERB	VVG	_	12	advcl	_	_
+19	to	to	PART	TO0	_	20	mark	_	_
+20	get	get	VERB	VVI	_	18	advcl	_	_
+21	the	the	DET	AT0	_	22	det	_	_
+22	ball	ball	NOUN	NN1	_	20	obj	_	_
+
+1	and	and	CCONJ	CJC	_	4	cc	_	_
+2	everything	everything	PRON	PNI	_	4	nsubj	_	_
+3	's	be	AUX	VBZ	_	4	cop	_	_
+4	fine	fine	ADJ	AJ0	_	0	root	_	_
+
+1	they	they	PRON	PNP	_	3	nsubj	_	_
+2	already	already	ADV	AV0	_	3	advmod	_	_
+3	called	call	VERB	VVD	_	0	root	_	_
+4	the	the	DET	AT0	_	5	det	_	_
+5	police	police	NOUN	NN0	_	3	obj	_	_
+
+1	I	i	PRON	PNP	_	2	nsubj	_	_
+2	do	do	VERB	VVB	_	0	root	_	_
+3	not	not	PART	XX0	_	4	advmod	_	_
+4	know	know	VERB	VVI	_	2	xcomp	_	_
+5	what	what	DET	DTQ	_	7	nsubj	_	_
+6	else	else	ADV	AV0	_	5	advmod	_	_
+7	happened	happen	VERB	VVD	_	4	ccomp	_	_
+

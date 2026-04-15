@@ -1,0 +1,72 @@
+1	Lara	Lara	PROPN	NE	_	0	root	_	_
+2	,	,	PUNCT	$,	_	1	punct	_	_
+
+1	irgendein	irgendeine	PRON	PIAT	_	2	det	_	_
+2	Idiot	Idiot	NOUN	NN	_	3	subj	_	_
+3	hat	haben	AUX	VAFIN	_	0	root	_	_
+4	gerade	gerade	ADV	ADV	_	3	mod	_	_
+5	einen	ein	DET	ART	_	6	det	_	_
+6	Unfall	Unfall	NOUN	NN	_	7	comp:obj	_	_
+7	verursacht	verursachen	VERB	VVPP	_	3	comp:aux	_	_
+8	,	,	PUNCT	$,	_	3	punct	_	_
+9	weil	weil	SCONJ	KOUS	_	7	mod	_	_
+10	er	er	PRON	PPER	_	17	subj	_	_
+11	die	d	DET	ART	_	12	det	_	_
+12	Kontrolle	Kontrolle	NOUN	NN	_	16	comp:obj	_	_
+13	über	über	ADP	APPR	_	12	mod	_	_
+14	seinen	sein	DET	PPOSAT	_	15	det	_	_
+15	Fußball	Fußball	NOUN	NN	_	13	comp:obj	_	_
+16	verloren	verlieren	VERB	VVPP	_	17	comp:aux	_	_
+17	hat	haben	AUX	VAFIN	_	9	comp:obj	_	_
+18	-	-	PUNCT	$(	_	3	punct	_	_
+
+1	es	es	PRON	PPER	_	2	subj@expl	_	_
+2	ist	sein	AUX	VAFIN	_	0	root	_	_
+3	nichts	nichts	PRON	PIAT	_	4	det	_	_
+4	Schlimmes	Schlimme	NOUN	NN	_	2	subj	_	_
+5	passiert	passieren	VERB	VVPP	_	2	comp:aux	_	_
+6	,	,	PUNCT	$,	_	2	punct	_	_
+
+1	im	in	PROPN	APPRART	_	9	mod	_	_
+2	Endeffekt	Endeffekt	PROPN	NN	_	1	comp:obj	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	nur	nur	ADV	PTKIFG	_	3	mod	_	_
+5	einer	ein	PRON	ART	_	3	subj	_	_
+6	dem	d	DET	ART	_	7	det	_	_
+7	anderen	ander	ADJ	PIDS	_	9	comp:obj	_	_
+8	hinten	hinten	ADJ	ADV	_	3	mod	_	_
+9	draufgefahren	draufgefahren	NOUN	VVPP	_	3	comp:aux	_	_
+10	,	,	PUNCT	$,	_	3	punct	_	_
+
+1	aber	aber	ADV	KON	_	4	cc	_	_
+2	die	d	DET	ART	_	3	det	_	_
+3	Polizei	Polizei	NOUN	NN	_	4	subj	_	_
+4	musste	müssen	AUX	VMFIN	_	0	root	_	_
+5	trotzdem	trotzdem	ADV	ADV	_	4	mod	_	_
+6	kommen	kommen	VERB	VVINF	_	4	comp:aux	_	_
+7	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	hätte	haben	AUX	VAFIN	_	0	root	_	_
+2	auch	auch	ADV	PTKIFG	_	1	mod	_	_
+3	viel	viel	ADV	PIS	_	4	mod	_	_
+4	schlimmer	schlimm	ADJ	ADJD	_	1	mod	_	_
+5	kommen	kommen	VERB	VVINF	_	6	comp:aux	_	_
+6	können	können	AUX	VMINF	_	1	comp:aux	_	_
+7	,	,	PUNCT	$,	_	1	punct	_	_
+
+1	drumherum	drumherum	ADV	ADV	_	2	comp:pred	_	_
+2	waren	sein	VERB	VAFIN	_	0	root	_	_
+3	noch	noch	ADV	PTKMWL	_	2	mod	_	_
+4	Mutter	Mutter	NOUN	NN	_	2	subj	_	_
+5	mit	mit	ADP	APPR	_	4	mod	_	_
+6	Baby	Baby	PROPN	NN	_	5	comp:obj	_	_
+7	und	und	CCONJ	KON	_	8	cc	_	_
+8	Hund	Hund	PROPN	NN	_	6	conj	_	_
+9	-	-	PUNCT	$(	_	2	punct	_	_
+
+1	Männer	Mann	NOUN	NN	_	0	root	_	_
+2	und	und	CCONJ	KON	_	3	cc	_	_
+3	Bälle	Ball	NOUN	NN	_	1	conj	_	_
+
+1	:face_with_rolling_eyes:	🙄	SYM	EMO	_	0	root	_	_
+

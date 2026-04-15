@@ -1,0 +1,104 @@
+# text = Es gab ein paar Personen und auch eine Frau
+1	Es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+2	gab	geben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+4	paar	paar	PRON	PIDAT	Case=Acc|Number=Plur|PronType=Ind	5	mod	_	_
+5	Personen	Person	NOUN	NN	Case=Acc|Number=Plur	2	comp:obj	_	_
+6	und	und	CCONJ	KON	_	9	cc	_	_
+7	auch	auch	ADV	PTKIFG	_	9	mod	_	_
+8	eine	ein	DET	ART	Definite=Ind|PronType=Art	9	det	_	_
+9	Frau	Frau	NOUN	NN	_	5	conj	_	_
+
+# text = und die waren alle im einen Parkplatz .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	die	die	PRON	PDS	Case=Nom|PronType=Dem	3	subj	_	_
+3	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	alle	all	PRON	PIS	PronType=Tot	3	subj	_	_
+5	im	in	ADP	APPRART	_	3	comp:pred	_	_
+6	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Parkplatz	Parkplatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	comp:obj	_	_
+8	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Die zwei Personen läufte mit eine Baby
+1	Die	d	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+2	zwei	zwei	NUM	CARD	NumType=Card	3	mod	_	_
+3	Personen	Person	NOUN	NN	Case=Nom|Number=Plur	4	subj	_	_
+4	läufte	laufen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	mit	mit	ADP	APPR	_	4	mod	_	_
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Baby	Baby	NOUN	NN	_	5	comp:obj	_	_
+
+# text = und die Frau ist glaube ich gerade einkaufen gegangen .
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	subj	_	_
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	glaube	glauben	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	4	parataxis	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	subj	_	_
+7	gerade	gerade	ADV	ADV	_	4	mod	_	_
+8	einkaufen	einkaufen	VERB	VVINF	VerbForm=Inf	9	comp:obj	_	_
+9	gegangen	gehen	VERB	VVPP	VerbForm=Part	4	comp:aux	_	_
+10	.	.	PUNCT	$.	_	4	punct	_	_
+
+# text = Ein Auto ist im Parkplatz gefahren
+1	Ein	ein	DET	ART	Definite=Ind|PronType=Art	2	det	_	_
+2	Auto	Auto	NOUN	NN	_	3	subj	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	im	in	ADP	APPRART	Case=Nom|Number=Sing	6	comp:obl	_	_
+5	Parkplatz	Parkplatz	NOUN	NN	_	4	comp:obj	_	_
+6	gefahren	fahren	VERB	VVPP	VerbForm=Part	3	comp:aux	_	_
+
+# text = und musste ganz schnell stoppen weil die Frau im Weg war .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	musste	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ganz	ganz	ADV	PTKIFG	Degree=Pos	4	mod	_	_
+4	schnell	schnell	ADJ	ADJD	Degree=Pos	2	mod	_	_
+5	stoppen	stoppen	VERB	VVINF	VerbForm=Inf	2	comp:aux	_	_
+6	weil	weil	CCONJ	KOUS	_	5	mod	_	_
+7	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	subj	_	_
+9	im	in	ADP	APPRART	_	11	comp:pred	_	_
+10	Weg	Weg	NOUN	NN	_	9	comp:obj	_	_
+11	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	comp:obj	_	_
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Und dann ist ein zweites Auto im Parkplatz gefahren
+1	Und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	6	det	_	_
+5	zweites	zweit	ADJ	ORD	Degree=Pos|NumType=Ord	6	mod	_	_
+6	Auto	Auto	NOUN	NN	_	3	subj	_	_
+7	im	in	ADP	APPRART	_	9	comp:obl	_	_
+8	Parkplatz	Parkplatz	NOUN	NN	_	7	comp:obj	_	_
+9	gefahren	fahren	VERB	VVPP	VerbForm=Part	3	comp:aux	_	_
+
+# text = und ist im erstes Auto reingefahren .
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	im	in	ADP	APPRART	Case=Nom|Number=Sing	6	comp:obl	_	_
+4	erstes	erst	ADJ	ORD	Degree=Pos|NumType=Ord	5	mod	_	_
+5	Auto	Auto	NOUN	NN	_	3	comp:obj	_	_
+6	reingefahren	reinfahren	VERB	VVPP	VerbForm=Inf	2	comp:aux	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# text = Die Autofahrer müsste dann die Polizei anrufen ,
+1	Die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Autofahrer	Autofahrer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	subj	_	_
+3	müsste	müssen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	mod	_	_
+5	die	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	Polizei	Polizei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	comp:obj	_	_
+7	anrufen	anrufen	VERB	VVINF	VerbForm=Part	3	comp:aux	_	_
+8	,	,	PUNCT	$,	_	3	punct	_	_
+
+# text = aber eigentlich war es nicht so schlimm .
+1	aber	aber	CCONJ	KON	_	3	cc	_	_
+2	eigentlich	eigentlich	ADV	ADV	Degree=Pos	3	mod	_	_
+3	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+5	nicht	nicht	INTJ	PTKNEG	_	6	mod	_	_
+6	so	so	ADV	PTKIFG	_	7	mod	_	_
+7	schlimm	schlimm	ADJ	ADJD	Degree=Pos	3	comp:pred	_	_
+8	.	.	PUNCT	$.	_	3	punct	_	_
+

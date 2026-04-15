@@ -1,0 +1,102 @@
+1	na	na	PROPN	_	_	0	root	_	_
+
+1	:grinning_face:	😀	SYM	_	_	0	root	_	_
+
+1	Habe	Habe	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	gerade	gerade	ADV	_	_	1	mod	_	_
+3	einen	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Unfall	Unfall	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	comp:obj	_	_
+5	gesehen	sehen	VERB	_	Tense=Past|VerbForm=Part	1	comp:aux	_	_
+6	...	...	PUNCT	_	_	1	discourse	_	_
+
+1	Da	Da	SCONJ	_	_	0	root	_	_
+2	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:pred	_	_
+3	ein	ein	DET	_	Definite=Ind|PronType=Art	4	det	_	_
+4	Pärchen	Pärchen	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	2	subj	_	_
+5	mit	mit	ADP	_	_	4	mod	_	_
+6	Kinderwagen	Kinderwagen	NOUN	_	Case=Dat|Number=Plur	5	comp:obj	_	_
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+1	Der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Typ	Typ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	subj	_	_
+3	von	von	ADP	_	_	2	mod	_	_
+4	ihr	ihr	PRON	_	Case=Dat|Person=3|Poss=Yes|PronType=Prs	3	comp:obj	_	_
+5	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	mit	mit	ADP	_	_	9	mod	_	_
+7	einen	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Fußball	Fußball	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	6	comp:obj	_	_
+9	gespielt	spielen	VERB	_	Tense=Past|VerbForm=Part	5	comp:aux	_	_
+
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	der	die	PRON	_	Case=Nom|PronType=Dem	3	subj	_	_
+3	ist	sein	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	natürlich	natürlich	ADJ	_	Degree=Pos	3	mod	_	_
+5	auf	auf	ADP	_	_	8	comp:obl	_	_
+6	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Straße	Straße	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	comp:obj	_	_
+8	gerollt	rollen	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+
+1	:grinning_face_with_sweat:	😅	SYM	_	_	0	root	_	_
+
+1	möp	möp	NOUN	_	_	0	root	_	_
+2	...	...	PUNCT	_	_	1	discourse	_	_
+
+1	:rolling_on_the_floor_laughing:	🤣	NOUN	_	_	0	root	_	_
+
+1	:rolling_on_the_floor_laughing:	🤣	NOUN	_	_	0	root	_	_
+
+1	:rolling_on_the_floor_laughing:	🤣	NOUN	_	_	0	root	_	_
+
+1	Na	Na	PART	_	_	4	discourse	_	_
+2	ja	ja	ADV	_	_	1	fixed	_	_
+3	jedenfalls	jedenfalls	ADV	_	_	4	mod	_	_
+4	war	sein	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+5	auf	auf	ADP	_	_	11	comp:pred	_	_
+6	der	d	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	anderen	ander	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	mod	_	_
+8	Seite	Seite	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	5	comp:obj	_	_
+9	eine	eine	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Frau	Frau	NOUN	_	_	4	subj	_	_
+11	gewesen	sein	AUX	_	Tense=Past|VerbForm=Part	4	comp:aux	_	_
+12	mit	mit	ADP	_	_	10	mod	_	_
+13	Hund	Hund	NOUN	_	Case=Dat|Number=Sing	12	comp:obj	_	_
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+1	Der	die	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	subj	_	_
+2	rannte	rennen	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
+3	zum	zum	NOUN	_	Case=Nom|Gender=Masc,Neut|Number=Sing	2	comp:obl	_	_
+4	Ball	Ball	PROPN	_	_	3	appos	_	_
+5	..	..	PUNCT	_	_	2	discourse	_	_
+
+1	Da	da	ADV	_	_	2	mod	_	_
+2	kamen	kommen	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	2	@card@	NUM	_	NumType=Card	4	mod	_	_
+4	Autos	Auto	NOUN	_	Case=Nom|Number=Plur	2	subj	_	_
+5	um	um	ADP	_	_	2	comp:obl	_	_
+6	die	d	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Ecke	Ecke	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	comp:obj	_	_
+
+1	und	und	CCONJ	_	_	2	cc	_	_
+2	sind	sein	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ineinandergecrasht	ineinandergecrasht	ADJ	_	Degree=Pos|Tense=Past	2	comp:aux	_	_
+4	...	...	PUNCT	_	_	2	discourse	_	_
+
+1	Jetzt	Jetzt	ADV	_	_	2	mod	_	_
+2	musste	müssen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+4	natürlich	natürlich	ADJ	_	Degree=Pos	2	mod	_	_
+5	so	so	ADV	_	_	8	mod	_	_
+6	eine	eine	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	schei.....	schei.....	ADJ	_	Degree=Pos	8	mod	_	_
+8	Zeugenaussage	Zeugenaussage	NOUN	_	_	9	comp:obj	_	_
+9	machen	machen	VERB	_	Tense=Pres|VerbForm=Inf	2	comp:aux	_	_
+10	..	..	PUNCT	_	_	2	discourse	_	_
+
+1	Habe	haben	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ja	ja	ADV	_	_	1	mod	_	_
+3	sonst	sonst	ADV	_	_	1	mod	_	_
+4	nichts	nichts	PRON	_	Case=Acc|Number=Sing|PronType=Neg	6	comp:obj	_	_
+5	zu	zu	PART	_	_	1	comp:obj	_	_
+6	tun	tun	VERB	_	Tense=Pres|VerbForm=Inf	5	comp:obj	_	_
+7	...	...	PUNCT	_	_	1	discourse	_	_
+

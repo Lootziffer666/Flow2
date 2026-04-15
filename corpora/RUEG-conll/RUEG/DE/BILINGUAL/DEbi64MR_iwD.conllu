@@ -1,0 +1,85 @@
+# text = Hi du ,
+1	Hi	hi	PROPN	NGIRR	_	2	discourse	_	_
+2	du	du	PROPN	NGIRR	_	0	root	_	_
+3	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = Habe gerade einen kleinen Autounfall beobachtet .
+1	Habe	Habe	AUX	VVFIN	_	0	root	_	_
+2	gerade	gerade	ADV	ADV	_	1	mod	_	_
+3	einen	ein	DET	ART	_	5	det	_	_
+4	kleinen	kleine	ADJ	ADJA	_	5	mod	_	_
+5	Autounfall	Autounfall	NOUN	NN	_	6	comp:obj	_	_
+6	beobachtet	beobachten	VERB	VVPP	_	1	comp:aux	_	_
+7	.	.	PUNCT	$.	_	1	punct	_	_
+
+# text = Ich bin gerade aus dem Aldi rausgegangen
+1	Ich	ich	PRON	PPER	_	2	subj	_	_
+2	bin	sein	VERB	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	aus	aus	ADP	APPR	_	7	comp:obl	_	_
+5	dem	d	DET	ART	_	6	det	_	_
+6	Aldi	Aldi	PROPN	NE	_	4	comp:obj	_	_
+7	rausgegangen	rausgehen	PROPN	VVPP	_	2	comp:aux	_	_
+
+# text = und dann ist ein Auto in das andere reingefahren .
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	dann	dann	ADV	ADV	_	3	mod	_	_
+3	ist	sein	VERB	VAFIN	_	0	root	_	_
+4	ein	ein	DET	ART	_	5	det	_	_
+5	Auto	Auto	NOUN	NN	_	3	subj	_	_
+6	in	in	ADP	APPR	_	9	comp:obl	_	_
+7	das	d	DET	ART	_	8	det	_	_
+8	andere	ander	ADJ	PIDS	_	6	comp:obj	_	_
+9	reingefahren	reinfahren	NOUN	VVPP	_	3	comp:aux	_	_
+10	.	.	PUNCT	$.	_	3	punct	_	_
+
+# text = Zuerst hat ein Junge seinen Ball auf die Straße rollen lassen ,
+1	Zuerst	zuerst	ADV	ADV	_	2	mod	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Junge	Junge	NOUN	NN	_	2	subj	_	_
+5	seinen	sein	DET	PPOSAT	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	10	comp:obj	_	_
+7	auf	auf	ADP	APPR	_	10	comp:obl	_	_
+8	die	d	DET	ART	_	9	det	_	_
+9	Straße	Straße	NOUN	NN	_	7	comp:obj	_	_
+10	rollen	rollen	VERB	VVINF	_	11	comp:obj	_	_
+11	lassen	lassen	VERB	VVINF	_	2	comp:aux	_	_
+12	,	,	PUNCT	$,	_	2	punct	_	_
+
+# text = dann lief ein Hund dem Ball hinterher
+1	dann	dann	ADV	ADV	_	2	mod	_	_
+2	lief	laufen	VERB	VVFIN	_	0	root	_	_
+3	ein	ein	DET	ART	_	4	det	_	_
+4	Hund	Hund	NOUN	NN	_	2	subj	_	_
+5	dem	d	DET	ART	_	6	det	_	_
+6	Ball	Ball	NOUN	NN	_	2	comp:obj	_	_
+7	hinterher	hinterher	ADV	ADV	_	2	compound@prt	_	_
+
+# text = und das erste Auto musste bremsen .
+1	und	und	CCONJ	KON	_	5	cc	_	_
+2	das	d	DET	ART	_	4	det	_	_
+3	erste	erste	ADJ	ORD	_	4	mod	_	_
+4	Auto	Auto	NOUN	NN	_	5	subj	_	_
+5	musste	müssen	AUX	VMFIN	_	0	root	_	_
+6	bremsen	bremsen	VERB	VVINF	_	5	comp:aux	_	_
+7	.	.	PUNCT	$.	_	5	punct	_	_
+
+# text = Das dahinter reagierte aber nicht so schnell
+1	Das	d	DET	PDS	_	3	subj	_	_
+2	dahinter	dahinter	ADV	ADV	_	1	mod	_	_
+3	reagierte	reagieren	VERB	VVFIN	_	0	root	_	_
+4	aber	aber	ADV	PTKMA	_	3	mod	_	_
+5	nicht	nicht	PART	PTKNEG	_	7	mod	_	_
+6	so	so	ADV	PTKIFG	_	7	mod	_	_
+7	schnell	schnell	ADJ	ADJD	_	3	mod	_	_
+
+# text = und fuhr ins erste Auto hinten rein
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	fuhr	fahren	VERB	VVFIN	_	0	root	_	_
+3	ins	in	PROPN	APPRART	_	2	comp:obl	_	_
+4	erste	erste	ADJ	ORD	_	5	mod	_	_
+5	Auto	Auto	NOUN	NN	_	3	comp:obj	_	_
+6	hinten	hinten	ADV	ADV	_	2	mod	_	_
+7	rein	rein	ADJ	PTKVZ	_	2	compound@prt	_	_
+

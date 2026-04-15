@@ -1,0 +1,85 @@
+1	Ey	ey	PROPN	NGIRR	_	2	discourse	_	_
+2	Dikka	Dicker	PROPN	NN	_	0	root	_	_
+
+1	hier	hier	ADV	ADV	_	2	comp:pred	_	_
+2	war	sein	VERB	VAFIN	_	0	root	_	_
+3	gerade	gerade	ADV	ADV	_	2	mod	_	_
+4	so	so	ADV	PTKIFG	_	6	mod	_	_
+5	ein	ein	DET	ART	_	6	det	_	_
+6	Unfall	Unfall	NOUN	NN	_	2	subj	_	_
+
+1	so	so	ADV	PTKIFG	_	3	mod	_	_
+2	eine	ein	DET	ART	_	3	det	_	_
+3	Frau	Frau	NOUN	NN	_	4	subj	_	_
+4	ist	sein	VERB	VAFIN	_	0	root	_	_
+5	mit	mit	ADP	APPR	_	11	mod	_	_
+6	ihrem	ihr	DET	PPOSAT	_	7	det	_	_
+7	Sohn	Sohn	NOUN	NN	_	5	comp:obj	_	_
+8	so	so	ADV	PTKIFG	_	10	mod	_	_
+9	einen	ein	DET	ART	_	10	det	_	_
+10	Weg	Weg	NOUN	NN	_	11	comp:obj	_	_
+11	entlanggelaufen	entlanglaufen	VERB	VVPP	_	4	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	der	d	PRON	PDS	_	3	subj	_	_
+3	hatte	haben	VERB	VAFIN	_	0	root	_	_
+4	einen	ein	DET	ART	_	5	det	_	_
+5	Ball	Ball	NOUN	NN	_	3	comp:obj	_	_
+6	in	in	ADP	APPR	_	3	mod	_	_
+7	der	d	DET	ART	_	8	det	_	_
+8	Hand	Hand	NOUN	NN	_	6	comp:obj	_	_
+
+1	so	so	ADV	PTKIFG	_	3	mod	_	_
+2	eine	ein	DET	ART	_	3	det	_	_
+3	Frau	Frau	NOUN	NN	_	4	subj	_	_
+4	hat	haben	VERB	VAFIN	_	0	root	_	_
+5	ihren	ihr	DET	PPOSAT	_	6	det	_	_
+6	Hund	Hund	NOUN	NN	_	11	comp:obj	_	_
+7	in	in	ADP	APPR	_	11	comp:obl	_	_
+8	der	d	DET	ART	_	10	det	_	_
+9	einen	ein	ADJ	ART	_	10	mod	_	_
+10	Hand	Hand	NOUN	NN	_	7	comp:obj	_	_
+11	gehalten	halten	VERB	VVPP	_	4	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	hat	haben	VERB	VAFIN	_	0	root	_	_
+3	ihre	ihr	DET	PPOSAT	_	4	det	_	_
+4	Sachen	Sache	NOUN	NN	_	5	comp:obj	_	_
+5	ausgepackt	auspacken	VERB	VVPP	_	2	comp:aux	_	_
+
+1	in	in	ADP	APPR	_	4	mod	_	_
+2	dem	d	DET	ART	_	3	det	_	_
+3	Moment	Moment	NOUN	NN	_	1	comp:obj	_	_
+4	kamen	kommen	VERB	VVFIN	_	0	root	_	_
+5	2	zwei	NUM	CARD	_	6	mod	_	_
+6	Autos	Auto	NOUN	NN	_	4	subj	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Ball	Ball	NOUN	NN	_	4	subj	_	_
+4	rollte	rollen	AUX	VVFIN	_	0	root	_	_
+5	dann	dann	ADV	ADV	_	4	mod	_	_
+6	auf	auf	ADP	APPR	_	4	comp:obl	_	_
+7	die	d	DET	ART	_	8	det	_	_
+8	Straße	Straße	NOUN	NN	_	6	comp:obj	_	_
+
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	der	d	DET	ART	_	3	det	_	_
+3	Hund	Hund	NOUN	NN	_	4	subj	_	_
+4	rannte	rennen	VERB	VVFIN	_	0	root	_	_
+5	dann	dann	ADV	ADV	_	4	mod	_	_
+6	dahin	dahin	ADV	ADV	_	4	compound@prt	_	_
+
+1	die	d	DET	ART	_	2	det	_	_
+2	Autos	Auto	NOUN	NN	_	3	subj	_	_
+3	haben	haben	VERB	VAFIN	_	0	root	_	_
+4	so	so	ADV	PTKIFG	_	3	mod	_	_
+5	voll	voll	ADJ	PTKIFG	_	6	mod	_	_
+6	schnell	schnell	ADJ	ADJD	_	3	mod	_	_
+7	gebremst	bremsen	ADV	VVPP	_	3	comp:aux	_	_
+
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	sind	sein	VERB	VAFIN	_	0	root	_	_
+3	dann	dann	ADV	ADV	_	2	mod	_	_
+4	zusammengeschtoßen	zusammenstoßen	ADJ	VVPP	_	2	comp:aux	_	_
+

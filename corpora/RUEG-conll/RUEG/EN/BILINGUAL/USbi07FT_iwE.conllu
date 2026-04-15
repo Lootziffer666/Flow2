@@ -1,0 +1,121 @@
+1	hey	hey	INTJ	ITJ	_	0	root	_	_
+
+1	saw	see	VERB	VVD	_	0	root	_	_
+2	a	a	DET	AT0	_	4	det	_	_
+3	car	car	NOUN	NN1	_	4	compound	_	_
+4	accident	accident	NOUN	NN1	_	1	obj	_	_
+5	today	today	ADV	AV0	_	1	advmod	_	_
+6	in	in	ADP	PRP	_	9	case	_	_
+7	the	the	DET	AT0	_	9	det	_	_
+8	parking	parking	NOUN	NN1	_	9	compound	_	_
+9	lot	lot	NOUN	NN1	_	1	obl	_	_
+10	-	-	PUNCT	PUN	_	1	punct	_	_
+
+1	no	no	DET	AT0	_	2	det	_	_
+2	one	one	PRON	PNI	_	4	nsubj	_	_
+3	was	be	AUX	VBD	_	4	cop	_	_
+4	hurt	hurt	VERB	VVN	_	0	root	_	_
+
+1	but	but	CCONJ	CJC	_	6	cc	_	_
+2	these	these	DET	DT0	_	4	det	_	_
+3	two	two	NUM	CRD	_	4	nummod	_	_
+4	cars	car	NOUN	NN2	_	6	nsubj:pass	_	_
+5	were	be	AUX	VBD	_	6	aux:pass	_	_
+6	speeding	speed	VERB	VVG	_	0	root	_	_
+7	into	into	ADP	PRP	_	9	case	_	_
+8	the	the	DET	AT0	_	9	det	_	_
+9	lot	lot	NOUN	NN1	_	6	obl	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	they	they	PRON	PNP	_	5	nsubj	_	_
+3	did	do	AUX	VDD	_	5	aux	_	_
+4	not	not	PART	XX0	_	5	advmod	_	_
+5	see	see	VERB	VVI	_	0	root	_	_
+6	this	this	DET	DT0	_	7	det	_	_
+7	couple	couple	NOUN	NN1	_	5	obl:tmod	_	_
+8	who	who	PRON	PNQ	_	10	nsubj:pass	_	_
+9	were	be	AUX	VBD	_	10	aux:pass	_	_
+10	walking	walk	VERB	VVG	_	5	parataxis	_	_
+11	with	with	ADP	PRP	_	13	case	_	_
+12	their	they	DET	DPS	_	13	det	_	_
+13	baby	baby	NOUN	NN1	_	10	obl	_	_
+
+1	and	and	CCONJ	CJC	_	5	cc	_	_
+2	they	they	PRON	PNP	_	5	nsubj	_	_
+3	could	could	AUX	VM0	_	5	aux	_	_
+4	have	have	AUX	VHI	_	5	aux	_	_
+5	hit	hit	VERB	VVN	_	0	root	_	_
+6	them	they	PRON	PNP	_	5	obj	_	_
+7	!	!	PUNCT	SENT	_	5	punct	_	_
+
+1	the	the	DET	AT0	_	2	det	_	_
+2	guy	guy	NOUN	NN1	_	4	nsubj	_	_
+3	was	be	AUX	VBD	_	4	cop	_	_
+4	holding	hold	VERB	VVG	_	0	root	_	_
+5	a	a	DET	AT0	_	6	det	_	_
+6	ball	ball	NOUN	NN1	_	4	obj	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	he	he	PRON	PNP	_	3	nsubj	_	_
+3	dropped	drop	VERB	VVD	_	0	root	_	_
+4	it	it	PRON	PNP	_	3	obj	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	it	it	PRON	PNP	_	3	nsubj	_	_
+3	rolled	roll	VERB	VVD	_	0	root	_	_
+4	toward	toward	ADP	PRP	_	6	case	_	_
+5	the	the	DET	AT0	_	6	det	_	_
+6	road	road	NOUN	NN1	_	3	obl	_	_
+7	so	so	CCONJ	CJ0	_	12	cc	_	_
+8	the	the	DET	AT0	_	9	det	_	_
+9	car	car	NOUN	NN1	_	12	nsubj	_	_
+10	in	in	ADP	PRP	_	11	case	_	_
+11	front	front	NOUN	NN1	_	12	obl	_	_
+12	slammed	slam	VERB	VVD	_	3	conj	_	_
+13	on	on	ADP	PRP	_	15	case	_	_
+14	its	it	DET	DPS	_	15	det	_	_
+15	brakes	brake	NOUN	NN2	_	12	obl	_	_
+16	to	to	PART	TO0	_	17	mark	_	_
+17	avoid	avoid	VERB	VVI	_	12	advcl	_	_
+18	the	the	DET	AT0	_	19	det	_	_
+19	ball	ball	NOUN	NN1	_	17	obj	_	_
+
+1	but	but	CCONJ	CJC	_	5	cc	_	_
+2	the	the	DET	AT0	_	3	det	_	_
+3	car	car	NOUN	NN1	_	5	nsubj	_	_
+4	behind	behind	ADV	AV0	_	5	advmod	_	_
+5	rear-ended	rear-end	VERB	VVD	_	0	root	_	_
+6	the	the	DET	AT0	_	8	det	_	_
+7	first	first	ADJ	ORD	_	8	amod	_	_
+8	guy	guy	NOUN	NN1	_	5	obj	_	_
+9	.	.	PUNCT	SENT	_	5	punct	_	_
+
+1	at	at	ADP	PRP	_	3	case	_	_
+2	that	that	DET	DT0	_	3	det	_	_
+3	speed	speed	NOUN	NN1	_	9	obl	_	_
+4	if	if	SCONJ	CJS	_	9	mark	_	_
+5	the	the	DET	AT0	_	6	det	_	_
+6	dude	dude	NOUN	NN1	_	9	nsubj	_	_
+7	had	have	AUX	VHD	_	9	aux	_	_
+8	not	not	PART	XX0	_	9	advmod	_	_
+9	dropped	drop	VERB	VVN	_	0	root	_	_
+10	the	the	DET	AT0	_	11	det	_	_
+11	ball	ball	NOUN	NN1	_	9	obj	_	_
+12	he	he	PRON	PNP	_	11	nmod	_	_
+13	and	and	CCONJ	CJC	_	15	cc	_	_
+14	his	he	DET	DPS	_	15	det	_	_
+15	kid	kid	NOUN	NN1	_	12	conj	_	_
+16	and	and	CCONJ	CJC	_	21	cc	_	_
+17	the	the	DET	AT0	_	18	det	_	_
+18	mom	mom	NOUN	NN1	_	21	nsubj	_	_
+19	could	could	AUX	VM0	_	21	aux	_	_
+20	have	have	AUX	VHI	_	21	aux	_	_
+21	gotten	get	VERB	VVN	_	12	conj	_	_
+22	hit	hit	NOUN	NN1	_	21	obj	_	_
+23	...	...	PUNCT	PUN	_	9	punct	_	_
+
+1	Hate	hate	VERB	VVB	_	0	root	_	_
+2	reckless	reckless	ADJ	AJ0	_	3	amod	_	_
+3	driving	driving	NOUN	NN1	_	1	obj	_	_
+4	.	.	PUNCT	SENT	_	1	punct	_	_
+

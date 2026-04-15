@@ -1,0 +1,48 @@
+1	dude	dude	NOUN	NN1	_	0	root	_	_
+
+1	I	i	PRON	PNP	_	3	nsubj	_	_
+2	just	just	ADV	AV0	_	3	advmod	_	_
+3	saw	see	VERB	VVD	_	0	root	_	_
+4	the	the	DET	AT0	_	6	det	_	_
+5	craziest	crazy	ADJ	AJS	_	6	amod	_	_
+6	accident	accident	NOUN	NN1	_	3	obj	_	_
+
+1	this	this	DET	DT0	_	2	det	_	_
+2	guy	guy	NOUN	NN1	_	3	nsubj	_	_
+3	kicked	kick	VERB	VVD	_	0	root	_	_
+4	a	a	DET	AT0	_	5	det	_	_
+5	ball	ball	NOUN	NN1	_	3	obj	_	_
+
+1	dog	dog	NOUN	NN1	_	2	nsubj	_	_
+2	goes	go	VERB	VVZ	_	0	root	_	_
+3	after	after	ADP	PRP	_	5	case	_	_
+4	the	the	DET	AT0	_	5	det	_	_
+5	ball	ball	NOUN	NN1	_	2	obl	_	_
+
+1	lady	lady	NOUN	NN1	_	3	nmod:poss	_	_
+2	's	's	PART	POS	_	1	case	_	_
+3	groceries	grocery	NOUN	NN2	_	5	nsubj	_	_
+4	go	go	VERB	VVB	_	3	acl	_	_
+5	flying	fly	VERB	VVG	_	0	root	_	_
+
+1	and	and	CCONJ	CJC	_	3	cc	_	_
+2	car	car	NOUN	NN1	_	3	nsubj	_	_
+3	stopped	stop	VERB	VVD	_	0	root	_	_
+4	short	short	ADV	AV0	_	3	advmod	_	_
+5	because	because	SCONJ	CJS	_	8	case	_	_
+6	of	of	ADP	PRF	_	5	fixed	_	_
+7	the	the	DET	AT0	_	8	det	_	_
+8	dog	dog	NOUN	NN1	_	3	obl	_	_
+
+1	and	and	CCONJ	CJC	_	2	cc	_	_
+2	gets	get	VERB	VVZ	_	3	conj	_	_
+3	rear-ended	rear-end	VERB	VVN	_	0	root	_	_
+
+1	how	how	ADV	AVQ	_	7	advmod	_	_
+2	does	do	AUX	VDZ	_	7	aux	_	_
+3	this	this	DET	DT0	_	4	det	_	_
+4	kind	kind	NOUN	NN1	_	7	advmod	_	_
+5	of	of	ADP	PRF	_	6	case	_	_
+6	stuff	stuff	NOUN	NN1	_	4	nmod	_	_
+7	happen	happen	VERB	VVI	_	0	root	_	_
+

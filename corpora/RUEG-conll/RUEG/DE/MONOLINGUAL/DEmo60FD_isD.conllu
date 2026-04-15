@@ -1,0 +1,213 @@
+# text = du glaubst nicht
+1	du	du	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	subj	_	_
+2	glaubst	glauben	ADV	_	Tense=Pres	0	root	_	_
+3	nicht	nicht	PART	_	_	2	mod	_	_
+
+# text = ich bin gerade ich laufe so ne
+1	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	bin	sein	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	reparandum	_	_
+3	gerade	gerade	ADV	_	_	2	mod	_	_
+4	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	subj	_	_
+5	laufe	laufen	VERB	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	so	so	ADV	_	_	5	mod	_	_
+7	ne	ne	DET	_	Definite=Ind|PronType=Art	5	discourse	_	_
+
+# text = und dann plötzlich ich hab so gesehen so
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	dann	dann	ADV	_	_	5	mod	_	_
+3	plötzlich	plötzlich	ADJ	_	Degree=Pos	5	mod	_	_
+4	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	subj	_	_
+5	hab	haben	AUX	_	Tense=Pres	0	root	_	_
+6	so	so	ADV	_	_	5	mod	_	_
+7	gesehen	sehen	VERB	_	VerbForm=Part	5	comp:aux	_	_
+8	so	so	ADV	_	_	5	mod	_	_
+
+# text = da sind da war Spaziergänger also ich glaub so ein Pärchen mit so einem Kinderwagen und so
+1	da	da	ADV	_	_	2	mod	_	_
+2	sind	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	reparandum	_	_
+3	da	da	ADV	_	_	4	comp:pred	_	_
+4	war	sein	AUX	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	Spaziergänger	Spaziergänger	NOUN	_	Case=Nom|Number=Sing	4	subj	_	_
+
+1	also	also	ADV	_	_	3	discourse	_	_
+2	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+3	glaube	glauben	NOUN	_	Tense=Pres	0	root	_	_
+4	so	so	ADV	_	_	6	mod	_	_
+5	ein	ein	DET	_	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Pärchen	Pärchen	NOUN	_	Case=Acc|Gender=Masc,Neut|Number=Sing	3	comp:obj	_	_
+7	mit	mit	ADP	_	_	6	mod	_	_
+8	so	so	ADV	_	_	10	mod	_	_
+9	einem	ein	DET	_	Definite=Ind|PronType=Art	10	det	_	_
+10	Kinderwagen	Kinderwagen	NOUN	_	_	7	comp:obj	_	_
+11	und	und	CCONJ	_	_	12	cc	_	_
+12	so	so	ADV	_	_	6	parataxis	_	_
+
+# text = und der Mann er hat halt so mit dem Ball gespielt und so ne
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Mann	Mann	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	dislocated	_	_
+4	er	er	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
+5	hat	haben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	halt	halt	ADV	_	_	5	discourse	_	_
+7	so	so	ADV	_	_	5	mod	_	_
+8	mit	mit	ADP	_	_	11	mod	_	_
+9	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Ball	Ball	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	8	comp:obj	_	_
+11	gespielt	spielen	VERB	_	Tense=Past|VerbForm=Part	5	comp:aux	_	_
+12	und	und	CCONJ	_	_	13	cc	_	_
+13	so	so	ADV	_	_	5	parataxis	_	_
+14	ne	ne	DET	_	Definite=Ind|PronType=Art	5	discourse	_	_
+
+# text = und dann plötzlich ist es ihm so heruntergefallen
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	dann	dann	ADV	_	_	4	mod	_	_
+3	plötzlich	plötzlich	ADJ	_	Degree=Pos	4	mod	_	_
+4	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	es	es	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
+6	ihm	er	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	_
+7	so	so	ADV	_	_	4	mod	_	_
+8	heruntergefallen	_	ADJ	_	Degree=Pos|Tense=Past	4	comp:aux	_	_
+
+# text = das war so auf dem Parkplatz da äh {streetname}straße
+1	das	d	PRON	_	Case=Nom|PronType=Dem	2	subj	_	_
+2	war	sein	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	so	so	ADV	_	_	2	discourse	_	_
+4	auf	auf	ADP	_	_	2	comp:pred	_	_
+5	dem	d	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Parkplatz	Parkplatz	NOUN	_	Case=Dat|Gender=Masc,Neut|Number=Sing	4	comp:obj	_	_
+7	da	da	ADV	_	_	6	mod	_	_
+8	äh	äh	ADV	_	_	2	discourse	_	_
+9	{streetname}straße	{streetname}straße	PROPN	_	_	6	list	_	_
+
+# text = und äh das ist so heruntergerollt
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	äh	äh	ADJ	_	Degree=Pos	4	discourse	_	_
+3	das	d	PRON	_	Case=Nom|PronType=Dem	4	subj	_	_
+4	ist	sein	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	so	so	ADV	_	_	4	mod	_	_
+6	heruntergerollt	herunterrollen	ADJ	_	Degree=Pos|Tense=Past	4	comp:aux	_	_
+
+# text = und da war halt noch so eine Frau die mit ihrem Hund
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	da	da	ADV	_	_	3	comp:pred	_	_
+3	war	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	halt	halt	ADV	_	_	3	discourse	_	_
+5	noch	noch	ADV	_	_	8	mod	_	_
+6	so	so	ADV	_	_	8	mod	_	_
+7	eine	ein	DET	_	Definite=Ind|PronType=Art	8	det	_	_
+8	Frau	Frau	NOUN	_	_	3	subj	_	_
+9	die	d	PRON	_	Case=Nom|PronType=Dem	8	mod@relcl	_	_
+10	mit	mit	ADP	_	_	9	orphan	_	_
+11	ihrem	ihr	DET	_	Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	Hund	Hund	NOUN	_	Case=Dat|Number=Sing	10	comp:obj	_	_
+
+# text = die hat gerade die Einkäufe eingepackt oder so
+1	die	d	PRON	_	Case=Nom|PronType=Dem	2	subj	_	_
+2	hat	haben	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	gerade	gerade	ADV	_	_	2	mod	_	_
+4	die	d	DET	_	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+5	Einkäufe	Einkauf	NOUN	_	Case=Acc|Number=Plur	6	comp:obj	_	_
+6	eingepackt	einpacken	ADJ	_	Tense=Past	2	comp:aux	_	_
+7	oder	oder	CCONJ	_	_	8	cc	_	_
+8	so	so	ADV	_	_	2	parataxis	_	_
+
+# text = und dann ist das so heruntergrollt
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	dann	dann	ADV	_	_	3	mod	_	_
+3	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	das	d	PRON	_	Case=Nom|PronType=Dem	3	subj	_	_
+5	so	so	ADV	_	_	3	mod	_	_
+6	heruntergrollt	herunterrollen	ADJ	_	Degree=Pos|Tense=Past	3	comp:aux	_	_
+
+# text = und dann kamen so zwei Autos
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	dann	dann	ADV	_	_	3	mod	_	_
+3	kamen	kommen	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	so	so	ADV	_	_	6	mod	_	_
+5	zwei	zwei	NUM	_	NumType=Card	6	mod	_	_
+6	Autos	Auto	NOUN	_	Case=Nom|Number=Plur	3	subj	_	_
+
+# text = sind halt auch schon so voll nah hintereinandergefahren
+1	sind	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	halt	halt	ADV	_	_	1	discourse	_	_
+3	auch	auch	ADV	_	_	1	mod	_	_
+4	schon	schon	ADV	_	_	1	mod	_	_
+5	so	so	ADV	_	_	1	mod	_	_
+6	voll	voll	ADJ	_	Degree=Pos	7	mod	_	_
+7	nah	nah	ADJ	_	Degree=Pos	1	mod	_	_
+8	hintereinandergefahren	hintereinanderfahren	VERB	_	Tense=Past|VerbForm=Inf	1	comp:aux	_	_
+
+# text = und dann ist äh der Hund so vor das Auto gelaufen
+1	und	und	CCONJ	_	_	3	cc	_	_
+2	dann	dann	ADV	_	_	3	mod	_	_
+3	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	äh	äh	ADJ	_	Degree=Pos	3	discourse	_	_
+5	der	d	DET	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Hund	Hund	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	_
+7	so	so	ADV	_	_	3	mod	_	_
+8	vor	vor	ADP	_	_	11	comp:obl	_	_
+9	das	d	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Auto	Auto	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	8	comp:obj	_	_
+11	gelaufen	laufen	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+
+# text = das Auto hat halt so gebremst
+1	das	d	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Auto	Auto	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	3	subj	_	_
+3	hat	haben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	halt	halt	ADV	_	_	3	discourse	_	_
+5	so	so	ADV	_	_	3	mod	_	_
+6	gebremst	bremsen	ADV	_	Tense=Past	3	comp:aux	_	_
+
+# text = und das andere Auto ist einfach hinten raufgefahren
+1	und	und	CCONJ	_	_	5	cc	_	_
+2	das	d	DET	_	Definite=Def|PronType=Art	4	det	_	_
+3	andere	andere	ADJ	_	Degree=Pos	4	mod	_	_
+4	Auto	Auto	NOUN	_	_	5	subj	_	_
+5	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	einfach	einfach	ADJ	_	Degree=Pos	5	mod	_	_
+7	hinten	hinten	ADV	_	_	5	mod	_	_
+8	raufgefahren	rauffahren	VERB	_	Tense=Past|VerbForm=Fin	5	comp:aux	_	_
+
+# text = ich hab mich so erschrocken wirklich
+1	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	hab	haben	AUX	_	Tense=Pres	0	root	_	_
+3	mich	ich	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	comp:obj	_	_
+4	so	so	ADV	_	_	2	mod	_	_
+5	erschrocken	erschrecken	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	comp:aux	_	_
+6	wirklich	wirklich	ADV	_	_	2	mod	_	_
+
+# text = aber ja keine Ahnung
+1	aber	aber	ADV	_	_	4	cc	_	_
+2	ja	ja	ADV	_	_	4	discourse	_	_
+3	keine	kein	PRON	_	PronType=Neg	4	mod	_	_
+4	Ahnung	Ahnung	PROPN	_	_	0	root	_	_
+
+# text = ist glaube ich nichts passiert
+1	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	glaube	glauben	VERB	_	Number=Sing|Person=1|VerbForm=Fin	1	parataxis	_	_
+3	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+4	nichts	nichts	PRON	_	Number=Sing|PronType=Neg	1	subj	_	_
+5	passiert	passieren	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	comp:aux	_	_
+
+# text = die haben dann auch direkt so Polizei und so angerufen
+1	die	d	PRON	_	Case=Nom|PronType=Dem	2	subj	_	_
+2	haben	haben	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dann	dann	ADV	_	_	2	mod	_	_
+4	auch	auch	ADV	_	_	2	mod	_	_
+5	direkt	direkt	ADJ	_	Degree=Pos	2	mod	_	_
+6	so	so	ADV	_	_	2	mod	_	_
+7	Polizei	Polizei	ADJ	_	Degree=Pos	10	comp:obj	_	_
+8	und	und	CCONJ	_	_	9	cc	_	_
+9	so	so	ADV	_	_	7	conj	_	_
+10	angerufen	anrufen	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	comp:aux	_	_
+
+# text = und ja ich hab mich voll erschrocken
+1	und	und	CCONJ	_	_	4	cc	_	_
+2	ja	ja	ADV	_	_	4	discourse	_	_
+3	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	_
+4	hab	haben	AUX	_	Tense=Pres	0	root	_	_
+5	mich	ich	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	comp:obj	_	_
+6	voll	voll	ADJ	_	Degree=Pos	4	mod	_	_
+7	erschrocken	erschrecken	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	comp:aux	_	_
+
+

@@ -100,6 +100,8 @@ function runCorrection(text, langOrOptions) {
   return {
     corrected: normalized.corrected,
     rule_hits: normalized.rule_hits || { ...EMPTY_RULE_HITS },
+    scope: normalized.scope || 'normalization',
+    applied_stages: normalized.applied_stages || [],
     applied_learning: null,
     language,
     lang: language,

@@ -10,7 +10,12 @@ Mit minimalen, risikoarmen Schritten vom aktuellen Zustand zu einer konsistenten
   - Workspaces um `packages/loom` erweitert
   - FLOW/SPIN-Imports und Dependencies auf `@loot/loom` umgestellt
   - `npm run test:shared` und `npm run test:flow` laufen grün
-- ⏭️ **Nächster Schritt:** Phase 2 (FLOW strikt begrenzen)
+- ✅ **Phase 2 umgesetzt (FLOW strikt begrenzen):**
+  - FLOW-Outputs explizit als `scope: normalization` markiert
+  - Applied Stages werden transparent als Metadaten ausgegeben
+  - neue Scope-Boundary-Regressionstests verhindern stilistische Übernahme
+  - Grammatikregel für „auch wenn“ gegen Überkorrektur abgesichert
+- ⏭️ **Nächster Schritt:** Phase 3 (SPIN auf LOOM-Signale härten)
 
 ## Phase 1 — Architektur-Naming stabilisieren (1 PR)
 

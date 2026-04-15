@@ -247,6 +247,8 @@ function runMultiTokenNormalization(text, langOrOptions = 'de', maybeOptions = {
 
     return {
       corrected,
+      scope: 'normalization',
+      applied_stages: ['PUNCT', 'CTX', 'SN', 'SL', 'MO', 'PG', 'GR'],
       rule_hits: {
         EN: 0,
         CTX: deContext.hits,
@@ -274,6 +276,8 @@ function runMultiTokenNormalization(text, langOrOptions = 'de', maybeOptions = {
 
   return {
     corrected: correctedEn,
+    scope: 'normalization',
+    applied_stages: ['PUNCT', 'CTX', 'EN'],
     rule_hits: {
       EN: hits,
       SN: 0,

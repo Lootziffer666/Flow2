@@ -157,17 +157,38 @@ function buildEnglishPresetContextRules(options = {}) {
     }));
 }
 
-function buildContextRules(lang, options = {}) {
+/**
+ * Baut die aktive Menge an Context-Window-Regeln auf.
+ *
+ * Wenn LOOM-Signale vorliegen (loomSignals), wird die Confidence-Schwelle
+ * angepasst: bei strukturell fragmentierten oder überladenen Sätzen werden
+ * unsichere Kontext-Regeln ausgeblendet (Minimum-Confidence steigt).
+ *
+ * @param {string} lang
+ * @param {object} options
+ * @param {object|null} loomSignals  - Ergebnis von flowSignals(), optional
+ */
+function buildContextRules(lang, options = {}, loomSignals = null) {
   const langValue = String(lang || 'de').toLowerCase();
+  const minConf = confidenceThresholdFor(options.confidenceHint);
+
+  // Minimum confidence for context rules; raised when LOOM signals low confidence
+  let minConfidence = 0;
+  if (loomSignals) {
+    if (loomSignals.confidenceHint === 'low')    minConfidence = 0.90;
+    else if (loomSignals.confidenceHint === 'medium') minConfidence = 0.70;
+    // 'high' → keep all rules (minConfidence = 0)
+  }
 
   const baseContext = CONTEXT_RULES
     .filter((rule) => rule && (rule.lang === langValue || rule.lang === 'both'))
-    .filter((rule) => rule.disabledByDefault !== true);
+    .filter((rule) => rule.disabledByDefault !== true)
+    .filter((rule) => (rule.confidence ?? 1.0) >= minConfidence);
 
   if (langValue !== 'en') return baseContext;
 
   const enPresetContext = buildEnglishPresetContextRules(options);
-  return [...baseContext, ...enPresetContext];
+  return [...baseContext, ...enPresetContext.filter((rule) => (rule.confidence ?? 1.0) >= minConf)];
 }
 
 function runMultiTokenNormalization(text, langOrOptions = 'de', maybeOptions = {}) {
@@ -181,15 +202,39 @@ function runMultiTokenNormalization(text, langOrOptions = 'de', maybeOptions = {
 
   const normalizedLang = String(lang || 'de').toLowerCase() === 'en' ? 'en' : 'de';
 
+  // LOOM structural analysis — informs context-rule confidence gating
+  let loomSignals = null;
+  if (source.trim()) {
+    try {
+      const diagResult = diagnoseText(source, normalizedLang);
+      loomSignals = flowSignals(diagResult, normalizedLang);
+    } catch (_) {
+      // LOOM signals are advisory; never let them block normalization
+    }
+  }
+
   // Tokenization retained for possible diagnostics/extensions.
   tokenize(source).forEach((token) => {
     isProtected(token);
   });
 
+  // Compute LOOM structural signals for confidence-gated context rules.
+  let loomDiag = null;
+  let loomSig = null;
+  try {
+    loomDiag = diagnoseText(source, normalizedLang);
+    loomSig = flowSignals(loomDiag, normalizedLang);
+  } catch (_) {
+    // LOOM signals are best-effort; never block normalization.
+  }
+  const enrichedOptions = loomSig
+    ? { ...options, confidenceHint: loomSig.confidenceHint }
+    : options;
+
   if (normalizedLang === 'de') {
     const punct = applyRulesToUnprotectedText(source, getPunctRules('de'));
 
-    const deContextRules = buildContextRules('de', options);
+    const deContextRules = buildContextRules('de', options, loomSignals);
     const deContext = applyRulesToUnprotectedText(punct.text, deContextRules);
 
     const sn = applyRulesToUnprotectedText(deContext.text, SN_RULES);
@@ -213,12 +258,13 @@ function runMultiTokenNormalization(text, langOrOptions = 'de', maybeOptions = {
         PUNCT: punct.hits,
         total: punct.hits + deContext.hits + sn.hits + sl.hits + mo.hits + pg.hits + gr.hits,
       },
+      loom_signals: loomSignals,
     };
   }
 
   const punct = applyRulesToUnprotectedText(source, getPunctRules('en'));
 
-  const enContextRules = buildContextRules('en', options);
+  const enContextRules = buildContextRules('en', options, loomSignals);
   const contextResult = applyRulesToUnprotectedText(punct.text, enContextRules);
   const lexicalRules = buildEnglishLexicalRules();
   const lexicalResult = applyRulesToUnprotectedText(contextResult.text, lexicalRules);
@@ -239,6 +285,7 @@ function runMultiTokenNormalization(text, langOrOptions = 'de', maybeOptions = {
       PUNCT: punct.hits,
       total: hits + punct.hits,
     },
+    loom_signals: loomSignals,
   };
 }
 

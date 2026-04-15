@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>flow-db · Dataset Generator</title>
+<style>
+/* ── Reset & tokens ──────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:        #0d1117;
+  --surface:   #161b22;
+  --surface2:  #21262d;
+  --border:    #30363d;
+  --text:      #e6edf3;
+  --text2:     #8b949e;
+  --text3:     #6e7681;
+  --accent:    #58a6ff;
+  --accent2:   #1f6feb;
+  --success:   #3fb950;
+  --warn:      #d29922;
+  --danger:    #f85149;
+  --radius:    6px;
+  --gap:       12px;
+  --font:      -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --mono:      "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 13px;
+  line-height: 1.5;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Header ──────────────────────────────────────────────────────────────── */
+header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 0 16px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+}
+
+header h1 {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: 0.01em;
+}
+
+header h1 span { color: var(--accent); }
+
+.header-stats {
+  display: flex;
+  gap: 8px;
+  margin-left: auto;
+  flex-wrap: wrap;
+}
+
+.stat-pill {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 2px 10px;
+  font-size: 11px;
+  color: var(--text2);
+  white-space: nowrap;
+}
+
+.stat-pill b { color: var(--text); }
+
+.db-indicator {
+  font-size: 11px;
+  color: var(--text3);
+  font-family: var(--mono);
+  max-width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+.dot.green { background: var(--success); box-shadow: 0 0 6px var(--success); }
+.dot.red   { background: var(--danger); }
+
+/* ── Main layout ─────────────────────────────────────────────────────────── */
+.layout {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  flex: 1;
+  overflow: hidden;
+}
+
+/* ── Sidebar ─────────────────────────────────────────────────────────────── */
+.sidebar {
+  background: var(--surface);
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.sidebar-title {
+  padding: 12px 14px 8px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text3);
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.profile-list {
+  overflow-y: auto;
+  flex: 1;
+  padding: 6px;
+}
+
+.profile-card {
+  border-radius: var(--radius);
+  padding: 10px 12px;
+  margin-bottom: 4px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: background 0.1s, border-color 0.1s;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.profile-card:hover { background: var(--surface2); }
+.profile-card.active {
+  background: var(--surface2);
+  border-color: var(--border);
+}
+
+.profile-card.active .profile-name { color: var(--accent); }
+
+.profile-accent {
+  width: 3px;
+  border-radius: 3px;
+  align-self: stretch;
+  flex-shrink: 0;
+  min-height: 36px;
+}
+
+.profile-body { flex: 1; min-width: 0; }
+.profile-icon { font-size: 16px; line-height: 1; margin-bottom: 2px; }
+.profile-name { font-weight: 600; font-size: 12px; color: var(--text); line-height: 1.3; }
+.profile-tagline {
+  font-size: 11px;
+  color: var(--text3);
+  margin-top: 2px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ── Main panel ──────────────────────────────────────────────────────────── */
+.main {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.main-scroll {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* ── Sections ────────────────────────────────────────────────────────────── */
+.section {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.section-header {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.section-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.section-body { padding: 14px; }
+
+/* ── Profile detail header ───────────────────────────────────────────────── */
+.profile-detail-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.profile-big-icon { font-size: 28px; line-height: 1; }
+
+.profile-detail-name {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.3;
+}
+
+.profile-detail-sub {
+  font-size: 11px;
+  color: var(--text2);
+  margin-top: 2px;
+}
+
+.inspiration-note {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: var(--surface2);
+  border-left: 3px solid var(--accent2);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: 11px;
+  color: var(--text2);
+  font-style: italic;
+}
+
+/* ── Form grid ───────────────────────────────────────────────────────────── */
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+}
+
+.form-group { display: flex; flex-direction: column; gap: 4px; }
+.form-group.full { grid-column: 1 / -1; }
+.form-group.half { grid-column: span 2; }
+
+label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text2);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+input[type="number"],
+select {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  font-size: 12px;
+  padding: 6px 8px;
+  font-family: var(--font);
+  width: 100%;
+  outline: none;
+}
+
+input[type="number"]:focus,
+select:focus {
+  border-color: var(--accent2);
+}
+
+select option { background: var(--surface2); }
+
+.toggle-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.toggle-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  color: var(--text2);
+  user-select: none;
+}
+
+.toggle-item input[type="checkbox"] {
+  accent-color: var(--accent);
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+}
+
+.filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.filter-chip {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 2px 10px;
+  font-size: 11px;
+  color: var(--text3);
+  font-family: var(--mono);
+}
+
+/* ── Action bar ──────────────────────────────────────────────────────────── */
+.action-bar {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.btn {
+  border: none;
+  border-radius: var(--radius);
+  padding: 7px 14px;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: var(--font);
+  cursor: pointer;
+  transition: opacity 0.1s, background 0.1s;
+  white-space: nowrap;
+}
+
+.btn:disabled { opacity: 0.45; cursor: not-allowed; }
+.btn:not(:disabled):hover { opacity: 0.85; }
+
+.btn-primary { background: var(--accent2); color: #fff; }
+.btn-secondary { background: var(--surface2); color: var(--text); border: 1px solid var(--border); }
+.btn-success { background: #196c2e; color: var(--success); border: 1px solid #238636; }
+.btn-icon { background: none; border: 1px solid var(--border); color: var(--text2); padding: 7px 10px; }
+
+.status-text {
+  font-size: 11px;
+  color: var(--text3);
+  margin-left: 4px;
+}
+
+/* ── Preview table ───────────────────────────────────────────────────────── */
+.table-wrap {
+  overflow-x: auto;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+thead tr { background: var(--surface2); }
+
+th {
+  padding: 7px 10px;
+  text-align: left;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text3);
+  white-space: nowrap;
+  border-bottom: 1px solid var(--border);
+}
+
+td {
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text2);
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+td.mono { font-family: var(--mono); font-size: 11px; }
+td.highlight { color: var(--text); font-weight: 500; }
+td.arrow { color: var(--text3); }
+
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: rgba(255,255,255,0.025); }
+
+.badge {
+  display: inline-block;
+  border-radius: 3px;
+  padding: 1px 6px;
+  font-size: 10px;
+  font-family: var(--mono);
+  font-weight: 600;
+}
+
+.badge-green  { background: #0d2818; color: var(--success); }
+.badge-orange { background: #2d1f0a; color: var(--warn); }
+.badge-blue   { background: #0d1f3c; color: var(--accent); }
+.badge-gray   { background: var(--surface2); color: var(--text3); }
+
+/* ── Result panel ────────────────────────────────────────────────────────── */
+.result-meta {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.result-stat {
+  text-align: center;
+}
+
+.result-stat-value {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1;
+}
+
+.result-stat-label {
+  font-size: 10px;
+  color: var(--text3);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-top: 2px;
+}
+
+.download-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+/* ── Saved datasets ──────────────────────────────────────────────────────── */
+.saved-list { display: flex; flex-direction: column; gap: 4px; }
+.saved-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  background: var(--surface2);
+  border-radius: var(--radius);
+  font-size: 11px;
+  border: 1px solid var(--border);
+}
+.saved-name { font-family: var(--mono); flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.saved-size { color: var(--text3); white-space: nowrap; }
+.saved-date { color: var(--text3); white-space: nowrap; }
+
+/* ── Empty states ────────────────────────────────────────────────────────── */
+.empty {
+  text-align: center;
+  padding: 32px 16px;
+  color: var(--text3);
+  font-size: 12px;
+}
+
+.empty-icon { font-size: 28px; margin-bottom: 8px; }
+
+/* ── Spinner ─────────────────────────────────────────────────────────────── */
+@keyframes spin { to { transform: rotate(360deg); } }
+.spinner {
+  display: inline-block;
+  width: 14px; height: 14px;
+  border: 2px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+/* ── Scrollbar ───────────────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+/* ── Error toast ─────────────────────────────────────────────────────────── */
+#toast {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #3d0f0f;
+  border: 1px solid var(--danger);
+  color: var(--danger);
+  border-radius: var(--radius);
+  padding: 10px 16px;
+  font-size: 12px;
+  z-index: 999;
+  display: none;
+  max-width: 360px;
+}
+</style>
+</head>
+<body>
+
+<!-- ── Header ──────────────────────────────────────────────────────────────── -->
+<header>
+  <h1>flow-db · <span>Dataset Generator</span></h1>
+  <div style="display:flex;align-items:center;gap:6px;">
+    <div class="dot" id="dbDot"></div>
+    <span class="db-indicator" id="dbPath">connecting…</span>
+  </div>
+  <div class="header-stats" id="headerStats"></div>
+</header>
+
+<!-- ── Layout ──────────────────────────────────────────────────────────────── -->
+<div class="layout">
+
+  <!-- Sidebar: profile list -->
+  <aside class="sidebar">
+    <div class="sidebar-title">Profiles</div>
+    <div class="profile-list" id="profileList">
+      <div class="empty"><span class="spinner"></span></div>
+    </div>
+  </aside>
+
+  <!-- Main panel -->
+  <main class="main">
+    <div class="main-scroll" id="mainScroll">
+
+      <!-- Placeholder before profile selected -->
+      <div id="noProfile" class="empty" style="margin-top:60px;">
+        <div class="empty-icon">🎯</div>
+        <div>Select a profile from the sidebar to get started.</div>
+      </div>
+
+      <!-- Profile detail (hidden until selection) -->
+      <div id="profileDetailSection" style="display:none;">
+
+        <!-- Profile info -->
+        <div class="section" id="profileInfoSection">
+          <div class="section-body">
+            <div class="profile-detail-header">
+              <div class="profile-big-icon" id="detailIcon"></div>
+              <div>
+                <div class="profile-detail-name" id="detailName"></div>
+                <div class="profile-detail-sub" id="detailSub"></div>
+              </div>
+            </div>
+            <div class="inspiration-note" id="detailInspiration"></div>
+            <div class="filter-chips" id="detailChips"></div>
+          </div>
+        </div>
+
+        <!-- Configuration -->
+        <div class="section">
+          <div class="section-header">
+            <span class="section-title">Generation Options</span>
+          </div>
+          <div class="section-body">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="maxCases">Max Cases</label>
+                <input type="number" id="maxCases" min="1" max="10000" value="200">
+              </div>
+              <div class="form-group">
+                <label for="minGold">Min Gold Score</label>
+                <input type="number" id="minGold" min="0" max="5" value="2">
+              </div>
+              <div class="form-group">
+                <label for="outputFormat">Output Format</label>
+                <select id="outputFormat">
+                  <option value="flow-lab-json">flow-lab JSON</option>
+                  <option value="languagetool-json">LanguageTool JSON</option>
+                  <option value="csv">CSV</option>
+                  <option value="flow-test-js">flow test JS</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="langFilter">Language Filter</label>
+                <select id="langFilter">
+                  <option value="">All (from profile)</option>
+                  <option value="de">German (de)</option>
+                  <option value="en">English (en)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="seedVal">Random Seed</label>
+                <input type="number" id="seedVal" min="0" max="999999" value="42">
+              </div>
+              <div class="form-group">
+                <label for="negRatio">Negative Ratio</label>
+                <input type="number" id="negRatio" min="0" max="0.5" step="0.05" value="0.2">
+              </div>
+              <div class="form-group full">
+                <label>Augmentation</label>
+                <div class="toggle-row">
+                  <label class="toggle-item">
+                    <input type="checkbox" id="chkNegatives" checked>
+                    Include negatives
+                  </label>
+                  <label class="toggle-item">
+                    <input type="checkbox" id="chkVariants">
+                    Capitalize variants
+                  </label>
+                  <label class="toggle-item">
+                    <input type="checkbox" id="chkSentences">
+                    Wrap in sentences
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Preview -->
+        <div class="section">
+          <div class="section-header">
+            <span class="section-title">Preview</span>
+            <span style="margin-left:auto;">
+              <button class="btn btn-secondary" id="btnPreview" onclick="loadPreview()">
+                Preview (10 rows)
+              </button>
+            </span>
+          </div>
+          <div class="section-body" style="padding:0;">
+            <div id="previewArea">
+              <div class="empty" style="padding:24px;">
+                Click "Preview" to see a sample of matching cases.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Generate & Export -->
+        <div class="section">
+          <div class="section-header">
+            <span class="section-title">Generate &amp; Export</span>
+          </div>
+          <div class="section-body" style="display:flex;flex-direction:column;gap:12px;">
+            <div class="action-bar">
+              <button class="btn btn-primary" id="btnGenerate" onclick="generateDataset()">
+                ⚡ Generate Dataset
+              </button>
+              <span class="status-text" id="generateStatus"></span>
+            </div>
+
+            <!-- Result (shown after generation) -->
+            <div id="resultArea" style="display:none;">
+              <div class="result-meta" id="resultMeta"></div>
+              <div class="download-row">
+                <button class="btn btn-success" id="btnDownload" onclick="downloadDataset()">
+                  ⬇ Download
+                </button>
+                <button class="btn btn-secondary" id="btnSave" onclick="saveDataset()">
+                  💾 Save to datasets/
+                </button>
+                <button class="btn btn-icon" onclick="copyToClipboard()" title="Copy to clipboard">
+                  📋
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /profileDetailSection -->
+
+      <!-- Saved datasets -->
+      <div class="section">
+        <div class="section-header">
+          <span class="section-title">Saved Datasets</span>
+          <span style="margin-left:auto;">
+            <button class="btn btn-icon" onclick="refreshDatasets()" title="Refresh">↻</button>
+          </span>
+        </div>
+        <div class="section-body" style="padding:8px;">
+          <div id="savedList">
+            <div class="empty">No datasets saved yet.</div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /main-scroll -->
+  </main>
+</div><!-- /layout -->
+
+<div id="toast"></div>
+
+<script>
+'use strict';
+
+// ── State ────────────────────────────────────────────────────────────────────
+let profiles = [];
+let activeProfile = null;
+let lastResult = null;
+
+// ── Boot ─────────────────────────────────────────────────────────────────────
+async function boot() {
+  await Promise.all([loadStats(), loadProfiles()]);
+  await refreshDatasets();
+}
+
+// ── API helpers ───────────────────────────────────────────────────────────────
+async function api(method, path, body) {
+  const opts = { method, headers: {} };
+  if (body) {
+    opts.headers['Content-Type'] = 'application/json';
+    opts.body = JSON.stringify(body);
+  }
+  const res = await fetch(path, opts);
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({ error: res.statusText }));
+    throw new Error(err.error || `HTTP ${res.status}`);
+  }
+  return res.json();
+}
+
+// ── Stats & Header ────────────────────────────────────────────────────────────
+async function loadStats() {
+  try {
+    const s = await api('GET', '/api/stats');
+    document.getElementById('dbDot').className = 'dot green';
+    document.getElementById('dbPath').textContent = s.db_path.split('/').pop();
+    document.getElementById('dbPath').title = s.db_path;
+
+    const pills = [
+      ['error_cases', s.counts.error_cases, 'cases'],
+      ['sources', s.counts.sources, 'sources'],
+      ['lexicon_variants', s.counts.lexicon_variants, 'variants'],
+      ['documents', s.counts.documents, 'docs'],
+    ];
+    document.getElementById('headerStats').innerHTML = pills
+      .map(([, n, label]) => `<div class="stat-pill"><b>${n}</b> ${label}</div>`)
+      .join('');
+  } catch (e) {
+    document.getElementById('dbDot').className = 'dot red';
+    document.getElementById('dbPath').textContent = 'DB not found';
+    showToast('Cannot connect to database. Run: python -m src.database seed --db corpus.db');
+  }
+}
+
+// ── Profiles ──────────────────────────────────────────────────────────────────
+async function loadProfiles() {
+  try {
+    profiles = await api('GET', '/api/profiles');
+    renderProfileList();
+  } catch (e) {
+    document.getElementById('profileList').innerHTML =
+      `<div class="empty">Failed to load profiles: ${e.message}</div>`;
+  }
+}
+
+function renderProfileList() {
+  const el = document.getElementById('profileList');
+  el.innerHTML = profiles.map(p => `
+    <div class="profile-card${activeProfile === p.id ? ' active' : ''}"
+         onclick="selectProfile('${p.id}')"
+         style="--p-color:${p.color}">
+      <div class="profile-accent" style="background:${p.color};"></div>
+      <div class="profile-body">
+        <div class="profile-icon">${p.icon}</div>
+        <div class="profile-name">${p.name}</div>
+        <div class="profile-tagline">${p.description.substring(0, 80)}…</div>
+      </div>
+    </div>
+  `).join('');
+}
+
+function selectProfile(id) {
+  activeProfile = id;
+  renderProfileList();
+
+  const p = profiles.find(x => x.id === id);
+  if (!p) return;
+
+  document.getElementById('noProfile').style.display = 'none';
+  document.getElementById('profileDetailSection').style.display = '';
+
+  document.getElementById('detailIcon').textContent = p.icon;
+  document.getElementById('detailName').textContent = p.name;
+  document.getElementById('detailName').style.color = p.color;
+  document.getElementById('detailSub').textContent = p.description;
+  document.getElementById('detailInspiration').textContent = p.inspiration;
+
+  // Format chips
+  document.getElementById('detailChips').innerHTML = [
+    `<span class="badge badge-blue">${p.default_format}</span>`,
+    `<span class="badge badge-gray">default: ${p.default_size} cases</span>`,
+  ].join('');
+
+  // Set defaults from profile
+  document.getElementById('maxCases').value = p.default_size;
+  document.getElementById('outputFormat').value = p.default_format;
+
+  // Reset result
+  lastResult = null;
+  document.getElementById('resultArea').style.display = 'none';
+  document.getElementById('generateStatus').textContent = '';
+
+  // Clear preview
+  document.getElementById('previewArea').innerHTML =
+    '<div class="empty" style="padding:24px;">Click "Preview" to see matching cases.</div>';
+}
+
+// ── Preview ───────────────────────────────────────────────────────────────────
+async function loadPreview() {
+  if (!activeProfile) return;
+  const btn = document.getElementById('btnPreview');
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spinner"></span> Loading…';
+
+  try {
+    const overrides = buildOverrides();
+    const res = await api('POST', '/api/preview', {
+      profile_id: activeProfile,
+      overrides,
+      max_preview: 10,
+    });
+    renderPreviewTable(res.rows);
+  } catch (e) {
+    document.getElementById('previewArea').innerHTML =
+      `<div class="empty" style="padding:24px;color:var(--danger);">Error: ${e.message}</div>`;
+  } finally {
+    btn.disabled = false;
+    btn.innerHTML = 'Preview (10 rows)';
+  }
+}
+
+function renderPreviewTable(rows) {
+  if (!rows.length) {
+    document.getElementById('previewArea').innerHTML =
+      '<div class="empty" style="padding:24px;">No cases match the current filters.</div>';
+    return;
+  }
+
+  const tbody = rows.map(r => {
+    const badgeClass = r.gold_score >= 4 ? 'badge-green' : r.gold_score >= 2 ? 'badge-orange' : 'badge-gray';
+    const vtBadge = r.variant_type
+      ? `<span class="badge badge-blue">${r.variant_type}</span>`
+      : '<span class="badge badge-gray">—</span>';
+    const ctx = r.context_sentence
+      ? `<span title="${esc(r.context_sentence)}">✓</span>`
+      : '<span style="color:var(--text3)">–</span>';
+    return `<tr>
+      <td class="mono highlight">${esc(r.error_form)}</td>
+      <td class="arrow">→</td>
+      <td class="mono highlight">${esc(r.target_form ?? '—')}</td>
+      <td>${r.language}</td>
+      <td>${vtBadge}</td>
+      <td><span class="badge ${badgeClass}">${r.gold_score}</span></td>
+      <td>${esc(r.source_name ?? '—')}</td>
+      <td>${ctx}</td>
+    </tr>`;
+  }).join('');
+
+  document.getElementById('previewArea').innerHTML = `
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Input</th><th></th><th>Expected</th>
+            <th>Lang</th><th>Type</th><th>Gold</th><th>Source</th><th>Ctx</th>
+          </tr>
+        </thead>
+        <tbody>${tbody}</tbody>
+      </table>
+    </div>
+  `;
+}
+
+// ── Generate ──────────────────────────────────────────────────────────────────
+function buildOverrides() {
+  const overrides = {};
+  const lang = document.getElementById('langFilter').value;
+  if (lang) overrides.languages = [lang];
+  const minGold = parseInt(document.getElementById('minGold').value, 10);
+  if (!isNaN(minGold)) overrides.min_gold = minGold;
+  return overrides;
+}
+
+async function generateDataset() {
+  if (!activeProfile) return;
+  const btn = document.getElementById('btnGenerate');
+  const status = document.getElementById('generateStatus');
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spinner"></span> Generating…';
+  status.textContent = '';
+
+  try {
+    const res = await api('POST', '/api/generate', {
+      profile_id: activeProfile,
+      overrides: buildOverrides(),
+      max_cases: parseInt(document.getElementById('maxCases').value, 10) || 200,
+      output_format: document.getElementById('outputFormat').value,
+      include_negatives: document.getElementById('chkNegatives').checked,
+      add_variations: document.getElementById('chkVariants').checked,
+      wrap_sentences: document.getElementById('chkSentences').checked,
+      seed: parseInt(document.getElementById('seedVal').value, 10) || 42,
+    });
+
+    lastResult = res;
+    renderResult(res);
+    await refreshDatasets();
+  } catch (e) {
+    status.textContent = '⚠ ' + e.message;
+    showToast(e.message);
+  } finally {
+    btn.disabled = false;
+    btn.innerHTML = '⚡ Generate Dataset';
+  }
+}
+
+function renderResult(res) {
+  const meta = res.meta || {};
+  const total = res.total_count || 0;
+  const raw = res.raw_count || 0;
+  const negs = typeof res.data === 'object' && !Array.isArray(res.data)
+    ? (res.data.meta?.negative_cases || 0)
+    : 0;
+
+  document.getElementById('resultMeta').innerHTML = `
+    <div class="result-stat">
+      <div class="result-stat-value">${total}</div>
+      <div class="result-stat-label">Total Cases</div>
+    </div>
+    <div class="result-stat">
+      <div class="result-stat-value" style="color:var(--success)">${raw}</div>
+      <div class="result-stat-label">From DB</div>
+    </div>
+    <div class="result-stat">
+      <div class="result-stat-value" style="color:var(--text3)">${total - raw}</div>
+      <div class="result-stat-label">Synthetic</div>
+    </div>
+    <div class="result-stat">
+      <div class="result-stat-value" style="color:var(--warn)">${negs}</div>
+      <div class="result-stat-label">Negatives</div>
+    </div>
+    <div class="result-stat" style="margin-left:auto;text-align:right;">
+      <div class="result-stat-value" style="font-size:14px;color:var(--text2);">${res.format}</div>
+      <div class="result-stat-label">Format</div>
+    </div>
+  `;
+  document.getElementById('generateStatus').textContent =
+    `✓ Generated ${total} cases (${raw} from DB)`;
+  document.getElementById('resultArea').style.display = '';
+}
+
+// ── Download / Save ───────────────────────────────────────────────────────────
+function downloadDataset() {
+  if (!lastResult) return;
+  const fmt = lastResult.format;
+  const ext = { 'flow-lab-json': 'json', 'languagetool-json': 'json', 'csv': 'csv', 'flow-test-js': 'js' }[fmt] || 'json';
+  const ts = new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19);
+  const filename = `${activeProfile}_${ts}.${ext}`;
+
+  let content, mime;
+  if (fmt === 'csv' || fmt === 'flow-test-js') {
+    content = lastResult.data;
+    mime = fmt === 'csv' ? 'text/csv' : 'text/javascript';
+  } else {
+    content = JSON.stringify(lastResult.data, null, 2);
+    mime = 'application/json';
+  }
+
+  const blob = new Blob([content], { type: mime });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = filename;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+async function saveDataset() {
+  if (!lastResult) return;
+  const btn = document.getElementById('btnSave');
+  btn.disabled = true;
+  try {
+    const res = await api('POST', '/api/save', {
+      profile_id: activeProfile,
+      format: lastResult.format,
+      data: lastResult.data,
+      total_count: lastResult.total_count,
+    });
+    btn.textContent = `✓ Saved: ${res.saved}`;
+    await refreshDatasets();
+    setTimeout(() => { btn.textContent = '💾 Save to datasets/'; btn.disabled = false; }, 3000);
+  } catch (e) {
+    btn.disabled = false;
+    showToast(e.message);
+  }
+}
+
+function copyToClipboard() {
+  if (!lastResult) return;
+  const content = (lastResult.format === 'csv' || lastResult.format === 'flow-test-js')
+    ? lastResult.data
+    : JSON.stringify(lastResult.data, null, 2);
+  navigator.clipboard.writeText(content).then(() => {
+    showToast('Copied to clipboard!', false);
+  });
+}
+
+// ── Saved datasets ────────────────────────────────────────────────────────────
+async function refreshDatasets() {
+  try {
+    const list = await api('GET', '/api/datasets');
+    const el = document.getElementById('savedList');
+    if (!list.length) {
+      el.innerHTML = '<div class="empty">No datasets saved yet.</div>';
+      return;
+    }
+    el.innerHTML = '<div class="saved-list">' + list.map(d => `
+      <div class="saved-item">
+        <span class="saved-name">${esc(d.name)}</span>
+        <span class="saved-size">${fmtSize(d.size_bytes)}</span>
+        <span class="saved-date">${d.modified.slice(0, 10)}</span>
+      </div>
+    `).join('') + '</div>';
+  } catch (_) {}
+}
+
+// ── Utilities ─────────────────────────────────────────────────────────────────
+function esc(s) {
+  return String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+function fmtSize(bytes) {
+  if (bytes < 1024) return bytes + ' B';
+  if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + ' KB';
+  return (bytes / (1024 * 1024)).toFixed(1) + ' MB';
+}
+
+function showToast(msg, isError = true) {
+  const t = document.getElementById('toast');
+  t.style.background = isError ? '#3d0f0f' : '#0d2818';
+  t.style.borderColor = isError ? 'var(--danger)' : 'var(--success)';
+  t.style.color = isError ? 'var(--danger)' : 'var(--success)';
+  t.textContent = msg;
+  t.style.display = 'block';
+  clearTimeout(t._timer);
+  t._timer = setTimeout(() => { t.style.display = 'none'; }, 4000);
+}
+
+// ── Start ─────────────────────────────────────────────────────────────────────
+boot();
+</script>
+</body>
+</html>

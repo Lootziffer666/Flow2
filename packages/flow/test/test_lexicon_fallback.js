@@ -14,13 +14,14 @@ for (const [input, expectedLower] of fallbackCases) {
   assert.equal(
     String(result.corrected).toLowerCase(),
     expectedLower,
-    `Lexikon-Fallback sollte "${input}" -> "${expectedLower}" korrigieren`
+    `Fallback sollte "${input}" -> "${expectedLower}" korrigieren`
   );
-  assert.equal(result.applied_learning, 'lexicon');
+  assert.ok(['corpus_pair', 'lexicon'].includes(result.applied_learning));
   assert.ok(Array.isArray(result.applied_stages) && result.applied_stages.includes('LEXICON'));
 }
 
 const validWord = runCorrection('Bus');
 assert.equal(validWord.corrected, 'Bus', 'Korrektes Wort darf nicht umkorrigiert werden');
+assert.equal(validWord.applied_learning, null, 'Korrektes Wort darf keinen Fallback markieren');
 
 console.log('Lexicon fallback tests passed.');

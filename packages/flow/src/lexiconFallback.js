@@ -7,6 +7,7 @@ const { phoneticallyEqual } = require('@loot/loom');
 const CSV_PATH = path.join(__dirname, '..', '..', '..', 'corpora', 'German_Annotation_V028.csv');
 
 let cachedLexicon = null;
+let cachedErrorMap = null;
 
 function normalize(value) {
   return String(value || '')
@@ -81,6 +82,77 @@ function loadLexicon() {
   return cachedLexicon;
 }
 
+
+function loadErrorMap() {
+  if (cachedErrorMap) return cachedErrorMap;
+
+  if (!fs.existsSync(CSV_PATH)) {
+    cachedErrorMap = new Map();
+    return cachedErrorMap;
+  }
+
+  const raw = fs.readFileSync(CSV_PATH, 'latin1');
+  const lines = raw.split(/\r?\n/).filter(Boolean);
+  if (!lines.length) {
+    cachedErrorMap = new Map();
+    return cachedErrorMap;
+  }
+
+  const header = splitSemicolonRow(lines[0]);
+  const idxCorrect = header.findIndex((h) => h === 'Correct_Word');
+  const idxError = header.findIndex((h) => h === 'Error_Word');
+  if (idxCorrect === -1 || idxError === -1) {
+    cachedErrorMap = new Map();
+    return cachedErrorMap;
+  }
+
+  const candidates = new Map();
+
+  for (let i = 1; i < lines.length; i += 1) {
+    const parts = splitSemicolonRow(lines[i]);
+    const error = normalize(parts[idxError] || '');
+    const correct = normalize(parts[idxCorrect] || '');
+
+    if (!error || !correct) continue;
+    if (!candidates.has(error)) candidates.set(error, new Map());
+    const counts = candidates.get(error);
+    counts.set(correct, (counts.get(correct) || 0) + 1);
+  }
+
+  const resolved = new Map();
+
+  for (const [error, counts] of candidates) {
+    let bestWord = null;
+    let bestCount = 0;
+    let isTie = false;
+
+    for (const [word, count] of counts) {
+      if (count > bestCount) {
+        bestWord = word;
+        bestCount = count;
+        isTie = false;
+      } else if (count === bestCount) {
+        isTie = true;
+      }
+    }
+
+    if (bestWord && !isTie && bestWord !== error) {
+      resolved.set(error, bestWord);
+    }
+  }
+
+  cachedErrorMap = resolved;
+  return cachedErrorMap;
+}
+
+function getCorpusPairFallback(inputWord) {
+  const input = normalize(inputWord);
+  if (!input) return null;
+
+  const errorMap = loadErrorMap();
+  return errorMap.get(input) || null;
+}
+
 function damerauLevenshtein(a, b) {
   const left = [...normalize(a)];
   const right = [...normalize(b)];
@@ -152,7 +224,9 @@ function getLexiconFallback(inputWord) {
 }
 
 module.exports = {
+  getCorpusPairFallback,
   getLexiconFallback,
   damerauLevenshtein,
   loadLexicon,
+  loadErrorMap,
 };

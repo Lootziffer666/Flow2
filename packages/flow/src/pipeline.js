@@ -9,7 +9,7 @@ const {
   normalizeLanguage,
 } = require('./flowRulesStore');
 const { errorProfile } = require('@loot/loom');
-const { getLexiconFallback } = require('./lexiconFallback');
+const { getCorpusPairFallback, getLexiconFallback } = require('./lexiconFallback');
 
 const EMPTY_RULE_HITS = Object.freeze({
   EN: 0,
@@ -99,16 +99,21 @@ function runCorrection(text, langOrOptions) {
   });
 
   const unchanged = String(normalized.corrected || '').trim().toLowerCase() === source.trim().toLowerCase();
-  const lexiconFallback = unchanged && language === 'de' ? getLexiconFallback(source) : null;
+  const corpusFallback = unchanged && language === 'de' ? getCorpusPairFallback(source) : null;
+  const lexiconFallback = !corpusFallback && unchanged && language === 'de'
+    ? getLexiconFallback(source)
+    : null;
+  const fallbackValue = corpusFallback || lexiconFallback;
+  const fallbackType = corpusFallback ? 'corpus_pair' : (lexiconFallback ? 'lexicon' : null);
 
   return {
-    corrected: lexiconFallback || normalized.corrected,
+    corrected: fallbackValue || normalized.corrected,
     rule_hits: normalized.rule_hits || { ...EMPTY_RULE_HITS },
     scope: normalized.scope || 'normalization',
-    applied_stages: lexiconFallback
+    applied_stages: fallbackValue
       ? [...(normalized.applied_stages || []), 'LEXICON']
       : (normalized.applied_stages || []),
-    applied_learning: lexiconFallback ? 'lexicon' : null,
+    applied_learning: fallbackType,
     language,
     lang: language,
     loom_signals: normalized.loom_signals || null,

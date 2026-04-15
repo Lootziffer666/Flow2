@@ -15,7 +15,11 @@ Mit minimalen, risikoarmen Schritten vom aktuellen Zustand zu einer konsistenten
   - Applied Stages werden transparent als Metadaten ausgegeben
   - neue Scope-Boundary-Regressionstests verhindern stilistische Übernahme
   - Grammatikregel für „auch wenn“ gegen Überkorrektur abgesichert
-- ⏭️ **Nächster Schritt:** Phase 3 (SPIN auf LOOM-Signale härten)
+- ✅ **Phase 3 umgesetzt (SPIN auf LOOM-Signale gehärtet):**
+  - Diagnose trennt Signalquellen explizit in `signal_source.loom` und `signal_source.spin`
+  - Mehrkernigkeitsdiagnose nutzt LOOM-Clause-Signal statt lokaler Konjunktionslisten
+  - UI zeigt Signalherkunft transparent an
+- ⏭️ **Nächster Schritt:** Phase 4 (SMASH Signal-Bridge)
 
 ## Phase 1 — Architektur-Naming stabilisieren (1 PR)
 

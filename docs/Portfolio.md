@@ -153,6 +153,34 @@ LOOM soll Text in bearbeitbare Struktur übersetzen und produktübergreifend nut
 * Signale für FLOW, SPIN und SMASH liefern
 * Diagnosen erklärbar halten
 
+## Regelwerkschnitt (ab jetzt verbindlich)
+
+Damit das Regelwerk korrekt getrennt bleibt, gilt folgende Zuordnung:
+
+### Nach LOOM (Engine-Core)
+
+* Clause- und Segmentlogik
+* Kontextregeln mit strukturellem Diagnosenutzen
+* Zustandsklassifikation (stabil, mehrkernig, konfliktär, überladen …)
+* Konflikt-/Bruchsignale und Re-Render-Vorbedingungen
+* explainable Signalableitung für alle Produktschichten
+
+### In FLOW (nur Normalisierung)
+
+* SN → SL → MO → PG Reparaturregeln
+* orthografische, phonem-graphematische, morphologische Korrektur
+* Protected-Spans und lokale Ausnahmen
+* confidence-gesteuerte Anwendung für Auto-Fix vs. Vorschlag
+
+### In SPIN (zwingend UI-/Arbeitslogik)
+
+* Leselast-Visualisierungsregeln
+* Rhythmus-/Sequenzmarker
+* Wiederholungs- und Motivtracking
+* Variantenvergleichslogik ohne Auto-Rewrite
+
+Damit gilt: SPIN interpretiert und visualisiert, FLOW repariert, LOOM entscheidet strukturell.
+
 ## In Scope
 
 * strukturelle Satz- und Segmentverarbeitung
@@ -233,7 +261,7 @@ Die vorhandene Struktur ist bereits mehr als ein klassischer Korrektor:
 * bounded text repair
 * deterministische Pipeline
 * LRS-nahe Fehlerbehandlung
-* kontextbewusste Regelanwendung
+* kontextbewusste Regelanwendung nur innerhalb von Normalisierung
 * benchmarkbare Qualität
 * Echtzeitnutzung
 
@@ -243,7 +271,7 @@ Die vorhandene Struktur ist bereits mehr als ein klassischer Korrektor:
 * phoneme–grapheme correction
 * morphology-aware repair
 * surface cleanup
-* grammar-aware rule support
+* grammar-aware rule support, sofern direkt reparaturbezogen
 * Echtzeitverwendung über native Shell
 * protected spans
 * lernbare Ausnahmen / Regeln  
@@ -255,6 +283,8 @@ Die vorhandene Struktur ist bereits mehr als ein klassischer Korrektor:
 * semantisch offene Textverbesserung
 * literarische Ausdrucksoptimierung
 * strukturelle Tiefendiagnose
+* Clause-/Chunk-Diagnostik als Primärlogik (liegt in LOOM)
+* Ausdrucks- und Leselastdiagnose (liegt in SPIN)
 
 ## MVP / aktueller produktreifer Kern
 

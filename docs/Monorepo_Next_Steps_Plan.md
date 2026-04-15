@@ -23,7 +23,11 @@ Mit minimalen, risikoarmen Schritten vom aktuellen Zustand zu einer konsistenten
   - minimalen Signalvertrag LOOM → SMASH eingeführt (`state_hint`, `blockage_hint`, `text_ref`)
   - Routing auf `smash-intake` mit append-only Log umgesetzt
   - gezielte Tests für Signal-Normalisierung und Routing ergänzt
-- ⏭️ **Nächster Schritt:** Phase 5 (Governance/Quality Gates)
+- ✅ **Phase 5 umgesetzt (Governance/Quality Gates):**
+  - ausführbarer Merge-Gate via `npm run gate:phase5` eingeführt
+  - Gate deckt functional, determinism, regression, snapshot und audit append-only ab
+  - EVOLUTION_PROTOCOL um operative Merge-Regel ergänzt
+- ⏭️ **Nächster Schritt:** fortlaufendes Benchmark-Hardening auf Datensatzebene
 
 ## Phase 1 — Architektur-Naming stabilisieren (1 PR)
 

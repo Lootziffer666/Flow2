@@ -16,7 +16,9 @@
     "test:loom": "npm test -w packages/loom",
     "test:shared": "npm test -w packages/shared",
     "test:flow": "npm test -w packages/flow",
-    "test:spin": "npm test -w packages/spin"
+    "test:spin": "npm test -w packages/spin",
+    "test:smash": "npm test -w packages/smash",
+    "gate:phase5": "node scripts/phase5_quality_gate.js"
   },
   "keywords": [
     "normalization",

@@ -7,12 +7,12 @@ const PG_RULES = require('./rules.pg');
 const EN_RULES = require('./rules.en');
 const { getPunctRules } = require('./rules.punct');
 
-// Shared engine (@loot/shared)
+// Shared engine (@loot/loom)
 const {
   GR_RULES,
   contextWindowRules: CONTEXT_RULES,
   detectClauses,
-} = require('@loot/shared');
+} = require('@loot/loom');
 
 // Protected Spans (Code, Pfade, Namen, UI-Labels etc.)
 const PROTECTED_PATTERNS = [
@@ -202,6 +202,8 @@ function runMultiTokenNormalization(text, langOrOptions = 'de', maybeOptions = {
 
     return {
       corrected,
+      scope: 'normalization',
+      applied_stages: ['PUNCT', 'CTX', 'SN', 'SL', 'MO', 'PG', 'GR'],
       rule_hits: {
         EN: 0,
         CTX: deContext.hits,
@@ -228,6 +230,8 @@ function runMultiTokenNormalization(text, langOrOptions = 'de', maybeOptions = {
 
   return {
     corrected: correctedEn,
+    scope: 'normalization',
+    applied_stages: ['PUNCT', 'CTX', 'EN'],
     rule_hits: {
       EN: hits,
       SN: 0,

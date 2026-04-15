@@ -1,43 +1,50 @@
 # Was macht FLOW besonders? – Vergleich mit anderen Tools
 
 > **Wichtige Einordnung:** FLOW ist keine eigenständige Sprachengine, sondern eine
-> **Anwendungsschicht**, die auf der übergeordneten Engine **SPIN** basiert.
+> **Anwendungsschicht**, die auf der übergeordneten Engine **LOOM** basiert.
 > Der Vergleich mit Tools wie LanguageTool gilt daher nicht für FLOW allein,
 > sondern für das Gesamtsystem **SPIN + FLOW**.
 > Dieses Verhältnis wird in Abschnitt 0 erklärt, bevor FLOW selbst charakterisiert wird.
 
 ---
 
-## 0 Das Ökosystem: SPIN und FLOW
+## 0 Das Ökosystem: LOOM, SPIN und FLOW
 
-### 0.1 SPIN – die übergeordnete Sprachengine
+### 0.1 LOOM – die übergeordnete Sprachengine
 
-**SPIN** (Sentence Processing & Interpretation Network) ist das eigentliche diagnostische Sprachinstrument.  
-Es zerlegt Sätze in **Bedeutungs-Chunks** (Subjekt, Prädikat, Objekt, Relation, Zustand u. a.), macht Satzstruktur per Drag & Drop physisch erfahrbar und gibt nach einem Re-Rendering eine strukturelle **Diagnose** aus (z. B. „stabil", „mehrkernig", „konfliktär").
+**LOOM** ist das eigentliche diagnostische Sprachinstrument.
+Es zerlegt Sätze in **Bedeutungs-Chunks** (Subjekt, Prädikat, Objekt, Relation, Zustand u. a.), klassifiziert Strukturzustände und liefert erklärbare Signale für FLOW, SPIN und SMASH.
 
-SPIN ist ausdrücklich **kein Korrektor**.  
-SPIN schreibt nicht, bewertet nicht und schlägt keine Texte vor.  
-Sein Ziel: Struktur sichtbar machen, damit Autor:innen selbst entscheiden können.
+LOOM ist ausdrücklich **kein Korrektor**.
+LOOM schreibt nicht, bewertet nicht und schlägt keine Texte vor.
+Sein Ziel: Struktur diagnostisch erfassen, damit Oberprodukte gezielt und begrenzt arbeiten.
 
-Zielgruppe: komplex denkende Autor:innen, ND-Personen (ADHS, Autismus, AuDHD), Menschen, die bewusst nicht generativ schreiben wollen.
+### 0.2 SPIN – operative Arbeitsoberfläche auf LOOM
 
-### 0.2 FLOW – abgeleitet von SPIN
+**SPIN** bleibt die visuelle und operative Analysefläche (Leselast, Rhythmus, Wiederholung, Varianten), konsumiert aber LOOM-Signale statt selbst Engine-Primärlogik zu sein.
 
-**FLOW** ist eine aus SPIN hergeleitete **Normalisierungsschicht**, die sich auf einen spezifischen Anwendungsfall konzentriert: die orthografische Korrektur für Menschen mit Lese-Rechtschreib-Schwäche (LRS).
+### 0.3 FLOW – abgeleitet von LOOM
+
+**FLOW** ist eine aus LOOM hergeleitete **Normalisierungsschicht**, die sich auf einen spezifischen Anwendungsfall konzentriert: die orthografische Korrektur für Menschen mit Lese-Rechtschreib-Schwäche (LRS).
 
 ```
 ┌──────────────────────────────────────────────────────────┐
-│  SPIN – Strukturdiagnose-Engine                          │
-│  Chunking · Drag & Drop · Re-Render · Diagnose           │
+│  LOOM – Strukturdiagnose-Engine                          │
+│  Chunking · State-Layer · Re-Render · Signalableitung    │
 └──────────────────────┬───────────────────────────────────┘
                        │ liefert Basis-Konzepte und Engine
+┌──────────────────────▼───────────────────────────────────┐
+│  SPIN – Arbeitsoberfläche                                │
+│  Leselast · Rhythmus · Varianten · Visualisierung        │
+└──────────────────────┬───────────────────────────────────┘
+                       │ konsumiert LOOM-Signale
 ┌──────────────────────▼───────────────────────────────────┐
 │  FLOW – Orthografische Normalisierungsschicht            │
 │  SN → SL → MO → PG · Keyboard-Hook · Lernregeln         │
 └──────────────────────────────────────────────────────────┘
 ```
 
-FLOW übernimmt von SPIN:
+FLOW übernimmt von LOOM:
 - das deterministische, regelbasierte Paradigma (kein LLM, kein generativer Output)
 - den Grundsatz der Transparenz (jede Änderung ist auf eine Regel zurückführbar)
 - den Datenschutz-Grundsatz (vollständig lokal, keine Cloud-Aufrufe)
@@ -47,7 +54,7 @@ FLOW fügt hinzu:
 - die LRS-spezifische Vierstufen-Pipeline (SN → SL → MO → PG)
 - die sofortige Lernfähigkeit über `flow_rules.json`
 
-### 0.3 Konsequenz für den Toolvergleich
+### 0.4 Konsequenz für den Toolvergleich
 
 | Vergleichsobjekt | FLOW allein | SPIN + FLOW |
 |-----------------|-------------|-------------|

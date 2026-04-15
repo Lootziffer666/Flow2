@@ -198,6 +198,42 @@ Jede Diagnose sollte auf interne Strukturen oder Regeln zurückführbar sein.
 
 ---
 
+## Startarchitektur Regelwerk (LOOM-first)
+
+Um LOOM praktisch aufzubauen, wird das bisher in FLOW liegende Regelwerk in drei Klassen getrennt. Ziel ist: FLOW bleibt reine Normalisierungsschicht, während struktur- und diagnosebezogene Regeln im Engine-Kern liegen.
+
+### A) Nach LOOM auszulagernde Regelklassen
+
+Diese Regeln sind nicht zwingend „Normalisierung“, sondern allgemeine Sprach- und Strukturdiagnostik:
+
+* Clause Detection / Segmentgrenzen
+* Context-Window-Regeln mit strukturellem Bezug
+* Konflikt- und Mehrkernigkeitsindikatoren
+* Re-Render-Vorbedingungen (z. B. tragfähige Chunk-Reihenfolge)
+* explainable Signalableitung (warum ein Zustand als stabil/instabil markiert wurde)
+
+### B) Zwingend in FLOW verbleibende Regelklassen
+
+FLOW behält nur Regeln, die direkt Oberflächenreibung reparieren:
+
+* SN → SL → MO → PG Korrekturlogik
+* Protected-Spans-Ausschlüsse (URLs, Code, technische Tokens)
+* lokale Ausnahmen/Lernregeln für konkrete Reparaturfälle
+* confidence-basierte Anwendung für Auto-Repair vs. Vorschlag (nur bezogen auf Reparaturregeln)
+
+### C) Für SPIN zwingend notwendige Regelklassen
+
+SPIN braucht eine eigene, schmale Regelmenge für die Arbeitsoberfläche – aber nicht als Engine-Ersatz:
+
+* Leselast-Heuristiken (Visualisierungsebene)
+* Rhythmus-/Taktmarker für Satzfolgen
+* Wiederholungs- und Motivtracking-Regeln
+* Variantenvergleichsregeln (Differenz, nicht Korrektur)
+
+SPIN nutzt dafür LOOM-Signale als Primärquelle und ergänzt nur UI-nahe Darstellungslogik.
+
+---
+
 ## Success Metrics
 
 * Konsistenz produktübergreifender Diagnosen
@@ -390,9 +426,10 @@ Diese Einteilung ist stark, weil sie Fehlerklassen trennt:
 
 Das ist mehr als Autocorrect. Es ist eine echte Produktlogik.
 
-## 2. Grammar / Context Layer
+## 2. Grammar / Context Layer (neu geschnitten)
 
-Clause detection, context window rules, confidence filtering und grammar-oriented rules erweitern die Reparatur um kontrollierte Kontextsensitivität. 
+FLOW nutzt Kontext weiterhin, aber nur noch als Reparaturhilfe.
+Strukturdiagnostische Regeln (Clause Detection, Mehrkernigkeit, Konfliktsignale, Re-Render-Logik) gehören in LOOM und werden von FLOW nur konsumiert.
 
 ## 3. Lab / Benchmark Layer
 
@@ -465,9 +502,9 @@ Sobald die Oberfläche ausreichend tragfähig ist:
 ## Technical Considerations
 
 * Node-basierte Engine plus native Shell ist bereits sinnvoll angelegt 
-* Signalübergabe aus LOOM perspektivisch weiter vertiefen
+* Signalübergabe aus LOOM nicht nur perspektivisch, sondern als primären Regel-Contract aufbauen
 * Confidence-Handling differenzieren: Auto-Repair vs. Vorschlag
-* Regelbasis weiter ausbauen, aber bounded halten
+* FLOW-Regelbasis auf reine Normalisierung begrenzen; strukturelle Regelpflege in LOOM zentralisieren
 * Cross-platform-Frage später klären, Windows-first ist für den Anfang okay
 
 ---

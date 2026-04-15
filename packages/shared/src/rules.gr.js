@@ -87,6 +87,13 @@ const GR_RULES = [
     to: '$1$2$3',
     confidence: 0.99,
   },
+  // Schritt 3: „auch wenn" bleibt ohne Komma.
+  {
+    id: 'de-gr-komma-nach-auch-undo',
+    from: /\b(auch),(\s+)(dass|weil|obwohl|ob|wenn|falls|nachdem|bevor|sobald|solange)\b/gi,
+    to: '$1$2$3',
+    confidence: 0.99,
+  },
 
   // -----------------------------------------------------------------------
   // APOSTROPH_GENITIV

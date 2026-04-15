@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SMASH UI</title>
+<style>
+
+:root{
+  --bg:#f4efe6;
+  --ink:#111;
+  --accent:#b72121;
+  --muted:#6b635a;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink)}
+body{display:flex;flex-direction:column}
+header{padding:16px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(17,17,17,.08)}
+h1{font-size:22px;margin:0;letter-spacing:.02em}
+small{color:var(--muted)}
+main{flex:1;display:grid;place-items:center;padding:18px}
+.stage{position:relative;width:min(900px,92vw);height:min(540px,70vh);background:#fff;overflow:hidden;border-radius:24px;box-shadow:0 16px 60px rgba(0,0,0,.12)}
+.overlay{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}
+.badge{position:absolute;left:16px;bottom:16px;background:rgba(255,255,255,.82);backdrop-filter: blur(8px);border:1px solid rgba(0,0,0,.08);padding:8px 12px;border-radius:999px;font-size:13px}
+button{appearance:none;border:0;border-radius:999px;background:var(--ink);color:white;padding:10px 14px;font-weight:600;cursor:pointer}
+button.secondary{background:#e7dfd3;color:var(--ink)}
+.controls{display:flex;gap:10px;align-items:center}
+.msg{position:absolute;top:16px;left:50%;transform:translateX(-50%);padding:10px 14px;background:rgba(255,255,255,.9);border-radius:999px;border:1px solid rgba(0,0,0,.08);font-weight:600}
+svg{display:block;width:100%;height:100%}
+a{color:inherit}
+
+body{display:block}
+.wrap{max-width:1100px;margin:0 auto;padding:22px}
+.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:18px;align-items:stretch}
+.panel{background:#fff;border-radius:28px;padding:28px;box-shadow:0 20px 80px rgba(0,0,0,.1)}
+h1{font-size:46px;line-height:1;margin-bottom:10px}
+p{color:var(--muted);font-size:18px;line-height:1.5}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:18px}
+.card{display:flex;flex-direction:column;gap:8px;min-height:120px;padding:18px;border-radius:22px;background:#fff;text-decoration:none;box-shadow:0 14px 36px rgba(0,0,0,.08);border:1px solid rgba(17,17,17,.05)}
+.card strong{font-size:18px}
+.card span{font-size:14px;color:var(--muted);line-height:1.4}
+.kpi{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.kpi div{padding:18px;border-radius:20px;background:#f4efe6}
+.bigword{font-size:72px;font-weight:800;letter-spacing:-.04em}
+@media (max-width:800px){.hero{grid-template-columns:1fr} h1{font-size:36px} .bigword{font-size:52px}}
+</style></head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <div class="panel">
+      <small>SMASH v0.1</small>
+      <h1>20 Microgames + UI</h1>
+      <p>Wortfern, aber sprachnah. Kurze Zustandswechsel über Rhythmus, Verbindung, Ausrichtung, Freilegung und Durchbruch.</p>
+      <div class="grid">
+        <a class="card" href="split_merge.html"><strong>Split / Merge</strong><span>Timing + Flusskontrolle: Öffne oder verenge den Engpass, damit die richtige Hälfte unten ankommt.</span></a>
+<a class="card" href="break_the_chain.html"><strong>Break the Chain</strong><span>Unterbrich die Kettenreaktion mit einem einzigen präzisen Eingriff.</span></a>
+<a class="card" href="cut_a_path.html"><strong>Cut a Path</strong><span>Zeichne einen sicheren Weg nur innerhalb des Lichtkegels.</span></a>
+<a class="card" href="find_the_exit.html"><strong>Find the Exit</strong><span>Tippe die eine weiche Stelle in der Mauer, bevor der Lichtkeil weiterzieht.</span></a>
+<a class="card" href="hold_the_thread.html"><strong>Hold the Thread</strong><span>Halte die Verbindung offen und wische Störblasen weg.</span></a>
+<a class="card" href="pull_rank.html"><strong>Pull Rank</strong><span>Verschiebe nur einen Marker, um das fragile Gleichgewicht herzustellen.</span></a>
+<a class="card" href="contain_the_burst.html"><strong>Contain the Burst</strong><span>Schließe rechtzeitig eine Schutzform um die Figur.</span></a>
+<a class="card" href="bridge_the_gap.html"><strong>Bridge the Gap</strong><span>Baue eine einzige Brücke über den dunklen Spalt.</span></a>
+<a class="card" href="retune_the_image.html"><strong>Retune the Image</strong><span>Setze drei Impulse im richtigen Takt, bis das Bild wieder stimmt.</span></a>
+<a class="card" href="soft_touch.html"><strong>Soft Touch</strong><span>Treffe mit perfektem Timing einen sanften, gewaltfreien Kontakt.</span></a>
+<a class="card" href="edge_walk.html"><strong>Edge Walk</strong><span>Führe die Figur an der Kante entlang, mit Halten und Loslassen im richtigen Moment.</span></a>
+<a class="card" href="open_the_spread.html"><strong>Open the Spread</strong><span>Richte die Seiten minimal aus, bis die Mittelachse sauber einrastet.</span></a>
+<a class="card" href="dose_match.html"><strong>Dose Match</strong><span>Ordne Last und Träger mit Blick für Größe und Balance zu.</span></a>
+<a class="card" href="calm_the_beacon.html"><strong>Calm the Beacon</strong><span>Synchronisiere Herzschlag und Alarm, bis der Puls sich beruhigt.</span></a>
+<a class="card" href="gather.html"><strong>Gather</strong><span>Ziehe Fragmente zurück in den Kopf und setze die Form wieder zusammen.</span></a>
+<a class="card" href="set_it_straight.html"><strong>Set It Straight</strong><span>Drehe den Kopf exakt zurück in die richtige Position.</span></a>
+<a class="card" href="reveal_the_face.html"><strong>Reveal the Face</strong><span>Wische nur die störenden Schichten weg, bis das Gesicht wieder klar wird.</span></a>
+<a class="card" href="stabilize_the_reflection.html"><strong>Stabilize the Reflection</strong><span>Glätte das Wasser, bis die Spiegelung wieder Form annimmt.</span></a>
+<a class="card" href="sync_the_split.html"><strong>Sync the Split</strong><span>Schiebe zwei Hälften pixelgenau wieder zusammen.</span></a>
+<a class="card" href="cut_through.html"><strong>Cut Through</strong><span>Führe einen weißen Keil mit einem einzigen klaren Schnitt durch Widerstand.</span></a>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="bigword">RE-ENTRY</div>
+      <p>Keine Highscore-Hölle. Keine Textprüfung. Jede Runde ist kurz, klar und darauf ausgelegt, wieder Zugriff zu schaffen.</p>
+      <div class="kpi">
+        <div><strong>20</strong><br><small>einzelne HTML-Spiele</small></div>
+        <div><strong>1</strong><br><small>separate UI-Shell</small></div>
+        <div><strong>offline</strong><br><small>keine externen Assets</small></div>
+        <div><strong>self-contained</strong><br><small>HTML + CSS + JS</small></div>
+      </div>
+    </div>
+  </div>
+</div>
+</body></html>

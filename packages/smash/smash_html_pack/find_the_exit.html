@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Find the Exit</title>
+<style>
+:root{
+  --bg:#f4efe6;
+  --ink:#111;
+  --accent:#b72121;
+  --muted:#6b635a;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink)}
+body{display:flex;flex-direction:column}
+header{padding:16px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(17,17,17,.08)}
+h1{font-size:22px;margin:0;letter-spacing:.02em}
+small{color:var(--muted)}
+main{flex:1;display:grid;place-items:center;padding:18px}
+.stage{position:relative;width:min(900px,92vw);height:min(540px,70vh);background:#fff;overflow:hidden;border-radius:24px;box-shadow:0 16px 60px rgba(0,0,0,.12)}
+.overlay{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}
+.badge{position:absolute;left:16px;bottom:16px;background:rgba(255,255,255,.82);backdrop-filter: blur(8px);border:1px solid rgba(0,0,0,.08);padding:8px 12px;border-radius:999px;font-size:13px}
+button{appearance:none;border:0;border-radius:999px;background:var(--ink);color:white;padding:10px 14px;font-weight:600;cursor:pointer}
+button.secondary{background:#e7dfd3;color:var(--ink)}
+.controls{display:flex;gap:10px;align-items:center}
+.msg{position:absolute;top:16px;left:50%;transform:translateX(-50%);padding:10px 14px;background:rgba(255,255,255,.9);border-radius:999px;border:1px solid rgba(0,0,0,.08);font-weight:600}
+svg{display:block;width:100%;height:100%}
+a{color:inherit}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>Find the Exit</h1>
+    <small>Tippe die eine weiche Stelle in der Mauer, bevor der Lichtkeil weiterzieht.</small>
+  </div>
+  <div class="controls">
+    <a href="ui.html"><button class="secondary">Zur UI</button></a>
+    <button onclick="location.reload()">Neu starten</button>
+  </div>
+</header>
+<main>
+  <div class="stage" id="stage">
+    <div class="msg" id="status">Bereit</div>
+    <svg id="scene" viewBox="0 0 900 540" preserveAspectRatio="xMidYMid meet"></svg>
+    <div class="badge">5–20 Sek. Microgame</div>
+  </div>
+</main>
+<script>
+const $ = s => document.querySelector(s);
+const stage = $('.stage');
+const svg = $('#scene');
+const statusEl = $('#status');
+function setStatus(t){ if(statusEl) statusEl.textContent=t; }
+function rand(a,b){ return Math.random()*(b-a)+a; }
+function clamp(v,a,b){ return Math.max(a,Math.min(b,v)); }
+function dist(ax,ay,bx,by){ return Math.hypot(ax-bx, ay-by); }
+function celebrate(text='Gut'){ 
+  setStatus(text);
+  stage.animate([{transform:'scale(1)'},{transform:'scale(1.006)'},{transform:'scale(1)'}],{duration:240});
+}
+
+
+let targetX=rand(180,720);
+svg.innerHTML=`<rect width="900" height="540" fill="#f4efe6"/>
+<rect x="140" y="60" width="620" height="420" fill="#111"/>
+<rect x="360" y="120" width="180" height="260" fill="#f4efe6"/>
+<rect id="wall" x="360" y="120" width="180" height="260" fill="#111"/>
+<polygon id="beam" points="450,20 330,520 570,520" fill="rgba(183,33,33,.15)"/>
+<circle cx="450" cy="440" r="18" fill="#f4efe6"/>`;
+const wall=document.getElementById('wall'), beam=document.getElementById('beam');
+let x=260, dir=1;
+setStatus('Tippe die eine weiche Stelle, wenn der Lichtkeil darüber liegt');
+function anim(){
+ x += dir*4;
+ if(x>640||x<260) dir*=-1;
+ beam.setAttribute('points', `${x},20 ${x-120},520 ${x+120},520`);
+ requestAnimationFrame(anim);
+}
+anim();
+stage.onclick=e=>{
+ const r=svg.getBoundingClientRect();
+ const px=(e.clientX-r.left)/r.width*900;
+ const good=Math.abs(px-targetX)<35 && Math.abs(px-x)<120;
+ celebrate(good?'Ausgang gefunden':'Falsche Stelle');
+ const mark=document.createElementNS('http://www.w3.org/2000/svg','circle');
+ mark.setAttribute('cx', px); mark.setAttribute('cy', 250); mark.setAttribute('r', 12); mark.setAttribute('fill', good?'#b72121':'#d7cdbf');
+ svg.appendChild(mark);
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pull Rank</title>
+<style>
+:root{
+  --bg:#f4efe6;
+  --ink:#111;
+  --accent:#b72121;
+  --muted:#6b635a;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink)}
+body{display:flex;flex-direction:column}
+header{padding:16px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(17,17,17,.08)}
+h1{font-size:22px;margin:0;letter-spacing:.02em}
+small{color:var(--muted)}
+main{flex:1;display:grid;place-items:center;padding:18px}
+.stage{position:relative;width:min(900px,92vw);height:min(540px,70vh);background:#fff;overflow:hidden;border-radius:24px;box-shadow:0 16px 60px rgba(0,0,0,.12)}
+.overlay{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}
+.badge{position:absolute;left:16px;bottom:16px;background:rgba(255,255,255,.82);backdrop-filter: blur(8px);border:1px solid rgba(0,0,0,.08);padding:8px 12px;border-radius:999px;font-size:13px}
+button{appearance:none;border:0;border-radius:999px;background:var(--ink);color:white;padding:10px 14px;font-weight:600;cursor:pointer}
+button.secondary{background:#e7dfd3;color:var(--ink)}
+.controls{display:flex;gap:10px;align-items:center}
+.msg{position:absolute;top:16px;left:50%;transform:translateX(-50%);padding:10px 14px;background:rgba(255,255,255,.9);border-radius:999px;border:1px solid rgba(0,0,0,.08);font-weight:600}
+svg{display:block;width:100%;height:100%}
+a{color:inherit}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>Pull Rank</h1>
+    <small>Verschiebe nur einen Marker, um das fragile Gleichgewicht herzustellen.</small>
+  </div>
+  <div class="controls">
+    <a href="ui.html"><button class="secondary">Zur UI</button></a>
+    <button onclick="location.reload()">Neu starten</button>
+  </div>
+</header>
+<main>
+  <div class="stage" id="stage">
+    <div class="msg" id="status">Bereit</div>
+    <svg id="scene" viewBox="0 0 900 540" preserveAspectRatio="xMidYMid meet"></svg>
+    <div class="badge">5–20 Sek. Microgame</div>
+  </div>
+</main>
+<script>
+const $ = s => document.querySelector(s);
+const stage = $('.stage');
+const svg = $('#scene');
+const statusEl = $('#status');
+function setStatus(t){ if(statusEl) statusEl.textContent=t; }
+function rand(a,b){ return Math.random()*(b-a)+a; }
+function clamp(v,a,b){ return Math.max(a,Math.min(b,v)); }
+function dist(ax,ay,bx,by){ return Math.hypot(ax-bx, ay-by); }
+function celebrate(text='Gut'){ 
+  setStatus(text);
+  stage.animate([{transform:'scale(1)'},{transform:'scale(1.006)'},{transform:'scale(1)'}],{duration:240});
+}
+
+
+svg.innerHTML=`<rect width="900" height="540" fill="#f4efe6"/>
+<ellipse cx="450" cy="290" rx="260" ry="120" fill="#111"/>
+<circle id="target" cx="450" cy="290" r="18" fill="#b72121"/>
+${[0,1,2,3,4].map(i=>`<circle class="marker" cx="${300+i*75}" cy="${230+Math.sin(i)*50}" r="22" fill="#d8d0c6" stroke="#111" stroke-width="4"/>`).join('')}`;
+const ms=[...svg.querySelectorAll('.marker')]; let active=null, off={x:0,y:0};
+setStatus('Verschiebe genau einen Marker, bis der rote Kern zentriert ist');
+function pt(e){const r=svg.getBoundingClientRect(); return {x:(e.clientX-r.left)/r.width*900,y:(e.clientY-r.top)/r.height*540};}
+ms.forEach(m=>{
+ m.onpointerdown=e=>{active=m; const p=pt(e); off.x=+m.getAttribute('cx')-p.x; off.y=+m.getAttribute('cy')-p.y;};
+});
+stage.onpointermove=e=>{
+ if(!active) return;
+ const p=pt(e); active.setAttribute('cx', clamp(p.x+off.x,200,700)); active.setAttribute('cy', clamp(p.y+off.y,160,420));
+};
+stage.onpointerup=()=>{
+ if(!active) return;
+ active=null;
+ let avgx=ms.reduce((a,m)=>a+ +m.getAttribute('cx'),0)/ms.length;
+ let avgy=ms.reduce((a,m)=>a+ +m.getAttribute('cy'),0)/ms.length;
+ const good = dist(avgx,avgy,450,290)<45;
+ celebrate(good?'Balance hergestellt':'Noch instabil');
+}
+
+</script>
+</body>
+</html>

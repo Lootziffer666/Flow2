@@ -1,0 +1,1372 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+  <title>SMASH — WarioWare‑like (Pack + 18+)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --teal:#00c0c0;
+      --navy:#000030;
+      --red:#e01020;
+      --cream:#f2f0e8;
+      --paper:#f0f0f0;
+      --muted: rgba(0,0,48,.62);
+
+      --bg: var(--teal);
+      --panel: var(--cream);
+      --stage: #ffffff;
+
+      --shadow: 10px 14px 0 rgba(0,0,48,.22);
+      --shadow2: 6px 8px 0 rgba(0,0,48,.18);
+
+      --r-xl: 22px;
+      --r: 16px;
+      --tap: 56px;
+
+      --safe-top: env(safe-area-inset-top);
+      --safe-bot: env(safe-area-inset-bottom);
+    }
+
+    *{ box-sizing:border-box; -webkit-tap-highlight-color: transparent; }
+    html,body{ height:100%; }
+    body{
+      margin:0;
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--navy);
+      overflow: hidden;
+    }
+
+    body::before{
+      content:"";
+      position: fixed;
+      inset: -20vh -25vw;
+      background:
+        linear-gradient(135deg, rgba(224,16,32,.0) 55%, rgba(224,16,32,.30) 55% 62%, rgba(224,16,32,0) 62%),
+        linear-gradient(0deg, rgba(0,0,48,.10), rgba(0,0,48,.10));
+      transform: rotate(-6deg);
+      pointer-events:none;
+      z-index: 0;
+    }
+    body::after{
+      content:"";
+      position: fixed;
+      inset: 0;
+      background: repeating-linear-gradient(90deg, rgba(255,255,255,.06) 0 2px, transparent 2px 38px);
+      opacity: .22;
+      pointer-events:none;
+      z-index: 0;
+      mix-blend-mode: soft-light;
+    }
+
+    .app{
+      position: relative;
+      z-index: 1;
+      height:100%;
+      display:flex;
+      flex-direction: column;
+      padding: calc(14px + var(--safe-top)) 14px calc(14px + var(--safe-bot)) 14px;
+      gap: 12px;
+    }
+
+    .topbar{
+      display:flex;
+      align-items:center;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 10px 10px;
+      border: 2px solid var(--navy);
+      border-radius: var(--r-xl);
+      background: var(--panel);
+      box-shadow: var(--shadow2);
+    }
+
+    .brand{ display:flex; flex-direction: column; gap: 2px; min-width:0; }
+    .brand .name{
+      font-family: "Bebas Neue", system-ui, sans-serif;
+      font-weight: 900;
+      letter-spacing: .18em;
+      font-size: 18px;
+      text-transform: uppercase;
+      line-height: 1;
+    }
+    .brand .tag{
+      font-size: 12px;
+      color: var(--muted);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-weight: 800;
+      letter-spacing: .01em;
+    }
+
+    button{ appearance:none; border:0; background:none; color:inherit; font:inherit; }
+    .btn{
+      height: 42px;
+      padding: 0 12px;
+      border-radius: 999px;
+      border: 2px solid var(--navy);
+      background: #fff;
+      box-shadow: 4px 6px 0 rgba(0,0,48,.18);
+      font-weight: 1000;
+      font-size: 12px;
+      letter-spacing: .02em;
+      display:flex;
+      align-items:center;
+      gap: 8px;
+      cursor: pointer;
+      user-select: none;
+      touch-action: manipulation;
+      transition: transform .10s ease, box-shadow .10s ease;
+      white-space: nowrap;
+    }
+    .btn:active{ transform: translate(2px,2px); box-shadow: 2px 3px 0 rgba(0,0,48,.18); }
+    .btn.primary{ background: var(--red); color: #fff; }
+    .btn.ghost{ background: var(--panel); }
+    .btn.pill18{ background: #fff; }
+    .btn.pill18.on{ background: var(--navy); color: #fff; }
+
+    .panel{
+      flex:1;
+      min-height:0;
+      border-radius: var(--r-xl);
+      background: var(--panel);
+      border: 2px solid var(--navy);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      display:flex;
+      flex-direction: column;
+    }
+
+    .panel-header{
+      padding: 14px 14px 12px 14px;
+      border-bottom: 2px solid var(--navy);
+      display:flex;
+      gap: 10px;
+      justify-content: space-between;
+      align-items: flex-start;
+      background: linear-gradient(90deg, rgba(0,0,48,.06), rgba(0,0,48,0));
+    }
+
+    .title{ min-width:0; display:flex; flex-direction: column; gap: 6px; }
+    .title h1{
+      margin:0;
+      font-family: "Bebas Neue", system-ui, sans-serif;
+      font-size: 22px;
+      letter-spacing: .10em;
+      line-height: 1;
+      text-transform: uppercase;
+    }
+    .title p{
+      margin:0;
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.35;
+      font-weight: 800;
+    }
+
+    .meta{ display:flex; gap: 8px; align-items:center; justify-content: flex-end; flex-wrap: wrap; }
+    .pill{
+      font-size: 11px;
+      color: var(--muted);
+      border: 2px solid var(--navy);
+      border-radius: 999px;
+      padding: 6px 10px;
+      background: #fff;
+      user-select: none;
+      white-space: nowrap;
+      font-weight: 900;
+    }
+    .pill.good{ color: #0d6c4a; background: rgba(13,108,74,.10); }
+    .pill.bad{ color: var(--red); background: rgba(224,16,32,.10); }
+
+    .content{
+      flex:1;
+      min-height:0;
+      padding: 14px;
+      display:flex;
+      flex-direction: column;
+      gap: 12px;
+      overflow: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .card{
+      border: 2px solid var(--navy);
+      border-radius: var(--r);
+      padding: 14px;
+      background: #fff;
+      box-shadow: var(--shadow2);
+      display:flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .card.click{ cursor: pointer; }
+    .row{ display:flex; align-items:flex-start; justify-content: space-between; gap: 12px; }
+    .card h2{
+      margin:0;
+      font-family: "Bebas Neue", system-ui, sans-serif;
+      font-size: 18px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .card p{ margin:0; font-size: 12px; color: var(--muted); line-height: 1.4; font-weight: 800; }
+    .divider{ height: 2px; background: rgba(0,0,48,.14); }
+
+    .search{
+      display:flex;
+      gap: 10px;
+      align-items:center;
+      border: 2px solid var(--navy);
+      border-radius: 999px;
+      padding: 10px 12px;
+      background: #fff;
+      box-shadow: 4px 6px 0 rgba(0,0,48,.18);
+    }
+    .search input{
+      border: 0;
+      outline: none;
+      width: 100%;
+      font-weight: 900;
+      font-size: 13px;
+      color: var(--navy);
+      background: transparent;
+    }
+
+    .filters{ display:flex; gap: 8px; flex-wrap: wrap; }
+    .chipf{
+      border: 2px solid var(--navy);
+      background: #fff;
+      border-radius: 999px;
+      padding: 8px 10px;
+      font-size: 11px;
+      font-weight: 1000;
+      cursor: pointer;
+      user-select:none;
+      box-shadow: 3px 4px 0 rgba(0,0,48,.16);
+    }
+    .chipf.on{ background: var(--navy); color: #fff; }
+
+    .stage{
+      flex:1;
+      min-height: 440px;
+      border-radius: var(--r-xl);
+      border: 2px solid var(--navy);
+      background: var(--stage);
+      box-shadow: var(--shadow2);
+      padding: 12px;
+      display:flex;
+      flex-direction: column;
+      gap: 10px;
+      position: relative;
+      overflow: hidden;
+    }
+    .stage::before{
+      content:"";
+      position:absolute;
+      inset:-40%;
+      background: linear-gradient(135deg, rgba(224,16,32,.0) 50%, rgba(224,16,32,.16) 50% 58%, rgba(224,16,32,0) 58%);
+      transform: rotate(-8deg);
+      pointer-events:none;
+      z-index: 0;
+    }
+    .stage::after{
+      content:"";
+      position:absolute;
+      inset:0;
+      background: repeating-linear-gradient(0deg, rgba(0,0,48,.05) 0 2px, transparent 2px 34px);
+      opacity: .25;
+      pointer-events:none;
+      z-index: 0;
+      mix-blend-mode: multiply;
+    }
+
+    .hud{
+      position: relative;
+      z-index: 1;
+      display:flex;
+      align-items:center;
+      justify-content: space-between;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .prompt{
+      font-family: "Bebas Neue", system-ui, sans-serif;
+      font-weight: 900;
+      font-size: 26px;
+      letter-spacing: .18em;
+      color: var(--navy);
+      text-transform: uppercase;
+      line-height: 1;
+    }
+
+    .bar{
+      flex: 1 1 160px;
+      height: 10px;
+      border-radius: 999px;
+      background: rgba(0,0,48,.12);
+      overflow: hidden;
+      border: 2px solid var(--navy);
+      min-width: 160px;
+      box-shadow: 2px 3px 0 rgba(0,0,48,.16);
+    }
+    .bar > div{
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(90deg, rgba(0,192,192,.35), rgba(224,16,32,.30));
+      transform-origin: left center;
+      transform: scaleX(1);
+      transition: transform .06s linear;
+    }
+
+    .arena{
+      position: relative;
+      z-index: 1;
+      flex:1;
+      min-height:0;
+      border-radius: var(--r);
+      background: #fff;
+      border: 2px solid var(--navy);
+      box-shadow: 4px 6px 0 rgba(0,0,48,.18);
+      overflow: hidden;
+      touch-action: none;
+    }
+
+    .banner{
+      position:absolute;
+      inset: 0;
+      display:grid;
+      place-items:center;
+      pointer-events:none;
+      z-index: 8;
+    }
+    .banner .txt{
+      font-family: "Bebas Neue", system-ui, sans-serif;
+      font-size: 54px;
+      letter-spacing: .20em;
+      text-transform: uppercase;
+      padding: 10px 14px;
+      border: 2px solid var(--navy);
+      background: var(--red);
+      color: #fff;
+      box-shadow: var(--shadow2);
+      transform: rotate(-8deg);
+      opacity: 0;
+      animation: popin .42s ease-out forwards;
+    }
+    @keyframes popin{
+      0%{ transform: rotate(-8deg) scale(.85); opacity: 0; }
+      15%{ opacity: 1; }
+      100%{ transform: rotate(-8deg) scale(1); opacity: 1; }
+    }
+
+    .overlay{
+      position:absolute;
+      inset:0;
+      background: rgba(242,240,232,.90);
+      backdrop-filter: blur(10px);
+      display:flex;
+      align-items:flex-end;
+      justify-content:center;
+      padding: 14px;
+      opacity: 0;
+      pointer-events:none;
+      transition: opacity .12s ease;
+      z-index: 50;
+    }
+    .overlay.show{ opacity: 1; pointer-events:auto; }
+
+    .sheet{
+      width: 100%;
+      max-width: 560px;
+      border-radius: 22px;
+      border: 2px solid var(--navy);
+      background:#fff;
+      box-shadow: var(--shadow);
+      padding: 14px;
+      display:flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .sheet .headline{ display:flex; align-items:center; justify-content:space-between; gap: 10px; }
+    .badgeCircle{
+      width: 38px; height: 38px;
+      border-radius: 999px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-weight: 1000;
+      border: 2px solid var(--navy);
+    }
+    .badgeCircle.ok{ color: #0d6c4a; background: rgba(13,108,74,.10); }
+    .badgeCircle.miss{ color: var(--red); background: rgba(224,16,32,.10); }
+
+    .sheet h3{
+      margin:0;
+      font-family: "Bebas Neue", system-ui, sans-serif;
+      font-size: 20px;
+      letter-spacing: .10em;
+      text-transform: uppercase;
+      line-height: 1;
+    }
+    .sheet p{ margin:0; font-size: 12px; color: var(--muted); line-height: 1.4; font-weight: 800; }
+    .nudge{
+      border-radius: 16px;
+      border: 2px solid var(--navy);
+      background: rgba(0,192,192,.12);
+      padding: 12px;
+      font-size: 13px;
+      font-weight: 1000;
+      line-height: 1.35;
+      box-shadow: 4px 6px 0 rgba(0,0,48,.18);
+    }
+    .actions{ display:flex; gap: 10px; flex-wrap: wrap; }
+    .actions .btn{ height: var(--tap); flex: 1 1 150px; justify-content:center; }
+
+    .micro{
+      display:flex;
+      justify-content: space-between;
+      gap: 10px;
+      flex-wrap: wrap;
+      font-size: 11px;
+      color: var(--muted);
+      font-weight: 900;
+    }
+
+    .modal{
+      position: fixed;
+      inset: 0;
+      display:none;
+      z-index: 100;
+      background: rgba(0,0,48,.45);
+      backdrop-filter: blur(10px);
+      padding: 16px;
+    }
+    .modal.show{ display:flex; align-items:flex-end; justify-content:center; }
+
+    @media (min-width: 720px){
+      .app{ padding-left: 18px; padding-right: 18px; }
+      .stage{ min-height: 520px; }
+      .prompt{ font-size: 30px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <div class="topbar">
+      <div class="brand">
+        <div class="name">SMASH</div>
+        <div class="tag" id="tagline">WarioWare‑like Microgames → Schreib‑Momentum (kein Wörter‑Antippen)</div>
+      </div>
+      <div style="display:flex; gap:8px; flex-wrap:wrap; justify-content:flex-end;">
+        <button class="btn ghost" id="btn-home">Home</button>
+        <button class="btn" id="btn-practice">Üben</button>
+        <button class="btn primary" id="btn-run">Run</button>
+        <button class="btn pill18" id="btn-18">18+</button>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-header">
+        <div class="title">
+          <h1 id="h1">Home</h1>
+          <p id="hsub">Ein Move. Zack. Nächster Satz wird leichter.</p>
+        </div>
+        <div class="meta">
+          <div class="pill" id="pill-mode">Modus: Home</div>
+          <div class="pill" id="pill-streak">Streak: 0</div>
+          <div class="pill" id="pill-miss">Miss: 0</div>
+        </div>
+      </div>
+      <div class="content" id="content"></div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal18" role="dialog" aria-modal="true">
+    <div class="sheet">
+      <div class="headline">
+        <div style="display:flex;flex-direction:column;gap:4px;min-width:0;">
+          <h3>18+ MODE</h3>
+          <p>Erotische Seitenhiebe, rabenschwarz, Cartoon‑Splatter. Keine expliziten Details.</p>
+        </div>
+        <div class="badgeCircle miss">18</div>
+      </div>
+      <div class="nudge" style="background: rgba(224,16,32,.12);">
+        Bestätigung: Ich bin volljährig und will 18+ Texte sehen.
+      </div>
+      <div class="actions">
+        <button class="btn" id="modal-cancel">Nope</button>
+        <button class="btn primary" id="modal-confirm">Ja, gib her</button>
+      </div>
+      <div class="micro">
+        <span>Speichert nur diese Einstellung lokal</span>
+        <span>Du kannst jederzeit zurück</span>
+      </div>
+    </div>
+  </div>
+
+<script>
+(() => {
+  const $ = (s, r=document) => r.querySelector(s);
+
+  const PACK_GAMES = [{"id": "break_the_chain", "title": "Break the Chain", "prompt": "Tippe die richtige Münze, um die Reaktion zu brechen", "blurb": "Tippe die richtige Münze, um die Reaktion zu brechen", "srcdoc": "<!doctype html>\n<html lang=\"de\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no\">\n<style>\n\n    :root{--bg:#00c0c0;--ink:#000030;--accent:#e01020;--muted:#4d5666;}\n    \n:root{\n  --bg:#f4efe6;\n  --ink:#111;\n  --accent:#b72121;\n  --muted:#6b635a;\n}\n*{box-sizing:border-box}\nhtml,body{margin:0;height:100%;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink)}\nbody{display:flex;flex-direction:column}\nheader{padding:16px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(17,17,17,.08)}\nh1{font-size:22px;margin:0;letter-spacing:.02em}\nsmall{color:var(--muted)}\nmain{flex:1;display:grid;place-items:center;padding:18px}\n.stage{position:relative;width:min(900px,92vw);height:min(540px,70vh);background:#fff;overflow:hidden;border-radius:24px;box-shadow:0 16px 60px rgba(0,0,0,.12)}\n.overlay{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}\n.badge{position:absolute;left:16px;bottom:16px;background:rgba(255,255,255,.82);backdrop-filter: blur(8px);border:1px solid rgba(0,0,0,.08);padding:8px 12px;border-radius:999px;font-size:13px}\nbutton{appearance:none;border:0;border-radius:999px;background:var(--ink);color:white;padding:10px 14px;font-weight:600;cursor:pointer}\nbutton.secondary{background:#e7dfd3;color:var(--ink)}\n.controls{display:flex;gap:10px;align-items:center}\n.msg{position:absolute;top:16px;left:50%;transform:translateX(-50%);padding:10px 14px;background:rgba(255,255,255,.9);border-radius:999px;border:1px solid rgba(0,0,0,.08);font-weight:600}\nsvg{display:block;width:100%;height:100%}\na{color:inherit}\n\n    html,body{height:100%;margin:0;overflow:hidden}\n    body{display:block;background:var(--bg);touch-action:none}\n    header{display:none !important}\n    main{display:block !important;padding:0 !important;height:100%}\n    .stage{width:100% !important;height:100% !important;border-radius:18px !important;box-shadow:none !important;background:#fff !important}\n    .badge{display:none !important}\n    \n</style>\n</head>\n<body>\n<main style=\"height:100%\"><div class=\"stage\" id=\"stage\">\n    <div class=\"msg\" id=\"status\">Bereit</div>\n    <svg id=\"scene\" viewBox=\"0 0 900 540\" preserveAspectRatio=\"xMidYMid meet\"></svg>\n    <div class=\"badge\">5–20 Sek. Microgame</div>\n  </div></main>\n<script>\nconst $ = s => document.querySelector(s);\nconst stage = $('.stage');\nconst svg = $('#scene');\nconst statusEl = $('#status');\nfunction setStatus(t){ if(statusEl) statusEl.textContent=t; }\nfunction rand(a,b){ return Math.random()*(b-a)+a; }\nfunction clamp(v,a,b){ return Math.max(a,Math.min(b,v)); }\nfunction dist(ax,ay,bx,by){ return Math.hypot(ax-bx, ay-by); }\nfunction celebrate(text='Gut'){ \n  setStatus(text);\n  stage.animate([{transform:'scale(1)'},{transform:'scale(1.006)'},{transform:'scale(1)'}],{duration:240});\n}\n\n\nsvg.innerHTML=`<rect width=\"900\" height=\"540\" fill=\"#f4efe6\"/>\n<line x1=\"160\" y1=\"140\" x2=\"740\" y2=\"140\" stroke=\"#111\" stroke-width=\"6\"/>\n${Array.from({length:7},(_,i)=>`<g class=\"coin\" data-i=\"${i}\" transform=\"translate(${200+i*80},230)\">\n<line x1=\"0\" y1=\"-90\" x2=\"0\" y2=\"0\" stroke=\"#111\" stroke-width=\"3\"/>\n<circle r=\"36\" fill=\"${i===0?'#b72121':'#111'}\"/></g>`).join('')}`;\nconst coins=[...svg.querySelectorAll('.coin')];\nlet phase=0, target=Math.floor(rand(1,6));\nsetStatus('Tippe die richtige Münze, um die Reaktion zu brechen');\ncoins.forEach((c,i)=> c.addEventListener('click', ()=>{\n   const good = i===target;\n   c.querySelector('circle').setAttribute('fill', good ? '#b72121':'#d9d0c4');\n   celebrate(good?'Kettenreaktion gebrochen':'Zu spät / falsche Stelle');\n}));\nlet t=0;\nfunction anim(){\n t+=0.04;\n coins.forEach((c,i)=>{\n   const offset = Math.max(0, Math.sin(t-i*0.42))*34;\n   c.setAttribute('transform',`translate(${200+i*80},${230+offset})`);\n });\n requestAnimationFrame(anim);\n}\nanim();\n\n    ;(function(){\n      try{\n        const _celebrate = (typeof celebrate === 'function') ? celebrate : null;\n        if (!_celebrate) return;\n        celebrate = function(text){\n          _celebrate(text);\n          if (window.__smash_done) return;\n          window.__smash_done = true;\n          try { parent.postMessage({type:'smash_done', id:\"break_the_chain\", token:'__SMASH_TOKEN__', text:String(text||'') }, '*'); } catch(e) {}\n        };\n      } catch(e) {}\n    })();\n    \n</script>\n</body>\n</html>", "group": "Pack", "type": "iframe", "adultOnly": false}, {"id": "bridge_the_gap", "title": "Bridge the Gap", "prompt": "Ziehe eine einzige Brücke von links nach rechts", "blurb": "Ziehe eine einzige Brücke von links nach rechts", "srcdoc": "<!doctype html>\n<html lang=\"de\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no\">\n<style>\n\n    :root{--bg:#00c0c0;--ink:#000030;--accent:#e01020;--muted:#4d5666;}\n    \n:root{\n  --bg:#f4efe6;\n  --ink:#111;\n  --accent:#b72121;\n  --muted:#6b635a;\n}\n*{box-sizing:border-box}\nhtml,body{margin:0;height:100%;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink)}\nbody{display:flex;flex-direction:column}\nheader{padding:16px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(17,17,17,.08)}\nh1{font-size:22px;margin:0;letter-spacing:.02em}\nsmall{color:var(--muted)}\nmain{flex:1;display:grid;place-items:center;padding:18px}\n.stage{position:relative;width:min(900px,92vw);height:min(540px,70vh);background:#fff;overflow:hidden;border-radius:24px;box-shadow:0 16px 60px rgba(0,0,0,.12)}\n.overlay{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}\n.badge{position:absolute;left:16px;bottom:16px;background:rgba(255,255,255,.82);backdrop-filter: blur(8px);border:1px solid rgba(0,0,0,.08);padding:8px 12px;border-radius:999px;font-size:13px}\nbutton{appearance:none;border:0;border-radius:999px;background:var(--ink);color:white;padding:10px 14px;font-weight:600;cursor:pointer}\nbutton.secondary{background:#e7dfd3;color:var(--ink)}\n.controls{display:flex;gap:10px;align-items:center}\n.msg{position:absolute;top:16px;left:50%;transform:translateX(-50%);padding:10px 14px;background:rgba(255,255,255,.9);border-radius:999px;border:1px solid rgba(0,0,0,.08);font-weight:600}\nsvg{display:block;width:100%;height:100%}\na{color:inherit}\n\n    html,body{height:100%;margin:0;overflow:hidden}\n    body{display:block;background:var(--bg);touch-action:none}\n    header{display:none !important}\n    main{display:block !important;padding:0 !important;height:100%}\n    .stage{width:100% !important;height:100% !important;border-radius:18px !important;box-shadow:none !important;background:#fff !important}\n    .badge{display:none !important}\n    \n</style>\n</head>\n<body>\n<main style=\"height:100%\"><div class=\"stage\" id=\"stage\">\n    <div class=\"msg\" id=\"status\">Bereit</div>\n    <svg id=\"scene\" viewBox=\"0 0 900 540\" preserveAspectRatio=\"xMidYMid meet\"></svg>\n    <div class=\"badge\">5–20 Sek. Microgame</div>\n  </div></main>\n<script>\nconst $ = s => document.querySelector(s);\nconst stage = $('.stage');\nconst svg = $('#scene');\nconst statusEl = $('#status');\nfunction setStatus(t){ if(statusEl) statusEl.textContent=t; }\nfunction rand(a,b){ return Math.random()*(b-a)+a; }\nfunction clamp(v,a,b){ return Math.max(a,Math.min(b,v)); }\nfunction dist(ax,ay,bx,by){ return Math.hypot(ax-bx, ay-by); }\nfunction celebrate(text='Gut'){ \n  setStatus(text);\n  stage.animate([{transform:'scale(1)'},{transform:'scale(1.006)'},{transform:'scale(1)'}],{duration:240});\n}\n\n\nsvg.innerHTML=`<rect width=\"900\" height=\"540\" fill=\"#f4efe6\"/>\n<rect x=\"120\" y=\"150\" width=\"260\" height=\"220\" rx=\"26\" fill=\"#111\"/>\n<rect x=\"520\" y=\"150\" width=\"260\" height=\"220\" rx=\"26\" fill=\"#111\"/>\n<path d=\"M380 180 Q450 270 520 180\" stroke=\"#111\" stroke-width=\"4\" fill=\"none\"/>\n<path id=\"bridge\" d=\"\" stroke=\"#b72121\" stroke-width=\"12\" fill=\"none\" stroke-linecap=\"round\"/>`;\nlet pts=[]; setStatus('Ziehe eine einzige Brücke von links nach rechts');\nfunction pt(e){const r=svg.getBoundingClientRect(); return {x:(e.clientX-r.left)/r.width*900,y:(e.clientY-r.top)/r.height*540};}\nstage.onpointerdown=e=>{pts=[]}\nstage.onpointermove=e=>{ if(e.buttons!==1) return; const p=pt(e); pts.push(p); document.getElementById('bridge').setAttribute('d','M'+pts.map(p=>`${p.x},${p.y}`).join(' L')); }\nstage.onpointerup=()=>{\n const good = pts.length>5 && pts[0].x<380 && pts.at(-1).x>520;\n celebrate(good?'Verbindung steht':'Brücke zu kurz');\n}\n\n    ;(function(){\n      try{\n        const _celebrate = (typeof celebrate === 'function') ? celebrate : null;\n        if (!_celebrate) return;\n        celebrate = function(text){\n          _celebrate(text);\n          if (window.__smash_done) return;\n          window.__smash_done = true;\n          try { parent.postMessage({type:'smash_done', id:\"bridge_the_gap\", token:'__SMASH_TOKEN__', text:String(text||'') }, '*'); } catch(e) {}\n        };\n      } catch(e) {}\n    })();\n    \n</script>\n</body>\n</html>", "group": "Pack", "type": "iframe", "adultOnly": false}, {"id": "calm_the_beacon", "title": "Calm the Beacon", "prompt": "Tippe im Puls, bis Herz und Alarm synchron sind", "blurb": "Tippe im Puls, bis Herz und Alarm synchron sind", "srcdoc": "<!doctype html>\n<html lang=\"de\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no\">\n<style>\n\n    :root{--bg:#00c0c0;--ink:#000030;--accent:#e01020;--muted:#4d5666;}\n    \n:root{\n  --bg:#f4efe6;\n  --ink:#111;\n  --accent:#b72121;\n  --muted:#6b635a;\n}\n*{box-sizing:border-box}\nhtml,body{margin:0;height:100%;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink)}\nbody{display:flex;flex-direction:column}\nheader{padding:16px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(17,17,17,.08)}\nh1{font-size:22px;margin:0;letter-spacing:.02em}\nsmall{color:var(--muted)}\nmain{flex:1;display:grid;place-items:center;padding:18px}\n.stage{position:relative;width:min(900px,92vw);height:min(540px,70vh);background:#fff;overflow:hidden;border-radius:24px;box-shadow:0 16px 60px rgba(0,0,0,.12)}\n.overlay{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}\n.badge{position:absolute;left:16px;bottom:16px;background:rgba(255,255,255,.82);backdrop-filter: blur(8px);border:1px solid rgba(0,0,0,.08);padding:8px 12px;border-radius:999px;font-size:13px}\nbutton{appearance:none;border:0;border-radius:999px;background:var(--ink);color:white;padding:10px 14px;font-weight:600;cursor:pointer}\nbutton.secondary{background:#e7dfd3;color:var(--ink)}\n.controls{display:flex;gap:10px;align-items:center}\n.msg{position:absolute;top:16px;left:50%;transform:translateX(-50%);padding:10px 14px;background:rgba(255,255,255,.9);border-radius:999px;border:1px solid rgba(0,0,0,.08);font-weight:600}\nsvg{display:block;width:100%;height:100%}\na{color:inherit}\n\n    html,body{height:100%;margin:0;overflow:hidden}\n    body{display:block;background:var(--bg);touch-action:none}\n    header{display:none !important}\n    main{display:block !important;padding:0 !important;height:100%}\n    .stage{width:100% !important;height:100% !important;border-radius:18px !important;box-shadow:none !important;background:#fff !important}\n    .badge{display:none !important}\n    \n</style>\n</head>\n<body>\n<main style=\"height:100%\"><div class=\"stage\" id=\"stage\">\n    <div class=\"msg\" id=\"status\">Bereit</div>\n    <svg id=\"scene\" viewBox=\"0 0 900 540\" preserveAspectRatio=\"xMidYMid meet\"></svg>\n    <div class=\"badge\">5–20 Sek. Microgame</div>\n  </div></main>\n<script>\nconst $ = s => document.querySelector(s);\nconst stage = $('.stage');\nconst svg = $('#scene');\nconst statusEl = $('#status');\nfunction setStatus(t){ if(statusEl) statusEl.textContent=t; }\nfunction rand(a,b){ return Math.random()*(b-a)+a; }\nfunction clamp(v,a,b){ return Math.max(a,Math.min(b,v)); }\nfunction dist(ax,ay,bx,by){ return Math.hypot(ax-bx, ay-by); }\nfunction celebrate(text='Gut'){ \n  setStatus(text);\n  stage.animate([{transform:'scale(1)'},{transform:'scale(1.006)'},{transform:'scale(1)'}],{duration:240});\n}\n\n\nsvg.innerHTML=`<rect width=\"900\" height=\"540\" fill=\"#f4efe6\"/>\n<circle id=\"heart\" cx=\"450\" cy=\"300\" r=\"74\" fill=\"#111\"/>\n<path d=\"M420 300 C390 250 330 265 330 330 C330 395 395 425 450 470 C505 425 570 395 570 330 C570 265 510 250 480 300 Z\" fill=\"#b72121\" transform=\"translate(0,-35) scale(.6) translate(230,165)\"/>\n<circle id=\"alarm\" cx=\"450\" cy=\"300\" r=\"130\" fill=\"none\" stroke=\"#b72121\" stroke-width=\"12\" opacity=\".25\"/>`;\nlet phase=0;\nsetStatus('Tippe im Puls, bis Herz und Alarm synchron sind');\nstage.onclick=()=>{\n const beat = (Math.sin(phase)+1)/2;\n const good = beat>.78;\n celebrate(good?'Puls beruhigt':'Außer Takt');\n if(good) phase+=1.4;\n}\nfunction anim(){\n phase += 0.08;\n const s = 1 + Math.sin(phase)*0.03;\n document.getElementById('heart').setAttribute('transform', `translate(${450-450*s} ${300-300*s}) scale(${s})`);\n document.getElementById('alarm').setAttribute('r', 125 + Math.sin(phase*1.2)*18);\n requestAnimationFrame(anim);\n}\nanim();\n\n    ;(function(){\n      try{\n        const _celebrate = (typeof celebrate === 'function') ? celebrate : null;\n        if (!_celebrate) return;\n        celebrate = function(text){\n          _celebrate(text);\n          if (window.__smash_done) return;\n          window.__smash_done = true;\n          try { parent.postMessage({type:'smash_done', id:\"calm_the_beacon\", token:'__SMASH_TOKEN__', text:String(text||'') }, '*'); } catch(e) {}\n        };\n      } catch(e) {}\n    })();\n    \n</script>\n</body>\n</html>", "group": "Pack", "type": "iframe", "adultOnly": false}, {"id": "contain_the_burst", "title": "Contain the Burst", "prompt": "Ziehe schnell einen Schutzbogen um die Figur", "blurb": "Ziehe schnell einen Schutzbogen um die Figur", "srcdoc": "<!doctype html>\n<html lang=\"de\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no\">\n<style>\n\n    :root{--bg:#00c0c0;--ink:#000030;--accent:#e01020;--muted:#4d5666;}\n    \n:root{\n  --bg:#f4efe6;\n  --ink:#111;\n  --accent:#b72121;\n  --muted:#6b635a;\n}\n*{box-sizing:border-box}\nhtml,body{margin:0;height:100%;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink)}\nbody{display:flex;flex-direction:column}\nheader{padding:16px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(17,17,17,.08)}\nh1{font-size:22px;margin:0;letter-spacing:.02em}\nsmall{color:var(--muted)}\nmain{flex:1;display:grid;place-items:center;padding:18px}\n.stage{position:relative;width:min(900px,92vw);height:min(540px,70vh);background:#fff;overflow:hidden;border-radius:24px;box-shadow:0 16px 60px rgba(0,0,0,.12)}\n.overlay{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}\n.badge{position:absolute;left:16px;bottom:16px;background:rgba(255,255,255,.82);backdrop-filter: blur(8px);border:1px solid rgba(0,0,0,.08);padding:8px 12px;border-radius:999px;font-size:13px}\nbutton{appearance:none;border:0;border-radius:999px;background:var(--ink);color:white;padding:10px 14px;font-weight:600;cursor:pointer}\nbutton.secondary{background:#e7dfd3;color:var(--ink)}\n.controls{display:flex;gap:10px;align-items:center}\n.msg{position:absolute;top:16px;left:50%;transform:translateX(-50%);padding:10px 14px;background:rgba(255,255,255,.9);border-radius:999px;border:1px solid rgba(0,0,0,.08);font-weight:600}\nsvg{display:block;width:100%;height:100%}\na{color:inherit}\n\n    html,body{height:100%;margin:0;overflow:hidden}\n    body{display:block;background:var(--bg);touch-action:none}\n    header{display:none !important}\n    main{display:block !important;padding:0 !important;height:100%}\n    .stage{width:100% !important;height:100% !important;border-radius:18px !important;box-shadow:none !important;background:#fff !important}\n    .badge{display:none !important}\n    \n</style>\n</head>\n<body>\n<main style=\"height:100%\"><div class=\"stage\" id=\"stage\">\n    <div class=\"msg\" id=\"status\">Bereit</div>\n    <svg id=\"scene\" viewBox=\"0 0 900 540\" preserveAspectRatio=\"xMidYMid meet\"></svg>\n    <div class=\"badge\">5–20 Sek. Microgame</div>\n  </div></main>\n<script>\nconst $ = s => document.querySelector(s);\nconst stage = $('.stage');\nconst svg = $('#scene');\nconst statusEl = $('#status');\nfunction setStatus(t){ if(statusEl) statusEl.textContent=t; }\nfunction rand(a,b){ return Math.random()*(b-a)+a; }\nfunction clamp(v,a,b){ return Math.max(a,Math.min(b,v)); }\nfunction dist(ax,ay,bx,by){ return Math.hypot(ax-bx, ay-by); }\nfunction celebrate(text='Gut'){ \n  setStatus(text);\n  stage.animate([{transform:'scale(1)'},{transform:'scale(1.006)'},{transform:'scale(1)'}],{duration:240});\n}\n\n\nsvg.innerHTML=`<rect width=\"900\" height=\"540\" fill=\"#f4efe6\"/>\n<rect x=\"120\" y=\"80\" width=\"660\" height=\"380\" fill=\"#111\"/>\n<circle cx=\"450\" cy=\"320\" r=\"24\" fill=\"#f4efe6\"/>\n<g id=\"bursts\">${Array.from({length:18},()=>`<circle class=\"spark\" cx=\"450\" cy=\"170\" r=\"${rand(4,9)}\" fill=\"#b72121\"/>`).join('')}</g>\n<path id=\"shield\" d=\"\" stroke=\"#f4efe6\" stroke-width=\"8\" fill=\"rgba(244,239,230,.06)\"/>`;\nconst sparks=[...svg.querySelectorAll('.spark')].map(s=>({el:s, a:rand(0,Math.PI*2), sp:rand(1.5,3.3), r:0}));\nlet shieldPts=[], draw=false;\nconst shield=document.getElementById('shield');\nsetStatus('Ziehe schnell einen Schutzbogen um die Figur');\nfunction pt(e){const r=svg.getBoundingClientRect(); return {x:(e.clientX-r.left)/r.width*900,y:(e.clientY-r.top)/r.height*540};}\nstage.onpointerdown=e=>{draw=true; shieldPts=[];}\nstage.onpointermove=e=>{ if(!draw) return; const p=pt(e); shieldPts.push(p); shield.setAttribute('d','M'+shieldPts.map(p=>`${p.x},${p.y}`).join(' L')); }\nstage.onpointerup=e=>{ draw=false; celebrate('Schutz gesetzt'); }\nfunction anim(){\n sparks.forEach(s=>{ s.r+=s.sp; s.el.setAttribute('cx', 450+Math.cos(s.a)*s.r); s.el.setAttribute('cy', 170+Math.sin(s.a)*s.r); });\n requestAnimationFrame(anim);\n}\nanim();\n\n    ;(function(){\n      try{\n        const _celebrate = (typeof celebrate === 'function') ? celebrate : null;\n        if (!_celebrate) return;\n        celebrate = function(text){\n          _celebrate(text);\n          if (window.__smash_done) return;\n          window.__smash_done = true;\n          try { parent.postMessage({type:'smash_done', id:\"contain_the_burst\", token:'__SMASH_TOKEN__', text:String(text||'') }, '*'); } catch(e) {}\n        };\n      } catch(e) {}\n    })();\n    \n</script>\n</body>\n</html>", "group": "Pack", "type": "iframe", "adultOnly": false}, {"id": "cut_a_path", "title": "Cut a Path", "prompt": "Ziehe einen Pfad nur im Lichtkegel", "blurb": "Ziehe einen Pfad nur im Lichtkegel", "srcdoc": "<!doctype html>\n<html lang=\"de\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no\">\n<style>\n\n    :root{--bg:#00c0c0;--ink:#000030;--accent:#e01020;--muted:#4d5666;}\n    \n:root{\n  --bg:#f4efe6;\n  --ink:#111;\n  --accent:#b72121;\n  --muted:#6b635a;\n}\n*{box-sizing:border-box}\nhtml,body{margin:0;height:100%;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink)}\nbody{display:flex;flex-direction:column}\nheader{padding:16px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(17,17,17,.08)}\nh1{font-size:22px;margin:0;letter-spacing:.02em}\nsmall{color:var(--muted)}\nmain{flex:1;display:grid;place-items:center;padding:18px}\n.stage{position:relative;width:min(900px,92vw);height:min(540px,70vh);background:#fff;overflow:hidden;border-radius:24px;box-shadow:0 16px 60px rgba(0,0,0,.12)}\n.overlay{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}\n.badge{position:absolute;left:16px;bottom:16px;background:rgba(255,255,255,.82);backdrop-filter: blur(8px);border:1px solid rgba(0,0,0,.08);padding:8px 12px;border-radius:999px;font-size:13px}\nbutton{appearance:none;border:0;border-radius:999px;background:var(--ink);color:white;padding:10px 14px;font-weight:600;cursor:pointer}\nbutton.secondary{background:#e7dfd3;color:var(--ink)}\n.controls{display:flex;gap:10px;align-items:center}\n.msg{position:absolute;top:16px;left:50%;transform:translateX(-50%);padding:10px 14px;background:rgba(255,255,255,.9);border-radius:999px;border:1px solid rgba(0,0,0,.08);font-weight:600}\nsvg{display:block;width:100%;height:100%}\na{color:inherit}\n\n    html,body{height:100%;margin:0;overflow:hidden}\n    body{display:block;background:var(--bg);touch-action:none}\n    header{display:none !important}\n    main{display:block !important;padding:0 !important;height:100%}\n    .stage{width:100% !important;height:100% !important;border-radius:18px !important;box-shadow:none !important;background:#fff !important}\n    .badge{display:none !important}\n    \n</style>\n</head>\n<body>\n<main style=\"height:100%\"><div class=\"stage\" id=\"stage\">\n    <div class=\"msg\" id=\"status\">Bereit</div>\n    <svg id=\"scene\" viewBox=\"0 0 900 540\" preserveAspectRatio=\"xMidYMid meet\"></svg>\n    <div class=\"badge\">5–20 Sek. Microgame</div>\n  </div></main>\n<script>\nconst $ = s => document.querySelector(s);\nconst stage = $('.stage');\nconst svg = $('#scene');\nconst statusEl = $('#status');\nfunction setStatus(t){ if(statusEl) statusEl.textContent=t; }\nfunction rand(a,b){ return Math.random()*(b-a)+a; }\nfunction clamp(v,a,b){ return Math.max(a,Math.min(b,v)); }\nfunction dist(ax,ay,bx,by){ return Math.hypot(ax-bx, ay-by); }\nfunction celebrate(text='Gut'){ \n  setStatus(text);\n  stage.animate([{transform:'scale(1)'},{transform:'scale(1.006)'},{transform:'scale(1)'}],{duration:240});\n}\n\n\nlet drawing=false, points=[];\nsvg.innerHTML=`<rect width=\"900\" height=\"540\" fill=\"#111\"/>\n<g id=\"trees\">${Array.from({length:28},()=>`<rect x=\"${rand(0,860)}\" y=\"${rand(0,480)}\" width=\"${rand(14,34)}\" height=\"${rand(60,150)}\" fill=\"#191919\"/>`).join('')}</g>\n<polygon id=\"light\" points=\"450,40 290,500 610,500\" fill=\"#f4efe6\"/>\n<path id=\"trail\" d=\"\" stroke=\"#b72121\" stroke-width=\"10\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<circle cx=\"450\" cy=\"40\" r=\"10\" fill=\"#b72121\"/>`;\nconst trail=document.getElementById('trail');\nsetStatus('Ziehe einen Pfad nur im Lichtkegel');\nfunction svgPt(e){ const r=svg.getBoundingClientRect(); return {x:(e.clientX-r.left)/r.width*900, y:(e.clientY-r.top)/r.height*540};}\nfunction inTriangle(p){\n const area=(a,b,c)=>Math.abs((a.x*(b.y-c.y)+b.x*(c.y-a.y)+c.x*(a.y-b.y))/2);\n const A={x:450,y:40},B={x:290,y:500},C={x:610,y:500};\n const total=area(A,B,C), a1=area(p,B,C), a2=area(A,p,C), a3=area(A,B,p);\n return Math.abs(total-(a1+a2+a3))<1.5;\n}\nstage.onpointerdown=e=>{drawing=true; points=[]; stage.setPointerCapture(e.pointerId);}\nstage.onpointermove=e=>{\n if(!drawing) return;\n const p=svgPt(e); points.push(p);\n trail.setAttribute('d', 'M'+points.map(p=>`${p.x},${p.y}`).join(' L'));\n}\nstage.onpointerup=e=>{\n drawing=false;\n const valid = points.length>8 && points.every(inTriangle);\n celebrate(valid?'Pfad gefunden':'Pfad verlassen');\n}\n\n    ;(function(){\n      try{\n        const _celebrate = (typeof celebrate === 'function') ? celebrate : null;\n        if (!_celebrate) return;\n        celebrate = function(text){\n          _celebrate(text);\n          if (window.__smash_done) return;\n          window.__smash_done = true;\n          try { parent.postMessage({type:'smash_done', id:\"cut_a_path\", token:'__SMASH_TOKEN__', text:String(text||'') }, '*'); } catch(e) {}\n        };\n      } catch(e) {}\n    })();\n    \n</script>\n</body>\n</html>", "group": "Pack", "type": "iframe", "adultOnly": false}, {"id": "cut_through", "title": "Cut Through", "prompt": "Ziehe den weißen Keil in einem klaren Schnitt", "blurb": "Ziehe den weißen Keil in einem klaren Schnitt", "srcdoc": "<!doctype html>\n<html lang=\"de\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no\">\n<style>\n\n    :root{--bg:#00c0c0;--ink:#000030;--accent:#e01020;--muted:#4d5666;}\n    \n:root{\n  --bg:#f4efe6;\n  --ink:#111;\n  --accent:#b72121;\n  --muted:#6b635a;\n}\n*{box-sizing:border-box}\nhtml,body{margin:0;height:100%;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink)}\nbody{display:flex;flex-direction:column}\nheader{padding:16px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(17,17,17,.08)}\nh1{font-size:22px;margin:0;letter-spacing:.02em}\nsmall{color:var(--muted)}\nmain{flex:1;display:grid;place-items:center;padding:18px}\n.stage{position:relative;width:min(900px,92vw);height:min(540px,70vh);background:#fff;overflow:hidden;border-radius:24px;box-shadow:0 16px 60px rgba(0,0,0,.12)}\n.overlay{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}\n.badge{position:absolute;left:16px;bottom:16px;background:rgba(255,255,255,.82);backdrop-filter: blur(8px);border:1px solid rgba(0,0,0,.08);padding:8px 12px;border-radius:999px;font-size:13px}\nbutton{appearance:none;border:0;border-radius:999px;background:var(--ink);color:white;padding:10px 14px;font-weight:600;cursor:pointer}\nbutton.secondary{background:#e7dfd3;color:var(--ink)}\n.controls{display:flex;gap:10px;align-items:center}\n.msg{position:absolute;top:16px;left:50%;transform:translateX(-50%);padding:10px 14px;background:rgba(255,255,255,.9);border-radius:999px;border:1px solid rgba(0,0,0,.08);font-weight:600}\nsvg{display:block;width:100%;height:100%}\na{color:inherit}\n\n    html,body{height:100%;margin:0;overflow:hidden}\n    body{display:block;background:var(--bg);touch-action:none}\n    header{display:none !important}\n    main{display:block !important;padding:0 !important;height:100%}\n    .stage{width:100% !important;height:100% !important;border-radius:18px !important;box-shadow:none !important;background:#fff !important}\n    .badge{display:none !important}\n    \n</style>\n</head>\n<body>\n<main style=\"height:100%\"><div class=\"stage\" id=\"stage\">\n    <div class=\"msg\" id=\"status\">Bereit</div>\n    <svg id=\"scene\" viewBox=\"0 0 900 540\" preserveAspectRatio=\"xMidYMid meet\"></svg>\n    <div class=\"badge\">5–20 Sek. Microgame</div>\n  </div></main>\n<script>\nconst $ = s => document.querySelector(s);\nconst stage = $('.stage');\nconst svg = $('#scene');\nconst statusEl = $('#status');\nfunction setStatus(t){ if(statusEl) statusEl.textContent=t; }\nfunction rand(a,b){ return Math.random()*(b-a)+a; }\nfunction clamp(v,a,b){ return Math.max(a,Math.min(b,v)); }\nfunction dist(ax,ay,bx,by){ return Math.hypot(ax-bx, ay-by); }\nfunction celebrate(text='Gut'){ \n  setStatus(text);\n  stage.animate([{transform:'scale(1)'},{transform:'scale(1.006)'},{transform:'scale(1)'}],{duration:240});\n}\n\n\nsvg.innerHTML=`<rect width=\"900\" height=\"540\" fill=\"#f4efe6\"/>\n<path d=\"M100 420 C260 260 280 180 430 160 C540 145 590 220 800 100 L800 460 L100 460 Z\" fill=\"#111\"/>\n<path d=\"M100 440 C240 330 350 280 440 260 C560 235 620 290 800 220 L800 470 L100 470 Z\" fill=\"#b72121\"/>\n<path id=\"blade\" d=\"M240 420 L300 390 L580 160 L550 120 Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/>`;\nlet active=false;\nsetStatus('Ziehe den weißen Keil in einem klaren Schnitt');\nstage.onpointerdown=()=>active=true;\nstage.onpointermove=e=>{\n if(!active) return;\n const r=svg.getBoundingClientRect();\n const x=(e.clientX-r.left)/r.width*900, y=(e.clientY-r.top)/r.height*540;\n blade.setAttribute('transform',`translate(${x-300} ${y-250})`);\n}\nstage.onpointerup=()=>{active=false; celebrate('Widerstand geschnitten');}\nconst blade=document.getElementById('blade');\n\n    ;(function(){\n      try{\n        const _celebrate = (typeof celebrate === 'function') ? celebrate : null;\n        if (!_celebrate) return;\n        celebrate = function(text){\n          _celebrate(text);\n          if (window.__smash_done) return;\n          window.__smash_done = true;\n          try { parent.postMessage({type:'smash_done', id:\"cut_through\", token:'__SMASH_TOKEN__', text:String(text||'') }, '*'); } catch(e) {}\n        };\n      } catch(e) {}\n    })();\n    \n</script>\n</body>\n</html>", "group": "Pack", "type": "iframe", "adultOnly": false}, {"id": "dose_match", "title": "Dose Match", "prompt": "Bringe jede Dosis zum passenden Träger", "blurb": "Bringe jede Dosis zum passenden Träger", "srcdoc": "<!doctype html>\n<html lang=\"de\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no\">\n<style>\n\n    :root{--bg:#00c0c0;--ink:#000030;--accent:#e01020;--muted:#4d5666;}\n    \n:root{\n  --bg:#f4efe6;\n  --ink:#111;\n  --accent:#b72121;\n  --muted:#6b635a;\n}\n*{box-sizing:border-box}\nhtml,body{margin:0;height:100%;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink)}\nbody{display:flex;flex-direction:column}\nheader{padding:16px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(17,17,17,.08)}\nh1{font-size:22px;margin:0;letter-spacing:.02em}\nsmall{color:var(--muted)}\nmain{flex:1;display:grid;place-items:center;padding:18px}\n.stage{position:relative;width:min(900px,92vw);height:min(540px,70vh);background:#fff;overflow:hidden;border-radius:24px;box-shadow:0 16px 60px rgba(0,0,0,.12)}\n.overlay{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}\n.badge{position:absolute;left:16px;bottom:16px;background:rgba(255,255,255,.82);backdrop-filter: blur(8px);border:1px solid rgba(0,0,0,.08);padding:8px 12px;border-radius:999px;font-size:13px}\nbutton{appearance:none;border:0;border-radius:999px;background:var(--ink);color:white;padding:10px 14px;font-weight:600;cursor:pointer}\nbutton.secondary{background:#e7dfd3;color:var(--ink)}\n.controls{display:flex;gap:10px;align-items:center}\n.msg{position:absolute;top:16px;left:50%;transform:translateX(-50%);padding:10px 14px;background:rgba(255,255,255,.9);border-radius:999px;border:1px solid rgba(0,0,0,.08);font-weight:600}\nsvg{display:block;width:100%;height:100%}\na{color:inherit}\n\n    html,body{height:100%;margin:0;overflow:hidden}\n    body{display:block;background:var(--bg);touch-action:none}\n    header{display:none !important}\n    main{display:block !important;padding:0 !important;height:100%}\n    .stage{width:100% !important;height:100% !important;border-radius:18px !important;box-shadow:none !important;background:#fff !important}\n    .badge{display:none !important}\n    \n</style>\n</head>\n<body>\n<main style=\"height:100%\"><div class=\"stage\" id=\"stage\">\n    <div class=\"msg\" id=\"status\">Bereit</div>\n    <svg id=\"scene\" viewBox=\"0 0 900 540\" preserveAspectRatio=\"xMidYMid meet\"></svg>\n    <div class=\"badge\">5–20 Sek. Microgame</div>\n  </div></main>\n<script>\nconst $ = s => document.querySelector(s);\nconst stage = $('.stage');\nconst svg = $('#scene');\nconst statusEl = $('#status');\nfunction setStatus(t){ if(statusEl) statusEl.textContent=t; }\nfunction rand(a,b){ return Math.random()*(b-a)+a; }\nfunction clamp(v,a,b){ return Math.max(a,Math.min(b,v)); }\nfunction dist(ax,ay,bx,by){ return Math.hypot(ax-bx, ay-by); }\nfunction celebrate(text='Gut'){ \n  setStatus(text);\n  stage.animate([{transform:'scale(1)'},{transform:'scale(1.006)'},{transform:'scale(1)'}],{duration:240});\n}\n\n\nsvg.innerHTML=`<rect width=\"900\" height=\"540\" fill=\"#f4efe6\"/>\n${[0,1,2].map(i=>`<rect x=\"${120+i*240}\" y=\"130\" width=\"140\" height=\"80\" rx=\"18\" fill=\"#111\"/>\n<rect class=\"dose\" data-s=\"${i+1}\" x=\"${140+i*240}\" y=\"320\" width=\"${40+(i*25)}\" height=\"${100-(i*18)}\" rx=\"10\" fill=\"#b72121\"/>`).join('')}\n${[0,1,2].map(i=>`<rect class=\"slot\" data-s=\"${i+1}\" x=\"${150+i*240}\" y=\"140\" width=\"${80+(i*25)}\" height=\"50\" rx=\"10\" fill=\"#d7cdbf\" stroke=\"#111\" stroke-width=\"3\"/>`).join('')}`;\nsetStatus('Bringe jede Dosis zum passenden Träger');\nlet drag=null, offx=0, offy=0;\nconst doses=[...svg.querySelectorAll('.dose')];\nfunction pt(e){const r=svg.getBoundingClientRect(); return {x:(e.clientX-r.left)/r.width*900,y:(e.clientY-r.top)/r.height*540};}\ndoses.forEach(d=>d.onpointerdown=e=>{drag=d; const p=pt(e); offx=+d.getAttribute('x')-p.x; offy=+d.getAttribute('y')-p.y;});\nstage.onpointermove=e=>{ if(!drag) return; const p=pt(e); drag.setAttribute('x', p.x+offx); drag.setAttribute('y', p.y+offy);}\nstage.onpointerup=e=>{\n if(!drag) return;\n const p=pt(e);\n const slots=[...svg.querySelectorAll('.slot')];\n let snapped=false;\n slots.forEach(s=>{\n   const sx=+s.getAttribute('x'), sy=+s.getAttribute('y'), sw=+s.getAttribute('width'), sh=+s.getAttribute('height');\n   if(p.x>sx && p.x<sx+sw && p.y>sy && p.y<sy+sh){\n      const good=s.dataset.s===drag.dataset.s;\n      drag.setAttribute('fill', good?'#111':'#b72121');\n      celebrate(good?'Passt':'Nicht die richtige Last');\n      drag.setAttribute('x', sx+10); drag.setAttribute('y', sy-30); snapped=true;\n   }\n });\n drag=null;\n}\n\n    ;(function(){\n      try{\n        const _celebrate = (typeof celebrate === 'function') ? celebrate : null;\n        if (!_celebrate) return;\n        celebrate = function(text){\n          _celebrate(text);\n          if (window.__smash_done) return;\n          window.__smash_done = true;\n          try { parent.postMessage({type:'smash_done', id:\"dose_match\", token:'__SMASH_TOKEN__', text:String(text||'') }, '*'); } catch(e) {}\n        };\n      } catch(e) {}\n    })();\n    \n</script>\n</body>\n</html>", "group": "Pack", "type": "iframe", "adultOnly": false}, {"id": "edge_walk", "title": "Edge Walk", "prompt": "Halte gedrückt um zu stoppen, loslassen zum Weitergehen", "blurb": "Halte gedrückt um zu stoppen, loslassen zum Weitergehen", "srcdoc": "<!doctype html>\n<html lang=\"de\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no\">\n<style>\n\n    :root{--bg:#00c0c0;--ink:#000030;--accent:#e01020;--muted:#4d5666;}\n    \n:root{\n  --bg:#f4efe6;\n  --ink:#111;\n  --accent:#b72121;\n  --muted:#6b635a;\n}\n*{box-sizing:border-box}\nhtml,body{margin:0;height:100%;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink)}\nbody{display:flex;flex-direction:column}\nheader{padding:16px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(17,17,17,.08)}\nh1{font-size:22px;margin:0;letter-spacing:.02em}\nsmall{color:var(--muted)}\nmain{flex:1;display:grid;place-items:center;padding:18px}\n.stage{position:relative;width:min(900px,92vw);height:min(540px,70vh);background:#fff;overflow:hidden;border-radius:24px;box-shadow:0 16px 60px rgba(0,0,0,.12)}\n.overlay{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}\n.badge{position:absolute;left:16px;bottom:16px;background:rgba(255,255,255,.82);backdrop-filter: blur(8px);border:1px solid rgba(0,0,0,.08);padding:8px 12px;border-radius:999px;font-size:13px}\nbutton{appearance:none;border:0;border-radius:999px;background:var(--ink);color:white;padding:10px 14px;font-weight:600;cursor:pointer}\nbutton.secondary{background:#e7dfd3;color:var(--ink)}\n.controls{display:flex;gap:10px;align-items:center}\n.msg{position:absolute;top:16px;left:50%;transform:translateX(-50%);padding:10px 14px;background:rgba(255,255,255,.9);border-radius:999px;border:1px solid rgba(0,0,0,.08);font-weight:600}\nsvg{display:block;width:100%;height:100%}\na{color:inherit}\n\n    html,body{height:100%;margin:0;overflow:hidden}\n    body{display:block;background:var(--bg);touch-action:none}\n    header{display:none !important}\n    main{display:block !important;padding:0 !important;height:100%}\n    .stage{width:100% !important;height:100% !important;border-radius:18px !important;box-shadow:none !important;background:#fff !important}\n    .badge{display:none !important}\n    \n</style>\n</head>\n<body>\n<main style=\"height:100%\"><div class=\"stage\" id=\"stage\">\n    <div class=\"msg\" id=\"status\">Bereit</div>\n    <svg id=\"scene\" viewBox=\"0 0 900 540\" preserveAspectRatio=\"xMidYMid meet\"></svg>\n    <div class=\"badge\">5–20 Sek. Microgame</div>\n  </div></main>\n<script>\nconst $ = s => document.querySelector(s);\nconst stage = $('.stage');\nconst svg = $('#scene');\nconst statusEl = $('#status');\nfunction setStatus(t){ if(statusEl) statusEl.textContent=t; }\nfunction rand(a,b){ return Math.random()*(b-a)+a; }\nfunction clamp(v,a,b){ return Math.max(a,Math.min(b,v)); }\nfunction dist(ax,ay,bx,by){ return Math.hypot(ax-bx, ay-by); }\nfunction celebrate(text='Gut'){ \n  setStatus(text);\n  stage.animate([{transform:'scale(1)'},{transform:'scale(1.006)'},{transform:'scale(1)'}],{duration:240});\n}\n\n\nsvg.innerHTML=`<rect width=\"900\" height=\"540\" fill=\"#f4efe6\"/>\n<path d=\"M130 420 C250 420 250 200 360 200 C500 200 500 410 650 410 C730 410 760 200 780 160\" stroke=\"#111\" stroke-width=\"16\" fill=\"none\" stroke-linecap=\"round\"/>\n<circle id=\"walker\" cx=\"130\" cy=\"420\" r=\"16\" fill=\"#b72121\"/>`;\nlet prog=0, running=true;\nsetStatus('Halte gedrückt um zu stoppen, loslassen zum Weitergehen');\nfunction pathPoint(t){\n const p = document.querySelector('path').getPointAtLength(document.querySelector('path').getTotalLength()*t);\n return p;\n}\nfunction anim(){\n if(running) prog=Math.min(1, prog+0.0025);\n const p=pathPoint(prog);\n walker.setAttribute('cx',p.x); walker.setAttribute('cy',p.y);\n if(prog<1) requestAnimationFrame(anim); else celebrate('Kante gemeistert');\n}\nconst walker=document.getElementById('walker');\nstage.onpointerdown=()=>running=false; stage.onpointerup=()=>{running=true;}\nanim();\n\n    ;(function(){\n      try{\n        const _celebrate = (typeof celebrate === 'function') ? celebrate : null;\n        if (!_celebrate) return;\n        celebrate = function(text){\n          _celebrate(text);\n          if (window.__smash_done) return;\n          window.__smash_done = true;\n          try { parent.postMessage({type:'smash_done', id:\"edge_walk\", token:'__SMASH_TOKEN__', text:String(text||'') }, '*'); } catch(e) {}\n        };\n      } catch(e) {}\n    })();\n    \n</script>\n</body>\n</html>", "group": "Pack", "type": "iframe", "adultOnly": false}, {"id": "find_the_exit", "title": "Find the Exit", "prompt": "Tippe die eine weiche Stelle, wenn der Lichtkeil darüber liegt", "blurb": "Tippe die eine weiche Stelle, wenn der Lichtkeil darüber liegt", "srcdoc": "<!doctype html>\n<html lang=\"de\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no\">\n<style>\n\n    :root{--bg:#00c0c0;--ink:#000030;--accent:#e01020;--muted:#4d5666;}\n    \n:root{\n  --bg:#f4efe6;\n  --ink:#111;\n  --accent:#b72121;\n  --muted:#6b635a;\n}\n*{box-sizing:border-box}\nhtml,body{margin:0;height:100%;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink)}\nbody{display:flex;flex-direction:column}\nheader{padding:16px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(17,17,17,.08)}\nh1{font-size:22px;margin:0;letter-spacing:.02em}\nsmall{color:var(--muted)}\nmain{flex:1;display:grid;place-items:center;padding:18px}\n.stage{position:relative;width:min(900px,92vw);height:min(540px,70vh);background:#fff;overflow:hidden;border-radius:24px;box-shadow:0 16px 60px rgba(0,0,0,.12)}\n.overlay{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}\n.badge{position:absolute;left:16px;bottom:16px;background:rgba(255,255,255,.82);backdrop-filter: blur(8px);border:1px solid rgba(0,0,0,.08);padding:8px 12px;border-radius:999px;font-size:13px}\nbutton{appearance:none;border:0;border-radius:999px;background:var(--ink);color:white;padding:10px 14px;font-weight:600;cursor:pointer}\nbutton.secondary{background:#e7dfd3;color:var(--ink)}\n.controls{display:flex;gap:10px;align-items:center}\n.msg{position:absolute;top:16px;left:50%;transform:translateX(-50%);padding:10px 14px;background:rgba(255,255,255,.9);border-radius:999px;border:1px solid rgba(0,0,0,.08);font-weight:600}\nsvg{display:block;width:100%;height:100%}\na{color:inherit}\n\n    html,body{height:100%;margin:0;overflow:hidden}\n    body{display:block;background:var(--bg);touch-action:none}\n    header{display:none !important}\n    main{display:block !important;padding:0 !important;height:100%}\n    .stage{width:100% !important;height:100% !important;border-radius:18px !important;box-shadow:none !important;background:#fff !important}\n    .badge{display:none !important}\n    \n</style>\n</head>\n<body>\n<main style=\"height:100%\"><div class=\"stage\" id=\"stage\">\n    <div class=\"msg\" id=\"status\">Bereit</div>\n    <svg id=\"scene\" viewBox=\"0 0 900 540\" preserveAspectRatio=\"xMidYMid meet\"></svg>\n    <div class=\"badge\">5–20 Sek. Microgame</div>\n  </div></main>\n<script>\nconst $ = s => document.querySelector(s);\nconst stage = $('.stage');\nconst svg = $('#scene');\nconst statusEl = $('#status');\nfunction setStatus(t){ if(statusEl) statusEl.textContent=t; }\nfunction rand(a,b){ return Math.random()*(b-a)+a; }\nfunction clamp(v,a,b){ return Math.max(a,Math.min(b,v)); }\nfunction dist(ax,ay,bx,by){ return Math.hypot(ax-bx, ay-by); }\nfunction celebrate(text='Gut'){ \n  setStatus(text);\n  stage.animate([{transform:'scale(1)'},{transform:'scale(1.006)'},{transform:'scale(1)'}],{duration:240});\n}\n\n\nlet targetX=rand(180,720);\nsvg.innerHTML=`<rect width=\"900\" height=\"540\" fill=\"#f4efe6\"/>\n<rect x=\"140\" y=\"60\" width=\"620\" height=\"420\" fill=\"#111\"/>\n<rect x=\"360\" y=\"120\" width=\"180\" height=\"260\" fill=\"#f4efe6\"/>\n<rect id=\"wall\" x=\"360\" y=\"120\" width=\"180\" height=\"260\" fill=\"#111\"/>\n<polygon id=\"beam\" points=\"450,20 330,520 570,520\" fill=\"rgba(183,33,33,.15)\"/>\n<circle cx=\"450\" cy=\"440\" r=\"18\" fill=\"#f4efe6\"/>`;\nconst wall=document.getElementById('wall'), beam=document.getElementById('beam');\nlet x=260, dir=1;\nsetStatus('Tippe die eine weiche Stelle, wenn der Lichtkeil darüber liegt');\nfunction anim(){\n x += dir*4;\n if(x>640||x<260) dir*=-1;\n beam.setAttribute('points', `${x},20 ${x-120},520 ${x+120},520`);\n requestAnimationFrame(anim);\n}\nanim();\nstage.onclick=e=>{\n const r=svg.getBoundingClientRect();\n const px=(e.clientX-r.left)/r.width*900;\n const good=Math.abs(px-targetX)<35 && Math.abs(px-x)<120;\n celebrate(good?'Ausgang gefunden':'Falsche Stelle');\n const mark=document.createElementNS('http://www.w3.org/2000/svg','circle');\n mark.setAttribute('cx', px); mark.setAttribute('cy', 250); mark.setAttribute('r', 12); mark.setAttribute('fill', good?'#b72121':'#d7cdbf');\n svg.appendChild(mark);\n}\n\n    ;(function(){\n      try{\n        const _celebrate = (typeof celebrate === 'function') ? celebrate : null;\n        if (!_celebrate) return;\n        celebrate = function(text){\n          _celebrate(text);\n          if (window.__smash_done) return;\n          window.__smash_done = true;\n          try { parent.postMessage({type:'smash_done', id:\"find_the_exit\", token:'__SMASH_TOKEN__', text:String(text||'') }, '*'); } catch(e) {}\n        };\n      } catch(e) {}\n    })();\n    \n</script>\n</body>\n</html>", "group": "Pack", "type": "iframe", "adultOnly": false}, {"id": "gather", "title": "Gather", "prompt": "Klicke Fragmente, um sie zurück zum Kopf zu ziehen", "blurb": "Klicke Fragmente, um sie zurück zum Kopf zu ziehen", "srcdoc": "<!doctype html>\n<html lang=\"de\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no\">\n<style>\n\n    :root{--bg:#00c0c0;--ink:#000030;--accent:#e01020;--muted:#4d5666;}\n    \n:root{\n  --bg:#f4efe6;\n  --ink:#111;\n  --accent:#b72121;\n  --muted:#6b635a;\n}\n*{box-sizing:border-box}\nhtml,body{margin:0;height:100%;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink)}\nbody{display:flex;flex-direction:column}\nheader{padding:16px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(17,17,17,.08)}\nh1{font-size:22px;margin:0;letter-spacing:.02em}\nsmall{color:var(--muted)}\nmain{flex:1;display:grid;place-items:center;padding:18px}\n.stage{position:relative;width:min(900px,92vw);height:min(540px,70vh);background:#fff;overflow:hidden;border-radius:24px;box-shadow:0 16px 60px rgba(0,0,0,.12)}\n.overlay{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}\n.badge{position:absolute;left:16px;bottom:16px;background:rgba(255,255,255,.82);backdrop-filter: blur(8px);border:1px solid rgba(0,0,0,.08);padding:8px 12px;border-radius:999px;font-size:13px}\nbutton{appearance:none;border:0;border-radius:999px;background:var(--ink);color:white;padding:10px 14px;font-weight:600;cursor:pointer}\nbutton.secondary{background:#e7dfd3;color:var(--ink)}\n.controls{display:flex;gap:10px;align-items:center}\n.msg{position:absolute;top:16px;left:50%;transform:translateX(-50%);padding:10px 14px;background:rgba(255,255,255,.9);border-radius:999px;border:1px solid rgba(0,0,0,.08);font-weight:600}\nsvg{display:block;width:100%;height:100%}\na{color:inherit}\n\n    html,body{height:100%;margin:0;overflow:hidden}\n    body{display:block;background:var(--bg);touch-action:none}\n    header{display:none !important}\n    main{display:block !important;padding:0 !important;height:100%}\n    .stage{width:100% !important;height:100% !important;border-radius:18px !important;box-shadow:none !important;background:#fff !important}\n    .badge{display:none !important}\n    \n</style>\n</head>\n<body>\n<main style=\"height:100%\"><div class=\"stage\" id=\"stage\">\n    <div class=\"msg\" id=\"status\">Bereit</div>\n    <svg id=\"scene\" viewBox=\"0 0 900 540\" preserveAspectRatio=\"xMidYMid meet\"></svg>\n    <div class=\"badge\">5–20 Sek. Microgame</div>\n  </div></main>\n<script>\nconst $ = s => document.querySelector(s);\nconst stage = $('.stage');\nconst svg = $('#scene');\nconst statusEl = $('#status');\nfunction setStatus(t){ if(statusEl) statusEl.textContent=t; }\nfunction rand(a,b){ return Math.random()*(b-a)+a; }\nfunction clamp(v,a,b){ return Math.max(a,Math.min(b,v)); }\nfunction dist(ax,ay,bx,by){ return Math.hypot(ax-bx, ay-by); }\nfunction celebrate(text='Gut'){ \n  setStatus(text);\n  stage.animate([{transform:'scale(1)'},{transform:'scale(1.006)'},{transform:'scale(1)'}],{duration:240});\n}\n\n\nsvg.innerHTML=`<rect width=\"900\" height=\"540\" fill=\"#f4efe6\"/>\n<circle cx=\"450\" cy=\"250\" r=\"80\" fill=\"#111\"/>\n<rect x=\"425\" y=\"330\" width=\"50\" height=\"110\" fill=\"#111\"/>\n<g id=\"parts\">${Array.from({length:18},()=>`<polygon class=\"part\" points=\"0,0 16,28 -16,28\" fill=\"#b72121\"/>`).join('')}</g>`;\nconst parts=[...svg.querySelectorAll('.part')];\nparts.forEach(p=>{\n p.x=rand(180,720); p.y=rand(60,460); p.vx=rand(-1,1); p.vy=rand(-1,1);\n p.setAttribute('transform',`translate(${p.x} ${p.y}) rotate(${rand(0,360)})`);\n p.addEventListener('click',()=>{p.x=450+rand(-40,40); p.y=230+rand(-40,40); p.setAttribute('transform',`translate(${p.x} ${p.y}) rotate(${rand(0,360)})`); celebrate('Fragment eingefangen');});\n});\nsetStatus('Klicke Fragmente, um sie zurück zum Kopf zu ziehen');\nfunction anim(){\n parts.forEach(p=>{ p.x+=p.vx; p.y+=p.vy; if(p.x<120||p.x>780)p.vx*=-1; if(p.y<40||p.y>500)p.vy*=-1; p.setAttribute('transform',`translate(${p.x} ${p.y}) rotate(${(Date.now()/20)%360})`)});\n requestAnimationFrame(anim);\n}\nanim();\n\n    ;(function(){\n      try{\n        const _celebrate = (typeof celebrate === 'function') ? celebrate : null;\n        if (!_celebrate) return;\n        celebrate = function(text){\n          _celebrate(text);\n          if (window.__smash_done) return;\n          window.__smash_done = true;\n          try { parent.postMessage({type:'smash_done', id:\"gather\", token:'__SMASH_TOKEN__', text:String(text||'') }, '*'); } catch(e) {}\n        };\n      } catch(e) {}\n    })();\n    \n</script>\n</body>\n</html>", "group": "Pack", "type": "iframe", "adultOnly": false}, {"id": "hold_the_thread", "title": "Hold the Thread", "prompt": "Wische oder klicke Störblasen weg und halte die Verbindung frei", "blurb": "Wische oder klicke Störblasen weg und halte die Verbindung frei", "srcdoc": "<!doctype html>\n<html lang=\"de\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no\">\n<style>\n\n    :root{--bg:#00c0c0;--ink:#000030;--accent:#e01020;--muted:#4d5666;}\n    \n:root{\n  --bg:#f4efe6;\n  --ink:#111;\n  --accent:#b72121;\n  --muted:#6b635a;\n}\n*{box-sizing:border-box}\nhtml,body{margin:0;height:100%;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink)}\nbody{display:flex;flex-direction:column}\nheader{padding:16px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(17,17,17,.08)}\nh1{font-size:22px;margin:0;letter-spacing:.02em}\nsmall{color:var(--muted)}\nmain{flex:1;display:grid;place-items:center;padding:18px}\n.stage{position:relative;width:min(900px,92vw);height:min(540px,70vh);background:#fff;overflow:hidden;border-radius:24px;box-shadow:0 16px 60px rgba(0,0,0,.12)}\n.overlay{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}\n.badge{position:absolute;left:16px;bottom:16px;background:rgba(255,255,255,.82);backdrop-filter: blur(8px);border:1px solid rgba(0,0,0,.08);padding:8px 12px;border-radius:999px;font-size:13px}\nbutton{appearance:none;border:0;border-radius:999px;background:var(--ink);color:white;padding:10px 14px;font-weight:600;cursor:pointer}\nbutton.secondary{background:#e7dfd3;color:var(--ink)}\n.controls{display:flex;gap:10px;align-items:center}\n.msg{position:absolute;top:16px;left:50%;transform:translateX(-50%);padding:10px 14px;background:rgba(255,255,255,.9);border-radius:999px;border:1px solid rgba(0,0,0,.08);font-weight:600}\nsvg{display:block;width:100%;height:100%}\na{color:inherit}\n\n    html,body{height:100%;margin:0;overflow:hidden}\n    body{display:block;background:var(--bg);touch-action:none}\n    header{display:none !important}\n    main{display:block !important;padding:0 !important;height:100%}\n    .stage{width:100% !important;height:100% !important;border-radius:18px !important;box-shadow:none !important;background:#fff !important}\n    .badge{display:none !important}\n    \n</style>\n</head>\n<body>\n<main style=\"height:100%\"><div class=\"stage\" id=\"stage\">\n    <div class=\"msg\" id=\"status\">Bereit</div>\n    <svg id=\"scene\" viewBox=\"0 0 900 540\" preserveAspectRatio=\"xMidYMid meet\"></svg>\n    <div class=\"badge\">5–20 Sek. Microgame</div>\n  </div></main>\n<script>\nconst $ = s => document.querySelector(s);\nconst stage = $('.stage');\nconst svg = $('#scene');\nconst statusEl = $('#status');\nfunction setStatus(t){ if(statusEl) statusEl.textContent=t; }\nfunction rand(a,b){ return Math.random()*(b-a)+a; }\nfunction clamp(v,a,b){ return Math.max(a,Math.min(b,v)); }\nfunction dist(ax,ay,bx,by){ return Math.hypot(ax-bx, ay-by); }\nfunction celebrate(text='Gut'){ \n  setStatus(text);\n  stage.animate([{transform:'scale(1)'},{transform:'scale(1.006)'},{transform:'scale(1)'}],{duration:240});\n}\n\n\nsvg.innerHTML=`<rect width=\"900\" height=\"540\" fill=\"#f4efe6\"/>\n<circle cx=\"250\" cy=\"270\" r=\"70\" fill=\"#111\"/><circle cx=\"650\" cy=\"270\" r=\"70\" fill=\"#111\"/>\n<path id=\"thread\" d=\"M320 270 C420 220 480 320 580 270\" stroke=\"#b72121\" stroke-width=\"8\" fill=\"none\" stroke-linecap=\"round\"/>`;\nlet blobs=[];\nfunction spawn(){\n const b=document.createElementNS('http://www.w3.org/2000/svg','circle');\n b.setAttribute('cx', rand(340,560)); b.setAttribute('cy', rand(120,420)); b.setAttribute('r', rand(14,28)); b.setAttribute('fill', '#111');\n b.vx=rand(-1.2,1.2); b.vy=rand(-.8,.8);\n b.addEventListener('click', ()=>{ b.remove(); blobs=blobs.filter(x=>x!==b); celebrate('Rauschen entfernt');});\n svg.appendChild(b); blobs.push(b);\n}\nfor(let i=0;i<7;i++) spawn();\nsetStatus('Wische oder klicke Störblasen weg und halte die Verbindung frei');\nfunction anim(){\n blobs.forEach(b=>{\n   let x=+b.getAttribute('cx')+b.vx, y=+b.getAttribute('cy')+b.vy;\n   if(x<330||x>570) b.vx*=-1; if(y<80||y>460) b.vy*=-1;\n   b.setAttribute('cx', x); b.setAttribute('cy', y);\n });\n requestAnimationFrame(anim);\n}\nanim();\n\n    ;(function(){\n      try{\n        const _celebrate = (typeof celebrate === 'function') ? celebrate : null;\n        if (!_celebrate) return;\n        celebrate = function(text){\n          _celebrate(text);\n          if (window.__smash_done) return;\n          window.__smash_done = true;\n          try { parent.postMessage({type:'smash_done', id:\"hold_the_thread\", token:'__SMASH_TOKEN__', text:String(text||'') }, '*'); } catch(e) {}\n        };\n      } catch(e) {}\n    })();\n    \n</script>\n</body>\n</html>", "group": "Pack", "type": "iframe", "adultOnly": false}, {"id": "open_the_spread", "title": "Open the Spread", "prompt": "Ziehe die rechte Seite exakt in die Mittelachse", "blurb": "Ziehe die rechte Seite exakt in die Mittelachse", "srcdoc": "<!doctype html>\n<html lang=\"de\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no\">\n<style>\n\n    :root{--bg:#00c0c0;--ink:#000030;--accent:#e01020;--muted:#4d5666;}\n    \n:root{\n  --bg:#f4efe6;\n  --ink:#111;\n  --accent:#b72121;\n  --muted:#6b635a;\n}\n*{box-sizing:border-box}\nhtml,body{margin:0;height:100%;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink)}\nbody{display:flex;flex-direction:column}\nheader{padding:16px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(17,17,17,.08)}\nh1{font-size:22px;margin:0;letter-spacing:.02em}\nsmall{color:var(--muted)}\nmain{flex:1;display:grid;place-items:center;padding:18px}\n.stage{position:relative;width:min(900px,92vw);height:min(540px,70vh);background:#fff;overflow:hidden;border-radius:24px;box-shadow:0 16px 60px rgba(0,0,0,.12)}\n.overlay{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}\n.badge{position:absolute;left:16px;bottom:16px;background:rgba(255,255,255,.82);backdrop-filter: blur(8px);border:1px solid rgba(0,0,0,.08);padding:8px 12px;border-radius:999px;font-size:13px}\nbutton{appearance:none;border:0;border-radius:999px;background:var(--ink);color:white;padding:10px 14px;font-weight:600;cursor:pointer}\nbutton.secondary{background:#e7dfd3;color:var(--ink)}\n.controls{display:flex;gap:10px;align-items:center}\n.msg{position:absolute;top:16px;left:50%;transform:translateX(-50%);padding:10px 14px;background:rgba(255,255,255,.9);border-radius:999px;border:1px solid rgba(0,0,0,.08);font-weight:600}\nsvg{display:block;width:100%;height:100%}\na{color:inherit}\n\n    html,body{height:100%;margin:0;overflow:hidden}\n    body{display:block;background:var(--bg);touch-action:none}\n    header{display:none !important}\n    main{display:block !important;padding:0 !important;height:100%}\n    .stage{width:100% !important;height:100% !important;border-radius:18px !important;box-shadow:none !important;background:#fff !important}\n    .badge{display:none !important}\n    \n</style>\n</head>\n<body>\n<main style=\"height:100%\"><div class=\"stage\" id=\"stage\">\n    <div class=\"msg\" id=\"status\">Bereit</div>\n    <svg id=\"scene\" viewBox=\"0 0 900 540\" preserveAspectRatio=\"xMidYMid meet\"></svg>\n    <div class=\"badge\">5–20 Sek. Microgame</div>\n  </div></main>\n<script>\nconst $ = s => document.querySelector(s);\nconst stage = $('.stage');\nconst svg = $('#scene');\nconst statusEl = $('#status');\nfunction setStatus(t){ if(statusEl) statusEl.textContent=t; }\nfunction rand(a,b){ return Math.random()*(b-a)+a; }\nfunction clamp(v,a,b){ return Math.max(a,Math.min(b,v)); }\nfunction dist(ax,ay,bx,by){ return Math.hypot(ax-bx, ay-by); }\nfunction celebrate(text='Gut'){ \n  setStatus(text);\n  stage.animate([{transform:'scale(1)'},{transform:'scale(1.006)'},{transform:'scale(1)'}],{duration:240});\n}\n\n\nsvg.innerHTML=`<rect width=\"900\" height=\"540\" fill=\"#f4efe6\"/>\n<rect x=\"170\" y=\"110\" width=\"250\" height=\"320\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"6\"/>\n<rect id=\"pageR\" x=\"480\" y=\"120\" width=\"250\" height=\"320\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"6\"/>\n<line x1=\"450\" y1=\"100\" x2=\"450\" y2=\"440\" stroke=\"#b72121\" stroke-width=\"4\" stroke-dasharray=\"8 8\"/>`;\nconst pageR=document.getElementById('pageR'); let active=false, startX=0, orig=480;\nsetStatus('Ziehe die rechte Seite exakt in die Mittelachse');\nstage.onpointerdown=e=>{const r=svg.getBoundingClientRect(); startX=(e.clientX-r.left)/r.width*900; active=true; orig=+pageR.getAttribute('x');}\nstage.onpointermove=e=>{ if(!active) return; const r=svg.getBoundingClientRect(); let x=(e.clientX-r.left)/r.width*900; pageR.setAttribute('x', clamp(orig + (x-startX), 430, 520));}\nstage.onpointerup=()=>{ active=false; const good=Math.abs(+pageR.getAttribute('x')-480)<8; celebrate(good?'Buch geöffnet':'Noch leicht schief');}\n\n    ;(function(){\n      try{\n        const _celebrate = (typeof celebrate === 'function') ? celebrate : null;\n        if (!_celebrate) return;\n        celebrate = function(text){\n          _celebrate(text);\n          if (window.__smash_done) return;\n          window.__smash_done = true;\n          try { parent.postMessage({type:'smash_done', id:\"open_the_spread\", token:'__SMASH_TOKEN__', text:String(text||'') }, '*'); } catch(e) {}\n        };\n      } catch(e) {}\n    })();\n    \n</script>\n</body>\n</html>", "group": "Pack", "type": "iframe", "adultOnly": false}, {"id": "pull_rank", "title": "Pull Rank", "prompt": "Verschiebe genau einen Marker, bis der rote Kern zentriert ist", "blurb": "Verschiebe genau einen Marker, bis der rote Kern zentriert ist", "srcdoc": "<!doctype html>\n<html lang=\"de\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no\">\n<style>\n\n    :root{--bg:#00c0c0;--ink:#000030;--accent:#e01020;--muted:#4d5666;}\n    \n:root{\n  --bg:#f4efe6;\n  --ink:#111;\n  --accent:#b72121;\n  --muted:#6b635a;\n}\n*{box-sizing:border-box}\nhtml,body{margin:0;height:100%;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink)}\nbody{display:flex;flex-direction:column}\nheader{padding:16px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(17,17,17,.08)}\nh1{font-size:22px;margin:0;letter-spacing:.02em}\nsmall{color:var(--muted)}\nmain{flex:1;display:grid;place-items:center;padding:18px}\n.stage{position:relative;width:min(900px,92vw);height:min(540px,70vh);background:#fff;overflow:hidden;border-radius:24px;box-shadow:0 16px 60px rgba(0,0,0,.12)}\n.overlay{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}\n.badge{position:absolute;left:16px;bottom:16px;background:rgba(255,255,255,.82);backdrop-filter: blur(8px);border:1px solid rgba(0,0,0,.08);padding:8px 12px;border-radius:999px;font-size:13px}\nbutton{appearance:none;border:0;border-radius:999px;background:var(--ink);color:white;padding:10px 14px;font-weight:600;cursor:pointer}\nbutton.secondary{background:#e7dfd3;color:var(--ink)}\n.controls{display:flex;gap:10px;align-items:center}\n.msg{position:absolute;top:16px;left:50%;transform:translateX(-50%);padding:10px 14px;background:rgba(255,255,255,.9);border-radius:999px;border:1px solid rgba(0,0,0,.08);font-weight:600}\nsvg{display:block;width:100%;height:100%}\na{color:inherit}\n\n    html,body{height:100%;margin:0;overflow:hidden}\n    body{display:block;background:var(--bg);touch-action:none}\n    header{display:none !important}\n    main{display:block !important;padding:0 !important;height:100%}\n    .stage{width:100% !important;height:100% !important;border-radius:18px !important;box-shadow:none !important;background:#fff !important}\n    .badge{display:none !important}\n    \n</style>\n</head>\n<body>\n<main style=\"height:100%\"><div class=\"stage\" id=\"stage\">\n    <div class=\"msg\" id=\"status\">Bereit</div>\n    <svg id=\"scene\" viewBox=\"0 0 900 540\" preserveAspectRatio=\"xMidYMid meet\"></svg>\n    <div class=\"badge\">5–20 Sek. Microgame</div>\n  </div></main>\n<script>\nconst $ = s => document.querySelector(s);\nconst stage = $('.stage');\nconst svg = $('#scene');\nconst statusEl = $('#status');\nfunction setStatus(t){ if(statusEl) statusEl.textContent=t; }\nfunction rand(a,b){ return Math.random()*(b-a)+a; }\nfunction clamp(v,a,b){ return Math.max(a,Math.min(b,v)); }\nfunction dist(ax,ay,bx,by){ return Math.hypot(ax-bx, ay-by); }\nfunction celebrate(text='Gut'){ \n  setStatus(text);\n  stage.animate([{transform:'scale(1)'},{transform:'scale(1.006)'},{transform:'scale(1)'}],{duration:240});\n}\n\n\nsvg.innerHTML=`<rect width=\"900\" height=\"540\" fill=\"#f4efe6\"/>\n<ellipse cx=\"450\" cy=\"290\" rx=\"260\" ry=\"120\" fill=\"#111\"/>\n<circle id=\"target\" cx=\"450\" cy=\"290\" r=\"18\" fill=\"#b72121\"/>\n${[0,1,2,3,4].map(i=>`<circle class=\"marker\" cx=\"${300+i*75}\" cy=\"${230+Math.sin(i)*50}\" r=\"22\" fill=\"#d8d0c6\" stroke=\"#111\" stroke-width=\"4\"/>`).join('')}`;\nconst ms=[...svg.querySelectorAll('.marker')]; let active=null, off={x:0,y:0};\nsetStatus('Verschiebe genau einen Marker, bis der rote Kern zentriert ist');\nfunction pt(e){const r=svg.getBoundingClientRect(); return {x:(e.clientX-r.left)/r.width*900,y:(e.clientY-r.top)/r.height*540};}\nms.forEach(m=>{\n m.onpointerdown=e=>{active=m; const p=pt(e); off.x=+m.getAttribute('cx')-p.x; off.y=+m.getAttribute('cy')-p.y;};\n});\nstage.onpointermove=e=>{\n if(!active) return;\n const p=pt(e); active.setAttribute('cx', clamp(p.x+off.x,200,700)); active.setAttribute('cy', clamp(p.y+off.y,160,420));\n};\nstage.onpointerup=()=>{\n if(!active) return;\n active=null;\n let avgx=ms.reduce((a,m)=>a+ +m.getAttribute('cx'),0)/ms.length;\n let avgy=ms.reduce((a,m)=>a+ +m.getAttribute('cy'),0)/ms.length;\n const good = dist(avgx,avgy,450,290)<45;\n celebrate(good?'Balance hergestellt':'Noch instabil');\n}\n\n    ;(function(){\n      try{\n        const _celebrate = (typeof celebrate === 'function') ? celebrate : null;\n        if (!_celebrate) return;\n        celebrate = function(text){\n          _celebrate(text);\n          if (window.__smash_done) return;\n          window.__smash_done = true;\n          try { parent.postMessage({type:'smash_done', id:\"pull_rank\", token:'__SMASH_TOKEN__', text:String(text||'') }, '*'); } catch(e) {}\n        };\n      } catch(e) {}\n    })();\n    \n</script>\n</body>\n</html>", "group": "Pack", "type": "iframe", "adultOnly": false}, {"id": "retune_the_image", "title": "Retune the Image", "prompt": "Tippe die drei Impulse im richtigen Takt", "blurb": "Tippe die drei Impulse im richtigen Takt", "srcdoc": "<!doctype html>\n<html lang=\"de\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no\">\n<style>\n\n    :root{--bg:#00c0c0;--ink:#000030;--accent:#e01020;--muted:#4d5666;}\n    \n:root{\n  --bg:#f4efe6;\n  --ink:#111;\n  --accent:#b72121;\n  --muted:#6b635a;\n}\n*{box-sizing:border-box}\nhtml,body{margin:0;height:100%;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink)}\nbody{display:flex;flex-direction:column}\nheader{padding:16px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(17,17,17,.08)}\nh1{font-size:22px;margin:0;letter-spacing:.02em}\nsmall{color:var(--muted)}\nmain{flex:1;display:grid;place-items:center;padding:18px}\n.stage{position:relative;width:min(900px,92vw);height:min(540px,70vh);background:#fff;overflow:hidden;border-radius:24px;box-shadow:0 16px 60px rgba(0,0,0,.12)}\n.overlay{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}\n.badge{position:absolute;left:16px;bottom:16px;background:rgba(255,255,255,.82);backdrop-filter: blur(8px);border:1px solid rgba(0,0,0,.08);padding:8px 12px;border-radius:999px;font-size:13px}\nbutton{appearance:none;border:0;border-radius:999px;background:var(--ink);color:white;padding:10px 14px;font-weight:600;cursor:pointer}\nbutton.secondary{background:#e7dfd3;color:var(--ink)}\n.controls{display:flex;gap:10px;align-items:center}\n.msg{position:absolute;top:16px;left:50%;transform:translateX(-50%);padding:10px 14px;background:rgba(255,255,255,.9);border-radius:999px;border:1px solid rgba(0,0,0,.08);font-weight:600}\nsvg{display:block;width:100%;height:100%}\na{color:inherit}\n\n    html,body{height:100%;margin:0;overflow:hidden}\n    body{display:block;background:var(--bg);touch-action:none}\n    header{display:none !important}\n    main{display:block !important;padding:0 !important;height:100%}\n    .stage{width:100% !important;height:100% !important;border-radius:18px !important;box-shadow:none !important;background:#fff !important}\n    .badge{display:none !important}\n    \n</style>\n</head>\n<body>\n<main style=\"height:100%\"><div class=\"stage\" id=\"stage\">\n    <div class=\"msg\" id=\"status\">Bereit</div>\n    <svg id=\"scene\" viewBox=\"0 0 900 540\" preserveAspectRatio=\"xMidYMid meet\"></svg>\n    <div class=\"badge\">5–20 Sek. Microgame</div>\n  </div></main>\n<script>\nconst $ = s => document.querySelector(s);\nconst stage = $('.stage');\nconst svg = $('#scene');\nconst statusEl = $('#status');\nfunction setStatus(t){ if(statusEl) statusEl.textContent=t; }\nfunction rand(a,b){ return Math.random()*(b-a)+a; }\nfunction clamp(v,a,b){ return Math.max(a,Math.min(b,v)); }\nfunction dist(ax,ay,bx,by){ return Math.hypot(ax-bx, ay-by); }\nfunction celebrate(text='Gut'){ \n  setStatus(text);\n  stage.animate([{transform:'scale(1)'},{transform:'scale(1.006)'},{transform:'scale(1)'}],{duration:240});\n}\n\n\nsvg.innerHTML=`<rect width=\"900\" height=\"540\" fill=\"#f4efe6\"/>\n<rect x=\"250\" y=\"60\" width=\"400\" height=\"420\" fill=\"#111\"/>\n<circle cx=\"450\" cy=\"170\" r=\"60\" fill=\"#f4efe6\"/>\n<rect x=\"420\" y=\"235\" width=\"60\" height=\"130\" fill=\"#f4efe6\"/>\n<g id=\"pads\">${[0,1,2].map(i=>`<circle class=\"pad\" cx=\"${300+i*150}\" cy=\"430\" r=\"28\" fill=\"#d7cdbf\"/>`).join('')}</g>`;\nconst order=[0,2,1]; let step=0; setStatus('Tippe die drei Impulse im richtigen Takt');\n[...svg.querySelectorAll('.pad')].forEach((p,i)=>p.addEventListener('click',()=>{\n const good=i===order[step];\n p.setAttribute('fill', good?'#b72121':'#111');\n step=good?step+1:0;\n if(step===3) celebrate('Bild wieder gestimmt');\n}));\n\n    ;(function(){\n      try{\n        const _celebrate = (typeof celebrate === 'function') ? celebrate : null;\n        if (!_celebrate) return;\n        celebrate = function(text){\n          _celebrate(text);\n          if (window.__smash_done) return;\n          window.__smash_done = true;\n          try { parent.postMessage({type:'smash_done', id:\"retune_the_image\", token:'__SMASH_TOKEN__', text:String(text||'') }, '*'); } catch(e) {}\n        };\n      } catch(e) {}\n    })();\n    \n</script>\n</body>\n</html>", "group": "Pack", "type": "iframe", "adultOnly": false}, {"id": "reveal_the_face", "title": "Reveal the Face", "prompt": "Klicke störende Schichten weg", "blurb": "Klicke störende Schichten weg", "srcdoc": "<!doctype html>\n<html lang=\"de\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no\">\n<style>\n\n    :root{--bg:#00c0c0;--ink:#000030;--accent:#e01020;--muted:#4d5666;}\n    \n:root{\n  --bg:#f4efe6;\n  --ink:#111;\n  --accent:#b72121;\n  --muted:#6b635a;\n}\n*{box-sizing:border-box}\nhtml,body{margin:0;height:100%;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink)}\nbody{display:flex;flex-direction:column}\nheader{padding:16px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(17,17,17,.08)}\nh1{font-size:22px;margin:0;letter-spacing:.02em}\nsmall{color:var(--muted)}\nmain{flex:1;display:grid;place-items:center;padding:18px}\n.stage{position:relative;width:min(900px,92vw);height:min(540px,70vh);background:#fff;overflow:hidden;border-radius:24px;box-shadow:0 16px 60px rgba(0,0,0,.12)}\n.overlay{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}\n.badge{position:absolute;left:16px;bottom:16px;background:rgba(255,255,255,.82);backdrop-filter: blur(8px);border:1px solid rgba(0,0,0,.08);padding:8px 12px;border-radius:999px;font-size:13px}\nbutton{appearance:none;border:0;border-radius:999px;background:var(--ink);color:white;padding:10px 14px;font-weight:600;cursor:pointer}\nbutton.secondary{background:#e7dfd3;color:var(--ink)}\n.controls{display:flex;gap:10px;align-items:center}\n.msg{position:absolute;top:16px;left:50%;transform:translateX(-50%);padding:10px 14px;background:rgba(255,255,255,.9);border-radius:999px;border:1px solid rgba(0,0,0,.08);font-weight:600}\nsvg{display:block;width:100%;height:100%}\na{color:inherit}\n\n    html,body{height:100%;margin:0;overflow:hidden}\n    body{display:block;background:var(--bg);touch-action:none}\n    header{display:none !important}\n    main{display:block !important;padding:0 !important;height:100%}\n    .stage{width:100% !important;height:100% !important;border-radius:18px !important;box-shadow:none !important;background:#fff !important}\n    .badge{display:none !important}\n    \n</style>\n</head>\n<body>\n<main style=\"height:100%\"><div class=\"stage\" id=\"stage\">\n    <div class=\"msg\" id=\"status\">Bereit</div>\n    <svg id=\"scene\" viewBox=\"0 0 900 540\" preserveAspectRatio=\"xMidYMid meet\"></svg>\n    <div class=\"badge\">5–20 Sek. Microgame</div>\n  </div></main>\n<script>\nconst $ = s => document.querySelector(s);\nconst stage = $('.stage');\nconst svg = $('#scene');\nconst statusEl = $('#status');\nfunction setStatus(t){ if(statusEl) statusEl.textContent=t; }\nfunction rand(a,b){ return Math.random()*(b-a)+a; }\nfunction clamp(v,a,b){ return Math.max(a,Math.min(b,v)); }\nfunction dist(ax,ay,bx,by){ return Math.hypot(ax-bx, ay-by); }\nfunction celebrate(text='Gut'){ \n  setStatus(text);\n  stage.animate([{transform:'scale(1)'},{transform:'scale(1.006)'},{transform:'scale(1)'}],{duration:240});\n}\n\n\nsvg.innerHTML=`<rect width=\"900\" height=\"540\" fill=\"#f4efe6\"/>\n<circle cx=\"450\" cy=\"170\" r=\"68\" fill=\"#111\"/>\n<rect x=\"390\" y=\"240\" width=\"120\" height=\"190\" rx=\"22\" fill=\"#111\"/>\n<g id=\"paint\">${Array.from({length:9},(_,i)=>`<rect class=\"stripe\" x=\"${360+i*18}\" y=\"70\" width=\"16\" height=\"380\" fill=\"${i%2?'#b72121':'#111'}\" opacity=\".88\"/>`).join('')}</g>`;\nsetStatus('Klicke störende Schichten weg');\n[...svg.querySelectorAll('.stripe')].forEach(s=>s.addEventListener('click',()=>{ s.remove(); celebrate('Schicht entfernt');}));\n\n    ;(function(){\n      try{\n        const _celebrate = (typeof celebrate === 'function') ? celebrate : null;\n        if (!_celebrate) return;\n        celebrate = function(text){\n          _celebrate(text);\n          if (window.__smash_done) return;\n          window.__smash_done = true;\n          try { parent.postMessage({type:'smash_done', id:\"reveal_the_face\", token:'__SMASH_TOKEN__', text:String(text||'') }, '*'); } catch(e) {}\n        };\n      } catch(e) {}\n    })();\n    \n</script>\n</body>\n</html>", "group": "Pack", "type": "iframe", "adultOnly": false}, {"id": "set_it_straight", "title": "Set It Straight", "prompt": "Drehe den Kopf wieder exakt gerade", "blurb": "Drehe den Kopf wieder exakt gerade", "srcdoc": "<!doctype html>\n<html lang=\"de\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no\">\n<style>\n\n    :root{--bg:#00c0c0;--ink:#000030;--accent:#e01020;--muted:#4d5666;}\n    \n:root{\n  --bg:#f4efe6;\n  --ink:#111;\n  --accent:#b72121;\n  --muted:#6b635a;\n}\n*{box-sizing:border-box}\nhtml,body{margin:0;height:100%;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink)}\nbody{display:flex;flex-direction:column}\nheader{padding:16px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(17,17,17,.08)}\nh1{font-size:22px;margin:0;letter-spacing:.02em}\nsmall{color:var(--muted)}\nmain{flex:1;display:grid;place-items:center;padding:18px}\n.stage{position:relative;width:min(900px,92vw);height:min(540px,70vh);background:#fff;overflow:hidden;border-radius:24px;box-shadow:0 16px 60px rgba(0,0,0,.12)}\n.overlay{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}\n.badge{position:absolute;left:16px;bottom:16px;background:rgba(255,255,255,.82);backdrop-filter: blur(8px);border:1px solid rgba(0,0,0,.08);padding:8px 12px;border-radius:999px;font-size:13px}\nbutton{appearance:none;border:0;border-radius:999px;background:var(--ink);color:white;padding:10px 14px;font-weight:600;cursor:pointer}\nbutton.secondary{background:#e7dfd3;color:var(--ink)}\n.controls{display:flex;gap:10px;align-items:center}\n.msg{position:absolute;top:16px;left:50%;transform:translateX(-50%);padding:10px 14px;background:rgba(255,255,255,.9);border-radius:999px;border:1px solid rgba(0,0,0,.08);font-weight:600}\nsvg{display:block;width:100%;height:100%}\na{color:inherit}\n\n    html,body{height:100%;margin:0;overflow:hidden}\n    body{display:block;background:var(--bg);touch-action:none}\n    header{display:none !important}\n    main{display:block !important;padding:0 !important;height:100%}\n    .stage{width:100% !important;height:100% !important;border-radius:18px !important;box-shadow:none !important;background:#fff !important}\n    .badge{display:none !important}\n    \n</style>\n</head>\n<body>\n<main style=\"height:100%\"><div class=\"stage\" id=\"stage\">\n    <div class=\"msg\" id=\"status\">Bereit</div>\n    <svg id=\"scene\" viewBox=\"0 0 900 540\" preserveAspectRatio=\"xMidYMid meet\"></svg>\n    <div class=\"badge\">5–20 Sek. Microgame</div>\n  </div></main>\n<script>\nconst $ = s => document.querySelector(s);\nconst stage = $('.stage');\nconst svg = $('#scene');\nconst statusEl = $('#status');\nfunction setStatus(t){ if(statusEl) statusEl.textContent=t; }\nfunction rand(a,b){ return Math.random()*(b-a)+a; }\nfunction clamp(v,a,b){ return Math.max(a,Math.min(b,v)); }\nfunction dist(ax,ay,bx,by){ return Math.hypot(ax-bx, ay-by); }\nfunction celebrate(text='Gut'){ \n  setStatus(text);\n  stage.animate([{transform:'scale(1)'},{transform:'scale(1.006)'},{transform:'scale(1)'}],{duration:240});\n}\n\n\nsvg.innerHTML=`<rect width=\"900\" height=\"540\" fill=\"#f4efe6\"/>\n<rect x=\"390\" y=\"220\" width=\"120\" height=\"190\" rx=\"20\" fill=\"#111\"/>\n<g id=\"head\" transform=\"translate(450 160) rotate(25)\"><circle r=\"68\" fill=\"#111\"/><circle cx=\"-18\" cy=\"-10\" r=\"8\" fill=\"#f4efe6\"/><circle cx=\"18\" cy=\"-10\" r=\"8\" fill=\"#f4efe6\"/></g>`;\nlet angle=25;\nsetStatus('Drehe den Kopf wieder exakt gerade');\nstage.onwheel=e=>{ e.preventDefault(); angle += Math.sign(e.deltaY)*2; head.setAttribute('transform',`translate(450 160) rotate(${angle})`); };\nstage.onclick=()=>{ const good=Math.abs(angle)<4; celebrate(good?'Wieder ausgerichtet':'Noch leicht verdreht');}\nconst head=document.getElementById('head');\n\n    ;(function(){\n      try{\n        const _celebrate = (typeof celebrate === 'function') ? celebrate : null;\n        if (!_celebrate) return;\n        celebrate = function(text){\n          _celebrate(text);\n          if (window.__smash_done) return;\n          window.__smash_done = true;\n          try { parent.postMessage({type:'smash_done', id:\"set_it_straight\", token:'__SMASH_TOKEN__', text:String(text||'') }, '*'); } catch(e) {}\n        };\n      } catch(e) {}\n    })();\n    \n</script>\n</body>\n</html>", "group": "Pack", "type": "iframe", "adultOnly": false}, {"id": "soft_touch", "title": "Soft Touch", "prompt": "Klicke genau beim sanften Kontakt", "blurb": "Klicke genau beim sanften Kontakt", "srcdoc": "<!doctype html>\n<html lang=\"de\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no\">\n<style>\n\n    :root{--bg:#00c0c0;--ink:#000030;--accent:#e01020;--muted:#4d5666;}\n    \n:root{\n  --bg:#f4efe6;\n  --ink:#111;\n  --accent:#b72121;\n  --muted:#6b635a;\n}\n*{box-sizing:border-box}\nhtml,body{margin:0;height:100%;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink)}\nbody{display:flex;flex-direction:column}\nheader{padding:16px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(17,17,17,.08)}\nh1{font-size:22px;margin:0;letter-spacing:.02em}\nsmall{color:var(--muted)}\nmain{flex:1;display:grid;place-items:center;padding:18px}\n.stage{position:relative;width:min(900px,92vw);height:min(540px,70vh);background:#fff;overflow:hidden;border-radius:24px;box-shadow:0 16px 60px rgba(0,0,0,.12)}\n.overlay{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}\n.badge{position:absolute;left:16px;bottom:16px;background:rgba(255,255,255,.82);backdrop-filter: blur(8px);border:1px solid rgba(0,0,0,.08);padding:8px 12px;border-radius:999px;font-size:13px}\nbutton{appearance:none;border:0;border-radius:999px;background:var(--ink);color:white;padding:10px 14px;font-weight:600;cursor:pointer}\nbutton.secondary{background:#e7dfd3;color:var(--ink)}\n.controls{display:flex;gap:10px;align-items:center}\n.msg{position:absolute;top:16px;left:50%;transform:translateX(-50%);padding:10px 14px;background:rgba(255,255,255,.9);border-radius:999px;border:1px solid rgba(0,0,0,.08);font-weight:600}\nsvg{display:block;width:100%;height:100%}\na{color:inherit}\n\n    html,body{height:100%;margin:0;overflow:hidden}\n    body{display:block;background:var(--bg);touch-action:none}\n    header{display:none !important}\n    main{display:block !important;padding:0 !important;height:100%}\n    .stage{width:100% !important;height:100% !important;border-radius:18px !important;box-shadow:none !important;background:#fff !important}\n    .badge{display:none !important}\n    \n</style>\n</head>\n<body>\n<main style=\"height:100%\"><div class=\"stage\" id=\"stage\">\n    <div class=\"msg\" id=\"status\">Bereit</div>\n    <svg id=\"scene\" viewBox=\"0 0 900 540\" preserveAspectRatio=\"xMidYMid meet\"></svg>\n    <div class=\"badge\">5–20 Sek. Microgame</div>\n  </div></main>\n<script>\nconst $ = s => document.querySelector(s);\nconst stage = $('.stage');\nconst svg = $('#scene');\nconst statusEl = $('#status');\nfunction setStatus(t){ if(statusEl) statusEl.textContent=t; }\nfunction rand(a,b){ return Math.random()*(b-a)+a; }\nfunction clamp(v,a,b){ return Math.max(a,Math.min(b,v)); }\nfunction dist(ax,ay,bx,by){ return Math.hypot(ax-bx, ay-by); }\nfunction celebrate(text='Gut'){ \n  setStatus(text);\n  stage.animate([{transform:'scale(1)'},{transform:'scale(1.006)'},{transform:'scale(1)'}],{duration:240});\n}\n\n\nsvg.innerHTML=`<rect width=\"900\" height=\"540\" fill=\"#f4efe6\"/>\n<circle cx=\"290\" cy=\"270\" r=\"90\" fill=\"#111\"/><circle cx=\"610\" cy=\"270\" r=\"90\" fill=\"#111\"/>\n<line x1=\"250\" y1=\"310\" x2=\"520\" y2=\"220\" stroke=\"#111\" stroke-width=\"6\"/>\n<circle id=\"rose\" cx=\"520\" cy=\"220\" r=\"10\" fill=\"#b72121\"/>\n<circle id=\"pulse\" cx=\"450\" cy=\"270\" r=\"70\" fill=\"none\" stroke=\"#b72121\" stroke-width=\"4\" opacity=\".25\"/>`;\nconst rose=document.getElementById('rose'); let t=0;\nsetStatus('Klicke genau beim sanften Kontakt');\nfunction anim(){\n t+=0.04;\n const x=520-120*Math.sin(t);\n rose.setAttribute('cx',x);\n requestAnimationFrame(anim);\n}\nanim();\nstage.onclick=()=>{\n const x=+rose.getAttribute('cx');\n const good=Math.abs(x-450)<18;\n celebrate(good?'Perfekt dosiert':'Zu hart / zu früh');\n}\n\n    ;(function(){\n      try{\n        const _celebrate = (typeof celebrate === 'function') ? celebrate : null;\n        if (!_celebrate) return;\n        celebrate = function(text){\n          _celebrate(text);\n          if (window.__smash_done) return;\n          window.__smash_done = true;\n          try { parent.postMessage({type:'smash_done', id:\"soft_touch\", token:'__SMASH_TOKEN__', text:String(text||'') }, '*'); } catch(e) {}\n        };\n      } catch(e) {}\n    })();\n    \n</script>\n</body>\n</html>", "group": "Pack", "type": "iframe", "adultOnly": false}, {"id": "split_merge", "title": "Split / Merge", "prompt": "Klick auf das Tor im richtigen Moment", "blurb": "Klick auf das Tor im richtigen Moment", "srcdoc": "<!doctype html>\n<html lang=\"de\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no\">\n<style>\n\n    :root{--bg:#00c0c0;--ink:#000030;--accent:#e01020;--muted:#4d5666;}\n    \n:root{\n  --bg:#f4efe6;\n  --ink:#111;\n  --accent:#b72121;\n  --muted:#6b635a;\n}\n*{box-sizing:border-box}\nhtml,body{margin:0;height:100%;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink)}\nbody{display:flex;flex-direction:column}\nheader{padding:16px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(17,17,17,.08)}\nh1{font-size:22px;margin:0;letter-spacing:.02em}\nsmall{color:var(--muted)}\nmain{flex:1;display:grid;place-items:center;padding:18px}\n.stage{position:relative;width:min(900px,92vw);height:min(540px,70vh);background:#fff;overflow:hidden;border-radius:24px;box-shadow:0 16px 60px rgba(0,0,0,.12)}\n.overlay{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}\n.badge{position:absolute;left:16px;bottom:16px;background:rgba(255,255,255,.82);backdrop-filter: blur(8px);border:1px solid rgba(0,0,0,.08);padding:8px 12px;border-radius:999px;font-size:13px}\nbutton{appearance:none;border:0;border-radius:999px;background:var(--ink);color:white;padding:10px 14px;font-weight:600;cursor:pointer}\nbutton.secondary{background:#e7dfd3;color:var(--ink)}\n.controls{display:flex;gap:10px;align-items:center}\n.msg{position:absolute;top:16px;left:50%;transform:translateX(-50%);padding:10px 14px;background:rgba(255,255,255,.9);border-radius:999px;border:1px solid rgba(0,0,0,.08);font-weight:600}\nsvg{display:block;width:100%;height:100%}\na{color:inherit}\n\n    html,body{height:100%;margin:0;overflow:hidden}\n    body{display:block;background:var(--bg);touch-action:none}\n    header{display:none !important}\n    main{display:block !important;padding:0 !important;height:100%}\n    .stage{width:100% !important;height:100% !important;border-radius:18px !important;box-shadow:none !important;background:#fff !important}\n    .badge{display:none !important}\n    \n</style>\n</head>\n<body>\n<main style=\"height:100%\"><div class=\"stage\" id=\"stage\">\n    <div class=\"msg\" id=\"status\">Bereit</div>\n    <svg id=\"scene\" viewBox=\"0 0 900 540\" preserveAspectRatio=\"xMidYMid meet\"></svg>\n    <div class=\"badge\">5–20 Sek. Microgame</div>\n  </div></main>\n<script>\nconst $ = s => document.querySelector(s);\nconst stage = $('.stage');\nconst svg = $('#scene');\nconst statusEl = $('#status');\nfunction setStatus(t){ if(statusEl) statusEl.textContent=t; }\nfunction rand(a,b){ return Math.random()*(b-a)+a; }\nfunction clamp(v,a,b){ return Math.max(a,Math.min(b,v)); }\nfunction dist(ax,ay,bx,by){ return Math.hypot(ax-bx, ay-by); }\nfunction celebrate(text='Gut'){ \n  setStatus(text);\n  stage.animate([{transform:'scale(1)'},{transform:'scale(1.006)'},{transform:'scale(1)'}],{duration:240});\n}\n\n\nlet throat=260, gate=80;\nsvg.innerHTML = `\n<rect width=\"900\" height=\"540\" fill=\"#f4efe6\"/>\n<path d=\"M330 60 C260 140 265 200 420 250 C275 300 260 355 330 470 L570 470 C640 355 625 300 480 250 C635 200 640 140 570 60 Z\" fill=\"#111\"/>\n<path id=\"flowTop\" d=\"M410 80 Q450 150 450 230\" stroke=\"#f4efe6\" stroke-width=\"28\" fill=\"none\" stroke-linecap=\"round\"/>\n<path id=\"flowBottom\" d=\"M450 310 Q450 390 490 455\" stroke=\"#f4efe6\" stroke-width=\"28\" fill=\"none\" stroke-linecap=\"round\"/>\n<rect id=\"gate\" x=\"380\" y=\"250\" width=\"140\" height=\"40\" rx=\"20\" fill=\"#b72121\"/>\n<circle cx=\"450\" cy=\"250\" r=\"30\" fill=\"#f4efe6\"/>\n`;\nconst gateEl = document.getElementById('gate');\nlet dir=1, score=0;\nsetStatus('Klick auf das Tor im richtigen Moment');\nfunction tick(){\n  gate += dir*2.2;\n  if(gate>130||gate<45) dir*=-1;\n  gateEl.setAttribute('width', gate);\n  gateEl.setAttribute('x', 450-gate/2);\n  requestAnimationFrame(tick);\n}\ntick();\nstage.onclick = ()=>{\n  const good = gate>78 && gate<100;\n  celebrate(good?'Sauberer Durchfluss':'Fast');\n  document.body.style.background = good ? '#ebe6dc' : '#f4efe6';\n}\n\n    ;(function(){\n      try{\n        const _celebrate = (typeof celebrate === 'function') ? celebrate : null;\n        if (!_celebrate) return;\n        celebrate = function(text){\n          _celebrate(text);\n          if (window.__smash_done) return;\n          window.__smash_done = true;\n          try { parent.postMessage({type:'smash_done', id:\"split_merge\", token:'__SMASH_TOKEN__', text:String(text||'') }, '*'); } catch(e) {}\n        };\n      } catch(e) {}\n    })();\n    \n</script>\n</body>\n</html>", "group": "Pack", "type": "iframe", "adultOnly": false}, {"id": "stabilize_the_reflection", "title": "Stabilize the Reflection", "prompt": "Bewege den Mauszeiger ruhig horizontal, um die Wasserfläche zu glätten", "blurb": "Bewege den Mauszeiger ruhig horizontal, um die Wasserfläche zu glätten", "srcdoc": "<!doctype html>\n<html lang=\"de\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no\">\n<style>\n\n    :root{--bg:#00c0c0;--ink:#000030;--accent:#e01020;--muted:#4d5666;}\n    \n:root{\n  --bg:#f4efe6;\n  --ink:#111;\n  --accent:#b72121;\n  --muted:#6b635a;\n}\n*{box-sizing:border-box}\nhtml,body{margin:0;height:100%;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink)}\nbody{display:flex;flex-direction:column}\nheader{padding:16px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(17,17,17,.08)}\nh1{font-size:22px;margin:0;letter-spacing:.02em}\nsmall{color:var(--muted)}\nmain{flex:1;display:grid;place-items:center;padding:18px}\n.stage{position:relative;width:min(900px,92vw);height:min(540px,70vh);background:#fff;overflow:hidden;border-radius:24px;box-shadow:0 16px 60px rgba(0,0,0,.12)}\n.overlay{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}\n.badge{position:absolute;left:16px;bottom:16px;background:rgba(255,255,255,.82);backdrop-filter: blur(8px);border:1px solid rgba(0,0,0,.08);padding:8px 12px;border-radius:999px;font-size:13px}\nbutton{appearance:none;border:0;border-radius:999px;background:var(--ink);color:white;padding:10px 14px;font-weight:600;cursor:pointer}\nbutton.secondary{background:#e7dfd3;color:var(--ink)}\n.controls{display:flex;gap:10px;align-items:center}\n.msg{position:absolute;top:16px;left:50%;transform:translateX(-50%);padding:10px 14px;background:rgba(255,255,255,.9);border-radius:999px;border:1px solid rgba(0,0,0,.08);font-weight:600}\nsvg{display:block;width:100%;height:100%}\na{color:inherit}\n\n    html,body{height:100%;margin:0;overflow:hidden}\n    body{display:block;background:var(--bg);touch-action:none}\n    header{display:none !important}\n    main{display:block !important;padding:0 !important;height:100%}\n    .stage{width:100% !important;height:100% !important;border-radius:18px !important;box-shadow:none !important;background:#fff !important}\n    .badge{display:none !important}\n    \n</style>\n</head>\n<body>\n<main style=\"height:100%\"><div class=\"stage\" id=\"stage\">\n    <div class=\"msg\" id=\"status\">Bereit</div>\n    <svg id=\"scene\" viewBox=\"0 0 900 540\" preserveAspectRatio=\"xMidYMid meet\"></svg>\n    <div class=\"badge\">5–20 Sek. Microgame</div>\n  </div></main>\n<script>\nconst $ = s => document.querySelector(s);\nconst stage = $('.stage');\nconst svg = $('#scene');\nconst statusEl = $('#status');\nfunction setStatus(t){ if(statusEl) statusEl.textContent=t; }\nfunction rand(a,b){ return Math.random()*(b-a)+a; }\nfunction clamp(v,a,b){ return Math.max(a,Math.min(b,v)); }\nfunction dist(ax,ay,bx,by){ return Math.hypot(ax-bx, ay-by); }\nfunction celebrate(text='Gut'){ \n  setStatus(text);\n  stage.animate([{transform:'scale(1)'},{transform:'scale(1.006)'},{transform:'scale(1)'}],{duration:240});\n}\n\n\nsvg.innerHTML=`<rect width=\"900\" height=\"540\" fill=\"#f4efe6\"/>\n<circle cx=\"450\" cy=\"150\" r=\"54\" fill=\"#111\"/>\n<rect x=\"420\" y=\"210\" width=\"60\" height=\"130\" fill=\"#111\"/>\n<line x1=\"120\" y1=\"320\" x2=\"780\" y2=\"320\" stroke=\"#111\" stroke-width=\"4\"/>\n<g id=\"ripples\">${Array.from({length:12},(_,i)=>`<path class=\"r\" d=\"M220 ${345+i*12} Q450 ${355+i*12+rand(-14,14)} 680 ${345+i*12}\" stroke=\"#111\" stroke-width=\"3\" fill=\"none\"/>`).join('')}</g>`;\nsetStatus('Bewege den Mauszeiger ruhig horizontal, um die Wasserfläche zu glätten');\nstage.onpointermove=e=>{\n const r=svg.getBoundingClientRect();\n const x=(e.clientX-r.left)/r.width;\n [...svg.querySelectorAll('.r')].forEach((p,i)=>{\n   const amp=(1-x)*20;\n   p.setAttribute('d',`M220 ${345+i*12} Q450 ${345+i*12+amp*Math.sin(i)} 680 ${345+i*12}`);\n });\n}\n\n    ;(function(){\n      try{\n        const _celebrate = (typeof celebrate === 'function') ? celebrate : null;\n        if (!_celebrate) return;\n        celebrate = function(text){\n          _celebrate(text);\n          if (window.__smash_done) return;\n          window.__smash_done = true;\n          try { parent.postMessage({type:'smash_done', id:\"stabilize_the_reflection\", token:'__SMASH_TOKEN__', text:String(text||'') }, '*'); } catch(e) {}\n        };\n      } catch(e) {}\n    })();\n    \n</script>\n</body>\n</html>", "group": "Pack", "type": "iframe", "adultOnly": false}, {"id": "sync_the_split", "title": "Sync the Split", "prompt": "Ziehe die rechte Hälfte exakt heran", "blurb": "Ziehe die rechte Hälfte exakt heran", "srcdoc": "<!doctype html>\n<html lang=\"de\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no\">\n<style>\n\n    :root{--bg:#00c0c0;--ink:#000030;--accent:#e01020;--muted:#4d5666;}\n    \n:root{\n  --bg:#f4efe6;\n  --ink:#111;\n  --accent:#b72121;\n  --muted:#6b635a;\n}\n*{box-sizing:border-box}\nhtml,body{margin:0;height:100%;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink)}\nbody{display:flex;flex-direction:column}\nheader{padding:16px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(17,17,17,.08)}\nh1{font-size:22px;margin:0;letter-spacing:.02em}\nsmall{color:var(--muted)}\nmain{flex:1;display:grid;place-items:center;padding:18px}\n.stage{position:relative;width:min(900px,92vw);height:min(540px,70vh);background:#fff;overflow:hidden;border-radius:24px;box-shadow:0 16px 60px rgba(0,0,0,.12)}\n.overlay{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}\n.badge{position:absolute;left:16px;bottom:16px;background:rgba(255,255,255,.82);backdrop-filter: blur(8px);border:1px solid rgba(0,0,0,.08);padding:8px 12px;border-radius:999px;font-size:13px}\nbutton{appearance:none;border:0;border-radius:999px;background:var(--ink);color:white;padding:10px 14px;font-weight:600;cursor:pointer}\nbutton.secondary{background:#e7dfd3;color:var(--ink)}\n.controls{display:flex;gap:10px;align-items:center}\n.msg{position:absolute;top:16px;left:50%;transform:translateX(-50%);padding:10px 14px;background:rgba(255,255,255,.9);border-radius:999px;border:1px solid rgba(0,0,0,.08);font-weight:600}\nsvg{display:block;width:100%;height:100%}\na{color:inherit}\n\n    html,body{height:100%;margin:0;overflow:hidden}\n    body{display:block;background:var(--bg);touch-action:none}\n    header{display:none !important}\n    main{display:block !important;padding:0 !important;height:100%}\n    .stage{width:100% !important;height:100% !important;border-radius:18px !important;box-shadow:none !important;background:#fff !important}\n    .badge{display:none !important}\n    \n</style>\n</head>\n<body>\n<main style=\"height:100%\"><div class=\"stage\" id=\"stage\">\n    <div class=\"msg\" id=\"status\">Bereit</div>\n    <svg id=\"scene\" viewBox=\"0 0 900 540\" preserveAspectRatio=\"xMidYMid meet\"></svg>\n    <div class=\"badge\">5–20 Sek. Microgame</div>\n  </div></main>\n<script>\nconst $ = s => document.querySelector(s);\nconst stage = $('.stage');\nconst svg = $('#scene');\nconst statusEl = $('#status');\nfunction setStatus(t){ if(statusEl) statusEl.textContent=t; }\nfunction rand(a,b){ return Math.random()*(b-a)+a; }\nfunction clamp(v,a,b){ return Math.max(a,Math.min(b,v)); }\nfunction dist(ax,ay,bx,by){ return Math.hypot(ax-bx, ay-by); }\nfunction celebrate(text='Gut'){ \n  setStatus(text);\n  stage.animate([{transform:'scale(1)'},{transform:'scale(1.006)'},{transform:'scale(1)'}],{duration:240});\n}\n\n\nsvg.innerHTML=`<rect width=\"900\" height=\"540\" fill=\"#f4efe6\"/>\n<path d=\"M450 90 C370 90 330 170 330 250 C330 350 390 430 450 430\" fill=\"#111\"/>\n<path id=\"rightHalf\" d=\"M450 90 C530 90 570 170 570 250 C570 350 510 430 450 430\" fill=\"#b72121\" transform=\"translate(40 0)\"/>`;\nconst rh=document.getElementById('rightHalf'); let active=false,start=0,orig=40;\nsetStatus('Ziehe die rechte Hälfte exakt heran');\nstage.onpointerdown=e=>{const r=svg.getBoundingClientRect(); start=(e.clientX-r.left)/r.width*900; active=true;}\nstage.onpointermove=e=>{if(!active)return; const r=svg.getBoundingClientRect(); const x=(e.clientX-r.left)/r.width*900; let tx=clamp(orig + (x-start), -5, 60); rh.setAttribute('transform',`translate(${tx} 0)`); rh._tx=tx; }\nstage.onpointerup=()=>{active=false; const good=Math.abs((rh._tx||40))<6; celebrate(good?'Gesicht synchronisiert':'Noch nicht deckungsgleich');}\n\n    ;(function(){\n      try{\n        const _celebrate = (typeof celebrate === 'function') ? celebrate : null;\n        if (!_celebrate) return;\n        celebrate = function(text){\n          _celebrate(text);\n          if (window.__smash_done) return;\n          window.__smash_done = true;\n          try { parent.postMessage({type:'smash_done', id:\"sync_the_split\", token:'__SMASH_TOKEN__', text:String(text||'') }, '*'); } catch(e) {}\n        };\n      } catch(e) {}\n    })();\n    \n</script>\n</body>\n</html>", "group": "Pack", "type": "iframe", "adultOnly": false}];
+
+  const CORE_GAMES = [
+    {
+      id: "mash_the_button",
+      title: "Mash the Button",
+      blurb: "Drück wie ein Wahnsinniger. Hauptsache: Bewegung.",
+      prompt: "MASH!",
+      group: "Core",
+      adultOnly: false,
+      type: "core",
+      render: (api) => renderMash(api, { label: "MASH", taps: 14 })
+    },
+    {
+      id: "swipe_the_scratch",
+      title: "Swipe the Scratch",
+      blurb: "Ein einziger Wisch. Kratz die Blockade weg.",
+      prompt: "SWIPE!",
+      group: "Core",
+      adultOnly: false,
+      type: "core",
+      render: (api) => renderSwipeCheckpoints(api)
+    },
+    {
+      id: "pull_the_handle",
+      title: "Pull the Handle",
+      blurb: "Zieh den Hebel. Spannung raus, Linie rein.",
+      prompt: "PULL!",
+      group: "Core",
+      adultOnly: false,
+      type: "core",
+      render: (api) => renderPull(api)
+    },
+    {
+      id: "censor_the_silhouette",
+      title: "Censor the Silhouette (18+)",
+      blurb: "Zieh den Balken drüber. Wir sind schließlich zivilisiert. (Haha.)",
+      prompt: "CENSOR!",
+      group: "18+",
+      adultOnly: true,
+      type: "core",
+      render: (api) => renderCensor(api)
+    },
+    {
+      id: "zombie_shove",
+      title: "Zombie Shove (18+)",
+      blurb: "Mash, bevor der Zombie dir ins Manuskript sabbert.",
+      prompt: "SHOVE!",
+      group: "18+",
+      adultOnly: true,
+      type: "core",
+      render: (api) => renderMash(api, { label: "SHOVE", taps: 18, zombie: true })
+    },
+  ];
+
+  const ALL_GAMES = [
+    ...CORE_GAMES,
+    ...PACK_GAMES.map(g => ({ ...g, group: "Pack", type: "iframe", adultOnly: false, render: (api) => renderPack(api, g) })),
+  ];
+
+  const state = {
+    mode: "home",
+    streak: 0,
+    miss: 0,
+    bestStreak: 0,
+    baseLimitMs: 6500,
+    limitMs: 6500,
+    current: null,
+    locked: false,
+    timer: null,
+    tick: null,
+    autoNext: null,
+    lastNudge: "",
+    roundToken: "",
+    filter: "All",
+    q: "",
+    adult: false,
+  };
+
+  function randToken(){ return Math.random().toString(16).slice(2) + Math.random().toString(16).slice(2); }
+  function vibrate(ms=12){ try{ if (navigator.vibrate) navigator.vibrate(ms); }catch(_){} }
+  function clamp(v,a,b){ return Math.max(a, Math.min(b, v)); }
+  function pick(arr){ return arr[Math.floor(Math.random()*arr.length)]; }
+
+  const COPY = {
+    safe: {
+      tagline: "WarioWare‑like Microgames → Schreib‑Momentum (kein Wörter‑Antippen)",
+      okLines: ["BÄM.", "ZACK.", "LÄUFT.", "SAUBER."],
+      missLines: ["UFF.", "NOPE.", "DANEBEN.", "EGAL."],
+      okSubs: ["Weiter im Text.", "Keine Diskussion. Weiterziehen.", "Momentum > Magie."],
+      missSubs: ["Kein Drama. Weiter.", "Nicht grübeln. Nächster.", "Weiter, du Maschine."],
+      nudges: [
+        "Schreib jetzt einen einzigen Satz. Nicht schön. Nur da.",
+        "Schreib einen Satz, der mit „Jedenfalls…“ anfängt.",
+        "Schreib einen Satz, der die Richtung hält.",
+        "Schreib den nächsten Satz kürzer."
+      ],
+      timeoutNudges: [
+        "Zu langsam? Egal. Schreib JETZT einen Minisatz.",
+        "Timer killt dich? Schreib „Also…“ und weiter.",
+        "Schreib eine simple Aussage. Keine Show."
+      ]
+    },
+    adult: {
+      tagline: "18+ Mode: frech, erotisch, rabenschwarz. Cartoon‑Splatter.",
+      okLines: ["HEILIGES BLECH.", "UNVERSCHÄMT GUT.", "SAUBERER SCHMUTZ.", "BÖSE GUT."],
+      missLines: ["AU.", "VERPATZT.", "DAS WAR’S NICHT.", "LOL. NEIN."],
+      okSubs: ["Weiter. Wie ein Graf im Skandal.", "Nimm den Schwung – keine Ausreden.", "Nicht polieren. Durchziehen."],
+      missSubs: ["Rabenschwarz lachen, weitergehen.", "Keine Buße. Nächster.", "Zombies warten nicht."],
+      nudges: [
+        "Schreib einen Satz mit einem schamlosen Unterton. Kurz. Kein Erklär‑Gerede.",
+        "Schreib einen Satz als Seitenhieb. Giftig, elegant.",
+        "Schreib einen Satz, der nach Gefahr riecht – ohne Details.",
+        "Schreib einen Satz, der flüstert statt schreit."
+      ],
+      timeoutNudges: [
+        "Zu langsam – jetzt ein Satz. Scheißegal wie.",
+        "Timer? Schreib „Trotzdem…“ und weiter.",
+        "Schreib einen Satz, bevor der Zombie sabbert."
+      ]
+    }
+  };
+
+  function save(){
+    try{
+      localStorage.setItem("smash_wario_pack18", JSON.stringify({
+        bestStreak: state.bestStreak,
+        adult: state.adult
+      }));
+    } catch(_){}
+  }
+  function load(){
+    try{
+      const v = JSON.parse(localStorage.getItem("smash_wario_pack18") || "{}");
+      if (typeof v.bestStreak === "number") state.bestStreak = v.bestStreak;
+      if (typeof v.adult === "boolean") state.adult = v.adult;
+    } catch(_){}
+  }
+
+  function setTagline(){
+    document.getElementById("tagline").textContent = state.adult ? COPY.adult.tagline : COPY.safe.tagline;
+    document.getElementById("btn-18").classList.toggle("on", state.adult);
+  }
+
+  function setHeader(title, sub){
+    document.getElementById("h1").textContent = title;
+    document.getElementById("hsub").textContent = sub;
+    document.getElementById("pill-mode").textContent = "Modus: " + (state.mode === "run" ? "Run" : state.mode === "practice" ? "Üben" : "Home");
+    document.getElementById("pill-streak").textContent = "Streak: " + state.streak + " (Best: " + state.bestStreak + ")";
+    document.getElementById("pill-streak").className = "pill " + (state.streak ? "good" : "");
+    document.getElementById("pill-miss").textContent = "Miss: " + state.miss;
+    document.getElementById("pill-miss").className = "pill " + (state.miss ? "bad" : "");
+  }
+
+  function clearContent(){
+    const c = document.getElementById("content");
+    c.innerHTML = "";
+    c.scrollTop = 0;
+  }
+
+  function stopTimers(){
+    if (state.timer) { clearTimeout(state.timer); state.timer = null; }
+    if (state.tick) { clearInterval(state.tick); state.tick = null; }
+    if (state.autoNext) { clearTimeout(state.autoNext); state.autoNext = null; }
+  }
+
+  function filteredGames(){
+    const q = (state.q || "").trim().toLowerCase();
+    return ALL_GAMES.filter(g => {
+      if (g.adultOnly && !state.adult) return false;
+      if (state.filter !== "All" && g.group !== state.filter) return false;
+      if (!q) return true;
+      return (g.title + " " + (g.blurb || "")).toLowerCase().includes(q);
+    });
+  }
+
+  function renderHome(){
+    stopTimers();
+    state.mode = "home";
+    clearContent();
+    setTagline();
+    setHeader("Home", state.adult ? "Ein Move. Zack. Dann schreibst du weiter, du sündiges Genie." : "Ein Move. Zack. Nächster Satz wird leichter.");
+
+    const c = document.getElementById("content");
+
+    const intro = document.createElement("div");
+    intro.className = "card";
+    intro.innerHTML = `
+      <div class="row">
+        <div style="min-width:0;">
+          <h2>Was ist das?</h2>
+          <p>WarioWare‑artige Mini‑Runden. 5–7 Sekunden. Ein Move: swipe / drag / mash. Danach: <strong>ein Satz</strong> schreiben.</p>
+        </div>
+        <div class="pill good">6s</div>
+      </div>
+      <div class="divider"></div>
+      <div style="display:flex; gap:10px; flex-wrap:wrap;">
+        <button class="btn primary" id="home-run" style="height:56px;flex:1 1 180px;justify-content:center;">Run starten</button>
+        <button class="btn" id="home-practice" style="height:56px;flex:1 1 180px;justify-content:center;">Üben</button>
+      </div>
+      <div style="font-size:11px;color:var(--muted);line-height:1.35;font-weight:900;">
+        Nach 3 Spielen: <strong>2 räudige Sätze</strong>. Keine Perfektion. Nur Vorwärts.
+      </div>
+    `;
+    c.appendChild(intro);
+
+    const pool = document.createElement("div");
+    pool.className = "card";
+    pool.innerHTML = `
+      <div class="row">
+        <div style="min-width:0;">
+          <h2>Game Pool</h2>
+          <p><strong>${filteredGames().length}</strong> Microgames aktiv. Pack: ${PACK_GAMES.length} • Core: 3 • 18+: ${state.adult ? 2 : "aus"}</p>
+        </div>
+        <div class="pill">Pool</div>
+      </div>
+      <div class="divider"></div>
+      <div style="display:flex; gap:8px; flex-wrap:wrap;">
+        <span class="pill">Kein Wörter‑Antippen</span>
+        <span class="pill">Swipe / Drag / Mash</span>
+        <span class="pill">${state.adult ? "18+ an" : "18+ optional"}</span>
+      </div>
+    `;
+    c.appendChild(pool);
+
+    document.getElementById("home-run").addEventListener("click", startRun);
+    document.getElementById("home-practice").addEventListener("click", renderPractice);
+  }
+
+  function renderPractice(){
+    stopTimers();
+    state.mode = "practice";
+    clearContent();
+    setTagline();
+    setHeader("Üben", "Pick a game. Kein Timer‑Stress. (Run ist der Wahnsinn.)");
+
+    const c = document.getElementById("content");
+
+    const search = document.createElement("div");
+    search.className = "search";
+    search.innerHTML = `<span style="font-weight:1000;">🔎</span><input id="q" type="search" placeholder="Suchen… (z.B. pull, split, exit)" />`;
+    c.appendChild(search);
+    const qEl = document.getElementById("q");
+    qEl.value = state.q || "";
+    qEl.addEventListener("input", () => {
+      state.q = qEl.value;
+      renderPractice();
+    });
+
+    const filters = document.createElement("div");
+    filters.className = "filters";
+    const filterButtons = ["All", "Core", "Pack"].concat(state.adult ? ["18+"] : []);
+    for (const f of filterButtons){
+      const b = document.createElement("button");
+      b.className = "chipf " + (state.filter === f ? "on" : "");
+      b.textContent = f;
+      b.addEventListener("click", () => {
+        state.filter = f;
+        renderPractice();
+      });
+      filters.appendChild(b);
+    }
+    c.appendChild(filters);
+
+    const list = filteredGames();
+    if (!list.length){
+      const empty = document.createElement("div");
+      empty.className = "card";
+      empty.innerHTML = `<h2>Keine Treffer</h2><p>Try weniger Filter. Oder 18+ anschalten.</p>`;
+      c.appendChild(empty);
+      return;
+    }
+
+    for (const g of list){
+      const card = document.createElement("div");
+      card.className = "card click";
+      card.innerHTML = `
+        <div class="row">
+          <div style="min-width:0;">
+            <h2>${escapeHtml(g.title)}</h2>
+            <p>${escapeHtml(g.blurb || "")}</p>
+          </div>
+          <div class="pill good">${escapeHtml(g.group)}</div>
+        </div>
+      `;
+      card.addEventListener("click", () => startRound({ forced: g }));
+      c.appendChild(card);
+    }
+  }
+
+  function startRun(){
+    stopTimers();
+    state.mode = "run";
+    state.streak = 0;
+    state.miss = 0;
+    state.limitMs = state.baseLimitMs;
+    setTagline();
+    setHeader("Run", state.adult ? "6 Sekunden. Ein Move. Rabenschwarz. Los." : "6 Sekunden. Ein Move. Los.");
+    startRound({ forced: null });
+  }
+
+  function startRound({ forced }){
+    stopTimers();
+    state.locked = false;
+    state.roundToken = randToken();
+
+    const pool = filteredGames();
+    const safeFallback = ALL_GAMES.filter(g => !g.adultOnly);
+    const game = forced || pick(pool.length ? pool : safeFallback);
+    state.current = game;
+
+    clearContent();
+    setHeader(game.title, game.blurb || "");
+
+    const stage = document.createElement("div");
+    stage.className = "stage";
+    stage.innerHTML = `
+      <div class="hud">
+        <div class="prompt" id="prompt">${escapeHtml(game.prompt || "GO!")}</div>
+        <div class="bar" aria-label="Timer"><div id="barFill"></div></div>
+      </div>
+      <div class="arena" id="arena" aria-label="Arena"></div>
+    `;
+    document.getElementById("content").appendChild(stage);
+
+    const arena = document.getElementById("arena");
+    const barFill = document.getElementById("barFill");
+
+    const api = {
+      arena,
+      mode: state.mode,
+      token: state.roundToken,
+      adult: state.adult,
+      ok: (nudge, extra) => resolveRound({ ok: true, nudge, extra }),
+      miss: (nudge, extra) => resolveRound({ ok: false, nudge, extra }),
+      prompt: (t) => { document.getElementById("prompt").textContent = t; },
+      vibrate,
+      banner: (t) => flashBanner(t),
+    };
+
+    game.render(api);
+
+    if (state.mode === "run"){
+      startTimer(barFill, state.limitMs, () => resolveRound({
+        ok: false,
+        nudge: pick((state.adult ? COPY.adult.timeoutNudges : COPY.safe.timeoutNudges)),
+        extra: state.adult ? "Zeit weg. Zombie lacht." : "Zeit weg. Zack, nächstes!"
+      }));
+    } else {
+      startTimer(barFill, state.baseLimitMs, () => {});
+    }
+  }
+
+  function startTimer(barFill, durationMs, onTimeout){
+    const start = performance.now();
+    const tickMs = 30;
+
+    state.tick = setInterval(() => {
+      const t = performance.now() - start;
+      const p = clamp(1 - (t / durationMs), 0, 1);
+      barFill.style.transform = `scaleX(${p})`;
+    }, tickMs);
+
+    state.timer = setTimeout(() => {
+      stopTimers();
+      onTimeout();
+    }, durationMs);
+  }
+
+  function flashBanner(text){
+    const stage = document.querySelector(".stage");
+    if (!stage) return;
+    const b = document.createElement("div");
+    b.className = "banner";
+    b.innerHTML = `<div class="txt">${escapeHtml(text)}</div>`;
+    stage.appendChild(b);
+    setTimeout(() => b.remove(), 520);
+  }
+
+  function resolveRound({ ok, nudge, extra }){
+    if (state.locked) return;
+    state.locked = true;
+    stopTimers();
+
+    const copy = state.adult ? COPY.adult : COPY.safe;
+
+    if (ok){
+      const prev = state.limitMs;
+      state.streak += 1;
+      state.bestStreak = Math.max(state.bestStreak, state.streak);
+      state.limitMs = clamp(state.baseLimitMs - state.streak * 260, 3000, state.baseLimitMs);
+      save();
+      vibrate(18);
+      if (state.mode === "run" && state.limitMs < prev && state.streak % 3 === 0){
+        flashBanner("SPEED UP!");
+      }
+    } else {
+      state.miss += 1;
+      state.streak = 0;
+      state.limitMs = state.baseLimitMs;
+      vibrate(26);
+    }
+
+    state.lastNudge = nudge || pick(copy.nudges);
+
+    const stage = document.querySelector(".stage");
+    const overlay = document.createElement("div");
+    overlay.className = "overlay show";
+    overlay.innerHTML = `
+      <div class="sheet" role="dialog" aria-modal="true">
+        <div class="headline">
+          <div style="display:flex;flex-direction:column;gap:4px;min-width:0;">
+            <h3>${ok ? pick(copy.okLines) : pick(copy.missLines)}</h3>
+            <p>${escapeHtml(extra || (ok ? pick(copy.okSubs) : pick(copy.missSubs)))}</p>
+          </div>
+          <div class="badgeCircle ${ok ? "ok" : "miss"}">${ok ? "✓" : "×"}</div>
+        </div>
+        <div class="nudge">${escapeHtml(state.lastNudge)}</div>
+        <div class="actions">
+          <button class="btn" id="copy" style="height:56px;justify-content:center;">Copy Nudge</button>
+          <button class="btn primary" id="next" style="height:56px;justify-content:center;">Weiter</button>
+        </div>
+        <div class="micro">
+          <span>${escapeHtml(ok ? (state.adult ? "Jetzt ein Satz. Kein Entschärfen." : "Jetzt ein Satz. Nicht hübsch – nur weiter.") : (state.adult ? "Weiter. Wie im schlechten Film." : "Kein Drama. Weiter."))}</span>
+          <span>1 Move • 5–7s • no word tapping</span>
+        </div>
+      </div>
+    `;
+    stage.appendChild(overlay);
+
+    overlay.querySelector("#next").addEventListener("click", () => {
+      overlay.remove();
+      if (state.mode === "run"){
+        if (state.miss >= 3) {
+          renderRunEnd();
+        } else {
+          startRound({ forced: null });
+        }
+      } else {
+        startRound({ forced: state.current });
+      }
+    });
+
+    overlay.querySelector("#copy").addEventListener("click", async () => {
+      try{
+        await navigator.clipboard.writeText(state.lastNudge);
+        vibrate(10);
+        overlay.querySelector("#copy").textContent = "Copied ✓";
+        setTimeout(() => overlay.querySelector("#copy").textContent = "Copy Nudge", 900);
+      } catch(_){
+        overlay.querySelector("#copy").textContent = "Copy geht hier nicht";
+        setTimeout(() => overlay.querySelector("#copy").textContent = "Copy Nudge", 900);
+      }
+    });
+
+    if (state.mode === "run"){
+      state.autoNext = setTimeout(() => {
+        if (overlay.isConnected) overlay.querySelector("#next").click();
+      }, 750);
+    }
+
+    setHeader(state.current?.title || "Run", ok ? (state.adult ? "OK. Weiter, Sünder." : "OK. Weiter im Text.") : (state.adult ? "Miss. Egal. Zombies warten." : "Miss. Egal. Weiter."));
+  }
+
+  function renderRunEnd(){
+    stopTimers();
+    clearContent();
+    setTagline();
+    setHeader("Run fertig", state.adult ? "3 Misses. Du lebst. (Leider.)" : "3 Misses. Du hast's überlebt.");
+
+    const c = document.getElementById("content");
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+      <div class="row">
+        <div style="min-width:0;">
+          <h2>Re‑Entry (jetzt schreiben)</h2>
+          <p>Kein Feilschen: <strong>2 räudige Sätze</strong>. Danach darfst du wieder polieren.</p>
+        </div>
+        <div class="pill good">Go</div>
+      </div>
+      <div class="divider"></div>
+      <div class="nudge">
+        1) Schreib einen Satz, der nur "so" tut als wäre er okay.<br/>
+        2) Schreib den nächsten Satz, der ihn weiterzieht.
+      </div>
+      <div style="display:flex; gap:10px; flex-wrap:wrap;">
+        <button class="btn primary" id="again" style="height:56px;flex:1 1 180px;justify-content:center;">Nochmal Run</button>
+        <button class="btn" id="home2" style="height:56px;flex:1 1 180px;justify-content:center;">Home</button>
+      </div>
+      <div style="font-size:11px;color:var(--muted);line-height:1.35;font-weight:900;">
+        Best Streak: <strong>${state.bestStreak}</strong>
+      </div>
+    `;
+    c.appendChild(card);
+    card.querySelector("#again").addEventListener("click", startRun);
+    card.querySelector("#home2").addEventListener("click", renderHome);
+  }
+
+  function renderPack(api, game){
+    api.prompt(game.prompt || "GO!");
+
+    const iframe = document.createElement("iframe");
+    iframe.style.position = "absolute";
+    iframe.style.inset = "0";
+    iframe.style.width = "100%";
+    iframe.style.height = "100%";
+    iframe.style.border = "0";
+    iframe.style.background = "transparent";
+    iframe.setAttribute("sandbox", "allow-scripts allow-same-origin");
+    iframe.setAttribute("title", game.title);
+
+    iframe.srcdoc = String(game.srcdoc || "").replaceAll("__SMASH_TOKEN__", api.token);
+    api.arena.appendChild(iframe);
+
+    const onMsg = (e) => {
+      const d = e.data || {};
+      if (d.type !== "smash_done") return;
+      if (d.token !== api.token) return;
+      const text = String(d.text || "");
+      const bad = /(falsch|zu\s*spät|daneben|nein|miss|fail|zu\s*langsam|verloren)/i.test(text);
+      window.removeEventListener("message", onMsg);
+      if (bad){
+        api.miss(api.adult ? "Schreib trotzdem einen Satz. Schwarz, kurz, weiter." : "Schreib trotzdem einen Satz. Weiter.", text || "Nope.");
+      } else {
+        api.ok(api.adult ? "Schreib einen Satz mit Unterton. Kurz." : "Schreib einen Satz. Kurz. Weiter.", text || "OK.");
+      }
+    };
+    window.addEventListener("message", onMsg);
+  }
+
+  /* Core games (gesture-only) */
+
+  function svgEl(tag, attrs={}){
+    const el = document.createElementNS("http://www.w3.org/2000/svg", tag);
+    for (const [k,v] of Object.entries(attrs)) el.setAttribute(k, String(v));
+    return el;
+  }
+
+  function renderMash(api, opts){
+    const tapsNeeded = opts?.taps ?? 14;
+    let taps = 0;
+    let done = false;
+
+    const wrap = document.createElement("div");
+    wrap.style.position = "absolute";
+    wrap.style.inset = "0";
+    wrap.style.display = "grid";
+    wrap.style.placeItems = "center";
+    wrap.style.userSelect = "none";
+    api.arena.appendChild(wrap);
+
+    const svg = svgEl("svg", { viewBox:"0 0 900 540", width:"100%", height:"100%", preserveAspectRatio:"xMidYMid slice" });
+    svg.appendChild(svgEl("rect", { x:0, y:0, width:900, height:540, fill:"#f2f0e8" }));
+    svg.appendChild(svgEl("polygon", { points:"0,0 900,0 900,380 0,260", fill:"#00c0c0" }));
+    svg.appendChild(svgEl("polygon", { points:"0,330 900,210 900,260 0,380", fill:"#e01020" }));
+
+    const btn = svgEl("circle", { cx:450, cy:340, r:110, fill:"#ffffff", stroke:"#000030", "stroke-width":10 });
+    const inner = svgEl("circle", { cx:450, cy:340, r:84, fill:"#e01020", stroke:"#000030", "stroke-width":10 });
+    const txt = svgEl("text", {
+      x:450, y:353, "text-anchor":"middle",
+      "font-family":"Bebas Neue, Inter, system-ui",
+      "font-size":54,
+      "letter-spacing":"0.18em",
+      "fill":"#ffffff"
+    });
+    txt.textContent = opts?.label || "MASH";
+
+    const gaugeBg = svgEl("rect", { x:200, y:100, width:500, height:30, rx:15, fill:"#ffffff", stroke:"#000030", "stroke-width":8 });
+    const gauge = svgEl("rect", { x:204, y:104, width:0, height:22, rx:11, fill:"#e01020" });
+
+    svg.appendChild(gaugeBg);
+    svg.appendChild(gauge);
+    svg.appendChild(btn);
+    svg.appendChild(inner);
+    svg.appendChild(txt);
+
+    if (opts?.zombie){
+      const z = svgEl("g", { opacity:"0.95" });
+      z.appendChild(svgEl("circle", { cx:160, cy:410, r:70, fill:"#0b6a60" }));
+      z.appendChild(svgEl("circle", { cx:130, cy:390, r:10, fill:"#000030" }));
+      z.appendChild(svgEl("circle", { cx:190, cy:390, r:10, fill:"#000030" }));
+      z.appendChild(svgEl("rect", { x:120, y:430, width:80, height:28, rx:14, fill:"#ffffff", stroke:"#000030", "stroke-width":8 }));
+      svg.appendChild(z);
+    }
+
+    wrap.appendChild(svg);
+
+    function punch(){
+      svg.animate([{ transform:"scale(1)" },{ transform:"scale(1.01)" },{ transform:"scale(1)" }], { duration: 120 });
+    }
+
+    const hit = () => {
+      if (done) return;
+      taps += 1;
+      const p = Math.min(1, taps / tapsNeeded);
+      gauge.setAttribute("width", String(Math.round(492 * p)));
+      punch();
+      api.vibrate(8);
+
+      if (p >= 1){
+        done = true;
+        api.ok(api.adult ? "Jetzt: ein Satz. Schmutzig gut, aber nicht erklären." : "Jetzt: ein Satz. Nicht hübsch. Nur weiter.", "Druck aufgebaut.");
+      }
+    };
+
+    api.arena.addEventListener("pointerdown", hit, { passive: true });
+  }
+
+  function renderSwipeCheckpoints(api){
+    let done = false;
+    const checkpoints = [
+      { x: 150, y: 360 },
+      { x: 260, y: 300 },
+      { x: 370, y: 250 },
+      { x: 480, y: 210 },
+      { x: 600, y: 190 },
+      { x: 720, y: 170 },
+    ];
+    let idx = 0;
+
+    const svg = svgEl("svg", { viewBox:"0 0 900 540", width:"100%", height:"100%", preserveAspectRatio:"xMidYMid slice" });
+    svg.appendChild(svgEl("rect", { x:0, y:0, width:900, height:540, fill:"#f2f0e8" }));
+    svg.appendChild(svgEl("polygon", { points:"0,540 0,0 900,0 900,220", fill:"#00c0c0" }));
+    svg.appendChild(svgEl("path", { d:"M80 420 C 220 260, 380 240, 520 200 C 650 165, 740 150, 820 120", fill:"none", stroke:"#000030", "stroke-width":18, "stroke-linecap":"round" }));
+
+    const dots = checkpoints.map(c => {
+      const g = svgEl("circle", { cx:c.x, cy:c.y, r:18, fill:"#ffffff", stroke:"#000030", "stroke-width":8 });
+      svg.appendChild(g);
+      return g;
+    });
+
+    const trail = svgEl("path", { d:"", fill:"none", stroke:"#e01020", "stroke-width":14, "stroke-linecap":"round", "stroke-linejoin":"round" });
+    svg.appendChild(trail);
+
+    api.arena.appendChild(svg);
+
+    const pts = [];
+    function addPoint(x,y){
+      pts.push([x,y]);
+      if (pts.length > 60) pts.shift();
+      trail.setAttribute("d", "M " + pts.map(p => p[0].toFixed(1)+","+p[1].toFixed(1)).join(" L "));
+    }
+
+    function toSvgPoint(e){
+      const r = api.arena.getBoundingClientRect();
+      const x = (e.clientX - r.left) / r.width * 900;
+      const y = (e.clientY - r.top) / r.height * 540;
+      return { x, y };
+    }
+
+    function checkHit(x,y){
+      const c = checkpoints[idx];
+      const dx = x - c.x;
+      const dy = y - c.y;
+      if ((dx*dx + dy*dy) <= 40*40){
+        dots[idx].setAttribute("fill", "#e01020");
+        idx += 1;
+        api.vibrate(10);
+        if (idx >= checkpoints.length){
+          done = true;
+          api.ok(api.adult ? "Schreib einen Satz, der wie ein Schnitt wirkt. Kurz. Fies." : "Schreib einen Satz, der die Linie weiterzieht.", "Wisch sitzt.");
+        }
+      }
+    }
+
+    let active = false;
+    api.arena.addEventListener("pointerdown", (e) => {
+      if (done) return;
+      active = true;
+      pts.length = 0;
+      idx = 0;
+      dots.forEach(d => d.setAttribute("fill", "#ffffff"));
+      api.arena.setPointerCapture(e.pointerId);
+      const p = toSvgPoint(e);
+      addPoint(p.x,p.y);
+      checkHit(p.x,p.y);
+    });
+
+    api.arena.addEventListener("pointermove", (e) => {
+      if (!active || done) return;
+      const p = toSvgPoint(e);
+      addPoint(p.x,p.y);
+      checkHit(p.x,p.y);
+    });
+
+    api.arena.addEventListener("pointerup", () => { active = false; });
+    api.arena.addEventListener("pointercancel", () => { active = false; });
+  }
+
+  function renderPull(api){
+    let done = false;
+
+    const svg = svgEl("svg", { viewBox:"0 0 900 540", width:"100%", height:"100%", preserveAspectRatio:"xMidYMid slice" });
+    svg.appendChild(svgEl("rect", { x:0, y:0, width:900, height:540, fill:"#f2f0e8" }));
+    svg.appendChild(svgEl("rect", { x:0, y:0, width:900, height:200, fill:"#00c0c0" }));
+    svg.appendChild(svgEl("polygon", { points:"0,200 900,200 900,260 0,340", fill:"#e01020" }));
+
+    const track = svgEl("rect", { x:140, y:360, width:620, height:34, rx:17, fill:"#ffffff", stroke:"#000030", "stroke-width":10 });
+    const line = svgEl("rect", { x:146, y:366, width:0, height:22, rx:11, fill:"#00c0c0" });
+    const handle = svgEl("circle", { cx:160, cy:377, r:34, fill:"#e01020", stroke:"#000030", "stroke-width":10 });
+
+    svg.appendChild(track);
+    svg.appendChild(line);
+    svg.appendChild(handle);
+
+    api.arena.appendChild(svg);
+
+    let isDown = false;
+    let startX = 0;
+    let startCx = 160;
+
+    function setPos(cx){
+      const min = 160;
+      const max = 740;
+      const clamped = Math.max(min, Math.min(max, cx));
+      handle.setAttribute("cx", String(clamped));
+      line.setAttribute("width", String(Math.round((clamped - min) - 4)));
+      if (!done && clamped >= 700){
+        done = true;
+        api.ok(api.adult ? "Schreib einen Satz, der die Spannung entlädt. Keine Details." : "Schreib einen Satz, der die Spannung rausnimmt.", "Zug sitzt.");
+      }
+    }
+
+    api.arena.addEventListener("pointerdown", (e) => {
+      if (done) return;
+      isDown = true;
+      startX = e.clientX;
+      startCx = parseFloat(handle.getAttribute("cx") || "160");
+      api.arena.setPointerCapture(e.pointerId);
+      api.vibrate(8);
+    });
+    api.arena.addEventListener("pointermove", (e) => {
+      if (!isDown || done) return;
+      const dx = e.clientX - startX;
+      const r = api.arena.getBoundingClientRect();
+      const scale = 900 / r.width;
+      setPos(startCx + dx * scale);
+    });
+    api.arena.addEventListener("pointerup", () => { isDown = false; });
+    api.arena.addEventListener("pointercancel", () => { isDown = false; });
+  }
+
+  function renderCensor(api){
+    let done = false;
+
+    const svg = svgEl("svg", { viewBox:"0 0 900 540", width:"100%", height:"100%", preserveAspectRatio:"xMidYMid slice" });
+    svg.appendChild(svgEl("rect", { x:0, y:0, width:900, height:540, fill:"#00c0c0" }));
+    svg.appendChild(svgEl("rect", { x:0, y:360, width:900, height:180, fill:"#000030" }));
+
+    const blob = svgEl("path", {
+      d:"M460 90 C 540 120, 600 180, 590 260 C 580 330, 520 360, 460 350 C 400 360, 330 330, 320 260 C 310 180, 380 110, 460 90 Z",
+      fill:"#f2f0e8"
+    });
+    svg.appendChild(blob);
+
+    const target = svgEl("rect", { x:300, y:220, width:320, height:90, rx:18, fill:"rgba(224,16,32,.22)", stroke:"#000030", "stroke-width":8, "stroke-dasharray":"12 10" });
+    svg.appendChild(target);
+
+    const bar = svgEl("rect", { x:60, y:420, width:340, height:70, rx:18, fill:"#000030", stroke:"#f2f0e8", "stroke-width":8 });
+    const label = svgEl("text", {
+      x:230, y:468, "text-anchor":"middle",
+      "font-family":"Bebas Neue, Inter, system-ui",
+      "font-size":38,
+      "letter-spacing":"0.14em",
+      "fill":"#f2f0e8"
+    });
+    label.textContent = "CENSORED";
+    svg.appendChild(bar);
+    svg.appendChild(label);
+
+    api.arena.appendChild(svg);
+
+    let isDown = false;
+    let sx = 0, sy = 0;
+    let ox = 60, oy = 420;
+
+    function setBar(x,y){
+      bar.setAttribute("x", String(x));
+      bar.setAttribute("y", String(y));
+      label.setAttribute("x", String(x + 170));
+      label.setAttribute("y", String(y + 48));
+    }
+
+    function hitTest(){
+      const bx = parseFloat(bar.getAttribute("x"));
+      const by = parseFloat(bar.getAttribute("y"));
+      const tx = 300, ty = 220, tw = 320, th = 90;
+      const cx = bx + 170, cy = by + 35;
+      return (cx >= tx && cx <= tx+tw && cy >= ty && cy <= ty+th);
+    }
+
+    api.arena.addEventListener("pointerdown", (e) => {
+      if (done) return;
+      isDown = true;
+      sx = e.clientX;
+      sy = e.clientY;
+      ox = parseFloat(bar.getAttribute("x"));
+      oy = parseFloat(bar.getAttribute("y"));
+      api.arena.setPointerCapture(e.pointerId);
+      api.vibrate(8);
+    });
+    api.arena.addEventListener("pointermove", (e) => {
+      if (!isDown || done) return;
+      const r = api.arena.getBoundingClientRect();
+      const dx = (e.clientX - sx) / r.width * 900;
+      const dy = (e.clientY - sy) / r.height * 540;
+      setBar(ox + dx, oy + dy);
+      if (hitTest() && !done){
+        done = true;
+        api.ok("Schreib einen Satz mit einem unanständigen Unterton. Keine Details.", "Zensur sitzt.");
+      }
+    });
+    api.arena.addEventListener("pointerup", () => { isDown = false; });
+    api.arena.addEventListener("pointercancel", () => { isDown = false; });
+  }
+
+  function escapeHtml(s){ return String(s).replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;" }[c])); }
+
+  /* 18+ toggle */
+
+  function open18Modal(){ document.getElementById("modal18").classList.add("show"); }
+  function close18Modal(){ document.getElementById("modal18").classList.remove("show"); }
+
+  document.getElementById("modal-cancel").addEventListener("click", close18Modal);
+  document.getElementById("modal18").addEventListener("click", (e) => { if (e.target === document.getElementById("modal18")) close18Modal(); });
+  document.getElementById("modal-confirm").addEventListener("click", () => {
+    state.adult = true;
+    save();
+    setTagline();
+    close18Modal();
+    renderHome();
+  });
+
+  document.getElementById("btn-18").addEventListener("click", () => {
+    if (state.adult){
+      state.adult = false;
+      save();
+      setTagline();
+      renderHome();
+    } else {
+      open18Modal();
+    }
+  });
+
+  /* Nav */
+  document.getElementById("btn-home").addEventListener("click", renderHome);
+  document.getElementById("btn-practice").addEventListener("click", renderPractice);
+  document.getElementById("btn-run").addEventListener("click", startRun);
+
+  load();
+  setTagline();
+  renderHome();
+})();
+</script>
+</body>
+</html>

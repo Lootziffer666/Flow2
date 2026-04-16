@@ -1,4 +1,4 @@
-"""SQLite helper and CLI for schema, seed, import, and stats."""
+"""SQLite helper and CLI for schema, seed, migrate, import, stats, and benchmark operations."""
 from __future__ import annotations
 import argparse
 import sqlite3
@@ -8,6 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SCHEMA_PATH = ROOT / "schema.sql"
 SEED_PATH = ROOT / "seed.sql"
+MIGRATIONS_DIR = ROOT / "migrations"
 DEFAULT_DB = ROOT / "corpus.db"
 
 # ── Connection ────────────────────────────────────────────────────────────────
@@ -34,6 +35,24 @@ def seed_db(db_path: str | Path = DEFAULT_DB) -> None:
         execute_script(con, SEED_PATH)
     print(f"[seed] schema + seed applied → {db_path}")
 
+def migrate_db(db_path: str | Path = DEFAULT_DB) -> None:
+    """Apply all SQL migration files from migrations/ in lexicographic order.
+
+    Migration files must be idempotent (use IF NOT EXISTS, INSERT OR IGNORE, etc.).
+    """
+    if not MIGRATIONS_DIR.exists():
+        print(f"[migrate] No migrations/ directory found at {MIGRATIONS_DIR}")
+        return
+    files = sorted(MIGRATIONS_DIR.glob("*.sql"))
+    if not files:
+        print("[migrate] No migration files found.")
+        return
+    with connect(db_path) as con:
+        for f in files:
+            execute_script(con, f)
+            print(f"[migrate] Applied → {f.name}")
+    print(f"[migrate] Done → {db_path}")
+
 def stats_db(db_path: str | Path = DEFAULT_DB) -> None:
     """Print row counts for every table and a few breakdown sub-queries."""
     tables = [
@@ -42,6 +61,7 @@ def stats_db(db_path: str | Path = DEFAULT_DB) -> None:
         "error_cases", "error_spans",
         "linguistic_features", "orthographic_feature_flags",
         "benchmark_collections", "benchmark_subsets", "corpus_profiles",
+        "benchmark_items",
     ]
     with connect(db_path) as con:
         print(f"\n── Stats: {db_path} ──")
@@ -100,6 +120,16 @@ def main() -> None:
     p_seed = sub.add_parser("seed", help="Apply schema and insert seed data")
     p_seed.add_argument("--db", default=str(DEFAULT_DB), metavar="PATH")
 
+    p_migrate = sub.add_parser("migrate", help="Apply SQL migrations from migrations/")
+    p_migrate.add_argument("--db", default=str(DEFAULT_DB), metavar="PATH")
+
+    p_bm = sub.add_parser("benchmark-seed", help="Apply benchmark seed SQL files")
+    p_bm.add_argument("--db", default=str(DEFAULT_DB), metavar="PATH")
+    p_bm.add_argument(
+        "--file", required=True, metavar="SQL",
+        help="Benchmark seed SQL file (e.g. benchmarks/seed_flow_core.sql)",
+    )
+
     p_imp = sub.add_parser("import", help="Import a CSV file")
     p_imp.add_argument("--db", default=str(DEFAULT_DB), metavar="PATH")
     p_imp.add_argument(
@@ -121,6 +151,16 @@ def main() -> None:
         init_db(args.db)
     elif args.cmd == "seed":
         seed_db(args.db)
+    elif args.cmd == "migrate":
+        migrate_db(args.db)
+    elif args.cmd == "benchmark-seed":
+        sql_path = Path(args.file)
+        if not sql_path.exists():
+            print(f"[error] File not found: {sql_path}", file=sys.stderr)
+            sys.exit(1)
+        with connect(args.db) as con:
+            execute_script(con, sql_path)
+        print(f"[benchmark-seed] Applied → {sql_path.name}")
     elif args.cmd == "stats":
         stats_db(args.db)
     elif args.cmd == "import":

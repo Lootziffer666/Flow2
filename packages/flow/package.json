@@ -7,8 +7,8 @@
     "flow": "src/loom_cli.js"
   },
   "scripts": {
-    "test": "node test/test_normalization.js && node test/test_scope_boundaries.js && node test/test_lexicon_fallback.js && node test/test_ui_integration.js && node test/test_flow_learning.js && node test/test_grammar_rules.js && node test/test_phonetic_similarity.js && node test/test_confidence_filter.js && node test/test_rules_debug.js && node test/test_random_lrs_batch.js && node test/test_lab_integration.js",
-    "test:unit": "node test/test_normalization.js && node test/test_ui_integration.js && node test/test_flow_learning.js",
+    "test": "node test/test_normalization.js && node test/test_conll_graph.js && node test/test_multi_pass_stability.js && node test/test_bond_drift_report.js && node test/test_scope_boundaries.js && node test/test_lexicon_fallback.js && node test/test_ui_integration.js && node test/test_flow_learning.js && node test/test_grammar_rules.js && node test/test_phonetic_similarity.js && node test/test_confidence_filter.js && node test/test_rules_debug.js && node test/test_random_lrs_batch.js && node test/test_lab_integration.js",
+    "test:unit": "node test/test_normalization.js && node test/test_conll_graph.js && node test/test_multi_pass_stability.js && node test/test_bond_drift_report.js && node test/test_ui_integration.js && node test/test_flow_learning.js",
     "test:rules": "node test/test_rules_debug.js",
     "test:lab": "node test/test_lab_integration.js",
     "test:batch": "node test/test_random_lrs_batch.js",

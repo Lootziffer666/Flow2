@@ -108,6 +108,8 @@ def evaluate(items: list[dict], predictions: list[dict]) -> dict:
     preserved_bindings = 0
     repairable_graphs = 0
     improved_graphs = 0
+    unchanged_second_pass = 0
+    total_cases = len(items)
 
     for item in items:
         item_id = item["id"]
@@ -174,6 +176,9 @@ def evaluate(items: list[dict], predictions: list[dict]) -> dict:
             repairable_graphs += 1
             if bool(meta.get("improved_graph", False)):
                 improved_graphs += 1
+        second_pass_prediction = meta.get("second_pass_prediction", prediction)
+        if second_pass_prediction == prediction:
+            unchanged_second_pass += 1
 
     precision = metric_div(tp, tp + fp)
     recall = metric_div(tp, tp + fn)
@@ -191,8 +196,9 @@ def evaluate(items: list[dict], predictions: list[dict]) -> dict:
         "private_metrics": {
             "node_preservation": metric_div(preserved_bindings, expected_bindings),
             "graph_repair_success": metric_div(improved_graphs, repairable_graphs),
+            "idempotence": metric_div(unchanged_second_pass, total_cases),
             "minimality": metric_div(tp, tp + fp),
-            "false_shift_rate": metric_div(wrong_target_hypotheses, len(items)),
+            "false_shift_rate": metric_div(wrong_target_hypotheses, total_cases),
         },
         "counts": {
             "items": len(items),
@@ -209,6 +215,7 @@ def evaluate(items: list[dict], predictions: list[dict]) -> dict:
             "preserved_bindings": preserved_bindings,
             "repairable_graphs": repairable_graphs,
             "improved_graphs": improved_graphs,
+            "unchanged_second_pass": unchanged_second_pass,
         },
     }
     return out

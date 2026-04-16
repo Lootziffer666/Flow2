@@ -30,7 +30,6 @@ SHIFT_REASONS = {
     "register_formalization",
 }
 
-
 @dataclass(frozen=True)
 class Edit:
     start: int
@@ -271,7 +270,7 @@ def evaluate(items: list[dict], predictions: list[dict]) -> dict:
             "f0_5": f05(precision, recall),
             "no_op_accuracy": metric_div(no_touch_unchanged, no_touch_total),
             "overcorrection_rate": metric_div(fp, all_pred_edits),
-            "sentence_exact_match": metric_div(sem_hits, len(items)),
+            "sentence_exact_match": metric_div(sem_hits, total_cases),
             "repair_rate": metric_div(repaired_cases, repairable_cases),
         },
         "private_metrics": {
@@ -282,7 +281,7 @@ def evaluate(items: list[dict], predictions: list[dict]) -> dict:
             "false_shift_rate": metric_div(wrong_target_hypotheses, total_cases),
         },
         "counts": {
-            "items": len(items),
+            "items": total_cases,
             "tp": tp,
             "fp": fp,
             "fn": fn,

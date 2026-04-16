@@ -10,6 +10,12 @@ const {
 } = require('./flowRulesStore');
 const { errorProfile } = require('@loot/loom');
 const { getCorpusPairFallback, getLexiconFallback } = require('./lexiconFallback');
+const {
+  parseConllu,
+  buildConllGraph,
+  buildConllGraphFromText,
+  compareBondIntegrity,
+} = require('./conllGraph');
 
 const EMPTY_RULE_HITS = Object.freeze({
   EN: 0,
@@ -64,10 +70,25 @@ function getLearnedReplacement(text, rules) {
   return null;
 }
 
+function buildOptionalConllGraph(options = {}) {
+  if (!options.includeConllGraph || !options.conllu) return null;
+  return buildConllGraph(parseConllu(options.conllu), options.conllGraphOptions || {});
+}
+
+function buildOptionalBondDriftReport(conllGraph, options = {}) {
+  if (!conllGraph || !options.bondBaselineConllu) return null;
+  const baseGraph = buildConllGraph(parseConllu(options.bondBaselineConllu), options.conllGraphOptions || {});
+  return compareBondIntegrity(baseGraph, conllGraph);
+}
+
 function runCorrection(text, langOrOptions) {
   const source = String(text ?? '');
   const options = asOptions(langOrOptions);
   const language = resolveLanguage(options);
+  // Relationship classification must happen on parsed CoNLL nodes
+  // before grammar/stage-specific rewrites so bonds remain stable.
+  const conllGraph = buildOptionalConllGraph(options);
+  const bondDriftReport = buildOptionalBondDriftReport(conllGraph, options);
 
   if (!source.trim()) {
     return {
@@ -76,6 +97,8 @@ function runCorrection(text, langOrOptions) {
       applied_learning: null,
       language,
       lang: language,
+      conll_graph: conllGraph,
+      bond_drift_report: bondDriftReport,
     };
   }
 
@@ -90,6 +113,8 @@ function runCorrection(text, langOrOptions) {
       applied_learning: learned.source,
       language,
       lang: language,
+      conll_graph: conllGraph,
+      bond_drift_report: bondDriftReport,
     };
   }
 
@@ -117,6 +142,8 @@ function runCorrection(text, langOrOptions) {
     language,
     lang: language,
     loom_signals: normalized.loom_signals || null,
+    conll_graph: conllGraph,
+    bond_drift_report: bondDriftReport,
   };
 }
 
@@ -148,5 +175,9 @@ module.exports = {
   resolveLanguage,
   resolveEnPreset,
   errorProfile,
+  parseConllu,
+  buildConllGraph,
+  buildConllGraphFromText,
+  compareBondIntegrity,
   EMPTY_RULE_HITS,
 };

@@ -10,6 +10,7 @@ const {
 } = require('./flowRulesStore');
 const { errorProfile } = require('@loot/loom');
 const { getCorpusPairFallback, getLexiconFallback } = require('./lexiconFallback');
+const { parseConllu, buildConllGraph, buildConllGraphFromText } = require('./conllGraph');
 
 const EMPTY_RULE_HITS = Object.freeze({
   EN: 0,
@@ -117,6 +118,13 @@ function runCorrection(text, langOrOptions) {
     language,
     lang: language,
     loom_signals: normalized.loom_signals || null,
+    conll_graph: options.includeConllGraph
+      ? (
+        options.conllu
+          ? buildConllGraph(parseConllu(options.conllu), options.conllGraphOptions || {})
+          : null
+      )
+      : null,
   };
 }
 
@@ -148,5 +156,8 @@ module.exports = {
   resolveLanguage,
   resolveEnPreset,
   errorProfile,
+  parseConllu,
+  buildConllGraph,
+  buildConllGraphFromText,
   EMPTY_RULE_HITS,
 };

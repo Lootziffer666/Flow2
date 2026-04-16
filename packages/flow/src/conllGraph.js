@@ -165,8 +165,48 @@ function buildConllGraphFromText(conlluText, options = {}) {
   return buildConllGraph(parseConllu(conlluText), options);
 }
 
+function compareBondIntegrity(baseGraph, nextGraph) {
+  const baseEdges = new Map((baseGraph?.edges || []).map((edge) => [edge.bond_id, edge]));
+  const nextEdges = new Map((nextGraph?.edges || []).map((edge) => [edge.bond_id, edge]));
+
+  const added = [];
+  const removed = [];
+  const changedWeight = [];
+
+  for (const [bondId, edge] of nextEdges.entries()) {
+    if (!baseEdges.has(bondId)) {
+      added.push(bondId);
+      continue;
+    }
+    const base = baseEdges.get(bondId);
+    if (base.weight !== edge.weight || base.occurrences !== edge.occurrences) {
+      changedWeight.push({
+        bond_id: bondId,
+        base_weight: base.weight,
+        next_weight: edge.weight,
+        base_occurrences: base.occurrences,
+        next_occurrences: edge.occurrences,
+      });
+    }
+  }
+
+  for (const bondId of baseEdges.keys()) {
+    if (!nextEdges.has(bondId)) removed.push(bondId);
+  }
+
+  return {
+    base_bonds: baseEdges.size,
+    next_bonds: nextEdges.size,
+    added: added.sort(),
+    removed: removed.sort(),
+    changed_weight: changedWeight.sort((a, b) => a.bond_id.localeCompare(b.bond_id)),
+    has_drift: added.length > 0 || removed.length > 0 || changedWeight.length > 0,
+  };
+}
+
 module.exports = {
   parseConllu,
   buildConllGraph,
   buildConllGraphFromText,
+  compareBondIntegrity,
 };

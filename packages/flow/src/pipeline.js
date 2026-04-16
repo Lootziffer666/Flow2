@@ -10,7 +10,12 @@ const {
 } = require('./flowRulesStore');
 const { errorProfile } = require('@loot/loom');
 const { getCorpusPairFallback, getLexiconFallback } = require('./lexiconFallback');
-const { parseConllu, buildConllGraph, buildConllGraphFromText } = require('./conllGraph');
+const {
+  parseConllu,
+  buildConllGraph,
+  buildConllGraphFromText,
+  compareBondIntegrity,
+} = require('./conllGraph');
 
 const EMPTY_RULE_HITS = Object.freeze({
   EN: 0,
@@ -70,6 +75,12 @@ function buildOptionalConllGraph(options = {}) {
   return buildConllGraph(parseConllu(options.conllu), options.conllGraphOptions || {});
 }
 
+function buildOptionalBondDriftReport(conllGraph, options = {}) {
+  if (!conllGraph || !options.bondBaselineConllu) return null;
+  const baseGraph = buildConllGraph(parseConllu(options.bondBaselineConllu), options.conllGraphOptions || {});
+  return compareBondIntegrity(baseGraph, conllGraph);
+}
+
 function runCorrection(text, langOrOptions) {
   const source = String(text ?? '');
   const options = asOptions(langOrOptions);
@@ -77,6 +88,7 @@ function runCorrection(text, langOrOptions) {
   // Relationship classification must happen on parsed CoNLL nodes
   // before grammar/stage-specific rewrites so bonds remain stable.
   const conllGraph = buildOptionalConllGraph(options);
+  const bondDriftReport = buildOptionalBondDriftReport(conllGraph, options);
 
   if (!source.trim()) {
     return {
@@ -86,6 +98,7 @@ function runCorrection(text, langOrOptions) {
       language,
       lang: language,
       conll_graph: conllGraph,
+      bond_drift_report: bondDriftReport,
     };
   }
 
@@ -101,6 +114,7 @@ function runCorrection(text, langOrOptions) {
       language,
       lang: language,
       conll_graph: conllGraph,
+      bond_drift_report: bondDriftReport,
     };
   }
 
@@ -129,6 +143,7 @@ function runCorrection(text, langOrOptions) {
     lang: language,
     loom_signals: normalized.loom_signals || null,
     conll_graph: conllGraph,
+    bond_drift_report: bondDriftReport,
   };
 }
 
@@ -163,5 +178,6 @@ module.exports = {
   parseConllu,
   buildConllGraph,
   buildConllGraphFromText,
+  compareBondIntegrity,
   EMPTY_RULE_HITS,
 };

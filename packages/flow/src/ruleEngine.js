@@ -125,8 +125,20 @@ function normalizeSentenceStarts(text, lang = 'de') {
       .replace(/([.!?]\s+)([a-z])/g, (match, prefix, ch) => `${prefix}${ch.toUpperCase()}`);
   }
 
-  return String(text)
-    .replace(/^\s*([a-zäöü])/u, (match, ch) => match.replace(ch, ch.toUpperCase()))
+  const source = String(text);
+  const informalLowercaseStarts = new Set([
+    'mach', 'hab', 'habe', 'bin', 'war', 'will', 'kann', 'komm', 'gib', 'sag', 'geh', 'find', 'denk',
+  ]);
+  const firstWord = (source.match(/^\s*([a-zäöüß]+)/iu) || [null, ''])[1].toLowerCase();
+  const shouldKeepLowercaseStart = informalLowercaseStarts.has(firstWord)
+    && !/[.!]\s+[a-zäöü]/u.test(source)
+    && /^[^A-ZÄÖÜ]*[?!]\s*$/u.test(source);
+
+  const maybeCapitalizedStart = shouldKeepLowercaseStart
+    ? source
+    : source.replace(/^\s*([a-zäöü])/u, (match, ch) => match.replace(ch, ch.toUpperCase()));
+
+  return maybeCapitalizedStart
     .replace(/([.!?]\s+)([a-zäöü])/gu, (match, prefix, ch) => `${prefix}${ch.toUpperCase()}`);
 }
 

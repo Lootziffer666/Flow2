@@ -12,7 +12,6 @@
  *
  * Abgedeckte Fehlerklassen (vgl. LanguageTool TYPOGRAPHY-Kategorie):
  *   ANFÜHRUNGSZEICHEN_DE  – deutsche Anführungszeichen „..." statt "..."
- *   AUSLASSUNGSZEICHEN    – typografisches Auslassungszeichen … statt ...
  *   GEDANKENSTRICH        – typografischer Gedankenstrich – statt --
  *   LEERZEICHEN_DOPPELT   – mehrere aufeinanderfolgende Leerzeichen
  */
@@ -31,19 +30,6 @@ const PUNCT_RULES = [
     from: /"([^"\n]{1,300})"/g,
     to: '„$1"',
     confidence: 0.90,
-  },
-
-  // -----------------------------------------------------------------------
-  // AUSLASSUNGSZEICHEN
-  // Drei aufeinanderfolgende Punkte → typografisches Auslassungszeichen.
-  // Gilt für DE und EN; URLs/Code sind bereits durch Protected Spans gesichert.
-  // -----------------------------------------------------------------------
-  {
-    id: 'universal-punct-ellipsis',
-    lang: 'both',
-    from: /\.{3}/g,
-    to: '…',
-    confidence: 0.95,
   },
 
   // -----------------------------------------------------------------------

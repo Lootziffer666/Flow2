@@ -6,6 +6,7 @@ const SN_RULES = [
   { from: /\bausversehen\b/gi, to: 'aus Versehen' },
   { from: /\bzuende\b/gi, to: 'zu Ende' },
   { from: /\bzuhause\b/gi, to: 'zu Hause' },
+  { from: /\b(vor)\s+zugehen\b/gi, to: '$1 zu gehen' },
   { from: /\brunter nemen\b/gi, to: 'runternehmen' },
   { from: /\bweiter gegangen\b/gi, to: 'weitergegangen' },
   { from: /\bhats\b/gi, to: 'hat es' },

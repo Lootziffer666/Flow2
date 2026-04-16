@@ -14,7 +14,7 @@
 | Rolle | Text |
 |---|---|
 | Input (noisy) | `gestan hab ich mein sport beutel in der shule fergeßen, obwohl mama noch gesakt hat das ich for der tür kucken soll.` |
-| FLOW output   | `Gestan habe ich mein sport beutel in der schule vergessen, obwohl mama noch gesagt hat das ich vor der tür gucken soll.` |
+| FLOW output   | `Gestan habe ich mein sport beutel in der Schule vergessen, obwohl mama noch gesagt hat das ich vor der tür gucken soll.` |
 | Gold (clean)  | `Gestern habe ich meinen Sportbeutel in der Schule vergessen, obwohl Mama noch gesagt hat, dass ich vor der Tür schauen soll.` |
 | Übereinstimmung | ⚠️ partiell |
 
@@ -22,6 +22,8 @@
 
 **PG** (6 Regeln)
 
+- `PG:/\bshule\b/` — \bshule\b
+  - Änderung: `shule`→`Schule`
 - `PG:/\bhab\b/` — \bhab\b
   - Änderung: `hab`→`habe`
 - `PG:/\bfor\b/` — \bfor\b
@@ -30,8 +32,6 @@
   - Änderung: `gesakt`→`gesagt`
 - `PG:/\bferge(?:ß|s)en\b/` — \bferge(?:ß|s)en\b
   - Änderung: `fergeßen,`→`vergessen,`
-- `PG:/\bshule\b/` — \bshule\b
-  - Änderung: `shule`→`schule`
 - `PG:/\bkucken\b/` — \bkucken\b
   - Änderung: `kucken`→`gucken`
 
@@ -50,7 +50,7 @@ Token-Differenzen (FLOW→Gold):
 - `beutel`→`in`
 - `in`→`der`
 - `der`→`Schule`
-- `schule`→`vergessen,`
+- `Schule`→`vergessen,`
 - `vergessen,`→`obwohl`
 - `obwohl`→`Mama`
 - `mama`→`noch`
@@ -82,7 +82,7 @@ Token-Differenzen (FLOW→Gold):
 | Rolle | Text |
 |---|---|
 | Input (noisy) | `weil es morgens so geregnet hatt, sind wir in der pause trozdem raus und danach wahren meine soken ganz kalt und matschig.` |
-| FLOW output   | `Weil es morgens so geregnet hat, sind wir in der pause trotzdem raus und danach waren meine socken ganz kalt und matschig.` |
+| FLOW output   | `Weil es morgens so geregnet hat, sind wir in der pause trotzdem raus und danach wahren meine soken ganz kalt und matschig.` |
 | Gold (clean)  | `Weil es morgens so geregnet hat, sind wir in der Pause trotzdem raus und danach waren meine Socken ganz kalt und matschig.` |
 | Übereinstimmung | ⚠️ partiell |
 
@@ -93,14 +93,10 @@ Token-Differenzen (FLOW→Gold):
 - `SL:/\btrozdem\b/` — \btrozdem\b
   - Änderung: `trozdem`→`trotzdem`
 
-**PG** (3 Regeln)
+**PG** (1 Regel)
 
 - `PG:/\bhatt\b/` — \bhatt\b
   - Änderung: `hatt,`→`hat,`
-- `PG:/\bwahren\b/` — \bwahren\b
-  - Änderung: `wahren`→`waren`
-- `PG:/\bsoken\b/` — \bsoken\b
-  - Änderung: `soken`→`socken`
 
 **POST** (1 Regel)
 
@@ -112,7 +108,8 @@ Token-Differenzen (FLOW→Gold):
 Token-Differenzen (FLOW→Gold):
 
 - `pause`→`Pause`
-- `socken`→`Socken`
+- `wahren`→`waren`
+- `soken`→`Socken`
 
 **ZH1-Scope-Analyse:**
 
@@ -350,12 +347,15 @@ Token-Differenzen (FLOW→Gold):
 
 ### Regelentscheidungen
 
-**MO** (2 Regeln)
+**SN** (1 Regel)
+
+- `SN:/\baufeinmal\b/` — \baufeinmal\b
+  - Änderung: `aufeinmal`→`auf`, `alles`→`einmal`, `fals`→`alles`, `gewesen.`→`fals`, `∅`→`gewesen.`
+
+**MO** (1 Regel)
 
 - `MO:/\beigendlich\b/` — \beigendlich\b
   - Änderung: `eigendlich`→`eigentlich`
-- `MO:/\baufeinmal\b/` — \baufeinmal\b
-  - Änderung: `aufeinmal`→`auf`, `alles`→`einmal`, `fals`→`alles`, `gewesen.`→`fals`, `∅`→`gewesen.`
 
 **POST** (1 Regel)
 
@@ -417,10 +417,10 @@ Token-Differenzen (FLOW→Gold):
 
 - `SL:/\bwolte\b/` — \bwolte\b
   - Änderung: `wolte.`→`wollte.`
-- `SL:/\bwen\b/` — \bwen\b
-  - Änderung: `wen`→`wenn`, `wen`→`wenn`
 - `SL:/\bmanchma\b/` — \bmanchma\b
   - Änderung: `manchma`→`manchmal`
+- `SL:/\bwen\b/` — \bwen\b
+  - Änderung: `wen`→`wenn`, `wen`→`wenn`
 
 **MO** (1 Regel)
 
@@ -566,11 +566,16 @@ Token-Differenzen (FLOW→Gold):
 | Rolle | Text |
 |---|---|
 | Input (noisy) | `unsere lehrerin hat gesagt das wir den aufsatz sauber schreiben sollen, aber mein radiergummi war weg und dann sah alles noch schlimer aus.` |
-| FLOW output   | `Unsere lehrerin hat gesagt das wir den aufsatz sauber schreiben sollen, aber mein radiergummi war weg und dann sah alles noch schlimer aus.` |
+| FLOW output   | `Unsere lehrerin hat gesagt, dass wir den aufsatz sauber schreiben sollen, aber mein radiergummi war weg und dann sah alles noch schlimer aus.` |
 | Gold (clean)  | `Unsere Lehrerin hat gesagt, dass wir den Aufsatz sauber schreiben sollen, aber mein Radiergummi war weg und dann sah alles noch schlimmer aus.` |
 | Übereinstimmung | ⚠️ partiell |
 
 ### Regelentscheidungen
+
+**SN** (1 Regel)
+
+- `SN:/\b(dachte|gemerkt|gesagt|gewusst|gehört|glaube|glaubte|merkte|wusste|hoffte|dachten)\s+das\b/` — \b(dachte|gemerkt|gesagt|gewusst|gehört|glaube|glaubte|merkte|wusste|hoffte|dachten)\s+das\b
+  - Änderung: `gesagt`→`gesagt,`, `das`→`dass`
 
 **POST** (1 Regel)
 
@@ -582,8 +587,6 @@ Token-Differenzen (FLOW→Gold):
 Token-Differenzen (FLOW→Gold):
 
 - `lehrerin`→`Lehrerin`
-- `gesagt`→`gesagt,`
-- `das`→`dass`
 - `aufsatz`→`Aufsatz`
 - `radiergummi`→`Radiergummi`
 - `schlimer`→`schlimmer`
@@ -803,7 +806,7 @@ Token-Differenzen (FLOW→Gold):
 - `SN:/\bzuhause\b/` — \bzuhause\b
   - Vorher: `ich hab aus Versehen die brotdose von jonas mitgenommen und erst zuhause gemerkt das da gar kein käsebrot sondern gurken`
   - Nachher: `ich hab aus Versehen die brotdose von jonas mitgenommen und erst zu Hause gemerkt das da gar kein käsebrot sondern gurke`
-- `SN:/\b(dachte|gemerkt)\s+das\b/` — \b(dachte|gemerkt)\s+das\b
+- `SN:/\b(dachte|gemerkt|gesagt|gewusst|gehört|glaube|glaubte|merkte|wusste|hoffte|dachten)\s+das\b/` — \b(dachte|gemerkt|gesagt|gewusst|gehört|glaube|glaubte|merkte|wusste|hoffte|dachten)\s+das\b
   - Änderung: `gemerkt`→`gemerkt,`, `das`→`dass`
 
 **PG** (1 Regel)
@@ -975,7 +978,7 @@ Token-Differenzen (FLOW→Gold):
 | Rolle | Text |
 |---|---|
 | Input (noisy) | `wen ich krank bin find ich es erst gut nicht in die shule zu müßen, aber später ist mir dann immer langweilich und komisch.` |
-| FLOW output   | `Wenn ich krank bin find ich es erst gut nicht in die schule zu müßen, aber später ist mir dann immer langweilich und komisch.` |
+| FLOW output   | `Wenn ich krank bin find ich es erst gut nicht in die Schule zu müßen, aber später ist mir dann immer langweilich und komisch.` |
 | Gold (clean)  | `Wenn ich krank bin, finde ich es erst gut, nicht in die Schule zu müssen, aber später ist mir dann immer langweilig und komisch.` |
 | Übereinstimmung | ⚠️ partiell |
 
@@ -989,7 +992,7 @@ Token-Differenzen (FLOW→Gold):
 **PG** (1 Regel)
 
 - `PG:/\bshule\b/` — \bshule\b
-  - Änderung: `shule`→`schule`
+  - Änderung: `shule`→`Schule`
 
 **POST** (1 Regel)
 
@@ -1003,7 +1006,6 @@ Token-Differenzen (FLOW→Gold):
 - `bin`→`bin,`
 - `find`→`finde`
 - `gut`→`gut,`
-- `schule`→`Schule`
 - `müßen,`→`müssen,`
 - `langweilich`→`langweilig`
 
@@ -1308,14 +1310,11 @@ Token-Differenzen (FLOW→Gold):
 
 ### Regelentscheidungen
 
-**SL** (1 Regel)
+**SL** (2 Regeln)
 
 - `SL:/\bdan\b/` — \bdan\b
   - Änderung: `dan`→`dann`
-
-**PG** (1 Regel)
-
-- `PG:/\bgebrant\b/` — \bgebrant\b
+- `SL:/\bgebrant\b/` — \bgebrant\b
   - Änderung: `gebrant.`→`gebrannt.`
 
 **POST** (1 Regel)
@@ -1841,7 +1840,7 @@ Token-Differenzen (FLOW→Gold):
 | Rolle | Text |
 |---|---|
 | Input (noisy) | `ich hab die hausis extra gleich gemacht damit ich später spielen kann, aber dan kam noch lesen und zimmer aufreumen dazu.` |
-| FLOW output   | `Ich habe die hausis extra gleich gemacht damit ich später spielen kann, aber dann kam noch lesen und zimmer aufreumen dazu.` |
+| FLOW output   | `Ich habe die hausis extra gleich gemacht, damit ich später spielen kann, aber dann kam noch lesen und zimmer aufreumen dazu.` |
 | Gold (clean)  | `Ich habe die Hausaufgaben extra gleich gemacht, damit ich später spielen kann, aber dann kamen noch Lesen und Zimmer aufräumen dazu.` |
 | Übereinstimmung | ⚠️ partiell |
 
@@ -1857,6 +1856,11 @@ Token-Differenzen (FLOW→Gold):
 - `PG:/\bhab\b/` — \bhab\b
   - Änderung: `hab`→`habe`
 
+**GR** (1 Regel)
+
+- `de-gr-komma-nebensatz` — de-gr-komma-nebensatz
+  - Änderung: `gemacht`→`gemacht,`
+
 **POST** (1 Regel)
 
 - `post-normalize` — Whitespace + Satzanfang-Großschreibung
@@ -1867,7 +1871,6 @@ Token-Differenzen (FLOW→Gold):
 Token-Differenzen (FLOW→Gold):
 
 - `hausis`→`Hausaufgaben`
-- `gemacht`→`gemacht,`
 - `kam`→`kamen`
 - `lesen`→`Lesen`
 - `zimmer`→`Zimmer`
@@ -1931,11 +1934,16 @@ Token-Differenzen (FLOW→Gold):
 | Rolle | Text |
 |---|---|
 | Input (noisy) | `als ich den schnee mann gebaut hab, sind meine handschuhe irgentwann so nass geworden das die finger weh getan haben.` |
-| FLOW output   | `Als ich den schnee mann gebaut habe, sind meine handschuhe irgentwann so nass geworden das die finger weh getan haben.` |
+| FLOW output   | `Als ich den schnee mann gebaut habe, sind meine handschuhe irgendwann so nass geworden das die finger weh getan haben.` |
 | Gold (clean)  | `Als ich den Schneemann gebaut habe, sind meine Handschuhe irgendwann so nass geworden, dass die Finger wehgetan haben.` |
 | Übereinstimmung | ⚠️ partiell |
 
 ### Regelentscheidungen
+
+**MO** (1 Regel)
+
+- `MO:/\birgentwann\b/` — \birgentwann\b
+  - Änderung: `irgentwann`→`irgendwann`
 
 **PG** (1 Regel)
 
@@ -1958,7 +1966,7 @@ Token-Differenzen (FLOW→Gold):
 - `sind`→`meine`
 - `meine`→`Handschuhe`
 - `handschuhe`→`irgendwann`
-- `irgentwann`→`so`
+- `irgendwann`→`so`
 - `so`→`nass`
 - `nass`→`geworden,`
 - `geworden`→`dass`
@@ -2083,7 +2091,7 @@ Token-Differenzen (FLOW→Gold):
 
 **SN** (1 Regel)
 
-- `SN:/\b(dachte|gemerkt)\s+das\b/` — \b(dachte|gemerkt)\s+das\b
+- `SN:/\b(dachte|gemerkt|gesagt|gewusst|gehört|glaube|glaubte|merkte|wusste|hoffte|dachten)\s+das\b/` — \b(dachte|gemerkt|gesagt|gewusst|gehört|glaube|glaubte|merkte|wusste|hoffte|dachten)\s+das\b
   - Änderung: `dachte`→`dachte,`, `das`→`dass`
 
 **PG** (1 Regel)
@@ -2362,10 +2370,10 @@ Token-Differenzen (FLOW→Gold):
 
 **SN** (2 Regeln)
 
-- `SN:/\b(dachte|gemerkt)\s+das\b/` — \b(dachte|gemerkt)\s+das\b
-  - Änderung: `dachte`→`dachte,`, `das`→`dass`
 - `SN:/\bnix\b/` — \bnix\b
   - Änderung: `nix`→`nichts`
+- `SN:/\b(dachte|gemerkt|gesagt|gewusst|gehört|glaube|glaubte|merkte|wusste|hoffte|dachten)\s+das\b/` — \b(dachte|gemerkt|gesagt|gewusst|gehört|glaube|glaubte|merkte|wusste|hoffte|dachten)\s+das\b
+  - Änderung: `dachte`→`dachte,`, `das`→`dass`
 
 **PG** (1 Regel)
 
@@ -2454,7 +2462,7 @@ Token-Differenzen (FLOW→Gold):
 
 **SN** (1 Regel)
 
-- `SN:/\b(dachte|gemerkt)\s+das\b/` — \b(dachte|gemerkt)\s+das\b
+- `SN:/\b(dachte|gemerkt|gesagt|gewusst|gehört|glaube|glaubte|merkte|wusste|hoffte|dachten)\s+das\b/` — \b(dachte|gemerkt|gesagt|gewusst|gehört|glaube|glaubte|merkte|wusste|hoffte|dachten)\s+das\b
   - Änderung: `gemerkt`→`gemerkt,`, `das`→`dass`
 
 **PG** (1 Regel)
@@ -2873,17 +2881,19 @@ Token-Differenzen (FLOW→Gold):
 | Rolle | Text |
 |---|---|
 | Input (noisy) | `ich hab dem lehrer erst garnicht gesagt das ich die mappe vergessen habe, weil ich gehoft hab das er es nicht merkt.` |
-| FLOW output   | `Ich habe dem lehrer erst gar nicht gesagt das ich die mappe vergessen habe, weil ich gehoft habe das er es nicht merkt.` |
+| FLOW output   | `Ich habe dem lehrer erst gar nicht gesagt, dass ich die mappe vergessen habe, weil ich gehoft habe das er es nicht merkt.` |
 | Gold (clean)  | `Ich habe dem Lehrer erst gar nicht gesagt, dass ich die Mappe vergessen habe, weil ich gehofft habe, dass er es nicht merkt.` |
 | Übereinstimmung | ⚠️ partiell |
 
 ### Regelentscheidungen
 
-**SN** (1 Regel)
+**SN** (2 Regeln)
 
 - `SN:/\bgarnicht\b/` — \bgarnicht\b
   - Vorher: `ich hab dem lehrer erst garnicht gesagt das ich die mappe vergessen habe, weil ich gehoft hab das er es nicht merkt.`
   - Nachher: `ich hab dem lehrer erst gar nicht gesagt das ich die mappe vergessen habe, weil ich gehoft hab das er es nicht merkt.`
+- `SN:/\b(dachte|gemerkt|gesagt|gewusst|gehört|glaube|glaubte|merkte|wusste|hoffte|dachten)\s+das\b/` — \b(dachte|gemerkt|gesagt|gewusst|gehört|glaube|glaubte|merkte|wusste|hoffte|dachten)\s+das\b
+  - Änderung: `gesagt`→`gesagt,`, `das`→`dass`
 
 **PG** (1 Regel)
 
@@ -2900,8 +2910,6 @@ Token-Differenzen (FLOW→Gold):
 Token-Differenzen (FLOW→Gold):
 
 - `lehrer`→`Lehrer`
-- `gesagt`→`gesagt,`
-- `das`→`dass`
 - `mappe`→`Mappe`
 - `gehoft`→`gehofft`
 - `habe`→`habe,`
@@ -3154,17 +3162,17 @@ Token-Differenzen (FLOW→Gold):
 
 ### Regelentscheidungen
 
-**SL** (1 Regel)
+**SL** (2 Regeln)
 
+- `SL:/\bgebrant\b/` — \bgebrant\b
+  - Änderung: `gebrant`→`gebrannt`
 - `SL:/\bobwol\b/` — \bobwol\b
   - Änderung: `obwol`→`obwohl`
 
-**PG** (2 Regeln)
+**PG** (1 Regel)
 
 - `PG:/\bhab\b/` — \bhab\b
   - Änderung: `hab`→`habe`
-- `PG:/\bgebrant\b/` — \bgebrant\b
-  - Änderung: `gebrant`→`gebrannt`
 
 **POST** (1 Regel)
 
@@ -3295,28 +3303,26 @@ Token-Differenzen (FLOW→Gold):
 |---|---|---|---|
 | POST | `post-normalize` | Whitespace + Satzanfang-Großschreibung | 70 |
 | PG | `PG:/\bhab\b/` | \bhab\b | 29 |
-| GR | `de-gr-komma-nebensatz` | de-gr-komma-nebensatz | 14 |
+| GR | `de-gr-komma-nebensatz` | de-gr-komma-nebensatz | 15 |
 | SL | `SL:/\bdan\b/` | \bdan\b | 12 |
 | SL | `SL:/\bwen\b/` | \bwen\b | 9 |
 | SL | `SL:/\bwolte\b/` | \bwolte\b | 7 |
 | MO | `MO:/\beigendlich\b/` | \beigendlich\b | 7 |
+| SN | `SN:/\b(dachte|gemerkt|gesagt|gewusst|gehört|glaube|glaubte|merkte|wusste|hoffte|dachten)\s+das\b/` | \b(dachte|gemerkt|gesagt|gewusst|gehört|glaube|glaubte|merkte|wusste|hoffte|dachten)\s+das\b | 6 |
 | MO | `MO:/\bwider\b/` | \bwider\b | 5 |
 | SL | `SL:/\btrozdem\b/` | \btrozdem\b | 4 |
 | SN | `SN:/\bgarnicht\b/` | \bgarnicht\b | 4 |
 | GR | `de-gr-komma-nach-koordinator-undo` | de-gr-komma-nach-koordinator-undo | 4 |
-| SN | `SN:/\b(dachte|gemerkt)\s+das\b/` | \b(dachte|gemerkt)\s+das\b | 4 |
 | SL | `SL:/\bobwol\b/` | \bobwol\b | 4 |
 | PG | `PG:/\bhatt\b/` | \bhatt\b | 3 |
 | SN | `SN:/\bausversehen\b/` | \bausversehen\b | 3 |
 | PG | `PG:/\bshule\b/` | \bshule\b | 2 |
-| PG | `PG:/\bgebrant\b/` | \bgebrant\b | 2 |
+| SL | `SL:/\bgebrant\b/` | \bgebrant\b | 2 |
 | SN | `SN:/\bnix\b/` | \bnix\b | 2 |
 | PG | `PG:/\bfor\b/` | \bfor\b | 1 |
 | PG | `PG:/\bgesakt\b/` | \bgesakt\b | 1 |
 | PG | `PG:/\bferge(?:ß|s)en\b/` | \bferge(?:ß|s)en\b | 1 |
 | PG | `PG:/\bkucken\b/` | \bkucken\b | 1 |
-| PG | `PG:/\bwahren\b/` | \bwahren\b | 1 |
-| PG | `PG:/\bsoken\b/` | \bsoken\b | 1 |
 | PG | `PG:/\bgekipt\b/` | \bgekipt\b | 1 |
 | SN | `SN:/\brunter nemen\b/` | \brunter nemen\b | 1 |
 | MO | `MO:/\birgentwie\b/` | \birgentwie\b | 1 |
@@ -3325,7 +3331,7 @@ Token-Differenzen (FLOW→Gold):
 | MO | `MO:/\bdrausen\b/` | \bdrausen\b | 1 |
 | PG | `PG:/\bknurt\b/` | \bknurt\b | 1 |
 | PG | `PG:/\bleuft\b/` | \bleuft\b | 1 |
-| MO | `MO:/\baufeinmal\b/` | \baufeinmal\b | 1 |
+| SN | `SN:/\baufeinmal\b/` | \baufeinmal\b | 1 |
 | SL | `SL:/\bmanchma\b/` | \bmanchma\b | 1 |
 | GR | `de-gr-komma-nach-auch-undo` | de-gr-komma-nach-auch-undo | 1 |
 | PG | `PG:/\bfrür\b/` | \bfrür\b | 1 |
@@ -3336,6 +3342,7 @@ Token-Differenzen (FLOW→Gold):
 | SN | `SN:/\bgarkein\b/` | \bgarkein\b | 1 |
 | SN | `SN:/\bzuhause\b/` | \bzuhause\b | 1 |
 | PG | `PG:/\bgequitscht\b/` | \bgequitscht\b | 1 |
+| MO | `MO:/\birgentwann\b/` | \birgentwann\b | 1 |
 
 ### Nicht vollständig korrigierte Fehlerklassen
 
@@ -3417,11 +3424,11 @@ Token-Differenzen (FLOW→Gold):
 | PUNCT | de-punct-anfuehrungszeichen, universal-punct-ellipsis, universal-punct-em-dash-* | Typografische Anführungszeichen, Ellipsis, Gedankenstrich |
 | CTX   | universal-space-before-punct, universal-multiple-spaces | Leerzeichen vor Satzzeichen, doppelte Leerzeichen |
 | CTX (deaktiviert) | de-weil-dass, de-seit-seid, de-dem-hause | das/dass nach weil/ob; seid/seit; Dativ-Formen |
-| SN    | garnich, zuende, weiter-gegangen, hats, dachte-dass | Getrennt-/Zusammenschreibung, lokale Fügungen |
-| SL    | villeicht, wier, wolte, trozdem | Silbenstruktur, Vokalfolgen |
-| MO    | irgentwie, eigendlich, erklert, gewessen, wolte | Morphologische Stammformen |
-| PG    | gelsen, ferig, weis→weiß, nigh→nicht, hab→habe | Phonem-Graphem-Korrespondenz |
-| GR    | komma-nebensatz, word-repeat, sodass, apostroph-genitiv, als-wie | Kommasetzung, Wortwiederholung, Zusammenschreibung |
+| SN    | garnich, garnicht, ausversehen, aufeinmal, zuende, weiter-gegangen, hats, dachte/gesagt/gewusst/gehört-dass | Getrennt-/Zusammenschreibung, Worttrennung, dass-Konjunktion |
+| SL    | villeicht/vieleicht, wier, wolte, trozdem, dan→dann, wen→wenn, gebrant→gebrannt | Silbenstruktur, Doppelkonsonanten, Vokalfolgen |
+| MO    | irgentwie, irgentwann, eigendlich, obwol→obwohl, erklert, gewessen, wolte | Morphologische Stammformen, nd/nt-Verwechslung |
+| PG    | gelsen, ferig, weis→weiß, shule→Schule, nich→nicht, hab→habe | Phonem-Graphem-Korrespondenz, sh/sch-Verwechslung |
+| GR    | komma-nebensatz (+damit), word-repeat, sodass, apostroph-genitiv, als-wie | Kommasetzung, Wortwiederholung, Zusammenschreibung |
 | POST  | normalizeSentenceStarts, normalizeWhitespace | Satzanfang-Großschreibung, Whitespace |
 
 ### Strukturelle Lücken (nicht abgedeckt durch FLOW DE v0.5)
@@ -3435,6 +3442,8 @@ Token-Differenzen (FLOW→Gold):
 | seid/seit | de-seit-seid deaktiviert; Homophones Paar |
 | wen/wenn, dan/dann | Doppelkonsonant-Regel fehlt im Regelwerk |
 | wahr/war, anderst/anders | Kein Kontextmodell für Homonyme |
-| Worttrennung (aus Versehen, gar nicht) | SN hat nur wenige explizite Fälle; ausversehen fehlt |
-| Lautnahe Schreibvarianten (fehlend) | PG-Lexikon sehr klein (5 Regeln) |
-| f/v-Verwechslung (for→vor, fergeßen→vergessen) | Kein f/v-Mapping im Regelwerk |
+| wider/wieder | Homophones Paar; "wider" ist gültiges deutsches Wort (gegen/contrary) |
+| gar keinen / gar kein (zusammengeschrieben) | Nur 1× in Datensatz; Einzelfall |
+| Lautnahe Schreibvarianten (verbleibend) | PG-Lexikon abgedeckt für: shule, weis, hab, gelsen, ferig, nigh |
+| f/v-Verwechslung (for→vor, fergeßen→vergessen) | "for" ist englisches Wort; globale f/v-Regel zu riskant |
+| wen→wenn: bekanntes falsch-positiv | Akkusativ "wen" (wen rufst du an?) wird ebenfalls korrigiert |

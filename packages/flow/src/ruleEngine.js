@@ -180,6 +180,17 @@ function confidenceThresholdFor(confidenceHint) {
 }
 
 /**
+ * Mappt einen optionalen Confidence-Hint auf einen numerischen Mindestschwellenwert.
+ * @param {'low'|'medium'|'high'|undefined} hint
+ * @returns {number}
+ */
+function confidenceThresholdFor(hint) {
+  if (hint === 'low')    return 0.90;
+  if (hint === 'medium') return 0.70;
+  return 0; // 'high' oder kein Hint → alle Regeln aktiv
+}
+
+/**
  * Baut die aktive Menge an Context-Window-Regeln auf.
  *
  * Wenn LOOM-Signale vorliegen (loomSignals), wird die Confidence-Schwelle

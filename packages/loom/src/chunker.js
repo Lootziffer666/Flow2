@@ -51,74 +51,18 @@ const {
   SUBORDINATING_DE,
   SUBORDINATING_EN,
 } = require('../../../loom-db/language/clause_connectors');
-
-const PRONOUNS_DE = new Set([
-  'ich', 'du', 'er', 'sie', 'es', 'wir', 'ihr',
-  'mich', 'dich', 'ihn', 'uns', 'euch',
-  'mir', 'dir', 'ihm', 'ihnen',
-  'man', 'jemand', 'niemand', 'wer',
-  'dieser', 'diese', 'dieses', 'jener', 'jene', 'jenes',
-]);
-
-const PRONOUNS_EN = new Set([
-  'i', 'you', 'he', 'she', 'it', 'we', 'they',
-  'me', 'him', 'her', 'us', 'them',
-  'someone', 'nobody', 'everyone', 'who',
-  'this', 'that', 'these', 'those',
-]);
-
-const AUXILIARIES_DE = new Set([
-  'bin', 'bist', 'ist', 'sind', 'seid',
-  'war', 'warst', 'waren', 'wart',
-  'werde', 'wirst', 'wird', 'werden', 'werdet',
-  'habe', 'hast', 'hat', 'haben', 'habt',
-  'hatte', 'hattest', 'hatten', 'hattet',
-  'kann', 'kannst', 'können', 'könnt',
-  'soll', 'sollst', 'sollen', 'sollt',
-  'will', 'willst', 'wollen', 'wollt',
-  'muss', 'musst', 'müssen', 'müsst',
-  'darf', 'darfst', 'dürfen', 'dürft',
-  'mag', 'magst', 'mögen', 'mögt',
-]);
-
-const AUXILIARIES_EN = new Set([
-  'is', 'are', 'was', 'were', 'be', 'been', 'being',
-  'have', 'has', 'had',
-  'will', 'would', 'shall', 'should',
-  'can', 'could', 'may', 'might', 'must',
-  'do', 'does', 'did',
-]);
-
-const DETERMINERS_DE = new Set([
-  'der', 'die', 'das', 'des', 'dem', 'den',
-  'ein', 'eine', 'eines', 'einem', 'einen', 'einer',
-  'kein', 'keine', 'keines', 'keinem', 'keinen',
-  'mein', 'meine', 'meines', 'meinem', 'meinen',
-  'dein', 'deine', 'sein', 'ihre', 'unser', 'euer',
-  'jeder', 'jede', 'jedes', 'alle', 'viele', 'einige',
-]);
-
-const DETERMINERS_EN = new Set([
-  'the', 'a', 'an',
-  'my', 'your', 'his', 'her', 'its', 'our', 'their',
-  'this', 'that', 'these', 'those',
-  'each', 'every', 'all', 'some', 'any',
-  'no',
-]);
-
-const PREPOSITIONS_DE = new Set([
-  'in', 'an', 'auf', 'über', 'unter', 'vor', 'hinter', 'neben', 'zwischen',
-  'mit', 'ohne', 'durch', 'für', 'gegen', 'um', 'aus', 'bei', 'nach',
-  'seit', 'von', 'zu', 'während', 'wegen', 'trotz', 'statt',
-  'bis', 'ab', 'als', 'außer',
-]);
-
-const PREPOSITIONS_EN = new Set([
-  'in', 'on', 'at', 'by', 'for', 'with', 'about', 'against',
-  'between', 'into', 'through', 'during', 'before', 'after',
-  'above', 'below', 'from', 'up', 'down', 'out', 'off', 'over',
-  'under', 'to', 'of', 'near', 'around', 'along',
-]);
+const {
+  PRONOUNS_DE,
+  PRONOUNS_EN,
+  AUXILIARIES_DE,
+  AUXILIARIES_EN,
+  DETERMINERS_DE,
+  DETERMINERS_EN,
+  PREPOSITIONS_DE,
+  PREPOSITIONS_EN,
+  COPULA_DE,
+  COPULA_EN,
+} = require('../../../loom-db/language/lexical_pos');
 
 // Verb-Suffixe (Deutsch) als Heuristik für finite Verbformen.
 // Reihenfolge: längere Suffixe zuerst, damit 'en' vor 'e' matcht usw.
@@ -127,9 +71,6 @@ const PREPOSITIONS_EN = new Set([
 const VERB_SUFFIXES_DE = ['test', 'tet', 'ten', 'st', 'et', 'te', 'en', 'e', 't'];
 
 // Zustandsverben (Kopula)
-const COPULA_DE = new Set(['bin', 'bist', 'ist', 'sind', 'seid', 'war', 'warst', 'waren', 'wart', 'werde', 'wird', 'werden', 'wirst']);
-const COPULA_EN = new Set(['is', 'are', 'was', 'were', 'be', 'been', 'seem', 'seems', 'seemed', 'appear', 'appears', 'become', 'becomes', 'became']);
-
 // ---------------------------------------------------------------------------
 // Tokenizer
 // ---------------------------------------------------------------------------

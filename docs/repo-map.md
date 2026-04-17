@@ -28,3 +28,4 @@
 
 - `loom-db/language/markers.js`
 - `loom-db/language/clause_connectors.js`
+- `loom-db/language/lexical_pos.js`

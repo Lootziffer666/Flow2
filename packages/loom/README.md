@@ -9,4 +9,5 @@ DB/data ownership note:
 Current state:
 - marker-set resources are sourced from `loom-db/language/markers.js`.
 - clause connector resources are sourced from `loom-db/language/clause_connectors.js`.
+- lexical/POS helper resources are sourced from `loom-db/language/lexical_pos.js`.
 - additional Loom-owned resources remain to be extracted in later controlled migration blocks.

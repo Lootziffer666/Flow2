@@ -5,6 +5,7 @@ Canonical Loom-owned language knowledge layer.
 Current scope in this migration block:
 - shared linguistic marker sets extracted from package-embedded runtime code
 - shared DE/EN clause connector knowledge (subordinating/coordinating sets)
+- shared DE/EN lexical/POS helper knowledge (pronouns, auxiliaries, determiners, prepositions, copula sets)
 - no heavy schema/runtime DB introduced yet
 
 Design intent:

@@ -51,7 +51,7 @@ Legend for status:
 | `packages/flow/src/rules.*.js`, `packages/flow/src/ruleEngine.js` | FLOW runtime correction rules and deterministic repair logic | `flow-db` (logical ownership), currently app runtime | Ambiguous but acceptable | canonical runtime behavior, not DB-serialized yet | later expose rule metadata through `flow-db` or shared registry | human judgment |
 | `packages/flow/src/lexiconFallback.js` | Runtime fallback using CSV corpus (`corpora/German_Annotation_V028.csv`) and inferred maps | `flow-db` with potential `loom-db` overlap | **Partially misplaced** | transitional; embeds dataset-derived lexicon logic in app layer | migrate fallback data provisioning to DB/API boundary | human-guided (risk) |
 | `packages/flow/src/flowRulesStore.js` | Local JSON exception/context rule storage (`flow_rules.json`) | `flow-db` (or shared app config) | Ambiguous | transitional mutable store, not centrally governed | define whether this becomes DB-backed or remains local user config | human judgment |
-| `loom-db/language/markers.js`, `loom-db/language/clause_connectors.js`, `packages/loom/src/clauseDetector.js`, `packages/loom/src/chunker.js`, `packages/loom/src/structuralState.js`, `packages/loom/src/signalLayer.js` | Core structural/linguistic marker knowledge and cross-product signaling | `loom-db` + loom runtime | Yes (partial extraction complete) | marker + clause-connector truth canonicalized in loom-db; remaining Loom heuristics still package-embedded | continue controlled Loom extraction | human-guided |
+| `loom-db/language/markers.js`, `loom-db/language/clause_connectors.js`, `loom-db/language/lexical_pos.js`, `packages/loom/src/clauseDetector.js`, `packages/loom/src/chunker.js`, `packages/loom/src/structuralState.js`, `packages/loom/src/signalLayer.js` | Core structural/linguistic marker knowledge and cross-product signaling | `loom-db` + loom runtime | Yes (partial extraction complete) | marker + clause-connector + lexical/POS lookup truth canonicalized in loom-db; remaining Loom heuristics still package-embedded | continue controlled Loom extraction | human-guided |
 | `packages/spin/src/rules.en.gr.js` and SPIN diagnosis/config files | SPIN-specific transformation/diagnostic rule assets | `spin-db` (logical future) | Partially | currently in app package only; no `spin-db` layer exists | future extraction of data-like rule assets to `spin-db` | human-guided |
 | `packages/smash/src/signalBridge.js` + smash packs | SMASH blockage hints and intervention assets | `smash-db` (logical future) | Partially | currently package-level only; no DB layer exists | future `smash-db` for intervention metadata + eligibility rules | human-guided |
 | `packages/loom/lab/*` | Evaluation/lab state and benchmark run orchestration UI logic | `shared_supporting` | Yes | tooling layer, not canonical DB storage | keep | none |
@@ -77,7 +77,7 @@ Legend for status:
 ### High-risk duplication zones (semantic)
 
 - **Cross-product linguistic markers vs product rules:**
-  - `loom-db/language/markers.js` + `loom-db/language/clause_connectors.js` (cross-product linguistic lists)
+  - `loom-db/language/markers.js` + `loom-db/language/clause_connectors.js` + `loom-db/language/lexical_pos.js` (cross-product linguistic lists)
   - `packages/flow/src/rules.*.js` (product repair rules)
   - `packages/spin/src/rules.en.gr.js` (SPIN transformation rules)
 - Risk: canonical language knowledge could drift across packages without `loom-db` normalization.
@@ -117,7 +117,7 @@ Legend for status:
 
 ### What should eventually move into `loom-db`
 
-- Additional cross-product linguistic truth beyond extracted marker/connector sets now in `loom-db/language/markers.js` and `loom-db/language/clause_connectors.js`.
+- Additional cross-product linguistic truth beyond extracted marker/connector/lexical-POS sets now in `loom-db/language/markers.js`, `loom-db/language/clause_connectors.js`, and `loom-db/language/lexical_pos.js`.
 - Any future shared lexicon/variant truth that is not FLOW-specific remediation policy.
 
 ### What must remain in `flow-db`

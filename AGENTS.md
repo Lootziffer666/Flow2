@@ -27,3 +27,13 @@ Maintain this repo with minimal drift. Prefer small, verifiable changes.
 - Summarize changed files.
 - State which checks ran and their result.
 - If blocked, name the blocker precisely.
+
+## Documentation maintenance
+- If structure, ownership, package boundaries, scripts, or canonical locations change, update the relevant README files in the same change.
+- Do not leave README updates as optional follow-up work.
+- If no README was updated, explicitly state why none was needed.
+
+## Known bugs / incomplete state
+- Do not claim completion while known relevant runtime or integration bugs remain unmentioned.
+- If checks fail because of a known bug, name it explicitly in the output.
+- Keep a `Known Bugs` section updated in the relevant README or status doc when an issue materially affects development or verification.

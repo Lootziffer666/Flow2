@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://flow.local/contracts/flow_parallel.schema.json",
+  "title": "FLOW Parallel Benchmark Item",
+  "description": "Schema for one record in the source→target parallel benchmark. See docs/flow/DATASET_SPEC_PARALLEL_BENCHMARK.md.",
+  "type": "object",
+  "required": [
+    "id",
+    "category",
+    "subtype",
+    "source_sentence",
+    "primary_gold_target",
+    "required_edits",
+    "optional_edits",
+    "forbidden_edits",
+    "no_touch",
+    "ambiguity_flag",
+    "difficulty"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "pattern": "^FLOW-[ABCD]-\\d{6}$" },
+    "category": { "type": "string", "enum": ["A", "B", "C", "D"] },
+    "subtype": { "type": "string", "minLength": 1 },
+    "source_sentence": { "type": "string", "minLength": 1 },
+    "primary_gold_target": { "type": "string", "minLength": 1 },
+    "alternative_targets": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "required_edits": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/Edit" }
+    },
+    "optional_edits": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/Edit" }
+    },
+    "forbidden_edits": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/ForbiddenEdit" }
+    },
+    "no_touch": { "type": "boolean" },
+    "ambiguity_flag": { "type": "boolean" },
+    "difficulty": { "type": "integer", "minimum": 1, "maximum": 5 },
+    "difficulty_factors": { "type": "object" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "notes": { "type": "string" }
+  },
+  "$defs": {
+    "Edit": {
+      "type": "object",
+      "required": ["edit_id", "level", "start", "end", "source", "target", "type", "boundary_scope"],
+      "additionalProperties": false,
+      "properties": {
+        "edit_id": { "type": "string", "pattern": "^[eo]\\d+$" },
+        "level": { "type": "string", "enum": ["char", "token", "span"] },
+        "start": { "type": "integer", "minimum": 0 },
+        "end": { "type": "integer", "minimum": 0 },
+        "source": { "type": "string" },
+        "target": { "type": "string" },
+        "type": {
+          "type": "string",
+          "enum": [
+            "spelling",
+            "dehnung",
+            "schaerfung",
+            "capitalization",
+            "morph_surface",
+            "token_split",
+            "token_merge",
+            "real_word_context",
+            "punctuation_minor"
+          ]
+        },
+        "boundary_scope": {
+          "type": "string",
+          "enum": ["orthographic_core", "orthography_adjacent", "contextual"]
+        }
+      }
+    },
+    "ForbiddenEdit": {
+      "type": "object",
+      "required": ["constraint_id", "start", "end", "pattern", "reason"],
+      "additionalProperties": false,
+      "properties": {
+        "constraint_id": { "type": "string", "pattern": "^f\\d+$" },
+        "start": { "type": "integer", "minimum": 0 },
+        "end": { "type": "integer", "minimum": 0 },
+        "pattern": { "type": "string" },
+        "reason": {
+          "type": "string",
+          "enum": [
+            "grammar_shift",
+            "style_normalization",
+            "semantic_rewrite",
+            "register_formalization"
+          ]
+        }
+      }
+    }
+  }
+}

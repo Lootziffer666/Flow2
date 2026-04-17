@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://flow.local/contracts/conllu_gold.schema.json",
+  "title": "FLOW CoNLL-U Gold Manifest",
+  "description": "Manifest entry for a CoNLL-U gold sentence. One entry per sentence. The CoNLL-U block itself is stored alongside and referenced by path; this schema does not parse CoNLL-U, it types the manifest. See docs/flow/DATASET_SPEC_CONLLU.md.",
+  "type": "object",
+  "required": [
+    "sent_id",
+    "stratum",
+    "conllu_path",
+    "text",
+    "text_lang",
+    "source",
+    "annotator",
+    "double_annotated"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "sent_id": {
+      "type": "string",
+      "pattern": "^[A-Z]{2,4}-\\d{6}$"
+    },
+    "stratum": {
+      "type": "string",
+      "enum": ["no_touch", "ambiguity", "hard_structural", "routine"]
+    },
+    "conllu_path": {
+      "type": "string",
+      "description": "Path to the CoNLL-U block, relative to the data root."
+    },
+    "text": { "type": "string", "minLength": 1 },
+    "text_lang": { "type": "string", "const": "de" },
+    "source": { "type": "string", "minLength": 1 },
+    "annotator": { "type": "string", "minLength": 1 },
+    "double_annotated": { "type": "boolean" },
+    "split": { "type": "string", "enum": ["train", "dev", "test"] },
+    "token_count": { "type": "integer", "minimum": 1 },
+    "max_depth": { "type": "integer", "minimum": 0 },
+    "non_projective": { "type": "boolean" },
+    "notes": { "type": "string" }
+  }
+}

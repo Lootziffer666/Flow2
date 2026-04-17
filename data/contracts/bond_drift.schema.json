@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://flow.local/contracts/bond_drift.schema.json",
+  "title": "FLOW Bond-Drift Baseline Pair",
+  "description": "Schema for one labeled (baseline, candidate) CoNLL-U pair used to evaluate drift acceptability. See docs/flow/DATASET_SPEC_BOND_DRIFT.md. Blocking dependency: ANNOTATION_POLICY_DRIFT.md must be signed off before any records are labeled.",
+  "type": "object",
+  "required": [
+    "pair_id",
+    "text",
+    "baseline_conllu",
+    "candidate_conllu",
+    "drift_allowed",
+    "critical",
+    "drift_reason",
+    "edges_changed",
+    "annotator",
+    "double_annotated"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "pair_id": { "type": "string", "pattern": "^BD-\\d{6}$" },
+    "sent_id": {
+      "type": "string",
+      "description": "If derived from §3.1 CoNLL-U gold, the matching sent_id."
+    },
+    "text": { "type": "string", "minLength": 1 },
+    "baseline_conllu": {
+      "type": "string",
+      "description": "Full multi-line CoNLL-U block for the baseline (source) parse."
+    },
+    "candidate_conllu": {
+      "type": "string",
+      "description": "Full multi-line CoNLL-U block for the candidate (FLOW output or synthetic) parse."
+    },
+    "drift_allowed": { "type": "boolean" },
+    "critical": {
+      "type": "boolean",
+      "description": "True iff the changed edges affect a core grammatical relation (root, nsubj, obj, iobj). Gate G4 binds on the critical=true, drift_allowed=false subset."
+    },
+    "drift_reason": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Must cite a section id from ANNOTATION_POLICY_DRIFT.md (e.g. 'DRIFT-2.3'). Free-text without citation is invalid."
+    },
+    "edges_changed": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/EdgeChange" }
+    },
+    "construction": {
+      "type": "string",
+      "enum": ["natural", "synthetic"],
+      "description": "Whether this pair was derived from a natural FLOW output or synthetically constructed."
+    },
+    "annotator": { "type": "string", "minLength": 1 },
+    "double_annotated": { "type": "boolean" },
+    "notes": { "type": "string" }
+  },
+  "$defs": {
+    "EdgeChange": {
+      "type": "object",
+      "required": ["token_id", "field", "baseline", "candidate"],
+      "additionalProperties": false,
+      "properties": {
+        "token_id": { "type": "integer", "minimum": 1 },
+        "field": { "type": "string", "enum": ["HEAD", "DEPREL", "UPOS"] },
+        "baseline": { "type": "string" },
+        "candidate": { "type": "string" }
+      }
+    }
+  }
+}

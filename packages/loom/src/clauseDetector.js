@@ -32,56 +32,12 @@
  * }
  */
 
-// ---------------------------------------------------------------------------
-// Konjunktionslisten (DE)
-// ---------------------------------------------------------------------------
-
-/** Unterordnende Konjunktionen (DE) – leiten Nebensätze ein */
-const SUBORDINATING_DE = new Set([
-  'dass', 'weil', 'obwohl', 'obgleich', 'obschon',
-  'wenn', 'falls', 'sofern', 'soweit',
-  'ob', 'ob…oder',
-  'während', 'nachdem', 'bevor', 'ehe', 'bis', 'seit', 'seitdem', 'sobald', 'solange',
-  'damit', 'sodass', 'so dass',
-  'indem', 'dadurch dass',
-  'da', 'zumal',
-  'als',          // temporal: „als ich kam"
-  'wie',          // vergleichend: „so wie"
-  'wenngleich', 'wennschon',
-  'obwohl',
-]);
-
-/** Beiordnende Konjunktionen (DE) – verbinden gleichrangige Teilsätze */
-const COORDINATING_DE = new Set([
-  'und', 'oder', 'aber', 'sondern', 'denn',
-  'doch', 'jedoch', 'allerdings',
-  'trotzdem', 'dennoch',
-  'außerdem', 'zudem', 'überdies',
-  'deshalb', 'daher', 'darum', 'deswegen',
-  'nämlich', 'also',
-  'entweder', 'weder', 'sowohl',
-]);
-
-// ---------------------------------------------------------------------------
-// Konjunktionslisten (EN)
-// ---------------------------------------------------------------------------
-
-/** Subordinating conjunctions (EN) */
-const SUBORDINATING_EN = new Set([
-  'that', 'because', 'since', 'as',
-  'although', 'though', 'even though', 'whereas',
-  'if', 'unless', 'provided', 'in case',
-  'when', 'while', 'after', 'before', 'until', 'once', 'as soon as',
-  'so that', 'in order that',
-  'whether',
-]);
-
-/** Coordinating conjunctions (EN) */
-const COORDINATING_EN = new Set([
-  'and', 'or', 'but', 'nor', 'for', 'yet', 'so',
-  'however', 'therefore', 'thus', 'nevertheless', 'nonetheless',
-  'furthermore', 'moreover', 'besides',
-]);
+const {
+  SUBORDINATING_DE,
+  COORDINATING_DE,
+  SUBORDINATING_EN,
+  COORDINATING_EN,
+} = require('../../../loom-db/language/clause_connectors');
 
 // ---------------------------------------------------------------------------
 // Hilfsfunktionen

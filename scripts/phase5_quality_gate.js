@@ -3,7 +3,7 @@
 const assert = require('node:assert/strict');
 const { spawnSync } = require('node:child_process');
 const { runCorrection } = require('../packages/flow/src/pipeline');
-const { createRunStore } = require('../packages/flow/lab/labState');
+const { createRunStore } = require('../packages/loom/lab/labState');
 
 function runCmd(cmd, args) {
   const res = spawnSync(cmd, args, { stdio: 'inherit' });

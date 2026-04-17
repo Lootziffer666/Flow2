@@ -28,7 +28,7 @@ const {
   NULL_MARKERS_DEFAULT,
   NEGATIVE_POLARITY_DEFAULT,
   NORM_NEGATORS_DEFAULT,
-} = require('./markers');
+} = require('../../../loom-db/language/markers');
 
 const { chunkSentence } = require('./chunker');
 

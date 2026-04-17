@@ -1,8 +1,8 @@
 const assert = require('node:assert/strict');
-const { createAppShell } = require('../lab/AppShell');
-const { getPresetInputs } = require('../lab/SuiteRunsPage');
-const { renderLabConsolePage, getLabConsoleModel } = require('../lab/LabConsolePage');
-const { createRunStore } = require('../lab/labState');
+const { createAppShell } = require('../../loom/lab/AppShell');
+const { getPresetInputs } = require('../../loom/lab/SuiteRunsPage');
+const { renderLabConsolePage, getLabConsoleModel } = require('../../loom/lab/LabConsolePage');
+const { createRunStore } = require('../../loom/lab/labState');
 
 const app = createAppShell();
 

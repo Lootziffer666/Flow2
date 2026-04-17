@@ -71,5 +71,5 @@ node packages/flow/src/loom_cli.js "ich hab das gestern gelsen"
 
 ## Strategische Dokumente
 
-- [`docs/Monorepo.md`](docs/Monorepo.md)
-- [`docs/Portfolio.md`](docs/Portfolio.md)
+- [`docs/architecture/Monorepo.md`](docs/architecture/Monorepo.md)
+- [`docs/product/Portfolio.md`](docs/product/Portfolio.md)

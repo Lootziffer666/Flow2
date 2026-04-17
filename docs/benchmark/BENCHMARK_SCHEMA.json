@@ -1,0 +1,140 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://flow.local/benchmark_schema.json",
+  "title": "FLOW Benchmark Item",
+  "type": "object",
+  "required": [
+    "id",
+    "category",
+    "subtype",
+    "source_sentence",
+    "primary_gold_target",
+    "required_edits",
+    "optional_edits",
+    "forbidden_edits",
+    "no_touch",
+    "ambiguity_flag",
+    "difficulty",
+    "difficulty_factors",
+    "notes"
+  ],
+  "properties": {
+    "id": {"type": "string", "pattern": "^FLOW-[A-D]-\\d{4}$"},
+    "category": {"type": "string", "enum": ["A", "B", "C", "D"]},
+    "subtype": {"type": "string", "minLength": 1},
+    "source_sentence": {"type": "string", "minLength": 1},
+    "primary_gold_target": {"type": "string", "minLength": 1},
+    "alternative_targets": {
+      "type": "array",
+      "items": {"type": "string"},
+      "default": []
+    },
+    "required_edits": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/edit"}
+    },
+    "optional_edits": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/edit"}
+    },
+    "forbidden_edits": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/forbiddenEdit"}
+    },
+    "no_touch": {"type": "boolean"},
+    "ambiguity_flag": {"type": "boolean"},
+    "difficulty": {"type": "integer", "minimum": 1, "maximum": 5},
+    "difficulty_factors": {
+      "type": "object",
+      "required": [
+        "required_edit_count",
+        "has_split_merge",
+        "has_real_word_confusion",
+        "has_ambiguity",
+        "has_overlapping_types",
+        "forbidden_temptation",
+        "style_pressure"
+      ],
+      "properties": {
+        "required_edit_count": {"type": "integer", "minimum": 0},
+        "has_split_merge": {"type": "boolean"},
+        "has_real_word_confusion": {"type": "boolean"},
+        "has_ambiguity": {"type": "boolean"},
+        "has_overlapping_types": {"type": "boolean"},
+        "forbidden_temptation": {"type": "boolean"},
+        "style_pressure": {"type": "boolean"}
+      },
+      "additionalProperties": false
+    },
+    "tags": {
+      "type": "array",
+      "items": {"type": "string"},
+      "default": []
+    },
+    "notes": {"type": "string"}
+  },
+  "$defs": {
+    "edit": {
+      "type": "object",
+      "required": [
+        "edit_id",
+        "level",
+        "start",
+        "end",
+        "source",
+        "target",
+        "type",
+        "boundary_scope"
+      ],
+      "properties": {
+        "edit_id": {"type": "string"},
+        "level": {"type": "string", "enum": ["char", "token", "span"]},
+        "start": {"type": "integer", "minimum": 0},
+        "end": {"type": "integer", "minimum": 0},
+        "source": {"type": "string"},
+        "target": {"type": "string"},
+        "type": {
+          "type": "string",
+          "enum": [
+            "spelling",
+            "dehnung",
+            "schaerfung",
+            "capitalization",
+            "token_split",
+            "token_merge",
+            "morph_surface",
+            "real_word_context",
+            "punctuation_minor"
+          ]
+        },
+        "boundary_scope": {
+          "type": "string",
+          "enum": ["orthographic_core", "orthography_adjacent", "contextual", "no_touch"]
+        }
+      },
+      "additionalProperties": false
+    },
+    "forbiddenEdit": {
+      "type": "object",
+      "required": ["constraint_id", "start", "end", "pattern", "reason"],
+      "properties": {
+        "constraint_id": {"type": "string"},
+        "start": {"type": "integer", "minimum": 0},
+        "end": {"type": "integer", "minimum": 0},
+        "pattern": {"type": "string"},
+        "reason": {
+          "type": "string",
+          "enum": [
+            "do_not_touch",
+            "grammar_shift",
+            "style_normalization",
+            "semantic_rewrite",
+            "register_formalization"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

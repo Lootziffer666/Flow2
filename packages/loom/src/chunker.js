@@ -46,6 +46,12 @@ const TAG = {
 // Wortlisten
 // ---------------------------------------------------------------------------
 
+
+const {
+  SUBORDINATING_DE,
+  SUBORDINATING_EN,
+} = require('../../../loom-db/language/clause_connectors');
+
 const PRONOUNS_DE = new Set([
   'ich', 'du', 'er', 'sie', 'es', 'wir', 'ihr',
   'mich', 'dich', 'ihn', 'uns', 'euch',
@@ -112,23 +118,6 @@ const PREPOSITIONS_EN = new Set([
   'between', 'into', 'through', 'during', 'before', 'after',
   'above', 'below', 'from', 'up', 'down', 'out', 'off', 'over',
   'under', 'to', 'of', 'near', 'around', 'along',
-]);
-
-const SUBORDINATING_DE = new Set([
-  'dass', 'weil', 'obwohl', 'obgleich', 'obschon',
-  'wenn', 'falls', 'sofern', 'soweit',
-  'ob', 'während', 'nachdem', 'bevor', 'ehe', 'bis',
-  'seit', 'seitdem', 'sobald', 'solange',
-  'damit', 'sodass', 'so dass',
-  'indem', 'da', 'zumal', 'als', 'wie', 'wenngleich',
-]);
-
-const SUBORDINATING_EN = new Set([
-  'that', 'because', 'since', 'as',
-  'although', 'though', 'even', 'whereas',
-  'if', 'unless', 'provided',
-  'when', 'while', 'after', 'before', 'until', 'once',
-  'whether', 'who', 'which', 'where',
 ]);
 
 // Verb-Suffixe (Deutsch) als Heuristik für finite Verbformen.

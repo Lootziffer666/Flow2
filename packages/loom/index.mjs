@@ -1,4 +1,7 @@
-import shared from '@loot/shared';
+import { createRequire } from 'node:module';
+
+const require = createRequire(import.meta.url);
+const loom = require('./src/index.js');
 
 export const {
   detectClauses,
@@ -7,6 +10,20 @@ export const {
   SUBORDINATING_EN,
   COORDINATING_DE,
   COORDINATING_EN,
+  chunkSentence,
+  chunkText,
+  tokenizeText,
+  tagTokens,
+  TAG,
+  STATES,
+  diagnoseChunks,
+  diagnoseText,
+  diagnoseFullText,
+  getChunkText,
+  flowSignals,
+  spinSignals,
+  smashSignals,
+  deriveSignals,
   filterByConfidence,
   errorProfile,
   koelnerPhonetik,
@@ -14,6 +31,6 @@ export const {
   findPhoneticMatch,
   contextWindowRules,
   GR_RULES,
-} = shared;
+} = loom;
 
-export default shared;
+export default loom;

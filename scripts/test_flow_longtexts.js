@@ -5,7 +5,7 @@ const path = require('node:path');
 const { performance } = require('node:perf_hooks');
 const { runCorrection } = require('../packages/flow/src/pipeline');
 
-const DATASET_DIR = path.join(process.cwd(), 'database/datasets/robustness/flow_longtexts');
+const DATASET_DIR = path.join(process.cwd(), 'flow-db/datasets/robustness/flow_longtexts');
 const REPORT_PATH = path.join(process.cwd(), 'database/artifacts/reports/flow_longtexts_test_report.json');
 
 function wordCount(text) {

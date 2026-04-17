@@ -10,7 +10,7 @@
 | Review/quality gate (`review_status` + `gold_score`) | Operational | `schema.sql` |
 | 4 seeded error_cases (EN + DE) | Present | `seed.sql` |
 | Importers: lexicon, error_pairs, context, german_annotations | Operational | `src/importers/` |
-| Lab state with benchmark evaluation | Separate JS system | `packages/flow/lab/labState.js` |
+| Lab state with benchmark evaluation | Separate JS system | `packages/loom/lab/labState.js` |
 
 **What was NOT present:**
 
@@ -114,7 +114,7 @@ Exports approved benchmark items to JSONL or CSV:
 A future `ingest_candidates` workflow could be restricted to `v_benchmark_error_cases` output for a tighter quality baseline.
 
 **`labState.js` disconnection:**
-The JS lab system (packages/flow/lab/) runs evaluations against abstract segment arrays.
+The JS lab system (packages/loom/lab/) runs evaluations against abstract segment arrays.
 It is not connected to `flow-db`. Bridging this (flow-db → labState benchmark suites) is a non-trivial next step and was not attempted here.
 
 **Circular evaluation risk:**

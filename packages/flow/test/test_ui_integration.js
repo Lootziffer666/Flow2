@@ -1,5 +1,5 @@
 const assert = require('node:assert/strict');
-const { applyNormalizationToUi } = require('../lab/uiBinding');
+const { applyNormalizationToUi } = require('../../loom/lab/uiBinding');
 
 const input = 'ich hab das gestern gelsen und dachte das wier villeicht schon ferig sind';
 const expected = 'Ich habe das gestern gelesen und dachte, dass wir vielleicht schon fertig sind';

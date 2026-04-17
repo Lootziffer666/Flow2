@@ -1,5 +1,8 @@
 # SQLite Fehlerkorpus / Benchmark — v2
 
+> Canonical DB home in this monorepo: `flow-db/`.
+> Supporting data/docs may exist in `database/`, `data/benchmark/`, and `corpora/`, but runtime DB truth (schema/migrations/importers) lives here.
+
 A pragmatic SQLite-first corpus toolkit supporting three concurrent use cases:
 
 - **Normalization Core DB** — via `v_normalization_candidates`
@@ -237,3 +240,21 @@ Tests expanded from 5 to 24. New coverage includes:
 - No external Python packages are required beyond `pytest` for tests.
 - The schema is intentionally not over-normalised: it is pragmatic enough for
   consistency while remaining easy to query directly.
+
+---
+
+## Canonicalization Notes (Finalization Pass)
+
+The following content was absorbed into `flow-db/` during finalization:
+
+- legacy DB tooling now under `flow-db/tools/`
+- legacy pipeline test moved to `flow-db/tests/legacy_tools/test_corpus_pipeline.py`
+- supporting dataset tree moved to `flow-db/datasets/`
+
+`database/` remains only for rule/reference docs and generated historical artifacts.
+
+## First Safe DB Migration Block (2026-04-17)
+
+- Archived legacy duplicate bundle from `corpora/flow-db/` to `docs/archive/corpora_flow_db_legacy_snapshot/`.
+- `flow-db/` remains the only canonical FLOW DB runtime code location.
+- `database/` remains support/transitional docs/artifacts only.

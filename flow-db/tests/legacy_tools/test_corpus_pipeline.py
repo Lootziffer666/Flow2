@@ -1,7 +1,7 @@
 import importlib.util, json, sqlite3, zipfile, sys
 from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve().parents[1]
+BASE_DIR = Path(__file__).resolve().parents[2]
 SPEC = importlib.util.spec_from_file_location("cp", BASE_DIR / "tools" / "corpus_pipeline.py")
 cp = importlib.util.module_from_spec(SPEC)
 sys.modules[SPEC.name] = cp

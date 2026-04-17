@@ -1,11 +1,10 @@
 # Database Support Layer (Non-canonical DB Runtime)
 
-`flow-db/` is the canonical database home (schema, migrations, runtime DB tooling).
+`flow-db/` is the canonical database home (schema, migrations, runtime DB tooling, ingestion tools, and DB tests).
 
-This `database/` tree is a supporting/transitional layer containing:
+This `database/` tree is now intentionally reduced to supporting/transitional content:
 - rule documentation (`database/rules/`)
-- research/support datasets (`database/datasets/`)
-- artifacts/reports generated in prior phases (`database/artifacts/`)
-- helper tools/tests for this support layer
+- generated/support artifacts and reports (`database/artifacts/`)
+- compatibility pointer docs (`database/debug/`)
 
 Treat `database/` as supporting content, not canonical DB runtime truth.

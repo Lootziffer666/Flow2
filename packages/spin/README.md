@@ -26,6 +26,12 @@ SPIN schreibt nicht für Nutzer:innen. SPIN macht Muster sichtbar, damit Autor:i
 - pauschale Stiloptimierung
 - SEO-Textoptimierung
 
+## Dokumentation
+
+- Aktive SPIN Konzept-/Produktdokumente: `docs/product/spin/`
+- Prototyp-/Patch-Artefaktbündel: `docs/archive/spin_artifacts/`
+- Reine Forschung-/Referenzebene: `docs/research/`
+
 ## Einstieg
 
 ```bash
@@ -33,4 +39,3 @@ SPIN schreibt nicht für Nutzer:innen. SPIN macht Muster sichtbar, damit Autor:i
 npm install
 npm test -w packages/spin
 ```
-

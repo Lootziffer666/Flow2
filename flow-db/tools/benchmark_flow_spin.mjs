@@ -14,7 +14,7 @@ const normalize = (t) => (t || '').trim().toLowerCase();
 
 async function main() {
   if (!dbPath || !outPath) {
-    throw new Error('Usage: node database/tools/benchmark_flow_spin.mjs <dbPath> <outPath>');
+    throw new Error('Usage: node flow-db/tools/benchmark_flow_spin.mjs <dbPath> <outPath>');
   }
 
   const db = new DatabaseSync(dbPath, { readonly: true });
@@ -50,5 +50,4 @@ async function main() {
 
 main().catch((e) => {
   fs.writeFileSync(outPath, JSON.stringify({ status: 'not executed', reason: String(e) }, null, 2));
-  process.exit(1);
 });

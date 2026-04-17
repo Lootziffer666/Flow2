@@ -240,3 +240,15 @@ Tests expanded from 5 to 24. New coverage includes:
 - No external Python packages are required beyond `pytest` for tests.
 - The schema is intentionally not over-normalised: it is pragmatic enough for
   consistency while remaining easy to query directly.
+
+---
+
+## Canonicalization Notes (Finalization Pass)
+
+The following content was absorbed into `flow-db/` during finalization:
+
+- legacy DB tooling now under `flow-db/tools/`
+- legacy pipeline test moved to `flow-db/tests/legacy_tools/test_corpus_pipeline.py`
+- supporting dataset tree moved to `flow-db/datasets/`
+
+`database/` remains only for rule/reference docs and generated historical artifacts.

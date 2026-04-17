@@ -9,4 +9,13 @@ const { corrected } = runCorrection(input);
 
 assert.equal(corrected, expected);
 
+const splitInfinitive = runCorrection('Er hat vor zugehen.');
+assert.equal(splitInfinitive.corrected, 'Er hat vor zu gehen.');
+
+const keepLiteralEllipsis = runCorrection('Und dann ... keine Ahnung.');
+assert.equal(keepLiteralEllipsis.corrected, 'Und dann ... keine Ahnung.');
+
+const keepInformalLowercase = runCorrection('mach ich später, ok?');
+assert.equal(keepInformalLowercase.corrected, 'mach ich später, ok?');
+
 console.log('Normalization MVP test passed.');

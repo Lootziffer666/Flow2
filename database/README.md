@@ -5,7 +5,6 @@
 This `database/` tree is intentionally reduced to supporting/transitional content:
 - rule documentation (`database/rules/`)
 - generated/support artifacts and reports (`database/artifacts/`)
-- compatibility pointer docs (`database/debug/`)
 
 Important boundary:
 - `database/` is not the canonical DB runtime code home.

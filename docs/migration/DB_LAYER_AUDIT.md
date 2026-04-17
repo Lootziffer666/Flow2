@@ -32,7 +32,6 @@ Legend for status:
 | `flow-db/tests/*`, `flow-db/tests/legacy_tools/*`, `flow-db/tools/*` | DB tests and ingestion/support tooling | `flow-db` | Yes | canonical with legacy sub-scope | keep | none |
 | `database/rules/*` | Maintained rule/rationale/reference docs for FLOW normalization decisions | `shared_supporting` (FLOW-adjacent) | **Yes for now** | transitional but intentionally maintained | keep where-is until curated move decision | human judgment |
 | `database/artifacts/*` | Generated reports/manifests/pattern bundles from prior pipeline runs | `archive` | Mostly yes | transitional/archive | keep; later move selected useful pieces into versioned outputs | mostly automatic |
-| `database/debug/README.md` | Compatibility pointer only | `shared_supporting` | Yes | transitional pointer | keep | none |
 
 ### B. Corpora / raw data / benchmark assets
 
@@ -52,7 +51,7 @@ Legend for status:
 | `packages/flow/src/rules.*.js`, `packages/flow/src/ruleEngine.js` | FLOW runtime correction rules and deterministic repair logic | `flow-db` (logical ownership), currently app runtime | Ambiguous but acceptable | canonical runtime behavior, not DB-serialized yet | later expose rule metadata through `flow-db` or shared registry | human judgment |
 | `packages/flow/src/lexiconFallback.js` | Runtime fallback using CSV corpus (`corpora/German_Annotation_V028.csv`) and inferred maps | `flow-db` with potential `loom-db` overlap | **Partially misplaced** | transitional; embeds dataset-derived lexicon logic in app layer | migrate fallback data provisioning to DB/API boundary | human-guided (risk) |
 | `packages/flow/src/flowRulesStore.js` | Local JSON exception/context rule storage (`flow_rules.json`) | `flow-db` (or shared app config) | Ambiguous | transitional mutable store, not centrally governed | define whether this becomes DB-backed or remains local user config | human judgment |
-| `packages/loom/src/markers.js`, `packages/loom/src/structuralState.js`, `packages/loom/src/signalLayer.js` | Core structural/linguistic marker knowledge and cross-product signaling | `loom-db` (logical ownership) + loom runtime | **Needs future separation** | currently code-level canonical rules in package, no `loom-db` store yet | later lift stable marker/rule resources into `loom-db` | human-guided |
+| `loom-db/language/markers.js`, `loom-db/language/clause_connectors.js`, `packages/loom/src/clauseDetector.js`, `packages/loom/src/chunker.js`, `packages/loom/src/structuralState.js`, `packages/loom/src/signalLayer.js` | Core structural/linguistic marker knowledge and cross-product signaling | `loom-db` + loom runtime | Yes (partial extraction complete) | marker + clause-connector truth canonicalized in loom-db; remaining Loom heuristics still package-embedded | continue controlled Loom extraction | human-guided |
 | `packages/spin/src/rules.en.gr.js` and SPIN diagnosis/config files | SPIN-specific transformation/diagnostic rule assets | `spin-db` (logical future) | Partially | currently in app package only; no `spin-db` layer exists | future extraction of data-like rule assets to `spin-db` | human-guided |
 | `packages/smash/src/signalBridge.js` + smash packs | SMASH blockage hints and intervention assets | `smash-db` (logical future) | Partially | currently package-level only; no DB layer exists | future `smash-db` for intervention metadata + eligibility rules | human-guided |
 | `packages/loom/lab/*` | Evaluation/lab state and benchmark run orchestration UI logic | `shared_supporting` | Yes | tooling layer, not canonical DB storage | keep | none |
@@ -78,7 +77,7 @@ Legend for status:
 ### High-risk duplication zones (semantic)
 
 - **Cross-product linguistic markers vs product rules:**
-  - `packages/loom/src/markers.js` (cross-product marker lists)
+  - `loom-db/language/markers.js` + `loom-db/language/clause_connectors.js` (cross-product linguistic lists)
   - `packages/flow/src/rules.*.js` (product repair rules)
   - `packages/spin/src/rules.en.gr.js` (SPIN transformation rules)
 - Risk: canonical language knowledge could drift across packages without `loom-db` normalization.
@@ -89,9 +88,8 @@ Legend for status:
 
 1. `database/rules/*` is intentionally retained and actively maintained documentation.
 2. `database/artifacts/*` is historical/support output retained for traceability.
-3. `database/debug/README.md` is a compatibility pointer.
-4. `docs/archive/corpora_flow_db_legacy_snapshot/*` preserves legacy duplicate material after cleanup.
-5. Product package rule assets are still code-first (not DB-first), pending formal extraction strategy.
+3. `docs/archive/corpora_flow_db_legacy_snapshot/*` preserves legacy duplicate material after cleanup.
+4. Product package rule assets are still code-first (not DB-first), pending formal extraction strategy.
 
 ---
 
@@ -119,7 +117,7 @@ Legend for status:
 
 ### What should eventually move into `loom-db`
 
-- Cross-product linguistic marker sets and invariant structural/linguistic truth currently embedded in `packages/loom/src/markers.js` and related heuristics.
+- Additional cross-product linguistic truth beyond extracted marker/connector sets now in `loom-db/language/markers.js` and `loom-db/language/clause_connectors.js`.
 - Any future shared lexicon/variant truth that is not FLOW-specific remediation policy.
 
 ### What must remain in `flow-db`

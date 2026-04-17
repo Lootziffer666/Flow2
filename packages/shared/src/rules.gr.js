@@ -74,7 +74,7 @@ const GR_RULES = [
   // -----------------------------------------------------------------------
   {
     id: 'de-gr-komma-nebensatz',
-    from: /([^\s,;:!?.()\[\]{}])(\s+)(dass|weil|obwohl|ob|wenn|falls|nachdem|bevor|sobald|solange)\b/gi,
+    from: /([^\s,;:!?.()\[\]{}])(\s+)(dass|weil|obwohl|ob|wenn|falls|nachdem|bevor|sobald|solange|damit)\b/gi,
     to: '$1,$2$3',
     confidence: 0.88,
   },
@@ -83,14 +83,14 @@ const GR_RULES = [
   // z. B. „und, wenn" → „und wenn"
   {
     id: 'de-gr-komma-nach-koordinator-undo',
-    from: /\b(und|oder|aber|sondern|denn|weder|entweder),(\s+)(dass|weil|obwohl|ob|wenn|falls|nachdem|bevor|sobald|solange)\b/gi,
+    from: /\b(und|oder|aber|sondern|denn|weder|entweder),(\s+)(dass|weil|obwohl|ob|wenn|falls|nachdem|bevor|sobald|solange|damit)\b/gi,
     to: '$1$2$3',
     confidence: 0.99,
   },
   // Schritt 3: „auch wenn" bleibt ohne Komma.
   {
     id: 'de-gr-komma-nach-auch-undo',
-    from: /\b(auch),(\s+)(dass|weil|obwohl|ob|wenn|falls|nachdem|bevor|sobald|solange)\b/gi,
+    from: /\b(auch),(\s+)(dass|weil|obwohl|ob|wenn|falls|nachdem|bevor|sobald|solange|damit)\b/gi,
     to: '$1$2$3',
     confidence: 0.99,
   },

@@ -111,10 +111,14 @@ function applyRulesToUnprotectedText(text, rules) {
 
 
 function normalizeWhitespace(text) {
+  const ellipsisToken = '__FLOW_ELLIPSIS__';
   return String(text)
+    .replace(/\.\s*\.\s*\./g, ellipsisToken)
     .replace(/\s+([,.;!?])/g, '$1')
     .replace(/([,.;!?])(\S)/g, '$1 $2')
     .replace(/\s+/g, ' ')
+    .replace(new RegExp(ellipsisToken, 'g'), '...')
+    .replace(/(\S)\.\.\.(?=\s|$)/g, '$1 ...')
     .trim();
 }
 
@@ -122,12 +126,24 @@ function normalizeSentenceStarts(text, lang = 'de') {
   if (lang === 'en') {
     return String(text)
       .replace(/^\s*([a-z])/g, (match, ch) => match.replace(ch, ch.toUpperCase()))
-      .replace(/([.!?]\s+)([a-z])/g, (match, prefix, ch) => `${prefix}${ch.toUpperCase()}`);
+      .replace(/((?<!\.)[.!?]\s+)([a-z])/g, (match, prefix, ch) => `${prefix}${ch.toUpperCase()}`);
   }
 
-  return String(text)
-    .replace(/^\s*([a-zäöü])/u, (match, ch) => match.replace(ch, ch.toUpperCase()))
-    .replace(/([.!?]\s+)([a-zäöü])/gu, (match, prefix, ch) => `${prefix}${ch.toUpperCase()}`);
+  const source = String(text);
+  const informalLowercaseStarts = new Set([
+    'mach', 'hab', 'habe', 'bin', 'war', 'will', 'kann', 'komm', 'gib', 'sag', 'geh', 'find', 'denk',
+  ]);
+  const firstWord = (source.match(/^\s*([a-zäöüß]+)/iu) || [null, ''])[1].toLowerCase();
+  const shouldKeepLowercaseStart = informalLowercaseStarts.has(firstWord)
+    && !/[.!]\s+[a-zäöü]/u.test(source)
+    && /^[^A-ZÄÖÜ]*[?!]\s*$/u.test(source);
+
+  const maybeCapitalizedStart = shouldKeepLowercaseStart
+    ? source
+    : source.replace(/^\s*([a-zäöü])/u, (match, ch) => match.replace(ch, ch.toUpperCase()));
+
+  return maybeCapitalizedStart
+    .replace(/((?<!\.)[.!?]\s+)([a-zäöü])/gu, (match, prefix, ch) => `${prefix}${ch.toUpperCase()}`);
 }
 
 function buildEnglishLexicalRules() {
@@ -155,6 +171,23 @@ function buildEnglishPresetContextRules(options = {}) {
       pattern: new RegExp(rule.pattern, rule.flags || 'g'),
       replacement: rule.replacement,
     }));
+}
+
+function confidenceThresholdFor(confidenceHint) {
+  if (confidenceHint === 'low') return 0.90;
+  if (confidenceHint === 'medium') return 0.70;
+  return 0;
+}
+
+/**
+ * Mappt einen optionalen Confidence-Hint auf einen numerischen Mindestschwellenwert.
+ * @param {'low'|'medium'|'high'|undefined} hint
+ * @returns {number}
+ */
+function confidenceThresholdFor(hint) {
+  if (hint === 'low')    return 0.90;
+  if (hint === 'medium') return 0.70;
+  return 0; // 'high' oder kein Hint → alle Regeln aktiv
 }
 
 /**

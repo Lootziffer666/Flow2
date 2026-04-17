@@ -30,6 +30,7 @@ SHIFT_REASONS = {
     "register_formalization",
 }
 
+
 @dataclass(frozen=True)
 class Edit:
     start: int

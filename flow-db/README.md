@@ -252,3 +252,9 @@ The following content was absorbed into `flow-db/` during finalization:
 - supporting dataset tree moved to `flow-db/datasets/`
 
 `database/` remains only for rule/reference docs and generated historical artifacts.
+
+## First Safe DB Migration Block (2026-04-17)
+
+- Archived legacy duplicate bundle from `corpora/flow-db/` to `docs/archive/corpora_flow_db_legacy_snapshot/`.
+- `flow-db/` remains the only canonical FLOW DB runtime code location.
+- `database/` remains support/transitional docs/artifacts only.

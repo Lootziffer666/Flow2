@@ -42,7 +42,7 @@ Legend for status:
 | `data/benchmark/*` | Curated benchmark items/predictions + manual examples | `flow-db` (data feeder) | Yes | canonical benchmark data asset root | keep path, keep ownership under FLOW | none |
 | `docs/benchmark/*`, `scripts/benchmark/*`, `tests/benchmark/*` | Benchmark spec, validator/scorer tooling and tests | `shared_supporting` (FLOW benchmark infra) | Yes | canonical tooling/docs, not DB runtime tables | keep | none |
 | `corpora/*` (general raw corpora trees) | Raw external corpora and reference dumps | `shared_supporting` | Yes | source inputs (non-canonical DB runtime) | keep as source-of-truth raw inputs | none |
-| `corpora/flow-db/*` | Older duplicate/starter copy of DB schema/importer stack | `delete_candidate` | **No** | duplicated vs `flow-db/*` | archive or delete after verification | mostly automatic |
+| `docs/archive/corpora_flow_db_legacy_snapshot/*` | Archived legacy duplicate/starter copy formerly under `corpora/flow-db/` | `archive` | Yes | archived non-canonical snapshot | keep archived, no runtime use | none |
 | `corpora/litkey-db/Litkey-DB.xlsx` | Source spreadsheet-like corpus asset | `shared_supporting` | Yes | raw source asset | keep in corpora | none |
 
 ### C. Product runtime knowledge embedded in packages
@@ -63,9 +63,9 @@ Legend for status:
 
 ### Confirmed duplicates/misplacements
 
-1. **`corpora/flow-db/*` duplicates DB runtime stack already canonicalized in `flow-db/*`.**
-   - Classification: `delete_candidate`.
-   - Action later: verify no unique logic remains, then archive/delete.
+1. **Former `corpora/flow-db/*` duplicate was archived to `docs/archive/corpora_flow_db_legacy_snapshot/*`.**
+   - Classification: `archive`.
+   - Action status: completed in first safe migration block; keep as non-canonical historical snapshot.
 
 2. **`packages/flow/src/lexiconFallback.js` directly consumes corpus CSV as runtime lexical source.**
    - Classification: transitional + potential layer leak.
@@ -90,7 +90,7 @@ Legend for status:
 1. `database/rules/*` is intentionally retained and actively maintained documentation.
 2. `database/artifacts/*` is historical/support output retained for traceability.
 3. `database/debug/README.md` is a compatibility pointer.
-4. `corpora/flow-db/*` appears to be legacy duplicate material pending explicit cleanup.
+4. `docs/archive/corpora_flow_db_legacy_snapshot/*` preserves legacy duplicate material after cleanup.
 5. Product package rule assets are still code-first (not DB-first), pending formal extraction strategy.
 
 ---
@@ -108,8 +108,8 @@ Legend for status:
 3. **`flowRulesStore` persistence model.**
    - Decide if user/project exceptions remain local file config or become DB-governed records.
 
-4. **`corpora/flow-db` disposition.**
-   - Confirm no unique value before removal/archive.
+4. **Legacy duplicate disposition follow-up.**
+   - Archived snapshot exists; any retained unique value should be curated into canonical homes explicitly.
 
 5. **Whether `spin-db` and `smash-db` start as DB runtimes or curated resource registries first.**
 

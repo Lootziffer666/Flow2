@@ -12,7 +12,7 @@ Scope: staged migration planning only. No broad restructuring performed in this 
 - Mark explicit owners for each inventory row.
 
 ### Phase 1 — Safe cleanup of clear duplicates
-- Resolve obvious duplicate runtime bundles (`corpora/flow-db/*`) after diff verification.
+- Completed: archived obvious duplicate runtime bundle (`corpora/flow-db/*`) to `docs/archive/corpora_flow_db_legacy_snapshot/`.
 - Keep historical artifacts, but tag as archive/transitional.
 
 ### Phase 2 — Flow boundary hardening
@@ -39,7 +39,7 @@ Scope: staged migration planning only. No broad restructuring performed in this 
 
 These can be automated with low semantic risk once confirmed:
 
-1. **Archive/delete duplicate `corpora/flow-db/*`** after structural diff against `flow-db/*`.
+1. **(Completed in first safe block)** archive duplicate `corpora/flow-db/*` as historical snapshot under `docs/archive/corpora_flow_db_legacy_snapshot/`.
 2. **Tag/relocate stale generated reports** in `database/artifacts/reports/*` into a dated archive namespace (without editing history content).
 3. **Path/reference hygiene updates** where generated reports or docs still point at superseded paths.
 
@@ -127,8 +127,8 @@ Mitigation: introduce one canonical machine-readable source for each semantics d
 
 A practical low-risk first pass should include only:
 
-1. **Duplicate cleanup prep:**
-   - Diff `corpora/flow-db/*` vs `flow-db/*` and produce a “unique-lines report”.
+1. **Duplicate cleanup follow-through:**
+   - Keep archived snapshot non-canonical and avoid new references from runtime/docs.
 
 2. **Classification metadata hardening:**
    - Add short ownership headers/readmes to top-level clusters (`corpora/`, `data/benchmark/`, `database/rules/`, `flow-db/`).

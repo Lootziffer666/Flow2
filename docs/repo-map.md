@@ -23,9 +23,3 @@
 - `docs/migration/DB_LAYER_MIGRATION_PLAN.md` — staged migration strategy.
 - `docs/migration/DB_FIRST_SAFE_MIGRATION_REPORT.md` — execution report for first safe migration block.
 - `docs/migration/DB_SECOND_MIGRATION_REPORT.md` — execution report for second migration block.
-
-## Loom DB extracted resources (current)
-
-- `loom-db/language/markers.js`
-- `loom-db/language/clause_connectors.js`
-- `loom-db/language/lexical_pos.js`

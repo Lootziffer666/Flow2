@@ -22,7 +22,7 @@ Scope: staged migration planning only. No broad restructuring performed in this 
 
 ### Phase 3 — Loom canonical extraction design
 - Define first `loom-db` schema/resources for cross-product language truth.
-- Completed in this block: extracted shared marker-set + clause-connector resources into `loom-db/language/markers.js` and `loom-db/language/clause_connectors.js`.
+- Completed in this block: extracted shared marker-set resource into `loom-db/language/markers.js`.
 - Continue extracting stable Loom-owned language resources from LOOM package code.
 - Introduce consumer contracts for FLOW/SPIN/SMASH (read-only shared layer + product overlays).
 
@@ -66,7 +66,7 @@ Automation notes:
 ## 4) High-risk duplication zones
 
 1. **Language truth duplication risk**
-   - `loom-db/language/markers.js` + `loom-db/language/clause_connectors.js` + remaining Loom heuristics in package code
+   - `loom-db/language/markers.js` + remaining Loom heuristics in package code
    - `packages/flow/src/rules.*.js`
    - `packages/spin/src/rules.en.gr.js`
 

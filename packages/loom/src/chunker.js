@@ -255,8 +255,45 @@ function nextChunkId() {
   return `c${_chunkCounter}`;
 }
 
+// ---------------------------------------------------------------------------
+// Binding-Konstruktor
+// ---------------------------------------------------------------------------
+
+let _bindingCounter = 0;
+function nextBindingId() {
+  _bindingCounter += 1;
+  return `b${_bindingCounter}`;
+}
+
 /**
- * Baut Chunks aus getaggten Tokens auf.
+ * Erstellt ein Binding-Objekt zwischen zwei Chunks.
+ *
+ * Bindungen sind explizite relationale Objekte — keine Chunk-Attribute.
+ * Elastizität gibt an, wie viel Oberflächenverschiebung erlaubt ist,
+ * ohne die funktionale Relation zu zerstören (0.0 = starr, 1.0 = sehr elastisch).
+ *
+ * @param {string} sourceId  - Chunk-ID des Ausgangsobjekts
+ * @param {string} targetId  - Chunk-ID des Zielobjekts
+ * @param {object} spec      - { type, strength, elasticity, uncertainty }
+ * @returns {object}         - Binding-Objekt
+ */
+function createBinding(sourceId, targetId, spec = {}) {
+  return {
+    id:          nextBindingId(),
+    source:      sourceId,
+    target:      targetId,
+    type:        spec.type        || 'modification',
+    strength:    spec.strength    ?? 0.8,
+    elasticity:  spec.elasticity  ?? 0.5,
+    uncertainty: spec.uncertainty ?? 0.0,
+    committed:   false,
+  };
+}
+
+/**
+ * Baut Chunks aus getaggten Tokens auf und erzeugt explizite Bindungen
+ * zwischen den Chunks.
+ *
  * Strategie:
  *   1. Finde das finite Verb (VERB oder AUX) → Prädikat-Kern
  *   2. Alles davor: Pronomen oder erste NP → Subjekt
@@ -266,9 +303,12 @@ function nextChunkId() {
  *   6. Adjektive und Adverbien allein → Ornament
  *   7. Rest → Ornament
  *
+ * Bindungen werden für jede Chunk-Relation explizit erstellt.
+ * Sie sind unabhängige Objekte — nicht Attribute der Chunks.
+ *
  * @param {Array<{id,text,tag}>} tokens
  * @param {string} lang
- * @returns {Array<{id,type,tokenIds,text}>}
+ * @returns {{ chunks: Array<{id,type,tokenIds,text}>, bindings: Array }}
  */
 function buildChunks(tokens, lang) {
   const isDE = lang !== 'en';
@@ -423,7 +463,73 @@ function buildChunks(tokens, lang) {
     }
   }
 
-  return chunks;
+  // -- 9. Build explicit bindings between chunks --
+  // Bindings are first-class objects, not chunk attributes.
+  // Elasticity values encode how much surface displacement is structurally
+  // acceptable without the functional relation being considered broken.
+  const bindings = _buildBindings(chunks);
+
+  return { chunks, bindings };
+}
+
+/**
+ * Derives explicit Binding objects from a chunk array.
+ *
+ * Binding defaults per relation type:
+ *   subject  → predicate : agreement,   strength 0.95, elasticity 0.15
+ *   predicate → object   : modification, strength 0.85, elasticity 0.30
+ *   ornament  → predicate: modification, strength 0.55, elasticity 0.70
+ *   relation  → predicate: subordination, strength 0.80, elasticity 0.10
+ *
+ * @param {Array<{id,type,tokenIds,text}>} chunks
+ * @returns {Array<Binding>}
+ */
+function _buildBindings(chunks) {
+  const bindings = [];
+
+  const predChunk    = chunks.find(c => c.type === 'core.predicate' || c.type === 'state');
+  const subjectChunk = chunks.find(c => c.type === 'core.subject');
+  const objectChunk  = chunks.find(c => c.type === 'core.object');
+  const relChunks    = chunks.filter(c => c.type === 'relation');
+  const ornChunks    = chunks.filter(c => c.type === 'ornament');
+
+  if (predChunk && subjectChunk) {
+    bindings.push(createBinding(subjectChunk.id, predChunk.id, {
+      type:       'agreement',
+      strength:   0.95,
+      elasticity: 0.15,
+    }));
+  }
+
+  if (predChunk && objectChunk) {
+    bindings.push(createBinding(predChunk.id, objectChunk.id, {
+      type:       'modification',
+      strength:   0.85,
+      elasticity: 0.30,
+    }));
+  }
+
+  if (predChunk) {
+    for (const orn of ornChunks) {
+      // Adjuncts (adverbs, modal particles) have high elasticity:
+      // they remain bound to the predicate even when displaced in surface position.
+      bindings.push(createBinding(orn.id, predChunk.id, {
+        type:       'modification',
+        strength:   0.55,
+        elasticity: 0.70,
+      }));
+    }
+
+    for (const rel of relChunks) {
+      bindings.push(createBinding(rel.id, predChunk.id, {
+        type:       'subordination',
+        strength:   0.80,
+        elasticity: 0.10,
+      }));
+    }
+  }
+
+  return bindings;
 }
 
 // ---------------------------------------------------------------------------
@@ -431,32 +537,36 @@ function buildChunks(tokens, lang) {
 // ---------------------------------------------------------------------------
 
 /**
- * Zerlegt einen Satz in funktionale Chunks.
+ * Zerlegt einen Satz in funktionale Chunks und erzeugt explizite Bindungen.
+ *
+ * Rückgabe enthält jetzt `bindings` als eigenständiges Array neben `chunks`.
+ * Bindungen sind keine Chunk-Attribute — sie sind erste Klasse Objekte.
  *
  * @param {string} sentence  - Ein einzelner Satz
  * @param {string} [lang]    - 'de' (Standard) oder 'en'
  * @returns {{
- *   tokens: Array<{id: string, text: string, tag: string}>,
- *   chunks: Array<{id: string, type: string, tokenIds: string[], text: string}>
+ *   tokens:   Array<{id: string, text: string, tag: string}>,
+ *   chunks:   Array<{id: string, type: string, tokenIds: string[], text: string}>,
+ *   bindings: Array<{id, source, target, type, strength, elasticity, uncertainty, committed}>
  * }}
  */
 function chunkSentence(sentence, lang = 'de') {
   const resolvedLang = String(lang || 'de').toLowerCase().startsWith('en') ? 'en' : 'de';
   const words = tokenizeText(String(sentence || ''));
-  if (!words.length) return { tokens: [], chunks: [] };
+  if (!words.length) return { tokens: [], chunks: [], bindings: [] };
 
   const tokens = tagTokens(words, resolvedLang);
-  const chunks = buildChunks(tokens, resolvedLang);
+  const { chunks, bindings } = buildChunks(tokens, resolvedLang);
 
-  return { tokens, chunks };
+  return { tokens, chunks, bindings };
 }
 
 /**
- * Zerlegt einen mehrsätzigen Text in Chunk-Strukturen pro Satz.
+ * Zerlegt einen mehrsätzigen Text in Chunk-Strukturen und Bindungen pro Satz.
  *
  * @param {string} text
  * @param {string} [lang]
- * @returns {Array<{sentence: string, tokens: Array, chunks: Array}>}
+ * @returns {Array<{sentence: string, tokens: Array, chunks: Array, bindings: Array}>}
  */
 function chunkText(text, lang = 'de') {
   const { splitSentences } = require('./clauseDetector');

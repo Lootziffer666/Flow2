@@ -19,3 +19,8 @@ Desktop.ini
 # Flow runtime
 flow_rules.json
 flow_startup.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo

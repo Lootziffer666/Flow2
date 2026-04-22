@@ -9,3 +9,6 @@ Canonical location for benchmark data assets used by FLOW evaluation tooling.
 
 Related docs and specs are in `docs/benchmark/`.
 DB-facing benchmark workflows live under `flow-db/benchmarks/`.
+
+For the rolling multi-cycle synthetic sentence output (same type taxonomy,
+continuously extended), see `data/synthetic/README.md`.

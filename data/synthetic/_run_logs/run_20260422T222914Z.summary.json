@@ -1,0 +1,42 @@
+{
+  "session_id": "20260422T222914Z",
+  "branch": "claude/confident-fermi-KmAPF",
+  "wall_hours_configured": 3.0,
+  "wall_seconds_used": 234.26,
+  "cycles_run": 80,
+  "per_type_target": 300,
+  "totals": {
+    "flow-de-easy-neutral": {
+      "accepted": 22036,
+      "rejected": 11621,
+      "cycles": 80
+    },
+    "flow-de-medium-mixed": {
+      "accepted": 23203,
+      "rejected": 9212,
+      "cycles": 80
+    },
+    "flow-de-hard-mixed": {
+      "accepted": 21211,
+      "rejected": 12989,
+      "cycles": 80
+    },
+    "flow-en-easy-neutral": {
+      "accepted": 21058,
+      "rejected": 13051,
+      "cycles": 80
+    },
+    "flow-en-medium-teen": {
+      "accepted": 21978,
+      "rejected": 11551,
+      "cycles": 80
+    },
+    "flow-en-hard-mixed": {
+      "accepted": 21231,
+      "rejected": 12901,
+      "cycles": 80
+    }
+  },
+  "log_path": "data/synthetic/_run_logs/run_20260422T222914Z.log",
+  "stats_path": "data/synthetic/_run_logs/run_20260422T222914Z.stats.jsonl"
+}

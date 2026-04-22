@@ -1,0 +1,726 @@
+[2026-04-22T22:29:14+00:00] session 20260422T222914Z start
+[2026-04-22T22:29:14+00:00] branch=claude/confident-fermi-KmAPF wall_hours=3.0 per_type=300 min_accept=150 push=True cycle_cap=80
+[2026-04-22T22:29:14+00:00] dataset types: ['flow-de-easy-neutral', 'flow-de-medium-mixed', 'flow-de-hard-mixed', 'flow-en-easy-neutral', 'flow-en-medium-teen', 'flow-en-hard-mixed']
+[2026-04-22T22:29:14+00:00] --- cycle 1 start ---
+[2026-04-22T22:29:14+00:00] cycle 1 flow-de-easy-neutral: accepted=300 rejected=0 junk=0 length=0 dup_batch=0 dup_global=0 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0001_20260422T222914+0000.jsonl
+[2026-04-22T22:29:14+00:00] cycle 1 flow-de-medium-mixed: accepted=300 rejected=0 junk=0 length=0 dup_batch=0 dup_global=0 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0001_20260422T222914+0000.jsonl
+[2026-04-22T22:29:14+00:00] cycle 1 flow-de-hard-mixed: accepted=300 rejected=2 junk=0 length=0 dup_batch=0 dup_global=0 near_dup=2 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0001_20260422T222914+0000.jsonl
+[2026-04-22T22:29:14+00:00] cycle 1 flow-en-easy-neutral: accepted=300 rejected=0 junk=0 length=0 dup_batch=0 dup_global=0 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0001_20260422T222914+0000.jsonl
+[2026-04-22T22:29:14+00:00] cycle 1 flow-en-medium-teen: accepted=300 rejected=0 junk=0 length=0 dup_batch=0 dup_global=0 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0001_20260422T222914+0000.jsonl
+[2026-04-22T22:29:14+00:00] cycle 1 flow-en-hard-mixed: accepted=300 rejected=1 junk=0 length=0 dup_batch=0 dup_global=0 near_dup=1 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0001_20260422T222914+0000.jsonl
+[2026-04-22T22:29:16+00:00] cycle 1: commit=e149ba0a49739b68843ccd1b93c6e35753e9ff9b push=push ok
+[2026-04-22T22:29:16+00:00] --- cycle 1 end (2.6s) ---
+[2026-04-22T22:29:16+00:00] --- cycle 2 start ---
+[2026-04-22T22:29:16+00:00] cycle 2 flow-de-easy-neutral: accepted=300 rejected=2 junk=0 length=0 dup_batch=0 dup_global=2 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0002_20260422T222916+0000.jsonl
+[2026-04-22T22:29:16+00:00] cycle 2 flow-de-medium-mixed: accepted=300 rejected=1 junk=0 length=0 dup_batch=0 dup_global=1 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0002_20260422T222916+0000.jsonl
+[2026-04-22T22:29:16+00:00] cycle 2 flow-de-hard-mixed: accepted=300 rejected=4 junk=0 length=0 dup_batch=0 dup_global=1 near_dup=3 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0002_20260422T222916+0000.jsonl
+[2026-04-22T22:29:16+00:00] cycle 2 flow-en-easy-neutral: accepted=300 rejected=4 junk=0 length=0 dup_batch=0 dup_global=4 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0002_20260422T222916+0000.jsonl
+[2026-04-22T22:29:16+00:00] cycle 2 flow-en-medium-teen: accepted=300 rejected=1 junk=0 length=0 dup_batch=0 dup_global=1 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0002_20260422T222916+0000.jsonl
+[2026-04-22T22:29:16+00:00] cycle 2 flow-en-hard-mixed: accepted=300 rejected=6 junk=0 length=0 dup_batch=0 dup_global=2 near_dup=4 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0002_20260422T222916+0000.jsonl
+[2026-04-22T22:29:19+00:00] cycle 2: commit=eb90d711e3e43d10d8d233a205143c9dd29e81f4 push=push ok
+[2026-04-22T22:29:19+00:00] --- cycle 2 end (3.0s) ---
+[2026-04-22T22:29:19+00:00] --- cycle 3 start ---
+[2026-04-22T22:29:19+00:00] cycle 3 flow-de-easy-neutral: accepted=300 rejected=6 junk=0 length=0 dup_batch=0 dup_global=6 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0003_20260422T222919+0000.jsonl
+[2026-04-22T22:29:19+00:00] cycle 3 flow-de-medium-mixed: accepted=300 rejected=0 junk=0 length=0 dup_batch=0 dup_global=0 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0003_20260422T222919+0000.jsonl
+[2026-04-22T22:29:19+00:00] cycle 3 flow-de-hard-mixed: accepted=300 rejected=6 junk=0 length=0 dup_batch=0 dup_global=1 near_dup=5 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0003_20260422T222919+0000.jsonl
+[2026-04-22T22:29:19+00:00] cycle 3 flow-en-easy-neutral: accepted=300 rejected=5 junk=0 length=0 dup_batch=0 dup_global=5 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0003_20260422T222919+0000.jsonl
+[2026-04-22T22:29:19+00:00] cycle 3 flow-en-medium-teen: accepted=300 rejected=3 junk=0 length=0 dup_batch=0 dup_global=3 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0003_20260422T222919+0000.jsonl
+[2026-04-22T22:29:19+00:00] cycle 3 flow-en-hard-mixed: accepted=300 rejected=17 junk=0 length=0 dup_batch=0 dup_global=12 near_dup=5 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0003_20260422T222919+0000.jsonl
+[2026-04-22T22:29:22+00:00] cycle 3: commit=b65433d2cbaae892bef54d3ecce679725ae230c4 push=push ok
+[2026-04-22T22:29:22+00:00] --- cycle 3 end (2.7s) ---
+[2026-04-22T22:29:22+00:00] --- cycle 4 start ---
+[2026-04-22T22:29:22+00:00] cycle 4 flow-de-easy-neutral: accepted=300 rejected=6 junk=0 length=0 dup_batch=0 dup_global=6 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0004_20260422T222922+0000.jsonl
+[2026-04-22T22:29:22+00:00] cycle 4 flow-de-medium-mixed: accepted=300 rejected=6 junk=0 length=0 dup_batch=0 dup_global=6 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0004_20260422T222922+0000.jsonl
+[2026-04-22T22:29:22+00:00] cycle 4 flow-de-hard-mixed: accepted=300 rejected=13 junk=0 length=0 dup_batch=0 dup_global=7 near_dup=6 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0004_20260422T222922+0000.jsonl
+[2026-04-22T22:29:22+00:00] cycle 4 flow-en-easy-neutral: accepted=300 rejected=8 junk=0 length=0 dup_batch=0 dup_global=8 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0004_20260422T222922+0000.jsonl
+[2026-04-22T22:29:22+00:00] cycle 4 flow-en-medium-teen: accepted=300 rejected=7 junk=0 length=0 dup_batch=0 dup_global=7 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0004_20260422T222922+0000.jsonl
+[2026-04-22T22:29:22+00:00] cycle 4 flow-en-hard-mixed: accepted=300 rejected=11 junk=0 length=0 dup_batch=0 dup_global=8 near_dup=3 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0004_20260422T222922+0000.jsonl
+[2026-04-22T22:29:25+00:00] cycle 4: commit=61419b7d60955e8a1ead16566cd68f54bd054d52 push=push ok
+[2026-04-22T22:29:25+00:00] --- cycle 4 end (2.5s) ---
+[2026-04-22T22:29:25+00:00] --- cycle 5 start ---
+[2026-04-22T22:29:25+00:00] cycle 5 flow-de-easy-neutral: accepted=300 rejected=11 junk=0 length=0 dup_batch=0 dup_global=11 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0005_20260422T222925+0000.jsonl
+[2026-04-22T22:29:25+00:00] cycle 5 flow-de-medium-mixed: accepted=300 rejected=12 junk=0 length=0 dup_batch=0 dup_global=11 near_dup=1 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0005_20260422T222925+0000.jsonl
+[2026-04-22T22:29:25+00:00] cycle 5 flow-de-hard-mixed: accepted=300 rejected=17 junk=0 length=0 dup_batch=0 dup_global=9 near_dup=8 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0005_20260422T222925+0000.jsonl
+[2026-04-22T22:29:25+00:00] cycle 5 flow-en-easy-neutral: accepted=300 rejected=6 junk=0 length=0 dup_batch=0 dup_global=6 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0005_20260422T222925+0000.jsonl
+[2026-04-22T22:29:25+00:00] cycle 5 flow-en-medium-teen: accepted=300 rejected=10 junk=0 length=0 dup_batch=0 dup_global=10 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0005_20260422T222925+0000.jsonl
+[2026-04-22T22:29:25+00:00] cycle 5 flow-en-hard-mixed: accepted=300 rejected=19 junk=0 length=0 dup_batch=0 dup_global=15 near_dup=4 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0005_20260422T222925+0000.jsonl
+[2026-04-22T22:29:27+00:00] cycle 5: commit=15b7b0b0a6beea1c8f5e31a85ea8bfa368b7e11a push=push ok
+[2026-04-22T22:29:27+00:00] --- cycle 5 end (2.8s) ---
+[2026-04-22T22:29:27+00:00] --- cycle 6 start ---
+[2026-04-22T22:29:27+00:00] cycle 6 flow-de-easy-neutral: accepted=300 rejected=12 junk=0 length=0 dup_batch=0 dup_global=12 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0006_20260422T222927+0000.jsonl
+[2026-04-22T22:29:27+00:00] cycle 6 flow-de-medium-mixed: accepted=300 rejected=8 junk=0 length=0 dup_batch=0 dup_global=8 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0006_20260422T222927+0000.jsonl
+[2026-04-22T22:29:27+00:00] cycle 6 flow-de-hard-mixed: accepted=300 rejected=12 junk=0 length=0 dup_batch=0 dup_global=12 near_dup=0 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0006_20260422T222927+0000.jsonl
+[2026-04-22T22:29:27+00:00] cycle 6 flow-en-easy-neutral: accepted=300 rejected=9 junk=0 length=0 dup_batch=0 dup_global=9 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0006_20260422T222927+0000.jsonl
+[2026-04-22T22:29:27+00:00] cycle 6 flow-en-medium-teen: accepted=300 rejected=19 junk=0 length=0 dup_batch=0 dup_global=19 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0006_20260422T222927+0000.jsonl
+[2026-04-22T22:29:27+00:00] cycle 6 flow-en-hard-mixed: accepted=300 rejected=15 junk=0 length=0 dup_batch=0 dup_global=12 near_dup=3 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0006_20260422T222927+0000.jsonl
+[2026-04-22T22:29:30+00:00] cycle 6: commit=ca4a73b070ba35bbd7e017f2bee9ecd5d3157528 push=push ok
+[2026-04-22T22:29:30+00:00] --- cycle 6 end (2.6s) ---
+[2026-04-22T22:29:30+00:00] --- cycle 7 start ---
+[2026-04-22T22:29:30+00:00] cycle 7 flow-de-easy-neutral: accepted=300 rejected=15 junk=0 length=0 dup_batch=0 dup_global=15 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0007_20260422T222930+0000.jsonl
+[2026-04-22T22:29:30+00:00] cycle 7 flow-de-medium-mixed: accepted=300 rejected=16 junk=0 length=0 dup_batch=0 dup_global=16 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0007_20260422T222930+0000.jsonl
+[2026-04-22T22:29:30+00:00] cycle 7 flow-de-hard-mixed: accepted=300 rejected=22 junk=0 length=0 dup_batch=0 dup_global=18 near_dup=4 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0007_20260422T222930+0000.jsonl
+[2026-04-22T22:29:30+00:00] cycle 7 flow-en-easy-neutral: accepted=300 rejected=22 junk=0 length=0 dup_batch=0 dup_global=22 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0007_20260422T222930+0000.jsonl
+[2026-04-22T22:29:30+00:00] cycle 7 flow-en-medium-teen: accepted=300 rejected=21 junk=0 length=0 dup_batch=0 dup_global=21 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0007_20260422T222930+0000.jsonl
+[2026-04-22T22:29:30+00:00] cycle 7 flow-en-hard-mixed: accepted=300 rejected=14 junk=0 length=0 dup_batch=0 dup_global=12 near_dup=2 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0007_20260422T222930+0000.jsonl
+[2026-04-22T22:29:33+00:00] cycle 7: commit=df37f2c728229aac7b9bac73ab6be2552ce0062d push=push ok
+[2026-04-22T22:29:33+00:00] --- cycle 7 end (2.8s) ---
+[2026-04-22T22:29:33+00:00] --- cycle 8 start ---
+[2026-04-22T22:29:33+00:00] cycle 8 flow-de-easy-neutral: accepted=300 rejected=21 junk=0 length=0 dup_batch=0 dup_global=21 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0008_20260422T222933+0000.jsonl
+[2026-04-22T22:29:33+00:00] cycle 8 flow-de-medium-mixed: accepted=300 rejected=14 junk=0 length=0 dup_batch=0 dup_global=14 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0008_20260422T222933+0000.jsonl
+[2026-04-22T22:29:33+00:00] cycle 8 flow-de-hard-mixed: accepted=300 rejected=26 junk=0 length=0 dup_batch=0 dup_global=19 near_dup=7 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0008_20260422T222933+0000.jsonl
+[2026-04-22T22:29:33+00:00] cycle 8 flow-en-easy-neutral: accepted=300 rejected=21 junk=0 length=0 dup_batch=0 dup_global=21 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0008_20260422T222933+0000.jsonl
+[2026-04-22T22:29:33+00:00] cycle 8 flow-en-medium-teen: accepted=300 rejected=13 junk=0 length=0 dup_batch=0 dup_global=12 near_dup=1 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0008_20260422T222933+0000.jsonl
+[2026-04-22T22:29:33+00:00] cycle 8 flow-en-hard-mixed: accepted=300 rejected=20 junk=0 length=0 dup_batch=0 dup_global=16 near_dup=4 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0008_20260422T222933+0000.jsonl
+[2026-04-22T22:29:35+00:00] cycle 8: commit=7b81891771a7683aa18c13037dca0a7e03704cdb push=push ok
+[2026-04-22T22:29:35+00:00] --- cycle 8 end (2.7s) ---
+[2026-04-22T22:29:35+00:00] --- cycle 9 start ---
+[2026-04-22T22:29:35+00:00] cycle 9 flow-de-easy-neutral: accepted=300 rejected=14 junk=0 length=0 dup_batch=0 dup_global=14 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0009_20260422T222935+0000.jsonl
+[2026-04-22T22:29:35+00:00] cycle 9 flow-de-medium-mixed: accepted=300 rejected=13 junk=0 length=0 dup_batch=0 dup_global=13 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0009_20260422T222935+0000.jsonl
+[2026-04-22T22:29:35+00:00] cycle 9 flow-de-hard-mixed: accepted=300 rejected=34 junk=0 length=0 dup_batch=0 dup_global=31 near_dup=3 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0009_20260422T222935+0000.jsonl
+[2026-04-22T22:29:35+00:00] cycle 9 flow-en-easy-neutral: accepted=300 rejected=21 junk=0 length=0 dup_batch=0 dup_global=21 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0009_20260422T222935+0000.jsonl
+[2026-04-22T22:29:36+00:00] cycle 9 flow-en-medium-teen: accepted=300 rejected=22 junk=0 length=0 dup_batch=0 dup_global=22 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0009_20260422T222935+0000.jsonl
+[2026-04-22T22:29:36+00:00] cycle 9 flow-en-hard-mixed: accepted=300 rejected=30 junk=0 length=0 dup_batch=0 dup_global=28 near_dup=2 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0009_20260422T222935+0000.jsonl
+[2026-04-22T22:29:38+00:00] cycle 9: commit=abaa6b56abfb3df717964acb6ad195fb7f0beb90 push=push ok
+[2026-04-22T22:29:38+00:00] --- cycle 9 end (2.8s) ---
+[2026-04-22T22:29:38+00:00] --- cycle 10 start ---
+[2026-04-22T22:29:38+00:00] cycle 10 flow-de-easy-neutral: accepted=300 rejected=23 junk=0 length=0 dup_batch=0 dup_global=23 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0010_20260422T222938+0000.jsonl
+[2026-04-22T22:29:38+00:00] cycle 10 flow-de-medium-mixed: accepted=300 rejected=17 junk=0 length=0 dup_batch=0 dup_global=17 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0010_20260422T222938+0000.jsonl
+[2026-04-22T22:29:38+00:00] cycle 10 flow-de-hard-mixed: accepted=300 rejected=26 junk=0 length=0 dup_batch=0 dup_global=26 near_dup=0 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0010_20260422T222938+0000.jsonl
+[2026-04-22T22:29:38+00:00] cycle 10 flow-en-easy-neutral: accepted=300 rejected=33 junk=0 length=0 dup_batch=0 dup_global=33 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0010_20260422T222938+0000.jsonl
+[2026-04-22T22:29:38+00:00] cycle 10 flow-en-medium-teen: accepted=300 rejected=23 junk=0 length=0 dup_batch=0 dup_global=23 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0010_20260422T222938+0000.jsonl
+[2026-04-22T22:29:38+00:00] cycle 10 flow-en-hard-mixed: accepted=300 rejected=27 junk=0 length=0 dup_batch=0 dup_global=26 near_dup=1 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0010_20260422T222938+0000.jsonl
+[2026-04-22T22:29:41+00:00] cycle 10: commit=43577f4502edf80a6d66d0668d4fc428cdf9572d push=push ok
+[2026-04-22T22:29:41+00:00] --- cycle 10 end (2.7s) ---
+[2026-04-22T22:29:41+00:00] --- cycle 11 start ---
+[2026-04-22T22:29:41+00:00] cycle 11 flow-de-easy-neutral: accepted=300 rejected=23 junk=0 length=0 dup_batch=0 dup_global=23 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0011_20260422T222941+0000.jsonl
+[2026-04-22T22:29:41+00:00] cycle 11 flow-de-medium-mixed: accepted=300 rejected=20 junk=0 length=0 dup_batch=0 dup_global=20 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0011_20260422T222941+0000.jsonl
+[2026-04-22T22:29:41+00:00] cycle 11 flow-de-hard-mixed: accepted=300 rejected=34 junk=0 length=0 dup_batch=0 dup_global=30 near_dup=4 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0011_20260422T222941+0000.jsonl
+[2026-04-22T22:29:41+00:00] cycle 11 flow-en-easy-neutral: accepted=300 rejected=36 junk=0 length=0 dup_batch=0 dup_global=36 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0011_20260422T222941+0000.jsonl
+[2026-04-22T22:29:41+00:00] cycle 11 flow-en-medium-teen: accepted=300 rejected=31 junk=0 length=0 dup_batch=0 dup_global=31 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0011_20260422T222941+0000.jsonl
+[2026-04-22T22:29:41+00:00] cycle 11 flow-en-hard-mixed: accepted=300 rejected=36 junk=0 length=0 dup_batch=0 dup_global=35 near_dup=1 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0011_20260422T222941+0000.jsonl
+[2026-04-22T22:29:44+00:00] cycle 11: commit=2e77ef7a5018bbbbfed1873b055edfc749fbf18d push=push ok
+[2026-04-22T22:29:44+00:00] --- cycle 11 end (2.7s) ---
+[2026-04-22T22:29:44+00:00] --- cycle 12 start ---
+[2026-04-22T22:29:44+00:00] cycle 12 flow-de-easy-neutral: accepted=300 rejected=27 junk=0 length=0 dup_batch=0 dup_global=27 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0012_20260422T222944+0000.jsonl
+[2026-04-22T22:29:44+00:00] cycle 12 flow-de-medium-mixed: accepted=300 rejected=20 junk=0 length=0 dup_batch=0 dup_global=20 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0012_20260422T222944+0000.jsonl
+[2026-04-22T22:29:44+00:00] cycle 12 flow-de-hard-mixed: accepted=300 rejected=40 junk=0 length=0 dup_batch=0 dup_global=36 near_dup=4 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0012_20260422T222944+0000.jsonl
+[2026-04-22T22:29:44+00:00] cycle 12 flow-en-easy-neutral: accepted=300 rejected=23 junk=0 length=0 dup_batch=0 dup_global=23 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0012_20260422T222944+0000.jsonl
+[2026-04-22T22:29:44+00:00] cycle 12 flow-en-medium-teen: accepted=300 rejected=36 junk=0 length=0 dup_batch=0 dup_global=36 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0012_20260422T222944+0000.jsonl
+[2026-04-22T22:29:44+00:00] cycle 12 flow-en-hard-mixed: accepted=300 rejected=33 junk=0 length=0 dup_batch=0 dup_global=31 near_dup=2 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0012_20260422T222944+0000.jsonl
+[2026-04-22T22:29:47+00:00] cycle 12: commit=9d749c3328110834e240edbd8ea60b1fc9eaded4 push=push ok
+[2026-04-22T22:29:47+00:00] --- cycle 12 end (3.0s) ---
+[2026-04-22T22:29:47+00:00] --- cycle 13 start ---
+[2026-04-22T22:29:47+00:00] cycle 13 flow-de-easy-neutral: accepted=300 rejected=29 junk=0 length=0 dup_batch=0 dup_global=29 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0013_20260422T222947+0000.jsonl
+[2026-04-22T22:29:47+00:00] cycle 13 flow-de-medium-mixed: accepted=300 rejected=22 junk=0 length=0 dup_batch=0 dup_global=22 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0013_20260422T222947+0000.jsonl
+[2026-04-22T22:29:47+00:00] cycle 13 flow-de-hard-mixed: accepted=300 rejected=42 junk=0 length=0 dup_batch=0 dup_global=41 near_dup=1 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0013_20260422T222947+0000.jsonl
+[2026-04-22T22:29:47+00:00] cycle 13 flow-en-easy-neutral: accepted=300 rejected=43 junk=0 length=0 dup_batch=0 dup_global=43 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0013_20260422T222947+0000.jsonl
+[2026-04-22T22:29:47+00:00] cycle 13 flow-en-medium-teen: accepted=300 rejected=28 junk=0 length=0 dup_batch=0 dup_global=28 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0013_20260422T222947+0000.jsonl
+[2026-04-22T22:29:47+00:00] cycle 13 flow-en-hard-mixed: accepted=300 rejected=48 junk=0 length=0 dup_batch=0 dup_global=45 near_dup=3 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0013_20260422T222947+0000.jsonl
+[2026-04-22T22:29:49+00:00] cycle 13: commit=9aaafdf9e8774eb9169ebb4c251ffd563e41fffd push=push ok
+[2026-04-22T22:29:49+00:00] --- cycle 13 end (2.7s) ---
+[2026-04-22T22:29:49+00:00] --- cycle 14 start ---
+[2026-04-22T22:29:49+00:00] cycle 14 flow-de-easy-neutral: accepted=300 rejected=30 junk=0 length=0 dup_batch=0 dup_global=30 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0014_20260422T222949+0000.jsonl
+[2026-04-22T22:29:49+00:00] cycle 14 flow-de-medium-mixed: accepted=300 rejected=29 junk=0 length=0 dup_batch=0 dup_global=29 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0014_20260422T222949+0000.jsonl
+[2026-04-22T22:29:49+00:00] cycle 14 flow-de-hard-mixed: accepted=300 rejected=39 junk=0 length=0 dup_batch=0 dup_global=33 near_dup=6 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0014_20260422T222949+0000.jsonl
+[2026-04-22T22:29:49+00:00] cycle 14 flow-en-easy-neutral: accepted=300 rejected=48 junk=0 length=0 dup_batch=0 dup_global=48 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0014_20260422T222949+0000.jsonl
+[2026-04-22T22:29:49+00:00] cycle 14 flow-en-medium-teen: accepted=300 rejected=40 junk=0 length=0 dup_batch=0 dup_global=40 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0014_20260422T222949+0000.jsonl
+[2026-04-22T22:29:49+00:00] cycle 14 flow-en-hard-mixed: accepted=300 rejected=43 junk=0 length=0 dup_batch=0 dup_global=39 near_dup=4 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0014_20260422T222949+0000.jsonl
+[2026-04-22T22:29:52+00:00] cycle 14: commit=e33e208b8128c9f775c30f16b63f7db1f706d70b push=push ok
+[2026-04-22T22:29:52+00:00] --- cycle 14 end (2.7s) ---
+[2026-04-22T22:29:52+00:00] --- cycle 15 start ---
+[2026-04-22T22:29:52+00:00] cycle 15 flow-de-easy-neutral: accepted=300 rejected=39 junk=0 length=0 dup_batch=0 dup_global=39 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0015_20260422T222952+0000.jsonl
+[2026-04-22T22:29:52+00:00] cycle 15 flow-de-medium-mixed: accepted=300 rejected=33 junk=0 length=0 dup_batch=0 dup_global=33 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0015_20260422T222952+0000.jsonl
+[2026-04-22T22:29:52+00:00] cycle 15 flow-de-hard-mixed: accepted=300 rejected=44 junk=0 length=0 dup_batch=0 dup_global=43 near_dup=1 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0015_20260422T222952+0000.jsonl
+[2026-04-22T22:29:52+00:00] cycle 15 flow-en-easy-neutral: accepted=300 rejected=39 junk=0 length=0 dup_batch=0 dup_global=39 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0015_20260422T222952+0000.jsonl
+[2026-04-22T22:29:52+00:00] cycle 15 flow-en-medium-teen: accepted=300 rejected=35 junk=0 length=0 dup_batch=0 dup_global=35 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0015_20260422T222952+0000.jsonl
+[2026-04-22T22:29:52+00:00] cycle 15 flow-en-hard-mixed: accepted=300 rejected=45 junk=0 length=0 dup_batch=0 dup_global=40 near_dup=5 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0015_20260422T222952+0000.jsonl
+[2026-04-22T22:29:55+00:00] cycle 15: commit=3424dba5b82b33931a26fe32b117f2ccc794f58c push=push ok
+[2026-04-22T22:29:55+00:00] --- cycle 15 end (2.8s) ---
+[2026-04-22T22:29:55+00:00] --- cycle 16 start ---
+[2026-04-22T22:29:55+00:00] cycle 16 flow-de-easy-neutral: accepted=300 rejected=49 junk=0 length=0 dup_batch=0 dup_global=49 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0016_20260422T222955+0000.jsonl
+[2026-04-22T22:29:55+00:00] cycle 16 flow-de-medium-mixed: accepted=300 rejected=23 junk=0 length=0 dup_batch=0 dup_global=23 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0016_20260422T222955+0000.jsonl
+[2026-04-22T22:29:55+00:00] cycle 16 flow-de-hard-mixed: accepted=300 rejected=50 junk=0 length=0 dup_batch=0 dup_global=44 near_dup=6 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0016_20260422T222955+0000.jsonl
+[2026-04-22T22:29:55+00:00] cycle 16 flow-en-easy-neutral: accepted=300 rejected=51 junk=0 length=0 dup_batch=0 dup_global=51 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0016_20260422T222955+0000.jsonl
+[2026-04-22T22:29:55+00:00] cycle 16 flow-en-medium-teen: accepted=300 rejected=39 junk=0 length=0 dup_batch=0 dup_global=39 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0016_20260422T222955+0000.jsonl
+[2026-04-22T22:29:55+00:00] cycle 16 flow-en-hard-mixed: accepted=300 rejected=46 junk=0 length=0 dup_batch=0 dup_global=43 near_dup=3 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0016_20260422T222955+0000.jsonl
+[2026-04-22T22:29:58+00:00] cycle 16: commit=52395cc38ff64e709a2f52cd14660dc1c8d20540 push=push ok
+[2026-04-22T22:29:58+00:00] --- cycle 16 end (2.8s) ---
+[2026-04-22T22:29:58+00:00] --- cycle 17 start ---
+[2026-04-22T22:29:58+00:00] cycle 17 flow-de-easy-neutral: accepted=300 rejected=45 junk=0 length=0 dup_batch=0 dup_global=45 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0017_20260422T222958+0000.jsonl
+[2026-04-22T22:29:58+00:00] cycle 17 flow-de-medium-mixed: accepted=300 rejected=36 junk=0 length=0 dup_batch=0 dup_global=36 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0017_20260422T222958+0000.jsonl
+[2026-04-22T22:29:58+00:00] cycle 17 flow-de-hard-mixed: accepted=300 rejected=52 junk=0 length=0 dup_batch=0 dup_global=51 near_dup=1 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0017_20260422T222958+0000.jsonl
+[2026-04-22T22:29:58+00:00] cycle 17 flow-en-easy-neutral: accepted=300 rejected=57 junk=0 length=0 dup_batch=0 dup_global=57 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0017_20260422T222958+0000.jsonl
+[2026-04-22T22:29:58+00:00] cycle 17 flow-en-medium-teen: accepted=300 rejected=48 junk=0 length=0 dup_batch=0 dup_global=48 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0017_20260422T222958+0000.jsonl
+[2026-04-22T22:29:58+00:00] cycle 17 flow-en-hard-mixed: accepted=300 rejected=68 junk=0 length=0 dup_batch=0 dup_global=65 near_dup=3 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0017_20260422T222958+0000.jsonl
+[2026-04-22T22:30:00+00:00] cycle 17: commit=5799f9b22aef8cfe37480c01b807f8edff885bbe push=push ok
+[2026-04-22T22:30:00+00:00] --- cycle 17 end (2.9s) ---
+[2026-04-22T22:30:00+00:00] --- cycle 18 start ---
+[2026-04-22T22:30:00+00:00] cycle 18 flow-de-easy-neutral: accepted=300 rejected=44 junk=0 length=0 dup_batch=0 dup_global=44 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0018_20260422T223000+0000.jsonl
+[2026-04-22T22:30:01+00:00] cycle 18 flow-de-medium-mixed: accepted=300 rejected=56 junk=0 length=0 dup_batch=0 dup_global=56 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0018_20260422T223000+0000.jsonl
+[2026-04-22T22:30:01+00:00] cycle 18 flow-de-hard-mixed: accepted=300 rejected=70 junk=0 length=0 dup_batch=0 dup_global=68 near_dup=2 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0018_20260422T223000+0000.jsonl
+[2026-04-22T22:30:01+00:00] cycle 18 flow-en-easy-neutral: accepted=300 rejected=60 junk=0 length=0 dup_batch=0 dup_global=60 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0018_20260422T223000+0000.jsonl
+[2026-04-22T22:30:01+00:00] cycle 18 flow-en-medium-teen: accepted=300 rejected=60 junk=0 length=0 dup_batch=0 dup_global=60 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0018_20260422T223000+0000.jsonl
+[2026-04-22T22:30:01+00:00] cycle 18 flow-en-hard-mixed: accepted=300 rejected=62 junk=0 length=0 dup_batch=0 dup_global=61 near_dup=1 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0018_20260422T223000+0000.jsonl
+[2026-04-22T22:30:03+00:00] cycle 18: commit=2e7c1c8980a83fcb27d0dd2dd0f4ab1779624bbb push=push ok
+[2026-04-22T22:30:03+00:00] --- cycle 18 end (2.9s) ---
+[2026-04-22T22:30:03+00:00] --- cycle 19 start ---
+[2026-04-22T22:30:03+00:00] cycle 19 flow-de-easy-neutral: accepted=300 rejected=49 junk=0 length=0 dup_batch=0 dup_global=49 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0019_20260422T223003+0000.jsonl
+[2026-04-22T22:30:03+00:00] cycle 19 flow-de-medium-mixed: accepted=300 rejected=38 junk=0 length=0 dup_batch=0 dup_global=37 near_dup=1 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0019_20260422T223003+0000.jsonl
+[2026-04-22T22:30:03+00:00] cycle 19 flow-de-hard-mixed: accepted=300 rejected=75 junk=0 length=0 dup_batch=0 dup_global=73 near_dup=2 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0019_20260422T223003+0000.jsonl
+[2026-04-22T22:30:03+00:00] cycle 19 flow-en-easy-neutral: accepted=300 rejected=63 junk=0 length=0 dup_batch=0 dup_global=63 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0019_20260422T223003+0000.jsonl
+[2026-04-22T22:30:03+00:00] cycle 19 flow-en-medium-teen: accepted=300 rejected=52 junk=0 length=0 dup_batch=0 dup_global=52 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0019_20260422T223003+0000.jsonl
+[2026-04-22T22:30:03+00:00] cycle 19 flow-en-hard-mixed: accepted=300 rejected=59 junk=0 length=0 dup_batch=0 dup_global=56 near_dup=3 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0019_20260422T223003+0000.jsonl
+[2026-04-22T22:30:06+00:00] cycle 19: commit=f27e7ba2bb02d048866018c089234f6488c5eee0 push=push ok
+[2026-04-22T22:30:06+00:00] --- cycle 19 end (2.7s) ---
+[2026-04-22T22:30:06+00:00] --- cycle 20 start ---
+[2026-04-22T22:30:06+00:00] cycle 20 flow-de-easy-neutral: accepted=300 rejected=63 junk=0 length=0 dup_batch=0 dup_global=63 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0020_20260422T223006+0000.jsonl
+[2026-04-22T22:30:06+00:00] cycle 20 flow-de-medium-mixed: accepted=300 rejected=34 junk=0 length=0 dup_batch=0 dup_global=34 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0020_20260422T223006+0000.jsonl
+[2026-04-22T22:30:06+00:00] cycle 20 flow-de-hard-mixed: accepted=300 rejected=69 junk=0 length=0 dup_batch=0 dup_global=64 near_dup=5 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0020_20260422T223006+0000.jsonl
+[2026-04-22T22:30:06+00:00] cycle 20 flow-en-easy-neutral: accepted=300 rejected=67 junk=0 length=0 dup_batch=0 dup_global=67 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0020_20260422T223006+0000.jsonl
+[2026-04-22T22:30:06+00:00] cycle 20 flow-en-medium-teen: accepted=300 rejected=52 junk=0 length=0 dup_batch=0 dup_global=52 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0020_20260422T223006+0000.jsonl
+[2026-04-22T22:30:06+00:00] cycle 20 flow-en-hard-mixed: accepted=300 rejected=65 junk=0 length=0 dup_batch=0 dup_global=63 near_dup=2 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0020_20260422T223006+0000.jsonl
+[2026-04-22T22:30:09+00:00] cycle 20: commit=11229046e5abffc66035d9044d1c7ea8ea316b25 push=push ok
+[2026-04-22T22:30:09+00:00] --- cycle 20 end (2.7s) ---
+[2026-04-22T22:30:09+00:00] --- cycle 21 start ---
+[2026-04-22T22:30:09+00:00] cycle 21 flow-de-easy-neutral: accepted=300 rejected=82 junk=0 length=0 dup_batch=0 dup_global=82 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0021_20260422T223009+0000.jsonl
+[2026-04-22T22:30:09+00:00] cycle 21 flow-de-medium-mixed: accepted=300 rejected=44 junk=0 length=0 dup_batch=0 dup_global=44 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0021_20260422T223009+0000.jsonl
+[2026-04-22T22:30:09+00:00] cycle 21 flow-de-hard-mixed: accepted=300 rejected=73 junk=0 length=0 dup_batch=0 dup_global=69 near_dup=4 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0021_20260422T223009+0000.jsonl
+[2026-04-22T22:30:09+00:00] cycle 21 flow-en-easy-neutral: accepted=300 rejected=75 junk=0 length=0 dup_batch=0 dup_global=75 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0021_20260422T223009+0000.jsonl
+[2026-04-22T22:30:09+00:00] cycle 21 flow-en-medium-teen: accepted=300 rejected=66 junk=0 length=0 dup_batch=0 dup_global=66 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0021_20260422T223009+0000.jsonl
+[2026-04-22T22:30:09+00:00] cycle 21 flow-en-hard-mixed: accepted=300 rejected=71 junk=0 length=0 dup_batch=0 dup_global=67 near_dup=4 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0021_20260422T223009+0000.jsonl
+[2026-04-22T22:30:12+00:00] cycle 21: commit=c29f2280aa469aca06729181f5339eb6ee325437 push=push ok
+[2026-04-22T22:30:12+00:00] --- cycle 21 end (2.8s) ---
+[2026-04-22T22:30:12+00:00] --- cycle 22 start ---
+[2026-04-22T22:30:12+00:00] cycle 22 flow-de-easy-neutral: accepted=300 rejected=72 junk=0 length=0 dup_batch=0 dup_global=72 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0022_20260422T223012+0000.jsonl
+[2026-04-22T22:30:12+00:00] cycle 22 flow-de-medium-mixed: accepted=300 rejected=30 junk=0 length=0 dup_batch=0 dup_global=30 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0022_20260422T223012+0000.jsonl
+[2026-04-22T22:30:12+00:00] cycle 22 flow-de-hard-mixed: accepted=300 rejected=89 junk=0 length=0 dup_batch=0 dup_global=84 near_dup=5 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0022_20260422T223012+0000.jsonl
+[2026-04-22T22:30:12+00:00] cycle 22 flow-en-easy-neutral: accepted=300 rejected=79 junk=0 length=0 dup_batch=0 dup_global=79 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0022_20260422T223012+0000.jsonl
+[2026-04-22T22:30:12+00:00] cycle 22 flow-en-medium-teen: accepted=300 rejected=59 junk=0 length=0 dup_batch=0 dup_global=59 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0022_20260422T223012+0000.jsonl
+[2026-04-22T22:30:12+00:00] cycle 22 flow-en-hard-mixed: accepted=300 rejected=87 junk=0 length=0 dup_batch=0 dup_global=83 near_dup=4 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0022_20260422T223012+0000.jsonl
+[2026-04-22T22:30:15+00:00] cycle 22: commit=c237ce88947138c1be0de13898d75815c6d72605 push=push ok
+[2026-04-22T22:30:15+00:00] --- cycle 22 end (2.9s) ---
+[2026-04-22T22:30:15+00:00] --- cycle 23 start ---
+[2026-04-22T22:30:15+00:00] cycle 23 flow-de-easy-neutral: accepted=300 rejected=72 junk=0 length=0 dup_batch=0 dup_global=72 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0023_20260422T223015+0000.jsonl
+[2026-04-22T22:30:15+00:00] cycle 23 flow-de-medium-mixed: accepted=300 rejected=54 junk=0 length=0 dup_batch=0 dup_global=54 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0023_20260422T223015+0000.jsonl
+[2026-04-22T22:30:15+00:00] cycle 23 flow-de-hard-mixed: accepted=300 rejected=78 junk=0 length=0 dup_batch=0 dup_global=75 near_dup=3 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0023_20260422T223015+0000.jsonl
+[2026-04-22T22:30:15+00:00] cycle 23 flow-en-easy-neutral: accepted=300 rejected=78 junk=0 length=0 dup_batch=0 dup_global=78 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0023_20260422T223015+0000.jsonl
+[2026-04-22T22:30:15+00:00] cycle 23 flow-en-medium-teen: accepted=300 rejected=69 junk=0 length=0 dup_batch=0 dup_global=69 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0023_20260422T223015+0000.jsonl
+[2026-04-22T22:30:15+00:00] cycle 23 flow-en-hard-mixed: accepted=300 rejected=86 junk=0 length=0 dup_batch=0 dup_global=84 near_dup=2 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0023_20260422T223015+0000.jsonl
+[2026-04-22T22:30:17+00:00] cycle 23: commit=3d49daffef783b6a5efbe7f71120247107291f38 push=push ok
+[2026-04-22T22:30:17+00:00] --- cycle 23 end (2.7s) ---
+[2026-04-22T22:30:17+00:00] --- cycle 24 start ---
+[2026-04-22T22:30:17+00:00] cycle 24 flow-de-easy-neutral: accepted=300 rejected=69 junk=0 length=0 dup_batch=0 dup_global=69 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0024_20260422T223017+0000.jsonl
+[2026-04-22T22:30:17+00:00] cycle 24 flow-de-medium-mixed: accepted=300 rejected=59 junk=0 length=0 dup_batch=0 dup_global=59 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0024_20260422T223017+0000.jsonl
+[2026-04-22T22:30:17+00:00] cycle 24 flow-de-hard-mixed: accepted=300 rejected=73 junk=0 length=0 dup_batch=0 dup_global=72 near_dup=1 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0024_20260422T223017+0000.jsonl
+[2026-04-22T22:30:17+00:00] cycle 24 flow-en-easy-neutral: accepted=300 rejected=95 junk=0 length=0 dup_batch=0 dup_global=95 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0024_20260422T223017+0000.jsonl
+[2026-04-22T22:30:17+00:00] cycle 24 flow-en-medium-teen: accepted=300 rejected=69 junk=0 length=0 dup_batch=0 dup_global=69 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0024_20260422T223017+0000.jsonl
+[2026-04-22T22:30:17+00:00] cycle 24 flow-en-hard-mixed: accepted=300 rejected=83 junk=0 length=0 dup_batch=0 dup_global=78 near_dup=5 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0024_20260422T223017+0000.jsonl
+[2026-04-22T22:30:21+00:00] cycle 24: commit=c379a1747da24556a6b55545a285cf304070314e push=push ok
+[2026-04-22T22:30:21+00:00] --- cycle 24 end (3.3s) ---
+[2026-04-22T22:30:21+00:00] --- cycle 25 start ---
+[2026-04-22T22:30:21+00:00] cycle 25 flow-de-easy-neutral: accepted=300 rejected=82 junk=0 length=0 dup_batch=0 dup_global=82 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0025_20260422T223021+0000.jsonl
+[2026-04-22T22:30:21+00:00] cycle 25 flow-de-medium-mixed: accepted=300 rejected=53 junk=0 length=0 dup_batch=0 dup_global=53 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0025_20260422T223021+0000.jsonl
+[2026-04-22T22:30:21+00:00] cycle 25 flow-de-hard-mixed: accepted=300 rejected=79 junk=0 length=0 dup_batch=0 dup_global=78 near_dup=1 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0025_20260422T223021+0000.jsonl
+[2026-04-22T22:30:21+00:00] cycle 25 flow-en-easy-neutral: accepted=300 rejected=83 junk=0 length=0 dup_batch=0 dup_global=83 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0025_20260422T223021+0000.jsonl
+[2026-04-22T22:30:21+00:00] cycle 25 flow-en-medium-teen: accepted=300 rejected=81 junk=0 length=0 dup_batch=0 dup_global=81 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0025_20260422T223021+0000.jsonl
+[2026-04-22T22:30:21+00:00] cycle 25 flow-en-hard-mixed: accepted=300 rejected=78 junk=0 length=0 dup_batch=0 dup_global=77 near_dup=1 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0025_20260422T223021+0000.jsonl
+[2026-04-22T22:30:23+00:00] cycle 25: commit=e00accf4c44c67c7bb5881e6232fed4fbfd8d09e push=push ok
+[2026-04-22T22:30:23+00:00] --- cycle 25 end (2.8s) ---
+[2026-04-22T22:30:23+00:00] --- cycle 26 start ---
+[2026-04-22T22:30:23+00:00] cycle 26 flow-de-easy-neutral: accepted=300 rejected=59 junk=0 length=0 dup_batch=0 dup_global=59 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0026_20260422T223023+0000.jsonl
+[2026-04-22T22:30:23+00:00] cycle 26 flow-de-medium-mixed: accepted=300 rejected=58 junk=0 length=0 dup_batch=0 dup_global=58 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0026_20260422T223023+0000.jsonl
+[2026-04-22T22:30:23+00:00] cycle 26 flow-de-hard-mixed: accepted=300 rejected=96 junk=0 length=0 dup_batch=0 dup_global=95 near_dup=1 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0026_20260422T223023+0000.jsonl
+[2026-04-22T22:30:23+00:00] cycle 26 flow-en-easy-neutral: accepted=300 rejected=69 junk=0 length=0 dup_batch=0 dup_global=69 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0026_20260422T223023+0000.jsonl
+[2026-04-22T22:30:23+00:00] cycle 26 flow-en-medium-teen: accepted=300 rejected=75 junk=0 length=0 dup_batch=0 dup_global=75 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0026_20260422T223023+0000.jsonl
+[2026-04-22T22:30:23+00:00] cycle 26 flow-en-hard-mixed: accepted=300 rejected=89 junk=0 length=0 dup_batch=0 dup_global=86 near_dup=3 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0026_20260422T223023+0000.jsonl
+[2026-04-22T22:30:26+00:00] cycle 26: commit=afdc3f27b487b541c52ed34070530dc9fa5509cc push=push ok
+[2026-04-22T22:30:26+00:00] --- cycle 26 end (2.9s) ---
+[2026-04-22T22:30:26+00:00] --- cycle 27 start ---
+[2026-04-22T22:30:26+00:00] cycle 27 flow-de-easy-neutral: accepted=300 rejected=96 junk=0 length=0 dup_batch=0 dup_global=96 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0027_20260422T223026+0000.jsonl
+[2026-04-22T22:30:26+00:00] cycle 27 flow-de-medium-mixed: accepted=300 rejected=73 junk=0 length=0 dup_batch=0 dup_global=73 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0027_20260422T223026+0000.jsonl
+[2026-04-22T22:30:26+00:00] cycle 27 flow-de-hard-mixed: accepted=300 rejected=90 junk=0 length=0 dup_batch=0 dup_global=88 near_dup=2 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0027_20260422T223026+0000.jsonl
+[2026-04-22T22:30:26+00:00] cycle 27 flow-en-easy-neutral: accepted=300 rejected=89 junk=0 length=0 dup_batch=0 dup_global=89 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0027_20260422T223026+0000.jsonl
+[2026-04-22T22:30:26+00:00] cycle 27 flow-en-medium-teen: accepted=300 rejected=75 junk=0 length=0 dup_batch=0 dup_global=75 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0027_20260422T223026+0000.jsonl
+[2026-04-22T22:30:26+00:00] cycle 27 flow-en-hard-mixed: accepted=300 rejected=105 junk=0 length=0 dup_batch=0 dup_global=102 near_dup=3 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0027_20260422T223026+0000.jsonl
+[2026-04-22T22:30:29+00:00] cycle 27: commit=c07b7f4b230ae5455d73721ea62034fdedf8019a push=push ok
+[2026-04-22T22:30:29+00:00] --- cycle 27 end (2.8s) ---
+[2026-04-22T22:30:29+00:00] --- cycle 28 start ---
+[2026-04-22T22:30:29+00:00] cycle 28 flow-de-easy-neutral: accepted=300 rejected=82 junk=0 length=0 dup_batch=0 dup_global=82 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0028_20260422T223029+0000.jsonl
+[2026-04-22T22:30:29+00:00] cycle 28 flow-de-medium-mixed: accepted=300 rejected=62 junk=0 length=0 dup_batch=0 dup_global=62 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0028_20260422T223029+0000.jsonl
+[2026-04-22T22:30:29+00:00] cycle 28 flow-de-hard-mixed: accepted=300 rejected=92 junk=0 length=0 dup_batch=0 dup_global=89 near_dup=3 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0028_20260422T223029+0000.jsonl
+[2026-04-22T22:30:29+00:00] cycle 28 flow-en-easy-neutral: accepted=300 rejected=118 junk=0 length=0 dup_batch=0 dup_global=118 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0028_20260422T223029+0000.jsonl
+[2026-04-22T22:30:29+00:00] cycle 28 flow-en-medium-teen: accepted=300 rejected=89 junk=0 length=0 dup_batch=0 dup_global=89 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0028_20260422T223029+0000.jsonl
+[2026-04-22T22:30:29+00:00] cycle 28 flow-en-hard-mixed: accepted=300 rejected=91 junk=0 length=0 dup_batch=0 dup_global=91 near_dup=0 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0028_20260422T223029+0000.jsonl
+[2026-04-22T22:30:32+00:00] cycle 28: commit=a8972dcd2fe2963c9d44e1cd74e7a4e1617e5bac push=push ok
+[2026-04-22T22:30:32+00:00] --- cycle 28 end (2.7s) ---
+[2026-04-22T22:30:32+00:00] --- cycle 29 start ---
+[2026-04-22T22:30:32+00:00] cycle 29 flow-de-easy-neutral: accepted=300 rejected=98 junk=0 length=0 dup_batch=0 dup_global=98 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0029_20260422T223032+0000.jsonl
+[2026-04-22T22:30:32+00:00] cycle 29 flow-de-medium-mixed: accepted=300 rejected=49 junk=0 length=0 dup_batch=0 dup_global=49 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0029_20260422T223032+0000.jsonl
+[2026-04-22T22:30:32+00:00] cycle 29 flow-de-hard-mixed: accepted=300 rejected=124 junk=0 length=0 dup_batch=0 dup_global=119 near_dup=5 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0029_20260422T223032+0000.jsonl
+[2026-04-22T22:30:32+00:00] cycle 29 flow-en-easy-neutral: accepted=300 rejected=99 junk=0 length=0 dup_batch=0 dup_global=99 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0029_20260422T223032+0000.jsonl
+[2026-04-22T22:30:32+00:00] cycle 29 flow-en-medium-teen: accepted=300 rejected=109 junk=0 length=0 dup_batch=0 dup_global=109 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0029_20260422T223032+0000.jsonl
+[2026-04-22T22:30:32+00:00] cycle 29 flow-en-hard-mixed: accepted=300 rejected=89 junk=0 length=0 dup_batch=0 dup_global=89 near_dup=0 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0029_20260422T223032+0000.jsonl
+[2026-04-22T22:30:35+00:00] cycle 29: commit=1298104d256e8868eeede533387d184c97244105 push=push ok
+[2026-04-22T22:30:35+00:00] --- cycle 29 end (3.0s) ---
+[2026-04-22T22:30:35+00:00] --- cycle 30 start ---
+[2026-04-22T22:30:35+00:00] cycle 30 flow-de-easy-neutral: accepted=300 rejected=119 junk=0 length=0 dup_batch=0 dup_global=119 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0030_20260422T223035+0000.jsonl
+[2026-04-22T22:30:35+00:00] cycle 30 flow-de-medium-mixed: accepted=300 rejected=81 junk=0 length=0 dup_batch=0 dup_global=81 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0030_20260422T223035+0000.jsonl
+[2026-04-22T22:30:35+00:00] cycle 30 flow-de-hard-mixed: accepted=300 rejected=110 junk=0 length=0 dup_batch=0 dup_global=106 near_dup=4 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0030_20260422T223035+0000.jsonl
+[2026-04-22T22:30:35+00:00] cycle 30 flow-en-easy-neutral: accepted=300 rejected=103 junk=0 length=0 dup_batch=0 dup_global=103 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0030_20260422T223035+0000.jsonl
+[2026-04-22T22:30:35+00:00] cycle 30 flow-en-medium-teen: accepted=300 rejected=76 junk=0 length=0 dup_batch=0 dup_global=76 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0030_20260422T223035+0000.jsonl
+[2026-04-22T22:30:35+00:00] cycle 30 flow-en-hard-mixed: accepted=300 rejected=104 junk=0 length=0 dup_batch=0 dup_global=101 near_dup=3 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0030_20260422T223035+0000.jsonl
+[2026-04-22T22:30:38+00:00] cycle 30: commit=9fc7497d04061a46b8fddc0872ec68697bfc34b7 push=push ok
+[2026-04-22T22:30:38+00:00] --- cycle 30 end (2.8s) ---
+[2026-04-22T22:30:38+00:00] --- cycle 31 start ---
+[2026-04-22T22:30:38+00:00] cycle 31 flow-de-easy-neutral: accepted=300 rejected=106 junk=0 length=0 dup_batch=0 dup_global=106 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0031_20260422T223038+0000.jsonl
+[2026-04-22T22:30:38+00:00] cycle 31 flow-de-medium-mixed: accepted=300 rejected=65 junk=0 length=0 dup_batch=0 dup_global=65 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0031_20260422T223038+0000.jsonl
+[2026-04-22T22:30:38+00:00] cycle 31 flow-de-hard-mixed: accepted=300 rejected=137 junk=0 length=0 dup_batch=0 dup_global=132 near_dup=5 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0031_20260422T223038+0000.jsonl
+[2026-04-22T22:30:38+00:00] cycle 31 flow-en-easy-neutral: accepted=300 rejected=121 junk=0 length=0 dup_batch=0 dup_global=121 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0031_20260422T223038+0000.jsonl
+[2026-04-22T22:30:38+00:00] cycle 31 flow-en-medium-teen: accepted=300 rejected=111 junk=0 length=0 dup_batch=0 dup_global=111 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0031_20260422T223038+0000.jsonl
+[2026-04-22T22:30:38+00:00] cycle 31 flow-en-hard-mixed: accepted=300 rejected=105 junk=0 length=0 dup_batch=0 dup_global=99 near_dup=6 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0031_20260422T223038+0000.jsonl
+[2026-04-22T22:30:40+00:00] cycle 31: commit=23aaa62fbca26d53029e4209eacb19dc3880b4af push=push ok
+[2026-04-22T22:30:40+00:00] --- cycle 31 end (2.8s) ---
+[2026-04-22T22:30:40+00:00] --- cycle 32 start ---
+[2026-04-22T22:30:40+00:00] cycle 32 flow-de-easy-neutral: accepted=300 rejected=100 junk=0 length=0 dup_batch=0 dup_global=100 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0032_20260422T223040+0000.jsonl
+[2026-04-22T22:30:40+00:00] cycle 32 flow-de-medium-mixed: accepted=300 rejected=79 junk=0 length=0 dup_batch=0 dup_global=79 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0032_20260422T223040+0000.jsonl
+[2026-04-22T22:30:40+00:00] cycle 32 flow-de-hard-mixed: accepted=300 rejected=114 junk=0 length=0 dup_batch=0 dup_global=108 near_dup=6 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0032_20260422T223040+0000.jsonl
+[2026-04-22T22:30:40+00:00] cycle 32 flow-en-easy-neutral: accepted=300 rejected=116 junk=0 length=0 dup_batch=0 dup_global=116 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0032_20260422T223040+0000.jsonl
+[2026-04-22T22:30:40+00:00] cycle 32 flow-en-medium-teen: accepted=300 rejected=119 junk=0 length=0 dup_batch=0 dup_global=119 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0032_20260422T223040+0000.jsonl
+[2026-04-22T22:30:41+00:00] cycle 32 flow-en-hard-mixed: accepted=300 rejected=126 junk=0 length=0 dup_batch=0 dup_global=124 near_dup=2 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0032_20260422T223040+0000.jsonl
+[2026-04-22T22:30:43+00:00] cycle 32: commit=06fd8f6c0fb70530dca517ef45197690673d5702 push=push ok
+[2026-04-22T22:30:43+00:00] --- cycle 32 end (2.9s) ---
+[2026-04-22T22:30:43+00:00] --- cycle 33 start ---
+[2026-04-22T22:30:43+00:00] cycle 33 flow-de-easy-neutral: accepted=300 rejected=138 junk=0 length=0 dup_batch=0 dup_global=138 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0033_20260422T223043+0000.jsonl
+[2026-04-22T22:30:43+00:00] cycle 33 flow-de-medium-mixed: accepted=300 rejected=57 junk=0 length=0 dup_batch=0 dup_global=57 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0033_20260422T223043+0000.jsonl
+[2026-04-22T22:30:43+00:00] cycle 33 flow-de-hard-mixed: accepted=300 rejected=112 junk=0 length=0 dup_batch=0 dup_global=110 near_dup=2 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0033_20260422T223043+0000.jsonl
+[2026-04-22T22:30:43+00:00] cycle 33 flow-en-easy-neutral: accepted=300 rejected=127 junk=0 length=0 dup_batch=0 dup_global=127 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0033_20260422T223043+0000.jsonl
+[2026-04-22T22:30:43+00:00] cycle 33 flow-en-medium-teen: accepted=300 rejected=107 junk=0 length=0 dup_batch=0 dup_global=107 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0033_20260422T223043+0000.jsonl
+[2026-04-22T22:30:43+00:00] cycle 33 flow-en-hard-mixed: accepted=300 rejected=118 junk=0 length=0 dup_batch=0 dup_global=116 near_dup=2 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0033_20260422T223043+0000.jsonl
+[2026-04-22T22:30:46+00:00] cycle 33: commit=e628c936b641b72df9b5db0337b76138ecc5a8db push=push ok
+[2026-04-22T22:30:46+00:00] --- cycle 33 end (3.0s) ---
+[2026-04-22T22:30:46+00:00] --- cycle 34 start ---
+[2026-04-22T22:30:46+00:00] cycle 34 flow-de-easy-neutral: accepted=300 rejected=111 junk=0 length=0 dup_batch=0 dup_global=111 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0034_20260422T223046+0000.jsonl
+[2026-04-22T22:30:46+00:00] cycle 34 flow-de-medium-mixed: accepted=300 rejected=72 junk=0 length=0 dup_batch=0 dup_global=72 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0034_20260422T223046+0000.jsonl
+[2026-04-22T22:30:46+00:00] cycle 34 flow-de-hard-mixed: accepted=300 rejected=128 junk=0 length=0 dup_batch=0 dup_global=126 near_dup=2 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0034_20260422T223046+0000.jsonl
+[2026-04-22T22:30:46+00:00] cycle 34 flow-en-easy-neutral: accepted=300 rejected=139 junk=0 length=0 dup_batch=0 dup_global=139 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0034_20260422T223046+0000.jsonl
+[2026-04-22T22:30:46+00:00] cycle 34 flow-en-medium-teen: accepted=300 rejected=107 junk=0 length=0 dup_batch=0 dup_global=107 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0034_20260422T223046+0000.jsonl
+[2026-04-22T22:30:46+00:00] cycle 34 flow-en-hard-mixed: accepted=300 rejected=143 junk=0 length=0 dup_batch=0 dup_global=139 near_dup=4 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0034_20260422T223046+0000.jsonl
+[2026-04-22T22:30:49+00:00] cycle 34: commit=ca855631108797c56b91f6c977d939c45d51f868 push=push ok
+[2026-04-22T22:30:49+00:00] --- cycle 34 end (2.8s) ---
+[2026-04-22T22:30:49+00:00] --- cycle 35 start ---
+[2026-04-22T22:30:49+00:00] cycle 35 flow-de-easy-neutral: accepted=300 rejected=114 junk=0 length=0 dup_batch=0 dup_global=114 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0035_20260422T223049+0000.jsonl
+[2026-04-22T22:30:49+00:00] cycle 35 flow-de-medium-mixed: accepted=300 rejected=92 junk=0 length=0 dup_batch=0 dup_global=92 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0035_20260422T223049+0000.jsonl
+[2026-04-22T22:30:49+00:00] cycle 35 flow-de-hard-mixed: accepted=300 rejected=165 junk=0 length=0 dup_batch=0 dup_global=161 near_dup=4 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0035_20260422T223049+0000.jsonl
+[2026-04-22T22:30:49+00:00] cycle 35 flow-en-easy-neutral: accepted=300 rejected=140 junk=0 length=0 dup_batch=0 dup_global=140 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0035_20260422T223049+0000.jsonl
+[2026-04-22T22:30:49+00:00] cycle 35 flow-en-medium-teen: accepted=300 rejected=125 junk=0 length=0 dup_batch=0 dup_global=125 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0035_20260422T223049+0000.jsonl
+[2026-04-22T22:30:49+00:00] cycle 35 flow-en-hard-mixed: accepted=300 rejected=145 junk=0 length=0 dup_batch=0 dup_global=143 near_dup=2 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0035_20260422T223049+0000.jsonl
+[2026-04-22T22:30:52+00:00] cycle 35: commit=76663e01fb6266f6434654451f4c8cb369414ebf push=push ok
+[2026-04-22T22:30:52+00:00] --- cycle 35 end (2.9s) ---
+[2026-04-22T22:30:52+00:00] --- cycle 36 start ---
+[2026-04-22T22:30:52+00:00] cycle 36 flow-de-easy-neutral: accepted=300 rejected=121 junk=0 length=0 dup_batch=0 dup_global=121 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0036_20260422T223052+0000.jsonl
+[2026-04-22T22:30:52+00:00] cycle 36 flow-de-medium-mixed: accepted=300 rejected=90 junk=0 length=0 dup_batch=0 dup_global=90 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0036_20260422T223052+0000.jsonl
+[2026-04-22T22:30:52+00:00] cycle 36 flow-de-hard-mixed: accepted=300 rejected=135 junk=0 length=0 dup_batch=0 dup_global=133 near_dup=2 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0036_20260422T223052+0000.jsonl
+[2026-04-22T22:30:52+00:00] cycle 36 flow-en-easy-neutral: accepted=300 rejected=154 junk=0 length=0 dup_batch=0 dup_global=154 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0036_20260422T223052+0000.jsonl
+[2026-04-22T22:30:52+00:00] cycle 36 flow-en-medium-teen: accepted=300 rejected=111 junk=0 length=0 dup_batch=0 dup_global=111 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0036_20260422T223052+0000.jsonl
+[2026-04-22T22:30:52+00:00] cycle 36 flow-en-hard-mixed: accepted=300 rejected=131 junk=0 length=0 dup_batch=0 dup_global=125 near_dup=6 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0036_20260422T223052+0000.jsonl
+[2026-04-22T22:30:55+00:00] cycle 36: commit=1f32c228974a0c0c513c34f9405a344e8ade8c29 push=push ok
+[2026-04-22T22:30:55+00:00] --- cycle 36 end (3.0s) ---
+[2026-04-22T22:30:55+00:00] --- cycle 37 start ---
+[2026-04-22T22:30:55+00:00] cycle 37 flow-de-easy-neutral: accepted=300 rejected=124 junk=0 length=0 dup_batch=0 dup_global=124 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0037_20260422T223055+0000.jsonl
+[2026-04-22T22:30:55+00:00] cycle 37 flow-de-medium-mixed: accepted=300 rejected=95 junk=0 length=0 dup_batch=0 dup_global=95 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0037_20260422T223055+0000.jsonl
+[2026-04-22T22:30:55+00:00] cycle 37 flow-de-hard-mixed: accepted=300 rejected=141 junk=0 length=0 dup_batch=0 dup_global=138 near_dup=3 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0037_20260422T223055+0000.jsonl
+[2026-04-22T22:30:55+00:00] cycle 37 flow-en-easy-neutral: accepted=300 rejected=133 junk=0 length=0 dup_batch=0 dup_global=133 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0037_20260422T223055+0000.jsonl
+[2026-04-22T22:30:55+00:00] cycle 37 flow-en-medium-teen: accepted=300 rejected=120 junk=0 length=0 dup_batch=0 dup_global=120 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0037_20260422T223055+0000.jsonl
+[2026-04-22T22:30:55+00:00] cycle 37 flow-en-hard-mixed: accepted=300 rejected=153 junk=0 length=0 dup_batch=0 dup_global=151 near_dup=2 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0037_20260422T223055+0000.jsonl
+[2026-04-22T22:30:58+00:00] cycle 37: commit=508db376f0fd876c4cd42d23071e8024bd3ed526 push=push ok
+[2026-04-22T22:30:58+00:00] --- cycle 37 end (2.8s) ---
+[2026-04-22T22:30:58+00:00] --- cycle 38 start ---
+[2026-04-22T22:30:58+00:00] cycle 38 flow-de-easy-neutral: accepted=300 rejected=142 junk=0 length=0 dup_batch=0 dup_global=142 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0038_20260422T223058+0000.jsonl
+[2026-04-22T22:30:58+00:00] cycle 38 flow-de-medium-mixed: accepted=300 rejected=106 junk=0 length=0 dup_batch=0 dup_global=106 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0038_20260422T223058+0000.jsonl
+[2026-04-22T22:30:58+00:00] cycle 38 flow-de-hard-mixed: accepted=300 rejected=161 junk=0 length=0 dup_batch=0 dup_global=160 near_dup=1 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0038_20260422T223058+0000.jsonl
+[2026-04-22T22:30:58+00:00] cycle 38 flow-en-easy-neutral: accepted=293 rejected=187 junk=0 length=0 dup_batch=0 dup_global=187 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0038_20260422T223058+0000.jsonl
+[2026-04-22T22:30:58+00:00] cycle 38 flow-en-medium-teen: accepted=300 rejected=132 junk=0 length=0 dup_batch=0 dup_global=132 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0038_20260422T223058+0000.jsonl
+[2026-04-22T22:30:58+00:00] cycle 38 flow-en-hard-mixed: accepted=300 rejected=148 junk=0 length=0 dup_batch=0 dup_global=145 near_dup=3 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0038_20260422T223058+0000.jsonl
+[2026-04-22T22:31:01+00:00] cycle 38: commit=ffa1f1d32bbcfafc7015408f712f075aa5e13f07 push=push ok
+[2026-04-22T22:31:01+00:00] --- cycle 38 end (2.8s) ---
+[2026-04-22T22:31:01+00:00] --- cycle 39 start ---
+[2026-04-22T22:31:01+00:00] cycle 39 flow-de-easy-neutral: accepted=300 rejected=135 junk=0 length=0 dup_batch=0 dup_global=135 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0039_20260422T223101+0000.jsonl
+[2026-04-22T22:31:01+00:00] cycle 39 flow-de-medium-mixed: accepted=300 rejected=125 junk=0 length=0 dup_batch=0 dup_global=125 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0039_20260422T223101+0000.jsonl
+[2026-04-22T22:31:01+00:00] cycle 39 flow-de-hard-mixed: accepted=300 rejected=156 junk=0 length=0 dup_batch=0 dup_global=149 near_dup=7 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0039_20260422T223101+0000.jsonl
+[2026-04-22T22:31:01+00:00] cycle 39 flow-en-easy-neutral: accepted=300 rejected=156 junk=0 length=0 dup_batch=0 dup_global=156 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0039_20260422T223101+0000.jsonl
+[2026-04-22T22:31:01+00:00] cycle 39 flow-en-medium-teen: accepted=300 rejected=131 junk=0 length=0 dup_batch=0 dup_global=131 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0039_20260422T223101+0000.jsonl
+[2026-04-22T22:31:01+00:00] cycle 39 flow-en-hard-mixed: accepted=300 rejected=150 junk=0 length=0 dup_batch=0 dup_global=145 near_dup=5 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0039_20260422T223101+0000.jsonl
+[2026-04-22T22:31:03+00:00] cycle 39: commit=3ac7e58b5e9d2899676f5d4b8ed2ee8d9112f023 push=push ok
+[2026-04-22T22:31:03+00:00] --- cycle 39 end (2.8s) ---
+[2026-04-22T22:31:03+00:00] --- cycle 40 start ---
+[2026-04-22T22:31:03+00:00] cycle 40 flow-de-easy-neutral: accepted=300 rejected=142 junk=0 length=0 dup_batch=0 dup_global=142 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0040_20260422T223103+0000.jsonl
+[2026-04-22T22:31:03+00:00] cycle 40 flow-de-medium-mixed: accepted=300 rejected=96 junk=0 length=0 dup_batch=0 dup_global=96 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0040_20260422T223103+0000.jsonl
+[2026-04-22T22:31:04+00:00] cycle 40 flow-de-hard-mixed: accepted=300 rejected=170 junk=0 length=0 dup_batch=0 dup_global=169 near_dup=1 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0040_20260422T223103+0000.jsonl
+[2026-04-22T22:31:04+00:00] cycle 40 flow-en-easy-neutral: accepted=291 rejected=189 junk=0 length=0 dup_batch=0 dup_global=189 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0040_20260422T223103+0000.jsonl
+[2026-04-22T22:31:04+00:00] cycle 40 flow-en-medium-teen: accepted=300 rejected=139 junk=0 length=0 dup_batch=0 dup_global=139 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0040_20260422T223103+0000.jsonl
+[2026-04-22T22:31:04+00:00] cycle 40 flow-en-hard-mixed: accepted=293 rejected=187 junk=0 length=0 dup_batch=0 dup_global=185 near_dup=2 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0040_20260422T223103+0000.jsonl
+[2026-04-22T22:31:07+00:00] cycle 40: commit=ee08cef4f7539db4b127252b2db2e76cd6931810 push=push ok
+[2026-04-22T22:31:07+00:00] --- cycle 40 end (3.2s) ---
+[2026-04-22T22:31:07+00:00] --- cycle 41 start ---
+[2026-04-22T22:31:07+00:00] cycle 41 flow-de-easy-neutral: accepted=300 rejected=136 junk=0 length=0 dup_batch=0 dup_global=136 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0041_20260422T223107+0000.jsonl
+[2026-04-22T22:31:07+00:00] cycle 41 flow-de-medium-mixed: accepted=300 rejected=145 junk=0 length=0 dup_batch=0 dup_global=145 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0041_20260422T223107+0000.jsonl
+[2026-04-22T22:31:07+00:00] cycle 41 flow-de-hard-mixed: accepted=287 rejected=193 junk=0 length=0 dup_batch=0 dup_global=191 near_dup=2 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0041_20260422T223107+0000.jsonl
+[2026-04-22T22:31:07+00:00] cycle 41 flow-en-easy-neutral: accepted=300 rejected=162 junk=0 length=0 dup_batch=0 dup_global=162 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0041_20260422T223107+0000.jsonl
+[2026-04-22T22:31:07+00:00] cycle 41 flow-en-medium-teen: accepted=300 rejected=131 junk=0 length=0 dup_batch=0 dup_global=130 near_dup=1 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0041_20260422T223107+0000.jsonl
+[2026-04-22T22:31:07+00:00] cycle 41 flow-en-hard-mixed: accepted=300 rejected=180 junk=0 length=0 dup_batch=0 dup_global=176 near_dup=4 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0041_20260422T223107+0000.jsonl
+[2026-04-22T22:31:10+00:00] cycle 41: commit=298c914a86d72e1800ce38df1a632d36e5bfd49f push=push ok
+[2026-04-22T22:31:10+00:00] --- cycle 41 end (3.0s) ---
+[2026-04-22T22:31:10+00:00] --- cycle 42 start ---
+[2026-04-22T22:31:10+00:00] cycle 42 flow-de-easy-neutral: accepted=300 rejected=155 junk=0 length=0 dup_batch=0 dup_global=155 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0042_20260422T223110+0000.jsonl
+[2026-04-22T22:31:10+00:00] cycle 42 flow-de-medium-mixed: accepted=300 rejected=125 junk=0 length=0 dup_batch=0 dup_global=125 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0042_20260422T223110+0000.jsonl
+[2026-04-22T22:31:10+00:00] cycle 42 flow-de-hard-mixed: accepted=290 rejected=190 junk=0 length=0 dup_batch=0 dup_global=186 near_dup=4 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0042_20260422T223110+0000.jsonl
+[2026-04-22T22:31:10+00:00] cycle 42 flow-en-easy-neutral: accepted=300 rejected=172 junk=0 length=0 dup_batch=0 dup_global=172 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0042_20260422T223110+0000.jsonl
+[2026-04-22T22:31:10+00:00] cycle 42 flow-en-medium-teen: accepted=300 rejected=141 junk=0 length=0 dup_batch=0 dup_global=141 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0042_20260422T223110+0000.jsonl
+[2026-04-22T22:31:10+00:00] cycle 42 flow-en-hard-mixed: accepted=300 rejected=169 junk=0 length=0 dup_batch=0 dup_global=161 near_dup=8 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0042_20260422T223110+0000.jsonl
+[2026-04-22T22:31:13+00:00] cycle 42: commit=b42af950b8d02bc54b0fe54cb54dd3c448525ec2 push=push ok
+[2026-04-22T22:31:13+00:00] --- cycle 42 end (3.0s) ---
+[2026-04-22T22:31:13+00:00] --- cycle 43 start ---
+[2026-04-22T22:31:13+00:00] cycle 43 flow-de-easy-neutral: accepted=300 rejected=169 junk=0 length=0 dup_batch=0 dup_global=169 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0043_20260422T223113+0000.jsonl
+[2026-04-22T22:31:13+00:00] cycle 43 flow-de-medium-mixed: accepted=300 rejected=111 junk=0 length=0 dup_batch=0 dup_global=111 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0043_20260422T223113+0000.jsonl
+[2026-04-22T22:31:13+00:00] cycle 43 flow-de-hard-mixed: accepted=297 rejected=183 junk=0 length=0 dup_batch=0 dup_global=179 near_dup=4 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0043_20260422T223113+0000.jsonl
+[2026-04-22T22:31:13+00:00] cycle 43 flow-en-easy-neutral: accepted=300 rejected=165 junk=0 length=0 dup_batch=0 dup_global=165 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0043_20260422T223113+0000.jsonl
+[2026-04-22T22:31:13+00:00] cycle 43 flow-en-medium-teen: accepted=300 rejected=154 junk=0 length=0 dup_batch=0 dup_global=154 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0043_20260422T223113+0000.jsonl
+[2026-04-22T22:31:13+00:00] cycle 43 flow-en-hard-mixed: accepted=294 rejected=186 junk=0 length=0 dup_batch=0 dup_global=182 near_dup=4 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0043_20260422T223113+0000.jsonl
+[2026-04-22T22:31:15+00:00] cycle 43: commit=e39804107fb4d67efdc4c5461c8d48a4b550c4dc push=push ok
+[2026-04-22T22:31:15+00:00] --- cycle 43 end (2.9s) ---
+[2026-04-22T22:31:15+00:00] --- cycle 44 start ---
+[2026-04-22T22:31:15+00:00] cycle 44 flow-de-easy-neutral: accepted=298 rejected=182 junk=0 length=0 dup_batch=0 dup_global=182 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0044_20260422T223115+0000.jsonl
+[2026-04-22T22:31:16+00:00] cycle 44 flow-de-medium-mixed: accepted=300 rejected=109 junk=0 length=0 dup_batch=0 dup_global=109 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0044_20260422T223115+0000.jsonl
+[2026-04-22T22:31:16+00:00] cycle 44 flow-de-hard-mixed: accepted=297 rejected=183 junk=0 length=0 dup_batch=0 dup_global=180 near_dup=3 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0044_20260422T223115+0000.jsonl
+[2026-04-22T22:31:16+00:00] cycle 44 flow-en-easy-neutral: accepted=279 rejected=201 junk=0 length=0 dup_batch=0 dup_global=201 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0044_20260422T223115+0000.jsonl
+[2026-04-22T22:31:16+00:00] cycle 44 flow-en-medium-teen: accepted=300 rejected=156 junk=0 length=0 dup_batch=0 dup_global=155 near_dup=1 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0044_20260422T223115+0000.jsonl
+[2026-04-22T22:31:16+00:00] cycle 44 flow-en-hard-mixed: accepted=300 rejected=176 junk=0 length=0 dup_batch=0 dup_global=176 near_dup=0 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0044_20260422T223115+0000.jsonl
+[2026-04-22T22:31:19+00:00] cycle 44: commit=23b8058ce1b7ee9ca13d35abe488e73bc62d49ba push=push ok
+[2026-04-22T22:31:19+00:00] --- cycle 44 end (3.3s) ---
+[2026-04-22T22:31:19+00:00] --- cycle 45 start ---
+[2026-04-22T22:31:19+00:00] cycle 45 flow-de-easy-neutral: accepted=299 rejected=181 junk=0 length=0 dup_batch=0 dup_global=181 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0045_20260422T223119+0000.jsonl
+[2026-04-22T22:31:19+00:00] cycle 45 flow-de-medium-mixed: accepted=300 rejected=133 junk=0 length=0 dup_batch=0 dup_global=133 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0045_20260422T223119+0000.jsonl
+[2026-04-22T22:31:19+00:00] cycle 45 flow-de-hard-mixed: accepted=279 rejected=201 junk=0 length=0 dup_batch=0 dup_global=199 near_dup=2 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0045_20260422T223119+0000.jsonl
+[2026-04-22T22:31:19+00:00] cycle 45 flow-en-easy-neutral: accepted=287 rejected=193 junk=0 length=0 dup_batch=0 dup_global=193 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0045_20260422T223119+0000.jsonl
+[2026-04-22T22:31:19+00:00] cycle 45 flow-en-medium-teen: accepted=298 rejected=182 junk=0 length=0 dup_batch=0 dup_global=182 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0045_20260422T223119+0000.jsonl
+[2026-04-22T22:31:19+00:00] cycle 45 flow-en-hard-mixed: accepted=279 rejected=201 junk=0 length=0 dup_batch=0 dup_global=199 near_dup=2 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0045_20260422T223119+0000.jsonl
+[2026-04-22T22:31:22+00:00] cycle 45: commit=48cdd43016c783d374e8bbac990bda6ae12a02a6 push=push ok
+[2026-04-22T22:31:22+00:00] --- cycle 45 end (2.9s) ---
+[2026-04-22T22:31:22+00:00] --- cycle 46 start ---
+[2026-04-22T22:31:22+00:00] cycle 46 flow-de-easy-neutral: accepted=300 rejected=171 junk=0 length=0 dup_batch=0 dup_global=171 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0046_20260422T223122+0000.jsonl
+[2026-04-22T22:31:22+00:00] cycle 46 flow-de-medium-mixed: accepted=300 rejected=103 junk=0 length=0 dup_batch=0 dup_global=103 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0046_20260422T223122+0000.jsonl
+[2026-04-22T22:31:22+00:00] cycle 46 flow-de-hard-mixed: accepted=276 rejected=204 junk=0 length=0 dup_batch=0 dup_global=203 near_dup=1 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0046_20260422T223122+0000.jsonl
+[2026-04-22T22:31:22+00:00] cycle 46 flow-en-easy-neutral: accepted=284 rejected=196 junk=0 length=0 dup_batch=0 dup_global=196 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0046_20260422T223122+0000.jsonl
+[2026-04-22T22:31:22+00:00] cycle 46 flow-en-medium-teen: accepted=300 rejected=147 junk=0 length=0 dup_batch=0 dup_global=147 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0046_20260422T223122+0000.jsonl
+[2026-04-22T22:31:22+00:00] cycle 46 flow-en-hard-mixed: accepted=275 rejected=205 junk=0 length=0 dup_batch=0 dup_global=202 near_dup=3 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0046_20260422T223122+0000.jsonl
+[2026-04-22T22:31:25+00:00] cycle 46: commit=5e1fdc8e8188bdd2de5014b91bb822a7f55a3b50 push=push ok
+[2026-04-22T22:31:25+00:00] --- cycle 46 end (3.0s) ---
+[2026-04-22T22:31:25+00:00] --- cycle 47 start ---
+[2026-04-22T22:31:25+00:00] cycle 47 flow-de-easy-neutral: accepted=285 rejected=195 junk=0 length=0 dup_batch=0 dup_global=195 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0047_20260422T223125+0000.jsonl
+[2026-04-22T22:31:25+00:00] cycle 47 flow-de-medium-mixed: accepted=300 rejected=116 junk=0 length=0 dup_batch=0 dup_global=116 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0047_20260422T223125+0000.jsonl
+[2026-04-22T22:31:25+00:00] cycle 47 flow-de-hard-mixed: accepted=271 rejected=209 junk=0 length=0 dup_batch=0 dup_global=209 near_dup=0 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0047_20260422T223125+0000.jsonl
+[2026-04-22T22:31:25+00:00] cycle 47 flow-en-easy-neutral: accepted=264 rejected=216 junk=0 length=0 dup_batch=0 dup_global=216 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0047_20260422T223125+0000.jsonl
+[2026-04-22T22:31:25+00:00] cycle 47 flow-en-medium-teen: accepted=300 rejected=170 junk=0 length=0 dup_batch=0 dup_global=170 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0047_20260422T223125+0000.jsonl
+[2026-04-22T22:31:25+00:00] cycle 47 flow-en-hard-mixed: accepted=267 rejected=213 junk=0 length=0 dup_batch=0 dup_global=208 near_dup=5 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0047_20260422T223125+0000.jsonl
+[2026-04-22T22:31:28+00:00] cycle 47: commit=ce8feedb367fc22ef8656036db25cb14f6026655 push=push ok
+[2026-04-22T22:31:28+00:00] --- cycle 47 end (2.9s) ---
+[2026-04-22T22:31:28+00:00] --- cycle 48 start ---
+[2026-04-22T22:31:28+00:00] cycle 48 flow-de-easy-neutral: accepted=300 rejected=154 junk=0 length=0 dup_batch=0 dup_global=154 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0048_20260422T223128+0000.jsonl
+[2026-04-22T22:31:28+00:00] cycle 48 flow-de-medium-mixed: accepted=300 rejected=142 junk=0 length=0 dup_batch=0 dup_global=142 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0048_20260422T223128+0000.jsonl
+[2026-04-22T22:31:28+00:00] cycle 48 flow-de-hard-mixed: accepted=270 rejected=210 junk=0 length=0 dup_batch=0 dup_global=209 near_dup=1 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0048_20260422T223128+0000.jsonl
+[2026-04-22T22:31:28+00:00] cycle 48 flow-en-easy-neutral: accepted=266 rejected=214 junk=0 length=0 dup_batch=0 dup_global=214 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0048_20260422T223128+0000.jsonl
+[2026-04-22T22:31:28+00:00] cycle 48 flow-en-medium-teen: accepted=299 rejected=181 junk=0 length=0 dup_batch=0 dup_global=181 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0048_20260422T223128+0000.jsonl
+[2026-04-22T22:31:28+00:00] cycle 48 flow-en-hard-mixed: accepted=259 rejected=221 junk=0 length=0 dup_batch=0 dup_global=219 near_dup=2 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0048_20260422T223128+0000.jsonl
+[2026-04-22T22:31:31+00:00] cycle 48: commit=aab1d71777540d8fc444f3ed737334187cba17db push=push ok
+[2026-04-22T22:31:31+00:00] --- cycle 48 end (3.1s) ---
+[2026-04-22T22:31:31+00:00] --- cycle 49 start ---
+[2026-04-22T22:31:31+00:00] cycle 49 flow-de-easy-neutral: accepted=279 rejected=201 junk=0 length=0 dup_batch=0 dup_global=201 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0049_20260422T223131+0000.jsonl
+[2026-04-22T22:31:31+00:00] cycle 49 flow-de-medium-mixed: accepted=300 rejected=155 junk=0 length=0 dup_batch=0 dup_global=155 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0049_20260422T223131+0000.jsonl
+[2026-04-22T22:31:31+00:00] cycle 49 flow-de-hard-mixed: accepted=260 rejected=220 junk=0 length=0 dup_batch=0 dup_global=217 near_dup=3 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0049_20260422T223131+0000.jsonl
+[2026-04-22T22:31:31+00:00] cycle 49 flow-en-easy-neutral: accepted=265 rejected=215 junk=0 length=0 dup_batch=0 dup_global=215 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0049_20260422T223131+0000.jsonl
+[2026-04-22T22:31:31+00:00] cycle 49 flow-en-medium-teen: accepted=282 rejected=198 junk=0 length=0 dup_batch=0 dup_global=198 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0049_20260422T223131+0000.jsonl
+[2026-04-22T22:31:31+00:00] cycle 49 flow-en-hard-mixed: accepted=251 rejected=229 junk=0 length=0 dup_batch=0 dup_global=229 near_dup=0 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0049_20260422T223131+0000.jsonl
+[2026-04-22T22:31:33+00:00] cycle 49: commit=c20b3c6655442516a7e0a01b5a22594b8b359efd push=push ok
+[2026-04-22T22:31:33+00:00] --- cycle 49 end (2.8s) ---
+[2026-04-22T22:31:33+00:00] --- cycle 50 start ---
+[2026-04-22T22:31:33+00:00] cycle 50 flow-de-easy-neutral: accepted=288 rejected=192 junk=0 length=0 dup_batch=0 dup_global=192 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0050_20260422T223133+0000.jsonl
+[2026-04-22T22:31:33+00:00] cycle 50 flow-de-medium-mixed: accepted=300 rejected=137 junk=0 length=0 dup_batch=0 dup_global=137 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0050_20260422T223133+0000.jsonl
+[2026-04-22T22:31:33+00:00] cycle 50 flow-de-hard-mixed: accepted=269 rejected=211 junk=0 length=0 dup_batch=0 dup_global=208 near_dup=3 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0050_20260422T223133+0000.jsonl
+[2026-04-22T22:31:33+00:00] cycle 50 flow-en-easy-neutral: accepted=267 rejected=213 junk=0 length=0 dup_batch=0 dup_global=213 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0050_20260422T223133+0000.jsonl
+[2026-04-22T22:31:33+00:00] cycle 50 flow-en-medium-teen: accepted=296 rejected=184 junk=0 length=0 dup_batch=0 dup_global=184 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0050_20260422T223133+0000.jsonl
+[2026-04-22T22:31:33+00:00] cycle 50 flow-en-hard-mixed: accepted=259 rejected=221 junk=0 length=0 dup_batch=0 dup_global=217 near_dup=4 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0050_20260422T223133+0000.jsonl
+[2026-04-22T22:31:37+00:00] cycle 50: commit=475f9cfab18a115a6f8110f3f396112a03047ebf push=push ok
+[2026-04-22T22:31:37+00:00] --- cycle 50 end (3.4s) ---
+[2026-04-22T22:31:37+00:00] --- cycle 51 start ---
+[2026-04-22T22:31:37+00:00] cycle 51 flow-de-easy-neutral: accepted=290 rejected=190 junk=0 length=0 dup_batch=0 dup_global=190 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0051_20260422T223137+0000.jsonl
+[2026-04-22T22:31:37+00:00] cycle 51 flow-de-medium-mixed: accepted=300 rejected=165 junk=0 length=0 dup_batch=0 dup_global=165 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0051_20260422T223137+0000.jsonl
+[2026-04-22T22:31:37+00:00] cycle 51 flow-de-hard-mixed: accepted=269 rejected=211 junk=0 length=0 dup_batch=0 dup_global=211 near_dup=0 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0051_20260422T223137+0000.jsonl
+[2026-04-22T22:31:37+00:00] cycle 51 flow-en-easy-neutral: accepted=257 rejected=223 junk=0 length=0 dup_batch=0 dup_global=223 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0051_20260422T223137+0000.jsonl
+[2026-04-22T22:31:37+00:00] cycle 51 flow-en-medium-teen: accepted=294 rejected=186 junk=0 length=0 dup_batch=0 dup_global=186 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0051_20260422T223137+0000.jsonl
+[2026-04-22T22:31:37+00:00] cycle 51 flow-en-hard-mixed: accepted=254 rejected=226 junk=0 length=0 dup_batch=0 dup_global=225 near_dup=1 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0051_20260422T223137+0000.jsonl
+[2026-04-22T22:31:40+00:00] cycle 51: commit=37d20a986806ea05f7e933a78fcfbaa2bbc1970f push=push ok
+[2026-04-22T22:31:40+00:00] --- cycle 51 end (3.1s) ---
+[2026-04-22T22:31:40+00:00] --- cycle 52 start ---
+[2026-04-22T22:31:40+00:00] cycle 52 flow-de-easy-neutral: accepted=286 rejected=194 junk=0 length=0 dup_batch=0 dup_global=194 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0052_20260422T223140+0000.jsonl
+[2026-04-22T22:31:40+00:00] cycle 52 flow-de-medium-mixed: accepted=300 rejected=133 junk=0 length=0 dup_batch=0 dup_global=133 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0052_20260422T223140+0000.jsonl
+[2026-04-22T22:31:40+00:00] cycle 52 flow-de-hard-mixed: accepted=255 rejected=225 junk=0 length=0 dup_batch=0 dup_global=225 near_dup=0 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0052_20260422T223140+0000.jsonl
+[2026-04-22T22:31:40+00:00] cycle 52 flow-en-easy-neutral: accepted=299 rejected=181 junk=0 length=0 dup_batch=0 dup_global=181 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0052_20260422T223140+0000.jsonl
+[2026-04-22T22:31:40+00:00] cycle 52 flow-en-medium-teen: accepted=261 rejected=219 junk=0 length=0 dup_batch=0 dup_global=219 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0052_20260422T223140+0000.jsonl
+[2026-04-22T22:31:40+00:00] cycle 52 flow-en-hard-mixed: accepted=264 rejected=216 junk=0 length=0 dup_batch=0 dup_global=215 near_dup=1 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0052_20260422T223140+0000.jsonl
+[2026-04-22T22:31:43+00:00] cycle 52: commit=d763902d461210b23c60d214f5c8720fb7b35981 push=push ok
+[2026-04-22T22:31:43+00:00] --- cycle 52 end (3.3s) ---
+[2026-04-22T22:31:43+00:00] --- cycle 53 start ---
+[2026-04-22T22:31:43+00:00] cycle 53 flow-de-easy-neutral: accepted=272 rejected=208 junk=0 length=0 dup_batch=0 dup_global=208 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0053_20260422T223143+0000.jsonl
+[2026-04-22T22:31:43+00:00] cycle 53 flow-de-medium-mixed: accepted=300 rejected=150 junk=0 length=0 dup_batch=0 dup_global=150 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0053_20260422T223143+0000.jsonl
+[2026-04-22T22:31:43+00:00] cycle 53 flow-de-hard-mixed: accepted=271 rejected=209 junk=0 length=0 dup_batch=0 dup_global=209 near_dup=0 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0053_20260422T223143+0000.jsonl
+[2026-04-22T22:31:43+00:00] cycle 53 flow-en-easy-neutral: accepted=249 rejected=231 junk=0 length=0 dup_batch=0 dup_global=231 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0053_20260422T223143+0000.jsonl
+[2026-04-22T22:31:43+00:00] cycle 53 flow-en-medium-teen: accepted=267 rejected=213 junk=0 length=0 dup_batch=0 dup_global=213 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0053_20260422T223143+0000.jsonl
+[2026-04-22T22:31:43+00:00] cycle 53 flow-en-hard-mixed: accepted=249 rejected=231 junk=0 length=0 dup_batch=0 dup_global=231 near_dup=0 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0053_20260422T223143+0000.jsonl
+[2026-04-22T22:31:46+00:00] cycle 53: commit=a8fc9dc13561f78bc44613d37cc99def98e9dd8d push=push ok
+[2026-04-22T22:31:46+00:00] --- cycle 53 end (2.8s) ---
+[2026-04-22T22:31:46+00:00] --- cycle 54 start ---
+[2026-04-22T22:31:46+00:00] cycle 54 flow-de-easy-neutral: accepted=277 rejected=203 junk=0 length=0 dup_batch=0 dup_global=203 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0054_20260422T223146+0000.jsonl
+[2026-04-22T22:31:46+00:00] cycle 54 flow-de-medium-mixed: accepted=293 rejected=187 junk=0 length=0 dup_batch=0 dup_global=187 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0054_20260422T223146+0000.jsonl
+[2026-04-22T22:31:46+00:00] cycle 54 flow-de-hard-mixed: accepted=246 rejected=234 junk=0 length=0 dup_batch=0 dup_global=232 near_dup=2 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0054_20260422T223146+0000.jsonl
+[2026-04-22T22:31:46+00:00] cycle 54 flow-en-easy-neutral: accepted=265 rejected=215 junk=0 length=0 dup_batch=0 dup_global=215 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0054_20260422T223146+0000.jsonl
+[2026-04-22T22:31:46+00:00] cycle 54 flow-en-medium-teen: accepted=274 rejected=206 junk=0 length=0 dup_batch=0 dup_global=206 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0054_20260422T223146+0000.jsonl
+[2026-04-22T22:31:46+00:00] cycle 54 flow-en-hard-mixed: accepted=263 rejected=217 junk=0 length=0 dup_batch=0 dup_global=217 near_dup=0 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0054_20260422T223146+0000.jsonl
+[2026-04-22T22:31:49+00:00] cycle 54: commit=a61c7f37bac9b804978bde5c1bd436f3fc99636d push=push ok
+[2026-04-22T22:31:49+00:00] --- cycle 54 end (2.8s) ---
+[2026-04-22T22:31:49+00:00] --- cycle 55 start ---
+[2026-04-22T22:31:49+00:00] cycle 55 flow-de-easy-neutral: accepted=259 rejected=221 junk=0 length=0 dup_batch=0 dup_global=221 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0055_20260422T223149+0000.jsonl
+[2026-04-22T22:31:49+00:00] cycle 55 flow-de-medium-mixed: accepted=293 rejected=187 junk=0 length=0 dup_batch=0 dup_global=186 near_dup=1 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0055_20260422T223149+0000.jsonl
+[2026-04-22T22:31:49+00:00] cycle 55 flow-de-hard-mixed: accepted=238 rejected=242 junk=0 length=0 dup_batch=0 dup_global=242 near_dup=0 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0055_20260422T223149+0000.jsonl
+[2026-04-22T22:31:49+00:00] cycle 55 flow-en-easy-neutral: accepted=251 rejected=229 junk=0 length=0 dup_batch=0 dup_global=229 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0055_20260422T223149+0000.jsonl
+[2026-04-22T22:31:49+00:00] cycle 55 flow-en-medium-teen: accepted=281 rejected=199 junk=0 length=0 dup_batch=0 dup_global=199 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0055_20260422T223149+0000.jsonl
+[2026-04-22T22:31:49+00:00] cycle 55 flow-en-hard-mixed: accepted=246 rejected=234 junk=0 length=0 dup_batch=0 dup_global=231 near_dup=3 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0055_20260422T223149+0000.jsonl
+[2026-04-22T22:31:52+00:00] cycle 55: commit=05053ec8193efada3039252f78e5506cd6116a3a push=push ok
+[2026-04-22T22:31:52+00:00] --- cycle 55 end (2.9s) ---
+[2026-04-22T22:31:52+00:00] --- cycle 56 start ---
+[2026-04-22T22:31:52+00:00] cycle 56 flow-de-easy-neutral: accepted=266 rejected=214 junk=0 length=0 dup_batch=0 dup_global=214 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0056_20260422T223152+0000.jsonl
+[2026-04-22T22:31:52+00:00] cycle 56 flow-de-medium-mixed: accepted=292 rejected=188 junk=0 length=0 dup_batch=0 dup_global=187 near_dup=1 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0056_20260422T223152+0000.jsonl
+[2026-04-22T22:31:52+00:00] cycle 56 flow-de-hard-mixed: accepted=237 rejected=243 junk=0 length=0 dup_batch=0 dup_global=240 near_dup=3 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0056_20260422T223152+0000.jsonl
+[2026-04-22T22:31:52+00:00] cycle 56 flow-en-easy-neutral: accepted=249 rejected=231 junk=0 length=0 dup_batch=0 dup_global=231 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0056_20260422T223152+0000.jsonl
+[2026-04-22T22:31:52+00:00] cycle 56 flow-en-medium-teen: accepted=271 rejected=209 junk=0 length=0 dup_batch=0 dup_global=209 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0056_20260422T223152+0000.jsonl
+[2026-04-22T22:31:52+00:00] cycle 56 flow-en-hard-mixed: accepted=225 rejected=255 junk=0 length=0 dup_batch=0 dup_global=255 near_dup=0 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0056_20260422T223152+0000.jsonl
+[2026-04-22T22:31:55+00:00] cycle 56: commit=78efa61f39228daf8264a7155a71bede1fda637a push=push ok
+[2026-04-22T22:31:55+00:00] --- cycle 56 end (2.9s) ---
+[2026-04-22T22:31:55+00:00] --- cycle 57 start ---
+[2026-04-22T22:31:55+00:00] cycle 57 flow-de-easy-neutral: accepted=273 rejected=207 junk=0 length=0 dup_batch=0 dup_global=207 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0057_20260422T223155+0000.jsonl
+[2026-04-22T22:31:55+00:00] cycle 57 flow-de-medium-mixed: accepted=300 rejected=177 junk=0 length=0 dup_batch=0 dup_global=177 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0057_20260422T223155+0000.jsonl
+[2026-04-22T22:31:55+00:00] cycle 57 flow-de-hard-mixed: accepted=237 rejected=243 junk=0 length=0 dup_batch=0 dup_global=243 near_dup=0 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0057_20260422T223155+0000.jsonl
+[2026-04-22T22:31:55+00:00] cycle 57 flow-en-easy-neutral: accepted=238 rejected=242 junk=0 length=0 dup_batch=0 dup_global=242 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0057_20260422T223155+0000.jsonl
+[2026-04-22T22:31:55+00:00] cycle 57 flow-en-medium-teen: accepted=281 rejected=199 junk=0 length=0 dup_batch=0 dup_global=199 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0057_20260422T223155+0000.jsonl
+[2026-04-22T22:31:55+00:00] cycle 57 flow-en-hard-mixed: accepted=238 rejected=242 junk=0 length=0 dup_batch=0 dup_global=242 near_dup=0 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0057_20260422T223155+0000.jsonl
+[2026-04-22T22:31:58+00:00] cycle 57: commit=b66c2206a8a7aed0a26e6bedab26196375cfd1a7 push=push ok
+[2026-04-22T22:31:58+00:00] --- cycle 57 end (2.9s) ---
+[2026-04-22T22:31:58+00:00] --- cycle 58 start ---
+[2026-04-22T22:31:58+00:00] cycle 58 flow-de-easy-neutral: accepted=261 rejected=219 junk=0 length=0 dup_batch=0 dup_global=219 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0058_20260422T223158+0000.jsonl
+[2026-04-22T22:31:58+00:00] cycle 58 flow-de-medium-mixed: accepted=298 rejected=182 junk=0 length=0 dup_batch=0 dup_global=182 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0058_20260422T223158+0000.jsonl
+[2026-04-22T22:31:58+00:00] cycle 58 flow-de-hard-mixed: accepted=227 rejected=253 junk=0 length=0 dup_batch=0 dup_global=250 near_dup=3 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0058_20260422T223158+0000.jsonl
+[2026-04-22T22:31:58+00:00] cycle 58 flow-en-easy-neutral: accepted=237 rejected=243 junk=0 length=0 dup_batch=0 dup_global=243 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0058_20260422T223158+0000.jsonl
+[2026-04-22T22:31:58+00:00] cycle 58 flow-en-medium-teen: accepted=268 rejected=212 junk=0 length=0 dup_batch=0 dup_global=212 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0058_20260422T223158+0000.jsonl
+[2026-04-22T22:31:58+00:00] cycle 58 flow-en-hard-mixed: accepted=254 rejected=226 junk=0 length=0 dup_batch=0 dup_global=226 near_dup=0 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0058_20260422T223158+0000.jsonl
+[2026-04-22T22:32:01+00:00] cycle 58: commit=b83e923e94d12d74b53d0e0c7deea8c36b6d810c push=push ok
+[2026-04-22T22:32:01+00:00] --- cycle 58 end (3.3s) ---
+[2026-04-22T22:32:01+00:00] --- cycle 59 start ---
+[2026-04-22T22:32:01+00:00] cycle 59 flow-de-easy-neutral: accepted=243 rejected=237 junk=0 length=0 dup_batch=0 dup_global=237 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0059_20260422T223201+0000.jsonl
+[2026-04-22T22:32:01+00:00] cycle 59 flow-de-medium-mixed: accepted=290 rejected=190 junk=0 length=0 dup_batch=0 dup_global=190 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0059_20260422T223201+0000.jsonl
+[2026-04-22T22:32:01+00:00] cycle 59 flow-de-hard-mixed: accepted=226 rejected=254 junk=0 length=0 dup_batch=0 dup_global=254 near_dup=0 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0059_20260422T223201+0000.jsonl
+[2026-04-22T22:32:01+00:00] cycle 59 flow-en-easy-neutral: accepted=218 rejected=262 junk=0 length=0 dup_batch=0 dup_global=262 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0059_20260422T223201+0000.jsonl
+[2026-04-22T22:32:01+00:00] cycle 59 flow-en-medium-teen: accepted=267 rejected=213 junk=0 length=0 dup_batch=0 dup_global=213 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0059_20260422T223201+0000.jsonl
+[2026-04-22T22:32:01+00:00] cycle 59 flow-en-hard-mixed: accepted=242 rejected=238 junk=0 length=0 dup_batch=0 dup_global=234 near_dup=4 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0059_20260422T223201+0000.jsonl
+[2026-04-22T22:32:04+00:00] cycle 59: commit=decc5ba2ed677106abc3ba3b40a4f9d16509b04b push=push ok
+[2026-04-22T22:32:04+00:00] --- cycle 59 end (2.8s) ---
+[2026-04-22T22:32:04+00:00] --- cycle 60 start ---
+[2026-04-22T22:32:04+00:00] cycle 60 flow-de-easy-neutral: accepted=254 rejected=226 junk=0 length=0 dup_batch=0 dup_global=226 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0060_20260422T223204+0000.jsonl
+[2026-04-22T22:32:04+00:00] cycle 60 flow-de-medium-mixed: accepted=294 rejected=186 junk=0 length=0 dup_batch=0 dup_global=186 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0060_20260422T223204+0000.jsonl
+[2026-04-22T22:32:04+00:00] cycle 60 flow-de-hard-mixed: accepted=227 rejected=253 junk=0 length=0 dup_batch=0 dup_global=253 near_dup=0 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0060_20260422T223204+0000.jsonl
+[2026-04-22T22:32:04+00:00] cycle 60 flow-en-easy-neutral: accepted=216 rejected=264 junk=0 length=0 dup_batch=0 dup_global=264 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0060_20260422T223204+0000.jsonl
+[2026-04-22T22:32:04+00:00] cycle 60 flow-en-medium-teen: accepted=256 rejected=224 junk=0 length=0 dup_batch=0 dup_global=224 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0060_20260422T223204+0000.jsonl
+[2026-04-22T22:32:04+00:00] cycle 60 flow-en-hard-mixed: accepted=241 rejected=239 junk=0 length=0 dup_batch=0 dup_global=239 near_dup=0 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0060_20260422T223204+0000.jsonl
+[2026-04-22T22:32:07+00:00] cycle 60: commit=6d6282061debb76610e9741ec4e694416db8f18d push=push ok
+[2026-04-22T22:32:07+00:00] --- cycle 60 end (3.2s) ---
+[2026-04-22T22:32:07+00:00] --- cycle 61 start ---
+[2026-04-22T22:32:07+00:00] cycle 61 flow-de-easy-neutral: accepted=250 rejected=230 junk=0 length=0 dup_batch=0 dup_global=230 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0061_20260422T223207+0000.jsonl
+[2026-04-22T22:32:07+00:00] cycle 61 flow-de-medium-mixed: accepted=300 rejected=178 junk=0 length=0 dup_batch=0 dup_global=178 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0061_20260422T223207+0000.jsonl
+[2026-04-22T22:32:07+00:00] cycle 61 flow-de-hard-mixed: accepted=237 rejected=243 junk=0 length=0 dup_batch=0 dup_global=242 near_dup=1 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0061_20260422T223207+0000.jsonl
+[2026-04-22T22:32:07+00:00] cycle 61 flow-en-easy-neutral: accepted=204 rejected=276 junk=0 length=0 dup_batch=0 dup_global=276 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0061_20260422T223207+0000.jsonl
+[2026-04-22T22:32:07+00:00] cycle 61 flow-en-medium-teen: accepted=245 rejected=235 junk=0 length=0 dup_batch=0 dup_global=235 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0061_20260422T223207+0000.jsonl
+[2026-04-22T22:32:07+00:00] cycle 61 flow-en-hard-mixed: accepted=225 rejected=255 junk=0 length=0 dup_batch=0 dup_global=255 near_dup=0 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0061_20260422T223207+0000.jsonl
+[2026-04-22T22:32:11+00:00] cycle 61: commit=2b257ed183c47f50adee6e996891cd7844405bb1 push=push ok
+[2026-04-22T22:32:11+00:00] --- cycle 61 end (3.9s) ---
+[2026-04-22T22:32:11+00:00] --- cycle 62 start ---
+[2026-04-22T22:32:11+00:00] cycle 62 flow-de-easy-neutral: accepted=255 rejected=225 junk=0 length=0 dup_batch=0 dup_global=225 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0062_20260422T223211+0000.jsonl
+[2026-04-22T22:32:11+00:00] cycle 62 flow-de-medium-mixed: accepted=295 rejected=185 junk=0 length=0 dup_batch=0 dup_global=185 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0062_20260422T223211+0000.jsonl
+[2026-04-22T22:32:11+00:00] cycle 62 flow-de-hard-mixed: accepted=215 rejected=265 junk=0 length=0 dup_batch=0 dup_global=265 near_dup=0 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0062_20260422T223211+0000.jsonl
+[2026-04-22T22:32:11+00:00] cycle 62 flow-en-easy-neutral: accepted=228 rejected=252 junk=0 length=0 dup_batch=0 dup_global=252 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0062_20260422T223211+0000.jsonl
+[2026-04-22T22:32:11+00:00] cycle 62 flow-en-medium-teen: accepted=244 rejected=236 junk=0 length=0 dup_batch=0 dup_global=236 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0062_20260422T223211+0000.jsonl
+[2026-04-22T22:32:11+00:00] cycle 62 flow-en-hard-mixed: accepted=208 rejected=272 junk=0 length=0 dup_batch=0 dup_global=272 near_dup=0 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0062_20260422T223211+0000.jsonl
+[2026-04-22T22:32:14+00:00] cycle 62: commit=b66408693b923adb310653b71159e12c51780fec push=push ok
+[2026-04-22T22:32:14+00:00] --- cycle 62 end (3.0s) ---
+[2026-04-22T22:32:14+00:00] --- cycle 63 start ---
+[2026-04-22T22:32:14+00:00] cycle 63 flow-de-easy-neutral: accepted=220 rejected=260 junk=0 length=0 dup_batch=0 dup_global=260 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0063_20260422T223214+0000.jsonl
+[2026-04-22T22:32:14+00:00] cycle 63 flow-de-medium-mixed: accepted=282 rejected=198 junk=0 length=0 dup_batch=0 dup_global=198 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0063_20260422T223214+0000.jsonl
+[2026-04-22T22:32:14+00:00] cycle 63 flow-de-hard-mixed: accepted=224 rejected=256 junk=0 length=0 dup_batch=0 dup_global=255 near_dup=1 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0063_20260422T223214+0000.jsonl
+[2026-04-22T22:32:14+00:00] cycle 63 flow-en-easy-neutral: accepted=212 rejected=268 junk=0 length=0 dup_batch=0 dup_global=268 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0063_20260422T223214+0000.jsonl
+[2026-04-22T22:32:14+00:00] cycle 63 flow-en-medium-teen: accepted=243 rejected=237 junk=0 length=0 dup_batch=0 dup_global=237 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0063_20260422T223214+0000.jsonl
+[2026-04-22T22:32:14+00:00] cycle 63 flow-en-hard-mixed: accepted=203 rejected=277 junk=0 length=0 dup_batch=0 dup_global=274 near_dup=3 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0063_20260422T223214+0000.jsonl
+[2026-04-22T22:32:17+00:00] cycle 63: commit=5e3a676087f61441324ac7c4bf39b017fa0a6da5 push=push ok
+[2026-04-22T22:32:17+00:00] --- cycle 63 end (3.0s) ---
+[2026-04-22T22:32:17+00:00] --- cycle 64 start ---
+[2026-04-22T22:32:17+00:00] cycle 64 flow-de-easy-neutral: accepted=238 rejected=242 junk=0 length=0 dup_batch=0 dup_global=242 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0064_20260422T223217+0000.jsonl
+[2026-04-22T22:32:17+00:00] cycle 64 flow-de-medium-mixed: accepted=300 rejected=178 junk=0 length=0 dup_batch=0 dup_global=178 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0064_20260422T223217+0000.jsonl
+[2026-04-22T22:32:17+00:00] cycle 64 flow-de-hard-mixed: accepted=239 rejected=241 junk=0 length=0 dup_batch=0 dup_global=240 near_dup=1 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0064_20260422T223217+0000.jsonl
+[2026-04-22T22:32:17+00:00] cycle 64 flow-en-easy-neutral: accepted=200 rejected=280 junk=0 length=0 dup_batch=0 dup_global=280 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0064_20260422T223217+0000.jsonl
+[2026-04-22T22:32:17+00:00] cycle 64 flow-en-medium-teen: accepted=227 rejected=253 junk=0 length=0 dup_batch=0 dup_global=253 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0064_20260422T223217+0000.jsonl
+[2026-04-22T22:32:17+00:00] cycle 64 flow-en-hard-mixed: accepted=222 rejected=258 junk=0 length=0 dup_batch=0 dup_global=258 near_dup=0 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0064_20260422T223217+0000.jsonl
+[2026-04-22T22:32:20+00:00] cycle 64: commit=123eb3f89d7f4309e9387ad751104678719d1171 push=push ok
+[2026-04-22T22:32:20+00:00] --- cycle 64 end (3.0s) ---
+[2026-04-22T22:32:20+00:00] --- cycle 65 start ---
+[2026-04-22T22:32:20+00:00] cycle 65 flow-de-easy-neutral: accepted=241 rejected=239 junk=0 length=0 dup_batch=0 dup_global=239 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0065_20260422T223220+0000.jsonl
+[2026-04-22T22:32:20+00:00] cycle 65 flow-de-medium-mixed: accepted=284 rejected=196 junk=0 length=0 dup_batch=0 dup_global=196 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0065_20260422T223220+0000.jsonl
+[2026-04-22T22:32:20+00:00] cycle 65 flow-de-hard-mixed: accepted=206 rejected=274 junk=0 length=0 dup_batch=0 dup_global=273 near_dup=1 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0065_20260422T223220+0000.jsonl
+[2026-04-22T22:32:20+00:00] cycle 65 flow-en-easy-neutral: accepted=217 rejected=263 junk=0 length=0 dup_batch=0 dup_global=263 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0065_20260422T223220+0000.jsonl
+[2026-04-22T22:32:20+00:00] cycle 65 flow-en-medium-teen: accepted=220 rejected=260 junk=0 length=0 dup_batch=0 dup_global=260 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0065_20260422T223220+0000.jsonl
+[2026-04-22T22:32:20+00:00] cycle 65 flow-en-hard-mixed: accepted=203 rejected=277 junk=0 length=0 dup_batch=0 dup_global=276 near_dup=1 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0065_20260422T223220+0000.jsonl
+[2026-04-22T22:32:24+00:00] cycle 65: commit=4f17159c8edd40cce712bdb1bd0ceb90ddcb2ad3 push=push ok
+[2026-04-22T22:32:24+00:00] --- cycle 65 end (3.9s) ---
+[2026-04-22T22:32:24+00:00] --- cycle 66 start ---
+[2026-04-22T22:32:24+00:00] cycle 66 flow-de-easy-neutral: accepted=221 rejected=259 junk=0 length=0 dup_batch=0 dup_global=259 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0066_20260422T223224+0000.jsonl
+[2026-04-22T22:32:24+00:00] cycle 66 flow-de-medium-mixed: accepted=288 rejected=192 junk=0 length=0 dup_batch=0 dup_global=192 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0066_20260422T223224+0000.jsonl
+[2026-04-22T22:32:24+00:00] cycle 66 flow-de-hard-mixed: accepted=220 rejected=260 junk=0 length=0 dup_batch=0 dup_global=259 near_dup=1 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0066_20260422T223224+0000.jsonl
+[2026-04-22T22:32:24+00:00] cycle 66 flow-en-easy-neutral: accepted=216 rejected=264 junk=0 length=0 dup_batch=0 dup_global=264 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0066_20260422T223224+0000.jsonl
+[2026-04-22T22:32:24+00:00] cycle 66 flow-en-medium-teen: accepted=232 rejected=248 junk=0 length=0 dup_batch=0 dup_global=248 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0066_20260422T223224+0000.jsonl
+[2026-04-22T22:32:24+00:00] cycle 66 flow-en-hard-mixed: accepted=219 rejected=261 junk=0 length=0 dup_batch=0 dup_global=261 near_dup=0 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0066_20260422T223224+0000.jsonl
+[2026-04-22T22:32:27+00:00] cycle 66: commit=93a42011b801b9e5f63b0bb6f0b0fe1e3b75c8e9 push=push ok
+[2026-04-22T22:32:27+00:00] --- cycle 66 end (3.1s) ---
+[2026-04-22T22:32:27+00:00] --- cycle 67 start ---
+[2026-04-22T22:32:27+00:00] cycle 67 flow-de-easy-neutral: accepted=244 rejected=236 junk=0 length=0 dup_batch=0 dup_global=236 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0067_20260422T223227+0000.jsonl
+[2026-04-22T22:32:27+00:00] cycle 67 flow-de-medium-mixed: accepted=268 rejected=212 junk=0 length=0 dup_batch=0 dup_global=212 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0067_20260422T223227+0000.jsonl
+[2026-04-22T22:32:27+00:00] cycle 67 flow-de-hard-mixed: accepted=190 rejected=290 junk=0 length=0 dup_batch=0 dup_global=290 near_dup=0 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0067_20260422T223227+0000.jsonl
+[2026-04-22T22:32:27+00:00] cycle 67 flow-en-easy-neutral: accepted=197 rejected=283 junk=0 length=0 dup_batch=0 dup_global=283 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0067_20260422T223227+0000.jsonl
+[2026-04-22T22:32:27+00:00] cycle 67 flow-en-medium-teen: accepted=219 rejected=261 junk=0 length=0 dup_batch=0 dup_global=261 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0067_20260422T223227+0000.jsonl
+[2026-04-22T22:32:27+00:00] cycle 67 flow-en-hard-mixed: accepted=218 rejected=262 junk=0 length=0 dup_batch=0 dup_global=261 near_dup=1 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0067_20260422T223227+0000.jsonl
+[2026-04-22T22:32:30+00:00] cycle 67: commit=20aab5c369ba12f6994eb4071ed6486957b54ad4 push=push ok
+[2026-04-22T22:32:30+00:00] --- cycle 67 end (3.0s) ---
+[2026-04-22T22:32:30+00:00] --- cycle 68 start ---
+[2026-04-22T22:32:30+00:00] cycle 68 flow-de-easy-neutral: accepted=243 rejected=237 junk=0 length=0 dup_batch=0 dup_global=237 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0068_20260422T223230+0000.jsonl
+[2026-04-22T22:32:30+00:00] cycle 68 flow-de-medium-mixed: accepted=256 rejected=224 junk=0 length=0 dup_batch=0 dup_global=224 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0068_20260422T223230+0000.jsonl
+[2026-04-22T22:32:30+00:00] cycle 68 flow-de-hard-mixed: accepted=208 rejected=272 junk=0 length=0 dup_batch=0 dup_global=272 near_dup=0 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0068_20260422T223230+0000.jsonl
+[2026-04-22T22:32:30+00:00] cycle 68 flow-en-easy-neutral: accepted=212 rejected=268 junk=0 length=0 dup_batch=0 dup_global=268 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0068_20260422T223230+0000.jsonl
+[2026-04-22T22:32:30+00:00] cycle 68 flow-en-medium-teen: accepted=207 rejected=273 junk=0 length=0 dup_batch=0 dup_global=273 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0068_20260422T223230+0000.jsonl
+[2026-04-22T22:32:30+00:00] cycle 68 flow-en-hard-mixed: accepted=198 rejected=282 junk=0 length=0 dup_batch=0 dup_global=281 near_dup=1 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0068_20260422T223230+0000.jsonl
+[2026-04-22T22:32:33+00:00] cycle 68: commit=5fd17de5a8b20328f395bb126806e83a0ab8a932 push=push ok
+[2026-04-22T22:32:33+00:00] --- cycle 68 end (2.9s) ---
+[2026-04-22T22:32:33+00:00] --- cycle 69 start ---
+[2026-04-22T22:32:33+00:00] cycle 69 flow-de-easy-neutral: accepted=232 rejected=248 junk=0 length=0 dup_batch=0 dup_global=248 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0069_20260422T223233+0000.jsonl
+[2026-04-22T22:32:33+00:00] cycle 69 flow-de-medium-mixed: accepted=259 rejected=221 junk=0 length=0 dup_batch=0 dup_global=221 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0069_20260422T223233+0000.jsonl
+[2026-04-22T22:32:33+00:00] cycle 69 flow-de-hard-mixed: accepted=199 rejected=281 junk=0 length=0 dup_batch=0 dup_global=280 near_dup=1 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0069_20260422T223233+0000.jsonl
+[2026-04-22T22:32:33+00:00] cycle 69 flow-en-easy-neutral: accepted=194 rejected=286 junk=0 length=0 dup_batch=0 dup_global=286 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0069_20260422T223233+0000.jsonl
+[2026-04-22T22:32:33+00:00] cycle 69 flow-en-medium-teen: accepted=233 rejected=247 junk=0 length=0 dup_batch=0 dup_global=247 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0069_20260422T223233+0000.jsonl
+[2026-04-22T22:32:33+00:00] cycle 69 flow-en-hard-mixed: accepted=199 rejected=281 junk=0 length=0 dup_batch=0 dup_global=281 near_dup=0 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0069_20260422T223233+0000.jsonl
+[2026-04-22T22:32:36+00:00] cycle 69: commit=994994a654876aa1f01965155d5d9cff3389d373 push=push ok
+[2026-04-22T22:32:36+00:00] --- cycle 69 end (3.3s) ---
+[2026-04-22T22:32:36+00:00] --- cycle 70 start ---
+[2026-04-22T22:32:36+00:00] cycle 70 flow-de-easy-neutral: accepted=223 rejected=257 junk=0 length=0 dup_batch=0 dup_global=257 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0070_20260422T223236+0000.jsonl
+[2026-04-22T22:32:36+00:00] cycle 70 flow-de-medium-mixed: accepted=256 rejected=224 junk=0 length=0 dup_batch=0 dup_global=224 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0070_20260422T223236+0000.jsonl
+[2026-04-22T22:32:36+00:00] cycle 70 flow-de-hard-mixed: accepted=193 rejected=287 junk=0 length=0 dup_batch=0 dup_global=287 near_dup=0 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0070_20260422T223236+0000.jsonl
+[2026-04-22T22:32:36+00:00] cycle 70 flow-en-easy-neutral: accepted=189 rejected=291 junk=0 length=0 dup_batch=0 dup_global=291 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0070_20260422T223236+0000.jsonl
+[2026-04-22T22:32:36+00:00] cycle 70 flow-en-medium-teen: accepted=249 rejected=231 junk=0 length=0 dup_batch=0 dup_global=231 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0070_20260422T223236+0000.jsonl
+[2026-04-22T22:32:36+00:00] cycle 70 flow-en-hard-mixed: accepted=212 rejected=268 junk=0 length=0 dup_batch=0 dup_global=268 near_dup=0 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0070_20260422T223236+0000.jsonl
+[2026-04-22T22:32:39+00:00] cycle 70: commit=87f41de3185702aa61d6568f77f1ef3e0f8ae6fd push=push ok
+[2026-04-22T22:32:39+00:00] --- cycle 70 end (2.9s) ---
+[2026-04-22T22:32:39+00:00] --- cycle 71 start ---
+[2026-04-22T22:32:39+00:00] cycle 71 flow-de-easy-neutral: accepted=216 rejected=264 junk=0 length=0 dup_batch=0 dup_global=264 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0071_20260422T223239+0000.jsonl
+[2026-04-22T22:32:39+00:00] cycle 71 flow-de-medium-mixed: accepted=260 rejected=220 junk=0 length=0 dup_batch=0 dup_global=220 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0071_20260422T223239+0000.jsonl
+[2026-04-22T22:32:39+00:00] cycle 71 flow-de-hard-mixed: accepted=202 rejected=278 junk=0 length=0 dup_batch=0 dup_global=278 near_dup=0 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0071_20260422T223239+0000.jsonl
+[2026-04-22T22:32:39+00:00] cycle 71 flow-en-easy-neutral: accepted=194 rejected=286 junk=0 length=0 dup_batch=0 dup_global=286 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0071_20260422T223239+0000.jsonl
+[2026-04-22T22:32:39+00:00] cycle 71 flow-en-medium-teen: accepted=220 rejected=260 junk=0 length=0 dup_batch=0 dup_global=260 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0071_20260422T223239+0000.jsonl
+[2026-04-22T22:32:39+00:00] cycle 71 flow-en-hard-mixed: accepted=181 rejected=299 junk=0 length=0 dup_batch=0 dup_global=299 near_dup=0 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0071_20260422T223239+0000.jsonl
+[2026-04-22T22:32:42+00:00] cycle 71: commit=12d253299ec162ad9c34b85bbdfd39ca2cb3d0ae push=push ok
+[2026-04-22T22:32:42+00:00] --- cycle 71 end (2.9s) ---
+[2026-04-22T22:32:42+00:00] --- cycle 72 start ---
+[2026-04-22T22:32:42+00:00] cycle 72 flow-de-easy-neutral: accepted=211 rejected=269 junk=0 length=0 dup_batch=0 dup_global=269 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0072_20260422T223242+0000.jsonl
+[2026-04-22T22:32:42+00:00] cycle 72 flow-de-medium-mixed: accepted=261 rejected=219 junk=0 length=0 dup_batch=0 dup_global=219 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0072_20260422T223242+0000.jsonl
+[2026-04-22T22:32:42+00:00] cycle 72 flow-de-hard-mixed: accepted=200 rejected=280 junk=0 length=0 dup_batch=0 dup_global=280 near_dup=0 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0072_20260422T223242+0000.jsonl
+[2026-04-22T22:32:42+00:00] cycle 72 flow-en-easy-neutral: accepted=184 rejected=296 junk=0 length=0 dup_batch=0 dup_global=296 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0072_20260422T223242+0000.jsonl
+[2026-04-22T22:32:42+00:00] cycle 72 flow-en-medium-teen: accepted=205 rejected=275 junk=0 length=0 dup_batch=0 dup_global=275 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0072_20260422T223242+0000.jsonl
+[2026-04-22T22:32:42+00:00] cycle 72 flow-en-hard-mixed: accepted=192 rejected=288 junk=0 length=0 dup_batch=0 dup_global=287 near_dup=1 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0072_20260422T223242+0000.jsonl
+[2026-04-22T22:32:45+00:00] cycle 72: commit=6d46b17e86c0c46999c84b58a75a5e8dcd2e566b push=push ok
+[2026-04-22T22:32:45+00:00] --- cycle 72 end (2.8s) ---
+[2026-04-22T22:32:45+00:00] --- cycle 73 start ---
+[2026-04-22T22:32:45+00:00] cycle 73 flow-de-easy-neutral: accepted=214 rejected=266 junk=0 length=0 dup_batch=0 dup_global=266 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0073_20260422T223245+0000.jsonl
+[2026-04-22T22:32:45+00:00] cycle 73 flow-de-medium-mixed: accepted=258 rejected=222 junk=0 length=0 dup_batch=0 dup_global=222 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0073_20260422T223245+0000.jsonl
+[2026-04-22T22:32:45+00:00] cycle 73 flow-de-hard-mixed: accepted=178 rejected=302 junk=0 length=0 dup_batch=0 dup_global=302 near_dup=0 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0073_20260422T223245+0000.jsonl
+[2026-04-22T22:32:45+00:00] cycle 73 flow-en-easy-neutral: accepted=163 rejected=317 junk=0 length=0 dup_batch=0 dup_global=317 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0073_20260422T223245+0000.jsonl
+[2026-04-22T22:32:45+00:00] cycle 73 flow-en-medium-teen: accepted=211 rejected=269 junk=0 length=0 dup_batch=0 dup_global=269 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0073_20260422T223245+0000.jsonl
+[2026-04-22T22:32:45+00:00] cycle 73 flow-en-hard-mixed: accepted=198 rejected=282 junk=0 length=0 dup_batch=0 dup_global=281 near_dup=1 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0073_20260422T223245+0000.jsonl
+[2026-04-22T22:32:47+00:00] cycle 73: commit=98f31b6e4e77cc37420fcdc4a4e0ba14699f4cca push=push ok
+[2026-04-22T22:32:47+00:00] --- cycle 73 end (2.9s) ---
+[2026-04-22T22:32:47+00:00] --- cycle 74 start ---
+[2026-04-22T22:32:48+00:00] cycle 74 flow-de-easy-neutral: accepted=183 rejected=297 junk=0 length=0 dup_batch=0 dup_global=297 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0074_20260422T223247+0000.jsonl
+[2026-04-22T22:32:48+00:00] cycle 74 flow-de-medium-mixed: accepted=240 rejected=240 junk=0 length=0 dup_batch=0 dup_global=240 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0074_20260422T223247+0000.jsonl
+[2026-04-22T22:32:48+00:00] cycle 74 flow-de-hard-mixed: accepted=206 rejected=274 junk=0 length=0 dup_batch=0 dup_global=274 near_dup=0 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0074_20260422T223247+0000.jsonl
+[2026-04-22T22:32:48+00:00] cycle 74 flow-en-easy-neutral: accepted=156 rejected=324 junk=0 length=0 dup_batch=0 dup_global=324 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0074_20260422T223247+0000.jsonl
+[2026-04-22T22:32:48+00:00] cycle 74 flow-en-medium-teen: accepted=184 rejected=296 junk=0 length=0 dup_batch=0 dup_global=296 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0074_20260422T223247+0000.jsonl
+[2026-04-22T22:32:48+00:00] cycle 74 flow-en-hard-mixed: accepted=180 rejected=300 junk=0 length=0 dup_batch=0 dup_global=300 near_dup=0 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0074_20260422T223247+0000.jsonl
+[2026-04-22T22:32:50+00:00] cycle 74: commit=e0d0df997393266f1536cd1caa86218dbc879f06 push=push ok
+[2026-04-22T22:32:50+00:00] --- cycle 74 end (2.9s) ---
+[2026-04-22T22:32:50+00:00] --- cycle 75 start ---
+[2026-04-22T22:32:50+00:00] cycle 75 flow-de-easy-neutral: accepted=194 rejected=286 junk=0 length=0 dup_batch=0 dup_global=286 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0075_20260422T223250+0000.jsonl
+[2026-04-22T22:32:50+00:00] cycle 75 flow-de-medium-mixed: accepted=239 rejected=241 junk=0 length=0 dup_batch=0 dup_global=241 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0075_20260422T223250+0000.jsonl
+[2026-04-22T22:32:50+00:00] cycle 75 flow-de-hard-mixed: accepted=176 rejected=304 junk=0 length=0 dup_batch=0 dup_global=303 near_dup=1 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0075_20260422T223250+0000.jsonl
+[2026-04-22T22:32:50+00:00] cycle 75 flow-en-easy-neutral: accepted=172 rejected=308 junk=0 length=0 dup_batch=0 dup_global=308 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0075_20260422T223250+0000.jsonl
+[2026-04-22T22:32:50+00:00] cycle 75 flow-en-medium-teen: accepted=201 rejected=279 junk=0 length=0 dup_batch=0 dup_global=279 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0075_20260422T223250+0000.jsonl
+[2026-04-22T22:32:51+00:00] cycle 75 flow-en-hard-mixed: accepted=188 rejected=292 junk=0 length=0 dup_batch=0 dup_global=291 near_dup=1 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0075_20260422T223250+0000.jsonl
+[2026-04-22T22:32:53+00:00] cycle 75: commit=304b08adf28da3bc0f22dd09b7f0c621959e5317 push=push ok
+[2026-04-22T22:32:53+00:00] --- cycle 75 end (2.9s) ---
+[2026-04-22T22:32:53+00:00] --- cycle 76 start ---
+[2026-04-22T22:32:53+00:00] cycle 76 flow-de-easy-neutral: accepted=215 rejected=265 junk=0 length=0 dup_batch=0 dup_global=265 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0076_20260422T223253+0000.jsonl
+[2026-04-22T22:32:53+00:00] cycle 76 flow-de-medium-mixed: accepted=239 rejected=241 junk=0 length=0 dup_batch=0 dup_global=241 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0076_20260422T223253+0000.jsonl
+[2026-04-22T22:32:53+00:00] cycle 76 flow-de-hard-mixed: accepted=190 rejected=290 junk=0 length=0 dup_batch=0 dup_global=290 near_dup=0 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0076_20260422T223253+0000.jsonl
+[2026-04-22T22:32:53+00:00] cycle 76 flow-en-easy-neutral: accepted=186 rejected=294 junk=0 length=0 dup_batch=0 dup_global=294 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0076_20260422T223253+0000.jsonl
+[2026-04-22T22:32:53+00:00] cycle 76 flow-en-medium-teen: accepted=203 rejected=277 junk=0 length=0 dup_batch=0 dup_global=277 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0076_20260422T223253+0000.jsonl
+[2026-04-22T22:32:53+00:00] cycle 76 flow-en-hard-mixed: accepted=202 rejected=278 junk=0 length=0 dup_batch=0 dup_global=277 near_dup=1 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0076_20260422T223253+0000.jsonl
+[2026-04-22T22:32:56+00:00] cycle 76: commit=97625e94e9c1b07d07c8751d361856ed0f5bdcdf push=push ok
+[2026-04-22T22:32:56+00:00] --- cycle 76 end (2.9s) ---
+[2026-04-22T22:32:56+00:00] --- cycle 77 start ---
+[2026-04-22T22:32:56+00:00] cycle 77 flow-de-easy-neutral: accepted=208 rejected=272 junk=0 length=0 dup_batch=0 dup_global=272 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0077_20260422T223256+0000.jsonl
+[2026-04-22T22:32:56+00:00] cycle 77 flow-de-medium-mixed: accepted=234 rejected=246 junk=0 length=0 dup_batch=0 dup_global=246 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0077_20260422T223256+0000.jsonl
+[2026-04-22T22:32:56+00:00] cycle 77 flow-de-hard-mixed: accepted=160 rejected=320 junk=0 length=0 dup_batch=0 dup_global=320 near_dup=0 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0077_20260422T223256+0000.jsonl
+[2026-04-22T22:32:56+00:00] cycle 77 flow-en-easy-neutral: accepted=180 rejected=300 junk=0 length=0 dup_batch=0 dup_global=300 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0077_20260422T223256+0000.jsonl
+[2026-04-22T22:32:56+00:00] cycle 77 flow-en-medium-teen: accepted=180 rejected=300 junk=0 length=0 dup_batch=0 dup_global=300 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0077_20260422T223256+0000.jsonl
+[2026-04-22T22:32:56+00:00] cycle 77 flow-en-hard-mixed: accepted=181 rejected=299 junk=0 length=0 dup_batch=0 dup_global=299 near_dup=0 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0077_20260422T223256+0000.jsonl
+[2026-04-22T22:32:59+00:00] cycle 77: commit=ffbfd63591254de63f611a61bdeff1f38a6241f8 push=push ok
+[2026-04-22T22:32:59+00:00] --- cycle 77 end (2.9s) ---
+[2026-04-22T22:32:59+00:00] --- cycle 78 start ---
+[2026-04-22T22:32:59+00:00] cycle 78 flow-de-easy-neutral: accepted=224 rejected=256 junk=0 length=0 dup_batch=0 dup_global=256 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0078_20260422T223259+0000.jsonl
+[2026-04-22T22:32:59+00:00] cycle 78 flow-de-medium-mixed: accepted=258 rejected=222 junk=0 length=0 dup_batch=0 dup_global=222 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0078_20260422T223259+0000.jsonl
+[2026-04-22T22:32:59+00:00] cycle 78 flow-de-hard-mixed: accepted=186 rejected=294 junk=0 length=0 dup_batch=0 dup_global=294 near_dup=0 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0078_20260422T223259+0000.jsonl
+[2026-04-22T22:32:59+00:00] cycle 78 flow-en-easy-neutral: accepted=160 rejected=320 junk=0 length=0 dup_batch=0 dup_global=320 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0078_20260422T223259+0000.jsonl
+[2026-04-22T22:32:59+00:00] cycle 78 flow-en-medium-teen: accepted=180 rejected=300 junk=0 length=0 dup_batch=0 dup_global=300 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0078_20260422T223259+0000.jsonl
+[2026-04-22T22:32:59+00:00] cycle 78 flow-en-hard-mixed: accepted=188 rejected=292 junk=0 length=0 dup_batch=0 dup_global=292 near_dup=0 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0078_20260422T223259+0000.jsonl
+[2026-04-22T22:33:02+00:00] cycle 78: commit=b46ca7959889b8d35549e3578aac35bf1ab40e57 push=push ok
+[2026-04-22T22:33:02+00:00] --- cycle 78 end (3.1s) ---
+[2026-04-22T22:33:02+00:00] --- cycle 79 start ---
+[2026-04-22T22:33:02+00:00] cycle 79 flow-de-easy-neutral: accepted=199 rejected=281 junk=0 length=0 dup_batch=0 dup_global=281 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0079_20260422T223302+0000.jsonl
+[2026-04-22T22:33:02+00:00] cycle 79 flow-de-medium-mixed: accepted=237 rejected=243 junk=0 length=0 dup_batch=0 dup_global=243 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0079_20260422T223302+0000.jsonl
+[2026-04-22T22:33:02+00:00] cycle 79 flow-de-hard-mixed: accepted=173 rejected=307 junk=0 length=0 dup_batch=0 dup_global=307 near_dup=0 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0079_20260422T223302+0000.jsonl
+[2026-04-22T22:33:02+00:00] cycle 79 flow-en-easy-neutral: accepted=156 rejected=324 junk=0 length=0 dup_batch=0 dup_global=324 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0079_20260422T223302+0000.jsonl
+[2026-04-22T22:33:02+00:00] cycle 79 flow-en-medium-teen: accepted=193 rejected=287 junk=0 length=0 dup_batch=0 dup_global=287 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0079_20260422T223302+0000.jsonl
+[2026-04-22T22:33:02+00:00] cycle 79 flow-en-hard-mixed: accepted=183 rejected=297 junk=0 length=0 dup_batch=0 dup_global=297 near_dup=0 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0079_20260422T223302+0000.jsonl
+[2026-04-22T22:33:05+00:00] cycle 79: commit=f108a4929e1130f60bb7f6fbfa43de1017eba529 push=push ok
+[2026-04-22T22:33:05+00:00] --- cycle 79 end (2.9s) ---
+[2026-04-22T22:33:05+00:00] --- cycle 80 start ---
+[2026-04-22T22:33:05+00:00] cycle 80 flow-de-easy-neutral: accepted=175 rejected=305 junk=0 length=0 dup_batch=0 dup_global=305 near_dup=0 file=data/synthetic/flow-de-easy-neutral/2026-04-22/cycle_0080_20260422T223305+0000.jsonl
+[2026-04-22T22:33:05+00:00] cycle 80 flow-de-medium-mixed: accepted=229 rejected=251 junk=0 length=0 dup_batch=0 dup_global=251 near_dup=0 file=data/synthetic/flow-de-medium-mixed/2026-04-22/cycle_0080_20260422T223305+0000.jsonl
+[2026-04-22T22:33:05+00:00] cycle 80 flow-de-hard-mixed: accepted=180 rejected=300 junk=0 length=0 dup_batch=0 dup_global=300 near_dup=0 file=data/synthetic/flow-de-hard-mixed/2026-04-22/cycle_0080_20260422T223305+0000.jsonl
+[2026-04-22T22:33:05+00:00] cycle 80 flow-en-easy-neutral: accepted=163 rejected=317 junk=0 length=0 dup_batch=0 dup_global=317 near_dup=0 file=data/synthetic/flow-en-easy-neutral/2026-04-22/cycle_0080_20260422T223305+0000.jsonl
+[2026-04-22T22:33:05+00:00] cycle 80 flow-en-medium-teen: accepted=187 rejected=293 junk=0 length=0 dup_batch=0 dup_global=293 near_dup=0 file=data/synthetic/flow-en-medium-teen/2026-04-22/cycle_0080_20260422T223305+0000.jsonl
+[2026-04-22T22:33:05+00:00] cycle 80 flow-en-hard-mixed: accepted=178 rejected=302 junk=0 length=0 dup_batch=0 dup_global=302 near_dup=0 file=data/synthetic/flow-en-hard-mixed/2026-04-22/cycle_0080_20260422T223305+0000.jsonl
+[2026-04-22T22:33:08+00:00] cycle 80: commit=b32d3026201738de6dbad8dd6b746258f837b2b3 push=push ok
+[2026-04-22T22:33:08+00:00] --- cycle 80 end (2.9s) ---
+[2026-04-22T22:33:08+00:00] cycle cap 80 reached; stopping
+[2026-04-22T22:33:08+00:00] final summary: data/synthetic/_run_logs/run_20260422T222914Z.summary.json
+[2026-04-22T22:33:08+00:00] totals: {"flow-de-easy-neutral": {"accepted": 22036, "rejected": 11621, "cycles": 80}, "flow-de-medium-mixed": {"accepted": 23203, "rejected": 9212, "cycles": 80}, "flow-de-hard-mixed": {"accepted": 21211, "rejected": 12989, "cycles": 80}, "flow-en-easy-neutral": {"accepted": 21058, "rejected": 13051, "cycles": 80}, "flow-en-medium-teen": {"accepted": 21978, "rejected": 11551, "cycles": 80}, "flow-en-hard-mixed": {"accepted": 21231, "rejected": 12901, "cycles": 80}}

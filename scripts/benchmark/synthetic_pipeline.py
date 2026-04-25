@@ -217,6 +217,23 @@ def generate_for_profile(profile, cycle: int, attempt: int) -> list[dict]:
     return gen.generate_records_for_profile(profile, seed_offset=offset)
 
 
+def generate_for_profile_with_retry(
+    profile, cycle: int, max_attempts: int = 5
+) -> tuple[list[dict], int, list[str]]:
+    """Try multiple seed offsets until generation succeeds or attempts exhausted."""
+    errors: list[str] = []
+    for attempt in range(max_attempts):
+        try:
+            return generate_for_profile(profile, cycle, attempt), attempt, errors
+        except RuntimeError as exc:
+            errors.append(f"attempt {attempt}: {exc}")
+            continue
+    raise RuntimeError(
+        f"all {max_attempts} generation attempts failed for {profile.name}: "
+        + " | ".join(errors)
+    )
+
+
 def renumber_ids(records: list[dict], profile_name: str, cycle: int) -> list[dict]:
     out = []
     for i, rec in enumerate(records, start=1):
@@ -235,19 +252,39 @@ def run_cycle(cycle: int, session_id: str, log_path: Path) -> dict:
 
     for profile in gen.PROFILES:
         try:
-            attempt = 0
-            raw = generate_for_profile(profile, cycle, attempt)
+            raw, used_attempt, gen_errors = generate_for_profile_with_retry(
+                profile, cycle
+            )
+            if gen_errors:
+                failures.extend(
+                    {
+                        "profile": profile.name,
+                        "step": "generate_retry",
+                        "error": e,
+                    }
+                    for e in gen_errors
+                )
             accepted, quarantined, counts = refine_records(raw)
             underfilled = False
             # Optional one regeneration pass if underfilled
             if len(accepted) < UNDERFILL_THRESHOLD:
-                attempt = 1
-                raw2 = generate_for_profile(profile, cycle, attempt)
-                accepted2, quarantined2, counts2 = refine_records(raw2)
-                if len(accepted2) > len(accepted):
-                    accepted = accepted2
-                    quarantined = quarantined2
-                    counts = counts2
+                try:
+                    raw2 = generate_for_profile(
+                        profile, cycle, used_attempt + 1
+                    )
+                    accepted2, quarantined2, counts2 = refine_records(raw2)
+                    if len(accepted2) > len(accepted):
+                        accepted = accepted2
+                        quarantined = quarantined2
+                        counts = counts2
+                except RuntimeError as exc:
+                    failures.append(
+                        {
+                            "profile": profile.name,
+                            "step": "underfill_regenerate",
+                            "error": str(exc),
+                        }
+                    )
                 if len(accepted) < UNDERFILL_THRESHOLD:
                     underfilled = True
 

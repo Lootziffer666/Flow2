@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import argparse
 import json
 import random
 from collections import Counter
@@ -9,6 +10,15 @@ from pathlib import Path
 
 OUT_PATH = Path("data/benchmark/flow_synthetic_sentence_producer.jsonl")
 TARGET_COUNT = 300
+
+PROFILE_BASE_SEEDS: dict[str, int] = {
+    "flow-de-easy-neutral": 11,
+    "flow-de-medium-mixed": 22,
+    "flow-de-hard-mixed": 33,
+    "flow-en-easy-neutral": 44,
+    "flow-en-medium-teen": 55,
+    "flow-en-hard-mixed": 66,
+}
 
 
 @dataclass(frozen=True)
@@ -93,7 +103,7 @@ def _build_records(profile: Profile, sentences: list[str]) -> list[dict[str, str
     return records
 
 
-def make_de_easy() -> list[str]:
+def make_de_easy(seed_offset: int = 0) -> list[str]:
     templates = [
         ("{0} {1} {2}.", (
             ["Heute", "Morgen", "Später", "Gleich", "Nach der Arbeit", "Vor dem Mittag", "Am Wochenende", "Zu Hause", "Im Bus", "Im Büro", "Nach dem Sport", "Auf dem Weg"],
@@ -106,10 +116,10 @@ def make_de_easy() -> list[str]:
             ["damit der Abend entspannt bleibt", "und dann mache ich Feierabend", "ohne etwas zu vergessen", "bevor Besuch kommt", "weil morgen viel los ist", "und alles ist vorbereitet", "damit ich später frei habe", "ohne Hektik"]
         )),
     ]
-    return _materialize(templates, seed=11)
+    return _materialize(templates, seed=11 + seed_offset)
 
 
-def make_de_medium() -> list[str]:
+def make_de_medium(seed_offset: int = 0) -> list[str]:
     templates = [
         ("{0} {1}, {2}.", (
             ["Seit letzter Woche", "Wenn der Zug pünktlich ist", "Obwohl es morgens kalt ist", "Sobald ich im Büro ankomme", "Während der Mittagspause", "Nachdem der Unterricht endet", "Falls der Supermarkt noch offen ist", "Auch ohne festen Termin", "Wenn der Aufzug wieder läuft", "Weil heute viel los war"],
@@ -122,10 +132,10 @@ def make_de_medium() -> list[str]:
             ["damit später nichts doppelt passiert", "bevor der Rest untergeht", "sodass alle denselben Stand haben", "ohne die Routine zu unterbrechen", "während der Kopf noch frei ist", "weil der Abend dann ruhiger läuft", "damit ich morgen direkt starten kann", "ohne unnötige Schleifen"]
         )),
     ]
-    return _materialize(templates, seed=22)
+    return _materialize(templates, seed=22 + seed_offset)
 
 
-def make_de_hard() -> list[str]:
+def make_de_hard(seed_offset: int = 0) -> list[str]:
     templates = [
         ("{0}, {1}, {2}.", (
             ["Obwohl der Kalender eng getaktet ist", "Während im Hintergrund noch Rückfragen eingehen", "Da die Lieferung verspätet eingetroffen war", "Wenn mehrere Themen parallel Aufmerksamkeit fordern", "Weil die Abstimmung erst am Abend abgeschlossen wurde", "Sobald die letzte Korrekturschleife dokumentiert ist", "Selbst wenn einzelne Details kurzfristig geändert werden", "Nachdem die Prioritäten neu gesetzt worden sind"],
@@ -138,10 +148,10 @@ def make_de_hard() -> list[str]:
             ["damit spätere Korrekturen nicht das Gesamtbild verzerren", "sodass Entscheidungen auch unter Druck nachvollziehbar bleiben", "weil fehlende Klarheit sonst doppelte Arbeit erzeugt", "ohne dass operative Ruhe verloren geht", "womit der nächste Übergabeschritt belastbar vorbereitet ist", "damit die Umsetzung trotz enger Takte steuerbar bleibt"]
         )),
     ]
-    return _materialize(templates, seed=33)
+    return _materialize(templates, seed=33 + seed_offset)
 
 
-def make_en_easy() -> list[str]:
+def make_en_easy(seed_offset: int = 0) -> list[str]:
     templates = [
         ("{0} {1} {2}.", (
             ["Today", "Tomorrow", "Later", "Right now", "After work", "Before lunch", "In the evening", "At home", "On the bus", "At the office", "This weekend", "On my break"],
@@ -154,10 +164,10 @@ def make_en_easy() -> list[str]:
             ["so the evening stays calm", "and then I can rest", "before I forget anything", "because tomorrow is packed", "and everything is ready", "without any hurry", "so I have time later", "before guests arrive"]
         )),
     ]
-    return _materialize(templates, seed=44)
+    return _materialize(templates, seed=44 + seed_offset)
 
 
-def make_en_medium_teen() -> list[str]:
+def make_en_medium_teen(seed_offset: int = 0) -> list[str]:
     templates = [
         ("{0}, {1}, {2}.", (
             ["Before first period", "After math class", "When the bell rings", "If the lab is open", "During lunch", "On the way to practice", "Right after school", "Before the quiz starts", "Since our project got moved", "When the group chat is quiet"],
@@ -170,10 +180,10 @@ def make_en_medium_teen() -> list[str]:
             ["that way my evening stays manageable", "so group work does not stall", "because last-minute fixes stress me out", "which makes test prep less chaotic", "so I can still sleep on time", "and I do not lose track of priorities", "before another assignment lands", "while I still remember class details"]
         )),
     ]
-    return _materialize(templates, seed=55)
+    return _materialize(templates, seed=55 + seed_offset)
 
 
-def make_en_hard() -> list[str]:
+def make_en_hard(seed_offset: int = 0) -> list[str]:
     templates = [
         ("{0}, {1}, {2}.", (
             ["Although the timeline shifted twice this week", "While new requests keep arriving in parallel", "Because the first draft exposed several gaps", "When priorities conflict across the same afternoon", "Since the final review starts earlier than expected", "After we mapped the dependencies in detail", "Even if the plan looks stable on paper", "As soon as the latest feedback is logged"],
@@ -186,34 +196,59 @@ def make_en_hard() -> list[str]:
             ["so later corrections do not erase current progress", "which keeps execution coherent under pressure", "because unclear ownership quickly slows delivery", "without adding avoidable churn", "so integration remains testable instead of hopeful", "and stakeholders can make fast, informed decisions"]
         )),
     ]
-    return _materialize(templates, seed=66)
+    return _materialize(templates, seed=66 + seed_offset)
 
 
-def generate_all_records() -> list[dict[str, str]]:
-    builders = {
-        "flow-de-easy-neutral": make_de_easy,
-        "flow-de-medium-mixed": make_de_medium,
-        "flow-de-hard-mixed": make_de_hard,
-        "flow-en-easy-neutral": make_en_easy,
-        "flow-en-medium-teen": make_en_medium_teen,
-        "flow-en-hard-mixed": make_en_hard,
-    }
+BUILDERS = {
+    "flow-de-easy-neutral": make_de_easy,
+    "flow-de-medium-mixed": make_de_medium,
+    "flow-de-hard-mixed": make_de_hard,
+    "flow-en-easy-neutral": make_en_easy,
+    "flow-en-medium-teen": make_en_medium_teen,
+    "flow-en-hard-mixed": make_en_hard,
+}
 
+
+def generate_records_for_profile(
+    profile: Profile, seed_offset: int = 0
+) -> list[dict[str, str]]:
+    sentences = BUILDERS[profile.name](seed_offset=seed_offset)
+    return _build_records(profile, sentences)
+
+
+def generate_all_records(seed_offset: int = 0) -> list[dict[str, str]]:
     all_records: list[dict[str, str]] = []
     for profile in PROFILES:
-        sentences = builders[profile.name]()
-        all_records.extend(_build_records(profile, sentences))
+        all_records.extend(generate_records_for_profile(profile, seed_offset))
     return all_records
 
 
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--seed-offset",
+        type=int,
+        default=0,
+        help="Offset added to each profile's base seed for variation across cycles.",
+    )
+    parser.add_argument(
+        "--out",
+        type=Path,
+        default=OUT_PATH,
+        help="Output JSONL path (default: data/benchmark/flow_synthetic_sentence_producer.jsonl).",
+    )
+    return parser.parse_args()
+
+
 def main() -> None:
-    records = generate_all_records()
-    OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with OUT_PATH.open("w", encoding="utf-8") as handle:
+    args = parse_args()
+    records = generate_all_records(seed_offset=args.seed_offset)
+    args.out.parent.mkdir(parents=True, exist_ok=True)
+    with args.out.open("w", encoding="utf-8") as handle:
         for record in records:
             handle.write(json.dumps(record, ensure_ascii=False) + "\n")
 
-    print(f"wrote {len(records)} rows to {OUT_PATH}")
+    print(f"wrote {len(records)} rows to {args.out}")
 
 
 if __name__ == "__main__":
